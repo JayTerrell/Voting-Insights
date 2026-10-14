@@ -1,0 +1,1612 @@
+{
+ "candidates": [
+  {
+   "id": "jimmy-blacklock",
+   "race_id": "tx-supreme-chief",
+   "incumbent": true,
+   "priorities": [
+    {
+     "text": "Says he has tried to foster a collegial culture on the court in which justices respect each other's opinions and work together on difficult cases.",
+     "sources": [
+      "p2-s1"
+     ]
+    }
+   ],
+   "record": [
+    {
+     "text": "Cited his 2024 position upholding the State Fair of Texas ban on guns, which Attorney General Ken Paxton opposed, as an example of ruling against Republican leaders, according to The Dallas Morning News.",
+     "sources": [
+      "p2-s3"
+     ]
+    },
+    {
+     "text": "Wrote the court's unanimous 2019 opinion in Burlington Resources Oil and Gas v. Texas Crude Energy, which he calls one of his most challenging cases.",
+     "sources": [
+      "p2-s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "The Dallas Morning News editorial board recommended Blacklock in the general election, citing his experience and his work on judicial pay and on the use of artificial intelligence in courts, while writing that both candidates had displayed behavior it considered too partisan.",
+     "sources": [
+      "p2-s3"
+     ]
+    },
+    {
+     "text": "Spoke at the Texas Republican Party convention in summer 2026 and told The Dallas Morning News he rejects the claim that his opinions are influenced by Gov. Abbott or Republican leaders.",
+     "sources": [
+      "p2-s3"
+     ]
+    },
+    {
+     "text": "Lists his roles as chairman of the Texas Judicial Council and member of the Texas Indigent Defense Commission, and as a former member of the Access to Justice Commission.",
+     "sources": [
+      "p2-s1"
+     ]
+    }
+   ],
+   "stances": {
+    "q_judicial_selection": {
+     "position": -1,
+     "basis": "questionnaire",
+     "summary": "Wrote that no selection system is perfect but that elections let the people control their constitution by changing the court's membership, while acknowledging that judicial fundraising invites suspicion of conflicts.",
+     "sources": [
+      "p2-s1"
+     ]
+    }
+   },
+   "issue_notes": [
+    {
+     "topic": "Civil Justice",
+     "summary": "Disagrees that the court is slanted toward business, writing that the court applies statutes the Legislature enacted as written, including ones some call pro-business, rather than resisting them.",
+     "sources": [
+      "p2-s1"
+     ]
+    },
+    {
+     "topic": "Judicial Campaign Finance",
+     "summary": "Supports reasonable contribution limits and full disclosure, says donors receive nothing in return, and says the state should remain open to reforms that address the perception of influence.",
+     "sources": [
+      "p2-s1"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "p2-s1",
+     "title": "The Dallas Morning News Candidate Q&A: TX Supreme Court - Chief Justice",
+     "publisher": "The Dallas Morning News",
+     "url": "https://www.dallasnews.com/projects/2026/dallas-texas-november-election-voter-guide/tx-supreme-court-chief-justice/",
+     "date": "2026-10"
+    },
+    {
+     "id": "p2-s2",
+     "title": "Voter Guide Profile: Jimmy Blacklock",
+     "publisher": "iVoterGuide",
+     "url": "https://ivoterguide.com/candidate/39408/race/32328/election/1471",
+     "date": null
+    },
+    {
+     "id": "p2-s3",
+     "title": "Texas Supreme Court, chief justice election recommendation",
+     "publisher": "The Dallas Morning News",
+     "url": "https://www.dallasnews.com/opinion/we-recommend/article/we-recommend-race-texas-supreme-court-chief-22475474.php",
+     "date": "2026-10-14"
+    }
+   ],
+   "research_gaps": "No newspaper endorsement in the 2026 general election other than The Dallas Morning News was found as of mid-October.",
+   "promises": []
+  },
+  {
+   "id": "maggie-ellis",
+   "race_id": "tx-supreme-chief",
+   "incumbent": false,
+   "priorities": [
+    {
+     "text": "Says the chief justice role requires administering all Texas courts and cites her experience leading large organizations and as in-house counsel for a government department.",
+     "sources": [
+      "p2-s1"
+     ]
+    }
+   ],
+   "record": [
+    {
+     "text": "Sat on the Third Court of Appeals panel, with Justices Gisela Triana and Chari Kelly, that upheld about $181,000 in sanctions against developer Nate Paul, according to Kelly's campaign summary of Law360 coverage.",
+     "sources": [
+      "p2-s2",
+      "p2-s3"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "The Dallas Morning News editorial board recommended Blacklock in the general election and wrote that Ellis was too progressive in her interview; she told the board the Supreme Court is too far right and \"is no longer independent.\"",
+     "sources": [
+      "p2-s4"
+     ]
+    },
+    {
+     "text": "The San Antonio Express-News recommended her in the March Democratic primary, citing her vision for the court; the Houston Chronicle also recommended her in the primary, citing her administrative experience.",
+     "sources": [
+      "p2-s5",
+      "p2-s6"
+     ]
+    },
+    {
+     "text": "Received the Hays County Bar Association Pro Bono Hero award and is a former chair of the State Bar of Texas Juvenile Law Section.",
+     "sources": [
+      "p2-s7",
+      "p2-s1"
+     ]
+    }
+   ],
+   "stances": {
+    "q_textualism": {
+     "position": -1,
+     "basis": "questionnaire",
+     "summary": "Did not adopt the textualist label, writing that courts should follow precedent in most cases but that laws should allow flexibility to shift with changes in values, though not with political pressure.",
+     "sources": [
+      "p2-s1"
+     ]
+    },
+    "q_judicial_selection": {
+     "position": -2,
+     "basis": "questionnaire",
+     "summary": "Wrote that Texas should not move to appointing Supreme Court justices because elections can inspire confidence in courts and let voters remove judges, while noting campaign costs and one-party dominance as weaknesses.",
+     "sources": [
+      "p2-s1"
+     ]
+    }
+   },
+   "issue_notes": [
+    {
+     "topic": "Civil Justice",
+     "summary": "Agrees that the court's case selection and outcomes tend to favor businesses and that it is slanted against civil plaintiffs.",
+     "sources": [
+      "p2-s1"
+     ]
+    },
+    {
+     "topic": "Court Administration",
+     "summary": "Told the Express-News she is concerned about the court dropping the requirement that law schools be accredited by the American Bar Association and that the court should focus on indigent defense and legal access.",
+     "sources": [
+      "p2-s5"
+     ]
+    },
+    {
+     "topic": "Judicial Ethics",
+     "summary": "Supports more concrete guidance under the Code of Judicial Conduct, judicial mentorship and training programs, and review of whether recent changes to selecting the review tribunal provide enough independence.",
+     "sources": [
+      "p2-s1"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "p2-s1",
+     "title": "The Dallas Morning News Candidate Q&A: TX Supreme Court - Chief Justice",
+     "publisher": "The Dallas Morning News",
+     "url": "https://www.dallasnews.com/projects/2026/dallas-texas-november-election-voter-guide/tx-supreme-court-chief-justice/",
+     "date": "2026-10"
+    },
+    {
+     "id": "p2-s2",
+     "title": "In the News",
+     "publisher": "Chari Kelly campaign",
+     "url": "https://charikelly.com/in-the-news/",
+     "date": "2026-10-13"
+    },
+    {
+     "id": "p2-s3",
+     "title": "$181K Sanctions Against Texas AG-Tied Investor Stand",
+     "publisher": "Law360",
+     "url": "https://www.law360.com/articles/2310424/-181k-sanctions-against-texas-ag-tied-investor-stand",
+     "date": null
+    },
+    {
+     "id": "p2-s4",
+     "title": "Texas Supreme Court, chief justice election recommendation",
+     "publisher": "The Dallas Morning News",
+     "url": "https://www.dallasnews.com/opinion/we-recommend/article/we-recommend-race-texas-supreme-court-chief-22475474.php",
+     "date": "2026-10-14"
+    },
+    {
+     "id": "p2-s5",
+     "title": "Opinion: Maggie Ellis would bring vision to Texas' highest court",
+     "publisher": "San Antonio Express-News",
+     "url": "https://www.expressnews.com/opinion/editorial/article/maggie-ellis-texas-supreme-court-primary-21337829.php",
+     "date": "2026-02-09"
+    },
+    {
+     "id": "p2-s6",
+     "title": "Maggie Ellis and Kristen Hawkins are best Dems for Texas Supreme Court",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/texas-supreme-court-democratic-primary-2026-21341827.php",
+     "date": "2026-02-09"
+    },
+    {
+     "id": "p2-s7",
+     "title": "Meet Maggie Ellis",
+     "publisher": "Maggie Ellis campaign",
+     "url": "https://www.maggieforjustice.com/about",
+     "date": null
+    }
+   ],
+   "research_gaps": "No opinions she authored on the Third Court of Appeals were described in news coverage.",
+   "promises": []
+  },
+  {
+   "id": "james-p-sullivan",
+   "race_id": "tx-supreme-2",
+   "incumbent": true,
+   "record": [
+    {
+     "text": "Wrote a solo 2025 dissent in Perez v. City of San Antonio arguing the court should have declined to answer the Fifth Circuit's certified question about the Texas Constitution's protection of religious services.",
+     "sources": [
+      "p2-s1",
+      "p2-s2"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Asked in the Dallas Morning News primary questionnaire whether Texas should move to appointing justices, he declined to give a view and referred to Articles V and XVII of the Texas Constitution.",
+     "sources": [
+      "p2-s1"
+     ]
+    }
+   ],
+   "stances": {
+    "q_textualism": {
+     "position": 2,
+     "basis": "questionnaire",
+     "summary": "Calls himself a textualist whose analysis begins and often ends with the governing text, and says an issue resolved by the original public meaning of that text ends the inquiry.",
+     "sources": [
+      "p2-s1",
+      "p2-s2"
+     ]
+    }
+   },
+   "issue_notes": [
+    {
+     "topic": "Civil Justice",
+     "summary": "Disagrees that the court is pro-business, saying each decision rests on the facts and the law without regard to the parties' names.",
+     "sources": [
+      "p2-s1"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "p2-s1",
+     "title": "The Dallas Morning News Candidate Q&A: TX Supreme Court - Place 2 - Republican",
+     "publisher": "The Dallas Morning News",
+     "url": "https://www.dallasnews.com/projects/2026/dallas-texas-primary-election-voter-guide/tx-supreme-court-place-2-republican/",
+     "date": "2026-02"
+    },
+    {
+     "id": "p2-s2",
+     "title": "Voter Guide Profile: James P. Sullivan",
+     "publisher": "iVoterGuide",
+     "url": "https://ivoterguide.com/candidate/89901/race/32329/election/1471",
+     "date": null
+    }
+   ],
+   "research_gaps": "Sullivan did not answer The Dallas Morning News general election questionnaire and declined to state a view on judicial selection.",
+   "priorities": [],
+   "promises": []
+  },
+  {
+   "id": "chari-kelly",
+   "race_id": "tx-supreme-2",
+   "incumbent": false,
+   "priorities": [
+    {
+     "text": "Says the Supreme Court has become \"a rubber stamp for the executive branch\" and that she is running to bring balance and independence.",
+     "sources": [
+      "p2-s3"
+     ]
+    }
+   ],
+   "record": [
+    {
+     "text": "Dissented from a 2-1 Third Court of Appeals ruling upholding state permits for industrial waste injection wells in Montgomery County, writing that the majority disregarded findings of two administrative law judges.",
+     "sources": [
+      "p2-s2"
+     ]
+    }
+   ],
+   "stances": {
+    "q_textualism": {
+     "position": -1,
+     "basis": "questionnaire",
+     "summary": "Says she does not adopt the textualist or constructionist labels and describes her approach as pragmatic, considering text and precedent without ignoring changed circumstances, while saying judges should not rewrite statutes.",
+     "sources": [
+      "p2-s1"
+     ]
+    },
+    "q_judicial_selection": {
+     "position": -1,
+     "basis": "questionnaire",
+     "summary": "Wrote that neither system is ideal but Texas should keep electing judges because elections give voters a direct voice and appointments give the executive branch too much influence.",
+     "sources": [
+      "p2-s1"
+     ]
+    }
+   },
+   "issue_notes": [
+    {
+     "topic": "Civil Justice",
+     "summary": "Agrees the court is seen as pro-business and says every case seeking discretionary review should get equal consideration regardless of the parties' wealth or power.",
+     "sources": [
+      "p2-s1"
+     ]
+    },
+    {
+     "topic": "Judicial Ethics",
+     "summary": "Supports strong disclosure, clear recusal standards, timely handling of misconduct complaints and more transparency and resources for the State Commission on Judicial Conduct.",
+     "sources": [
+      "p2-s1"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "p2-s1",
+     "title": "The Dallas Morning News Candidate Q&A: TX Supreme Court - Place 2",
+     "publisher": "The Dallas Morning News",
+     "url": "https://www.dallasnews.com/projects/2026/dallas-texas-november-election-voter-guide/tx-supreme-court-place-2/",
+     "date": "2026-10"
+    },
+    {
+     "id": "p2-s2",
+     "title": "Texas Regulators' Approval of Waste Injection Wells Upheld",
+     "publisher": "Bloomberg Law",
+     "url": "https://news.bloomberglaw.com/product-liability-and-toxics-law/texas-regulators-approval-of-waste-injection-wells-upheld",
+     "date": null
+    },
+    {
+     "id": "p2-s3",
+     "title": "Why I'm Running",
+     "publisher": "Chari Kelly campaign",
+     "url": "https://charikelly.com/why-im-running/",
+     "date": "2026-04"
+    }
+   ],
+   "research_gaps": "Case citations for the whistleblower ruling she cites were not independently verified.",
+   "notes": [],
+   "promises": []
+  },
+  {
+   "id": "kristen-hawkins",
+   "race_id": "tx-supreme-7",
+   "incumbent": false,
+   "record": [
+    {
+     "text": "In the Astroworld litigation she dismissed Drake from the lawsuits while keeping Apple Inc. and two of Travis Scott's companies as defendants, according to the Houston Chronicle.",
+     "sources": [
+      "p2-s2"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "In 2024 the Houston Chronicle reported that more than half of respondents to the Houston Bar Association judicial evaluation rated her work excellent and another 21 percent very good.",
+     "sources": [
+      "p2-s2"
+     ]
+    },
+    {
+     "text": "Named Judge of the Year by the Texas chapter of the American Board of Trial Advocates for her work on jury trials during the pandemic.",
+     "sources": [
+      "p2-s1",
+      "p2-s3"
+     ]
+    }
+   ],
+   "stances": {
+    "q_textualism": {
+     "position": 0,
+     "basis": "questionnaire",
+     "summary": "Replaces an earlier reported summary with her own questionnaire answer: she says neither label fits, that she considers the law's language, its intent when passed and the most reasonable construction, and that she is a pragmatist who values stare decisis and predictability.",
+     "sources": [
+      "p2-s1"
+     ],
+     "replace": true
+    },
+    "q_judicial_selection": {
+     "position": -2,
+     "basis": "questionnaire",
+     "summary": "Opposes moving to appointment, writing that it benefits political insiders and concentrates power, while noting that statewide judicial campaigns are costly and hard to communicate.",
+     "sources": [
+      "p2-s1"
+     ]
+    }
+   },
+   "issue_notes": [
+    {
+     "topic": "Civil Justice",
+     "summary": "Disagrees that the court is pro-business by design but says criticism stems from the court setting aside jury verdicts, which she says should happen only in limited circumstances.",
+     "sources": [
+      "p2-s1"
+     ]
+    },
+    {
+     "topic": "Judicial Campaign Finance",
+     "summary": "Suggests blackout periods for all judicial candidates and says judges can decline contributions from parties with pending cases.",
+     "sources": [
+      "p2-s1"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "p2-s1",
+     "title": "The Dallas Morning News Candidate Q&A: TX Supreme Court - Place 7",
+     "publisher": "The Dallas Morning News",
+     "url": "https://www.dallasnews.com/projects/2026/dallas-texas-november-election-voter-guide/tx-supreme-court-place-7/",
+     "date": "2026-10"
+    },
+    {
+     "id": "p2-s2",
+     "title": "Harris County district courts need judges who can speed things along",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/harris-county-district-court-endorsements-19837598.php",
+     "date": "2024-10-18"
+    },
+    {
+     "id": "p2-s3",
+     "title": "Maggie Ellis and Kristen Hawkins are best Dems for Texas Supreme Court",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/texas-supreme-court-democratic-primary-2026-21341827.php",
+     "date": "2026-02-09"
+    }
+   ],
+   "research_gaps": "The year and full results of the Houston Bar Association evaluation cited by the Houston Chronicle were not located.",
+   "priorities": [],
+   "promises": []
+  },
+  {
+   "id": "kyle-hawkins",
+   "race_id": "tx-supreme-7",
+   "incumbent": true,
+   "record": [],
+   "sources": [
+    {
+     "id": "p2-s1",
+     "title": "Voter Guide Profile: Kyle Hawkins",
+     "publisher": "iVoterGuide",
+     "url": "https://ivoterguide.com/candidate/89902/race/32334/election/1471",
+     "date": null
+    }
+   ],
+   "research_gaps": "He did not complete The Dallas Morning News questionnaire, and no stated position on judicial selection was found.",
+   "notes": [],
+   "issue_notes": [],
+   "priorities": [],
+   "promises": []
+  },
+  {
+   "id": "brett-busby",
+   "race_id": "tx-supreme-8",
+   "incumbent": true,
+   "record": [],
+   "notes": [
+    {
+     "text": "Before joining the bench he represented a Florida inmate pro bono before the U.S. Supreme Court in Day v. McDonough (2006), which he says motivated him to seek a judgeship.",
+     "sources": [
+      "p2-s1"
+     ]
+    }
+   ],
+   "stances": {
+    "q_judicial_selection": {
+     "position": 1,
+     "basis": "questionnaire",
+     "summary": "Asked whether Texas should move to appointment, he urged Texans to consider the 2020 Commission on Judicial Selection, noting that a majority favored ending partisan judicial elections and many members recommended appointment followed by retention elections.",
+     "sources": [
+      "p2-s1"
+     ]
+    }
+   },
+   "issue_notes": [
+    {
+     "topic": "Judicial Campaign Finance",
+     "summary": "Says he voluntarily follows the Judicial Campaign Fairness Act limits and declines contributions from parties with cases before his court.",
+     "sources": [
+      "p2-s1"
+     ]
+    },
+    {
+     "topic": "Judicial Ethics",
+     "summary": "Says the recent constitutional amendment giving non-lawyers a majority on the State Commission on Judicial Conduct and stiffening penalties seems likely to deter misconduct.",
+     "sources": [
+      "p2-s1"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "p2-s1",
+     "title": "The Dallas Morning News Candidate Q&A: TX Supreme Court - Place 8",
+     "publisher": "The Dallas Morning News",
+     "url": "https://www.dallasnews.com/projects/2026/dallas-texas-november-election-voter-guide/tx-supreme-court-place-8/",
+     "date": "2026-10"
+    },
+    {
+     "id": "p2-s2",
+     "title": "Voter Guide Profile: Brett Busby",
+     "publisher": "iVoterGuide",
+     "url": "https://ivoterguide.com/candidate/47271/race/32335/election/1471",
+     "date": null
+    }
+   ],
+   "research_gaps": "A full list of his notable signed opinions was not compiled from primary sources.",
+   "priorities": [],
+   "promises": []
+  },
+  {
+   "id": "gisela-d-triana",
+   "race_id": "tx-supreme-8",
+   "incumbent": false,
+   "priorities": [
+    {
+     "text": "Says she is the only candidate in the race with trial court experience and that jury verdicts should not be easily undone.",
+     "sources": [
+      "p2-s1"
+     ]
+    }
+   ],
+   "record": [
+    {
+     "text": "Wrote a dissent from the Third Court of Appeals' denial of en banc review in Texas Department of Family and Protective Services v. Grassroots, a case over an emergency rule allowing detention centers to receive child-care facility licenses; she says the Supreme Court later agreed with her on standing.",
+     "sources": [
+      "p2-s1"
+     ]
+    },
+    {
+     "text": "Sat on the 2022 Third Court of Appeals panel that upheld an injunction allowing 19 school districts to require masks despite Gov. Abbott's order.",
+     "sources": [
+      "p2-s2"
+     ]
+    },
+    {
+     "text": "Wrote the Third Court of Appeals opinion upholding about $181,000 in sanctions against developer Nate Paul, according to Chari Kelly's campaign summary of Law360 coverage.",
+     "sources": [
+      "p2-s3",
+      "p2-s4"
+     ]
+    },
+    {
+     "text": "Says she authored more opinions than any other court of appeals judge in Texas last year and more than 800 opinions overall.",
+     "sources": [
+      "p2-s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Endorsed by EMILYs List in May 2026.",
+     "sources": [
+      "p2-s5"
+     ]
+    },
+    {
+     "text": "Says she was named Judge of the Year by the Hispanic Issues Section of the State Bar of Texas.",
+     "sources": [
+      "p2-s1"
+     ]
+    }
+   ],
+   "stances": {
+    "q_textualism": {
+     "position": 0,
+     "basis": "questionnaire",
+     "summary": "Says neither the textualist nor constructionist label fully fits, that the written text of the Constitution reigns supreme but should not be distorted, and that result-oriented outcomes should be called out.",
+     "sources": [
+      "p2-s1"
+     ]
+    },
+    "q_judicial_selection": {
+     "position": 0,
+     "basis": "questionnaire",
+     "summary": "Prefers an elected judiciary over gubernatorial appointment, which she says creates conflicts of interest, but says partisan elections are far from perfect and that nonpartisan elections might make more sense.",
+     "sources": [
+      "p2-s1"
+     ]
+    }
+   },
+   "issue_notes": [
+    {
+     "topic": "Civil Justice",
+     "summary": "Agrees the court is seen as pro-business and attributes this to its reversal of jury verdicts.",
+     "sources": [
+      "p2-s1"
+     ]
+    },
+    {
+     "topic": "Judicial Ethics",
+     "summary": "Supports more transparency and disclosure and more resources for the State Commission on Judicial Conduct, and favors recusal rules tied to campaign contributions and gifts.",
+     "sources": [
+      "p2-s1"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "p2-s1",
+     "title": "The Dallas Morning News Candidate Q&A: TX Supreme Court - Place 8",
+     "publisher": "The Dallas Morning News",
+     "url": "https://www.dallasnews.com/projects/2026/dallas-texas-november-election-voter-guide/tx-supreme-court-place-8/",
+     "date": "2026-10"
+    },
+    {
+     "id": "p2-s2",
+     "title": "Appeals court upholds mask mandates for Austin, 18 other Texas school districts",
+     "publisher": "Austin American-Statesman",
+     "url": "https://www.statesman.com/story/news/2022/03/17/covid-19-mask-mandates-19-texas-school-districts-upheld-courts/7074962001/",
+     "date": "2022-03-17"
+    },
+    {
+     "id": "p2-s3",
+     "title": "In the News",
+     "publisher": "Chari Kelly campaign",
+     "url": "https://charikelly.com/in-the-news/",
+     "date": "2026-10-13"
+    },
+    {
+     "id": "p2-s4",
+     "title": "$181K Sanctions Against Texas AG-Tied Investor Stand",
+     "publisher": "Law360",
+     "url": "https://www.law360.com/articles/2310424/-181k-sanctions-against-texas-ag-tied-investor-stand",
+     "date": null
+    },
+    {
+     "id": "p2-s5",
+     "title": "EMILYs List Announces Additional Texas State Supreme Court Endorsements",
+     "publisher": "EMILYs List",
+     "url": "https://emilyslist.org/news/emilys-list-announces-additional-texas-state-supreme-court-endorsements/",
+     "date": "2026-05-27"
+    }
+   ],
+   "research_gaps": "Details of some rulings rely on her own description or another candidate's campaign summary of news coverage.",
+   "promises": []
+  },
+  {
+   "id": "thomas-smith",
+   "race_id": "cca-3",
+   "incumbent": false,
+   "priorities": [
+    {
+     "text": "Says he would draw on his clerkship with Ohio Chief Justice Thomas Moyer to improve the Court of Criminal Appeals' docket management.",
+     "sources": [
+      "p2-s2"
+     ]
+    },
+    {
+     "text": "Says the court has not heard enough oral arguments and that he would advocate for more.",
+     "sources": [
+      "p2-s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "The Dallas Morning News and the San Antonio Express-News editorial boards both recommended Democrat Okey Anyiam in the general election; the Express-News wrote that Smith has never practiced criminal law.",
+     "sources": [
+      "p2-s3",
+      "p2-s4"
+     ]
+    },
+    {
+     "text": "Told The Dallas Morning News that emphasizing his work for Ken Paxton in the primary was a strategic decision to show his conservative credentials.",
+     "sources": [
+      "p2-s3"
+     ]
+    },
+    {
+     "text": "His campaign and iVoterGuide list additional endorsements including the Texas Home School Coalition PAC, Dallas Police Association PAC, Fort Worth Police Officers Association, Tarrant County Sheriff Bill Waybourn and Tarrant County Judge Tim O'Hare.",
+     "sources": [
+      "p2-s5",
+      "p2-s6"
+     ]
+    }
+   ],
+   "stances": {
+    "q_textualism": {
+     "position": 2,
+     "basis": "questionnaire",
+     "summary": "Describes his philosophy as original intent, applying statutes as the Legislature intended and constitutional provisions as the framers intended, and says judges must be very restrained in substituting their opinions for the Legislature's.",
+     "sources": [
+      "p2-s1",
+      "p2-s2",
+      "s4"
+     ]
+    }
+   },
+   "sources": [
+    {
+     "id": "p2-s1",
+     "title": "The Dallas Morning News Candidate Q&A: TX Court of Criminal Appeals - Place 3",
+     "publisher": "The Dallas Morning News",
+     "url": "https://www.dallasnews.com/projects/2026/dallas-texas-november-election-voter-guide/tx-court-of-criminal-appeals-place-3/",
+     "date": "2026-10"
+    },
+    {
+     "id": "p2-s2",
+     "title": "The Dallas Morning News Candidate Q&A: TX Court of Criminal Appeals - Place 3 - Republican",
+     "publisher": "The Dallas Morning News",
+     "url": "https://www.dallasnews.com/projects/2026/dallas-texas-primary-election-voter-guide/tx-court-of-criminal-appeals-place-3-republican/",
+     "date": "2026-02"
+    },
+    {
+     "id": "p2-s3",
+     "title": "Texas Criminal Court of Appeals Place 3 election recommendation",
+     "publisher": "The Dallas Morning News",
+     "url": "https://www.dallasnews.com/opinion/we-recommend/article/texas-criminal-court-appeals-place-3-election-22467230.php",
+     "date": "2026-10-09"
+    },
+    {
+     "id": "p2-s4",
+     "title": "Opinion: Our recommendations for Texas Court of Criminal Appeals",
+     "publisher": "San Antonio Express-News",
+     "url": "https://www.expressnews.com/opinion/editorial/article/court-of-criminal-appeals-judicial-recommendations-22473221.php",
+     "date": "2026-10-13"
+    },
+    {
+     "id": "p2-s5",
+     "title": "Endorsements",
+     "publisher": "Thomas Smith campaign",
+     "url": "https://smithfortexas.org/endorsements.html",
+     "date": null
+    },
+    {
+     "id": "p2-s6",
+     "title": "Voter Guide Profile: Thomas Smith (Republican primary runoff)",
+     "publisher": "iVoterGuide",
+     "url": "https://ivoterguide.com/candidate/77047/race/28760/election/1433",
+     "date": "2026-05"
+    }
+   ],
+   "research_gaps": "Smith has no judicial record and no stated position on judicial selection was found.",
+   "record": [],
+   "issue_notes": [],
+   "promises": []
+  },
+  {
+   "id": "okey-anyiam",
+   "race_id": "cca-3",
+   "incumbent": false,
+   "priorities": [
+    {
+     "text": "Says he would work with other judges to let the court hear more cases and give guidance on recurring issues apparent in the record.",
+     "sources": [
+      "p2-s1",
+      "p2-s3"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "The Dallas Morning News recommended Anyiam in the general election, citing his commitment to judicial restraint while noting reservations about some of his interview comments.",
+     "sources": [
+      "p2-s2"
+     ]
+    },
+    {
+     "text": "The San Antonio Express-News recommended Anyiam, citing his criminal defense experience since 1997.",
+     "sources": [
+      "p2-s3"
+     ]
+    }
+   ],
+   "stances": {
+    "q_textualism": {
+     "position": 1,
+     "basis": "questionnaire",
+     "summary": "Strengthens an earlier summary: he told The Dallas Morning News he would follow the text of the law, that \"the law is neither conservative nor liberal,\" and wrote that he would follow clear legislative intent without legislating from the bench.",
+     "sources": [
+      "p2-s1",
+      "p2-s2"
+     ],
+     "replace": true
+    }
+   },
+   "issue_notes": [
+    {
+     "topic": "Death Penalty",
+     "summary": "Says appellants in death penalty cases should not pay for filing delays caused by attorneys, clerks or court reporters, balanced against victims' families' interest in resolution.",
+     "sources": [
+      "p2-s1"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "p2-s1",
+     "title": "The Dallas Morning News Candidate Q&A: TX Court of Criminal Appeals - Place 3",
+     "publisher": "The Dallas Morning News",
+     "url": "https://www.dallasnews.com/projects/2026/dallas-texas-november-election-voter-guide/tx-court-of-criminal-appeals-place-3/",
+     "date": "2026-10"
+    },
+    {
+     "id": "p2-s2",
+     "title": "Texas Criminal Court of Appeals Place 3 election recommendation",
+     "publisher": "The Dallas Morning News",
+     "url": "https://www.dallasnews.com/opinion/we-recommend/article/texas-criminal-court-appeals-place-3-election-22467230.php",
+     "date": "2026-10-09"
+    },
+    {
+     "id": "p2-s3",
+     "title": "Opinion: Our recommendations for Texas Court of Criminal Appeals",
+     "publisher": "San Antonio Express-News",
+     "url": "https://www.expressnews.com/opinion/editorial/article/court-of-criminal-appeals-judicial-recommendations-22473221.php",
+     "date": "2026-10-13"
+    }
+   ],
+   "research_gaps": "No campaign website was found, and no stated position on judicial selection was found.",
+   "record": [],
+   "promises": []
+  },
+  {
+   "id": "mark-ash",
+   "race_id": "cca-3",
+   "incumbent": false,
+   "priorities": [
+    {
+     "text": "Says that, as a candidate who is neither a Republican nor a Democrat, he would be a judge independent of party politics.",
+     "sources": [
+      "p2-s1"
+     ]
+    }
+   ],
+   "issue_notes": [
+    {
+     "topic": "Death Penalty",
+     "summary": "Says the court should allow flexibility on filing deadlines in death penalty cases, since refusing late filings would deny due process.",
+     "sources": [
+      "p2-s1"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "p2-s1",
+     "title": "The Dallas Morning News Candidate Q&A: TX Court of Criminal Appeals - Place 3",
+     "publisher": "The Dallas Morning News",
+     "url": "https://www.dallasnews.com/projects/2026/dallas-texas-november-election-voter-guide/tx-court-of-criminal-appeals-place-3/",
+     "date": "2026-10"
+    }
+   ],
+   "research_gaps": "",
+   "record": [],
+   "notes": [],
+   "promises": []
+  },
+  {
+   "id": "kevin-patrick-yeary",
+   "race_id": "cca-4",
+   "incumbent": true,
+   "record": [],
+   "notes": [
+    {
+     "text": "Serves as a commissioner on the State Commission on Judicial Conduct by appointment of the Texas Supreme Court.",
+     "sources": [
+      "p2-s2"
+     ]
+    },
+    {
+     "text": "The San Antonio Express-News recommended Yeary, saying it disagreed with his 2021 dissent on the attorney general's prosecution authority but considered him well qualified.",
+     "sources": [
+      "p2-s3"
+     ]
+    }
+   ],
+   "issue_notes": [
+    {
+     "topic": "Oral Arguments",
+     "summary": "Calls the court's recent record of granting few oral arguments \"a complete embarrassment\" and says he votes to grant argument whenever a party requests it except in extreme circumstances.",
+     "sources": [
+      "p2-s2"
+     ]
+    },
+    {
+     "topic": "Judicial Campaign Finance",
+     "summary": "Says current limits are good but that a judge who receives overwhelming support from one lawyer or firm should probably recuse from that lawyer's cases.",
+     "sources": [
+      "p2-s2"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "p2-s1",
+     "title": "Voter Guide Profile: Kevin Patrick Yeary",
+     "publisher": "iVoterGuide",
+     "url": "https://ivoterguide.com/candidate/19450/race/32339/election/1471",
+     "date": null
+    },
+    {
+     "id": "p2-s2",
+     "title": "The Dallas Morning News Candidate Q&A: TX Court of Criminal Appeals - Place 4",
+     "publisher": "The Dallas Morning News",
+     "url": "https://www.dallasnews.com/projects/2026/dallas-texas-november-election-voter-guide/tx-court-of-criminal-appeals-place-4/",
+     "date": "2026-10"
+    },
+    {
+     "id": "p2-s3",
+     "title": "Opinion: Our recommendations for Texas Court of Criminal Appeals",
+     "publisher": "San Antonio Express-News",
+     "url": "https://www.expressnews.com/opinion/editorial/article/court-of-criminal-appeals-judicial-recommendations-22473221.php",
+     "date": "2026-10-13"
+    }
+   ],
+   "research_gaps": "His campaign website could not be reached, and no stated position on judicial selection was found.",
+   "priorities": [],
+   "promises": []
+  },
+  {
+   "id": "audra-riley",
+   "race_id": "cca-4",
+   "incumbent": false,
+   "priorities": [
+    {
+     "text": "Says a judge must be fair and impartial, listen carefully, follow the law and have the courage to make difficult decisions.",
+     "sources": [
+      "p2-s1"
+     ]
+    },
+    {
+     "text": "Says trial courts need clear, consistent appellate precedent they can apply in real cases.",
+     "sources": [
+      "p2-s1"
+     ]
+    }
+   ],
+   "record": [
+    {
+     "text": "Serves as presiding judge of the Dallas County criminal district courts and presides over the AIM (Achieve, Inspire and Motivate) specialty court.",
+     "sources": [
+      "p2-s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Dallas Bar Association 2025 Judicial Evaluation Poll: on overall performance, 55.6 percent of 34 responding lawyers rated her excellent, 33.3 percent acceptable and 5.6 percent needs improvement. The bar states the poll is not an endorsement.",
+     "sources": [
+      "p2-s2"
+     ]
+    },
+    {
+     "text": "The San Antonio Express-News recommended Yeary and wrote that Riley did not respond to its meeting invitation and had not updated her campaign website since the 2024 election.",
+     "sources": [
+      "p2-s3"
+     ]
+    },
+    {
+     "text": "Worked as a Texas Department of Criminal Justice correctional officer before law school, then as a Dallas County prosecutor for nearly a decade and a defense lawyer for about five years.",
+     "sources": [
+      "p2-s1"
+     ]
+    }
+   ],
+   "issue_notes": [
+    {
+     "topic": "Death Penalty",
+     "summary": "Says the court should consider flexibility on deadlines when the law allows and a person's life is at stake.",
+     "sources": [
+      "p2-s1"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "p2-s1",
+     "title": "The Dallas Morning News Candidate Q&A: TX Court of Criminal Appeals - Place 4",
+     "publisher": "The Dallas Morning News",
+     "url": "https://www.dallasnews.com/projects/2026/dallas-texas-november-election-voter-guide/tx-court-of-criminal-appeals-place-4/",
+     "date": "2026-10"
+    },
+    {
+     "id": "p2-s2",
+     "title": "Judicial Evaluation Poll Results, August 2025",
+     "publisher": "Dallas Bar Association",
+     "url": "https://www.dallasbar.org/docDownload/2762555",
+     "date": "2025-08"
+    },
+    {
+     "id": "p2-s3",
+     "title": "Opinion: Our recommendations for Texas Court of Criminal Appeals",
+     "publisher": "San Antonio Express-News",
+     "url": "https://www.expressnews.com/opinion/editorial/article/court-of-criminal-appeals-judicial-recommendations-22473221.php",
+     "date": "2026-10-13"
+    },
+    {
+     "id": "p2-s4",
+     "title": "Voter Guide Profile: Audra Riley",
+     "publisher": "iVoterGuide",
+     "url": "https://ivoterguide.com/candidate/94501/race/32339/election/1471",
+     "date": null
+    }
+   ],
+   "research_gaps": "No statement on textualism or judicial selection was found, and specific rulings from her district court were not found.",
+   "promises": []
+  },
+  {
+   "id": "holly-taylor",
+   "race_id": "cca-9",
+   "incumbent": false,
+   "priorities": [
+    {
+     "text": "Says courts must uphold the Constitution and the rule of law and consider public safety while treating everyone with dignity, and that she would decide cases without bending to political influence.",
+     "sources": [
+      "p2-s4"
+     ]
+    }
+   ],
+   "record": [
+    {
+     "text": "Says she worked on wrongful conviction cases that led to five exonerations with the Travis County Conviction Integrity Unit and helped prosecute former U.S. Rep. Tom DeLay.",
+     "sources": [
+      "p2-s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "The San Antonio Express-News recommended Taylor, citing her breadth of experience as a prosecutor, defense lawyer and court staff attorney, while writing that Messinger also impressed the board.",
+     "sources": [
+      "p2-s2"
+     ]
+    },
+    {
+     "text": "Her campaign lists endorsements from the Austin Black Lawyers Association, Hispanic Bar Association of Austin, Houston Lawyers Association, Houston Association of Women Attorneys and Mexican American Bar Association of Houston, and from The Dallas Morning News and the Houston Chronicle.",
+     "sources": [
+      "p2-s3"
+     ]
+    }
+   ],
+   "issue_notes": [
+    {
+     "topic": "Death Penalty",
+     "summary": "Says the court should be flexible on deadlines and procedural requirements so that people sentenced to death can fully litigate their claims, within the law and respecting victims' families.",
+     "sources": [
+      "p2-s5"
+     ]
+    },
+    {
+     "topic": "Judicial Campaign Finance",
+     "summary": "Says that ideally judges would not accept contributions from lawyers who practice before them, but that such a rule would not address large independent PAC spending in judicial races.",
+     "sources": [
+      "p2-s5"
+     ]
+    },
+    {
+     "topic": "Wrongful Convictions",
+     "summary": "Says her conviction integrity work showed her how the justice system can fail, including finding that a few cases she prosecuted years ago were wrongful convictions.",
+     "sources": [
+      "p2-s6"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "p2-s1",
+     "title": "The Dallas Morning News Candidate Q&A: TX Court of Criminal Appeals - Place 9 - Democrat",
+     "publisher": "The Dallas Morning News",
+     "url": "https://www.dallasnews.com/projects/2026/dallas-texas-primary-election-voter-guide/tx-court-of-criminal-appeals-place-9-democrat/",
+     "date": "2026-02"
+    },
+    {
+     "id": "p2-s2",
+     "title": "Opinion: Our recommendations for Texas Court of Criminal Appeals",
+     "publisher": "San Antonio Express-News",
+     "url": "https://www.expressnews.com/opinion/editorial/article/court-of-criminal-appeals-judicial-recommendations-22473221.php",
+     "date": "2026-10-13"
+    },
+    {
+     "id": "p2-s3",
+     "title": "Endorsements",
+     "publisher": "Holly Taylor campaign",
+     "url": "https://hollytforjudge.com/endorsements-text",
+     "date": null
+    },
+    {
+     "id": "p2-s4",
+     "title": "My Values",
+     "publisher": "Holly Taylor campaign",
+     "url": "https://hollytforjudge.com/values",
+     "date": null
+    },
+    {
+     "id": "p2-s5",
+     "title": "The Dallas Morning News Candidate Q&A: TX Court of Criminal Appeals - Place 9",
+     "publisher": "The Dallas Morning News",
+     "url": "https://www.dallasnews.com/projects/2026/dallas-texas-november-election-voter-guide/tx-court-of-criminal-appeals-place-9/",
+     "date": "2026-10"
+    },
+    {
+     "id": "p2-s6",
+     "title": "Why I'm Running",
+     "publisher": "Holly Taylor campaign",
+     "url": "https://hollytforjudge.com/why-im-running",
+     "date": null
+    }
+   ],
+   "research_gaps": "No direct statement on textualism or judicial selection was found.",
+   "promises": []
+  },
+  {
+   "id": "john-messinger",
+   "race_id": "cca-9",
+   "incumbent": false,
+   "notes": [
+    {
+     "text": "The San Antonio Express-News recommended Democrat Holly Taylor, writing that Messinger also impressed the board but that Taylor's experience is broader.",
+     "sources": [
+      "p2-s1"
+     ]
+    }
+   ],
+   "issue_notes": [
+    {
+     "topic": "Death Penalty",
+     "summary": "Says death penalty cases already receive special consideration and that last-minute briefing designed to delay should not be tolerated.",
+     "sources": [
+      "p2-s2"
+     ]
+    },
+    {
+     "topic": "Judicial Campaign Finance",
+     "summary": "Says contribution limits are not needed in Court of Criminal Appeals races because the court does not handle money disputes.",
+     "sources": [
+      "p2-s2"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "p2-s1",
+     "title": "Opinion: Our recommendations for Texas Court of Criminal Appeals",
+     "publisher": "San Antonio Express-News",
+     "url": "https://www.expressnews.com/opinion/editorial/article/court-of-criminal-appeals-judicial-recommendations-22473221.php",
+     "date": "2026-10-13"
+    },
+    {
+     "id": "p2-s2",
+     "title": "The Dallas Morning News Candidate Q&A: TX Court of Criminal Appeals - Place 9",
+     "publisher": "The Dallas Morning News",
+     "url": "https://www.dallasnews.com/projects/2026/dallas-texas-november-election-voter-guide/tx-court-of-criminal-appeals-place-9/",
+     "date": "2026-10"
+    }
+   ],
+   "research_gaps": "No stated position on judicial selection methods was found.",
+   "record": [],
+   "priorities": [],
+   "promises": []
+  },
+  {
+   "id": "scott-brister",
+   "race_id": "coa15-chief",
+   "incumbent": true,
+   "notes": [
+    {
+     "text": "The San Antonio Express-News recommended Brister and the other two incumbents, describing them as highly qualified and their work as generally viewed as independent of partisanship.",
+     "sources": [
+      "p2-s1"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "p2-s1",
+     "title": "Opinion: We recommend incumbent justices on 15th Court of Appeals",
+     "publisher": "San Antonio Express-News",
+     "url": "https://www.expressnews.com/opinion/editorial/article/texas-15th-court-appeals-brister-field-farris-22470217.php",
+     "date": "2026-10-11"
+    }
+   ],
+   "research_gaps": "No public statement on judicial selection methods was found.",
+   "record": [],
+   "issue_notes": [],
+   "priorities": [],
+   "promises": []
+  },
+  {
+   "id": "jerry-zimmerer",
+   "race_id": "coa15-chief",
+   "incumbent": false,
+   "priorities": [
+    {
+     "text": "In 2020 he described his approach as being present, doing the job and following the law, and said only one of his nearly 300 opinions had been appealed to the Texas Supreme Court.",
+     "sources": [
+      "p2-s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "In the 2020 Democratic primary for chief justice, the Texas Tribune reported that he criticized opponent Amy Clark Meachum for seeking to be the first woman elected to the post, and Meachum called his comments sexist.",
+     "sources": [
+      "p2-s2"
+     ]
+    },
+    {
+     "text": "The San Antonio Express-News recommended incumbent Scott Brister, writing that none of the Democratic challengers could match the incumbents' experience.",
+     "sources": [
+      "p2-s3"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "p2-s1",
+     "title": "Jerry Zimmerer (2020 primary voter guide)",
+     "publisher": "The Dallas Morning News",
+     "url": "https://voterguide.dallasnews.com/2020-primary/candidates/1184",
+     "date": "2020-02"
+    },
+    {
+     "id": "p2-s2",
+     "title": "Texas judge Jerry Zimmerer criticizes primary opponent Amy Clark Meachum",
+     "publisher": "The Texas Tribune",
+     "url": "https://www.texastribune.org/2020/02/14/texas-judge-jerry-zimmerer-amy-clark-meachum-supreme-court/",
+     "date": "2020-02-14"
+    },
+    {
+     "id": "p2-s3",
+     "title": "Opinion: We recommend incumbent justices on 15th Court of Appeals",
+     "publisher": "San Antonio Express-News",
+     "url": "https://www.expressnews.com/opinion/editorial/article/texas-15th-court-appeals-brister-field-farris-22470217.php",
+     "date": "2026-10-11"
+    }
+   ],
+   "research_gaps": "No specific opinions from his Fourteenth Court tenure were located in news coverage.",
+   "record": [],
+   "issue_notes": [],
+   "promises": []
+  },
+  {
+   "id": "scott-k-field",
+   "race_id": "coa15-2",
+   "incumbent": true,
+   "priorities": [
+    {
+     "text": "Says judges must be humble about their role but bold enough to make decisions that may be politically unpopular.",
+     "sources": [
+      "p2-s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "The San Antonio Express-News recommended Field and the other two incumbents.",
+     "sources": [
+      "p2-s2"
+     ]
+    }
+   ],
+   "issue_notes": [
+    {
+     "topic": "Jury Trials",
+     "summary": "Says he is passionate about the right to a jury trial and Texans' ability to exercise constitutional rights without government interference.",
+     "sources": [
+      "p2-s1"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "p2-s1",
+     "title": "Scott Field",
+     "publisher": "Ballotpedia",
+     "url": "https://ballotpedia.org/Scott_Field",
+     "date": null
+    },
+    {
+     "id": "p2-s2",
+     "title": "Opinion: We recommend incumbent justices on 15th Court of Appeals",
+     "publisher": "San Antonio Express-News",
+     "url": "https://www.expressnews.com/opinion/editorial/article/texas-15th-court-appeals-brister-field-farris-22470217.php",
+     "date": "2026-10-11"
+    }
+   ],
+   "research_gaps": "No public statement on judicial selection methods was found.",
+   "record": [],
+   "promises": []
+  },
+  {
+   "id": "tom-baker",
+   "race_id": "coa15-2",
+   "incumbent": false,
+   "priorities": [
+    {
+     "text": "Says the judiciary must keep each branch within its \"constitutional lanes\" and that the Fifteenth Court will serve as a watchdog on the executive departments.",
+     "sources": [
+      "p2-s1"
+     ]
+    },
+    {
+     "text": "Says too much power resides with a single political party and that Texans must regain trust in the courts' impartiality.",
+     "sources": [
+      "p2-s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "The San Antonio Express-News recommended incumbent Scott Field.",
+     "sources": [
+      "p2-s2"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "p2-s1",
+     "title": "Campaign Home",
+     "publisher": "Justice Tom Baker campaign",
+     "url": "https://justicetombaker.com/",
+     "date": "2026-08"
+    },
+    {
+     "id": "p2-s2",
+     "title": "Opinion: We recommend incumbent justices on 15th Court of Appeals",
+     "publisher": "San Antonio Express-News",
+     "url": "https://www.expressnews.com/opinion/editorial/article/texas-15th-court-appeals-brister-field-farris-22470217.php",
+     "date": "2026-10-11"
+    }
+   ],
+   "research_gaps": "No opinions he authored on the Third Court were located, and no statement on judicial selection was found.",
+   "record": [],
+   "issue_notes": [],
+   "promises": []
+  },
+  {
+   "id": "april-farris",
+   "race_id": "coa15-3",
+   "incumbent": true,
+   "notes": [
+    {
+     "text": "The San Antonio Express-News recommended Farris and the other two incumbents.",
+     "sources": [
+      "p2-s1"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "p2-s1",
+     "title": "Opinion: We recommend incumbent justices on 15th Court of Appeals",
+     "publisher": "San Antonio Express-News",
+     "url": "https://www.expressnews.com/opinion/editorial/article/texas-15th-court-appeals-brister-field-farris-22470217.php",
+     "date": "2026-10-11"
+    }
+   ],
+   "research_gaps": "No specific opinions she authored on the Fifteenth Court and no statement on judicial selection were found.",
+   "record": [],
+   "issue_notes": [],
+   "priorities": [],
+   "promises": []
+  },
+  {
+   "id": "marc-m-meyer",
+   "race_id": "coa15-3",
+   "incumbent": false,
+   "notes": [
+    {
+     "text": "Told the San Antonio Express-News editorial board that his rulings and those of April Farris \"probably wouldn't be all that different in the vast majority of cases\"; the board recommended Farris.",
+     "sources": [
+      "p2-s1"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "p2-s1",
+     "title": "Opinion: We recommend incumbent justices on 15th Court of Appeals",
+     "publisher": "San Antonio Express-News",
+     "url": "https://www.expressnews.com/opinion/editorial/article/texas-15th-court-appeals-brister-field-farris-22470217.php",
+     "date": "2026-10-11"
+    }
+   ],
+   "research_gaps": "No campaign website, questionnaire responses or statement of judicial philosophy for the appellate race were found.",
+   "record": [],
+   "issue_notes": [],
+   "priorities": [],
+   "promises": []
+  },
+  {
+   "id": "matthew-kolodoski",
+   "race_id": "coa5-3",
+   "incumbent": false,
+   "notes": [
+    {
+     "text": "The Dallas Morning News recommended Amanda Reichek in the general election, writing that Kolodoski is outmatched in this race but that it would like to see him run again.",
+     "sources": [
+      "p2-s1"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "p2-s1",
+     "title": "5th District Court of Appeals, Place 3 election recommendation",
+     "publisher": "The Dallas Morning News",
+     "url": "https://www.dallasnews.com/opinion/we-recommend/article/5th-district-court-appeals-place-3-election-22468489.php",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No endorsements from legal organizations or Collin County Bar poll results were found.",
+   "record": [],
+   "issue_notes": [],
+   "priorities": [],
+   "promises": []
+  },
+  {
+   "id": "amanda-reichek",
+   "race_id": "coa5-3",
+   "incumbent": false,
+   "notes": [
+    {
+     "text": "The Dallas Morning News recommended Reichek in the general election, citing her record as a fair and hardworking judge and high Dallas Bar Association approval ratings.",
+     "sources": [
+      "p2-s1"
+     ]
+    },
+    {
+     "text": "Chairs the Dallas Bar Association Appellate Section and says she wrote more than 500 appellate opinions while on the court.",
+     "sources": [
+      "p2-s2"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "p2-s1",
+     "title": "5th District Court of Appeals, Place 3 election recommendation",
+     "publisher": "The Dallas Morning News",
+     "url": "https://www.dallasnews.com/opinion/we-recommend/article/5th-district-court-appeals-place-3-election-22468489.php",
+     "date": "2026-10-09"
+    },
+    {
+     "id": "p2-s2",
+     "title": "About",
+     "publisher": "Amanda Reichek campaign",
+     "url": "https://amandaforjustice.com/about",
+     "date": null
+    }
+   ],
+   "research_gaps": "No specific opinions she authored on the 5th Court were found in news coverage.",
+   "record": [],
+   "issue_notes": [],
+   "priorities": [],
+   "promises": []
+  },
+  {
+   "id": "ben-smith",
+   "race_id": "coa5-6",
+   "incumbent": false,
+   "notes": [
+    {
+     "text": "The Dallas Morning News recommended Smith in the general election, citing his judicial restraint philosophy and general-jurisdiction experience, while calling both candidates well qualified.",
+     "sources": [
+      "p2-s1"
+     ]
+    },
+    {
+     "text": "The Dallas Morning News reported that he received good ratings in the 2017 Collin County Bar Association poll, the most recent one, and has a case clearance rate above 100 percent.",
+     "sources": [
+      "p2-s1"
+     ]
+    }
+   ],
+   "issue_notes": [
+    {
+     "topic": "Public Trust in Courts",
+     "summary": "Told The Dallas Morning News he attributes declining trust in the judiciary to politics filtering into judicial decisions.",
+     "sources": [
+      "p2-s1"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "p2-s1",
+     "title": "5th District Court of Appeals, Place 6 election recommendation",
+     "publisher": "The Dallas Morning News",
+     "url": "https://www.dallasnews.com/opinion/we-recommend/article/5th-court-appeals-place-6-purdy-smith-22470270.php",
+     "date": "2026-10-10"
+    }
+   ],
+   "research_gaps": "No news coverage of notable rulings was found.",
+   "record": [],
+   "priorities": [],
+   "promises": []
+  },
+  {
+   "id": "monica-purdy",
+   "race_id": "coa5-6",
+   "incumbent": false,
+   "record": [
+    {
+     "text": "Granted a December 2023 temporary injunction blocking the City of Dallas from enforcing new short-term rental zoning and registration ordinances while the lawsuit proceeded.",
+     "sources": [
+      "p2-s2",
+      "p2-s3"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "The Dallas Morning News recommended Ben Smith, while writing that voters cannot go wrong with either candidate and noting her high Dallas Bar Association ratings.",
+     "sources": [
+      "p2-s1"
+     ]
+    },
+    {
+     "text": "Her campaign lists a recommendation as qualified by the Committee for a Qualified Judiciary in Dallas, and endorsements from the Dallas AFL-CIO, Teamsters Local 745 and Stonewall Democrats of Dallas.",
+     "sources": [
+      "p2-s4"
+     ]
+    }
+   ],
+   "stances": {
+    "q_textualism": {
+     "position": 0,
+     "basis": "reported",
+     "summary": "Revised to mixed: her questionnaire stresses fidelity to the law as written, but she told The Dallas Morning News that judges must adapt to the times, citing Fourth Amendment questions raised by smartphones and GPS tracking.",
+     "sources": [
+      "p2-s1",
+      "s2"
+     ],
+     "replace": true
+    }
+   },
+   "issue_notes": [
+    {
+     "topic": "Public Trust in Courts",
+     "summary": "Told The Dallas Morning News that rising security concerns for state judges and public attacks on judges by a national leader have eroded trust in the judiciary.",
+     "sources": [
+      "p2-s1"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "p2-s1",
+     "title": "5th District Court of Appeals, Place 6 election recommendation",
+     "publisher": "The Dallas Morning News",
+     "url": "https://www.dallasnews.com/opinion/we-recommend/article/5th-court-appeals-place-6-purdy-smith-22470270.php",
+     "date": "2026-10-10"
+    },
+    {
+     "id": "p2-s2",
+     "title": "Dallas County judge blocks city's short-term rental regulations",
+     "publisher": "KERA News",
+     "url": "https://www.keranews.org/government/2023-12-06/dallas-county-judge-blocks-citys-short-term-rental-regulations",
+     "date": "2023-12-06"
+    },
+    {
+     "id": "p2-s3",
+     "title": "Litigation Roundup: SCOTX Will Hear PUCT Authority Case, Short-term Rental Restrictions in Dallas Halted",
+     "publisher": "The Texas Lawbook",
+     "url": "https://texaslawbook.net/litigation-roundup-scotx-will-hear-puct-authority-case-short-term-rental-restrictions-in-dallas-halted/",
+     "date": "2023-12-12"
+    },
+    {
+     "id": "p2-s4",
+     "title": "Endorsements",
+     "publisher": "Judge Monica Purdy campaign",
+     "url": "https://judgemonicapurdy.com/endorsements/",
+     "date": null
+    }
+   ],
+   "research_gaps": "Endorsements listed on her campaign site are undated and were not independently confirmed.",
+   "priorities": [],
+   "promises": []
+  }
+ ]
+}
