@@ -1,0 +1,1867 @@
+{
+  "candidates": [
+    {
+      "id": "tom-oxford",
+      "race_id": "attorney-general",
+      "incumbent": false,
+      "priorities": [
+        {
+          "text": "Campaigns on running a completely open and transparent office, limited only by attorney-client confidentiality, and ending what he calls back room deals.",
+          "sources": [
+            "p2-s1"
+          ]
+        }
+      ],
+      "promises": [
+        {
+          "text": "Says he will end, on his first day in office, the state's legal actions against other states that provide abortion medications.",
+          "sources": [
+            "p2-s1"
+          ]
+        },
+        {
+          "text": "Says he will use the attorney general's office to block efforts to intimidate voters at polling locations.",
+          "sources": [
+            "p2-s1"
+          ]
+        },
+        {
+          "text": "Says he will use the powers of the office to protect and promote due process for all residents regardless of legal status.",
+          "sources": [
+            "p2-s1"
+          ]
+        }
+      ],
+      "record": [],
+      "notes": [
+        {
+          "text": "Responded to the League of Women Voters of Texas questionnaire, citing decades of trial experience including management positions.",
+          "sources": [
+            "p2-s1"
+          ]
+        }
+      ],
+      "stances": {
+        "q_voting_access": {
+          "position": 2,
+          "basis": "questionnaire",
+          "summary": "Says he supports easy voter access with more polling locations and secure mail-in voting.",
+          "sources": [
+            "p2-s1"
+          ]
+        },
+        "q_abortion": {
+          "position": 2,
+          "basis": "questionnaire",
+          "summary": "Says the state should have no involvement in decisions about personal health and that he would end state legal actions against other states that provide abortion medications.",
+          "sources": [
+            "p2-s1"
+          ]
+        }
+      },
+      "issue_notes": [
+        {
+          "topic": "Immigration",
+          "summary": "Says due process applies to everyone regardless of legal status and that Texas can protect its borders without abandoning founding principles.",
+          "sources": [
+            "p2-s1"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Voters Guide: Texas Midterm General Election, November 3, 2026",
+          "publisher": "League of Women Voters of Texas",
+          "url": "https://irp.cdn-website.com/7c58b2a7/files/uploaded/LWVTX-VG-2026-11-ENG_fn.pdf",
+          "date": "2026-10",
+          "id": "p2-s1"
+        }
+      ],
+      "research_gaps": "No positions were found on the Ten Commandments law, guns, bail, cannabis, eminent domain, foreign land purchases, election fraud enforcement or transgender care for minors."
+    },
+    {
+      "id": "v-alonzo-echavarria-garza",
+      "race_id": "comptroller",
+      "incumbent": false,
+      "background": "V. Alonzo Echavarria-Garza has been city manager of Hearne since 2022, after serving as the city's chief financial officer from 2017 to 2022, and he listed his occupation as CFO in state filings. He was the Libertarian nominee for comptroller in 2022 and is the Libertarian Party of Texas nominee for comptroller in 2026.",
+      "priorities": [],
+      "promises": [],
+      "record": [],
+      "notes": [
+        {
+          "text": "Did not respond to the League of Women Voters of Texas questionnaire for its November 2026 voters guide.",
+          "sources": [
+            "p2-s2"
+          ]
+        },
+        {
+          "text": "The Texas Tribune listed no campaign website and no specific policy positions for him, citing only the Libertarian Party platform.",
+          "sources": [
+            "p2-s1"
+          ]
+        }
+      ],
+      "stances": {},
+      "issue_notes": [],
+      "sources": [
+        {
+          "title": "Texas comptroller race: Who is running and where they stand",
+          "publisher": "The Texas Tribune",
+          "url": "https://www.texastribune.org/2026/09/29/texas-comptroller-2026-election-huffines-eckhardt/",
+          "date": "2026-09-29",
+          "id": "p2-s1"
+        },
+        {
+          "title": "Voters Guide: Texas Midterm General Election, November 3, 2026",
+          "publisher": "League of Women Voters of Texas",
+          "url": "https://irp.cdn-website.com/7c58b2a7/files/uploaded/LWVTX-VG-2026-11-ENG_fn.pdf",
+          "date": "2026-10",
+          "id": "p2-s2"
+        }
+      ],
+      "research_gaps": "No campaign website, questionnaire responses or statements on property taxes, spending limits, vouchers, school funding, water or ethics were found."
+    },
+    {
+      "id": "shehla-faizi",
+      "race_id": "comptroller",
+      "incumbent": false,
+      "priorities": [],
+      "promises": [
+        {
+          "text": "Says the comptroller's office should decline to enforce laws she considers unconstitutional, including the anti-boycott of Israel law and the anti-fossil fuel boycott law.",
+          "sources": [
+            "p2-s1"
+          ]
+        },
+        {
+          "text": "Says she would make the comptroller's website more accessible with infographics and charts, offer it in English and Spanish, and sponsor billboards about the state budget.",
+          "sources": [
+            "p2-s1"
+          ]
+        }
+      ],
+      "record": [],
+      "notes": [],
+      "stances": {
+        "q_vouchers": {
+          "position": -2,
+          "basis": "questionnaire",
+          "summary": "Says the voucher program drains money from public schools and that as comptroller she would use all legal means and public pressure to end it.",
+          "sources": [
+            "p2-s1"
+          ]
+        },
+        "q_school_funding": {
+          "position": 1,
+          "basis": "questionnaire",
+          "summary": "Supports using the budget surplus for public schools and equitable public school funding, and would prioritize disaster relief and public schools over data center tax breaks.",
+          "sources": [
+            "p2-s1",
+            "p2-s2"
+          ]
+        }
+      },
+      "issue_notes": [
+        {
+          "topic": "Budget Surplus",
+          "summary": "Supports spending the surplus on public schools, health care and affordable housing, and says she does not take PAC money.",
+          "sources": [
+            "p2-s1"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Voters Guide: Texas Midterm General Election, November 3, 2026",
+          "publisher": "League of Women Voters of Texas",
+          "url": "https://irp.cdn-website.com/7c58b2a7/files/uploaded/LWVTX-VG-2026-11-ENG_fn.pdf",
+          "date": "2026-10",
+          "id": "p2-s1"
+        },
+        {
+          "title": "Texas comptroller race: Who is running and where they stand",
+          "publisher": "The Texas Tribune",
+          "url": "https://www.texastribune.org/2026/09/29/texas-comptroller-2026-election-huffines-eckhardt/",
+          "date": "2026-09-29",
+          "id": "p2-s2"
+        }
+      ],
+      "research_gaps": "No positions were found on eliminating school property taxes, spending caps, water funding or contribution limits."
+    },
+    {
+      "id": "neill-snider",
+      "race_id": "land-commissioner",
+      "incumbent": false,
+      "website": "https://voteneillsnider.com",
+      "priorities": [],
+      "promises": [
+        {
+          "text": "Says he would not create new veterans programs but would make sure existing programs serve veterans well, possibly with a debit card for treatment at any Texas medical facility.",
+          "sources": [
+            "p2-s1"
+          ]
+        }
+      ],
+      "record": [],
+      "notes": [
+        {
+          "text": "Lists voteneillsnider.com as his campaign website in the League of Women Voters of Texas guide.",
+          "sources": [
+            "p2-s1"
+          ]
+        }
+      ],
+      "stances": {
+        "q_vouchers": {
+          "position": 1,
+          "basis": "questionnaire",
+          "summary": "Says the Permanent School Fund should be opened to private school and homeschool children, not only public school children.",
+          "sources": [
+            "p2-s1"
+          ]
+        }
+      },
+      "issue_notes": [
+        {
+          "topic": "Disaster Recovery",
+          "summary": "Says the state should work with food and construction suppliers to get supplies to storm areas and get money directly to people in need.",
+          "sources": [
+            "p2-s1"
+          ]
+        },
+        {
+          "topic": "Flooding",
+          "summary": "Says the state should work with nature rather than against it and make changes to areas frequently damaged by storms and hurricanes.",
+          "sources": [
+            "p2-s1"
+          ]
+        },
+        {
+          "topic": "Property Rights",
+          "summary": "Says the land commissioner should respect private property and support responsible use of natural resources.",
+          "sources": [
+            "p2-s2"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Voters Guide: Texas Midterm General Election, November 3, 2026",
+          "publisher": "League of Women Voters of Texas",
+          "url": "https://irp.cdn-website.com/7c58b2a7/files/uploaded/LWVTX-VG-2026-11-ENG_fn.pdf",
+          "date": "2026-10",
+          "id": "p2-s1"
+        },
+        {
+          "title": "Neill Snider: Commissioner of the General Land Office candidate profile",
+          "publisher": "Branch Politics",
+          "url": "https://branch.vote/races/2026-texas-general-election-tx-state-commissioner-of-the-general-land-office-tx-state/candidates/neill-snider",
+          "date": "2026-09-11",
+          "id": "p2-s2"
+        }
+      ],
+      "research_gaps": "No positions were found on border security, the energy mix, oil and gas rules, eminent domain, foreign land purchases, water funding or ethics."
+    },
+    {
+      "id": "austin-r-kelly",
+      "race_id": "agriculture-commissioner",
+      "incumbent": false,
+      "priorities": [],
+      "promises": [
+        {
+          "text": "Says he will cut red tape for the hemp industry, cottage food production and local meat processing.",
+          "sources": [
+            "p2-s1"
+          ]
+        },
+        {
+          "text": "Says he will eliminate licensing systems he describes as pay-to-play schemes that favor large agricultural companies over family farms, and cut licensing costs.",
+          "sources": [
+            "p2-s1"
+          ]
+        },
+        {
+          "text": "Says he will publish the facts on brush control and water yield for landowners.",
+          "sources": [
+            "p2-s1"
+          ]
+        }
+      ],
+      "record": [],
+      "notes": [
+        {
+          "text": "Did not respond to the League of Women Voters of Texas questionnaire for its November 2026 voters guide.",
+          "sources": [
+            "p2-s2"
+          ]
+        }
+      ],
+      "stances": {
+        "q_eminent_domain": {
+          "position": 2,
+          "basis": "statement",
+          "summary": "Opposes the use of eminent domain for private gain or state convenience; this strengthens the earlier stance based on his general pledge against eminent domain abuse.",
+          "sources": [
+            "p2-s1"
+          ],
+          "replace": true
+        },
+        "q_cannabis": {
+          "position": 1,
+          "basis": "statement",
+          "summary": "Says hemp producers are being treated as threats and pledges to cut regulations on the hemp industry; no statement specific to THC products was found.",
+          "sources": [
+            "p2-s1"
+          ]
+        }
+      },
+      "issue_notes": [
+        {
+          "topic": "Invasive Species",
+          "summary": "Says the department should focus on prevention and early detection rather than fining landowners who already have invasive weeds.",
+          "sources": [
+            "p2-s1"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Issues and Solutions",
+          "publisher": "Austin R. Kelly campaign",
+          "url": "https://www.kellyfortx.com/issuessolutions",
+          "date": null,
+          "id": "p2-s1"
+        },
+        {
+          "title": "Voters Guide: Texas Midterm General Election, November 3, 2026",
+          "publisher": "League of Women Voters of Texas",
+          "url": "https://irp.cdn-website.com/7c58b2a7/files/uploaded/LWVTX-VG-2026-11-ENG_fn.pdf",
+          "date": "2026-10",
+          "id": "p2-s2"
+        }
+      ],
+      "research_gaps": "No positions were found on foreign land purchases, state water funding or ethics rules."
+    },
+    {
+      "id": "anthony-cristo",
+      "race_id": "lt-governor",
+      "incumbent": false,
+      "priorities": [],
+      "promises": [],
+      "record": [],
+      "notes": [
+        {
+          "text": "Did not respond to the League of Women Voters of Texas questionnaire for its November 2026 voters guide.",
+          "sources": [
+            "p2-s1"
+          ]
+        },
+        {
+          "text": "Had not responded to the 2026 ATPE candidate survey on education issues, according to ATPE.",
+          "sources": [
+            "p2-s2"
+          ]
+        },
+        {
+          "text": "Ran unsuccessfully for Texas House District 44 in 2022, according to ATPE.",
+          "sources": [
+            "p2-s2"
+          ]
+        }
+      ],
+      "stances": {},
+      "issue_notes": [],
+      "sources": [
+        {
+          "title": "Voters Guide: Texas Midterm General Election, November 3, 2026",
+          "publisher": "League of Women Voters of Texas",
+          "url": "https://irp.cdn-website.com/7c58b2a7/files/uploaded/LWVTX-VG-2026-11-ENG_fn.pdf",
+          "date": "2026-10",
+          "id": "p2-s1"
+        },
+        {
+          "title": "Anthony Cristo: 2026 candidate profile",
+          "publisher": "Association of Texas Professional Educators (Teach the Vote)",
+          "url": "https://dev-ttv.atpe.org/candidates/Anthony-Cristo",
+          "date": "2026",
+          "id": "p2-s2"
+        }
+      ],
+      "research_gaps": "Beyond his campaign site, no questionnaire responses or news coverage of his positions were found."
+    },
+    {
+      "id": "kevin-mccormick",
+      "race_id": "lt-governor",
+      "incumbent": false,
+      "priorities": [],
+      "promises": [
+        {
+          "text": "Proposes automatically registering people to vote when they receive a state-issued ID, at least one voting machine per 100 eligible voters, and a two-week early voting period.",
+          "sources": [
+            "p2-s2"
+          ]
+        },
+        {
+          "text": "Proposes a single statewide primary for the four largest parties plus independents, ranked-choice voting, and filing fees capped at $500 for statewide offices.",
+          "sources": [
+            "p2-s2"
+          ]
+        },
+        {
+          "text": "Proposes a constitutional amendment creating a nonpartisan districting commission and compact, rectangular districts.",
+          "sources": [
+            "p2-s2"
+          ]
+        }
+      ],
+      "record": [],
+      "notes": [],
+      "stances": {
+        "q_abortion": {
+          "position": 2,
+          "basis": "questionnaire",
+          "summary": "Says abortion is primarily the woman's choice up to a set point in pregnancy and would seek to repeal laws that single out abortion-related providers.",
+          "sources": [
+            "p2-s1"
+          ]
+        },
+        "q_voting_access": {
+          "position": 2,
+          "basis": "statement",
+          "summary": "Proposes automatic voter registration with state IDs, more polling places and voting machines, a two-week early voting period and universal voter registration.",
+          "sources": [
+            "p2-s1",
+            "p2-s2",
+            "p2-s3"
+          ]
+        },
+        "q_ethics": {
+          "position": 1,
+          "basis": "statement",
+          "summary": "Endorses full public financing of elections as part of the Green Party electoral reform agenda; no statement on contribution limits specifically was found.",
+          "sources": [
+            "p2-s3"
+          ]
+        }
+      },
+      "issue_notes": [
+        {
+          "topic": "Data Centers",
+          "summary": "Opposes tax breaks or incentives for data centers, says they should pay for added capacity, and wants water use strictly limited and pollution forbidden.",
+          "sources": [
+            "p2-s1"
+          ]
+        },
+        {
+          "topic": "Election Security",
+          "summary": "Calls for open-source voting software with paper records for voters and poll supervisors, and automatic recounts.",
+          "sources": [
+            "p2-s2",
+            "p2-s3"
+          ]
+        },
+        {
+          "topic": "School Debt",
+          "summary": "Says he would consider the state taking on school district bond debt and collecting only the principal.",
+          "sources": [
+            "p2-s1"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Voters Guide: Texas Midterm General Election, November 3, 2026",
+          "publisher": "League of Women Voters of Texas",
+          "url": "https://irp.cdn-website.com/7c58b2a7/files/uploaded/LWVTX-VG-2026-11-ENG_fn.pdf",
+          "date": "2026-10",
+          "id": "p2-s1"
+        },
+        {
+          "title": "Election Code Reform Proposal",
+          "publisher": "Kevin McCormick campaign",
+          "url": "https://www.kmm2026.org/issues2026/election-code-reform-proposal",
+          "date": null,
+          "id": "p2-s2"
+        },
+        {
+          "title": "Texas Courts Have No Respect for Voters",
+          "publisher": "Kevin McCormick campaign",
+          "url": "https://www.kmm2026.org/issues2026/texas-courts-have-no-respect-for-voters",
+          "date": null,
+          "id": "p2-s3"
+        }
+      ],
+      "research_gaps": "No positions were found on guns, the border, bail, gambling, transgender care for minors or judicial selection."
+    },
+    {
+      "id": "ted-brown",
+      "race_id": "us-senate",
+      "incumbent": false,
+      "priorities": [],
+      "promises": [],
+      "record": [],
+      "notes": [],
+      "stances": {
+        "q_voting_access": {
+          "position": 2,
+          "basis": "questionnaire",
+          "summary": "Says it should be easier to vote in person or by mail, opposes the SAVE Act, and in 2022 said any Texas voter should be able to request an absentee ballot.",
+          "sources": [
+            "p2-s1",
+            "p2-s2"
+          ]
+        },
+        "q_abortion": {
+          "position": 1,
+          "basis": "questionnaire",
+          "summary": "In 2020 and 2022 questionnaires said abortion should be legal until viability (in the first and second trimesters) while saying he personally opposes abortion and opposes taxpayer funding of it.",
+          "sources": [
+            "p2-s2",
+            "p2-s3"
+          ]
+        }
+      },
+      "issue_notes": [
+        {
+          "topic": "Election Integrity",
+          "summary": "Says he sees no evidence that ineligible people have been voting and rejects what he calls voter fraud paranoia.",
+          "sources": [
+            "p2-s1"
+          ]
+        },
+        {
+          "topic": "Health Care",
+          "summary": "Says the Affordable Care Act should be repealed and insurers should be allowed to offer more types of policies, such as catastrophic coverage.",
+          "sources": [
+            "p2-s1"
+          ]
+        },
+        {
+          "topic": "Ballot Access",
+          "summary": "Says laws make it hard for alternative party candidates to run and he would make it easier.",
+          "sources": [
+            "p2-s1"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Voters Guide: Texas Midterm General Election, November 3, 2026",
+          "publisher": "League of Women Voters of Texas",
+          "url": "https://irp.cdn-website.com/7c58b2a7/files/uploaded/LWVTX-VG-2026-11-ENG_fn.pdf",
+          "date": "2026-10",
+          "id": "p2-s1"
+        },
+        {
+          "title": "Ted Brown: Texas State Representative, District 50 questionnaire (2022 general election)",
+          "publisher": "iVoterGuide",
+          "url": "https://ivoterguide.com/candidate/53946/race/15223/election/943",
+          "date": "2022",
+          "id": "p2-s2"
+        },
+        {
+          "title": "Ted Brown: U.S. Representative, District 17 questionnaire (2020 general election)",
+          "publisher": "iVoterGuide",
+          "url": "https://ivoterguide.com/candidate/53946/race/6574/election/791",
+          "date": "2020",
+          "id": "p2-s3"
+        }
+      ],
+      "research_gaps": "No documented position was found on the minimum wage, oil and gas regulation or foreign land purchases; his abortion views come from 2020 and 2022 questionnaires for other races."
+    },
+    {
+      "id": "pat-dixon",
+      "race_id": "governor",
+      "incumbent": false,
+      "priorities": [],
+      "promises": [],
+      "record": [],
+      "notes": [],
+      "stances": {
+        "q_ten_commandments": {
+          "position": -1,
+          "basis": "inferred",
+          "summary": "No statement on the classroom display law was found; inferred from his statements that he will enforce separation of church and state as an absolute requirement and that the governor should have nothing to do with religion.",
+          "sources": [
+            "p2-s1",
+            "s4"
+          ]
+        },
+        "q_election_fraud": {
+          "position": -1,
+          "basis": "inferred",
+          "summary": "No statement on fraud enforcement funding was found; inferred from his statement that Texas elections are conducted properly and produce legitimate results, while he favors paper ballots and hand-verified samples.",
+          "sources": [
+            "s14"
+          ]
+        }
+      },
+      "issue_notes": [],
+      "sources": [
+        {
+          "title": "Biblical Principles",
+          "publisher": "Pat Dixon campaign",
+          "url": "https://patdixon.org/biblical-principles/",
+          "date": null,
+          "id": "p2-s1"
+        }
+      ],
+      "research_gaps": "No documented position was found on Medicaid expansion, school funding levels, bail, water funding, oil and gas rules, eminent domain, foreign land, contribution limits or a spending cap."
+    },
+    {
+      "id": "nate-sheets",
+      "race_id": "agriculture-commissioner",
+      "incumbent": false,
+      "priorities": [],
+      "promises": [
+        {
+          "text": "Says he will prioritize Texas-grown meat, produce and whole foods over ultra-processed options in school meals.",
+          "sources": [
+            "p2-s1"
+          ]
+        }
+      ],
+      "record": [],
+      "notes": [
+        {
+          "text": "In September 2026 attorneys for Democrat Clayton Tucker asked the Texas GOP to review whether Sheets meets the legal requirement of five of the last 10 years in agriculture; Sheets's campaign called it a last-ditch effort. No resolution had been reported.",
+          "sources": [
+            "p2-s3"
+          ]
+        }
+      ],
+      "stances": {
+        "q_foreign_land": {
+          "position": 1,
+          "basis": "reported",
+          "summary": "Advocates protecting agricultural land and food systems from foreign threats, according to a candidate profile; no statement on specific land purchase bans was found.",
+          "sources": [
+            "p2-s2"
+          ]
+        }
+      },
+      "issue_notes": [
+        {
+          "topic": "Water and Data Centers",
+          "summary": "Says farmers and ranchers should not have to sacrifice water to private development, and that data centers need responsible water and power plans and should not receive tax subsidies.",
+          "sources": [
+            "p2-s1"
+          ]
+        },
+        {
+          "topic": "Screwworm",
+          "summary": "Says he will strengthen surveillance and coordinate with USDA on the New World screwworm, calling for proven solutions rather than publicity stunts.",
+          "sources": [
+            "p2-s1"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Voters Guide: Texas Midterm General Election, November 3, 2026",
+          "publisher": "League of Women Voters of Texas",
+          "url": "https://irp.cdn-website.com/7c58b2a7/files/uploaded/LWVTX-VG-2026-11-ENG_fn.pdf",
+          "date": "2026-10",
+          "id": "p2-s1"
+        },
+        {
+          "title": "Nate Sheets: Commissioner of Agriculture candidate profile",
+          "publisher": "Branch Politics",
+          "url": "https://branch.vote/races/2026-texas-general-election-tx-state-commissioner-of-agriculture-tx-state/candidates/nate-sheets",
+          "date": "2026-09",
+          "id": "p2-s2"
+        },
+        {
+          "title": "Texas agriculture commissioner candidates trade ineligibility jabs",
+          "publisher": "KSAT (The Texas Tribune)",
+          "url": "https://ksat.com/news/texas/2026/09/29/texas-agriculture-commissioner-candidates-trade-ineligibility-jabs",
+          "date": "2026-09-29",
+          "id": "p2-s3"
+        }
+      ],
+      "research_gaps": "No documented position was found on hemp-derived THC, eminent domain, state water funding or ethics rules."
+    },
+    {
+      "id": "clayton-tucker",
+      "race_id": "agriculture-commissioner",
+      "incumbent": false,
+      "priorities": [
+        {
+          "text": "Campaigns on breaking up monopolies and limiting corporate middlemen's control of the food system to raise farm income and lower food costs.",
+          "sources": [
+            "p2-s2",
+            "p2-s4"
+          ]
+        }
+      ],
+      "promises": [
+        {
+          "text": "Says he will fight for free school meals for every child, defend summer food assistance and replace ultra-processed school foods with meals sourced from Texas farmers.",
+          "sources": [
+            "p2-s1"
+          ]
+        },
+        {
+          "text": "Says he will require agricultural impact studies disclosing data centers' resource use before they are built.",
+          "sources": [
+            "p2-s2",
+            "p2-s4"
+          ]
+        },
+        {
+          "text": "Supports combining sterile flies with other tools against the New World screwworm and keeping permanent response capacity.",
+          "sources": [
+            "p2-s1"
+          ]
+        }
+      ],
+      "record": [],
+      "notes": [
+        {
+          "text": "In September 2026 his attorneys asked the Texas GOP to review Nate Sheets's eligibility; Sheets's campaign responded that Tucker himself is unqualified, citing filings that list him as an organizer for a Washington, D.C., nonprofit. Tucker said he grew up on his family's ranch.",
+          "sources": [
+            "p2-s3"
+          ]
+        },
+        {
+          "text": "Serves as secretary of the Texas Farmers Union, according to his questionnaire response.",
+          "sources": [
+            "p2-s1"
+          ]
+        }
+      ],
+      "stances": {
+        "q_cannabis": {
+          "position": 1,
+          "basis": "reported",
+          "summary": "Supports farmers' right to grow hemp, adults' right to consume hemp products without undue interference, and fair labeling, according to a candidate profile.",
+          "sources": [
+            "p2-s2"
+          ]
+        }
+      },
+      "issue_notes": [
+        {
+          "topic": "Water",
+          "summary": "Says data centers should not compete with farmers or families for drinking water and supports requiring sustainable water plans and the use of brackish or other nonpotable water.",
+          "sources": [
+            "p2-s1",
+            "p2-s2"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Voters Guide: Texas Midterm General Election, November 3, 2026",
+          "publisher": "League of Women Voters of Texas",
+          "url": "https://irp.cdn-website.com/7c58b2a7/files/uploaded/LWVTX-VG-2026-11-ENG_fn.pdf",
+          "date": "2026-10",
+          "id": "p2-s1"
+        },
+        {
+          "title": "Clayton Tucker: Commissioner of Agriculture candidate profile",
+          "publisher": "Branch Politics",
+          "url": "https://branch.vote/races/2026-texas-general-election-tx-state-commissioner-of-agriculture-tx-state/candidates/clayton-tucker",
+          "date": "2026-09",
+          "id": "p2-s2"
+        },
+        {
+          "title": "Texas agriculture commissioner candidates trade ineligibility jabs",
+          "publisher": "KSAT (The Texas Tribune)",
+          "url": "https://ksat.com/news/texas/2026/09/29/texas-agriculture-commissioner-candidates-trade-ineligibility-jabs",
+          "date": "2026-09-29",
+          "id": "p2-s3"
+        },
+        {
+          "title": "Lampasas rancher running for Texas Agriculture Commissioner",
+          "publisher": "Killeen Daily Herald",
+          "url": "https://kdhnews.com/centerforpolitics/lampasas-rancher-running-for-texas-agriculture-commissioner/article_d7123025-fe73-4164-9c2a-eb8d4986c56e.html",
+          "date": "2025-10-01",
+          "id": "p2-s4"
+        }
+      ],
+      "research_gaps": "No documented position was found on eminent domain, foreign land purchases or ethics rules."
+    },
+    {
+      "id": "bo-french",
+      "race_id": "railroad-commissioner",
+      "incumbent": false,
+      "priorities": [],
+      "promises": [],
+      "record": [],
+      "notes": [],
+      "stances": {
+        "q_fossil_priority": {
+          "position": 1,
+          "basis": "questionnaire",
+          "summary": "Says increasing natural gas electricity generation, particularly in places like the Permian Basin, is one solution to rising demand; no statement on wind or solar was found.",
+          "sources": [
+            "p2-s1"
+          ]
+        }
+      },
+      "issue_notes": [
+        {
+          "topic": "Orphaned Wells",
+          "summary": "Says operators face enforcement to plug wells but the commission still plugs many, and that fixing inefficiencies would let it plug more wells with existing funds.",
+          "sources": [
+            "p2-s1"
+          ]
+        },
+        {
+          "topic": "Technology and Transparency",
+          "summary": "Says the commission is behind on technology and pledges to modernize it to improve monitoring, enforcement and responsiveness.",
+          "sources": [
+            "p2-s1"
+          ]
+        },
+        {
+          "topic": "Transmission",
+          "summary": "Opposes a West Texas electricity transmission expansion, arguing it could overburden ratepayers.",
+          "sources": [
+            "p2-s2"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Voters Guide: Texas Midterm General Election, November 3, 2026",
+          "publisher": "League of Women Voters of Texas",
+          "url": "https://irp.cdn-website.com/7c58b2a7/files/uploaded/LWVTX-VG-2026-11-ENG_fn.pdf",
+          "date": "2026-10",
+          "id": "p2-s1"
+        },
+        {
+          "title": "Texas Railroad Commission race pits oil field engineer against energy trader running on culture wars",
+          "publisher": "The Texas Tribune",
+          "url": "https://www.texastribune.org/2026/06/16/texas-railroad-commission-general-election-bo-french-jon-rosenthal-social-issues-oil-gas/",
+          "date": "2026-06-16",
+          "id": "p2-s2"
+        }
+      ],
+      "research_gaps": "No specific positions were found on flaring, methane leaks, pipeline eminent domain or ethics rules."
+    },
+    {
+      "id": "jon-rosenthal",
+      "race_id": "railroad-commissioner",
+      "incumbent": false,
+      "priorities": [],
+      "promises": [
+        {
+          "text": "Proposes funding the plugging of abandoned wells with a new fee on saltwater disposal and higher operator bonds and cash deposits.",
+          "sources": [
+            "p2-s10"
+          ]
+        },
+        {
+          "text": "Says he will lobby for heavier fines and bonding for bad operators, third-party audits and site-level compliance reporting.",
+          "sources": [
+            "p2-s1"
+          ]
+        }
+      ],
+      "record": [
+        {
+          "text": "Filed bills in 2021 (HB 1452) and 2023 (HB 1459) directing the Railroad Commission to adopt a policy to eliminate routine flaring of natural gas; both were referred to the Energy Resources Committee and did not advance.",
+          "sources": [
+            "p2-s3",
+            "p2-s4"
+          ]
+        },
+        {
+          "text": "Filed bills in 2021 (HB 3182), 2023 (HB 3181) and 2025 (HB 575) on weather emergency preparedness for natural gas facilities, the later versions increasing civil and administrative penalties; none advanced past committee referral.",
+          "sources": [
+            "p2-s3",
+            "p2-s4",
+            "p2-s5"
+          ]
+        },
+        {
+          "text": "Filed HB 3480 in 2019 to require disclosure of the composition of fluids carried by pipelines regulated by the Railroad Commission, and HB 2745 in 2021 on commission regulation of carbon dioxide storage.",
+          "sources": [
+            "p2-s2",
+            "p2-s3"
+          ]
+        },
+        {
+          "text": "Filed HB 5106 in 2025 on information that payers of oil and gas proceeds must give royalty owners; it was left pending in committee.",
+          "sources": [
+            "p2-s5"
+          ]
+        },
+        {
+          "text": "Voted for SB 2627 in 2023, which created funding mechanisms for new electric generating facilities (the Texas Energy Fund), and was a joint author of HB 4584 in 2025 on the same subject.",
+          "sources": [
+            "p2-s6",
+            "p2-s7"
+          ]
+        },
+        {
+          "text": "Voted for HB 2730 in 2021, which regulated land acquisition by entities with eminent domain authority and right-of-way agents; it passed the House 143 to 1.",
+          "sources": [
+            "p2-s8"
+          ]
+        }
+      ],
+      "notes": [],
+      "stances": {
+        "q_eminent_domain": {
+          "position": 1,
+          "basis": "record",
+          "summary": "Voted for HB 2730 (2021), which added rules for land acquisition by entities with eminent domain authority; the bill passed the House nearly unanimously.",
+          "sources": [
+            "p2-s8"
+          ]
+        },
+        "q_ethics": {
+          "position": 1,
+          "basis": "statement",
+          "summary": "Says commissioners who hold stakes in or take most of their contributions from companies they regulate should recuse themselves from conflicts of interest until the law changes; this adds his own words to the earlier reported stance.",
+          "sources": [
+            "p2-s9"
+          ],
+          "replace": true
+        }
+      },
+      "issue_notes": [
+        {
+          "topic": "Produced Water",
+          "summary": "Favors incentives for produced water reclamation technology and streamlined permits for compliant operators, saying the state is running out of disposal space.",
+          "sources": [
+            "p2-s9"
+          ]
+        },
+        {
+          "topic": "Energy Mix",
+          "summary": "Says he would never shut down an energy source until a replacement exists and that oil and gas is not going anywhere soon.",
+          "sources": [
+            "p2-s9"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Voters Guide: Texas Midterm General Election, November 3, 2026",
+          "publisher": "League of Women Voters of Texas",
+          "url": "https://irp.cdn-website.com/7c58b2a7/files/uploaded/LWVTX-VG-2026-11-ENG_fn.pdf",
+          "date": "2026-10",
+          "id": "p2-s1"
+        },
+        {
+          "title": "Bills Authored and Joint Authored: Rep. Jon E. Rosenthal, 86th Legislature",
+          "publisher": "Texas Legislature Online",
+          "url": "https://capitol.texas.gov/Reports/Report.aspx?LegSess=86R&ID=author&Code=A3635",
+          "date": "2019",
+          "id": "p2-s2"
+        },
+        {
+          "title": "Bills Authored and Joint Authored: Rep. Jon E. Rosenthal, 87th Legislature",
+          "publisher": "Texas Legislature Online",
+          "url": "https://capitol.texas.gov/Reports/Report.aspx?LegSess=87R&ID=author&Code=A3635",
+          "date": "2021",
+          "id": "p2-s3"
+        },
+        {
+          "title": "Bills Authored and Joint Authored: Rep. Jon E. Rosenthal, 88th Legislature",
+          "publisher": "Texas Legislature Online",
+          "url": "https://capitol.texas.gov/Reports/Report.aspx?LegSess=88R&ID=author&Code=A3635",
+          "date": "2023",
+          "id": "p2-s4"
+        },
+        {
+          "title": "Bills Authored and Joint Authored: Rep. Jon E. Rosenthal, 89th Legislature",
+          "publisher": "Texas Legislature Online",
+          "url": "https://capitol.texas.gov/Reports/Report.aspx?LegSess=89R&ID=author&Code=A3635",
+          "date": "2025",
+          "id": "p2-s5"
+        },
+        {
+          "title": "House Journal, 88th Legislature, Regular Session, Day 69: SB 2627 on third reading (Record 1977)",
+          "publisher": "Texas House of Representatives",
+          "url": "http://journals.house.texas.gov/hjrnl/88r/pdf/88RDAY69FINAL.PDF#page=7&seqNum=367",
+          "date": "2023-05",
+          "id": "p2-s6"
+        },
+        {
+          "title": "Bill History: HB 4584, 89th Legislature, Regular Session",
+          "publisher": "Texas Legislature Online",
+          "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB4584",
+          "date": "2025",
+          "id": "p2-s7"
+        },
+        {
+          "title": "House Journal, 87th Legislature, Regular Session, Day 47: HB 2730 on third reading (Record 1026)",
+          "publisher": "Texas House of Representatives",
+          "url": "http://journals.house.texas.gov/hjrnl/87r/pdf/87RDAY47FINAL.PDF#page=37&seqNum=121",
+          "date": "2021-05",
+          "id": "p2-s8"
+        },
+        {
+          "title": "Meet the Mechanical Engineer Running to Regulate the Texas Oil and Gas Industry",
+          "publisher": "Inside Climate News",
+          "url": "https://insideclimatenews.org/news/11092026/democrat-jon-rosenthal-runs-to-regulate-texas-oil-gas-industry/",
+          "date": "2026-09-11",
+          "id": "p2-s9"
+        },
+        {
+          "title": "Texas Railroad Commission race pits oil field engineer against energy trader running on culture wars",
+          "publisher": "The Texas Tribune",
+          "url": "https://www.texastribune.org/2026/06/16/texas-railroad-commission-general-election-bo-french-jon-rosenthal-social-issues-oil-gas/",
+          "date": "2026-06-16",
+          "id": "p2-s10"
+        }
+      ],
+      "research_gaps": ""
+    },
+    {
+      "id": "arthur-dibianca",
+      "race_id": "railroad-commissioner",
+      "incumbent": false,
+      "priorities": [],
+      "promises": [],
+      "record": [],
+      "notes": [
+        {
+          "text": "Says he has no personal connections to the oil and gas industry and therefore no conflicts of interest.",
+          "sources": [
+            "p2-s1"
+          ]
+        }
+      ],
+      "stances": {},
+      "issue_notes": [
+        {
+          "topic": "Pipeline Regulation",
+          "summary": "Says pipeline regulation should be transferred from the Railroad Commission to TxDOT.",
+          "sources": [
+            "p2-s1"
+          ]
+        },
+        {
+          "topic": "Property Damage",
+          "summary": "Says regulations should ensure prompt restitution to property owners when energy production damages their property, through insurance, bonding or cleanup funds.",
+          "sources": [
+            "p2-s1"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Voters Guide: Texas Midterm General Election, November 3, 2026",
+          "publisher": "League of Women Voters of Texas",
+          "url": "https://irp.cdn-website.com/7c58b2a7/files/uploaded/LWVTX-VG-2026-11-ENG_fn.pdf",
+          "date": "2026-10",
+          "id": "p2-s1"
+        }
+      ],
+      "research_gaps": "No position was found on contribution limits or ethics rules."
+    },
+    {
+      "id": "greg-abbott",
+      "race_id": "governor",
+      "incumbent": true,
+      "priorities": [],
+      "promises": [],
+      "record": [
+        {
+          "text": "Signed HB 2730 (2021), regulating land acquisition by entities with eminent domain authority and easement or right-of-way agents.",
+          "sources": [
+            "p2-s6"
+          ]
+        },
+        {
+          "text": "With Lt. Gov. Patrick, announced in July 2024 a plan to expand the Texas Energy Fund, a low-interest loan program for dispatchable natural gas plants, from $5 billion to $10 billion.",
+          "sources": [
+            "p2-s4"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Did not respond to the League of Women Voters of Texas questionnaire for its November 2026 voters guide.",
+          "sources": [
+            "p2-s7"
+          ]
+        }
+      ],
+      "stances": {
+        "q_gambling": {
+          "position": 1,
+          "basis": "statement",
+          "summary": "Said in February 2025 that he favors \"giving it to the voters and let the voters decide\" on expanded gaming and that he does not have a problem with a sports betting proposal.",
+          "sources": [
+            "p2-s1",
+            "p2-s2"
+          ]
+        },
+        "q_legal_status": {
+          "position": -1,
+          "basis": "statement",
+          "summary": "Called a 2024 federal plan offering relief to long-present undocumented immigrants a \"mass amnesty\" that was \"blatantly illegal,\" saying only Congress can change immigration law.",
+          "sources": [
+            "p2-s3"
+          ]
+        },
+        "q_fossil_priority": {
+          "position": 1,
+          "basis": "record",
+          "summary": "Backs the Texas Energy Fund for dispatchable natural gas plants and sought to double it in 2024; no statement opposing wind or solar was found.",
+          "sources": [
+            "p2-s4"
+          ]
+        },
+        "q_min_wage": {
+          "position": -1,
+          "basis": "statement",
+          "summary": "His office said in 2021 that a government-imposed $15 minimum wage \"would put a boot on the neck of small businesses\"; no 2026 statement was found.",
+          "sources": [
+            "p2-s5"
+          ]
+        },
+        "q_eminent_domain": {
+          "position": 1,
+          "basis": "record",
+          "summary": "Signed HB 2730 (2021), which added rules for land acquisition by entities with eminent domain authority; the bill passed both chambers nearly unanimously.",
+          "sources": [
+            "p2-s6"
+          ]
+        }
+      },
+      "issue_notes": [],
+      "sources": [
+        {
+          "title": "Gov. Abbott open to letting voters decide on sports betting",
+          "publisher": "FOX 4 News",
+          "url": "https://www.fox4news.com/news/gov-greg-abbott-voters-sports-betting-casino",
+          "date": "2025-02-06",
+          "id": "p2-s1"
+        },
+        {
+          "title": "Casino and sports betting companies press for a win in Texas despite Senate opposition",
+          "publisher": "The Texas Tribune",
+          "url": "https://www.texastribune.org/2025/02/11/texas-legislature-gambling-casinos-sports-betting",
+          "date": "2025-02-11",
+          "id": "p2-s2"
+        },
+        {
+          "title": "Governor Abbott Statement On President Biden's Mass Amnesty Policy",
+          "publisher": "Office of the Texas Governor",
+          "url": "https://gov.texas.gov/news/post/governor-abbott-statement-on-president-bidens-mass-amnesty-policy",
+          "date": "2024-06-18",
+          "id": "p2-s3"
+        },
+        {
+          "title": "Governor Abbott, Lt. Governor Patrick Joint Statement On Texas Energy Fund",
+          "publisher": "Office of the Texas Governor",
+          "url": "https://gov.texas.gov/news/post/governor-abbott-lt-governor-patrick-joint-statement-on-texas-energy-fund",
+          "date": "2024-07-01",
+          "id": "p2-s4"
+        },
+        {
+          "title": "Democrats' $15 minimum wage bill 'would put a boot on the neck' of Texas' small businesses, Abbott's office warns",
+          "publisher": "Fox Business",
+          "url": "https://foxbusiness.com/economy/abbott-democrats-15-minimum-wage-small-businesses",
+          "date": "2021-02-08",
+          "id": "p2-s5"
+        },
+        {
+          "title": "Bill History: HB 2730, 87th Legislature, Regular Session",
+          "publisher": "Texas Legislature Online",
+          "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=87R&Bill=HB2730",
+          "date": "2021-06-16",
+          "id": "p2-s6"
+        },
+        {
+          "title": "Voters Guide: Texas Midterm General Election, November 3, 2026",
+          "publisher": "League of Women Voters of Texas",
+          "url": "https://irp.cdn-website.com/7c58b2a7/files/uploaded/LWVTX-VG-2026-11-ENG_fn.pdf",
+          "date": "2026-10",
+          "id": "p2-s7"
+        }
+      ],
+      "research_gaps": "No documented position was found on oil and gas emissions rules, contribution limits or judicial selection."
+    },
+    {
+      "id": "gina-hinojosa",
+      "race_id": "governor",
+      "incumbent": false,
+      "priorities": [],
+      "promises": [],
+      "record": [
+        {
+          "text": "Voted for HB 2730 in 2021, which regulated land acquisition by entities with eminent domain authority; it passed the House 143 to 1.",
+          "sources": [
+            "p2-s2"
+          ]
+        }
+      ],
+      "notes": [],
+      "stances": {
+        "q_legal_status": {
+          "position": 2,
+          "basis": "questionnaire",
+          "summary": "Says longtime, law-abiding residents should have a path to legal status.",
+          "sources": [
+            "p2-s1"
+          ]
+        },
+        "q_eminent_domain": {
+          "position": 1,
+          "basis": "record",
+          "summary": "Voted for HB 2730 (2021), which added rules for land acquisition by entities with eminent domain authority; the bill passed the House nearly unanimously.",
+          "sources": [
+            "p2-s2"
+          ]
+        },
+        "q_voting_access": {
+          "position": 2,
+          "basis": "questionnaire",
+          "summary": "Says she has filed and supported dozens of bills to expand voting access, including online voter registration and better ballot access for students; this adds her own statement to the earlier record-based stance.",
+          "sources": [
+            "p2-s1"
+          ],
+          "replace": true
+        }
+      },
+      "issue_notes": [
+        {
+          "topic": "Labor",
+          "summary": "Says she helped defeat a bill to end prevailing wage requirements, and she is a member of the Communications Workers of America.",
+          "sources": [
+            "p2-s3"
+          ]
+        },
+        {
+          "topic": "Gun Violence",
+          "summary": "In 2019 joined Democratic lawmakers urging a special session on gun violence and said a person with an active murder warrant could legally pass a Texas background check, a claim PolitiFact rated Mostly True.",
+          "sources": [
+            "p2-s4"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Voters Guide: Texas Midterm General Election, November 3, 2026",
+          "publisher": "League of Women Voters of Texas",
+          "url": "https://irp.cdn-website.com/7c58b2a7/files/uploaded/LWVTX-VG-2026-11-ENG_fn.pdf",
+          "date": "2026-10",
+          "id": "p2-s1"
+        },
+        {
+          "title": "House Journal, 87th Legislature, Regular Session, Day 47: HB 2730 on third reading (Record 1026)",
+          "publisher": "Texas House of Representatives",
+          "url": "http://journals.house.texas.gov/hjrnl/87r/pdf/87RDAY47FINAL.PDF#page=37&seqNum=121",
+          "date": "2021-05",
+          "id": "p2-s2"
+        },
+        {
+          "title": "STATEMENT: On May Day, Gina Hinojosa Vows to End Abbott's Years of Putting Billionaire Donors Over Working Texans",
+          "publisher": "Gina Hinojosa campaign",
+          "url": "https://ginafortexas.com/2026/05/statement-on-may-day-gina-hinojosa-vows-to-end-abbotts-years-of-putting-billionaire-donors-over-working-texans/",
+          "date": "2026-05-01",
+          "id": "p2-s3"
+        },
+        {
+          "title": "Can you have an outstanding arrest warrant for murder and pass a background check in Texas?",
+          "publisher": "PolitiFact",
+          "url": "https://www.politifact.com/factchecks/2019/sep/20/gina-hinojosa/can-you-have-outstanding-arrest-warrant-murder-and/",
+          "date": "2019-09-20",
+          "id": "p2-s4"
+        }
+      ],
+      "research_gaps": "No documented position was found on the minimum wage, gambling, oil and gas rules, contribution limits or judicial selection."
+    },
+    {
+      "id": "dan-patrick",
+      "race_id": "lt-governor",
+      "incumbent": true,
+      "priorities": [],
+      "promises": [
+        {
+          "text": "Proposes \"Operation Double Nickel\": raising the school homestead exemption to $180,000 and lowering the age for the senior exemption and tax freeze from 65 to 55.",
+          "sources": [
+            "p2-s1",
+            "p2-s2"
+          ]
+        }
+      ],
+      "record": [
+        {
+          "text": "Called SB 14 (2023), which bars gender transition treatments for minors, one of his top priorities when the Senate passed it.",
+          "sources": [
+            "p2-s7"
+          ]
+        },
+        {
+          "text": "Did not allow House-passed sports betting and casino amendments to advance in the Senate in 2023, saying there was no support among Senate Republicans.",
+          "sources": [
+            "p2-s5",
+            "p2-s6"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Did not respond to the League of Women Voters of Texas questionnaire for its November 2026 voters guide.",
+          "sources": [
+            "p2-s8"
+          ]
+        }
+      ],
+      "stances": {
+        "q_prop_tax_eliminate": {
+          "position": 1,
+          "basis": "statement",
+          "summary": "Says Texas is on a path to eliminate school property taxes for every homeowner within two or three sessions through larger homestead exemptions, but argues eliminating property taxes entirely would lead to massive sales tax increases.",
+          "sources": [
+            "p2-s1",
+            "p2-s2"
+          ]
+        },
+        "q_medicaid": {
+          "position": -2,
+          "basis": "statement",
+          "summary": "Said in 2025, \"We are one of the states that did not go along with that Medicaid expansion and thank goodness,\" and in 2018 called not expanding Medicaid one of the best things the Senate did.",
+          "sources": [
+            "p2-s3",
+            "p2-s4"
+          ]
+        },
+        "q_gambling": {
+          "position": -1,
+          "basis": "record",
+          "summary": "Has kept casino and sports betting amendments from reaching a Senate vote, citing a lack of support among Senate Republicans; he has not publicly stated a personal view on letting voters decide.",
+          "sources": [
+            "p2-s5",
+            "p2-s6"
+          ]
+        },
+        "q_trans_minors": {
+          "position": 2,
+          "basis": "statement",
+          "summary": "Called gender transition treatment for minors abhorrent and made SB 14 (2023), which bans it, one of his top priorities.",
+          "sources": [
+            "p2-s7"
+          ]
+        }
+      },
+      "issue_notes": [],
+      "sources": [
+        {
+          "title": "Lt. Gov. Dan Patrick wants to increase the homestead exemption for school property taxes again",
+          "publisher": "The Texas Tribune",
+          "url": "https://www.texastribune.org/2025/12/09/texas-dan-patrick-school-property-tax-cuts-homestead-exemption",
+          "date": "2025-12-09",
+          "id": "p2-s1"
+        },
+        {
+          "title": "Lt. Gov. Dan Patrick says his plan can eliminate school property taxes for homesteads in several sessions",
+          "publisher": "CBS News Texas",
+          "url": "https://www.cbsnews.com/texas/news/texas-lt-governor-dan-patrick-plan-eliminate-school-property-taxes-homesteads-sessions",
+          "date": "2025-12-14",
+          "id": "p2-s2"
+        },
+        {
+          "title": "Will 2025 be the year Texas expands Medicaid? Not likely, advocates say",
+          "publisher": "Texas Standard (KERA News)",
+          "url": "https://www.texasstandard.org/stories/texas-legislature-2025-medicaid-expansion-health-care/",
+          "date": "2025-01-08",
+          "id": "p2-s3"
+        },
+        {
+          "title": "Why Texas Republicans still oppose Medicaid expansion",
+          "publisher": "The Texas Tribune",
+          "url": "https://www.texastribune.org/2022/11/07/texas-medicaid-expansion-republicans",
+          "date": "2022-11-07",
+          "id": "p2-s4"
+        },
+        {
+          "title": "Dan Patrick's Reelection Bid Dims Hopes for Texas Sports Betting, Casino Expansion",
+          "publisher": "CasinoBeats",
+          "url": "https://casinobeats.com/2025/09/03/dan-patrick-reelection-texas-casino-sports-betting/",
+          "date": "2025-09-03",
+          "id": "p2-s5"
+        },
+        {
+          "title": "Casino and sports betting companies press for a win in Texas despite Senate opposition",
+          "publisher": "The Texas Tribune",
+          "url": "https://www.texastribune.org/2025/02/11/texas-legislature-gambling-casinos-sports-betting",
+          "date": "2025-02-11",
+          "id": "p2-s6"
+        },
+        {
+          "title": "Lt. Gov. Dan Patrick: Statement on the Passage of Senate Bill 14, Ending Child Gender Modification",
+          "publisher": "Office of the Lieutenant Governor",
+          "url": "https://www.ltgov.texas.gov/2023/04/04/lt-gov-dan-patrick-statement-on-the-passage-of-senate-bill-14-ending-child-gender-modification",
+          "date": "2023-04-04",
+          "id": "p2-s7"
+        },
+        {
+          "title": "Voters Guide: Texas Midterm General Election, November 3, 2026",
+          "publisher": "League of Women Voters of Texas",
+          "url": "https://irp.cdn-website.com/7c58b2a7/files/uploaded/LWVTX-VG-2026-11-ENG_fn.pdf",
+          "date": "2026-10",
+          "id": "p2-s8"
+        }
+      ],
+      "research_gaps": "No documented position was found on the minimum wage, a path to legal status, oil and gas rules, eminent domain, contribution limits, preemption of local rules or judicial selection."
+    },
+    {
+      "id": "vikki-goodwin",
+      "race_id": "lt-governor",
+      "incumbent": false,
+      "priorities": [],
+      "promises": [],
+      "record": [
+        {
+          "text": "Voted for HB 2730 in 2021, which regulated land acquisition by entities with eminent domain authority; it passed the House 143 to 1.",
+          "sources": [
+            "p2-s1"
+          ]
+        }
+      ],
+      "notes": [],
+      "stances": {
+        "q_eminent_domain": {
+          "position": 1,
+          "basis": "record",
+          "summary": "Voted for HB 2730 (2021), which added rules for land acquisition by entities with eminent domain authority; the bill passed the House nearly unanimously.",
+          "sources": [
+            "p2-s1"
+          ]
+        }
+      },
+      "issue_notes": [],
+      "sources": [
+        {
+          "title": "House Journal, 87th Legislature, Regular Session, Day 47: HB 2730 on third reading (Record 1026)",
+          "publisher": "Texas House of Representatives",
+          "url": "http://journals.house.texas.gov/hjrnl/87r/pdf/87RDAY47FINAL.PDF#page=37&seqNum=121",
+          "date": "2021-05",
+          "id": "p2-s1"
+        }
+      ],
+      "research_gaps": ""
+    },
+    {
+      "id": "nathan-johnson",
+      "race_id": "attorney-general",
+      "incumbent": false,
+      "priorities": [],
+      "promises": [],
+      "record": [
+        {
+          "text": "Voted for SB 3 (2025), the hemp-derived THC ban, while stating in the Senate Journal that an outright ban is not the right approach and that he favors decriminalizing small amounts and a legal, regulated THC market; Gov. Abbott later vetoed the bill.",
+          "sources": [
+            "p2-s2"
+          ]
+        },
+        {
+          "text": "Filed SB 2028 (2025) to decriminalize marijuana possession and reduce sentencing ranges, and SB 928 (2025) to add chronic pain to the Compassionate Use Program, according to his reason for vote.",
+          "sources": [
+            "p2-s2"
+          ]
+        },
+        {
+          "text": "Voted against SB 17 (2025), which restricts land purchases by people and entities tied to certain foreign nations.",
+          "sources": [
+            "p2-s3"
+          ]
+        },
+        {
+          "text": "Voted against SB 14 (2023), which bars gender transition treatments for minors.",
+          "sources": [
+            "p2-s4"
+          ]
+        },
+        {
+          "text": "Voted for SB 9 and SJR 5 (2025), expanding the denial of bail for certain violent felony charges.",
+          "sources": [
+            "p2-s5",
+            "p2-s6"
+          ]
+        },
+        {
+          "text": "Voted against SB 1 (2021), the election law that added voting rules and criminal penalties.",
+          "sources": [
+            "p2-s7"
+          ]
+        }
+      ],
+      "notes": [],
+      "stances": {
+        "q_cannabis": {
+          "position": 0,
+          "basis": "record",
+          "summary": "Voted for the 2025 THC ban but stated he opposes an outright ban and supports decriminalization and a legal, strictly regulated THC market.",
+          "sources": [
+            "p2-s2"
+          ]
+        },
+        "q_foreign_land": {
+          "position": -1,
+          "basis": "record",
+          "summary": "Voted against SB 17 (2025), which restricts land purchases by entities tied to certain foreign nations.",
+          "sources": [
+            "p2-s3"
+          ]
+        },
+        "q_trans_minors": {
+          "position": -2,
+          "basis": "record",
+          "summary": "Voted against SB 14 (2023), the state ban on gender transition treatments for minors.",
+          "sources": [
+            "p2-s4"
+          ]
+        },
+        "q_bail": {
+          "position": 1,
+          "basis": "record",
+          "summary": "Voted for SB 9 and SJR 5 (2025), which expanded bail denial for certain violent felony charges.",
+          "sources": [
+            "p2-s5",
+            "p2-s6"
+          ]
+        },
+        "q_voting_access": {
+          "position": 1,
+          "basis": "record",
+          "summary": "Voted against SB 1 (2021), which added voting rules, and says he would challenge federal efforts to block mail-in voting.",
+          "sources": [
+            "p2-s7",
+            "p2-s1"
+          ]
+        },
+        "q_election_fraud": {
+          "position": -1,
+          "basis": "record",
+          "summary": "Voted against SB 1 (2021), whose caption describes preventing election fraud and increasing criminal penalties; says he would enforce election security laws without political motive.",
+          "sources": [
+            "p2-s7",
+            "p2-s1"
+          ]
+        },
+        "q_eminent_domain": {
+          "position": 1,
+          "basis": "record",
+          "summary": "Voted with the full Senate for HB 2730 (2021), which added rules for land acquisition by entities with eminent domain authority.",
+          "sources": [
+            "p2-s8"
+          ]
+        }
+      },
+      "issue_notes": [
+        {
+          "topic": "Abortion Litigation",
+          "summary": "Asked about suing other states that provide abortion medications, said Texas law does not have extraterritorial jurisdiction.",
+          "sources": [
+            "p2-s1"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "title": "Voters Guide: Texas Midterm General Election, November 3, 2026",
+          "publisher": "League of Women Voters of Texas",
+          "url": "https://irp.cdn-website.com/7c58b2a7/files/uploaded/LWVTX-VG-2026-11-ENG_fn.pdf",
+          "date": "2026-10",
+          "id": "p2-s1"
+        },
+        {
+          "title": "Senate Journal, 89th Legislature, Regular Session: SB 3 on third reading, with reasons for vote",
+          "publisher": "Texas Senate",
+          "url": "http://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ03-19-F1.PDF#page=15&seqNum=191",
+          "date": "2025-03-19",
+          "id": "p2-s2"
+        },
+        {
+          "title": "Senate Journal, 89th Legislature, Regular Session: SB 17 on third reading",
+          "publisher": "Texas Senate",
+          "url": "http://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ03-19-F.PDF#page=6&seqNum=121",
+          "date": "2025-03-19",
+          "id": "p2-s3"
+        },
+        {
+          "title": "Senate Journal, 88th Legislature, Regular Session: SB 14 on third reading",
+          "publisher": "Texas Senate",
+          "url": "http://journals.senate.texas.gov/sjrnl/88r/pdf/88RSJ04-04-F.PDF#page=13&seqNum=249",
+          "date": "2023-04-04",
+          "id": "p2-s4"
+        },
+        {
+          "title": "Senate Journal, 89th Legislature, Regular Session: SB 9 on third reading",
+          "publisher": "Texas Senate",
+          "url": "http://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ02-19-F.PDF#page=13&seqNum=146",
+          "date": "2025-02-19",
+          "id": "p2-s5"
+        },
+        {
+          "title": "Senate Journal, 89th Legislature, Regular Session: SJR 5 on third reading",
+          "publisher": "Texas Senate",
+          "url": "http://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ02-20-F.PDF#page=2&seqNum=111",
+          "date": "2025-02-20",
+          "id": "p2-s6"
+        },
+        {
+          "title": "Senate Journal, 87th Legislature, 2nd Called Session: SB 1 on third reading",
+          "publisher": "Texas Senate",
+          "url": "http://journals.senate.texas.gov/sjrnl/872/pdf/87S208-11-F.PDF#page=4&seqNum=300",
+          "date": "2021-08-12",
+          "id": "p2-s7"
+        },
+        {
+          "title": "Senate Journal, 87th Legislature, Regular Session: HB 2730 on local and uncontested calendar",
+          "publisher": "Texas Senate",
+          "url": "http://journals.senate.texas.gov/sjrnl/87r/pdf/87RSJ05-26-F.PDF#page=240&seqNum=173",
+          "date": "2021-05-27",
+          "id": "p2-s8"
+        }
+      ],
+      "research_gaps": "No position was found on contribution limits or ethics rules."
+    },
+    {
+      "id": "mayes-middleton",
+      "race_id": "attorney-general",
+      "incumbent": false,
+      "priorities": [],
+      "promises": [],
+      "record": [
+        {
+          "text": "Voted for SB 3 (2025), which would have banned hemp-derived THC products; Gov. Abbott vetoed it.",
+          "sources": [
+            "p2-s2"
+          ]
+        },
+        {
+          "text": "Voted for SB 14 (2023), which bars gender transition treatments for minors.",
+          "sources": [
+            "p2-s3"
+          ]
+        },
+        {
+          "text": "As a House member, voted for SB 1 (2021), the election law that added voting rules and criminal penalties.",
+          "sources": [
+            "p2-s4"
+          ]
+        },
+        {
+          "text": "As a House member, voted for HB 2730 (2021), which regulated land acquisition by entities with eminent domain authority; it passed 143 to 1.",
+          "sources": [
+            "p2-s5"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Did not respond to the League of Women Voters of Texas questionnaire for its November 2026 voters guide.",
+          "sources": [
+            "p2-s1"
+          ]
+        }
+      ],
+      "stances": {
+        "q_cannabis": {
+          "position": -1,
+          "basis": "record",
+          "summary": "Voted for SB 3 (2025), which would have banned hemp-derived THC products.",
+          "sources": [
+            "p2-s2"
+          ]
+        },
+        "q_trans_minors": {
+          "position": 2,
+          "basis": "record",
+          "summary": "Voted for SB 14 (2023), the state ban on gender transition treatments for minors; this replaces the earlier inferred stance with his recorded vote.",
+          "sources": [
+            "p2-s3"
+          ],
+          "replace": true
+        },
+        "q_voting_access": {
+          "position": -1,
+          "basis": "record",
+          "summary": "Voted for SB 1 (2021), which added voting rules and criminal penalties.",
+          "sources": [
+            "p2-s4"
+          ]
+        },
+        "q_eminent_domain": {
+          "position": 1,
+          "basis": "record",
+          "summary": "Voted for HB 2730 (2021), which added rules for land acquisition by entities with eminent domain authority; the bill passed the House nearly unanimously.",
+          "sources": [
+            "p2-s5"
+          ]
+        }
+      },
+      "issue_notes": [],
+      "sources": [
+        {
+          "title": "Voters Guide: Texas Midterm General Election, November 3, 2026",
+          "publisher": "League of Women Voters of Texas",
+          "url": "https://irp.cdn-website.com/7c58b2a7/files/uploaded/LWVTX-VG-2026-11-ENG_fn.pdf",
+          "date": "2026-10",
+          "id": "p2-s1"
+        },
+        {
+          "title": "Senate Journal, 89th Legislature, Regular Session: SB 3 on third reading, with reasons for vote",
+          "publisher": "Texas Senate",
+          "url": "http://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ03-19-F1.PDF#page=15&seqNum=191",
+          "date": "2025-03-19",
+          "id": "p2-s2"
+        },
+        {
+          "title": "Senate Journal, 88th Legislature, Regular Session: SB 14 on third reading",
+          "publisher": "Texas Senate",
+          "url": "http://journals.senate.texas.gov/sjrnl/88r/pdf/88RSJ04-04-F.PDF#page=13&seqNum=249",
+          "date": "2023-04-04",
+          "id": "p2-s3"
+        },
+        {
+          "title": "House Journal, 87th Legislature, 2nd Called Session, Day 4: SB 1 on third reading (Record 61)",
+          "publisher": "Texas House of Representatives",
+          "url": "http://journals.house.texas.gov/hjrnl/872/pdf/87C2DAY04FINAL.PDF#page=3&seqNum=1286",
+          "date": "2021-08-27",
+          "id": "p2-s4"
+        },
+        {
+          "title": "House Journal, 87th Legislature, Regular Session, Day 47: HB 2730 on third reading (Record 1026)",
+          "publisher": "Texas House of Representatives",
+          "url": "http://journals.house.texas.gov/hjrnl/87r/pdf/87RDAY47FINAL.PDF#page=37&seqNum=121",
+          "date": "2021-05",
+          "id": "p2-s5"
+        }
+      ],
+      "research_gaps": "No position was found on contribution limits or ethics rules."
+    },
+    {
+      "id": "sarah-eckhardt",
+      "race_id": "comptroller",
+      "incumbent": false,
+      "priorities": [],
+      "promises": [
+        {
+          "text": "Says she would tap the Rainy Day Fund to help low-income Texans with health insurance costs in the first year after the loss of federal ACA tax credits.",
+          "sources": [
+            "p2-s1"
+          ]
+        },
+        {
+          "text": "Says she will review the contract with the vendor Odyssey that administers the education savings account program.",
+          "sources": [
+            "p2-s1"
+          ]
+        },
+        {
+          "text": "Says she will create a web dashboard of state revenue and spending and rebuild nonpartisan tax and audit staff.",
+          "sources": [
+            "p2-s1"
+          ]
+        }
+      ],
+      "record": [
+        {
+          "text": "Voted for SB 7 (2025) on the oversight and financing of water infrastructure, which passed the Senate 31 to 0.",
+          "sources": [
+            "p2-s2"
+          ]
+        }
+      ],
+      "notes": [],
+      "stances": {
+        "q_water": {
+          "position": 1,
+          "basis": "record",
+          "summary": "Voted for SB 7 (2025) on water infrastructure financing and says she would advise the Legislature on the benefits of one-time Rainy Day Fund investments in water infrastructure.",
+          "sources": [
+            "p2-s2",
+            "p2-s1"
+          ]
+        }
+      },
+      "issue_notes": [],
+      "sources": [
+        {
+          "title": "Voters Guide: Texas Midterm General Election, November 3, 2026",
+          "publisher": "League of Women Voters of Texas",
+          "url": "https://irp.cdn-website.com/7c58b2a7/files/uploaded/LWVTX-VG-2026-11-ENG_fn.pdf",
+          "date": "2026-10",
+          "id": "p2-s1"
+        },
+        {
+          "title": "Senate Journal, 89th Legislature, Regular Session: SB 7 on third reading",
+          "publisher": "Texas Senate",
+          "url": "http://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ04-02-F.PDF#page=20&seqNum=171",
+          "date": "2025-04-02",
+          "id": "p2-s2"
+        }
+      ],
+      "research_gaps": "No documented position was found on eliminating school property taxes, a spending cap or contribution limits."
+    },
+    {
+      "id": "don-huffines",
+      "race_id": "comptroller",
+      "incumbent": true,
+      "priorities": [],
+      "promises": [],
+      "record": [],
+      "notes": [
+        {
+          "text": "Did not respond to the League of Women Voters of Texas questionnaire for its November 2026 voters guide.",
+          "sources": [
+            "p2-s1"
+          ]
+        }
+      ],
+      "stances": {},
+      "issue_notes": [],
+      "sources": [
+        {
+          "title": "Voters Guide: Texas Midterm General Election, November 3, 2026",
+          "publisher": "League of Women Voters of Texas",
+          "url": "https://irp.cdn-website.com/7c58b2a7/files/uploaded/LWVTX-VG-2026-11-ENG_fn.pdf",
+          "date": "2026-10",
+          "id": "p2-s1"
+        }
+      ],
+      "research_gaps": ""
+    },
+    {
+      "id": "dawn-buckingham",
+      "race_id": "land-commissioner",
+      "incumbent": true,
+      "priorities": [],
+      "promises": [],
+      "record": [
+        {
+          "text": "As a state senator, voted with the full Senate for HB 2730 (2021), which regulated land acquisition by entities with eminent domain authority and right-of-way agents.",
+          "sources": [
+            "p2-s1"
+          ]
+        }
+      ],
+      "notes": [],
+      "stances": {
+        "q_eminent_domain": {
+          "position": 1,
+          "basis": "record",
+          "summary": "Voted with the full Senate for HB 2730 (2021), which added rules for land acquisition by entities with eminent domain authority.",
+          "sources": [
+            "p2-s1"
+          ]
+        }
+      },
+      "issue_notes": [],
+      "sources": [
+        {
+          "title": "Senate Journal, 87th Legislature, Regular Session: HB 2730 on local and uncontested calendar",
+          "publisher": "Texas Senate",
+          "url": "http://journals.senate.texas.gov/sjrnl/87r/pdf/87RSJ05-26-F.PDF#page=240&seqNum=173",
+          "date": "2021-05-27",
+          "id": "p2-s1"
+        }
+      ],
+      "research_gaps": ""
+    }
+  ]
+}
