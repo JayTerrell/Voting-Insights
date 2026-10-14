@@ -169,14 +169,27 @@ function mergeSupplement(base, extra, file) {
 }
 
 const files = (existsSync(researchDir) ? readdirSync(researchDir) : []).filter((f) => f.endsWith('.json')).sort();
+// Fact-check files can list stances that their sources do not support.
+const removals = [];
 const isSupplement = (f) => /^pass\d+-/.test(f);
 for (const f of [...files.filter((x) => !isSupplement(x)), ...files.filter(isSupplement)]) {
   const data = JSON.parse(readFileSync(join(researchDir, f), 'utf8'));
   if (data.parties) parties = data.parties;
+  for (const r of data.remove_stances || []) removals.push({ ...r, file: f });
   for (const c of data.candidates || []) {
     if (!research.has(c.id)) research.set(c.id, structuredClone(c));
     else if (isSupplement(f)) mergeSupplement(research.get(c.id), c, f);
     else warn(`duplicate research entry for ${c.id} in ${f}`);
+  }
+}
+
+for (const r of removals) {
+  const entry = research.get(r.candidate);
+  if (entry?.stances?.[r.question]) {
+    delete entry.stances[r.question];
+    console.log(`removed ${r.candidate} ${r.question} (${r.file}): ${r.reason || 'not supported by its source'}`);
+  } else {
+    warn(`${r.file}: remove_stances entry ${r.candidate} ${r.question} matched nothing`);
   }
 }
 

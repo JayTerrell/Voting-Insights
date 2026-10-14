@@ -108,3 +108,13 @@ A follow-up pass adds to existing research without rewriting it. Write a separat
 - `website`, `current_role`, and `background` replace the original only if you include them.
 
 The build merges supplement files into the original entries automatically.
+
+### Removing unsupported stances
+
+A fact-check file may include a top-level `remove_stances` list:
+
+```json
+{ "remove_stances": [{ "candidate": "candidate-id", "question": "q_id", "reason": "Source does not state this position." }] }
+```
+
+The build deletes each listed stance after merging and prints what it removed.
