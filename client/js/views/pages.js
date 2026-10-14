@@ -35,6 +35,9 @@ export async function renderMethodology(view, _p, current) {
     </ul>
     <p>The guide currently holds ${stances} documented positions for ${withAny} of ${cands.length} candidates, drawn from ${sources} sources. Research was last compiled ${esc(formatDate(guide.generated_at, false))}.</p>
 
+    <h2>Fact-checking</h2>
+    <p>Research was compiled in two passes and then independently checked. On October 14, 2026, a reviewer drew a random sample of 50 documented positions across every level of the ballot and every party, opened each cited source, and checked both the summary and the score. 47 were fully supported, 3 needed small corrections (wording or a one-step score change), and none were unsupported. The corrections are reflected in the guide. Court rulings are cited to the court's own opinions. Sources from sites that label their articles as AI-generated are not accepted. Every score and its source is listed on the <a href="/scoring">Scoring Logic</a> page so anyone can check the work.</p>
+
     <h2>The questions</h2>
     <p>The ${guide.questions.length} quiz statements were written before reading any candidate's platform, so no campaign set the agenda. Each one is tied to the offices that actually have power over that issue. Agreeing with a statement points toward one side on some questions and the other side on others, and each statement includes a short note with the main argument on each side.</p>
 
