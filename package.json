@@ -1,0 +1,22 @@
+{
+  "name": "voting-insights",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Nonpartisan Collin County, Texas 2026 general election candidate guide and issue alignment quiz.",
+  "type": "module",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server/index.js",
+    "dev": "node --disable-warning=ExperimentalWarning --watch server/index.js",
+    "build:data": "node scripts/build-data.js",
+    "check:links": "node scripts/check-links.js",
+    "test": "node --disable-warning=ExperimentalWarning --test test/*.test.js"
+  },
+  "engines": {
+    "node": ">=22.13"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemailer": "^10.1.1"
+  }
+}

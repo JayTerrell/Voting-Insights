@@ -1,0 +1,1031 @@
+[
+ {
+  "id": "us-senate",
+  "title": "U.S. Senator",
+  "office_type": "us_senate",
+  "group": "federal",
+  "ballot_order": 0,
+  "candidates": [
+   {
+    "id": "ken-paxton",
+    "name": "Ken Paxton",
+    "party": "Republican"
+   },
+   {
+    "id": "james-talarico",
+    "name": "James Talarico",
+    "party": "Democratic"
+   },
+   {
+    "id": "ted-brown",
+    "name": "Ted Brown",
+    "party": "Libertarian"
+   }
+  ]
+ },
+ {
+  "id": "us-house-3",
+  "title": "U.S. Representative, District 3",
+  "office_type": "us_house",
+  "group": "federal",
+  "ballot_order": 1,
+  "candidates": [
+   {
+    "id": "keith-self",
+    "name": "Keith Self",
+    "party": "Republican"
+   },
+   {
+    "id": "evan-hunt",
+    "name": "Evan Hunt",
+    "party": "Democratic"
+   }
+  ]
+ },
+ {
+  "id": "us-house-4",
+  "title": "U.S. Representative, District 4",
+  "office_type": "us_house",
+  "group": "federal",
+  "ballot_order": 2,
+  "candidates": [
+   {
+    "id": "pat-fallon",
+    "name": "Pat Fallon",
+    "party": "Republican"
+   },
+   {
+    "id": "jason-pearce",
+    "name": "Jason Pearce",
+    "party": "Democratic"
+   }
+  ]
+ },
+ {
+  "id": "us-house-32",
+  "title": "U.S. Representative, District 32",
+  "office_type": "us_house",
+  "group": "federal",
+  "ballot_order": 3,
+  "candidates": [
+   {
+    "id": "jace-yarbrough",
+    "name": "Jace Yarbrough",
+    "party": "Republican"
+   },
+   {
+    "id": "dan-barrios",
+    "name": "Dan Barrios",
+    "party": "Democratic"
+   }
+  ]
+ },
+ {
+  "id": "governor",
+  "title": "Governor",
+  "office_type": "governor",
+  "group": "state",
+  "ballot_order": 4,
+  "candidates": [
+   {
+    "id": "greg-abbott",
+    "name": "Greg Abbott",
+    "party": "Republican"
+   },
+   {
+    "id": "gina-hinojosa",
+    "name": "Gina Hinojosa",
+    "party": "Democratic"
+   },
+   {
+    "id": "pat-dixon",
+    "name": "Pat Dixon",
+    "party": "Libertarian"
+   }
+  ]
+ },
+ {
+  "id": "lt-governor",
+  "title": "Lieutenant Governor",
+  "office_type": "lt_governor",
+  "group": "state",
+  "ballot_order": 5,
+  "candidates": [
+   {
+    "id": "dan-patrick",
+    "name": "Dan Patrick",
+    "party": "Republican"
+   },
+   {
+    "id": "vikki-goodwin",
+    "name": "Vikki Goodwin",
+    "party": "Democratic"
+   },
+   {
+    "id": "anthony-cristo",
+    "name": "Anthony Cristo",
+    "party": "Libertarian"
+   },
+   {
+    "id": "kevin-mccormick",
+    "name": "Kevin McCormick",
+    "party": "Green"
+   }
+  ]
+ },
+ {
+  "id": "attorney-general",
+  "title": "Attorney General",
+  "office_type": "attorney_general",
+  "group": "state",
+  "ballot_order": 6,
+  "candidates": [
+   {
+    "id": "mayes-middleton",
+    "name": "Mayes Middleton",
+    "party": "Republican"
+   },
+   {
+    "id": "nathan-johnson",
+    "name": "Nathan Johnson",
+    "party": "Democratic"
+   },
+   {
+    "id": "tom-oxford",
+    "name": "Tom Oxford",
+    "party": "Libertarian"
+   }
+  ]
+ },
+ {
+  "id": "comptroller",
+  "title": "Comptroller of Public Accounts",
+  "office_type": "comptroller",
+  "group": "state",
+  "ballot_order": 7,
+  "candidates": [
+   {
+    "id": "don-huffines",
+    "name": "Don Huffines",
+    "party": "Republican"
+   },
+   {
+    "id": "sarah-eckhardt",
+    "name": "Sarah Eckhardt",
+    "party": "Democratic"
+   },
+   {
+    "id": "v-alonzo-echavarria-garza",
+    "name": "V. Alonzo Echavarria-Garza",
+    "party": "Libertarian"
+   },
+   {
+    "id": "shehla-faizi",
+    "name": "Shehla Faizi",
+    "party": "Green"
+   }
+  ]
+ },
+ {
+  "id": "land-commissioner",
+  "title": "Commissioner of the General Land Office",
+  "office_type": "land_commissioner",
+  "group": "state",
+  "ballot_order": 8,
+  "candidates": [
+   {
+    "id": "dawn-buckingham",
+    "name": "Dawn Buckingham",
+    "party": "Republican"
+   },
+   {
+    "id": "benjamin-flores",
+    "name": "Benjamin Flores",
+    "party": "Democratic"
+   },
+   {
+    "id": "neill-snider",
+    "name": "Neill Snider",
+    "party": "Libertarian"
+   }
+  ]
+ },
+ {
+  "id": "agriculture-commissioner",
+  "title": "Commissioner of Agriculture",
+  "office_type": "agriculture_commissioner",
+  "group": "state",
+  "ballot_order": 9,
+  "candidates": [
+   {
+    "id": "nate-sheets",
+    "name": "Nate Sheets",
+    "party": "Republican"
+   },
+   {
+    "id": "clayton-tucker",
+    "name": "Clayton Tucker",
+    "party": "Democratic"
+   },
+   {
+    "id": "austin-r-kelly",
+    "name": "Austin R. Kelly",
+    "party": "Libertarian"
+   }
+  ]
+ },
+ {
+  "id": "railroad-commissioner",
+  "title": "Railroad Commissioner",
+  "office_type": "railroad_commissioner",
+  "group": "state",
+  "ballot_order": 10,
+  "candidates": [
+   {
+    "id": "bo-french",
+    "name": "Bo French",
+    "party": "Republican"
+   },
+   {
+    "id": "jon-rosenthal",
+    "name": "Jon Rosenthal",
+    "party": "Democratic"
+   },
+   {
+    "id": "arthur-dibianca",
+    "name": "Arthur DiBianca",
+    "party": "Libertarian"
+   }
+  ]
+ },
+ {
+  "id": "tx-supreme-chief",
+  "title": "Chief Justice, Supreme Court",
+  "office_type": "judicial",
+  "group": "state-judicial",
+  "ballot_order": 11,
+  "candidates": [
+   {
+    "id": "jimmy-blacklock",
+    "name": "Jimmy Blacklock",
+    "party": "Republican"
+   },
+   {
+    "id": "maggie-ellis",
+    "name": "Maggie Ellis",
+    "party": "Democratic"
+   }
+  ]
+ },
+ {
+  "id": "tx-supreme-2",
+  "title": "Justice, Supreme Court, Place 2 (Unexpired Term)",
+  "office_type": "judicial",
+  "group": "state-judicial",
+  "ballot_order": 12,
+  "candidates": [
+   {
+    "id": "james-p-sullivan",
+    "name": "James P. Sullivan",
+    "party": "Republican"
+   },
+   {
+    "id": "chari-kelly",
+    "name": "Chari Kelly",
+    "party": "Democratic"
+   }
+  ]
+ },
+ {
+  "id": "tx-supreme-7",
+  "title": "Justice, Supreme Court, Place 7",
+  "office_type": "judicial",
+  "group": "state-judicial",
+  "ballot_order": 13,
+  "candidates": [
+   {
+    "id": "kyle-hawkins",
+    "name": "Kyle Hawkins",
+    "party": "Republican"
+   },
+   {
+    "id": "kristen-hawkins",
+    "name": "Kristen Hawkins",
+    "party": "Democratic"
+   }
+  ]
+ },
+ {
+  "id": "tx-supreme-8",
+  "title": "Justice, Supreme Court, Place 8",
+  "office_type": "judicial",
+  "group": "state-judicial",
+  "ballot_order": 14,
+  "candidates": [
+   {
+    "id": "brett-busby",
+    "name": "Brett Busby",
+    "party": "Republican"
+   },
+   {
+    "id": "gisela-d-triana",
+    "name": "Gisela D. Triana",
+    "party": "Democratic"
+   }
+  ]
+ },
+ {
+  "id": "cca-3",
+  "title": "Judge, Court of Criminal Appeals, Place 3",
+  "office_type": "judicial",
+  "group": "state-judicial",
+  "ballot_order": 15,
+  "candidates": [
+   {
+    "id": "thomas-smith",
+    "name": "Thomas Smith",
+    "party": "Republican"
+   },
+   {
+    "id": "okey-anyiam",
+    "name": "Okey Anyiam",
+    "party": "Democratic"
+   },
+   {
+    "id": "mark-ash",
+    "name": "Mark Ash",
+    "party": "Libertarian"
+   }
+  ]
+ },
+ {
+  "id": "cca-4",
+  "title": "Judge, Court of Criminal Appeals, Place 4",
+  "office_type": "judicial",
+  "group": "state-judicial",
+  "ballot_order": 16,
+  "candidates": [
+   {
+    "id": "kevin-patrick-yeary",
+    "name": "Kevin Patrick Yeary",
+    "party": "Republican"
+   },
+   {
+    "id": "audra-riley",
+    "name": "Audra Riley",
+    "party": "Democratic"
+   }
+  ]
+ },
+ {
+  "id": "cca-9",
+  "title": "Judge, Court of Criminal Appeals, Place 9",
+  "office_type": "judicial",
+  "group": "state-judicial",
+  "ballot_order": 17,
+  "candidates": [
+   {
+    "id": "john-messinger",
+    "name": "John Messinger",
+    "party": "Republican"
+   },
+   {
+    "id": "holly-taylor",
+    "name": "Holly Taylor",
+    "party": "Democratic"
+   }
+  ]
+ },
+ {
+  "id": "state-senate-2",
+  "title": "State Senator, District 2",
+  "office_type": "state_senate",
+  "group": "legislative",
+  "ballot_order": 18,
+  "candidates": [
+   {
+    "id": "bob-hall",
+    "name": "Bob Hall",
+    "party": "Republican"
+   },
+   {
+    "id": "keenen-colbert",
+    "name": "Keenen Colbert",
+    "party": "Democratic"
+   }
+  ]
+ },
+ {
+  "id": "state-house-33",
+  "title": "State Representative, District 33",
+  "office_type": "state_house",
+  "group": "legislative",
+  "ballot_order": 19,
+  "candidates": [
+   {
+    "id": "katrina-pierson",
+    "name": "Katrina Pierson",
+    "party": "Republican"
+   },
+   {
+    "id": "orlando-lopez",
+    "name": "Orlando Lopez",
+    "party": "Democratic"
+   }
+  ]
+ },
+ {
+  "id": "state-house-61",
+  "title": "State Representative, District 61",
+  "office_type": "state_house",
+  "group": "legislative",
+  "ballot_order": 20,
+  "candidates": [
+   {
+    "id": "keresa-richardson",
+    "name": "Keresa Richardson",
+    "party": "Republican"
+   },
+   {
+    "id": "brittany-black",
+    "name": "Brittany Black",
+    "party": "Democratic"
+   },
+   {
+    "id": "anissa-chilmeran",
+    "name": "Anissa Chilmeran",
+    "party": "Green"
+   }
+  ]
+ },
+ {
+  "id": "state-house-66",
+  "title": "State Representative, District 66",
+  "office_type": "state_house",
+  "group": "legislative",
+  "ballot_order": 21,
+  "candidates": [
+   {
+    "id": "matt-shaheen",
+    "name": "Matt Shaheen",
+    "party": "Republican"
+   },
+   {
+    "id": "sandeep-srivastava",
+    "name": "Sandeep Srivastava",
+    "party": "Democratic"
+   }
+  ]
+ },
+ {
+  "id": "state-house-67",
+  "title": "State Representative, District 67",
+  "office_type": "state_house",
+  "group": "legislative",
+  "ballot_order": 22,
+  "candidates": [
+   {
+    "id": "jeff-leach",
+    "name": "Jeff Leach",
+    "party": "Republican"
+   },
+   {
+    "id": "jordan-wheatley",
+    "name": "Jordan Wheatley",
+    "party": "Democratic"
+   }
+  ]
+ },
+ {
+  "id": "state-house-70",
+  "title": "State Representative, District 70",
+  "office_type": "state_house",
+  "group": "legislative",
+  "ballot_order": 23,
+  "candidates": [
+   {
+    "id": "george-flint",
+    "name": "George Flint",
+    "party": "Republican"
+   },
+   {
+    "id": "mihaela-elizabeth-plesa",
+    "name": "Mihaela Elizabeth Plesa",
+    "party": "Democratic"
+   }
+  ]
+ },
+ {
+  "id": "state-house-89",
+  "title": "State Representative, District 89",
+  "office_type": "state_house",
+  "group": "legislative",
+  "ballot_order": 24,
+  "candidates": [
+   {
+    "id": "candy-noble",
+    "name": "Candy Noble",
+    "party": "Republican"
+   },
+   {
+    "id": "angie-carraway",
+    "name": "Angie Carraway",
+    "party": "Democratic"
+   }
+  ]
+ },
+ {
+  "id": "coa15-chief",
+  "title": "Chief Justice, 15th Court of Appeals",
+  "office_type": "judicial",
+  "group": "state-judicial",
+  "ballot_order": 25,
+  "candidates": [
+   {
+    "id": "scott-brister",
+    "name": "Scott Brister",
+    "party": "Republican"
+   },
+   {
+    "id": "jerry-zimmerer",
+    "name": "Jerry Zimmerer",
+    "party": "Democratic"
+   }
+  ]
+ },
+ {
+  "id": "coa15-2",
+  "title": "Justice, 15th Court of Appeals, Place 2",
+  "office_type": "judicial",
+  "group": "state-judicial",
+  "ballot_order": 26,
+  "candidates": [
+   {
+    "id": "scott-k-field",
+    "name": "Scott K. Field",
+    "party": "Republican"
+   },
+   {
+    "id": "tom-baker",
+    "name": "Tom Baker",
+    "party": "Democratic"
+   }
+  ]
+ },
+ {
+  "id": "coa15-3",
+  "title": "Justice, 15th Court of Appeals, Place 3",
+  "office_type": "judicial",
+  "group": "state-judicial",
+  "ballot_order": 27,
+  "candidates": [
+   {
+    "id": "april-farris",
+    "name": "April Farris",
+    "party": "Republican"
+   },
+   {
+    "id": "marc-m-meyer",
+    "name": "Marc M. Meyer",
+    "party": "Democratic"
+   }
+  ]
+ },
+ {
+  "id": "coa5-3",
+  "title": "Justice, 5th Court of Appeals, Place 3",
+  "office_type": "judicial",
+  "group": "state-judicial",
+  "ballot_order": 28,
+  "candidates": [
+   {
+    "id": "matthew-kolodoski",
+    "name": "Matthew Kolodoski",
+    "party": "Republican"
+   },
+   {
+    "id": "amanda-reichek",
+    "name": "Amanda Reichek",
+    "party": "Democratic"
+   }
+  ]
+ },
+ {
+  "id": "coa5-6",
+  "title": "Justice, 5th Court of Appeals, Place 6",
+  "office_type": "judicial",
+  "group": "state-judicial",
+  "ballot_order": 29,
+  "candidates": [
+   {
+    "id": "ben-smith",
+    "name": "Ben Smith",
+    "party": "Republican"
+   },
+   {
+    "id": "monica-purdy",
+    "name": "Monica Purdy",
+    "party": "Democratic"
+   }
+  ]
+ },
+ {
+  "id": "coa5-8",
+  "title": "Justice, 5th Court of Appeals, Place 8",
+  "office_type": "judicial",
+  "group": "state-judicial",
+  "ballot_order": 30,
+  "candidates": [
+   {
+    "id": "ashley-wysocki",
+    "name": "Ashley Wysocki",
+    "party": "Republican"
+   },
+   {
+    "id": "andrea-d-plumlee",
+    "name": "Andrea D. Plumlee",
+    "party": "Democratic"
+   }
+  ]
+ },
+ {
+  "id": "district-219",
+  "title": "District Judge, 219th Judicial District",
+  "office_type": "judicial",
+  "group": "county-judicial",
+  "ballot_order": 31,
+  "candidates": [
+   {
+    "id": "jennifer-edgeworth",
+    "name": "Jennifer Edgeworth",
+    "party": "Republican"
+   }
+  ]
+ },
+ {
+  "id": "district-296",
+  "title": "District Judge, 296th Judicial District",
+  "office_type": "judicial",
+  "group": "county-judicial",
+  "ballot_order": 32,
+  "candidates": [
+   {
+    "id": "piper-mccraw",
+    "name": "Piper McCraw",
+    "party": "Republican"
+   }
+  ]
+ },
+ {
+  "id": "district-366",
+  "title": "District Judge, 366th Judicial District",
+  "office_type": "judicial",
+  "group": "county-judicial",
+  "ballot_order": 33,
+  "candidates": [
+   {
+    "id": "tom-nowak",
+    "name": "Tom Nowak",
+    "party": "Republican"
+   }
+  ]
+ },
+ {
+  "id": "district-417",
+  "title": "District Judge, 417th Judicial District",
+  "office_type": "judicial",
+  "group": "county-judicial",
+  "ballot_order": 34,
+  "candidates": [
+   {
+    "id": "cyndi-mccrann-wheless",
+    "name": "Cyndi McCrann Wheless",
+    "party": "Republican"
+   }
+  ]
+ },
+ {
+  "id": "district-429",
+  "title": "District Judge, 429th Judicial District",
+  "office_type": "judicial",
+  "group": "county-judicial",
+  "ballot_order": 35,
+  "candidates": [
+   {
+    "id": "jill-willis",
+    "name": "Jill Willis",
+    "party": "Republican"
+   }
+  ]
+ },
+ {
+  "id": "district-471",
+  "title": "District Judge, 471st Judicial District",
+  "office_type": "judicial",
+  "group": "county-judicial",
+  "ballot_order": 36,
+  "candidates": [
+   {
+    "id": "bryan-gantt",
+    "name": "Bryan Gantt",
+    "party": "Republican"
+   }
+  ]
+ },
+ {
+  "id": "district-494",
+  "title": "District Judge, 494th Judicial District",
+  "office_type": "judicial",
+  "group": "county-judicial",
+  "ballot_order": 37,
+  "candidates": [
+   {
+    "id": "kathryn-pruitt",
+    "name": "Kathryn Pruitt",
+    "party": "Republican"
+   }
+  ]
+ },
+ {
+  "id": "collin-da",
+  "title": "Criminal District Attorney, Collin County",
+  "office_type": "district_attorney",
+  "group": "county",
+  "ballot_order": 38,
+  "candidates": [
+   {
+    "id": "greg-willis",
+    "name": "Greg Willis",
+    "party": "Republican"
+   }
+  ]
+ },
+ {
+  "id": "county-judge",
+  "title": "County Judge",
+  "office_type": "county_judge",
+  "group": "county",
+  "ballot_order": 39,
+  "candidates": [
+   {
+    "id": "chris-hill",
+    "name": "Chris Hill",
+    "party": "Republican"
+   },
+   {
+    "id": "john-r-buster-brown",
+    "name": "John R. Buster Brown",
+    "party": "Democratic"
+   }
+  ]
+ },
+ {
+  "id": "ccl-1",
+  "title": "Judge, County Court at Law No. 1",
+  "office_type": "judicial",
+  "group": "county-judicial",
+  "ballot_order": 40,
+  "candidates": [
+   {
+    "id": "corinne-mason",
+    "name": "Corinne Mason",
+    "party": "Republican"
+   }
+  ]
+ },
+ {
+  "id": "ccl-2",
+  "title": "Judge, County Court at Law No. 2",
+  "office_type": "judicial",
+  "group": "county-judicial",
+  "ballot_order": 41,
+  "candidates": [
+   {
+    "id": "barnett-walker",
+    "name": "Barnett Walker",
+    "party": "Republican"
+   }
+  ]
+ },
+ {
+  "id": "ccl-3",
+  "title": "Judge, County Court at Law No. 3",
+  "office_type": "judicial",
+  "group": "county-judicial",
+  "ballot_order": 42,
+  "candidates": [
+   {
+    "id": "lance-s-baxter",
+    "name": "Lance S. Baxter",
+    "party": "Republican"
+   }
+  ]
+ },
+ {
+  "id": "ccl-4",
+  "title": "Judge, County Court at Law No. 4",
+  "office_type": "judicial",
+  "group": "county-judicial",
+  "ballot_order": 43,
+  "candidates": [
+   {
+    "id": "david-rippel",
+    "name": "David Rippel",
+    "party": "Republican"
+   }
+  ]
+ },
+ {
+  "id": "ccl-5",
+  "title": "Judge, County Court at Law No. 5",
+  "office_type": "judicial",
+  "group": "county-judicial",
+  "ballot_order": 44,
+  "candidates": [
+   {
+    "id": "randy-johnson",
+    "name": "Randy Johnson",
+    "party": "Republican"
+   }
+  ]
+ },
+ {
+  "id": "ccl-6",
+  "title": "Judge, County Court at Law No. 6",
+  "office_type": "judicial",
+  "group": "county-judicial",
+  "ballot_order": 45,
+  "candidates": [
+   {
+    "id": "jay-a-bender",
+    "name": "Jay A. Bender",
+    "party": "Republican"
+   }
+  ]
+ },
+ {
+  "id": "ccl-7",
+  "title": "Judge, County Court at Law No. 7",
+  "office_type": "judicial",
+  "group": "county-judicial",
+  "ballot_order": 46,
+  "candidates": [
+   {
+    "id": "david-waddill",
+    "name": "David Waddill",
+    "party": "Republican"
+   }
+  ]
+ },
+ {
+  "id": "probate",
+  "title": "Judge, Probate Court",
+  "office_type": "judicial",
+  "group": "county-judicial",
+  "ballot_order": 47,
+  "candidates": [
+   {
+    "id": "sarah-r-duff",
+    "name": "Sarah R. Duff",
+    "party": "Republican"
+   }
+  ]
+ },
+ {
+  "id": "district-clerk",
+  "title": "District Clerk",
+  "office_type": "clerk",
+  "group": "county",
+  "ballot_order": 48,
+  "candidates": [
+   {
+    "id": "mike-gould",
+    "name": "Mike Gould",
+    "party": "Republican"
+   }
+  ]
+ },
+ {
+  "id": "county-clerk",
+  "title": "County Clerk",
+  "office_type": "clerk",
+  "group": "county",
+  "ballot_order": 49,
+  "candidates": [
+   {
+    "id": "stacey-kemp",
+    "name": "Stacey Kemp",
+    "party": "Republican"
+   },
+   {
+    "id": "john-russell",
+    "name": "John Russell",
+    "party": "Democratic"
+   }
+  ]
+ },
+ {
+  "id": "commissioner-2",
+  "title": "County Commissioner, Precinct 2",
+  "office_type": "county_commissioner",
+  "group": "county",
+  "ballot_order": 50,
+  "candidates": [
+   {
+    "id": "michael-slaughter",
+    "name": "Michael Slaughter",
+    "party": "Republican"
+   }
+  ]
+ },
+ {
+  "id": "commissioner-4",
+  "title": "County Commissioner, Precinct 4",
+  "office_type": "county_commissioner",
+  "group": "county",
+  "ballot_order": 51,
+  "candidates": [
+   {
+    "id": "shelby-williams",
+    "name": "Shelby Williams",
+    "party": "Republican"
+   },
+   {
+    "id": "julie-holmer",
+    "name": "Julie Holmer",
+    "party": "Democratic"
+   }
+  ]
+ },
+ {
+  "id": "jp-1",
+  "title": "Justice of the Peace, Precinct 1",
+  "office_type": "judicial",
+  "group": "county-judicial",
+  "ballot_order": 52,
+  "candidates": [
+   {
+    "id": "paul-m-raleeh",
+    "name": "Paul M. Raleeh",
+    "party": "Republican"
+   }
+  ]
+ },
+ {
+  "id": "jp-2",
+  "title": "Justice of the Peace, Precinct 2",
+  "office_type": "judicial",
+  "group": "county-judicial",
+  "ballot_order": 53,
+  "candidates": [
+   {
+    "id": "ellen-kinnebrew",
+    "name": "Ellen Kinnebrew",
+    "party": "Republican"
+   },
+   {
+    "id": "darsell-e-johnson",
+    "name": "Darsell E. Johnson",
+    "party": "Democratic"
+   }
+  ]
+ },
+ {
+  "id": "jp-3",
+  "title": "Justice of the Peace, Precinct 3",
+  "office_type": "judicial",
+  "group": "county-judicial",
+  "ballot_order": 54,
+  "candidates": [
+   {
+    "id": "mike-missildine",
+    "name": "Mike Missildine",
+    "party": "Republican"
+   },
+   {
+    "id": "irvin-lynn-barrett",
+    "name": "Irvin Lynn Barrett",
+    "party": "Democratic"
+   }
+  ]
+ },
+ {
+  "id": "jp-4",
+  "title": "Justice of the Peace, Precinct 4",
+  "office_type": "judicial",
+  "group": "county-judicial",
+  "ballot_order": 55,
+  "candidates": [
+   {
+    "id": "stephen-kallas",
+    "name": "Stephen Kallas",
+    "party": "Republican"
+   },
+   {
+    "id": "eli-worthy",
+    "name": "Eli Worthy",
+    "party": "Democratic"
+   }
+  ]
+ }
+]

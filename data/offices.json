@@ -1,0 +1,194 @@
+{
+  "us_senate": {
+    "summary": "One of Texas's two members of the U.S. Senate. Votes on federal laws, the federal budget, taxes, and treaties, and confirms federal judges, cabinet members, and other presidential nominees.",
+    "term": "6 years",
+    "source": {
+      "title": "U.S. Senate: About the Senate",
+      "url": "https://www.senate.gov/about.htm"
+    }
+  },
+  "us_house": {
+    "summary": "Represents one congressional district in the U.S. House. Votes on federal laws, spending, and taxes. All revenue bills must start in the House. Texas districts were redrawn in 2025, so check which district covers your address.",
+    "term": "2 years",
+    "source": {
+      "title": "U.S. House of Representatives: The House Explained",
+      "url": "https://www.house.gov/the-house-explained"
+    }
+  },
+  "governor": {
+    "summary": "The chief executive of Texas. Signs or vetoes bills, can veto individual budget items, calls special legislative sessions, appoints members of state boards and fills judicial vacancies, and commands the Texas Military Department.",
+    "term": "4 years",
+    "source": {
+      "title": "Office of the Texas Governor",
+      "url": "https://gov.texas.gov/organization"
+    }
+  },
+  "lt_governor": {
+    "summary": "Presides over the Texas Senate. Appoints Senate committee chairs and members, decides which bills reach the floor, and co-chairs the Legislative Budget Board, which makes the Lieutenant Governor one of the most powerful offices in Texas government.",
+    "term": "4 years",
+    "source": {
+      "title": "Texas Senate: Lieutenant Governor",
+      "url": "https://senate.texas.gov/ltgov.php"
+    }
+  },
+  "attorney_general": {
+    "summary": "The state's lawyer. Represents Texas in court, defends state laws, issues legal opinions to officials, enforces consumer protection laws, and collects child support. Can sue the federal government and private companies on the state's behalf.",
+    "term": "4 years",
+    "source": {
+      "title": "Office of the Attorney General of Texas",
+      "url": "https://www.texasattorneygeneral.gov/about-office"
+    }
+  },
+  "comptroller": {
+    "summary": "The state's chief financial officer. Collects state taxes, forecasts revenue, which sets how much the Legislature can spend, manages state cash, and runs programs including the education savings account (school choice) program created in 2025.",
+    "term": "4 years",
+    "source": {
+      "title": "Texas Comptroller of Public Accounts",
+      "url": "https://comptroller.texas.gov/about/"
+    }
+  },
+  "land_commissioner": {
+    "summary": "Leads the General Land Office. Manages about 13 million acres of state land and mineral rights that fund public schools, oversees coastal protection and the Alamo, runs veterans land and housing programs, and administers federal disaster recovery money.",
+    "term": "4 years",
+    "source": {
+      "title": "Texas General Land Office: About",
+      "url": "https://www.glo.texas.gov/about-glo"
+    }
+  },
+  "agriculture_commissioner": {
+    "summary": "Leads the Texas Department of Agriculture. Regulates pesticides, checks fuel pumps and scales, licenses hemp growers, promotes Texas farm products, and runs school nutrition programs.",
+    "term": "4 years",
+    "source": {
+      "title": "Texas Department of Agriculture: About",
+      "url": "https://www.texasagriculture.gov/About"
+    }
+  },
+  "railroad_commissioner": {
+    "summary": "One of three members of the Railroad Commission of Texas, which does not regulate railroads. It regulates the oil and gas industry, pipelines, natural gas utilities, and surface coal and uranium mining.",
+    "term": "6 years",
+    "source": {
+      "title": "Railroad Commission of Texas: About Us",
+      "url": "https://www.rrc.texas.gov/about-us/"
+    }
+  },
+  "supreme_court": {
+    "summary": "The highest court in Texas for civil and juvenile cases. Its nine justices decide appeals on issues such as contracts, property, family law, and government powers, and the court oversees the state's legal system and rules for lawyers.",
+    "term": "6 years",
+    "source": {
+      "title": "Supreme Court of Texas: About the Court",
+      "url": "https://www.txcourts.gov/supreme/about-the-court/"
+    }
+  },
+  "cca": {
+    "summary": "The highest court in Texas for criminal cases. Its nine judges hear all death penalty appeals and decide other criminal appeals and requests for habeas corpus relief.",
+    "term": "6 years",
+    "source": {
+      "title": "Court of Criminal Appeals: About the Court",
+      "url": "https://www.txcourts.gov/cca/about-the-court/"
+    }
+  },
+  "coa15": {
+    "summary": "A statewide intermediate appeals court created in 2024. It hears appeals in cases brought by or against the state and its agencies and challenges to the constitutionality of state laws.",
+    "term": "6 years",
+    "source": {
+      "title": "Fifteenth Court of Appeals",
+      "url": "https://www.txcourts.gov/15thcoa/"
+    }
+  },
+  "coa5": {
+    "summary": "An intermediate appeals court based in Dallas that hears civil and criminal appeals from trial courts in Collin, Dallas, Grayson, Hunt, Kaufman, and Rockwall counties.",
+    "term": "6 years",
+    "source": {
+      "title": "Fifth Court of Appeals",
+      "url": "https://www.txcourts.gov/5thcoa/"
+    }
+  },
+  "state_senate": {
+    "summary": "One of 31 members of the Texas Senate. Writes and votes on state laws and the two-year state budget and confirms the Governor's appointees.",
+    "term": "4 years",
+    "source": {
+      "title": "Texas Senate",
+      "url": "https://senate.texas.gov/"
+    }
+  },
+  "state_house": {
+    "summary": "One of 150 members of the Texas House of Representatives. Writes and votes on state laws and the two-year state budget. All tax bills must start in the House.",
+    "term": "2 years",
+    "source": {
+      "title": "Texas House of Representatives",
+      "url": "https://house.texas.gov/"
+    }
+  },
+  "district_court": {
+    "summary": "A state trial court of general jurisdiction in Collin County. Hears felony criminal cases, divorces and family cases, civil lawsuits over larger amounts, and election contests.",
+    "term": "4 years",
+    "source": {
+      "title": "Collin County District Courts",
+      "url": "https://www.collincountytx.gov/Courts/District-Courts"
+    }
+  },
+  "district_attorney": {
+    "summary": "The county's chief prosecutor. Decides which criminal cases to bring, prosecutes felonies and misdemeanors in Collin County, and handles certain civil and protective order matters.",
+    "term": "4 years",
+    "source": {
+      "title": "Texas Association of Counties: Duties of County Officials",
+      "url": "https://www.county.org/resources/resource-library/education-and-training/duties-texas-county-officials"
+    }
+  },
+  "county_judge": {
+    "summary": "Presides over the Commissioners Court, which sets the county budget and tax rate, funds the jail, courts, and sheriff, builds county roads, and runs emergency management. In Collin County the role is mainly administrative.",
+    "term": "4 years",
+    "source": {
+      "title": "Texas Association of Counties: Duties of County Officials",
+      "url": "https://www.county.org/resources/resource-library/education-and-training/duties-texas-county-officials"
+    }
+  },
+  "county_commissioner": {
+    "summary": "One of four members of the Commissioners Court elected by precinct. Votes on the county budget, tax rate, contracts, and facilities, and oversees county roads and bridges in the precinct.",
+    "term": "4 years",
+    "source": {
+      "title": "Texas Association of Counties: Duties of County Officials",
+      "url": "https://www.county.org/resources/resource-library/education-and-training/duties-texas-county-officials"
+    }
+  },
+  "ccl": {
+    "summary": "A county court at law in Collin County. Hears misdemeanor criminal cases and civil cases, and some courts handle family, probate, or juvenile matters as assigned.",
+    "term": "4 years",
+    "source": {
+      "title": "Collin County Courts at Law",
+      "url": "https://www.collincountytx.gov/Courts/County-Courts-at-Law"
+    }
+  },
+  "probate": {
+    "summary": "Handles wills and estates, guardianships for adults who cannot care for themselves, and mental health commitment cases in Collin County.",
+    "term": "4 years",
+    "source": {
+      "title": "Collin County Probate Court",
+      "url": "https://www.collincountytx.gov/Courts/Probate-Court"
+    }
+  },
+  "district_clerk": {
+    "summary": "Keeper of records for the district courts. Files cases, manages court records and jury selection, and handles court fees and passport applications.",
+    "term": "4 years",
+    "source": {
+      "title": "Texas Association of Counties: Duties of County Officials",
+      "url": "https://www.county.org/resources/resource-library/education-and-training/duties-texas-county-officials"
+    }
+  },
+  "county_clerk": {
+    "summary": "Records property deeds, marriage licenses, and birth and death records, and serves as clerk for the county courts and Commissioners Court. In Collin County, elections are run by a separate Elections Administrator.",
+    "term": "4 years",
+    "source": {
+      "title": "Texas Association of Counties: Duties of County Officials",
+      "url": "https://www.county.org/resources/resource-library/education-and-training/duties-texas-county-officials"
+    }
+  },
+  "jp": {
+    "summary": "Hears small claims and civil cases up to $20,000, evictions, traffic and Class C misdemeanor cases, and truancy cases. Also performs magistrate duties and conducts inquests.",
+    "term": "4 years",
+    "source": {
+      "title": "Texas Justice Court Training Center",
+      "url": "https://www.tjctc.org/"
+    }
+  }
+}

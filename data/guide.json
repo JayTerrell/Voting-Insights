@@ -1,0 +1,4069 @@
+{
+ "generated_at": "2026-10-14T11:29:31.175Z",
+ "election": {
+  "name": "2026 November General Election",
+  "county": "Collin County, Texas",
+  "date": "2026-11-03",
+  "early_voting": {
+   "start": "2026-10-19",
+   "end": "2026-10-30"
+  },
+  "roster_source": {
+   "title": "Texas Secretary of State Ballot Certification Report, Collin County, 2026 November General Election (October 14, 2026)",
+   "url": "https://www.sos.state.tx.us/elections/"
+  }
+ },
+ "questions": [
+  {
+   "id": "q_prop_tax_eliminate",
+   "category": "Taxes and Spending",
+   "statement": "Texas should work toward eliminating school district property taxes and replace that money with state funds or other taxes.",
+   "context": "Supporters say property taxes burden homeowners and can force people out of homes they own. Opponents say replacing tens of billions in local revenue would require large new taxes or deep spending cuts.",
+   "offices": [
+    "governor",
+    "lt_governor",
+    "comptroller",
+    "state_senate",
+    "state_house"
+   ]
+  },
+  {
+   "id": "q_spending_cap",
+   "category": "Taxes and Spending",
+   "statement": "Growth in state and local government spending should be capped at the combined rate of population growth and inflation.",
+   "context": "Supporters say a hard cap restrains government and protects taxpayers. Opponents say a fast-growing state needs flexibility for roads, schools, water, and emergencies.",
+   "offices": [
+    "governor",
+    "lt_governor",
+    "comptroller",
+    "state_senate",
+    "state_house",
+    "county_judge",
+    "county_commissioner"
+   ]
+  },
+  {
+   "id": "q_tariffs",
+   "category": "Taxes and Spending",
+   "statement": "Broad tariffs on imported goods help the American economy more than they hurt it.",
+   "context": "Supporters say tariffs protect domestic industry and give the U.S. leverage in trade talks. Opponents say tariffs raise prices for consumers and invite retaliation against exporters, including Texas agriculture and energy.",
+   "offices": [
+    "us_senate",
+    "us_house"
+   ]
+  },
+  {
+   "id": "q_federal_spending",
+   "category": "Taxes and Spending",
+   "statement": "Congress should reduce federal spending, including on programs such as Medicaid and food assistance, to lower the deficit.",
+   "context": "Supporters say the national debt is unsustainable and benefit programs need reform. Opponents say cuts to these programs fall hardest on low-income families, rural hospitals, and seniors.",
+   "offices": [
+    "us_senate",
+    "us_house"
+   ]
+  },
+  {
+   "id": "q_min_wage",
+   "category": "Jobs and Wages",
+   "statement": "The minimum wage that applies in Texas should be raised above $7.25 per hour.",
+   "context": "Texas uses the federal minimum of $7.25. Supporters say it has not kept up with living costs. Opponents say mandated increases can reduce hiring and hurt small businesses.",
+   "offices": [
+    "us_senate",
+    "us_house",
+    "governor",
+    "lt_governor",
+    "state_senate",
+    "state_house"
+   ]
+  },
+  {
+   "id": "q_vouchers",
+   "category": "Education",
+   "statement": "Public money should help families pay for private school through education savings accounts or vouchers.",
+   "context": "Texas created an education savings account program in 2025, administered by the Comptroller. Supporters say families deserve choices. Opponents say it diverts money from public schools, especially in rural areas.",
+   "offices": [
+    "us_senate",
+    "us_house",
+    "governor",
+    "lt_governor",
+    "comptroller",
+    "state_senate",
+    "state_house"
+   ]
+  },
+  {
+   "id": "q_school_funding",
+   "category": "Education",
+   "statement": "The state should substantially increase per-student funding for public schools and teacher pay.",
+   "context": "Supporters say the basic per-student allotment has lagged inflation for years. Opponents say more money does not guarantee better results and that spending should be tied to performance or reform.",
+   "offices": [
+    "governor",
+    "lt_governor",
+    "comptroller",
+    "state_senate",
+    "state_house"
+   ]
+  },
+  {
+   "id": "q_ten_commandments",
+   "category": "Education",
+   "statement": "Public school classrooms should be required to display the Ten Commandments.",
+   "context": "A 2025 Texas law requires classroom displays, and it is being challenged in court. Supporters say it reflects the nation's historical and moral heritage. Opponents say it violates the separation of church and state and parents' right to direct religious instruction.",
+   "offices": [
+    "governor",
+    "lt_governor",
+    "attorney_general",
+    "state_senate",
+    "state_house"
+   ]
+  },
+  {
+   "id": "q_medicaid",
+   "category": "Health Care",
+   "statement": "Texas should expand Medicaid to cover more low-income working adults.",
+   "context": "Texas has the highest uninsured rate in the country and is one of a minority of states that has not expanded Medicaid. Supporters cite coverage and federal matching funds. Opponents cite long-term cost to the state and concerns about government-run health care.",
+   "offices": [
+    "us_senate",
+    "us_house",
+    "governor",
+    "lt_governor",
+    "state_senate",
+    "state_house"
+   ]
+  },
+  {
+   "id": "q_abortion",
+   "category": "Abortion",
+   "statement": "Texas abortion law should be changed to allow more access to abortion than current law permits.",
+   "context": "Texas law bans nearly all abortions, with a narrow exception for a medical emergency. Supporters of change want exceptions or broader legal access. Opponents believe current protections for unborn life should remain or be strengthened.",
+   "offices": [
+    "us_senate",
+    "us_house",
+    "governor",
+    "lt_governor",
+    "attorney_general",
+    "state_senate",
+    "state_house"
+   ]
+  },
+  {
+   "id": "q_border_state",
+   "category": "Immigration and Border",
+   "statement": "Texas should keep spending state money on border security, including state-built barriers and state troops.",
+   "context": "Operation Lone Star has cost Texas more than $11 billion since 2021. Supporters say the state must act where the federal government falls short. Opponents say border security is a federal duty and the money is needed elsewhere.",
+   "offices": [
+    "us_senate",
+    "us_house",
+    "governor",
+    "lt_governor",
+    "land_commissioner",
+    "state_senate",
+    "state_house"
+   ]
+  },
+  {
+   "id": "q_deportation",
+   "category": "Immigration and Border",
+   "statement": "Deporting people who are in the country illegally should be a top priority, including people with no criminal record.",
+   "context": "Supporters say consistent enforcement upholds the rule of law and discourages illegal crossings. Opponents say mass deportation separates families, harms industries that rely on immigrant labor, and should focus on serious criminals.",
+   "offices": [
+    "us_senate",
+    "us_house",
+    "governor",
+    "lt_governor",
+    "attorney_general",
+    "state_senate",
+    "state_house"
+   ]
+  },
+  {
+   "id": "q_legal_status",
+   "category": "Immigration and Border",
+   "statement": "Long-term undocumented residents with no criminal record should be offered a path to legal status.",
+   "context": "Supporters say people who have lived and worked here for years should be able to earn legal status. Opponents say it rewards illegal entry and encourages more of it.",
+   "offices": [
+    "us_senate",
+    "us_house",
+    "governor",
+    "lt_governor",
+    "state_senate",
+    "state_house"
+   ]
+  },
+  {
+   "id": "q_gun_laws",
+   "category": "Guns and Public Safety",
+   "statement": "Stricter gun laws, such as universal background checks or red flag laws, are needed.",
+   "context": "Texas allows permitless carry for adults 21 and older. Supporters of new laws point to mass shootings, including Uvalde and Allen. Opponents say such laws infringe on Second Amendment rights and do not stop criminals.",
+   "offices": [
+    "us_senate",
+    "us_house",
+    "governor",
+    "lt_governor",
+    "attorney_general",
+    "state_senate",
+    "state_house"
+   ]
+  },
+  {
+   "id": "q_bail",
+   "category": "Guns and Public Safety",
+   "statement": "It should be harder for people charged with violent felonies to be released on bail before trial.",
+   "context": "Texas voters approved bail-related constitutional amendments in 2025. Supporters say dangerous defendants are being released. Opponents say people are presumed innocent and stricter rules mostly jail people who cannot afford bond.",
+   "offices": [
+    "governor",
+    "lt_governor",
+    "attorney_general",
+    "state_senate",
+    "state_house",
+    "district_attorney"
+   ]
+  },
+  {
+   "id": "q_cannabis",
+   "category": "Guns and Public Safety",
+   "statement": "Adults should be able to legally buy cannabis products, including hemp-derived THC, under state regulation.",
+   "context": "Texas debated banning hemp-derived THC in 2025 and the Agriculture Commissioner oversees hemp licensing. Supporters cite personal freedom, medical use, and a legal industry. Opponents cite health risks and products reaching minors.",
+   "offices": [
+    "us_senate",
+    "us_house",
+    "governor",
+    "lt_governor",
+    "attorney_general",
+    "agriculture_commissioner",
+    "state_senate",
+    "state_house"
+   ]
+  },
+  {
+   "id": "q_fossil_priority",
+   "category": "Energy and Environment",
+   "statement": "Texas energy policy should favor natural gas, nuclear, and other always-available power over new wind and solar.",
+   "context": "After the 2021 winter storm, lawmakers debated how to keep the grid reliable. Supporters say dispatchable power prevents blackouts. Opponents say wind, solar, and batteries are cheap, fast to build, and helped meet record demand.",
+   "offices": [
+    "us_senate",
+    "us_house",
+    "governor",
+    "lt_governor",
+    "land_commissioner",
+    "railroad_commissioner",
+    "state_senate",
+    "state_house"
+   ]
+  },
+  {
+   "id": "q_oilgas_rules",
+   "category": "Energy and Environment",
+   "statement": "Oil and gas operators should face stricter rules on flaring, methane leaks, and plugging abandoned wells.",
+   "context": "The Railroad Commission regulates the industry. Supporters say stronger rules protect air, water, and landowners. Opponents say current rules are adequate and more regulation raises costs and reduces jobs.",
+   "offices": [
+    "us_senate",
+    "us_house",
+    "governor",
+    "lt_governor",
+    "land_commissioner",
+    "railroad_commissioner",
+    "state_senate",
+    "state_house"
+   ]
+  },
+  {
+   "id": "q_eminent_domain",
+   "category": "Land and Agriculture",
+   "statement": "Pipelines and other private companies should face tighter limits on using eminent domain to take private land.",
+   "context": "Private pipeline companies in Texas can condemn land. Supporters of limits say landowners are underpaid and have little say. Opponents say limits would slow infrastructure the state needs.",
+   "offices": [
+    "governor",
+    "lt_governor",
+    "attorney_general",
+    "land_commissioner",
+    "agriculture_commissioner",
+    "railroad_commissioner",
+    "state_senate",
+    "state_house"
+   ]
+  },
+  {
+   "id": "q_foreign_land",
+   "category": "Land and Agriculture",
+   "statement": "Texas should ban people and companies tied to adversarial nations, such as China, from buying land in Texas.",
+   "context": "A 2025 Texas law restricts these purchases. Supporters cite national security and food security. Opponents say it can discriminate against legal residents and immigrants based on national origin.",
+   "offices": [
+    "us_senate",
+    "us_house",
+    "governor",
+    "lt_governor",
+    "attorney_general",
+    "land_commissioner",
+    "agriculture_commissioner",
+    "state_senate",
+    "state_house"
+   ]
+  },
+  {
+   "id": "q_water",
+   "category": "Land and Agriculture",
+   "statement": "The state should dedicate large, ongoing funding to new water supply and water infrastructure projects.",
+   "context": "Voters approved a dedicated water fund in 2025. Supporters say a growing state faces shortages. Skeptics question cost, which projects get funded, and whether conservation should come first.",
+   "offices": [
+    "governor",
+    "lt_governor",
+    "comptroller",
+    "land_commissioner",
+    "agriculture_commissioner",
+    "state_senate",
+    "state_house",
+    "county_judge",
+    "county_commissioner"
+   ]
+  },
+  {
+   "id": "q_voting_access",
+   "category": "Elections and Ethics",
+   "statement": "Texas should make voting easier, for example with online voter registration and broader mail-in voting.",
+   "context": "Supporters say more options increase participation. Opponents say expanded mail voting and online registration create more room for errors and fraud.",
+   "offices": [
+    "us_senate",
+    "us_house",
+    "governor",
+    "lt_governor",
+    "attorney_general",
+    "state_senate",
+    "state_house"
+   ]
+  },
+  {
+   "id": "q_election_fraud",
+   "category": "Elections and Ethics",
+   "statement": "State officials should devote more resources to investigating and prosecuting election fraud.",
+   "context": "Supporters say aggressive enforcement protects election integrity. Opponents say documented fraud is rare and these efforts can intimidate eligible voters.",
+   "offices": [
+    "governor",
+    "lt_governor",
+    "attorney_general",
+    "state_senate",
+    "state_house"
+   ]
+  },
+  {
+   "id": "q_ethics",
+   "category": "Elections and Ethics",
+   "statement": "Texas should adopt campaign contribution limits and stricter ethics rules for state officials.",
+   "context": "Texas has no limits on individual contributions to most state candidates. Supporters say limits reduce the influence of big donors and regulated industries. Opponents say donating is protected speech and disclosure is enough.",
+   "offices": [
+    "governor",
+    "lt_governor",
+    "attorney_general",
+    "comptroller",
+    "land_commissioner",
+    "agriculture_commissioner",
+    "railroad_commissioner",
+    "state_senate",
+    "state_house"
+   ]
+  },
+  {
+   "id": "q_preemption",
+   "category": "Elections and Ethics",
+   "statement": "The state should be able to override city and county rules so that regulations are uniform statewide.",
+   "context": "A 2023 law limited local ordinances in several areas. Supporters say a patchwork of local rules hurts businesses. Opponents say local voters should govern their own communities.",
+   "offices": [
+    "governor",
+    "lt_governor",
+    "state_senate",
+    "state_house",
+    "county_judge",
+    "county_commissioner"
+   ]
+  },
+  {
+   "id": "q_gambling",
+   "category": "Elections and Ethics",
+   "statement": "Texas voters should get to decide whether to legalize casino gambling or sports betting.",
+   "context": "Gambling expansion requires a constitutional amendment. Supporters say voters should decide and the state is losing revenue to neighbors. Opponents cite addiction, crime, and social costs.",
+   "offices": [
+    "governor",
+    "lt_governor",
+    "state_senate",
+    "state_house"
+   ]
+  },
+  {
+   "id": "q_trans_minors",
+   "category": "Family and Social Policy",
+   "statement": "State law should prohibit gender transition medical treatments for minors.",
+   "context": "Texas banned these treatments for minors in 2023. Supporters say minors cannot consent to irreversible procedures. Opponents say these decisions belong to families and doctors and that the ban harms transgender youth.",
+   "offices": [
+    "us_senate",
+    "us_house",
+    "governor",
+    "lt_governor",
+    "attorney_general",
+    "state_senate",
+    "state_house"
+   ]
+  },
+  {
+   "id": "q_county_tax",
+   "category": "Collin County",
+   "statement": "Collin County should prioritize keeping its tax rate low, even if that means slower spending on roads and services.",
+   "context": "Collin County is one of the fastest-growing counties in the nation. Supporters say low taxes keep the county affordable. Others say growth requires faster investment in roads, courts, and public safety.",
+   "offices": [
+    "county_judge",
+    "county_commissioner"
+   ]
+  },
+  {
+   "id": "q_county_mental",
+   "category": "Collin County",
+   "statement": "Collin County should spend more on mental health services and jail diversion programs.",
+   "context": "Supporters say diversion lowers jail costs and helps people who are ill. Skeptics say these are state responsibilities and the county should focus on core services.",
+   "offices": [
+    "county_judge",
+    "county_commissioner",
+    "district_attorney"
+   ]
+  },
+  {
+   "id": "q_textualism",
+   "category": "Courts",
+   "statement": "Judges should apply laws strictly according to their text and original meaning, even when the outcome seems unfair.",
+   "context": "Textualists say judges should not substitute their own views for the law as written. Critics say judges must also consider purpose, context, and changing circumstances. Judicial candidates are limited by ethics rules in what they may promise.",
+   "offices": [
+    "judicial"
+   ]
+  },
+  {
+   "id": "q_judicial_selection",
+   "category": "Courts",
+   "statement": "Texas should stop choosing judges in partisan elections and adopt a different selection method.",
+   "context": "Texas is one of a few states that elects judges on party tickets. Supporters of change say it would reduce the role of party and money. Opponents say voters should keep the power to choose and remove judges.",
+   "offices": [
+    "judicial",
+    "governor",
+    "lt_governor",
+    "state_senate",
+    "state_house"
+   ]
+  }
+ ],
+ "parties": [
+  {
+   "id": "republican",
+   "name": "Republican Party of Texas",
+   "short": "Republican",
+   "platform_title": "2026 Platform and Resolutions of the Republican Party of Texas",
+   "platform_year": "2026",
+   "platform_url": "https://texasgop.org/wp-content/uploads/2026/07/2026-Republican-Party-of-Texas-Platform-As-Approved.pdf",
+   "summary": "The 2026 platform, adopted at the June 2026 state convention in Houston, opens with principles affirming belief in God, the sanctity of life from fertilization, the traditional family, free-market economics, and Texas and American sovereignty. Its 285 planks call for sharp limits on state and local spending and the phase-out of property taxes, full school choice, border security and expanded deportation, election integrity measures, and strict construction of the U.S. and Texas Constitutions.",
+   "stances": {
+    "q_prop_tax_eliminate": {
+     "position": 2,
+     "basis": "platform",
+     "summary": "Planks 79 and 80 call for eliminating the property tax system, starting by dedicating 90% or more of any state surplus to buying down school maintenance and operations taxes until they are eliminated, without imposing an income tax.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_spending_cap": {
+     "position": 2,
+     "basis": "platform",
+     "summary": "Plank 66 calls for stricter state spending limits and for capping spending growth by all local taxing entities at the lesser of population growth plus inflation or 3.5%, with voter approval required to exceed it (also Plank 80g).",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_tariffs": {
+     "position": -1,
+     "basis": "platform",
+     "summary": "Plank 30 states the party supports free trade as a necessary component of American capitalism, while Plank 276 calls for re-examining trade relationships to end dependency on adversarial nations such as China; the platform does not address tariffs directly.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_federal_spending": {
+     "position": 2,
+     "basis": "platform",
+     "summary": "Plank 66 says government spending is out of control at the federal, state, and local levels, Plank 138 supports abolishing all federal welfare programs, and Plank 136 supports Medicaid block grants until Texas can exit federal Medicaid.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_min_wage": {
+     "position": -2,
+     "basis": "platform",
+     "summary": "Plank 28 calls for repealing the federal minimum wage law and prevailing wage laws.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_vouchers": {
+     "position": 2,
+     "basis": "platform",
+     "summary": "Plank 89 supports funding that follows the student to public, private, charter, or homeschool options and calls for fully funding Texas Education Freedom Accounts without caps or waitlists.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_school_funding": {
+     "position": -1,
+     "basis": "platform",
+     "summary": "Plank 81 calls on school administrators to deliver more education for the dollars they have instead of continually seeking increased funding, with at least 80% of district revenue spent on classroom instruction.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_ten_commandments": {
+     "position": 2,
+     "basis": "platform",
+     "summary": "Plank 19 supports returning prayer, the Bible, and the Ten Commandments to schools, courthouses, and other government buildings, and Plank 197 opposes removal of the Ten Commandments.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_medicaid": {
+     "position": -2,
+     "basis": "platform",
+     "summary": "Plank 141 opposes any further expansion of Medicaid and opposes Medicaid for noncitizens.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_abortion": {
+     "position": -2,
+     "basis": "platform",
+     "summary": "Planks 23, 216, and 218 call for abolishing abortion by securing equal protection from fertilization, while Plank 160 states the current abortion law does not need to be altered apart from better education on its medical emergency exception.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_border_state": {
+     "position": 2,
+     "basis": "platform",
+     "summary": "Plank 263 calls on the Legislature and Congress to prioritize funding for barriers, a border wall, personnel, and technology, and Plank 264 calls for a state Border Protection Unit with authority to repel illegal crossings.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_deportation": {
+     "position": 2,
+     "basis": "platform",
+     "summary": "Plank 268 calls for devoting all available resources to deportations, Plank 270 supports expedited deportation of both violent and nonviolent illegal aliens, and Resolution 2 supports the largest deportation operation in American history.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_legal_status": {
+     "position": -2,
+     "basis": "platform",
+     "summary": "Plank 267 opposes amnesty for illegal aliens in all forms, including conditional protection from deportation.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_gun_laws": {
+     "position": -2,
+     "basis": "platform",
+     "summary": "Plank 20 calls for repealing or nullifying the National Firearms Act and Gun Control Act and nullifying gun laws that violate the Second Amendment, and Plank 2g supports unrestricted constitutional carry.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_bail": {
+     "position": 2,
+     "basis": "platform",
+     "summary": "Plank 182 says bail should be based only on danger to society, flight risk, and criminal history, and that personal recognizance bonds should be allowed only for first-time, nonviolent offenders.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_cannabis": {
+     "position": -2,
+     "basis": "platform",
+     "summary": "Planks 152 and 229 call for keeping cannabis a Schedule I drug and oppose recreational marijuana, and Plank 153 calls for prohibiting intoxicating hemp-derived THC products such as Delta-8.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_fossil_priority": {
+     "position": 1,
+     "basis": "platform",
+     "summary": "Plank 51 supports developing all energy resources on a neutral market basis without subsidies or mandates, Plank 52 calls for Texas to lead in next-generation nuclear power, and Planks 51 and 52 call for setbacks on battery storage and solar facilities.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_oilgas_rules": {
+     "position": -1,
+     "basis": "platform",
+     "summary": "Plank 28 says businesses should be minimally regulated and Plank 46 opposes environmental initiatives that obstruct business and supports abolishing the EPA; the platform has no plank specific to flaring, methane, or well plugging.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_eminent_domain": {
+     "position": 2,
+     "basis": "platform",
+     "summary": "Plank 43 opposes eminent domain for private utility or industrial projects, and Plank 224 calls for excluding takings for private economic development or profit-motivated projects and for annual easement payments to landowners.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_foreign_land": {
+     "position": 2,
+     "basis": "platform",
+     "summary": "Plank 226 calls for prohibiting real estate sales to anyone other than U.S. citizens or U.S.-owned corporations, with a limited exception for lawful immigrants, and for seizing land near military bases owned by interests tied to foreign governments.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_water": {
+     "position": 1,
+     "basis": "platform",
+     "summary": "Plank 50 supports desalination, recycling, conservation, and a statewide water grid, and Plank 48 calls for surplus-funded state grants for flood mitigation, but the platform does not address a dedicated water fund and elsewhere calls for freezing state appropriations.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_voting_access": {
+     "position": -2,
+     "basis": "platform",
+     "summary": "Plank 251 limits mail ballots to voters who cannot appear in person and requires photo ID for all methods of voting, and Plank 252 calls for repealing motor voter laws and requiring proof of citizenship to register.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_election_fraud": {
+     "position": 2,
+     "basis": "platform",
+     "summary": "Plank 251f calls for vigorous enforcement of election laws, felony status for willful Election Code violations, restoring the Attorney General's authority to prosecute election crimes, and election courts.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_ethics": {
+     "position": -2,
+     "basis": "platform",
+     "summary": "Plank 227 urges repeal of all limits on campaign contributions by American citizens, and Plank 246 calls for abolishing the Texas Ethics Commission or removing its jurisdiction over private citizens.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_preemption": {
+     "position": 1,
+     "basis": "platform",
+     "summary": "Plank 25 encourages the Legislature to preempt local regulation of business, employees, and property rights, such as rules on short-term rentals, plastic bags, and sick leave, while excluding emergency orders and preemption that benefits developers at existing owners' expense.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_gambling": {
+     "position": -2,
+     "basis": "platform",
+     "summary": "Plank 69 opposes any further legalization or expansion of gambling, including casinos and sports betting, and calls for abolishing the Texas Lottery.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_trans_minors": {
+     "position": 2,
+     "basis": "platform",
+     "summary": "Plank 148 states that gender modification in any form for minors is child abuse and calls for criminal prosecution of those who perform it, and Plank 206 supports prohibiting social transitioning or other treatments for minors.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_county_tax": {
+     "position": 2,
+     "basis": "platform",
+     "summary": "Planks 66 and 80 call for capping spending growth by all local taxing entities, requiring two-thirds voter approval for property tax increases and bonds, and allowing petitions for rollback elections.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_textualism": {
+     "position": 2,
+     "basis": "platform",
+     "summary": "Principle 1 supports strict adherence to the original language and intent of the U.S. and Texas Constitutions, and Plank 1 calls on officials to keep their oath to the strict construction of those constitutions.",
+     "sources": [
+      "s1"
+     ]
+    }
+   },
+   "sources": [
+    {
+     "id": "s1",
+     "title": "2026 Platform and Resolutions of the Republican Party of Texas (As Approved)",
+     "publisher": "Republican Party of Texas",
+     "url": "https://texasgop.org/wp-content/uploads/2026/07/2026-Republican-Party-of-Texas-Platform-As-Approved.pdf",
+     "date": "2026-06"
+    },
+    {
+     "id": "s2",
+     "title": "Official Documents",
+     "publisher": "Republican Party of Texas",
+     "url": "https://texasgop.org/official-documents-2/",
+     "date": null
+    }
+   ]
+  },
+  {
+   "id": "democratic",
+   "name": "Texas Democratic Party",
+   "short": "Democratic",
+   "platform_title": "Texas Democratic Party Platform 2026 - 2028",
+   "platform_year": "2026",
+   "platform_url": "https://www.texasdemocrats.org/_files/ugd/061e99_153b98fadd5d43039829c3ce89c47905.pdf",
+   "summary": "The 2026 to 2028 platform, adopted at the June 2026 state convention in Corpus Christi, frames itself around affordability, public education, health care as a basic right, and a government that acts for the benefit of the many. It calls for expanding Medicaid, repealing the state's abortion ban and school voucher program, legalizing cannabis, expanding voting access, a path to legal status for undocumented immigrants, and restoring local control.",
+   "stances": {
+    "q_prop_tax_eliminate": {
+     "position": 0,
+     "basis": "platform",
+     "summary": "The Lower Taxes and Education sections support reducing overreliance on local property taxes, a voter-petitioned flat-dollar homestead exemption, and a temporary freeze on residential appraisals, but do not call for eliminating school property taxes.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_tariffs": {
+     "position": -1,
+     "basis": "platform",
+     "summary": "The Fair Trade section opposes arbitrary tariffs that harm Texas farmers, other exporters, and allies, while supporting a carbon border adjustment on imports and closing the de minimis loophole.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_federal_spending": {
+     "position": -2,
+     "basis": "platform",
+     "summary": "The Economic Safety Net section supports protecting and expanding Social Security and expanding Medicare and Medicaid, and the Quality of Life section supports removing work requirements for SNAP benefits.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_min_wage": {
+     "position": 2,
+     "basis": "platform",
+     "summary": "The Good Jobs section supports a living wage indexed to the Consumer Price Index, raising the tipped minimum wage, and repealing state preemption of local minimum-wage ordinances, and the platform states no full-time worker should be paid below the poverty level.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_vouchers": {
+     "position": -2,
+     "basis": "platform",
+     "summary": "The Education section calls for repealing the Texas school voucher program and opposing any mechanism that diverts taxpayer money from public schools to private institutions.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_school_funding": {
+     "position": 2,
+     "basis": "platform",
+     "summary": "The Education section calls for fully funding public schools and raising teacher and staff pay to competitive national levels.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_ten_commandments": {
+     "position": -2,
+     "basis": "platform",
+     "summary": "The Education and Religious Freedom sections call for restoring secular spaces and curriculum in public schools and state that government power must not be used to promote one religion; the platform does not name the Ten Commandments law.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_medicaid": {
+     "position": 2,
+     "basis": "platform",
+     "summary": "The Healthcare section supports expanding Medicaid under the Affordable Care Act and moving Texas toward universal, publicly funded health care.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_abortion": {
+     "position": 2,
+     "basis": "platform",
+     "summary": "The Reproductive Freedom section calls for restoring access to abortion by repealing Texas's abortion ban, the Texas Heartbeat Act, and limits on medication abortion.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_border_state": {
+     "position": -2,
+     "basis": "platform",
+     "summary": "The Immigration section calls for halting Operation Lone Star, which it describes as fiscally wasteful, and for securing the border through technology rather than costly and ineffective methods.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_deportation": {
+     "position": -2,
+     "basis": "platform",
+     "summary": "The Immigration section supports repealing state-level deportation laws, keeping local law enforcement independent of ICE, and restoring civil rather than criminal treatment of unauthorized border crossings.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_legal_status": {
+     "position": 2,
+     "basis": "platform",
+     "summary": "The Immigration section supports a path to documented resident status for undocumented immigrants who pass a background check and an attainable path to citizenship.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_gun_laws": {
+     "position": 2,
+     "basis": "platform",
+     "summary": "The Firearm Safety Reform section supports universal background checks, waiting periods, a constitutional amendment vote on raising the purchase age for semiautomatic rifles to 21, and limits on large-capacity magazines.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_bail": {
+     "position": -1,
+     "basis": "platform",
+     "summary": "The Pretrial section supports eliminating cash bail and detention practices that jail people solely because they cannot pay, and allowing defendants who pose no foreseeable danger to remain in their communities.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_cannabis": {
+     "position": 2,
+     "basis": "platform",
+     "summary": "The Legalizing Cannabis section supports legalizing, regulating, and taxing medicinal and recreational cannabis and its derivatives for adults.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_fossil_priority": {
+     "position": -2,
+     "basis": "platform",
+     "summary": "The Energy section calls for Texas to lead in clean energy, promote renewable energy growth, retire coal generation as quickly as possible, and measurably reduce coal and oil use for electricity and transportation.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_oilgas_rules": {
+     "position": 2,
+     "basis": "platform",
+     "summary": "The Responsible Oil and Gas Operations section calls for strict enforcement of methane rules, statewide methane monitoring, industry fees to cap orphaned wells, and more funding to plug abandoned wells.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_eminent_domain": {
+     "position": 1,
+     "basis": "platform",
+     "summary": "The Soil and Land section calls for reforming eminent domain statutes to be more transparent, accountable, and fair, and the Railroad Commission section calls for verifying that pipelines claiming common carrier status actually operate as common carriers.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_foreign_land": {
+     "position": -1,
+     "basis": "platform",
+     "summary": "The Asian American, Native Hawaiian, and Pacific Islander section opposes legislation restricting AANHPIs from purchasing or owning property and land; the platform does not otherwise address restrictions tied to adversarial nations.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_water": {
+     "position": 2,
+     "basis": "platform",
+     "summary": "The Water and Clean Air and Water sections support aggressively modernizing water management, expanding state grants for aging water systems, increased funding for aquifer recharge, desalination plants, and funds to repair high-hazard dams.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_voting_access": {
+     "position": 2,
+     "basis": "platform",
+     "summary": "The Voting Rights section supports online, automatic, and same-day registration, universal vote-by-mail availability, secure drop boxes, and expanded early voting.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_election_fraud": {
+     "position": -1,
+     "basis": "platform",
+     "summary": "The Voting Rights section supports clarifying voter assistance procedures to temper concerns about prosecution of volunteers and officials, which it says have reduced the number of election workers; it does not call for more fraud enforcement.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_ethics": {
+     "position": 2,
+     "basis": "platform",
+     "summary": "The Democracy section supports caps on campaign donations in Texas elections, public financing of campaigns, an independent prosecutor for statewide officials, and stronger penalties for officials who accept bribes.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_preemption": {
+     "position": -2,
+     "basis": "platform",
+     "summary": "The Democracy section calls for repealing HB 2127, the 2023 preemption law it calls the Death Star law, and opposes efforts by the Legislature to preempt local self-governance.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_trans_minors": {
+     "position": -2,
+     "basis": "platform",
+     "summary": "The LGBTQIA+ and Health Disparities sections support protecting and expanding access to gender-affirming health care and oppose restrictions on health care for transgender Texans and attacks on transgender youth.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_county_mental": {
+     "position": 1,
+     "basis": "platform",
+     "summary": "The Criminal Justice section supports expanding diversion and treatment programs as alternatives to arrest and incarceration, and the Healthcare section supports raising state mental health funding to the national per capita average; it does not address county budgets specifically.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_judicial_selection": {
+     "position": -1,
+     "basis": "platform",
+     "summary": "The Voting Rights section supports ensuring Texas voters continue to have the right to vote for members of the judiciary at every level.",
+     "sources": [
+      "s1"
+     ]
+    }
+   },
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Texas Democratic Party Platform 2026 - 2028",
+     "publisher": "Texas Democratic Party",
+     "url": "https://www.texasdemocrats.org/_files/ugd/061e99_153b98fadd5d43039829c3ce89c47905.pdf",
+     "date": "2026-06"
+    }
+   ]
+  },
+  {
+   "id": "libertarian",
+   "name": "Libertarian Party of Texas",
+   "short": "Libertarian",
+   "platform_title": "LPTexas Platform (as amended at the 2026 State Convention)",
+   "platform_year": "2026",
+   "platform_url": "https://assets.nationbuilder.com/lptexas/pages/16/attachments/original/1782706790/LPTexas_Platform_-_2026-04-12.pdf",
+   "summary": "The LPTexas platform, revised April 12, 2026, rests on the Non-Aggression Principle and holds that government exists only to defend individual rights. It calls for ending all taxation, abolishing eminent domain and civil asset forfeiture, ending the War on Drugs, school choice, free immigration and trade, and keeping government out of personal decisions, including reproductive decisions. Its Omissions section states that silence on any issue should not be read as approval or disapproval.",
+   "stances": {
+    "q_prop_tax_eliminate": {
+     "position": 1,
+     "basis": "platform",
+     "summary": "Section II.1 calls for an end to all taxation, including property taxes, and says taxes that cannot be eliminated should be minimized or replaced with user fees rather than other taxes.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_tariffs": {
+     "position": -2,
+     "basis": "platform",
+     "summary": "Section III supports the free and voluntary exchange of currency, goods, labor, services, and ideas across borders.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_federal_spending": {
+     "position": 1,
+     "basis": "platform",
+     "summary": "Section I.4.b says aid to people in need is the role of communities and charities, not the state, and that taxpayer-funded welfare programs should be phased out once legal barriers to private alternatives are removed.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_min_wage": {
+     "position": -1,
+     "basis": "platform",
+     "summary": "The Statement of Principles says governments have no business interfering in voluntary and contractual relations among individuals; the platform does not mention the minimum wage by name.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_vouchers": {
+     "position": 1,
+     "basis": "platform",
+     "summary": "Section II.2.a seeks to eliminate barriers to school choice and says parents should decide where and how children are educated, with an ultimate goal of voluntary rather than tax-based education funding.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_school_funding": {
+     "position": -1,
+     "basis": "platform",
+     "summary": "Section II.2.a calls for state education funds to be used to eliminate waste and decrease bureaucracy, with the ultimate goal of voluntary funding.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_ten_commandments": {
+     "position": -1,
+     "basis": "platform",
+     "summary": "Section I.1.a states that government should not interfere in matters of religion and that no one may force their beliefs on others through government power or support; the platform does not name the Ten Commandments law.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_medicaid": {
+     "position": -2,
+     "basis": "platform",
+     "summary": "Section I.3.b opposes taxpayer-funded health care systems that compel individuals to subsidize the care of others.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_abortion": {
+     "position": 1,
+     "basis": "platform",
+     "summary": "Section I.3.e says government should be kept out of reproductive decisions, leaving them to each person's conscience, and also opposes spending tax dollars on such care.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_border_state": {
+     "position": -1,
+     "basis": "platform",
+     "summary": "Section III supports the freedom of individuals to live, work, study, and travel without government impediment, and Section IV.4 calls for barring the National Guard from law enforcement roles without explicit legislative authorization; the platform does not address border spending directly.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_deportation": {
+     "position": -2,
+     "basis": "platform",
+     "summary": "Section III advocates the freedom of individuals to live and work without government impediment, and the Statement of Principles opposes coercion of peaceful individuals.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_legal_status": {
+     "position": 1,
+     "basis": "platform",
+     "summary": "Section III advocates the freedom of individuals to live, work, study, and travel without government impediment, which goes beyond a path to legal status; the platform does not describe a specific legalization process.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_gun_laws": {
+     "position": -2,
+     "basis": "platform",
+     "summary": "Section I.1.b supports the inalienable right of individuals to purchase, possess, manufacture, trade, own, and carry arms.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_cannabis": {
+     "position": 2,
+     "basis": "platform",
+     "summary": "Section I.3.c opposes the War on Drugs and supports adults' possession, use, and sale of substances for medicinal or recreational purposes; it seeks to remove restrictions rather than create a state regulatory system.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_fossil_priority": {
+     "position": 0,
+     "basis": "platform",
+     "summary": "Section II.4 supports expanding oil, gas, wind, solar, and modern nuclear power through voluntary markets rather than political mandates, without favoring one source.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_oilgas_rules": {
+     "position": -1,
+     "basis": "platform",
+     "summary": "Section II.4 calls for rolling back regulatory barriers to energy innovation while preserving protections for human safety, property rights, and imminent threats to the environment.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_eminent_domain": {
+     "position": 2,
+     "basis": "platform",
+     "summary": "Section I.2.a states that LPTexas completely opposes the use of eminent domain in any form.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_foreign_land": {
+     "position": -1,
+     "basis": "platform",
+     "summary": "Section I.1.c says government should not discriminate based on individual characteristics, and Section I.2 says property rights are not subject to government interference; the platform does not address foreign land purchases by name.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_gambling": {
+     "position": 1,
+     "basis": "platform",
+     "summary": "Section I.6.b supports repealing all vice and morality laws that restrict consenting adults and harm no one else; the platform does not mention gambling by name.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_trans_minors": {
+     "position": -1,
+     "basis": "platform",
+     "summary": "Section I.3.a supports a market in which government does not restrict access to care, and Section I.1.e says parental rights must not be infringed without due process; the platform does not address gender transition treatment by name.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_county_tax": {
+     "position": 2,
+     "basis": "platform",
+     "summary": "Section II.1 calls for ending or minimizing all taxation, and Section II.1.b supports a moratorium on bonds, certificates of obligation, and all other government borrowing.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_judicial_selection": {
+     "position": 1,
+     "basis": "platform",
+     "summary": "Section I.5.b opposes partisan labels on the ballot and straight-ticket voting; the platform does not address judicial selection specifically.",
+     "sources": [
+      "s1"
+     ]
+    }
+   },
+   "sources": [
+    {
+     "id": "s1",
+     "title": "LPTexas Platform, as amended at the 2026 State Convention (Revised April 12, 2026)",
+     "publisher": "Libertarian Party of Texas",
+     "url": "https://assets.nationbuilder.com/lptexas/pages/16/attachments/original/1782706790/LPTexas_Platform_-_2026-04-12.pdf",
+     "date": "2026-04-12"
+    },
+    {
+     "id": "s2",
+     "title": "Platform",
+     "publisher": "Libertarian Party of Texas",
+     "url": "https://lptexas.org/platform",
+     "date": null
+    }
+   ]
+  },
+  {
+   "id": "green",
+   "name": "Green Party of Texas",
+   "short": "Green",
+   "platform_title": "Green Party of Texas State Platform (2021 platform, posted as up to date through December 2023)",
+   "platform_year": "2021",
+   "platform_url": "https://www.txgreens.org/platform",
+   "summary": "The Green Party of Texas maintains its own state platform, separate from the national Green Party platform, built on the Green movement's Ten Key Values, including grassroots democracy, social justice, ecological wisdom, nonviolence, and decentralization. It calls for a single-payer health system, a living wage and basic income, a shift from fossil fuels and nuclear power to renewable energy and conservation, legalization for undocumented residents, public financing of campaigns, and proportional representation.",
+   "stances": {
+    "q_federal_spending": {
+     "position": -1,
+     "basis": "platform",
+     "summary": "The platform supports a universal single-payer health system and, since a June 2021 amendment, programs to ensure all people have a livable income, such as a guaranteed minimum income or basic income; it does not address federal deficit policy directly.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_min_wage": {
+     "position": 2,
+     "basis": "platform",
+     "summary": "The Living Wage plank supports a wage that would allow full-time minimum-wage workers to afford a one-bedroom apartment at HUD fair market rent in the communities where they work.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_vouchers": {
+     "position": -2,
+     "basis": "platform",
+     "summary": "The education planks oppose vouchers and state that public funding should go to public schooling.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_school_funding": {
+     "position": 1,
+     "basis": "platform",
+     "summary": "The education planks call for equitable state funding for all Texas public schools; the platform does not specify funding levels or teacher pay.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_ten_commandments": {
+     "position": -1,
+     "basis": "platform",
+     "summary": "The platform states that neither religious opinion nor religious practice shall be established by law; it does not name the Ten Commandments law.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_medicaid": {
+     "position": 2,
+     "basis": "platform",
+     "summary": "The health plank endorses a universal single-payer health care system that guarantees health care as a human right regardless of income or employment, which goes beyond Medicaid expansion.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_abortion": {
+     "position": 1,
+     "basis": "platform",
+     "summary": "The platform supports meaningful reproductive choice for all women and publicly funded family planning, while opposing coerced abortion, sterilization, and contraception.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_border_state": {
+     "position": -2,
+     "basis": "platform",
+     "summary": "The immigration plank calls for ending the militarization of the Mexican border and for immigration enforcement that respects human rights.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_deportation": {
+     "position": -2,
+     "basis": "platform",
+     "summary": "The immigration plank calls for a comprehensive legalization program for undocumented residents rather than removal, and for enforcement free of abuse.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_legal_status": {
+     "position": 2,
+     "basis": "platform",
+     "summary": "The immigration plank calls for a comprehensive legalization program and a path to permanent residency with the option of citizenship for undocumented residents who wish to stay.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_gun_laws": {
+     "position": 2,
+     "basis": "platform",
+     "summary": "The platform says the party does not oppose lawful gun ownership but supports universal background checks on secondary sales, licensing and registration of newly purchased handguns and assault weapons, and a required gun safety course.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_cannabis": {
+     "position": 1,
+     "basis": "platform",
+     "summary": "The platform calls for decriminalizing marijuana, releasing prisoners held only on nonviolent marijuana charges, medical cannabis research, and ending charges for personal recreational possession; it does not describe a regulated retail market.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_fossil_priority": {
+     "position": -2,
+     "basis": "platform",
+     "summary": "The energy planks call for a planned phase-out of coal and petroleum, priority for renewable energy with natural gas only as a stopgap, and phasing out Texas's nuclear reactors.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_oilgas_rules": {
+     "position": 2,
+     "basis": "platform",
+     "summary": "The energy and environment planks call for capping abandoned oil and gas wells across Texas to stop methane leaks and for cumulative impact limits on new industrial facilities.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_voting_access": {
+     "position": 2,
+     "basis": "platform",
+     "summary": "The democracy planks support universal voter registration, same-day and online registration, and paid holidays for primary and general election days.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_ethics": {
+     "position": 2,
+     "basis": "platform",
+     "summary": "The campaign finance planks support full public financing of campaigns modeled on Maine's Clean Elections Act, limiting contributions to donors within a candidate's constituency, and banning corporate contributions to parties.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_preemption": {
+     "position": -1,
+     "basis": "platform",
+     "summary": "Decentralization is one of the party's Ten Key Values, which holds that power and responsibility should be restored to local communities, and the trade planks oppose agreements that weaken state and local standards; the platform does not address state preemption laws by name.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    },
+    "q_gambling": {
+     "position": -2,
+     "basis": "platform",
+     "summary": "The platform opposes the state lottery and any further legalization or government facilitation of gambling, describing government-sponsored gambling as a regressive tax on working and poor Texans.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_county_mental": {
+     "position": 1,
+     "basis": "platform",
+     "summary": "The criminal justice planks call for shifting funding from policing and prisons to mental health and social services and for eliminating bias against people with mental disabilities; they do not address county budgets specifically.",
+     "sources": [
+      "s1"
+     ]
+    }
+   },
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Platform - Green Party of Texas",
+     "publisher": "Green Party of Texas",
+     "url": "https://www.txgreens.org/platform",
+     "date": "2023-12"
+    },
+    {
+     "id": "s2",
+     "title": "Green Party Ten Key Values - Green Party of Texas",
+     "publisher": "Green Party of Texas",
+     "url": "https://www.txgreens.org/green_party_ten_key_values",
+     "date": null
+    }
+   ]
+  }
+ ],
+ "races": [
+  {
+   "id": "us-senate",
+   "title": "U.S. Senator",
+   "office_type": "us_senate",
+   "group": "federal",
+   "ballot_order": 0,
+   "candidates": [
+    {
+     "id": "ken-paxton",
+     "name": "Ken Paxton",
+     "party": "Republican",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    },
+    {
+     "id": "james-talarico",
+     "name": "James Talarico",
+     "party": "Democratic",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    },
+    {
+     "id": "ted-brown",
+     "name": "Ted Brown",
+     "party": "Libertarian",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    }
+   ],
+   "office": {
+    "summary": "One of Texas's two members of the U.S. Senate. Votes on federal laws, the federal budget, taxes, and treaties, and confirms federal judges, cabinet members, and other presidential nominees.",
+    "term": "6 years",
+    "source": {
+     "title": "U.S. Senate: About the Senate",
+     "url": "https://www.senate.gov/about.htm"
+    }
+   }
+  },
+  {
+   "id": "us-house-3",
+   "title": "U.S. Representative, District 3",
+   "office_type": "us_house",
+   "group": "federal",
+   "ballot_order": 1,
+   "candidates": [
+    {
+     "id": "keith-self",
+     "name": "Keith Self",
+     "party": "Republican",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    },
+    {
+     "id": "evan-hunt",
+     "name": "Evan Hunt",
+     "party": "Democratic",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    }
+   ],
+   "office": {
+    "summary": "Represents one congressional district in the U.S. House. Votes on federal laws, spending, and taxes. All revenue bills must start in the House. Texas districts were redrawn in 2025, so check which district covers your address.",
+    "term": "2 years",
+    "source": {
+     "title": "U.S. House of Representatives: The House Explained",
+     "url": "https://www.house.gov/the-house-explained"
+    }
+   }
+  },
+  {
+   "id": "us-house-4",
+   "title": "U.S. Representative, District 4",
+   "office_type": "us_house",
+   "group": "federal",
+   "ballot_order": 2,
+   "candidates": [
+    {
+     "id": "pat-fallon",
+     "name": "Pat Fallon",
+     "party": "Republican",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    },
+    {
+     "id": "jason-pearce",
+     "name": "Jason Pearce",
+     "party": "Democratic",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    }
+   ],
+   "office": {
+    "summary": "Represents one congressional district in the U.S. House. Votes on federal laws, spending, and taxes. All revenue bills must start in the House. Texas districts were redrawn in 2025, so check which district covers your address.",
+    "term": "2 years",
+    "source": {
+     "title": "U.S. House of Representatives: The House Explained",
+     "url": "https://www.house.gov/the-house-explained"
+    }
+   }
+  },
+  {
+   "id": "us-house-32",
+   "title": "U.S. Representative, District 32",
+   "office_type": "us_house",
+   "group": "federal",
+   "ballot_order": 3,
+   "candidates": [
+    {
+     "id": "jace-yarbrough",
+     "name": "Jace Yarbrough",
+     "party": "Republican",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    },
+    {
+     "id": "dan-barrios",
+     "name": "Dan Barrios",
+     "party": "Democratic",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    }
+   ],
+   "office": {
+    "summary": "Represents one congressional district in the U.S. House. Votes on federal laws, spending, and taxes. All revenue bills must start in the House. Texas districts were redrawn in 2025, so check which district covers your address.",
+    "term": "2 years",
+    "source": {
+     "title": "U.S. House of Representatives: The House Explained",
+     "url": "https://www.house.gov/the-house-explained"
+    }
+   }
+  },
+  {
+   "id": "governor",
+   "title": "Governor",
+   "office_type": "governor",
+   "group": "state",
+   "ballot_order": 4,
+   "candidates": [
+    {
+     "id": "greg-abbott",
+     "name": "Greg Abbott",
+     "party": "Republican",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    },
+    {
+     "id": "gina-hinojosa",
+     "name": "Gina Hinojosa",
+     "party": "Democratic",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    },
+    {
+     "id": "pat-dixon",
+     "name": "Pat Dixon",
+     "party": "Libertarian",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    }
+   ],
+   "office": {
+    "summary": "The chief executive of Texas. Signs or vetoes bills, can veto individual budget items, calls special legislative sessions, appoints members of state boards and fills judicial vacancies, and commands the Texas Military Department.",
+    "term": "4 years",
+    "source": {
+     "title": "Office of the Texas Governor",
+     "url": "https://gov.texas.gov/organization"
+    }
+   }
+  },
+  {
+   "id": "lt-governor",
+   "title": "Lieutenant Governor",
+   "office_type": "lt_governor",
+   "group": "state",
+   "ballot_order": 5,
+   "candidates": [
+    {
+     "id": "dan-patrick",
+     "name": "Dan Patrick",
+     "party": "Republican",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    },
+    {
+     "id": "vikki-goodwin",
+     "name": "Vikki Goodwin",
+     "party": "Democratic",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    },
+    {
+     "id": "anthony-cristo",
+     "name": "Anthony Cristo",
+     "party": "Libertarian",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    },
+    {
+     "id": "kevin-mccormick",
+     "name": "Kevin McCormick",
+     "party": "Green",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    }
+   ],
+   "office": {
+    "summary": "Presides over the Texas Senate. Appoints Senate committee chairs and members, decides which bills reach the floor, and co-chairs the Legislative Budget Board, which makes the Lieutenant Governor one of the most powerful offices in Texas government.",
+    "term": "4 years",
+    "source": {
+     "title": "Texas Senate: Lieutenant Governor",
+     "url": "https://senate.texas.gov/ltgov.php"
+    }
+   }
+  },
+  {
+   "id": "attorney-general",
+   "title": "Attorney General",
+   "office_type": "attorney_general",
+   "group": "state",
+   "ballot_order": 6,
+   "candidates": [
+    {
+     "id": "mayes-middleton",
+     "name": "Mayes Middleton",
+     "party": "Republican",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    },
+    {
+     "id": "nathan-johnson",
+     "name": "Nathan Johnson",
+     "party": "Democratic",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    },
+    {
+     "id": "tom-oxford",
+     "name": "Tom Oxford",
+     "party": "Libertarian",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    }
+   ],
+   "office": {
+    "summary": "The state's lawyer. Represents Texas in court, defends state laws, issues legal opinions to officials, enforces consumer protection laws, and collects child support. Can sue the federal government and private companies on the state's behalf.",
+    "term": "4 years",
+    "source": {
+     "title": "Office of the Attorney General of Texas",
+     "url": "https://www.texasattorneygeneral.gov/about-office"
+    }
+   }
+  },
+  {
+   "id": "comptroller",
+   "title": "Comptroller of Public Accounts",
+   "office_type": "comptroller",
+   "group": "state",
+   "ballot_order": 7,
+   "candidates": [
+    {
+     "id": "don-huffines",
+     "name": "Don Huffines",
+     "party": "Republican",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    },
+    {
+     "id": "sarah-eckhardt",
+     "name": "Sarah Eckhardt",
+     "party": "Democratic",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    },
+    {
+     "id": "v-alonzo-echavarria-garza",
+     "name": "V. Alonzo Echavarria-Garza",
+     "party": "Libertarian",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    },
+    {
+     "id": "shehla-faizi",
+     "name": "Shehla Faizi",
+     "party": "Green",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    }
+   ],
+   "office": {
+    "summary": "The state's chief financial officer. Collects state taxes, forecasts revenue, which sets how much the Legislature can spend, manages state cash, and runs programs including the education savings account (school choice) program created in 2025.",
+    "term": "4 years",
+    "source": {
+     "title": "Texas Comptroller of Public Accounts",
+     "url": "https://comptroller.texas.gov/about/"
+    }
+   }
+  },
+  {
+   "id": "land-commissioner",
+   "title": "Commissioner of the General Land Office",
+   "office_type": "land_commissioner",
+   "group": "state",
+   "ballot_order": 8,
+   "candidates": [
+    {
+     "id": "dawn-buckingham",
+     "name": "Dawn Buckingham",
+     "party": "Republican",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    },
+    {
+     "id": "benjamin-flores",
+     "name": "Benjamin Flores",
+     "party": "Democratic",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    },
+    {
+     "id": "neill-snider",
+     "name": "Neill Snider",
+     "party": "Libertarian",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    }
+   ],
+   "office": {
+    "summary": "Leads the General Land Office. Manages about 13 million acres of state land and mineral rights that fund public schools, oversees coastal protection and the Alamo, runs veterans land and housing programs, and administers federal disaster recovery money.",
+    "term": "4 years",
+    "source": {
+     "title": "Texas General Land Office: About",
+     "url": "https://www.glo.texas.gov/about-glo"
+    }
+   }
+  },
+  {
+   "id": "agriculture-commissioner",
+   "title": "Commissioner of Agriculture",
+   "office_type": "agriculture_commissioner",
+   "group": "state",
+   "ballot_order": 9,
+   "candidates": [
+    {
+     "id": "nate-sheets",
+     "name": "Nate Sheets",
+     "party": "Republican",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    },
+    {
+     "id": "clayton-tucker",
+     "name": "Clayton Tucker",
+     "party": "Democratic",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    },
+    {
+     "id": "austin-r-kelly",
+     "name": "Austin R. Kelly",
+     "party": "Libertarian",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    }
+   ],
+   "office": {
+    "summary": "Leads the Texas Department of Agriculture. Regulates pesticides, checks fuel pumps and scales, licenses hemp growers, promotes Texas farm products, and runs school nutrition programs.",
+    "term": "4 years",
+    "source": {
+     "title": "Texas Department of Agriculture: About",
+     "url": "https://www.texasagriculture.gov/About"
+    }
+   }
+  },
+  {
+   "id": "railroad-commissioner",
+   "title": "Railroad Commissioner",
+   "office_type": "railroad_commissioner",
+   "group": "state",
+   "ballot_order": 10,
+   "candidates": [
+    {
+     "id": "bo-french",
+     "name": "Bo French",
+     "party": "Republican",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    },
+    {
+     "id": "jon-rosenthal",
+     "name": "Jon Rosenthal",
+     "party": "Democratic",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    },
+    {
+     "id": "arthur-dibianca",
+     "name": "Arthur DiBianca",
+     "party": "Libertarian",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    }
+   ],
+   "office": {
+    "summary": "One of three members of the Railroad Commission of Texas, which does not regulate railroads. It regulates the oil and gas industry, pipelines, natural gas utilities, and surface coal and uranium mining.",
+    "term": "6 years",
+    "source": {
+     "title": "Railroad Commission of Texas: About Us",
+     "url": "https://www.rrc.texas.gov/about-us/"
+    }
+   }
+  },
+  {
+   "id": "tx-supreme-chief",
+   "title": "Chief Justice, Supreme Court",
+   "office_type": "judicial",
+   "group": "state-judicial",
+   "ballot_order": 11,
+   "candidates": [
+    {
+     "id": "jimmy-blacklock",
+     "name": "Jimmy Blacklock",
+     "party": "Republican",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    },
+    {
+     "id": "maggie-ellis",
+     "name": "Maggie Ellis",
+     "party": "Democratic",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    }
+   ],
+   "office": {
+    "summary": "The highest court in Texas for civil and juvenile cases. Its nine justices decide appeals on issues such as contracts, property, family law, and government powers, and the court oversees the state's legal system and rules for lawyers.",
+    "term": "6 years",
+    "source": {
+     "title": "Supreme Court of Texas: About the Court",
+     "url": "https://www.txcourts.gov/supreme/about-the-court/"
+    }
+   }
+  },
+  {
+   "id": "tx-supreme-2",
+   "title": "Justice, Supreme Court, Place 2 (Unexpired Term)",
+   "office_type": "judicial",
+   "group": "state-judicial",
+   "ballot_order": 12,
+   "candidates": [
+    {
+     "id": "james-p-sullivan",
+     "name": "James P. Sullivan",
+     "party": "Republican",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    },
+    {
+     "id": "chari-kelly",
+     "name": "Chari Kelly",
+     "party": "Democratic",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    }
+   ],
+   "office": {
+    "summary": "The highest court in Texas for civil and juvenile cases. Its nine justices decide appeals on issues such as contracts, property, family law, and government powers, and the court oversees the state's legal system and rules for lawyers.",
+    "term": "6 years",
+    "source": {
+     "title": "Supreme Court of Texas: About the Court",
+     "url": "https://www.txcourts.gov/supreme/about-the-court/"
+    }
+   }
+  },
+  {
+   "id": "tx-supreme-7",
+   "title": "Justice, Supreme Court, Place 7",
+   "office_type": "judicial",
+   "group": "state-judicial",
+   "ballot_order": 13,
+   "candidates": [
+    {
+     "id": "kyle-hawkins",
+     "name": "Kyle Hawkins",
+     "party": "Republican",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    },
+    {
+     "id": "kristen-hawkins",
+     "name": "Kristen Hawkins",
+     "party": "Democratic",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    }
+   ],
+   "office": {
+    "summary": "The highest court in Texas for civil and juvenile cases. Its nine justices decide appeals on issues such as contracts, property, family law, and government powers, and the court oversees the state's legal system and rules for lawyers.",
+    "term": "6 years",
+    "source": {
+     "title": "Supreme Court of Texas: About the Court",
+     "url": "https://www.txcourts.gov/supreme/about-the-court/"
+    }
+   }
+  },
+  {
+   "id": "tx-supreme-8",
+   "title": "Justice, Supreme Court, Place 8",
+   "office_type": "judicial",
+   "group": "state-judicial",
+   "ballot_order": 14,
+   "candidates": [
+    {
+     "id": "brett-busby",
+     "name": "Brett Busby",
+     "party": "Republican",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    },
+    {
+     "id": "gisela-d-triana",
+     "name": "Gisela D. Triana",
+     "party": "Democratic",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    }
+   ],
+   "office": {
+    "summary": "The highest court in Texas for civil and juvenile cases. Its nine justices decide appeals on issues such as contracts, property, family law, and government powers, and the court oversees the state's legal system and rules for lawyers.",
+    "term": "6 years",
+    "source": {
+     "title": "Supreme Court of Texas: About the Court",
+     "url": "https://www.txcourts.gov/supreme/about-the-court/"
+    }
+   }
+  },
+  {
+   "id": "cca-3",
+   "title": "Judge, Court of Criminal Appeals, Place 3",
+   "office_type": "judicial",
+   "group": "state-judicial",
+   "ballot_order": 15,
+   "candidates": [
+    {
+     "id": "thomas-smith",
+     "name": "Thomas Smith",
+     "party": "Republican",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    },
+    {
+     "id": "okey-anyiam",
+     "name": "Okey Anyiam",
+     "party": "Democratic",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    },
+    {
+     "id": "mark-ash",
+     "name": "Mark Ash",
+     "party": "Libertarian",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    }
+   ],
+   "office": {
+    "summary": "The highest court in Texas for criminal cases. Its nine judges hear all death penalty appeals and decide other criminal appeals and requests for habeas corpus relief.",
+    "term": "6 years",
+    "source": {
+     "title": "Court of Criminal Appeals: About the Court",
+     "url": "https://www.txcourts.gov/cca/about-the-court/"
+    }
+   }
+  },
+  {
+   "id": "cca-4",
+   "title": "Judge, Court of Criminal Appeals, Place 4",
+   "office_type": "judicial",
+   "group": "state-judicial",
+   "ballot_order": 16,
+   "candidates": [
+    {
+     "id": "kevin-patrick-yeary",
+     "name": "Kevin Patrick Yeary",
+     "party": "Republican",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    },
+    {
+     "id": "audra-riley",
+     "name": "Audra Riley",
+     "party": "Democratic",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    }
+   ],
+   "office": {
+    "summary": "The highest court in Texas for criminal cases. Its nine judges hear all death penalty appeals and decide other criminal appeals and requests for habeas corpus relief.",
+    "term": "6 years",
+    "source": {
+     "title": "Court of Criminal Appeals: About the Court",
+     "url": "https://www.txcourts.gov/cca/about-the-court/"
+    }
+   }
+  },
+  {
+   "id": "cca-9",
+   "title": "Judge, Court of Criminal Appeals, Place 9",
+   "office_type": "judicial",
+   "group": "state-judicial",
+   "ballot_order": 17,
+   "candidates": [
+    {
+     "id": "john-messinger",
+     "name": "John Messinger",
+     "party": "Republican",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    },
+    {
+     "id": "holly-taylor",
+     "name": "Holly Taylor",
+     "party": "Democratic",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    }
+   ],
+   "office": {
+    "summary": "The highest court in Texas for criminal cases. Its nine judges hear all death penalty appeals and decide other criminal appeals and requests for habeas corpus relief.",
+    "term": "6 years",
+    "source": {
+     "title": "Court of Criminal Appeals: About the Court",
+     "url": "https://www.txcourts.gov/cca/about-the-court/"
+    }
+   }
+  },
+  {
+   "id": "state-senate-2",
+   "title": "State Senator, District 2",
+   "office_type": "state_senate",
+   "group": "legislative",
+   "ballot_order": 18,
+   "candidates": [
+    {
+     "id": "bob-hall",
+     "name": "Bob Hall",
+     "party": "Republican",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    },
+    {
+     "id": "keenen-colbert",
+     "name": "Keenen Colbert",
+     "party": "Democratic",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    }
+   ],
+   "office": {
+    "summary": "One of 31 members of the Texas Senate. Writes and votes on state laws and the two-year state budget and confirms the Governor's appointees.",
+    "term": "4 years",
+    "source": {
+     "title": "Texas Senate",
+     "url": "https://senate.texas.gov/"
+    }
+   }
+  },
+  {
+   "id": "state-house-33",
+   "title": "State Representative, District 33",
+   "office_type": "state_house",
+   "group": "legislative",
+   "ballot_order": 19,
+   "candidates": [
+    {
+     "id": "katrina-pierson",
+     "name": "Katrina Pierson",
+     "party": "Republican",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    },
+    {
+     "id": "orlando-lopez",
+     "name": "Orlando Lopez",
+     "party": "Democratic",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    }
+   ],
+   "office": {
+    "summary": "One of 150 members of the Texas House of Representatives. Writes and votes on state laws and the two-year state budget. All tax bills must start in the House.",
+    "term": "2 years",
+    "source": {
+     "title": "Texas House of Representatives",
+     "url": "https://house.texas.gov/"
+    }
+   }
+  },
+  {
+   "id": "state-house-61",
+   "title": "State Representative, District 61",
+   "office_type": "state_house",
+   "group": "legislative",
+   "ballot_order": 20,
+   "candidates": [
+    {
+     "id": "keresa-richardson",
+     "name": "Keresa Richardson",
+     "party": "Republican",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    },
+    {
+     "id": "brittany-black",
+     "name": "Brittany Black",
+     "party": "Democratic",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    },
+    {
+     "id": "anissa-chilmeran",
+     "name": "Anissa Chilmeran",
+     "party": "Green",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    }
+   ],
+   "office": {
+    "summary": "One of 150 members of the Texas House of Representatives. Writes and votes on state laws and the two-year state budget. All tax bills must start in the House.",
+    "term": "2 years",
+    "source": {
+     "title": "Texas House of Representatives",
+     "url": "https://house.texas.gov/"
+    }
+   }
+  },
+  {
+   "id": "state-house-66",
+   "title": "State Representative, District 66",
+   "office_type": "state_house",
+   "group": "legislative",
+   "ballot_order": 21,
+   "candidates": [
+    {
+     "id": "matt-shaheen",
+     "name": "Matt Shaheen",
+     "party": "Republican",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    },
+    {
+     "id": "sandeep-srivastava",
+     "name": "Sandeep Srivastava",
+     "party": "Democratic",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    }
+   ],
+   "office": {
+    "summary": "One of 150 members of the Texas House of Representatives. Writes and votes on state laws and the two-year state budget. All tax bills must start in the House.",
+    "term": "2 years",
+    "source": {
+     "title": "Texas House of Representatives",
+     "url": "https://house.texas.gov/"
+    }
+   }
+  },
+  {
+   "id": "state-house-67",
+   "title": "State Representative, District 67",
+   "office_type": "state_house",
+   "group": "legislative",
+   "ballot_order": 22,
+   "candidates": [
+    {
+     "id": "jeff-leach",
+     "name": "Jeff Leach",
+     "party": "Republican",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    },
+    {
+     "id": "jordan-wheatley",
+     "name": "Jordan Wheatley",
+     "party": "Democratic",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    }
+   ],
+   "office": {
+    "summary": "One of 150 members of the Texas House of Representatives. Writes and votes on state laws and the two-year state budget. All tax bills must start in the House.",
+    "term": "2 years",
+    "source": {
+     "title": "Texas House of Representatives",
+     "url": "https://house.texas.gov/"
+    }
+   }
+  },
+  {
+   "id": "state-house-70",
+   "title": "State Representative, District 70",
+   "office_type": "state_house",
+   "group": "legislative",
+   "ballot_order": 23,
+   "candidates": [
+    {
+     "id": "george-flint",
+     "name": "George Flint",
+     "party": "Republican",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    },
+    {
+     "id": "mihaela-elizabeth-plesa",
+     "name": "Mihaela Elizabeth Plesa",
+     "party": "Democratic",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    }
+   ],
+   "office": {
+    "summary": "One of 150 members of the Texas House of Representatives. Writes and votes on state laws and the two-year state budget. All tax bills must start in the House.",
+    "term": "2 years",
+    "source": {
+     "title": "Texas House of Representatives",
+     "url": "https://house.texas.gov/"
+    }
+   }
+  },
+  {
+   "id": "state-house-89",
+   "title": "State Representative, District 89",
+   "office_type": "state_house",
+   "group": "legislative",
+   "ballot_order": 24,
+   "candidates": [
+    {
+     "id": "candy-noble",
+     "name": "Candy Noble",
+     "party": "Republican",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    },
+    {
+     "id": "angie-carraway",
+     "name": "Angie Carraway",
+     "party": "Democratic",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    }
+   ],
+   "office": {
+    "summary": "One of 150 members of the Texas House of Representatives. Writes and votes on state laws and the two-year state budget. All tax bills must start in the House.",
+    "term": "2 years",
+    "source": {
+     "title": "Texas House of Representatives",
+     "url": "https://house.texas.gov/"
+    }
+   }
+  },
+  {
+   "id": "coa15-chief",
+   "title": "Chief Justice, 15th Court of Appeals",
+   "office_type": "judicial",
+   "group": "state-judicial",
+   "ballot_order": 25,
+   "candidates": [
+    {
+     "id": "scott-brister",
+     "name": "Scott Brister",
+     "party": "Republican",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    },
+    {
+     "id": "jerry-zimmerer",
+     "name": "Jerry Zimmerer",
+     "party": "Democratic",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    }
+   ],
+   "office": {
+    "summary": "A statewide intermediate appeals court created in 2024. It hears appeals in cases brought by or against the state and its agencies and challenges to the constitutionality of state laws.",
+    "term": "6 years",
+    "source": {
+     "title": "Fifteenth Court of Appeals",
+     "url": "https://www.txcourts.gov/15thcoa/"
+    }
+   }
+  },
+  {
+   "id": "coa15-2",
+   "title": "Justice, 15th Court of Appeals, Place 2",
+   "office_type": "judicial",
+   "group": "state-judicial",
+   "ballot_order": 26,
+   "candidates": [
+    {
+     "id": "scott-k-field",
+     "name": "Scott K. Field",
+     "party": "Republican",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    },
+    {
+     "id": "tom-baker",
+     "name": "Tom Baker",
+     "party": "Democratic",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    }
+   ],
+   "office": {
+    "summary": "A statewide intermediate appeals court created in 2024. It hears appeals in cases brought by or against the state and its agencies and challenges to the constitutionality of state laws.",
+    "term": "6 years",
+    "source": {
+     "title": "Fifteenth Court of Appeals",
+     "url": "https://www.txcourts.gov/15thcoa/"
+    }
+   }
+  },
+  {
+   "id": "coa15-3",
+   "title": "Justice, 15th Court of Appeals, Place 3",
+   "office_type": "judicial",
+   "group": "state-judicial",
+   "ballot_order": 27,
+   "candidates": [
+    {
+     "id": "april-farris",
+     "name": "April Farris",
+     "party": "Republican",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    },
+    {
+     "id": "marc-m-meyer",
+     "name": "Marc M. Meyer",
+     "party": "Democratic",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    }
+   ],
+   "office": {
+    "summary": "A statewide intermediate appeals court created in 2024. It hears appeals in cases brought by or against the state and its agencies and challenges to the constitutionality of state laws.",
+    "term": "6 years",
+    "source": {
+     "title": "Fifteenth Court of Appeals",
+     "url": "https://www.txcourts.gov/15thcoa/"
+    }
+   }
+  },
+  {
+   "id": "coa5-3",
+   "title": "Justice, 5th Court of Appeals, Place 3",
+   "office_type": "judicial",
+   "group": "state-judicial",
+   "ballot_order": 28,
+   "candidates": [
+    {
+     "id": "matthew-kolodoski",
+     "name": "Matthew Kolodoski",
+     "party": "Republican",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    },
+    {
+     "id": "amanda-reichek",
+     "name": "Amanda Reichek",
+     "party": "Democratic",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    }
+   ],
+   "office": {
+    "summary": "An intermediate appeals court based in Dallas that hears civil and criminal appeals from trial courts in Collin, Dallas, Grayson, Hunt, Kaufman, and Rockwall counties.",
+    "term": "6 years",
+    "source": {
+     "title": "Fifth Court of Appeals",
+     "url": "https://www.txcourts.gov/5thcoa/"
+    }
+   }
+  },
+  {
+   "id": "coa5-6",
+   "title": "Justice, 5th Court of Appeals, Place 6",
+   "office_type": "judicial",
+   "group": "state-judicial",
+   "ballot_order": 29,
+   "candidates": [
+    {
+     "id": "ben-smith",
+     "name": "Ben Smith",
+     "party": "Republican",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    },
+    {
+     "id": "monica-purdy",
+     "name": "Monica Purdy",
+     "party": "Democratic",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    }
+   ],
+   "office": {
+    "summary": "An intermediate appeals court based in Dallas that hears civil and criminal appeals from trial courts in Collin, Dallas, Grayson, Hunt, Kaufman, and Rockwall counties.",
+    "term": "6 years",
+    "source": {
+     "title": "Fifth Court of Appeals",
+     "url": "https://www.txcourts.gov/5thcoa/"
+    }
+   }
+  },
+  {
+   "id": "coa5-8",
+   "title": "Justice, 5th Court of Appeals, Place 8",
+   "office_type": "judicial",
+   "group": "state-judicial",
+   "ballot_order": 30,
+   "candidates": [
+    {
+     "id": "ashley-wysocki",
+     "name": "Ashley Wysocki",
+     "party": "Republican",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    },
+    {
+     "id": "andrea-d-plumlee",
+     "name": "Andrea D. Plumlee",
+     "party": "Democratic",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    }
+   ],
+   "office": {
+    "summary": "An intermediate appeals court based in Dallas that hears civil and criminal appeals from trial courts in Collin, Dallas, Grayson, Hunt, Kaufman, and Rockwall counties.",
+    "term": "6 years",
+    "source": {
+     "title": "Fifth Court of Appeals",
+     "url": "https://www.txcourts.gov/5thcoa/"
+    }
+   }
+  },
+  {
+   "id": "district-219",
+   "title": "District Judge, 219th Judicial District",
+   "office_type": "judicial",
+   "group": "county-judicial",
+   "ballot_order": 31,
+   "candidates": [
+    {
+     "id": "jennifer-edgeworth",
+     "name": "Jennifer Edgeworth",
+     "party": "Republican",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    }
+   ],
+   "office": {
+    "summary": "A state trial court of general jurisdiction in Collin County. Hears felony criminal cases, divorces and family cases, civil lawsuits over larger amounts, and election contests.",
+    "term": "4 years",
+    "source": {
+     "title": "Collin County District Courts",
+     "url": "https://www.collincountytx.gov/Courts/District-Courts"
+    }
+   }
+  },
+  {
+   "id": "district-296",
+   "title": "District Judge, 296th Judicial District",
+   "office_type": "judicial",
+   "group": "county-judicial",
+   "ballot_order": 32,
+   "candidates": [
+    {
+     "id": "piper-mccraw",
+     "name": "Piper McCraw",
+     "party": "Republican",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    }
+   ],
+   "office": {
+    "summary": "A state trial court of general jurisdiction in Collin County. Hears felony criminal cases, divorces and family cases, civil lawsuits over larger amounts, and election contests.",
+    "term": "4 years",
+    "source": {
+     "title": "Collin County District Courts",
+     "url": "https://www.collincountytx.gov/Courts/District-Courts"
+    }
+   }
+  },
+  {
+   "id": "district-366",
+   "title": "District Judge, 366th Judicial District",
+   "office_type": "judicial",
+   "group": "county-judicial",
+   "ballot_order": 33,
+   "candidates": [
+    {
+     "id": "tom-nowak",
+     "name": "Tom Nowak",
+     "party": "Republican",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    }
+   ],
+   "office": {
+    "summary": "A state trial court of general jurisdiction in Collin County. Hears felony criminal cases, divorces and family cases, civil lawsuits over larger amounts, and election contests.",
+    "term": "4 years",
+    "source": {
+     "title": "Collin County District Courts",
+     "url": "https://www.collincountytx.gov/Courts/District-Courts"
+    }
+   }
+  },
+  {
+   "id": "district-417",
+   "title": "District Judge, 417th Judicial District",
+   "office_type": "judicial",
+   "group": "county-judicial",
+   "ballot_order": 34,
+   "candidates": [
+    {
+     "id": "cyndi-mccrann-wheless",
+     "name": "Cyndi McCrann Wheless",
+     "party": "Republican",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    }
+   ],
+   "office": {
+    "summary": "A state trial court of general jurisdiction in Collin County. Hears felony criminal cases, divorces and family cases, civil lawsuits over larger amounts, and election contests.",
+    "term": "4 years",
+    "source": {
+     "title": "Collin County District Courts",
+     "url": "https://www.collincountytx.gov/Courts/District-Courts"
+    }
+   }
+  },
+  {
+   "id": "district-429",
+   "title": "District Judge, 429th Judicial District",
+   "office_type": "judicial",
+   "group": "county-judicial",
+   "ballot_order": 35,
+   "candidates": [
+    {
+     "id": "jill-willis",
+     "name": "Jill Willis",
+     "party": "Republican",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    }
+   ],
+   "office": {
+    "summary": "A state trial court of general jurisdiction in Collin County. Hears felony criminal cases, divorces and family cases, civil lawsuits over larger amounts, and election contests.",
+    "term": "4 years",
+    "source": {
+     "title": "Collin County District Courts",
+     "url": "https://www.collincountytx.gov/Courts/District-Courts"
+    }
+   }
+  },
+  {
+   "id": "district-471",
+   "title": "District Judge, 471st Judicial District",
+   "office_type": "judicial",
+   "group": "county-judicial",
+   "ballot_order": 36,
+   "candidates": [
+    {
+     "id": "bryan-gantt",
+     "name": "Bryan Gantt",
+     "party": "Republican",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    }
+   ],
+   "office": {
+    "summary": "A state trial court of general jurisdiction in Collin County. Hears felony criminal cases, divorces and family cases, civil lawsuits over larger amounts, and election contests.",
+    "term": "4 years",
+    "source": {
+     "title": "Collin County District Courts",
+     "url": "https://www.collincountytx.gov/Courts/District-Courts"
+    }
+   }
+  },
+  {
+   "id": "district-494",
+   "title": "District Judge, 494th Judicial District",
+   "office_type": "judicial",
+   "group": "county-judicial",
+   "ballot_order": 37,
+   "candidates": [
+    {
+     "id": "kathryn-pruitt",
+     "name": "Kathryn Pruitt",
+     "party": "Republican",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    }
+   ],
+   "office": {
+    "summary": "A state trial court of general jurisdiction in Collin County. Hears felony criminal cases, divorces and family cases, civil lawsuits over larger amounts, and election contests.",
+    "term": "4 years",
+    "source": {
+     "title": "Collin County District Courts",
+     "url": "https://www.collincountytx.gov/Courts/District-Courts"
+    }
+   }
+  },
+  {
+   "id": "collin-da",
+   "title": "Criminal District Attorney, Collin County",
+   "office_type": "district_attorney",
+   "group": "county",
+   "ballot_order": 38,
+   "candidates": [
+    {
+     "id": "greg-willis",
+     "name": "Greg Willis",
+     "party": "Republican",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    }
+   ],
+   "office": {
+    "summary": "The county's chief prosecutor. Decides which criminal cases to bring, prosecutes felonies and misdemeanors in Collin County, and handles certain civil and protective order matters.",
+    "term": "4 years",
+    "source": {
+     "title": "Texas Association of Counties: Duties of County Officials",
+     "url": "https://www.county.org/resources/resource-library/education-and-training/duties-texas-county-officials"
+    }
+   }
+  },
+  {
+   "id": "county-judge",
+   "title": "County Judge",
+   "office_type": "county_judge",
+   "group": "county",
+   "ballot_order": 39,
+   "candidates": [
+    {
+     "id": "chris-hill",
+     "name": "Chris Hill",
+     "party": "Republican",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    },
+    {
+     "id": "john-r-buster-brown",
+     "name": "John R. Buster Brown",
+     "party": "Democratic",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    }
+   ],
+   "office": {
+    "summary": "Presides over the Commissioners Court, which sets the county budget and tax rate, funds the jail, courts, and sheriff, builds county roads, and runs emergency management. In Collin County the role is mainly administrative.",
+    "term": "4 years",
+    "source": {
+     "title": "Texas Association of Counties: Duties of County Officials",
+     "url": "https://www.county.org/resources/resource-library/education-and-training/duties-texas-county-officials"
+    }
+   }
+  },
+  {
+   "id": "ccl-1",
+   "title": "Judge, County Court at Law No. 1",
+   "office_type": "judicial",
+   "group": "county-judicial",
+   "ballot_order": 40,
+   "candidates": [
+    {
+     "id": "corinne-mason",
+     "name": "Corinne Mason",
+     "party": "Republican",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    }
+   ],
+   "office": {
+    "summary": "A county court at law in Collin County. Hears misdemeanor criminal cases and civil cases, and some courts handle family, probate, or juvenile matters as assigned.",
+    "term": "4 years",
+    "source": {
+     "title": "Collin County Courts at Law",
+     "url": "https://www.collincountytx.gov/Courts/County-Courts-at-Law"
+    }
+   }
+  },
+  {
+   "id": "ccl-2",
+   "title": "Judge, County Court at Law No. 2",
+   "office_type": "judicial",
+   "group": "county-judicial",
+   "ballot_order": 41,
+   "candidates": [
+    {
+     "id": "barnett-walker",
+     "name": "Barnett Walker",
+     "party": "Republican",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    }
+   ],
+   "office": {
+    "summary": "A county court at law in Collin County. Hears misdemeanor criminal cases and civil cases, and some courts handle family, probate, or juvenile matters as assigned.",
+    "term": "4 years",
+    "source": {
+     "title": "Collin County Courts at Law",
+     "url": "https://www.collincountytx.gov/Courts/County-Courts-at-Law"
+    }
+   }
+  },
+  {
+   "id": "ccl-3",
+   "title": "Judge, County Court at Law No. 3",
+   "office_type": "judicial",
+   "group": "county-judicial",
+   "ballot_order": 42,
+   "candidates": [
+    {
+     "id": "lance-s-baxter",
+     "name": "Lance S. Baxter",
+     "party": "Republican",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    }
+   ],
+   "office": {
+    "summary": "A county court at law in Collin County. Hears misdemeanor criminal cases and civil cases, and some courts handle family, probate, or juvenile matters as assigned.",
+    "term": "4 years",
+    "source": {
+     "title": "Collin County Courts at Law",
+     "url": "https://www.collincountytx.gov/Courts/County-Courts-at-Law"
+    }
+   }
+  },
+  {
+   "id": "ccl-4",
+   "title": "Judge, County Court at Law No. 4",
+   "office_type": "judicial",
+   "group": "county-judicial",
+   "ballot_order": 43,
+   "candidates": [
+    {
+     "id": "david-rippel",
+     "name": "David Rippel",
+     "party": "Republican",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    }
+   ],
+   "office": {
+    "summary": "A county court at law in Collin County. Hears misdemeanor criminal cases and civil cases, and some courts handle family, probate, or juvenile matters as assigned.",
+    "term": "4 years",
+    "source": {
+     "title": "Collin County Courts at Law",
+     "url": "https://www.collincountytx.gov/Courts/County-Courts-at-Law"
+    }
+   }
+  },
+  {
+   "id": "ccl-5",
+   "title": "Judge, County Court at Law No. 5",
+   "office_type": "judicial",
+   "group": "county-judicial",
+   "ballot_order": 44,
+   "candidates": [
+    {
+     "id": "randy-johnson",
+     "name": "Randy Johnson",
+     "party": "Republican",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    }
+   ],
+   "office": {
+    "summary": "A county court at law in Collin County. Hears misdemeanor criminal cases and civil cases, and some courts handle family, probate, or juvenile matters as assigned.",
+    "term": "4 years",
+    "source": {
+     "title": "Collin County Courts at Law",
+     "url": "https://www.collincountytx.gov/Courts/County-Courts-at-Law"
+    }
+   }
+  },
+  {
+   "id": "ccl-6",
+   "title": "Judge, County Court at Law No. 6",
+   "office_type": "judicial",
+   "group": "county-judicial",
+   "ballot_order": 45,
+   "candidates": [
+    {
+     "id": "jay-a-bender",
+     "name": "Jay A. Bender",
+     "party": "Republican",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    }
+   ],
+   "office": {
+    "summary": "A county court at law in Collin County. Hears misdemeanor criminal cases and civil cases, and some courts handle family, probate, or juvenile matters as assigned.",
+    "term": "4 years",
+    "source": {
+     "title": "Collin County Courts at Law",
+     "url": "https://www.collincountytx.gov/Courts/County-Courts-at-Law"
+    }
+   }
+  },
+  {
+   "id": "ccl-7",
+   "title": "Judge, County Court at Law No. 7",
+   "office_type": "judicial",
+   "group": "county-judicial",
+   "ballot_order": 46,
+   "candidates": [
+    {
+     "id": "david-waddill",
+     "name": "David Waddill",
+     "party": "Republican",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    }
+   ],
+   "office": {
+    "summary": "A county court at law in Collin County. Hears misdemeanor criminal cases and civil cases, and some courts handle family, probate, or juvenile matters as assigned.",
+    "term": "4 years",
+    "source": {
+     "title": "Collin County Courts at Law",
+     "url": "https://www.collincountytx.gov/Courts/County-Courts-at-Law"
+    }
+   }
+  },
+  {
+   "id": "probate",
+   "title": "Judge, Probate Court",
+   "office_type": "judicial",
+   "group": "county-judicial",
+   "ballot_order": 47,
+   "candidates": [
+    {
+     "id": "sarah-r-duff",
+     "name": "Sarah R. Duff",
+     "party": "Republican",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    }
+   ],
+   "office": {
+    "summary": "Handles wills and estates, guardianships for adults who cannot care for themselves, and mental health commitment cases in Collin County.",
+    "term": "4 years",
+    "source": {
+     "title": "Collin County Probate Court",
+     "url": "https://www.collincountytx.gov/Courts/Probate-Court"
+    }
+   }
+  },
+  {
+   "id": "district-clerk",
+   "title": "District Clerk",
+   "office_type": "clerk",
+   "group": "county",
+   "ballot_order": 48,
+   "candidates": [
+    {
+     "id": "mike-gould",
+     "name": "Mike Gould",
+     "party": "Republican",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    }
+   ],
+   "office": {
+    "summary": "Keeper of records for the district courts. Files cases, manages court records and jury selection, and handles court fees and passport applications.",
+    "term": "4 years",
+    "source": {
+     "title": "Texas Association of Counties: Duties of County Officials",
+     "url": "https://www.county.org/resources/resource-library/education-and-training/duties-texas-county-officials"
+    }
+   }
+  },
+  {
+   "id": "county-clerk",
+   "title": "County Clerk",
+   "office_type": "clerk",
+   "group": "county",
+   "ballot_order": 49,
+   "candidates": [
+    {
+     "id": "stacey-kemp",
+     "name": "Stacey Kemp",
+     "party": "Republican",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    },
+    {
+     "id": "john-russell",
+     "name": "John Russell",
+     "party": "Democratic",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    }
+   ],
+   "office": {
+    "summary": "Records property deeds, marriage licenses, and birth and death records, and serves as clerk for the county courts and Commissioners Court. In Collin County, elections are run by a separate Elections Administrator.",
+    "term": "4 years",
+    "source": {
+     "title": "Texas Association of Counties: Duties of County Officials",
+     "url": "https://www.county.org/resources/resource-library/education-and-training/duties-texas-county-officials"
+    }
+   }
+  },
+  {
+   "id": "commissioner-2",
+   "title": "County Commissioner, Precinct 2",
+   "office_type": "county_commissioner",
+   "group": "county",
+   "ballot_order": 50,
+   "candidates": [
+    {
+     "id": "michael-slaughter",
+     "name": "Michael Slaughter",
+     "party": "Republican",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    }
+   ],
+   "office": {
+    "summary": "One of four members of the Commissioners Court elected by precinct. Votes on the county budget, tax rate, contracts, and facilities, and oversees county roads and bridges in the precinct.",
+    "term": "4 years",
+    "source": {
+     "title": "Texas Association of Counties: Duties of County Officials",
+     "url": "https://www.county.org/resources/resource-library/education-and-training/duties-texas-county-officials"
+    }
+   }
+  },
+  {
+   "id": "commissioner-4",
+   "title": "County Commissioner, Precinct 4",
+   "office_type": "county_commissioner",
+   "group": "county",
+   "ballot_order": 51,
+   "candidates": [
+    {
+     "id": "shelby-williams",
+     "name": "Shelby Williams",
+     "party": "Republican",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    },
+    {
+     "id": "julie-holmer",
+     "name": "Julie Holmer",
+     "party": "Democratic",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    }
+   ],
+   "office": {
+    "summary": "One of four members of the Commissioners Court elected by precinct. Votes on the county budget, tax rate, contracts, and facilities, and oversees county roads and bridges in the precinct.",
+    "term": "4 years",
+    "source": {
+     "title": "Texas Association of Counties: Duties of County Officials",
+     "url": "https://www.county.org/resources/resource-library/education-and-training/duties-texas-county-officials"
+    }
+   }
+  },
+  {
+   "id": "jp-1",
+   "title": "Justice of the Peace, Precinct 1",
+   "office_type": "judicial",
+   "group": "county-judicial",
+   "ballot_order": 52,
+   "candidates": [
+    {
+     "id": "paul-m-raleeh",
+     "name": "Paul M. Raleeh",
+     "party": "Republican",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    }
+   ],
+   "office": {
+    "summary": "Hears small claims and civil cases up to $20,000, evictions, traffic and Class C misdemeanor cases, and truancy cases. Also performs magistrate duties and conducts inquests.",
+    "term": "4 years",
+    "source": {
+     "title": "Texas Justice Court Training Center",
+     "url": "https://www.tjctc.org/"
+    }
+   }
+  },
+  {
+   "id": "jp-2",
+   "title": "Justice of the Peace, Precinct 2",
+   "office_type": "judicial",
+   "group": "county-judicial",
+   "ballot_order": 53,
+   "candidates": [
+    {
+     "id": "ellen-kinnebrew",
+     "name": "Ellen Kinnebrew",
+     "party": "Republican",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    },
+    {
+     "id": "darsell-e-johnson",
+     "name": "Darsell E. Johnson",
+     "party": "Democratic",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    }
+   ],
+   "office": {
+    "summary": "Hears small claims and civil cases up to $20,000, evictions, traffic and Class C misdemeanor cases, and truancy cases. Also performs magistrate duties and conducts inquests.",
+    "term": "4 years",
+    "source": {
+     "title": "Texas Justice Court Training Center",
+     "url": "https://www.tjctc.org/"
+    }
+   }
+  },
+  {
+   "id": "jp-3",
+   "title": "Justice of the Peace, Precinct 3",
+   "office_type": "judicial",
+   "group": "county-judicial",
+   "ballot_order": 54,
+   "candidates": [
+    {
+     "id": "mike-missildine",
+     "name": "Mike Missildine",
+     "party": "Republican",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    },
+    {
+     "id": "irvin-lynn-barrett",
+     "name": "Irvin Lynn Barrett",
+     "party": "Democratic",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    }
+   ],
+   "office": {
+    "summary": "Hears small claims and civil cases up to $20,000, evictions, traffic and Class C misdemeanor cases, and truancy cases. Also performs magistrate duties and conducts inquests.",
+    "term": "4 years",
+    "source": {
+     "title": "Texas Justice Court Training Center",
+     "url": "https://www.tjctc.org/"
+    }
+   }
+  },
+  {
+   "id": "jp-4",
+   "title": "Justice of the Peace, Precinct 4",
+   "office_type": "judicial",
+   "group": "county-judicial",
+   "ballot_order": 55,
+   "candidates": [
+    {
+     "id": "stephen-kallas",
+     "name": "Stephen Kallas",
+     "party": "Republican",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    },
+    {
+     "id": "eli-worthy",
+     "name": "Eli Worthy",
+     "party": "Democratic",
+     "incumbent": false,
+     "current_role": "",
+     "background": "",
+     "website": null,
+     "priorities": [],
+     "promises": [],
+     "record": [],
+     "notes": [],
+     "stances": {},
+     "issue_notes": [],
+     "sources": [],
+     "research_gaps": ""
+    }
+   ],
+   "office": {
+    "summary": "Hears small claims and civil cases up to $20,000, evictions, traffic and Class C misdemeanor cases, and truancy cases. Also performs magistrate duties and conducts inquests.",
+    "term": "4 years",
+    "source": {
+     "title": "Texas Justice Court Training Center",
+     "url": "https://www.tjctc.org/"
+    }
+   }
+  }
+ ]
+}
