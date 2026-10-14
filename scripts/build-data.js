@@ -113,16 +113,54 @@ function cleanStances(stances, ids, who) {
 }
 
 // ---- Research files ----
+// Primary files are read first; supplement files (pass2-*.json and later) are
+// merged into the matching candidate entries. See docs/RESEARCH_SPEC.md.
 const researchDir = join(root, 'data/research');
 const research = new Map();
 let parties = [];
-for (const f of existsSync(researchDir) ? readdirSync(researchDir) : []) {
-  if (!f.endsWith('.json')) continue;
+
+const LIST_FIELDS = ['priorities', 'promises', 'record', 'notes', 'issue_notes'];
+const SCALAR_FIELDS = ['website', 'current_role', 'background', 'incumbent'];
+
+function mergeSupplement(base, extra, file) {
+  const ids = new Set((base.sources || []).map((s) => s.id));
+  for (const s of extra.sources || []) {
+    if (ids.has(s.id)) warn(`${extra.id}: supplement ${file} reuses source id ${s.id}; skipped`);
+    else {
+      (base.sources ||= []).push(s);
+      ids.add(s.id);
+    }
+  }
+  for (const field of LIST_FIELDS) {
+    const existing = new Set((base[field] || []).map((i) => (i.text || i.summary || '').trim()));
+    for (const item of extra[field] || []) {
+      const key = (item.text || item.summary || '').trim();
+      if (!existing.has(key)) (base[field] ||= []).push(item);
+    }
+  }
+  for (const field of SCALAR_FIELDS) if (extra[field] !== undefined && extra[field] !== null) base[field] = extra[field];
+  for (const [qid, stance] of Object.entries(extra.stances || {})) {
+    base.stances ||= {};
+    if (!base.stances[qid] || stance.replace === true) {
+      const clean = { ...stance };
+      delete clean.replace;
+      base.stances[qid] = clean;
+    } else {
+      warn(`${extra.id}: ${file} has a ${qid} stance without "replace": true; kept the original`);
+    }
+  }
+  if (extra.research_gaps) base.research_gaps = extra.research_gaps;
+}
+
+const files = (existsSync(researchDir) ? readdirSync(researchDir) : []).filter((f) => f.endsWith('.json')).sort();
+const isSupplement = (f) => /^pass\d+-/.test(f);
+for (const f of [...files.filter((x) => !isSupplement(x)), ...files.filter(isSupplement)]) {
   const data = JSON.parse(readFileSync(join(researchDir, f), 'utf8'));
   if (data.parties) parties = data.parties;
   for (const c of data.candidates || []) {
-    if (research.has(c.id)) warn(`duplicate research entry for ${c.id} in ${f}`);
-    research.set(c.id, c);
+    if (!research.has(c.id)) research.set(c.id, structuredClone(c));
+    else if (isSupplement(f)) mergeSupplement(research.get(c.id), c, f);
+    else warn(`duplicate research entry for ${c.id} in ${f}`);
   }
 }
 

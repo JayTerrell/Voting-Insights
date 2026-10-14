@@ -89,7 +89,7 @@ export async function renderTerms(view, _p, current) {
     <h2>2. Accuracy of information</h2>
     <p>Candidate information is compiled from public sources and summarized by our editors. We work to be accurate and fair, but information may be incomplete, out of date, or wrong, and candidates' positions may change. Quiz results are an automated comparison based on limited data and should be one of many tools you use. Always confirm important details, including your polling place and the races on your ballot, with official election sources.</p>
     <h2>3. Your account and results</h2>
-    <p>To save quiz results you provide your name, email address, county, and age range. You agree to provide accurate information and to use only an email address you control. Each email address may have one account. You are responsible for results you choose to share. A shared results link can be viewed by anyone who has it.</p>
+    <p>To save quiz results you provide your name, email address, county, and age range. You agree to provide accurate information and to use only an email address you control. Each email address may have one account. You are responsible for results you choose to share. A shared results link can be viewed by anyone who has it, and saved results can be opened by anyone who enters the email address they were saved under.</p>
     <h2>4. Acceptable use</h2>
     <p>You agree not to misuse the Site, including by submitting automated or bulk requests, attempting to access other people's results or accounts, interfering with the Site's operation, scraping personal information, or using the Site to harass anyone.</p>
     <h2>5. Content and links</h2>
@@ -126,7 +126,7 @@ export async function renderPrivacy(view, _p, current) {
     <h2>How we use it</h2>
     <ul>
       <li>To save your results and let you find them later under My Results.</li>
-      <li>To email you your results and verification codes.</li>
+      <li>To email you a copy of your results.</li>
       <li>To produce anonymous, aggregate statistics about quiz participation, such as totals by county or age range. We do not publish information that identifies you.</li>
       <li>If you opted in, to tell you when the guide is updated for future elections. You can opt out at any time.</li>
     </ul>
@@ -138,11 +138,11 @@ export async function renderPrivacy(view, _p, current) {
     <h2>Sharing</h2>
     <p>We use service providers to host the Site and send email, and they process data only to provide those services. We may disclose information if required by law. If you share a results link, anyone with the link can see your first name and match percentages, but never your email address, last name, or individual answers.</p>
     <h2>Viewing your results</h2>
-    <p>To protect your privacy, viewing saved results on a new device requires a one-time code sent to your email address.</p>
+    <p>Your saved results, including your individual answers, can be opened from the My Results page by entering your email address. This means anyone who knows the email address you used can view your saved results. If that concerns you, delete your account from the My Results page at any time, or take the quiz without saving it under an email you share with others.</p>
     <h2>Retention and deletion</h2>
     <p>We keep your account and results until you ask us to delete them, or until we retire the Site. You can delete your account and all saved results at any time from the My Results page. To correct your information, contact ${contact} from the email address on your account.</p>
     <h2>Security</h2>
-    <p>Verification codes and sign-in tokens are stored only in hashed form, and the Site uses encrypted connections. No system is perfectly secure, so please use an email address you control.</p>
+    <p>Sign-in tokens are stored only in hashed form, and the Site uses encrypted connections. No system is perfectly secure, so please use an email address you control.</p>
     <h2>Children</h2>
     <p>The Site is meant for voters and people learning about elections. It is not directed to children under 13, and we do not knowingly collect information from them.</p>
     <h2>Changes</h2>

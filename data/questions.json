@@ -2,6 +2,7 @@
   {
     "id": "q_prop_tax_eliminate",
     "category": "Taxes and Spending",
+    "short": "Eliminate school property taxes",
     "statement": "Texas should work toward eliminating school district property taxes and replace that money with state funds or other taxes.",
     "context": "Supporters say property taxes burden homeowners and can force people out of homes they own. Opponents say replacing tens of billions in local revenue would require large new taxes or deep spending cuts.",
     "offices": [
@@ -15,6 +16,7 @@
   {
     "id": "q_spending_cap",
     "category": "Taxes and Spending",
+    "short": "Cap government spending growth",
     "statement": "Growth in state and local government spending should be capped at the combined rate of population growth and inflation.",
     "context": "Supporters say a hard cap restrains government and protects taxpayers. Opponents say a fast-growing state needs flexibility for roads, schools, water, and emergencies.",
     "offices": [
@@ -30,6 +32,7 @@
   {
     "id": "q_tariffs",
     "category": "Taxes and Spending",
+    "short": "Broad tariffs help the economy",
     "statement": "Broad tariffs on imported goods help the American economy more than they hurt it.",
     "context": "Supporters say tariffs protect domestic industry and give the U.S. leverage in trade talks. Opponents say tariffs raise prices for consumers and invite retaliation against exporters, including Texas agriculture and energy.",
     "offices": [
@@ -40,6 +43,7 @@
   {
     "id": "q_federal_spending",
     "category": "Taxes and Spending",
+    "short": "Cut federal spending incl. Medicaid",
     "statement": "Congress should reduce federal spending, including on programs such as Medicaid and food assistance, to lower the deficit.",
     "context": "Supporters say the national debt is unsustainable and benefit programs need reform. Opponents say cuts to these programs fall hardest on low-income families, rural hospitals, and seniors.",
     "offices": [
@@ -50,6 +54,7 @@
   {
     "id": "q_min_wage",
     "category": "Jobs and Wages",
+    "short": "Raise the minimum wage",
     "statement": "The minimum wage that applies in Texas should be raised above $7.25 per hour.",
     "context": "Texas uses the federal minimum of $7.25. Supporters say it has not kept up with living costs. Opponents say mandated increases can reduce hiring and hurt small businesses.",
     "offices": [
@@ -64,6 +69,7 @@
   {
     "id": "q_vouchers",
     "category": "Education",
+    "short": "Public money for private school",
     "statement": "Public money should help families pay for private school through education savings accounts or vouchers.",
     "context": "Texas created an education savings account program in 2025, administered by the Comptroller. Supporters say families deserve choices. Opponents say it diverts money from public schools, especially in rural areas.",
     "offices": [
@@ -80,6 +86,7 @@
   {
     "id": "q_school_funding",
     "category": "Education",
+    "short": "Raise public school funding",
     "statement": "The state should substantially increase per-student funding for public schools and teacher pay.",
     "context": "Supporters say the basic per-student allotment has lagged inflation for years. Opponents say more money does not guarantee better results and that spending should be tied to performance or reform.",
     "offices": [
@@ -94,6 +101,7 @@
   {
     "id": "q_ten_commandments",
     "category": "Education",
+    "short": "Ten Commandments in classrooms",
     "statement": "Public school classrooms should be required to display the Ten Commandments.",
     "context": "A 2025 Texas law requires classroom displays, and it is being challenged in court. Supporters say it reflects the nation's historical and moral heritage. Opponents say it violates the separation of church and state and parents' right to direct religious instruction.",
     "offices": [
@@ -108,6 +116,7 @@
   {
     "id": "q_medicaid",
     "category": "Health Care",
+    "short": "Expand Medicaid",
     "statement": "Texas should expand Medicaid to cover more low-income working adults.",
     "context": "Texas has the highest uninsured rate in the country and is one of a minority of states that has not expanded Medicaid. Supporters cite coverage and federal matching funds. Opponents cite long-term cost to the state and concerns about government-run health care.",
     "offices": [
@@ -122,6 +131,7 @@
   {
     "id": "q_abortion",
     "category": "Abortion",
+    "short": "Loosen abortion law",
     "statement": "Texas abortion law should be changed to allow more access to abortion than current law permits.",
     "context": "Texas law bans nearly all abortions, with a narrow exception for a medical emergency. Supporters of change want exceptions or broader legal access. Opponents believe current protections for unborn life should remain or be strengthened.",
     "offices": [
@@ -137,6 +147,7 @@
   {
     "id": "q_border_state",
     "category": "Immigration and Border",
+    "short": "State spending on border security",
     "statement": "Texas should keep spending state money on border security, including state-built barriers and state troops.",
     "context": "Operation Lone Star has cost Texas more than $11 billion since 2021. Supporters say the state must act where the federal government falls short. Opponents say border security is a federal duty and the money is needed elsewhere.",
     "offices": [
@@ -152,6 +163,7 @@
   {
     "id": "q_deportation",
     "category": "Immigration and Border",
+    "short": "Prioritize deporting all undocumented",
     "statement": "Deporting people who are in the country illegally should be a top priority, including people with no criminal record.",
     "context": "Supporters say consistent enforcement upholds the rule of law and discourages illegal crossings. Opponents say mass deportation separates families, harms industries that rely on immigrant labor, and should focus on serious criminals.",
     "offices": [
@@ -168,6 +180,7 @@
   {
     "id": "q_legal_status",
     "category": "Immigration and Border",
+    "short": "Path to legal status",
     "statement": "Long-term undocumented residents with no criminal record should be offered a path to legal status.",
     "context": "Supporters say people who have lived and worked here for years should be able to earn legal status. Opponents say it rewards illegal entry and encourages more of it.",
     "offices": [
@@ -182,6 +195,7 @@
   {
     "id": "q_gun_laws",
     "category": "Guns and Public Safety",
+    "short": "Stricter gun laws",
     "statement": "Stricter gun laws, such as universal background checks or red flag laws, are needed.",
     "context": "Texas allows permitless carry for adults 21 and older. Supporters of new laws point to mass shootings, including Uvalde and Allen. Opponents say such laws infringe on Second Amendment rights and do not stop criminals.",
     "offices": [
@@ -197,6 +211,7 @@
   {
     "id": "q_bail",
     "category": "Guns and Public Safety",
+    "short": "Stricter bail for violent felonies",
     "statement": "It should be harder for people charged with violent felonies to be released on bail before trial.",
     "context": "Texas voters approved bail-related constitutional amendments in 2025. Supporters say dangerous defendants are being released. Opponents say people are presumed innocent and stricter rules mostly jail people who cannot afford bond.",
     "offices": [
@@ -212,6 +227,7 @@
   {
     "id": "q_cannabis",
     "category": "Guns and Public Safety",
+    "short": "Legal regulated cannabis",
     "statement": "Adults should be able to legally buy cannabis products, including hemp-derived THC, under state regulation.",
     "context": "Texas debated banning hemp-derived THC in 2025 and the Agriculture Commissioner oversees hemp licensing. Supporters cite personal freedom, medical use, and a legal industry. Opponents cite health risks and products reaching minors.",
     "offices": [
@@ -228,6 +244,7 @@
   {
     "id": "q_fossil_priority",
     "category": "Energy and Environment",
+    "short": "Favor gas and nuclear over wind and solar",
     "statement": "Texas energy policy should favor natural gas, nuclear, and other always-available power over new wind and solar.",
     "context": "After the 2021 winter storm, lawmakers debated how to keep the grid reliable. Supporters say dispatchable power prevents blackouts. Opponents say wind, solar, and batteries are cheap, fast to build, and helped meet record demand.",
     "offices": [
@@ -244,6 +261,7 @@
   {
     "id": "q_oilgas_rules",
     "category": "Energy and Environment",
+    "short": "Stricter oil and gas rules",
     "statement": "Oil and gas operators should face stricter rules on flaring, methane leaks, and plugging abandoned wells.",
     "context": "The Railroad Commission regulates the industry. Supporters say stronger rules protect air, water, and landowners. Opponents say current rules are adequate and more regulation raises costs and reduces jobs.",
     "offices": [
@@ -260,6 +278,7 @@
   {
     "id": "q_eminent_domain",
     "category": "Land and Agriculture",
+    "short": "Limit pipeline eminent domain",
     "statement": "Pipelines and other private companies should face tighter limits on using eminent domain to take private land.",
     "context": "Private pipeline companies in Texas can condemn land. Supporters of limits say landowners are underpaid and have little say. Opponents say limits would slow infrastructure the state needs.",
     "offices": [
@@ -276,6 +295,7 @@
   {
     "id": "q_foreign_land",
     "category": "Land and Agriculture",
+    "short": "Ban adversary-nation land purchases",
     "statement": "Texas should ban people and companies tied to adversarial nations, such as China, from buying land in Texas.",
     "context": "A 2025 Texas law restricts these purchases. Supporters cite national security and food security. Opponents say it can discriminate against legal residents and immigrants based on national origin.",
     "offices": [
@@ -293,6 +313,7 @@
   {
     "id": "q_water",
     "category": "Land and Agriculture",
+    "short": "Major ongoing water funding",
     "statement": "The state should dedicate large, ongoing funding to new water supply and water infrastructure projects.",
     "context": "Voters approved a dedicated water fund in 2025. Supporters say a growing state faces shortages. Skeptics question cost, which projects get funded, and whether conservation should come first.",
     "offices": [
@@ -310,6 +331,7 @@
   {
     "id": "q_voting_access",
     "category": "Elections and Ethics",
+    "short": "Make voting easier",
     "statement": "Texas should make voting easier, for example with online voter registration and broader mail-in voting.",
     "context": "Supporters say more options increase participation. Opponents say expanded mail voting and online registration create more room for errors and fraud.",
     "offices": [
@@ -325,6 +347,7 @@
   {
     "id": "q_election_fraud",
     "category": "Elections and Ethics",
+    "short": "More election fraud enforcement",
     "statement": "State officials should devote more resources to investigating and prosecuting election fraud.",
     "context": "Supporters say aggressive enforcement protects election integrity. Opponents say documented fraud is rare and these efforts can intimidate eligible voters.",
     "offices": [
@@ -338,6 +361,7 @@
   {
     "id": "q_ethics",
     "category": "Elections and Ethics",
+    "short": "Contribution limits and ethics rules",
     "statement": "Texas should adopt campaign contribution limits and stricter ethics rules for state officials.",
     "context": "Texas has no limits on individual contributions to most state candidates. Supporters say limits reduce the influence of big donors and regulated industries. Opponents say donating is protected speech and disclosure is enough.",
     "offices": [
@@ -355,6 +379,7 @@
   {
     "id": "q_preemption",
     "category": "Elections and Ethics",
+    "short": "State override of local rules",
     "statement": "The state should be able to override city and county rules so that regulations are uniform statewide.",
     "context": "A 2023 law limited local ordinances in several areas. Supporters say a patchwork of local rules hurts businesses. Opponents say local voters should govern their own communities.",
     "offices": [
@@ -369,6 +394,7 @@
   {
     "id": "q_gambling",
     "category": "Elections and Ethics",
+    "short": "Let voters decide on gambling",
     "statement": "Texas voters should get to decide whether to legalize casino gambling or sports betting.",
     "context": "Gambling expansion requires a constitutional amendment. Supporters say voters should decide and the state is losing revenue to neighbors. Opponents cite addiction, crime, and social costs.",
     "offices": [
@@ -381,6 +407,7 @@
   {
     "id": "q_trans_minors",
     "category": "Family and Social Policy",
+    "short": "Ban gender transition care for minors",
     "statement": "State law should prohibit gender transition medical treatments for minors.",
     "context": "Texas banned these treatments for minors in 2023. Supporters say minors cannot consent to irreversible procedures. Opponents say these decisions belong to families and doctors and that the ban harms transgender youth.",
     "offices": [
@@ -396,6 +423,7 @@
   {
     "id": "q_county_tax",
     "category": "County Government",
+    "short": "Keep county tax rate low",
     "statement": "Your county should prioritize keeping its property tax rate low, even if that means slower spending on roads and services.",
     "context": "Many Texas counties, including Collin, are growing quickly. Supporters of low rates say they keep the county affordable. Others say growth requires faster investment in roads, courts, and public safety.",
     "offices": [
@@ -406,6 +434,7 @@
   {
     "id": "q_county_mental",
     "category": "County Government",
+    "short": "More county mental health spending",
     "statement": "Your county should spend more on mental health services and jail diversion programs.",
     "context": "Supporters say diversion lowers jail costs and helps people who are ill. Skeptics say these are state responsibilities and the county should focus on core services.",
     "offices": [
@@ -418,6 +447,7 @@
   {
     "id": "q_textualism",
     "category": "Courts",
+    "short": "Apply law by text and original meaning",
     "statement": "Judges should apply laws strictly according to their text and original meaning, even when the outcome seems unfair.",
     "context": "Textualists say judges should not substitute their own views for the law as written. Critics say judges must also consider purpose, context, and changing circumstances. Judicial candidates are limited by ethics rules in what they may promise.",
     "offices": [
@@ -427,6 +457,7 @@
   {
     "id": "q_judicial_selection",
     "category": "Courts",
+    "short": "End partisan judicial elections",
     "statement": "Texas should stop choosing judges in partisan elections and adopt a different selection method.",
     "context": "Texas is one of a few states that elects judges on party tickets. Supporters of change say it would reduce the role of party and money. Opponents say voters should keep the power to choose and remove judges.",
     "offices": [

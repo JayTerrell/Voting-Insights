@@ -5,6 +5,7 @@ import { renderResults } from './views/results.js';
 import { renderGuide, renderRace, renderCandidate } from './views/guide.js';
 import { renderIssues } from './views/issues.js';
 import { renderMyResults } from './views/my-results.js';
+import { renderScoring } from './views/scoring.js';
 import { renderMethodology, renderTerms, renderPrivacy } from './views/pages.js';
 
 const routes = [
@@ -15,6 +16,7 @@ const routes = [
   [/^\/candidates\/([\w-]+)$/, renderRace, '/candidates'],
   [/^\/candidate\/([\w-]+)$/, renderCandidate, '/candidates'],
   [/^\/issues$/, renderIssues, '/issues'],
+  [/^\/scoring$/, renderScoring, '/scoring'],
   [/^\/my-results$/, renderMyResults, '/my-results'],
   [/^\/methodology$/, renderMethodology, null],
   [/^\/terms$/, renderTerms, null],

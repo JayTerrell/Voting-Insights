@@ -32,56 +32,29 @@ function drawEmailForm(view, presetEmail = '') {
     <div class="quiz-shell">
       <span class="eyebrow">My Results</span>
       <h1>Find your saved results</h1>
-      <p class="lede">Enter the email address you used when you took the quiz. To protect your privacy, we will send a 6-digit code to that address before showing your results.</p>
+      <p class="lede">Enter the email address you used when you took the quiz to see every result you have saved, with the date and time of each.</p>
       <form class="panel" id="lookup" novalidate>
         <label for="em">Email address</label>
         <input id="em" type="email" autocomplete="email" required value="${esc(presetEmail)}">
         <p class="form-error" id="err" role="alert" hidden></p>
-        <div class="btn-row" style="margin-top:16px"><button class="btn" type="submit">Send my code</button><a href="/quiz">Take the quiz instead</a></div>
+        <div class="btn-row" style="margin-top:16px"><button class="btn" type="submit">Show my results</button><a href="/quiz">Take the quiz instead</a></div>
       </form>
     </div>`;
   $('#lookup', view).addEventListener('submit', async (e) => {
     e.preventDefault();
     const email = $('#em', view).value.trim();
     const err = $('#err', view);
+    const btn = e.target.querySelector('button[type=submit]');
     err.hidden = true;
+    btn.disabled = true;
     try {
-      await api.lookup(email);
-      drawCodeForm(view, email);
-    } catch (ex) {
-      err.textContent = ex.message;
-      err.hidden = false;
-    }
-  });
-}
-
-function drawCodeForm(view, email) {
-  view.innerHTML = `
-    <div class="quiz-shell">
-      <span class="eyebrow">My Results</span>
-      <h1>Enter your code</h1>
-      <p class="lede">If ${esc(email)} has saved results, a 6-digit code is on its way. It expires in 15 minutes. Check your spam folder if it does not arrive within a minute.</p>
-      <form class="panel" id="verify" novalidate>
-        <label for="code">Verification code</label>
-        <input id="code" type="text" inputmode="numeric" autocomplete="one-time-code" maxlength="6" style="max-width:220px;font-size:1.4rem;letter-spacing:0.3em">
-        <p class="form-error" id="err" role="alert" hidden></p>
-        <div class="btn-row" style="margin-top:16px"><button class="btn" type="submit">View my results</button><button class="linkish" type="button" id="again">Use a different email</button></div>
-      </form>
-    </div>`;
-  $('#code', view).focus();
-  $('#again', view).addEventListener('click', () => drawEmailForm(view, email));
-  $('#verify', view).addEventListener('submit', async (e) => {
-    e.preventDefault();
-    const err = $('#err', view);
-    err.hidden = true;
-    try {
-      const res = await api.verify(email, $('#code', view).value);
-      session.set(res.token, res.user);
-      const data = await api.myResults();
+      const data = await api.lookup(email);
+      session.set(data.token, data.user);
       drawList(view, data);
     } catch (ex) {
       err.textContent = ex.message;
       err.hidden = false;
+      btn.disabled = false;
     }
   });
 }

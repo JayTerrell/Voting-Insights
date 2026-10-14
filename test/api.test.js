@@ -70,8 +70,6 @@ const answers = {
   q_county_tax: { value: 1, weight: 1 },
 };
 
-const lastCode = () => devOutbox.at(-1).subject.match(/(\d{6})/)[1];
-
 test('registration creates an account and returns a token', async () => {
   const r = await call('POST', '/api/register', { body: profile('ana@example.com') });
   assert.equal(r.status, 200);
@@ -79,14 +77,21 @@ test('registration creates an account and returns a token', async () => {
   assert.equal(r.json.user.email, 'ana@example.com');
 });
 
-test('a reused email requires a code, and wrong codes are rejected', async () => {
-  const r = await call('POST', '/api/register', { body: profile('ANA@example.com', { first_name: 'Someone' }) });
-  assert.deepEqual(r.json, { verify: true });
-  const wrong = await call('POST', '/api/verify', { body: { email: 'ana@example.com', code: '000000' } });
-  assert.equal(wrong.status, 400);
-  const ok = await call('POST', '/api/verify', { body: { email: 'ana@example.com', code: lastCode() } });
-  assert.equal(ok.status, 200);
-  assert.ok(ok.json.token);
+test('a reused email opens the same account without a code', async () => {
+  const r = await call('POST', '/api/register', { body: profile('ANA@example.com', { county: 'Travis' }) });
+  assert.equal(r.status, 200);
+  assert.ok(r.json.token);
+  assert.equal(r.json.user.email, 'ana@example.com');
+  assert.equal(r.json.user.county, 'Travis');
+});
+
+test('My Results opens by email and reports unknown emails', async () => {
+  const found = await call('POST', '/api/lookup', { body: { email: 'Ana@Example.com' } });
+  assert.equal(found.status, 200);
+  assert.ok(found.json.token);
+  assert.ok(Array.isArray(found.json.results));
+  const missing = await call('POST', '/api/lookup', { body: { email: 'nobody@example.com' } });
+  assert.equal(missing.status, 404);
 });
 
 test('input is validated and consent is required', async () => {
@@ -181,11 +186,9 @@ test('security headers are set and API responses are not cached', async () => {
   assert.equal(r.headers.get('x-powered-by'), null);
 });
 
-test('lookups are rate limited and do not reveal whether an email exists', async () => {
-  const a = await call('POST', '/api/lookup', { body: { email: 'nobody@example.com' } });
-  assert.deepEqual(a.json, { sent: true });
+test('email lookups are rate limited', async () => {
   let last;
-  for (let i = 0; i < 9; i++) last = await call('POST', '/api/lookup', { body: { email: 'ana@example.com' } });
+  for (let i = 0; i < 21; i++) last = await call('POST', '/api/lookup', { body: { email: 'ana@example.com' } });
   assert.equal(last.status, 429);
 });
 

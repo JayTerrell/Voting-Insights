@@ -5,7 +5,7 @@ import nodemailer from 'nodemailer';
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { config } from '../config.js';
-import { resultsEmail, codeEmail } from './email-templates.js';
+import { resultsEmail } from './email-templates.js';
 
 export const emailConfigured = Boolean(config.smtp.host);
 
@@ -41,8 +41,3 @@ async function send(to, { subject, html, text }) {
 }
 
 export const sendResultsEmail = (to, payload) => send(to, resultsEmail(payload));
-
-export async function sendCodeEmail(to, code) {
-  if (!emailConfigured && !config.isProduction) console.log(`[mail] Verification code for ${to}: ${code}`);
-  await send(to, codeEmail(code));
-}

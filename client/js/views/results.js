@@ -76,7 +76,8 @@ function draw(view, guide, data, isNew) {
             <p class="small muted" style="margin:0">Compared on up to ${r.questions} questions for this office. ${
               r.tie ? 'The top two are within 3 points.' : ''
             }</p>
-            <a class="small" href="/candidates/${esc(r.id)}">Compare these candidates</a></div>
+            <a class="small" href="/candidates/${esc(r.id)}">Compare these candidates</a>
+            <span class="small muted"> | </span><a class="small" href="/scoring?race=${esc(r.id)}">Scores and sources</a></div>
           <div>${rows}</div></div>`;
       })
       .join('')}`;
@@ -140,7 +141,7 @@ function draw(view, guide, data, isNew) {
         )
         .join('')}
     </div>
-    <p class="small muted" style="margin:16px 0 0">Each percentage measures agreement with that party's official Texas platform on the questions both of you addressed, so the numbers do not add up to 100. Independent candidates do not share a written platform, so there is no independent score. Where an independent appears on your ballot, compare them race by race below. <a href="/methodology">How this is calculated</a></p>
+    <p class="small muted" style="margin:16px 0 0">Each percentage measures agreement with that party's official Texas platform on the questions both of you addressed, so the numbers do not add up to 100. Independent candidates do not share a written platform, so there is no independent score. Where an independent appears on your ballot, compare them race by race below. <a href="/scoring">See the scoring logic and every score with its source</a></p>
     </div>
   </section>
 

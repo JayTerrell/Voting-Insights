@@ -5,6 +5,7 @@ import {
   partyTag,
   cites,
   sourceList,
+  scoreBadge,
   GROUPS,
   raceTitle,
   countyPicker,
@@ -110,7 +111,7 @@ function list(items, cand, prefix, empty) {
 function stanceCell(c, qid, prefix) {
   const s = c.stances[qid];
   if (!s) return '<span class="pos pos-none">No documented position</span>';
-  return `<span class="pos">${esc(positionLabel(s.position))}</span>${esc(s.summary)}${cites(s.sources, c, prefix)}
+  return `<span class="pos">${scoreBadge(s.position)}${esc(positionLabel(s.position))}</span>${esc(s.summary)}${cites(s.sources, c, prefix)}
     <span class="basis">${esc(BASIS_LABEL[s.basis] || s.basis)}</span>`;
 }
 
@@ -189,7 +190,7 @@ export async function renderRace(view, [raceId], current) {
       officeQs.length || extraQs.length
         ? `<div class="section-head"><h2>Positions on the issues</h2><span class="small muted">${cands
             .map((c) => `${esc(c.name)}: ${documented(c)} of ${officeQs.length}`)
-            .join(' &middot; ')} documented</span></div>
+            .join(' &middot; ')} documented. <a href="/scoring?race=${esc(race.id)}">Score sheet for this race</a></span></div>
       <div class="table-scroll"><table class="stance-table stack">
         <thead><tr><th>Statement</th>${cands.map((c) => `<th>${esc(c.name)}<br>${partyTag(c.party)}</th>`).join('')}</tr></thead>
         <tbody>${stanceRows(officeQs)}${
@@ -255,7 +256,7 @@ export async function renderCandidate(view, [id], current) {
     ${officeBox(race)}
     <div style="margin-top:20px">${candidateCard(c, prefix, { full: true })}</div>
 
-    <div class="section-head"><h2>Documented positions</h2><span class="small muted">${stances.length} of ${guide.questions.length} quiz questions</span></div>
+    <div class="section-head"><h2>Documented positions</h2><span class="small muted">${stances.length} of ${guide.questions.length} quiz questions. <a href="/scoring?candidate=${esc(c.id)}">See in the score sheet</a></span></div>
     ${
       stances.length
         ? `<div class="table-scroll"><table class="stance-table"><thead><tr><th>Statement</th><th>Position</th></tr></thead><tbody>${stances

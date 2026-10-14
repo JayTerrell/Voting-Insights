@@ -48,7 +48,7 @@ function renderRegistration(view, guide, options) {
         <div><label for="fn">First name</label><input id="fn" name="first_name" type="text" autocomplete="given-name" maxlength="60" required value="${esc(u.first_name || '')}"></div>
         <div><label for="ln">Last name</label><input id="ln" name="last_name" type="text" autocomplete="family-name" maxlength="60" required value="${esc(u.last_name || '')}"></div>
         <div class="full"><label for="em">Email address</label><input id="em" name="email" type="email" autocomplete="email" maxlength="254" required value="${esc(u.email || '')}">
-          <p class="form-note">One account per email address. If this email has been used before, we will send a code to confirm it is yours.</p></div>
+          <p class="form-note">One account per email address. If you have taken the quiz before, use the same email and your new results are added to your history.</p></div>
         <div><label for="co">County where you vote</label><select id="co" name="county" required>${countyOpts}</select>
           <p class="form-note">Your results cover the races on this county's ballot.</p></div>
         <div><label for="ag">Age range</label><select id="ag" name="age_range" required><option value="">Choose one</option>${ageOpts}</select></div>
@@ -81,46 +81,15 @@ function renderRegistration(view, guide, options) {
     const btn = form.querySelector('button[type=submit]');
     btn.disabled = true;
     try {
-      // A token from a different account would not match; drop it when the email changes.
+      // Results cached on this device belong to the previous email; drop them when it changes.
       if (session.user && session.user.email !== String(profile.email).trim().toLowerCase()) session.clear();
       const res = await api.register(profile);
-      if (res.verify) return renderCode(view, guide, profile);
       session.set(res.token, res.user);
       start(view, guide);
     } catch (ex) {
       err.textContent = ex.message;
       err.hidden = false;
       btn.disabled = false;
-    }
-  });
-}
-
-function renderCode(view, guide, profile) {
-  view.innerHTML = `
-  <div class="quiz-shell">
-    <span class="eyebrow">Confirm your email</span>
-    <h1>Check your inbox</h1>
-    <p class="lede">${esc(profile.email)} already has saved results. We sent a 6-digit code to that address so we know it is you. The code expires in 15 minutes.</p>
-    <form class="panel" id="code-form" novalidate>
-      <label for="code">Verification code</label>
-      <input id="code" name="code" type="text" inputmode="numeric" autocomplete="one-time-code" maxlength="6" pattern="[0-9]{6}" style="max-width:220px;font-size:1.4rem;letter-spacing:0.3em">
-      <p class="form-error" id="code-err" role="alert" hidden></p>
-      <div class="btn-row" style="margin-top:16px"><button class="btn" type="submit">Confirm and continue</button><button class="linkish" type="button" id="back">Use a different email</button></div>
-    </form>
-  </div>`;
-  $('#code', view).focus();
-  $('#back', view).addEventListener('click', () => navigate('/quiz', { replace: true }));
-  $('#code-form', view).addEventListener('submit', async (e) => {
-    e.preventDefault();
-    const err = $('#code-err', view);
-    err.hidden = true;
-    try {
-      const res = await api.verify(profile.email, $('#code', view).value, profile);
-      session.set(res.token, res.user);
-      start(view, guide);
-    } catch (ex) {
-      err.textContent = ex.message;
-      err.hidden = false;
     }
   });
 }

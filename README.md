@@ -7,7 +7,7 @@ A nonpartisan candidate guide and issue alignment quiz for the November 3, 2026 
 - **Issue Quiz.** Visitors enter their first name, last name, email, county, and age range, then answer 31 issue statements and rate how important each one is. Results show a match percentage for every candidate on their county ballot and an alignment score with each party's official Texas platform. Results are saved with a timestamp, emailed, cached on the device, and shareable.
 - **Candidates.** Every race, grouped by level and filtered by county. Each race page compares its candidates side by side (office duties, priorities, promises, record, documented positions, numbered sources). Each candidate also has a profile page.
 - **Compare by Issue.** Choose an issue from a dropdown or type any word to see every candidate's documented position.
-- **My Results.** Every saved attempt for an email address. A new device must enter a 6-digit code sent to that email first. Visitors can sign out or delete their account and all of their data.
+- **My Results.** Enter an email address to see every saved attempt for it, with timestamps. Visitors can sign out or delete their account and all of their data.
 - **Methodology, Terms of Use, and Privacy Policy** pages.
 
 ## Project structure
@@ -51,7 +51,7 @@ npm test                  # scoring, import, and API security tests
 npm run lint
 ```
 
-Locally, data is stored in a SQLite file (`storage/voting-insights.db`) using Node's built-in `node:sqlite`, so there are no native modules to compile. Without SMTP settings, emails are saved to `./outbox/` as HTML files, and verification codes are printed in the terminal.
+Locally, data is stored in a SQLite file (`storage/voting-insights.db`) using Node's built-in `node:sqlite`, so there are no native modules to compile. Without SMTP settings, emails are saved to `./outbox/` as HTML files.
 
 ## Deploying to Vercel
 

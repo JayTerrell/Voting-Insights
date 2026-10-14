@@ -5,7 +5,6 @@ import { formOptions, questionIds } from '../services/guide.js';
 
 const EMAIL_RE = /^[^\s@<>()[\]\\,;:"]{1,64}@[a-z0-9.-]{1,190}\.[a-z]{2,24}$/i;
 const SHARE_ID_RE = /^[A-Za-z0-9_-]{12}$/;
-const CODE_RE = /^\d{6}$/;
 
 export class ValidationError extends Error {
   constructor(message) {
@@ -61,8 +60,6 @@ export function parseProfile(body, { requireConsent = true } = {}) {
 }
 
 export const isShareId = (id) => SHARE_ID_RE.test(String(id));
-
-export const isCode = (code) => CODE_RE.test(String(code ?? '').trim());
 
 // Keeps only known questions with values on the quiz scales.
 export function parseAnswers(raw) {

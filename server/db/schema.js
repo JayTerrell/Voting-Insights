@@ -35,12 +35,6 @@ export function schema(dialect) {
       created_at TEXT NOT NULL
     )`,
     'CREATE INDEX IF NOT EXISTS idx_tokens_user ON access_tokens(user_id)',
-    `CREATE TABLE IF NOT EXISTS verification_codes (
-      email      TEXT PRIMARY KEY,
-      code_hash  TEXT NOT NULL,
-      expires_at BIGINT NOT NULL,
-      attempts   INTEGER NOT NULL DEFAULT 0
-    )`,
     `CREATE TABLE IF NOT EXISTS rate_limits (
       bucket   TEXT PRIMARY KEY,
       hits     INTEGER NOT NULL,

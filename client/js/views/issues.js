@@ -1,4 +1,4 @@
-import { $, esc, setTitle, partyTag, cites, GROUPS, raceTitle, countyPicker, ballotNote } from '../ui.js';
+import { $, esc, setTitle, partyTag, cites, scoreBadge, GROUPS, raceTitle, countyPicker, ballotNote } from '../ui.js';
 import { loadGuide, loadFormOptions, ballotCounty } from '../api.js';
 import { positionLabel, BASIS_LABEL, racesForCounty } from '../shared/scoring.js';
 
@@ -96,7 +96,7 @@ export async function renderIssues(view, _params, current) {
         const src = s ? s.sources.map((id) => p.sources.find((x) => x.id === id)).filter(Boolean) : [];
         return `<tr><td>${esc(p.short)}</td><td>${
           s
-            ? `<span class="pos">${esc(positionLabel(s.position))}</span>${esc(s.summary)} ${src
+            ? `<span class="pos">${scoreBadge(s.position)}${esc(positionLabel(s.position))}</span>${esc(s.summary)} ${src
                 .map((x) => `<a class="small" href="${esc(x.url)}" target="_blank" rel="noopener">[source]</a>`)
                 .join(' ')}`
             : '<span class="pos-none">Platform does not address this</span>'
@@ -118,7 +118,7 @@ export async function renderIssues(view, _params, current) {
               const s = c.stances[qid];
               return `<div class="hit"><div><a href="/candidate/${esc(c.id)}"><b>${esc(c.name)}</b></a><br>${partyTag(c.party)}</div><div>${
                 s
-                  ? `<span class="pos">${esc(positionLabel(s.position))}</span>${esc(s.summary)}${cites(s.sources, c, 'src-' + c.id)}<span class="basis">${esc(BASIS_LABEL[s.basis] || s.basis)}</span>`
+                  ? `<span class="pos">${scoreBadge(s.position)}${esc(positionLabel(s.position))}</span>${esc(s.summary)}${cites(s.sources, c, 'src-' + c.id)}<span class="basis">${esc(BASIS_LABEL[s.basis] || s.basis)}</span>`
                   : '<span class="pos-none">No documented position</span>'
               }</div></div>`;
             })

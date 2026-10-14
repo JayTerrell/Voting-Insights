@@ -111,19 +111,3 @@ export function resultsEmail({ firstName, results, shareUrl, createdAt }) {
 
   return { subject: 'Your 2026 ballot alignment results', html, text };
 }
-
-export function codeEmail(code) {
-  const html = shell(
-    'Your verification code',
-    `<tr><td style="padding:8px 28px 16px 28px;font-family:${SANS};font-size:14px;line-height:1.6">
-      <p>Use this code to view your saved quiz results. It expires in 15 minutes.</p>
-      <p style="font-family:${SERIF};font-size:32px;letter-spacing:6px;color:${NAVY};margin:16px 0">${esc(code)}</p>
-      <p style="color:${MUTED}">If you did not request this code, you can ignore this message.</p>
-    </td></tr>`
-  );
-  return {
-    subject: `Your Voting Insights code: ${code}`,
-    html,
-    text: `Your Voting Insights code is ${code}. It expires in 15 minutes.`,
-  };
-}

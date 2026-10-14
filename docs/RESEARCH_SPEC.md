@@ -92,3 +92,19 @@ official bio page or a Ballotpedia page is fine). Every candidate in your assign
 output, even if almost empty.
 
 When finished, reply with a short summary: candidates covered, total stances, and notable gaps.
+
+## Supplement files (follow-up research passes)
+
+A follow-up pass adds to existing research without rewriting it. Write a separate file such as
+`data/research/pass2-<topic>.json` using the same structure, with these rules:
+
+- Include only candidates you found something new for, and only the new items.
+- Prefix every source id with `p2-` (for example `p2-s1`) so it never collides with existing ids.
+  New items may cite existing source ids from the candidate's original entry as well.
+- A stance for a question the candidate has no stance on yet is simply added.
+- To correct or strengthen an existing stance (for example replacing an "inferred" stance with a
+  documented vote or statement), include it with `"replace": true` and explain why in the summary.
+- Never repeat an item that already exists.
+- `website`, `current_role`, and `background` replace the original only if you include them.
+
+The build merges supplement files into the original entries automatically.

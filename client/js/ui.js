@@ -47,27 +47,44 @@ export function setTitle(t) {
   document.title = t ? `${t} | Voting Insights` : 'Voting Insights: 2026 Texas Candidate Guide and Issue Quiz';
 }
 
-// Renders "[1]" style citation links pointing at a candidate's numbered sources.
-export function cites(ids, cand, anchorPrefix) {
-  if (!ids || !ids.length) return '';
-  return ids
-    .map((id) => {
-      const n = cand.sources.findIndex((s) => s.id === id);
-      if (n < 0) return '';
-      const src = cand.sources[n];
-      return `<sup class="cite"><a href="${esc(src.url)}" target="_blank" rel="noopener" title="${esc(src.title)}${src.publisher ? ' (' + esc(src.publisher) + ')' : ''}" data-anchor="${esc(anchorPrefix)}-${n + 1}">[${n + 1}]</a></sup>`;
-    })
-    .join('');
+export function sourceLabel(src) {
+  if (src.publisher) return src.publisher;
+  try {
+    return new URL(src.url).hostname.replace(/^www\./, '');
+  } catch {
+    return 'Source';
+  }
 }
 
-export function sourceList(cand, anchorPrefix) {
+// Renders the sources behind one claim as named links, for example
+// "Source: Texas Tribune, capitol.texas.gov". Each link opens the exact page.
+export function cites(ids, cand) {
+  const srcs = (ids || []).map((id) => cand.sources.find((s) => s.id === id)).filter(Boolean);
+  if (!srcs.length) return '';
+  const links = srcs
+    .map(
+      (s) =>
+        `<a href="${esc(s.url)}" target="_blank" rel="noopener" title="${esc(s.title)}${s.date ? ', ' + esc(s.date) : ''}">${esc(sourceLabel(s))}</a>`
+    )
+    .join(', ');
+  return ` <span class="cites">Source${srcs.length > 1 ? 's' : ''}: ${links}</span>`;
+}
+
+// Shows a position on the -2 to +2 scale with its sign, for example "+2".
+export const formatScore = (n) => (n > 0 ? `+${n}` : String(n));
+
+export function scoreBadge(position) {
+  return `<span class="score-badge" title="Position score on a scale from -2 (strongly disagree) to +2 (strongly agree)">Score ${esc(formatScore(position))}</span>`;
+}
+
+export function sourceList(cand) {
   if (!cand.sources.length) return '<p class="muted small">No sources recorded.</p>';
   return `<ol>${cand.sources
     .map(
-      (s, i) =>
-        `<li id="${esc(anchorPrefix)}-${i + 1}"><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a>${
+      (s) =>
+        `<li><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a>${
           s.publisher ? `, ${esc(s.publisher)}` : ''
-        }${s.date ? `, ${esc(s.date)}` : ''}</li>`
+        }${s.date ? `, ${esc(s.date)}` : ''}<br><span class="url">${esc(s.url)}</span></li>`
     )
     .join('')}</ol>`;
 }

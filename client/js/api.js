@@ -123,7 +123,6 @@ export const loadFormOptions = () => (optionsPromise ||= call('GET', '/api/form-
 export const api = {
   register: (profile) => call('POST', '/api/register', profile),
   lookup: (email) => call('POST', '/api/lookup', { email }),
-  verify: (email, code, profile) => call('POST', '/api/verify', { email, code, profile }),
   submit: (answers) => call('POST', '/api/results', { answers }),
   result: (id) => call('GET', `/api/results/${encodeURIComponent(id)}`),
   emailResult: (id) => call('POST', `/api/results/${encodeURIComponent(id)}/email`),

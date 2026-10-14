@@ -1,11 +1,9 @@
-// Account rules: one account per email; reusing an email on a new device
-// requires a code sent to that address.
+// Account rules: one account per email address. Entering an email that already
+// has an account opens that account on this device and updates its profile.
 
 import * as users from '../db/repositories/users.js';
 import * as tokens from '../db/repositories/tokens.js';
-import * as codes from '../db/repositories/codes.js';
-import { sendCodeEmail } from './mailer.js';
-import { ValidationError, parseProfile } from '../lib/validation.js';
+import * as quiz from './quiz.js';
 
 export const publicUser = (u) => ({
   first_name: u.first_name,
@@ -15,46 +13,18 @@ export const publicUser = (u) => ({
   age_range: u.age_range,
 });
 
-async function sendCode(email) {
-  const code = await codes.create(email);
-  await sendCodeEmail(email, code);
-}
-
-// Returns { token, user } for a new account or a recognized device, or
-// { verify: true } when the email already belongs to an account.
-export async function register(profile, currentUser, currentToken) {
+// Starts a quiz session: creates the account, or reuses the existing one for this email.
+export async function register(profile) {
   const existing = await users.findByEmail(profile.email);
-  if (!existing) {
-    const user = await users.create(profile);
-    return { token: await tokens.issue(user.id), user: publicUser(user) };
-  }
-  if (currentUser && currentUser.id === existing.id) {
-    const user = await users.updateProfile(existing.id, profile);
-    return { token: currentToken, user: publicUser(user) };
-  }
-  await sendCode(profile.email);
-  return { verify: true };
+  const user = existing ? await users.updateProfile(existing.id, profile) : await users.create(profile);
+  return { token: await tokens.issue(user.id), user: publicUser(user) };
 }
 
-// Sends a code only if the account exists. Callers respond the same way either
-// way, so the form cannot reveal who has an account.
-export async function requestCode(email) {
-  if (await users.findByEmail(email)) await sendCode(email);
-}
-
-export async function verify(email, code, profileBody) {
-  const valid = await codes.consume(email, code);
-  const user = valid ? await users.findByEmail(email) : null;
-  if (!user) throw new ValidationError('That code is incorrect or has expired.');
-  let current = user;
-  if (profileBody) {
-    try {
-      current = await users.updateProfile(user.id, parseProfile({ ...profileBody, email }, { requireConsent: false }));
-    } catch (err) {
-      if (!(err instanceof ValidationError)) throw err;
-    }
-  }
-  return { token: await tokens.issue(user.id), user: publicUser(current) };
+// Opens saved results for an email address. Returns null when no account exists.
+export async function openByEmail(email) {
+  const user = await users.findByEmail(email);
+  if (!user) return null;
+  return { token: await tokens.issue(user.id), user: publicUser(user), results: await quiz.listForUser(user) };
 }
 
 export const signOut = (token) => tokens.revoke(token);

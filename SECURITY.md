@@ -12,17 +12,16 @@ This document lists the protections in the application and what the operator mus
 - names have control characters and `<` `>` removed and are capped at 60 characters;
 - county and age range must match the allowed lists;
 - quiz answers must use known question ids and scale values;
-- share ids and verification codes must match their exact formats.
+- share ids must match their exact format.
 
 JSON bodies are limited to 32 KB.
 
 **Cross-site scripting.** All dynamic text in the client is escaped through `esc()` in `client/js/ui.js` before it is written to the page, and email templates escape every value. The Content Security Policy only allows scripts from the site itself, with no inline scripts and no `eval`. Source links are accepted only with `http` or `https` URLs.
 
-**Authentication.** There are no passwords. A device receives a random 256-bit sign-in token when the account is created or an emailed code is confirmed.
+**Authentication.** There are no passwords or codes, by design: entering an email address opens the saved results for that address. A device receives a random 256-bit sign-in token when it starts the quiz or opens My Results, and that token is required to submit results, email them, see individual answers, or delete the account.
 
-- Only SHA-256 hashes of tokens and codes are stored.
+- Only SHA-256 hashes of tokens are stored.
 - Tokens expire after 180 days and are revoked on sign-out.
-- Codes expire after 15 minutes and lock after five wrong guesses.
 - Tokens are sent in the `Authorization` header, never in cookies, so cross-site request forgery does not apply.
 
 **Privacy of results.**
@@ -30,9 +29,9 @@ JSON bodies are limited to 32 KB.
 - A shared results link shows only the first name and percentages.
 - Individual answers are returned only to the owner.
 - Only the owner can trigger emails.
-- The "My Results" lookup gives the same response whether or not an email has an account.
+- Because My Results opens by email alone, anyone who knows a visitor's email can see that visitor's saved results. The Privacy Policy states this plainly. Lookups are rate limited to slow automated guessing.
 
-**Rate limiting.** Registration, code requests, verification, result submission, email resends, account deletion, and admin exports are rate limited per client. Counters are stored in the database, so limits hold across serverless instances. Only a hash of the client IP is stored, and counters reset within 15 minutes.
+**Rate limiting.** Registration, email lookups, result submission, email resends, account deletion, and admin exports are rate limited per client. Counters are stored in the database, so limits hold across serverless instances. Only a hash of the client IP is stored, and counters reset within 15 minutes.
 
 **Admin exports.** These require `ADMIN_TOKEN` (at least 24 characters) in the `Authorization` header. The comparison is constant-time, and the token is never accepted in a URL. CSV cells that a spreadsheet would treat as formulas are neutralized.
 
