@@ -18,7 +18,8 @@
     "lint": "eslint .",
     "format": "prettier --write .",
     "test": "node --disable-warning=ExperimentalWarning --test test/*.test.js",
-    "format:check": "prettier --check ."
+    "format:check": "prettier --check .",
+    "db:check": "node --disable-warning=ExperimentalWarning --env-file-if-exists=.env scripts/db-check.js"
   },
   "engines": {
     "node": ">=22.13"

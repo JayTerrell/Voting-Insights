@@ -20,14 +20,14 @@ let base;
 before(async () => {
   const db = await getDb();
   if (db.dialect === 'postgres') {
-    await db.exec('TRUNCATE users, quiz_results, access_tokens, verification_codes, rate_limits RESTART IDENTITY CASCADE');
+    await db.exec('TRUNCATE users, quiz_results, access_tokens, rate_limits RESTART IDENTITY CASCADE');
   }
   server = createApp().listen(0);
   await new Promise((r) => server.once('listening', r));
   base = `http://127.0.0.1:${server.address().port}`;
 });
 after(async () => {
-  server.close();
+  server?.close();
   await resetDb();
 });
 

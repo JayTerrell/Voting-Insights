@@ -10,7 +10,7 @@ export function getDb() {
   if (!ready) {
     ready = (async () => {
       const db = config.databaseUrl
-        ? (await import('./postgres.js')).connect(config.databaseUrl)
+        ? (await import('./postgres.js')).connect(config.databaseUrl, config.databaseCaCert)
         : (await import('./sqlite.js')).connect(config.sqlitePath);
       for (const statement of schema(db.dialect)) await db.exec(statement);
       return db;

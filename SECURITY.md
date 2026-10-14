@@ -6,6 +6,8 @@ This document lists the protections in the application and what the operator mus
 
 **SQL injection.** All SQL lives in `server/db/repositories/` and uses bound parameters (`?` placeholders, converted to `$1, $2, ...` for Postgres). No query is built by joining strings with request data. The API tests send injection payloads and confirm they are stored as plain text or rejected.
 
+**Database exposure.** On Postgres, every table has Row Level Security enabled with no policies. Hosts such as Supabase publish an automatic REST API for the `public` schema, and this setting blocks that API from reading or writing any table. The app connects as the table owner, which Row Level Security does not restrict. Database connections use TLS verified against the provider's certificate (`DATABASE_CA_CERT`).
+
 **Input validation.** `server/lib/validation.js` checks every request field before it reaches the database or an email:
 
 - emails are matched against a strict pattern and length;

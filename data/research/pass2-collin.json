@@ -1,0 +1,727 @@
+{
+  "candidates": [
+    {
+      "id": "chris-hill",
+      "race_id": "county-judge",
+      "record": [
+        {
+          "text": "On Aug. 10, 2026, the Commissioners Court voted 4-0, with Commissioner Duncan Webb absent, to call an $817.5 million bond election for Nov. 3, 2026, choosing the larger of two final options; with four members present, the unanimous vote included Hill.",
+          "sources": [
+            "p2-s1",
+            "p2-s2",
+            "p2-s3"
+          ]
+        },
+        {
+          "text": "On Feb. 23, 2026, he voted with a 5-0 majority to approve a consent agenda that included a construction change order for the jail's medical and mental health expansion.",
+          "sources": [
+            "p2-s9"
+          ]
+        },
+        {
+          "text": "In August 2021 the Commissioners Court, which he presides over, voted to commit all of the county's roughly $201 million in federal ARPA funds to three public health capital projects, including a medical and mental health infirmary at the county jail; the court documents reviewed do not record his individual vote.",
+          "sources": [
+            "p2-s4",
+            "p2-s5"
+          ]
+        },
+        {
+          "text": "In January 2022 the Commissioners Court approved by majority vote the establishment of the Collin County Mental Health Diversion Program as a mental health specialty court; the order does not record individual votes.",
+          "sources": [
+            "p2-s7"
+          ]
+        },
+        {
+          "text": "In February 2024 the Commissioners Court, by majority vote with Commissioner Duncan Webb absent, awarded the construction contract for the jail's medical and mental health expansion to Sedalco, Inc.; the order does not record individual votes.",
+          "sources": [
+            "p2-s8"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "County records describe the ARPA-funded jail medical and mental health facility as 125 beds with shell space for 136 more, at a cost of about $112 million, with opening expected in late 2026.",
+          "sources": [
+            "p2-s4",
+            "p2-s6"
+          ]
+        }
+      ],
+      "issue_notes": [
+        {
+          "topic": "2026 Bond Election",
+          "summary": "On the bond, Community Impact quoted him saying residents are \"going to have to pay the bill, so we want their voice on this decision,\" and that deferred projects are pushed into the future; Hoodline reported he favored keeping the debt service rate steady.",
+          "sources": [
+            "p2-s2",
+            "p2-s1"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "p2-s1",
+          "title": "Collin County Sets $817.5M Bond Vote as Jail, Roads Hit Breaking Point",
+          "publisher": "Hoodline",
+          "url": "https://hoodline.com/2026/08/collin-county-sets-817-5m-bond-vote-as-jail-roads-hit-breaking-point/",
+          "date": "2026-08-11"
+        },
+        {
+          "id": "p2-s2",
+          "title": "Collin County calls $817.5M bond to address growth needs",
+          "publisher": "Community Impact",
+          "url": "https://communityimpact.com/frisco/government/collin-county-calls-8175m-bond-to-address-growth-needs/",
+          "date": "2026-08-12"
+        },
+        {
+          "id": "p2-s3",
+          "title": "County sets $817.5M bond election for Nov. 3",
+          "publisher": "Murphy Monitor",
+          "url": "https://murphymonitor.com/2026/08/20/county-sets-817-5m-bond-election-for-nov-3/",
+          "date": "2026-08-20"
+        },
+        {
+          "id": "p2-s4",
+          "title": "Collin County, Texas 2025 Recovery Plan Performance Report",
+          "publisher": "U.S. Department of the Treasury",
+          "url": "https://home.treasury.gov/system/files/136/Collin-County-Texas-2025-Recovery-Plan-SLT-0561.pdf",
+          "date": "2025"
+        },
+        {
+          "id": "p2-s5",
+          "title": "Collin County jail campus expands to meet health needs",
+          "publisher": "Community Impact",
+          "url": "https://communityimpact.com/mckinney/public-safety/collin-county-jail-campus-expands-to-meet-health-needs/",
+          "date": "2022-06-09"
+        },
+        {
+          "id": "p2-s6",
+          "title": "Collin County Medical and Mental Health Facility",
+          "publisher": "County Progress",
+          "url": "https://countyprogress.com/collin-county-special-facility/",
+          "date": "2026-03-02"
+        },
+        {
+          "id": "p2-s7",
+          "title": "Court Order 2022-025-01-03: Establishment of a Mental Health Specialty Court",
+          "publisher": "Collin County Commissioners Court",
+          "url": "https://eagenda.collincountytx.gov/docs/2022/CC/20220103_2711/51456%5F025%20%2D%2051456%2Epdf",
+          "date": "2022-01-03"
+        },
+        {
+          "id": "p2-s8",
+          "title": "Court Order 2024-128-02-12: Adult Detention Facility Medical Mental Health Expansion contract",
+          "publisher": "Collin County Commissioners Court",
+          "url": "https://eagenda.collincountytx.gov/docs/2024/CC/20240212_2914/55471%5F128%20%2D%2055471%2Epdf",
+          "date": "2024-02-12"
+        },
+        {
+          "id": "p2-s9",
+          "title": "Commissioners Court Minutes, February 23, 2026",
+          "publisher": "Collin County Commissioners Court",
+          "url": "https://eagenda.collincountytx.gov/docs/2026/CC/20260223_3179/3219%5FCommissioners%20Court%20Minutes%2002%2D23%2D2026%2Epdf",
+          "date": "2026-02-23"
+        }
+      ],
+      "research_gaps": "Individual votes on the 2021 ARPA allocation and other mental health items are not recorded in the orders reviewed, and no statement from him on water supply was found."
+    },
+    {
+      "id": "john-r-buster-brown",
+      "race_id": "county-judge",
+      "stances": {
+        "q_water": {
+          "position": 1,
+          "basis": "statement",
+          "summary": "Lists water among the essential infrastructure he says the county must invest in now, arguing that deferring it shifts higher costs to future taxpayers.",
+          "sources": [
+            "s1"
+          ]
+        }
+      },
+      "issue_notes": [
+        {
+          "topic": "Growth",
+          "summary": "His campaign site projects that Collin County's population will exceed 3 million and says county planning must match that growth.",
+          "sources": [
+            "s1"
+          ]
+        }
+      ],
+      "sources": [],
+      "research_gaps": "No news coverage, forum appearances, questionnaire answers, or positions on the 2026 tax rate increase, the jail, or the bond election were found."
+    },
+    {
+      "id": "shelby-williams",
+      "race_id": "commissioner-4",
+      "priorities": [
+        {
+          "text": "Says roads, water, wastewater, fire coverage, and drainage must be in place before new rooftops, not after.",
+          "sources": [
+            "p2-s5"
+          ]
+        },
+        {
+          "text": "Says he will use relationships with mayors and council members to advise on consequential decisions before they are made.",
+          "sources": [
+            "p2-s5"
+          ]
+        }
+      ],
+      "promises": [
+        {
+          "text": "Says he will fund clinicians, detox capacity, and treatment courts so the jail's new Medical and Mental Health Facility operates as a program, not just a building.",
+          "sources": [
+            "p2-s1"
+          ]
+        },
+        {
+          "text": "Pledges funding for the county's Veterans Treatment Court.",
+          "sources": [
+            "p2-s1"
+          ]
+        },
+        {
+          "text": "Says he will make sure constables are properly equipped and funded and that county fire and EMS contracts deliver real coverage.",
+          "sources": [
+            "p2-s1"
+          ]
+        }
+      ],
+      "stances": {
+        "q_county_mental": {
+          "position": 1,
+          "basis": "statement",
+          "summary": "Says nearly a third of people in the county jail have a mental health disorder and pledges ongoing funding for clinicians, detox capacity, and treatment courts.",
+          "sources": [
+            "p2-s1",
+            "p2-s4"
+          ]
+        },
+        "q_water": {
+          "position": 1,
+          "basis": "statement",
+          "summary": "Says water infrastructure is not keeping pace with growth and calls for direct potable reuse, desalination, replacing leaking pipe, and regional reservoir and aquifer projects.",
+          "sources": [
+            "s4"
+          ]
+        }
+      },
+      "issue_notes": [
+        {
+          "topic": "2026 Bond Election",
+          "summary": "In an August 2026 post he wrote that bonds are the proper way to pay for long-lived assets and that \"we need these bonds,\" while stressing that the bonds are a tax increase paid by taxpayers.",
+          "sources": [
+            "p2-s2",
+            "p2-s3"
+          ]
+        },
+        {
+          "topic": "Parks and Open Space",
+          "summary": "Says he favors the county acquiring land to dedicate as parks and open space, noting state law makes it hard to develop dedicated parkland.",
+          "sources": [
+            "p2-s2",
+            "p2-s4"
+          ]
+        },
+        {
+          "topic": "Jail Capacity",
+          "summary": "Says the jail is overcrowded and that a shortage of detention beds is the reason for new jail construction.",
+          "sources": [
+            "p2-s1",
+            "p2-s3"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "p2-s1",
+          "title": "Public Safety",
+          "publisher": "Shelby Williams campaign",
+          "url": "https://shelbyhwilliams.com/issues/public-safety/",
+          "date": null
+        },
+        {
+          "id": "p2-s2",
+          "title": "Collin County Commissioners Court Preview, August 10, 2026",
+          "publisher": "Shelby Williams campaign",
+          "url": "https://shelbyhwilliams.com/collin-county-commissioners-court-preview-august-10-2026/",
+          "date": "2026-08-09"
+        },
+        {
+          "id": "p2-s3",
+          "title": "Collin County Commissioners Court Preview, August 31, 2026",
+          "publisher": "Shelby Williams campaign",
+          "url": "https://shelbyhwilliams.com/collin-county-commissioners-court-preview-august-31-2026/",
+          "date": "2026-08-30"
+        },
+        {
+          "id": "p2-s4",
+          "title": "Collin County Commissioners Court Preview, October 12, 2026",
+          "publisher": "Shelby Williams campaign",
+          "url": "https://shelbyhwilliams.com/collin-county-commissioners-court-preview-october-12-2026/",
+          "date": "2026-10-11"
+        },
+        {
+          "id": "p2-s5",
+          "title": "Smart Growth and Development",
+          "publisher": "Shelby Williams campaign",
+          "url": "https://shelbyhwilliams.com/issues/smart-growth-and-development/",
+          "date": null
+        }
+      ],
+      "research_gaps": "No position was found on the September 2026 tax rate increase, and his weekly court previews report the adopted rate without stating support or opposition."
+    },
+    {
+      "id": "julie-holmer",
+      "race_id": "commissioner-4",
+      "issue_notes": [
+        {
+          "topic": "Economic Development",
+          "summary": "Says the county should target technology, advanced manufacturing, health care, and logistics, support local entrepreneurs, and partner with Collin College on training and apprenticeships.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "topic": "Public Safety Transparency",
+          "summary": "Supports body cameras and transparent public safety data, and expanding co-responder and juvenile programs.",
+          "sources": [
+            "s2"
+          ]
+        }
+      ],
+      "sources": [],
+      "research_gaps": "No positions found on the September 2026 tax rate increase or the specific 2026 bond propositions, no endorsements are listed on her site, and no record of her Plano council budget votes was reviewed."
+    },
+    {
+      "id": "michael-slaughter",
+      "race_id": "commissioner-2",
+      "background": "Michael Slaughter has owned Collin County businesses since 2006, mainly in real estate brokerage, investment, and contracting. He served two terms on the Parker City Council, the second as mayor pro tem, and earlier served on Sachse's animal shelter board and planning and zoning commission. He says he has volunteered for more than a decade as a Collin County reserve law enforcement officer. He is running for the open seat held by Commissioner Cheryl Williams, who did not seek re-election.",
+      "notes": [
+        {
+          "text": "Says he rose to lieutenant and commanded the Collin County reserve law enforcement unit during more than a decade of volunteer service.",
+          "sources": [
+            "p2-s1"
+          ]
+        },
+        {
+          "text": "His campaign lists endorsements from the Collin County Deputies Association, the Wylie Police Association, MetroTEX Association of Realtors Advocacy, True Texas Project, McKinney Values PAC, Collin County Conservative Republicans, and Collin County Young Republicans.",
+          "sources": [
+            "p2-s2"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "p2-s1",
+          "title": "Michael's Story",
+          "publisher": "Michael Slaughter campaign",
+          "url": "https://www.michaelslaughter.com/about-me",
+          "date": null
+        },
+        {
+          "id": "p2-s2",
+          "title": "Current Endorsements",
+          "publisher": "Michael Slaughter campaign",
+          "url": "https://www.michaelslaughter.com/endorsements",
+          "date": null
+        }
+      ],
+      "research_gaps": "As a non-incumbent he has no Commissioners Court votes, and no positions were found on mental health, water, or the 2026 bond election."
+    },
+    {
+      "id": "mike-missildine",
+      "race_id": "jp-3",
+      "priorities": [
+        {
+          "text": "Says he will enforce state truancy laws equally while working with school districts to help families understand the value of education.",
+          "sources": [
+            "p2-s2"
+          ]
+        },
+        {
+          "text": "Says he will run the court efficiently using technology and common sense business practices.",
+          "sources": [
+            "p2-s2"
+          ]
+        }
+      ],
+      "record": [
+        {
+          "text": "His campaign says his court cut its case backlog from more than 33,000 to just over 17,000, reached a 173 percent clearance rate in fiscal 2024, and disposed of nearly 77,000 cases over four years; these figures are self-reported.",
+          "sources": [
+            "p2-s1"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "His campaign lists endorsements from U.S. Rep. Keith Self, State Rep. Jeff Leach, County Judge Chris Hill, District Clerk Mike Gould, Commissioner-elect Michael Slaughter, and Constables Sammy Knapp, Matt Carpenter, and Dwayne Kurtz.",
+          "sources": [
+            "p2-s3"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "p2-s1",
+          "title": "My Record",
+          "publisher": "Mike Missildine campaign",
+          "url": "https://www.mikemissildine.com/general-5",
+          "date": null
+        },
+        {
+          "id": "p2-s2",
+          "title": "On the Issues",
+          "publisher": "Mike Missildine campaign",
+          "url": "https://www.mikemissildine.com/issues",
+          "date": null
+        },
+        {
+          "id": "p2-s3",
+          "title": "Endorsements",
+          "publisher": "Mike Missildine campaign",
+          "url": "https://www.mikemissildine.com/endorsements",
+          "date": null
+        }
+      ],
+      "research_gaps": "No bar poll results or independent verification of his court statistics were found."
+    },
+    {
+      "id": "irvin-lynn-barrett",
+      "race_id": "jp-3",
+      "priorities": [
+        {
+          "text": "Proposes continuing virtual hearings, citing efficiency and continuity during disease outbreaks.",
+          "sources": [
+            "p2-s1"
+          ]
+        },
+        {
+          "text": "Says weekend court dates would save county tax dollars as well as help working residents.",
+          "sources": [
+            "p2-s1"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "p2-s1",
+          "title": "Irvin Barrett for Justice of the Peace, Precinct 3",
+          "publisher": "Irvin Barrett campaign",
+          "url": "https://www.irvinbarrett.com",
+          "date": null
+        }
+      ],
+      "research_gaps": "No legal experience, education details, or news coverage were found."
+    },
+    {
+      "id": "stephen-kallas",
+      "race_id": "jp-4",
+      "stances": {
+        "q_textualism": {
+          "position": 1,
+          "basis": "statement",
+          "summary": "Describes himself as a constitutionalist and says he will interpret and apply the law as written.",
+          "sources": [
+            "p2-s1"
+          ]
+        }
+      },
+      "notes": [
+        {
+          "text": "His campaign site says he is first vice chair of the Collin County Republican Party, has served on two county advisory boards, and became politically active through the Tea Party in 2011.",
+          "sources": [
+            "p2-s2"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "p2-s1",
+          "title": "Issues",
+          "publisher": "Stephen Kallas campaign",
+          "url": "https://www.kallasforjustice.com/issues",
+          "date": null
+        },
+        {
+          "id": "p2-s2",
+          "title": "Stephen Kallas for Justice of the Peace, Precinct 4",
+          "publisher": "Stephen Kallas campaign",
+          "url": "https://kallasforjustice.com",
+          "date": null
+        }
+      ],
+      "research_gaps": "No legal experience, named endorsements, news coverage, or certified primary vote totals were found."
+    },
+    {
+      "id": "eli-worthy",
+      "race_id": "jp-4",
+      "notes": [
+        {
+          "text": "Says he gathered 534 signatures by knocking on about 1,100 doors over three weeks to qualify, and that his campaign is entirely grassroots funded.",
+          "sources": [
+            "p2-s1"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "p2-s1",
+          "title": "Eli Worthy for Justice of the Peace",
+          "publisher": "Eli Worthy campaign",
+          "url": "https://www.eliworthy.com",
+          "date": null
+        }
+      ],
+      "research_gaps": "No legal experience, named endorsements, news coverage, or questionnaire responses were found."
+    },
+    {
+      "id": "jennifer-edgeworth",
+      "race_id": "district-219",
+      "priorities": [
+        {
+          "text": "Says judges must be fiscally responsible and move cases efficiently because district court work directly affects costs to Collin County taxpayers.",
+          "sources": [
+            "p2-s1"
+          ]
+        }
+      ],
+      "record": [
+        {
+          "text": "Her campaign credits her with a data management project with county IT that produced case reports to improve docket management and staff efficiency.",
+          "sources": [
+            "p2-s1"
+          ]
+        },
+        {
+          "text": "Her campaign says she helped create the Collin County ADR Program to offer low-cost mediation.",
+          "sources": [
+            "p2-s1"
+          ]
+        }
+      ],
+      "stances": {
+        "q_textualism": {
+          "position": 1,
+          "basis": "statement",
+          "summary": "Says she believes in the rule of law and in adhering to the language of the U.S. and Texas constitutions, and that judges should be fair, unbiased, and consistent.",
+          "sources": [
+            "p2-s1"
+          ]
+        }
+      },
+      "sources": [
+        {
+          "id": "p2-s1",
+          "title": "Judicial Compass",
+          "publisher": "Jennifer Edgeworth campaign",
+          "url": "https://www.jenniferedgeworth.com/compass/",
+          "date": null
+        }
+      ],
+      "research_gaps": "No bar poll results or notable rulings were found."
+    },
+    {
+      "id": "cyndi-mccrann-wheless",
+      "race_id": "district-417",
+      "current_role": "Judge, 417th District Court (juvenile court), Collin County, since 2004",
+      "background": "Cyndi McCrann Wheless has been judge of the 417th District Court, Collin County's designated juvenile court, since Gov. Rick Perry appointed her in 2004; the Collin County Juvenile Board had appointed her juvenile court referee in 1999. She is board certified in juvenile law. She earned a bachelor's degree in government and politics from the University of Texas at Dallas and a law degree from Southern Methodist University, where she was citation editor of the law review. She previously worked at Haynes and Boone LLP and Wheless & Walker and served as mental health master for the Collin County Probate Court.",
+      "record": [
+        {
+          "text": "Was appointed to the Judicial Commission on Mental Health in 2018 by the chief justices of the Texas Supreme Court and Court of Criminal Appeals, and to the Texas Juvenile Justice Board by Gov. Greg Abbott in December 2022 for a term ending Feb. 1, 2027.",
+          "sources": [
+            "p2-s1",
+            "p2-s2"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Received the Voice for Children Award from CASA of Collin County in 2006, and in 2022 the Texas Women Lawyers Pathfinder Award and an Award of Excellence from the Collin County Crisis Intervention Team for mental health work.",
+          "sources": [
+            "p2-s1"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "p2-s1",
+          "title": "Hon. Cynthia Wheless",
+          "publisher": "Texas Judicial Commission on Mental Health",
+          "url": "https://texasjcmh.gov/about-us/commissioners/wheless-cynthia/",
+          "date": null
+        },
+        {
+          "id": "p2-s2",
+          "title": "Governor Abbott Appoints Wheless To Texas Juvenile Justice Board, Names Matthew Chair",
+          "publisher": "Office of the Texas Governor",
+          "url": "https://gov.texas.gov/news/post/governor-abbott-appoints-wheless-to-texas-juvenile-justice-board-names-matthew-chair",
+          "date": "2022-12-21"
+        }
+      ],
+      "research_gaps": "No campaign website, stated judicial philosophy, notable rulings, or bar poll results were found."
+    },
+    {
+      "id": "jill-willis",
+      "race_id": "district-429",
+      "current_role": "Judge, 429th District Court, Collin County, since January 2009",
+      "notes": [
+        {
+          "text": "A state directory lists her as a past chair of the Collin County Bench/Bar Conference, a past member of the U.S. Magistrate Judge Merit Selection Committee for the Eastern District of Texas, and a Texas Monthly Rising Star in 2005 and 2006.",
+          "sources": [
+            "s2"
+          ]
+        }
+      ],
+      "sources": [],
+      "research_gaps": "No campaign website, stated judicial philosophy, notable rulings, or bar poll results were found."
+    },
+    {
+      "id": "bryan-gantt",
+      "race_id": "district-471",
+      "record": [
+        {
+          "text": "Gov. Greg Abbott appointed him to the 471st District Court on Sept. 3, 2024, for a term ending Dec. 31, 2024, and reappointed him in December 2024 for a term running Jan. 1, 2025 through Dec. 31, 2026.",
+          "sources": [
+            "p2-s1",
+            "p2-s2"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Before his appointment he was a partner at McCraw Gantt, PLLC and chaired the Collin County Bar Association's Solo and Small Firm Section.",
+          "sources": [
+            "p2-s1"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "p2-s1",
+          "title": "Governor Abbott Appoints Gantt To 471st Judicial District Court",
+          "publisher": "Office of the Texas Governor",
+          "url": "https://gov.texas.gov/news/post/governor-abbott-appoints-gantt-to-471st-judicial-district-court",
+          "date": "2024-09-03"
+        },
+        {
+          "id": "p2-s2",
+          "title": "Governor Abbott Reappoints Gantt To 471st Judicial District Court",
+          "publisher": "Office of the Texas Governor",
+          "url": "https://gov.texas.gov/news/post/governor-abbott-reappoints-gantt-to-471st-judicial-district-court",
+          "date": "2024-12-19"
+        }
+      ],
+      "research_gaps": "No campaign website, stated judicial philosophy, notable rulings, or bar poll results were found."
+    },
+    {
+      "id": "corinne-mason",
+      "race_id": "ccl-1",
+      "record": [
+        {
+          "text": "Has run a DWI/Drug Court program in County Court at Law No. 1 since Oct. 1, 2011, and in January 2019 asked the Commissioners Court to continue it, calling it a vital program.",
+          "sources": [
+            "p2-s1"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "p2-s1",
+          "title": "Letter from Judge Corinne Mason re: County Court at Law One DWI/Drug Court",
+          "publisher": "Collin County Commissioners Court agenda",
+          "url": "https://eagenda.collincountytx.gov/docs/2019/CC/20190211_2289/46124%5FMemo%2Epdf",
+          "date": "2019-01-31"
+        }
+      ],
+      "research_gaps": "No campaign website, stated judicial philosophy, notable rulings, or bar poll results were found."
+    },
+    {
+      "id": "david-waddill",
+      "race_id": "ccl-7",
+      "record": [
+        {
+          "text": "Presides over the county's misdemeanor DWI/Drug Court, a voluntary court-supervised treatment program for nonviolent offenders lasting at least 12 months.",
+          "sources": [
+            "p2-s1"
+          ]
+        },
+        {
+          "text": "In November 2017 he asked the Commissioners Court to transfer the DWI/Drug Court program and its remaining budget from County Court at Law No. 2 to his court, effective Jan. 1, 2018.",
+          "sources": [
+            "p2-s2"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "p2-s1",
+          "title": "County Court at Law #7 DWI/Drug Court",
+          "publisher": "Collin County",
+          "url": "https://www.collincountytx.gov/courts/county-courts-at-law/ccl7/dwi-drug-court",
+          "date": null
+        },
+        {
+          "id": "p2-s2",
+          "title": "Memorandum: Transfer of County Court at Law No. 2 DWI/Drug Court Program to County Court at Law No. 7",
+          "publisher": "Collin County Commissioners Court agenda",
+          "url": "https://eagenda.collincountytx.gov/docs/2017/CC/20171211_2131/44139%5FMEMO%2D%20CCL7%20Drug%20Court%2Epdf",
+          "date": "2017-11-30"
+        }
+      ],
+      "research_gaps": "No campaign website, stated judicial philosophy, or bar poll results were found."
+    },
+    {
+      "id": "jay-a-bender",
+      "race_id": "ccl-6",
+      "record": [
+        {
+          "text": "The Commissioners Court appointed him to County Court at Law No. 6 in April 2010 after he won the Republican primary runoff for the seat.",
+          "sources": [
+            "p2-s1"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Served as an assistant district attorney in Dallas and Collin counties from 2004 to 2007, including assignments to organized crime and cyber crimes units, and later served on the board of the Collin County Criminal Defense Lawyers Association.",
+          "sources": [
+            "p2-s1"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "p2-s1",
+          "title": "About Judge Bender",
+          "publisher": "Jay Bender campaign",
+          "url": "http://www.judgebender.com/about.html",
+          "date": null
+        }
+      ],
+      "research_gaps": "No stated judicial philosophy, notable rulings, or bar poll results were found."
+    },
+    {
+      "id": "sarah-r-duff",
+      "race_id": "probate",
+      "record": [
+        {
+          "text": "In January 2024 the Commissioners Court unanimously selected her from four candidates to succeed retiring Probate Judge Weldon Copeland, effective Feb. 1, 2024.",
+          "sources": [
+            "p2-s1"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "p2-s1",
+          "title": "Sarah Duff Swears In as Collin County's New Probate Judge After Competitive Selection",
+          "publisher": "Hoodline",
+          "url": "https://hoodline.com/2024/01/sarah-duff-swears-in-as-collin-county-s-new-probate-judge-after-competitive-selection/",
+          "date": "2024-01-24"
+        }
+      ],
+      "research_gaps": "No campaign website, questionnaire responses, stated judicial philosophy, notable rulings, or bar poll results were found."
+    }
+  ]
+}

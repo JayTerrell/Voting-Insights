@@ -1,4 +1,4 @@
-// Postgres driver for production (Neon, Supabase, Vercel Postgres, RDS, and others).
+// Postgres driver for production (Supabase, Neon, Vercel Postgres, RDS, and others).
 // Queries are written with "?" placeholders and converted to $1, $2, ... here.
 
 import pg from 'pg';
@@ -12,9 +12,23 @@ const toPositional = (sql) => {
   return sql.replace(/\?/g, () => `$${++n}`);
 };
 
-export function connect(connectionString) {
+// Hosts such as Supabase sign their certificates with their own certificate
+// authority. When its certificate is supplied, connections are encrypted and
+// fully verified against it. SSL settings in the URL are removed so they
+// cannot override this.
+function connectionOptions(connectionString, caCert) {
+  if (!caCert) return { connectionString };
+  const url = new URL(connectionString);
+  for (const key of ['sslmode', 'sslrootcert', 'sslcert', 'sslkey', 'uselibpqcompat']) url.searchParams.delete(key);
+  return {
+    connectionString: url.toString(),
+    ssl: { ca: caCert.replace(/\\n/g, '\n'), rejectUnauthorized: true },
+  };
+}
+
+export function connect(connectionString, caCert) {
   const pool = new pg.Pool({
-    connectionString,
+    ...connectionOptions(connectionString, caCert),
     max: 3,
     idleTimeoutMillis: 10_000,
     connectionTimeoutMillis: 8_000,

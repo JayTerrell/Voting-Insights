@@ -2,6 +2,8 @@
 // ISO strings set by the application, and expiry times are epoch milliseconds,
 // so the same queries work on both engines.
 
+const TABLES = ['users', 'quiz_results', 'access_tokens', 'rate_limits'];
+
 export function schema(dialect) {
   const id = dialect === 'postgres' ? 'BIGSERIAL PRIMARY KEY' : 'INTEGER PRIMARY KEY AUTOINCREMENT';
   const ref = dialect === 'postgres' ? 'BIGINT' : 'INTEGER';
@@ -40,5 +42,9 @@ export function schema(dialect) {
       hits     INTEGER NOT NULL,
       reset_at BIGINT NOT NULL
     )`,
+    // On Postgres hosts with an automatic REST API (such as Supabase), Row
+    // Level Security with no policies blocks that API from every table. The
+    // app connects as the table owner, which RLS does not restrict.
+    ...(dialect === 'postgres' ? TABLES.map((t) => `ALTER TABLE ${t} ENABLE ROW LEVEL SECURITY`) : []),
   ];
 }

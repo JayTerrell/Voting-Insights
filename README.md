@@ -55,20 +55,23 @@ Locally, data is stored in a SQLite file (`storage/voting-insights.db`) using No
 
 ## Deploying to Vercel
 
+A click-by-click guide for Supabase, Resend, and Vercel is in [docs/DEPLOYING.md](docs/DEPLOYING.md). In short:
+
 1. **Create a Postgres database.** Vercel functions have no persistent disk, so production uses Postgres. Any provider works: Neon (also available as Vercel Postgres in the Vercel Marketplace), Supabase, or another host. Copy its connection string and include `sslmode=require` for hosted databases. Tables are created automatically on first use.
 2. **Choose an email provider** with SMTP access, such as Postmark, Resend, SendGrid, Amazon SES, or Mailgun. Verify your sending domain with the provider so messages are not marked as spam.
 3. **Import the GitHub repository in Vercel.** Leave the framework preset as "Other". `vercel.json` already sets the build command (`npm run build`), the output directory (`client`), the API function, and the security headers.
 4. **Set environment variables** in Project Settings, Environment Variables:
 
-   | Variable                                           | Required | Purpose                                                                               |
-   | -------------------------------------------------- | -------- | ------------------------------------------------------------------------------------- |
-   | `DATABASE_URL`                                     | Yes      | Postgres connection string                                                            |
-   | `PUBLIC_URL`                                       | Yes      | Your site URL, for example `https://vote.example.org`, used in share links and emails |
-   | `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASS` | Yes      | Outgoing email                                                                        |
-   | `SMTP_SECURE`                                      | No       | `true` for port 465                                                                   |
-   | `MAIL_FROM`                                        | Yes      | For example `Voting Insights <results@vote.example.org>`                              |
-   | `ADMIN_TOKEN`                                      | Yes      | At least 24 random characters. Unlocks the CSV exports.                               |
-   | `CONTACT_EMAIL`                                    | Yes      | Corrections and privacy contact shown in the Terms and Privacy Policy                 |
+   | Variable                                           | Required     | Purpose                                                                               |
+   | -------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------- |
+   | `DATABASE_URL`                                     | Yes          | Postgres connection string (for Supabase, the Transaction pooler string on port 6543) |
+   | `DATABASE_CA_CERT`                                 | For Supabase | The database provider's CA certificate, so connections are encrypted and verified     |
+   | `PUBLIC_URL`                                       | Yes          | Your site URL, for example `https://vote.example.org`, used in share links and emails |
+   | `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASS` | Yes          | Outgoing email                                                                        |
+   | `SMTP_SECURE`                                      | No           | `true` for port 465                                                                   |
+   | `MAIL_FROM`                                        | Yes          | For example `Voting Insights <results@vote.example.org>`                              |
+   | `ADMIN_TOKEN`                                      | Yes          | At least 24 random characters. Unlocks the CSV exports.                               |
+   | `CONTACT_EMAIL`                                    | Yes          | Corrections and privacy contact shown in the Terms and Privacy Policy                 |
 
 5. **Deploy.** Static pages are served from the CDN. Requests to `/api/*`, plus shared result links (`/results/<id>`, which get personalized social preview tags), run in the serverless function.
 

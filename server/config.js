@@ -12,6 +12,7 @@ export const config = {
   isVercel: Boolean(env.VERCEL),
   isProduction: env.NODE_ENV === 'production' || Boolean(env.VERCEL),
   databaseUrl: env.DATABASE_URL || env.POSTGRES_URL || '',
+  databaseCaCert: env.DATABASE_CA_CERT || '',
   sqlitePath: env.DATABASE_PATH || 'storage/voting-insights.db',
   adminToken: env.ADMIN_TOKEN || '',
   contactEmail: env.CONTACT_EMAIL || null,
