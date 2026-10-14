@@ -23,7 +23,10 @@ County: FORT BEND
 test('parses county, races, and candidates from report text', () => {
   const r = parseReport(SAMPLE);
   assert.equal(r.county, 'Fort Bend');
-  assert.deepEqual(r.races.map((x) => x.heading), ['GOVERNOR', 'JUSTICE OF THE PEACE PRECINCT 1, PLACE 2', 'MEMBER, STATE BOARD OF EDUCATION, DISTRICT 7']);
+  assert.deepEqual(
+    r.races.map((x) => x.heading),
+    ['GOVERNOR', 'JUSTICE OF THE PEACE PRECINCT 1, PLACE 2', 'MEMBER, STATE BOARD OF EDUCATION, DISTRICT 7']
+  );
   assert.equal(r.races[0].candidates.length, 2);
   assert.equal(r.races[0].candidates[1].party, 'Democratic');
 });

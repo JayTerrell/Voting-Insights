@@ -38,15 +38,15 @@ questionnaires). Note: primaries were March 3, 2026 and runoffs May 26, 2026, so
 
 For each question in questions.json whose "offices" list includes the race's office_type, decide whether the
 candidate has a documented position. Position scale relative to the question statement:
-  2 = strongly agree, 1 = agree / leans agree, 0 = mixed or conditional, -1 = disagree / leans disagree,
- -2 = strongly disagree.
+2 = strongly agree, 1 = agree / leans agree, 0 = mixed or conditional, -1 = disagree / leans disagree,
+-2 = strongly disagree.
 "basis" must be one of:
-  "record"        votes, bills authored, official actions, rulings
-  "statement"     their own words: website, speech, interview, social media, debate
-  "questionnaire" answers to VOTE411, newspaper, or advocacy group questionnaires
-  "reported"      credible news reporting describing their position
-  "inferred"      derived from closely related documented positions or endorsements by issue groups
-                  (explain the link in the summary). Never infer from party alone.
+"record" votes, bills authored, official actions, rulings
+"statement" their own words: website, speech, interview, social media, debate
+"questionnaire" answers to VOTE411, newspaper, or advocacy group questionnaires
+"reported" credible news reporting describing their position
+"inferred" derived from closely related documented positions or endorsements by issue groups
+(explain the link in the summary). Never infer from party alone.
 You MAY also score questions outside the office's list if the candidate clearly addressed them.
 
 ## Output
@@ -55,32 +55,32 @@ Write a single JSON file to the path given in your task. It must be valid JSON (
 `python3 -c "import json;json.load(open('PATH'))"`). Structure:
 
 {
-  "candidates": [
-    {
-      "id": "<candidate id exactly as in races.json>",
-      "race_id": "<race id from races.json>",
-      "incumbent": true | false,
-      "current_role": "Short current occupation or office, e.g. 'Texas Attorney General since 2015'",
-      "background": "2 to 4 neutral sentences: profession, education, prior offices, residence.",
-      "website": "https://... campaign site or null",
-      "priorities": ["Campaign priorities in the candidate's framing, 3 to 6 items, each one sentence"],
-      "promises": ["Specific commitments: 'Says he will file legislation to ...'. Empty list if none found."],
-      "record": [ {"text": "One sentence about a vote, bill, ruling or action, with year.", "sources": ["s1"]} ],
-      "notes": [ {"text": "Neutral factual note (endorsements by major groups, bar poll result, legal matters).", "sources": ["s2"]} ],
-      "stances": {
-        "<question id>": {"position": -2..2, "basis": "statement", "summary": "One sentence describing their documented view.", "sources": ["s1"]}
-      },
-      "issue_notes": [
-        {"topic": "Short topic name, e.g. Water, Property Taxes, Grid, Veterans, Housing, Public Safety",
-         "summary": "One or two sentences on a documented position not captured by the questionnaire.",
-         "sources": ["s3"]}
-      ],
-      "sources": [
-        {"id": "s1", "title": "Page or article title", "publisher": "Outlet or site", "url": "https://...", "date": "YYYY-MM-DD or YYYY-MM or null"}
-      ],
-      "research_gaps": "One sentence on what could not be found, or empty string."
-    }
-  ]
+"candidates": [
+{
+"id": "<candidate id exactly as in races.json>",
+"race_id": "<race id from races.json>",
+"incumbent": true | false,
+"current_role": "Short current occupation or office, e.g. 'Texas Attorney General since 2015'",
+"background": "2 to 4 neutral sentences: profession, education, prior offices, residence.",
+"website": "https://... campaign site or null",
+"priorities": ["Campaign priorities in the candidate's framing, 3 to 6 items, each one sentence"],
+"promises": ["Specific commitments: 'Says he will file legislation to ...'. Empty list if none found."],
+"record": [ {"text": "One sentence about a vote, bill, ruling or action, with year.", "sources": ["s1"]} ],
+"notes": [ {"text": "Neutral factual note (endorsements by major groups, bar poll result, legal matters).", "sources": ["s2"]} ],
+"stances": {
+"<question id>": {"position": -2..2, "basis": "statement", "summary": "One sentence describing their documented view.", "sources": ["s1"]}
+},
+"issue_notes": [
+{"topic": "Short topic name, e.g. Water, Property Taxes, Grid, Veterans, Housing, Public Safety",
+"summary": "One or two sentences on a documented position not captured by the questionnaire.",
+"sources": ["s3"]}
+],
+"sources": [
+{"id": "s1", "title": "Page or article title", "publisher": "Outlet or site", "url": "https://...", "date": "YYYY-MM-DD or YYYY-MM or null"}
+],
+"research_gaps": "One sentence on what could not be found, or empty string."
+}
+]
 }
 
 priorities and promises entries must also be backed by sources: write them as objects

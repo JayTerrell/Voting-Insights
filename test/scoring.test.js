@@ -1,9 +1,11 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { compare, scoreAll, PRIOR_WEIGHT } from '../public/js/scoring.js';
+import { compare, scoreAll, PRIOR_WEIGHT } from '../shared/scoring.js';
 
 test('identical answers approach 100 and opposite answers approach 0', () => {
-  const answers = {}, same = {}, opposite = {};
+  const answers = {},
+    same = {},
+    opposite = {};
   for (let i = 0; i < 20; i++) {
     answers['q' + i] = { value: 2, weight: 1 };
     same['q' + i] = { position: 2, basis: 'record' };
@@ -39,9 +41,18 @@ test('race scoring only uses questions tied to the office', () => {
     parties: [],
     races: [
       {
-        id: 'gov', title: 'Governor', office_type: 'governor', group: 'state', statewide: true,
+        id: 'gov',
+        title: 'Governor',
+        office_type: 'governor',
+        group: 'state',
+        statewide: true,
         candidates: [
-          { id: 'a', name: 'A', party: 'Republican', stances: { x: { position: 2, basis: 'record' }, y: { position: -2, basis: 'record' } } },
+          {
+            id: 'a',
+            name: 'A',
+            party: 'Republican',
+            stances: { x: { position: 2, basis: 'record' }, y: { position: -2, basis: 'record' } },
+          },
           { id: 'b', name: 'B', party: 'Democratic', stances: { x: { position: -2, basis: 'record' } } },
         ],
       },
@@ -60,12 +71,26 @@ test('county ballots select races, and other counties fall back to statewide rac
     ballots: { Collin: ['local', 'gov'] },
     races: [
       { id: 'gov', title: 'Governor', office_type: 'governor', group: 'state', statewide: true, candidates: [] },
-      { id: 'local', title: 'County Judge', office_type: 'county_judge', group: 'county', statewide: false, county: 'Collin', candidates: [] },
+      {
+        id: 'local',
+        title: 'County Judge',
+        office_type: 'county_judge',
+        group: 'county',
+        statewide: false,
+        county: 'Collin',
+        candidates: [],
+      },
     ],
   };
   const answers = { x: { value: 1, weight: 1 } };
-  assert.deepEqual(scoreAll(answers, guide, 'Collin').races.map((r) => r.id), ['local', 'gov']);
+  assert.deepEqual(
+    scoreAll(answers, guide, 'Collin').races.map((r) => r.id),
+    ['local', 'gov']
+  );
   const other = scoreAll(answers, guide, 'Travis');
-  assert.deepEqual(other.races.map((r) => r.id), ['gov']);
+  assert.deepEqual(
+    other.races.map((r) => r.id),
+    ['gov']
+  );
   assert.equal(other.full_ballot, false);
 });

@@ -2,21 +2,36 @@
   "name": "voting-insights",
   "version": "1.0.0",
   "private": true,
-  "description": "Nonpartisan Collin County, Texas 2026 general election candidate guide and issue alignment quiz.",
+  "description": "Nonpartisan Texas 2026 general election candidate guide and issue alignment quiz.",
   "type": "module",
-  "main": "server/index.js",
+  "main": "server/app.js",
   "scripts": {
-    "start": "node --disable-warning=ExperimentalWarning server/index.js",
-    "dev": "node --disable-warning=ExperimentalWarning --watch server/index.js",
+    "build": "node scripts/build.js",
     "build:data": "node scripts/build-data.js",
+    "predev": "node scripts/build.js",
+    "dev": "node --disable-warning=ExperimentalWarning --env-file-if-exists=.env --watch server/index.js",
+    "prestart": "node scripts/build.js",
+    "start": "node --disable-warning=ExperimentalWarning --env-file-if-exists=.env server/index.js",
+    "import:ballot": "node scripts/import-ballot.js",
+    "research:status": "node scripts/research-status.js",
     "check:links": "node scripts/check-links.js",
-    "test": "node --disable-warning=ExperimentalWarning --test test/*.test.js"
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "test": "node --disable-warning=ExperimentalWarning --test test/*.test.js",
+    "format:check": "prettier --check ."
   },
   "engines": {
     "node": ">=22.13"
   },
   "dependencies": {
     "express": "^5.1.0",
-    "nodemailer": "^10.1.1"
+    "nodemailer": "^10.1.1",
+    "pg": "^8.23.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.5",
+    "eslint": "^9.39.5",
+    "globals": "^17.13.0",
+    "prettier": "^3.9.10"
   }
 }

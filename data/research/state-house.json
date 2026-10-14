@@ -1,0 +1,3813 @@
+{
+  "candidates": [
+    {
+      "id": "katrina-pierson",
+      "race_id": "state-house-33",
+      "incumbent": true,
+      "current_role": "State Representative, Texas House District 33, since January 2025",
+      "background": "Pierson is a communications executive and media strategist who served as national spokesperson for Donald Trump's 2016 presidential campaign and as a senior adviser to his 2020 campaign. She holds a bachelor's degree in biology from the University of Texas at Dallas and lives in Rockwall. She worked in health care administration and later founded a public affairs and crisis consulting firm. She won the seat in 2024 after defeating incumbent Justin Holland in a Republican primary runoff.",
+      "website": "https://katrinafortexas.com",
+      "priorities": [
+        {
+          "text": "Campaigns on phasing out property taxes.",
+          "sources": [
+            "s1",
+            "s4"
+          ]
+        },
+        {
+          "text": "Says rapid growth is straining roads, water, schools and public safety, and favors stronger infrastructure, including the power grid and water supply.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Lists securing the border and elections as legislative priorities.",
+          "sources": [
+            "s1",
+            "s4"
+          ]
+        },
+        {
+          "text": "Lists academic excellence, parental rights, classroom discipline, school safety and expanded career and technical education as education priorities.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Lists protecting children and life and removing barriers to health care as priorities.",
+          "sources": [
+            "s1"
+          ]
+        }
+      ],
+      "promises": [
+        {
+          "text": "Says she opposes taxpayer subsidies for private development and backs transparent planning for electricity, water, roads and emergency services for data centers and other large projects.",
+          "sources": [
+            "s1"
+          ]
+        }
+      ],
+      "record": [
+        {
+          "text": "Voted for David Cook over Dustin Burrows in the January 2025 runoff vote for Speaker of the House; Burrows won 85 to 55.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Voted for SB 2 in April 2025, creating a $1 billion education savings account program for private school and homeschool expenses; it passed the House 86 to 61.",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Coauthored and voted for the House version of HB 2 (2025 school finance); she voted against concurring with Senate amendments, stating in the journal that the Senate lowered the House's basic allotment increase.",
+          "sources": [
+            "s10",
+            "s18"
+          ]
+        },
+        {
+          "text": "Voted for SB 1, the 2026-2027 state budget, in April 2025, stating in the journal that it funded border security, school choice, public schools and $51 billion in property tax relief.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Voted for SB 10 (2025), requiring Ten Commandments displays in public school classrooms.",
+          "sources": [
+            "s16"
+          ]
+        },
+        {
+          "text": "Voted for SB 3 (2025), the hemp-derived THC products bill, on second reading; she was recorded absent on final passage.",
+          "sources": [
+            "s14",
+            "s15"
+          ]
+        },
+        {
+          "text": "Voted for SJR 5 (bail denial constitutional amendment) and SB 9 (bail procedures) in May 2025.",
+          "sources": [
+            "s12",
+            "s13"
+          ]
+        },
+        {
+          "text": "Voted against SB 31 (2025), which clarified medical exceptions to the abortion ban, explaining in the journal that its language could create a loophole.",
+          "sources": [
+            "s15"
+          ]
+        },
+        {
+          "text": "Voted for SB 33 (2025), barring local government funding of travel for abortions, and for SB 17 (2025), restricting land purchases by entities tied to certain foreign adversaries.",
+          "sources": [
+            "s15",
+            "s11"
+          ]
+        },
+        {
+          "text": "Voted for SB 1362 (2025), prohibiting enforcement of extreme risk protective orders in Texas.",
+          "sources": [
+            "s17"
+          ]
+        },
+        {
+          "text": "Joint author of HB 4 (2025 congressional redistricting) and HB 7 (2025 restrictions on abortion-inducing drugs) in the second special session, and voted for both.",
+          "sources": [
+            "s22",
+            "s19",
+            "s20"
+          ]
+        },
+        {
+          "text": "Authored HB 3560 (2025) on licensing of mental hospitals and mental health facilities, which became law.",
+          "sources": [
+            "s21"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Endorsed by Donald Trump, Ted Cruz and Greg Abbott, and by groups including the NRA, Gun Owners of America, Texas Alliance for Life and Texas Home School Coalition, according to her campaign site.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "text": "In September 2021 the U.S. House Select Committee investigating the January 6 attack subpoenaed her as one of 11 people tied to organizing the Ellipse rally; the cited account does not describe any charges.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Won the 2024 Republican primary runoff over incumbent Justin Holland, 56.4 percent to 43.6 percent.",
+          "sources": [
+            "s7"
+          ]
+        }
+      ],
+      "stances": {
+        "q_prop_tax_eliminate": {
+          "position": 2,
+          "basis": "questionnaire",
+          "summary": "Lists phasing out property taxes as a top legislative priority.",
+          "sources": [
+            "s1",
+            "s4"
+          ]
+        },
+        "q_vouchers": {
+          "position": 2,
+          "basis": "record",
+          "summary": "Voted for SB 2, the 2025 education savings account law, and cited full funding for school choice in explaining her budget vote.",
+          "sources": [
+            "s10",
+            "s9"
+          ]
+        },
+        "q_school_funding": {
+          "position": 1,
+          "basis": "record",
+          "summary": "Coauthored the House school finance bill and opposed the Senate version because it reduced the basic allotment increase.",
+          "sources": [
+            "s18"
+          ]
+        },
+        "q_ten_commandments": {
+          "position": 1,
+          "basis": "record",
+          "summary": "Voted for SB 10 requiring classroom Ten Commandments displays.",
+          "sources": [
+            "s16"
+          ]
+        },
+        "q_abortion": {
+          "position": -2,
+          "basis": "record",
+          "summary": "Voted for SB 33 and was joint author of HB 7 restricting abortion-inducing drugs, and voted against SB 31's clarified exceptions as too broad.",
+          "sources": [
+            "s15",
+            "s22"
+          ]
+        },
+        "q_border_state": {
+          "position": 2,
+          "basis": "record",
+          "summary": "Voted for the 2026-2027 budget and cited its border security and law enforcement funding as a priority; campaigns on securing the border.",
+          "sources": [
+            "s9",
+            "s4"
+          ]
+        },
+        "q_bail": {
+          "position": 1,
+          "basis": "record",
+          "summary": "Voted for SJR 5 and SB 9 in 2025.",
+          "sources": [
+            "s12",
+            "s13"
+          ]
+        },
+        "q_cannabis": {
+          "position": -1,
+          "basis": "record",
+          "summary": "Voted for SB 3, which would have banned most hemp-derived THC products, on second reading.",
+          "sources": [
+            "s14"
+          ]
+        },
+        "q_foreign_land": {
+          "position": 1,
+          "basis": "record",
+          "summary": "Voted for SB 17 restricting land purchases tied to designated foreign adversaries.",
+          "sources": [
+            "s11"
+          ]
+        },
+        "q_gun_laws": {
+          "position": -2,
+          "basis": "record",
+          "summary": "Voted for SB 1362 barring enforcement of extreme risk protective orders and campaigns on defending gun rights.",
+          "sources": [
+            "s17",
+            "s4"
+          ]
+        },
+        "q_water": {
+          "position": 1,
+          "basis": "questionnaire",
+          "summary": "Lists strengthening water infrastructure as a legislative priority.",
+          "sources": [
+            "s1"
+          ]
+        }
+      },
+      "issue_notes": [
+        {
+          "topic": "Data Centers",
+          "summary": "Says economic development must benefit existing residents and supports local input on large projects.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "topic": "Budget Oversight",
+          "summary": "Said after voting for the state budget that her focus is holding agencies accountable for spending as intended.",
+          "sources": [
+            "s9"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "s1",
+          "title": "Q&A: Meet the candidates running for Texas House District 33",
+          "publisher": "Community Impact",
+          "url": "https://communityimpact.com/plano/election/qa-meet-the-candidates-running-for-texas-house-district-33/",
+          "date": "2026-08-28"
+        },
+        {
+          "id": "s2",
+          "title": "Katrina Pierson for Texas House District 33 (campaign home page)",
+          "publisher": "Katrina Pierson Campaign",
+          "url": "https://katrinafortexas.com",
+          "date": null
+        },
+        {
+          "id": "s3",
+          "title": "About Katrina",
+          "publisher": "Katrina Pierson Campaign",
+          "url": "https://katrinafortexas.com/about/",
+          "date": null
+        },
+        {
+          "id": "s4",
+          "title": "Issues",
+          "publisher": "Katrina Pierson Campaign",
+          "url": "https://katrinafortexas.com/issues/",
+          "date": null
+        },
+        {
+          "id": "s5",
+          "title": "Endorsements",
+          "publisher": "Katrina Pierson Campaign",
+          "url": "https://katrinafortexas.com/endorsements/",
+          "date": null
+        },
+        {
+          "id": "s6",
+          "title": "Rep. Pierson, Katrina: Biography",
+          "publisher": "Texas House of Representatives",
+          "url": "https://house.texas.gov/members/4715/biography",
+          "date": null
+        },
+        {
+          "id": "s7",
+          "title": "Katrina Pierson",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Katrina_Pierson",
+          "date": null
+        },
+        {
+          "id": "s8",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 1st Day (Speaker election, Record 3)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY01FINAL.HTM",
+          "date": "2025-01-14"
+        },
+        {
+          "id": "s9",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 42nd Day (SB 1 budget, Record 154)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY42FINAL.HTM",
+          "date": "2025-04-11"
+        },
+        {
+          "id": "s10",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 46th Day (SB 2 Record 300; HB 2 Record 303)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY46FINAL.HTM",
+          "date": "2025-04-17"
+        },
+        {
+          "id": "s11",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 60th Day (SB 17, Record 1881)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY60FINAL.HTM",
+          "date": "2025-05-09"
+        },
+        {
+          "id": "s12",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 67th Day (SJR 5, Record 2931)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY67FINAL.HTM",
+          "date": "2025-05-19"
+        },
+        {
+          "id": "s13",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 68th Day (SB 9, Record 3003)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY68FINAL.HTM",
+          "date": "2025-05-20"
+        },
+        {
+          "id": "s14",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 69th Day (SB 4 Record 3116; SB 23 Record 3117; SB 3 Record 3192)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY69FINAL.HTM",
+          "date": "2025-05-21"
+        },
+        {
+          "id": "s15",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 70th Day (SB 31 Record 3194; SB 33 Record 3195; SB 3 Record 3304)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY70FINAL.HTM",
+          "date": "2025-05-22"
+        },
+        {
+          "id": "s16",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 73rd Day (SB 8 Record 3502; SB 10 Record 3503; SB 12 Record 3506)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY73FINAL.HTM",
+          "date": "2025-05-25"
+        },
+        {
+          "id": "s17",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 76th Day (SB 1362 Record 3869; SB 7 Record 3922)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY76FINAL.HTM",
+          "date": "2025-05-28"
+        },
+        {
+          "id": "s18",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 77th Day (HB 2 concurrence, Record 4015)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY77FINAL.HTM",
+          "date": "2025-05-29"
+        },
+        {
+          "id": "s19",
+          "title": "Texas House Journal, 89th Legislature, Second Called Session, 5th Day (HB 4, Record 30)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/892/HTML/89C2DAY05FINAL.HTM",
+          "date": "2025-08-20"
+        },
+        {
+          "id": "s20",
+          "title": "Texas House Journal, 89th Legislature, Second Called Session, 10th Day (SB 8 Record 134; HB 7 Record 135)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/892/HTML/89C2DAY10FINAL.HTM",
+          "date": "2025-08-28"
+        },
+        {
+          "id": "s21",
+          "title": "Bills Authored / Joint Authored: Rep. Pierson, 89th Legislature, Regular Session",
+          "publisher": "Texas Legislature Online",
+          "url": "https://capitol.texas.gov/reports/report.aspx?LegSess=89R&ID=author&Code=A4715",
+          "date": null
+        },
+        {
+          "id": "s22",
+          "title": "Bills Authored / Joint Authored: Rep. Pierson, 89th Legislature, Second Called Session",
+          "publisher": "Texas Legislature Online",
+          "url": "https://capitol.texas.gov/reports/report.aspx?LegSess=892&ID=author&Code=A4715",
+          "date": null
+        }
+      ],
+      "research_gaps": "Her campaign issues page lists headings without detailed positions, and no 2026 newspaper questionnaire beyond Community Impact was found."
+    },
+    {
+      "id": "orlando-lopez",
+      "race_id": "state-house-33",
+      "incumbent": false,
+      "current_role": "Construction project manager",
+      "background": "Lopez has worked in construction for more than a decade and holds a construction science degree from Texas A&M University. He grew up in South Texas, graduated from Hidalgo High School and lives in Heath. He is married to a former public school teacher and counselor. This is his first campaign for office.",
+      "website": "https://www.lopezfortxhd33.com",
+      "priorities": [
+        {
+          "text": "Campaigns on properly funding and strengthening public schools.",
+          "sources": [
+            "s1",
+            "s3"
+          ]
+        },
+        {
+          "text": "Lists raising teacher pay and the state minimum wage as legislative priorities.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Says he wants to lower costs for housing, taxes, utilities, health care and child care and restrict utility price gouging.",
+          "sources": [
+            "s2",
+            "s1"
+          ]
+        },
+        {
+          "text": "Supports reforming property taxes to protect lower-income families while having wealthy individuals and corporations pay more.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Calls for Medicaid coverage for all children.",
+          "sources": [
+            "s1"
+          ]
+        }
+      ],
+      "promises": [
+        {
+          "text": "Says teachers deserve salaries of $100,000 or more.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Says he would work to dismantle the voucher program and redirect the money to public schools, and supports income caps on eligibility in the meantime.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Supports moratoriums on data center construction until health and development impacts are assessed and opposes new tax abatements for data centers.",
+          "sources": [
+            "s2",
+            "s1"
+          ]
+        }
+      ],
+      "record": [],
+      "notes": [
+        {
+          "text": "Is the Democratic nominee challenging Rep. Katrina Pierson in November 2026, according to Community Impact.",
+          "sources": [
+            "s1"
+          ]
+        }
+      ],
+      "stances": {
+        "q_vouchers": {
+          "position": -2,
+          "basis": "statement",
+          "summary": "Says he wants to dismantle the voucher program and redirect funds to public schools.",
+          "sources": [
+            "s2"
+          ]
+        },
+        "q_school_funding": {
+          "position": 2,
+          "basis": "statement",
+          "summary": "Calls for adequate school funding and teacher salaries of $100,000 or more.",
+          "sources": [
+            "s2",
+            "s1"
+          ]
+        },
+        "q_min_wage": {
+          "position": 1,
+          "basis": "questionnaire",
+          "summary": "Lists raising the state minimum wage as a legislative priority.",
+          "sources": [
+            "s1"
+          ]
+        },
+        "q_gun_laws": {
+          "position": 2,
+          "basis": "statement",
+          "summary": "Supports universal background checks, red flag laws with due process protections and safe storage practices.",
+          "sources": [
+            "s2"
+          ]
+        },
+        "q_deportation": {
+          "position": -2,
+          "basis": "statement",
+          "summary": "Supports abolishing ICE and increasing DHS accountability, including detainee access to counsel.",
+          "sources": [
+            "s2"
+          ]
+        },
+        "q_trans_minors": {
+          "position": -1,
+          "basis": "statement",
+          "summary": "Opposes recent laws he says target LGBTQ Texans, particularly transgender Texans.",
+          "sources": [
+            "s2"
+          ]
+        },
+        "q_abortion": {
+          "position": 1,
+          "basis": "statement",
+          "summary": "Says restrictive laws have put doctors in impossible situations and calls for clearer medical guidelines and restored maternal mortality research.",
+          "sources": [
+            "s2"
+          ]
+        }
+      },
+      "issue_notes": [
+        {
+          "topic": "Data Centers",
+          "summary": "Supports local authority to approve or ban data centers and wants existing centers to supply their own power, such as on-site solar or batteries.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "topic": "Audits",
+          "summary": "Calls for an audit of fund distribution by the land commissioner and education commissioner since 2024.",
+          "sources": [
+            "s2"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "s1",
+          "title": "Q&A: Meet the candidates running for Texas House District 33",
+          "publisher": "Community Impact",
+          "url": "https://communityimpact.com/plano/election/qa-meet-the-candidates-running-for-texas-house-district-33/",
+          "date": "2026-08-28"
+        },
+        {
+          "id": "s2",
+          "title": "Orlando Lopez for Texas House District 33 (campaign home page)",
+          "publisher": "Orlando Lopez Campaign",
+          "url": "https://www.lopezfortxhd33.com",
+          "date": null
+        },
+        {
+          "id": "s3",
+          "title": "About Orlando",
+          "publisher": "Orlando Lopez Campaign",
+          "url": "https://www.lopezfortxhd33.com/about",
+          "date": null
+        }
+      ],
+      "research_gaps": "No endorsements, voting record or newspaper questionnaire beyond Community Impact were found."
+    },
+    {
+      "id": "keresa-richardson",
+      "race_id": "state-house-61",
+      "incumbent": true,
+      "current_role": "State Representative, Texas House District 61, since January 2025",
+      "background": "Richardson is CEO of The Lawton Group, a plumbing, HVAC, electrical, refrigeration and pest control business she founded with her husband about 40 years ago. She lives in McKinney and won the seat in 2024 after defeating incumbent Frederick Frazier in a Republican primary runoff. She describes herself as a cancer survivor and an advocate for women in business and the trades.",
+      "website": "https://keresafortexas.com",
+      "priorities": [
+        {
+          "text": "Campaigns on lowering property taxes and the cost of living.",
+          "sources": [
+            "s1",
+            "s6"
+          ]
+        },
+        {
+          "text": "Lists strengthening public safety and supporting law enforcement as priorities.",
+          "sources": [
+            "s1",
+            "s6"
+          ]
+        },
+        {
+          "text": "Campaigns on election integrity, including proof of citizenship to register and cleaning voter rolls.",
+          "sources": [
+            "s6",
+            "s1"
+          ]
+        },
+        {
+          "text": "Supports school choice and parental rights.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Supports expanding career and technical education, apprenticeships and skilled trades training.",
+          "sources": [
+            "s6"
+          ]
+        }
+      ],
+      "promises": [
+        {
+          "text": "Says she supports Gov. Greg Abbott's Texas Taxpayer Empowerment Pledge, including local spending limits, two-thirds voter approval for tax increases, appraisal caps and eliminating school property taxes for homeowners.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Says she backs restoring the attorney general's authority to investigate and prosecute election crimes.",
+          "sources": [
+            "s6"
+          ]
+        }
+      ],
+      "record": [
+        {
+          "text": "Voted for David Cook over Dustin Burrows in the January 2025 runoff vote for Speaker of the House.",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Voted for SB 2 (2025 education savings accounts) and for HB 2 (2025 school finance), including the final Senate version.",
+          "sources": [
+            "s12",
+            "s19"
+          ]
+        },
+        {
+          "text": "Voted against SB 1, the 2026-2027 state budget, on House passage in April 2025 and on the final conference report.",
+          "sources": [
+            "s11",
+            "s20"
+          ]
+        },
+        {
+          "text": "Voted for SB 10 (Ten Commandments classroom displays) and SB 3 (hemp-derived THC products bill) in May 2025.",
+          "sources": [
+            "s17",
+            "s16"
+          ]
+        },
+        {
+          "text": "Voted for SJR 5 and SB 9 on bail in May 2025.",
+          "sources": [
+            "s14",
+            "s15"
+          ]
+        },
+        {
+          "text": "Voted for SB 17 (foreign adversary land purchases), SB 33 (local abortion travel funding) and SB 8 (sheriff agreements with ICE) in 2025; her campaign says she co-sponsored SB 17 and SB 33.",
+          "sources": [
+            "s13",
+            "s16",
+            "s17",
+            "s7"
+          ]
+        },
+        {
+          "text": "Voted for SB 1362 (2025), prohibiting enforcement of extreme risk protective orders.",
+          "sources": [
+            "s18"
+          ]
+        },
+        {
+          "text": "Authored HB 3214 (2025), changing eligibility for a master plumber license, which became law; also filed HJR 136, a proposed constitutional amendment protecting private schools from state and local regulation, which did not advance past committee referral.",
+          "sources": [
+            "s23",
+            "s7"
+          ]
+        },
+        {
+          "text": "Voted for HB 4 (2025 congressional redistricting) and HB 7 (abortion-inducing drug restrictions) in the second special session.",
+          "sources": [
+            "s21",
+            "s22"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Won the March 2026 Republican primary with 66.99 percent of the vote over former Rep. Frederick Frazier, according to unofficial results.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Endorsed by Donald Trump, Greg Abbott, Ken Paxton, Ted Cruz and Collin County Judge Chris Hill, according to her campaign site.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Did not respond to Community Impact's primary questionnaire.",
+          "sources": [
+            "s2"
+          ]
+        }
+      ],
+      "stances": {
+        "q_prop_tax_eliminate": {
+          "position": 2,
+          "basis": "questionnaire",
+          "summary": "Supports a pledge that would eliminate school property taxes for homeowners.",
+          "sources": [
+            "s1"
+          ]
+        },
+        "q_spending_cap": {
+          "position": 1,
+          "basis": "questionnaire",
+          "summary": "Supports local spending limits as part of the Texas Taxpayer Empowerment Pledge.",
+          "sources": [
+            "s1"
+          ]
+        },
+        "q_vouchers": {
+          "position": 2,
+          "basis": "record",
+          "summary": "Voted for SB 2 and lists school choice as a campaign issue.",
+          "sources": [
+            "s12",
+            "s6",
+            "s7"
+          ]
+        },
+        "q_school_funding": {
+          "position": 1,
+          "basis": "record",
+          "summary": "Voted for HB 2, the 2025 school finance bill.",
+          "sources": [
+            "s12",
+            "s19"
+          ]
+        },
+        "q_ten_commandments": {
+          "position": 1,
+          "basis": "record",
+          "summary": "Voted for SB 10.",
+          "sources": [
+            "s17"
+          ]
+        },
+        "q_abortion": {
+          "position": -2,
+          "basis": "record",
+          "summary": "Voted for SB 33 and HB 7 and campaigns on protecting life.",
+          "sources": [
+            "s16",
+            "s22",
+            "s6"
+          ]
+        },
+        "q_border_state": {
+          "position": 1,
+          "basis": "statement",
+          "summary": "Says Texas must step up on the border when Washington refuses to enforce the law.",
+          "sources": [
+            "s6"
+          ]
+        },
+        "q_bail": {
+          "position": 2,
+          "basis": "record",
+          "summary": "Voted for SJR 5 and SB 9 and highlights bail changes on her campaign record page.",
+          "sources": [
+            "s14",
+            "s7"
+          ]
+        },
+        "q_cannabis": {
+          "position": -1,
+          "basis": "record",
+          "summary": "Voted for SB 3, which would have banned most hemp-derived THC products.",
+          "sources": [
+            "s16"
+          ]
+        },
+        "q_foreign_land": {
+          "position": 2,
+          "basis": "record",
+          "summary": "Voted for SB 17 and lists it as a campaign accomplishment.",
+          "sources": [
+            "s13",
+            "s7"
+          ]
+        },
+        "q_gun_laws": {
+          "position": -2,
+          "basis": "record",
+          "summary": "Voted for SB 1362 and campaigns on defending Second Amendment rights.",
+          "sources": [
+            "s18",
+            "s6"
+          ]
+        },
+        "q_election_fraud": {
+          "position": 2,
+          "basis": "statement",
+          "summary": "Backs restoring the attorney general's power to prosecute election crimes and strong penalties for illegal voting and ballot harvesting.",
+          "sources": [
+            "s6"
+          ]
+        },
+        "q_voting_access": {
+          "position": -1,
+          "basis": "statement",
+          "summary": "Supports proof of citizenship to register and opposes expanding unsecured mail-in voting.",
+          "sources": [
+            "s6"
+          ]
+        }
+      },
+      "issue_notes": [
+        {
+          "topic": "Workforce",
+          "summary": "Says she backed reducing the time required to earn a plumbing license by two years.",
+          "sources": [
+            "s6",
+            "s7"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "s1",
+          "title": "Q&A: Meet the candidates running for Texas House of Representatives District 61",
+          "publisher": "Community Impact",
+          "url": "https://communityimpact.com/mckinney/election/qa-meet-the-candidates-running-for-texas-house-of-representatives-district-61/",
+          "date": "2026-08-28"
+        },
+        {
+          "id": "s2",
+          "title": "Q&A: Meet the candidates running the Texas House District 61 Republican primary race",
+          "publisher": "Community Impact",
+          "url": "https://communityimpact.com/mckinney/election/qa-meet-the-candidates-running-the-texas-house-district-61-republican-primary-race/",
+          "date": "2026-02-18"
+        },
+        {
+          "id": "s3",
+          "title": "ROUNDUP: See updated election results for Texas House, Senate races in Collin County",
+          "publisher": "Community Impact",
+          "url": "https://communityimpact.com/dallas-fort-worth/mckinney/election/2026/03/03/roundup-see-updated-election-results-for-texas-house-senate-races-in-collin-county",
+          "date": "2026-03-04"
+        },
+        {
+          "id": "s4",
+          "title": "Keresa Richardson for Texas (campaign home page)",
+          "publisher": "Keresa for Texas",
+          "url": "https://keresafortexas.com/",
+          "date": null
+        },
+        {
+          "id": "s5",
+          "title": "About Keresa",
+          "publisher": "Keresa for Texas",
+          "url": "https://keresafortexas.com/about/",
+          "date": null
+        },
+        {
+          "id": "s6",
+          "title": "Issues",
+          "publisher": "Keresa for Texas",
+          "url": "https://keresafortexas.com/issues/",
+          "date": null
+        },
+        {
+          "id": "s7",
+          "title": "Record",
+          "publisher": "Keresa for Texas",
+          "url": "https://keresafortexas.com/record/",
+          "date": null
+        },
+        {
+          "id": "s8",
+          "title": "Endorsements",
+          "publisher": "Keresa for Texas",
+          "url": "https://keresafortexas.com/endorsements/",
+          "date": null
+        },
+        {
+          "id": "s9",
+          "title": "Rep. Richardson, Keresa: Biography",
+          "publisher": "Texas House of Representatives",
+          "url": "https://house.texas.gov/members/4735/biography",
+          "date": null
+        },
+        {
+          "id": "s10",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 1st Day (Speaker election, Record 3)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY01FINAL.HTM",
+          "date": "2025-01-14"
+        },
+        {
+          "id": "s11",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 42nd Day (SB 1 budget, Record 154)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY42FINAL.HTM",
+          "date": "2025-04-11"
+        },
+        {
+          "id": "s12",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 46th Day (SB 2 Record 300; HB 2 Record 303)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY46FINAL.HTM",
+          "date": "2025-04-17"
+        },
+        {
+          "id": "s13",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 60th Day (SB 17, Record 1881)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY60FINAL.HTM",
+          "date": "2025-05-09"
+        },
+        {
+          "id": "s14",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 67th Day (SJR 5, Record 2931)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY67FINAL.HTM",
+          "date": "2025-05-19"
+        },
+        {
+          "id": "s15",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 68th Day (SB 9, Record 3003)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY68FINAL.HTM",
+          "date": "2025-05-20"
+        },
+        {
+          "id": "s16",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 70th Day (SB 31 Record 3194; SB 33 Record 3195; SB 3 Record 3304)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY70FINAL.HTM",
+          "date": "2025-05-22"
+        },
+        {
+          "id": "s17",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 73rd Day (SB 8 Record 3502; SB 10 Record 3503; SB 12 Record 3506)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY73FINAL.HTM",
+          "date": "2025-05-25"
+        },
+        {
+          "id": "s18",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 76th Day (SB 1362 Record 3869; SB 7 Record 3922)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY76FINAL.HTM",
+          "date": "2025-05-28"
+        },
+        {
+          "id": "s19",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 77th Day (HB 2 concurrence, Record 4015)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY77FINAL.HTM",
+          "date": "2025-05-29"
+        },
+        {
+          "id": "s20",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 79th Day (SB 1 conference report, Record 4101)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY79FINAL.HTM",
+          "date": "2025-05-31"
+        },
+        {
+          "id": "s21",
+          "title": "Texas House Journal, 89th Legislature, Second Called Session, 5th Day (HB 4, Record 30)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/892/HTML/89C2DAY05FINAL.HTM",
+          "date": "2025-08-20"
+        },
+        {
+          "id": "s22",
+          "title": "Texas House Journal, 89th Legislature, Second Called Session, 10th Day (SB 8 Record 134; HB 7 Record 135)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/892/HTML/89C2DAY10FINAL.HTM",
+          "date": "2025-08-28"
+        },
+        {
+          "id": "s23",
+          "title": "Bills Authored / Joint Authored: Rep. Richardson, 89th Legislature, Regular Session",
+          "publisher": "Texas Legislature Online",
+          "url": "https://capitol.texas.gov/reports/report.aspx?LegSess=89R&ID=author&Code=A4735",
+          "date": null
+        }
+      ],
+      "research_gaps": "No detailed statement explaining her vote against the 2026-2027 budget was found."
+    },
+    {
+      "id": "brittany-black",
+      "race_id": "state-house-61",
+      "incumbent": false,
+      "current_role": "Senior software engineer and small business owner",
+      "background": "Black is a software engineer with nearly 20 years of experience, including work for the Department of Defense, NASA and the State Department, according to her campaign. She lives in McKinney and says she comes from a family of farmers, teachers and military veterans. This is her first campaign for the Texas House.",
+      "website": "https://www.brittanyfortexas.com",
+      "priorities": [
+        {
+          "text": "Campaigns on lowering household costs, including property taxes, insurance, utilities and health care.",
+          "sources": [
+            "s1",
+            "s4"
+          ]
+        },
+        {
+          "text": "Campaigns on fully funding public schools.",
+          "sources": [
+            "s1",
+            "s4"
+          ]
+        },
+        {
+          "text": "Says she would expand access to affordable health care.",
+          "sources": [
+            "s1",
+            "s4"
+          ]
+        },
+        {
+          "text": "Campaigns on ethics reform and transparency in how tax dollars are spent.",
+          "sources": [
+            "s1",
+            "s4"
+          ]
+        },
+        {
+          "text": "Lists public safety, border security at ports of entry and the Second Amendment among her platform items.",
+          "sources": [
+            "s4"
+          ]
+        }
+      ],
+      "promises": [
+        {
+          "text": "Says she will push for stronger campaign and officeholder disclosure rules and a ban on legislators voting on contracts that benefit themselves.",
+          "sources": [
+            "s4",
+            "s2"
+          ]
+        },
+        {
+          "text": "Says she refuses money from defense contractors, surveillance companies and private prison interests.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Says she will hold regular town halls.",
+          "sources": [
+            "s2"
+          ]
+        }
+      ],
+      "record": [],
+      "notes": [
+        {
+          "text": "Won the March 2026 Democratic primary with 56.08 percent over Jackie Bescherer, according to unofficial results.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Endorsed by Annie's List, AFT, Texas AFL-CIO, Planned Parenthood Texas Votes, CAIR Action Texas and Run for Something, among others, according to her campaign site.",
+          "sources": [
+            "s4"
+          ]
+        }
+      ],
+      "stances": {
+        "q_vouchers": {
+          "position": -2,
+          "basis": "statement",
+          "summary": "Says she wants to keep public dollars in public schools.",
+          "sources": [
+            "s4"
+          ]
+        },
+        "q_school_funding": {
+          "position": 2,
+          "basis": "questionnaire",
+          "summary": "Says she would work to fully fund public schools.",
+          "sources": [
+            "s1",
+            "s2"
+          ]
+        },
+        "q_ethics": {
+          "position": 2,
+          "basis": "statement",
+          "summary": "Supports stronger disclosure rules and a ban on legislators voting on contracts that benefit themselves.",
+          "sources": [
+            "s4"
+          ]
+        },
+        "q_gun_laws": {
+          "position": 1,
+          "basis": "statement",
+          "summary": "Says she defends gun rights and supports background checks.",
+          "sources": [
+            "s4"
+          ]
+        },
+        "q_border_state": {
+          "position": 0,
+          "basis": "statement",
+          "summary": "Supports secure ports of entry, technology and coordinated law enforcement but opposes what she calls costly political stunts.",
+          "sources": [
+            "s4"
+          ]
+        },
+        "q_abortion": {
+          "position": 1,
+          "basis": "inferred",
+          "summary": "Endorsed by Planned Parenthood Texas Votes; her campaign materials reviewed do not state a specific abortion policy.",
+          "sources": [
+            "s4"
+          ]
+        }
+      },
+      "issue_notes": [
+        {
+          "topic": "Data Centers",
+          "summary": "Says AI data centers should pay for their own power and water, report usage and lose special tax breaks.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "topic": "Health Care",
+          "summary": "Supports protection from surprise medical bills and easier access to mental health care.",
+          "sources": [
+            "s4"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "s1",
+          "title": "Q&A: Meet the candidates running for Texas House of Representatives District 61",
+          "publisher": "Community Impact",
+          "url": "https://communityimpact.com/mckinney/election/qa-meet-the-candidates-running-for-texas-house-of-representatives-district-61/",
+          "date": "2026-08-28"
+        },
+        {
+          "id": "s2",
+          "title": "Q&A: Meet the candidates running the Texas House District 61 Democratic primary race",
+          "publisher": "Community Impact",
+          "url": "https://communityimpact.com/mckinney/election/qa-meet-the-candidates-running-the-texas-house-district-61-democratic-primary-race/",
+          "date": "2026-02-18"
+        },
+        {
+          "id": "s3",
+          "title": "ROUNDUP: See updated election results for Texas House, Senate races in Collin County",
+          "publisher": "Community Impact",
+          "url": "https://communityimpact.com/dallas-fort-worth/mckinney/election/2026/03/03/roundup-see-updated-election-results-for-texas-house-senate-races-in-collin-county",
+          "date": "2026-03-04"
+        },
+        {
+          "id": "s4",
+          "title": "Brittany Black for Texas House District 61 (campaign site)",
+          "publisher": "Brittany for Texas",
+          "url": "https://www.brittanyfortexas.com",
+          "date": null
+        }
+      ],
+      "research_gaps": "No newspaper questionnaire beyond Community Impact was found."
+    },
+    {
+      "id": "anissa-chilmeran",
+      "race_id": "state-house-61",
+      "incumbent": false,
+      "current_role": "Green Party nominee for Texas House District 61",
+      "background": "Chilmeran is the Green Party candidate in the three-way District 61 race. Community Impact listed a campaign website for her but did not receive questionnaire responses.",
+      "website": null,
+      "priorities": [],
+      "promises": [],
+      "record": [],
+      "notes": [
+        {
+          "text": "Did not respond to Community Impact's general election questionnaire before press time.",
+          "sources": [
+            "s1"
+          ]
+        }
+      ],
+      "stances": {},
+      "issue_notes": [],
+      "sources": [
+        {
+          "id": "s1",
+          "title": "Q&A: Meet the candidates running for Texas House of Representatives District 61",
+          "publisher": "Community Impact",
+          "url": "https://communityimpact.com/mckinney/election/qa-meet-the-candidates-running-for-texas-house-of-representatives-district-61/",
+          "date": "2026-08-28"
+        }
+      ],
+      "research_gaps": "No campaign platform, biography or questionnaire answers could be found; the website listed by Community Impact returned no content."
+    },
+    {
+      "id": "matt-shaheen",
+      "race_id": "state-house-66",
+      "incumbent": true,
+      "current_role": "State Representative, Texas House District 66, since January 2015; chair of the House Committee on Elections",
+      "background": "Shaheen is a technology executive with about 30 years of experience, including at Hewlett Packard Enterprise. He served five years on the Collin County Commissioners Court before his 2014 election to the House. He holds a bachelor's degree from Randolph-Macon College and a master's degree from SMU, and is a Virginia native. In the 89th Legislature he chairs the Elections Committee and serves on Higher Education and the Sunset Advisory Commission.",
+      "website": "https://www.mattshaheen.com",
+      "priorities": [
+        {
+          "text": "Says he will continue pushing for property tax relief.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Lists economic and job growth as a top priority.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Lists protecting children from predators as a top priority.",
+          "sources": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "text": "Lists fighting government corruption as a top priority.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Says growth requires roads, water and power infrastructure and calls education a top priority.",
+          "sources": [
+            "s1"
+          ]
+        }
+      ],
+      "promises": [
+        {
+          "text": "Proposes capping spending and requiring two-thirds local votes to raise taxes.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Says he would invest over $100 billion in education, with billions more for teacher pay.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Says he will always fight for legislation that recognizes every human life.",
+          "sources": [
+            "s2"
+          ]
+        }
+      ],
+      "record": [
+        {
+          "text": "Voted for David Cook over Dustin Burrows in the January 2025 runoff vote for Speaker of the House.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Voted for SB 2 (2025 education savings accounts); in 2023 he voted against the budget amendment barring voucher spending (April) and against the amendment removing education savings accounts from HB 1 (November).",
+          "sources": [
+            "s7",
+            "s17",
+            "s22"
+          ]
+        },
+        {
+          "text": "Voted for HB 2 (2025 school finance), including the final Senate version.",
+          "sources": [
+            "s7",
+            "s15"
+          ]
+        },
+        {
+          "text": "Authored HB 5115 (2025), increasing the criminal penalty for election fraud, and HB 493 (2025) on poll watcher eligibility, both now law.",
+          "sources": [
+            "s23"
+          ]
+        },
+        {
+          "text": "Authored HB 1181 (2023), requiring age verification for websites with sexual material harmful to minors, which became law.",
+          "sources": [
+            "s24"
+          ]
+        },
+        {
+          "text": "Authored HB 18 in the 2025 second special session, restricting political contributions to legislators in certain circumstances, which became law.",
+          "sources": [
+            "s25"
+          ]
+        },
+        {
+          "text": "House joint sponsor of SJR 37 (2025), the constitutional amendment stating that voters must be U.S. citizens.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Voted for SB 10 (Ten Commandments), SB 3 (hemp-derived THC products), SB 17 (foreign adversary land), SB 8 (sheriff ICE agreements) and SB 33 in 2025.",
+          "sources": [
+            "s13",
+            "s12",
+            "s9"
+          ]
+        },
+        {
+          "text": "Voted for SJR 5 and SB 9 on bail and for SB 1362 barring extreme risk protective orders in 2025.",
+          "sources": [
+            "s10",
+            "s11",
+            "s14"
+          ]
+        },
+        {
+          "text": "Voted against HB 1481 (2025), the school cellphone restriction bill, which passed 128 to 17.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "text": "In 2023 voted for SB 14 (ban on gender transition treatments for minors), HB 2127 (state preemption of local regulations), SB 4 (state illegal entry offense) and SB 3 (border barrier funding).",
+          "sources": [
+            "s18",
+            "s19",
+            "s21"
+          ]
+        },
+        {
+          "text": "Voted to impeach Attorney General Ken Paxton in May 2023; the House adopted the articles 121 to 23.",
+          "sources": [
+            "s20"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Founded the Texas Freedom Caucus and has supported barring Democrats from House committee chairmanships.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Won close general elections in 2018 (by 391 votes) and 2020 (by 849 votes) before larger margins in 2022 and 2024.",
+          "sources": [
+            "s4"
+          ]
+        }
+      ],
+      "stances": {
+        "q_spending_cap": {
+          "position": 2,
+          "basis": "questionnaire",
+          "summary": "Proposes capping spending and says his budget votes kept state spending growth below population growth plus inflation.",
+          "sources": [
+            "s1",
+            "s2"
+          ]
+        },
+        "q_vouchers": {
+          "position": 2,
+          "basis": "record",
+          "summary": "Voted for SB 2 in 2025 and against 2023 amendments that would have blocked vouchers or education savings accounts.",
+          "sources": [
+            "s7",
+            "s17",
+            "s22"
+          ]
+        },
+        "q_school_funding": {
+          "position": 1,
+          "basis": "questionnaire",
+          "summary": "Says he would invest over $100 billion in education with more for teacher pay, and voted for HB 2.",
+          "sources": [
+            "s1",
+            "s7"
+          ]
+        },
+        "q_ten_commandments": {
+          "position": 1,
+          "basis": "record",
+          "summary": "Voted for SB 10.",
+          "sources": [
+            "s13"
+          ]
+        },
+        "q_abortion": {
+          "position": -2,
+          "basis": "statement",
+          "summary": "Says he fought to end abortion in Texas except for the life of the mother; voted for SB 33 and HB 7.",
+          "sources": [
+            "s2",
+            "s12",
+            "s16"
+          ]
+        },
+        "q_border_state": {
+          "position": 2,
+          "basis": "record",
+          "summary": "Voted for 2023 state border barrier funding and claims credit for large increases in state border security funding.",
+          "sources": [
+            "s21",
+            "s2"
+          ]
+        },
+        "q_deportation": {
+          "position": 1,
+          "basis": "inferred",
+          "summary": "Voted for the 2023 state illegal entry offense and 2025 sheriff ICE agreements; no direct statement on deportation priorities was found.",
+          "sources": [
+            "s21",
+            "s13"
+          ]
+        },
+        "q_bail": {
+          "position": 2,
+          "basis": "record",
+          "summary": "Voted for SJR 5 and SB 9 and highlights letting judges deny bail to violent offenders.",
+          "sources": [
+            "s10",
+            "s2"
+          ]
+        },
+        "q_cannabis": {
+          "position": -1,
+          "basis": "record",
+          "summary": "Voted for SB 3, which would have banned most hemp-derived THC products.",
+          "sources": [
+            "s12"
+          ]
+        },
+        "q_foreign_land": {
+          "position": 2,
+          "basis": "record",
+          "summary": "Voted for SB 17 and highlights restricting land ownership by foreign adversaries.",
+          "sources": [
+            "s9",
+            "s2"
+          ]
+        },
+        "q_fossil_priority": {
+          "position": 1,
+          "basis": "statement",
+          "summary": "Says he supported expanding nuclear power and natural gas as reliable energy sources.",
+          "sources": [
+            "s2"
+          ]
+        },
+        "q_election_fraud": {
+          "position": 2,
+          "basis": "record",
+          "summary": "Authored HB 5115 increasing the penalty for election fraud and filed a bill letting the attorney general prosecute election crimes.",
+          "sources": [
+            "s23",
+            "s4"
+          ]
+        },
+        "q_trans_minors": {
+          "position": 1,
+          "basis": "record",
+          "summary": "Voted for SB 14 in 2023.",
+          "sources": [
+            "s18"
+          ]
+        },
+        "q_gun_laws": {
+          "position": -1,
+          "basis": "record",
+          "summary": "Voted for SB 1362 barring extreme risk protective orders.",
+          "sources": [
+            "s14"
+          ]
+        },
+        "q_preemption": {
+          "position": 1,
+          "basis": "record",
+          "summary": "Voted for HB 2127 in 2023.",
+          "sources": [
+            "s19"
+          ]
+        },
+        "q_water": {
+          "position": 1,
+          "basis": "questionnaire",
+          "summary": "Says he would fund roads, water systems and the electric grid.",
+          "sources": [
+            "s1"
+          ]
+        }
+      },
+      "issue_notes": [
+        {
+          "topic": "Grid",
+          "summary": "Says he voted to create the Texas Grid Security Commission.",
+          "sources": [
+            "s2"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "s1",
+          "title": "Q&A: Meet the candidates running for Texas House of Representatives District 66",
+          "publisher": "Community Impact",
+          "url": "https://communityimpact.com/prosper-celina/election/q-a-meet-the-candidates-running-for-texas-house-of-representatives-district-66/",
+          "date": "2026-09-02"
+        },
+        {
+          "id": "s2",
+          "title": "Matt Shaheen campaign site",
+          "publisher": "Matt Shaheen Campaign",
+          "url": "https://www.mattshaheen.com",
+          "date": null
+        },
+        {
+          "id": "s3",
+          "title": "Rep. Shaheen, Matt: Biography",
+          "publisher": "Texas House of Representatives",
+          "url": "https://www.house.texas.gov/members/2995/biography",
+          "date": null
+        },
+        {
+          "id": "s4",
+          "title": "Matt Shaheen",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Matt_Shaheen",
+          "date": null
+        },
+        {
+          "id": "s5",
+          "title": "Bill History: SJR 37, 89th Legislature, Regular Session (voter citizenship amendment)",
+          "publisher": "Texas Legislature Online",
+          "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SJR37",
+          "date": null
+        },
+        {
+          "id": "s6",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 1st Day (Speaker election, Record 3)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY01FINAL.HTM",
+          "date": "2025-01-14"
+        },
+        {
+          "id": "s7",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 46th Day (SB 2 Record 300; HB 2 Record 303)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY46FINAL.HTM",
+          "date": "2025-04-17"
+        },
+        {
+          "id": "s8",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 49th Day (HB 1481, Record 470)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY49FINAL.HTM",
+          "date": "2025-04-24"
+        },
+        {
+          "id": "s9",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 60th Day (SB 17, Record 1881)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY60FINAL.HTM",
+          "date": "2025-05-09"
+        },
+        {
+          "id": "s10",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 67th Day (SJR 5, Record 2931)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY67FINAL.HTM",
+          "date": "2025-05-19"
+        },
+        {
+          "id": "s11",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 68th Day (SB 9, Record 3003)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY68FINAL.HTM",
+          "date": "2025-05-20"
+        },
+        {
+          "id": "s12",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 70th Day (SB 31 Record 3194; SB 33 Record 3195; SB 3 Record 3304)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY70FINAL.HTM",
+          "date": "2025-05-22"
+        },
+        {
+          "id": "s13",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 73rd Day (SB 8 Record 3502; SB 10 Record 3503; SB 12 Record 3506)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY73FINAL.HTM",
+          "date": "2025-05-25"
+        },
+        {
+          "id": "s14",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 76th Day (SB 1362 Record 3869; SB 7 Record 3922)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY76FINAL.HTM",
+          "date": "2025-05-28"
+        },
+        {
+          "id": "s15",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 77th Day (HB 2 concurrence, Record 4015)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY77FINAL.HTM",
+          "date": "2025-05-29"
+        },
+        {
+          "id": "s16",
+          "title": "Texas House Journal, 89th Legislature, Second Called Session, 10th Day (SB 8 Record 134; HB 7 Record 135)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/892/HTML/89C2DAY10FINAL.HTM",
+          "date": "2025-08-28"
+        },
+        {
+          "id": "s17",
+          "title": "Texas House Journal, 88th Legislature, Regular Session, 36th Day (HB 1 Amendment No. 45, Records 110 and 111)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/88R/HTML/88RDAY36FINAL.HTM",
+          "date": "2023-04-06"
+        },
+        {
+          "id": "s18",
+          "title": "Texas House Journal, 88th Legislature, Regular Session, 63rd Day (SB 14, Record 1688)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/88R/HTML/88RDAY63FINAL.HTM",
+          "date": "2023-05-15"
+        },
+        {
+          "id": "s19",
+          "title": "Texas House Journal, 88th Legislature, Regular Session, 67th Day (HB 2127 concurrence, Record 1882)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/88R/HTML/88RDAY67FINAL.HTM",
+          "date": "2023-05-19"
+        },
+        {
+          "id": "s20",
+          "title": "Texas House Journal, 88th Legislature, Regular Session, 73rd Day (HR 2377 impeachment, Record 2191)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/88R/HTML/88RDAY73FINAL.HTM",
+          "date": "2023-05-27"
+        },
+        {
+          "id": "s21",
+          "title": "Texas House Journal, 88th Legislature, Fourth Called Session, 5th Day (SB 3 Record 37; SB 4 Record 48)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/884/HTML/88C4DAY05FINAL.HTM",
+          "date": "2023-11-14"
+        },
+        {
+          "id": "s22",
+          "title": "Texas House Journal, 88th Legislature, Fourth Called Session, 5th Day continued (HB 1 Raney amendment, Record 56)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/884/HTML/88C4DAY05CFINAL.HTM",
+          "date": "2023-11-17"
+        },
+        {
+          "id": "s23",
+          "title": "Bills Authored / Joint Authored: Rep. Shaheen, 89th Legislature, Regular Session",
+          "publisher": "Texas Legislature Online",
+          "url": "https://capitol.texas.gov/reports/report.aspx?LegSess=89R&ID=author&Code=A2995",
+          "date": null
+        },
+        {
+          "id": "s24",
+          "title": "Bills Authored / Joint Authored: Rep. Shaheen, 88th Legislature, Regular Session",
+          "publisher": "Texas Legislature Online",
+          "url": "https://capitol.texas.gov/reports/report.aspx?LegSess=88R&ID=author&Code=A2995",
+          "date": null
+        },
+        {
+          "id": "s25",
+          "title": "Bills Authored / Joint Authored: Rep. Shaheen, 89th Legislature, Second Called Session",
+          "publisher": "Texas Legislature Online",
+          "url": "https://capitol.texas.gov/reports/report.aspx?LegSess=892&ID=author&Code=A2995",
+          "date": null
+        }
+      ],
+      "research_gaps": "His campaign site lists no endorsements, and no 2026 newspaper questionnaire beyond Community Impact was found."
+    },
+    {
+      "id": "sandeep-srivastava",
+      "race_id": "state-house-66",
+      "incumbent": false,
+      "current_role": "Real estate agent and small business owner",
+      "background": "Srivastava is an Indian-born naturalized U.S. citizen, a real estate agent and small business owner who lives in the Plano and Frisco area. He holds a business degree and a master's degree in systems management and has served on boards of several North Texas Indian American community organizations. He ran twice for U.S. House District 3 without winning.",
+      "website": "https://www.sandeepfortexas.com",
+      "priorities": [
+        {
+          "text": "Campaigns on access to quality public education and saving public schools.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Campaigns on affordable health care and better health insurance access.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Lists reproductive freedom as a top challenge.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Supports lower property taxes and investment in schools and infrastructure.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Says he is committed to making home and auto insurance more affordable.",
+          "sources": [
+            "s1"
+          ]
+        }
+      ],
+      "promises": [
+        {
+          "text": "Pledged to co-sponsor, vote for and defend a resolution seeking an Article V convention on congressional term limits.",
+          "sources": [
+            "s3"
+          ]
+        }
+      ],
+      "record": [],
+      "notes": [
+        {
+          "text": "Won the March 2026 Democratic nomination unopposed.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "In May 2026 a social media post mocking his English drew wide attention; his campaign condemned it and called on Rep. Shaheen to denounce the rhetoric. No statement from Shaheen was reported.",
+          "sources": [
+            "s4"
+          ]
+        }
+      ],
+      "stances": {
+        "q_vouchers": {
+          "position": -2,
+          "basis": "statement",
+          "summary": "Calls for repealing voucher legislation.",
+          "sources": [
+            "s3"
+          ]
+        },
+        "q_school_funding": {
+          "position": 2,
+          "basis": "statement",
+          "summary": "Calls for increasing public school funding and raising teacher pay.",
+          "sources": [
+            "s3"
+          ]
+        },
+        "q_medicaid": {
+          "position": 2,
+          "basis": "statement",
+          "summary": "Calls for expanding Medicaid and strengthening rural health care.",
+          "sources": [
+            "s3"
+          ]
+        },
+        "q_abortion": {
+          "position": 2,
+          "basis": "statement",
+          "summary": "Says medical decisions should be made by women and their doctors and lists reproductive freedom as a top challenge.",
+          "sources": [
+            "s3",
+            "s1"
+          ]
+        },
+        "q_border_state": {
+          "position": -2,
+          "basis": "statement",
+          "summary": "Calls for ending Operation Lone Star so law enforcement can focus on criminal investigations.",
+          "sources": [
+            "s3"
+          ]
+        }
+      },
+      "issue_notes": [
+        {
+          "topic": "Redistricting",
+          "summary": "Supports nonpartisan, census-based redistricting by an independent commission.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "topic": "Water and Grid",
+          "summary": "Calls for grid weatherization and storage, and water conservation and reuse requirements with standards for large industrial users.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "topic": "Property Taxes",
+          "summary": "Supports transparency in property tax rates, limits on steep increases and more local voter control.",
+          "sources": [
+            "s3"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "s1",
+          "title": "Q&A: Meet the candidates running for Texas House of Representatives District 66",
+          "publisher": "Community Impact",
+          "url": "https://communityimpact.com/prosper-celina/election/q-a-meet-the-candidates-running-for-texas-house-of-representatives-district-66/",
+          "date": "2026-09-02"
+        },
+        {
+          "id": "s2",
+          "title": "Sandeep Srivastava for Texas House District 66 (campaign site)",
+          "publisher": "Sandeep for Texas",
+          "url": "https://www.sandeepfortexas.com/",
+          "date": null
+        },
+        {
+          "id": "s3",
+          "title": "Sandeep Srivastava, Texas House District 66 candidate profile",
+          "publisher": "Branch Politics",
+          "url": "https://branch.vote/races/2026-texas-general-election-tx-state-state-representative-tx-state-house-66/candidates/sandeep-srivastava-1",
+          "date": null
+        },
+        {
+          "id": "s4",
+          "title": "Texas candidate Sandeep Srivastava faces online backlash over his accent in House race",
+          "publisher": "The American Bazaar",
+          "url": "https://americanbazaaronline.com/?p=481708",
+          "date": "2026-05-28"
+        }
+      ],
+      "research_gaps": "His campaign site's issues page could not be loaded, so most positions come from a third-party profile summarizing his materials."
+    },
+    {
+      "id": "jeff-leach",
+      "race_id": "state-house-67",
+      "incumbent": true,
+      "current_role": "State Representative, Texas House District 67, since January 2013; chair of the House Committee on Judiciary and Civil Jurisprudence",
+      "background": "Leach is an attorney at Gray Reed in Dallas focusing on commercial litigation, construction and real estate law. He grew up in Plano and holds degrees from Baylor University and SMU's Dedman School of Law. He is serving his seventh term and chairs the Judiciary and Civil Jurisprudence Committee, and also serves on Public Education and Calendars.",
+      "website": "https://www.jeffleach.com",
+      "priorities": [
+        {
+          "text": "Campaigns on property tax relief, citing the 2025 homestead exemption increases.",
+          "sources": [
+            "s3",
+            "s4"
+          ]
+        },
+        {
+          "text": "Campaigns on border security funding, including personnel, technology and barrier construction.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Campaigns on public education funding and teacher pay, citing HB 2.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Campaigns on protecting children, including keeping sexually explicit materials out of schools.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Campaigns on election security, including a constitutional amendment limiting voting to U.S. citizens.",
+          "sources": [
+            "s3"
+          ]
+        }
+      ],
+      "promises": [],
+      "record": [
+        {
+          "text": "Voted for Dustin Burrows in the January 2025 runoff vote for Speaker of the House.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Voted for SB 2 (2025 education savings accounts); in 2023 he voted against the budget amendment barring voucher spending and against the amendment removing education savings accounts from HB 1.",
+          "sources": [
+            "s10",
+            "s19",
+            "s24"
+          ]
+        },
+        {
+          "text": "Voted for HB 2 (2025 school finance); on the final concurrence vote he was recorded absent and entered a statement that he would have voted yes.",
+          "sources": [
+            "s10",
+            "s17"
+          ]
+        },
+        {
+          "text": "Authored HB 6 (2025), on school discipline management and student access to telehealth mental health services, which became law.",
+          "sources": [
+            "s25"
+          ]
+        },
+        {
+          "text": "House sponsor of SB 12 (2025), on parental rights and restrictions on diversity, equity and inclusion programs in public schools; it passed the House 88 to 47.",
+          "sources": [
+            "s8",
+            "s15"
+          ]
+        },
+        {
+          "text": "House joint sponsor of SB 10 (2025), requiring Ten Commandments displays in classrooms, and voted for it.",
+          "sources": [
+            "s7",
+            "s15"
+          ]
+        },
+        {
+          "text": "Primary author of HB 7 in the 2025 second special session, restricting the manufacture and provision of abortion-inducing drugs, which became law.",
+          "sources": [
+            "s26",
+            "s18"
+          ]
+        },
+        {
+          "text": "Voted for SB 3 (hemp-derived THC products), SB 17 (foreign adversary land), SB 8 (sheriff ICE agreements), SJR 5 and SB 9 (bail) and SB 1362 (extreme risk protective orders) in 2025.",
+          "sources": [
+            "s14",
+            "s11",
+            "s15",
+            "s12",
+            "s13",
+            "s16"
+          ]
+        },
+        {
+          "text": "Authored HB 4076 (2025), barring organ transplant discrimination based on vaccination status, which became law.",
+          "sources": [
+            "s25"
+          ]
+        },
+        {
+          "text": "In 2023 voted for SB 14 (ban on gender transition treatments for minors), HB 2127 (state preemption), SB 4 (state illegal entry offense) and SB 3 (border barrier funding).",
+          "sources": [
+            "s20",
+            "s21",
+            "s23"
+          ]
+        },
+        {
+          "text": "Voted to impeach Attorney General Ken Paxton in May 2023.",
+          "sources": [
+            "s22"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Won the March 2026 Republican primary with 64.27 percent over Matt Thorsen, according to unofficial results.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "After his 2023 impeachment vote, Paxton endorsed Leach's 2024 primary challenger Daren Meis; Leach won that primary with about 65 percent.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Endorsed by the Texas Association of Business PAC in October 2026.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "In 2020 Leach contacted Collin College's president about a professor's social media posts criticizing Vice President Mike Pence; the professor was dismissed days later, and the college offered her a settlement in 2022.",
+          "sources": [
+            "s6"
+          ]
+        }
+      ],
+      "stances": {
+        "q_vouchers": {
+          "position": 2,
+          "basis": "record",
+          "summary": "Voted for SB 2 and against 2023 amendments to block vouchers or education savings accounts; lists SB 2 on his track record.",
+          "sources": [
+            "s10",
+            "s24",
+            "s4"
+          ]
+        },
+        "q_school_funding": {
+          "position": 1,
+          "basis": "record",
+          "summary": "Voted for HB 2 and campaigns on its funding and teacher pay increases.",
+          "sources": [
+            "s10",
+            "s3"
+          ]
+        },
+        "q_ten_commandments": {
+          "position": 2,
+          "basis": "record",
+          "summary": "Was a House joint sponsor of SB 10 and voted for it.",
+          "sources": [
+            "s7",
+            "s15"
+          ]
+        },
+        "q_abortion": {
+          "position": -2,
+          "basis": "record",
+          "summary": "Authored the 2025 abortion-inducing drug law and cites the Heartbeat Bill and HB 1280 on his campaign site.",
+          "sources": [
+            "s26",
+            "s4"
+          ]
+        },
+        "q_border_state": {
+          "position": 2,
+          "basis": "statement",
+          "summary": "Supports state funding for border personnel, surveillance technology and barrier construction; voted for 2023 barrier funding.",
+          "sources": [
+            "s3",
+            "s23"
+          ]
+        },
+        "q_deportation": {
+          "position": 1,
+          "basis": "inferred",
+          "summary": "Voted for the 2023 state illegal entry offense and 2025 sheriff ICE agreements; no direct statement on deportation priorities was found.",
+          "sources": [
+            "s23",
+            "s15"
+          ]
+        },
+        "q_bail": {
+          "position": 2,
+          "basis": "record",
+          "summary": "Voted for SJR 5 and SB 9 and lists them on his track record.",
+          "sources": [
+            "s12",
+            "s4"
+          ]
+        },
+        "q_cannabis": {
+          "position": -1,
+          "basis": "record",
+          "summary": "Voted for SB 3, which would have banned most hemp-derived THC products.",
+          "sources": [
+            "s14"
+          ]
+        },
+        "q_foreign_land": {
+          "position": 1,
+          "basis": "record",
+          "summary": "Voted for SB 17 and cites blocking hostile foreign governments from buying land near military bases.",
+          "sources": [
+            "s11",
+            "s4"
+          ]
+        },
+        "q_trans_minors": {
+          "position": 2,
+          "basis": "record",
+          "summary": "Voted for SB 14 in 2023 and lists it on his track record.",
+          "sources": [
+            "s20",
+            "s4"
+          ]
+        },
+        "q_gun_laws": {
+          "position": -2,
+          "basis": "record",
+          "summary": "Co-authored permitless carry and Second Amendment sanctuary bills and voted for SB 1362.",
+          "sources": [
+            "s4",
+            "s16"
+          ]
+        },
+        "q_preemption": {
+          "position": 1,
+          "basis": "record",
+          "summary": "Voted for HB 2127 in 2023.",
+          "sources": [
+            "s21"
+          ]
+        },
+        "q_water": {
+          "position": 1,
+          "basis": "record",
+          "summary": "Voted for SB 7 (2025 water infrastructure) and cites it on his track record.",
+          "sources": [
+            "s16",
+            "s4"
+          ]
+        }
+      },
+      "issue_notes": [
+        {
+          "topic": "Courts",
+          "summary": "Cites SB 293 judicial pay raises and creation of 14 new district courts.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "topic": "Health Care",
+          "summary": "Supports requiring plans that cover gender transition care to also cover complications and detransition care.",
+          "sources": [
+            "s3"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "s1",
+          "title": "ROUNDUP: See updated election results for Texas House, Senate races in Collin County",
+          "publisher": "Community Impact",
+          "url": "https://communityimpact.com/dallas-fort-worth/mckinney/election/2026/03/03/roundup-see-updated-election-results-for-texas-house-senate-races-in-collin-county",
+          "date": "2026-03-04"
+        },
+        {
+          "id": "s2",
+          "title": "Jeff Leach campaign home page",
+          "publisher": "Jeff Leach Campaign",
+          "url": "https://www.jeffleach.com",
+          "date": null
+        },
+        {
+          "id": "s3",
+          "title": "Issues",
+          "publisher": "Jeff Leach Campaign",
+          "url": "https://jeffleach.com/issues/",
+          "date": null
+        },
+        {
+          "id": "s4",
+          "title": "Jeff's Track Record",
+          "publisher": "Jeff Leach Campaign",
+          "url": "https://jeffleach.com/jeffs-track-record/",
+          "date": null
+        },
+        {
+          "id": "s5",
+          "title": "Meet Jeff",
+          "publisher": "Jeff Leach Campaign",
+          "url": "https://jeffleach.com/meet-jeff/",
+          "date": null
+        },
+        {
+          "id": "s6",
+          "title": "Jeff Leach (politician)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jeff_Leach_(politician)",
+          "date": null
+        },
+        {
+          "id": "s7",
+          "title": "Bill History: SB 10, 89th Legislature, Regular Session (Ten Commandments displays)",
+          "publisher": "Texas Legislature Online",
+          "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB10",
+          "date": null
+        },
+        {
+          "id": "s8",
+          "title": "Bill History: SB 12, 89th Legislature, Regular Session (parental rights in public education)",
+          "publisher": "Texas Legislature Online",
+          "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB12",
+          "date": null
+        },
+        {
+          "id": "s9",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 1st Day (Speaker election, Record 3)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY01FINAL.HTM",
+          "date": "2025-01-14"
+        },
+        {
+          "id": "s10",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 46th Day (SB 2 Record 300; HB 2 Record 303)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY46FINAL.HTM",
+          "date": "2025-04-17"
+        },
+        {
+          "id": "s11",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 60th Day (SB 17, Record 1881)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY60FINAL.HTM",
+          "date": "2025-05-09"
+        },
+        {
+          "id": "s12",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 67th Day (SJR 5, Record 2931)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY67FINAL.HTM",
+          "date": "2025-05-19"
+        },
+        {
+          "id": "s13",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 68th Day (SB 9, Record 3003)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY68FINAL.HTM",
+          "date": "2025-05-20"
+        },
+        {
+          "id": "s14",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 70th Day (SB 31 Record 3194; SB 33 Record 3195; SB 3 Record 3304)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY70FINAL.HTM",
+          "date": "2025-05-22"
+        },
+        {
+          "id": "s15",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 73rd Day (SB 8 Record 3502; SB 10 Record 3503; SB 12 Record 3506)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY73FINAL.HTM",
+          "date": "2025-05-25"
+        },
+        {
+          "id": "s16",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 76th Day (SB 1362 Record 3869; SB 7 Record 3922)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY76FINAL.HTM",
+          "date": "2025-05-28"
+        },
+        {
+          "id": "s17",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 77th Day (HB 2 concurrence, Record 4015)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY77FINAL.HTM",
+          "date": "2025-05-29"
+        },
+        {
+          "id": "s18",
+          "title": "Texas House Journal, 89th Legislature, Second Called Session, 10th Day (SB 8 Record 134; HB 7 Record 135)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/892/HTML/89C2DAY10FINAL.HTM",
+          "date": "2025-08-28"
+        },
+        {
+          "id": "s19",
+          "title": "Texas House Journal, 88th Legislature, Regular Session, 36th Day (HB 1 Amendment No. 45, Records 110 and 111)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/88R/HTML/88RDAY36FINAL.HTM",
+          "date": "2023-04-06"
+        },
+        {
+          "id": "s20",
+          "title": "Texas House Journal, 88th Legislature, Regular Session, 63rd Day (SB 14, Record 1688)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/88R/HTML/88RDAY63FINAL.HTM",
+          "date": "2023-05-15"
+        },
+        {
+          "id": "s21",
+          "title": "Texas House Journal, 88th Legislature, Regular Session, 67th Day (HB 2127 concurrence, Record 1882)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/88R/HTML/88RDAY67FINAL.HTM",
+          "date": "2023-05-19"
+        },
+        {
+          "id": "s22",
+          "title": "Texas House Journal, 88th Legislature, Regular Session, 73rd Day (HR 2377 impeachment, Record 2191)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/88R/HTML/88RDAY73FINAL.HTM",
+          "date": "2023-05-27"
+        },
+        {
+          "id": "s23",
+          "title": "Texas House Journal, 88th Legislature, Fourth Called Session, 5th Day (SB 3 Record 37; SB 4 Record 48)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/884/HTML/88C4DAY05FINAL.HTM",
+          "date": "2023-11-14"
+        },
+        {
+          "id": "s24",
+          "title": "Texas House Journal, 88th Legislature, Fourth Called Session, 5th Day continued (HB 1 Raney amendment, Record 56)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/884/HTML/88C4DAY05CFINAL.HTM",
+          "date": "2023-11-17"
+        },
+        {
+          "id": "s25",
+          "title": "Bills Authored / Joint Authored: Rep. Leach, 89th Legislature, Regular Session",
+          "publisher": "Texas Legislature Online",
+          "url": "https://capitol.texas.gov/reports/report.aspx?LegSess=89R&ID=author&Code=A2475",
+          "date": null
+        },
+        {
+          "id": "s26",
+          "title": "Bills Authored / Joint Authored: Rep. Leach, 89th Legislature, Second Called Session",
+          "publisher": "Texas Legislature Online",
+          "url": "https://capitol.texas.gov/reports/report.aspx?LegSess=892&ID=author&Code=A2475",
+          "date": null
+        }
+      ],
+      "research_gaps": "No 2026 Community Impact or newspaper questionnaire for District 67 was found."
+    },
+    {
+      "id": "jordan-wheatley",
+      "race_id": "state-house-67",
+      "incumbent": false,
+      "current_role": "Public elementary school teacher and basketball coach in Dallas",
+      "background": "Wheatley is a fourth-grade public school teacher and basketball coach, and previously worked as a data analyst and behavioral health technician. He holds a bachelor's degree in exercise physiology from West Virginia University and a master's degree in neuroscience and cognition from the University of Texas at Dallas. He grew up in West Virginia as the son of a coal miner and a school bus driver. This is his first campaign for public office.",
+      "website": "https://www.jordan4texas.com",
+      "priorities": [
+        {
+          "text": "Campaigns against the state's voucher program and for more investment in classrooms, teachers and retirees.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Says he wants to lower utility bills and stop private equity from raising health care costs.",
+          "sources": [
+            "s3",
+            "s6"
+          ]
+        },
+        {
+          "text": "Says he opposes billion-dollar incentives for large corporations and favors investing in small businesses and families.",
+          "sources": [
+            "s3"
+          ]
+        }
+      ],
+      "promises": [],
+      "record": [],
+      "notes": [
+        {
+          "text": "Won the March 2026 Democratic primary with 57.41 percent over Emeka Eluka, according to unofficial results.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Endorsed by the Democratic Legislative Campaign Committee, Victory Fund, Run for Something, Planned Parenthood Texas Votes and Avow Texas, according to his campaign and the DLCC.",
+          "sources": [
+            "s4",
+            "s5"
+          ]
+        }
+      ],
+      "stances": {
+        "q_vouchers": {
+          "position": -2,
+          "basis": "statement",
+          "summary": "Calls the voucher program a scam that drains neighborhood public schools.",
+          "sources": [
+            "s3"
+          ]
+        },
+        "q_school_funding": {
+          "position": 1,
+          "basis": "statement",
+          "summary": "Says the state should invest in classrooms, teachers and retirees.",
+          "sources": [
+            "s3"
+          ]
+        },
+        "q_abortion": {
+          "position": 1,
+          "basis": "inferred",
+          "summary": "Endorsed by Planned Parenthood Texas Votes and Avow Texas; no direct statement on abortion law was found.",
+          "sources": [
+            "s4"
+          ]
+        }
+      },
+      "issue_notes": [],
+      "sources": [
+        {
+          "id": "s1",
+          "title": "ROUNDUP: See updated election results for Texas House, Senate races in Collin County",
+          "publisher": "Community Impact",
+          "url": "https://communityimpact.com/dallas-fort-worth/mckinney/election/2026/03/03/roundup-see-updated-election-results-for-texas-house-senate-races-in-collin-county",
+          "date": "2026-03-04"
+        },
+        {
+          "id": "s2",
+          "title": "Jordan Wheatley for Texas House District 67 (campaign home page)",
+          "publisher": "Jordan for Texas",
+          "url": "https://www.jordan4texas.com/",
+          "date": null
+        },
+        {
+          "id": "s3",
+          "title": "Jordan's Priorities",
+          "publisher": "Jordan for Texas",
+          "url": "https://www.jordan4texas.com/priorities",
+          "date": null
+        },
+        {
+          "id": "s4",
+          "title": "Endorsements",
+          "publisher": "Jordan for Texas",
+          "url": "https://www.jordan4texas.com/endorsements",
+          "date": null
+        },
+        {
+          "id": "s5",
+          "title": "Jordan Wheatley",
+          "publisher": "Democratic Legislative Campaign Committee",
+          "url": "https://www.dlcc.org/candidates/jordan-wheatley/",
+          "date": null
+        },
+        {
+          "id": "s6",
+          "title": "Jordan Wheatley, Texas House District 67 candidate profile",
+          "publisher": "Branch Politics",
+          "url": "https://branch.vote/races/2026-texas-general-election-tx-state-state-representative-tx-state-house-67/candidates/jordan-wheatley",
+          "date": null
+        }
+      ],
+      "research_gaps": "His campaign site lists priorities without detailed policy proposals, and no candidate questionnaire was found."
+    },
+    {
+      "id": "george-flint",
+      "race_id": "state-house-70",
+      "incumbent": false,
+      "current_role": "Trial and business lawyer; former judge of the 401st District Court in Collin County",
+      "background": "Flint has practiced law in Collin County for more than 40 years and served as the elected judge of the 401st District Court from January 2021 through December 2024. He is a former chairman of the Collin County Republican Party. He studied at MIT and Wake Forest and earned his law degree from SMU.",
+      "website": "https://www.texansforflint.com",
+      "priorities": [
+        {
+          "text": "Campaigns on eliminating property taxes for homeowners.",
+          "sources": [
+            "s1",
+            "s4"
+          ]
+        },
+        {
+          "text": "Lists energy and water supply for growth as top challenges and supports infrastructure development.",
+          "sources": [
+            "s1",
+            "s4"
+          ]
+        },
+        {
+          "text": "Lists affordability of housing, transportation and health care as top challenges.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Campaigns on supporting law enforcement and border security.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Campaigns on banning taxpayer-funded lobbying and increasing government transparency.",
+          "sources": [
+            "s4"
+          ]
+        }
+      ],
+      "promises": [
+        {
+          "text": "Proposes full state funding per student to allow the elimination of homeowner property taxes.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Says he will push to ban cities, counties and school districts from paying lobbyists.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Supports requiring baseload generation standards for grid reliability.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Supports expanding education savings accounts to all Texas families.",
+          "sources": [
+            "s4"
+          ]
+        }
+      ],
+      "record": [
+        {
+          "text": "Served as judge of the 401st District Court, an elected state district court in Collin County, from 2021 through 2024.",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Won the March 2026 Republican primary with 56.82 percent over Michael Hewitt and Jack Ryan Gallagher, according to unofficial results.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Endorsed by Collin County Judge Chris Hill, state Reps. Mitch Little, Keresa Richardson and David Lowe, and former Republican Party of Texas chairman Allen West, according to his campaign.",
+          "sources": [
+            "s6"
+          ]
+        }
+      ],
+      "stances": {
+        "q_prop_tax_eliminate": {
+          "position": 2,
+          "basis": "questionnaire",
+          "summary": "Supports eliminating property taxes for homeowners through full state funding per student and alternative revenue.",
+          "sources": [
+            "s1",
+            "s4"
+          ]
+        },
+        "q_vouchers": {
+          "position": 2,
+          "basis": "statement",
+          "summary": "Supports expanding education savings accounts for all Texas families.",
+          "sources": [
+            "s4"
+          ]
+        },
+        "q_border_state": {
+          "position": 2,
+          "basis": "statement",
+          "summary": "Supports Operation Lone Star and state border security funding.",
+          "sources": [
+            "s4"
+          ]
+        },
+        "q_fossil_priority": {
+          "position": 2,
+          "basis": "statement",
+          "summary": "Supports baseload generation standards and prioritizing natural gas, nuclear and other dispatchable sources.",
+          "sources": [
+            "s4"
+          ]
+        },
+        "q_water": {
+          "position": 1,
+          "basis": "statement",
+          "summary": "Supports investing in water infrastructure for a growing North Texas.",
+          "sources": [
+            "s4",
+            "s1"
+          ]
+        },
+        "q_abortion": {
+          "position": -2,
+          "basis": "statement",
+          "summary": "Describes himself as pro-life and says life begins at conception.",
+          "sources": [
+            "s4"
+          ]
+        },
+        "q_gun_laws": {
+          "position": -2,
+          "basis": "statement",
+          "summary": "Says he will protect Second Amendment rights without compromise.",
+          "sources": [
+            "s4"
+          ]
+        }
+      },
+      "issue_notes": [
+        {
+          "topic": "Data Centers",
+          "summary": "Says data centers should fit local zoning, have adequate water and energy or supply their own, and control noise and visual impact.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "topic": "Health Care",
+          "summary": "Supports price transparency, expanded scope of practice for nurse practitioners and physician assistants, and direct primary care.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "topic": "Public Safety",
+          "summary": "Supports expanding qualified immunity protections for officers.",
+          "sources": [
+            "s4"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "s1",
+          "title": "Q&A: Meet the candidates running for Texas House District 70",
+          "publisher": "Community Impact",
+          "url": "https://communityimpact.com/plano/election/qa-meet-the-candidates-running-for-texas-house-district-70/",
+          "date": "2026-08-31"
+        },
+        {
+          "id": "s2",
+          "title": "ROUNDUP: See updated election results for Texas House, Senate races in Collin County",
+          "publisher": "Community Impact",
+          "url": "https://communityimpact.com/dallas-fort-worth/mckinney/election/2026/03/03/roundup-see-updated-election-results-for-texas-house-senate-races-in-collin-county",
+          "date": "2026-03-04"
+        },
+        {
+          "id": "s3",
+          "title": "George Flint for HD 70 (campaign home page)",
+          "publisher": "Texans for Flint",
+          "url": "https://www.texansforflint.com",
+          "date": null
+        },
+        {
+          "id": "s4",
+          "title": "Where George Stands",
+          "publisher": "Texans for Flint",
+          "url": "https://www.texansforflint.com/issues/",
+          "date": null
+        },
+        {
+          "id": "s5",
+          "title": "About George",
+          "publisher": "Texans for Flint",
+          "url": "https://www.texansforflint.com/about/",
+          "date": null
+        },
+        {
+          "id": "s6",
+          "title": "Endorsements",
+          "publisher": "Texans for Flint",
+          "url": "https://www.texansforflint.com/endorsements/",
+          "date": null
+        }
+      ],
+      "research_gaps": "No reporting on notable rulings from his time on the 401st District Court or on why his judicial service ended was found."
+    },
+    {
+      "id": "mihaela-elizabeth-plesa",
+      "race_id": "state-house-70",
+      "incumbent": true,
+      "current_role": "State Representative, Texas House District 70, since January 2023; vice chair of the House Democratic Caucus",
+      "background": "Plesa owned a small fashion merchandising and design business and later worked as a legislative director for state Rep. Ray Lopez. She graduated from Newman Smith High School and holds degrees from the University of North Texas and SMU. She won the seat in 2022 by 859 votes and was reelected in 2024. She is vice chair of the Pensions, Investments and Financial Services Committee and serves on the Elections Committee.",
+      "website": "https://www.plesafortexas.com",
+      "priorities": [
+        {
+          "text": "Campaigns on fully funding public schools, reforming recapture and raising teacher pay.",
+          "sources": [
+            "s1",
+            "s4"
+          ]
+        },
+        {
+          "text": "Says property tax relief should not leave renters behind and wants lower homeowners insurance costs.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Campaigns on improving disability services, especially for children waiting for support.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Supports investment in water, transportation and the electric grid.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Campaigns on expanding affordable health care and mental health resources.",
+          "sources": [
+            "s4"
+          ]
+        }
+      ],
+      "promises": [
+        {
+          "text": "Says she will require transparency on water, electricity, infrastructure demands and tax incentives for data centers and other large projects.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Says she will continue working to reduce recapture payments so more local tax dollars stay in Collin County schools.",
+          "sources": [
+            "s4",
+            "s5"
+          ]
+        }
+      ],
+      "record": [
+        {
+          "text": "Voted for Dustin Burrows in the January 2025 runoff vote for Speaker of the House.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Voted against SB 2 (2025 education savings accounts); in 2023 she voted for the budget amendment barring voucher spending and for the amendment removing education savings accounts from HB 1.",
+          "sources": [
+            "s10",
+            "s21",
+            "s26"
+          ]
+        },
+        {
+          "text": "Voted for HB 2 (2025 school finance), including the final Senate version, and for the 2026-2027 state budget.",
+          "sources": [
+            "s10",
+            "s17",
+            "s9"
+          ]
+        },
+        {
+          "text": "Voted against SB 10 (Ten Commandments), SB 3 (hemp-derived THC products), SB 17 (foreign adversary land), SB 8 (sheriff ICE agreements) and SB 33 in 2025.",
+          "sources": [
+            "s15",
+            "s14",
+            "s11"
+          ]
+        },
+        {
+          "text": "Voted for SJR 5 and SB 9 on bail in 2025, and for SB 31 clarifying medical exceptions to the abortion ban.",
+          "sources": [
+            "s12",
+            "s13",
+            "s14"
+          ]
+        },
+        {
+          "text": "Voted against SB 1362 (2025), which prohibits enforcement of extreme risk protective orders.",
+          "sources": [
+            "s16"
+          ]
+        },
+        {
+          "text": "Was recorded absent on the August 5, 2025 roll call at which the House lacked a quorum, during the Democratic walkout over congressional redistricting; she later voted against HB 4 (redistricting), HB 7 and SB 8 in the second special session.",
+          "sources": [
+            "s18",
+            "s19",
+            "s20"
+          ]
+        },
+        {
+          "text": "Authored HB 37 (2025) creating a perinatal bereavement care initiative and HB 108 (2025) increasing penalties for using body armor in certain offenses, both now law.",
+          "sources": [
+            "s27"
+          ]
+        },
+        {
+          "text": "Authored HB 2899 (2023) on vehicle impoundment for street racing and HB 1275 (2023) on ID certificates for seniors who surrender driver's licenses, both now law.",
+          "sources": [
+            "s28"
+          ]
+        },
+        {
+          "text": "In 2023 voted against SB 14 (ban on gender transition treatments for minors), HB 2127 (state preemption), SB 4 (state illegal entry offense) and SB 3 (border barrier funding).",
+          "sources": [
+            "s22",
+            "s23",
+            "s25"
+          ]
+        },
+        {
+          "text": "Voted to impeach Attorney General Ken Paxton in May 2023.",
+          "sources": [
+            "s24"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Ran unopposed in the March 2026 Democratic primary.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Says she was named Freshman of the Year by the Texas Legislative Study Group and Legislator of the Year by ATPE Region 10, and is rated 100 percent by the Texas AFL-CIO.",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
+      "stances": {
+        "q_vouchers": {
+          "position": -2,
+          "basis": "record",
+          "summary": "Voted against SB 2 and for 2023 amendments blocking vouchers and education savings accounts.",
+          "sources": [
+            "s10",
+            "s21",
+            "s26"
+          ]
+        },
+        "q_school_funding": {
+          "position": 2,
+          "basis": "questionnaire",
+          "summary": "Calls for fully funding public schools and raising teacher pay; voted for HB 2.",
+          "sources": [
+            "s1",
+            "s10"
+          ]
+        },
+        "q_ten_commandments": {
+          "position": -1,
+          "basis": "record",
+          "summary": "Voted against SB 10.",
+          "sources": [
+            "s15"
+          ]
+        },
+        "q_abortion": {
+          "position": 1,
+          "basis": "record",
+          "summary": "Voted against SB 33 and HB 7 and says she supports policies that protect reproductive health care.",
+          "sources": [
+            "s14",
+            "s20",
+            "s4"
+          ]
+        },
+        "q_border_state": {
+          "position": 0,
+          "basis": "record",
+          "summary": "Voted against 2023 border barrier funding but for the 2025 budget, and her campaign says she supports a secure border.",
+          "sources": [
+            "s25",
+            "s9",
+            "s4"
+          ]
+        },
+        "q_deportation": {
+          "position": -1,
+          "basis": "inferred",
+          "summary": "Voted against the 2023 state illegal entry offense and 2025 sheriff ICE agreements; no direct statement on deportation was found.",
+          "sources": [
+            "s25",
+            "s15"
+          ]
+        },
+        "q_bail": {
+          "position": 1,
+          "basis": "record",
+          "summary": "Voted for SJR 5 and SB 9 in 2025.",
+          "sources": [
+            "s12",
+            "s13"
+          ]
+        },
+        "q_cannabis": {
+          "position": 1,
+          "basis": "record",
+          "summary": "Voted against SB 3, which would have banned most hemp-derived THC products.",
+          "sources": [
+            "s14"
+          ]
+        },
+        "q_foreign_land": {
+          "position": -1,
+          "basis": "record",
+          "summary": "Voted against SB 17.",
+          "sources": [
+            "s11"
+          ]
+        },
+        "q_trans_minors": {
+          "position": -1,
+          "basis": "record",
+          "summary": "Voted against SB 14 in 2023.",
+          "sources": [
+            "s22"
+          ]
+        },
+        "q_gun_laws": {
+          "position": 1,
+          "basis": "record",
+          "summary": "Voted against SB 1362 barring extreme risk protective orders; her campaign cites work on responsible gun control.",
+          "sources": [
+            "s16",
+            "s5"
+          ]
+        },
+        "q_preemption": {
+          "position": -1,
+          "basis": "record",
+          "summary": "Voted against HB 2127 in 2023.",
+          "sources": [
+            "s23"
+          ]
+        },
+        "q_water": {
+          "position": 1,
+          "basis": "questionnaire",
+          "summary": "Supports investing in water infrastructure.",
+          "sources": [
+            "s1"
+          ]
+        }
+      },
+      "issue_notes": [
+        {
+          "topic": "Early Childhood",
+          "summary": "Says she secured $8.6 million for Early Childhood Intervention and $5 million for perinatal bereavement care.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "topic": "Renters",
+          "summary": "Says renters need meaningful relief alongside homeowners.",
+          "sources": [
+            "s1"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "s1",
+          "title": "Q&A: Meet the candidates running for Texas House District 70",
+          "publisher": "Community Impact",
+          "url": "https://communityimpact.com/plano/election/qa-meet-the-candidates-running-for-texas-house-district-70/",
+          "date": "2026-08-31"
+        },
+        {
+          "id": "s2",
+          "title": "ROUNDUP: See updated election results for Texas House, Senate races in Collin County",
+          "publisher": "Community Impact",
+          "url": "https://communityimpact.com/dallas-fort-worth/mckinney/election/2026/03/03/roundup-see-updated-election-results-for-texas-house-senate-races-in-collin-county",
+          "date": "2026-03-04"
+        },
+        {
+          "id": "s3",
+          "title": "Mihaela Plesa campaign home page",
+          "publisher": "Plesa for Texas",
+          "url": "https://www.plesafortexas.com/",
+          "date": null
+        },
+        {
+          "id": "s4",
+          "title": "Mihaela Plesa on the Issues",
+          "publisher": "Plesa for Texas",
+          "url": "https://plesafortexas.com/issues/",
+          "date": null
+        },
+        {
+          "id": "s5",
+          "title": "Meet Mihaela Plesa",
+          "publisher": "Plesa for Texas",
+          "url": "https://plesafortexas.com/meet-mihaela/",
+          "date": null
+        },
+        {
+          "id": "s6",
+          "title": "Rep. Plesa, Mihaela: Biography",
+          "publisher": "Texas House of Representatives",
+          "url": "https://house.texas.gov/members/4345/biography",
+          "date": null
+        },
+        {
+          "id": "s7",
+          "title": "Mihaela Plesa",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Mihaela_Plesa",
+          "date": null
+        },
+        {
+          "id": "s8",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 1st Day (Speaker election, Record 3)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY01FINAL.HTM",
+          "date": "2025-01-14"
+        },
+        {
+          "id": "s9",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 42nd Day (SB 1 budget, Record 154)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY42FINAL.HTM",
+          "date": "2025-04-11"
+        },
+        {
+          "id": "s10",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 46th Day (SB 2 Record 300; HB 2 Record 303)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY46FINAL.HTM",
+          "date": "2025-04-17"
+        },
+        {
+          "id": "s11",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 60th Day (SB 17, Record 1881)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY60FINAL.HTM",
+          "date": "2025-05-09"
+        },
+        {
+          "id": "s12",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 67th Day (SJR 5, Record 2931)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY67FINAL.HTM",
+          "date": "2025-05-19"
+        },
+        {
+          "id": "s13",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 68th Day (SB 9, Record 3003)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY68FINAL.HTM",
+          "date": "2025-05-20"
+        },
+        {
+          "id": "s14",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 70th Day (SB 31 Record 3194; SB 33 Record 3195; SB 3 Record 3304)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY70FINAL.HTM",
+          "date": "2025-05-22"
+        },
+        {
+          "id": "s15",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 73rd Day (SB 8 Record 3502; SB 10 Record 3503; SB 12 Record 3506)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY73FINAL.HTM",
+          "date": "2025-05-25"
+        },
+        {
+          "id": "s16",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 76th Day (SB 1362 Record 3869; SB 7 Record 3922)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY76FINAL.HTM",
+          "date": "2025-05-28"
+        },
+        {
+          "id": "s17",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 77th Day (HB 2 concurrence, Record 4015)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY77FINAL.HTM",
+          "date": "2025-05-29"
+        },
+        {
+          "id": "s18",
+          "title": "Texas House Journal, 89th Legislature, First Called Session, 6th Day (quorum roll call, Record 9)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/891/HTML/89C1DAY06FINAL.HTM",
+          "date": "2025-08-05"
+        },
+        {
+          "id": "s19",
+          "title": "Texas House Journal, 89th Legislature, Second Called Session, 5th Day (HB 4, Record 30)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/892/HTML/89C2DAY05FINAL.HTM",
+          "date": "2025-08-20"
+        },
+        {
+          "id": "s20",
+          "title": "Texas House Journal, 89th Legislature, Second Called Session, 10th Day (SB 8 Record 134; HB 7 Record 135)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/892/HTML/89C2DAY10FINAL.HTM",
+          "date": "2025-08-28"
+        },
+        {
+          "id": "s21",
+          "title": "Texas House Journal, 88th Legislature, Regular Session, 36th Day (HB 1 Amendment No. 45, Records 110 and 111)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/88R/HTML/88RDAY36FINAL.HTM",
+          "date": "2023-04-06"
+        },
+        {
+          "id": "s22",
+          "title": "Texas House Journal, 88th Legislature, Regular Session, 63rd Day (SB 14, Record 1688)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/88R/HTML/88RDAY63FINAL.HTM",
+          "date": "2023-05-15"
+        },
+        {
+          "id": "s23",
+          "title": "Texas House Journal, 88th Legislature, Regular Session, 67th Day (HB 2127 concurrence, Record 1882)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/88R/HTML/88RDAY67FINAL.HTM",
+          "date": "2023-05-19"
+        },
+        {
+          "id": "s24",
+          "title": "Texas House Journal, 88th Legislature, Regular Session, 73rd Day (HR 2377 impeachment, Record 2191)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/88R/HTML/88RDAY73FINAL.HTM",
+          "date": "2023-05-27"
+        },
+        {
+          "id": "s25",
+          "title": "Texas House Journal, 88th Legislature, Fourth Called Session, 5th Day (SB 3 Record 37; SB 4 Record 48)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/884/HTML/88C4DAY05FINAL.HTM",
+          "date": "2023-11-14"
+        },
+        {
+          "id": "s26",
+          "title": "Texas House Journal, 88th Legislature, Fourth Called Session, 5th Day continued (HB 1 Raney amendment, Record 56)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/884/HTML/88C4DAY05CFINAL.HTM",
+          "date": "2023-11-17"
+        },
+        {
+          "id": "s27",
+          "title": "Bills Authored / Joint Authored: Rep. Plesa, 89th Legislature, Regular Session",
+          "publisher": "Texas Legislature Online",
+          "url": "https://capitol.texas.gov/reports/report.aspx?LegSess=89R&ID=author&Code=A4345",
+          "date": null
+        },
+        {
+          "id": "s28",
+          "title": "Bills Authored / Joint Authored: Rep. Plesa, 88th Legislature, Regular Session",
+          "publisher": "Texas Legislature Online",
+          "url": "https://capitol.texas.gov/reports/report.aspx?LegSess=88R&ID=author&Code=A4345",
+          "date": null
+        }
+      ],
+      "research_gaps": "Her campaign endorsements page listed no names when reviewed."
+    },
+    {
+      "id": "candy-noble",
+      "race_id": "state-house-89",
+      "incumbent": true,
+      "current_role": "State Representative, Texas House District 89, since January 2019",
+      "background": "Noble is a former teacher and small family business owner with an education degree from Hardin-Simmons University. She has lived in Collin County for more than 30 years and lives in Lucas. She serves on the Human Services and Ways and Means committees and is president of the Texas Conservative Coalition. She previously served on the Texas Juvenile Justice Board.",
+      "website": "http://www.votecandynoble.com",
+      "priorities": [
+        {
+          "text": "Campaigns on using excess state revenue to buy down and eliminate the school maintenance and operations property tax.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Lists traffic from rapid growth and road capacity as a top challenge.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Lists protecting children and the elderly from predators as a top priority.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Says she will address flooding, power, water and road infrastructure.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Campaigns on limited government, public safety and business growth.",
+          "sources": [
+            "s1"
+          ]
+        }
+      ],
+      "promises": [
+        {
+          "text": "Says she is seeking transportation funding for the district's roads.",
+          "sources": [
+            "s1"
+          ]
+        }
+      ],
+      "record": [
+        {
+          "text": "Voted for David Cook over Dustin Burrows in the January 2025 runoff vote for Speaker of the House.",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Voted for SB 2 (2025 education savings accounts); in 2023 she voted against the budget amendment barring voucher spending and against the amendment removing education savings accounts from HB 1.",
+          "sources": [
+            "s11",
+            "s22",
+            "s27"
+          ]
+        },
+        {
+          "text": "Voted for HB 2 (2025 school finance), including the final Senate version.",
+          "sources": [
+            "s11",
+            "s18"
+          ]
+        },
+        {
+          "text": "Primary House sponsor of SB 10 (2025), requiring Ten Commandments displays in public school classrooms, which passed the House 82 to 46.",
+          "sources": [
+            "s7",
+            "s16"
+          ]
+        },
+        {
+          "text": "Primary House sponsor of SJR 37 (2025), the constitutional amendment stating that voters must be U.S. citizens, and of SB 33 (2025) on local government support for abortion travel.",
+          "sources": [
+            "s8",
+            "s9"
+          ]
+        },
+        {
+          "text": "Authored HB 22 (2025), exempting intangible personal property from property taxation, and HB 4211 (2025) on residential property interests controlled by certain entities, which her campaign describes as a response to the proposed EPIC City development; both became law.",
+          "sources": [
+            "s28",
+            "s3"
+          ]
+        },
+        {
+          "text": "Voted for SB 3 (hemp-derived THC products) in 2025, and cast the only no vote on the final HB 46 conference report expanding medical low-THC cannabis, which passed 138 to 1.",
+          "sources": [
+            "s15",
+            "s19"
+          ]
+        },
+        {
+          "text": "Voted for SJR 5 and SB 9 (bail), SB 17 (foreign adversary land), SB 8 (sheriff ICE agreements) and SB 1362 (extreme risk protective orders) in 2025.",
+          "sources": [
+            "s13",
+            "s14",
+            "s12",
+            "s16",
+            "s17"
+          ]
+        },
+        {
+          "text": "Was excused for a family medical emergency during several August 2025 special session votes and entered statements that she would have voted for SB 8, HB 7 and SB 10.",
+          "sources": [
+            "s20",
+            "s21"
+          ]
+        },
+        {
+          "text": "In 2023 voted for SB 14 (ban on gender transition treatments for minors), HB 2127 (state preemption), SB 4 (state illegal entry offense) and SB 3 (border barrier funding).",
+          "sources": [
+            "s23",
+            "s24",
+            "s26"
+          ]
+        },
+        {
+          "text": "Voted to impeach Attorney General Ken Paxton in May 2023.",
+          "sources": [
+            "s25"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Won the March 2026 Republican primary with 52.75 percent over Jeff Forrester and Freddie America, according to unofficial results.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Endorsed by Greg Abbott and Donald Trump; her 2026 primary opponent criticized her Paxton impeachment vote and cited an F rating from Texans for Fiscal Responsibility.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Endorsed by Texas Right to Life, Texas Alliance for Life, the Texas State Rifle Association and the NFIB, according to her campaign.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Won the 2024 Republican primary by about 5 points over Abraham George, a former Collin County GOP chairman.",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
+      "stances": {
+        "q_prop_tax_eliminate": {
+          "position": 2,
+          "basis": "questionnaire",
+          "summary": "Wants to use excess state revenue to buy down and quickly eliminate the school M&O property tax.",
+          "sources": [
+            "s1"
+          ]
+        },
+        "q_vouchers": {
+          "position": 2,
+          "basis": "record",
+          "summary": "Voted for SB 2 and against 2023 amendments blocking vouchers; campaigns on passing school choice.",
+          "sources": [
+            "s11",
+            "s27",
+            "s3"
+          ]
+        },
+        "q_school_funding": {
+          "position": 1,
+          "basis": "record",
+          "summary": "Voted for HB 2 and campaigns on its $8.5 billion in new funding and teacher pay raises.",
+          "sources": [
+            "s11",
+            "s3"
+          ]
+        },
+        "q_ten_commandments": {
+          "position": 2,
+          "basis": "record",
+          "summary": "Was the primary House sponsor of SB 10.",
+          "sources": [
+            "s7",
+            "s16"
+          ]
+        },
+        "q_abortion": {
+          "position": -2,
+          "basis": "record",
+          "summary": "Sponsored SB 33 and is endorsed by Texas Right to Life and Texas Alliance for Life.",
+          "sources": [
+            "s9",
+            "s3"
+          ]
+        },
+        "q_border_state": {
+          "position": 2,
+          "basis": "statement",
+          "summary": "Says she fought to secure over $6 billion in border security funding; voted for 2023 barrier funding.",
+          "sources": [
+            "s3",
+            "s26"
+          ]
+        },
+        "q_deportation": {
+          "position": 1,
+          "basis": "inferred",
+          "summary": "Voted for the 2023 state illegal entry offense and says she supports deporting criminal illegal immigrants; no statement on those without criminal records was found.",
+          "sources": [
+            "s26",
+            "s3"
+          ]
+        },
+        "q_bail": {
+          "position": 1,
+          "basis": "record",
+          "summary": "Voted for SJR 5 and SB 9 in 2025.",
+          "sources": [
+            "s13",
+            "s14"
+          ]
+        },
+        "q_cannabis": {
+          "position": -2,
+          "basis": "record",
+          "summary": "Voted for SB 3 and was the only no vote on the final HB 46 medical cannabis expansion.",
+          "sources": [
+            "s15",
+            "s19"
+          ]
+        },
+        "q_foreign_land": {
+          "position": 2,
+          "basis": "record",
+          "summary": "Voted for SB 17 and highlights banning hostile nations from buying Texas land.",
+          "sources": [
+            "s12",
+            "s3"
+          ]
+        },
+        "q_trans_minors": {
+          "position": 2,
+          "basis": "record",
+          "summary": "Voted for SB 14 in 2023 and highlights it on her campaign site.",
+          "sources": [
+            "s23",
+            "s3"
+          ]
+        },
+        "q_gun_laws": {
+          "position": -2,
+          "basis": "record",
+          "summary": "Voted for SB 1362 and is endorsed by the Texas State Rifle Association.",
+          "sources": [
+            "s17",
+            "s3"
+          ]
+        },
+        "q_preemption": {
+          "position": 1,
+          "basis": "record",
+          "summary": "Voted for HB 2127 in 2023.",
+          "sources": [
+            "s24"
+          ]
+        },
+        "q_water": {
+          "position": 1,
+          "basis": "questionnaire",
+          "summary": "Says she plans to address power and water infrastructure.",
+          "sources": [
+            "s1"
+          ]
+        }
+      },
+      "issue_notes": [
+        {
+          "topic": "Transportation",
+          "summary": "Says thousands of homes have been built along small two-lane roads and she is seeking state transportation funding.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "topic": "Medicaid Fraud",
+          "summary": "Cites HB 142 strengthening the HHSC inspector general's ability to recover Medicaid overpayments.",
+          "sources": [
+            "s28",
+            "s3"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "s1",
+          "title": "Q&A: Meet the candidates in the race for Texas House District 89 seat",
+          "publisher": "Community Impact",
+          "url": "https://communityimpact.com/allen/election/qa-meet-the-candidates-in-the-race-for-texas-house-district-89-seat/",
+          "date": "2026-08-20"
+        },
+        {
+          "id": "s2",
+          "title": "ROUNDUP: See updated election results for Texas House, Senate races in Collin County",
+          "publisher": "Community Impact",
+          "url": "https://communityimpact.com/dallas-fort-worth/mckinney/election/2026/03/03/roundup-see-updated-election-results-for-texas-house-senate-races-in-collin-county",
+          "date": "2026-03-04"
+        },
+        {
+          "id": "s3",
+          "title": "Candy Noble, Republican State Representative (campaign site)",
+          "publisher": "Candy Noble Campaign",
+          "url": "http://www.votecandynoble.com",
+          "date": null
+        },
+        {
+          "id": "s4",
+          "title": "Rep. Noble, Candy: Biography",
+          "publisher": "Texas House of Representatives",
+          "url": "https://house.texas.gov/members/3740/biography",
+          "date": null
+        },
+        {
+          "id": "s5",
+          "title": "Candy Noble",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Candy_Noble",
+          "date": null
+        },
+        {
+          "id": "s6",
+          "title": "Candy Noble seeks re-election, faces GOP challenger Jeff Forrester",
+          "publisher": "Murphy Monitor",
+          "url": "https://murphymonitor.com/2025/07/24/candy-noble-seeks-re-election-faces-gop-challenger-jeff-forrester/",
+          "date": "2025-07-24"
+        },
+        {
+          "id": "s7",
+          "title": "Bill History: SB 10, 89th Legislature, Regular Session (Ten Commandments displays)",
+          "publisher": "Texas Legislature Online",
+          "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB10",
+          "date": null
+        },
+        {
+          "id": "s8",
+          "title": "Bill History: SJR 37, 89th Legislature, Regular Session (voter citizenship amendment)",
+          "publisher": "Texas Legislature Online",
+          "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SJR37",
+          "date": null
+        },
+        {
+          "id": "s9",
+          "title": "Bill History: SB 33, 89th Legislature, Regular Session",
+          "publisher": "Texas Legislature Online",
+          "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB33",
+          "date": null
+        },
+        {
+          "id": "s10",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 1st Day (Speaker election, Record 3)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY01FINAL.HTM",
+          "date": "2025-01-14"
+        },
+        {
+          "id": "s11",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 46th Day (SB 2 Record 300; HB 2 Record 303)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY46FINAL.HTM",
+          "date": "2025-04-17"
+        },
+        {
+          "id": "s12",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 60th Day (SB 17, Record 1881)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY60FINAL.HTM",
+          "date": "2025-05-09"
+        },
+        {
+          "id": "s13",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 67th Day (SJR 5, Record 2931)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY67FINAL.HTM",
+          "date": "2025-05-19"
+        },
+        {
+          "id": "s14",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 68th Day (SB 9, Record 3003)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY68FINAL.HTM",
+          "date": "2025-05-20"
+        },
+        {
+          "id": "s15",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 70th Day (SB 31 Record 3194; SB 33 Record 3195; SB 3 Record 3304)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY70FINAL.HTM",
+          "date": "2025-05-22"
+        },
+        {
+          "id": "s16",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 73rd Day (SB 8 Record 3502; SB 10 Record 3503; SB 12 Record 3506)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY73FINAL.HTM",
+          "date": "2025-05-25"
+        },
+        {
+          "id": "s17",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 76th Day (SB 1362 Record 3869; SB 7 Record 3922)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY76FINAL.HTM",
+          "date": "2025-05-28"
+        },
+        {
+          "id": "s18",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 77th Day (HB 2 concurrence, Record 4015)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY77FINAL.HTM",
+          "date": "2025-05-29"
+        },
+        {
+          "id": "s19",
+          "title": "Texas House Journal, 89th Legislature, Regular Session, 80th Day (HB 46 conference report, Record 4163)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY80FINAL.HTM",
+          "date": "2025-06-01"
+        },
+        {
+          "id": "s20",
+          "title": "Texas House Journal, 89th Legislature, Second Called Session, 7th Day (SB 10, Record 64)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/892/HTML/89C2DAY07FINAL.HTM",
+          "date": "2025-08-25"
+        },
+        {
+          "id": "s21",
+          "title": "Texas House Journal, 89th Legislature, Second Called Session, 10th Day (SB 8 Record 134; HB 7 Record 135)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/892/HTML/89C2DAY10FINAL.HTM",
+          "date": "2025-08-28"
+        },
+        {
+          "id": "s22",
+          "title": "Texas House Journal, 88th Legislature, Regular Session, 36th Day (HB 1 Amendment No. 45, Records 110 and 111)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/88R/HTML/88RDAY36FINAL.HTM",
+          "date": "2023-04-06"
+        },
+        {
+          "id": "s23",
+          "title": "Texas House Journal, 88th Legislature, Regular Session, 63rd Day (SB 14, Record 1688)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/88R/HTML/88RDAY63FINAL.HTM",
+          "date": "2023-05-15"
+        },
+        {
+          "id": "s24",
+          "title": "Texas House Journal, 88th Legislature, Regular Session, 67th Day (HB 2127 concurrence, Record 1882)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/88R/HTML/88RDAY67FINAL.HTM",
+          "date": "2023-05-19"
+        },
+        {
+          "id": "s25",
+          "title": "Texas House Journal, 88th Legislature, Regular Session, 73rd Day (HR 2377 impeachment, Record 2191)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/88R/HTML/88RDAY73FINAL.HTM",
+          "date": "2023-05-27"
+        },
+        {
+          "id": "s26",
+          "title": "Texas House Journal, 88th Legislature, Fourth Called Session, 5th Day (SB 3 Record 37; SB 4 Record 48)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/884/HTML/88C4DAY05FINAL.HTM",
+          "date": "2023-11-14"
+        },
+        {
+          "id": "s27",
+          "title": "Texas House Journal, 88th Legislature, Fourth Called Session, 5th Day continued (HB 1 Raney amendment, Record 56)",
+          "publisher": "Texas House of Representatives (Texas Legislature Online)",
+          "url": "https://journals.house.texas.gov/HJRNL/884/HTML/88C4DAY05CFINAL.HTM",
+          "date": "2023-11-17"
+        },
+        {
+          "id": "s28",
+          "title": "Bills Authored / Joint Authored: Rep. Noble, 89th Legislature, Regular Session",
+          "publisher": "Texas Legislature Online",
+          "url": "https://capitol.texas.gov/reports/report.aspx?LegSess=89R&ID=author&Code=A3740",
+          "date": null
+        }
+      ],
+      "research_gaps": "No statement explaining her vote against the HB 46 medical cannabis expansion was found."
+    },
+    {
+      "id": "angie-carraway",
+      "race_id": "state-house-89",
+      "incumbent": false,
+      "current_role": "Middle school social studies and history teacher",
+      "background": "Carraway has taught middle school social studies and history for 14 years in the Lovejoy and Princeton school districts. She grew up in a military family, worked in hospitality as a young adult and was the first in her family to earn a college degree, from the University of North Texas. She has lived in Collin County for more than 20 years.",
+      "website": "https://www.citizensforcarraway.com",
+      "priorities": [
+        {
+          "text": "Campaigns on fully funding public schools and keeping teachers in classrooms.",
+          "sources": [
+            "s1",
+            "s4"
+          ]
+        },
+        {
+          "text": "Campaigns on lowering costs for housing, utilities, insurance and prescriptions.",
+          "sources": [
+            "s3",
+            "s1"
+          ]
+        },
+        {
+          "text": "Campaigns on transparent government and year-round engagement with constituents.",
+          "sources": [
+            "s4",
+            "s1"
+          ]
+        },
+        {
+          "text": "Supports protected defined-benefit pensions and cost-of-living relief for retired educators.",
+          "sources": [
+            "s4"
+          ]
+        }
+      ],
+      "promises": [
+        {
+          "text": "Says she will work to end voucher programs and keep public dollars in public schools.",
+          "sources": [
+            "s1",
+            "s4"
+          ]
+        },
+        {
+          "text": "Says she will push to raise the state minimum wage to $15 an hour.",
+          "sources": [
+            "s4",
+            "s1"
+          ]
+        },
+        {
+          "text": "Says she will hold year-round town halls.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Says she will work to eliminate pharmacy benefit managers to curb prescription drug costs.",
+          "sources": [
+            "s4"
+          ]
+        }
+      ],
+      "record": [],
+      "notes": [
+        {
+          "text": "Ran unopposed in the March 2026 Democratic primary.",
+          "sources": [
+            "s2"
+          ]
+        }
+      ],
+      "stances": {
+        "q_vouchers": {
+          "position": -2,
+          "basis": "questionnaire",
+          "summary": "Says she would end voucher programs, which she says pull money from public schools.",
+          "sources": [
+            "s1",
+            "s4"
+          ]
+        },
+        "q_school_funding": {
+          "position": 2,
+          "basis": "statement",
+          "summary": "Calls for fully funded public schools and fair teacher pay.",
+          "sources": [
+            "s4",
+            "s1"
+          ]
+        },
+        "q_min_wage": {
+          "position": 2,
+          "basis": "statement",
+          "summary": "Supports raising the state minimum wage to $15 an hour.",
+          "sources": [
+            "s4",
+            "s1"
+          ]
+        }
+      },
+      "issue_notes": [
+        {
+          "topic": "Prescription Costs",
+          "summary": "Wants to eliminate pharmacy benefit managers, which she says drive up drug prices.",
+          "sources": [
+            "s4",
+            "s1"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "s1",
+          "title": "Q&A: Meet the candidates in the race for Texas House District 89 seat",
+          "publisher": "Community Impact",
+          "url": "https://communityimpact.com/allen/election/qa-meet-the-candidates-in-the-race-for-texas-house-district-89-seat/",
+          "date": "2026-08-20"
+        },
+        {
+          "id": "s2",
+          "title": "ROUNDUP: See updated election results for Texas House, Senate races in Collin County",
+          "publisher": "Community Impact",
+          "url": "https://communityimpact.com/dallas-fort-worth/mckinney/election/2026/03/03/roundup-see-updated-election-results-for-texas-house-senate-races-in-collin-county",
+          "date": "2026-03-04"
+        },
+        {
+          "id": "s3",
+          "title": "Angie Carraway for Texas House District 89 (campaign home page)",
+          "publisher": "Citizens for Carraway",
+          "url": "https://www.citizensforcarraway.com",
+          "date": null
+        },
+        {
+          "id": "s4",
+          "title": "Priorities",
+          "publisher": "Citizens for Carraway",
+          "url": "https://www.citizensforcarraway.com/priorities",
+          "date": null
+        },
+        {
+          "id": "s5",
+          "title": "About Angie Carraway",
+          "publisher": "Citizens for Carraway",
+          "url": "https://www.citizensforcarraway.com/bio",
+          "date": null
+        }
+      ],
+      "research_gaps": "Her endorsements page displayed no organization names in text form, and no other questionnaire was found."
+    }
+  ]
+}

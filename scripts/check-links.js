@@ -28,7 +28,19 @@ function check(url) {
   return new Promise((done) => {
     execFile(
       'curl',
-      ['-s', '-o', '/dev/null', '-L', '--max-time', '25', '-A', 'Mozilla/5.0 (compatible; VotingInsightsLinkCheck/1.0)', '-w', '%{http_code}', url],
+      [
+        '-s',
+        '-o',
+        '/dev/null',
+        '-L',
+        '--max-time',
+        '25',
+        '-A',
+        'Mozilla/5.0 (compatible; VotingInsightsLinkCheck/1.0)',
+        '-w',
+        '%{http_code}',
+        url,
+      ],
       (err, stdout) => done(Number(stdout) || 0)
     );
   });
@@ -49,7 +61,9 @@ await Promise.all(Array.from({ length: 12 }, worker));
 // 401/403/429 usually mean bot protection rather than a dead page.
 const bad = results.filter((r) => r.code === 0 || r.code === 404 || r.code === 410 || r.code >= 500);
 const blocked = results.filter((r) => [401, 403, 405, 429].includes(r.code));
-console.log(`${results.length} urls checked: ${results.length - bad.length - blocked.length} ok, ${blocked.length} blocked by the site, ${bad.length} broken`);
+console.log(
+  `${results.length} urls checked: ${results.length - bad.length - blocked.length} ok, ${blocked.length} blocked by the site, ${bad.length} broken`
+);
 for (const r of bad) console.log(`BROKEN ${r.code} ${r.url}  (${r.where.join(', ')})`);
 for (const r of blocked) console.log(`BLOCKED ${r.code} ${r.url}`);
 const out = process.argv.indexOf('--json');

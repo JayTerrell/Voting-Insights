@@ -21,7 +21,11 @@ const racesPath = join(root, 'data/races.json');
 const overridesPath = join(root, 'data/name-overrides.json');
 
 export const slug = (s) =>
-  String(s).toLowerCase().replace(/\./g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+  String(s)
+    .toLowerCase()
+    .replace(/\./g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '');
 
 const PARTIES = {
   REPUBLICAN: 'Republican',
@@ -31,7 +35,13 @@ const PARTIES = {
   INDEPENDENT: 'Independent',
   'WRITE-IN': 'Write-in',
 };
-const IGNORE = [/^Texas Secretary of State$/i, /^Ballot Certification Report$/i, /GENERAL ELECTION$/i, /^County:/i, /^Page \d+ of \d+/i];
+const IGNORE = [
+  /^Texas Secretary of State$/i,
+  /^Ballot Certification Report$/i,
+  /GENERAL ELECTION$/i,
+  /^County:/i,
+  /^Page \d+ of \d+/i,
+];
 
 // Proper-cases an all-caps name: "KEVIN MCCORMICK" -> "Kevin McCormick".
 export function nameCase(raw, overrides = {}) {
@@ -42,7 +52,8 @@ export function nameCase(raw, overrides = {}) {
     .split(/(\s+|-)/)
     .map((w) => {
       if (/^\s+$|^-$/.test(w)) return w;
-      if (/^(ii|iii|iv|jr|sr)\.?$/.test(w)) return w.length <= 3 && !w.startsWith('j') && !w.startsWith('s') ? w.toUpperCase() : w[0].toUpperCase() + w.slice(1);
+      if (/^(ii|iii|iv|jr|sr)\.?$/.test(w))
+        return w.length <= 3 && !w.startsWith('j') && !w.startsWith('s') ? w.toUpperCase() : w[0].toUpperCase() + w.slice(1);
       let out = w.charAt(0).toUpperCase() + w.slice(1);
       out = out.replace(/^Mc([a-z])/, (_, c) => 'Mc' + c.toUpperCase());
       out = out.replace(/^O'([a-z])/, (_, c) => "O'" + c.toUpperCase());
@@ -73,11 +84,22 @@ function titleCase(raw) {
 // the questionnaire office type, the office description key, display group,
 // whether every Texas voter sees it, and whether it belongs to one county.
 export function classify(heading, countySlug) {
-  const h = heading.replace(/\s+Party$/, '').replace(/\s+/g, ' ').trim().toUpperCase();
+  const h = heading
+    .replace(/\s+Party$/, '')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .toUpperCase();
   const c = countySlug;
   const m = (re) => h.match(re);
   let r;
-  const S = (id, office_type, office_key, group, statewide = false, local = false) => ({ id, office_type, office_key, group, statewide, local });
+  const S = (id, office_type, office_key, group, statewide = false, local = false) => ({
+    id,
+    office_type,
+    office_key,
+    group,
+    statewide,
+    local,
+  });
 
   if (/^U\. ?S\. SENATOR/.test(h)) return S('us-senate', 'us_senate', 'us_senate', 'federal', true);
   if ((r = m(/^U\. ?S\. REPRESENTATIVE,? DISTRICT (\d+)/))) return S(`us-house-${r[1]}`, 'us_house', 'us_house', 'federal');
@@ -95,23 +117,39 @@ export function classify(heading, countySlug) {
     return S(id, t, t, 'state', true);
   }
   if (/^CHIEF JUSTICE, SUPREME COURT/.test(h)) return S('tx-supreme-chief', 'judicial', 'supreme_court', 'state-judicial', true);
-  if ((r = m(/^JUSTICE, SUPREME COURT, PLACE (\d+)/))) return S(`tx-supreme-${r[1]}`, 'judicial', 'supreme_court', 'state-judicial', true);
+  if ((r = m(/^JUSTICE, SUPREME COURT, PLACE (\d+)/)))
+    return S(`tx-supreme-${r[1]}`, 'judicial', 'supreme_court', 'state-judicial', true);
   if (/^PRESIDING JUDGE, COURT OF CRIMINAL APPEALS/.test(h)) return S('cca-presiding', 'judicial', 'cca', 'state-judicial', true);
-  if ((r = m(/^JUDGE, COURT OF CRIMINAL APPEALS, PLACE (\d+)/))) return S(`cca-${r[1]}`, 'judicial', 'cca', 'state-judicial', true);
+  if ((r = m(/^JUDGE, COURT OF CRIMINAL APPEALS, PLACE (\d+)/)))
+    return S(`cca-${r[1]}`, 'judicial', 'cca', 'state-judicial', true);
   if ((r = m(/^CHIEF JUSTICE, (\d+)(?:ST|ND|RD|TH) COURT OF APPEALS/))) {
-    return S(`coa${r[1]}-chief`, 'judicial', r[1] === '15' ? 'coa15' : r[1] === '5' ? 'coa5' : 'coa', 'state-judicial', r[1] === '15');
+    return S(
+      `coa${r[1]}-chief`,
+      'judicial',
+      r[1] === '15' ? 'coa15' : r[1] === '5' ? 'coa5' : 'coa',
+      'state-judicial',
+      r[1] === '15'
+    );
   }
   if ((r = m(/^JUSTICE, (\d+)(?:ST|ND|RD|TH) COURT OF APPEALS DISTRICT,? PLACE (\d+)/))) {
-    return S(`coa${r[1]}-${r[2]}`, 'judicial', r[1] === '15' ? 'coa15' : r[1] === '5' ? 'coa5' : 'coa', 'state-judicial', r[1] === '15');
+    return S(
+      `coa${r[1]}-${r[2]}`,
+      'judicial',
+      r[1] === '15' ? 'coa15' : r[1] === '5' ? 'coa5' : 'coa',
+      'state-judicial',
+      r[1] === '15'
+    );
   }
   if ((r = m(/STATE BOARD OF EDUCATION,? DISTRICT (\d+)/))) return S(`sboe-${r[1]}`, 'state_board_education', 'sboe', 'state');
   if ((r = m(/^STATE SENATOR,? DISTRICT (\d+)/))) return S(`state-senate-${r[1]}`, 'state_senate', 'state_senate', 'legislative');
-  if ((r = m(/^STATE REPRESENTATIVE,? DISTRICT (\d+)/))) return S(`state-house-${r[1]}`, 'state_house', 'state_house', 'legislative');
+  if ((r = m(/^STATE REPRESENTATIVE,? DISTRICT (\d+)/)))
+    return S(`state-house-${r[1]}`, 'state_house', 'state_house', 'legislative');
   if ((r = m(/^(CRIMINAL |CIVIL |FAMILY )?DISTRICT JUDGE,? (\d+)(?:ST|ND|RD|TH) (?:JUDICIAL )?DISTRICT/))) {
     const prefix = r[1] ? slug(r[1]) + '-' : '';
     return S(`${prefix}district-${r[2]}`, 'judicial', 'district_court', 'county-judicial');
   }
-  if ((r = m(/^DISTRICT ATTORNEY,? (\d+)(?:ST|ND|RD|TH) JUDICIAL DISTRICT/))) return S(`da-${r[1]}`, 'district_attorney', 'district_attorney', 'county');
+  if ((r = m(/^DISTRICT ATTORNEY,? (\d+)(?:ST|ND|RD|TH) JUDICIAL DISTRICT/)))
+    return S(`da-${r[1]}`, 'district_attorney', 'district_attorney', 'county');
   if (/^CRIMINAL DISTRICT ATTORNEY/.test(h)) return S(`${c}-da`, 'district_attorney', 'district_attorney', 'county', false, true);
   if (/^COUNTY ATTORNEY/.test(h)) return S(`${c}-county-attorney`, 'district_attorney', 'county_attorney', 'county', false, true);
   if (h === 'COUNTY JUDGE') return S(`${c}-county-judge`, 'county_judge', 'county_judge', 'county', false, true);
@@ -119,13 +157,15 @@ export function classify(heading, countySlug) {
     const kind = r[1] ? slug(r[1]) + '-' : '';
     return S(`${c}-ccl-${kind}${r[2]}`, 'judicial', 'ccl', 'county-judicial', false, true);
   }
-  if ((r = m(/^(?:JUDGE, )?PROBATE COURT(?:,? NO\. ?(\d+))?/))) return S(`${c}-probate${r[1] ? '-' + r[1] : ''}`, 'judicial', 'probate', 'county-judicial', false, true);
+  if ((r = m(/^(?:JUDGE, )?PROBATE COURT(?:,? NO\. ?(\d+))?/)))
+    return S(`${c}-probate${r[1] ? '-' + r[1] : ''}`, 'judicial', 'probate', 'county-judicial', false, true);
   if (h === 'DISTRICT CLERK') return S(`${c}-district-clerk`, 'clerk', 'district_clerk', 'county', false, true);
   if (h === 'COUNTY CLERK') return S(`${c}-county-clerk`, 'clerk', 'county_clerk', 'county', false, true);
   if (h === 'COUNTY TREASURER') return S(`${c}-treasurer`, 'clerk', 'county_treasurer', 'county', false, true);
   if (/^COUNTY TAX ASSESSOR/.test(h)) return S(`${c}-tax-assessor`, 'clerk', 'tax_assessor', 'county', false, true);
   if (h === 'SHERIFF') return S(`${c}-sheriff`, 'sheriff', 'sheriff', 'county', false, true);
-  if ((r = m(/^COUNTY COMMISSIONER,? PRECINCT (\d+)/))) return S(`${c}-commissioner-${r[1]}`, 'county_commissioner', 'county_commissioner', 'county', false, true);
+  if ((r = m(/^COUNTY COMMISSIONER,? PRECINCT (\d+)/)))
+    return S(`${c}-commissioner-${r[1]}`, 'county_commissioner', 'county_commissioner', 'county', false, true);
   if ((r = m(/^JUSTICE OF THE PEACE,? PRECINCT (\d+)(?:,? PLACE (\d+))?/))) {
     return S(`${c}-jp-${r[1]}${r[2] ? '-' + r[2] : ''}`, 'judicial', 'jp', 'county-judicial', false, true);
   }
@@ -186,7 +226,9 @@ function main(files) {
         };
         races.push(race);
         byId.set(race.id, race);
-        notes.push(`new race ${race.id} (${race.title})${info.unrecognized ? '  UNRECOGNIZED OFFICE: set office_type and office_key by hand' : ''}`);
+        notes.push(
+          `new race ${race.id} (${race.title})${info.unrecognized ? '  UNRECOGNIZED OFFICE: set office_type and office_key by hand' : ''}`
+        );
       }
       for (const pc of pr.candidates) {
         const name = nameCase(pc.raw, overrides);

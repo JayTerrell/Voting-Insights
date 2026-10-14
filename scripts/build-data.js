@@ -172,7 +172,7 @@ const builtParties = parties.map((p) => {
     short: p.short,
     platform_title: p.platform_title,
     platform_year: p.platform_year,
-    platform_url: p.platform_url,
+    platform_url: /^https?:\/\//.test(p.platform_url || '') ? p.platform_url : null,
     summary: p.summary,
     stances: cleanStances(p.stances, ids, `party:${p.id}`),
     sources,
