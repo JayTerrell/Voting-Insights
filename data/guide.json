@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T11:37:36.922Z",
+ "generated_at": "2026-10-14T11:38:19.156Z",
  "election": {
   "name": "2026 November General Election",
   "county": "Collin County, Texas",
@@ -1630,12 +1630,6 @@
        ]
       },
       {
-       "text": "Served as Collin County Judge from 2007 to 2018, according to news coverage.",
-       "sources": [
-        "s20"
-       ]
-      },
-      {
        "text": "In March 2025, as chair of a Foreign Affairs subcommittee hearing, he addressed Rep. Sarah McBride, a transgender woman, as \"Mr.\" and adjourned the hearing after the ranking Democrat objected. He later posted that it is U.S. policy to recognize two sexes.",
        "sources": [
         "s18"
@@ -1882,13 +1876,6 @@
        "date": "2025-07"
       },
       {
-       "id": "s20",
-       "title": "North Texas growth frames Keith Self-Evan Hunt Texas race",
-       "publisher": "Hoodline",
-       "url": "https://hoodline.com/2026/10/north-texas-growth-frames-keith-self-evan-hunt-texas-race/",
-       "date": "2026-10-12"
-      },
-      {
        "id": "s21",
        "title": "Roll Call 70: H.R. 1968, Full-Year Continuing Appropriations and Extensions Act, 2025",
        "publisher": "Clerk of the U.S. House",
@@ -2077,13 +2064,6 @@
        "sources": [
         "s1"
        ]
-      },
-      {
-       "topic": "Data Centers",
-       "summary": "Has raised concerns about data center use of local water and power, according to an AI-assisted news summary.",
-       "sources": [
-        "s3"
-       ]
       }
      ],
      "sources": [
@@ -2100,13 +2080,6 @@
        "publisher": "Community Impact",
        "url": "https://communityimpact.com/dallas-fort-worth/plano/election/2026/03/03/roundup-see-updated-results-for-us-house-races-affecting-dallas-fort-worth-cities/",
        "date": "2026-03-04"
-      },
-      {
-       "id": "s3",
-       "title": "North Texas growth frames Keith Self-Evan Hunt Texas race",
-       "publisher": "Hoodline",
-       "url": "https://hoodline.com/2026/10/north-texas-growth-frames-keith-self-evan-hunt-texas-race/",
-       "date": "2026-10-12"
       }
      ],
      "research_gaps": "No questionnaire responses or independent news interviews were found; no documented positions on minimum wage, Medicaid expansion, abortion, guns, energy or voting access."
@@ -2941,8 +2914,7 @@
       {
        "text": "Campaigns on lowering costs, which he calls the district's biggest challenge, including housing, groceries and energy.",
        "sources": [
-        "s1",
-        "s2"
+        "s1"
        ]
       },
       {
@@ -3009,12 +2981,6 @@
        "text": "Won the March 3, 2026 Democratic primary with 60.07 percent of the vote over Anthony Bridges (unofficial results).",
        "sources": [
         "s8"
-       ]
-      },
-      {
-       "text": "An October 2026 news summary reported that he announced his resignation from the council in July to focus on the congressional race.",
-       "sources": [
-        "s2"
        ]
       },
       {
@@ -3168,13 +3134,6 @@
        "publisher": "Dan Barrios campaign",
        "url": "https://www.danbarriosforcongress.com/taxesandaffordabilty",
        "date": null
-      },
-      {
-       "id": "s2",
-       "title": "Texas 32nd District pits GOP attorney against Richardson Democrat",
-       "publisher": "Hoodline",
-       "url": "https://hoodline.com/2026/10/texas-32nd-district-pits-gop-attorney-against-richardson-democrat/",
-       "date": "2026-10-12"
       },
       {
        "id": "s3",
@@ -3465,51 +3424,712 @@
      "name": "Mayes Middleton",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
-     "website": null,
-     "priorities": [],
-     "promises": [],
-     "record": [],
-     "notes": [],
-     "stances": {},
-     "issue_notes": [],
-     "sources": [],
-     "research_gaps": ""
+     "current_role": "Texas state senator, District 11, since 2023; president of Middleton Oil Company",
+     "background": "Mayes Middleton is a Galveston-area oil and gas executive, rancher and attorney who earned his law degree from the University of Texas School of Law in 2008. He served two terms in the Texas House, where he chaired the House Freedom Caucus, before winning a state Senate seat in 2022. He won the Republican nomination for attorney general by defeating U.S. Rep. Chip Roy in the May 26, 2026 runoff with about 56 percent of the vote.",
+     "website": "https://mayesmiddleton.com/",
+     "priorities": [
+      {
+       "text": "Campaigns on backing President Trump's border security agenda and deportation orders, including suing cities that he says violate the state ban on sanctuary policies.",
+       "sources": [
+        "s1",
+        "s2"
+       ]
+      },
+      {
+       "text": "Campaigns on election integrity, including enforcement of Texas voter ID laws so that only qualified U.S. citizens vote.",
+       "sources": [
+        "s1",
+        "s3"
+       ]
+      },
+      {
+       "text": "Campaigns on zero tolerance for violent crime and on reining in district attorneys he says refuse to enforce state law.",
+       "sources": [
+        "s1",
+        "s3"
+       ]
+      },
+      {
+       "text": "Campaigns on keeping transgender women out of women's restrooms, locker rooms and sports.",
+       "sources": [
+        "s1",
+        "s2"
+       ]
+      },
+      {
+       "text": "Campaigns on open records enforcement and a \"DOGE Texas\" approach to waste and fraud in government spending.",
+       "sources": [
+        "s1",
+        "s3"
+       ]
+      },
+      {
+       "text": "Says he will protect oil and gas jobs and Texas energy independence.",
+       "sources": [
+        "s1",
+        "s3"
+       ]
+      }
+     ],
+     "promises": [
+      {
+       "text": "Says he will create a standalone election integrity division in the attorney general's office with law enforcement powers.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "Says he will sue local officials who obstruct federal immigration enforcement and seek civil and criminal penalties and removal from office.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "Says he will seek stronger bonds for dangerous offenders and increased consequences for district attorneys who do not enforce state law.",
+       "sources": [
+        "s3"
+       ]
+      },
+      {
+       "text": "Says he will sue corporations for deceptive trade practices and oppose foreign adversaries buying Texas assets.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
+     "record": [
+      {
+       "text": "Authored Senate Bill 8 (2025), which requires people in public schools, universities and government buildings to use restrooms matching their sex at birth; Gov. Abbott signed it in September 2025.",
+       "sources": [
+        "s8",
+        "s9"
+       ]
+      },
+      {
+       "text": "Sponsored and passed the Save Women's Sports Act, which bars transgender women from competing in women's collegiate sports.",
+       "sources": [
+        "s1",
+        "s3"
+       ]
+      },
+      {
+       "text": "Sponsored a 2025 bill allowing schools to set aside class time for prayer and Bible reading.",
+       "sources": [
+        "s3"
+       ]
+      },
+      {
+       "text": "Passed legislation allowing the attorney general's office to take election fraud cases without waiting for a local prosecutor, according to a candidate profile.",
+       "sources": [
+        "s3"
+       ]
+      },
+      {
+       "text": "Voted with the Senate majority for Senate Bill 2 (2025), which created the state's education savings account program; all Senate Democrats and one Republican opposed it.",
+       "sources": [
+        "s7"
+       ]
+      },
+      {
+       "text": "Voted to acquit Attorney General Ken Paxton at his 2023 impeachment trial; the Tribune reported he had been among senators considering a vote to convict.",
+       "sources": [
+        "s4",
+        "s5"
+       ]
+      },
+      {
+       "text": "In 2025 sponsored a bill to limit offshore wind projects, and in 2022 wrote to the Biden administration opposing a proposed wind farm off the Galveston coast.",
+       "sources": [
+        "s3"
+       ]
+      },
+      {
+       "text": "Cosponsored a bill by Sen. Nathan Johnson strengthening consumer protections for commercial genetic testing.",
+       "sources": [
+        "s5"
+       ]
+      }
+     ],
+     "notes": [
+      {
+       "text": "Put more than $16 million of his own money into the primary and runoff, according to the Tribune in May 2026; later Tribune reporting put his self-funding above $20 million.",
+       "sources": [
+        "s4",
+        "s5"
+       ]
+      },
+      {
+       "text": "Over about 15 years he donated millions to conservative candidates and groups, including most initial members of the House Freedom Caucus, and was the main funder of Matt Krause's 2022 primary challenge to Ken Paxton. Chip Roy accused him of buying endorsements; Middleton did not respond to that request for comment.",
+       "sources": [
+        "s4"
+       ]
+      },
+      {
+       "text": "Ran ads calling himself \"MAGA Mayes\" and told NBC DFW, \"I am 100% pro-Trump.\" Lt. Gov. Dan Patrick endorsed him in the runoff.",
+       "sources": [
+        "s5",
+        "s6"
+       ]
+      },
+      {
+       "text": "Critics, including his runoff opponent, noted he has practiced law only for his family company and has little courtroom experience.",
+       "sources": [
+        "s4",
+        "s10"
+       ]
+      }
+     ],
+     "stances": {
+      "q_ten_commandments": {
+       "position": 2,
+       "basis": "statement",
+       "summary": "Supports displaying the Ten Commandments in public school classrooms and has said \"there is no such thing as separation of church and state.\"",
+       "sources": [
+        "s2"
+       ]
+      },
+      "q_abortion": {
+       "position": -2,
+       "basis": "statement",
+       "summary": "Pledges to uphold Texas pro-life laws and has donated to Texas Right to Life.",
+       "sources": [
+        "s1",
+        "s4"
+       ]
+      },
+      "q_deportation": {
+       "position": 2,
+       "basis": "statement",
+       "summary": "Has said \"We have to deport all illegal immigrants. Not some. All,\" and calls backing federal deportation efforts his top priority.",
+       "sources": [
+        "s2"
+       ]
+      },
+      "q_gun_laws": {
+       "position": -1,
+       "basis": "inferred",
+       "summary": "Lists co-authoring the 2021 permitless carry law among his accomplishments; he has not been found addressing background checks or red flag laws directly.",
+       "sources": [
+        "s1"
+       ]
+      },
+      "q_bail": {
+       "position": 2,
+       "basis": "statement",
+       "summary": "Says he opposes quick low-bond releases of dangerous offenders and will push for stronger bonds.",
+       "sources": [
+        "s1",
+        "s3"
+       ]
+      },
+      "q_election_fraud": {
+       "position": 2,
+       "basis": "statement",
+       "summary": "Proposes a standalone election integrity unit with law enforcement powers and stronger enforcement of voter ID laws.",
+       "sources": [
+        "s2",
+        "s3"
+       ]
+      },
+      "q_trans_minors": {
+       "position": 1,
+       "basis": "inferred",
+       "summary": "Pledges to stop efforts to \"confuse our children with gender ideology\" and authored laws restricting transgender access to sports and restrooms; no statement specific to medical treatment for minors was found.",
+       "sources": [
+        "s1",
+        "s2"
+       ]
+      },
+      "q_foreign_land": {
+       "position": 2,
+       "basis": "statement",
+       "summary": "Pledges to oppose foreign adversaries buying Texas assets.",
+       "sources": [
+        "s1"
+       ]
+      },
+      "q_vouchers": {
+       "position": 2,
+       "basis": "record",
+       "summary": "Voted for Senate Bill 2 in 2025, which created the education savings account program.",
+       "sources": [
+        "s7"
+       ]
+      },
+      "q_fossil_priority": {
+       "position": 1,
+       "basis": "record",
+       "summary": "Says he will protect oil and gas jobs and sponsored a 2025 bill to limit offshore wind projects.",
+       "sources": [
+        "s1",
+        "s3"
+       ]
+      }
+     },
+     "issue_notes": [
+      {
+       "topic": "Immigration and Education",
+       "summary": "Has called the U.S. Supreme Court decision in Plyler v. Doe, which guarantees public schooling to undocumented children, \"terrible\" and supports overturning it.",
+       "sources": [
+        "s3"
+       ]
+      },
+      {
+       "topic": "Transgender Policy",
+       "summary": "Attacked Nathan Johnson in the general election, saying Johnson would \"fight to get men in your little girl's restroom and locker room.\"",
+       "sources": [
+        "s5"
+       ]
+      },
+      {
+       "topic": "Ethics",
+       "summary": "Says he rejected the state pension and health plan and donates his state salary to charity, and pledges to hold officials accountable for profiting from office.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Mayes Middleton for Texas Attorney General",
+       "publisher": "Mayes Middleton campaign",
+       "url": "https://mayesmiddleton.com/",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Republican candidate for attorney general says separation of church and state does not exist",
+       "publisher": "KLTV",
+       "url": "https://www.kltv.com/2026/02/02/republican-candidate-attorney-general-pledges-sanctuary-city-crackdowns-transgender-sports-ban/",
+       "date": "2026-02-01"
+      },
+      {
+       "id": "s3",
+       "title": "Mayes Middleton Candidate Profile",
+       "publisher": "Stateside Associates",
+       "url": "https://www.stateside.com/sites/default/files/2026-07/Mayes%20Middleton%20Candidate%20Profile.pdf",
+       "date": "2026-07"
+      },
+      {
+       "id": "s4",
+       "title": "GOP megadonor turned attorney general front-runner: How Mayes Middleton's largesse fueled his rise",
+       "publisher": "The Texas Tribune",
+       "url": "https://www.texastribune.org/2026/05/22/texas-attorney-general-gop-runoff-mayes-middleton-political-donations/",
+       "date": "2026-05-22"
+      },
+      {
+       "id": "s5",
+       "title": "Democrat Nathan Johnson pitches back-to-basics attorney general's office after 12 years under Paxton",
+       "publisher": "The Texas Tribune via KSAT",
+       "url": "https://www.ksat.com/news/texas/2026/10/08/democrat-nathan-johnson-pitches-back-to-basics-attorney-generals-office-after-12-years-under-paxton/",
+       "date": "2026-10-08"
+      },
+      {
+       "id": "s6",
+       "title": "Democrat Nathan Johnson to run against Republican Mayes Middleton for Texas AG in November election",
+       "publisher": "KERA News via Texas Standard",
+       "url": "https://texasstandard.org/stories/texas-attorney-general-runoff-results-middleton-johnson/",
+       "date": "2026-05-26"
+      },
+      {
+       "id": "s7",
+       "title": "Texas Senate passes school voucher bill",
+       "publisher": "The Texas Tribune",
+       "url": "https://www.texastribune.org/2025/02/05/texas-senate-school-voucher-vote",
+       "date": "2025-02-05"
+      },
+      {
+       "id": "s8",
+       "title": "Gov. Abbott signs 'bathroom bill' with new restrictions on transgender Texans",
+       "publisher": "Texas Standard",
+       "url": "https://www.texasstandard.org/stories/texas-abbott-signs-bathroom-bill-transgender-restrictions",
+       "date": "2025-09"
+      },
+      {
+       "id": "s9",
+       "title": "Texas Bathroom Bill: SB 8 Passes After Years of Debate in the Legislature",
+       "publisher": "Texas Policy Research",
+       "url": "https://www.texaspolicyresearch.com/texas-bathroom-bill-sb-8-passes-after-years-of-debate-in-the-legislature/",
+       "date": "2025-09"
+      },
+      {
+       "id": "s10",
+       "title": "Republicans pick Middleton, Roy for attorney general runoff",
+       "publisher": "The Texas Tribune",
+       "url": "https://www.texastribune.org/2026/03/03/texas-chip-roy-mayes-middleton-attorney-general-republican-primary/",
+       "date": "2026-03-03"
+      },
+      {
+       "id": "s11",
+       "title": "Mayes Middleton: 2026 candidate for Texas Attorney General",
+       "publisher": "San Antonio Report",
+       "url": "https://sanantonioreport.org/profile/mayes-middleton-2026-candidate-for-texas-attorney-general/",
+       "date": null
+      }
+     ],
+     "research_gaps": "No candidate questionnaire responses were found, and no direct statements were found on background checks, red flag laws, cannabis or pipeline eminent domain."
     },
     {
      "id": "nathan-johnson",
      "name": "Nathan Johnson",
      "party": "Democratic",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
-     "website": null,
-     "priorities": [],
-     "promises": [],
-     "record": [],
-     "notes": [],
-     "stances": {},
-     "issue_notes": [],
-     "sources": [],
-     "research_gaps": ""
+     "current_role": "Texas state senator, District 16 (Dallas), since 2019; attorney at Thompson Coburn",
+     "background": "Nathan Johnson is a Dallas business litigator and mediator with a physics degree from the University of Arizona and a law degree from the University of Texas at Austin. He won his North Dallas Senate seat in 2018 by defeating Republican incumbent Don Huffines, and says he has passed 134 bills since 2019. He earlier composed music for the Dragon Ball Z animated series. He won the Democratic nomination in the May 26, 2026 runoff over former Galveston Mayor Joe Jaworski.",
+     "website": "https://nathanfortexas.com/",
+     "priorities": [
+      {
+       "text": "Campaigns on returning the attorney general's office to core duties such as child support collection, legal opinions, public finance review and open government.",
+       "sources": [
+        "s1",
+        "s4"
+       ]
+      },
+      {
+       "text": "Campaigns on enforcing consumer protection and antitrust laws against price gouging, junk fees, scams and unfair competition.",
+       "sources": [
+        "s1",
+        "s6"
+       ]
+      },
+      {
+       "text": "Campaigns on investigating and prosecuting public corruption \"irrespective of political party.\"",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Campaigns on an office independent of both political parties and of any presidential administration.",
+       "sources": [
+        "s5",
+        "s6"
+       ]
+      },
+      {
+       "text": "Campaigns on public safety through partnership with district attorneys and the office's own authority over identity theft, cybercrime, Medicaid fraud and some human trafficking cases.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
+     "promises": [
+      {
+       "text": "Says he will make improving the child support division a priority, citing complaints about delays and service.",
+       "sources": [
+        "s6"
+       ]
+      },
+      {
+       "text": "Says he will join other states in suing the Trump administration over actions he considers illegal, while saying he will not sue \"for fun.\"",
+       "sources": [
+        "s1",
+        "s4"
+       ]
+      },
+      {
+       "text": "Says he will produce recommendations to the Legislature on how consumer protection, competition and employment laws apply to artificial intelligence within his first 30 days.",
+       "sources": [
+        "s8"
+       ]
+      },
+      {
+       "text": "Says he will not defend the Ten Commandments classroom display law while appeals continue and will not devote resources to enforcing Senate Bill 8, the 2025 restroom law.",
+       "sources": [
+        "s4",
+        "s6",
+        "s7"
+       ]
+      },
+      {
+       "text": "Says he will audit Deloitte and other state vendors after the Department of Public Safety failed to transmit more than 150,000 voter registration applications.",
+       "sources": [
+        "s4"
+       ]
+      },
+      {
+       "text": "Says he will review actions taken under Ken Paxton and support House Democrats' litigation against the 2025 mid-decade redistricting plan.",
+       "sources": [
+        "s7"
+       ]
+      }
+     ],
+     "record": [
+      {
+       "text": "Voted to convict Ken Paxton at his 2023 impeachment trial, as part of the Senate minority.",
+       "sources": [
+        "s5"
+       ]
+      },
+      {
+       "text": "Voted against Senate Bill 2 in 2025, which created the education savings account program; all Senate Democrats opposed it.",
+       "sources": [
+        "s9"
+       ]
+      },
+      {
+       "text": "Filed bills as a senator to restore abortion access and to expand Medicaid.",
+       "sources": [
+        "s4"
+       ]
+      },
+      {
+       "text": "Authored a bill strengthening consumer protections for commercial genetic testing, which Mayes Middleton cosponsored.",
+       "sources": [
+        "s4"
+       ]
+      },
+      {
+       "text": "Voted for Senate Bill 2972 (2025), a campus protest law, which he noted drew bipartisan support.",
+       "sources": [
+        "s7"
+       ]
+      },
+      {
+       "text": "Says his legislative work secured $2 billion for backup power at water plants, nursing homes and first responder facilities, and updated state law on data privacy, artificial intelligence and cybersecurity.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
+     "notes": [
+      {
+       "text": "Endorsed by the Texas AFL-CIO, Sierra Club, Everytown for Gun Safety and the Texas Federation of Teachers, according to his campaign site.",
+       "sources": [
+        "s3"
+       ]
+      },
+      {
+       "text": "Had about $1 million in his campaign account in late September 2026, roughly half of Middleton's total.",
+       "sources": [
+        "s4"
+       ]
+      },
+      {
+       "text": "Former Republican state Sen. John Carona, a past supporter of the Texas Tribune, is one of his larger donors, according to the Tribune's disclosure.",
+       "sources": [
+        "s4"
+       ]
+      }
+     ],
+     "stances": {
+      "q_ten_commandments": {
+       "position": -2,
+       "basis": "statement",
+       "summary": "Called a 5th Circuit ruling allowing classroom Ten Commandments displays unconstitutional and said he would not defend the law while appeals continue.",
+       "sources": [
+        "s6"
+       ]
+      },
+      "q_abortion": {
+       "position": 2,
+       "basis": "record",
+       "summary": "Filed bills in the Senate to restore abortion access.",
+       "sources": [
+        "s4"
+       ]
+      },
+      "q_gun_laws": {
+       "position": 1,
+       "basis": "inferred",
+       "summary": "Is endorsed by Everytown for Gun Safety, a gun safety advocacy group; no direct statement on specific gun laws was found.",
+       "sources": [
+        "s3"
+       ]
+      },
+      "q_deportation": {
+       "position": 0,
+       "basis": "statement",
+       "summary": "Says the office should assist federal immigration enforcement \"as appropriate\" and block federal actions that \"go too far,\" and rejects \"shock and awe\" tactics he says violate the Constitution.",
+       "sources": [
+        "s1"
+       ]
+      },
+      "q_vouchers": {
+       "position": -2,
+       "basis": "record",
+       "summary": "Voted against Senate Bill 2 (2025), which created education savings accounts.",
+       "sources": [
+        "s9"
+       ]
+      },
+      "q_medicaid": {
+       "position": 2,
+       "basis": "record",
+       "summary": "Filed bills in the Senate to expand Medicaid.",
+       "sources": [
+        "s4"
+       ]
+      }
+     },
+     "issue_notes": [
+      {
+       "topic": "Artificial Intelligence",
+       "summary": "Released a plan in August 2026 to use the office to review how existing laws apply to harms from artificial intelligence, including AI-driven scams and data privacy.",
+       "sources": [
+        "s8"
+       ]
+      },
+      {
+       "topic": "Broadband",
+       "summary": "Called for an audit of state broadband funding over concerns that a company tied to Elon Musk received a favorable deal.",
+       "sources": [
+        "s4"
+       ]
+      },
+      {
+       "topic": "Border",
+       "summary": "Says the state should secure the border against drug smuggling, human trafficking and cross-border crime without surrendering state sovereignty.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Priorities",
+       "publisher": "Nathan Johnson campaign",
+       "url": "https://nathanfortexas.com/priorities/",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Meet Nathan",
+       "publisher": "Nathan Johnson campaign",
+       "url": "https://nathanfortexas.com/meet-nathan/",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Nathan Johnson for Attorney General",
+       "publisher": "Nathan Johnson campaign",
+       "url": "https://nathanfortexas.com/",
+       "date": null
+      },
+      {
+       "id": "s4",
+       "title": "Democrat Nathan Johnson pitches back-to-basics attorney general's office after 12 years under Paxton",
+       "publisher": "The Texas Tribune via KSAT",
+       "url": "https://www.ksat.com/news/texas/2026/10/08/democrat-nathan-johnson-pitches-back-to-basics-attorney-generals-office-after-12-years-under-paxton/",
+       "date": "2026-10-08"
+      },
+      {
+       "id": "s5",
+       "title": "Democratic state Sen. Nathan Johnson announces run for attorney general",
+       "publisher": "The Texas Tribune",
+       "url": "https://www.texastribune.org/2025/07/15/nathan-johnson-texas-attorney-general-democrat-2026-midterms/",
+       "date": "2025-07-15"
+      },
+      {
+       "id": "s6",
+       "title": "Democratic state senator says overhauling child support division is priority in AG run",
+       "publisher": "KLTV",
+       "url": "https://www.kltv.com/2026/05/14/democratic-state-senator-says-overhauling-child-support-division-is-priority-ag-run/",
+       "date": "2026-05-14"
+      },
+      {
+       "id": "s7",
+       "title": "Democrats Running for Texas Attorney General Vow to Reform Office Post-Paxton",
+       "publisher": "The Texan",
+       "url": "https://thetexan.news/elections/2026/democrats-running-for-texas-attorney-general-vow-to-reform-office-post-paxton/article_9646b8e4-1999-4d30-8408-f0296bf67978.html",
+       "date": "2026-02-04"
+      },
+      {
+       "id": "s8",
+       "title": "Exclusive: Texas AG candidate unveils \"AI audit\" plan",
+       "publisher": "Axios",
+       "url": "https://axios.com/2026/08/21/texas-ag-democratic-nominee-ai-audit-plan",
+       "date": "2026-08-21"
+      },
+      {
+       "id": "s9",
+       "title": "Texas Senate passes school voucher bill",
+       "publisher": "The Texas Tribune",
+       "url": "https://www.texastribune.org/2025/02/05/texas-senate-school-voucher-vote",
+       "date": "2025-02-05"
+      },
+      {
+       "id": "s10",
+       "title": "Democrat Nathan Johnson to run against Republican Mayes Middleton for Texas AG in November election",
+       "publisher": "KERA News via Texas Standard",
+       "url": "https://texasstandard.org/stories/texas-attorney-general-runoff-results-middleton-johnson/",
+       "date": "2026-05-26"
+      },
+      {
+       "id": "s11",
+       "title": "Nathan Johnson: 2026 candidate for Texas Attorney General",
+       "publisher": "San Antonio Report",
+       "url": "https://sanantonioreport.org/profile/nathan-johnson-2026-candidate-for-texas-attorney-general/",
+       "date": null
+      }
+     ],
+     "research_gaps": "No questionnaire answers were found, and no direct statements were found on bail, election fraud enforcement, cannabis, eminent domain or foreign land purchases."
     },
     {
      "id": "tom-oxford",
      "name": "Tom Oxford",
      "party": "Libertarian",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Personal injury and civil rights attorney, owner of Oxford Law PLLC near Beaumont",
+     "background": "Tom Oxford is a personal injury and civil rights attorney who owns a law firm near Beaumont and belongs to the Texas Trial Lawyers Association. He is a repeat Libertarian candidate, including a 2022 run for Place 3 on the Texas Supreme Court. He is the Libertarian Party of Texas nominee for attorney general in 2026.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "The Libertarian Booster PAC helped pay his filing fee to appear on the 2026 ballot.",
+       "sources": [
+        "s3"
+       ]
+      },
+      {
+       "text": "No campaign website was found as of September 3, 2026, according to a nonpartisan ballot guide.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "Ran as the Libertarian candidate for Texas Supreme Court, Place 3, in 2022 and lost in the general election.",
+       "sources": [
+        "s4"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": ""
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Tom Oxford: 2026 candidate for Texas Attorney General",
+       "publisher": "San Antonio Report",
+       "url": "https://sanantonioreport.org/profile/tom-oxford-2026-candidate-for-texas-attorney-general/",
+       "date": "2026-07-14"
+      },
+      {
+       "id": "s2",
+       "title": "Tom Oxford (TX)",
+       "publisher": "The Ballot Brief",
+       "url": "https://theballotbrief.com/candidate/tom-oxford-tx",
+       "date": "2026-09-03"
+      },
+      {
+       "id": "s3",
+       "title": "Schmidt: 9 Libertarians vie for state seats in November election",
+       "publisher": "Seguin Gazette",
+       "url": "https://seguingazette.com/opinion/community_columnists/schmidt-9-libertarians-vie-for-state-seats-in-november-election/article_1def3ed7-d65d-42cf-acb1-5fecca0a94d4.html",
+       "date": "2025-12-16"
+      },
+      {
+       "id": "s4",
+       "title": "Tom Oxford",
+       "publisher": "Ballotpedia",
+       "url": "https://ballotpedia.org/Tom_Oxford",
+       "date": null
+      }
+     ],
+     "research_gaps": "No campaign website, platform, questionnaire responses or public statements on issues were found for the 2026 race."
     }
    ],
    "office": {
@@ -3534,69 +4154,667 @@
      "id": "don-huffines",
      "name": "Don Huffines",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
-     "website": null,
-     "priorities": [],
-     "promises": [],
-     "record": [],
-     "notes": [],
-     "stances": {},
-     "issue_notes": [],
-     "sources": [],
-     "research_gaps": ""
+     "incumbent": true,
+     "current_role": "Texas Comptroller of Public Accounts (appointed) since August 1, 2026",
+     "background": "Don Huffines is a Dallas real estate developer who co-founded Huffines Communities and holds a business degree from the University of Texas at Austin. He served one term in the Texas Senate (District 16, 2015 to 2019), lost reelection to Nathan Johnson in 2018, and challenged Gov. Greg Abbott in the 2022 Republican primary. He won the 2026 Republican comptroller primary with about 57 percent over acting Comptroller Kelly Hancock and others, and Abbott appointed him comptroller for the rest of 2026.",
+     "website": "https://donhuffines.com/",
+     "priorities": [
+      {
+       "text": "Campaigns on auditing government spending, which he calls \"DOGE-ing Texas,\" and returning savings to taxpayers as property tax relief.",
+       "sources": [
+        "s1",
+        "s7"
+       ]
+      },
+      {
+       "text": "Campaigns on reducing and ultimately eliminating property taxes, saying Texans should not spend their lives \"paying perpetual rent through property taxes.\"",
+       "sources": [
+        "s1",
+        "s2"
+       ]
+      },
+      {
+       "text": "Campaigns on implementing and promoting the state's education savings account program.",
+       "sources": [
+        "s2",
+        "s7",
+        "s10"
+       ]
+      },
+      {
+       "text": "Campaigns on reducing regulations he says raise housing and business costs, and on favoring Texas-based companies in state contracting.",
+       "sources": [
+        "s7",
+        "s10"
+       ]
+      },
+      {
+       "text": "Campaigns on studying the cost of illegal immigration to the state and ensuring public money does not benefit undocumented immigrants.",
+       "sources": [
+        "s2",
+        "s7"
+       ]
+      }
+     ],
+     "promises": [
+      {
+       "text": "Pledged not to take a state salary, and declined it as his first official act.",
+       "sources": [
+        "s4",
+        "s7"
+       ]
+      },
+      {
+       "text": "Says he will audit state spending and highway construction contracts.",
+       "sources": [
+        "s7"
+       ]
+      },
+      {
+       "text": "Says he will prioritize marketing the $1 billion education savings account program so parents know it exists.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "Says he will work with state leaders on property tax relief in the next legislative session.",
+       "sources": [
+        "s6"
+       ]
+      }
+     ],
+     "record": [
+      {
+       "text": "Ordered a performance review of the comptroller's office in August 2026, citing a directive from state leaders to cut agency spending by 3 percent.",
+       "sources": [
+        "s5"
+       ]
+      },
+      {
+       "text": "In August 2026 urged cities and counties to lower property tax rates because of rising sales tax collections, and announced performance reviews of school district spending.",
+       "sources": [
+        "s6"
+       ]
+      },
+      {
+       "text": "As a state senator, led the effort to abolish the Dallas County Schools bus agency after uncovering financial problems that led to a federal bribery investigation.",
+       "sources": [
+        "s4",
+        "s7"
+       ]
+      },
+      {
+       "text": "Authored a property tax exemption for surviving spouses of first responders killed in the line of duty.",
+       "sources": [
+        "s4"
+       ]
+      },
+      {
+       "text": "Filed a bill as a senator to study the cost of a private school voucher program; it did not pass.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
+     "notes": [
+      {
+       "text": "Gov. Abbott appointed him comptroller on July 2, 2026, after acting Comptroller Kelly Hancock resigned; Sarah Eckhardt called the appointment a way to install a loyalist before voters decide.",
+       "sources": [
+        "s3",
+        "s8"
+       ]
+      },
+      {
+       "text": "Largely self-funded his primary campaign and reported $11.7 million cash on hand in January 2026; endorsed by U.S. Sen. Ted Cruz.",
+       "sources": [
+        "s2",
+        "s7"
+       ]
+      },
+      {
+       "text": "Founded the Huffines Liberty Foundation after leaving the Senate.",
+       "sources": [
+        "s10"
+       ]
+      }
+     ],
+     "stances": {
+      "q_prop_tax_eliminate": {
+       "position": 2,
+       "basis": "statement",
+       "summary": "Has campaigned on eliminating property taxes, and his foundation proposed phasing school maintenance and operations taxes to zero using state surplus.",
+       "sources": [
+        "s1",
+        "s2",
+        "s9"
+       ]
+      },
+      "q_spending_cap": {
+       "position": 1,
+       "basis": "reported",
+       "summary": "His foundation proposed capping state spending growth at 3 percent, a different formula than population plus inflation.",
+       "sources": [
+        "s9"
+       ]
+      },
+      "q_vouchers": {
+       "position": 2,
+       "basis": "statement",
+       "summary": "Supports taxpayer-funded private school stipends and says competition will improve public schools.",
+       "sources": [
+        "s2",
+        "s8"
+       ]
+      },
+      "q_abortion": {
+       "position": -2,
+       "basis": "reported",
+       "summary": "Backs banning abortion in all cases, according to the Tribune.",
+       "sources": [
+        "s2"
+       ]
+      }
+     },
+     "issue_notes": [
+      {
+       "topic": "Taxes",
+       "summary": "Has proposed repealing the state franchise tax, which the comptroller's office administers.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "topic": "Local Spending",
+       "summary": "Says \"Local governments must be more conservative in how they spend, period.\"",
+       "sources": [
+        "s6"
+       ]
+      }
+     ],
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Don Huffines for Texas Comptroller",
+       "publisher": "Don Huffines campaign",
+       "url": "https://donhuffines.com/",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Meet Don Huffines, the self-funding tea party activist who won the GOP Texas comptroller primary",
+       "publisher": "The Texas Tribune",
+       "url": "https://www.texastribune.org/2026/03/06/don-huffines-texas-comptroller-school-vouchers-abbott/",
+       "date": "2026-03-06"
+      },
+      {
+       "id": "s3",
+       "title": "Gov. Abbott appoints Don Huffines to be Texas comptroller",
+       "publisher": "The Texas Tribune via TPR",
+       "url": "https://www.tpr.org/text/news/2026-07-02/gov-abbott-appoints-don-huffines-to-be-texas-comptroller",
+       "date": "2026-07-02"
+      },
+      {
+       "id": "s4",
+       "title": "Don Huffines sworn in as Texas Comptroller, refuses salary, calls for property tax relief",
+       "publisher": "Texas Comptroller of Public Accounts",
+       "url": "https://comptroller.texas.gov/about/media-center/news/20260801-don-huffines-sworn-in-as-texas-comptroller-refuses-salary-calls-for-property-tax-relief-1785512488796",
+       "date": "2026-08-01"
+      },
+      {
+       "id": "s5",
+       "title": "Huffines announces performance review of Comptroller's office",
+       "publisher": "Texas Comptroller of Public Accounts",
+       "url": "https://comptroller.texas.gov/about/media-center/news/20260804-huffines-announces-performance-review-of-comptrollers-office-1785876225807",
+       "date": "2026-08-04"
+      },
+      {
+       "id": "s6",
+       "title": "Texas Comptroller Don Huffines Highlights Urgent Need for Property Tax Reform at Ad Valorem Taxation Seminar",
+       "publisher": "Texas Comptroller of Public Accounts",
+       "url": "https://content.govdelivery.com/accounts/TXCOMPT/bulletins/42717e6",
+       "date": "2026-08-27"
+      },
+      {
+       "id": "s7",
+       "title": "Texas comptroller primary: Who is running and what to know",
+       "publisher": "The Texas Tribune via KSAT",
+       "url": "https://www.ksat.com/news/texas/2026/01/30/texas-comptroller-primary-who-is-running-and-what-to-know/",
+       "date": "2026-01-30"
+      },
+      {
+       "id": "s8",
+       "title": "Comptroller shakeup comes amid general election race, school voucher rollout",
+       "publisher": "CBS Austin",
+       "url": "https://cbsaustin.com/news/local/comptroller-shakeup-comes-amid-general-election-race-school-voucher-rollout",
+       "date": "2026-07-02"
+      },
+      {
+       "id": "s9",
+       "title": "Group Says Eliminating School Property Taxes is Only Path to Permanent Property Tax Cuts",
+       "publisher": "Texas Scorecard",
+       "url": "https://texasscorecard.com/state/group-says-eliminating-school-property-taxes-is-only-path-to-permanent-property-tax-cuts",
+       "date": "2024-07-16"
+      },
+      {
+       "id": "s10",
+       "title": "Don Huffines Candidate Profile",
+       "publisher": "Stateside Associates",
+       "url": "https://www.stateside.com/sites/default/files/2026-07/Donald%20Huffines%20Candidate%20Profile.pdf",
+       "date": "2026-07"
+      },
+      {
+       "id": "s11",
+       "title": "Don Huffines: 2026 candidate for Texas Comptroller",
+       "publisher": "San Antonio Report",
+       "url": "https://sanantonioreport.org/profile/don-huffines-2026-candidate-for-texas-comptroller/",
+       "date": null
+      }
+     ],
+     "research_gaps": "No questionnaire responses were found, and no documented positions were found on school funding levels, water funding or campaign contribution limits."
     },
     {
      "id": "sarah-eckhardt",
      "name": "Sarah Eckhardt",
      "party": "Democratic",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
-     "website": null,
-     "priorities": [],
-     "promises": [],
-     "record": [],
-     "notes": [],
-     "stances": {},
-     "issue_notes": [],
-     "sources": [],
-     "research_gaps": ""
+     "current_role": "Texas state senator, District 14 (Austin), since 2020",
+     "background": "Sarah Eckhardt is an attorney with a law degree and a master's in public affairs from the University of Texas at Austin. She was an assistant Travis County attorney, a Travis County commissioner (elected 2006) and Travis County judge (2015 to 2020) before winning a 2020 special election to the Texas Senate. She won the 2026 Democratic comptroller primary with about 64 percent, and she keeps her Senate seat if she loses.",
+     "website": "https://saraheckhardt.com/",
+     "priorities": [
+      {
+       "text": "Campaigns on making the comptroller a \"watchdog\" over state spending rather than \"a lapdog for the rich and powerful.\"",
+       "sources": [
+        "s2",
+        "s4"
+       ]
+      },
+      {
+       "text": "Campaigns on auditing the state's education savings account program, which she calls the \"voucher scheme.\"",
+       "sources": [
+        "s1",
+        "s2"
+       ]
+      },
+      {
+       "text": "Campaigns on stopping no-bid contracts to large donors and scrutinizing corporate tax incentives, including state incentives for AI data centers.",
+       "sources": [
+        "s2",
+        "s6"
+       ]
+      },
+      {
+       "text": "Campaigns on protecting public schools and reporting the costs of state underinvestment in education, health care and other services.",
+       "sources": [
+        "s1",
+        "s6"
+       ]
+      },
+      {
+       "text": "Campaigns on breaking what she calls 30 years of one-party rule.",
+       "sources": [
+        "s1",
+        "s5"
+       ]
+      }
+     ],
+     "promises": [
+      {
+       "text": "Says she will \"audit the daylights\" out of the school voucher program, including who receives the money and how it is spent.",
+       "sources": [
+        "s5",
+        "s4"
+       ]
+      },
+      {
+       "text": "Says that on day one she will review all no-bid contracts made under the governor's emergency orders.",
+       "sources": [
+        "s7"
+       ]
+      },
+      {
+       "text": "Says she will restore rigorous performance evaluations of state agencies.",
+       "sources": [
+        "s7"
+       ]
+      },
+      {
+       "text": "Says she will expose the cost to Texans of the state's decision not to expand Medicaid.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
+     "record": [
+      {
+       "text": "Voted against Senate Bill 2 in 2025, which created the education savings account program; all Senate Democrats opposed it.",
+       "sources": [
+        "s8"
+       ]
+      },
+      {
+       "text": "Authored an Academic Fresh Start bill that Gov. Abbott vetoed in 2023; she refiled it in 2025 and Abbott signed it.",
+       "sources": [
+        "s3"
+       ]
+      },
+      {
+       "text": "Passed a 2025 law exempting paramedics from tuition and fees at public colleges and universities.",
+       "sources": [
+        "s3"
+       ]
+      },
+      {
+       "text": "As Travis County judge, issued a March 2020 COVID-19 disaster declaration that canceled South by Southwest and a stay-at-home order.",
+       "sources": [
+        "s3"
+       ]
+      },
+      {
+       "text": "As Travis County judge, oversaw creation of the county's first public defender's office in 2019.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
+     "notes": [
+      {
+       "text": "In 2020 the State Commission on Judicial Conduct sanctioned her over a 2017 protest hat and a 2019 joke about Gov. Abbott; a special court of review overturned the sanction in 2022.",
+       "sources": [
+        "s3"
+       ]
+      },
+      {
+       "text": "Briefly ran for the 10th Congressional District in late 2025 before switching to the comptroller race on the final filing day.",
+       "sources": [
+        "s4"
+       ]
+      },
+      {
+       "text": "In September 2023 placed a statement in the Senate Journal criticizing Lt. Gov. Dan Patrick's conduct during the Paxton impeachment trial and declined to retract it.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
+     "stances": {
+      "q_vouchers": {
+       "position": -2,
+       "basis": "record",
+       "summary": "Voted against creating the education savings account program in 2025 and calls it a \"voucher scheme\" she would audit.",
+       "sources": [
+        "s8",
+        "s1"
+       ]
+      },
+      "q_school_funding": {
+       "position": 1,
+       "basis": "statement",
+       "summary": "Campaigns on protecting public schools and says underinvestment in public education has harmed Texans.",
+       "sources": [
+        "s1",
+        "s6"
+       ]
+      },
+      "q_medicaid": {
+       "position": 1,
+       "basis": "statement",
+       "summary": "Says the comptroller should expose the cost of the state's refusal to expand Medicaid.",
+       "sources": [
+        "s2"
+       ]
+      }
+     },
+     "issue_notes": [
+      {
+       "topic": "Economic Development",
+       "summary": "Says the Texas Enterprise Fund has shifted from manufacturing jobs toward investment firms and that clawbacks have declined.",
+       "sources": [
+        "s6"
+       ]
+      },
+      {
+       "topic": "Property Taxes",
+       "summary": "Her platform highlights securing senior property tax exemptions.",
+       "sources": [
+        "s7"
+       ]
+      }
+     ],
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Sarah Eckhardt for Texas Comptroller",
+       "publisher": "Sarah Eckhardt campaign",
+       "url": "https://saraheckhardt.com/",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Why I'm Running",
+       "publisher": "Sarah Eckhardt campaign",
+       "url": "https://saraheckhardt.com/why-im-running",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Sarah Eckhardt",
+       "publisher": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/Sarah_Eckhardt",
+       "date": null
+      },
+      {
+       "id": "s4",
+       "title": "State Sen. Sarah Eckhardt announces run for comptroller, dropping congressional bid",
+       "publisher": "The Texas Tribune",
+       "url": "https://www.texastribune.org/2025/12/08/sarah-eckhardt-texas-comptroller-democratic-primary-2026/",
+       "date": "2025-12-08"
+      },
+      {
+       "id": "s5",
+       "title": "Comptroller shakeup comes amid general election race, school voucher rollout",
+       "publisher": "CBS Austin",
+       "url": "https://cbsaustin.com/news/local/comptroller-shakeup-comes-amid-general-election-race-school-voucher-rollout",
+       "date": "2026-07-02"
+      },
+      {
+       "id": "s6",
+       "title": "LOCKE: A watchdog in the Comptroller's office (opinion column by the Comal County Democratic Party chair, quoting Eckhardt)",
+       "publisher": "New Braunfels Herald-Zeitung",
+       "url": "https://herald-zeitung.com/opinion/locke-a-watchdog-in-the-comptroller-s-office/article_e4124478-6b0c-475f-8b7a-a8576a8fdf28.html",
+       "date": "2026-07-31"
+      },
+      {
+       "id": "s7",
+       "title": "Sarah Eckhardt Candidate Profile",
+       "publisher": "Stateside Associates",
+       "url": "https://www.stateside.com/sites/default/files/2026-07/Sarah%20Eckhardt%20Candidate%20Profile.pdf",
+       "date": "2026-07"
+      },
+      {
+       "id": "s8",
+       "title": "Texas Senate passes school voucher bill",
+       "publisher": "The Texas Tribune",
+       "url": "https://www.texastribune.org/2025/02/05/texas-senate-school-voucher-vote",
+       "date": "2025-02-05"
+      },
+      {
+       "id": "s9",
+       "title": "Texas comptroller primary: Who is running and what to know",
+       "publisher": "The Texas Tribune via KSAT",
+       "url": "https://www.ksat.com/news/texas/2026/01/30/texas-comptroller-primary-who-is-running-and-what-to-know/",
+       "date": "2026-01-30"
+      }
+     ],
+     "research_gaps": "No questionnaire responses were found, and no documented positions were found on eliminating school property taxes, a spending cap or water funding."
     },
     {
      "id": "v-alonzo-echavarria-garza",
      "name": "V. Alonzo Echavarria-Garza",
      "party": "Libertarian",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "City manager of Hearne, Texas",
+     "background": "V. Alonzo Echavarria-Garza is the city manager of Hearne and was also the Libertarian nominee for comptroller in 2022. He is the Libertarian Party of Texas nominee for comptroller in 2026.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Reported raising $394 and having no cash on hand as of late September 2026.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Polled between 1 and 2 percent in public surveys from June to September 2026.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "The Libertarian Booster PAC helped Libertarian statewide candidates with 2026 filing fees.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": ""
+     "sources": [
+      {
+       "id": "s1",
+       "title": "2026 Texas Comptroller of Public Accounts election",
+       "publisher": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Schmidt: 9 Libertarians vie for state seats in November election",
+       "publisher": "Seguin Gazette",
+       "url": "https://seguingazette.com/opinion/community_columnists/schmidt-9-libertarians-vie-for-state-seats-in-november-election/article_1def3ed7-d65d-42cf-acb1-5fecca0a94d4.html",
+       "date": "2025-12-16"
+      }
+     ],
+     "research_gaps": "No campaign website, platform or public statements on issues were found."
     },
     {
      "id": "shehla-faizi",
      "name": "Shehla Faizi",
      "party": "Green",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
-     "website": null,
-     "priorities": [],
-     "promises": [],
+     "current_role": "Podcaster; background in public relations and marketing",
+     "background": "Shehla Faizi is a podcaster with a background in advertising, marketing journalism and public relations, and holds a bachelor's degree in graphic design. She was born in the United States, raised in Karachi, Pakistan, and moved to Texas in 2012; she lives in the Dallas-Fort Worth area. She is the Green Party nominee for comptroller.",
+     "website": "https://www.faizifortexas.com",
+     "priorities": [
+      {
+       "text": "Campaigns on making state spending transparent and the office accountable to voters rather than party leaders or donors.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Campaigns on ending state tax breaks for data centers and spending the money on disaster relief and public schools.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "Campaigns on divesting state funds from all foreign bonds, citing state investment in Israel bonds.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "Campaigns on administering school vouchers and state contracts without religious or political bias.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
+     "promises": [
+      {
+       "text": "Says she will seek legal opinions to end the state's anti-boycott (anti-BDS) contracting law, which the comptroller administers.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "Says she will seek to dismantle the comptroller's divestment statute lists and make cost the top factor in state contracting.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "Says she will challenge the legality of a state grant program that rewards sheriffs for cooperating with federal immigration enforcement.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Reported raising $7,700 and having $3,333 cash on hand as of late September 2026.",
+       "sources": [
+        "s4"
+       ]
+      },
+      {
+       "text": "Polled about 1 percent in public surveys from June to September 2026.",
+       "sources": [
+        "s4"
+       ]
+      }
+     ],
      "stances": {},
-     "issue_notes": [],
-     "sources": [],
-     "research_gaps": ""
+     "issue_notes": [
+      {
+       "topic": "Immigration",
+       "summary": "Opposes Senate Bill 8 (2025) grants, administered by the comptroller, that encourage sheriffs to cooperate with ICE, saying sheriffs should serve only local residents.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "topic": "Education Savings Accounts",
+       "summary": "Criticizes the office's handling of voucher eligibility for accredited Islamic private schools and says she would administer the program without religious bias.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Shehla Faizi for Texas State Comptroller",
+       "publisher": "Shehla Faizi campaign",
+       "url": "https://www.faizifortexas.com",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Issues",
+       "publisher": "Shehla Faizi campaign",
+       "url": "https://www.faizifortexas.com/issues",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Shehla Faizi: 2026 candidate for Texas Comptroller",
+       "publisher": "San Antonio Report",
+       "url": "https://sanantonioreport.org/profile/shehla-faizi-2026-candidate-for-texas-comptroller/",
+       "date": null
+      },
+      {
+       "id": "s4",
+       "title": "2026 Texas Comptroller of Public Accounts election",
+       "publisher": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/2026_Texas_Comptroller_of_Public_Accounts_election",
+       "date": null
+      }
+     ],
+     "research_gaps": "No news coverage or questionnaire responses were found; her positions on property taxes, school funding and water were not found."
     }
    ],
    "office": {
@@ -3621,52 +4839,448 @@
      "id": "dawn-buckingham",
      "name": "Dawn Buckingham",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
-     "website": null,
-     "priorities": [],
-     "promises": [],
-     "record": [],
-     "notes": [],
-     "stances": {},
-     "issue_notes": [],
-     "sources": [],
-     "research_gaps": ""
+     "incumbent": true,
+     "current_role": "Texas Land Commissioner since January 2023",
+     "background": "Dawn Buckingham is an oculoplastic surgeon with a bachelor's degree from the University of Texas at Austin and a medical degree from the University of Texas Medical Branch. She served on the Lake Travis ISD board and represented Senate District 24 from 2017 to 2023. She became the first woman to lead the General Land Office in 2023 and was unopposed in the 2026 Republican primary.",
+     "website": "https://dawnbuckingham.com/",
+     "priorities": [
+      {
+       "text": "Campaigns on border security, which she calls a pillar of her campaign, including use of state land for border barriers and immigration enforcement.",
+       "sources": [
+        "s1",
+        "s2"
+       ]
+      },
+      {
+       "text": "Campaigns on protecting the oil and gas industry, which she links to national security, and on developing geothermal, nuclear and natural gas power on state lands.",
+       "sources": [
+        "s1",
+        "s2"
+       ]
+      },
+      {
+       "text": "Campaigns on growing Permanent School Fund contributions to public education.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Campaigns on serving veterans through the Veterans Land Board, veterans homes and cemeteries.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Campaigns on disaster recovery and flood mitigation funding.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Campaigns on restoring the Alamo and protecting Texas history from what she calls \"revision.\"",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
+     "promises": [
+      {
+       "text": "Says she will complete a new Alamo visitor center and museum.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Says the Alamo Cenotaph \"will never be moved.\"",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Says she will protect 2.5 million oil and gas jobs.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
+     "record": [
+      {
+       "text": "Launched the Jocelyn Initiative to commit General Land Office resources to detaining and deporting people in the country illegally, and in November 2024 pledged state land to support federal deportation efforts.",
+       "sources": [
+        "s1",
+        "s2",
+        "s3"
+       ]
+      },
+      {
+       "text": "Declared Rio Grande islands Texas territory to give the Department of Public Safety operational control, and bought riverfront property for a border wall right-of-way, according to her campaign.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Ordered federal contractors to stop clearing a state border tract near Big Bend after a lawsuit from Presidio leaders.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "Says her office has delivered over $9 billion in disaster recovery, $1 billion in flood mitigation and nearly $6 billion for public education; these are campaign figures.",
+       "sources": [
+        "s1",
+        "s2"
+       ]
+      },
+      {
+       "text": "Sued the Biden administration over endangered species listings and efforts to halt liquefied natural gas exports, according to her campaign.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "As a state senator, filed a bill to impose civil penalties on faithless presidential electors.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
+     "notes": [
+      {
+       "text": "Former Alamo Trust CEO Kate Rogers left in October 2025 after Buckingham criticized an Indigenous Peoples' Day post as \"woke\"; Rogers sued Buckingham and others, and in August 2026 a federal judge allowed most claims, including a First Amendment claim against Buckingham, to proceed.",
+       "sources": [
+        "s2",
+        "s3"
+       ]
+      },
+      {
+       "text": "Endorsed by President Trump, House Speaker Dustin Burrows, the National Border Patrol Council and the Texas Oil and Gas Association; reported about $3.2 million cash on hand on June 30, 2026.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "In 2023 she relayed a Texas A&M professor's lecture remarks criticizing Lt. Gov. Dan Patrick; the professor was investigated and cleared about two weeks later.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
+     "stances": {
+      "q_border_state": {
+       "position": 2,
+       "basis": "record",
+       "summary": "Has used General Land Office land and resources for border barriers and immigration enforcement.",
+       "sources": [
+        "s1",
+        "s2"
+       ]
+      },
+      "q_fossil_priority": {
+       "position": 1,
+       "basis": "statement",
+       "summary": "Emphasizes oil, gas, geothermal and nuclear power on state lands; no statement on wind or solar was found.",
+       "sources": [
+        "s1",
+        "s2"
+       ]
+      },
+      "q_deportation": {
+       "position": 2,
+       "basis": "record",
+       "summary": "Created the Jocelyn Initiative to offer state resources for detention and deportation and pledged state land for federal deportation efforts.",
+       "sources": [
+        "s1",
+        "s3"
+       ]
+      }
+     },
+     "issue_notes": [
+      {
+       "topic": "Water",
+       "summary": "Says she wants Texas to lead on reuse of produced water from oil and gas operations.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "topic": "Alamo",
+       "summary": "Has opposed recognizing Indigenous history at the Alamo in the way the former Alamo Trust leadership proposed.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Dawn Buckingham for Texas Land Commissioner",
+       "publisher": "Dawn Buckingham campaign",
+       "url": "https://dawnbuckingham.com/",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Texas land commissioner 2026: Who is running and what you need to know",
+       "publisher": "The Texas Tribune",
+       "url": "https://www.texastribune.org/2026/09/18/texas-land-commissioner-glo-2026-buckingham/",
+       "date": "2026-09-18"
+      },
+      {
+       "id": "s3",
+       "title": "Dawn Buckingham",
+       "publisher": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/Dawn_Buckingham",
+       "date": null
+      },
+      {
+       "id": "s4",
+       "title": "Dawn Buckingham: 2026 candidate for Texas Land Commissioner",
+       "publisher": "San Antonio Report",
+       "url": "https://sanantonioreport.org/profile/dawn-buckingham-2026-candidate-for-texas-land-commissioner/",
+       "date": null
+      }
+     ],
+     "research_gaps": "No documented positions were found on oil and gas regulation, pipeline eminent domain, foreign land purchases or water funding, and no questionnaire responses were found."
     },
     {
      "id": "benjamin-flores",
      "name": "Benjamin Flores",
      "party": "Democratic",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
-     "website": null,
-     "priorities": [],
-     "promises": [],
+     "current_role": "Bay City City Council member; cybersecurity and compliance professional",
+     "background": "Benjamin Flores came to the United States from Mexico City in 1996 and built a career of about 30 years in cybersecurity and compliance in banking, finance and county government. He serves on the Bay City City Council, the Bay City Development Corporation board and the Houston-Galveston Area Council, and runs a small heritage pig farm. He left the governor's race and won the Democratic land commissioner primary with about 56 percent.",
+     "website": "https://www.letsgowithben.com/",
+     "priorities": [
+      {
+       "text": "Campaigns on increasing state land revenue for public schools to ease pressure on property taxpayers.",
+       "sources": [
+        "s1",
+        "s2"
+       ]
+      },
+      {
+       "text": "Campaigns on leasing state land to all energy producers, including oil, gas, solar, wind and geothermal.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "Campaigns on expanding Veterans Land Board services and outreach.",
+       "sources": [
+        "s1",
+        "s2"
+       ]
+      },
+      {
+       "text": "Campaigns on faster, fairer disaster recovery and on natural storm surge protection for the coast.",
+       "sources": [
+        "s1",
+        "s2"
+       ]
+      },
+      {
+       "text": "Campaigns on using land swaps to encourage affordable housing.",
+       "sources": [
+        "s2",
+        "s3"
+       ]
+      }
+     ],
+     "promises": [
+      {
+       "text": "Says he will disburse remaining Hurricane Harvey recovery funds within his first 30 days.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "Says he will audit every vendor serving veterans within his first 90 days.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "Says he will create a roster of pre-vetted Texas contractors and rapid response teams for disasters.",
+       "sources": [
+        "s2",
+        "s3"
+       ]
+      },
+      {
+       "text": "Says he will advocate for a VA hospital in the Rio Grande Valley and a veterans assisted living home in the Coastal Bend.",
+       "sources": [
+        "s1",
+        "s2"
+       ]
+      },
+      {
+       "text": "Says he will advocate for the return of deported U.S. military veterans.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "record": [],
-     "notes": [],
-     "stances": {},
-     "issue_notes": [],
-     "sources": [],
-     "research_gaps": ""
+     "notes": [
+      {
+       "text": "Endorsed by the Texas AFL-CIO, Sierra Club PAC and several Democratic state representatives; reported about $3,000 cash on hand on June 30, 2026.",
+       "sources": [
+        "s3"
+       ]
+      },
+      {
+       "text": "Announced a leukemia diagnosis in June 2026 and later said he was in remission.",
+       "sources": [
+        "s3",
+        "s5"
+       ]
+      }
+     ],
+     "stances": {
+      "q_border_state": {
+       "position": -1,
+       "basis": "reported",
+       "summary": "Criticizes the incumbent's use of General Land Office resources to obtain and transfer land for border and immigration enforcement.",
+       "sources": [
+        "s3"
+       ]
+      },
+      "q_fossil_priority": {
+       "position": 0,
+       "basis": "statement",
+       "summary": "Says the office should welcome every kind of energy producer, including oil, gas, solar, wind and geothermal.",
+       "sources": [
+        "s2"
+       ]
+      },
+      "q_vouchers": {
+       "position": -2,
+       "basis": "reported",
+       "summary": "Opposes school vouchers.",
+       "sources": [
+        "s3"
+       ]
+      }
+     },
+     "issue_notes": [
+      {
+       "topic": "Alamo",
+       "summary": "Opposed the ouster of former Alamo Trust CEO Kate Rogers.",
+       "sources": [
+        "s3"
+       ]
+      },
+      {
+       "topic": "Data Centers",
+       "summary": "Would encourage data center developers to lease state land.",
+       "sources": [
+        "s3"
+       ]
+      },
+      {
+       "topic": "Redistricting",
+       "summary": "Opposed the 2025 mid-decade congressional redistricting; the land commissioner sits on the Legislative Redistricting Board.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Benjamin Flores for Texas Land Commissioner",
+       "publisher": "Benjamin Flores campaign",
+       "url": "https://www.letsgowithben.com/",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "The Flores Plan: GLO 2030",
+       "publisher": "Benjamin Flores campaign",
+       "url": "https://www.letsgowithben.com/s/Flores-4-Tx-GLO-2030-Plan_web.pdf",
+       "date": "2026-02"
+      },
+      {
+       "id": "s3",
+       "title": "Texas land commissioner 2026: Who is running and what you need to know",
+       "publisher": "The Texas Tribune",
+       "url": "https://www.texastribune.org/2026/09/18/texas-land-commissioner-glo-2026-buckingham/",
+       "date": "2026-09-18"
+      },
+      {
+       "id": "s4",
+       "title": "Benjamin Flores: 2026 candidate for Texas Land Commissioner",
+       "publisher": "San Antonio Report",
+       "url": "https://sanantonioreport.org/profile/benjamin-flores-2026-candidate-for-texas-land-commissioner/",
+       "date": null
+      },
+      {
+       "id": "s5",
+       "title": "2026 Texas Land Commissioner election",
+       "publisher": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/2026_Texas_Land_Commissioner_election",
+       "date": null
+      }
+     ],
+     "research_gaps": "No documented positions were found on oil and gas regulation, eminent domain, foreign land purchases or water funding."
     },
     {
      "id": "neill-snider",
      "name": "Neill Snider",
      "party": "Libertarian",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
-     "website": null,
-     "priorities": [],
+     "current_role": "Mechanical contractor",
+     "background": "Neill Snider is a mechanical contractor from Waco with about four decades in the trades, and his family runs a small cattle operation. He is the Libertarian Party of Texas nominee for land commissioner.",
+     "website": "https://www.neillsnider.com",
+     "priorities": [
+      {
+       "text": "Campaigns on reducing taxes by maximizing revenue from state land or selling it.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Campaigns on responsible energy production and fair leasing on state land.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Campaigns on more transparency at the General Land Office.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Reported $0 cash on hand on June 30, 2026, and $694 in in-kind support from the Libertarian Booster PAC.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": ""
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Texas land commissioner 2026: Who is running and what you need to know",
+       "publisher": "The Texas Tribune",
+       "url": "https://www.texastribune.org/2026/09/18/texas-land-commissioner-glo-2026-buckingham/",
+       "date": "2026-09-18"
+      },
+      {
+       "id": "s2",
+       "title": "Neill Snider: 2026 candidate for Texas Land Commissioner",
+       "publisher": "San Antonio Report",
+       "url": "https://sanantonioreport.org/profile/neill-snider-2026-candidate-for-texas-land-commissioner/",
+       "date": null
+      }
+     ],
+     "research_gaps": "His campaign website could not be loaded, and no positions were found on the border, energy mix, eminent domain or foreign land purchases."
     }
    ],
    "office": {
@@ -3692,51 +5306,326 @@
      "name": "Nate Sheets",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
-     "website": null,
-     "priorities": [],
-     "promises": [],
+     "current_role": "Businessman and rancher; founder and former CEO of a national honey company",
+     "background": "Nate Sheets founded a national raw honey brand, which he later sold to a private equity firm, after earlier running a Dallas advertising agency and working as communications director for an evangelical ministry. He served six years in the U.S. Naval Reserve, graduated from Texas State University and owns a ranch. A first-time candidate, he defeated three-term incumbent Sid Miller in the March 2026 Republican primary.",
+     "website": "https://natesheets.com/",
+     "priorities": [
+      {
+       "text": "Campaigns on refocusing the department on farmers and ranchers rather than social media, noting Texas lost 18,000 farmers and ranchers since 2018.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "Campaigns on \"clean, honest food\" and accurate food labels, aligned with the Make America Healthy Again movement.",
+       "sources": [
+        "s1",
+        "s4"
+       ]
+      },
+      {
+       "text": "Campaigns on lowering agency fees and easing some agricultural regulations.",
+       "sources": [
+        "s3"
+       ]
+      },
+      {
+       "text": "Campaigns on responding to water problems, the New World screwworm and the pasture mealybug.",
+       "sources": [
+        "s3"
+       ]
+      },
+      {
+       "text": "Campaigns on helping rural farmers return to profitability.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
+     "promises": [
+      {
+       "text": "Says he will remove department employees aligned with Sid Miller and reshape the agency's culture.",
+       "sources": [
+        "s3"
+       ]
+      },
+      {
+       "text": "Says he will overhaul the Go Texan marketing program and fix the state school lunch program.",
+       "sources": [
+        "s3"
+       ]
+      },
+      {
+       "text": "Says he will consult USDA Secretary Brooke Rollins and Texas experts on the screwworm response.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Endorsed by Gov. Greg Abbott, the Texas Farm Bureau, the Texas and Southwestern Cattle Raisers Association and Land Commissioner Dawn Buckingham.",
+       "sources": [
+        "s2",
+        "s4"
+       ]
+      },
+      {
+       "text": "Was previously a donor to Sid Miller, giving $35,000 to his campaigns, before challenging him.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "Endorsed by the Houston Chronicle editorial board in September 2026.",
+       "sources": [
+        "s8"
+       ]
+      },
+      {
+       "text": "Said little about data center growth during the primary, a major issue in the race.",
+       "sources": [
+        "s6",
+        "s7"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": ""
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Nate Sheets for Texas Agriculture Commissioner",
+       "publisher": "Nate Sheets campaign",
+       "url": "https://natesheets.com/",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "\"Tolerance for criminality\": Why top Republicans are turning on Texas Agriculture Commissioner Sid Miller",
+       "publisher": "The Texas Tribune",
+       "url": "https://www.texastribune.org/2026/02/06/texas-agriculture-commissioner-sid-miller-nate-sheets-2026-gop-primary/",
+       "date": "2026-02-06"
+      },
+      {
+       "id": "s3",
+       "title": "Nate Sheets promises to fire everyone linked to Sid Miller at Texas agriculture department after primary win",
+       "publisher": "The Texas Tribune via KWTX",
+       "url": "https://www.kwtx.com/2026/03/04/nate-sheets-promises-fire-everyone-linked-sid-miller-texas-agriculture-department-after-primary-win",
+       "date": "2026-03-04"
+      },
+      {
+       "id": "s4",
+       "title": "Nate Sheets defeats three-term incumbent Sid Miller in GOP primary for Texas agriculture commissioner",
+       "publisher": "The Texas Tribune",
+       "url": "https://www.texastribune.org/2026/03/04/sid-miller-nate-sheets-texas-agricultural-commissioner-republican-primary-2/",
+       "date": "2026-03-04"
+      },
+      {
+       "id": "s5",
+       "title": "Nate Sheets: 2026 candidate for Texas Agriculture Commissioner",
+       "publisher": "San Antonio Report",
+       "url": "https://sanantonioreport.org/profile/nate-sheets-2026-candidate-for-texas-agriculture-commissioner/",
+       "date": null
+      },
+      {
+       "id": "s6",
+       "title": "Sid Miller to join Democratic nominee for agriculture commissioner at data center forum",
+       "publisher": "The Texas Tribune",
+       "url": "https://www.texastribune.org/2026/06/02/sid-miller-clayton-tucker-texas-data-center-forum/",
+       "date": "2026-06-02"
+      },
+      {
+       "id": "s7",
+       "title": "Texas Republican Primary Reveals the Politics of AI Data Centers",
+       "publisher": "Industry Insider Texas",
+       "url": "https://insider.govtech.com/texas/news/texas-republican-primary-reveals-the-politics-of-ai-data-centers",
+       "date": "2026-03-06"
+      },
+      {
+       "id": "s8",
+       "title": "2026 Texas Commissioner of Agriculture election",
+       "publisher": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/2026_Texas_Commissioner_of_Agriculture_election",
+       "date": null
+      }
+     ],
+     "research_gaps": "No documented positions were found on hemp-derived THC, eminent domain, foreign land purchases, water funding or ethics rules, and no questionnaire responses were found."
     },
     {
      "id": "clayton-tucker",
      "name": "Clayton Tucker",
      "party": "Democratic",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
-     "website": null,
-     "priorities": [],
+     "current_role": "Rancher in Lampasas",
+     "background": "Clayton Tucker is a rancher in Lampasas who worked as a water researcher for the National Science Foundation. He founded the Texas Progressive Caucus, serves on the State Democratic Executive Committee and ran unsuccessfully for a Texas Senate seat in 2020. He is the 2026 Democratic nominee.",
+     "website": "https://www.claytontuckertx.com/",
+     "priorities": [
+      {
+       "text": "Campaigns on opposing the spread of data centers in rural areas, saying farmers and rural residents bear the costs of development that benefits \"the greedy few.\"",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "Has called for a temporary suspension of the state gas tax.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Former Agriculture Commissioner Sid Miller, a Republican, praised Tucker's data center position at a June 2026 forum, saying \"this guy, he's right on the issue,\" while stating he would not endorse a Democrat.",
+       "sources": [
+        "s3"
+       ]
+      },
+      {
+       "text": "Wikipedia describes a moratorium on new data center construction as a main plank of his campaign.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
      "stances": {},
-     "issue_notes": [],
-     "sources": [],
-     "research_gaps": ""
+     "issue_notes": [
+      {
+       "topic": "Data Centers",
+       "summary": "Solicits tips from residents about planned data centers and whether local officials are disclosing them.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Clayton Tucker: 2026 candidate for Texas Agriculture Commissioner",
+       "publisher": "San Antonio Report",
+       "url": "https://sanantonioreport.org/profile/clayton-tucker-2026-candidate-for-texas-agriculture-commissioner/",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Sid Miller to join Democratic nominee for agriculture commissioner at data center forum",
+       "publisher": "The Texas Tribune",
+       "url": "https://www.texastribune.org/2026/06/02/sid-miller-clayton-tucker-texas-data-center-forum/",
+       "date": "2026-06-02"
+      },
+      {
+       "id": "s3",
+       "title": "2026 Texas Commissioner of Agriculture election",
+       "publisher": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/2026_Texas_Commissioner_of_Agriculture_election",
+       "date": null
+      }
+     ],
+     "research_gaps": "His campaign website blocked automated access, and no documented positions were found on hemp-derived THC, eminent domain, foreign land purchases, water funding or ethics."
     },
     {
      "id": "austin-r-kelly",
      "name": "Austin R. Kelly",
      "party": "Libertarian",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
-     "website": null,
-     "priorities": [],
-     "promises": [],
+     "current_role": "Owner of ARK Ecological Consulting; doctoral candidate at Texas A&M University",
+     "background": "Austin R. Kelly owns an environmental consulting business and lives in Bandera. He is working on a doctorate in ecology and conservation biology at Texas A&M University. He won the Libertarian nomination unopposed at the party's April 2026 convention.",
+     "website": "https://www.kellyfortx.com",
+     "priorities": [
+      {
+       "text": "Campaigns on water conservation and aquifer health, saying \"Texas is drying up, and slogans won't fix it.\"",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Campaigns on reducing regulation of farms and ranches.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Campaigns on ending subsidies that \"pick winners and losers\" and on efficient use of the department budget.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Campaigns on a science-based approach to the department.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
+     "promises": [
+      {
+       "text": "Says he will protect landowners from eminent domain abuse.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Says he will remove barriers so producers can sell what they grow.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "record": [],
-     "notes": [],
-     "stances": {},
-     "issue_notes": [],
-     "sources": [],
-     "research_gaps": ""
+     "notes": [
+      {
+       "text": "Polled about 1 to 2 percent in public surveys in 2026.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
+     "stances": {
+      "q_eminent_domain": {
+       "position": 1,
+       "basis": "statement",
+       "summary": "Pledges to protect property owners from eminent domain abuse.",
+       "sources": [
+        "s1"
+       ]
+      }
+     },
+     "issue_notes": [
+      {
+       "topic": "Water",
+       "summary": "Opposes the state taking groundwater rights and supports field-tested conservation strategies.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Austin R. Kelly for Texas Agriculture Commissioner",
+       "publisher": "Austin Kelly campaign",
+       "url": "https://www.kellyfortx.com",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Austin R. Kelly: 2026 candidate for Texas Agriculture Commissioner",
+       "publisher": "San Antonio Report",
+       "url": "https://sanantonioreport.org/profile/austin-r-kelly-2026-candidate-for-texas-agriculture-commissioner/",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "2026 Texas Commissioner of Agriculture election",
+       "publisher": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/2026_Texas_Commissioner_of_Agriculture_election",
+       "date": null
+      }
+     ],
+     "research_gaps": "No news coverage was found, and his positions on hemp-derived THC and foreign land purchases were not found."
     }
    ],
    "office": {
@@ -3762,51 +5651,554 @@
      "name": "Bo French",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
-     "website": null,
-     "priorities": [],
-     "promises": [],
+     "current_role": "Investor; former chair of the Tarrant County Republican Party",
+     "background": "Bo French grew up in Midland in an oil family, worked as an energy trader for about a decade starting in 1994, and later owned security businesses in the Middle East and worked in private equity. He chaired the Tarrant County Republican Party from 2023 until resigning to run statewide in 2025. He narrowly defeated incumbent Railroad Commissioner Jim Wright in the May 2026 Republican runoff.",
+     "website": "https://bofrench.com/",
+     "priorities": [
+      {
+       "text": "Campaigns on protecting the oil and gas industry, which he calls \"the most important industry on the planet.\"",
+       "sources": [
+        "s1",
+        "s5"
+       ]
+      },
+      {
+       "text": "Campaigns on ending diversity, equity and inclusion programs, funding and contracting practices at the commission.",
+       "sources": [
+        "s1",
+        "s2",
+        "s7"
+       ]
+      },
+      {
+       "text": "Campaigns on reducing what he calls \"overbearing regulation\" of oil and gas operators.",
+       "sources": [
+        "s1",
+        "s7"
+       ]
+      },
+      {
+       "text": "Campaigns on ending Chinese government influence in the Texas oil industry and stopping what he calls an \"Islamic invasion\" of Texas.",
+       "sources": [
+        "s1",
+        "s2",
+        "s5"
+       ]
+      },
+      {
+       "text": "Campaigns on a \"pro-family credentialing program\" for operators and on promoting U.S.-Israel partnerships.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
+     "promises": [
+      {
+       "text": "Says his first legislative priority as commissioner will be expanding Senate Bill 17, the 2025 foreign land ownership law, to include Muslim-majority countries.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Says he will enforce the state ban on land ownership by hostile foreign interests.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "record": [],
-     "notes": [],
-     "stances": {},
+     "notes": [
+      {
+       "text": "Endorsed after the runoff by Gov. Abbott, Lt. Gov. Patrick, Railroad Commissioners Wayne Christian and Christi Craddick, and the Texas Oil and Gas Association PAC.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "Major donors include a PAC backed by Tim Dunn and Farris Wilks, which gave $773,500 by June 30, 2026.",
+       "sources": [
+        "s2",
+        "s6"
+       ]
+      },
+      {
+       "text": "In 2024 fellow Republicans condemned his repeated use of slurs against political opponents in social media posts, and he drew calls to resign as county chair after a poll asking whether Jews or Muslims were a bigger threat to America.",
+       "sources": [
+        "s2",
+        "s5"
+       ]
+      },
+      {
+       "text": "At CPAC in 2026 he said Texas should ban Islam and called for deporting 100 million people; he has also said Texas should not recognize children born to undocumented parents as citizens.",
+       "sources": [
+        "s2",
+        "s4"
+       ]
+      },
+      {
+       "text": "A September 2026 post calling UT student fans \"foreigners\" who displaced Americans drew criticism from several Republicans; Karl Rove and U.S. Sen. John Cornyn said they would not vote for him. French stood by the remark.",
+       "sources": [
+        "s3",
+        "s9"
+       ]
+      },
+      {
+       "text": "Has not confirmed participation in an October 22 debate that Jon Rosenthal announced.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
+     "stances": {
+      "q_oilgas_rules": {
+       "position": -1,
+       "basis": "statement",
+       "summary": "Pledges to reduce regulations on oil and gas operators; no statement specific to flaring, methane or well plugging was found.",
+       "sources": [
+        "s1",
+        "s7"
+       ]
+      },
+      "q_foreign_land": {
+       "position": 2,
+       "basis": "statement",
+       "summary": "Pledges to enforce the foreign land ownership ban and expand it to Muslim-majority countries.",
+       "sources": [
+        "s1"
+       ]
+      },
+      "q_deportation": {
+       "position": 2,
+       "basis": "statement",
+       "summary": "Called for deporting 100 million people at CPAC in 2026.",
+       "sources": [
+        "s2",
+        "s4"
+       ]
+      },
+      "q_abortion": {
+       "position": -1,
+       "basis": "reported",
+       "summary": "Supports \"pro-life\" efforts, according to the Tribune.",
+       "sources": [
+        "s2"
+       ]
+      }
+     },
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": ""
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Bo French for Railroad Commissioner",
+       "publisher": "Bo French campaign",
+       "url": "https://bofrench.com/",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Texas Railroad Commission 2026: What it does and who's running in the race",
+       "publisher": "The Texas Tribune",
+       "url": "https://www.texastribune.org/2026/09/15/texas-railroad-commission-election-2026-bo-french-jon-rosenthal/",
+       "date": "2026-09-15"
+      },
+      {
+       "id": "s3",
+       "title": "Jon Rosenthal says he and Bo French agreed to first major debate between Texas statewide candidates",
+       "publisher": "The Texas Tribune",
+       "url": "https://www.texastribune.org/2026/09/25/bo-french-jon-rosenthal-debate-texas-railroad-commissioner/",
+       "date": "2026-09-25"
+      },
+      {
+       "id": "s4",
+       "title": "What does firebrand Bo French's railroad commission nomination say about the state of the GOP?",
+       "publisher": "Texas Standard",
+       "url": "https://texasstandard.org/stories/bo-french-texas-railroad-commission-nomination-statements-islam-lgbtq/",
+       "date": "2026-05-28"
+      },
+      {
+       "id": "s5",
+       "title": "Tarrant County GOP Chair Bo French announces run for Texas Railroad Commission",
+       "publisher": "The Texas Tribune",
+       "url": "https://www.texastribune.org/2025/11/12/bo-french-texas-railroad-commission-republican-primary-2026/",
+       "date": "2025-11-12"
+      },
+      {
+       "id": "s6",
+       "title": "Democrat Jon Rosenthal outraises Bo French in Railroad Commission race in latest report",
+       "publisher": "The Texas Tribune via KSAT",
+       "url": "https://www.ksat.com/news/texas/2026/10/06/democrat-jon-rosenthal-outraises-bo-french-in-railroad-commission-race-in-latest-report/",
+       "date": "2026-10-06"
+      },
+      {
+       "id": "s7",
+       "title": "Texas Railroad Commission race pits GOP activist against oil field engineer",
+       "publisher": "Texas Public Radio",
+       "url": "https://www.tpr.org/podcast/the-source/2026-10-12/texas-railroad-commission-race-pits-gop-activist-against-oil-field-engineer",
+       "date": "2026-10-12"
+      },
+      {
+       "id": "s8",
+       "title": "Bo French: 2026 candidate for Texas Railroad Commissioner",
+       "publisher": "San Antonio Report",
+       "url": "https://sanantonioreport.org/profile/bo-french-2026-candidate-for-texas-railroad-commissioner/",
+       "date": null
+      },
+      {
+       "id": "s9",
+       "title": "2026 Texas Railroad Commissioner election",
+       "publisher": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election",
+       "date": null
+      }
+     ],
+     "research_gaps": "No specific positions were found on flaring, methane, orphaned wells, produced water, gas weatherization, pipeline eminent domain or the energy mix."
     },
     {
      "id": "jon-rosenthal",
      "name": "Jon Rosenthal",
      "party": "Democratic",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
-     "website": null,
-     "priorities": [],
-     "promises": [],
-     "record": [],
-     "notes": [],
-     "stances": {},
-     "issue_notes": [],
-     "sources": [],
-     "research_gaps": ""
+     "current_role": "Texas state representative, District 135 (northwest Houston), since 2019",
+     "background": "Jon Rosenthal is an oil field mechanical engineer with more than 20 years in and around the oil and gas industry as an engineer, project manager and team leader. He has represented House District 135, around Cypress, since 2019 and is serving his fourth term. He was unopposed in the 2026 Democratic primary and did not seek reelection to the House.",
+     "website": "https://jonrosenthaltx.com/",
+     "priorities": [
+      {
+       "text": "Campaigns on enforcing existing commission rules and barring new permits for companies that violate them.",
+       "sources": [
+        "s6"
+       ]
+      },
+      {
+       "text": "Campaigns on ending routine flaring and venting of natural gas except in emergencies, with leak detection requirements and help for small operators.",
+       "sources": [
+        "s3",
+        "s6"
+       ]
+      },
+      {
+       "text": "Campaigns on fair, predictable gas utility rates, opposing junk fees and charges for preventable storm failures.",
+       "sources": [
+        "s5",
+        "s6"
+       ]
+      },
+      {
+       "text": "Campaigns on a more accessible commission with regional liaisons, evening hearings and language access.",
+       "sources": [
+        "s2",
+        "s6"
+       ]
+      },
+      {
+       "text": "Calls himself a \"drill, baby, drill\" Democrat who supports an \"all of the above\" energy strategy.",
+       "sources": [
+        "s3",
+        "s9"
+       ]
+      }
+     ],
+     "promises": [
+      {
+       "text": "Says he will require gas capture with enforceable timelines, supported by compliance clinics for small operators.",
+       "sources": [
+        "s3",
+        "s6"
+       ]
+      },
+      {
+       "text": "Says he will expand well plugging, seek more industry funding for it and publish public dashboards.",
+       "sources": [
+        "s6",
+        "s8"
+       ]
+      },
+      {
+       "text": "Says he will apply stricter prudence reviews before utilities recover extraordinary costs and require plain-language bills.",
+       "sources": [
+        "s5"
+       ]
+      },
+      {
+       "text": "Says he will set up a 24/7 complaint hotline with case tracking and neighborhood air monitoring pilots.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "Says he will strengthen enforcement of natural gas weatherization requirements.",
+       "sources": [
+        "s8"
+       ]
+      },
+      {
+       "text": "Says data centers should file water and power resource plans before construction and should not be built next to homes.",
+       "sources": [
+        "s4"
+       ]
+      }
+     ],
+     "record": [
+      {
+       "text": "Has served in the Texas House since 2019, representing a northwest Houston district.",
+       "sources": [
+        "s7"
+       ]
+      }
+     ],
+     "notes": [
+      {
+       "text": "Endorsed by the Sierra Club, Texas AFL-CIO, the Houston Chronicle and Austin American-Statesman editorial boards, and former GOP Railroad Commission candidate Hawk Dunlap; Republican strategist Karl Rove said he would vote for him.",
+       "sources": [
+        "s6",
+        "s11"
+       ]
+      },
+      {
+       "text": "Outraised French in the third quarter of 2026, with about $488,000; neither candidate received money from major oil and gas industry PACs in that period.",
+       "sources": [
+        "s9"
+       ]
+      },
+      {
+       "text": "French's campaign linked Rosenthal to the Bolshevik Revolution, a claim the Forward criticized as antisemitic.",
+       "sources": [
+        "s6"
+       ]
+      }
+     ],
+     "stances": {
+      "q_oilgas_rules": {
+       "position": 2,
+       "basis": "statement",
+       "summary": "Proposes ending routine flaring and venting, adding leak detection rules, expanding well plugging with more industry funding and barring permits for violators.",
+       "sources": [
+        "s3",
+        "s6",
+        "s8"
+       ]
+      },
+      "q_fossil_priority": {
+       "position": 0,
+       "basis": "statement",
+       "summary": "Backs an \"all of the above\" energy strategy, supports oil and gas production and geothermal, and has said federal clean energy laws helped meet energy needs.",
+       "sources": [
+        "s3",
+        "s6",
+        "s9"
+       ]
+      },
+      "q_ethics": {
+       "position": 1,
+       "basis": "reported",
+       "summary": "Says he wants to reduce the influence of industry money and lobbyists on the commission.",
+       "sources": [
+        "s7"
+       ]
+      }
+     },
+     "issue_notes": [
+      {
+       "topic": "Data Centers",
+       "summary": "Supports statewide rules for data centers combined with a local right to disallow construction.",
+       "sources": [
+        "s4"
+       ]
+      }
+     ],
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Jon Rosenthal for Railroad Commissioner",
+       "publisher": "Jon Rosenthal campaign",
+       "url": "https://jonrosenthaltx.com/",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "A Commission That Listens",
+       "publisher": "Jon Rosenthal campaign",
+       "url": "https://jonrosenthaltx.com/priority/a-commission-that-listens/",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Texas Energy Leadership and Good Jobs",
+       "publisher": "Jon Rosenthal campaign",
+       "url": "https://jonrosenthaltx.com/priority/texas-energy-leadership-good-jobs/",
+       "date": null
+      },
+      {
+       "id": "s4",
+       "title": "Data Center Policy",
+       "publisher": "Jon Rosenthal campaign",
+       "url": "https://jonrosenthaltx.com/priority/data-center-policy/",
+       "date": null
+      },
+      {
+       "id": "s5",
+       "title": "Fair, Affordable Gas Utility Rates",
+       "publisher": "Jon Rosenthal campaign",
+       "url": "https://jonrosenthaltx.com/priority/fair-affordable-gas-utility-rates/",
+       "date": null
+      },
+      {
+       "id": "s6",
+       "title": "Texas Railroad Commission 2026: What it does and who's running in the race",
+       "publisher": "The Texas Tribune",
+       "url": "https://www.texastribune.org/2026/09/15/texas-railroad-commission-election-2026-bo-french-jon-rosenthal/",
+       "date": "2026-09-15"
+      },
+      {
+       "id": "s7",
+       "title": "Democratic Rep. Jon Rosenthal will run for Texas Railroad Commission",
+       "publisher": "The Texas Tribune",
+       "url": "https://www.texastribune.org/2025/09/29/jon-rosenthal-texas-railroad-commission-democrat-legislature-2026/",
+       "date": "2025-09-29"
+      },
+      {
+       "id": "s8",
+       "title": "Texas Railroad Commission race pits GOP activist against oil field engineer",
+       "publisher": "Texas Public Radio",
+       "url": "https://www.tpr.org/podcast/the-source/2026-10-12/texas-railroad-commission-race-pits-gop-activist-against-oil-field-engineer",
+       "date": "2026-10-12"
+      },
+      {
+       "id": "s9",
+       "title": "Democrat Jon Rosenthal outraises Bo French in Railroad Commission race in latest report",
+       "publisher": "The Texas Tribune via KSAT",
+       "url": "https://www.ksat.com/news/texas/2026/10/06/democrat-jon-rosenthal-outraises-bo-french-in-railroad-commission-race-in-latest-report/",
+       "date": "2026-10-06"
+      },
+      {
+       "id": "s10",
+       "title": "Jon Rosenthal: 2026 candidate for Texas Railroad Commissioner",
+       "publisher": "San Antonio Report",
+       "url": "https://sanantonioreport.org/profile/jon-rosenthal-2026-candidate-for-texas-railroad-commissioner/",
+       "date": null
+      },
+      {
+       "id": "s11",
+       "title": "2026 Texas Railroad Commissioner election",
+       "publisher": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election",
+       "date": null
+      }
+     ],
+     "research_gaps": "Specific House bills and votes could not be verified because Texas Legislature Online and Ballotpedia pages were not retrieved, and no position on pipeline eminent domain was found."
     },
     {
      "id": "arthur-dibianca",
      "name": "Arthur DiBianca",
      "party": "Libertarian",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
-     "website": null,
-     "priorities": [],
+     "current_role": "Retired computer programmer",
+     "background": "Arthur DiBianca is a retired computer programmer and longtime Libertarian Party activist who lives in Austin. He previously ran as a Libertarian for Texas Senate District 21 in 2022, Congressional District 21 in 2020 and Texas House District 51 in 2014.",
+     "website": "https://www.votedibianca.com",
+     "priorities": [
+      {
+       "text": "Campaigns on a free-market energy policy with no subsidies or mandates for any energy source.",
+       "sources": [
+        "s1",
+        "s2"
+       ]
+      },
+      {
+       "text": "Campaigns on competitive access to pipelines and markets rather than monopoly protections.",
+       "sources": [
+        "s1",
+        "s2"
+       ]
+      },
+      {
+       "text": "Campaigns on protecting mineral and surface owners from eminent domain abuse.",
+       "sources": [
+        "s1",
+        "s2"
+       ]
+      },
+      {
+       "text": "Campaigns on holding operators accountable for plugging and cleanup through bonding and insurance rather than taxpayer funds.",
+       "sources": [
+        "s1",
+        "s2"
+       ]
+      }
+     ],
      "promises": [],
      "record": [],
-     "notes": [],
-     "stances": {},
+     "notes": [
+      {
+       "text": "Reported $0 cash on hand on June 30, 2026, and $694 in in-kind support from the Libertarian Booster PAC.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "Polled 2 to 3 percent in public surveys in 2026.",
+       "sources": [
+        "s4"
+       ]
+      }
+     ],
+     "stances": {
+      "q_fossil_priority": {
+       "position": -1,
+       "basis": "statement",
+       "summary": "Says government should not favor any energy source, opposing subsidies and mandates for oil, gas, wind, solar or nuclear.",
+       "sources": [
+        "s1"
+       ]
+      },
+      "q_oilgas_rules": {
+       "position": 0,
+       "basis": "statement",
+       "summary": "Wants operators held fully accountable for well plugging and cleanup through bonding and insurance, while favoring smaller government overall.",
+       "sources": [
+        "s1",
+        "s2"
+       ]
+      },
+      "q_eminent_domain": {
+       "position": 1,
+       "basis": "statement",
+       "summary": "Says he will shield mineral and surface owners from eminent domain abuse.",
+       "sources": [
+        "s1"
+       ]
+      }
+     },
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": ""
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Arthur DiBianca for Railroad Commissioner",
+       "publisher": "Arthur DiBianca campaign",
+       "url": "https://www.votedibianca.com",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Texas Railroad Commission 2026: What it does and who's running in the race",
+       "publisher": "The Texas Tribune",
+       "url": "https://www.texastribune.org/2026/09/15/texas-railroad-commission-election-2026-bo-french-jon-rosenthal/",
+       "date": "2026-09-15"
+      },
+      {
+       "id": "s3",
+       "title": "Arthur DiBianca: 2026 candidate for Texas Railroad Commissioner",
+       "publisher": "San Antonio Report",
+       "url": "https://sanantonioreport.org/profile/arthur-dibianca-2026-candidate-for-texas-railroad-commissioner/",
+       "date": null
+      },
+      {
+       "id": "s4",
+       "title": "2026 Texas Railroad Commissioner election",
+       "publisher": "Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/2026_Texas_Railroad_Commissioner_election",
+       "date": null
+      }
+     ],
+     "research_gaps": "No positions were found on flaring, gas weatherization or ethics rules."
     }
    ],
    "office": {
@@ -10770,14 +13162,7 @@
      "website": null,
      "priorities": [],
      "promises": [],
-     "record": [
-      {
-       "text": "The Commissioners Court unanimously selected her from four candidates in January 2024 to fill the probate bench.",
-       "sources": [
-        "s2"
-       ]
-      }
-     ],
+     "record": [],
      "notes": [
       {
        "text": "Unopposed in the November 2026 general election.",
@@ -10795,13 +13180,6 @@
        "publisher": "Branch Politics",
        "url": "https://branch.vote/races/2026-texas-general-election-tx-state-probate-court-judge-tx-county-collin/candidates/sarah-r-duff",
        "date": "2026-07"
-      },
-      {
-       "id": "s2",
-       "title": "Sarah Duff swears in as Collin County's new probate judge after competitive selection",
-       "publisher": "Hoodline",
-       "url": "https://hoodline.com/2024/01/sarah-duff-swears-in-as-collin-county-s-new-probate-judge-after-competitive-selection/",
-       "date": "2024-01-24"
       }
      ],
      "research_gaps": "No campaign website, stated judicial philosophy, notable rulings, or bar poll results were found."

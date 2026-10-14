@@ -1,2320 +1,2279 @@
 {
-  "candidates": [
+ "candidates": [
+  {
+   "id": "keith-self",
+   "race_id": "us-house-3",
+   "incumbent": true,
+   "current_role": "U.S. Representative for Texas's 3rd Congressional District since 2023",
+   "background": "Keith Self is a retired U.S. Army lieutenant colonel with a 25-year military career and a graduate of the U.S. Military Academy at West Point. He served as Collin County Judge from 2007 to 2018. In Congress he chairs the House Foreign Affairs Subcommittee on Europe.",
+   "website": "https://keithself.com/",
+   "priorities": [
     {
-      "id": "keith-self",
-      "race_id": "us-house-3",
-      "incumbent": true,
-      "current_role": "U.S. Representative for Texas's 3rd Congressional District since 2023",
-      "background": "Keith Self is a retired U.S. Army lieutenant colonel with a 25-year military career and a graduate of the U.S. Military Academy at West Point. He served as Collin County Judge from 2007 to 2018. In Congress he chairs the House Foreign Affairs Subcommittee on Europe.",
-      "website": "https://keithself.com/",
-      "priorities": [
-        {
-          "text": "Campaigns on advancing President Trump's America First agenda.",
-          "sources": [
-            "s1"
-          ]
-        },
-        {
-          "text": "Says he will keep working to lower taxes, cut wasteful spending and reduce the size of government.",
-          "sources": [
-            "s2"
-          ]
-        },
-        {
-          "text": "Campaigns on border security, including support for state border operations and federal reimbursement to Texas.",
-          "sources": [
-            "s2"
-          ]
-        },
-        {
-          "text": "Campaigns on energy independence and opposing Green New Deal policies.",
-          "sources": [
-            "s2"
-          ]
-        },
-        {
-          "text": "Campaigns on election integrity, including photo ID to vote and a paper trail for voting machines.",
-          "sources": [
-            "s2"
-          ]
-        },
-        {
-          "text": "Campaigns on what he calls stopping the growing influence of Sharia in Texas and the nation.",
-          "sources": [
-            "s2"
-          ]
-        }
-      ],
-      "promises": [
-        {
-          "text": "Says he will fight all efforts to curtail constitutional gun rights.",
-          "sources": [
-            "s2"
-          ]
-        },
-        {
-          "text": "Says he insists that all future voting machines include a paper trail.",
-          "sources": [
-            "s2"
-          ]
-        }
-      ],
-      "record": [
-        {
-          "text": "Voted for the One Big Beautiful Bill Act on House passage in May 2025 and on final passage on July 3, 2025, and said the House Freedom Caucus secured nearly $1 trillion in Medicaid savings.",
-          "sources": [
-            "s3",
-            "s4",
-            "s5"
-          ]
-        },
-        {
-          "text": "Voted for the Laken Riley Act in January 2025.",
-          "sources": [
-            "s6"
-          ]
-        },
-        {
-          "text": "Voted for continuing resolutions in March 2025 (H.R. 1968), September and November 2025 (H.R. 5371) and July 2026 (H.R. 9770); his campaign site says he has consistently opposed continuing resolutions.",
-          "sources": [
-            "s2",
-            "s21",
-            "s22",
-            "s23",
-            "s24"
-          ]
-        },
-        {
-          "text": "Voted for the SAVE Act, which requires proof of citizenship to register to vote in federal elections, in April 2025.",
-          "sources": [
-            "s7"
-          ]
-        },
-        {
-          "text": "Voted for the Protect Children's Innocence Act (H.R. 3492) in December 2025, which would make certain gender transition treatments for minors a federal crime.",
-          "sources": [
-            "s8",
-            "s9"
-          ]
-        },
-        {
-          "text": "Voted for the Do No Harm in Medicaid Act (H.R. 498) in December 2025.",
-          "sources": [
-            "s10"
-          ]
-        },
-        {
-          "text": "Voted against H.J.Res. 72 in February 2026, a resolution to end the national emergency used to impose tariffs on Canadian goods; it passed 219 to 211.",
-          "sources": [
-            "s11",
-            "s12"
-          ]
-        },
-        {
-          "text": "Voted against the Consolidated Appropriations Act, 2026 (H.R. 7148) in January and February 2026.",
-          "sources": [
-            "s13",
-            "s14"
-          ]
-        },
-        {
-          "text": "Voted against the Ukraine Support Act (H.R. 2913) in June 2026.",
-          "sources": [
-            "s15"
-          ]
-        },
-        {
-          "text": "Voted for the Born-Alive Abortion Survivors Protection Act in January 2025.",
-          "sources": [
-            "s16"
-          ]
-        },
-        {
-          "text": "Co-founded the Sharia-Free America Caucus in the House, according to his campaign site.",
-          "sources": [
-            "s2"
-          ]
-        },
-        {
-          "text": "Says that as Collin County Judge he helped cut the county property tax rate by nearly 30 percent.",
-          "sources": [
-            "s2"
-          ]
-        }
-      ],
-      "notes": [
-        {
-          "text": "Endorsed by President Donald Trump, according to his campaign site.",
-          "sources": [
-            "s1"
-          ]
-        },
-        {
-          "text": "Won the March 3, 2026 Republican primary with 80.17 percent of the vote (unofficial results).",
-          "sources": [
-            "s17"
-          ]
-        },
-        {
-          "text": "Served as Collin County Judge from 2007 to 2018, according to news coverage.",
-          "sources": [
-            "s20"
-          ]
-        },
-        {
-          "text": "In March 2025, as chair of a Foreign Affairs subcommittee hearing, he addressed Rep. Sarah McBride, a transgender woman, as \"Mr.\" and adjourned the hearing after the ranking Democrat objected. He later posted that it is U.S. policy to recognize two sexes.",
-          "sources": [
-            "s18"
-          ]
-        },
-        {
-          "text": "Initially supported the One Big Beautiful Bill Act, announced opposition to the Senate version on July 2, 2025, then voted for it on July 3, 2025.",
-          "sources": [
-            "s4",
-            "s19"
-          ]
-        }
-      ],
-      "stances": {
-        "q_tariffs": {
-          "position": 1,
-          "basis": "record",
-          "summary": "Voted against ending the emergency used for tariffs on Canada and told the AP that Republicans would have to support the president.",
-          "sources": [
-            "s11",
-            "s12"
-          ]
-        },
-        "q_federal_spending": {
-          "position": 2,
-          "basis": "record",
-          "summary": "Voted for the 2025 reconciliation bill and cited its Medicaid savings, campaigns on cutting wasteful spending, and voted against the 2026 consolidated spending bill.",
-          "sources": [
-            "s2",
-            "s3",
-            "s13"
-          ]
-        },
-        "q_medicaid": {
-          "position": -1,
-          "basis": "inferred",
-          "summary": "Has not addressed Texas Medicaid expansion directly, but voted for and praised federal legislation that reduced Medicaid spending.",
-          "sources": [
-            "s3",
-            "s5"
-          ]
-        },
-        "q_abortion": {
-          "position": -2,
-          "basis": "statement",
-          "summary": "Describes himself as pro-life, cites service on a crisis pregnancy center board and support from right to life groups, and voted for the Born-Alive bill.",
-          "sources": [
-            "s2",
-            "s16"
-          ]
-        },
-        "q_border_state": {
-          "position": 2,
-          "basis": "statement",
-          "summary": "Says he supports Operation Lone Star and has proposed that the federal government reimburse Texas for its border security spending.",
-          "sources": [
-            "s2"
-          ]
-        },
-        "q_gun_laws": {
-          "position": -2,
-          "basis": "statement",
-          "summary": "Says he is a life member of the NRA and will fight all efforts to curtail constitutional gun rights.",
-          "sources": [
-            "s2"
-          ]
-        },
-        "q_fossil_priority": {
-          "position": 1,
-          "basis": "statement",
-          "summary": "Says he voted to expand refining and streamline permitting and works to stop Green New Deal policies he says raise energy costs.",
-          "sources": [
-            "s2"
-          ]
-        },
-        "q_voting_access": {
-          "position": -1,
-          "basis": "record",
-          "summary": "Supports photo ID to vote and voted for the SAVE Act requiring proof of citizenship to register.",
-          "sources": [
-            "s2",
-            "s7"
-          ]
-        },
-        "q_trans_minors": {
-          "position": 2,
-          "basis": "record",
-          "summary": "Voted for a federal bill to criminalize gender transition treatments for minors and for a ban on Medicaid funding for them.",
-          "sources": [
-            "s8",
-            "s10"
-          ]
-        }
-      },
-      "issue_notes": [
-        {
-          "topic": "Ukraine and Europe",
-          "summary": "Says he has consistently voted against funding for the conflict in Ukraine and wants European countries such as France and Germany to meet their commitments.",
-          "sources": [
-            "s2",
-            "s15"
-          ]
-        },
-        {
-          "topic": "Elections",
-          "summary": "Says elections must remain under state control.",
-          "sources": [
-            "s2"
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "id": "s1",
-          "title": "Keith Self for Congress",
-          "publisher": "Keith Self campaign",
-          "url": "https://www.keithself.com/",
-          "date": null
-        },
-        {
-          "id": "s2",
-          "title": "Issues",
-          "publisher": "Keith Self campaign",
-          "url": "https://keithself.com/issues/",
-          "date": null
-        },
-        {
-          "id": "s3",
-          "title": "Congressman Keith Self releases statement following House passage of Big Beautiful Bill",
-          "publisher": "Office of Rep. Keith Self",
-          "url": "https://keithself.house.gov/media/press-releases/congressman-keith-self-releases-statement-following-house-passage-big",
-          "date": "2025-07-03"
-        },
-        {
-          "id": "s4",
-          "title": "Roll Call 190: H.R. 1, motion to concur in Senate amendment",
-          "publisher": "Clerk of the U.S. House",
-          "url": "https://clerk.house.gov/evs/2025/roll190.xml",
-          "date": "2025-07-03"
-        },
-        {
-          "id": "s5",
-          "title": "Roll Call 145: H.R. 1, One Big Beautiful Bill Act, on passage",
-          "publisher": "Clerk of the U.S. House",
-          "url": "https://clerk.house.gov/evs/2025/roll145.xml",
-          "date": "2025-05-22"
-        },
-        {
-          "id": "s6",
-          "title": "Roll Call 6: H.R. 29, Laken Riley Act",
-          "publisher": "Clerk of the U.S. House",
-          "url": "https://clerk.house.gov/evs/2025/roll006.xml",
-          "date": "2025-01-07"
-        },
-        {
-          "id": "s7",
-          "title": "Roll Call 102: H.R. 22, SAVE Act",
-          "publisher": "Clerk of the U.S. House",
-          "url": "https://clerk.house.gov/evs/2025/roll102.xml",
-          "date": "2025-04-10"
-        },
-        {
-          "id": "s8",
-          "title": "Roll Call 351: H.R. 3492, Protect Children's Innocence Act",
-          "publisher": "Clerk of the U.S. House",
-          "url": "https://clerk.house.gov/evs/2025/roll351.xml",
-          "date": "2025-12-17"
-        },
-        {
-          "id": "s9",
-          "title": "H.R. 3492 Protect Children's Innocence Act",
-          "publisher": "The Lobby News",
-          "url": "https://www.thelobbynews.com/congress/bills/119/house-bill/3492",
-          "date": null
-        },
-        {
-          "id": "s10",
-          "title": "Roll Call 362: H.R. 498, Do No Harm in Medicaid Act",
-          "publisher": "Clerk of the U.S. House",
-          "url": "https://clerk.house.gov/evs/2025/roll362.xml",
-          "date": "2025-12-18"
-        },
-        {
-          "id": "s11",
-          "title": "Roll Call 65: H.J.Res. 72, relating to a national emergency declared February 1, 2025",
-          "publisher": "Clerk of the U.S. House",
-          "url": "https://clerk.house.gov/evs/2026/roll065.xml",
-          "date": "2026-02-11"
-        },
-        {
-          "id": "s12",
-          "title": "House faces showdown vote over Trump's tariffs on Canada (Associated Press)",
-          "publisher": "Solwd (AP republication)",
-          "url": "https://solwd.net/house-faces-showdown-vote-over-trumps-tariffs-on-canada/",
-          "date": "2026-02-11"
-        },
-        {
-          "id": "s13",
-          "title": "Roll Call 45: H.R. 7148, Consolidated Appropriations Act, 2026",
-          "publisher": "Clerk of the U.S. House",
-          "url": "https://clerk.house.gov/evs/2026/roll045.xml",
-          "date": "2026-01-22"
-        },
-        {
-          "id": "s14",
-          "title": "Roll Call 53: H.R. 7148, motion to concur in Senate amendments",
-          "publisher": "Clerk of the U.S. House",
-          "url": "https://clerk.house.gov/evs/2026/roll053.xml",
-          "date": "2026-02-03"
-        },
-        {
-          "id": "s15",
-          "title": "Roll Call 207: H.R. 2913, Ukraine Support Act",
-          "publisher": "Clerk of the U.S. House",
-          "url": "https://clerk.house.gov/evs/2026/roll207.xml",
-          "date": "2026-06-04"
-        },
-        {
-          "id": "s16",
-          "title": "Roll Call 27: H.R. 21, Born-Alive Abortion Survivors Protection Act",
-          "publisher": "Clerk of the U.S. House",
-          "url": "https://clerk.house.gov/evs/2025/roll027.xml",
-          "date": "2025-01-23"
-        },
-        {
-          "id": "s17",
-          "title": "Roundup: See updated results for U.S. House races affecting Dallas-Fort Worth cities",
-          "publisher": "Community Impact",
-          "url": "https://communityimpact.com/dallas-fort-worth/plano/election/2026/03/03/roundup-see-updated-results-for-us-house-races-affecting-dallas-fort-worth-cities/",
-          "date": "2026-03-04"
-        },
-        {
-          "id": "s18",
-          "title": "House Republican adjourns hearing after exchange over misgendering Rep. Sarah McBride",
-          "publisher": "NBC News",
-          "url": "https://www.nbcnews.com/politics/congress/republican-adjourns-hearing-exchange-sarah-mcbride-misgendering-rcna195936",
-          "date": "2025-03-11"
-        },
-        {
-          "id": "s19",
-          "title": "Big beautiful flip flop: Texas Rep. Keith Self backs Trump bill after waffling",
-          "publisher": "Dallas Express",
-          "url": "https://dallasexpress.com/national/big-beautiful-flip-flop-texas-rep-keith-self-backs-trump-bill-after-waffling/",
-          "date": "2025-07"
-        },
-        {
-          "id": "s20",
-          "title": "North Texas growth frames Keith Self-Evan Hunt Texas race",
-          "publisher": "Hoodline",
-          "url": "https://hoodline.com/2026/10/north-texas-growth-frames-keith-self-evan-hunt-texas-race/",
-          "date": "2026-10-12"
-        },
-        {
-          "id": "s21",
-          "title": "Roll Call 70: H.R. 1968, Full-Year Continuing Appropriations and Extensions Act, 2025",
-          "publisher": "Clerk of the U.S. House",
-          "url": "https://clerk.house.gov/evs/2025/roll070.xml",
-          "date": "2025-03-11"
-        },
-        {
-          "id": "s22",
-          "title": "Roll Call 281: H.R. 5371, Continuing Appropriations and Extensions Act, 2026",
-          "publisher": "Clerk of the U.S. House",
-          "url": "https://clerk.house.gov/evs/2025/roll281.xml",
-          "date": "2025-09-19"
-        },
-        {
-          "id": "s23",
-          "title": "Roll Call 285: H.R. 5371, motion to concur in Senate amendment",
-          "publisher": "Clerk of the U.S. House",
-          "url": "https://clerk.house.gov/evs/2025/roll285.xml",
-          "date": "2025-11-12"
-        },
-        {
-          "id": "s24",
-          "title": "Roll Call 272: H.R. 9770, continuing appropriations for fiscal year 2027",
-          "publisher": "Clerk of the U.S. House",
-          "url": "https://clerk.house.gov/evs/2026/roll272.xml",
-          "date": "2026-07-21"
-        }
-      ],
-      "research_gaps": "No 2026 questionnaire answers were found; no documented positions on minimum wage, vouchers, cannabis, legal status for undocumented residents, or foreign land purchases."
+     "text": "Campaigns on advancing President Trump's America First agenda.",
+     "sources": [
+      "s1"
+     ]
     },
     {
-      "id": "evan-hunt",
-      "race_id": "us-house-3",
-      "incumbent": false,
-      "current_role": "Retired U.S. Air Force lieutenant colonel and defense industry executive",
-      "background": "Evan Hunt served as a B-1 bomber weapons systems officer and electronic warfare officer with combat deployments in Operation Enduring Freedom and Operation New Dawn, then held Air National Guard leadership roles before retiring in 2022. He has held executive roles in the defense and aerospace industry, including at Raytheon. He holds a bachelor's degree from the University of Pennsylvania and a master's degree from American Military University. He has lived in Texas for more than 11 years, the last six in McKinney.",
-      "website": "https://www.electevanhunt.com/",
-      "priorities": [
-        {
-          "text": "Campaigns on defending the Constitution, including free and fair elections, an independent judiciary and checks and balances.",
-          "sources": [
-            "s1"
-          ]
-        },
-        {
-          "text": "Campaigns on lowering health care costs, including prescription drug prices, and keeping ACA subsidies until a better plan exists.",
-          "sources": [
-            "s1"
-          ]
-        },
-        {
-          "text": "Campaigns on fully funding public schools, local control and merit-informed teacher pay increases.",
-          "sources": [
-            "s1"
-          ]
-        },
-        {
-          "text": "Campaigns on immigration reform that pairs border security with a path for law-abiding immigrants.",
-          "sources": [
-            "s1"
-          ]
-        },
-        {
-          "text": "Campaigns on anti-corruption reforms such as term limits and a ban on congressional stock trading.",
-          "sources": [
-            "s1"
-          ]
-        },
-        {
-          "text": "Campaigns on protecting Social Security and supporting family caregivers and veterans.",
-          "sources": [
-            "s1"
-          ]
-        }
-      ],
-      "promises": [
-        {
-          "text": "Says he will push for a nationwide ban on partisan, out-of-cycle redistricting.",
-          "sources": [
-            "s1"
-          ]
-        },
-        {
-          "text": "Says he will not accept donations from AIPAC or other foreign-interest aligned organizations.",
-          "sources": [
-            "s1"
-          ]
-        },
-        {
-          "text": "Says he will fight any attempt to cut Social Security benefits.",
-          "sources": [
-            "s1"
-          ]
-        },
-        {
-          "text": "Says he supports the Equal Voices Act (H.R. 4125) to expand the size of the House.",
-          "sources": [
-            "s1"
-          ]
-        }
-      ],
-      "record": [],
-      "notes": [
-        {
-          "text": "Ran unopposed in the March 3, 2026 Democratic primary.",
-          "sources": [
-            "s2"
-          ]
-        },
-        {
-          "text": "Says he is a charter member of the Take BAC Congress pledge on term limits, stock trading and lobbying limits.",
-          "sources": [
-            "s1"
-          ]
-        }
-      ],
-      "stances": {
-        "q_tariffs": {
-          "position": -2,
-          "basis": "statement",
-          "summary": "Says tariffs are a form of taxation, opposes trade wars and says emergency powers should not be used to raise tariffs.",
-          "sources": [
-            "s1"
-          ]
-        },
-        "q_federal_spending": {
-          "position": -1,
-          "basis": "statement",
-          "summary": "Says ACA subsidies should not expire until there is a better plan and that he will oppose cuts to Social Security.",
-          "sources": [
-            "s1"
-          ]
-        },
-        "q_vouchers": {
-          "position": -2,
-          "basis": "statement",
-          "summary": "Says he is firmly against voucher initiatives, which he says would harm public schools such as Plano, Frisco and Allen ISDs.",
-          "sources": [
-            "s1"
-          ]
-        },
-        "q_deportation": {
-          "position": -1,
-          "basis": "statement",
-          "summary": "Supports deporting undocumented criminals and violent offenders but opposes ICE raids and targeting families who are not criminals.",
-          "sources": [
-            "s1"
-          ]
-        },
-        "q_legal_status": {
-          "position": 1,
-          "basis": "statement",
-          "summary": "Supports giving law-abiding immigrants a path to earn their place alongside strong border security.",
-          "sources": [
-            "s1"
-          ]
-        },
-        "q_trans_minors": {
-          "position": -1,
-          "basis": "statement",
-          "summary": "Says the federal government should not dictate what medical treatment people can get or make children feel bad about who they are.",
-          "sources": [
-            "s1"
-          ]
-        }
-      },
-      "issue_notes": [
-        {
-          "topic": "Health Insurance",
-          "summary": "Calls for a public and private partnership providing an affordable baseline and cites Mark Cuban's Cost Plus Drug Company as a model to study.",
-          "sources": [
-            "s1"
-          ]
-        },
-        {
-          "topic": "Middle East",
-          "summary": "Says he does not support sending more funding or offensive weapons to Israel until spending is in line with U.S. values, and supports confronting Iran-backed terrorist groups.",
-          "sources": [
-            "s1"
-          ]
-        },
-        {
-          "topic": "Alliances and Trade",
-          "summary": "Supports NATO and says allies must pay their fair share.",
-          "sources": [
-            "s1"
-          ]
-        },
-        {
-          "topic": "Data Centers",
-          "summary": "Has raised concerns about data center use of local water and power, according to an AI-assisted news summary.",
-          "sources": [
-            "s3"
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "id": "s1",
-          "title": "Elect Evan Hunt: Service Before Self",
-          "publisher": "Evan Hunt campaign",
-          "url": "https://www.electevanhunt.com/",
-          "date": null
-        },
-        {
-          "id": "s2",
-          "title": "Roundup: See updated results for U.S. House races affecting Dallas-Fort Worth cities",
-          "publisher": "Community Impact",
-          "url": "https://communityimpact.com/dallas-fort-worth/plano/election/2026/03/03/roundup-see-updated-results-for-us-house-races-affecting-dallas-fort-worth-cities/",
-          "date": "2026-03-04"
-        },
-        {
-          "id": "s3",
-          "title": "North Texas growth frames Keith Self-Evan Hunt Texas race",
-          "publisher": "Hoodline",
-          "url": "https://hoodline.com/2026/10/north-texas-growth-frames-keith-self-evan-hunt-texas-race/",
-          "date": "2026-10-12"
-        }
-      ],
-      "research_gaps": "No questionnaire responses or independent news interviews were found; no documented positions on minimum wage, Medicaid expansion, abortion, guns, energy or voting access."
+     "text": "Says he will keep working to lower taxes, cut wasteful spending and reduce the size of government.",
+     "sources": [
+      "s2"
+     ]
     },
     {
-      "id": "pat-fallon",
-      "race_id": "us-house-4",
-      "incumbent": true,
-      "current_role": "U.S. Representative for Texas's 4th Congressional District since 2021",
-      "background": "Pat Fallon is a University of Notre Dame graduate who served as an officer in the U.S. Air Force at Sheppard Air Force Base and later founded more than a dozen companies. He served in the Texas House and the Texas Senate before Congress. He chairs the House Armed Services Subcommittee on Military Personnel and serves on the Intelligence and Oversight committees.",
-      "website": "https://www.fallonforcongress.com/",
-      "priorities": [
-        {
-          "text": "Campaigns on standing with President Trump as a conservative.",
-          "sources": [
-            "s1"
-          ]
-        },
-        {
-          "text": "Campaigns on border security, gun rights, opposing vaccine mandates, and expanding energy production.",
-          "sources": [
-            "s1"
-          ]
-        },
-        {
-          "text": "Campaigns on defending Taiwan and deterring aggression.",
-          "sources": [
-            "s1"
-          ]
-        }
-      ],
-      "promises": [],
-      "record": [
-        {
-          "text": "Voted for the One Big Beautiful Bill Act in May and July 2025 and said it extends the 2017 tax cuts and greatly increases funding for Border Patrol and ICE.",
-          "sources": [
-            "s2",
-            "s3",
-            "s4"
-          ]
-        },
-        {
-          "text": "Voted for the Laken Riley Act in January 2025.",
-          "sources": [
-            "s5"
-          ]
-        },
-        {
-          "text": "Voted for the SAVE Act, which requires proof of citizenship to register to vote in federal elections, in April 2025.",
-          "sources": [
-            "s6"
-          ]
-        },
-        {
-          "text": "Voted for the Protect Children's Innocence Act (H.R. 3492) and the Do No Harm in Medicaid Act (H.R. 498) in December 2025.",
-          "sources": [
-            "s7",
-            "s8"
-          ]
-        },
-        {
-          "text": "Voted against H.J.Res. 72 in February 2026, a resolution to end the national emergency used to impose tariffs on Canadian goods.",
-          "sources": [
-            "s9"
-          ]
-        },
-        {
-          "text": "Voted for the Consolidated Appropriations Act, 2026 (H.R. 7148) in January 2026.",
-          "sources": [
-            "s10"
-          ]
-        },
-        {
-          "text": "Voted against the Ukraine Support Act (H.R. 2913) in June 2026.",
-          "sources": [
-            "s11"
-          ]
-        },
-        {
-          "text": "Voted for the Stop Insider Trading Act (H.R. 7008) in July 2026.",
-          "sources": [
-            "s12"
-          ]
-        },
-        {
-          "text": "Voted for the Born-Alive Abortion Survivors Protection Act in January 2025.",
-          "sources": [
-            "s13"
-          ]
-        }
-      ],
-      "notes": [
-        {
-          "text": "Won the March 3, 2026 Republican primary with 80.62 percent of the vote (unofficial results).",
-          "sources": [
-            "s14"
-          ]
-        },
-        {
-          "text": "In 2022 the Office of Congressional Ethics found substantial reason to believe he violated the STOCK Act by filing late disclosures of 122 stock transactions in 2021 and referred the matter to the House Ethics Committee; his attorney said the fines were paid and asked for dismissal. Reports at the time did not state a final outcome.",
-          "sources": [
-            "s15"
-          ]
-        },
-        {
-          "text": "In November 2023 he announced a run for the Texas Senate, then ended it about 24 hours later and sought reelection to Congress.",
-          "sources": [
-            "s16"
-          ]
-        }
-      ],
-      "stances": {
-        "q_tariffs": {
-          "position": 1,
-          "basis": "record",
-          "summary": "Voted against ending the emergency used for tariffs on Canada and said on Fox Business that Mexico needs the U.S. more than the U.S. needs Mexico when discussing tariffs.",
-          "sources": [
-            "s9",
-            "s17"
-          ]
-        },
-        "q_federal_spending": {
-          "position": 1,
-          "basis": "record",
-          "summary": "Voted for the 2025 reconciliation bill and defended food assistance work requirements, saying able-bodied people who want to milk the taxpayer would face limits.",
-          "sources": [
-            "s3",
-            "s18"
-          ]
-        },
-        "q_abortion": {
-          "position": -1,
-          "basis": "statement",
-          "summary": "Lists pro-life as a campaign issue and voted for the Born-Alive bill.",
-          "sources": [
-            "s1",
-            "s13"
-          ]
-        },
-        "q_gun_laws": {
-          "position": -2,
-          "basis": "statement",
-          "summary": "His campaign site states that the Second Amendment shall not be infringed.",
-          "sources": [
-            "s1"
-          ]
-        },
-        "q_voting_access": {
-          "position": -1,
-          "basis": "record",
-          "summary": "Voted for the SAVE Act requiring proof of citizenship to register to vote.",
-          "sources": [
-            "s6"
-          ]
-        },
-        "q_trans_minors": {
-          "position": 2,
-          "basis": "record",
-          "summary": "Voted for a federal bill to criminalize gender transition treatments for minors and for a ban on Medicaid funding for them.",
-          "sources": [
-            "s7",
-            "s8"
-          ]
-        }
-      },
-      "issue_notes": [
-        {
-          "topic": "Defense",
-          "summary": "Says the 2025 reconciliation bill's defense funding helps deter China, rebuild the defense industrial base and advance Golden Dome missile defense.",
-          "sources": [
-            "s2"
-          ]
-        },
-        {
-          "topic": "Border",
-          "summary": "Has called failure to secure the border cruel to Americans in national television appearances.",
-          "sources": [
-            "s19"
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "id": "s1",
-          "title": "Fallon for Congress",
-          "publisher": "Pat Fallon campaign",
-          "url": "https://www.fallonforcongress.com/",
-          "date": null
-        },
-        {
-          "id": "s2",
-          "title": "Congressman Pat Fallon statement on passage of the Big Beautiful Bill",
-          "publisher": "Capitol Releases (from fallon.house.gov)",
-          "url": "https://capitolreleases.com/releases/fc7975fc-a585-43da-9771-55359f1c1c41",
-          "date": "2025-07-03"
-        },
-        {
-          "id": "s3",
-          "title": "Roll Call 190: H.R. 1, motion to concur in Senate amendment",
-          "publisher": "Clerk of the U.S. House",
-          "url": "https://clerk.house.gov/evs/2025/roll190.xml",
-          "date": "2025-07-03"
-        },
-        {
-          "id": "s4",
-          "title": "Roll Call 145: H.R. 1, One Big Beautiful Bill Act, on passage",
-          "publisher": "Clerk of the U.S. House",
-          "url": "https://clerk.house.gov/evs/2025/roll145.xml",
-          "date": "2025-05-22"
-        },
-        {
-          "id": "s5",
-          "title": "Roll Call 6: H.R. 29, Laken Riley Act",
-          "publisher": "Clerk of the U.S. House",
-          "url": "https://clerk.house.gov/evs/2025/roll006.xml",
-          "date": "2025-01-07"
-        },
-        {
-          "id": "s6",
-          "title": "Roll Call 102: H.R. 22, SAVE Act",
-          "publisher": "Clerk of the U.S. House",
-          "url": "https://clerk.house.gov/evs/2025/roll102.xml",
-          "date": "2025-04-10"
-        },
-        {
-          "id": "s7",
-          "title": "Roll Call 351: H.R. 3492, Protect Children's Innocence Act",
-          "publisher": "Clerk of the U.S. House",
-          "url": "https://clerk.house.gov/evs/2025/roll351.xml",
-          "date": "2025-12-17"
-        },
-        {
-          "id": "s8",
-          "title": "Roll Call 362: H.R. 498, Do No Harm in Medicaid Act",
-          "publisher": "Clerk of the U.S. House",
-          "url": "https://clerk.house.gov/evs/2025/roll362.xml",
-          "date": "2025-12-18"
-        },
-        {
-          "id": "s9",
-          "title": "Roll Call 65: H.J.Res. 72, relating to a national emergency declared February 1, 2025",
-          "publisher": "Clerk of the U.S. House",
-          "url": "https://clerk.house.gov/evs/2026/roll065.xml",
-          "date": "2026-02-11"
-        },
-        {
-          "id": "s10",
-          "title": "Roll Call 45: H.R. 7148, Consolidated Appropriations Act, 2026",
-          "publisher": "Clerk of the U.S. House",
-          "url": "https://clerk.house.gov/evs/2026/roll045.xml",
-          "date": "2026-01-22"
-        },
-        {
-          "id": "s11",
-          "title": "Roll Call 207: H.R. 2913, Ukraine Support Act",
-          "publisher": "Clerk of the U.S. House",
-          "url": "https://clerk.house.gov/evs/2026/roll207.xml",
-          "date": "2026-06-04"
-        },
-        {
-          "id": "s12",
-          "title": "Roll Call 280: H.R. 7008, Stop Insider Trading Act",
-          "publisher": "Clerk of the U.S. House",
-          "url": "https://clerk.house.gov/evs/2026/roll280.xml",
-          "date": "2026-07-22"
-        },
-        {
-          "id": "s13",
-          "title": "Roll Call 27: H.R. 21, Born-Alive Abortion Survivors Protection Act",
-          "publisher": "Clerk of the U.S. House",
-          "url": "https://clerk.house.gov/evs/2025/roll027.xml",
-          "date": "2025-01-23"
-        },
-        {
-          "id": "s14",
-          "title": "Roundup: See updated results for U.S. House races affecting Dallas-Fort Worth cities",
-          "publisher": "Community Impact",
-          "url": "https://communityimpact.com/dallas-fort-worth/plano/election/2026/03/03/roundup-see-updated-results-for-us-house-races-affecting-dallas-fort-worth-cities/",
-          "date": "2026-03-04"
-        },
-        {
-          "id": "s15",
-          "title": "'Substantial reason to believe' Reps. Fallon and Rutherford violated STOCK Act, ethics office finds",
-          "publisher": "Roll Call",
-          "url": "https://www.rollcall.com/2022/05/31/substantial-reason-to-believe-reps-fallon-and-rutherford-violated-stock-act-ethics-office-finds",
-          "date": "2022-05-31"
-        },
-        {
-          "id": "s16",
-          "title": "Rep. Pat Fallon secures GOP nomination in U.S. House District 4 race",
-          "publisher": "Denton Record-Chronicle",
-          "url": "https://dentonrc.com/elections/rep-pat-fallon-secures-gop-nomination-in-u-s-house-district-4-race/article_acd49d15-7f7c-4d87-bfe8-d99ae3ff3f76.html",
-          "date": "2026-03-04"
-        },
-        {
-          "id": "s17",
-          "title": "'Mexico needs us more than we need them': Rep. Pat Fallon on Trump tariff pledge",
-          "publisher": "Fox Business",
-          "url": "https://foxbusiness.com/video/6365218983112",
-          "date": null
-        },
-        {
-          "id": "s18",
-          "title": "Food stamps work requirements",
-          "publisher": "TheBlaze",
-          "url": "https://www.theblaze.com/news/food-stamps-work-requirements-cheetos",
-          "date": "2025-02-27"
-        },
-        {
-          "id": "s19",
-          "title": "'FIRED UP': Not securing border is 'cruel' to American people, says Rep. Pat Fallon",
-          "publisher": "Fox Business",
-          "url": "https://www.foxbusiness.com/category/fox-news-illegal-immigrants?page=20",
-          "date": null
-        }
-      ],
-      "research_gaps": "His campaign site presents issues mainly as video headlines, so detailed written positions on Medicaid, energy, immigration status and other questions were not found; no 2026 questionnaire answers were found."
+     "text": "Campaigns on border security, including support for state border operations and federal reimbursement to Texas.",
+     "sources": [
+      "s2"
+     ]
     },
     {
-      "id": "jason-pearce",
-      "race_id": "us-house-4",
-      "incumbent": false,
-      "current_role": "Former sales and insurance professional; first-time candidate",
-      "background": "Jason Pearce was born and raised in Plano. He has worked in sales, mortgage lending, finance and insurance, and earlier as a chef, restaurant manager and security manager. He attended the University of North Texas. He says he left his job after the 2024 election to get involved in his community, and this is his first run for public office.",
-      "website": "https://pearcefortexas.com/",
-      "priorities": [
-        {
-          "text": "Campaigns on Medicare for All, which he describes as universal coverage regardless of age, income or employment.",
-          "sources": [
-            "s1"
-          ]
-        },
-        {
-          "text": "Campaigns on housing affordability, including direct federal investment in public housing.",
-          "sources": [
-            "s1"
-          ]
-        },
-        {
-          "text": "Campaigns on a living wage, the PRO Act, a 32-hour workweek and a federal jobs guarantee.",
-          "sources": [
-            "s1"
-          ]
-        },
-        {
-          "text": "Campaigns on expanding Social Security, funded by higher taxes on billionaires and large corporations.",
-          "sources": [
-            "s1"
-          ]
-        },
-        {
-          "text": "Campaigns on clean water, oversight of data centers and accountability for corporate polluters in North Texas.",
-          "sources": [
-            "s1"
-          ]
-        },
-        {
-          "text": "Campaigns on getting money out of politics.",
-          "sources": [
-            "s1"
-          ]
-        }
-      ],
-      "promises": [
-        {
-          "text": "Says he takes no corporate PAC money and no AIPAC or foreign-interest aligned PAC money.",
-          "sources": [
-            "s1"
-          ]
-        },
-        {
-          "text": "Says he will fight to restore federal environmental protections for North Texas communities.",
-          "sources": [
-            "s1"
-          ]
-        },
-        {
-          "text": "Says he opposes any cuts to Social Security or Medicare.",
-          "sources": [
-            "s1"
-          ]
-        }
-      ],
-      "record": [],
-      "notes": [
-        {
-          "text": "Won the March 3, 2026 Democratic primary with 51.97 percent of the vote over Andrew Rubell (unofficial results).",
-          "sources": [
-            "s2"
-          ]
-        },
-        {
-          "text": "Has worked in customer service and as a chef, security manager and insurance adviser, according to local primary coverage.",
-          "sources": [
-            "s4"
-          ]
-        }
-      ],
-      "stances": {
-        "q_federal_spending": {
-          "position": -2,
-          "basis": "statement",
-          "summary": "Opposes cuts to Social Security and Medicare, supports expanding benefits, and says money spent on military interventions could go to domestic needs.",
-          "sources": [
-            "s1"
-          ]
-        },
-        "q_min_wage": {
-          "position": 2,
-          "basis": "statement",
-          "summary": "Supports a living wage and, per a summary of his site, raising the minimum wage and ending the subminimum tipped wage.",
-          "sources": [
-            "s1",
-            "s3"
-          ]
-        },
-        "q_medicaid": {
-          "position": 2,
-          "basis": "inferred",
-          "summary": "Supports Medicare for All, a universal federal program that would go beyond Medicaid expansion.",
-          "sources": [
-            "s1"
-          ]
-        },
-        "q_deportation": {
-          "position": -2,
-          "basis": "statement",
-          "summary": "Says he opposes mass deportation operations that separate families.",
-          "sources": [
-            "s1"
-          ]
-        },
-        "q_legal_status": {
-          "position": 2,
-          "basis": "statement",
-          "summary": "Supports real pathways to citizenship for people who have built their lives here, while saying he is still developing his immigration platform.",
-          "sources": [
-            "s1"
-          ]
-        },
-        "q_gun_laws": {
-          "position": 2,
-          "basis": "reported",
-          "summary": "A voter guide summary of his site lists support for universal background checks, waiting periods and free safety training for gun owners.",
-          "sources": [
-            "s3"
-          ]
-        },
-        "q_fossil_priority": {
-          "position": -1,
-          "basis": "statement",
-          "summary": "Supports Texas's renewable energy leadership in wind and solar, with responsible siting.",
-          "sources": [
-            "s1"
-          ]
-        },
-        "q_oilgas_rules": {
-          "position": 1,
-          "basis": "statement",
-          "summary": "Supports strong federal clean water standards and accountability for corporate polluters.",
-          "sources": [
-            "s1"
-          ]
-        }
-      },
-      "issue_notes": [
-        {
-          "topic": "Housing",
-          "summary": "Supports repealing the Faircloth Amendment and banning institutional investors and private equity firms from buying single-family homes.",
-          "sources": [
-            "s1"
-          ]
-        },
-        {
-          "topic": "Campaign Finance and Ethics",
-          "summary": "Supports term limits, a congressional stock trading ban, overturning Citizens United and public financing of elections.",
-          "sources": [
-            "s1"
-          ]
-        },
-        {
-          "topic": "Foreign Policy",
-          "summary": "Opposes U.S. military support that he says fuels humanitarian crises, including in Gaza.",
-          "sources": [
-            "s1"
-          ]
-        },
-        {
-          "topic": "Term Limits",
-          "summary": "Per a summary of his site, supports term limits and mandatory retirement at age 65 for all offices, including judges.",
-          "sources": [
-            "s3"
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "id": "s1",
-          "title": "Pearce for Texas",
-          "publisher": "Jason Pearce campaign",
-          "url": "https://pearcefortexas.com/",
-          "date": null
-        },
-        {
-          "id": "s2",
-          "title": "Roundup: See updated results for U.S. House races affecting Dallas-Fort Worth cities",
-          "publisher": "Community Impact",
-          "url": "https://communityimpact.com/dallas-fort-worth/plano/election/2026/03/03/roundup-see-updated-results-for-us-house-races-affecting-dallas-fort-worth-cities/",
-          "date": "2026-03-04"
-        },
-        {
-          "id": "s3",
-          "title": "Jason Pearce, Texas Congressional District 4",
-          "publisher": "Branch (voter guide)",
-          "url": "https://branch.vote/races/2026-texas-general-election-tx-state-us-representative-tx-congressional-4/candidates/jason-pearce",
-          "date": "2026-07-22"
-        },
-        {
-          "id": "s4",
-          "title": "Rep. Pat Fallon secures GOP nomination in U.S. House District 4 race",
-          "publisher": "Denton Record-Chronicle",
-          "url": "https://dentonrc.com/elections/rep-pat-fallon-secures-gop-nomination-in-u-s-house-district-4-race/article_acd49d15-7f7c-4d87-bfe8-d99ae3ff3f76.html",
-          "date": "2026-03-04"
-        }
-      ],
-      "research_gaps": "No questionnaire responses or news interviews were found; no documented positions on tariffs, vouchers, abortion, cannabis or voting access."
+     "text": "Campaigns on energy independence and opposing Green New Deal policies.",
+     "sources": [
+      "s2"
+     ]
     },
     {
-      "id": "jace-yarbrough",
-      "race_id": "us-house-32",
-      "incumbent": false,
-      "current_role": "Constitutional attorney and U.S. Air Force Reserve major",
-      "background": "Jace Yarbrough is an attorney focused on constitutional cases and a major in the U.S. Air Force, where he says he has served for 15 years. He holds degrees in electrical engineering and government from the University of Texas at Austin and a law degree from Stanford Law School. He and his wife co-founded Saint Francis Academy, a classical Christian school. He ran for Texas Senate District 30 in 2024 and lost in a runoff.",
-      "website": "https://www.jaceforcongress.com/",
-      "priorities": [
-        {
-          "text": "Campaigns on supporting President Trump's America First agenda.",
-          "sources": [
-            "s1"
-          ]
-        },
-        {
-          "text": "Campaigns on border enforcement and mass deportation efforts, including resources for ICE and DHS.",
-          "sources": [
-            "s2"
-          ]
-        },
-        {
-          "text": "Campaigns on banning insider trading by members of Congress and protecting Social Security and Medicare.",
-          "sources": [
-            "s2"
-          ]
-        },
-        {
-          "text": "Campaigns on significant federal spending cuts and opposing tax increases.",
-          "sources": [
-            "s2"
-          ]
-        },
-        {
-          "text": "Campaigns on opposing vaccine mandates and harmful food additives.",
-          "sources": [
-            "s2"
-          ]
-        },
-        {
-          "text": "Campaigns on expanding American energy production.",
-          "sources": [
-            "s2"
-          ]
-        }
-      ],
-      "promises": [
-        {
-          "text": "Says he will oppose all amnesty efforts, whether from the left or the right.",
-          "sources": [
-            "s2"
-          ]
-        },
-        {
-          "text": "Says he will support ICE and DHS resources for border enforcement and deportations.",
-          "sources": [
-            "s2"
-          ]
-        },
-        {
-          "text": "Says he will oppose any tax increases.",
-          "sources": [
-            "s2"
-          ]
-        }
-      ],
-      "record": [],
-      "notes": [
-        {
-          "text": "Endorsed by President Donald Trump, House Speaker Mike Johnson, Gov. Greg Abbott, Rep. Keith Self, the Freedom Caucus Fund, Texas Right to Life and the National Federation of Independent Business, among others.",
-          "sources": [
-            "s3",
-            "s4"
-          ]
-        },
-        {
-          "text": "Led the March 3, 2026 Republican primary with about 49 percent; runner-up Ryan Binkley withdrew before the May 26 runoff and endorsed him.",
-          "sources": [
-            "s4",
-            "s5"
-          ]
-        },
-        {
-          "text": "Describes legal work challenging COVID-19 vaccine mandates for first responders, taxpayer funding of abortion travel, and religious discrimination; the specific cases are not named on his site.",
-          "sources": [
-            "s6"
-          ]
-        },
-        {
-          "text": "The 32nd District was redrawn in 2025 to add areas east of the Metroplex extending to Upshur County; under the new lines it would have favored Trump by about 18 points.",
-          "sources": [
-            "s4"
-          ]
-        },
-        {
-          "text": "Ran for Texas Senate District 30 in 2024 and lost in the Republican runoff.",
-          "sources": [
-            "s7"
-          ]
-        },
-        {
-          "text": "Holds degrees from UT Austin and Stanford Law School, according to a campaign press release.",
-          "sources": [
-            "s8"
-          ]
-        }
-      ],
-      "stances": {
-        "q_federal_spending": {
-          "position": 1,
-          "basis": "statement",
-          "summary": "Plans to cut federal spending significantly and have the government live within its means, while saying he will protect Social Security and Medicare.",
-          "sources": [
-            "s2"
-          ]
-        },
-        "q_abortion": {
-          "position": -2,
-          "basis": "statement",
-          "summary": "Describes himself as 100 percent pro-life and opposes any effort to expand abortion.",
-          "sources": [
-            "s2"
-          ]
-        },
-        "q_deportation": {
-          "position": 2,
-          "basis": "statement",
-          "summary": "Backs President Trump's mass deportation efforts.",
-          "sources": [
-            "s2"
-          ]
-        },
-        "q_legal_status": {
-          "position": -2,
-          "basis": "statement",
-          "summary": "Says he will oppose all amnesty efforts.",
-          "sources": [
-            "s2"
-          ]
-        },
-        "q_gun_laws": {
-          "position": -2,
-          "basis": "statement",
-          "summary": "Supports national concealed carry reciprocity and repeal of the National Firearms Act.",
-          "sources": [
-            "s2"
-          ]
-        },
-        "q_fossil_priority": {
-          "position": 1,
-          "basis": "statement",
-          "summary": "Supports expanding American energy production and opposes Green New Deal policies.",
-          "sources": [
-            "s2"
-          ]
-        },
-        "q_voting_access": {
-          "position": -1,
-          "basis": "statement",
-          "summary": "Supports voter ID laws and adding a citizenship question to the 2030 census.",
-          "sources": [
-            "s2"
-          ]
-        }
-      },
-      "issue_notes": [
-        {
-          "topic": "China and Trade",
-          "summary": "Says he will hold China accountable for unfair trade practices and wants the U.S. to win the AI race.",
-          "sources": [
-            "s2"
-          ]
-        },
-        {
-          "topic": "Education",
-          "summary": "Opposes what he calls gender ideology in schools.",
-          "sources": [
-            "s2"
-          ]
-        },
-        {
-          "topic": "Technology",
-          "summary": "Supports blockchain growth and winning the space race.",
-          "sources": [
-            "s2"
-          ]
-        },
-        {
-          "topic": "Elections",
-          "summary": "Says he volunteered in 2024 as an attorney in Detroit to address alleged voter fraud.",
-          "sources": [
-            "s6"
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "id": "s1",
-          "title": "Jace Yarbrough for Congress",
-          "publisher": "Jace Yarbrough campaign",
-          "url": "https://www.jaceforcongress.com/",
-          "date": null
-        },
-        {
-          "id": "s2",
-          "title": "Priorities",
-          "publisher": "Jace Yarbrough campaign",
-          "url": "https://www.jaceforcongress.com/priorities",
-          "date": null
-        },
-        {
-          "id": "s3",
-          "title": "Endorsements",
-          "publisher": "Jace Yarbrough campaign",
-          "url": "https://www.jaceforcongress.com/endorsements",
-          "date": null
-        },
-        {
-          "id": "s4",
-          "title": "Jace Yarbrough is GOP nominee in North Texas congressional district after second-place finisher bows out",
-          "publisher": "Texas Tribune",
-          "url": "https://www.texastribune.org/2026/03/17/texas-32nd-congressional-district-jace-yarbrough-ryan-binkley-gop-primary/",
-          "date": "2026-03-17"
-        },
-        {
-          "id": "s5",
-          "title": "Roundup: See updated results for U.S. House races affecting Dallas-Fort Worth cities",
-          "publisher": "Community Impact",
-          "url": "https://communityimpact.com/dallas-fort-worth/plano/election/2026/03/03/roundup-see-updated-results-for-us-house-races-affecting-dallas-fort-worth-cities/",
-          "date": "2026-03-04"
-        },
-        {
-          "id": "s6",
-          "title": "About",
-          "publisher": "Jace Yarbrough campaign",
-          "url": "https://www.jaceforcongress.com/about",
-          "date": null
-        },
-        {
-          "id": "s7",
-          "title": "Trump endorses GOP rival of Texas pastor who ran against him in 2024",
-          "publisher": "Christian Post",
-          "url": "https://assets.christianpost.com/news/trump-endorses-gop-rival-of-texas-pastor-who-ran-against-him.html",
-          "date": "2026-02-20"
-        },
-        {
-          "id": "s8",
-          "title": "Rockwall Young Republicans endorse Jace Yarbrough for Congress",
-          "publisher": "Blue Ribbon News (press release)",
-          "url": "https://blueribbonnews.com/2026/01/rockwall-young-republicans-endorse-jace-yarbrough-for-congress/",
-          "date": "2026-01-19"
-        }
-      ],
-      "research_gaps": "No questionnaire responses or debate transcripts were found; no documented positions on tariffs, minimum wage, vouchers, Medicaid, cannabis or transgender medical care for minors."
+     "text": "Campaigns on election integrity, including photo ID to vote and a paper trail for voting machines.",
+     "sources": [
+      "s2"
+     ]
     },
     {
-      "id": "dan-barrios",
-      "race_id": "us-house-32",
-      "incumbent": false,
-      "current_role": "Richardson City Council member (Place 3), elected 2023",
-      "background": "Dan Barrios grew up in Brownsville, was raised by a single mother, and has lived in North Texas for more than 25 years. He worked in executive sales and later taught business courses in Dallas high schools and as a community college adjunct. He holds an MBA in strategic management from the University of North Texas. He was elected to the Richardson City Council in 2023.",
-      "website": "https://www.danbarriosforcongress.com/",
-      "priorities": [
-        {
-          "text": "Campaigns on lowering costs, which he calls the district's biggest challenge, including housing, groceries and energy.",
-          "sources": [
-            "s1",
-            "s2"
-          ]
-        },
-        {
-          "text": "Campaigns on health care access, including lower prescription costs, a stronger ACA and keeping rural hospitals open.",
-          "sources": [
-            "s3"
-          ]
-        },
-        {
-          "text": "Campaigns on protecting public schools, universal pre-K and better teacher recruitment and retention.",
-          "sources": [
-            "s4"
-          ]
-        },
-        {
-          "text": "Campaigns on comprehensive immigration reform with border security and pathways to citizenship.",
-          "sources": [
-            "s5"
-          ]
-        },
-        {
-          "text": "Campaigns on restoring trust through campaign finance and ethics reforms.",
-          "sources": [
-            "s6"
-          ]
-        }
-      ],
-      "promises": [
-        {
-          "text": "Says he will not take dark money and will make cleaning up corruption an early priority.",
-          "sources": [
-            "s6"
-          ]
-        },
-        {
-          "text": "Says he will work to reverse the effects of Citizens United and ban super PACs.",
-          "sources": [
-            "s6"
-          ]
-        },
-        {
-          "text": "Says he supports term limits of six terms in the House and two terms in the Senate.",
-          "sources": [
-            "s6"
-          ]
-        },
-        {
-          "text": "Says he will work to codify Roe v. Wade and protect access to contraception and IVF.",
-          "sources": [
-            "s3"
-          ]
-        }
-      ],
-      "record": [
-        {
-          "text": "Has served on the Richardson City Council since 2023; in February 2026 the council voted 5 to 2 to make a new resign-to-run rule prospective, allowing him to remain on the council during his campaign.",
-          "sources": [
-            "s7"
-          ]
-        }
-      ],
-      "notes": [
-        {
-          "text": "Won the March 3, 2026 Democratic primary with 60.07 percent of the vote over Anthony Bridges (unofficial results).",
-          "sources": [
-            "s8"
-          ]
-        },
-        {
-          "text": "An October 2026 news summary reported that he announced his resignation from the council in July to focus on the congressional race.",
-          "sources": [
-            "s2"
-          ]
-        },
-        {
-          "text": "The 32nd District was redrawn in 2025 to add areas east of the Metroplex extending to Upshur County; under the new lines it would have favored Trump by about 18 points.",
-          "sources": [
-            "s9"
-          ]
-        },
-        {
-          "text": "Holds an MBA in strategic management from the University of North Texas and taught business courses, according to his campaign biography.",
-          "sources": [
-            "s17"
-          ]
-        }
-      ],
-      "stances": {
-        "q_tariffs": {
-          "position": -2,
-          "basis": "statement",
-          "summary": "Says he will work to roll back tariff policies that raise costs for consumers and hurt Texas businesses.",
-          "sources": [
-            "s10"
-          ]
-        },
-        "q_federal_spending": {
-          "position": -2,
-          "basis": "statement",
-          "summary": "Calls for reversing cuts to Medicare and Medicaid and protecting SNAP and WIC.",
-          "sources": [
-            "s3",
-            "s1"
-          ]
-        },
-        "q_min_wage": {
-          "position": 2,
-          "basis": "statement",
-          "summary": "Supports increasing the federal minimum wage and expanding overtime eligibility.",
-          "sources": [
-            "s11",
-            "s1"
-          ]
-        },
-        "q_vouchers": {
-          "position": -2,
-          "basis": "statement",
-          "summary": "Rejects private school voucher programs that he says divert taxpayer dollars from neighborhood schools.",
-          "sources": [
-            "s4"
-          ]
-        },
-        "q_medicaid": {
-          "position": 1,
-          "basis": "inferred",
-          "summary": "Has not addressed Texas Medicaid expansion directly but supports guaranteed health care, a public option and reversing federal Medicaid cuts.",
-          "sources": [
-            "s3",
-            "s1"
-          ]
-        },
-        "q_abortion": {
-          "position": 2,
-          "basis": "statement",
-          "summary": "Supports restoring access to reproductive health care in Texas and codifying Roe v. Wade.",
-          "sources": [
-            "s3"
-          ]
-        },
-        "q_deportation": {
-          "position": -1,
-          "basis": "statement",
-          "summary": "Supports prioritizing deportation of criminals, gang members and human traffickers rather than residents who pay taxes and contribute to their communities.",
-          "sources": [
-            "s5"
-          ]
-        },
-        "q_legal_status": {
-          "position": 2,
-          "basis": "statement",
-          "summary": "Supports pathways to citizenship for DREAMers, spouses and long-term immigrants.",
-          "sources": [
-            "s5"
-          ]
-        },
-        "q_gun_laws": {
-          "position": 2,
-          "basis": "statement",
-          "summary": "Supports universal background checks and raising the age to buy certain semi-automatic rifles with high-capacity features.",
-          "sources": [
-            "s12"
-          ]
-        },
-        "q_fossil_priority": {
-          "position": -1,
-          "basis": "statement",
-          "summary": "Supports a mix of energy sources and restoring federal incentives for renewable development.",
-          "sources": [
-            "s13"
-          ]
-        },
-        "q_oilgas_rules": {
-          "position": 1,
-          "basis": "statement",
-          "summary": "Supports finishing the plugging of abandoned wells and strengthening the Clean Air Act and Clean Water Act.",
-          "sources": [
-            "s13"
-          ]
-        }
-      },
-      "issue_notes": [
-        {
-          "topic": "Data Centers",
-          "summary": "Says large energy users such as AI data centers should pay for the infrastructure upgrades they need.",
-          "sources": [
-            "s13",
-            "s14"
-          ]
-        },
-        {
-          "topic": "Immigration Enforcement",
-          "summary": "Supports requiring ICE agents to show identification and banning masks during enforcement.",
-          "sources": [
-            "s5"
-          ]
-        },
-        {
-          "topic": "Religion and Government",
-          "summary": "Says he rejects Christian nationalism and supports separation of church and state.",
-          "sources": [
-            "s15"
-          ]
-        },
-        {
-          "topic": "Rural Texas",
-          "summary": "Supports federal broadband funding, rural water system loans and grants, and streamlined H-2A visas.",
-          "sources": [
-            "s16"
-          ]
-        },
-        {
-          "topic": "Redistricting",
-          "summary": "Supports independent redistricting commissions.",
-          "sources": [
-            "s6"
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "id": "s1",
-          "title": "Taxes and Affordability",
-          "publisher": "Dan Barrios campaign",
-          "url": "https://www.danbarriosforcongress.com/taxesandaffordabilty",
-          "date": null
-        },
-        {
-          "id": "s2",
-          "title": "Texas 32nd District pits GOP attorney against Richardson Democrat",
-          "publisher": "Hoodline",
-          "url": "https://hoodline.com/2026/10/texas-32nd-district-pits-gop-attorney-against-richardson-democrat/",
-          "date": "2026-10-12"
-        },
-        {
-          "id": "s3",
-          "title": "Access to Health Care",
-          "publisher": "Dan Barrios campaign",
-          "url": "https://www.danbarriosforcongress.com/accesstohealthcare",
-          "date": null
-        },
-        {
-          "id": "s4",
-          "title": "Quality Public Education",
-          "publisher": "Dan Barrios campaign",
-          "url": "https://www.danbarriosforcongress.com/publiceducation",
-          "date": null
-        },
-        {
-          "id": "s5",
-          "title": "Immigration Reform",
-          "publisher": "Dan Barrios campaign",
-          "url": "https://www.danbarriosforcongress.com/immigrationreform",
-          "date": null
-        },
-        {
-          "id": "s6",
-          "title": "Restoring Trust and Accountability",
-          "publisher": "Dan Barrios campaign",
-          "url": "https://www.danbarriosforcongress.com/restoringtrustandaccountability",
-          "date": null
-        },
-        {
-          "id": "s7",
-          "title": "Richardson City Council calls charter election with prospective resign-to-run provision",
-          "publisher": "Community Impact",
-          "url": "https://communityimpact.com/dallas-fort-worth/richardson/government/2026/02/11/richardson-city-council-calls-charter-election-with-prospective-resign-to-run-provision",
-          "date": "2026-02-12"
-        },
-        {
-          "id": "s8",
-          "title": "Roundup: See updated results for U.S. House races affecting Dallas-Fort Worth cities",
-          "publisher": "Community Impact",
-          "url": "https://communityimpact.com/dallas-fort-worth/plano/election/2026/03/03/roundup-see-updated-results-for-us-house-races-affecting-dallas-fort-worth-cities/",
-          "date": "2026-03-04"
-        },
-        {
-          "id": "s9",
-          "title": "Jace Yarbrough is GOP nominee in North Texas congressional district after second-place finisher bows out",
-          "publisher": "Texas Tribune",
-          "url": "https://www.texastribune.org/2026/03/17/texas-32nd-congressional-district-jace-yarbrough-ryan-binkley-gop-primary/",
-          "date": "2026-03-17"
-        },
-        {
-          "id": "s10",
-          "title": "Foreign Policy and Veterans",
-          "publisher": "Dan Barrios campaign",
-          "url": "https://www.danbarriosforcongress.com/foreignpolicyandveterans",
-          "date": null
-        },
-        {
-          "id": "s11",
-          "title": "Labor and Business",
-          "publisher": "Dan Barrios campaign",
-          "url": "https://www.danbarriosforcongress.com/laborhandbusiness",
-          "date": null
-        },
-        {
-          "id": "s12",
-          "title": "Public Safety",
-          "publisher": "Dan Barrios campaign",
-          "url": "https://www.danbarriosforcongress.com/publicsafety",
-          "date": null
-        },
-        {
-          "id": "s13",
-          "title": "Energy and Environment",
-          "publisher": "Dan Barrios campaign",
-          "url": "https://www.danbarriosforcongress.com/energyandenvironment",
-          "date": null
-        },
-        {
-          "id": "s14",
-          "title": "Technology and Innovation",
-          "publisher": "Dan Barrios campaign",
-          "url": "https://www.danbarriosforcongress.com/technologyandinnovation",
-          "date": null
-        },
-        {
-          "id": "s15",
-          "title": "Faith and Family",
-          "publisher": "Dan Barrios campaign",
-          "url": "https://www.danbarriosforcongress.com/faithandfamily",
-          "date": null
-        },
-        {
-          "id": "s16",
-          "title": "Rural and Agriculture",
-          "publisher": "Dan Barrios campaign",
-          "url": "https://www.danbarriosforcongress.com/ruralandagriculture",
-          "date": null
-        },
-        {
-          "id": "s17",
-          "title": "About Dan",
-          "publisher": "Dan Barrios campaign",
-          "url": "https://www.danbarriosforcongress.com/about",
-          "date": null
-        }
-      ],
-      "research_gaps": "No questionnaire responses or debate coverage were found; no documented positions on cannabis, foreign land purchases, voting access or transgender medical care for minors."
-    },
-    {
-      "id": "bob-hall",
-      "race_id": "state-senate-2",
-      "incumbent": true,
-      "current_role": "Texas State Senator for District 2 since 2015",
-      "background": "Bob Hall, a Republican from Edgewood, holds an electrical engineering degree from The Citadel and served as a U.S. Air Force captain working on the Minuteman missile system. He later worked in the aerospace industry and in 1984 founded Professional Proposal Management, Inc. He was first elected to the Texas Senate in 2014 after defeating Sen. Bob Deuell in a runoff, and chairs the Senate Committee on Administration.",
-      "website": "https://senatorbobhall.com/",
-      "priorities": [
-        {
-          "text": "Campaigns on election integrity, saying the current computerized election process lacks transparency, accountability and verifiability.",
-          "sources": [
-            "s1"
-          ]
-        },
-        {
-          "text": "Campaigns on hardening the electric grid against cyber attacks, electromagnetic pulses and geomagnetic disturbances.",
-          "sources": [
-            "s1"
-          ]
-        },
-        {
-          "text": "Campaigns on limited government, zero-based budgeting and a budget balanced with available revenues.",
-          "sources": [
-            "s1",
-            "s2"
-          ]
-        },
-        {
-          "text": "Campaigns on banning sanctuary cities and counties and cutting state grants to noncompliant local governments.",
-          "sources": [
-            "s1"
-          ]
-        },
-        {
-          "text": "Campaigns on religious liberty, including denying state funds to cities or counties that restrict it.",
-          "sources": [
-            "s1"
-          ]
-        }
-      ],
-      "promises": [],
-      "record": [
-        {
-          "text": "Voted for SB 2 (2025), which created the Texas education savings account program; it passed the Senate 19 to 12.",
-          "sources": [
-            "s3",
-            "s4"
-          ]
-        },
-        {
-          "text": "Voted for SB 10 (2025), requiring Ten Commandments displays in public school classrooms; it passed the Senate 20 to 11.",
-          "sources": [
-            "s5",
-            "s4"
-          ]
-        },
-        {
-          "text": "Voted for SB 3 (2025), which would have banned consumable hemp products containing THC; it passed the Senate and was later vetoed by the governor.",
-          "sources": [
-            "s6",
-            "s7"
-          ]
-        },
-        {
-          "text": "Voted for SB 17 (2025), restricting the purchase of real property by certain foreign entities and nationals; it passed the Senate 24 to 7.",
-          "sources": [
-            "s5"
-          ]
-        },
-        {
-          "text": "Voted for SB 16 (2025), requiring proof of citizenship to register to vote; it passed the Senate 20 to 11 but did not become law.",
-          "sources": [
-            "s9"
-          ]
-        },
-        {
-          "text": "Voted for SB 8 (2025), requiring certain sheriffs to enter agreements with ICE to enforce federal immigration law.",
-          "sources": [
-            "s9"
-          ]
-        },
-        {
-          "text": "Voted for SJR 5 (2025), a constitutional amendment to allow denial of bail for certain violent offenses.",
-          "sources": [
-            "s10"
-          ]
-        },
-        {
-          "text": "Voted for SB 388 (2025), setting legislative goals for electric generation capacity, which passed the Senate 18 to 13, and SB 819 (2025), regulating renewable energy generation facilities.",
-          "sources": [
-            "s5",
-            "s11"
-          ]
-        },
-        {
-          "text": "Voted for SB 14 (2023), banning gender transition procedures and treatments for minors; it passed the Senate 19 to 12.",
-          "sources": [
-            "s12"
-          ]
-        },
-        {
-          "text": "Voted for HB 2127 (2023), expanding state preemption of city and county regulations; it passed the Senate 18 to 13.",
-          "sources": [
-            "s13"
-          ]
-        },
-        {
-          "text": "Voted for HB 2 (2025), the omnibus school finance bill that included teacher pay raises.",
-          "sources": [
-            "s4"
-          ]
-        },
-        {
-          "text": "Voted for SB 7 and HJR 7 (2025) on water infrastructure funding, both of which passed the Senate 31 to 0.",
-          "sources": [
-            "s14",
-            "s15"
-          ]
-        }
-      ],
-      "notes": [
-        {
-          "text": "Endorsed for reelection by President Donald Trump, Gov. Greg Abbott, U.S. Sen. Ted Cruz and Lt. Gov. Dan Patrick.",
-          "sources": [
-            "s16"
-          ]
-        },
-        {
-          "text": "In 2012 he filed for this Senate seat but was disqualified by the Republican Party for failing to meet residency requirements.",
-          "sources": [
-            "s4"
-          ]
-        },
-        {
-          "text": "Did not respond to the Association of Texas Professional Educators (ATPE) candidate surveys in 2018, 2022 or 2026.",
-          "sources": [
-            "s4"
-          ]
-        },
-        {
-          "text": "His official biography says he was instrumental in making Texas a Second Amendment sanctuary state.",
-          "sources": [
-            "s2"
-          ]
-        },
-        {
-          "text": "Holds an electrical engineering degree from The Citadel and is married to Kay Hall, according to his campaign biography.",
-          "sources": [
-            "s17"
-          ]
-        }
-      ],
-      "stances": {
-        "q_spending_cap": {
-          "position": 2,
-          "basis": "statement",
-          "summary": "His 2014 campaign called for a constitutional cap on state and local spending growth tied to population plus inflation, and he signed a 2012 spending limit pledge.",
-          "sources": [
-            "s4"
-          ]
-        },
-        "q_vouchers": {
-          "position": 2,
-          "basis": "record",
-          "summary": "Voted for education savings account or voucher bills in 2015, 2017, 2023 and 2025, including SB 2 in 2025.",
-          "sources": [
-            "s3",
-            "s4"
-          ]
-        },
-        "q_school_funding": {
-          "position": 0,
-          "basis": "record",
-          "summary": "Voted for the 2025 school finance and teacher pay bill (HB 2) but voted against a 2023 amendment for a $10,000 raise for all teachers.",
-          "sources": [
-            "s4"
-          ]
-        },
-        "q_ten_commandments": {
-          "position": 2,
-          "basis": "record",
-          "summary": "Voted for Ten Commandments classroom display bills in 2023 and 2025.",
-          "sources": [
-            "s5",
-            "s4"
-          ]
-        },
-        "q_abortion": {
-          "position": -1,
-          "basis": "statement",
-          "summary": "His official biography describes him as pro-life.",
-          "sources": [
-            "s2"
-          ]
-        },
-        "q_gun_laws": {
-          "position": -2,
-          "basis": "statement",
-          "summary": "His official biography describes him as pro-gun and says he helped make Texas a Second Amendment sanctuary state.",
-          "sources": [
-            "s2"
-          ]
-        },
-        "q_bail": {
-          "position": 2,
-          "basis": "record",
-          "summary": "Voted for SJR 5 (2025) to allow denial of bail for certain violent offenses and for SB 9 (2025) on bail, which passed 28 to 2.",
-          "sources": [
-            "s10",
-            "s8"
-          ]
-        },
-        "q_cannabis": {
-          "position": -2,
-          "basis": "record",
-          "summary": "Voted for SB 3 (2025), which would have banned consumable hemp products containing THC.",
-          "sources": [
-            "s6"
-          ]
-        },
-        "q_fossil_priority": {
-          "position": 2,
-          "basis": "record",
-          "summary": "Voted for SB 388 (2025) on legislative goals for electric generation capacity and SB 819 (2025) placing new requirements on renewable energy facilities.",
-          "sources": [
-            "s5",
-            "s11"
-          ]
-        },
-        "q_foreign_land": {
-          "position": 2,
-          "basis": "record",
-          "summary": "Voted for SB 17 (2025) restricting real property purchases by certain foreign entities and nationals.",
-          "sources": [
-            "s5"
-          ]
-        },
-        "q_water": {
-          "position": 1,
-          "basis": "record",
-          "summary": "Voted for SB 7 and HJR 7 (2025) to dedicate state funding to water infrastructure; both passed unanimously.",
-          "sources": [
-            "s14",
-            "s15"
-          ]
-        },
-        "q_voting_access": {
-          "position": -1,
-          "basis": "record",
-          "summary": "Voted for SB 16 (2025) requiring proof of citizenship to register to vote.",
-          "sources": [
-            "s9"
-          ]
-        },
-        "q_election_fraud": {
-          "position": 1,
-          "basis": "statement",
-          "summary": "Says the election system is vulnerable to error and fraud and must change.",
-          "sources": [
-            "s1"
-          ]
-        },
-        "q_preemption": {
-          "position": 2,
-          "basis": "record",
-          "summary": "Voted for HB 2127 (2023), which expanded state preemption of local regulations.",
-          "sources": [
-            "s13"
-          ]
-        },
-        "q_trans_minors": {
-          "position": 2,
-          "basis": "record",
-          "summary": "Voted for SB 14 (2023) banning gender transition treatments for minors.",
-          "sources": [
-            "s12"
-          ]
-        }
-      },
-      "issue_notes": [
-        {
-          "topic": "Electric Grid",
-          "summary": "Has hosted grid security summits and calls for a plan for widespread, long-term power outages.",
-          "sources": [
-            "s1",
-            "s2"
-          ]
-        },
-        {
-          "topic": "Federal Taxes",
-          "summary": "Says the IRS should be abolished and supports eliminating inheritance, gift and capital gains taxes.",
-          "sources": [
-            "s1"
-          ]
-        },
-        {
-          "topic": "Public Assistance",
-          "summary": "Supports means-testing social welfare and limiting it to U.S. citizens and legal residents.",
-          "sources": [
-            "s1"
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "id": "s1",
-          "title": "Priorities",
-          "publisher": "Bob Hall campaign",
-          "url": "https://senatorbobhall.com/priorities/priorities-2/",
-          "date": null
-        },
-        {
-          "id": "s2",
-          "title": "Senator Bob Hall: District 2",
-          "publisher": "Texas Senate",
-          "url": "https://senate.texas.gov/member.php?d=2",
-          "date": null
-        },
-        {
-          "id": "s3",
-          "title": "Senate Journal, 89th Legislature, February 5, 2025 (SB 2 third reading)",
-          "publisher": "Texas Senate",
-          "url": "https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ02-05-F.PDF",
-          "date": "2025-02-05"
-        },
-        {
-          "id": "s4",
-          "title": "Bob Hall candidate profile and voting record",
-          "publisher": "Teach the Vote (ATPE)",
-          "url": "https://teachthevote.atpe.org/candidates/bob-hall",
-          "date": null
-        },
-        {
-          "id": "s5",
-          "title": "Senate Journal, 89th Legislature, March 19, 2025 (SB 10, SB 17 and SB 388 third reading)",
-          "publisher": "Texas Senate",
-          "url": "https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ03-19-F.PDF",
-          "date": "2025-03-19"
-        },
-        {
-          "id": "s6",
-          "title": "Senate Journal, 89th Legislature, March 19, 2025, continued (SB 3 third reading)",
-          "publisher": "Texas Senate",
-          "url": "https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ03-19-F1.PDF",
-          "date": "2025-03-19"
-        },
-        {
-          "id": "s7",
-          "title": "Bill history: SB 3, 89th Legislature",
-          "publisher": "Texas Legislature Online",
-          "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB3",
-          "date": null
-        },
-        {
-          "id": "s8",
-          "title": "Senate Journal, 89th Legislature, February 19, 2025 (SB 9 third reading)",
-          "publisher": "Texas Senate",
-          "url": "https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ02-19-F.PDF",
-          "date": "2025-02-19"
-        },
-        {
-          "id": "s9",
-          "title": "Senate Journal, 89th Legislature, April 1, 2025 (SB 16 and SB 8 third reading)",
-          "publisher": "Texas Senate",
-          "url": "https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ04-01-F.PDF",
-          "date": "2025-04-01"
-        },
-        {
-          "id": "s10",
-          "title": "Senate Journal, 89th Legislature, February 20, 2025 (SJR 5 third reading)",
-          "publisher": "Texas Senate",
-          "url": "https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ02-20-F.PDF",
-          "date": "2025-02-20"
-        },
-        {
-          "id": "s11",
-          "title": "Senate Journal, 89th Legislature, April 15, 2025 (SB 819 third reading)",
-          "publisher": "Texas Senate",
-          "url": "https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ04-15-F.PDF",
-          "date": "2025-04-15"
-        },
-        {
-          "id": "s12",
-          "title": "Senate Journal, 88th Legislature, April 4, 2023 (SB 14 third reading)",
-          "publisher": "Texas Senate",
-          "url": "https://journals.senate.texas.gov/sjrnl/88r/pdf/88RSJ04-04-F.PDF",
-          "date": "2023-04-04"
-        },
-        {
-          "id": "s13",
-          "title": "Senate Journal, 88th Legislature, May 16, 2023 (HB 2127 third reading)",
-          "publisher": "Texas Senate",
-          "url": "https://journals.senate.texas.gov/sjrnl/88r/pdf/88RSJ05-16-F.PDF",
-          "date": "2023-05-16"
-        },
-        {
-          "id": "s14",
-          "title": "Senate Journal, 89th Legislature, April 2, 2025 (SB 7 third reading)",
-          "publisher": "Texas Senate",
-          "url": "https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ04-02-F.PDF",
-          "date": "2025-04-02"
-        },
-        {
-          "id": "s15",
-          "title": "Senate Journal, 89th Legislature, May 27, 2025 (HJR 7 third reading)",
-          "publisher": "Texas Senate",
-          "url": "https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-27-F.PDF",
-          "date": "2025-05-27"
-        },
-        {
-          "id": "s16",
-          "title": "Bob Hall files for re-election to Texas Senate",
-          "publisher": "KETR",
-          "url": "https://www.ketr.org/2025-11-13/bob-hall-files-for-re-election-to-texas-senate",
-          "date": "2025-11-13"
-        },
-        {
-          "id": "s17",
-          "title": "About",
-          "publisher": "Bob Hall campaign",
-          "url": "https://senatorbobhall.com/about/",
-          "date": null
-        }
-      ],
-      "research_gaps": "No 2026 questionnaire responses were found, the list of bills he authored in 2025 was not compiled, and no documented position was found on eliminating school property taxes, Medicaid expansion, minimum wage, gambling or ethics rules."
-    },
-    {
-      "id": "keenen-colbert",
-      "race_id": "state-senate-2",
-      "incumbent": false,
-      "current_role": "Marine Corps veteran and logistics manager",
-      "background": "Keenen Colbert served more than eight years in the U.S. Marine Corps, from 2012 to 2021, rising to both noncommissioned and commissioned officer rank and serving as a logistics officer. He was raised in Abilene and holds a bachelor's degree in electronic media and mass communications from Texas State University. Since leaving the Marines he has worked in logistics, project coordination and government accounts. His campaign lists a Forney mailing address.",
-      "website": "https://www.colbertfortexas.com/",
-      "priorities": [
-        {
-          "text": "Campaigns on fully funding public schools and paying teachers wages that match the cost of living.",
-          "sources": [
-            "s1"
-          ]
-        },
-        {
-          "text": "Campaigns on affordable health care, including lower prescription costs, telehealth and price transparency.",
-          "sources": [
-            "s1"
-          ]
-        },
-        {
-          "text": "Campaigns on lowering costs for working Texans, including groceries, housing, utilities and insurance.",
-          "sources": [
-            "s1"
-          ]
-        }
-      ],
-      "promises": [
-        {
-          "text": "Says he will fight to end the use of public funds for voucher programs.",
-          "sources": [
-            "s1"
-          ]
-        },
-        {
-          "text": "Says he will fight to lower the cost of prescription medications and expand telehealth.",
-          "sources": [
-            "s1"
-          ]
-        },
-        {
-          "text": "Says he will fight to legalize access to cannabis.",
-          "sources": [
-            "s1"
-          ]
-        },
-        {
-          "text": "Says he will fight to establish a baseline of health care that all Texans can access.",
-          "sources": [
-            "s1"
-          ]
-        }
-      ],
-      "record": [],
-      "notes": [],
-      "stances": {
-        "q_vouchers": {
-          "position": -2,
-          "basis": "statement",
-          "summary": "Says money should not be siphoned away through voucher programs and public funds should strengthen public schools.",
-          "sources": [
-            "s1"
-          ]
-        },
-        "q_school_funding": {
-          "position": 2,
-          "basis": "statement",
-          "summary": "Says Texas fails to adequately fund classrooms and pledges to fight for teacher pay that matches the cost of living.",
-          "sources": [
-            "s1"
-          ]
-        },
-        "q_cannabis": {
-          "position": 1,
-          "basis": "statement",
-          "summary": "Lists legalizing access to cannabis among his health care goals.",
-          "sources": [
-            "s1"
-          ]
-        },
-        "q_medicaid": {
-          "position": 1,
-          "basis": "inferred",
-          "summary": "Has not addressed Medicaid expansion by name but supports expanding access and a baseline of care all Texans can access.",
-          "sources": [
-            "s1"
-          ]
-        }
-      },
-      "issue_notes": [
-        {
-          "topic": "Higher Education",
-          "summary": "Supports greater transparency in college pricing, according to a voter guide profile.",
-          "sources": [
-            "s2"
-          ]
-        },
-        {
-          "topic": "Rural Hospitals",
-          "summary": "Says rural hospitals in the district are struggling to stay open.",
-          "sources": [
-            "s1"
-          ]
-        }
-      ],
-      "sources": [
-        {
-          "id": "s1",
-          "title": "Keenen Colbert for TX Senate District 2",
-          "publisher": "Keenen Colbert campaign",
-          "url": "https://www.colbertfortexas.com/",
-          "date": null
-        },
-        {
-          "id": "s2",
-          "title": "Keenen Colbert",
-          "publisher": "BallotReady",
-          "url": "https://www.ballotready.org/people/keenen-colbert",
-          "date": null
-        }
-      ],
-      "research_gaps": "No news coverage, questionnaire responses or endorsements were found; most questionnaire topics have no documented position."
+     "text": "Campaigns on what he calls stopping the growing influence of Sharia in Texas and the nation.",
+     "sources": [
+      "s2"
+     ]
     }
-  ]
+   ],
+   "promises": [
+    {
+     "text": "Says he will fight all efforts to curtail constitutional gun rights.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Says he insists that all future voting machines include a paper trail.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "record": [
+    {
+     "text": "Voted for the One Big Beautiful Bill Act on House passage in May 2025 and on final passage on July 3, 2025, and said the House Freedom Caucus secured nearly $1 trillion in Medicaid savings.",
+     "sources": [
+      "s3",
+      "s4",
+      "s5"
+     ]
+    },
+    {
+     "text": "Voted for the Laken Riley Act in January 2025.",
+     "sources": [
+      "s6"
+     ]
+    },
+    {
+     "text": "Voted for continuing resolutions in March 2025 (H.R. 1968), September and November 2025 (H.R. 5371) and July 2026 (H.R. 9770); his campaign site says he has consistently opposed continuing resolutions.",
+     "sources": [
+      "s2",
+      "s21",
+      "s22",
+      "s23",
+      "s24"
+     ]
+    },
+    {
+     "text": "Voted for the SAVE Act, which requires proof of citizenship to register to vote in federal elections, in April 2025.",
+     "sources": [
+      "s7"
+     ]
+    },
+    {
+     "text": "Voted for the Protect Children's Innocence Act (H.R. 3492) in December 2025, which would make certain gender transition treatments for minors a federal crime.",
+     "sources": [
+      "s8",
+      "s9"
+     ]
+    },
+    {
+     "text": "Voted for the Do No Harm in Medicaid Act (H.R. 498) in December 2025.",
+     "sources": [
+      "s10"
+     ]
+    },
+    {
+     "text": "Voted against H.J.Res. 72 in February 2026, a resolution to end the national emergency used to impose tariffs on Canadian goods; it passed 219 to 211.",
+     "sources": [
+      "s11",
+      "s12"
+     ]
+    },
+    {
+     "text": "Voted against the Consolidated Appropriations Act, 2026 (H.R. 7148) in January and February 2026.",
+     "sources": [
+      "s13",
+      "s14"
+     ]
+    },
+    {
+     "text": "Voted against the Ukraine Support Act (H.R. 2913) in June 2026.",
+     "sources": [
+      "s15"
+     ]
+    },
+    {
+     "text": "Voted for the Born-Alive Abortion Survivors Protection Act in January 2025.",
+     "sources": [
+      "s16"
+     ]
+    },
+    {
+     "text": "Co-founded the Sharia-Free America Caucus in the House, according to his campaign site.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Says that as Collin County Judge he helped cut the county property tax rate by nearly 30 percent.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Endorsed by President Donald Trump, according to his campaign site.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Won the March 3, 2026 Republican primary with 80.17 percent of the vote (unofficial results).",
+     "sources": [
+      "s17"
+     ]
+    },
+    {
+     "text": "In March 2025, as chair of a Foreign Affairs subcommittee hearing, he addressed Rep. Sarah McBride, a transgender woman, as \"Mr.\" and adjourned the hearing after the ranking Democrat objected. He later posted that it is U.S. policy to recognize two sexes.",
+     "sources": [
+      "s18"
+     ]
+    },
+    {
+     "text": "Initially supported the One Big Beautiful Bill Act, announced opposition to the Senate version on July 2, 2025, then voted for it on July 3, 2025.",
+     "sources": [
+      "s4",
+      "s19"
+     ]
+    }
+   ],
+   "stances": {
+    "q_tariffs": {
+     "position": 1,
+     "basis": "record",
+     "summary": "Voted against ending the emergency used for tariffs on Canada and told the AP that Republicans would have to support the president.",
+     "sources": [
+      "s11",
+      "s12"
+     ]
+    },
+    "q_federal_spending": {
+     "position": 2,
+     "basis": "record",
+     "summary": "Voted for the 2025 reconciliation bill and cited its Medicaid savings, campaigns on cutting wasteful spending, and voted against the 2026 consolidated spending bill.",
+     "sources": [
+      "s2",
+      "s3",
+      "s13"
+     ]
+    },
+    "q_medicaid": {
+     "position": -1,
+     "basis": "inferred",
+     "summary": "Has not addressed Texas Medicaid expansion directly, but voted for and praised federal legislation that reduced Medicaid spending.",
+     "sources": [
+      "s3",
+      "s5"
+     ]
+    },
+    "q_abortion": {
+     "position": -2,
+     "basis": "statement",
+     "summary": "Describes himself as pro-life, cites service on a crisis pregnancy center board and support from right to life groups, and voted for the Born-Alive bill.",
+     "sources": [
+      "s2",
+      "s16"
+     ]
+    },
+    "q_border_state": {
+     "position": 2,
+     "basis": "statement",
+     "summary": "Says he supports Operation Lone Star and has proposed that the federal government reimburse Texas for its border security spending.",
+     "sources": [
+      "s2"
+     ]
+    },
+    "q_gun_laws": {
+     "position": -2,
+     "basis": "statement",
+     "summary": "Says he is a life member of the NRA and will fight all efforts to curtail constitutional gun rights.",
+     "sources": [
+      "s2"
+     ]
+    },
+    "q_fossil_priority": {
+     "position": 1,
+     "basis": "statement",
+     "summary": "Says he voted to expand refining and streamline permitting and works to stop Green New Deal policies he says raise energy costs.",
+     "sources": [
+      "s2"
+     ]
+    },
+    "q_voting_access": {
+     "position": -1,
+     "basis": "record",
+     "summary": "Supports photo ID to vote and voted for the SAVE Act requiring proof of citizenship to register.",
+     "sources": [
+      "s2",
+      "s7"
+     ]
+    },
+    "q_trans_minors": {
+     "position": 2,
+     "basis": "record",
+     "summary": "Voted for a federal bill to criminalize gender transition treatments for minors and for a ban on Medicaid funding for them.",
+     "sources": [
+      "s8",
+      "s10"
+     ]
+    }
+   },
+   "issue_notes": [
+    {
+     "topic": "Ukraine and Europe",
+     "summary": "Says he has consistently voted against funding for the conflict in Ukraine and wants European countries such as France and Germany to meet their commitments.",
+     "sources": [
+      "s2",
+      "s15"
+     ]
+    },
+    {
+     "topic": "Elections",
+     "summary": "Says elections must remain under state control.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Keith Self for Congress",
+     "publisher": "Keith Self campaign",
+     "url": "https://www.keithself.com/",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Issues",
+     "publisher": "Keith Self campaign",
+     "url": "https://keithself.com/issues/",
+     "date": null
+    },
+    {
+     "id": "s3",
+     "title": "Congressman Keith Self releases statement following House passage of Big Beautiful Bill",
+     "publisher": "Office of Rep. Keith Self",
+     "url": "https://keithself.house.gov/media/press-releases/congressman-keith-self-releases-statement-following-house-passage-big",
+     "date": "2025-07-03"
+    },
+    {
+     "id": "s4",
+     "title": "Roll Call 190: H.R. 1, motion to concur in Senate amendment",
+     "publisher": "Clerk of the U.S. House",
+     "url": "https://clerk.house.gov/evs/2025/roll190.xml",
+     "date": "2025-07-03"
+    },
+    {
+     "id": "s5",
+     "title": "Roll Call 145: H.R. 1, One Big Beautiful Bill Act, on passage",
+     "publisher": "Clerk of the U.S. House",
+     "url": "https://clerk.house.gov/evs/2025/roll145.xml",
+     "date": "2025-05-22"
+    },
+    {
+     "id": "s6",
+     "title": "Roll Call 6: H.R. 29, Laken Riley Act",
+     "publisher": "Clerk of the U.S. House",
+     "url": "https://clerk.house.gov/evs/2025/roll006.xml",
+     "date": "2025-01-07"
+    },
+    {
+     "id": "s7",
+     "title": "Roll Call 102: H.R. 22, SAVE Act",
+     "publisher": "Clerk of the U.S. House",
+     "url": "https://clerk.house.gov/evs/2025/roll102.xml",
+     "date": "2025-04-10"
+    },
+    {
+     "id": "s8",
+     "title": "Roll Call 351: H.R. 3492, Protect Children's Innocence Act",
+     "publisher": "Clerk of the U.S. House",
+     "url": "https://clerk.house.gov/evs/2025/roll351.xml",
+     "date": "2025-12-17"
+    },
+    {
+     "id": "s9",
+     "title": "H.R. 3492 Protect Children's Innocence Act",
+     "publisher": "The Lobby News",
+     "url": "https://www.thelobbynews.com/congress/bills/119/house-bill/3492",
+     "date": null
+    },
+    {
+     "id": "s10",
+     "title": "Roll Call 362: H.R. 498, Do No Harm in Medicaid Act",
+     "publisher": "Clerk of the U.S. House",
+     "url": "https://clerk.house.gov/evs/2025/roll362.xml",
+     "date": "2025-12-18"
+    },
+    {
+     "id": "s11",
+     "title": "Roll Call 65: H.J.Res. 72, relating to a national emergency declared February 1, 2025",
+     "publisher": "Clerk of the U.S. House",
+     "url": "https://clerk.house.gov/evs/2026/roll065.xml",
+     "date": "2026-02-11"
+    },
+    {
+     "id": "s12",
+     "title": "House faces showdown vote over Trump's tariffs on Canada (Associated Press)",
+     "publisher": "Solwd (AP republication)",
+     "url": "https://solwd.net/house-faces-showdown-vote-over-trumps-tariffs-on-canada/",
+     "date": "2026-02-11"
+    },
+    {
+     "id": "s13",
+     "title": "Roll Call 45: H.R. 7148, Consolidated Appropriations Act, 2026",
+     "publisher": "Clerk of the U.S. House",
+     "url": "https://clerk.house.gov/evs/2026/roll045.xml",
+     "date": "2026-01-22"
+    },
+    {
+     "id": "s14",
+     "title": "Roll Call 53: H.R. 7148, motion to concur in Senate amendments",
+     "publisher": "Clerk of the U.S. House",
+     "url": "https://clerk.house.gov/evs/2026/roll053.xml",
+     "date": "2026-02-03"
+    },
+    {
+     "id": "s15",
+     "title": "Roll Call 207: H.R. 2913, Ukraine Support Act",
+     "publisher": "Clerk of the U.S. House",
+     "url": "https://clerk.house.gov/evs/2026/roll207.xml",
+     "date": "2026-06-04"
+    },
+    {
+     "id": "s16",
+     "title": "Roll Call 27: H.R. 21, Born-Alive Abortion Survivors Protection Act",
+     "publisher": "Clerk of the U.S. House",
+     "url": "https://clerk.house.gov/evs/2025/roll027.xml",
+     "date": "2025-01-23"
+    },
+    {
+     "id": "s17",
+     "title": "Roundup: See updated results for U.S. House races affecting Dallas-Fort Worth cities",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/dallas-fort-worth/plano/election/2026/03/03/roundup-see-updated-results-for-us-house-races-affecting-dallas-fort-worth-cities/",
+     "date": "2026-03-04"
+    },
+    {
+     "id": "s18",
+     "title": "House Republican adjourns hearing after exchange over misgendering Rep. Sarah McBride",
+     "publisher": "NBC News",
+     "url": "https://www.nbcnews.com/politics/congress/republican-adjourns-hearing-exchange-sarah-mcbride-misgendering-rcna195936",
+     "date": "2025-03-11"
+    },
+    {
+     "id": "s19",
+     "title": "Big beautiful flip flop: Texas Rep. Keith Self backs Trump bill after waffling",
+     "publisher": "Dallas Express",
+     "url": "https://dallasexpress.com/national/big-beautiful-flip-flop-texas-rep-keith-self-backs-trump-bill-after-waffling/",
+     "date": "2025-07"
+    },
+    {
+     "id": "s21",
+     "title": "Roll Call 70: H.R. 1968, Full-Year Continuing Appropriations and Extensions Act, 2025",
+     "publisher": "Clerk of the U.S. House",
+     "url": "https://clerk.house.gov/evs/2025/roll070.xml",
+     "date": "2025-03-11"
+    },
+    {
+     "id": "s22",
+     "title": "Roll Call 281: H.R. 5371, Continuing Appropriations and Extensions Act, 2026",
+     "publisher": "Clerk of the U.S. House",
+     "url": "https://clerk.house.gov/evs/2025/roll281.xml",
+     "date": "2025-09-19"
+    },
+    {
+     "id": "s23",
+     "title": "Roll Call 285: H.R. 5371, motion to concur in Senate amendment",
+     "publisher": "Clerk of the U.S. House",
+     "url": "https://clerk.house.gov/evs/2025/roll285.xml",
+     "date": "2025-11-12"
+    },
+    {
+     "id": "s24",
+     "title": "Roll Call 272: H.R. 9770, continuing appropriations for fiscal year 2027",
+     "publisher": "Clerk of the U.S. House",
+     "url": "https://clerk.house.gov/evs/2026/roll272.xml",
+     "date": "2026-07-21"
+    }
+   ],
+   "research_gaps": "No 2026 questionnaire answers were found; no documented positions on minimum wage, vouchers, cannabis, legal status for undocumented residents, or foreign land purchases."
+  },
+  {
+   "id": "evan-hunt",
+   "race_id": "us-house-3",
+   "incumbent": false,
+   "current_role": "Retired U.S. Air Force lieutenant colonel and defense industry executive",
+   "background": "Evan Hunt served as a B-1 bomber weapons systems officer and electronic warfare officer with combat deployments in Operation Enduring Freedom and Operation New Dawn, then held Air National Guard leadership roles before retiring in 2022. He has held executive roles in the defense and aerospace industry, including at Raytheon. He holds a bachelor's degree from the University of Pennsylvania and a master's degree from American Military University. He has lived in Texas for more than 11 years, the last six in McKinney.",
+   "website": "https://www.electevanhunt.com/",
+   "priorities": [
+    {
+     "text": "Campaigns on defending the Constitution, including free and fair elections, an independent judiciary and checks and balances.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Campaigns on lowering health care costs, including prescription drug prices, and keeping ACA subsidies until a better plan exists.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Campaigns on fully funding public schools, local control and merit-informed teacher pay increases.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Campaigns on immigration reform that pairs border security with a path for law-abiding immigrants.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Campaigns on anti-corruption reforms such as term limits and a ban on congressional stock trading.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Campaigns on protecting Social Security and supporting family caregivers and veterans.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [
+    {
+     "text": "Says he will push for a nationwide ban on partisan, out-of-cycle redistricting.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says he will not accept donations from AIPAC or other foreign-interest aligned organizations.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says he will fight any attempt to cut Social Security benefits.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says he supports the Equal Voices Act (H.R. 4125) to expand the size of the House.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "record": [],
+   "notes": [
+    {
+     "text": "Ran unopposed in the March 3, 2026 Democratic primary.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Says he is a charter member of the Take BAC Congress pledge on term limits, stock trading and lobbying limits.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {
+    "q_tariffs": {
+     "position": -2,
+     "basis": "statement",
+     "summary": "Says tariffs are a form of taxation, opposes trade wars and says emergency powers should not be used to raise tariffs.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_federal_spending": {
+     "position": -1,
+     "basis": "statement",
+     "summary": "Says ACA subsidies should not expire until there is a better plan and that he will oppose cuts to Social Security.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_vouchers": {
+     "position": -2,
+     "basis": "statement",
+     "summary": "Says he is firmly against voucher initiatives, which he says would harm public schools such as Plano, Frisco and Allen ISDs.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_deportation": {
+     "position": -1,
+     "basis": "statement",
+     "summary": "Supports deporting undocumented criminals and violent offenders but opposes ICE raids and targeting families who are not criminals.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_legal_status": {
+     "position": 1,
+     "basis": "statement",
+     "summary": "Supports giving law-abiding immigrants a path to earn their place alongside strong border security.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_trans_minors": {
+     "position": -1,
+     "basis": "statement",
+     "summary": "Says the federal government should not dictate what medical treatment people can get or make children feel bad about who they are.",
+     "sources": [
+      "s1"
+     ]
+    }
+   },
+   "issue_notes": [
+    {
+     "topic": "Health Insurance",
+     "summary": "Calls for a public and private partnership providing an affordable baseline and cites Mark Cuban's Cost Plus Drug Company as a model to study.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "topic": "Middle East",
+     "summary": "Says he does not support sending more funding or offensive weapons to Israel until spending is in line with U.S. values, and supports confronting Iran-backed terrorist groups.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "topic": "Alliances and Trade",
+     "summary": "Supports NATO and says allies must pay their fair share.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Elect Evan Hunt: Service Before Self",
+     "publisher": "Evan Hunt campaign",
+     "url": "https://www.electevanhunt.com/",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Roundup: See updated results for U.S. House races affecting Dallas-Fort Worth cities",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/dallas-fort-worth/plano/election/2026/03/03/roundup-see-updated-results-for-us-house-races-affecting-dallas-fort-worth-cities/",
+     "date": "2026-03-04"
+    }
+   ],
+   "research_gaps": "No questionnaire responses or independent news interviews were found; no documented positions on minimum wage, Medicaid expansion, abortion, guns, energy or voting access."
+  },
+  {
+   "id": "pat-fallon",
+   "race_id": "us-house-4",
+   "incumbent": true,
+   "current_role": "U.S. Representative for Texas's 4th Congressional District since 2021",
+   "background": "Pat Fallon is a University of Notre Dame graduate who served as an officer in the U.S. Air Force at Sheppard Air Force Base and later founded more than a dozen companies. He served in the Texas House and the Texas Senate before Congress. He chairs the House Armed Services Subcommittee on Military Personnel and serves on the Intelligence and Oversight committees.",
+   "website": "https://www.fallonforcongress.com/",
+   "priorities": [
+    {
+     "text": "Campaigns on standing with President Trump as a conservative.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Campaigns on border security, gun rights, opposing vaccine mandates, and expanding energy production.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Campaigns on defending Taiwan and deterring aggression.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Voted for the One Big Beautiful Bill Act in May and July 2025 and said it extends the 2017 tax cuts and greatly increases funding for Border Patrol and ICE.",
+     "sources": [
+      "s2",
+      "s3",
+      "s4"
+     ]
+    },
+    {
+     "text": "Voted for the Laken Riley Act in January 2025.",
+     "sources": [
+      "s5"
+     ]
+    },
+    {
+     "text": "Voted for the SAVE Act, which requires proof of citizenship to register to vote in federal elections, in April 2025.",
+     "sources": [
+      "s6"
+     ]
+    },
+    {
+     "text": "Voted for the Protect Children's Innocence Act (H.R. 3492) and the Do No Harm in Medicaid Act (H.R. 498) in December 2025.",
+     "sources": [
+      "s7",
+      "s8"
+     ]
+    },
+    {
+     "text": "Voted against H.J.Res. 72 in February 2026, a resolution to end the national emergency used to impose tariffs on Canadian goods.",
+     "sources": [
+      "s9"
+     ]
+    },
+    {
+     "text": "Voted for the Consolidated Appropriations Act, 2026 (H.R. 7148) in January 2026.",
+     "sources": [
+      "s10"
+     ]
+    },
+    {
+     "text": "Voted against the Ukraine Support Act (H.R. 2913) in June 2026.",
+     "sources": [
+      "s11"
+     ]
+    },
+    {
+     "text": "Voted for the Stop Insider Trading Act (H.R. 7008) in July 2026.",
+     "sources": [
+      "s12"
+     ]
+    },
+    {
+     "text": "Voted for the Born-Alive Abortion Survivors Protection Act in January 2025.",
+     "sources": [
+      "s13"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Won the March 3, 2026 Republican primary with 80.62 percent of the vote (unofficial results).",
+     "sources": [
+      "s14"
+     ]
+    },
+    {
+     "text": "In 2022 the Office of Congressional Ethics found substantial reason to believe he violated the STOCK Act by filing late disclosures of 122 stock transactions in 2021 and referred the matter to the House Ethics Committee; his attorney said the fines were paid and asked for dismissal. Reports at the time did not state a final outcome.",
+     "sources": [
+      "s15"
+     ]
+    },
+    {
+     "text": "In November 2023 he announced a run for the Texas Senate, then ended it about 24 hours later and sought reelection to Congress.",
+     "sources": [
+      "s16"
+     ]
+    }
+   ],
+   "stances": {
+    "q_tariffs": {
+     "position": 1,
+     "basis": "record",
+     "summary": "Voted against ending the emergency used for tariffs on Canada and said on Fox Business that Mexico needs the U.S. more than the U.S. needs Mexico when discussing tariffs.",
+     "sources": [
+      "s9",
+      "s17"
+     ]
+    },
+    "q_federal_spending": {
+     "position": 1,
+     "basis": "record",
+     "summary": "Voted for the 2025 reconciliation bill and defended food assistance work requirements, saying able-bodied people who want to milk the taxpayer would face limits.",
+     "sources": [
+      "s3",
+      "s18"
+     ]
+    },
+    "q_abortion": {
+     "position": -1,
+     "basis": "statement",
+     "summary": "Lists pro-life as a campaign issue and voted for the Born-Alive bill.",
+     "sources": [
+      "s1",
+      "s13"
+     ]
+    },
+    "q_gun_laws": {
+     "position": -2,
+     "basis": "statement",
+     "summary": "His campaign site states that the Second Amendment shall not be infringed.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_voting_access": {
+     "position": -1,
+     "basis": "record",
+     "summary": "Voted for the SAVE Act requiring proof of citizenship to register to vote.",
+     "sources": [
+      "s6"
+     ]
+    },
+    "q_trans_minors": {
+     "position": 2,
+     "basis": "record",
+     "summary": "Voted for a federal bill to criminalize gender transition treatments for minors and for a ban on Medicaid funding for them.",
+     "sources": [
+      "s7",
+      "s8"
+     ]
+    }
+   },
+   "issue_notes": [
+    {
+     "topic": "Defense",
+     "summary": "Says the 2025 reconciliation bill's defense funding helps deter China, rebuild the defense industrial base and advance Golden Dome missile defense.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "topic": "Border",
+     "summary": "Has called failure to secure the border cruel to Americans in national television appearances.",
+     "sources": [
+      "s19"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Fallon for Congress",
+     "publisher": "Pat Fallon campaign",
+     "url": "https://www.fallonforcongress.com/",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Congressman Pat Fallon statement on passage of the Big Beautiful Bill",
+     "publisher": "Capitol Releases (from fallon.house.gov)",
+     "url": "https://capitolreleases.com/releases/fc7975fc-a585-43da-9771-55359f1c1c41",
+     "date": "2025-07-03"
+    },
+    {
+     "id": "s3",
+     "title": "Roll Call 190: H.R. 1, motion to concur in Senate amendment",
+     "publisher": "Clerk of the U.S. House",
+     "url": "https://clerk.house.gov/evs/2025/roll190.xml",
+     "date": "2025-07-03"
+    },
+    {
+     "id": "s4",
+     "title": "Roll Call 145: H.R. 1, One Big Beautiful Bill Act, on passage",
+     "publisher": "Clerk of the U.S. House",
+     "url": "https://clerk.house.gov/evs/2025/roll145.xml",
+     "date": "2025-05-22"
+    },
+    {
+     "id": "s5",
+     "title": "Roll Call 6: H.R. 29, Laken Riley Act",
+     "publisher": "Clerk of the U.S. House",
+     "url": "https://clerk.house.gov/evs/2025/roll006.xml",
+     "date": "2025-01-07"
+    },
+    {
+     "id": "s6",
+     "title": "Roll Call 102: H.R. 22, SAVE Act",
+     "publisher": "Clerk of the U.S. House",
+     "url": "https://clerk.house.gov/evs/2025/roll102.xml",
+     "date": "2025-04-10"
+    },
+    {
+     "id": "s7",
+     "title": "Roll Call 351: H.R. 3492, Protect Children's Innocence Act",
+     "publisher": "Clerk of the U.S. House",
+     "url": "https://clerk.house.gov/evs/2025/roll351.xml",
+     "date": "2025-12-17"
+    },
+    {
+     "id": "s8",
+     "title": "Roll Call 362: H.R. 498, Do No Harm in Medicaid Act",
+     "publisher": "Clerk of the U.S. House",
+     "url": "https://clerk.house.gov/evs/2025/roll362.xml",
+     "date": "2025-12-18"
+    },
+    {
+     "id": "s9",
+     "title": "Roll Call 65: H.J.Res. 72, relating to a national emergency declared February 1, 2025",
+     "publisher": "Clerk of the U.S. House",
+     "url": "https://clerk.house.gov/evs/2026/roll065.xml",
+     "date": "2026-02-11"
+    },
+    {
+     "id": "s10",
+     "title": "Roll Call 45: H.R. 7148, Consolidated Appropriations Act, 2026",
+     "publisher": "Clerk of the U.S. House",
+     "url": "https://clerk.house.gov/evs/2026/roll045.xml",
+     "date": "2026-01-22"
+    },
+    {
+     "id": "s11",
+     "title": "Roll Call 207: H.R. 2913, Ukraine Support Act",
+     "publisher": "Clerk of the U.S. House",
+     "url": "https://clerk.house.gov/evs/2026/roll207.xml",
+     "date": "2026-06-04"
+    },
+    {
+     "id": "s12",
+     "title": "Roll Call 280: H.R. 7008, Stop Insider Trading Act",
+     "publisher": "Clerk of the U.S. House",
+     "url": "https://clerk.house.gov/evs/2026/roll280.xml",
+     "date": "2026-07-22"
+    },
+    {
+     "id": "s13",
+     "title": "Roll Call 27: H.R. 21, Born-Alive Abortion Survivors Protection Act",
+     "publisher": "Clerk of the U.S. House",
+     "url": "https://clerk.house.gov/evs/2025/roll027.xml",
+     "date": "2025-01-23"
+    },
+    {
+     "id": "s14",
+     "title": "Roundup: See updated results for U.S. House races affecting Dallas-Fort Worth cities",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/dallas-fort-worth/plano/election/2026/03/03/roundup-see-updated-results-for-us-house-races-affecting-dallas-fort-worth-cities/",
+     "date": "2026-03-04"
+    },
+    {
+     "id": "s15",
+     "title": "'Substantial reason to believe' Reps. Fallon and Rutherford violated STOCK Act, ethics office finds",
+     "publisher": "Roll Call",
+     "url": "https://www.rollcall.com/2022/05/31/substantial-reason-to-believe-reps-fallon-and-rutherford-violated-stock-act-ethics-office-finds",
+     "date": "2022-05-31"
+    },
+    {
+     "id": "s16",
+     "title": "Rep. Pat Fallon secures GOP nomination in U.S. House District 4 race",
+     "publisher": "Denton Record-Chronicle",
+     "url": "https://dentonrc.com/elections/rep-pat-fallon-secures-gop-nomination-in-u-s-house-district-4-race/article_acd49d15-7f7c-4d87-bfe8-d99ae3ff3f76.html",
+     "date": "2026-03-04"
+    },
+    {
+     "id": "s17",
+     "title": "'Mexico needs us more than we need them': Rep. Pat Fallon on Trump tariff pledge",
+     "publisher": "Fox Business",
+     "url": "https://foxbusiness.com/video/6365218983112",
+     "date": null
+    },
+    {
+     "id": "s18",
+     "title": "Food stamps work requirements",
+     "publisher": "TheBlaze",
+     "url": "https://www.theblaze.com/news/food-stamps-work-requirements-cheetos",
+     "date": "2025-02-27"
+    },
+    {
+     "id": "s19",
+     "title": "'FIRED UP': Not securing border is 'cruel' to American people, says Rep. Pat Fallon",
+     "publisher": "Fox Business",
+     "url": "https://www.foxbusiness.com/category/fox-news-illegal-immigrants?page=20",
+     "date": null
+    }
+   ],
+   "research_gaps": "His campaign site presents issues mainly as video headlines, so detailed written positions on Medicaid, energy, immigration status and other questions were not found; no 2026 questionnaire answers were found."
+  },
+  {
+   "id": "jason-pearce",
+   "race_id": "us-house-4",
+   "incumbent": false,
+   "current_role": "Former sales and insurance professional; first-time candidate",
+   "background": "Jason Pearce was born and raised in Plano. He has worked in sales, mortgage lending, finance and insurance, and earlier as a chef, restaurant manager and security manager. He attended the University of North Texas. He says he left his job after the 2024 election to get involved in his community, and this is his first run for public office.",
+   "website": "https://pearcefortexas.com/",
+   "priorities": [
+    {
+     "text": "Campaigns on Medicare for All, which he describes as universal coverage regardless of age, income or employment.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Campaigns on housing affordability, including direct federal investment in public housing.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Campaigns on a living wage, the PRO Act, a 32-hour workweek and a federal jobs guarantee.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Campaigns on expanding Social Security, funded by higher taxes on billionaires and large corporations.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Campaigns on clean water, oversight of data centers and accountability for corporate polluters in North Texas.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Campaigns on getting money out of politics.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [
+    {
+     "text": "Says he takes no corporate PAC money and no AIPAC or foreign-interest aligned PAC money.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says he will fight to restore federal environmental protections for North Texas communities.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says he opposes any cuts to Social Security or Medicare.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "record": [],
+   "notes": [
+    {
+     "text": "Won the March 3, 2026 Democratic primary with 51.97 percent of the vote over Andrew Rubell (unofficial results).",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Has worked in customer service and as a chef, security manager and insurance adviser, according to local primary coverage.",
+     "sources": [
+      "s4"
+     ]
+    }
+   ],
+   "stances": {
+    "q_federal_spending": {
+     "position": -2,
+     "basis": "statement",
+     "summary": "Opposes cuts to Social Security and Medicare, supports expanding benefits, and says money spent on military interventions could go to domestic needs.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_min_wage": {
+     "position": 2,
+     "basis": "statement",
+     "summary": "Supports a living wage and, per a summary of his site, raising the minimum wage and ending the subminimum tipped wage.",
+     "sources": [
+      "s1",
+      "s3"
+     ]
+    },
+    "q_medicaid": {
+     "position": 2,
+     "basis": "inferred",
+     "summary": "Supports Medicare for All, a universal federal program that would go beyond Medicaid expansion.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_deportation": {
+     "position": -2,
+     "basis": "statement",
+     "summary": "Says he opposes mass deportation operations that separate families.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_legal_status": {
+     "position": 2,
+     "basis": "statement",
+     "summary": "Supports real pathways to citizenship for people who have built their lives here, while saying he is still developing his immigration platform.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_gun_laws": {
+     "position": 2,
+     "basis": "reported",
+     "summary": "A voter guide summary of his site lists support for universal background checks, waiting periods and free safety training for gun owners.",
+     "sources": [
+      "s3"
+     ]
+    },
+    "q_fossil_priority": {
+     "position": -1,
+     "basis": "statement",
+     "summary": "Supports Texas's renewable energy leadership in wind and solar, with responsible siting.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_oilgas_rules": {
+     "position": 1,
+     "basis": "statement",
+     "summary": "Supports strong federal clean water standards and accountability for corporate polluters.",
+     "sources": [
+      "s1"
+     ]
+    }
+   },
+   "issue_notes": [
+    {
+     "topic": "Housing",
+     "summary": "Supports repealing the Faircloth Amendment and banning institutional investors and private equity firms from buying single-family homes.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "topic": "Campaign Finance and Ethics",
+     "summary": "Supports term limits, a congressional stock trading ban, overturning Citizens United and public financing of elections.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "topic": "Foreign Policy",
+     "summary": "Opposes U.S. military support that he says fuels humanitarian crises, including in Gaza.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "topic": "Term Limits",
+     "summary": "Per a summary of his site, supports term limits and mandatory retirement at age 65 for all offices, including judges.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Pearce for Texas",
+     "publisher": "Jason Pearce campaign",
+     "url": "https://pearcefortexas.com/",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Roundup: See updated results for U.S. House races affecting Dallas-Fort Worth cities",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/dallas-fort-worth/plano/election/2026/03/03/roundup-see-updated-results-for-us-house-races-affecting-dallas-fort-worth-cities/",
+     "date": "2026-03-04"
+    },
+    {
+     "id": "s3",
+     "title": "Jason Pearce, Texas Congressional District 4",
+     "publisher": "Branch (voter guide)",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-us-representative-tx-congressional-4/candidates/jason-pearce",
+     "date": "2026-07-22"
+    },
+    {
+     "id": "s4",
+     "title": "Rep. Pat Fallon secures GOP nomination in U.S. House District 4 race",
+     "publisher": "Denton Record-Chronicle",
+     "url": "https://dentonrc.com/elections/rep-pat-fallon-secures-gop-nomination-in-u-s-house-district-4-race/article_acd49d15-7f7c-4d87-bfe8-d99ae3ff3f76.html",
+     "date": "2026-03-04"
+    }
+   ],
+   "research_gaps": "No questionnaire responses or news interviews were found; no documented positions on tariffs, vouchers, abortion, cannabis or voting access."
+  },
+  {
+   "id": "jace-yarbrough",
+   "race_id": "us-house-32",
+   "incumbent": false,
+   "current_role": "Constitutional attorney and U.S. Air Force Reserve major",
+   "background": "Jace Yarbrough is an attorney focused on constitutional cases and a major in the U.S. Air Force, where he says he has served for 15 years. He holds degrees in electrical engineering and government from the University of Texas at Austin and a law degree from Stanford Law School. He and his wife co-founded Saint Francis Academy, a classical Christian school. He ran for Texas Senate District 30 in 2024 and lost in a runoff.",
+   "website": "https://www.jaceforcongress.com/",
+   "priorities": [
+    {
+     "text": "Campaigns on supporting President Trump's America First agenda.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Campaigns on border enforcement and mass deportation efforts, including resources for ICE and DHS.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Campaigns on banning insider trading by members of Congress and protecting Social Security and Medicare.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Campaigns on significant federal spending cuts and opposing tax increases.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Campaigns on opposing vaccine mandates and harmful food additives.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Campaigns on expanding American energy production.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "promises": [
+    {
+     "text": "Says he will oppose all amnesty efforts, whether from the left or the right.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Says he will support ICE and DHS resources for border enforcement and deportations.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Says he will oppose any tax increases.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "record": [],
+   "notes": [
+    {
+     "text": "Endorsed by President Donald Trump, House Speaker Mike Johnson, Gov. Greg Abbott, Rep. Keith Self, the Freedom Caucus Fund, Texas Right to Life and the National Federation of Independent Business, among others.",
+     "sources": [
+      "s3",
+      "s4"
+     ]
+    },
+    {
+     "text": "Led the March 3, 2026 Republican primary with about 49 percent; runner-up Ryan Binkley withdrew before the May 26 runoff and endorsed him.",
+     "sources": [
+      "s4",
+      "s5"
+     ]
+    },
+    {
+     "text": "Describes legal work challenging COVID-19 vaccine mandates for first responders, taxpayer funding of abortion travel, and religious discrimination; the specific cases are not named on his site.",
+     "sources": [
+      "s6"
+     ]
+    },
+    {
+     "text": "The 32nd District was redrawn in 2025 to add areas east of the Metroplex extending to Upshur County; under the new lines it would have favored Trump by about 18 points.",
+     "sources": [
+      "s4"
+     ]
+    },
+    {
+     "text": "Ran for Texas Senate District 30 in 2024 and lost in the Republican runoff.",
+     "sources": [
+      "s7"
+     ]
+    },
+    {
+     "text": "Holds degrees from UT Austin and Stanford Law School, according to a campaign press release.",
+     "sources": [
+      "s8"
+     ]
+    }
+   ],
+   "stances": {
+    "q_federal_spending": {
+     "position": 1,
+     "basis": "statement",
+     "summary": "Plans to cut federal spending significantly and have the government live within its means, while saying he will protect Social Security and Medicare.",
+     "sources": [
+      "s2"
+     ]
+    },
+    "q_abortion": {
+     "position": -2,
+     "basis": "statement",
+     "summary": "Describes himself as 100 percent pro-life and opposes any effort to expand abortion.",
+     "sources": [
+      "s2"
+     ]
+    },
+    "q_deportation": {
+     "position": 2,
+     "basis": "statement",
+     "summary": "Backs President Trump's mass deportation efforts.",
+     "sources": [
+      "s2"
+     ]
+    },
+    "q_legal_status": {
+     "position": -2,
+     "basis": "statement",
+     "summary": "Says he will oppose all amnesty efforts.",
+     "sources": [
+      "s2"
+     ]
+    },
+    "q_gun_laws": {
+     "position": -2,
+     "basis": "statement",
+     "summary": "Supports national concealed carry reciprocity and repeal of the National Firearms Act.",
+     "sources": [
+      "s2"
+     ]
+    },
+    "q_fossil_priority": {
+     "position": 1,
+     "basis": "statement",
+     "summary": "Supports expanding American energy production and opposes Green New Deal policies.",
+     "sources": [
+      "s2"
+     ]
+    },
+    "q_voting_access": {
+     "position": -1,
+     "basis": "statement",
+     "summary": "Supports voter ID laws and adding a citizenship question to the 2030 census.",
+     "sources": [
+      "s2"
+     ]
+    }
+   },
+   "issue_notes": [
+    {
+     "topic": "China and Trade",
+     "summary": "Says he will hold China accountable for unfair trade practices and wants the U.S. to win the AI race.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "topic": "Education",
+     "summary": "Opposes what he calls gender ideology in schools.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "topic": "Technology",
+     "summary": "Supports blockchain growth and winning the space race.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "topic": "Elections",
+     "summary": "Says he volunteered in 2024 as an attorney in Detroit to address alleged voter fraud.",
+     "sources": [
+      "s6"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Jace Yarbrough for Congress",
+     "publisher": "Jace Yarbrough campaign",
+     "url": "https://www.jaceforcongress.com/",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Priorities",
+     "publisher": "Jace Yarbrough campaign",
+     "url": "https://www.jaceforcongress.com/priorities",
+     "date": null
+    },
+    {
+     "id": "s3",
+     "title": "Endorsements",
+     "publisher": "Jace Yarbrough campaign",
+     "url": "https://www.jaceforcongress.com/endorsements",
+     "date": null
+    },
+    {
+     "id": "s4",
+     "title": "Jace Yarbrough is GOP nominee in North Texas congressional district after second-place finisher bows out",
+     "publisher": "Texas Tribune",
+     "url": "https://www.texastribune.org/2026/03/17/texas-32nd-congressional-district-jace-yarbrough-ryan-binkley-gop-primary/",
+     "date": "2026-03-17"
+    },
+    {
+     "id": "s5",
+     "title": "Roundup: See updated results for U.S. House races affecting Dallas-Fort Worth cities",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/dallas-fort-worth/plano/election/2026/03/03/roundup-see-updated-results-for-us-house-races-affecting-dallas-fort-worth-cities/",
+     "date": "2026-03-04"
+    },
+    {
+     "id": "s6",
+     "title": "About",
+     "publisher": "Jace Yarbrough campaign",
+     "url": "https://www.jaceforcongress.com/about",
+     "date": null
+    },
+    {
+     "id": "s7",
+     "title": "Trump endorses GOP rival of Texas pastor who ran against him in 2024",
+     "publisher": "Christian Post",
+     "url": "https://assets.christianpost.com/news/trump-endorses-gop-rival-of-texas-pastor-who-ran-against-him.html",
+     "date": "2026-02-20"
+    },
+    {
+     "id": "s8",
+     "title": "Rockwall Young Republicans endorse Jace Yarbrough for Congress",
+     "publisher": "Blue Ribbon News (press release)",
+     "url": "https://blueribbonnews.com/2026/01/rockwall-young-republicans-endorse-jace-yarbrough-for-congress/",
+     "date": "2026-01-19"
+    }
+   ],
+   "research_gaps": "No questionnaire responses or debate transcripts were found; no documented positions on tariffs, minimum wage, vouchers, Medicaid, cannabis or transgender medical care for minors."
+  },
+  {
+   "id": "dan-barrios",
+   "race_id": "us-house-32",
+   "incumbent": false,
+   "current_role": "Richardson City Council member (Place 3), elected 2023",
+   "background": "Dan Barrios grew up in Brownsville, was raised by a single mother, and has lived in North Texas for more than 25 years. He worked in executive sales and later taught business courses in Dallas high schools and as a community college adjunct. He holds an MBA in strategic management from the University of North Texas. He was elected to the Richardson City Council in 2023.",
+   "website": "https://www.danbarriosforcongress.com/",
+   "priorities": [
+    {
+     "text": "Campaigns on lowering costs, which he calls the district's biggest challenge, including housing, groceries and energy.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Campaigns on health care access, including lower prescription costs, a stronger ACA and keeping rural hospitals open.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Campaigns on protecting public schools, universal pre-K and better teacher recruitment and retention.",
+     "sources": [
+      "s4"
+     ]
+    },
+    {
+     "text": "Campaigns on comprehensive immigration reform with border security and pathways to citizenship.",
+     "sources": [
+      "s5"
+     ]
+    },
+    {
+     "text": "Campaigns on restoring trust through campaign finance and ethics reforms.",
+     "sources": [
+      "s6"
+     ]
+    }
+   ],
+   "promises": [
+    {
+     "text": "Says he will not take dark money and will make cleaning up corruption an early priority.",
+     "sources": [
+      "s6"
+     ]
+    },
+    {
+     "text": "Says he will work to reverse the effects of Citizens United and ban super PACs.",
+     "sources": [
+      "s6"
+     ]
+    },
+    {
+     "text": "Says he supports term limits of six terms in the House and two terms in the Senate.",
+     "sources": [
+      "s6"
+     ]
+    },
+    {
+     "text": "Says he will work to codify Roe v. Wade and protect access to contraception and IVF.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "record": [
+    {
+     "text": "Has served on the Richardson City Council since 2023; in February 2026 the council voted 5 to 2 to make a new resign-to-run rule prospective, allowing him to remain on the council during his campaign.",
+     "sources": [
+      "s7"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Won the March 3, 2026 Democratic primary with 60.07 percent of the vote over Anthony Bridges (unofficial results).",
+     "sources": [
+      "s8"
+     ]
+    },
+    {
+     "text": "The 32nd District was redrawn in 2025 to add areas east of the Metroplex extending to Upshur County; under the new lines it would have favored Trump by about 18 points.",
+     "sources": [
+      "s9"
+     ]
+    },
+    {
+     "text": "Holds an MBA in strategic management from the University of North Texas and taught business courses, according to his campaign biography.",
+     "sources": [
+      "s17"
+     ]
+    }
+   ],
+   "stances": {
+    "q_tariffs": {
+     "position": -2,
+     "basis": "statement",
+     "summary": "Says he will work to roll back tariff policies that raise costs for consumers and hurt Texas businesses.",
+     "sources": [
+      "s10"
+     ]
+    },
+    "q_federal_spending": {
+     "position": -2,
+     "basis": "statement",
+     "summary": "Calls for reversing cuts to Medicare and Medicaid and protecting SNAP and WIC.",
+     "sources": [
+      "s3",
+      "s1"
+     ]
+    },
+    "q_min_wage": {
+     "position": 2,
+     "basis": "statement",
+     "summary": "Supports increasing the federal minimum wage and expanding overtime eligibility.",
+     "sources": [
+      "s11",
+      "s1"
+     ]
+    },
+    "q_vouchers": {
+     "position": -2,
+     "basis": "statement",
+     "summary": "Rejects private school voucher programs that he says divert taxpayer dollars from neighborhood schools.",
+     "sources": [
+      "s4"
+     ]
+    },
+    "q_medicaid": {
+     "position": 1,
+     "basis": "inferred",
+     "summary": "Has not addressed Texas Medicaid expansion directly but supports guaranteed health care, a public option and reversing federal Medicaid cuts.",
+     "sources": [
+      "s3",
+      "s1"
+     ]
+    },
+    "q_abortion": {
+     "position": 2,
+     "basis": "statement",
+     "summary": "Supports restoring access to reproductive health care in Texas and codifying Roe v. Wade.",
+     "sources": [
+      "s3"
+     ]
+    },
+    "q_deportation": {
+     "position": -1,
+     "basis": "statement",
+     "summary": "Supports prioritizing deportation of criminals, gang members and human traffickers rather than residents who pay taxes and contribute to their communities.",
+     "sources": [
+      "s5"
+     ]
+    },
+    "q_legal_status": {
+     "position": 2,
+     "basis": "statement",
+     "summary": "Supports pathways to citizenship for DREAMers, spouses and long-term immigrants.",
+     "sources": [
+      "s5"
+     ]
+    },
+    "q_gun_laws": {
+     "position": 2,
+     "basis": "statement",
+     "summary": "Supports universal background checks and raising the age to buy certain semi-automatic rifles with high-capacity features.",
+     "sources": [
+      "s12"
+     ]
+    },
+    "q_fossil_priority": {
+     "position": -1,
+     "basis": "statement",
+     "summary": "Supports a mix of energy sources and restoring federal incentives for renewable development.",
+     "sources": [
+      "s13"
+     ]
+    },
+    "q_oilgas_rules": {
+     "position": 1,
+     "basis": "statement",
+     "summary": "Supports finishing the plugging of abandoned wells and strengthening the Clean Air Act and Clean Water Act.",
+     "sources": [
+      "s13"
+     ]
+    }
+   },
+   "issue_notes": [
+    {
+     "topic": "Data Centers",
+     "summary": "Says large energy users such as AI data centers should pay for the infrastructure upgrades they need.",
+     "sources": [
+      "s13",
+      "s14"
+     ]
+    },
+    {
+     "topic": "Immigration Enforcement",
+     "summary": "Supports requiring ICE agents to show identification and banning masks during enforcement.",
+     "sources": [
+      "s5"
+     ]
+    },
+    {
+     "topic": "Religion and Government",
+     "summary": "Says he rejects Christian nationalism and supports separation of church and state.",
+     "sources": [
+      "s15"
+     ]
+    },
+    {
+     "topic": "Rural Texas",
+     "summary": "Supports federal broadband funding, rural water system loans and grants, and streamlined H-2A visas.",
+     "sources": [
+      "s16"
+     ]
+    },
+    {
+     "topic": "Redistricting",
+     "summary": "Supports independent redistricting commissions.",
+     "sources": [
+      "s6"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Taxes and Affordability",
+     "publisher": "Dan Barrios campaign",
+     "url": "https://www.danbarriosforcongress.com/taxesandaffordabilty",
+     "date": null
+    },
+    {
+     "id": "s3",
+     "title": "Access to Health Care",
+     "publisher": "Dan Barrios campaign",
+     "url": "https://www.danbarriosforcongress.com/accesstohealthcare",
+     "date": null
+    },
+    {
+     "id": "s4",
+     "title": "Quality Public Education",
+     "publisher": "Dan Barrios campaign",
+     "url": "https://www.danbarriosforcongress.com/publiceducation",
+     "date": null
+    },
+    {
+     "id": "s5",
+     "title": "Immigration Reform",
+     "publisher": "Dan Barrios campaign",
+     "url": "https://www.danbarriosforcongress.com/immigrationreform",
+     "date": null
+    },
+    {
+     "id": "s6",
+     "title": "Restoring Trust and Accountability",
+     "publisher": "Dan Barrios campaign",
+     "url": "https://www.danbarriosforcongress.com/restoringtrustandaccountability",
+     "date": null
+    },
+    {
+     "id": "s7",
+     "title": "Richardson City Council calls charter election with prospective resign-to-run provision",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/dallas-fort-worth/richardson/government/2026/02/11/richardson-city-council-calls-charter-election-with-prospective-resign-to-run-provision",
+     "date": "2026-02-12"
+    },
+    {
+     "id": "s8",
+     "title": "Roundup: See updated results for U.S. House races affecting Dallas-Fort Worth cities",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/dallas-fort-worth/plano/election/2026/03/03/roundup-see-updated-results-for-us-house-races-affecting-dallas-fort-worth-cities/",
+     "date": "2026-03-04"
+    },
+    {
+     "id": "s9",
+     "title": "Jace Yarbrough is GOP nominee in North Texas congressional district after second-place finisher bows out",
+     "publisher": "Texas Tribune",
+     "url": "https://www.texastribune.org/2026/03/17/texas-32nd-congressional-district-jace-yarbrough-ryan-binkley-gop-primary/",
+     "date": "2026-03-17"
+    },
+    {
+     "id": "s10",
+     "title": "Foreign Policy and Veterans",
+     "publisher": "Dan Barrios campaign",
+     "url": "https://www.danbarriosforcongress.com/foreignpolicyandveterans",
+     "date": null
+    },
+    {
+     "id": "s11",
+     "title": "Labor and Business",
+     "publisher": "Dan Barrios campaign",
+     "url": "https://www.danbarriosforcongress.com/laborhandbusiness",
+     "date": null
+    },
+    {
+     "id": "s12",
+     "title": "Public Safety",
+     "publisher": "Dan Barrios campaign",
+     "url": "https://www.danbarriosforcongress.com/publicsafety",
+     "date": null
+    },
+    {
+     "id": "s13",
+     "title": "Energy and Environment",
+     "publisher": "Dan Barrios campaign",
+     "url": "https://www.danbarriosforcongress.com/energyandenvironment",
+     "date": null
+    },
+    {
+     "id": "s14",
+     "title": "Technology and Innovation",
+     "publisher": "Dan Barrios campaign",
+     "url": "https://www.danbarriosforcongress.com/technologyandinnovation",
+     "date": null
+    },
+    {
+     "id": "s15",
+     "title": "Faith and Family",
+     "publisher": "Dan Barrios campaign",
+     "url": "https://www.danbarriosforcongress.com/faithandfamily",
+     "date": null
+    },
+    {
+     "id": "s16",
+     "title": "Rural and Agriculture",
+     "publisher": "Dan Barrios campaign",
+     "url": "https://www.danbarriosforcongress.com/ruralandagriculture",
+     "date": null
+    },
+    {
+     "id": "s17",
+     "title": "About Dan",
+     "publisher": "Dan Barrios campaign",
+     "url": "https://www.danbarriosforcongress.com/about",
+     "date": null
+    }
+   ],
+   "research_gaps": "No questionnaire responses or debate coverage were found; no documented positions on cannabis, foreign land purchases, voting access or transgender medical care for minors."
+  },
+  {
+   "id": "bob-hall",
+   "race_id": "state-senate-2",
+   "incumbent": true,
+   "current_role": "Texas State Senator for District 2 since 2015",
+   "background": "Bob Hall, a Republican from Edgewood, holds an electrical engineering degree from The Citadel and served as a U.S. Air Force captain working on the Minuteman missile system. He later worked in the aerospace industry and in 1984 founded Professional Proposal Management, Inc. He was first elected to the Texas Senate in 2014 after defeating Sen. Bob Deuell in a runoff, and chairs the Senate Committee on Administration.",
+   "website": "https://senatorbobhall.com/",
+   "priorities": [
+    {
+     "text": "Campaigns on election integrity, saying the current computerized election process lacks transparency, accountability and verifiability.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Campaigns on hardening the electric grid against cyber attacks, electromagnetic pulses and geomagnetic disturbances.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Campaigns on limited government, zero-based budgeting and a budget balanced with available revenues.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    },
+    {
+     "text": "Campaigns on banning sanctuary cities and counties and cutting state grants to noncompliant local governments.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Campaigns on religious liberty, including denying state funds to cities or counties that restrict it.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Voted for SB 2 (2025), which created the Texas education savings account program; it passed the Senate 19 to 12.",
+     "sources": [
+      "s3",
+      "s4"
+     ]
+    },
+    {
+     "text": "Voted for SB 10 (2025), requiring Ten Commandments displays in public school classrooms; it passed the Senate 20 to 11.",
+     "sources": [
+      "s5",
+      "s4"
+     ]
+    },
+    {
+     "text": "Voted for SB 3 (2025), which would have banned consumable hemp products containing THC; it passed the Senate and was later vetoed by the governor.",
+     "sources": [
+      "s6",
+      "s7"
+     ]
+    },
+    {
+     "text": "Voted for SB 17 (2025), restricting the purchase of real property by certain foreign entities and nationals; it passed the Senate 24 to 7.",
+     "sources": [
+      "s5"
+     ]
+    },
+    {
+     "text": "Voted for SB 16 (2025), requiring proof of citizenship to register to vote; it passed the Senate 20 to 11 but did not become law.",
+     "sources": [
+      "s9"
+     ]
+    },
+    {
+     "text": "Voted for SB 8 (2025), requiring certain sheriffs to enter agreements with ICE to enforce federal immigration law.",
+     "sources": [
+      "s9"
+     ]
+    },
+    {
+     "text": "Voted for SJR 5 (2025), a constitutional amendment to allow denial of bail for certain violent offenses.",
+     "sources": [
+      "s10"
+     ]
+    },
+    {
+     "text": "Voted for SB 388 (2025), setting legislative goals for electric generation capacity, which passed the Senate 18 to 13, and SB 819 (2025), regulating renewable energy generation facilities.",
+     "sources": [
+      "s5",
+      "s11"
+     ]
+    },
+    {
+     "text": "Voted for SB 14 (2023), banning gender transition procedures and treatments for minors; it passed the Senate 19 to 12.",
+     "sources": [
+      "s12"
+     ]
+    },
+    {
+     "text": "Voted for HB 2127 (2023), expanding state preemption of city and county regulations; it passed the Senate 18 to 13.",
+     "sources": [
+      "s13"
+     ]
+    },
+    {
+     "text": "Voted for HB 2 (2025), the omnibus school finance bill that included teacher pay raises.",
+     "sources": [
+      "s4"
+     ]
+    },
+    {
+     "text": "Voted for SB 7 and HJR 7 (2025) on water infrastructure funding, both of which passed the Senate 31 to 0.",
+     "sources": [
+      "s14",
+      "s15"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Endorsed for reelection by President Donald Trump, Gov. Greg Abbott, U.S. Sen. Ted Cruz and Lt. Gov. Dan Patrick.",
+     "sources": [
+      "s16"
+     ]
+    },
+    {
+     "text": "In 2012 he filed for this Senate seat but was disqualified by the Republican Party for failing to meet residency requirements.",
+     "sources": [
+      "s4"
+     ]
+    },
+    {
+     "text": "Did not respond to the Association of Texas Professional Educators (ATPE) candidate surveys in 2018, 2022 or 2026.",
+     "sources": [
+      "s4"
+     ]
+    },
+    {
+     "text": "His official biography says he was instrumental in making Texas a Second Amendment sanctuary state.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Holds an electrical engineering degree from The Citadel and is married to Kay Hall, according to his campaign biography.",
+     "sources": [
+      "s17"
+     ]
+    }
+   ],
+   "stances": {
+    "q_spending_cap": {
+     "position": 2,
+     "basis": "statement",
+     "summary": "His 2014 campaign called for a constitutional cap on state and local spending growth tied to population plus inflation, and he signed a 2012 spending limit pledge.",
+     "sources": [
+      "s4"
+     ]
+    },
+    "q_vouchers": {
+     "position": 2,
+     "basis": "record",
+     "summary": "Voted for education savings account or voucher bills in 2015, 2017, 2023 and 2025, including SB 2 in 2025.",
+     "sources": [
+      "s3",
+      "s4"
+     ]
+    },
+    "q_school_funding": {
+     "position": 0,
+     "basis": "record",
+     "summary": "Voted for the 2025 school finance and teacher pay bill (HB 2) but voted against a 2023 amendment for a $10,000 raise for all teachers.",
+     "sources": [
+      "s4"
+     ]
+    },
+    "q_ten_commandments": {
+     "position": 2,
+     "basis": "record",
+     "summary": "Voted for Ten Commandments classroom display bills in 2023 and 2025.",
+     "sources": [
+      "s5",
+      "s4"
+     ]
+    },
+    "q_abortion": {
+     "position": -1,
+     "basis": "statement",
+     "summary": "His official biography describes him as pro-life.",
+     "sources": [
+      "s2"
+     ]
+    },
+    "q_gun_laws": {
+     "position": -2,
+     "basis": "statement",
+     "summary": "His official biography describes him as pro-gun and says he helped make Texas a Second Amendment sanctuary state.",
+     "sources": [
+      "s2"
+     ]
+    },
+    "q_bail": {
+     "position": 2,
+     "basis": "record",
+     "summary": "Voted for SJR 5 (2025) to allow denial of bail for certain violent offenses and for SB 9 (2025) on bail, which passed 28 to 2.",
+     "sources": [
+      "s10",
+      "s8"
+     ]
+    },
+    "q_cannabis": {
+     "position": -2,
+     "basis": "record",
+     "summary": "Voted for SB 3 (2025), which would have banned consumable hemp products containing THC.",
+     "sources": [
+      "s6"
+     ]
+    },
+    "q_fossil_priority": {
+     "position": 2,
+     "basis": "record",
+     "summary": "Voted for SB 388 (2025) on legislative goals for electric generation capacity and SB 819 (2025) placing new requirements on renewable energy facilities.",
+     "sources": [
+      "s5",
+      "s11"
+     ]
+    },
+    "q_foreign_land": {
+     "position": 2,
+     "basis": "record",
+     "summary": "Voted for SB 17 (2025) restricting real property purchases by certain foreign entities and nationals.",
+     "sources": [
+      "s5"
+     ]
+    },
+    "q_water": {
+     "position": 1,
+     "basis": "record",
+     "summary": "Voted for SB 7 and HJR 7 (2025) to dedicate state funding to water infrastructure; both passed unanimously.",
+     "sources": [
+      "s14",
+      "s15"
+     ]
+    },
+    "q_voting_access": {
+     "position": -1,
+     "basis": "record",
+     "summary": "Voted for SB 16 (2025) requiring proof of citizenship to register to vote.",
+     "sources": [
+      "s9"
+     ]
+    },
+    "q_election_fraud": {
+     "position": 1,
+     "basis": "statement",
+     "summary": "Says the election system is vulnerable to error and fraud and must change.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_preemption": {
+     "position": 2,
+     "basis": "record",
+     "summary": "Voted for HB 2127 (2023), which expanded state preemption of local regulations.",
+     "sources": [
+      "s13"
+     ]
+    },
+    "q_trans_minors": {
+     "position": 2,
+     "basis": "record",
+     "summary": "Voted for SB 14 (2023) banning gender transition treatments for minors.",
+     "sources": [
+      "s12"
+     ]
+    }
+   },
+   "issue_notes": [
+    {
+     "topic": "Electric Grid",
+     "summary": "Has hosted grid security summits and calls for a plan for widespread, long-term power outages.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    },
+    {
+     "topic": "Federal Taxes",
+     "summary": "Says the IRS should be abolished and supports eliminating inheritance, gift and capital gains taxes.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "topic": "Public Assistance",
+     "summary": "Supports means-testing social welfare and limiting it to U.S. citizens and legal residents.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Priorities",
+     "publisher": "Bob Hall campaign",
+     "url": "https://senatorbobhall.com/priorities/priorities-2/",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Senator Bob Hall: District 2",
+     "publisher": "Texas Senate",
+     "url": "https://senate.texas.gov/member.php?d=2",
+     "date": null
+    },
+    {
+     "id": "s3",
+     "title": "Senate Journal, 89th Legislature, February 5, 2025 (SB 2 third reading)",
+     "publisher": "Texas Senate",
+     "url": "https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ02-05-F.PDF",
+     "date": "2025-02-05"
+    },
+    {
+     "id": "s4",
+     "title": "Bob Hall candidate profile and voting record",
+     "publisher": "Teach the Vote (ATPE)",
+     "url": "https://teachthevote.atpe.org/candidates/bob-hall",
+     "date": null
+    },
+    {
+     "id": "s5",
+     "title": "Senate Journal, 89th Legislature, March 19, 2025 (SB 10, SB 17 and SB 388 third reading)",
+     "publisher": "Texas Senate",
+     "url": "https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ03-19-F.PDF",
+     "date": "2025-03-19"
+    },
+    {
+     "id": "s6",
+     "title": "Senate Journal, 89th Legislature, March 19, 2025, continued (SB 3 third reading)",
+     "publisher": "Texas Senate",
+     "url": "https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ03-19-F1.PDF",
+     "date": "2025-03-19"
+    },
+    {
+     "id": "s7",
+     "title": "Bill history: SB 3, 89th Legislature",
+     "publisher": "Texas Legislature Online",
+     "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB3",
+     "date": null
+    },
+    {
+     "id": "s8",
+     "title": "Senate Journal, 89th Legislature, February 19, 2025 (SB 9 third reading)",
+     "publisher": "Texas Senate",
+     "url": "https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ02-19-F.PDF",
+     "date": "2025-02-19"
+    },
+    {
+     "id": "s9",
+     "title": "Senate Journal, 89th Legislature, April 1, 2025 (SB 16 and SB 8 third reading)",
+     "publisher": "Texas Senate",
+     "url": "https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ04-01-F.PDF",
+     "date": "2025-04-01"
+    },
+    {
+     "id": "s10",
+     "title": "Senate Journal, 89th Legislature, February 20, 2025 (SJR 5 third reading)",
+     "publisher": "Texas Senate",
+     "url": "https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ02-20-F.PDF",
+     "date": "2025-02-20"
+    },
+    {
+     "id": "s11",
+     "title": "Senate Journal, 89th Legislature, April 15, 2025 (SB 819 third reading)",
+     "publisher": "Texas Senate",
+     "url": "https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ04-15-F.PDF",
+     "date": "2025-04-15"
+    },
+    {
+     "id": "s12",
+     "title": "Senate Journal, 88th Legislature, April 4, 2023 (SB 14 third reading)",
+     "publisher": "Texas Senate",
+     "url": "https://journals.senate.texas.gov/sjrnl/88r/pdf/88RSJ04-04-F.PDF",
+     "date": "2023-04-04"
+    },
+    {
+     "id": "s13",
+     "title": "Senate Journal, 88th Legislature, May 16, 2023 (HB 2127 third reading)",
+     "publisher": "Texas Senate",
+     "url": "https://journals.senate.texas.gov/sjrnl/88r/pdf/88RSJ05-16-F.PDF",
+     "date": "2023-05-16"
+    },
+    {
+     "id": "s14",
+     "title": "Senate Journal, 89th Legislature, April 2, 2025 (SB 7 third reading)",
+     "publisher": "Texas Senate",
+     "url": "https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ04-02-F.PDF",
+     "date": "2025-04-02"
+    },
+    {
+     "id": "s15",
+     "title": "Senate Journal, 89th Legislature, May 27, 2025 (HJR 7 third reading)",
+     "publisher": "Texas Senate",
+     "url": "https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-27-F.PDF",
+     "date": "2025-05-27"
+    },
+    {
+     "id": "s16",
+     "title": "Bob Hall files for re-election to Texas Senate",
+     "publisher": "KETR",
+     "url": "https://www.ketr.org/2025-11-13/bob-hall-files-for-re-election-to-texas-senate",
+     "date": "2025-11-13"
+    },
+    {
+     "id": "s17",
+     "title": "About",
+     "publisher": "Bob Hall campaign",
+     "url": "https://senatorbobhall.com/about/",
+     "date": null
+    }
+   ],
+   "research_gaps": "No 2026 questionnaire responses were found, the list of bills he authored in 2025 was not compiled, and no documented position was found on eliminating school property taxes, Medicaid expansion, minimum wage, gambling or ethics rules."
+  },
+  {
+   "id": "keenen-colbert",
+   "race_id": "state-senate-2",
+   "incumbent": false,
+   "current_role": "Marine Corps veteran and logistics manager",
+   "background": "Keenen Colbert served more than eight years in the U.S. Marine Corps, from 2012 to 2021, rising to both noncommissioned and commissioned officer rank and serving as a logistics officer. He was raised in Abilene and holds a bachelor's degree in electronic media and mass communications from Texas State University. Since leaving the Marines he has worked in logistics, project coordination and government accounts. His campaign lists a Forney mailing address.",
+   "website": "https://www.colbertfortexas.com/",
+   "priorities": [
+    {
+     "text": "Campaigns on fully funding public schools and paying teachers wages that match the cost of living.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Campaigns on affordable health care, including lower prescription costs, telehealth and price transparency.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Campaigns on lowering costs for working Texans, including groceries, housing, utilities and insurance.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [
+    {
+     "text": "Says he will fight to end the use of public funds for voucher programs.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says he will fight to lower the cost of prescription medications and expand telehealth.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says he will fight to legalize access to cannabis.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says he will fight to establish a baseline of health care that all Texans can access.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "record": [],
+   "notes": [],
+   "stances": {
+    "q_vouchers": {
+     "position": -2,
+     "basis": "statement",
+     "summary": "Says money should not be siphoned away through voucher programs and public funds should strengthen public schools.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_school_funding": {
+     "position": 2,
+     "basis": "statement",
+     "summary": "Says Texas fails to adequately fund classrooms and pledges to fight for teacher pay that matches the cost of living.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_cannabis": {
+     "position": 1,
+     "basis": "statement",
+     "summary": "Lists legalizing access to cannabis among his health care goals.",
+     "sources": [
+      "s1"
+     ]
+    },
+    "q_medicaid": {
+     "position": 1,
+     "basis": "inferred",
+     "summary": "Has not addressed Medicaid expansion by name but supports expanding access and a baseline of care all Texans can access.",
+     "sources": [
+      "s1"
+     ]
+    }
+   },
+   "issue_notes": [
+    {
+     "topic": "Higher Education",
+     "summary": "Supports greater transparency in college pricing, according to a voter guide profile.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "topic": "Rural Hospitals",
+     "summary": "Says rural hospitals in the district are struggling to stay open.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Keenen Colbert for TX Senate District 2",
+     "publisher": "Keenen Colbert campaign",
+     "url": "https://www.colbertfortexas.com/",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Keenen Colbert",
+     "publisher": "BallotReady",
+     "url": "https://www.ballotready.org/people/keenen-colbert",
+     "date": null
+    }
+   ],
+   "research_gaps": "No news coverage, questionnaire responses or endorsements were found; most questionnaire topics have no documented position."
+  }
+ ]
 }
