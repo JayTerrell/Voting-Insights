@@ -1,6 +1,6 @@
-import { $, esc, setTitle, partyTag, cites, GROUPS } from '../ui.js';
-import { loadGuide } from '../api.js';
-import { positionLabel, BASIS_LABEL } from '../scoring.js';
+import { $, esc, setTitle, partyTag, cites, GROUPS, raceTitle, countyPicker, ballotNote } from '../ui.js';
+import { loadGuide, loadFormOptions, ballotCounty } from '../api.js';
+import { positionLabel, BASIS_LABEL, racesForCounty } from '../scoring.js';
 
 function highlight(text, term) {
   const safe = esc(text);
@@ -19,9 +19,11 @@ function snippet(text, term, radius = 140) {
 
 export async function renderIssues(view, _params, current) {
   setTitle('Compare by Issue');
-  const guide = await loadGuide();
+  const [guide, options] = await Promise.all([loadGuide(), loadFormOptions()]);
   if (!current()) return;
   const params = new URLSearchParams(location.search);
+  let county = params.get('county') || ballotCounty.get(guide);
+  const onBallot = () => racesForCounty(guide, county);
   let selected = params.get('issue') || '';
   let term = params.get('q') || '';
   let showEmpty = false;
@@ -70,6 +72,8 @@ export async function renderIssues(view, _params, current) {
         <input id="term" type="search" placeholder="For example: water" value="${esc(term)}">
       </div>
     </div>
+    <div class="filters" style="grid-template-columns:1fr"><div style="max-width:420px">${countyPicker(guide, options.counties, county)}</div></div>
+    <div id="ballot-note"></div>
     <div id="issue-out" aria-live="polite"></div>`;
 
   const out = $('#issue-out', view);
@@ -78,6 +82,7 @@ export async function renderIssues(view, _params, current) {
     const p = new URLSearchParams();
     if (selected) p.set('issue', selected);
     if (term) p.set('q', term);
+    p.set('county', county);
     history.replaceState({}, '', `/issues${p.toString() ? '?' + p : ''}`);
   }
 
@@ -99,14 +104,14 @@ export async function renderIssues(view, _params, current) {
 
     let documentedTotal = 0;
     const groups = GROUPS.map((g) => {
-      const races = guide.races
+      const races = onBallot()
         .filter((r) => r.group === g.id)
         .map((r) => {
           const applies = q.offices.includes(r.office_type);
           const rows = r.candidates.filter((c) => c.stances[qid] || (showEmpty && applies));
           if (!rows.length) return '';
           documentedTotal += rows.filter((c) => c.stances[qid]).length;
-          return `<div class="issue-group"><h3><a href="/candidates/${esc(r.id)}">${esc(r.title)}</a></h3>${rows
+          return `<div class="issue-group"><h3><a href="/candidates/${esc(r.id)}">${esc(raceTitle(r))}</a></h3>${rows
             .map((c) => {
               const s = c.stances[qid];
               return `<div class="hit"><div><a href="/candidate/${esc(c.id)}"><b>${esc(c.name)}</b></a><br>${partyTag(c.party)}</div><div>${
@@ -141,13 +146,13 @@ export async function renderIssues(view, _params, current) {
 
   function drawTopic(topic) {
     const hits = [];
-    for (const r of guide.races)
+    for (const r of onBallot())
       for (const c of r.candidates)
         for (const n of c.issue_notes) if (n.topic.trim() === topic) hits.push({ r, c, n });
     out.innerHTML = `<div class="section-head"><h2>${esc(topic)}</h2><span class="small muted">${hits.length} statements</span></div>
       ${hits
         .map(
-          ({ r, c, n }) => `<div class="hit"><div><a href="/candidate/${esc(c.id)}"><b>${esc(c.name)}</b></a><br>${partyTag(c.party)}<br><span class="small muted">${esc(r.title)}</span></div>
+          ({ r, c, n }) => `<div class="hit"><div><a href="/candidate/${esc(c.id)}"><b>${esc(c.name)}</b></a><br>${partyTag(c.party)}<br><span class="small muted">${esc(raceTitle(r))}</span></div>
           <div>${esc(n.summary)}${cites(n.sources, c, 'src-' + c.id)}</div></div>`
         )
         .join('')}`;
@@ -157,7 +162,7 @@ export async function renderIssues(view, _params, current) {
     const needle = t.toLowerCase();
     const matchingQs = guide.questions.filter((q) => (q.statement + ' ' + q.context + ' ' + q.category).toLowerCase().includes(needle));
     const results = [];
-    for (const r of guide.races)
+    for (const r of onBallot())
       for (const c of r.candidates) {
         const found = [];
         const consider = (label, text, sources) => {
@@ -192,7 +197,7 @@ export async function renderIssues(view, _params, current) {
         results.length
           ? results
               .map(
-                ({ r, c, found }) => `<div class="issue-group"><h3><a href="/candidate/${esc(c.id)}">${esc(c.name)}</a> ${partyTag(c.party)} <span class="small muted" style="font-family:var(--sans)">${esc(r.title)}</span></h3>
+                ({ r, c, found }) => `<div class="issue-group"><h3><a href="/candidate/${esc(c.id)}">${esc(c.name)}</a> ${partyTag(c.party)} <span class="small muted" style="font-family:var(--sans)">${esc(raceTitle(r))}</span></h3>
                 ${found
                   .slice(0, 6)
                   .map(
@@ -217,6 +222,7 @@ export async function renderIssues(view, _params, current) {
 
   function draw() {
     syncUrl();
+    $('#ballot-note', view).innerHTML = ballotNote(guide, county);
     if (term.trim().length >= 2) return drawSearch(term.trim());
     if (selected.startsWith('q:')) return drawQuestion(selected.slice(2));
     if (selected.startsWith('t:')) return drawTopic(selected.slice(2));
@@ -224,7 +230,7 @@ export async function renderIssues(view, _params, current) {
       <table class="ballot"><thead><tr><th>Issue</th><th class="num">Candidates with a documented position</th></tr></thead><tbody>
       ${guide.questions
         .map((q) => {
-          const n = guide.races.reduce((acc, r) => acc + r.candidates.filter((c) => c.stances[q.id]).length, 0);
+          const n = onBallot().reduce((acc, r) => acc + r.candidates.filter((c) => c.stances[q.id]).length, 0);
           return `<tr><td><span class="small muted">${esc(q.category)}</span><br><button class="linkish" data-q="${q.id}" style="text-align:left">${esc(q.statement)}</button></td><td class="num">${n}</td></tr>`;
         })
         .join('')}</tbody></table>`;
@@ -238,6 +244,11 @@ export async function renderIssues(view, _params, current) {
     );
   }
 
+  $('#ballot-county', view).addEventListener('change', (e) => {
+    county = e.target.value;
+    ballotCounty.set(county);
+    draw();
+  });
   $('#issue', view).addEventListener('change', (e) => {
     selected = e.target.value;
     term = '';

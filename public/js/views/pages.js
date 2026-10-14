@@ -58,7 +58,7 @@ export async function renderMethodology(view, _p, current) {
     <ul>${guide.parties
       .map((p) => `<li><a href="${esc(p.platform_url)}" target="_blank" rel="noopener">${esc(p.platform_title || p.name)}</a> (${esc(p.platform_year || '')}). ${esc(p.summary || '')}</li>`)
       .join('')}</ul>
-    <p>Each party's percentage is calculated separately, so they do not add up to 100. Platforms are adopted by party conventions and individual candidates may disagree with parts of them. No independent candidates appear on the Collin County ballot, and independents do not share a platform, so there is no independent score.</p>
+    <p>Each party's percentage is calculated separately, so they do not add up to 100. Platforms are adopted by party conventions and individual candidates may disagree with parts of them. Independent candidates do not share a platform, so there is no independent party score. Independent candidates are still compared race by race on their own documented positions.</p>
 
     <h2>Limits</h2>
     <ul>
@@ -80,7 +80,7 @@ export async function renderTerms(view, _p, current) {
     <p class="muted">Effective October 14, 2026</p>
     <p>These terms govern your use of Voting Insights (the "Site"). By using the Site you agree to them. If you do not agree, please do not use the Site.</p>
     <h2>1. Purpose of the Site</h2>
-    <p>The Site is an independent, nonpartisan educational resource about candidates on the Collin County, Texas ballot for the November 3, 2026 general election. It is not affiliated with, endorsed by, or paid for by any candidate, campaign, political party, political action committee, or government office. Nothing on the Site is an endorsement of any candidate or party or a recommendation on how to vote.</p>
+    <p>The Site is an independent, nonpartisan educational resource about candidates on Texas ballots for the November 3, 2026 general election. It is not affiliated with, endorsed by, or paid for by any candidate, campaign, political party, political action committee, or government office. Nothing on the Site is an endorsement of any candidate or party or a recommendation on how to vote.</p>
     <h2>2. Accuracy of information</h2>
     <p>Candidate information is compiled from public sources and summarized by our editors. We work to be accurate and fair, but information may be incomplete, out of date, or wrong, and candidates' positions may change. Quiz results are an automated comparison based on limited data and should be one of many tools you use. Always confirm important details, including your polling place and the races on your ballot, with official election sources.</p>
     <h2>3. Your account and results</h2>

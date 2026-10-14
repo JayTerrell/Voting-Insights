@@ -203,7 +203,7 @@ app.post('/api/results', limit('results', 30, 15 * 60_000), async (req, res) => 
   if (Object.keys(answers).length < 5) {
     return res.status(400).json({ error: 'Please answer at least five questions to see meaningful results.' });
   }
-  const results = scoreAll(answers, guide);
+  const results = scoreAll(answers, guide, user.county);
   const row = store.saveResult(user.id, answers, results, DATA_VERSION);
   emailResult(row).catch((e) => console.error('[results] email failed', e));
   res.json({ share_id: row.share_id, created_at: row.created_at, results, answers });
@@ -287,10 +287,10 @@ app.use(express.static(resolve('public'), { index: false, maxAge: '1h' }));
 const escAttr = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
 
 function renderIndex(meta = {}) {
-  const title = meta.title || 'Voting Insights: Collin County 2026 Candidate Guide and Issue Quiz';
+  const title = meta.title || 'Voting Insights: 2026 Texas Candidate Guide and Issue Quiz';
   const desc =
     meta.description ||
-    'A nonpartisan guide to every race on the Collin County, Texas ballot for November 3, 2026, with sourced candidate positions and an issue alignment quiz.';
+    'A nonpartisan guide to the races on Texas ballots for November 3, 2026, starting with Collin County, with sourced candidate positions and an issue alignment quiz.';
   const url = meta.url || PUBLIC_URL;
   const tags = `
     <meta name="description" content="${escAttr(desc)}">
@@ -311,7 +311,7 @@ app.get('/results/:id', (req, res) => {
     const results = JSON.parse(row.results_json);
     const best = [...results.parties].filter((p) => p.score !== null).sort((a, b) => b.score - a.score)[0];
     meta = {
-      title: `${row.first_name}'s Collin County ballot alignment`,
+      title: `${row.first_name}'s 2026 Texas ballot alignment`,
       description: best
         ? `Closest party platform: ${best.name} at ${best.score}%. Take the nonpartisan quiz and see how every candidate on your ballot compares.`
         : 'Take the nonpartisan quiz and see how every candidate on your ballot compares.',

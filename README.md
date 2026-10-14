@@ -1,6 +1,6 @@
-# Voting Insights: Collin County 2026
+# Voting Insights: Texas 2026
 
-A nonpartisan candidate guide and issue alignment quiz for every race on the Collin County, Texas ballot for the November 3, 2026 general election. The roster comes from the Texas Secretary of State Ballot Certification Report dated October 14, 2026.
+A nonpartisan candidate guide and issue alignment quiz for the November 3, 2026 Texas general election. Ballot rosters come from Texas Secretary of State Ballot Certification Reports. Collin County (report dated October 14, 2026) is fully loaded. Other counties can be added from their own reports, as described in [docs/ADDING_A_COUNTY.md](docs/ADDING_A_COUNTY.md). Voters in counties not yet loaded see the statewide races.
 
 The site has these sections:
 
@@ -18,7 +18,7 @@ Requires Node.js 22.13 or newer. The database uses the built-in `node:sqlite`, s
 npm install
 npm run build:data   # merges data/ into data/guide.json
 npm start            # http://localhost:3000
-npm test             # scoring unit tests
+npm test             # scoring and ballot import tests
 ```
 
 Without SMTP settings, outgoing emails (results and verification codes) are written to `./outbox/` as HTML files, and verification codes are also printed to the server log.
@@ -49,11 +49,15 @@ curl -H "Authorization: Bearer $ADMIN_TOKEN" https://your-site/api/admin/results
 
 | File | Contents |
 |---|---|
-| `data/races.json` | The 56 races and 105 candidates from the certified ballot, in ballot order |
+| `data/races.json` | Every race and candidate, stored once even when a race spans several counties |
+| `data/ballots/<county>.json` | The race ids on each county's ballot, in ballot order (written by `scripts/import-ballot.js`) |
+| `data/name-overrides.json` | Corrections for names the importer cannot case correctly |
 | `data/questions.json` | The 31 quiz statements, each with balanced background text and the offices it applies to |
 | `data/offices.json` | What each office does, its term, and an official source |
 | `data/research/*.json` | Candidate research (priorities, promises, record, stances, sources) and party platform mappings |
 | `data/guide.json` | Built output served to the site. Regenerate it with `npm run build:data` after editing any file above. |
+
+To add a county, run `node scripts/import-ballot.js report.pdf`, then `node scripts/research-status.js <County>` to list who still needs research. See [docs/ADDING_A_COUNTY.md](docs/ADDING_A_COUNTY.md) and [docs/RESEARCH_SPEC.md](docs/RESEARCH_SPEC.md).
 
 The build script drops any claim that does not cite a source listed for that candidate, rejects positions outside the -2 to 2 scale, and removes em and en dashes. It prints a warning for each item it drops. `npm run check:links` checks every source URL.
 

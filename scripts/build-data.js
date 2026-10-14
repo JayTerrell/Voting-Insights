@@ -17,6 +17,20 @@ const races = read('data/races.json');
 const questions = read('data/questions.json');
 const offices = read('data/offices.json');
 
+// One file per county, written by scripts/import-ballot.js, listing that
+// county's races in ballot order.
+const ballotDir = join(root, 'data/ballots');
+const ballots = {};
+for (const f of existsSync(ballotDir) ? readdirSync(ballotDir) : []) {
+  if (!f.endsWith('.json')) continue;
+  const b = JSON.parse(readFileSync(join(ballotDir, f), 'utf8'));
+  ballots[b.county] = b.race_ids;
+}
+const raceIds = new Set(races.map((r) => r.id));
+for (const [county, ids] of Object.entries(ballots)) {
+  for (const id of ids) if (!raceIds.has(id)) throw new Error(`ballot for ${county} lists unknown race ${id}`);
+}
+
 const BASES = new Set(['record', 'statement', 'questionnaire', 'reported', 'inferred', 'platform']);
 const warnings = [];
 const warn = (m) => warnings.push(m);
@@ -39,21 +53,6 @@ function scrub(value) {
     return Object.fromEntries(Object.entries(value).map(([k, v]) => [k, scrub(v)]));
   }
   return value;
-}
-
-function officeKey(race) {
-  const id = race.id;
-  if (id.startsWith('tx-supreme')) return 'supreme_court';
-  if (id.startsWith('cca-')) return 'cca';
-  if (id.startsWith('coa15')) return 'coa15';
-  if (id.startsWith('coa5')) return 'coa5';
-  if (id.startsWith('district-') && race.office_type === 'judicial') return 'district_court';
-  if (id.startsWith('ccl-')) return 'ccl';
-  if (id === 'probate') return 'probate';
-  if (id.startsWith('jp-')) return 'jp';
-  if (id === 'district-clerk') return 'district_clerk';
-  if (id === 'county-clerk') return 'county_clerk';
-  return race.office_type;
 }
 
 function cleanSources(list, who) {
@@ -129,7 +128,7 @@ for (const f of existsSync(researchDir) ? readdirSync(researchDir) : []) {
 
 const allCandidateIds = new Set();
 const builtRaces = races.map((race) => {
-  const office = offices[officeKey(race)];
+  const office = offices[race.office_key];
   if (!office) warn(`no office description for ${race.id}`);
   return {
     ...race,
@@ -188,10 +187,11 @@ const guide = scrub({
     date: '2026-11-03',
     early_voting: { start: '2026-10-19', end: '2026-10-30' },
     roster_source: {
-      title: 'Texas Secretary of State Ballot Certification Report, Collin County, 2026 November General Election (October 14, 2026)',
+      title: 'Texas Secretary of State Ballot Certification Reports, 2026 November General Election',
       url: 'https://www.sos.state.tx.us/elections/',
     },
   },
+  ballots,
   questions,
   parties: builtParties,
   races: builtRaces,
@@ -205,7 +205,7 @@ const cands = builtRaces.flatMap((r) => r.candidates);
 const stanceCount = cands.reduce((n, c) => n + Object.keys(c.stances).length, 0);
 const sourceCount = cands.reduce((n, c) => n + c.sources.length, 0);
 console.log(
-  `guide.json: ${builtRaces.length} races, ${cands.length} candidates, ${stanceCount} stances, ${sourceCount} sources, ${builtParties.length} parties`
+  `guide.json: ${Object.keys(ballots).length} county ballots, ${builtRaces.length} races, ${cands.length} candidates, ${stanceCount} stances, ${sourceCount} sources, ${builtParties.length} parties`
 );
 if (warnings.length) {
   console.log(`${warnings.length} warnings:`);

@@ -1,7 +1,7 @@
 // Server calls and browser storage. Storage access is wrapped because private
 // browsing modes can throw on localStorage.
 
-const KEYS = { token: 'vi_token', user: 'vi_user', results: 'vi_results', progress: 'vi_progress' };
+const KEYS = { token: 'vi_token', user: 'vi_user', results: 'vi_results', progress: 'vi_progress', county: 'vi_county' };
 
 function getJSON(key, fallback) {
   try {
@@ -36,6 +36,19 @@ export const resultCache = {
     all[entry.share_id] = entry;
     setJSON(KEYS.results, all);
   },
+};
+
+// The county whose ballot the guide pages show. Defaults to the signed-in
+// voter's county, then to the first county with a loaded ballot.
+export const ballotCounty = {
+  get(guide) {
+    const saved = getJSON(KEYS.county, null);
+    if (saved) return saved;
+    const mine = session.user && session.user.county;
+    if (mine) return mine;
+    return Object.keys(guide.ballots || {})[0] || 'Collin';
+  },
+  set(county) { setJSON(KEYS.county, county); },
 };
 
 export const progress = {

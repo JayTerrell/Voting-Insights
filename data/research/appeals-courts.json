@@ -1,0 +1,1880 @@
+{
+ "candidates": [
+  {
+   "id": "scott-brister",
+   "race_id": "coa15-chief",
+   "incumbent": true,
+   "current_role": "Chief Justice, Fifteenth Court of Appeals, since September 2024 (appointed by Gov. Greg Abbott)",
+   "background": "Scott Brister is a Waco native with degrees from Duke University (1977) and Harvard Law School (1980), and he is board certified in civil appellate law, civil trial law and personal injury trial law. He presided over Harris County's 234th District Court from 1989 to 2000, served on Houston's First and Fourteenth Courts of Appeals (including as chief justice of the Fourteenth), and served on the Texas Supreme Court from 2003 to 2009. He was a partner at Hunton Andrews Kurth before Gov. Greg Abbott named him the first chief justice of the new statewide Fifteenth Court of Appeals.",
+   "website": "https://justicescottbrister.com",
+   "priorities": [
+    {
+     "text": "Campaigns on establishing the Fifteenth Court of Appeals as a stable, principled statewide court.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Says he aims for consistent rulings in cases involving state government and business law.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Emphasizes clear legal writing and reasoned decisions.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Says every party deserves an impartial judge who applies the law, not personal beliefs or political preferences.",
+     "sources": [
+      "s3",
+      "s1"
+     ]
+    },
+    {
+     "text": "Campaigns on preserving public trust in the courts.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "promises": [
+    {
+     "text": "Says he will follow the law as written and rule without regard to personal beliefs or politics.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "record": [
+    {
+     "text": "Presided over the 234th District Court in Harris County from 1989 to 2000 and served on the First and Fourteenth Courts of Appeals from 2001 to 2003.",
+     "sources": [
+      "s4"
+     ]
+    },
+    {
+     "text": "Served on the Texas Supreme Court from 2003 to 2009 after appointment by Gov. Rick Perry and election in 2004, writing 122 opinions for that court.",
+     "sources": [
+      "s1",
+      "s4"
+     ]
+    },
+    {
+     "text": "Wrote a dissent in the Texas Supreme Court school finance case Neely v. West Orange-Cove Consolidated ISD (2005), disagreeing with the judgment that the state's school finance plan was unconstitutional.",
+     "sources": [
+      "s9"
+     ]
+    },
+    {
+     "text": "Chaired the Texas Commission on Public School Finance after a 2017 appointment by Gov. Greg Abbott.",
+     "sources": [
+      "s9",
+      "s4"
+     ]
+    },
+    {
+     "text": "Appointed by Gov. Greg Abbott in June 2024 as the first chief justice of the Fifteenth Court of Appeals, effective September 1, 2024.",
+     "sources": [
+      "s5"
+     ]
+    },
+    {
+     "text": "Wrote the Fifteenth Court's August 2025 opinion dismissing Dallas County's suit against the Health and Human Services Commission over the backlog of mentally incompetent jail inmates awaiting state hospital beds; the Texas Supreme Court declined review in June 2026.",
+     "sources": [
+      "s7"
+     ]
+    },
+    {
+     "text": "Filed a concurrence in December 2025 when the Fifteenth Court upheld an injunction blocking Attorney General Ken Paxton's reporting rules for large-county prosecutors, writing in substance that Paxton may request information in specific cases but may not impose blanket requirements.",
+     "sources": [
+      "s8"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "In the 1990s he posted the Ten Commandments in his Harris County courtroom and declined to remove them after being sued, according to the Texas Tribune.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "The Fifteenth Court has ruled against Attorney General Ken Paxton in several high-profile cases, drawing public criticism from Paxton.",
+     "sources": [
+      "s1",
+      "s6"
+     ]
+    },
+    {
+     "text": "Bloomberg Law reported that he twice admonished lawyers from the attorney general's office over where and how the office files cases, including suits against Johnson & Johnson and Kenvue in small counties, and said both sides should be counseled toward professionalism.",
+     "sources": [
+      "s6"
+     ]
+    },
+    {
+     "text": "State Bar of Texas 2026 Judicial Poll: Brister 1,957 votes, Jerry Zimmerer 1,594 (about 55 percent to 45 percent). The poll is a non-scientific survey of participating lawyers.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Endorsed by Gov. Greg Abbott, State Rep. Pat Curry and Texas Alliance for Life, and by the Texas Civil Justice League PAC.",
+     "sources": [
+      "s1",
+      "s10"
+     ]
+    },
+    {
+     "text": "Reported $228,242 cash on hand as of June 30, 2026; major donors included Texans for Lawsuit Reform PAC ($25,000).",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {
+    "q_textualism": {
+     "position": 1,
+     "basis": "statement",
+     "summary": "Says judges are not lawmakers and should follow the law as written and respect the Constitution.",
+     "sources": [
+      "s3",
+      "s1"
+     ]
+    }
+   },
+   "issue_notes": [
+    {
+     "topic": "Court Professionalism",
+     "summary": "Has said the rift between the attorney general's office and the court is unhealthy and that both sides should be counseled toward professionalism.",
+     "sources": [
+      "s6"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Texas 15th Court of Appeals race: Who is running and what to know",
+     "publisher": "The Texas Tribune",
+     "url": "https://www.texastribune.org/2026/10/02/texas-15th-court-of-appeals-2026-elections-guide/",
+     "date": "2026-10-02"
+    },
+    {
+     "id": "s2",
+     "title": "State Bar of Texas 2026 Judicial Poll, Final Vote Summary",
+     "publisher": "State Bar of Texas",
+     "url": "https://www.texasbar.com/pollresults/",
+     "date": "2026-02-10"
+    },
+    {
+     "id": "s3",
+     "title": "Chief Justice Scott Brister campaign website",
+     "publisher": "Brister campaign",
+     "url": "https://justicescottbrister.com",
+     "date": null
+    },
+    {
+     "id": "s4",
+     "title": "Chief Justice Scott Brister",
+     "publisher": "Fifteenth Court of Appeals (txcourts.gov)",
+     "url": "https://txcourts.gov/15thcoa/about-the-court/justices/chief-justice-scott-brister/",
+     "date": null
+    },
+    {
+     "id": "s5",
+     "title": "Governor Abbott Appoints Inaugural Members To Fifteenth Court Of Appeals",
+     "publisher": "Office of the Texas Governor",
+     "url": "https://gov.texas.gov/news/post/governor-abbott-appoints-inaugural-members-to-fifteenth-court-of-appeals",
+     "date": "2024-06-11"
+    },
+    {
+     "id": "s6",
+     "title": "Paxton Feuds With the Appeals Court He Said Texas Needed",
+     "publisher": "Bloomberg Law",
+     "url": "https://news.bloomberglaw.com/litigation/texas-court-delivers-gop-wins-not-the-ones-ken-paxton-wants",
+     "date": "2026-07-14"
+    },
+    {
+     "id": "s7",
+     "title": "Texas isn't responsible for Dallas County's mentally ill inmate backlog, courts say",
+     "publisher": "KERA News",
+     "url": "https://www.keranews.org/government/2026-06-12/dallas-county-jail-backlog-texas-supreme-court-mentally-ill-inmate-backlog-15th-court-of-appeals-taxpayers",
+     "date": "2026-06-12"
+    },
+    {
+     "id": "s8",
+     "title": "Texas AG Ken Paxton again blocked from enforcing reporting rules against Democratic DAs",
+     "publisher": "KERA News (republished by High Plains Public Radio)",
+     "url": "https://www.hppr.org/hppr-news/2026-01-01/texas-ag-ken-paxton-again-blocked-from-enforcing-reporting-rules-against-democratic-das",
+     "date": "2026-01-01"
+    },
+    {
+     "id": "s9",
+     "title": "Scott Brister",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Scott_Brister",
+     "date": null
+    },
+    {
+     "id": "s10",
+     "title": "TCJL PAC 2026 Judicial Endorsements",
+     "publisher": "Texas Civil Justice League PAC",
+     "url": "https://tcjlpac.com/?p=217586",
+     "date": "2026-02"
+    }
+   ],
+   "research_gaps": "No public statement on judicial selection methods and no candidate questionnaire responses were found."
+  },
+  {
+   "id": "jerry-zimmerer",
+   "race_id": "coa15-chief",
+   "incumbent": false,
+   "current_role": "Attorney; former Justice, Fourteenth Court of Appeals (2019 to 2024)",
+   "background": "Jerry Zimmerer was elected to Houston's Fourteenth Court of Appeals in 2018 and served from 2019 through 2024. He has practiced in Houston in civil trial work, health law, cybersecurity and international commercial arbitration, and worked as a senior project manager and network engineer at AT&T Mobility from 2003 to 2015. He is a 1984 graduate of South Texas College of Law Houston and lists Bellaire as his city.",
+   "website": "https://jerryzimmerer.com",
+   "priorities": [
+    {
+     "text": "Campaigns on making the Fifteenth Court accountable to voters rather than to the officials who appointed its members.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Says judges deciding cases about state officials and agencies should owe nothing to the officials under review.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Says he would focus on court efficiency.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says he would use the office to promote democratic values.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Campaigns on engaging working Texans, including labor groups, whose disputes with state agencies and public employers reach the court.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Elected to the Fourteenth Court of Appeals in 2018 and served from 2019 through 2024; lost his 2024 reelection bid.",
+     "sources": [
+      "s1",
+      "s4"
+     ]
+    },
+    {
+     "text": "Ran for the Texas Supreme Court in 2020 and lost the Democratic primary.",
+     "sources": [
+      "s5"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "State Bar of Texas 2026 Judicial Poll: Zimmerer 1,594 votes, Scott Brister 1,957 (about 45 percent to 55 percent).",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Endorsed by the Bay Area Democratic Movement, Victoria County Democratic Party and Panhandle Democrats; iVoterGuide also lists the Texas AFL-CIO, Tarrant County Democratic Party and McKinney Area Democratic Club among his endorsers.",
+     "sources": [
+      "s1",
+      "s6"
+     ]
+    },
+    {
+     "text": "Has received endorsements from pro-LGBTQ+ and labor groups in Houston, according to the Texas Tribune.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Reported $15,142 cash on hand as of June 30, 2026.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {
+    "q_judicial_selection": {
+     "position": -1,
+     "basis": "statement",
+     "summary": "Argues the Fifteenth Court, whose seats were all filled by gubernatorial appointment, should answer to the law and to voters rather than to the officials who appointed it.",
+     "sources": [
+      "s3"
+     ]
+    }
+   },
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Texas 15th Court of Appeals race: Who is running and what to know",
+     "publisher": "The Texas Tribune",
+     "url": "https://www.texastribune.org/2026/10/02/texas-15th-court-of-appeals-2026-elections-guide/",
+     "date": "2026-10-02"
+    },
+    {
+     "id": "s2",
+     "title": "State Bar of Texas 2026 Judicial Poll, Final Vote Summary",
+     "publisher": "State Bar of Texas",
+     "url": "https://www.texasbar.com/pollresults/",
+     "date": "2026-02-10"
+    },
+    {
+     "id": "s3",
+     "title": "Jerry Zimmerer campaign website",
+     "publisher": "Zimmerer campaign",
+     "url": "https://jerryzimmerer.com",
+     "date": null
+    },
+    {
+     "id": "s4",
+     "title": "Jerry Zimmerer, 2026 candidate for 15th Court of Appeals Chief Justice",
+     "publisher": "San Antonio Report",
+     "url": "https://sanantonioreport.org/profile/jerry-zimmerer-2026-candidate-for-15th-court-of-appeals-chief-justice",
+     "date": "2026-07-17"
+    },
+    {
+     "id": "s5",
+     "title": "Texas 15th Court of Appeals 2026 primary guide",
+     "publisher": "The Texas Tribune",
+     "url": "https://www.texastribune.org/2026/02/16/texas-15th-court-of-appeals-2026-primary-guide/",
+     "date": "2026-02-16"
+    },
+    {
+     "id": "s6",
+     "title": "Jerry Zimmerer candidate profile",
+     "publisher": "iVoterGuide",
+     "url": "https://ivoterguide.com/candidate/94895/race/35059/election/1471",
+     "date": "2026"
+    }
+   ],
+   "research_gaps": "No specific opinions from his Fourteenth Court tenure were located, and he did not answer the iVoterGuide questionnaire."
+  },
+  {
+   "id": "scott-k-field",
+   "race_id": "coa15-2",
+   "incumbent": true,
+   "current_role": "Justice, Fifteenth Court of Appeals, Place 2, since September 2024 (appointed by Gov. Greg Abbott)",
+   "background": "Scott Field holds a political science degree from Texas A&M University and a law degree from the University of Texas School of Law. He clerked for Texas Supreme Court Justice Raul Gonzalez, practiced at Baker Botts and Butler Snow, and served on the Third Court of Appeals in Austin from 2013 to 2018. Gov. Greg Abbott appointed him the first judge of Williamson County's 480th District Court in 2022 and to the Fifteenth Court in 2024. He lives in Liberty Hill.",
+   "website": "https://justicescottfield.com",
+   "priorities": [
+    {
+     "text": "Campaigns on applying the law as written, not rewriting it to fit personal views or political outcomes.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Says Texans deserve a judiciary that is independent, even-handed and faithful to the Constitution.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Says every case deserves thoughtful, impartial review grounded in the law, not politics.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Promises impartiality, discipline and commitment to the rule of law.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [
+    {
+     "text": "Says he will apply the law as written.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "record": [
+    {
+     "text": "Served on the Third Court of Appeals in Austin from 2013 to 2018.",
+     "sources": [
+      "s1",
+      "s4"
+     ]
+    },
+    {
+     "text": "Appointed by Gov. Greg Abbott in 2022 as the first judge of the 480th District Court in Williamson County.",
+     "sources": [
+      "s1",
+      "s4"
+     ]
+    },
+    {
+     "text": "Appointed to the Fifteenth Court of Appeals, Place 2, effective September 1, 2024.",
+     "sources": [
+      "s5"
+     ]
+    },
+    {
+     "text": "Wrote the Fifteenth Court's December 2025 opinion upholding an injunction against Attorney General Ken Paxton's reporting rules for large-county prosecutors, concluding that the Legislature did not expressly grant the attorney general rulemaking authority.",
+     "sources": [
+      "s7"
+     ]
+    },
+    {
+     "text": "Joined Fifteenth Court rulings that drew Paxton's criticism, including one allowing Democratic legislators who left the state during the 2025 redistricting dispute to receive donations.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Bloomberg Law reported that he called Paxton's public attack on the court shocking and said he follows the law as given regardless of who wins; it also reported that he interviewed in 2025 for a Texas Supreme Court vacancy.",
+     "sources": [
+      "s6"
+     ]
+    },
+    {
+     "text": "During a February 2026 oral argument in a pending case involving a midwife and abortion, he described the state's evidence as very thin, according to Bloomberg Law.",
+     "sources": [
+      "s6"
+     ]
+    },
+    {
+     "text": "Member of the Federalist Society and the Christian Legal Society.",
+     "sources": [
+      "s4",
+      "s1"
+     ]
+    },
+    {
+     "text": "State Bar of Texas 2026 Judicial Poll: Field 1,523 votes, Tom Baker 1,692 (about 47 percent to 53 percent).",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Endorsed by Gov. Greg Abbott, The C Club of Houston and Texas Alliance for Life, and by the Texas Civil Justice League PAC.",
+     "sources": [
+      "s1",
+      "s8"
+     ]
+    },
+    {
+     "text": "Reported $287,492 cash on hand as of June 30, 2026; major donors included Texans for Lawsuit Reform PAC ($25,000).",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {
+    "q_textualism": {
+     "position": 1,
+     "basis": "statement",
+     "summary": "Says judges should apply the law as written rather than rewrite it to fit personal views or political outcomes.",
+     "sources": [
+      "s3",
+      "s1"
+     ]
+    }
+   },
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Texas 15th Court of Appeals race: Who is running and what to know",
+     "publisher": "The Texas Tribune",
+     "url": "https://www.texastribune.org/2026/10/02/texas-15th-court-of-appeals-2026-elections-guide/",
+     "date": "2026-10-02"
+    },
+    {
+     "id": "s2",
+     "title": "State Bar of Texas 2026 Judicial Poll, Final Vote Summary",
+     "publisher": "State Bar of Texas",
+     "url": "https://www.texasbar.com/pollresults/",
+     "date": "2026-02-10"
+    },
+    {
+     "id": "s3",
+     "title": "Justice Scott Field campaign website",
+     "publisher": "Field campaign",
+     "url": "https://justicescottfield.com",
+     "date": null
+    },
+    {
+     "id": "s4",
+     "title": "Justice Scott Field",
+     "publisher": "Fifteenth Court of Appeals (txcourts.gov)",
+     "url": "https://txcourts.gov/15thcoa/about-the-court/justices/justice-scott-field/",
+     "date": null
+    },
+    {
+     "id": "s5",
+     "title": "Governor Abbott Appoints Inaugural Members To Fifteenth Court Of Appeals",
+     "publisher": "Office of the Texas Governor",
+     "url": "https://gov.texas.gov/news/post/governor-abbott-appoints-inaugural-members-to-fifteenth-court-of-appeals",
+     "date": "2024-06-11"
+    },
+    {
+     "id": "s6",
+     "title": "Paxton Feuds With the Appeals Court He Said Texas Needed",
+     "publisher": "Bloomberg Law",
+     "url": "https://news.bloomberglaw.com/litigation/texas-court-delivers-gop-wins-not-the-ones-ken-paxton-wants",
+     "date": "2026-07-14"
+    },
+    {
+     "id": "s7",
+     "title": "Texas AG Ken Paxton again blocked from enforcing reporting rules against Democratic DAs",
+     "publisher": "KERA News (republished by High Plains Public Radio)",
+     "url": "https://www.hppr.org/hppr-news/2026-01-01/texas-ag-ken-paxton-again-blocked-from-enforcing-reporting-rules-against-democratic-das",
+     "date": "2026-01-01"
+    },
+    {
+     "id": "s8",
+     "title": "TCJL PAC 2026 Judicial Endorsements",
+     "publisher": "Texas Civil Justice League PAC",
+     "url": "https://tcjlpac.com/?p=217586",
+     "date": "2026-02"
+    }
+   ],
+   "research_gaps": "No public statement on judicial selection methods and no candidate questionnaire responses were found."
+  },
+  {
+   "id": "tom-baker",
+   "race_id": "coa15-2",
+   "incumbent": false,
+   "current_role": "Attorney in private practice in Killeen; former Justice, Third Court of Appeals (2019 to 2024)",
+   "background": "Tom Baker served in the U.S. Army (1974 to 1976) and in the U.S. Naval Reserve Judge Advocate General's Corps (1984 to 1991). He holds degrees from the University of Texas at Austin and a 1983 law degree from the University of Houston. He was an assistant Bee County attorney, a sole practitioner, and a partner at Baker & Tisdale before winning election to Place 5 on the Third Court of Appeals in Austin in 2018.",
+   "website": "https://justicetombaker.com",
+   "priorities": [
+    {
+     "text": "Says party affiliation should not affect a judge's rulings.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says courts should follow the principle of stare decisis and respect legal precedent.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Served as a justice on the Third Court of Appeals from 2019 to 2024 and lost his 2024 reelection bid.",
+     "sources": [
+      "s1",
+      "s4"
+     ]
+    },
+    {
+     "text": "Sat on the panel that upheld Harris County's 2020 mask mandate.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Sat on the panel that upheld an injunction blocking a ban on consumable hemp products.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "State Bar of Texas 2026 Judicial Poll: Baker 1,692 votes, Scott Field 1,523 (about 53 percent to 47 percent).",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Endorsed by the Bay Area Democratic Movement, Victoria County Democratic Party and Panhandle Democrats; iVoterGuide also lists the McKinney Area Democratic Club, Tarrant County Democratic Party and Liberal Austin Democrats.",
+     "sources": [
+      "s1",
+      "s3"
+     ]
+    },
+    {
+     "text": "Reported $10,821 cash on hand as of June 30, 2026, including a $7,000 loan to his own campaign.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {
+    "q_textualism": {
+     "position": -1,
+     "basis": "questionnaire",
+     "summary": "Asked whether judges should apply original public meaning, he answered that courts should follow stare decisis, that the law does not evolve but the country has, and that the Constitution did not envision modern weapons.",
+     "sources": [
+      "s3"
+     ]
+    }
+   },
+   "issue_notes": [
+    {
+     "topic": "Precedent",
+     "summary": "Wrote that Dobbs v. Jackson was decided incorrectly if one values stare decisis and that Obergefell v. Hodges was correctly decided under the Equal Protection Clause.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "topic": "Parental Rights",
+     "summary": "Wrote that parents may raise their children free from interference when acting in the child's objective best interests.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Texas 15th Court of Appeals race: Who is running and what to know",
+     "publisher": "The Texas Tribune",
+     "url": "https://www.texastribune.org/2026/10/02/texas-15th-court-of-appeals-2026-elections-guide/",
+     "date": "2026-10-02"
+    },
+    {
+     "id": "s2",
+     "title": "State Bar of Texas 2026 Judicial Poll, Final Vote Summary",
+     "publisher": "State Bar of Texas",
+     "url": "https://www.texasbar.com/pollresults/",
+     "date": "2026-02-10"
+    },
+    {
+     "id": "s3",
+     "title": "Tom Baker candidate profile and questionnaire",
+     "publisher": "iVoterGuide",
+     "url": "https://ivoterguide.com/candidate/94896/race/32556/election/1471",
+     "date": "2026"
+    },
+    {
+     "id": "s4",
+     "title": "Tom Baker, 2026 candidate for 15th Court of Appeals Place 2",
+     "publisher": "San Antonio Report",
+     "url": "https://sanantonioreport.org/profile/tom-baker-2026-candidate-for-15th-court-of-appeals-place-2/",
+     "date": "2026-07-17"
+    }
+   ],
+   "research_gaps": "His campaign website could not be read, and no opinions he authored on the Third Court were located beyond the panel rulings reported by the Texas Tribune."
+  },
+  {
+   "id": "april-farris",
+   "race_id": "coa15-3",
+   "incumbent": true,
+   "current_role": "Justice, Fifteenth Court of Appeals, Place 3, since September 2024 (appointed by Gov. Greg Abbott)",
+   "background": "April Farris grew up in Big Spring and holds degrees from Abilene Christian University (2006) and Harvard Law School (2009). She clerked for Judge Jennifer Walker Elrod on the U.S. Court of Appeals for the Fifth Circuit, served as an assistant solicitor general for Texas, and was an appellate partner at Yetter Coleman in Houston. She was appointed to Houston's First Court of Appeals in 2021, elected in 2022, and appointed to the Fifteenth Court in 2024. She lists Sugar Land as her city.",
+   "website": "https://justiceaprilfarris.com",
+   "priorities": [
+    {
+     "text": "Says judges should interpret the law as written, not rewrite it.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Says Texans deserve a judiciary that is impartial, principled and grounded in respect for the legal process.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Says every Texan deserves equal treatment under the law and a fair, impartial judge.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Says she bases rulings on the Texas Constitution and the rule of law.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [
+    {
+     "text": "Says she will apply the law as written, not personal views or preferences.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "record": [
+    {
+     "text": "Appointed to the First Court of Appeals in 2021 and elected to that court in 2022.",
+     "sources": [
+      "s4"
+     ]
+    },
+    {
+     "text": "Appointed to the Fifteenth Court of Appeals, Place 3, effective September 1, 2024.",
+     "sources": [
+      "s5"
+     ]
+    },
+    {
+     "text": "Joined Fifteenth Court rulings that drew criticism from Attorney General Ken Paxton.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Bloomberg Law reported that she deactivated her X account after Paxton's August 27, 2025 post attacking the court, and that she interviewed in 2025 for a Texas Supreme Court vacancy.",
+     "sources": [
+      "s6"
+     ]
+    },
+    {
+     "text": "Honorary board member of Houston's Christian Legal Society.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "State Bar of Texas 2026 Judicial Poll: Farris 1,878 votes, Marc M. Meyer 1,417 (about 57 percent to 43 percent).",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Endorsed by Gov. Greg Abbott, the Texas Oil and Gas Association and the Texas Civil Justice League PAC.",
+     "sources": [
+      "s1",
+      "s7"
+     ]
+    },
+    {
+     "text": "Reported $184,794 cash on hand as of June 30, 2026; major donors included Texans for Lawsuit Reform PAC ($25,000).",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {
+    "q_textualism": {
+     "position": 1,
+     "basis": "statement",
+     "summary": "Says judges should interpret the law as written and not rewrite it.",
+     "sources": [
+      "s3",
+      "s1"
+     ]
+    }
+   },
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Texas 15th Court of Appeals race: Who is running and what to know",
+     "publisher": "The Texas Tribune",
+     "url": "https://www.texastribune.org/2026/10/02/texas-15th-court-of-appeals-2026-elections-guide/",
+     "date": "2026-10-02"
+    },
+    {
+     "id": "s2",
+     "title": "State Bar of Texas 2026 Judicial Poll, Final Vote Summary",
+     "publisher": "State Bar of Texas",
+     "url": "https://www.texasbar.com/pollresults/",
+     "date": "2026-02-10"
+    },
+    {
+     "id": "s3",
+     "title": "Justice April Farris campaign website",
+     "publisher": "Farris campaign",
+     "url": "https://justiceaprilfarris.com",
+     "date": null
+    },
+    {
+     "id": "s4",
+     "title": "Justice April Farris",
+     "publisher": "Fifteenth Court of Appeals (txcourts.gov)",
+     "url": "https://www.txcourts.gov/15thcoa/about-the-court/justices/justice-april-farris/",
+     "date": null
+    },
+    {
+     "id": "s5",
+     "title": "Governor Abbott Appoints Inaugural Members To Fifteenth Court Of Appeals",
+     "publisher": "Office of the Texas Governor",
+     "url": "https://gov.texas.gov/news/post/governor-abbott-appoints-inaugural-members-to-fifteenth-court-of-appeals",
+     "date": "2024-06-11"
+    },
+    {
+     "id": "s6",
+     "title": "Paxton Feuds With the Appeals Court He Said Texas Needed",
+     "publisher": "Bloomberg Law",
+     "url": "https://news.bloomberglaw.com/litigation/texas-court-delivers-gop-wins-not-the-ones-ken-paxton-wants",
+     "date": "2026-07-14"
+    },
+    {
+     "id": "s7",
+     "title": "TCJL PAC 2026 Judicial Endorsements",
+     "publisher": "Texas Civil Justice League PAC",
+     "url": "https://tcjlpac.com/?p=217586",
+     "date": "2026-02"
+    }
+   ],
+   "research_gaps": "No specific opinions she authored on the Fifteenth Court and no statement on judicial selection methods were found."
+  },
+  {
+   "id": "marc-m-meyer",
+   "race_id": "coa15-3",
+   "incumbent": false,
+   "current_role": "Attorney, Law Office of Marc Meyer, PLLC",
+   "background": "Marc Meyer was a Houston Fire Department captain and paramedic from 1990 to 2010 and is a registered nurse. He earned his law degree from South Texas College of Law in 2009, is board certified in administrative law, and represents health care providers in licensing and malpractice matters. He chaired the Montgomery County Democratic Party from 2015 to 2020 and was the 2020 Democratic nominee for Montgomery County's 457th District Court.",
+   "website": null,
+   "priorities": [
+    {
+     "text": "Says state power should be tempered by individual rights.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Promises impartiality on the bench.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Said in 2020 that partisanship should play no role in how a judge applies the law.",
+     "sources": [
+      "s4"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Was the 2020 Democratic nominee for the 457th District Court in Montgomery County.",
+     "sources": [
+      "s1",
+      "s4"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "State Bar of Texas 2026 Judicial Poll: Meyer 1,417 votes, April Farris 1,878 (about 43 percent to 57 percent).",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Endorsed by the Texas AFL-CIO, Bay Area Democratic Movement, Victoria County Democratic Party, Panhandle Democrats and Sabine Area Central Labor Council.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Serves as sergeant at arms of the Montgomery County Democratic Party and has advocated for other Democratic candidates, according to the Texas Tribune.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Reported $420 cash on hand as of June 30, 2026.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Did not answer the iVoterGuide judicial questionnaire.",
+     "sources": [
+      "s5"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [
+    {
+     "topic": "Court Administration",
+     "summary": "In his 2020 trial court race he said Montgomery County lacked enough civil judges for its caseload and that he would build a team to keep cases moving.",
+     "sources": [
+      "s4"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Texas 15th Court of Appeals race: Who is running and what to know",
+     "publisher": "The Texas Tribune",
+     "url": "https://www.texastribune.org/2026/10/02/texas-15th-court-of-appeals-2026-elections-guide/",
+     "date": "2026-10-02"
+    },
+    {
+     "id": "s2",
+     "title": "State Bar of Texas 2026 Judicial Poll, Final Vote Summary",
+     "publisher": "State Bar of Texas",
+     "url": "https://www.texasbar.com/pollresults/",
+     "date": "2026-02-10"
+    },
+    {
+     "id": "s3",
+     "title": "Texas 15th Court of Appeals 2026 primary guide",
+     "publisher": "The Texas Tribune",
+     "url": "https://www.texastribune.org/2026/02/16/texas-15th-court-of-appeals-2026-primary-guide/",
+     "date": "2026-02-16"
+    },
+    {
+     "id": "s4",
+     "title": "Candidate Q&A: Montgomery County 457th Civil Court",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/houston/the-woodlands/election/2020/10/09/candidate-qa-montgomery-county-457th-civil-court",
+     "date": "2020-10-09"
+    },
+    {
+     "id": "s5",
+     "title": "Marc M. Meyer candidate profile",
+     "publisher": "iVoterGuide",
+     "url": "https://ivoterguide.com/candidate/94897/race/32557/election/1471",
+     "date": "2026"
+    }
+   ],
+   "research_gaps": "No campaign website, 2026 questionnaire responses or statements on judicial philosophy for the appellate race were found."
+  },
+  {
+   "id": "matthew-kolodoski",
+   "race_id": "coa5-3",
+   "incumbent": false,
+   "current_role": "Partner, Gette Law PLLC",
+   "background": "Matthew Kolodoski is a native Texan who graduated from Frisco High School, the University of Houston and SMU Dedman School of Law (2013). He clerked for Judge Irma Ramirez on the U.S. District Court for the Northern District of Texas and practiced at Thompson, Coe, Cousins & Irons from 2016 to 2025 before joining Gette Law. He is board certified in Consumer and Commercial Law and in Insurance Law and has served on the State Bar of Texas Board of Directors.",
+   "website": "https://kolodoski4justice.com",
+   "priorities": [
+    {
+     "text": "Says he will work to be a fair and unbiased justice who applies the plain words of the law and does not legislate from the bench.",
+     "sources": [
+      "s1",
+      "s3"
+     ]
+    },
+    {
+     "text": "Campaigns on bringing board certifications in consumer, commercial and insurance law to the court, which he says no current justice holds.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    },
+    {
+     "text": "Says everyone, rich or poor, individual or corporation, deserves a fair opportunity to present a case to judges who listen.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says oral argument should be granted more often when parties request it.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Campaigns on respect for the limited role of the judiciary.",
+     "sources": [
+      "s4"
+     ]
+    }
+   ],
+   "promises": [
+    {
+     "text": "Says that if elected he will work to be a fair and unbiased justice who applies the plain words of the law.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "record": [],
+   "notes": [
+    {
+     "text": "Lost the 2024 race for 5th Court of Appeals, Place 9, to Democrat Tina Clinton by 1,596 votes after late-counted mail and provisional ballots reversed his election-night lead.",
+     "sources": [
+      "s5"
+     ]
+    },
+    {
+     "text": "State Bar of Texas 2026 Judicial Poll: Kolodoski 233 votes, Amanda Reichek 433 (about 35 percent to 65 percent).",
+     "sources": [
+      "s6"
+     ]
+    },
+    {
+     "text": "Reported $19,043 in contributions plus about $10,000 in personal loans as of his July 15, 2026 report.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Has chaired the State Bar's Constitutional Law Section for three terms and received the Patrick Wiseman Award for Civil Rights.",
+     "sources": [
+      "s2",
+      "s3"
+     ]
+    }
+   ],
+   "stances": {
+    "q_textualism": {
+     "position": 1,
+     "basis": "questionnaire",
+     "summary": "Says he would apply the plain words of the law and not legislate from the bench.",
+     "sources": [
+      "s1",
+      "s3"
+     ]
+    }
+   },
+   "issue_notes": [
+    {
+     "topic": "Judicial Campaign Finance",
+     "summary": "Supports reasonable contribution limits and disclosure requirements and says current limits are effective.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "topic": "Judicial Ethics",
+     "summary": "Supports ethics training, prompt and transparent complaint processes, consistent sanctions and clearer recusal guidance, and says judges should avoid social media commentary on pending cases.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Candidate Q&A: 5th Court of Appeals, Place 3, Republican primary",
+     "publisher": "The Dallas Morning News",
+     "url": "https://www.dallasnews.com/projects/2026/dallas-texas-primary-election-voter-guide/5th-court-of-appeals-place-3-republican/",
+     "date": "2026-02-03"
+    },
+    {
+     "id": "s2",
+     "title": "Candidate Q&A: 5th Court of Appeals, Place 3 (November 2026)",
+     "publisher": "The Dallas Morning News",
+     "url": "https://www.dallasnews.com/projects/2026/dallas-texas-november-election-voter-guide/5th-court-of-appeals-place-3/",
+     "date": "2026-10-06"
+    },
+    {
+     "id": "s3",
+     "title": "5th Court of Appeals, Place 3",
+     "publisher": "TexasJudges.org (Texas Civil Justice League)",
+     "url": "https://texasjudges.org/2026-races/5th-court-of-appeals-place-3/",
+     "date": "2026"
+    },
+    {
+     "id": "s4",
+     "title": "Matthew Kolodoski campaign website",
+     "publisher": "Kolodoski campaign",
+     "url": "https://kolodoski4justice.com",
+     "date": null
+    },
+    {
+     "id": "s5",
+     "title": "Fifth Court of Appeals election results: Tina Clinton, Matthew Kolodoski, Place 9",
+     "publisher": "KERA News",
+     "url": "https://www.keranews.org/elections-2024/2024-11-27/fifth-court-of-appeals-election-results-dallas-democrat-judge-tina-clinton-republican-matthew-kolodoski-place-9",
+     "date": "2024-11-27"
+    },
+    {
+     "id": "s6",
+     "title": "State Bar of Texas 2026 Judicial Poll, Final Vote Summary",
+     "publisher": "State Bar of Texas",
+     "url": "https://www.texasbar.com/pollresults/",
+     "date": "2026-02-10"
+    }
+   ],
+   "research_gaps": "No endorsements from legal organizations or Collin County Bar poll results were found."
+  },
+  {
+   "id": "amanda-reichek",
+   "race_id": "coa5-3",
+   "incumbent": false,
+   "current_role": "Of counsel, Tillotson, Johnson & Patton; former Justice, 5th Court of Appeals, Place 10 (2019 to 2024)",
+   "background": "Amanda Reichek, a Houston native, holds degrees from Texas Tech University (1998), North Carolina State University (2000) and Texas Tech University School of Law (2003). She practiced employment and civil litigation, including at her own firm from 2009 to 2015, is board certified in Labor and Employment Law, and is an arbitrator with the American Arbitration Association. She served on the 5th Court of Appeals from 2019 to 2024 and has chaired the Dallas Bar Association's Appellate and Labor and Employment sections.",
+   "website": "https://amandaforjustice.com",
+   "priorities": [
+    {
+     "text": "Campaigns on six years of experience on the 5th Court, where she says she authored hundreds of opinions and served on panels for hundreds more.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    },
+    {
+     "text": "Says she would faithfully apply the law as written to the facts of each case.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Says she developed a reputation for efficiency, fairness and judicial independence on the court.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Campaigns on appellate experience and a reputation for fairness.",
+     "sources": [
+      "s4"
+     ]
+    },
+    {
+     "text": "Says judicial qualification standards should account for the quality of courtroom experience and collaborative skills, not only years of practice.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Elected to the 5th Court of Appeals in 2018 and served as Justice, Place 10, from 2019 to 2024, including on the court's operations and personnel committees.",
+     "sources": [
+      "s1",
+      "s2",
+      "s3"
+     ]
+    },
+    {
+     "text": "Lost the 2024 general election for Place 10 to Republican Earl Jackson, about 49.9 percent to 50.1 percent.",
+     "sources": [
+      "s5"
+     ]
+    },
+    {
+     "text": "Was the Democratic nominee for the Texas Supreme Court in 2022, according to her questionnaire.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "State Bar of Texas 2026 Judicial Poll: Reichek 433 votes, Matthew Kolodoski 233 (about 65 percent to 35 percent).",
+     "sources": [
+      "s6"
+     ]
+    },
+    {
+     "text": "Says she consistently received high ratings in the Dallas Bar Association judicial evaluation poll while on the court.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    },
+    {
+     "text": "No key endorsements are listed for her on TexasJudges.org.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "stances": {
+    "q_textualism": {
+     "position": 1,
+     "basis": "questionnaire",
+     "summary": "Says parties can rely on her to faithfully apply the law as written to the facts of their case.",
+     "sources": [
+      "s2"
+     ]
+    }
+   },
+   "issue_notes": [
+    {
+     "topic": "Judicial Campaign Finance",
+     "summary": "Says lawyers should be able to influence who holds judicial office and that disclosure rules and reasoned opinions provide transparency.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "topic": "Judicial Conduct",
+     "summary": "Supports a formal program within the State Commission on Judicial Conduct to help judges with mental health and substance abuse issues while protecting the public.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "topic": "Access to Justice",
+     "summary": "Says low-income Texans receive no or inadequate legal help for most civil legal problems and that the issue will persist until compensation for serious matters improves.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Candidate Q&A: 5th Court of Appeals, Place 3, Democratic primary",
+     "publisher": "The Dallas Morning News",
+     "url": "https://www.dallasnews.com/projects/2026/dallas-texas-primary-election-voter-guide/5th-court-of-appeals-place-3-democrat/",
+     "date": "2026-02-03"
+    },
+    {
+     "id": "s2",
+     "title": "Candidate Q&A: 5th Court of Appeals, Place 3 (November 2026)",
+     "publisher": "The Dallas Morning News",
+     "url": "https://www.dallasnews.com/projects/2026/dallas-texas-november-election-voter-guide/5th-court-of-appeals-place-3/",
+     "date": "2026-10-06"
+    },
+    {
+     "id": "s3",
+     "title": "5th Court of Appeals, Place 3",
+     "publisher": "TexasJudges.org (Texas Civil Justice League)",
+     "url": "https://texasjudges.org/2026-races/5th-court-of-appeals-place-3/",
+     "date": "2026"
+    },
+    {
+     "id": "s4",
+     "title": "Amanda Reichek campaign website",
+     "publisher": "Reichek campaign",
+     "url": "https://amandaforjustice.com",
+     "date": null
+    },
+    {
+     "id": "s5",
+     "title": "Earl Jackson",
+     "publisher": "Ballotpedia",
+     "url": "https://ballotpedia.org/Earl_Jackson",
+     "date": null
+    },
+    {
+     "id": "s6",
+     "title": "State Bar of Texas 2026 Judicial Poll, Final Vote Summary",
+     "publisher": "State Bar of Texas",
+     "url": "https://www.texasbar.com/pollresults/",
+     "date": "2026-02-10"
+    }
+   ],
+   "research_gaps": "No specific opinions she authored on the 5th Court and no endorsements from legal organizations were found."
+  },
+  {
+   "id": "ben-smith",
+   "race_id": "coa5-6",
+   "incumbent": false,
+   "current_role": "Presiding Judge, 380th Judicial District Court, Collin County, since 2012",
+   "background": "Ben Smith earned bachelor's (1996) and law (2002) degrees from Boston University and was licensed in Texas in 2003. He was a prosecutor in the Collin County and Kaufman County criminal district attorney's offices and practiced at his own firm. He has presided over the 380th District Court, a general-jurisdiction court handling criminal, civil and family cases, since 2012 and lives in Prosper.",
+   "website": "https://judgebensmith.com",
+   "priorities": [
+    {
+     "text": "Describes his judicial philosophy as based on judicial restraint and strict statutory construction.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Says judges should decide cases on the evidence and the applicable law without regard to personal, political or religious preferences.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    },
+    {
+     "text": "Campaigns on 14 years of experience in a general-jurisdiction district court handling criminal, civil and family cases.",
+     "sources": [
+      "s2",
+      "s5"
+     ]
+    },
+    {
+     "text": "Says oral argument helps in complex or novel cases but is unnecessary in most appeals with settled law.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Elected judge of the 380th District Court in 2012 and reelected in 2016 (unopposed), 2020 (56 percent) and 2024.",
+     "sources": [
+      "s1",
+      "s3"
+     ]
+    },
+    {
+     "text": "Served as Collin County's local administrative district judge from 2018 to 2019.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "By his own account, in 2012 he filed a lawsuit against his primary opponent seeking depositions to investigate potential defamation claims and nonsuited the case after the election.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "By his own account, he has been sued in federal court several times in his capacity as a district judge, and all of the suits were dismissed.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "State Bar of Texas 2026 Judicial Poll: Smith 255 votes, Monica Purdy 448 (about 36 percent to 64 percent).",
+     "sources": [
+      "s4"
+     ]
+    },
+    {
+     "text": "Endorsements listed by TexasJudges.org: U.S. Reps. Pat Fallon and Keith Self and State Reps. Mitch Little, Keresa Richardson and Brent Money.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Reported raising $173,871 for the campaign.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {
+    "q_textualism": {
+     "position": 2,
+     "basis": "questionnaire",
+     "summary": "Described his philosophy in the primary as based on restraint, originalism and strict statutory construction; his November questionnaire cites restraint and strict statutory construction.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    }
+   },
+   "issue_notes": [
+    {
+     "topic": "Bail",
+     "summary": "Says bail is a constitutional right decided case by case and describes recent laws limiting judicial discretion for violent offenses, while expressing no opinion on those laws.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "topic": "Judicial Campaign Finance",
+     "summary": "Says existing contribution limits are reasonable and that judges are accountable to voters and to the Texas Ethics Commission and State Commission on Judicial Conduct.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Candidate Q&A: 5th Court of Appeals, Place 6, Republican primary",
+     "publisher": "The Dallas Morning News",
+     "url": "https://www.dallasnews.com/projects/2026/dallas-texas-primary-election-voter-guide/5th-court-of-appeals-place-6-republican/",
+     "date": "2026-02-03"
+    },
+    {
+     "id": "s2",
+     "title": "Candidate Q&A: 5th Court of Appeals, Place 6 (November 2026)",
+     "publisher": "The Dallas Morning News",
+     "url": "https://www.dallasnews.com/projects/2026/dallas-texas-november-election-voter-guide/5th-court-of-appeals-place-6/",
+     "date": "2026-10-06"
+    },
+    {
+     "id": "s3",
+     "title": "5th Court of Appeals, Place 6",
+     "publisher": "TexasJudges.org (Texas Civil Justice League)",
+     "url": "https://texasjudges.org/2026-races/5th-court-of-appeals-place-6/",
+     "date": "2026"
+    },
+    {
+     "id": "s4",
+     "title": "State Bar of Texas 2026 Judicial Poll, Final Vote Summary",
+     "publisher": "State Bar of Texas",
+     "url": "https://www.texasbar.com/pollresults/",
+     "date": "2026-02-10"
+    },
+    {
+     "id": "s5",
+     "title": "Judge Ben Smith campaign website",
+     "publisher": "Smith campaign",
+     "url": "https://judgebensmith.com",
+     "date": null
+    }
+   ],
+   "research_gaps": "No news coverage of notable rulings and no Collin County Bar poll results were found."
+  },
+  {
+   "id": "monica-purdy",
+   "race_id": "coa5-6",
+   "incumbent": false,
+   "current_role": "Presiding Judge, 95th Civil District Court, Dallas County, since 2021",
+   "background": "Monica Purdy, a Tampa native, holds a bachelor's degree from Spelman College and a 1992 law degree from Thurgood Marshall School of Law at Texas Southern University. She practiced civil and bankruptcy litigation, including at her own firm from 2004 to 2010, then served as a City of Dallas associate municipal judge (2010 to 2013) and an associate judge of the Dallas County civil district courts (2013 to 2020). She was elected to the 95th District Court in 2020 and reelected without opposition in 2024.",
+   "website": "https://judgemonicapurdy.com",
+   "priorities": [
+    {
+     "text": "Campaigns on timely and fair judgments for plaintiffs and defendants.",
+     "sources": [
+      "s4"
+     ]
+    },
+    {
+     "text": "Says she has maintained a 102 percent case clearance rate on a docket of 1,200 to 1,500 cases a year.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Says appellate review should start and end with fidelity to the law as written, not a judge's own view of what a sentence should be.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Says courts should remain open to all, citing Thurgood Marshall as a model.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Campaigns on public legal education and voter engagement seminars.",
+     "sources": [
+      "s4"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Elected to the 95th District Court in 2020 with 64 percent of the vote and reelected unopposed in 2024.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Served as an associate judge of the Dallas County civil district courts from 2013 to 2020 after appointment by the civil district judges.",
+     "sources": [
+      "s3",
+      "s4"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Dallas Bar Association 2025 Judicial Evaluation Poll: on overall performance, 60 percent of 180 responding lawyers rated her excellent, 24.3 percent acceptable and 11.9 percent needs improvement. The poll is not a scientific survey.",
+     "sources": [
+      "s5"
+     ]
+    },
+    {
+     "text": "State Bar of Texas 2026 Judicial Poll: Purdy 448 votes, Ben Smith 255 (about 64 percent to 36 percent).",
+     "sources": [
+      "s6"
+     ]
+    },
+    {
+     "text": "By her own account, she has been named in several lawsuits in her official capacity as a judge, each dismissed.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Former board member of the League of Women Voters of Texas and the Dallas Bar Association and former president of the J.L. Turner Legal Association.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {
+    "q_textualism": {
+     "position": 1,
+     "basis": "questionnaire",
+     "summary": "Says her appellate review would start and end with fidelity to the law as written rather than her own view.",
+     "sources": [
+      "s2"
+     ]
+    }
+   },
+   "issue_notes": [
+    {
+     "topic": "Indigent Defense",
+     "summary": "Says the quality of criminal defense for poor defendants varies by county because counties fund most of it, and that this is a problem statewide.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "topic": "Judicial Ethics",
+     "summary": "Says additional reforms are not needed and that the State Commission on Judicial Conduct is effective.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "topic": "Judicial Campaign Finance",
+     "summary": "Says current contribution limits for judicial candidates are sufficient.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Candidate Q&A: 5th Court of Appeals, Place 6, Democratic primary",
+     "publisher": "The Dallas Morning News",
+     "url": "https://www.dallasnews.com/projects/2026/dallas-texas-primary-election-voter-guide/5th-court-of-appeals-place-6-democrat/",
+     "date": "2026-02-03"
+    },
+    {
+     "id": "s2",
+     "title": "Candidate Q&A: 5th Court of Appeals, Place 6 (November 2026)",
+     "publisher": "The Dallas Morning News",
+     "url": "https://www.dallasnews.com/projects/2026/dallas-texas-november-election-voter-guide/5th-court-of-appeals-place-6/",
+     "date": "2026-10-06"
+    },
+    {
+     "id": "s3",
+     "title": "5th Court of Appeals, Place 6",
+     "publisher": "TexasJudges.org (Texas Civil Justice League)",
+     "url": "https://texasjudges.org/2026-races/5th-court-of-appeals-place-6/",
+     "date": "2026"
+    },
+    {
+     "id": "s4",
+     "title": "Judge Monica Purdy campaign website",
+     "publisher": "Purdy campaign",
+     "url": "https://judgemonicapurdy.com",
+     "date": null
+    },
+    {
+     "id": "s5",
+     "title": "Judicial Evaluation Poll Results, August 2025",
+     "publisher": "Dallas Bar Association",
+     "url": "https://www.dallasbar.org/docDownload/2762555",
+     "date": "2025-08"
+    },
+    {
+     "id": "s6",
+     "title": "State Bar of Texas 2026 Judicial Poll, Final Vote Summary",
+     "publisher": "State Bar of Texas",
+     "url": "https://www.texasbar.com/pollresults/",
+     "date": "2026-02-10"
+    }
+   ],
+   "research_gaps": "No news coverage of notable rulings and no endorsements from legal organizations were found."
+  },
+  {
+   "id": "ashley-wysocki",
+   "race_id": "coa5-8",
+   "incumbent": false,
+   "current_role": "Presiding Judge, 301st Judicial District Court, Dallas County, since January 2026 (appointed by Gov. Greg Abbott)",
+   "background": "Ashley Wysocki holds a bachelor's degree in anthropology from the University of Texas at Austin (2004) and an MBA and law degree from Texas Tech University (2007). She practiced family, civil and commercial law at Mullin Hoard & Brown, David & Goodman and Fox Rothschild and works as a mediator. Gov. Greg Abbott has appointed her to four Dallas County district courts, most recently the 301st in January 2026. She lives in Dallas.",
+   "website": "https://wysockiforjustice.com",
+   "priorities": [
+    {
+     "text": "Campaigns on experience as a district judge in family and civil courts, citing hundreds of bench trials, jury trials and contested matters.",
+     "sources": [
+      "s1",
+      "s9"
+     ]
+    },
+    {
+     "text": "Says the court's mix of civil and criminal appeals makes diverse legal and judicial experience necessary.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Cites her MBA as giving her business understanding relevant to the court.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says she has served as a steward of the fair and unbiased application of the law.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "First appointed by Gov. Greg Abbott to the 254th District Court after the death of Judge Darlene Ewing, then to the 44th District Court in February 2021.",
+     "sources": [
+      "s4",
+      "s5",
+      "s2"
+     ]
+    },
+    {
+     "text": "Lost the November 2022 election for the 44th District Court to Democrat Veretta Frazier.",
+     "sources": [
+      "s4"
+     ]
+    },
+    {
+     "text": "Appointed to the 162nd District Court in February 2023 and lost the November 2024 election for that seat to Democrat Kim Bailey, about 39.5 percent to 60.5 percent.",
+     "sources": [
+      "s6",
+      "s7"
+     ]
+    },
+    {
+     "text": "Appointed to the 301st District Court on January 30, 2026, for a term ending December 31, 2026.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "State Bar of Texas 2026 Judicial Poll (taken before the March primary): Wysocki 274 votes, Andrea D. Plumlee 265, Nicholas D. Palmer 139.",
+     "sources": [
+      "s8"
+     ]
+    },
+    {
+     "text": "Member of the Federalist Society, according to the governor's 2026 appointment announcement.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Reported raising about $125,884 for the campaign.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Candidate Q&A: 5th Court of Appeals, Place 8 (November 2026)",
+     "publisher": "The Dallas Morning News",
+     "url": "https://www.dallasnews.com/projects/2026/dallas-texas-november-election-voter-guide/5th-court-of-appeals-place-8/",
+     "date": "2026-10-06"
+    },
+    {
+     "id": "s2",
+     "title": "5th Court of Appeals, Place 8",
+     "publisher": "TexasJudges.org (Texas Civil Justice League)",
+     "url": "https://texasjudges.org/2026-races/5th-court-of-appeals-place-8/",
+     "date": "2026"
+    },
+    {
+     "id": "s3",
+     "title": "Governor Abbott Appoints Wysocki As Judge Of The 301st Judicial District Court In Dallas County",
+     "publisher": "Office of the Texas Governor",
+     "url": "https://gov.texas.gov/news/post/governor-abbott-appoints-wysocki-as-judge-of-the-301st-judicial-district-court-in-dallas-county",
+     "date": "2026-01-30"
+    },
+    {
+     "id": "s4",
+     "title": "Abbott appoints Republican to Dallas court",
+     "publisher": "The Dallas Express",
+     "url": "https://dallasexpress.com/city/abbott-appoints-republican-to-dallas-court/",
+     "date": "2023-02-10"
+    },
+    {
+     "id": "s5",
+     "title": "Governor Abbott Appoints Wysocki To 44th Judicial District Court",
+     "publisher": "Office of the Texas Governor",
+     "url": "https://gov.texas.gov/news/post/governor-abbott-appoints-wysocki-to-44th-judicial-district-court",
+     "date": "2021-02"
+    },
+    {
+     "id": "s6",
+     "title": "Governor Abbott Appoints Wysocki To 162nd District Court",
+     "publisher": "Office of the Texas Governor",
+     "url": "https://gov.texas.gov/news/post/governor-abbott-appoints-wysocki-to-162nd-district-court",
+     "date": "2023-02"
+    },
+    {
+     "id": "s7",
+     "title": "Kim Bailey",
+     "publisher": "Ballotpedia",
+     "url": "https://ballotpedia.org/Kim_Bailey",
+     "date": null
+    },
+    {
+     "id": "s8",
+     "title": "State Bar of Texas 2026 Judicial Poll, Final Vote Summary",
+     "publisher": "State Bar of Texas",
+     "url": "https://www.texasbar.com/pollresults/",
+     "date": "2026-02-10"
+    },
+    {
+     "id": "s9",
+     "title": "Ashley Wysocki campaign website",
+     "publisher": "Wysocki campaign",
+     "url": "https://wysockiforjustice.com",
+     "date": null
+    }
+   ],
+   "research_gaps": "No stated judicial philosophy, endorsements, bar evaluation poll ratings or notable rulings were found; she did not answer the Dallas Morning News policy questions."
+  },
+  {
+   "id": "andrea-d-plumlee",
+   "race_id": "coa5-8",
+   "incumbent": false,
+   "current_role": "Judge, 330th Family District Court, Dallas County, since 2011",
+   "background": "Andrea Plumlee holds a business degree from North Texas State University and a 1993 law degree from Southern Methodist University. Before taking the bench she spent 17 years in practice, including federal civil rights and employment litigation and court-appointed work representing children. She has served as judge of the 330th Family District Court since January 2011 and has lived in Dallas County for 52 years.",
+   "website": "https://plumleeforjudge.com",
+   "priorities": [
+    {
+     "text": "Campaigns on more than 32 years of combined experience as a trial lawyer and district judge.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    },
+    {
+     "text": "Says trial court experience should be essential for service on an appellate court.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says a judge should listen earnestly, discern credibility and apply the law correctly, with service as the core ideal.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says her court consistently rates as one of the most efficient among lawyers and the Office of Court Administration.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Elected to the 330th District Court in 2010 and has served four terms beginning January 1, 2011.",
+     "sources": [
+      "s1",
+      "s2",
+      "s6"
+     ]
+    },
+    {
+     "text": "Elected by fellow judges as Dallas County's local administrative district judge and as presiding judge of the seven family district courts; serves as vice-chair of the Dallas County Juvenile Board.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Won the March 2026 Democratic primary over Nicholas D. Palmer.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Dallas Bar Association 2025 Judicial Evaluation Poll: on overall performance, 59.2 percent of 101 responding lawyers rated her excellent, 24.3 percent acceptable and 13.6 percent needs improvement. The poll is not a scientific survey.",
+     "sources": [
+      "s4"
+     ]
+    },
+    {
+     "text": "State Bar of Texas 2026 Judicial Poll (taken before the March primary): Plumlee 265 votes, Ashley Wysocki 274, Nicholas D. Palmer 139.",
+     "sources": [
+      "s5"
+     ]
+    },
+    {
+     "text": "Reported raising about $80,000 for the campaign.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [
+    {
+     "topic": "Bail",
+     "summary": "Says public safety must be a top consideration in bail, and that there is room to roll back some limits on who may receive a personal bond, with judges deciding after a hearing.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "topic": "Judicial Ethics",
+     "summary": "Favors bright-line recusal triggers over the current standard and says judges should generally not use social media except for public notices.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "topic": "Judicial Campaign Finance",
+     "summary": "Says contribution limits are not a one-size-fits-all question and that strict disclosure laws give litigants some protection.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Candidate Q&A: 5th Court of Appeals, Place 8, Democratic primary",
+     "publisher": "The Dallas Morning News",
+     "url": "https://www.dallasnews.com/projects/2026/dallas-texas-primary-election-voter-guide/5th-court-of-appeals-place-8-democrat/",
+     "date": "2026-02-03"
+    },
+    {
+     "id": "s2",
+     "title": "Candidate Q&A: 5th Court of Appeals, Place 8 (November 2026)",
+     "publisher": "The Dallas Morning News",
+     "url": "https://www.dallasnews.com/projects/2026/dallas-texas-november-election-voter-guide/5th-court-of-appeals-place-8/",
+     "date": "2026-10-06"
+    },
+    {
+     "id": "s3",
+     "title": "Texas intermediate appellate court elections, 2026",
+     "publisher": "Ballotpedia",
+     "url": "https://ballotpedia.org/Texas_intermediate_appellate_court_elections,_2026",
+     "date": null
+    },
+    {
+     "id": "s4",
+     "title": "Judicial Evaluation Poll Results, August 2025",
+     "publisher": "Dallas Bar Association",
+     "url": "https://www.dallasbar.org/docDownload/2762555",
+     "date": "2025-08"
+    },
+    {
+     "id": "s5",
+     "title": "State Bar of Texas 2026 Judicial Poll, Final Vote Summary",
+     "publisher": "State Bar of Texas",
+     "url": "https://www.texasbar.com/pollresults/",
+     "date": "2026-02-10"
+    },
+    {
+     "id": "s6",
+     "title": "5th Court of Appeals, Place 8",
+     "publisher": "TexasJudges.org (Texas Civil Justice League)",
+     "url": "https://texasjudges.org/2026-races/5th-court-of-appeals-place-8/",
+     "date": "2026"
+    }
+   ],
+   "research_gaps": "No stated position on textualism or judicial selection and no endorsements from legal organizations were found."
+  }
+ ]
+}

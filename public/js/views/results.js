@@ -1,4 +1,4 @@
-import { $, esc, setTitle, formatDate, toast, partyTag, PARTY_CLASS, GROUPS } from '../ui.js';
+import { $, esc, setTitle, formatDate, toast, partyTag, PARTY_CLASS, GROUPS, raceTitle, countyLabel } from '../ui.js';
 import { api, loadGuide, resultCache, session } from '../api.js';
 import { positionLabel, IMPORTANCE } from '../scoring.js';
 
@@ -39,8 +39,8 @@ function draw(view, guide, data, isNew) {
   const contested = results.races.filter((r) => !r.uncontested);
   const uncontested = results.races.filter((r) => r.uncontested);
   const shareText = best
-    ? `I took the nonpartisan Collin County 2026 ballot quiz. My closest party platform match was ${best.name} at ${best.score}%. See how your views line up with the candidates:`
-    : 'I took the nonpartisan Collin County 2026 ballot quiz. See how your views line up with the candidates:';
+    ? `I took the nonpartisan 2026 Texas ballot quiz. My closest party platform match was ${best.name} at ${best.score}%. See how your views line up with the candidates:`
+    : 'I took the nonpartisan 2026 Texas ballot quiz. See how your views line up with the candidates:';
   const enc = encodeURIComponent;
 
   const summaryRows = contested
@@ -49,7 +49,7 @@ function draw(view, guide, data, isNew) {
       const cell = top
         ? `${esc(top.name)} ${partyTag(top.party)}${r.tie ? ' <span class="tag">Close race</span>' : ''}`
         : '<span class="muted">Not enough documented positions</span>';
-      return `<tr><td><a href="/candidates/${esc(r.id)}">${esc(raceById[r.id]?.title || r.title)}</a></td><td>${cell}</td><td class="num">${top ? top.score + '%' : ''}</td></tr>`;
+      return `<tr><td><a href="/candidates/${esc(r.id)}">${esc(raceById[r.id] ? raceTitle(raceById[r.id]) : r.title)}</a></td><td>${cell}</td><td class="num">${top ? top.score + '%' : ''}</td></tr>`;
     })
     .join('');
 
@@ -71,7 +71,7 @@ function draw(view, guide, data, isNew) {
           })
           .join('');
         return `<div class="race-result">
-          <div><h3>${esc(raceById[r.id]?.title || r.title)}</h3>
+          <div><h3>${esc(raceById[r.id] ? raceTitle(raceById[r.id]) : r.title)}</h3>
             <p class="small muted" style="margin:0">Compared on up to ${r.questions} questions for this office. ${
               r.tie ? 'The top two are within 3 points.' : ''
             }</p>
@@ -102,7 +102,9 @@ function draw(view, guide, data, isNew) {
     <div>
       <span class="eyebrow">Quiz Results</span>
       <h1 style="margin-bottom:4px">${esc(data.first_name ? `${data.first_name}'s` : 'Your')} ballot alignment</h1>
-      <p class="muted" style="margin:0">Taken ${esc(formatDate(data.created_at))} Central Time. ${results.answered} of ${results.total} questions answered.</p>
+      <p class="muted" style="margin:0">Taken ${esc(formatDate(data.created_at))} Central Time. ${results.answered} of ${results.total} questions answered.${
+        results.county ? ` Ballot: ${esc(countyLabel(results.county))}${results.full_ballot ? '' : ' (statewide races only)'}.` : ''
+      }</p>
     </div>
     <div class="btn-row">
       ${owner ? '<button class="btn btn-ghost btn-small" id="email-me">Email me a copy</button>' : ''}
@@ -119,7 +121,7 @@ function draw(view, guide, data, isNew) {
       <a class="btn btn-ghost btn-small" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=${enc(url)}">Facebook</a>
       <a class="btn btn-ghost btn-small" target="_blank" rel="noopener" href="https://www.linkedin.com/sharing/share-offsite/?url=${enc(url)}">LinkedIn</a>
       <a class="btn btn-ghost btn-small" target="_blank" rel="noopener" href="https://wa.me/?text=${enc(shareText + ' ' + url)}">WhatsApp</a>
-      <a class="btn btn-ghost btn-small" href="mailto:?subject=${enc('My Collin County ballot quiz results')}&body=${enc(shareText + '\n\n' + url)}">Email a friend</a>
+      <a class="btn btn-ghost btn-small" href="mailto:?subject=${enc('My 2026 Texas ballot quiz results')}&body=${enc(shareText + '\n\n' + url)}">Email a friend</a>
     </div>
     <p class="small muted" style="margin:10px 0 0">The shared page shows your first name and match percentages. It never shows your email, last name, or individual answers.</p>
   </div>
@@ -134,10 +136,11 @@ function draw(view, guide, data, isNew) {
         )
         .join('')}
     </div>
-    <p class="small muted" style="margin:16px 0 0">Each percentage measures agreement with that party's official Texas platform on the questions both of you addressed, so the numbers do not add up to 100. No independent candidates appear on the Collin County ballot, and independents do not share a written platform, so there is no independent score. <a href="/methodology">How this is calculated</a></p>
+    <p class="small muted" style="margin:16px 0 0">Each percentage measures agreement with that party's official Texas platform on the questions both of you addressed, so the numbers do not add up to 100. Independent candidates do not share a written platform, so there is no independent score. Where an independent appears on your ballot, compare them race by race below. <a href="/methodology">How this is calculated</a></p>
     </div>
   </section>
 
+  ${results.county && !results.full_ballot ? `<div class="callout" style="margin-top:20px">The full ${esc(countyLabel(results.county))} ballot has not been loaded yet, so these results cover statewide races only. Retake the quiz after your county is added to see every race on your ballot.</div>` : ''}
   <section aria-labelledby="sum-h">
     <div class="section-head"><h2 id="sum-h">Closest match in each contested race</h2></div>
     <table class="ballot summary-table"><thead><tr><th>Race</th><th>Closest documented match</th><th class="num">Match</th></tr></thead><tbody>${summaryRows}</tbody></table>
@@ -155,7 +158,7 @@ function draw(view, guide, data, isNew) {
     <table class="ballot"><tbody>${uncontested
       .map((r) => {
         const c = r.candidates[0];
-        return `<tr><td>${esc(raceById[r.id]?.title || r.title)}</td><td><a href="/candidate/${esc(c.id)}">${esc(c.name)}</a> ${partyTag(c.party)}</td></tr>`;
+        return `<tr><td>${esc(raceById[r.id] ? raceTitle(raceById[r.id]) : r.title)}</td><td><a href="/candidate/${esc(c.id)}">${esc(c.name)}</a> ${partyTag(c.party)}</td></tr>`;
       })
       .join('')}</tbody></table>
   </section>

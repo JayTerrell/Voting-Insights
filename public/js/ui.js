@@ -44,7 +44,7 @@ export function toast(msg) {
 }
 
 export function setTitle(t) {
-  document.title = t ? `${t} | Voting Insights` : 'Voting Insights: Collin County 2026 Candidate Guide and Issue Quiz';
+  document.title = t ? `${t} | Voting Insights` : 'Voting Insights: 2026 Texas Candidate Guide and Issue Quiz';
 }
 
 // Renders "[1]" style citation links pointing at a candidate's numbered sources.
@@ -77,6 +77,35 @@ export const GROUPS = [
   { id: 'state', label: 'Statewide Offices' },
   { id: 'legislative', label: 'Texas Legislature' },
   { id: 'state-judicial', label: 'State Courts' },
-  { id: 'county', label: 'Collin County Offices' },
-  { id: 'county-judicial', label: 'Collin County Courts' },
+  { id: 'county', label: 'County Offices' },
+  { id: 'county-judicial', label: 'County and District Courts' },
 ];
+
+// County-only offices get the county name so lists from several counties stay clear.
+export function raceTitle(race) {
+  if (!race.county || race.title.includes(race.county)) return race.title;
+  return `${race.title}, ${race.county} County`;
+}
+
+export function countyLabel(county) {
+  return /county$/i.test(county) || county === 'Outside Texas' ? county : `${county} County`;
+}
+
+// A county picker for the guide pages. Lists counties with a loaded ballot,
+// then every other Texas county (which shows statewide races only).
+export function countyPicker(guide, allCounties, selected, id = 'ballot-county') {
+  const loaded = Object.keys(guide.ballots || {}).sort();
+  const others = (allCounties || []).filter((c) => !loaded.includes(c) && c !== 'Outside Texas');
+  const opt = (c) => `<option value="${esc(c)}" ${c === selected ? 'selected' : ''}>${esc(countyLabel(c))}</option>`;
+  return `<label for="${id}">Show the ballot for</label>
+    <select id="${id}">
+      <optgroup label="Full ballot available">${loaded.map(opt).join('')}</optgroup>
+      ${others.length ? `<optgroup label="Statewide races only">${others.map(opt).join('')}</optgroup>` : ''}
+    </select>`;
+}
+
+export function ballotNote(guide, county) {
+  if (guide.ballots && guide.ballots[county]) return '';
+  const loaded = Object.keys(guide.ballots || {}).map(countyLabel).join(', ');
+  return `<div class="callout" style="margin-bottom:16px">We have not loaded the full ${esc(countyLabel(county))} ballot yet, so only statewide races are shown. Full ballots are available for: ${esc(loaded)}.</div>`;
+}

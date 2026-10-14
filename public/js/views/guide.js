@@ -1,22 +1,27 @@
-import { $, $$, esc, setTitle, partyTag, cites, sourceList, GROUPS } from '../ui.js';
-import { loadGuide } from '../api.js';
-import { positionLabel, BASIS_LABEL } from '../scoring.js';
+import { $, esc, setTitle, partyTag, cites, sourceList, GROUPS, raceTitle, countyPicker, ballotNote, countyLabel } from '../ui.js';
+import { loadGuide, loadFormOptions, ballotCounty } from '../api.js';
+import { positionLabel, BASIS_LABEL, racesForCounty } from '../scoring.js';
 
 // ---------- Race list ----------
 
 export async function renderGuide(view, _params, current) {
   setTitle('Candidate Guide');
-  const guide = await loadGuide();
+  const [guide, options] = await Promise.all([loadGuide(), loadFormOptions()]);
   if (!current()) return;
   const qs = new URLSearchParams(location.search);
+  let county = qs.get('county') || ballotCounty.get(guide);
   let group = qs.get('group') || 'all';
   let text = qs.get('q') || '';
   let contestedOnly = qs.get('contested') === '1';
 
   view.innerHTML = `
     <span class="eyebrow">Candidate Guide</span>
-    <h1>Every race on the Collin County ballot</h1>
+    <h1 id="guide-h">Every race on the ballot</h1>
     <p class="lede">Choose a race to compare its candidates side by side: what the office does, each candidate's priorities and promises, their record, and their documented positions, with links to every source.</p>
+    <div class="filters" style="grid-template-columns:1fr">
+      <div style="max-width:420px">${countyPicker(guide, options.counties, county)}</div>
+    </div>
+    <div id="ballot-note"></div>
     <div class="filters">
       <div>
         <label for="flt">Search by name or office</label>
@@ -33,19 +38,22 @@ export async function renderGuide(view, _params, current) {
   const out = $('#race-out', view);
   function draw() {
     const t = text.trim().toLowerCase();
+    const onBallot = racesForCounty(guide, county);
+    $('#guide-h', view).textContent = `Every race on the ${countyLabel(county)} ballot`;
+    $('#ballot-note', view).innerHTML = ballotNote(guide, county);
     const html = GROUPS.filter((g) => group === 'all' || g.id === group)
       .map((g) => {
-        const races = guide.races.filter(
+        const races = onBallot.filter(
           (r) =>
             r.group === g.id &&
             (!contestedOnly || r.candidates.length > 1) &&
-            (!t || r.title.toLowerCase().includes(t) || r.candidates.some((c) => c.name.toLowerCase().includes(t)))
+            (!t || raceTitle(r).toLowerCase().includes(t) || r.candidates.some((c) => c.name.toLowerCase().includes(t)))
         );
         if (!races.length) return '';
         return `<h2 class="group-title">${esc(g.label)}</h2><div class="race-list">${races
           .map(
             (r) => `<a class="race-item" href="/candidates/${esc(r.id)}">
-              <span class="office">${esc(r.title)}</span>
+              <span class="office">${esc(raceTitle(r))}</span>
               <span class="names">${r.candidates.map((c) => `<span>${esc(c.name)} ${partyTag(c.party)}</span>`).join('')}</span>
               <span class="go">${r.candidates.length > 1 ? 'Compare' : 'View profile'}</span></a>`
           )
@@ -54,12 +62,14 @@ export async function renderGuide(view, _params, current) {
       .join('');
     out.innerHTML = html || '<p class="muted">No races match your search.</p>';
     const p = new URLSearchParams();
+    p.set('county', county);
     if (group !== 'all') p.set('group', group);
     if (text) p.set('q', text);
     if (contestedOnly) p.set('contested', '1');
     history.replaceState({}, '', `/candidates${p.toString() ? '?' + p : ''}`);
   }
   $('#flt', view).addEventListener('input', (e) => { text = e.target.value; draw(); });
+  $('#ballot-county', view).addEventListener('change', (e) => { county = e.target.value; ballotCounty.set(county); draw(); });
   $('#lvl', view).addEventListener('change', (e) => { group = e.target.value; draw(); });
   $('#contested', view).addEventListener('change', (e) => { contestedOnly = e.target.checked; draw(); });
   draw();
@@ -120,7 +130,7 @@ export async function renderRace(view, [raceId], current) {
     view.innerHTML = '<h1>Race not found</h1><p><a href="/candidates">Back to all races</a></p>';
     return;
   }
-  setTitle(race.title);
+  setTitle(raceTitle(race));
   const cands = race.candidates;
   const officeQs = guide.questions.filter((q) => q.offices.includes(race.office_type));
   const extraQs = guide.questions.filter((q) => !q.offices.includes(race.office_type) && cands.some((c) => c.stances[q.id]));
@@ -142,7 +152,8 @@ export async function renderRace(view, [raceId], current) {
   view.innerHTML = `
     <p class="small"><a href="/candidates">All races</a></p>
     <span class="eyebrow">${cands.length > 1 ? 'Compare candidates' : 'Uncontested race'}</span>
-    <h1>${esc(race.title)}</h1>
+    <h1>${esc(raceTitle(race))}</h1>
+    ${race.statewide ? '<p class="small muted">On the ballot for every Texas voter.</p>' : race.county ? '' : '<p class="small muted">On the ballot only for voters who live in this district.</p>'}
     ${officeBox(race)}
 
     <div class="section-head"><h2>The candidates</h2><span class="small muted">Listed in ballot order</span></div>
@@ -204,8 +215,8 @@ export async function renderCandidate(view, [id], current) {
   const opponents = race.candidates.filter((o) => o.id !== c.id);
 
   view.innerHTML = `
-    <p class="small"><a href="/candidates">All races</a> / <a href="/candidates/${esc(race.id)}">${esc(race.title)}</a></p>
-    <span class="eyebrow">${esc(race.title)}</span>
+    <p class="small"><a href="/candidates">All races</a> / <a href="/candidates/${esc(race.id)}">${esc(raceTitle(race))}</a></p>
+    <span class="eyebrow">${esc(raceTitle(race))}</span>
     <h1 style="margin-bottom:6px">${esc(c.name)}</h1>
     <p>${partyTag(c.party)} ${c.incumbent ? '<span class="tag tag-navy">Incumbent</span>' : ''} ${
       opponents.length

@@ -3,8 +3,10 @@
   "id": "us-senate",
   "title": "U.S. Senator",
   "office_type": "us_senate",
+  "office_key": "us_senate",
   "group": "federal",
-  "ballot_order": 0,
+  "statewide": true,
+  "county": null,
   "candidates": [
    {
     "id": "ken-paxton",
@@ -27,8 +29,10 @@
   "id": "us-house-3",
   "title": "U.S. Representative, District 3",
   "office_type": "us_house",
+  "office_key": "us_house",
   "group": "federal",
-  "ballot_order": 1,
+  "statewide": false,
+  "county": null,
   "candidates": [
    {
     "id": "keith-self",
@@ -46,8 +50,10 @@
   "id": "us-house-4",
   "title": "U.S. Representative, District 4",
   "office_type": "us_house",
+  "office_key": "us_house",
   "group": "federal",
-  "ballot_order": 2,
+  "statewide": false,
+  "county": null,
   "candidates": [
    {
     "id": "pat-fallon",
@@ -65,8 +71,10 @@
   "id": "us-house-32",
   "title": "U.S. Representative, District 32",
   "office_type": "us_house",
+  "office_key": "us_house",
   "group": "federal",
-  "ballot_order": 3,
+  "statewide": false,
+  "county": null,
   "candidates": [
    {
     "id": "jace-yarbrough",
@@ -84,8 +92,10 @@
   "id": "governor",
   "title": "Governor",
   "office_type": "governor",
+  "office_key": "governor",
   "group": "state",
-  "ballot_order": 4,
+  "statewide": true,
+  "county": null,
   "candidates": [
    {
     "id": "greg-abbott",
@@ -108,8 +118,10 @@
   "id": "lt-governor",
   "title": "Lieutenant Governor",
   "office_type": "lt_governor",
+  "office_key": "lt_governor",
   "group": "state",
-  "ballot_order": 5,
+  "statewide": true,
+  "county": null,
   "candidates": [
    {
     "id": "dan-patrick",
@@ -137,8 +149,10 @@
   "id": "attorney-general",
   "title": "Attorney General",
   "office_type": "attorney_general",
+  "office_key": "attorney_general",
   "group": "state",
-  "ballot_order": 6,
+  "statewide": true,
+  "county": null,
   "candidates": [
    {
     "id": "mayes-middleton",
@@ -161,8 +175,10 @@
   "id": "comptroller",
   "title": "Comptroller of Public Accounts",
   "office_type": "comptroller",
+  "office_key": "comptroller",
   "group": "state",
-  "ballot_order": 7,
+  "statewide": true,
+  "county": null,
   "candidates": [
    {
     "id": "don-huffines",
@@ -190,8 +206,10 @@
   "id": "land-commissioner",
   "title": "Commissioner of the General Land Office",
   "office_type": "land_commissioner",
+  "office_key": "land_commissioner",
   "group": "state",
-  "ballot_order": 8,
+  "statewide": true,
+  "county": null,
   "candidates": [
    {
     "id": "dawn-buckingham",
@@ -214,8 +232,10 @@
   "id": "agriculture-commissioner",
   "title": "Commissioner of Agriculture",
   "office_type": "agriculture_commissioner",
+  "office_key": "agriculture_commissioner",
   "group": "state",
-  "ballot_order": 9,
+  "statewide": true,
+  "county": null,
   "candidates": [
    {
     "id": "nate-sheets",
@@ -238,8 +258,10 @@
   "id": "railroad-commissioner",
   "title": "Railroad Commissioner",
   "office_type": "railroad_commissioner",
+  "office_key": "railroad_commissioner",
   "group": "state",
-  "ballot_order": 10,
+  "statewide": true,
+  "county": null,
   "candidates": [
    {
     "id": "bo-french",
@@ -262,8 +284,10 @@
   "id": "tx-supreme-chief",
   "title": "Chief Justice, Supreme Court",
   "office_type": "judicial",
+  "office_key": "supreme_court",
   "group": "state-judicial",
-  "ballot_order": 11,
+  "statewide": true,
+  "county": null,
   "candidates": [
    {
     "id": "jimmy-blacklock",
@@ -281,8 +305,10 @@
   "id": "tx-supreme-2",
   "title": "Justice, Supreme Court, Place 2 (Unexpired Term)",
   "office_type": "judicial",
+  "office_key": "supreme_court",
   "group": "state-judicial",
-  "ballot_order": 12,
+  "statewide": true,
+  "county": null,
   "candidates": [
    {
     "id": "james-p-sullivan",
@@ -300,8 +326,10 @@
   "id": "tx-supreme-7",
   "title": "Justice, Supreme Court, Place 7",
   "office_type": "judicial",
+  "office_key": "supreme_court",
   "group": "state-judicial",
-  "ballot_order": 13,
+  "statewide": true,
+  "county": null,
   "candidates": [
    {
     "id": "kyle-hawkins",
@@ -319,8 +347,10 @@
   "id": "tx-supreme-8",
   "title": "Justice, Supreme Court, Place 8",
   "office_type": "judicial",
+  "office_key": "supreme_court",
   "group": "state-judicial",
-  "ballot_order": 14,
+  "statewide": true,
+  "county": null,
   "candidates": [
    {
     "id": "brett-busby",
@@ -338,8 +368,10 @@
   "id": "cca-3",
   "title": "Judge, Court of Criminal Appeals, Place 3",
   "office_type": "judicial",
+  "office_key": "cca",
   "group": "state-judicial",
-  "ballot_order": 15,
+  "statewide": true,
+  "county": null,
   "candidates": [
    {
     "id": "thomas-smith",
@@ -362,8 +394,10 @@
   "id": "cca-4",
   "title": "Judge, Court of Criminal Appeals, Place 4",
   "office_type": "judicial",
+  "office_key": "cca",
   "group": "state-judicial",
-  "ballot_order": 16,
+  "statewide": true,
+  "county": null,
   "candidates": [
    {
     "id": "kevin-patrick-yeary",
@@ -381,8 +415,10 @@
   "id": "cca-9",
   "title": "Judge, Court of Criminal Appeals, Place 9",
   "office_type": "judicial",
+  "office_key": "cca",
   "group": "state-judicial",
-  "ballot_order": 17,
+  "statewide": true,
+  "county": null,
   "candidates": [
    {
     "id": "john-messinger",
@@ -400,8 +436,10 @@
   "id": "state-senate-2",
   "title": "State Senator, District 2",
   "office_type": "state_senate",
+  "office_key": "state_senate",
   "group": "legislative",
-  "ballot_order": 18,
+  "statewide": false,
+  "county": null,
   "candidates": [
    {
     "id": "bob-hall",
@@ -419,8 +457,10 @@
   "id": "state-house-33",
   "title": "State Representative, District 33",
   "office_type": "state_house",
+  "office_key": "state_house",
   "group": "legislative",
-  "ballot_order": 19,
+  "statewide": false,
+  "county": null,
   "candidates": [
    {
     "id": "katrina-pierson",
@@ -438,8 +478,10 @@
   "id": "state-house-61",
   "title": "State Representative, District 61",
   "office_type": "state_house",
+  "office_key": "state_house",
   "group": "legislative",
-  "ballot_order": 20,
+  "statewide": false,
+  "county": null,
   "candidates": [
    {
     "id": "keresa-richardson",
@@ -462,8 +504,10 @@
   "id": "state-house-66",
   "title": "State Representative, District 66",
   "office_type": "state_house",
+  "office_key": "state_house",
   "group": "legislative",
-  "ballot_order": 21,
+  "statewide": false,
+  "county": null,
   "candidates": [
    {
     "id": "matt-shaheen",
@@ -481,8 +525,10 @@
   "id": "state-house-67",
   "title": "State Representative, District 67",
   "office_type": "state_house",
+  "office_key": "state_house",
   "group": "legislative",
-  "ballot_order": 22,
+  "statewide": false,
+  "county": null,
   "candidates": [
    {
     "id": "jeff-leach",
@@ -500,8 +546,10 @@
   "id": "state-house-70",
   "title": "State Representative, District 70",
   "office_type": "state_house",
+  "office_key": "state_house",
   "group": "legislative",
-  "ballot_order": 23,
+  "statewide": false,
+  "county": null,
   "candidates": [
    {
     "id": "george-flint",
@@ -519,8 +567,10 @@
   "id": "state-house-89",
   "title": "State Representative, District 89",
   "office_type": "state_house",
+  "office_key": "state_house",
   "group": "legislative",
-  "ballot_order": 24,
+  "statewide": false,
+  "county": null,
   "candidates": [
    {
     "id": "candy-noble",
@@ -538,8 +588,10 @@
   "id": "coa15-chief",
   "title": "Chief Justice, 15th Court of Appeals",
   "office_type": "judicial",
+  "office_key": "coa15",
   "group": "state-judicial",
-  "ballot_order": 25,
+  "statewide": true,
+  "county": null,
   "candidates": [
    {
     "id": "scott-brister",
@@ -557,8 +609,10 @@
   "id": "coa15-2",
   "title": "Justice, 15th Court of Appeals, Place 2",
   "office_type": "judicial",
+  "office_key": "coa15",
   "group": "state-judicial",
-  "ballot_order": 26,
+  "statewide": true,
+  "county": null,
   "candidates": [
    {
     "id": "scott-k-field",
@@ -576,8 +630,10 @@
   "id": "coa15-3",
   "title": "Justice, 15th Court of Appeals, Place 3",
   "office_type": "judicial",
+  "office_key": "coa15",
   "group": "state-judicial",
-  "ballot_order": 27,
+  "statewide": true,
+  "county": null,
   "candidates": [
    {
     "id": "april-farris",
@@ -595,8 +651,10 @@
   "id": "coa5-3",
   "title": "Justice, 5th Court of Appeals, Place 3",
   "office_type": "judicial",
+  "office_key": "coa5",
   "group": "state-judicial",
-  "ballot_order": 28,
+  "statewide": false,
+  "county": null,
   "candidates": [
    {
     "id": "matthew-kolodoski",
@@ -614,8 +672,10 @@
   "id": "coa5-6",
   "title": "Justice, 5th Court of Appeals, Place 6",
   "office_type": "judicial",
+  "office_key": "coa5",
   "group": "state-judicial",
-  "ballot_order": 29,
+  "statewide": false,
+  "county": null,
   "candidates": [
    {
     "id": "ben-smith",
@@ -633,8 +693,10 @@
   "id": "coa5-8",
   "title": "Justice, 5th Court of Appeals, Place 8",
   "office_type": "judicial",
+  "office_key": "coa5",
   "group": "state-judicial",
-  "ballot_order": 30,
+  "statewide": false,
+  "county": null,
   "candidates": [
    {
     "id": "ashley-wysocki",
@@ -652,8 +714,10 @@
   "id": "district-219",
   "title": "District Judge, 219th Judicial District",
   "office_type": "judicial",
+  "office_key": "district_court",
   "group": "county-judicial",
-  "ballot_order": 31,
+  "statewide": false,
+  "county": null,
   "candidates": [
    {
     "id": "jennifer-edgeworth",
@@ -666,8 +730,10 @@
   "id": "district-296",
   "title": "District Judge, 296th Judicial District",
   "office_type": "judicial",
+  "office_key": "district_court",
   "group": "county-judicial",
-  "ballot_order": 32,
+  "statewide": false,
+  "county": null,
   "candidates": [
    {
     "id": "piper-mccraw",
@@ -680,8 +746,10 @@
   "id": "district-366",
   "title": "District Judge, 366th Judicial District",
   "office_type": "judicial",
+  "office_key": "district_court",
   "group": "county-judicial",
-  "ballot_order": 33,
+  "statewide": false,
+  "county": null,
   "candidates": [
    {
     "id": "tom-nowak",
@@ -694,8 +762,10 @@
   "id": "district-417",
   "title": "District Judge, 417th Judicial District",
   "office_type": "judicial",
+  "office_key": "district_court",
   "group": "county-judicial",
-  "ballot_order": 34,
+  "statewide": false,
+  "county": null,
   "candidates": [
    {
     "id": "cyndi-mccrann-wheless",
@@ -708,8 +778,10 @@
   "id": "district-429",
   "title": "District Judge, 429th Judicial District",
   "office_type": "judicial",
+  "office_key": "district_court",
   "group": "county-judicial",
-  "ballot_order": 35,
+  "statewide": false,
+  "county": null,
   "candidates": [
    {
     "id": "jill-willis",
@@ -722,8 +794,10 @@
   "id": "district-471",
   "title": "District Judge, 471st Judicial District",
   "office_type": "judicial",
+  "office_key": "district_court",
   "group": "county-judicial",
-  "ballot_order": 36,
+  "statewide": false,
+  "county": null,
   "candidates": [
    {
     "id": "bryan-gantt",
@@ -736,8 +810,10 @@
   "id": "district-494",
   "title": "District Judge, 494th Judicial District",
   "office_type": "judicial",
+  "office_key": "district_court",
   "group": "county-judicial",
-  "ballot_order": 37,
+  "statewide": false,
+  "county": null,
   "candidates": [
    {
     "id": "kathryn-pruitt",
@@ -750,8 +826,10 @@
   "id": "collin-da",
   "title": "Criminal District Attorney, Collin County",
   "office_type": "district_attorney",
+  "office_key": "district_attorney",
   "group": "county",
-  "ballot_order": 38,
+  "statewide": false,
+  "county": "Collin",
   "candidates": [
    {
     "id": "greg-willis",
@@ -761,11 +839,13 @@
   ]
  },
  {
-  "id": "county-judge",
+  "id": "collin-county-judge",
   "title": "County Judge",
   "office_type": "county_judge",
+  "office_key": "county_judge",
   "group": "county",
-  "ballot_order": 39,
+  "statewide": false,
+  "county": "Collin",
   "candidates": [
    {
     "id": "chris-hill",
@@ -780,11 +860,13 @@
   ]
  },
  {
-  "id": "ccl-1",
+  "id": "collin-ccl-1",
   "title": "Judge, County Court at Law No. 1",
   "office_type": "judicial",
+  "office_key": "ccl",
   "group": "county-judicial",
-  "ballot_order": 40,
+  "statewide": false,
+  "county": "Collin",
   "candidates": [
    {
     "id": "corinne-mason",
@@ -794,11 +876,13 @@
   ]
  },
  {
-  "id": "ccl-2",
+  "id": "collin-ccl-2",
   "title": "Judge, County Court at Law No. 2",
   "office_type": "judicial",
+  "office_key": "ccl",
   "group": "county-judicial",
-  "ballot_order": 41,
+  "statewide": false,
+  "county": "Collin",
   "candidates": [
    {
     "id": "barnett-walker",
@@ -808,11 +892,13 @@
   ]
  },
  {
-  "id": "ccl-3",
+  "id": "collin-ccl-3",
   "title": "Judge, County Court at Law No. 3",
   "office_type": "judicial",
+  "office_key": "ccl",
   "group": "county-judicial",
-  "ballot_order": 42,
+  "statewide": false,
+  "county": "Collin",
   "candidates": [
    {
     "id": "lance-s-baxter",
@@ -822,11 +908,13 @@
   ]
  },
  {
-  "id": "ccl-4",
+  "id": "collin-ccl-4",
   "title": "Judge, County Court at Law No. 4",
   "office_type": "judicial",
+  "office_key": "ccl",
   "group": "county-judicial",
-  "ballot_order": 43,
+  "statewide": false,
+  "county": "Collin",
   "candidates": [
    {
     "id": "david-rippel",
@@ -836,11 +924,13 @@
   ]
  },
  {
-  "id": "ccl-5",
+  "id": "collin-ccl-5",
   "title": "Judge, County Court at Law No. 5",
   "office_type": "judicial",
+  "office_key": "ccl",
   "group": "county-judicial",
-  "ballot_order": 44,
+  "statewide": false,
+  "county": "Collin",
   "candidates": [
    {
     "id": "randy-johnson",
@@ -850,11 +940,13 @@
   ]
  },
  {
-  "id": "ccl-6",
+  "id": "collin-ccl-6",
   "title": "Judge, County Court at Law No. 6",
   "office_type": "judicial",
+  "office_key": "ccl",
   "group": "county-judicial",
-  "ballot_order": 45,
+  "statewide": false,
+  "county": "Collin",
   "candidates": [
    {
     "id": "jay-a-bender",
@@ -864,11 +956,13 @@
   ]
  },
  {
-  "id": "ccl-7",
+  "id": "collin-ccl-7",
   "title": "Judge, County Court at Law No. 7",
   "office_type": "judicial",
+  "office_key": "ccl",
   "group": "county-judicial",
-  "ballot_order": 46,
+  "statewide": false,
+  "county": "Collin",
   "candidates": [
    {
     "id": "david-waddill",
@@ -878,11 +972,13 @@
   ]
  },
  {
-  "id": "probate",
+  "id": "collin-probate",
   "title": "Judge, Probate Court",
   "office_type": "judicial",
+  "office_key": "probate",
   "group": "county-judicial",
-  "ballot_order": 47,
+  "statewide": false,
+  "county": "Collin",
   "candidates": [
    {
     "id": "sarah-r-duff",
@@ -892,11 +988,13 @@
   ]
  },
  {
-  "id": "district-clerk",
+  "id": "collin-district-clerk",
   "title": "District Clerk",
   "office_type": "clerk",
+  "office_key": "district_clerk",
   "group": "county",
-  "ballot_order": 48,
+  "statewide": false,
+  "county": "Collin",
   "candidates": [
    {
     "id": "mike-gould",
@@ -906,11 +1004,13 @@
   ]
  },
  {
-  "id": "county-clerk",
+  "id": "collin-county-clerk",
   "title": "County Clerk",
   "office_type": "clerk",
+  "office_key": "county_clerk",
   "group": "county",
-  "ballot_order": 49,
+  "statewide": false,
+  "county": "Collin",
   "candidates": [
    {
     "id": "stacey-kemp",
@@ -925,11 +1025,13 @@
   ]
  },
  {
-  "id": "commissioner-2",
+  "id": "collin-commissioner-2",
   "title": "County Commissioner, Precinct 2",
   "office_type": "county_commissioner",
+  "office_key": "county_commissioner",
   "group": "county",
-  "ballot_order": 50,
+  "statewide": false,
+  "county": "Collin",
   "candidates": [
    {
     "id": "michael-slaughter",
@@ -939,11 +1041,13 @@
   ]
  },
  {
-  "id": "commissioner-4",
+  "id": "collin-commissioner-4",
   "title": "County Commissioner, Precinct 4",
   "office_type": "county_commissioner",
+  "office_key": "county_commissioner",
   "group": "county",
-  "ballot_order": 51,
+  "statewide": false,
+  "county": "Collin",
   "candidates": [
    {
     "id": "shelby-williams",
@@ -958,11 +1062,13 @@
   ]
  },
  {
-  "id": "jp-1",
+  "id": "collin-jp-1",
   "title": "Justice of the Peace, Precinct 1",
   "office_type": "judicial",
+  "office_key": "jp",
   "group": "county-judicial",
-  "ballot_order": 52,
+  "statewide": false,
+  "county": "Collin",
   "candidates": [
    {
     "id": "paul-m-raleeh",
@@ -972,11 +1078,13 @@
   ]
  },
  {
-  "id": "jp-2",
+  "id": "collin-jp-2",
   "title": "Justice of the Peace, Precinct 2",
   "office_type": "judicial",
+  "office_key": "jp",
   "group": "county-judicial",
-  "ballot_order": 53,
+  "statewide": false,
+  "county": "Collin",
   "candidates": [
    {
     "id": "ellen-kinnebrew",
@@ -991,11 +1099,13 @@
   ]
  },
  {
-  "id": "jp-3",
+  "id": "collin-jp-3",
   "title": "Justice of the Peace, Precinct 3",
   "office_type": "judicial",
+  "office_key": "jp",
   "group": "county-judicial",
-  "ballot_order": 54,
+  "statewide": false,
+  "county": "Collin",
   "candidates": [
    {
     "id": "mike-missildine",
@@ -1010,11 +1120,13 @@
   ]
  },
  {
-  "id": "jp-4",
+  "id": "collin-jp-4",
   "title": "Justice of the Peace, Precinct 4",
   "office_type": "judicial",
+  "office_key": "jp",
   "group": "county-judicial",
-  "ballot_order": 55,
+  "statewide": false,
+  "county": "Collin",
   "candidates": [
    {
     "id": "stephen-kallas",

@@ -1,5 +1,5 @@
 import { $, $$, esc, setTitle, skeleton } from '../ui.js';
-import { api, loadGuide, loadFormOptions, session, progress, resultCache } from '../api.js';
+import { api, loadGuide, loadFormOptions, session, progress, resultCache, ballotCounty } from '../api.js';
 import { SCALE, IMPORTANCE } from '../scoring.js';
 import { navigate } from '../app.js';
 
@@ -34,7 +34,7 @@ export async function renderQuiz(view, _params, current) {
 function renderRegistration(view, guide, options) {
   const u = session.user || {};
   const countyOpts = options.counties
-    .map((c) => `<option ${c === (u.county || 'Collin') ? 'selected' : ''}>${esc(c)}</option>`)
+    .map((c) => `<option ${c === (u.county || ballotCounty.get(guide)) ? 'selected' : ''}>${esc(c)}</option>`)
     .join('');
   const ageOpts = options.age_ranges.map((a) => `<option ${a === u.age_range ? 'selected' : ''}>${esc(a)}</option>`).join('');
 
@@ -49,7 +49,8 @@ function renderRegistration(view, guide, options) {
         <div><label for="ln">Last name</label><input id="ln" name="last_name" type="text" autocomplete="family-name" maxlength="60" required value="${esc(u.last_name || '')}"></div>
         <div class="full"><label for="em">Email address</label><input id="em" name="email" type="email" autocomplete="email" maxlength="254" required value="${esc(u.email || '')}">
           <p class="form-note">One account per email address. If this email has been used before, we will send a code to confirm it is yours.</p></div>
-        <div><label for="co">County</label><select id="co" name="county" required>${countyOpts}</select></div>
+        <div><label for="co">County where you vote</label><select id="co" name="county" required>${countyOpts}</select>
+          <p class="form-note">Your results cover the races on this county's ballot.</p></div>
         <div><label for="ag">Age range</label><select id="ag" name="age_range" required><option value="">Choose one</option>${ageOpts}</select></div>
         <div class="full">
           <label class="check"><input type="checkbox" name="agree_terms" required> <span>I agree to the <a href="/terms" target="_blank">Terms of Use</a> and <a href="/privacy" target="_blank">Privacy Policy</a>.</span></label>

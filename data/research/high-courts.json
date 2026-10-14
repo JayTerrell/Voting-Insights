@@ -1,0 +1,2387 @@
+{
+  "candidates": [
+    {
+      "id": "jimmy-blacklock",
+      "race_id": "tx-supreme-chief",
+      "incumbent": true,
+      "current_role": "Chief Justice of the Supreme Court of Texas since January 2025; justice since 2018",
+      "background": "Blacklock was born in Houston and grew up in Missouri City. He holds a bachelor's degree from the University of Texas at Austin and a law degree from Yale Law School, and clerked for Judge Jerry Smith of the U.S. Court of Appeals for the Fifth Circuit. He worked in the Texas Attorney General's Office under Greg Abbott, later serving as deputy attorney general, and was Gov. Abbott's general counsel from 2015 to 2018. Abbott appointed him to the court in 2018 and named him chief justice in 2025.",
+      "website": "https://jimmyblacklock.com",
+      "priorities": [
+        {
+          "text": "Campaigns on the themes \"Keep Texas Strong. Keep Texans Free. Defend the Constitution.\"",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Describes the judge's role as a \"neutral arbiter of the law\" who applies the law \"fairly, equally, and according to its original meaning.\"",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "text": "As chief justice, asked the Legislature in 2025 to raise district judges' base pay by 30 percent, saying Texas ranked 48th of 50 states in district judge pay.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Proposed lowering the cost of legal services, including by allowing qualified non-lawyers to provide some basic legal services.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Said the State Bar of Texas must \"remain completely politically neutral.\"",
+          "sources": [
+            "s4",
+            "s10"
+          ]
+        }
+      ],
+      "promises": [],
+      "record": [
+        {
+          "text": "Wrote the 2026 majority opinion declining Gov. Abbott's request to remove state Rep. Gene Wu from office over the 2025 quorum break, writing that courts have recognized it is not their role to resolve disputes between the other two branches.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Wrote the 2022 opinion in In re Abbott that lifted a statewide injunction against state child-abuse investigations of parents of transgender youth while holding that the governor lacked authority to direct such investigations.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Wrote a 2024 concurrence in State v. Loe, in which the court upheld Texas' ban on gender-transition medical treatment for minors.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Wrote the 2023 majority opinion in Abbott v. Harris County holding that local officials could not impose COVID-19 orders more restrictive than the governor's.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Wrote a 2020 concurrence in In re Salon A La Mode questioning the constitutionality of some COVID-19 government orders.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Wrote a 2021 opinion holding that the Texas Constitution allows each legislative chamber to compel the attendance of absent members.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "In his 2025 State of the Judiciary address, asked the court's advisory committee to propose ending rotating (central) dockets and to study deferring merits briefing until after a petition for review is granted.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Joined Justice Kyle Hawkins' dissent, except as to one part, in State v. JRJ Pusok Holdings and joined Hawkins' concurrence in the judgment in River Creek Development Corp. v. Preston Hollow Capital (June 2026).",
+          "sources": [
+            "s8"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "In the State Bar of Texas 2026 judicial poll, a nonbinding attorney preference poll taken before the March primary, Blacklock received 1,678 votes, Maggie Ellis 1,259 and Cory Carlyle 894. The bar states the poll is not an endorsement.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Endorsed by Gov. Greg Abbott, Texas Alliance for Life, Texas Right to Life and the Texas Civil Justice League; Ballotpedia also lists Texas Values Action and True Texas Project.",
+          "sources": [
+            "s1",
+            "s11"
+          ]
+        },
+        {
+          "text": "Reported $783,574 cash on hand as of June 30, 2026; top donors included Texans for Lawsuit Reform PAC ($25,000) and Hunton Andrews Kurth PAC ($15,000).",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Before joining the court, he worked on litigation defending Texas abortion laws and challenging the Affordable Care Act, according to the Texas Tribune.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "In 2025 he told the State Bar of Texas to remain politically neutral; Bloomberg Law reported this followed bar disciplinary cases against Attorney General Ken Paxton and others over the 2020 election, which the defendants won.",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Won his 2024 re-election with 58.3 percent of the vote; The Dallas Morning News editorial board recommended him that year.",
+          "sources": [
+            "s3",
+            "s12"
+          ]
+        },
+        {
+          "text": "Unopposed in the March 2026 Republican primary.",
+          "sources": [
+            "s1"
+          ]
+        }
+      ],
+      "stances": {
+        "q_textualism": {
+          "position": 2,
+          "basis": "statement",
+          "summary": "Describes himself as an originalist and said in 2025 that the Constitution \"means the same thing yesterday, today, and tomorrow\" until the people change it.",
+          "sources": [
+            "s4",
+            "s1",
+            "s5"
+          ]
+        }
+      },
+      "issue_notes": [
+        {
+          "topic": "Bail",
+          "summary": "In 2025 he supported the governor's priority to let judges keep defendants accused of violent crimes in custody before trial, which required a constitutional amendment.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "topic": "Family law",
+          "summary": "Urged repeal of a Family Code provision allowing termination of parental rights for failing to complete a service plan, and said removing children should be a last resort.",
+          "sources": [
+            "s4"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "s1",
+          "title": "Texas Supreme Court 2026 election: Who is running and what to know",
+          "publisher": "The Texas Tribune (republished by KSAT)",
+          "url": "https://www.ksat.com/news/texas/2026/10/01/texas-supreme-court-2026-election-who-is-running-and-what-to-know/",
+          "date": "2026-10-01"
+        },
+        {
+          "id": "s2",
+          "title": "Texas Supreme Court primaries: Who is running and what to know",
+          "publisher": "The Texas Tribune",
+          "url": "https://www.texastribune.org/2026/02/03/2026-texas-supreme-court-primary-guide/",
+          "date": "2026-02-03"
+        },
+        {
+          "id": "s3",
+          "title": "Jimmy Blacklock",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Jimmy_Blacklock",
+          "date": null
+        },
+        {
+          "id": "s4",
+          "title": "Chief Justice Jimmy Blacklock Delivers 2025 State of the Judiciary Address",
+          "publisher": "Supreme Court of Texas",
+          "url": "https://www.txcourts.gov/supreme/news/chief-justice-jimmy-blacklock-delivers-2025-state-of-the-judiciary-address/",
+          "date": "2025-02-27"
+        },
+        {
+          "id": "s5",
+          "title": "Jimmy Blacklock: candidate profile, 2026 Texas general election",
+          "publisher": "Branch Politics",
+          "url": "https://branch.vote/races/2026-texas-general-election-tx-state-chief-justice-supreme-court-tx-state/candidates/jimmy-blacklock",
+          "date": "2026-07"
+        },
+        {
+          "id": "s6",
+          "title": "Jimmy Blacklock campaign website",
+          "publisher": "Jimmy Blacklock campaign",
+          "url": "https://jimmyblacklock.com",
+          "date": null
+        },
+        {
+          "id": "s7",
+          "title": "Texas Supreme Court rejects Abbott's request to remove Democratic Rep. Gene Wu from office over redistricting protest",
+          "publisher": "The Texas Tribune",
+          "url": "https://www.texastribune.org/2026/05/15/texas-supreme-court-gene-wu-greg-abbott-redistricting-map-quorum-break/",
+          "date": "2026-05-15"
+        },
+        {
+          "id": "s8",
+          "title": "Orders and Opinions, June 12, 2026",
+          "publisher": "Supreme Court of Texas",
+          "url": "https://txcourts.gov/supreme/orders-opinions/2026/june/june-12-2026/",
+          "date": "2026-06-12"
+        },
+        {
+          "id": "s9",
+          "title": "State Bar of Texas 2026 Judicial Poll Final Vote Summary",
+          "publisher": "State Bar of Texas",
+          "url": "https://www.texasbar.com/pollresults/",
+          "date": "2026-02-10"
+        },
+        {
+          "id": "s10",
+          "title": "Texas Chief Justice's Political Frustrations Preceded Bar Rebuke",
+          "publisher": "Bloomberg Law",
+          "url": "https://news.bloomberglaw.com/litigation/texas-chief-justices-political-frustrations-preceded-bar-rebuke",
+          "date": "2025-03-07"
+        },
+        {
+          "id": "s11",
+          "title": "Jimmy Blacklock",
+          "publisher": "Ballotpedia",
+          "url": "https://ballotpedia.org/Jimmy_Blacklock",
+          "date": null
+        },
+        {
+          "id": "s12",
+          "title": "We recommend in the race for Texas Supreme Court Place 2",
+          "publisher": "The Dallas Morning News",
+          "url": "https://www.dallasnews.com/opinion/we-recommend/2024/10/10/we-recommend-in-the-race-for-texas-supreme-court-place-2/",
+          "date": "2024-10-10"
+        }
+      ],
+      "research_gaps": "No 2026 candidate questionnaire responses (Ballotpedia, VOTE411 or Dallas Morning News) from Blacklock were found, and no stated position on judicial selection methods."
+    },
+    {
+      "id": "maggie-ellis",
+      "race_id": "tx-supreme-chief",
+      "incumbent": false,
+      "current_role": "Justice, Texas Third Court of Appeals (Austin) since January 2025",
+      "background": "Ellis lives in Georgetown. She holds an associate's degree from Austin Community College, a bachelor's degree from the University of Texas at Austin and a law degree from Baylor Law School. She has worked as a public school teacher, a Travis County assistant district attorney, an administrative law judge at the State Office of Administrative Hearings, and a private attorney in juvenile and family law, and is board certified in juvenile law. She was elected to the Third Court of Appeals in 2024 after an unsuccessful 2020 run for the 200th District Court.",
+      "website": "https://maggieforjustice.com",
+      "priorities": [
+        {
+          "text": "Campaigns on removing politics from the judiciary and expanding access to justice.",
+          "sources": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "text": "Says her guiding principle is \"you can't serve people you don't see.\"",
+          "sources": [
+            "s5",
+            "s4"
+          ]
+        },
+        {
+          "text": "Emphasizes efficiency, thorough preparation and responsible case management, and supports accessible and responsive appellate courts.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Says she prioritizes fairness, due process and equal treatment under the law.",
+          "sources": [
+            "s3",
+            "s4"
+          ]
+        },
+        {
+          "text": "Said she is running in part out of concern about what she sees as politicization of the Supreme Court, noting that Gov. Abbott appointed seven of its nine justices.",
+          "sources": [
+            "s6"
+          ]
+        }
+      ],
+      "promises": [],
+      "record": [],
+      "notes": [
+        {
+          "text": "Said she decided to run after the Supreme Court issued guidance that judges need not perform same-sex weddings, which she called \"an attack on our community and our Constitution.\"",
+          "sources": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "text": "Won the March 2026 Democratic primary over former Fifth Court of Appeals Justice Cory Carlyle with about 77 percent of the vote.",
+          "sources": [
+            "s8",
+            "s9"
+          ]
+        },
+        {
+          "text": "In the State Bar of Texas 2026 judicial poll, taken before the primary, Ellis received 1,259 votes, Jimmy Blacklock 1,678 and Cory Carlyle 894. The bar states the poll is not an endorsement.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Endorsed by the Texas AFL-CIO, Stonewall Democrats of Austin, The Caucus, Bexar County Young Democrats and other Democratic groups; Wikipedia and Ballotpedia list EMILYs List and the Houston Chronicle editorial board.",
+          "sources": [
+            "s1",
+            "s8",
+            "s4"
+          ]
+        },
+        {
+          "text": "The Dallas Morning News editorial board recommended Carlyle over Ellis in the Democratic primary, citing his longer appellate judicial experience.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Reported $53,034 cash on hand as of June 30, 2026, after raising $33,766 from January through June.",
+          "sources": [
+            "s1"
+          ]
+        }
+      ],
+      "stances": {},
+      "issue_notes": [],
+      "sources": [
+        {
+          "id": "s1",
+          "title": "Texas Supreme Court 2026 election: Who is running and what to know",
+          "publisher": "The Texas Tribune (republished by KSAT)",
+          "url": "https://www.ksat.com/news/texas/2026/10/01/texas-supreme-court-2026-election-who-is-running-and-what-to-know/",
+          "date": "2026-10-01"
+        },
+        {
+          "id": "s2",
+          "title": "Texas Supreme Court primaries: Who is running and what to know",
+          "publisher": "The Texas Tribune",
+          "url": "https://www.texastribune.org/2026/02/03/2026-texas-supreme-court-primary-guide/",
+          "date": "2026-02-03"
+        },
+        {
+          "id": "s3",
+          "title": "Maggie Ellis: candidate profile, 2026 Texas general election",
+          "publisher": "Branch Politics",
+          "url": "https://branch.vote/races/2026-texas-general-election-tx-state-chief-justice-supreme-court-tx-state/candidates/maggie-ellis",
+          "date": "2026-07"
+        },
+        {
+          "id": "s4",
+          "title": "Maggie Ellis",
+          "publisher": "Ballotpedia",
+          "url": "https://ballotpedia.org/Maggie_Ellis",
+          "date": null
+        },
+        {
+          "id": "s5",
+          "title": "Maggie Ellis campaign website",
+          "publisher": "Maggie Ellis campaign",
+          "url": "https://maggieforjustice.com",
+          "date": null
+        },
+        {
+          "id": "s6",
+          "title": "We recommend in the Democratic primary for Texas Supreme Court chief justice",
+          "publisher": "The Dallas Morning News",
+          "url": "https://www.dallasnews.com/opinion/we-recommend/2026/02/08/texas-supreme-court-chief-justice-democratic-primary/",
+          "date": "2026-02-08"
+        },
+        {
+          "id": "s7",
+          "title": "State Bar of Texas 2026 Judicial Poll Final Vote Summary",
+          "publisher": "State Bar of Texas",
+          "url": "https://www.texasbar.com/pollresults/",
+          "date": "2026-02-10"
+        },
+        {
+          "id": "s8",
+          "title": "2026 Texas Supreme Court election",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2026_Texas_Supreme_Court_election",
+          "date": null
+        },
+        {
+          "id": "s9",
+          "title": "Three Texas high court primaries decided; one goes to runoff",
+          "publisher": "The Texas Tribune",
+          "url": "https://www.texastribune.org/2026/03/03/texas-primary-supreme-court-criminal-appeals/",
+          "date": "2026-03-03"
+        }
+      ],
+      "research_gaps": "No published appellate opinions or notable rulings by Ellis were found in news coverage, and she has not completed Ballotpedia's 2026 survey; no stated view on textualism or judicial selection was found."
+    },
+    {
+      "id": "james-p-sullivan",
+      "race_id": "tx-supreme-2",
+      "incumbent": true,
+      "current_role": "Justice, Supreme Court of Texas, Place 2, since January 2025 (appointed)",
+      "background": "Sullivan was raised in Austin and graduated from Rice University and Harvard Law School, where he was an editor of the Harvard Law Review. He clerked for Judge Thomas B. Griffith of the U.S. Court of Appeals for the D.C. Circuit, served as an assistant solicitor general under then-Attorney General Greg Abbott, practiced as an appellate litigator and taught as an adjunct professor. He was Gov. Abbott's deputy general counsel and then general counsel before Abbott appointed him to the court in January 2025; it is his first judgeship.",
+      "website": "https://judgesully.com",
+      "priorities": [
+        {
+          "text": "Campaigns on \"bold, relentless, conservative judging.\"",
+          "sources": [
+            "s3",
+            "s1"
+          ]
+        },
+        {
+          "text": "Says he will \"run through a wall for the rule of law.\"",
+          "sources": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "text": "Says the court needs judges who \"won't back down when our freedoms are on the line.\"",
+          "sources": [
+            "s3"
+          ]
+        }
+      ],
+      "promises": [],
+      "record": [
+        {
+          "text": "Wrote a concurrence in the 2026 Gene Wu quorum-break case stating that if lawmakers broke quorum again, \"the next set of quorumbreakers had better be ready to pay us a visit.\"",
+          "sources": [
+            "s5",
+            "s8"
+          ]
+        },
+        {
+          "text": "Joined Justice Kyle Hawkins' dissent in State v. JRJ Pusok Holdings and joined Justice Busby's majority opinion in River Creek Development Corp. v. Preston Hollow Capital (June 2026).",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "His opinions are noted for frequent footnotes and references to fictional characters, including in In re State Farm Mutual Automobile Insurance Co. and American Midstream v. Rainbow Energy Marketing.",
+          "sources": [
+            "s4"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "In the State Bar of Texas 2026 judicial poll, taken before the primary, Sullivan received 1,508 votes and Chari Kelly 2,112. The bar states the poll is not an endorsement.",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Endorsed by Gov. Greg Abbott, Texas Alliance for Life and the Texas Civil Justice League.",
+          "sources": [
+            "s1",
+            "s9"
+          ]
+        },
+        {
+          "text": "Reported $590,381 cash on hand as of June 30, 2026; top donors included Texans for Lawsuit Reform PAC ($25,000) and Jackson Walker PAC ($15,000).",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "In 2012 a federal appeals judge criticized a rehearing petition he filed as \"disturbingly unprofessional,\" according to the Texas Tribune and The Dallas Morning News.",
+          "sources": [
+            "s2",
+            "s8"
+          ]
+        },
+        {
+          "text": "The Texas Tribune reported that he has sought a federal judgeship in Austin.",
+          "sources": [
+            "s2",
+            "s1"
+          ]
+        },
+        {
+          "text": "The Dallas Morning News editorial board recommended Chari Kelly in the general election, citing her longer judicial experience and criticizing his Wu concurrence and the 2012 petition.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Unopposed in the March 2026 Republican primary.",
+          "sources": [
+            "s1"
+          ]
+        }
+      ],
+      "stances": {},
+      "issue_notes": [],
+      "sources": [
+        {
+          "id": "s1",
+          "title": "Texas Supreme Court 2026 election: Who is running and what to know",
+          "publisher": "The Texas Tribune (republished by KSAT)",
+          "url": "https://www.ksat.com/news/texas/2026/10/01/texas-supreme-court-2026-election-who-is-running-and-what-to-know/",
+          "date": "2026-10-01"
+        },
+        {
+          "id": "s2",
+          "title": "Texas Supreme Court primaries: Who is running and what to know",
+          "publisher": "The Texas Tribune",
+          "url": "https://www.texastribune.org/2026/02/03/2026-texas-supreme-court-primary-guide/",
+          "date": "2026-02-03"
+        },
+        {
+          "id": "s3",
+          "title": "James P. Sullivan campaign website",
+          "publisher": "James P. Sullivan campaign",
+          "url": "https://judgesully.com",
+          "date": null
+        },
+        {
+          "id": "s4",
+          "title": "James P. Sullivan (judge)",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/James_P._Sullivan_(judge)",
+          "date": null
+        },
+        {
+          "id": "s5",
+          "title": "Texas Supreme Court rejects Abbott's request to remove Democratic Rep. Gene Wu from office over redistricting protest",
+          "publisher": "The Texas Tribune",
+          "url": "https://www.texastribune.org/2026/05/15/texas-supreme-court-gene-wu-greg-abbott-redistricting-map-quorum-break/",
+          "date": "2026-05-15"
+        },
+        {
+          "id": "s6",
+          "title": "Orders and Opinions, June 12, 2026",
+          "publisher": "Supreme Court of Texas",
+          "url": "https://txcourts.gov/supreme/orders-opinions/2026/june/june-12-2026/",
+          "date": "2026-06-12"
+        },
+        {
+          "id": "s7",
+          "title": "State Bar of Texas 2026 Judicial Poll Final Vote Summary",
+          "publisher": "State Bar of Texas",
+          "url": "https://www.texasbar.com/pollresults/",
+          "date": "2026-02-10"
+        },
+        {
+          "id": "s8",
+          "title": "We recommend in the race for Texas Supreme Court, Place 2",
+          "publisher": "The Dallas Morning News",
+          "url": "https://www.dallasnews.com/opinion/we-recommend/article/texas-supreme-court-place-2-election-22473801.php",
+          "date": "2026-10-13"
+        },
+        {
+          "id": "s9",
+          "title": "James Sullivan",
+          "publisher": "Ballotpedia",
+          "url": "https://ballotpedia.org/James_Sullivan_(Texas)",
+          "date": null
+        }
+      ],
+      "research_gaps": "Sullivan did not complete Ballotpedia's 2026 survey, and no detailed statement of interpretive method or court administration goals was found."
+    },
+    {
+      "id": "chari-kelly",
+      "race_id": "tx-supreme-2",
+      "incumbent": false,
+      "current_role": "Justice, Texas Third Court of Appeals (Austin), Place 3, since 2019",
+      "background": "Kelly lives in Austin. She earned a bachelor's degree from the University of Florida and a law degree from the University of Texas, then served in the U.S. Army from 2003 to 2007 as a Judge Advocate General's Corps captain and paratrooper. She was a research attorney at the Texas Court of Criminal Appeals, an assistant attorney general in the Medicaid fraud unit, and a felony prosecutor in Comal and Travis counties before joining the Third Court of Appeals. She is board certified in judicial administration and criminal law and teaches trial advocacy at the University of Texas School of Law.",
+      "website": "https://charikelly.com",
+      "priorities": [
+        {
+          "text": "Says Texans deserve a Supreme Court with judges who have \"real courtroom experience, appellate experience, independence, balance, and respect for the Constitution.\"",
+          "sources": [
+            "s1",
+            "s4"
+          ]
+        },
+        {
+          "text": "Campaigns on experience, citing eight years on the Third Court of Appeals and more than 800 authored opinions.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Campaigns on judicial independence, saying the law applies to everyone, including those in power.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Campaigns on public confidence in courts that apply the law consistently and put \"justice over politics.\"",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Says she is personally passionate about fair courts, access to justice, civil legal aid and public confidence in the judiciary.",
+          "sources": [
+            "s1"
+          ]
+        }
+      ],
+      "promises": [
+        {
+          "text": "Says she will bring the same independence, discipline and respect for the Constitution she showed on the Third Court of Appeals to the Supreme Court.",
+          "sources": [
+            "s1"
+          ]
+        }
+      ],
+      "record": [
+        {
+          "text": "Says she ruled on the Third Court of Appeals that the Texas attorney general was not above the law in a whistleblower case.",
+          "sources": [
+            "s1",
+            "s3"
+          ]
+        },
+        {
+          "text": "Says she ruled that the governor does not possess absolute authority under the Texas Disaster Act.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Has ruled on cases involving public health, environmental issues and criminal justice on the Third Court of Appeals since 2019.",
+          "sources": [
+            "s2"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "In the State Bar of Texas 2026 judicial poll, taken before the primary, Kelly received 2,112 votes and James P. Sullivan 1,508. Kelly says this was the highest total of any candidate in the ten contested statewide judicial races. The bar states the poll is not an endorsement.",
+          "sources": [
+            "s5",
+            "s1"
+          ]
+        },
+        {
+          "text": "Reports endorsements from the Houston Lawyers Association, Mexican American Bar Association of Houston, Hispanic Bar Association of Austin and Austin Black Lawyers Association, as well as EMILY's List and the Texas AFL-CIO.",
+          "sources": [
+            "s1",
+            "s6"
+          ]
+        },
+        {
+          "text": "The Dallas Morning News editorial board recommended Kelly for Place 2.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Former Austin Bar president; named Travis County prosecutor of the year by Mothers Against Drunk Driving in 2018.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Reported $105,425 cash on hand as of June 30, 2026, after raising $57,056 from January through June.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Unopposed in the March 2026 Democratic primary.",
+          "sources": [
+            "s6"
+          ]
+        }
+      ],
+      "stances": {},
+      "issue_notes": [],
+      "sources": [
+        {
+          "id": "s1",
+          "title": "Chari Kelly",
+          "publisher": "Ballotpedia",
+          "url": "https://ballotpedia.org/Chari_Kelly",
+          "date": null
+        },
+        {
+          "id": "s2",
+          "title": "Texas Supreme Court 2026 election: Who is running and what to know",
+          "publisher": "The Texas Tribune (republished by KSAT)",
+          "url": "https://www.ksat.com/news/texas/2026/10/01/texas-supreme-court-2026-election-who-is-running-and-what-to-know/",
+          "date": "2026-10-01"
+        },
+        {
+          "id": "s3",
+          "title": "Texas Supreme Court primaries: Who is running and what to know",
+          "publisher": "The Texas Tribune",
+          "url": "https://www.texastribune.org/2026/02/03/2026-texas-supreme-court-primary-guide/",
+          "date": "2026-02-03"
+        },
+        {
+          "id": "s4",
+          "title": "We recommend in the race for Texas Supreme Court, Place 2",
+          "publisher": "The Dallas Morning News",
+          "url": "https://www.dallasnews.com/opinion/we-recommend/article/texas-supreme-court-place-2-election-22473801.php",
+          "date": "2026-10-13"
+        },
+        {
+          "id": "s5",
+          "title": "State Bar of Texas 2026 Judicial Poll Final Vote Summary",
+          "publisher": "State Bar of Texas",
+          "url": "https://www.texasbar.com/pollresults/",
+          "date": "2026-02-10"
+        },
+        {
+          "id": "s6",
+          "title": "2026 Texas Supreme Court election",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2026_Texas_Supreme_Court_election",
+          "date": null
+        }
+      ],
+      "research_gaps": "Case names for the rulings Kelly cites were not independently verified, and she has not publicly addressed textualism or judicial selection methods in sources found."
+    },
+    {
+      "id": "kyle-hawkins",
+      "race_id": "tx-supreme-7",
+      "incumbent": true,
+      "current_role": "Justice, Supreme Court of Texas, Place 7, since October 2025 (appointed)",
+      "background": "Hawkins lives in Austin. He holds a bachelor's degree from Harvard College and a law degree from the University of Minnesota Law School, and clerked for Justice Samuel Alito of the U.S. Supreme Court and Judge Edith Jones of the Fifth Circuit. He was Texas solicitor general from 2018 to 2021, a partner at Gibson Dunn and Crutcher, Counselor to the U.S. Solicitor General, and chair of the Texas appellate practice at Lehotsky Keller Cohn. Gov. Abbott appointed him in October 2025 to succeed retiring Justice Jeff Boyd.",
+      "website": "https://justicekylehawkins.com",
+      "priorities": [
+        {
+          "text": "Says the court's work \"demands humility, diligence, and a commitment to applying the law as written.\"",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Cites respect for the U.S. and Texas constitutions and the rule of law as guiding his career.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Told Bloomberg Law his job is to \"uphold the rule of law by applying the law as written without fear or favor.\"",
+          "sources": [
+            "s10"
+          ]
+        }
+      ],
+      "promises": [],
+      "record": [
+        {
+          "text": "Wrote a dissent, joined by Justice Sullivan and in part by Chief Justice Blacklock, in State v. JRJ Pusok Holdings (June 2026).",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Wrote an opinion concurring in the judgment, joined by Chief Justice Blacklock, in River Creek Development Corp. v. Preston Hollow Capital (June 2026).",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "text": "As Texas solicitor general and in private practice, litigated against the Affordable Care Act and Planned Parenthood and defended Texas election laws; he has also testified to Congress on constitutional issues with the Voting Rights Act.",
+          "sources": [
+            "s3",
+            "s4",
+            "s7"
+          ]
+        },
+        {
+          "text": "Has argued five cases before the U.S. Supreme Court and nine before the Texas Supreme Court.",
+          "sources": [
+            "s2"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "In the State Bar of Texas 2026 judicial poll, taken before the primary, Kyle Hawkins received 1,203 votes, Kristen Hawkins 1,705 and Gordon Goodman 674. The bar states the poll is not an endorsement.",
+          "sources": [
+            "s9"
+          ]
+        },
+        {
+          "text": "Endorsed by Gov. Greg Abbott and the Texas Civil Justice League.",
+          "sources": [
+            "s3",
+            "s12"
+          ]
+        },
+        {
+          "text": "Reported $216,374 cash on hand as of June 30, 2026; top donors included Texans for Lawsuit Reform PAC ($25,000) and Bracewell PAC ($10,000).",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "KERA reported that he resigned as solicitor general shortly after not signing onto the 2020 lawsuit asking the U.S. Supreme Court to overturn the presidential election results; the attorney general's office gave no reason for the resignation.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Served about three months in 2025 on the U.S. Justice Department transition team for the Office of the Solicitor General.",
+          "sources": [
+            "s5",
+            "s3"
+          ]
+        },
+        {
+          "text": "Weeks before his appointment he argued before the Texas Supreme Court as an advocate in a case over the taxation of nicotine pouches.",
+          "sources": [
+            "s11"
+          ]
+        },
+        {
+          "text": "Did not complete The Dallas Morning News Voter Guide or interview; the editorial board recommended Kristen Hawkins.",
+          "sources": [
+            "s10"
+          ]
+        },
+        {
+          "text": "Unopposed in the March 2026 Republican primary.",
+          "sources": [
+            "s3"
+          ]
+        }
+      ],
+      "stances": {
+        "q_textualism": {
+          "position": 1,
+          "basis": "statement",
+          "summary": "Says judges should apply \"the law as written\" without fear or favor, though he has not detailed a broader interpretive theory in sources found.",
+          "sources": [
+            "s6",
+            "s10"
+          ]
+        }
+      },
+      "issue_notes": [],
+      "sources": [
+        {
+          "id": "s2",
+          "title": "Justice Kyle D. Hawkins",
+          "publisher": "Supreme Court of Texas",
+          "url": "https://txcourts.gov/supreme/about-the-court/justices/justice-kyle-d-hawkins/",
+          "date": null
+        },
+        {
+          "id": "s3",
+          "title": "Texas Supreme Court 2026 election: Who is running and what to know",
+          "publisher": "The Texas Tribune (republished by KSAT)",
+          "url": "https://www.ksat.com/news/texas/2026/10/01/texas-supreme-court-2026-election-who-is-running-and-what-to-know/",
+          "date": "2026-10-01"
+        },
+        {
+          "id": "s4",
+          "title": "Texas Supreme Court primaries: Who is running and what to know",
+          "publisher": "The Texas Tribune",
+          "url": "https://www.texastribune.org/2026/02/03/2026-texas-supreme-court-primary-guide/",
+          "date": "2026-02-03"
+        },
+        {
+          "id": "s5",
+          "title": "Former Texas solicitor general, Trump transition team lawyer named state Supreme Court justice",
+          "publisher": "KERA (republished by HPPR)",
+          "url": "https://www.hppr.org/hppr-news/2025-10-27/former-texas-solicitor-general-trump-transition-team-lawyer-named-state-supreme-court-justice",
+          "date": "2025-10-27"
+        },
+        {
+          "id": "s6",
+          "title": "Kyle Hawkins campaign website",
+          "publisher": "Kyle Hawkins campaign",
+          "url": "https://justicekylehawkins.com",
+          "date": null
+        },
+        {
+          "id": "s7",
+          "title": "Kyle Hawkins: candidate profile, 2026 Texas general election",
+          "publisher": "Branch Politics",
+          "url": "https://branch.vote/races/2026-texas-general-election-tx-state-state-supreme-court-justice-tx-state-post-7/candidates/kyle-hawkins",
+          "date": "2026-07"
+        },
+        {
+          "id": "s8",
+          "title": "Orders and Opinions, June 12, 2026",
+          "publisher": "Supreme Court of Texas",
+          "url": "https://txcourts.gov/supreme/orders-opinions/2026/june/june-12-2026/",
+          "date": "2026-06-12"
+        },
+        {
+          "id": "s9",
+          "title": "State Bar of Texas 2026 Judicial Poll Final Vote Summary",
+          "publisher": "State Bar of Texas",
+          "url": "https://www.texasbar.com/pollresults/",
+          "date": "2026-02-10"
+        },
+        {
+          "id": "s10",
+          "title": "Texas Supreme Court Place 7, candidate recommendation",
+          "publisher": "The Dallas Morning News",
+          "url": "https://www.dallasnews.com/opinion/we-recommend/article/texas-supreme-court-hawkins-22470095.php",
+          "date": "2026-10-12"
+        },
+        {
+          "id": "s11",
+          "title": "Hot-button issues shaped Kyle Hawkins' advocacy",
+          "publisher": "The Texas Lawbook",
+          "url": "https://texaslawbook.net/hot-button-issues-shaped-kyle-hawkins-advocacy/",
+          "date": "2026-02-05"
+        },
+        {
+          "id": "s12",
+          "title": "Kyle Hawkins",
+          "publisher": "Ballotpedia",
+          "url": "https://ballotpedia.org/Kyle_Hawkins",
+          "date": null
+        }
+      ],
+      "research_gaps": "Few opinions have been issued since his October 2025 appointment, and he did not complete the Dallas Morning News or Ballotpedia questionnaires; no stated view on judicial selection was found."
+    },
+    {
+      "id": "kristen-hawkins",
+      "race_id": "tx-supreme-7",
+      "incumbent": false,
+      "current_role": "Judge, 11th District Court (Harris County) since 2017",
+      "background": "Hawkins grew up in Houston and attended Alief Hastings High School. She holds a bachelor's degree in government and Spanish from the University of Texas at Austin and a law degree with honors from South Texas College of Law Houston. Before taking the bench she practiced civil litigation, including Social Security disability claims, and served as a Harris County tax master. She was elected to the 11th District Court in 2016 and re-elected in 2020.",
+      "website": "https://judgehawkins.com",
+      "priorities": [
+        {
+          "text": "Campaigns on her trial-court experience, arguing the Supreme Court would benefit from the perspective of district judges who implement its rulings.",
+          "sources": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "text": "Says the Supreme Court should hear cases that are \"important to all Texans and provide consistency and predictability in the law.\"",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Says appellate courts should be cautious about overturning jury verdicts.",
+          "sources": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "text": "Says \"civility, professionalism, and respect are fundamental values\" in the legal profession.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Said she does not want anyone to come into court thinking she will rule a certain way because she is a Democrat.",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
+      "promises": [
+        {
+          "text": "Says she will \"work to preserve every Texan's constitutionally embedded right to a trial by jury and respect for jury verdicts.\"",
+          "sources": [
+            "s3"
+          ]
+        }
+      ],
+      "record": [
+        {
+          "text": "Was appointed to oversee two multidistrict litigation proceedings, including the lawsuits arising from the 2021 Astroworld festival.",
+          "sources": [
+            "s2",
+            "s1"
+          ]
+        },
+        {
+          "text": "Led the 11th District Court's operations during the COVID-19 pandemic.",
+          "sources": [
+            "s2",
+            "s1"
+          ]
+        },
+        {
+          "text": "Has presided over more than 200 trials since taking the bench in 2017, according to The Dallas Morning News.",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "In the State Bar of Texas 2026 judicial poll, taken before the primary, Kristen Hawkins received 1,705 votes, Kyle Hawkins 1,203 and Gordon Goodman 674. The bar states the poll is not an endorsement.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "The Dallas Morning News reported she has been favorably rated in the Houston Bar Association poll and is board certified in judicial administration.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "text": "The Dallas Morning News editorial board recommended her for Place 7; Wikipedia and Ballotpedia also list the Houston Chronicle, Austin Chronicle and San Antonio Express-News editorial boards and EMILYs List.",
+          "sources": [
+            "s5",
+            "s7",
+            "s9"
+          ]
+        },
+        {
+          "text": "Endorsed by the Texas AFL-CIO, Bexar County Young Democrats, Liberal Austin Democrats and The Caucus.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Reported $301,668 cash on hand as of June 30, 2026; top donors included The West Law Firm ($35,000), and the Texas Tribune reported her donors are largely plaintiffs' firms and attorneys.",
+          "sources": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "text": "Won the March 2026 Democratic primary over former First Court of Appeals Justice Gordon Goodman with about 76 percent of the vote.",
+          "sources": [
+            "s7",
+            "s8"
+          ]
+        }
+      ],
+      "stances": {
+        "q_textualism": {
+          "position": 0,
+          "basis": "reported",
+          "summary": "Told The Dallas Morning News her approach starts with reading and applying the law as written, but that there is room to consider how a law applies in modern circumstances compared with when it was written.",
+          "sources": [
+            "s5"
+          ]
+        }
+      },
+      "issue_notes": [
+        {
+          "topic": "Jury trials",
+          "summary": "Says she strongly supports the right to a jury trial and that appellate courts should be cautious about overturning jury verdicts.",
+          "sources": [
+            "s1",
+            "s3"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "s1",
+          "title": "Texas Supreme Court 2026 election: Who is running and what to know",
+          "publisher": "The Texas Tribune (republished by KSAT)",
+          "url": "https://www.ksat.com/news/texas/2026/10/01/texas-supreme-court-2026-election-who-is-running-and-what-to-know/",
+          "date": "2026-10-01"
+        },
+        {
+          "id": "s2",
+          "title": "Texas Supreme Court primaries: Who is running and what to know",
+          "publisher": "The Texas Tribune",
+          "url": "https://www.texastribune.org/2026/02/03/2026-texas-supreme-court-primary-guide/",
+          "date": "2026-02-03"
+        },
+        {
+          "id": "s3",
+          "title": "Kristen Hawkins: candidate profile, 2026 Texas general election",
+          "publisher": "Branch Politics",
+          "url": "https://branch.vote/races/2026-texas-general-election-tx-state-state-supreme-court-justice-tx-state-post-7/candidates/kristen-hawkins-1",
+          "date": "2026-07"
+        },
+        {
+          "id": "s5",
+          "title": "Texas Supreme Court Place 7, candidate recommendation",
+          "publisher": "The Dallas Morning News",
+          "url": "https://www.dallasnews.com/opinion/we-recommend/article/texas-supreme-court-hawkins-22470095.php",
+          "date": "2026-10-12"
+        },
+        {
+          "id": "s6",
+          "title": "State Bar of Texas 2026 Judicial Poll Final Vote Summary",
+          "publisher": "State Bar of Texas",
+          "url": "https://www.texasbar.com/pollresults/",
+          "date": "2026-02-10"
+        },
+        {
+          "id": "s7",
+          "title": "2026 Texas Supreme Court election",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2026_Texas_Supreme_Court_election",
+          "date": null
+        },
+        {
+          "id": "s8",
+          "title": "Three Texas high court primaries decided; one goes to runoff",
+          "publisher": "The Texas Tribune",
+          "url": "https://www.texastribune.org/2026/03/03/texas-primary-supreme-court-criminal-appeals/",
+          "date": "2026-03-03"
+        },
+        {
+          "id": "s9",
+          "title": "Kristen Hawkins",
+          "publisher": "Ballotpedia",
+          "url": "https://ballotpedia.org/Kristen_Hawkins",
+          "date": null
+        }
+      ],
+      "research_gaps": "Specific Houston Bar poll percentages and individual rulings by Hawkins were not found, and she has not stated a view on judicial selection methods."
+    },
+    {
+      "id": "brett-busby",
+      "race_id": "tx-supreme-8",
+      "incumbent": true,
+      "current_role": "Justice, Supreme Court of Texas, Place 8, since 2019",
+      "background": "Busby lives in Austin. He graduated from Duke University and Columbia Law School and clerked for U.S. Supreme Court Justices Byron White and John Paul Stevens and for Judge Gerald Tjoflat of the Eleventh Circuit. He was an appellate litigator and partner at Bracewell in Houston and served on Houston's Fourteenth Court of Appeals from 2012 to 2018. Gov. Abbott appointed him to the Supreme Court in 2019; the Senate confirmed him unanimously and he won a full term in 2020.",
+      "website": "https://brettbusby.com",
+      "priorities": [
+        {
+          "text": "Describes his approach as \"applying our laws faithfully to all who come before the Court, never rewriting those laws from the bench.\"",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Says \"every decision must be grounded in the law, not politics, pressure, or personal preference.\"",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Campaigns on expanding affordable legal help, saying \"Access to justice must be more than a principle; it must be a reality.\"",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Supports civic education through the Teach Texas program, which places lawyers and judges in seventh-grade classrooms.",
+          "sources": [
+            "s2",
+            "s1"
+          ]
+        },
+        {
+          "text": "Says he wants to improve the court's efficiency.",
+          "sources": [
+            "s6"
+          ]
+        }
+      ],
+      "promises": [],
+      "record": [
+        {
+          "text": "As the court's liaison to the Texas Access to Justice Commission, initiated the review that led the court in 2024 to give preliminary approval to rules licensing legal paraprofessionals and court-access assistants to give limited legal help.",
+          "sources": [
+            "s9",
+            "s2"
+          ]
+        },
+        {
+          "text": "Wrote the majority opinion in River Creek Development Corp. v. Preston Hollow Capital and joined the majority in State v. JRJ Pusok Holdings (June 2026).",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Wrote more majority opinions, and more unsigned opinions for the court, than any other justice in fiscal year 2025, according to The Dallas Morning News.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Cited the court's 2026 majority ruling rejecting Gov. Abbott's request to remove Rep. Gene Wu as an example of the court ruling against the state's top elected officials.",
+          "sources": [
+            "s6"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "In the State Bar of Texas 2026 judicial poll, taken before the primary, Busby received 1,913 votes and Gisela D. Triana 1,989. The bar states the poll is not an endorsement.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Named 2018 Appellate Judge of the Year by the Texas Association of Civil Trial and Appellate Specialists and received the 2022 Judicial Civic Education Award.",
+          "sources": [
+            "s1",
+            "s2"
+          ]
+        },
+        {
+          "text": "Endorsed by Gov. Greg Abbott, the Texas Civil Justice League and Texas Alliance for Life.",
+          "sources": [
+            "s3",
+            "s10"
+          ]
+        },
+        {
+          "text": "The Dallas Morning News editorial board recommended Busby, while describing both candidates as well qualified.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Before joining the bench he worked with the Federalist Society, Alliance Defending Freedom and First Liberty, according to the Texas Tribune.",
+          "sources": [
+            "s4",
+            "s3"
+          ]
+        },
+        {
+          "text": "Reported $1.3 million cash on hand as of June 30, 2026; top donors included Vinson and Elkins Texas PAC ($25,000) and Texans for Lawsuit Reform PAC ($25,000).",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Unopposed in the March 2026 Republican primary.",
+          "sources": [
+            "s3"
+          ]
+        }
+      ],
+      "stances": {
+        "q_textualism": {
+          "position": 1,
+          "basis": "statement",
+          "summary": "Says he applies the law as written and respects its plain meaning because that produces more consistent, predictable rulings, and opposes rewriting laws from the bench.",
+          "sources": [
+            "s2",
+            "s6",
+            "s5"
+          ]
+        }
+      },
+      "issue_notes": [
+        {
+          "topic": "Access to justice",
+          "summary": "Supports expanding legal aid, plain-language court forms and reducing regulations that raise the cost of legal services; called the legal profession's limited supply a factor in unmet civil legal needs.",
+          "sources": [
+            "s2",
+            "s5",
+            "s9"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "s1",
+          "title": "Justice Brett Busby",
+          "publisher": "Supreme Court of Texas",
+          "url": "https://www.txcourts.gov/supreme/about-the-court/justices/justice-brett-busby/",
+          "date": null
+        },
+        {
+          "id": "s2",
+          "title": "Brett Busby campaign website",
+          "publisher": "Brett Busby campaign",
+          "url": "https://brettbusby.com",
+          "date": null
+        },
+        {
+          "id": "s3",
+          "title": "Texas Supreme Court 2026 election: Who is running and what to know",
+          "publisher": "The Texas Tribune (republished by KSAT)",
+          "url": "https://www.ksat.com/news/texas/2026/10/01/texas-supreme-court-2026-election-who-is-running-and-what-to-know/",
+          "date": "2026-10-01"
+        },
+        {
+          "id": "s4",
+          "title": "Texas Supreme Court primaries: Who is running and what to know",
+          "publisher": "The Texas Tribune",
+          "url": "https://www.texastribune.org/2026/02/03/2026-texas-supreme-court-primary-guide/",
+          "date": "2026-02-03"
+        },
+        {
+          "id": "s5",
+          "title": "Brett Busby: candidate profile, 2026 Texas general election",
+          "publisher": "Branch Politics",
+          "url": "https://branch.vote/races/2026-texas-general-election-tx-state-state-supreme-court-justice-tx-state-post-8/candidates/brett-busby",
+          "date": "2026-07"
+        },
+        {
+          "id": "s6",
+          "title": "Texas Supreme Court Place 8, candidate recommendation",
+          "publisher": "The Dallas Morning News",
+          "url": "https://www.dallasnews.com/opinion/we-recommend/article/texas-supreme-court-place-8-busby-triana-22470332.php",
+          "date": "2026-10-11"
+        },
+        {
+          "id": "s7",
+          "title": "Orders and Opinions, June 12, 2026",
+          "publisher": "Supreme Court of Texas",
+          "url": "https://txcourts.gov/supreme/orders-opinions/2026/june/june-12-2026/",
+          "date": "2026-06-12"
+        },
+        {
+          "id": "s8",
+          "title": "State Bar of Texas 2026 Judicial Poll Final Vote Summary",
+          "publisher": "State Bar of Texas",
+          "url": "https://www.texasbar.com/pollresults/",
+          "date": "2026-02-10"
+        },
+        {
+          "id": "s9",
+          "title": "Texas Supreme Court Calls on Nonlawyers to Shrink Justice Gap",
+          "publisher": "Legal Services Corporation",
+          "url": "https://www.lsc.gov/news/texas-supreme-court-calls-nonlawyers-shrink-justice-gap",
+          "date": "2024-08-06"
+        },
+        {
+          "id": "s10",
+          "title": "Brett Busby",
+          "publisher": "Ballotpedia",
+          "url": "https://ballotpedia.org/Brett_Busby",
+          "date": null
+        }
+      ],
+      "research_gaps": "A full list of Busby's notable signed opinions was not compiled from primary sources, and no stated position on judicial selection methods was found."
+    },
+    {
+      "id": "gisela-d-triana",
+      "race_id": "tx-supreme-8",
+      "incumbent": false,
+      "current_role": "Justice, Texas Third Court of Appeals (Austin), Place 6, since 2019",
+      "background": "Triana is from San Antonio and earned a bachelor's degree from the University of Texas at San Antonio and a law degree from the University of Texas. She worked as a staff attorney in the Secretary of State's Elections Division, as a prosecutor and criminal trial division director in the Travis County Attorney's Office, and in private practice. She served as a justice of the peace, a county court at law judge and, from 2005, judge of the 200th District Court before her election to the Third Court of Appeals. She was the Democratic nominee for this seat in 2020.",
+      "website": "https://justicetriana.com",
+      "priorities": [
+        {
+          "text": "Says she has served at every level of the Texas judiciary and has seen how the system \"can be improved at every level.\"",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "In her 2019 announcement, called for judges who \"make independent decisions based on the rule of law\" and a judiciary that \"guarantees a level playing field.\"",
+          "sources": [
+            "s7"
+          ]
+        },
+        {
+          "text": "Said in 2019 that the court needs \"more balance\" and diversity of thought.",
+          "sources": [
+            "s7"
+          ]
+        }
+      ],
+      "promises": [],
+      "record": [
+        {
+          "text": "Has served on the Third Court of Appeals since 2019 after presiding over the 200th District Court from 2005, where she handled hundreds of complex civil cases.",
+          "sources": [
+            "s2",
+            "s7"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "In the State Bar of Texas 2026 judicial poll, taken before the primary, Triana received 1,989 votes and Brett Busby 1,913. The bar states the poll is not an endorsement.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "text": "In her 2020 race for the same seat, she said the all-Republican court was \"result-oriented and beholden to special interests\" and criticized rulings that allowed evictions and debt collections to resume during COVID-19.",
+          "sources": [
+            "s2",
+            "s3"
+          ]
+        },
+        {
+          "text": "The Dallas Morning News editorial board recommended Busby but described Triana as well qualified, \"analytical, well-prepared and knowledgeable.\"",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Endorsed by the Texas AFL-CIO, Liberal Austin Democrats, University Democrats and Panhandle Democrats.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Reported $128,786 cash on hand as of June 30, 2026, after raising $9,425 from January through June; most funds carried over from a previous campaign.",
+          "sources": [
+            "s2",
+            "s3"
+          ]
+        },
+        {
+          "text": "Unopposed in the March 2026 Democratic primary.",
+          "sources": [
+            "s6"
+          ]
+        }
+      ],
+      "stances": {},
+      "issue_notes": [],
+      "sources": [
+        {
+          "id": "s2",
+          "title": "Texas Supreme Court 2026 election: Who is running and what to know",
+          "publisher": "The Texas Tribune (republished by KSAT)",
+          "url": "https://www.ksat.com/news/texas/2026/10/01/texas-supreme-court-2026-election-who-is-running-and-what-to-know/",
+          "date": "2026-10-01"
+        },
+        {
+          "id": "s3",
+          "title": "Texas Supreme Court primaries: Who is running and what to know",
+          "publisher": "The Texas Tribune",
+          "url": "https://www.texastribune.org/2026/02/03/2026-texas-supreme-court-primary-guide/",
+          "date": "2026-02-03"
+        },
+        {
+          "id": "s4",
+          "title": "Texas Supreme Court Place 8, candidate recommendation",
+          "publisher": "The Dallas Morning News",
+          "url": "https://www.dallasnews.com/opinion/we-recommend/article/texas-supreme-court-place-8-busby-triana-22470332.php",
+          "date": "2026-10-11"
+        },
+        {
+          "id": "s5",
+          "title": "State Bar of Texas 2026 Judicial Poll Final Vote Summary",
+          "publisher": "State Bar of Texas",
+          "url": "https://www.texasbar.com/pollresults/",
+          "date": "2026-02-10"
+        },
+        {
+          "id": "s6",
+          "title": "2026 Texas Supreme Court election",
+          "publisher": "Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/2026_Texas_Supreme_Court_election",
+          "date": null
+        },
+        {
+          "id": "s7",
+          "title": "Justice Gisela Triana announces run for Texas Supreme Court",
+          "publisher": "Orange Leader",
+          "url": "https://orangeleader.com/?p=49812",
+          "date": "2019-08-04"
+        }
+      ],
+      "research_gaps": "Her campaign website and Ballotpedia list no 2026 statement of judicial philosophy or court administration goals, and specific appellate rulings by Triana were not found in coverage."
+    },
+    {
+      "id": "thomas-smith",
+      "race_id": "cca-3",
+      "incumbent": false,
+      "current_role": "Special assistant attorney general for criminal justice, Texas Attorney General's Office",
+      "background": "Smith grew up in southern Ohio and lives in the Dallas area. He holds a bachelor's degree from the University of Akron, a law degree from The Ohio State University and a master's in public affairs from the University of Texas. He clerked for Ohio Supreme Court Chief Justice Thomas J. Moyer, practiced at Jones Day, served as counsel to Ken Paxton when Paxton was a state senator, and now works in the Texas Attorney General's Office. This is his first run for public office.",
+      "website": "https://smithfortexas.org",
+      "priorities": [
+        {
+          "text": "Says he is running to keep \"women and children safe in an increasingly dangerous culture.\"",
+          "sources": [
+            "s2",
+            "s3"
+          ]
+        },
+        {
+          "text": "Says he will restore \"a conservative, limited judicial philosophy\" to cases before the court and opposes \"destructive judicial activism.\"",
+          "sources": [
+            "s4",
+            "s5",
+            "s1"
+          ]
+        },
+        {
+          "text": "Says voters expect judges not to make law from the bench.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Lists keeping Texas safe, justice for crime victims, protecting children from human trafficking and religious liberty among his campaign themes.",
+          "sources": [
+            "s4"
+          ]
+        }
+      ],
+      "promises": [],
+      "record": [
+        {
+          "text": "Says he was one of two lawyers who worked with the Legislature to enact the Texas ban on sanctuary cities and helped write multiple human trafficking bills.",
+          "sources": [
+            "s4",
+            "s2"
+          ]
+        },
+        {
+          "text": "Says he served as a lawyer on President Trump's Election Integrity Team in Arizona in 2020.",
+          "sources": [
+            "s4"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Won the May 26, 2026 Republican primary runoff over Court of Criminal Appeals staff attorney Alison Fox after no candidate won a majority in the four-way March primary.",
+          "sources": [
+            "s2",
+            "s7"
+          ]
+        },
+        {
+          "text": "Endorsed by Ken Paxton, state Sen. Angela Paxton and other Republican lawmakers, the Combined Law Enforcement Associations of Texas and Texas Values; also endorsed by True Texas Project.",
+          "sources": [
+            "s2",
+            "s3",
+            "s5"
+          ]
+        },
+        {
+          "text": "In the State Bar of Texas 2026 judicial poll, taken before the primary, Smith received 391 votes among six Place 3 candidates; Okey Anyiam led with 1,034 and Mark Ash received 337. The bar states the poll is not an endorsement.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "The Dallas Morning News recommended Fox in the primary and runoff, writing that Smith's only direct criminal law experience was years ago in another state.",
+          "sources": [
+            "s8",
+            "s9"
+          ]
+        },
+        {
+          "text": "Reported $12,108.61 cash on hand and $150,796.30 raised from January 1 to September 24, 2026.",
+          "sources": [
+            "s2"
+          ]
+        }
+      ],
+      "stances": {},
+      "issue_notes": [],
+      "sources": [
+        {
+          "id": "s1",
+          "title": "Thomas Smith: candidate profile, 2026 Texas general election",
+          "publisher": "Branch Politics",
+          "url": "https://branch.vote/races/2026-texas-general-election-tx-state-court-of-criminal-appeals-judge-tx-state-post-3/candidates/thomas-smith",
+          "date": "2026-07"
+        },
+        {
+          "id": "s2",
+          "title": "Texas Court of Criminal Appeals 2026 election: Who is running and what to know",
+          "publisher": "The Texas Tribune",
+          "url": "https://www.texastribune.org/2026/09/29/texas-court-of-criminal-appeals-2026-election/",
+          "date": "2026-09-29"
+        },
+        {
+          "id": "s3",
+          "title": "Candidates in the 2026 Texas Court of Criminal Appeals primaries",
+          "publisher": "The Texas Tribune",
+          "url": "https://www.texastribune.org/2026/02/12/texas-court-of-criminal-appeals-primary-2026/",
+          "date": "2026-02-12"
+        },
+        {
+          "id": "s4",
+          "title": "Thomas Smith campaign website",
+          "publisher": "Thomas Smith campaign",
+          "url": "https://smithfortexas.org",
+          "date": null
+        },
+        {
+          "id": "s5",
+          "title": "Thomas Smith",
+          "publisher": "Ballotpedia",
+          "url": "https://ballotpedia.org/Thomas_Smith_(Texas)",
+          "date": null
+        },
+        {
+          "id": "s6",
+          "title": "State Bar of Texas 2026 Judicial Poll Final Vote Summary",
+          "publisher": "State Bar of Texas",
+          "url": "https://www.texasbar.com/pollresults/",
+          "date": "2026-02-10"
+        },
+        {
+          "id": "s7",
+          "title": "Three Texas high court primaries decided; one goes to runoff",
+          "publisher": "The Texas Tribune",
+          "url": "https://www.texastribune.org/2026/03/03/texas-primary-supreme-court-criminal-appeals/",
+          "date": "2026-03-03"
+        },
+        {
+          "id": "s8",
+          "title": "Texas Court of Criminal Appeals Place 3, Republican primary candidate recommendation",
+          "publisher": "The Dallas Morning News",
+          "url": "https://www.dallasnews.com/opinion/we-recommend/2026/02/06/place-3-texas-court-of-criminal-appeals-republican-primary/",
+          "date": "2026-02-06"
+        },
+        {
+          "id": "s9",
+          "title": "All our recommendations in the May primary runoffs of 2026",
+          "publisher": "The Dallas Morning News",
+          "url": "https://www.dallasnews.com/opinion/editorials/article/endorsements-primary-runoffs-texas-2026-22259672.php",
+          "date": "2026-05-18"
+        }
+      ],
+      "research_gaps": "Smith has no judicial record, did not complete Ballotpedia's 2026 survey, and no detailed statement on interpretive method, judicial selection or court administration was found."
+    },
+    {
+      "id": "okey-anyiam",
+      "race_id": "cca-3",
+      "incumbent": false,
+      "current_role": "Criminal defense attorney, Law Office of Okey Anyiam (Dallas)",
+      "background": "Anyiam is a criminal defense attorney in private practice in Dallas who says he has defended clients on charges ranging from misdemeanors to capital felonies. He and his wife, Chika Anyiam, a Dallas County criminal district judge who ran unsuccessfully for the Court of Criminal Appeals in 2024, have four children. This is his first campaign for public office.",
+      "website": null,
+      "priorities": [
+        {
+          "text": "Says he wants to \"uphold the law without legislating from the bench, and apply the legislative intent unless it's ambiguous.\"",
+          "sources": [
+            "s2",
+            "s3"
+          ]
+        }
+      ],
+      "promises": [],
+      "record": [],
+      "notes": [
+        {
+          "text": "In the State Bar of Texas 2026 judicial poll, taken before the primary, Anyiam received 1,034 votes, the most of the six Place 3 candidates; Republican nominee Thomas Smith received 391 and Libertarian Mark Ash 337. The bar states the poll is not an endorsement.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Endorsed by Liberal Austin Democrats, Austin Young Democrats and State Tejano Democrats.",
+          "sources": [
+            "s2",
+            "s3"
+          ]
+        },
+        {
+          "text": "Reported $1,000 raised and $1,000 cash on hand as of September 24, 2026, with state Rep. James Talarico as the listed donor.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Unopposed in the March 2026 Democratic primary.",
+          "sources": [
+            "s2",
+            "s5"
+          ]
+        }
+      ],
+      "stances": {
+        "q_textualism": {
+          "position": 0,
+          "basis": "statement",
+          "summary": "Says judges should not legislate from the bench and should apply legislative intent unless a law is ambiguous, a formulation that emphasizes intent rather than strict text alone.",
+          "sources": [
+            "s2",
+            "s3"
+          ]
+        }
+      },
+      "issue_notes": [],
+      "sources": [
+        {
+          "id": "s2",
+          "title": "Texas Court of Criminal Appeals 2026 election: Who is running and what to know",
+          "publisher": "The Texas Tribune",
+          "url": "https://www.texastribune.org/2026/09/29/texas-court-of-criminal-appeals-2026-election/",
+          "date": "2026-09-29"
+        },
+        {
+          "id": "s3",
+          "title": "Candidates in the 2026 Texas Court of Criminal Appeals primaries",
+          "publisher": "The Texas Tribune",
+          "url": "https://www.texastribune.org/2026/02/12/texas-court-of-criminal-appeals-primary-2026/",
+          "date": "2026-02-12"
+        },
+        {
+          "id": "s4",
+          "title": "State Bar of Texas 2026 Judicial Poll Final Vote Summary",
+          "publisher": "State Bar of Texas",
+          "url": "https://www.texasbar.com/pollresults/",
+          "date": "2026-02-10"
+        },
+        {
+          "id": "s5",
+          "title": "Okey Anyiam",
+          "publisher": "Ballotpedia",
+          "url": "https://ballotpedia.org/Okey_Anyiam",
+          "date": null
+        }
+      ],
+      "research_gaps": "Anyiam has no campaign website beyond a Facebook page, did not complete Ballotpedia's 2026 survey, and his education and case history were not found."
+    },
+    {
+      "id": "mark-ash",
+      "race_id": "cca-3",
+      "incumbent": false,
+      "current_role": "Criminal defense attorney, Mark Ash and Associates PC (Houston)",
+      "background": "Ash lives in Harris County and has practiced criminal defense law since the early 1990s. He is a graduate of the University of Texas at El Paso and South Texas College of Law, and previously worked as a staff attorney in the Office of Manuel Solis. He has been the Libertarian nominee in several statewide races, including Court of Criminal Appeals Place 2 (2016) and Place 8 (2018), Supreme Court chief justice (2020) and attorney general (2022).",
+      "website": null,
+      "priorities": [
+        {
+          "text": "Describes himself as a \"Pro Freedom, Pro Liberty Criminal Defense Lawyer.\"",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Prioritizes Fourth Amendment privacy, Fifth Amendment protections, due process and limits on searches and seizures in criminal cases.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Supports informing juries that they may acquit defendants charged under laws they consider unjust.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Encourages requiring police officers to wear body cameras and keep them activated.",
+          "sources": [
+            "s1"
+          ]
+        }
+      ],
+      "promises": [],
+      "record": [],
+      "notes": [
+        {
+          "text": "In the State Bar of Texas 2026 judicial poll, taken before the primary, Ash received 337 votes among six Place 3 candidates. The bar states the poll is not an endorsement.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Reported $768.89 raised, mostly in-kind contributions such as yard signs from the Libertarian Booster PAC, and $0 cash on hand as of September 24, 2026.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Nominated through the Libertarian Party of Texas convention process rather than a primary.",
+          "sources": [
+            "s4"
+          ]
+        }
+      ],
+      "stances": {
+        "q_judicial_selection": {
+          "position": -1,
+          "basis": "statement",
+          "summary": "Supports electing judges to defined terms of office, according to his candidate profile.",
+          "sources": [
+            "s1"
+          ]
+        }
+      },
+      "issue_notes": [
+        {
+          "topic": "Policing",
+          "summary": "Encourages requiring police officers to wear body cameras and keep them activated.",
+          "sources": [
+            "s1"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "s1",
+          "title": "Mark Ash: candidate profile, 2026 Texas general election",
+          "publisher": "Branch Politics",
+          "url": "https://branch.vote/races/2026-texas-general-election-tx-state-court-of-criminal-appeals-judge-tx-state-post-3/candidates/mark-ash",
+          "date": "2026-09"
+        },
+        {
+          "id": "s2",
+          "title": "Texas Court of Criminal Appeals 2026 election: Who is running and what to know",
+          "publisher": "The Texas Tribune",
+          "url": "https://www.texastribune.org/2026/09/29/texas-court-of-criminal-appeals-2026-election/",
+          "date": "2026-09-29"
+        },
+        {
+          "id": "s3",
+          "title": "State Bar of Texas 2026 Judicial Poll Final Vote Summary",
+          "publisher": "State Bar of Texas",
+          "url": "https://www.texasbar.com/pollresults/",
+          "date": "2026-02-10"
+        },
+        {
+          "id": "s4",
+          "title": "Mark Ash",
+          "publisher": "Ballotpedia",
+          "url": "https://ballotpedia.org/Mark_Ash",
+          "date": null
+        }
+      ],
+      "research_gaps": "Ash has no standalone campaign website and did not complete Ballotpedia surveys; sources differ on whether his private practice began in 1992 or 1994."
+    },
+    {
+      "id": "kevin-patrick-yeary",
+      "race_id": "cca-4",
+      "incumbent": true,
+      "current_role": "Judge, Texas Court of Criminal Appeals, Place 4, since 2015",
+      "background": "Yeary is from Cotulla and earned his law degree from St. Mary's University School of Law. He clerked for Court of Criminal Appeals Judge Bill White in 1991 and 1992, practiced criminal defense, and then served as an appellate prosecutor in the Dallas, Harris and Bexar county district attorney's offices. He was elected to the court in 2014 and is seeking a third six-year term. He is the court's liaison to the State Bar's Criminal Pattern Jury Charge Committee and serves on the board of the Texas State Law Library.",
+      "website": null,
+      "priorities": [
+        {
+          "text": "Says judges should avoid policymaking from the bench and that the Legislature and governor should set policy.",
+          "sources": [
+            "s3",
+            "s2"
+          ]
+        },
+        {
+          "text": "Supports judicial restraint in interpreting laws.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Says he is seeking re-election in part so the court can retain experience after recent turnover.",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
+      "promises": [],
+      "record": [
+        {
+          "text": "Was the only judge to dissent from the court's 2021 ruling (8-1) that the attorney general's office cannot unilaterally prosecute election cases.",
+          "sources": [
+            "s3",
+            "s5"
+          ]
+        },
+        {
+          "text": "Was one of three judges who disagreed with the court's 2025 decision to block the execution of Robert Roberson.",
+          "sources": [
+            "s3",
+            "s4"
+          ]
+        },
+        {
+          "text": "Was one of four judges who dissented in 2026 from the majority opinion upholding the dismissal of Crystal Mason's illegal voting conviction.",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "In the State Bar of Texas 2026 judicial poll, taken before the primary, Yeary received 1,467 votes and Audra Riley 1,839. The bar states the poll is not an endorsement.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Endorsed by Gov. Greg Abbott, The C Club of Houston, Texas Alliance for Life PAC and various State Republican Executive Committee members.",
+          "sources": [
+            "s3",
+            "s4"
+          ]
+        },
+        {
+          "text": "The Dallas Morning News editorial board recommended Yeary, citing the court's need for experience, while stating that it questioned some of his dissents.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Reported $19,729.38 cash on hand and $25,150 raised as of September 24, 2026.",
+          "sources": [
+            "s3"
+          ]
+        },
+        {
+          "text": "Unopposed in the March 2026 Republican primary.",
+          "sources": [
+            "s3"
+          ]
+        }
+      ],
+      "stances": {
+        "q_textualism": {
+          "position": 1,
+          "basis": "statement",
+          "summary": "Says he applies the law as written, supports judicial restraint and believes policy changes should come from the Legislature and governor rather than courts.",
+          "sources": [
+            "s2",
+            "s5"
+          ]
+        }
+      },
+      "issue_notes": [],
+      "sources": [
+        {
+          "id": "s2",
+          "title": "Kevin Patrick Yeary: candidate profile, 2026 Texas general election",
+          "publisher": "Branch Politics",
+          "url": "https://branch.vote/races/2026-texas-general-election-tx-state-court-of-criminal-appeals-judge-tx-state-post-4/candidates/kevin-patrick-yeary",
+          "date": "2026-07"
+        },
+        {
+          "id": "s3",
+          "title": "Texas Court of Criminal Appeals 2026 election: Who is running and what to know",
+          "publisher": "The Texas Tribune",
+          "url": "https://www.texastribune.org/2026/09/29/texas-court-of-criminal-appeals-2026-election/",
+          "date": "2026-09-29"
+        },
+        {
+          "id": "s4",
+          "title": "Candidates in the 2026 Texas Court of Criminal Appeals primaries",
+          "publisher": "The Texas Tribune",
+          "url": "https://www.texastribune.org/2026/02/12/texas-court-of-criminal-appeals-primary-2026/",
+          "date": "2026-02-12"
+        },
+        {
+          "id": "s5",
+          "title": "We recommend in the race for Texas Court of Criminal Appeals, Place 4",
+          "publisher": "The Dallas Morning News",
+          "url": "https://www.dallasnews.com/opinion/we-recommend/article/we-recommend-race-texas-court-criminal-appeals-22465707.php",
+          "date": "2026-10-09"
+        },
+        {
+          "id": "s6",
+          "title": "State Bar of Texas 2026 Judicial Poll Final Vote Summary",
+          "publisher": "State Bar of Texas",
+          "url": "https://www.texasbar.com/pollresults/",
+          "date": "2026-02-10"
+        }
+      ],
+      "research_gaps": "His campaign website (judgeyeary.com) could not be reached, and no stated position on judicial selection or specific court administration goals was found."
+    },
+    {
+      "id": "audra-riley",
+      "race_id": "cca-4",
+      "incumbent": false,
+      "current_role": "Judge, Dallas County Criminal District Court No. 3, since 2021 (elected 2020)",
+      "background": "Riley is from Mesquite. She earned a bachelor's degree in criminal justice from Sam Houston State University and a law degree from Texas Southern University. She worked as a Texas Department of Corrections prison guard, a prosecutor in the Dallas County District Attorney's Office and a criminal defense attorney at her own firm. She was elected to the felony bench in 2020 and re-elected in 2024.",
+      "website": "https://judgeaudrariley.com",
+      "priorities": [
+        {
+          "text": "Says she wants to bring \"justice, integrity, and a strong work ethic to the bench.\"",
+          "sources": [
+            "s2",
+            "s6"
+          ]
+        },
+        {
+          "text": "Supports holding an afternoon docket at least twice a week to dispose of cases faster and set certain trials sooner.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Supports non-monetary personal recognizance bonds for non-violent offenders when the facts, circumstances and criminal history justify them.",
+          "sources": [
+            "s1"
+          ]
+        }
+      ],
+      "promises": [],
+      "record": [
+        {
+          "text": "Has presided over Dallas County Criminal District Court No. 3 since being elected in 2020.",
+          "sources": [
+            "s2",
+            "s1"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "In the State Bar of Texas 2026 judicial poll, taken before the primary, Riley received 1,839 votes and Kevin Patrick Yeary 1,467. The bar states the poll is not an endorsement.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Endorsed by Liberal Austin Democrats, Austin Young Democrats and State Tejano Democrats.",
+          "sources": [
+            "s2",
+            "s3"
+          ]
+        },
+        {
+          "text": "The Dallas Morning News editorial board recommended Yeary, writing that Riley has served respectably on the felony bench but lacked a deep understanding of the appellate court in its interview.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Reported $1,845.28 cash on hand and $2,423.81 raised as of September 24, 2026.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Unopposed in the March 2026 Democratic primary.",
+          "sources": [
+            "s2",
+            "s7"
+          ]
+        }
+      ],
+      "stances": {},
+      "issue_notes": [
+        {
+          "topic": "Bail",
+          "summary": "Supports personal recognizance bonds for non-violent offenders when facts, circumstances and criminal history justify them.",
+          "sources": [
+            "s1"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "s1",
+          "title": "Audra Riley: candidate profile, 2026 Texas general election",
+          "publisher": "Branch Politics",
+          "url": "https://branch.vote/races/2026-texas-general-election-tx-state-court-of-criminal-appeals-judge-tx-state-post-4/candidates/audra-ladawn-riley",
+          "date": "2026-07"
+        },
+        {
+          "id": "s2",
+          "title": "Texas Court of Criminal Appeals 2026 election: Who is running and what to know",
+          "publisher": "The Texas Tribune",
+          "url": "https://www.texastribune.org/2026/09/29/texas-court-of-criminal-appeals-2026-election/",
+          "date": "2026-09-29"
+        },
+        {
+          "id": "s3",
+          "title": "Candidates in the 2026 Texas Court of Criminal Appeals primaries",
+          "publisher": "The Texas Tribune",
+          "url": "https://www.texastribune.org/2026/02/12/texas-court-of-criminal-appeals-primary-2026/",
+          "date": "2026-02-12"
+        },
+        {
+          "id": "s4",
+          "title": "We recommend in the race for Texas Court of Criminal Appeals, Place 4",
+          "publisher": "The Dallas Morning News",
+          "url": "https://www.dallasnews.com/opinion/we-recommend/article/we-recommend-race-texas-court-criminal-appeals-22465707.php",
+          "date": "2026-10-09"
+        },
+        {
+          "id": "s5",
+          "title": "State Bar of Texas 2026 Judicial Poll Final Vote Summary",
+          "publisher": "State Bar of Texas",
+          "url": "https://www.texasbar.com/pollresults/",
+          "date": "2026-02-10"
+        },
+        {
+          "id": "s6",
+          "title": "Audra Riley campaign website",
+          "publisher": "Audra Riley campaign",
+          "url": "https://judgeaudrariley.com",
+          "date": null
+        },
+        {
+          "id": "s7",
+          "title": "Audra Riley",
+          "publisher": "Ballotpedia",
+          "url": "https://ballotpedia.org/Audra_Riley",
+          "date": null
+        }
+      ],
+      "research_gaps": "Specific rulings from her district court tenure were not found in detail, and she has not addressed textualism or judicial selection in sources found."
+    },
+    {
+      "id": "john-messinger",
+      "race_id": "cca-9",
+      "incumbent": false,
+      "current_role": "Assistant state prosecuting attorney, Texas Office of the State Prosecuting Attorney",
+      "background": "Messinger is originally from New Jersey and lives in Pflugerville. He holds bachelor's and master's degrees in business from the New Jersey Institute of Technology and a law degree from Baylor University School of Law. He was an appellate prosecutor in the McLennan County District Attorney's Office before joining the Office of the State Prosecuting Attorney in 2011. He narrowly lost a 2024 race for the Third Court of Appeals, Place 2.",
+      "website": "https://messingerforjustice.com",
+      "priorities": [
+        {
+          "text": "Says improvement to the justice system should come from \"enforcing the laws as written,\" not judges \"doing whatever they think is right in their own eyes.\"",
+          "sources": [
+            "s4",
+            "s2"
+          ]
+        },
+        {
+          "text": "Says many recent Court of Criminal Appeals opinions \"ignore or conflict with applicable law, its own decisions, or both.\"",
+          "sources": [
+            "s4",
+            "s1"
+          ]
+        },
+        {
+          "text": "Wants to shorten the court's review times, which he says averaged over 500 days last year.",
+          "sources": [
+            "s4",
+            "s1"
+          ]
+        },
+        {
+          "text": "Says law enforcement is essential to justice.",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Campaigns on his appellate experience as a \"career appellate prosecutor.\"",
+          "sources": [
+            "s4",
+            "s6"
+          ]
+        }
+      ],
+      "promises": [],
+      "record": [
+        {
+          "text": "Says he has filed more than 120 petitions for discretionary review at the Court of Criminal Appeals, represented the state in 90 granted cases and argued 26 cases before the court.",
+          "sources": [
+            "s6"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "Won the March 2026 Republican primary over Dallas County Judge Jennifer Balido, who was endorsed by Gov. Abbott.",
+          "sources": [
+            "s9",
+            "s7"
+          ]
+        },
+        {
+          "text": "In the State Bar of Texas 2026 judicial poll, taken before the primary, Messinger received 799 votes, Holly Taylor 1,529 and Jennifer Balido 951. The bar states the poll is not an endorsement.",
+          "sources": [
+            "s8"
+          ]
+        },
+        {
+          "text": "Endorsed by True Texas Project, Young Conservatives of Texas and various State Republican Executive Committee members.",
+          "sources": [
+            "s2",
+            "s5"
+          ]
+        },
+        {
+          "text": "The Dallas Morning News editorial board recommended Taylor, calling Messinger's numbers impressive but his experience too one-sided.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "Reported $15,837.46 cash on hand and $42,966.12 raised as of September 24, 2026.",
+          "sources": [
+            "s2"
+          ]
+        }
+      ],
+      "stances": {
+        "q_textualism": {
+          "position": 2,
+          "basis": "questionnaire",
+          "summary": "Wrote that accurate application of the law sometimes produces unforeseen results and that, if a law seems unfair, the remedy is the Legislature rather than judges.",
+          "sources": [
+            "s5",
+            "s4"
+          ]
+        }
+      },
+      "issue_notes": [
+        {
+          "topic": "Court efficiency",
+          "summary": "Says delays in Court of Criminal Appeals review harm both crime victims awaiting retrials and incarcerated people awaiting release.",
+          "sources": [
+            "s4",
+            "s5"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "s1",
+          "title": "John Messinger: candidate profile, 2026 Texas general election",
+          "publisher": "Branch Politics",
+          "url": "https://branch.vote/races/2026-texas-general-election-tx-state-court-of-criminal-appeals-judge-tx-state-post-9/candidates/john-messinger",
+          "date": "2026-07"
+        },
+        {
+          "id": "s2",
+          "title": "Texas Court of Criminal Appeals 2026 election: Who is running and what to know",
+          "publisher": "The Texas Tribune",
+          "url": "https://www.texastribune.org/2026/09/29/texas-court-of-criminal-appeals-2026-election/",
+          "date": "2026-09-29"
+        },
+        {
+          "id": "s4",
+          "title": "John Messinger campaign website",
+          "publisher": "John Messinger campaign",
+          "url": "https://messingerforjustice.com",
+          "date": null
+        },
+        {
+          "id": "s5",
+          "title": "John Messinger",
+          "publisher": "Ballotpedia",
+          "url": "https://ballotpedia.org/John_Messinger",
+          "date": null
+        },
+        {
+          "id": "s6",
+          "title": "We recommend in the race for Texas Court of Criminal Appeals, Place 9",
+          "publisher": "The Dallas Morning News",
+          "url": "https://www.dallasnews.com/opinion/we-recommend/article/court-criminal-appeals-place-9-taylor-messinger-22467514.php",
+          "date": "2026-10-07"
+        },
+        {
+          "id": "s7",
+          "title": "We recommend in the Republican primary for Texas Court of Criminal Appeals Place 9",
+          "publisher": "The Dallas Morning News",
+          "url": "https://www.dallasnews.com/opinion/we-recommend/2026/02/06/place-9-texas-court-of-criminal-appeals-republican-primary/",
+          "date": "2026-02-06"
+        },
+        {
+          "id": "s8",
+          "title": "State Bar of Texas 2026 Judicial Poll Final Vote Summary",
+          "publisher": "State Bar of Texas",
+          "url": "https://www.texasbar.com/pollresults/",
+          "date": "2026-02-10"
+        },
+        {
+          "id": "s9",
+          "title": "Three Texas high court primaries decided; one goes to runoff",
+          "publisher": "The Texas Tribune",
+          "url": "https://www.texastribune.org/2026/03/03/texas-primary-supreme-court-criminal-appeals/",
+          "date": "2026-03-03"
+        }
+      ],
+      "research_gaps": "Messinger has no judicial record, and no stated position on judicial selection methods was found."
+    },
+    {
+      "id": "holly-taylor",
+      "race_id": "cca-9",
+      "incumbent": false,
+      "current_role": "Appellate attorney; assistant director, Civil Rights Division, Travis County District Attorney's Office",
+      "background": "Taylor is from Houston and lives in Austin. She holds a bachelor's degree from Rice University, a law degree from the University of Texas and a master's in public affairs from the LBJ School. She was a staff attorney at the Court of Criminal Appeals, spent most of 25 years at the Travis County District Attorney's Office including as director of the Public Integrity and Complex Crimes Division and work on wrongful conviction claims, and was a rules and staff attorney at the Court of Criminal Appeals from 2015 to 2020. She is certified in criminal appellate law and was the 2024 Democratic nominee for presiding judge of the court.",
+      "website": "https://hollytforjudge.com",
+      "priorities": [
+        {
+          "text": "Campaigns on \"Independence. Integrity. Courage.\"",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Says she is \"passionate about upholding the Constitution and the Rule of Law, and treating everyone with dignity and humanity.\"",
+          "sources": [
+            "s4",
+            "s2"
+          ]
+        },
+        {
+          "text": "Says she seeks to \"safeguard the independence, impartiality, and integrity of our Texas courts.\"",
+          "sources": [
+            "s4"
+          ]
+        },
+        {
+          "text": "Supports considering public safety in judicial decisions.",
+          "sources": [
+            "s1"
+          ]
+        },
+        {
+          "text": "Says \"I have seen how the criminal justice system can fail us.\"",
+          "sources": [
+            "s4"
+          ]
+        }
+      ],
+      "promises": [
+        {
+          "text": "Says she will bring \"an independent voice\" to the Court of Criminal Appeals.",
+          "sources": [
+            "s4",
+            "s2"
+          ]
+        }
+      ],
+      "record": [
+        {
+          "text": "Lost the 2024 general election for presiding judge of the Court of Criminal Appeals to David Schenck; she currently serves on the court's Rules Advisory Committee.",
+          "sources": [
+            "s5"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "text": "In the State Bar of Texas 2026 judicial poll, taken before the primary, Taylor received 1,529 votes, Jennifer Balido 951 and John Messinger 799. The bar states the poll is not an endorsement.",
+          "sources": [
+            "s6"
+          ]
+        },
+        {
+          "text": "The Dallas Morning News editorial board recommended Taylor, citing her experience as a prosecutor, defense lawyer and court staff attorney.",
+          "sources": [
+            "s5"
+          ]
+        },
+        {
+          "text": "Endorsed by the Texas AFL-CIO, State Tejano Democrats, Texas Progressive Caucus, U.S. Reps. Lloyd Doggett and Greg Casar, and local Democratic groups.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Reported $20,423.95 cash on hand and $53,931.63 raised as of September 24, 2026.",
+          "sources": [
+            "s2"
+          ]
+        },
+        {
+          "text": "Unopposed in the March 2026 Democratic primary.",
+          "sources": [
+            "s2"
+          ]
+        }
+      ],
+      "stances": {},
+      "issue_notes": [],
+      "sources": [
+        {
+          "id": "s1",
+          "title": "Holly Taylor: candidate profile, 2026 Texas general election",
+          "publisher": "Branch Politics",
+          "url": "https://branch.vote/races/2026-texas-general-election-tx-state-court-of-criminal-appeals-judge-tx-state-post-9/candidates/holly-taylor",
+          "date": "2026-07"
+        },
+        {
+          "id": "s2",
+          "title": "Texas Court of Criminal Appeals 2026 election: Who is running and what to know",
+          "publisher": "The Texas Tribune",
+          "url": "https://www.texastribune.org/2026/09/29/texas-court-of-criminal-appeals-2026-election/",
+          "date": "2026-09-29"
+        },
+        {
+          "id": "s4",
+          "title": "Holly Taylor campaign website",
+          "publisher": "Holly Taylor campaign",
+          "url": "https://hollytforjudge.com",
+          "date": null
+        },
+        {
+          "id": "s5",
+          "title": "We recommend in the race for Texas Court of Criminal Appeals, Place 9",
+          "publisher": "The Dallas Morning News",
+          "url": "https://www.dallasnews.com/opinion/we-recommend/article/court-criminal-appeals-place-9-taylor-messinger-22467514.php",
+          "date": "2026-10-07"
+        },
+        {
+          "id": "s6",
+          "title": "State Bar of Texas 2026 Judicial Poll Final Vote Summary",
+          "publisher": "State Bar of Texas",
+          "url": "https://www.texasbar.com/pollresults/",
+          "date": "2026-02-10"
+        }
+      ],
+      "research_gaps": "Taylor's full endorsement page and any statement on textualism or judicial selection methods were not found."
+    }
+  ]
+}

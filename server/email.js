@@ -64,7 +64,7 @@ function shell(title, inner) {
 <tr><td style="height:4px;background:#FFFDF8;font-size:0">&nbsp;</td></tr>
 <tr><td style="height:4px;background:${RED};font-size:0">&nbsp;</td></tr>
 <tr><td style="padding:24px 28px 8px 28px;font-family:${SERIF}">
-  <div style="font-family:${SANS};font-size:11px;letter-spacing:2px;text-transform:uppercase;color:${MUTED}">Voting Insights &middot; Collin County, Texas</div>
+  <div style="font-family:${SANS};font-size:11px;letter-spacing:2px;text-transform:uppercase;color:${MUTED}">Voting Insights &middot; Texas General Election 2026</div>
   <h1 style="margin:8px 0 0 0;font-size:24px;font-weight:normal;color:${NAVY}">${esc(title)}</h1>
 </td></tr>
 ${inner}
@@ -90,7 +90,9 @@ export function resultsEmail({ firstName, results, shareUrl, guide, createdAt })
     )
     .join('');
 
-  const raceTitle = Object.fromEntries(guide.races.map((r) => [r.id, r.title]));
+  const raceTitle = Object.fromEntries(
+    guide.races.map((r) => [r.id, r.county && !r.title.includes(r.county) ? `${r.title}, ${r.county} County` : r.title])
+  );
   const contested = results.races.filter((r) => !r.uncontested);
   const races = contested
     .map((r) => {
@@ -141,7 +143,7 @@ export function resultsEmail({ firstName, results, shareUrl, guide, createdAt })
     `Full results: ${shareUrl}`,
   ].join('\n');
 
-  return { subject: 'Your Collin County ballot alignment results', html, text };
+  return { subject: 'Your 2026 ballot alignment results', html, text };
 }
 
 export function codeEmail(code) {

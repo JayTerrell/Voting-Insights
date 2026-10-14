@@ -39,7 +39,7 @@ test('race scoring only uses questions tied to the office', () => {
     parties: [],
     races: [
       {
-        id: 'gov', title: 'Governor', office_type: 'governor', group: 'state',
+        id: 'gov', title: 'Governor', office_type: 'governor', group: 'state', statewide: true,
         candidates: [
           { id: 'a', name: 'A', party: 'Republican', stances: { x: { position: 2, basis: 'record' }, y: { position: -2, basis: 'record' } } },
           { id: 'b', name: 'B', party: 'Democratic', stances: { x: { position: -2, basis: 'record' } } },
@@ -51,4 +51,21 @@ test('race scoring only uses questions tied to the office', () => {
   const race = res.races[0];
   assert.equal(race.top, 'a');
   assert.equal(race.candidates[0].overlap, 1);
+});
+
+test('county ballots select races, and other counties fall back to statewide races', () => {
+  const guide = {
+    questions: [{ id: 'x', offices: ['governor', 'county_judge'] }],
+    parties: [],
+    ballots: { Collin: ['local', 'gov'] },
+    races: [
+      { id: 'gov', title: 'Governor', office_type: 'governor', group: 'state', statewide: true, candidates: [] },
+      { id: 'local', title: 'County Judge', office_type: 'county_judge', group: 'county', statewide: false, county: 'Collin', candidates: [] },
+    ],
+  };
+  const answers = { x: { value: 1, weight: 1 } };
+  assert.deepEqual(scoreAll(answers, guide, 'Collin').races.map((r) => r.id), ['local', 'gov']);
+  const other = scoreAll(answers, guide, 'Travis');
+  assert.deepEqual(other.races.map((r) => r.id), ['gov']);
+  assert.equal(other.full_ballot, false);
 });

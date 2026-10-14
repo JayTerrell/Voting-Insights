@@ -74,8 +74,21 @@ export function compare(answers, stances, questionIds) {
   return { score, overlap, limited: overlap < LIMITED_DATA_THRESHOLD };
 }
 
+// The races on a county's ballot, in ballot order. Counties whose ballot has
+// not been imported get the statewide races every Texas voter sees.
+export function racesForCounty(guide, county) {
+  const ids = guide.ballots && guide.ballots[county];
+  if (!ids) return guide.races.filter((r) => r.statewide);
+  const byId = new Map(guide.races.map((r) => [r.id, r]));
+  return ids.map((id) => byId.get(id)).filter(Boolean);
+}
+
+export function hasFullBallot(guide, county) {
+  return Boolean(guide.ballots && guide.ballots[county]);
+}
+
 // Builds the full result object from answers and the guide dataset.
-export function scoreAll(answers, guide) {
+export function scoreAll(answers, guide, county) {
   const answered = Object.keys(answers).filter((q) => validAnswer(answers[q]));
 
   const parties = guide.parties.map((p) => {
@@ -83,7 +96,7 @@ export function scoreAll(answers, guide) {
     return { id: p.id, name: p.short, score: r.score, overlap: r.overlap };
   });
 
-  const races = guide.races.map((race) => {
+  const races = racesForCounty(guide, county).map((race) => {
     const qids = guide.questions
       .filter((q) => q.offices.includes(race.office_type))
       .map((q) => q.id);
@@ -103,6 +116,7 @@ export function scoreAll(answers, guide) {
       id: race.id,
       title: race.title,
       group: race.group,
+      county: race.county || null,
       uncontested: race.candidates.length === 1,
       questions: qids.length,
       top,
@@ -111,5 +125,12 @@ export function scoreAll(answers, guide) {
     };
   });
 
-  return { answered: answered.length, total: guide.questions.length, parties, races };
+  return {
+    answered: answered.length,
+    total: guide.questions.length,
+    county: county || null,
+    full_ballot: hasFullBallot(guide, county),
+    parties,
+    races,
+  };
 }

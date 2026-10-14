@@ -190,5 +190,61 @@
       "title": "Texas Justice Court Training Center",
       "url": "https://www.tjctc.org/"
     }
+  },
+  "coa": {
+    "summary": "An intermediate appeals court that hears civil and criminal appeals from trial courts in the counties it covers. Texas has fifteen courts of appeals.",
+    "term": "6 years",
+    "source": {
+      "title": "Texas Judicial Branch: About Texas Courts",
+      "url": "https://www.txcourts.gov/about-texas-courts/"
+    }
+  },
+  "sboe": {
+    "summary": "One of 15 members of the State Board of Education. Sets curriculum standards, approves instructional materials, and oversees investment of the Permanent School Fund.",
+    "term": "4 years",
+    "source": {
+      "title": "Texas State Board of Education",
+      "url": "https://sboe.texas.gov/"
+    }
+  },
+  "county_attorney": {
+    "summary": "Represents the county in civil matters and, in many counties, prosecutes misdemeanors. Duties vary by county depending on whether a separate district attorney exists.",
+    "term": "4 years",
+    "source": {
+      "title": "Texas Association of Counties: Duties of County Officials",
+      "url": "https://www.county.org/resources/resource-library/education-and-training/duties-texas-county-officials"
+    }
+  },
+  "county_treasurer": {
+    "summary": "The county's chief custodian of funds. Receives and deposits county money and pays county obligations approved by the Commissioners Court.",
+    "term": "4 years",
+    "source": {
+      "title": "Texas Association of Counties: Duties of County Officials",
+      "url": "https://www.county.org/resources/resource-library/education-and-training/duties-texas-county-officials"
+    }
+  },
+  "tax_assessor": {
+    "summary": "Collects property taxes for the county and often for other local taxing units, and handles vehicle registration and title transactions.",
+    "term": "4 years",
+    "source": {
+      "title": "Texas Association of Counties: Duties of County Officials",
+      "url": "https://www.county.org/resources/resource-library/education-and-training/duties-texas-county-officials"
+    }
+  },
+  "sheriff": {
+    "summary": "The county's chief law enforcement officer. Runs the county jail, patrols unincorporated areas, serves warrants and court papers, and provides court security.",
+    "term": "4 years",
+    "source": {
+      "title": "Texas Association of Counties: Duties of County Officials",
+      "url": "https://www.county.org/resources/resource-library/education-and-training/duties-texas-county-officials"
+    }
+  },
+  "constable": {
+    "summary": "A peace officer elected by precinct. Serves civil papers and warrants, provides security for justice courts, and may patrol and enforce traffic laws.",
+    "term": "4 years",
+    "source": {
+      "title": "Texas Association of Counties: Duties of County Officials",
+      "url": "https://www.county.org/resources/resource-library/education-and-training/duties-texas-county-officials"
+    }
   }
 }
