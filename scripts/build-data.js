@@ -55,12 +55,28 @@ function scrub(value) {
   return value;
 }
 
+// Sites whose articles are labeled as AI-generated or AI-assisted are not
+// accepted as evidence. Claims that cited only these sources are dropped.
+const BLOCKED_SOURCE_DOMAINS = ['hoodline.com'];
+const isBlocked = (url) => {
+  try {
+    const host = new URL(url).hostname.replace(/^www\./, '');
+    return BLOCKED_SOURCE_DOMAINS.some((d) => host === d || host.endsWith(`.${d}`));
+  } catch {
+    return true;
+  }
+};
+
 function cleanSources(list, who) {
   const out = [];
   const seen = new Set();
   for (const s of list || []) {
     if (!s || !s.id || !s.url || !/^https?:\/\//.test(s.url)) {
       warn(`${who}: dropped source without a valid url (${s && s.id})`);
+      continue;
+    }
+    if (isBlocked(s.url)) {
+      warn(`${who}: dropped source from a blocked site (${s.url})`);
       continue;
     }
     if (seen.has(s.id)) continue;

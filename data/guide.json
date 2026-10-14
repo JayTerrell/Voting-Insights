@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T13:46:23.496Z",
+ "generated_at": "2026-10-14T13:47:14.589Z",
  "election": {
   "name": "2026 November General Election",
   "county": "Collin County, Texas",
@@ -20436,7 +20436,6 @@
       {
        "text": "On Aug. 10, 2026, the Commissioners Court voted 4-0, with Commissioner Duncan Webb absent, to call an $817.5 million bond election for Nov. 3, 2026, choosing the larger of two final options; with four members present, the unanimous vote included Hill.",
        "sources": [
-        "p2-s1",
         "p2-s2",
         "p2-s3"
        ]
@@ -20548,8 +20547,7 @@
        "topic": "2026 Bond Election",
        "summary": "On the bond, Community Impact quoted him saying residents are \"going to have to pay the bill, so we want their voice on this decision,\" and that deferred projects are pushed into the future; Hoodline reported he favored keeping the debt service rate steady.",
        "sources": [
-        "p2-s2",
-        "p2-s1"
+        "p2-s2"
        ]
       }
      ],
@@ -20651,13 +20649,6 @@
        "publisher": "Collin County",
        "url": "https://www.collincountytx.gov/government/commissioners-court/county-judge",
        "date": null
-      },
-      {
-       "id": "p2-s1",
-       "title": "Collin County Sets $817.5M Bond Vote as Jail, Roads Hit Breaking Point",
-       "publisher": "Hoodline",
-       "url": "https://hoodline.com/2026/08/collin-county-sets-817-5m-bond-vote-as-jail-roads-hit-breaking-point/",
-       "date": "2026-08-11"
       },
       {
        "id": "p2-s2",
@@ -21331,14 +21322,7 @@
      "website": null,
      "priorities": [],
      "promises": [],
-     "record": [
-      {
-       "text": "In January 2024 the Commissioners Court unanimously selected her from four candidates to succeed retiring Probate Judge Weldon Copeland, effective Feb. 1, 2024.",
-       "sources": [
-        "p2-s1"
-       ]
-      }
-     ],
+     "record": [],
      "notes": [
       {
        "text": "Unopposed in the November 2026 general election.",
@@ -21356,13 +21340,6 @@
        "publisher": "Branch Politics",
        "url": "https://branch.vote/races/2026-texas-general-election-tx-state-probate-court-judge-tx-county-collin/candidates/sarah-r-duff",
        "date": "2026-07"
-      },
-      {
-       "id": "p2-s1",
-       "title": "Sarah Duff Swears In as Collin County's New Probate Judge After Competitive Selection",
-       "publisher": "Hoodline",
-       "url": "https://hoodline.com/2024/01/sarah-duff-swears-in-as-collin-county-s-new-probate-judge-after-competitive-selection/",
-       "date": "2024-01-24"
       }
      ],
      "research_gaps": "No campaign website, questionnaire responses, stated judicial philosophy, notable rulings, or bar poll results were found."
