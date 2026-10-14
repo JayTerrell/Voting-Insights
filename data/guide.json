@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-14T13:47:14.589Z",
+ "generated_at": "2026-10-14T13:52:43.483Z",
  "election": {
   "name": "2026 November General Election",
   "county": "Collin County, Texas",
@@ -3110,6 +3110,26 @@
        "sources": [
         "s2"
        ]
+      },
+      {
+       "text": "Voted for H.J.Res. 35 in February 2025, which repealed the EPA rule implementing the methane Waste Emissions Charge for oil and gas operations; it passed 220 to 206.",
+       "sources": [
+        "p2-s1"
+       ]
+      },
+      {
+       "text": "Voted for the District of Columbia Federal Immigration Compliance Act and the Save SBA from Sanctuary Cities Act in June 2025, and the Deporting Fraudsters Act in March 2026.",
+       "sources": [
+        "p2-s2",
+        "p2-s3",
+        "p2-s4"
+       ]
+      },
+      {
+       "text": "Voted against H.R. 1689 in April 2026, which would require designating Haiti for temporary protected status; it passed 224 to 204.",
+       "sources": [
+        "p2-s5"
+       ]
       }
      ],
      "notes": [
@@ -3218,6 +3238,24 @@
         "s8",
         "s10"
        ]
+      },
+      "q_oilgas_rules": {
+       "position": -1,
+       "basis": "record",
+       "summary": "Voted in 2025 to repeal the EPA rule implementing the methane emissions charge on oil and gas operations.",
+       "sources": [
+        "p2-s1"
+       ]
+      },
+      "q_deportation": {
+       "position": 1,
+       "basis": "record",
+       "summary": "Voted for the Laken Riley Act and for bills requiring local cooperation with ICE and penalizing sanctuary jurisdictions; no statement on deporting people without criminal records was found.",
+       "sources": [
+        "s6",
+        "p2-s2",
+        "p2-s3"
+       ]
       }
      },
      "issue_notes": [
@@ -3234,6 +3272,13 @@
        "summary": "Says elections must remain under state control.",
        "sources": [
         "s2"
+       ]
+      },
+      {
+       "topic": "Immigration and Visas",
+       "summary": "Lists the growing influence of political Islam in North Texas and H-1B visa fraud among the district's biggest challenges.",
+       "sources": [
+        "p2-s6"
        ]
       }
      ],
@@ -3398,6 +3443,48 @@
        "publisher": "Clerk of the U.S. House",
        "url": "https://clerk.house.gov/evs/2026/roll272.xml",
        "date": "2026-07-21"
+      },
+      {
+       "id": "p2-s1",
+       "title": "Roll Call 52: H.J.Res. 35, disapproval of EPA Waste Emissions Charge rule for petroleum and natural gas systems",
+       "publisher": "Office of the Clerk, U.S. House",
+       "url": "https://clerk.house.gov/evs/2025/roll052.xml",
+       "date": "2025-02-26"
+      },
+      {
+       "id": "p2-s2",
+       "title": "Roll Call 171: H.R. 2056, District of Columbia Federal Immigration Compliance Act",
+       "publisher": "Office of the Clerk, U.S. House",
+       "url": "https://clerk.house.gov/evs/2025/roll171.xml",
+       "date": "2025-06-12"
+      },
+      {
+       "id": "p2-s3",
+       "title": "Roll Call 153: H.R. 2931, Save SBA from Sanctuary Cities Act",
+       "publisher": "Office of the Clerk, U.S. House",
+       "url": "https://clerk.house.gov/evs/2025/roll153.xml",
+       "date": "2025-06-05"
+      },
+      {
+       "id": "p2-s4",
+       "title": "Roll Call 94: H.R. 1958, Deporting Fraudsters Act",
+       "publisher": "Office of the Clerk, U.S. House",
+       "url": "https://clerk.house.gov/evs/2026/roll094.xml",
+       "date": "2026-03-18"
+      },
+      {
+       "id": "p2-s5",
+       "title": "Roll Call 120: H.R. 1689, to require designation of Haiti for temporary protected status",
+       "publisher": "Office of the Clerk, U.S. House",
+       "url": "https://clerk.house.gov/evs/2026/roll120.xml",
+       "date": "2026-04-16"
+      },
+      {
+       "id": "p2-s6",
+       "title": "Q&A: Meet the candidates running for the U.S. House of Representatives District 3 seat",
+       "publisher": "Community Impact",
+       "url": "https://communityimpact.com/mckinney/election/qa-meet-the-candidates-running-for-the-us-house-of-representatives-district-3-seat/",
+       "date": "2026-08-20"
       }
      ],
      "research_gaps": "No 2026 questionnaire answers were found; no documented positions on minimum wage, vouchers, cannabis, legal status for undocumented residents, or foreign land purchases."
@@ -3446,6 +3533,12 @@
        "sources": [
         "s1"
        ]
+      },
+      {
+       "text": "Says he will focus on lowering health care and child care costs, supporting small businesses and family farms, and investing in infrastructure.",
+       "sources": [
+        "p2-s1"
+       ]
       }
      ],
      "promises": [
@@ -3471,6 +3564,18 @@
        "text": "Says he supports the Equal Voices Act (H.R. 4125) to expand the size of the House.",
        "sources": [
         "s1"
+       ]
+      },
+      {
+       "text": "Says he will work across party lines, oppose wasteful spending and stand up to executive overreach.",
+       "sources": [
+        "p2-s1"
+       ]
+      },
+      {
+       "text": "Says he will push to bring federal tax dollars back to the district.",
+       "sources": [
+        "p2-s1"
        ]
       }
      ],
@@ -3560,6 +3665,13 @@
        "sources": [
         "s1"
        ]
+      },
+      {
+       "topic": "Growth and Infrastructure",
+       "summary": "Says rising housing, health care and education costs are squeezing families while infrastructure struggles to keep pace with rapid growth.",
+       "sources": [
+        "p2-s1"
+       ]
       }
      ],
      "sources": [
@@ -3576,6 +3688,13 @@
        "publisher": "Community Impact",
        "url": "https://communityimpact.com/dallas-fort-worth/plano/election/2026/03/03/roundup-see-updated-results-for-us-house-races-affecting-dallas-fort-worth-cities/",
        "date": "2026-03-04"
+      },
+      {
+       "id": "p2-s1",
+       "title": "Q&A: Meet the candidates running for the U.S. House of Representatives District 3 seat",
+       "publisher": "Community Impact",
+       "url": "https://communityimpact.com/mckinney/election/qa-meet-the-candidates-running-for-the-us-house-of-representatives-district-3-seat/",
+       "date": "2026-08-20"
       }
      ],
      "research_gaps": "No questionnaire responses or independent news interviews were found; no documented positions on minimum wage, Medicaid expansion, abortion, guns, energy or voting access."
@@ -3685,6 +3804,40 @@
        "sources": [
         "s13"
        ]
+      },
+      {
+       "text": "Voted for H.J.Res. 35 in February 2025, which repealed the EPA rule implementing the methane Waste Emissions Charge for oil and gas operations; it passed 220 to 206.",
+       "sources": [
+        "p2-s1"
+       ]
+      },
+      {
+       "text": "Voted against the SAFE Banking Act in 2021 and against the MORE Act and the Medical Marijuana Research Act in 2022.",
+       "sources": [
+        "p2-s2",
+        "p2-s3",
+        "p2-s4"
+       ]
+      },
+      {
+       "text": "Voted for the District of Columbia Federal Immigration Compliance Act and the Save SBA from Sanctuary Cities Act in June 2025, and the Deporting Fraudsters Act in March 2026.",
+       "sources": [
+        "p2-s5",
+        "p2-s6",
+        "p2-s7"
+       ]
+      },
+      {
+       "text": "Voted against H.R. 1689 in April 2026, which would require designating Haiti for temporary protected status; it passed 224 to 204.",
+       "sources": [
+        "p2-s8"
+       ]
+      },
+      {
+       "text": "Voted for the Protecting American Energy Production Act (H.R. 26) in February 2025, which bars a presidential moratorium on hydraulic fracturing.",
+       "sources": [
+        "p2-s9"
+       ]
       }
      ],
      "notes": [
@@ -3758,6 +3911,52 @@
        "sources": [
         "s7",
         "s8"
+       ]
+      },
+      "q_oilgas_rules": {
+       "position": -1,
+       "basis": "record",
+       "summary": "Voted in 2025 to repeal the EPA rule implementing the methane emissions charge on oil and gas operations.",
+       "sources": [
+        "p2-s1"
+       ]
+      },
+      "q_cannabis": {
+       "position": -2,
+       "basis": "record",
+       "summary": "Voted against the MORE Act to remove marijuana from federal controlled substances, the SAFE Banking Act and the Medical Marijuana Research Act.",
+       "sources": [
+        "p2-s3",
+        "p2-s2",
+        "p2-s4"
+       ]
+      },
+      "q_deportation": {
+       "position": 1,
+       "basis": "record",
+       "summary": "Voted for bills requiring local cooperation with ICE and penalizing sanctuary jurisdictions, and said the 2025 reconciliation law's ICE funding helps deport criminal illegal aliens.",
+       "sources": [
+        "p2-s5",
+        "p2-s6",
+        "s2"
+       ]
+      },
+      "q_legal_status": {
+       "position": -1,
+       "basis": "statement",
+       "summary": "Has said allowing mass unlawful migration and letting people cut the line is patently unfair, and voted against a 2026 bill to grant Haiti temporary protected status.",
+       "sources": [
+        "p2-s10",
+        "p2-s8"
+       ]
+      },
+      "q_fossil_priority": {
+       "position": 1,
+       "basis": "record",
+       "summary": "Campaigns on expanding energy production and voted for a 2025 bill barring a presidential moratorium on hydraulic fracturing.",
+       "sources": [
+        "s1",
+        "p2-s9"
        ]
       }
      },
@@ -3910,9 +4109,79 @@
        "publisher": "Fox Business",
        "url": "https://www.foxbusiness.com/category/fox-news-illegal-immigrants?page=20",
        "date": null
+      },
+      {
+       "id": "p2-s1",
+       "title": "Roll Call 52: H.J.Res. 35, disapproval of EPA Waste Emissions Charge rule for petroleum and natural gas systems",
+       "publisher": "Office of the Clerk, U.S. House",
+       "url": "https://clerk.house.gov/evs/2025/roll052.xml",
+       "date": "2025-02-26"
+      },
+      {
+       "id": "p2-s2",
+       "title": "Roll Call 120: H.R. 1996, SAFE Banking Act",
+       "publisher": "Office of the Clerk, U.S. House",
+       "url": "https://clerk.house.gov/evs/2021/roll120.xml",
+       "date": "2021-04-19"
+      },
+      {
+       "id": "p2-s3",
+       "title": "Roll Call 107: H.R. 3617, MORE Act",
+       "publisher": "Office of the Clerk, U.S. House",
+       "url": "https://clerk.house.gov/evs/2022/roll107.xml",
+       "date": "2022-04-01"
+      },
+      {
+       "id": "p2-s4",
+       "title": "Roll Call 108: H.R. 5657, Medical Marijuana Research Act",
+       "publisher": "Office of the Clerk, U.S. House",
+       "url": "https://clerk.house.gov/evs/2022/roll108.xml",
+       "date": "2022-04-04"
+      },
+      {
+       "id": "p2-s5",
+       "title": "Roll Call 171: H.R. 2056, District of Columbia Federal Immigration Compliance Act",
+       "publisher": "Office of the Clerk, U.S. House",
+       "url": "https://clerk.house.gov/evs/2025/roll171.xml",
+       "date": "2025-06-12"
+      },
+      {
+       "id": "p2-s6",
+       "title": "Roll Call 153: H.R. 2931, Save SBA from Sanctuary Cities Act",
+       "publisher": "Office of the Clerk, U.S. House",
+       "url": "https://clerk.house.gov/evs/2025/roll153.xml",
+       "date": "2025-06-05"
+      },
+      {
+       "id": "p2-s7",
+       "title": "Roll Call 94: H.R. 1958, Deporting Fraudsters Act",
+       "publisher": "Office of the Clerk, U.S. House",
+       "url": "https://clerk.house.gov/evs/2026/roll094.xml",
+       "date": "2026-03-18"
+      },
+      {
+       "id": "p2-s8",
+       "title": "Roll Call 120: H.R. 1689, to require designation of Haiti for temporary protected status",
+       "publisher": "Office of the Clerk, U.S. House",
+       "url": "https://clerk.house.gov/evs/2026/roll120.xml",
+       "date": "2026-04-16"
+      },
+      {
+       "id": "p2-s9",
+       "title": "Roll Call 35: H.R. 26, Protecting American Energy Production Act",
+       "publisher": "Office of the Clerk, U.S. House",
+       "url": "https://clerk.house.gov/evs/2025/roll035.xml",
+       "date": "2025-02-07"
+      },
+      {
+       "id": "p2-s10",
+       "title": "Rep. Fallon Addresses Border Crisis at Texarkana Chamber of Commerce",
+       "publisher": "Office of Rep. Pat Fallon",
+       "url": "https://fallon.house.gov/media/press-releases/rep-fallon-addresses-border-crisis-texarkana-chamber-commerce",
+       "date": "2021-03-24"
       }
      ],
-     "research_gaps": "His campaign site presents issues mainly as video headlines, so detailed written positions on Medicaid, energy, immigration status and other questions were not found; no 2026 questionnaire answers were found."
+     "research_gaps": "No documented positions were found on the minimum wage, school vouchers, Medicaid expansion, state border spending or foreign land purchases."
     },
     {
      "id": "jason-pearce",
@@ -13155,6 +13424,25 @@
         "s14",
         "s15"
        ]
+      },
+      {
+       "text": "Voted for SB 3 (2023, fourth called session), appropriating funds for border barrier construction and border security operations; it passed the Senate 18 to 10.",
+       "sources": [
+        "p2-s1"
+       ]
+      },
+      {
+       "text": "Voted for SB 4 (2023, fourth called session), creating state offenses for illegal entry and authorizing removal orders; it passed the Senate 17 to 11.",
+       "sources": [
+        "p2-s1"
+       ]
+      },
+      {
+       "text": "Voted for SB 421 (2019), relating to acquisition of real property by entities with eminent domain authority, which passed 28 to 3, and SB 726 (2021), on landowners' right to repurchase condemned property, which passed 27 to 4.",
+       "sources": [
+        "p2-s2",
+        "p2-s3"
+       ]
       }
      ],
      "notes": [
@@ -13314,6 +13602,41 @@
        "sources": [
         "s12"
        ]
+      },
+      "q_border_state": {
+       "position": 2,
+       "basis": "record",
+       "summary": "Voted for 2023 state funding for border barrier construction and border security operations (SB 3).",
+       "sources": [
+        "p2-s1"
+       ]
+      },
+      "q_deportation": {
+       "position": 1,
+       "basis": "record",
+       "summary": "Voted for the 2023 state illegal entry and removal law (SB 4) and the 2025 sheriff ICE agreement law (SB 8), and says state officials should ban sanctuary cities.",
+       "sources": [
+        "p2-s1",
+        "s9",
+        "s1"
+       ]
+      },
+      "q_eminent_domain": {
+       "position": 1,
+       "basis": "record",
+       "summary": "Voted for 2019 and 2021 Senate bills on eminent domain acquisitions and landowners' right to repurchase condemned property.",
+       "sources": [
+        "p2-s2",
+        "p2-s3"
+       ]
+      },
+      "q_ethics": {
+       "position": 1,
+       "basis": "statement",
+       "summary": "His campaign calls for much higher standards in state government ethics and transparency; no statement on contribution limits was found.",
+       "sources": [
+        "s1"
+       ]
       }
      },
      "issue_notes": [
@@ -13459,6 +13782,27 @@
        "publisher": "Bob Hall campaign",
        "url": "https://senatorbobhall.com/about/",
        "date": null
+      },
+      {
+       "id": "p2-s1",
+       "title": "Senate Journal, 88th Legislature, Fourth Called Session, November 9, 2023 (SB 3 and SB 4 third reading)",
+       "publisher": "Texas Senate",
+       "url": "https://journals.senate.texas.gov/sjrnl/884/pdf/88S4SJ11-09-F.PDF",
+       "date": "2023-11-09"
+      },
+      {
+       "id": "p2-s2",
+       "title": "Senate Journal, 86th Legislature, April 4, 2019 (SB 421 third reading)",
+       "publisher": "Texas Senate",
+       "url": "https://journals.senate.texas.gov/sjrnl/86r/pdf/86RSJ04-04-F.PDF",
+       "date": "2019-04-04"
+      },
+      {
+       "id": "p2-s3",
+       "title": "Senate Journal, 87th Legislature, April 20, 2021 (SB 726 third reading)",
+       "publisher": "Texas Senate",
+       "url": "https://journals.senate.texas.gov/sjrnl/87r/pdf/87RSJ04-20-F.PDF",
+       "date": "2021-04-20"
       }
      ],
      "research_gaps": "No 2026 questionnaire responses were found, the list of bills he authored in 2025 was not compiled, and no documented position was found on eliminating school property taxes, Medicaid expansion, minimum wage, gambling or ethics rules."
@@ -13734,6 +14078,24 @@
        "sources": [
         "s21"
        ]
+      },
+      {
+       "text": "Voted against Amendment No. 22 to the 2026-2027 budget in April 2025, which would have directed HHSC to seek a waiver to expand Medicaid eligibility; it failed 63 to 85.",
+       "sources": [
+        "s9"
+       ]
+      },
+      {
+       "text": "Voted for HB 5115 (2025), increasing the criminal penalty for election fraud; it passed the House 88 to 54.",
+       "sources": [
+        "p2-s1"
+       ]
+      },
+      {
+       "text": "Voted for SB 8 (2025), requiring certain sheriffs to enter agreements with ICE; it passed the House 86 to 47.",
+       "sources": [
+        "s16"
+       ]
       }
      ],
      "notes": [
@@ -13849,6 +14211,30 @@
        "summary": "Lists strengthening water infrastructure as a legislative priority.",
        "sources": [
         "s1"
+       ]
+      },
+      "q_medicaid": {
+       "position": -1,
+       "basis": "record",
+       "summary": "Voted against a 2025 budget amendment directing the state to seek a federal waiver to expand Medicaid eligibility to all groups eligible for federal matching funds; it failed 63 to 85.",
+       "sources": [
+        "s9"
+       ]
+      },
+      "q_election_fraud": {
+       "position": 1,
+       "basis": "record",
+       "summary": "Voted for HB 5115 (2025) increasing the criminal penalty for election fraud.",
+       "sources": [
+        "p2-s1"
+       ]
+      },
+      "q_deportation": {
+       "position": 1,
+       "basis": "record",
+       "summary": "Voted for SB 8 (2025) requiring certain sheriffs to enter immigration enforcement agreements with ICE; no statement on deportation priorities was found.",
+       "sources": [
+        "s16"
        ]
       }
      },
@@ -14022,6 +14408,13 @@
        "publisher": "Texas Legislature Online",
        "url": "https://capitol.texas.gov/reports/report.aspx?LegSess=892&ID=author&Code=A4715",
        "date": null
+      },
+      {
+       "id": "p2-s1",
+       "title": "House Journal, 89th Legislature, May 15, 2025 (HB 5115 third reading)",
+       "publisher": "Texas House of Representatives",
+       "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY65FINAL.HTM",
+       "date": "2025-05-15"
       }
      ],
      "research_gaps": "Her campaign issues page lists headings without detailed positions, and no 2026 newspaper questionnaire beyond Community Impact was found."
@@ -14096,6 +14489,12 @@
        "sources": [
         "s1"
        ]
+      },
+      {
+       "text": "His campaign lists endorsements from Mothers Against Greg Abbott, Collin County Stonewall Democrats, the Texas Progressive Caucus, Northeast Texas NOW, Run for Something and the National Democratic Redistricting Committee, among others, and from state Reps. Gene Wu and Christina Morales.",
+       "sources": [
+        "p2-s1"
+       ]
       }
      ],
      "stances": {
@@ -14149,9 +14548,17 @@
        ]
       },
       "q_abortion": {
-       "position": 1,
+       "position": 2,
        "basis": "statement",
-       "summary": "Says restrictive laws have put doctors in impossible situations and calls for clearer medical guidelines and restored maternal mortality research.",
+       "summary": "Says Texans deserve a choice and that health care decisions should be made between a patient and a doctor without government interference (strengthened from his campaign site's own wording).",
+       "sources": [
+        "s2"
+       ]
+      },
+      "q_preemption": {
+       "position": -1,
+       "basis": "statement",
+       "summary": "Says he supports empowering local communities to make decisions that fit their needs and that the authority to approve or ban data centers should always belong to local governments.",
        "sources": [
         "s2"
        ]
@@ -14168,6 +14575,13 @@
       {
        "topic": "Audits",
        "summary": "Calls for an audit of fund distribution by the land commissioner and education commissioner since 2024.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "topic": "Immigration",
+       "summary": "Says immigrant workers are essential to the Texas economy and supports humane immigration reform while upholding border security.",
        "sources": [
         "s2"
        ]
@@ -14193,6 +14607,13 @@
        "title": "About Orlando",
        "publisher": "Orlando Lopez Campaign",
        "url": "https://www.lopezfortxhd33.com/about",
+       "date": null
+      },
+      {
+       "id": "p2-s1",
+       "title": "Endorsements",
+       "publisher": "Lopez for Texas House District 33",
+       "url": "https://www.lopezfortxhd33.com/endorsements",
        "date": null
       }
      ],
@@ -14337,6 +14758,19 @@
         "s21",
         "s22"
        ]
+      },
+      {
+       "text": "Voted against Amendment No. 22 to the 2026-2027 budget in April 2025, which would have directed HHSC to seek a waiver to expand Medicaid eligibility; it failed 63 to 85.",
+       "sources": [
+        "s11"
+       ]
+      },
+      {
+       "text": "Voted for HJR 7 (2025), dedicating a portion of state sales tax revenue to the Texas Water Fund, and SB 7 (2025) on water infrastructure financing.",
+       "sources": [
+        "p2-s1",
+        "s18"
+       ]
       }
      ],
      "notes": [
@@ -14470,6 +14904,31 @@
        "summary": "Supports proof of citizenship to register and opposes expanding unsecured mail-in voting.",
        "sources": [
         "s6"
+       ]
+      },
+      "q_medicaid": {
+       "position": -1,
+       "basis": "record",
+       "summary": "Voted against a 2025 budget amendment directing the state to seek a federal waiver to expand Medicaid eligibility to all groups eligible for federal matching funds; it failed 63 to 85.",
+       "sources": [
+        "s11"
+       ]
+      },
+      "q_deportation": {
+       "position": 1,
+       "basis": "record",
+       "summary": "Voted for SB 8 (2025) requiring certain sheriffs to enter immigration enforcement agreements with ICE; no statement on deportation priorities was found.",
+       "sources": [
+        "s17"
+       ]
+      },
+      "q_water": {
+       "position": 1,
+       "basis": "record",
+       "summary": "Voted for HJR 7 (2025) dedicating sales tax revenue to the Texas Water Fund and for SB 7 on water infrastructure financing.",
+       "sources": [
+        "p2-s1",
+        "s18"
        ]
       }
      },
@@ -14644,6 +15103,13 @@
        "publisher": "Texas Legislature Online",
        "url": "https://capitol.texas.gov/reports/report.aspx?LegSess=89R&ID=author&Code=A4735",
        "date": null
+      },
+      {
+       "id": "p2-s1",
+       "title": "House Journal, 89th Legislature, April 29, 2025 (HJR 7)",
+       "publisher": "Texas House of Representatives",
+       "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY52FINAL.HTM",
+       "date": "2025-04-29"
       }
      ],
      "research_gaps": "No detailed statement explaining her vote against the 2026-2027 budget was found."
@@ -14711,6 +15177,24 @@
        "sources": [
         "s2"
        ]
+      },
+      {
+       "text": "Says she supports raising the basic allotment and using part of the state budget surplus and Rainy Day Fund to stabilize school funding, with flexible dollars for districts.",
+       "sources": [
+        "p2-s1"
+       ]
+      },
+      {
+       "text": "Says she supports a state-funded, across-the-board pay raise for all school employees, tied to inflation and regional cost of living.",
+       "sources": [
+        "p2-s1"
+       ]
+      },
+      {
+       "text": "Says she supports a larger state contribution to TRS-ActiveCare and TRS-Care and keeping TRS a defined-benefit pension.",
+       "sources": [
+        "p2-s1"
+       ]
       }
      ],
      "record": [],
@@ -14723,6 +15207,12 @@
       },
       {
        "text": "Endorsed by Annie's List, AFT, Texas AFL-CIO, Planned Parenthood Texas Votes, CAIR Action Texas and Run for Something, among others, according to her campaign site.",
+       "sources": [
+        "s4"
+       ]
+      },
+      {
+       "text": "Her campaign site also lists support from Public Schools First McKinney, Teachers Unify Action, Vote Save America, Blue Horizon Texas PAC, McKinney ISD trustee Harvey Oaxaca and state Reps. Gene Wu and Christina Morales.",
        "sources": [
         "s4"
        ]
@@ -14777,6 +15267,23 @@
        "sources": [
         "s4"
        ]
+      },
+      "q_deportation": {
+       "position": -1,
+       "basis": "statement",
+       "summary": "Says local law enforcement should focus on community safety rather than serving as an extension of federal immigration politics, and opposes using border policy as an excuse for unconstitutional overreach.",
+       "sources": [
+        "s4"
+       ]
+      },
+      "q_preemption": {
+       "position": -1,
+       "basis": "questionnaire",
+       "summary": "Says the state should set broad standards without micromanaging, and that local districts should keep authority over curriculum and that local control should stay local instead of being handed off to Austin.",
+       "sources": [
+        "p2-s1",
+        "s4"
+       ]
       }
      },
      "issue_notes": [
@@ -14792,6 +15299,13 @@
        "summary": "Supports protection from surprise medical bills and easier access to mental health care.",
        "sources": [
         "s4"
+       ]
+      },
+      {
+       "topic": "Testing and Accountability",
+       "summary": "Opposes using a single testing model to set teacher pay or A-F school ratings and favors multiple measures such as student growth and graduation outcomes.",
+       "sources": [
+        "p2-s1"
        ]
       }
      ],
@@ -14823,6 +15337,13 @@
        "publisher": "Brittany for Texas",
        "url": "https://www.brittanyfortexas.com",
        "date": null
+      },
+      {
+       "id": "p2-s1",
+       "title": "Brittany Black: responses to the 2026 ATPE candidate survey",
+       "publisher": "ATPE Teach the Vote",
+       "url": "https://teachthevote.atpe.org/candidates/Brittany-Black",
+       "date": "2026"
       }
      ],
      "research_gaps": "No newspaper questionnaire beyond Community Impact was found."
@@ -14833,7 +15354,7 @@
      "party": "Green",
      "incumbent": false,
      "current_role": "Green Party nominee for Texas House District 61",
-     "background": "Chilmeran is the Green Party candidate in the three-way District 61 race. Community Impact listed a campaign website for her but did not receive questionnaire responses.",
+     "background": "Chilmeran is the Green Party nominee in the three-way District 61 race. According to the Branch voter guide, she grew up in McKinney, graduated from Austin College in Sherman, works as a Realtor and previously worked as a paralegal. No campaign platform from her was found online.",
      "website": null,
      "priorities": [],
      "promises": [],
@@ -14843,6 +15364,19 @@
        "text": "Did not respond to Community Impact's general election questionnaire before press time.",
        "sources": [
         "s1"
+       ]
+      },
+      {
+       "text": "Did not respond to the 2026 ATPE candidate survey or the iVoterGuide questionnaire, according to those organizations.",
+       "sources": [
+        "p2-s1",
+        "p2-s2"
+       ]
+      },
+      {
+       "text": "The Branch voter guide reported that as of September 11, 2026 she had no campaign website or issue information online.",
+       "sources": [
+        "p2-s3"
        ]
       }
      ],
@@ -14855,9 +15389,30 @@
        "publisher": "Community Impact",
        "url": "https://communityimpact.com/mckinney/election/qa-meet-the-candidates-running-for-texas-house-of-representatives-district-61/",
        "date": "2026-08-28"
+      },
+      {
+       "id": "p2-s1",
+       "title": "Anissa Chilmeran",
+       "publisher": "ATPE Teach the Vote",
+       "url": "https://teachthevote.atpe.org/candidates/Anissa-Chilmeran",
+       "date": "2026"
+      },
+      {
+       "id": "p2-s2",
+       "title": "Anissa Chilmeran, State Representative District 61",
+       "publisher": "iVoterGuide",
+       "url": "https://ivoterguide.com/candidate/94549/race/32436/election/1471",
+       "date": "2026"
+      },
+      {
+       "id": "p2-s3",
+       "title": "Anissa Chilmeran, Texas State Representative District 61",
+       "publisher": "Branch",
+       "url": "https://branch.vote/races/2026-texas-general-election-tx-state-state-representative-tx-state-house-61/candidates/anissa-chilmeran",
+       "date": "2026-09"
       }
      ],
-     "research_gaps": "No campaign platform, biography or questionnaire answers could be found; the website listed by Community Impact returned no content."
+     "research_gaps": "No campaign platform, issue positions or questionnaire answers were found; only basic biographical details from a voter guide."
     }
    ],
    "office": {
@@ -15020,6 +15575,24 @@
        "sources": [
         "s20"
        ]
+      },
+      {
+       "text": "Voted for SB 1 (2021, second called session), the election law changes that passed the House 80 to 41.",
+       "sources": [
+        "p2-s1"
+       ]
+      },
+      {
+       "text": "Voted against HJR 102 (2023), a proposed constitutional amendment to let voters decide on legalizing sports wagering; the House adopted it 101 to 42.",
+       "sources": [
+        "p2-s2"
+       ]
+      },
+      {
+       "text": "Voted against Amendment No. 22 to the 2026-2027 budget in April 2025, which would have directed HHSC to seek a waiver to expand Medicaid eligibility; it failed 63 to 85.",
+       "sources": [
+        "p2-s3"
+       ]
       }
      ],
      "notes": [
@@ -15174,6 +15747,30 @@
        "summary": "Says he would fund roads, water systems and the electric grid.",
        "sources": [
         "s1"
+       ]
+      },
+      "q_medicaid": {
+       "position": -1,
+       "basis": "record",
+       "summary": "Voted against a 2025 budget amendment directing the state to seek a federal waiver to expand Medicaid eligibility to all groups eligible for federal matching funds; it failed 63 to 85.",
+       "sources": [
+        "p2-s3"
+       ]
+      },
+      "q_voting_access": {
+       "position": -1,
+       "basis": "record",
+       "summary": "Voted for SB 1 (2021), which added new voting procedures and criminal penalties.",
+       "sources": [
+        "p2-s1"
+       ]
+      },
+      "q_gambling": {
+       "position": -1,
+       "basis": "record",
+       "summary": "Voted against HJR 102 (2023), which would have let voters decide whether to legalize sports wagering.",
+       "sources": [
+        "p2-s2"
        ]
       }
      },
@@ -15361,6 +15958,27 @@
        "publisher": "Texas Legislature Online",
        "url": "https://capitol.texas.gov/reports/report.aspx?LegSess=892&ID=author&Code=A2995",
        "date": null
+      },
+      {
+       "id": "p2-s1",
+       "title": "House Journal, 87th Legislature, Second Called Session, August 27, 2021 (SB 1 third reading)",
+       "publisher": "Texas House of Representatives",
+       "url": "https://journals.house.texas.gov/HJRNL/872/HTML/87C2DAY04FINAL.HTM",
+       "date": "2021-08-27"
+      },
+      {
+       "id": "p2-s2",
+       "title": "House Journal, 88th Legislature, May 11, 2023 (HJR 102 third reading)",
+       "publisher": "Texas House of Representatives",
+       "url": "https://journals.house.texas.gov/HJRNL/88R/HTML/88RDAY61FINAL.HTM",
+       "date": "2023-05-11"
+      },
+      {
+       "id": "p2-s3",
+       "title": "House Journal, 89th Legislature, April 10, 2025 (SB 1 budget amendments)",
+       "publisher": "Texas House of Representatives",
+       "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY42FINAL.HTM",
+       "date": "2025-04-10"
       }
      ],
      "research_gaps": "His campaign site lists no endorsements, and no 2026 newspaper questionnaire beyond Community Impact was found."
@@ -15411,6 +16029,24 @@
        "sources": [
         "s3"
        ]
+      },
+      {
+       "text": "Says he will support legislation to attract more insurers to Texas, incentives for disaster-resistant home upgrades and improvements to the Texas Windstorm Insurance Association to lower insurance costs.",
+       "sources": [
+        "p2-s1"
+       ]
+      },
+      {
+       "text": "Says he will work to fund school resource officers, threat detection technology and more school counselors.",
+       "sources": [
+        "p2-s1"
+       ]
+      },
+      {
+       "text": "Says he will push for transparency in insurance billing and protection from surprise medical bills.",
+       "sources": [
+        "p2-s1"
+       ]
       }
      ],
      "record": [],
@@ -15425,6 +16061,12 @@
        "text": "In May 2026 a social media post mocking his English drew wide attention; his campaign condemned it and called on Rep. Shaheen to denounce the rhetoric. No statement from Shaheen was reported.",
        "sources": [
         "s4"
+       ]
+      },
+      {
+       "text": "His campaign lists endorsements from Moms Demand Action (Gun Sense Candidate), Collin County Stonewall Democrats, Asian American Democrats of Texas, Plano Area Democrats, Frisco Democratic Club, Mental Health Now, The Hindu American PAC and the National Democratic Redistricting Committee, among others.",
+       "sources": [
+        "p2-s2"
        ]
       }
      ],
@@ -15446,10 +16088,11 @@
        ]
       },
       "q_medicaid": {
-       "position": 2,
+       "position": 1,
        "basis": "statement",
-       "summary": "Calls for expanding Medicaid and strengthening rural health care.",
+       "summary": "His campaign site supports exploring a state-managed Medicaid expansion with accountability measures and cost caps (replaces a stronger rating based on a third-party summary, since his own wording is conditional).",
        "sources": [
+        "p2-s1",
         "s3"
        ]
       },
@@ -15468,6 +16111,14 @@
        "summary": "Calls for ending Operation Lone Star so law enforcement can focus on criminal investigations.",
        "sources": [
         "s3"
+       ]
+      },
+      "q_gun_laws": {
+       "position": 1,
+       "basis": "inferred",
+       "summary": "Designated a Gun Sense Candidate by Moms Demand Action, a group that backs background checks and red flag laws; no direct statement on gun laws was found.",
+       "sources": [
+        "p2-s2"
        ]
       }
      },
@@ -15491,6 +16142,20 @@
        "summary": "Supports transparency in property tax rates, limits on steep increases and more local voter control.",
        "sources": [
         "s3"
+       ]
+      },
+      {
+       "topic": "Insurance",
+       "summary": "Proposes more insurer competition, state-backed incentives for storm-resistant homes, rate transparency and stronger state risk pools to lower home and auto insurance costs.",
+       "sources": [
+        "p2-s1"
+       ]
+      },
+      {
+       "topic": "Public Safety",
+       "summary": "Supports investment in local law enforcement with accountability, community-based crime prevention, mental health and drug treatment programs, and more support for crime victims.",
+       "sources": [
+        "p2-s1"
        ]
       }
      ],
@@ -15522,6 +16187,20 @@
        "publisher": "The American Bazaar",
        "url": "https://americanbazaaronline.com/?p=481708",
        "date": "2026-05-28"
+      },
+      {
+       "id": "p2-s1",
+       "title": "Issues",
+       "publisher": "Sandeep for Texas",
+       "url": "https://www.sandeepfortexas.com/issues.aspx",
+       "date": null
+      },
+      {
+       "id": "p2-s2",
+       "title": "Endorsement",
+       "publisher": "Sandeep for Texas",
+       "url": "https://www.sandeepfortexas.com/endorsement.aspx",
+       "date": null
       }
      ],
      "research_gaps": "His campaign site's issues page could not be loaded, so most positions come from a third-party profile summarizing his materials."
@@ -15666,6 +16345,30 @@
        "sources": [
         "s22"
        ]
+      },
+      {
+       "text": "Voted for SB 1 (2021, second called session), the election law changes that passed the House 80 to 41.",
+       "sources": [
+        "p2-s1"
+       ]
+      },
+      {
+       "text": "Authored HJR 102 (2023), a proposed constitutional amendment to let voters decide on legalizing sports wagering, which the House adopted 101 to 42; it did not pass the Senate.",
+       "sources": [
+        "p2-s2"
+       ]
+      },
+      {
+       "text": "Voted against Amendment No. 22 to the 2026-2027 budget in April 2025, which would have directed HHSC to seek a waiver to expand Medicaid eligibility; it failed 63 to 85.",
+       "sources": [
+        "p2-s3"
+       ]
+      },
+      {
+       "text": "Voted for HB 5115 (2025), increasing the criminal penalty for election fraud; it passed the House 88 to 54.",
+       "sources": [
+        "p2-s4"
+       ]
       }
      ],
      "notes": [
@@ -15809,6 +16512,38 @@
        "sources": [
         "s16",
         "s4"
+       ]
+      },
+      "q_medicaid": {
+       "position": -1,
+       "basis": "record",
+       "summary": "Voted against a 2025 budget amendment directing the state to seek a federal waiver to expand Medicaid eligibility to all groups eligible for federal matching funds; it failed 63 to 85.",
+       "sources": [
+        "p2-s3"
+       ]
+      },
+      "q_voting_access": {
+       "position": -1,
+       "basis": "record",
+       "summary": "Voted for SB 1 (2021), which added new voting procedures and criminal penalties.",
+       "sources": [
+        "p2-s1"
+       ]
+      },
+      "q_election_fraud": {
+       "position": 1,
+       "basis": "record",
+       "summary": "Voted for HB 5115 (2025) increasing the criminal penalty for election fraud.",
+       "sources": [
+        "p2-s4"
+       ]
+      },
+      "q_gambling": {
+       "position": 2,
+       "basis": "record",
+       "summary": "Authored and voted for HJR 102 (2023), which would have let voters decide whether to legalize sports wagering.",
+       "sources": [
+        "p2-s2"
        ]
       }
      },
@@ -16010,6 +16745,34 @@
        "publisher": "Texas Legislature Online",
        "url": "https://capitol.texas.gov/reports/report.aspx?LegSess=892&ID=author&Code=A2475",
        "date": null
+      },
+      {
+       "id": "p2-s1",
+       "title": "House Journal, 87th Legislature, Second Called Session, August 27, 2021 (SB 1 third reading)",
+       "publisher": "Texas House of Representatives",
+       "url": "https://journals.house.texas.gov/HJRNL/872/HTML/87C2DAY04FINAL.HTM",
+       "date": "2021-08-27"
+      },
+      {
+       "id": "p2-s2",
+       "title": "House Journal, 88th Legislature, May 11, 2023 (HJR 102 third reading)",
+       "publisher": "Texas House of Representatives",
+       "url": "https://journals.house.texas.gov/HJRNL/88R/HTML/88RDAY61FINAL.HTM",
+       "date": "2023-05-11"
+      },
+      {
+       "id": "p2-s3",
+       "title": "House Journal, 89th Legislature, April 10, 2025 (SB 1 budget amendments)",
+       "publisher": "Texas House of Representatives",
+       "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY42FINAL.HTM",
+       "date": "2025-04-10"
+      },
+      {
+       "id": "p2-s4",
+       "title": "House Journal, 89th Legislature, May 15, 2025 (HB 5115 third reading)",
+       "publisher": "Texas House of Representatives",
+       "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY65FINAL.HTM",
+       "date": "2025-05-15"
       }
      ],
      "research_gaps": "No 2026 Community Impact or newspaper questionnaire for District 67 was found."
@@ -16505,6 +17268,24 @@
        "sources": [
         "s24"
        ]
+      },
+      {
+       "text": "Voted for HJR 102 (2023), a proposed constitutional amendment to let voters decide on legalizing sports wagering; the House adopted it 101 to 42.",
+       "sources": [
+        "p2-s1"
+       ]
+      },
+      {
+       "text": "Voted for Amendment No. 22 to the 2026-2027 budget in April 2025, which would have directed HHSC to seek a waiver to expand Medicaid eligibility; it failed 63 to 85.",
+       "sources": [
+        "s9"
+       ]
+      },
+      {
+       "text": "Voted against HB 5115 (2025), increasing the criminal penalty for election fraud; it passed the House 88 to 54.",
+       "sources": [
+        "p2-s2"
+       ]
       }
      ],
      "notes": [
@@ -16634,6 +17415,30 @@
        "summary": "Supports investing in water infrastructure.",
        "sources": [
         "s1"
+       ]
+      },
+      "q_medicaid": {
+       "position": 1,
+       "basis": "record",
+       "summary": "Voted for a 2025 budget amendment directing the state to seek a federal waiver to expand Medicaid eligibility to all groups eligible for federal matching funds.",
+       "sources": [
+        "s9"
+       ]
+      },
+      "q_election_fraud": {
+       "position": -1,
+       "basis": "record",
+       "summary": "Voted against HB 5115 (2025), which increased the criminal penalty for election fraud.",
+       "sources": [
+        "p2-s2"
+       ]
+      },
+      "q_gambling": {
+       "position": 1,
+       "basis": "record",
+       "summary": "Voted for HJR 102 (2023), which would have let voters decide whether to legalize sports wagering.",
+       "sources": [
+        "p2-s1"
        ]
       }
      },
@@ -16849,6 +17654,20 @@
        "publisher": "Texas Legislature Online",
        "url": "https://capitol.texas.gov/reports/report.aspx?LegSess=88R&ID=author&Code=A4345",
        "date": null
+      },
+      {
+       "id": "p2-s1",
+       "title": "House Journal, 88th Legislature, May 11, 2023 (HJR 102 third reading)",
+       "publisher": "Texas House of Representatives",
+       "url": "https://journals.house.texas.gov/HJRNL/88R/HTML/88RDAY61FINAL.HTM",
+       "date": "2023-05-11"
+      },
+      {
+       "id": "p2-s2",
+       "title": "House Journal, 89th Legislature, May 15, 2025 (HB 5115 third reading)",
+       "publisher": "Texas House of Representatives",
+       "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY65FINAL.HTM",
+       "date": "2025-05-15"
       }
      ],
      "research_gaps": "Her campaign endorsements page listed no names when reviewed."
@@ -16999,6 +17818,30 @@
        "text": "Voted to impeach Attorney General Ken Paxton in May 2023.",
        "sources": [
         "s25"
+       ]
+      },
+      {
+       "text": "Voted for SB 1 (2021, second called session), the election law changes that passed the House 80 to 41.",
+       "sources": [
+        "p2-s1"
+       ]
+      },
+      {
+       "text": "Voted against HJR 102 (2023), a proposed constitutional amendment to let voters decide on legalizing sports wagering; the House adopted it 101 to 42.",
+       "sources": [
+        "p2-s2"
+       ]
+      },
+      {
+       "text": "Voted against Amendment No. 22 to the 2026-2027 budget in April 2025, which would have directed HHSC to seek a waiver to expand Medicaid eligibility; it failed 63 to 85.",
+       "sources": [
+        "p2-s3"
+       ]
+      },
+      {
+       "text": "Voted for HB 5115 (2025), increasing the criminal penalty for election fraud; it passed the House 88 to 54.",
+       "sources": [
+        "p2-s4"
        ]
       }
      ],
@@ -17151,6 +17994,38 @@
        "summary": "Says she plans to address power and water infrastructure.",
        "sources": [
         "s1"
+       ]
+      },
+      "q_medicaid": {
+       "position": -1,
+       "basis": "record",
+       "summary": "Voted against a 2025 budget amendment directing the state to seek a federal waiver to expand Medicaid eligibility to all groups eligible for federal matching funds; it failed 63 to 85.",
+       "sources": [
+        "p2-s3"
+       ]
+      },
+      "q_voting_access": {
+       "position": -1,
+       "basis": "record",
+       "summary": "Voted for SB 1 (2021), which added new voting procedures and criminal penalties.",
+       "sources": [
+        "p2-s1"
+       ]
+      },
+      "q_election_fraud": {
+       "position": 1,
+       "basis": "record",
+       "summary": "Voted for HB 5115 (2025) increasing the criminal penalty for election fraud.",
+       "sources": [
+        "p2-s4"
+       ]
+      },
+      "q_gambling": {
+       "position": -1,
+       "basis": "record",
+       "summary": "Voted against HJR 102 (2023), which would have let voters decide whether to legalize sports wagering.",
+       "sources": [
+        "p2-s2"
        ]
       }
      },
@@ -17367,6 +18242,34 @@
        "publisher": "Texas Legislature Online",
        "url": "https://capitol.texas.gov/reports/report.aspx?LegSess=89R&ID=author&Code=A3740",
        "date": null
+      },
+      {
+       "id": "p2-s1",
+       "title": "House Journal, 87th Legislature, Second Called Session, August 27, 2021 (SB 1 third reading)",
+       "publisher": "Texas House of Representatives",
+       "url": "https://journals.house.texas.gov/HJRNL/872/HTML/87C2DAY04FINAL.HTM",
+       "date": "2021-08-27"
+      },
+      {
+       "id": "p2-s2",
+       "title": "House Journal, 88th Legislature, May 11, 2023 (HJR 102 third reading)",
+       "publisher": "Texas House of Representatives",
+       "url": "https://journals.house.texas.gov/HJRNL/88R/HTML/88RDAY61FINAL.HTM",
+       "date": "2023-05-11"
+      },
+      {
+       "id": "p2-s3",
+       "title": "House Journal, 89th Legislature, April 10, 2025 (SB 1 budget amendments)",
+       "publisher": "Texas House of Representatives",
+       "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY42FINAL.HTM",
+       "date": "2025-04-10"
+      },
+      {
+       "id": "p2-s4",
+       "title": "House Journal, 89th Legislature, May 15, 2025 (HB 5115 third reading)",
+       "publisher": "Texas House of Representatives",
+       "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY65FINAL.HTM",
+       "date": "2025-05-15"
       }
      ],
      "research_gaps": "No statement explaining her vote against the HB 46 medical cannabis expansion was found."
@@ -17434,6 +18337,24 @@
        "sources": [
         "s4"
        ]
+      },
+      {
+       "text": "Says her first legislative priority is to immediately end education savings accounts and school vouchers.",
+       "sources": [
+        "p2-s1"
+       ]
+      },
+      {
+       "text": "Says she would raise the basic allotment by at least $1,000 per student and set a minimum teacher salary of at least $65,000, paid for with the state surplus.",
+       "sources": [
+        "p2-s1"
+       ]
+      },
+      {
+       "text": "Says she supports a state-funded, across-the-board pay raise for all educators and wants the state to match district contributions to TRS.",
+       "sources": [
+        "p2-s1"
+       ]
       }
      ],
      "record": [],
@@ -17442,6 +18363,12 @@
        "text": "Ran unopposed in the March 2026 Democratic primary.",
        "sources": [
         "s2"
+       ]
+      },
+      {
+       "text": "Her campaign lists endorsements from Moms Demand Action (Gun Sense Candidate), McKinney Area Democrats, Mothers Against Greg Abbott, Save Our Public Schools, Collin County Democrats with Disabilities, Mental Health Now and Blue Horizon.",
+       "sources": [
+        "p2-s2"
        ]
       }
      ],
@@ -17472,6 +18399,15 @@
         "s4",
         "s1"
        ]
+      },
+      "q_gun_laws": {
+       "position": 1,
+       "basis": "questionnaire",
+       "summary": "Told ATPE that improving school safety in the long term would require fundamental reforms to gun laws, and is designated a Gun Sense Candidate by Moms Demand Action.",
+       "sources": [
+        "p2-s1",
+        "p2-s2"
+       ]
       }
      },
      "issue_notes": [
@@ -17481,6 +18417,20 @@
        "sources": [
         "s4",
         "s1"
+       ]
+      },
+      {
+       "topic": "Testing and Accountability",
+       "summary": "Opposes the new through-year testing model under HB 8 and says test results should never be the sole factor in A-F ratings or used to penalize teachers financially.",
+       "sources": [
+        "p2-s1"
+       ]
+      },
+      {
+       "topic": "Voucher Program Oversight",
+       "summary": "Her campaign blog criticizes how the state education savings account program is run, including the vendor contract and the share of applicants already paying for private school.",
+       "sources": [
+        "p2-s3"
        ]
       }
      ],
@@ -17519,6 +18469,27 @@
        "publisher": "Citizens for Carraway",
        "url": "https://www.citizensforcarraway.com/bio",
        "date": null
+      },
+      {
+       "id": "p2-s1",
+       "title": "Angie Carraway: responses to the 2026 ATPE candidate survey",
+       "publisher": "ATPE Teach the Vote",
+       "url": "https://teachthevote.atpe.org/candidates/Angie-Carraway",
+       "date": "2026"
+      },
+      {
+       "id": "p2-s2",
+       "title": "Endorsements",
+       "publisher": "Citizens for Carraway",
+       "url": "https://www.citizensforcarraway.com/endorsements",
+       "date": null
+      },
+      {
+       "id": "p2-s3",
+       "title": "News and Updates",
+       "publisher": "Citizens for Carraway",
+       "url": "https://www.citizensforcarraway.com/news",
+       "date": "2026"
       }
      ],
      "research_gaps": "Her endorsements page displayed no organization names in text form, and no other questionnaire was found."
