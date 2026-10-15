@@ -27,10 +27,6 @@ export const config = {
   },
 };
 
-if (config.isVercel && !config.databaseUrl) {
-  // Serverless functions have no persistent disk, so SQLite data would vanish.
-  throw new Error('DATABASE_URL must be set when running on Vercel.');
-}
 if (config.adminToken && config.adminToken.length < 24) {
   throw new Error('ADMIN_TOKEN must be at least 24 characters.');
 }

@@ -9,3 +9,4 @@ outbox/
 client/js/shared/
 .vercel/
 coverage/
+client/data/

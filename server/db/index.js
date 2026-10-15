@@ -7,6 +7,13 @@ import { schema } from './schema.js';
 let ready;
 
 export function getDb() {
+  if (config.isVercel && !config.databaseUrl) {
+    // Serverless functions have no persistent disk, so SQLite data would vanish.
+    const err = new Error('Saving and loading results is not available yet because the database has not been set up.');
+    err.status = 503;
+    err.expose = true;
+    return Promise.reject(err);
+  }
   if (!ready) {
     ready = (async () => {
       const db = config.databaseUrl

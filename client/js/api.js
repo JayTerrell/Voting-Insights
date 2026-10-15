@@ -104,7 +104,7 @@ async function call(method, url, body) {
 let guidePromise;
 export function loadGuide() {
   if (!guidePromise) {
-    guidePromise = call('GET', '/api/guide').then((g) => {
+    guidePromise = call('GET', '/data/guide.json').then((g) => {
       g.candidateIndex = {};
       for (const race of g.races) for (const c of race.candidates) g.candidateIndex[c.id] = { ...c, race };
       g.questionIndex = Object.fromEntries(g.questions.map((q) => [q.id, q]));
@@ -118,7 +118,9 @@ export function loadGuide() {
 }
 
 let optionsPromise;
-export const loadFormOptions = () => (optionsPromise ||= call('GET', '/api/form-options'));
+// The API adds the site's contact address; the static copy works without the server.
+export const loadFormOptions = () =>
+  (optionsPromise ||= call('GET', '/api/form-options').catch(() => call('GET', '/data/form-options.json')));
 
 export const api = {
   register: (profile) => call('POST', '/api/register', profile),

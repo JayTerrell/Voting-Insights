@@ -57,11 +57,11 @@
       ]
     },
     {
-      "source": "/(css|js|img)/(.*)",
+      "source": "/(css|js|img|data)/(.*)",
       "headers": [
         {
           "key": "Cache-Control",
-          "value": "public, max-age=3600"
+          "value": "public, max-age=300"
         }
       ]
     }
