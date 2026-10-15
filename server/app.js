@@ -10,6 +10,7 @@ import { accountRoutes } from './routes/account.js';
 import { resultRoutes } from './routes/results.js';
 import { adminRoutes } from './routes/admin.js';
 import { pageRoutes } from './routes/pages.js';
+import { healthRoutes } from './routes/health.js';
 
 export function createApp() {
   const app = express();
@@ -20,6 +21,7 @@ export function createApp() {
   const api = express.Router();
   api.use(express.json({ limit: '32kb', strict: true }));
   api.use(guideRoutes);
+  api.use(healthRoutes);
   api.use(noStore, accountRoutes);
   api.use(noStore, resultRoutes);
   api.use('/admin', noStore, adminRoutes);

@@ -1,6 +1,13 @@
 // All runtime configuration comes from environment variables, read once here.
 
 const env = process.env;
+
+// Values pasted into hosting dashboards sometimes keep surrounding quotes or spaces.
+const clean = (v) =>
+  String(v ?? '')
+    .trim()
+    .replace(/^(['"])(.*)\1$/s, '$2')
+    .trim();
 const port = Number(env.PORT || 3000);
 
 export const config = {
@@ -11,7 +18,7 @@ export const config = {
   ).replace(/\/$/, ''),
   isVercel: Boolean(env.VERCEL),
   isProduction: env.NODE_ENV === 'production' || Boolean(env.VERCEL),
-  databaseUrl: env.DATABASE_URL || env.POSTGRES_URL || '',
+  databaseUrl: clean(env.DATABASE_URL || env.POSTGRES_URL),
   databaseCaCert: env.DATABASE_CA_CERT || '',
   sqlitePath: env.DATABASE_PATH || 'storage/voting-insights.db',
   adminToken: env.ADMIN_TOKEN || '',

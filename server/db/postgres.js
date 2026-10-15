@@ -16,13 +16,32 @@ const toPositional = (sql) => {
 // authority. When its certificate is supplied, connections are encrypted and
 // fully verified against it. SSL settings in the URL are removed so they
 // cannot override this.
+// Rebuilds PEM certificates from however they were pasted: with surrounding
+// quotes, literal "\n" sequences, Windows line endings, or lines run together.
+export function normalizePem(raw) {
+  const text = String(raw).replace(/\\n/g, '\n');
+  const blocks = text.match(/-----BEGIN CERTIFICATE-----[\s\S]*?-----END CERTIFICATE-----/g) || [];
+  return blocks
+    .map((block) => {
+      const body = block.replace(/-----(BEGIN|END) CERTIFICATE-----/g, '').replace(/[^A-Za-z0-9+/=]/g, '');
+      return `-----BEGIN CERTIFICATE-----\n${body.match(/.{1,64}/g).join('\n')}\n-----END CERTIFICATE-----\n`;
+    })
+    .join('');
+}
+
 function connectionOptions(connectionString, caCert) {
   if (!caCert) return { connectionString };
+  const ca = normalizePem(caCert);
+  if (!ca) {
+    const err = new Error('DATABASE_CA_CERT does not contain a PEM certificate (no start line).');
+    err.code = 'ERR_OSSL_PEM_NO_START_LINE';
+    throw err;
+  }
   const url = new URL(connectionString);
   for (const key of ['sslmode', 'sslrootcert', 'sslcert', 'sslkey', 'uselibpqcompat']) url.searchParams.delete(key);
   return {
     connectionString: url.toString(),
-    ssl: { ca: caCert.replace(/\\n/g, '\n'), rejectUnauthorized: true },
+    ssl: { ca, rejectUnauthorized: true },
   };
 }
 
