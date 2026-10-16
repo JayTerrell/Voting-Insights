@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T15:24:14.387Z",
+ "generated_at": "2026-10-16T15:24:52.733Z",
  "election": {
   "name": "2026 November General Election",
   "county": "Collin County, Texas",
@@ -42372,7 +42372,7 @@
        ]
       },
       {
-       "text": "Voted for HB 2 (2025 school finance) on third reading and for concurring in the final Senate version.",
+       "text": "Voted for HB 2 (2025 school finance) on third reading and voted to concur in the final Senate version.",
        "sources": [
         "s4",
         "s7"
@@ -42391,7 +42391,7 @@
        ]
       },
       {
-       "text": "Voted for SJR 5 and against SB 9 (2025), the bail constitutional amendment and bail procedures bill.",
+       "text": "Voted for SJR 5 (the 2025 bail constitutional amendment) and voted against SB 9 (2025 bail procedures).",
        "sources": [
         "s10",
         "s11"
@@ -42404,7 +42404,7 @@
        ]
       },
       {
-       "text": "In 2025 voted against SB 8 (requiring certain sheriffs to enter agreements with ICE), SB 1362 (barring enforcement of extreme risk protective orders).",
+       "text": "In 2025 voted against SB 8 (requiring certain sheriffs to enter agreements with ICE) and SB 1362 (barring enforcement of extreme risk protective orders).",
        "sources": [
         "s9",
         "s13"
@@ -42418,7 +42418,7 @@
        ]
       },
       {
-       "text": "In 2023 voted against SB 14 (ban on gender transition treatments for minors), HB 2127 (state preemption of local regulations), SB 3 (state border barrier funding), SB 4 (state illegal entry offense).",
+       "text": "In 2023 voted against SB 14 (ban on gender transition treatments for minors), HB 2127 (state preemption of local regulations), SB 3 (state border barrier funding) and SB 4 (state illegal entry offense).",
        "sources": [
         "s16",
         "s17",
@@ -42440,7 +42440,8 @@
       {
        "text": "Was recorded absent on August 5, 2025, when the House lacked a quorum during the House Democrats' walkout over congressional redistricting.",
        "sources": [
-        "s21"
+        "s21",
+        "s22"
        ]
       }
      ],
@@ -42448,7 +42449,7 @@
       {
        "text": "Ran unopposed in the 2026 Democratic primary; no other candidate is listed for this seat in this guide's roster.",
        "sources": [
-        "s22"
+        "s23"
        ]
       },
       {
@@ -42728,6 +42729,13 @@
       },
       {
        "id": "s22",
+       "title": "Texas Supreme Court rejects Abbott's request to remove Democratic Rep. Gene Wu over redistricting protest",
+       "publisher": "Texas Tribune",
+       "url": "https://www.texastribune.org/2026/05/15/texas-supreme-court-gene-wu-greg-abbott-redistricting-map-quorum-break/",
+       "date": "2026-05-15"
+      },
+      {
+       "id": "s23",
        "title": "Toni Rose (candidate profile, voting record and survey responses)",
        "publisher": "ATPE Teach the Vote",
        "url": "https://www.teachthevote.org/candidates/toni-rose",
@@ -42787,7 +42795,7 @@
        ]
       },
       {
-       "text": "Voted for HB 2 (2025 school finance) on third reading and for concurring in the final Senate version.",
+       "text": "Voted for HB 2 (2025 school finance) on third reading and voted to concur in the final Senate version.",
        "sources": [
         "s3",
         "s6"
@@ -42800,7 +42808,7 @@
        ]
       },
       {
-       "text": "Voted against SJR 5 and against SB 9 (2025), the bail constitutional amendment and bail procedures bill.",
+       "text": "Voted against SJR 5 (the 2025 bail constitutional amendment) and voted against SB 9 (2025 bail procedures).",
        "sources": [
         "s8",
         "s9"
@@ -42813,7 +42821,7 @@
        ]
       },
       {
-       "text": "In 2025 voted against SB 17 (land purchases tied to designated foreign adversaries), SB 1362 (barring enforcement of extreme risk protective orders).",
+       "text": "In 2025 voted against SB 17 (land purchases tied to designated foreign adversaries) and SB 1362 (barring enforcement of extreme risk protective orders).",
        "sources": [
         "s11",
         "s12"
@@ -42827,7 +42835,7 @@
        ]
       },
       {
-       "text": "In 2023 voted against SB 14 (ban on gender transition treatments for minors), HB 2127 (state preemption of local regulations), SB 3 (state border barrier funding), SB 4 (state illegal entry offense).",
+       "text": "In 2023 voted against SB 14 (ban on gender transition treatments for minors), HB 2127 (state preemption of local regulations), SB 3 (state border barrier funding) and SB 4 (state illegal entry offense).",
        "sources": [
         "s15",
         "s16",
@@ -42843,7 +42851,8 @@
       {
        "text": "Was recorded absent on August 5, 2025, when the House lacked a quorum during the House Democrats' walkout over congressional redistricting.",
        "sources": [
-        "s19"
+        "s19",
+        "s20"
        ]
       }
      ],
@@ -42857,7 +42866,7 @@
       {
        "text": "Was recorded absent for the January 2025 Speaker runoff vote.",
        "sources": [
-        "s20"
+        "s21"
        ]
       }
      ],
@@ -43092,6 +43101,13 @@
       },
       {
        "id": "s20",
+       "title": "Texas Supreme Court rejects Abbott's request to remove Democratic Rep. Gene Wu over redistricting protest",
+       "publisher": "Texas Tribune",
+       "url": "https://www.texastribune.org/2026/05/15/texas-supreme-court-gene-wu-greg-abbott-redistricting-map-quorum-break/",
+       "date": "2026-05-15"
+      },
+      {
+       "id": "s21",
        "title": "Texas House Journal, 89th Legislature, Regular Session, 1st Day (Speaker election, Record 3)",
        "publisher": "Texas House of Representatives",
        "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY01FINAL.HTM",
@@ -43183,7 +43199,7 @@
        ]
       },
       {
-       "text": "Voted for HB 2 (2025 school finance) on third reading and for concurring in the final Senate version.",
+       "text": "Voted for HB 2 (2025 school finance) on third reading and voted to concur in the final Senate version.",
        "sources": [
         "s4",
         "s7"
@@ -43202,7 +43218,7 @@
        ]
       },
       {
-       "text": "Voted for SJR 5 and for SB 9 (2025), the bail constitutional amendment and bail procedures bill.",
+       "text": "Voted for SJR 5 (the 2025 bail constitutional amendment) and voted for SB 9 (2025 bail procedures).",
        "sources": [
         "s10",
         "s11"
@@ -43215,7 +43231,7 @@
        ]
       },
       {
-       "text": "In 2025 voted for SB 17 (land purchases tied to designated foreign adversaries), SB 8 (requiring certain sheriffs to enter agreements with ICE), SB 1362 (barring enforcement of extreme risk protective orders).",
+       "text": "In 2025 voted for SB 17 (land purchases tied to designated foreign adversaries), SB 8 (requiring certain sheriffs to enter agreements with ICE) and SB 1362 (barring enforcement of extreme risk protective orders).",
        "sources": [
         "s13",
         "s9",
@@ -43230,7 +43246,7 @@
        ]
       },
       {
-       "text": "In 2023 voted for SB 14 (ban on gender transition treatments for minors), HB 2127 (state preemption of local regulations), SB 3 (state border barrier funding), SB 4 (state illegal entry offense).",
+       "text": "In 2023 voted for SB 14 (ban on gender transition treatments for minors), HB 2127 (state preemption of local regulations), SB 3 (state border barrier funding) and SB 4 (state illegal entry offense).",
        "sources": [
         "s17",
         "s18",
@@ -43822,7 +43838,7 @@
        ]
       },
       {
-       "text": "Voted for HB 2 (2025 school finance) on third reading and for concurring in the final Senate version.",
+       "text": "Voted for HB 2 (2025 school finance) on third reading and voted to concur in the final Senate version.",
        "sources": [
         "s4",
         "s7"
@@ -43841,7 +43857,7 @@
        ]
       },
       {
-       "text": "Voted for SJR 5 and against SB 9 (2025), the bail constitutional amendment and bail procedures bill.",
+       "text": "Voted for SJR 5 (the 2025 bail constitutional amendment) and voted against SB 9 (2025 bail procedures).",
        "sources": [
         "s10",
         "s11"
@@ -43854,7 +43870,7 @@
        ]
       },
       {
-       "text": "In 2025 voted against SB 17 (land purchases tied to designated foreign adversaries), SB 8 (requiring certain sheriffs to enter agreements with ICE), SB 1362 (barring enforcement of extreme risk protective orders).",
+       "text": "In 2025 voted against SB 17 (land purchases tied to designated foreign adversaries), SB 8 (requiring certain sheriffs to enter agreements with ICE) and SB 1362 (barring enforcement of extreme risk protective orders).",
        "sources": [
         "s13",
         "s9",
@@ -43869,7 +43885,7 @@
        ]
       },
       {
-       "text": "In 2023 voted against SB 14 (ban on gender transition treatments for minors), HB 2127 (state preemption of local regulations), SB 3 (state border barrier funding), SB 4 (state illegal entry offense).",
+       "text": "In 2023 voted against SB 14 (ban on gender transition treatments for minors), HB 2127 (state preemption of local regulations), SB 3 (state border barrier funding) and SB 4 (state illegal entry offense).",
        "sources": [
         "s17",
         "s18",
@@ -43891,7 +43907,8 @@
       {
        "text": "Was recorded absent on August 5, 2025, when the House lacked a quorum during the House Democrats' walkout over congressional redistricting.",
        "sources": [
-        "s22"
+        "s22",
+        "s23"
        ]
       }
      ],
@@ -43899,7 +43916,7 @@
       {
        "text": "Endorsed by Texas Parent PAC in 2018, 2020 and 2022, according to ATPE.",
        "sources": [
-        "s23"
+        "s24"
        ]
       }
      ],
@@ -44181,6 +44198,13 @@
       },
       {
        "id": "s23",
+       "title": "Texas Supreme Court rejects Abbott's request to remove Democratic Rep. Gene Wu over redistricting protest",
+       "publisher": "Texas Tribune",
+       "url": "https://www.texastribune.org/2026/05/15/texas-supreme-court-gene-wu-greg-abbott-redistricting-map-quorum-break/",
+       "date": "2026-05-15"
+      },
+      {
+       "id": "s24",
        "title": "Rhetta Bowers (candidate profile, voting record and survey responses)",
        "publisher": "ATPE Teach the Vote",
        "url": "https://www.teachthevote.org/candidates/rhetta-bowers",
@@ -44331,7 +44355,7 @@
        ]
       },
       {
-       "text": "Voted for HB 2 (2025 school finance) on third reading and for concurring in the final Senate version.",
+       "text": "Voted for HB 2 (2025 school finance) on third reading and voted to concur in the final Senate version.",
        "sources": [
         "s4",
         "s7"
@@ -44350,7 +44374,7 @@
        ]
       },
       {
-       "text": "Voted for SJR 5 and against SB 9 (2025), the bail constitutional amendment and bail procedures bill.",
+       "text": "Voted for SJR 5 (the 2025 bail constitutional amendment) and voted against SB 9 (2025 bail procedures).",
        "sources": [
         "s10",
         "s11"
@@ -44363,7 +44387,7 @@
        ]
       },
       {
-       "text": "In 2025 voted against SB 17 (land purchases tied to designated foreign adversaries), SB 8 (requiring certain sheriffs to enter agreements with ICE), SB 1362 (barring enforcement of extreme risk protective orders).",
+       "text": "In 2025 voted against SB 17 (land purchases tied to designated foreign adversaries), SB 8 (requiring certain sheriffs to enter agreements with ICE) and SB 1362 (barring enforcement of extreme risk protective orders).",
        "sources": [
         "s13",
         "s9",
@@ -44378,7 +44402,7 @@
        ]
       },
       {
-       "text": "In 2023 voted against SB 14 (ban on gender transition treatments for minors), HB 2127 (state preemption of local regulations), SB 3 (state border barrier funding), SB 4 (state illegal entry offense).",
+       "text": "In 2023 voted against SB 14 (ban on gender transition treatments for minors), HB 2127 (state preemption of local regulations), SB 3 (state border barrier funding) and SB 4 (state illegal entry offense).",
        "sources": [
         "s17",
         "s18",
@@ -44394,7 +44418,8 @@
       {
        "text": "Was recorded absent on August 5, 2025, when the House lacked a quorum during the House Democrats' walkout over congressional redistricting.",
        "sources": [
-        "s21"
+        "s21",
+        "s22"
        ]
       }
      ],
@@ -44402,7 +44427,7 @@
       {
        "text": "Was recorded present but not voting in the January 2025 Speaker runoff.",
        "sources": [
-        "s22"
+        "s23"
        ]
       },
       {
@@ -44699,6 +44724,13 @@
       },
       {
        "id": "s22",
+       "title": "Texas Supreme Court rejects Abbott's request to remove Democratic Rep. Gene Wu over redistricting protest",
+       "publisher": "Texas Tribune",
+       "url": "https://www.texastribune.org/2026/05/15/texas-supreme-court-gene-wu-greg-abbott-redistricting-map-quorum-break/",
+       "date": "2026-05-15"
+      },
+      {
+       "id": "s23",
        "title": "Texas House Journal, 89th Legislature, Regular Session, 1st Day (Speaker election, Record 3)",
        "publisher": "Texas House of Representatives",
        "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY01FINAL.HTM",
@@ -44871,7 +44903,7 @@
        ]
       },
       {
-       "text": "Voted for HB 2 (2025 school finance) on third reading and for concurring in the final Senate version.",
+       "text": "Voted for HB 2 (2025 school finance) on third reading and voted to concur in the final Senate version.",
        "sources": [
         "s4",
         "s5"
@@ -44890,7 +44922,7 @@
        ]
       },
       {
-       "text": "Voted for SJR 5 and for SB 9 (2025), the bail constitutional amendment and bail procedures bill.",
+       "text": "Voted for SJR 5 (the 2025 bail constitutional amendment) and voted for SB 9 (2025 bail procedures).",
        "sources": [
         "s8",
         "s9"
@@ -44903,7 +44935,7 @@
        ]
       },
       {
-       "text": "In 2025 voted against SB 17 (land purchases tied to designated foreign adversaries), SB 8 (requiring certain sheriffs to enter agreements with ICE), SB 1362 (barring enforcement of extreme risk protective orders).",
+       "text": "In 2025 voted against SB 17 (land purchases tied to designated foreign adversaries), SB 8 (requiring certain sheriffs to enter agreements with ICE) and SB 1362 (barring enforcement of extreme risk protective orders).",
        "sources": [
         "s11",
         "s7",
@@ -44926,7 +44958,8 @@
       {
        "text": "Was recorded absent on August 5, 2025, when the House lacked a quorum during the House Democrats' walkout over congressional redistricting.",
        "sources": [
-        "s16"
+        "s16",
+        "s17"
        ]
       }
      ],
@@ -45149,6 +45182,13 @@
        "publisher": "Texas House of Representatives",
        "url": "https://journals.house.texas.gov/HJRNL/891/HTML/89C1DAY06FINAL.HTM",
        "date": "2025-08-05"
+      },
+      {
+       "id": "s17",
+       "title": "Texas Supreme Court rejects Abbott's request to remove Democratic Rep. Gene Wu over redistricting protest",
+       "publisher": "Texas Tribune",
+       "url": "https://www.texastribune.org/2026/05/15/texas-supreme-court-gene-wu-greg-abbott-redistricting-map-quorum-break/",
+       "date": "2026-05-15"
       }
      ],
      "research_gaps": "Did not respond to the 2026 ATPE survey; no 2026 questionnaire answers were found.",
@@ -60351,7 +60391,7 @@
        ]
       },
       {
-       "text": "Voted for HB 2 (2025 school finance) on third reading and for concurring in the final Senate version.",
+       "text": "Voted for HB 2 (2025 school finance) on third reading and voted to concur in the final Senate version.",
        "sources": [
         "s5",
         "s8"
@@ -60370,7 +60410,7 @@
        ]
       },
       {
-       "text": "Voted for SJR 5 and for SB 9 (2025), the bail constitutional amendment and bail procedures bill.",
+       "text": "Voted for SJR 5 (the 2025 bail constitutional amendment) and voted for SB 9 (2025 bail procedures).",
        "sources": [
         "s11",
         "s12"
@@ -60383,7 +60423,7 @@
        ]
       },
       {
-       "text": "In 2025 voted for SB 17 (land purchases tied to designated foreign adversaries), SB 8 (requiring certain sheriffs to enter agreements with ICE), SB 1362 (barring enforcement of extreme risk protective orders).",
+       "text": "In 2025 voted for SB 17 (land purchases tied to designated foreign adversaries), SB 8 (requiring certain sheriffs to enter agreements with ICE) and SB 1362 (barring enforcement of extreme risk protective orders).",
        "sources": [
         "s14",
         "s10",
@@ -60398,7 +60438,7 @@
        ]
       },
       {
-       "text": "In 2023 voted for SB 14 (ban on gender transition treatments for minors), HB 2127 (state preemption of local regulations), SB 3 (state border barrier funding), SB 4 (state illegal entry offense).",
+       "text": "In 2023 voted for SB 14 (ban on gender transition treatments for minors), HB 2127 (state preemption of local regulations), SB 3 (state border barrier funding) and SB 4 (state illegal entry offense).",
        "sources": [
         "s18",
         "s19",
@@ -61441,7 +61481,7 @@
        ]
       },
       {
-       "text": "Voted for HB 2 (2025 school finance) on third reading and for concurring in the final Senate version.",
+       "text": "Voted for HB 2 (2025 school finance) on third reading and voted to concur in the final Senate version.",
        "sources": [
         "s5",
         "s8"
@@ -61460,7 +61500,7 @@
        ]
       },
       {
-       "text": "Voted for SJR 5 and for SB 9 (2025), the bail constitutional amendment and bail procedures bill.",
+       "text": "Voted for SJR 5 (the 2025 bail constitutional amendment) and voted for SB 9 (2025 bail procedures).",
        "sources": [
         "s11",
         "s12"
@@ -61473,7 +61513,7 @@
        ]
       },
       {
-       "text": "In 2025 voted for SB 17 (land purchases tied to designated foreign adversaries), SB 8 (requiring certain sheriffs to enter agreements with ICE), SB 1362 (barring enforcement of extreme risk protective orders).",
+       "text": "In 2025 voted for SB 17 (land purchases tied to designated foreign adversaries), SB 8 (requiring certain sheriffs to enter agreements with ICE) and SB 1362 (barring enforcement of extreme risk protective orders).",
        "sources": [
         "s14",
         "s10",
@@ -61488,7 +61528,7 @@
        ]
       },
       {
-       "text": "In 2023 voted for SB 14 (ban on gender transition treatments for minors), HB 2127 (state preemption of local regulations), SB 3 (state border barrier funding), SB 4 (state illegal entry offense).",
+       "text": "In 2023 voted for SB 14 (ban on gender transition treatments for minors), HB 2127 (state preemption of local regulations), SB 3 (state border barrier funding) and SB 4 (state illegal entry offense).",
        "sources": [
         "s18",
         "s19",
@@ -62178,7 +62218,7 @@
        ]
       },
       {
-       "text": "Voted for HB 2 (2025 school finance) on third reading and for concurring in the final Senate version.",
+       "text": "Voted for HB 2 (2025 school finance) on third reading and voted to concur in the final Senate version.",
        "sources": [
         "s5",
         "s8"
@@ -62197,7 +62237,7 @@
        ]
       },
       {
-       "text": "Voted for SJR 5 and for SB 9 (2025), the bail constitutional amendment and bail procedures bill.",
+       "text": "Voted for SJR 5 (the 2025 bail constitutional amendment) and voted for SB 9 (2025 bail procedures).",
        "sources": [
         "s11",
         "s12"
@@ -62210,7 +62250,7 @@
        ]
       },
       {
-       "text": "In 2025 voted for SB 17 (land purchases tied to designated foreign adversaries), SB 8 (requiring certain sheriffs to enter agreements with ICE), SB 1362 (barring enforcement of extreme risk protective orders).",
+       "text": "In 2025 voted for SB 17 (land purchases tied to designated foreign adversaries), SB 8 (requiring certain sheriffs to enter agreements with ICE) and SB 1362 (barring enforcement of extreme risk protective orders).",
        "sources": [
         "s14",
         "s10",
@@ -62225,7 +62265,7 @@
        ]
       },
       {
-       "text": "In 2023 voted for SB 14 (ban on gender transition treatments for minors), HB 2127 (state preemption of local regulations), SB 3 (state border barrier funding), SB 4 (state illegal entry offense).",
+       "text": "In 2023 voted for SB 14 (ban on gender transition treatments for minors), HB 2127 (state preemption of local regulations), SB 3 (state border barrier funding) and SB 4 (state illegal entry offense).",
        "sources": [
         "s18",
         "s19",
@@ -62700,7 +62740,7 @@
        ]
       },
       {
-       "text": "Voted for HB 2 (2025 school finance) on third reading and for concurring in the final Senate version.",
+       "text": "Voted for HB 2 (2025 school finance) on third reading and voted to concur in the final Senate version.",
        "sources": [
         "s4",
         "s7"
@@ -62719,7 +62759,7 @@
        ]
       },
       {
-       "text": "Voted for SJR 5 and for SB 9 (2025), the bail constitutional amendment and bail procedures bill.",
+       "text": "Voted for SJR 5 (the 2025 bail constitutional amendment) and voted for SB 9 (2025 bail procedures).",
        "sources": [
         "s10",
         "s11"
@@ -62732,7 +62772,7 @@
        ]
       },
       {
-       "text": "In 2025 voted for SB 17 (land purchases tied to designated foreign adversaries), SB 8 (requiring certain sheriffs to enter agreements with ICE), SB 1362 (barring enforcement of extreme risk protective orders).",
+       "text": "In 2025 voted for SB 17 (land purchases tied to designated foreign adversaries), SB 8 (requiring certain sheriffs to enter agreements with ICE) and SB 1362 (barring enforcement of extreme risk protective orders).",
        "sources": [
         "s13",
         "s9",
@@ -62747,7 +62787,7 @@
        ]
       },
       {
-       "text": "In 2023 voted for SB 14 (ban on gender transition treatments for minors), HB 2127 (state preemption of local regulations), SB 3 (state border barrier funding), SB 4 (state illegal entry offense).",
+       "text": "In 2023 voted for SB 14 (ban on gender transition treatments for minors), HB 2127 (state preemption of local regulations), SB 3 (state border barrier funding) and SB 4 (state illegal entry offense).",
        "sources": [
         "s17",
         "s18",
@@ -63280,7 +63320,7 @@
        ]
       },
       {
-       "text": "Voted for HB 2 (2025 school finance) on third reading and for concurring in the final Senate version.",
+       "text": "Voted for HB 2 (2025 school finance) on third reading and voted to concur in the final Senate version.",
        "sources": [
         "s5",
         "s8"
@@ -63299,7 +63339,7 @@
        ]
       },
       {
-       "text": "Voted for SJR 5 and for SB 9 (2025), the bail constitutional amendment and bail procedures bill.",
+       "text": "Voted for SJR 5 (the 2025 bail constitutional amendment) and voted for SB 9 (2025 bail procedures).",
        "sources": [
         "s11",
         "s12"
@@ -63312,7 +63352,7 @@
        ]
       },
       {
-       "text": "In 2025 voted against SB 17 (land purchases tied to designated foreign adversaries), SB 8 (requiring certain sheriffs to enter agreements with ICE), SB 1362 (barring enforcement of extreme risk protective orders).",
+       "text": "In 2025 voted against SB 17 (land purchases tied to designated foreign adversaries), SB 8 (requiring certain sheriffs to enter agreements with ICE) and SB 1362 (barring enforcement of extreme risk protective orders).",
        "sources": [
         "s14",
         "s10",
@@ -63326,7 +63366,7 @@
        ]
       },
       {
-       "text": "In 2023 voted against SB 14 (ban on gender transition treatments for minors), HB 2127 (state preemption of local regulations), SB 3 (state border barrier funding), SB 4 (state illegal entry offense).",
+       "text": "In 2023 voted against SB 14 (ban on gender transition treatments for minors), HB 2127 (state preemption of local regulations), SB 3 (state border barrier funding) and SB 4 (state illegal entry offense).",
        "sources": [
         "s17",
         "s18",
@@ -63348,7 +63388,8 @@
       {
        "text": "Was recorded absent on August 5, 2025, when the House lacked a quorum during the House Democrats' walkout over congressional redistricting.",
        "sources": [
-        "s22"
+        "s22",
+        "s23"
        ]
       }
      ],
@@ -63356,13 +63397,13 @@
       {
        "text": "Ran unopposed in the 2026 Democratic primary, according to ATPE.",
        "sources": [
-        "s23"
+        "s24"
        ]
       },
       {
        "text": "Endorsed by Texas Parent PAC in 2020 and 2022, according to ATPE.",
        "sources": [
-        "s23"
+        "s24"
        ]
       }
      ],
@@ -63485,7 +63526,7 @@
        "summary": "Passed a 2023 law protecting doctors who perform emergency abortions and voted against HB 7.",
        "sources": [
         "s3",
-        "s24"
+        "s25"
        ]
       }
      },
@@ -63655,13 +63696,20 @@
       },
       {
        "id": "s23",
+       "title": "Texas Supreme Court rejects Abbott's request to remove Democratic Rep. Gene Wu over redistricting protest",
+       "publisher": "Texas Tribune",
+       "url": "https://www.texastribune.org/2026/05/15/texas-supreme-court-gene-wu-greg-abbott-redistricting-map-quorum-break/",
+       "date": "2026-05-15"
+      },
+      {
+       "id": "s24",
        "title": "Ann Johnson (candidate profile, voting record and survey responses)",
        "publisher": "ATPE Teach the Vote",
        "url": "https://www.teachthevote.org/candidates/ann-johnson",
        "date": null
       },
       {
-       "id": "s24",
+       "id": "s25",
        "title": "Texas House Journal, 89th Legislature, Second Called Session, 10th Day (SB 8 Record 134; HB 7 Record 135)",
        "publisher": "Texas House of Representatives",
        "url": "https://journals.house.texas.gov/HJRNL/892/HTML/89C2DAY10FINAL.HTM",
@@ -64083,7 +64131,7 @@
        ]
       },
       {
-       "text": "Voted for HB 2 (2025 school finance) on third reading and against concurring in the final Senate version.",
+       "text": "Voted for HB 2 (2025 school finance) on third reading and voted against concurring in the final Senate version.",
        "sources": [
         "s6",
         "s7"
@@ -64102,7 +64150,7 @@
        ]
       },
       {
-       "text": "Voted for SJR 5 and for SB 9 (2025), the bail constitutional amendment and bail procedures bill.",
+       "text": "Voted for SJR 5 (the 2025 bail constitutional amendment) and voted for SB 9 (2025 bail procedures).",
        "sources": [
         "s10",
         "s11"
@@ -64115,7 +64163,7 @@
        ]
       },
       {
-       "text": "In 2025 voted against SB 17 (land purchases tied to designated foreign adversaries), SB 8 (requiring certain sheriffs to enter agreements with ICE), SB 1362 (barring enforcement of extreme risk protective orders).",
+       "text": "In 2025 voted against SB 17 (land purchases tied to designated foreign adversaries), SB 8 (requiring certain sheriffs to enter agreements with ICE) and SB 1362 (barring enforcement of extreme risk protective orders).",
        "sources": [
         "s13",
         "s9",
@@ -64130,7 +64178,7 @@
        ]
       },
       {
-       "text": "In 2023 voted against SB 14 (ban on gender transition treatments for minors), SB 3 (state border barrier funding), SB 4 (state illegal entry offense).",
+       "text": "In 2023 voted against SB 14 (ban on gender transition treatments for minors), SB 3 (state border barrier funding) and SB 4 (state illegal entry offense).",
        "sources": [
         "s17",
         "s18"
@@ -64151,7 +64199,8 @@
       {
        "text": "Was recorded absent on August 5, 2025, when the House lacked a quorum during the House Democrats' walkout over congressional redistricting.",
        "sources": [
-        "s21"
+        "s21",
+        "s22"
        ]
       }
      ],
@@ -64508,7 +64557,7 @@
        ]
       },
       {
-       "text": "Voted for HB 2 (2025 school finance) on third reading and for concurring in the final Senate version.",
+       "text": "Voted for HB 2 (2025 school finance) on third reading and voted to concur in the final Senate version.",
        "sources": [
         "s3",
         "s6"
@@ -64527,7 +64576,7 @@
        ]
       },
       {
-       "text": "Voted for SJR 5 and for SB 9 (2025), the bail constitutional amendment and bail procedures bill.",
+       "text": "Voted for SJR 5 (the 2025 bail constitutional amendment) and voted for SB 9 (2025 bail procedures).",
        "sources": [
         "s9",
         "s10"
@@ -64540,7 +64589,7 @@
        ]
       },
       {
-       "text": "In 2025 voted for SB 17 (land purchases tied to designated foreign adversaries), SB 8 (requiring certain sheriffs to enter agreements with ICE), SB 1362 (barring enforcement of extreme risk protective orders).",
+       "text": "In 2025 voted for SB 17 (land purchases tied to designated foreign adversaries), SB 8 (requiring certain sheriffs to enter agreements with ICE) and SB 1362 (barring enforcement of extreme risk protective orders).",
        "sources": [
         "s12",
         "s8",
@@ -64555,7 +64604,7 @@
        ]
       },
       {
-       "text": "In 2023 voted for SB 14 (ban on gender transition treatments for minors), HB 2127 (state preemption of local regulations), SB 3 (state border barrier funding), SB 4 (state illegal entry offense).",
+       "text": "In 2023 voted for SB 14 (ban on gender transition treatments for minors), HB 2127 (state preemption of local regulations), SB 3 (state border barrier funding) and SB 4 (state illegal entry offense).",
        "sources": [
         "s16",
         "s17",
@@ -65039,7 +65088,7 @@
        ]
       },
       {
-       "text": "Voted for HB 2 (2025 school finance) on third reading and for concurring in the final Senate version.",
+       "text": "Voted for HB 2 (2025 school finance) on third reading and voted to concur in the final Senate version.",
        "sources": [
         "s5",
         "s6"
@@ -65058,7 +65107,7 @@
        ]
       },
       {
-       "text": "Voted for SJR 5 and for SB 9 (2025), the bail constitutional amendment and bail procedures bill.",
+       "text": "Voted for SJR 5 (the 2025 bail constitutional amendment) and voted for SB 9 (2025 bail procedures).",
        "sources": [
         "s9",
         "s10"
@@ -65071,7 +65120,7 @@
        ]
       },
       {
-       "text": "In 2025 voted against SB 17 (land purchases tied to designated foreign adversaries), SB 8 (requiring certain sheriffs to enter agreements with ICE), SB 1362 (barring enforcement of extreme risk protective orders).",
+       "text": "In 2025 voted against SB 17 (land purchases tied to designated foreign adversaries), SB 8 (requiring certain sheriffs to enter agreements with ICE) and SB 1362 (barring enforcement of extreme risk protective orders).",
        "sources": [
         "s12",
         "s8",
@@ -65087,7 +65136,8 @@
       {
        "text": "Was recorded absent on August 5, 2025, when the House lacked a quorum during the House Democrats' walkout over congressional redistricting.",
        "sources": [
-        "s15"
+        "s15",
+        "s16"
        ]
       }
      ],
@@ -65095,7 +65145,7 @@
       {
        "text": "Was recorded present but not voting in the January 2025 Speaker runoff and entered a statement that she intended to vote for Dustin Burrows.",
        "sources": [
-        "s16"
+        "s17"
        ]
       }
      ],
@@ -65300,6 +65350,13 @@
       },
       {
        "id": "s16",
+       "title": "Texas Supreme Court rejects Abbott's request to remove Democratic Rep. Gene Wu over redistricting protest",
+       "publisher": "Texas Tribune",
+       "url": "https://www.texastribune.org/2026/05/15/texas-supreme-court-gene-wu-greg-abbott-redistricting-map-quorum-break/",
+       "date": "2026-05-15"
+      },
+      {
+       "id": "s17",
        "title": "Texas House Journal, 89th Legislature, Regular Session, 1st Day (Speaker election, Record 3)",
        "publisher": "Texas House of Representatives",
        "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY01FINAL.HTM",
@@ -65398,7 +65455,7 @@
        ]
       },
       {
-       "text": "Voted for HB 2 (2025 school finance) on third reading and for concurring in the final Senate version.",
+       "text": "Voted for HB 2 (2025 school finance) on third reading and voted to concur in the final Senate version.",
        "sources": [
         "s4",
         "s7"
@@ -65411,7 +65468,7 @@
        ]
       },
       {
-       "text": "Voted for SJR 5 and for SB 9 (2025), the bail constitutional amendment and bail procedures bill.",
+       "text": "Voted for SJR 5 (the 2025 bail constitutional amendment) and voted for SB 9 (2025 bail procedures).",
        "sources": [
         "s9",
         "s10"
@@ -65424,7 +65481,7 @@
        ]
       },
       {
-       "text": "In 2025 voted against SB 17 (land purchases tied to designated foreign adversaries), SB 1362 (barring enforcement of extreme risk protective orders).",
+       "text": "In 2025 voted against SB 17 (land purchases tied to designated foreign adversaries) and SB 1362 (barring enforcement of extreme risk protective orders).",
        "sources": [
         "s12",
         "s13"
@@ -65437,7 +65494,7 @@
        ]
       },
       {
-       "text": "In 2023 voted against SB 14 (ban on gender transition treatments for minors), SB 3 (state border barrier funding), SB 4 (state illegal entry offense).",
+       "text": "In 2023 voted against SB 14 (ban on gender transition treatments for minors), SB 3 (state border barrier funding) and SB 4 (state illegal entry offense).",
        "sources": [
         "s15",
         "s16"
@@ -65458,7 +65515,8 @@
       {
        "text": "Was recorded absent on August 5, 2025, when the House lacked a quorum during the House Democrats' walkout over congressional redistricting.",
        "sources": [
-        "s19"
+        "s19",
+        "s20"
        ]
       }
      ],
@@ -65472,8 +65530,8 @@
       {
        "text": "Was excused for several May and August 2025 votes, including SB 8, SB 10 and the second special session votes on SB 8 and HB 7.",
        "sources": [
-        "s20",
-        "s21"
+        "s21",
+        "s22"
        ]
       }
      ],
@@ -65692,13 +65750,20 @@
       },
       {
        "id": "s20",
+       "title": "Texas Supreme Court rejects Abbott's request to remove Democratic Rep. Gene Wu over redistricting protest",
+       "publisher": "Texas Tribune",
+       "url": "https://www.texastribune.org/2026/05/15/texas-supreme-court-gene-wu-greg-abbott-redistricting-map-quorum-break/",
+       "date": "2026-05-15"
+      },
+      {
+       "id": "s21",
        "title": "Texas House Journal, 89th Legislature, Regular Session, 73rd Day (SB 8 Record 3502; SB 10 Record 3503)",
        "publisher": "Texas House of Representatives",
        "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY73FINAL.HTM",
        "date": "2025-05"
       },
       {
-       "id": "s21",
+       "id": "s22",
        "title": "Texas House Journal, 89th Legislature, Second Called Session, 10th Day (SB 8 Record 134; HB 7 Record 135)",
        "publisher": "Texas House of Representatives",
        "url": "https://journals.house.texas.gov/HJRNL/892/HTML/89C2DAY10FINAL.HTM",
@@ -65831,7 +65896,7 @@
        ]
       },
       {
-       "text": "Voted for HB 2 (2025 school finance) on third reading and for concurring in the final Senate version.",
+       "text": "Voted for HB 2 (2025 school finance) on third reading and voted to concur in the final Senate version.",
        "sources": [
         "s4",
         "s7"
@@ -65850,7 +65915,7 @@
        ]
       },
       {
-       "text": "Voted for SJR 5 and against SB 9 (2025), the bail constitutional amendment and bail procedures bill.",
+       "text": "Voted for SJR 5 (the 2025 bail constitutional amendment) and voted against SB 9 (2025 bail procedures).",
        "sources": [
         "s10",
         "s11"
@@ -65863,7 +65928,7 @@
        ]
       },
       {
-       "text": "In 2025 voted against SB 17 (land purchases tied to designated foreign adversaries), SB 8 (requiring certain sheriffs to enter agreements with ICE), SB 1362 (barring enforcement of extreme risk protective orders).",
+       "text": "In 2025 voted against SB 17 (land purchases tied to designated foreign adversaries), SB 8 (requiring certain sheriffs to enter agreements with ICE) and SB 1362 (barring enforcement of extreme risk protective orders).",
        "sources": [
         "s13",
         "s9",
@@ -65878,7 +65943,7 @@
        ]
       },
       {
-       "text": "In 2023 voted against SB 14 (ban on gender transition treatments for minors), HB 2127 (state preemption of local regulations), SB 3 (state border barrier funding), SB 4 (state illegal entry offense).",
+       "text": "In 2023 voted against SB 14 (ban on gender transition treatments for minors), HB 2127 (state preemption of local regulations), SB 3 (state border barrier funding) and SB 4 (state illegal entry offense).",
        "sources": [
         "s17",
         "s18",
@@ -65900,7 +65965,8 @@
       {
        "text": "Was recorded absent on August 5, 2025, when the House lacked a quorum during the House Democrats' walkout over congressional redistricting.",
        "sources": [
-        "s22"
+        "s22",
+        "s23"
        ]
       }
      ],
@@ -65908,7 +65974,7 @@
       {
        "text": "Ran unopposed in the 2026 Democratic primary, according to ATPE.",
        "sources": [
-        "s23"
+        "s24"
        ]
       },
       {
@@ -66194,6 +66260,13 @@
       },
       {
        "id": "s23",
+       "title": "Texas Supreme Court rejects Abbott's request to remove Democratic Rep. Gene Wu over redistricting protest",
+       "publisher": "Texas Tribune",
+       "url": "https://www.texastribune.org/2026/05/15/texas-supreme-court-gene-wu-greg-abbott-redistricting-map-quorum-break/",
+       "date": "2026-05-15"
+      },
+      {
+       "id": "s24",
        "title": "Senfronia Thompson (candidate profile, voting record and survey responses)",
        "publisher": "ATPE Teach the Vote",
        "url": "https://www.teachthevote.org/candidates/senfronia-thompson",
@@ -66370,56 +66443,56 @@
        ]
       },
       {
-       "text": "Voted for SB 9 (2025), the bail constitutional amendment and bail procedures bill.",
+       "text": "Voted for SB 9 (2025 bail procedures).",
        "sources": [
-        "s9",
-        "s10"
+        "s9"
        ]
       },
       {
        "text": "Voted against SB 3 (2025), which would have banned most hemp-derived THC products, on third reading.",
        "sources": [
-        "s11"
+        "s10"
        ]
       },
       {
-       "text": "In 2025 voted against SB 17 (land purchases tied to designated foreign adversaries), SB 8 (requiring certain sheriffs to enter agreements with ICE), SB 1362 (barring enforcement of extreme risk protective orders).",
+       "text": "In 2025 voted against SB 17 (land purchases tied to designated foreign adversaries), SB 8 (requiring certain sheriffs to enter agreements with ICE) and SB 1362 (barring enforcement of extreme risk protective orders).",
        "sources": [
-        "s12",
+        "s11",
         "s8",
-        "s13"
+        "s12"
        ]
       },
       {
        "text": "In the August 2025 second special session voted against HB 4 (2025 mid-decade congressional redistricting) and against HB 7 (2025, civil lawsuits over abortion-inducing drugs).",
        "sources": [
-        "s14",
-        "s15"
+        "s13",
+        "s14"
        ]
       },
       {
-       "text": "In 2023 voted for SB 14 (ban on gender transition treatments for minors) and against HB 2127 (state preemption of local regulations), SB 3 (state border barrier funding), SB 4 (state illegal entry offense).",
+       "text": "In 2023 voted for SB 14 (ban on gender transition treatments for minors); against HB 2127 (state preemption of local regulations), SB 3 (state border barrier funding) and SB 4 (state illegal entry offense).",
        "sources": [
+        "s15",
         "s16",
-        "s17",
-        "s18"
+        "s17"
        ]
       },
       {
        "text": "Was recorded present but not voting on the May 2023 impeachment of Attorney General Ken Paxton.",
        "sources": [
-        "s19"
+        "s18"
        ]
       },
       {
        "text": "Voted for Dustin Burrows over David Cook in the January 2025 runoff vote for Speaker of the House.",
        "sources": [
-        "s20"
+        "s19"
        ]
       },
       {
        "text": "Was recorded absent on August 5, 2025, when the House lacked a quorum during the House Democrats' walkout over congressional redistricting.",
        "sources": [
+        "s20",
         "s21"
        ]
       }
@@ -66440,7 +66513,7 @@
       {
        "text": "Was recorded present but not voting on the 2023 Paxton impeachment and on the April 2023 voucher amendment.",
        "sources": [
-        "s19",
+        "s18",
         "s5"
        ]
       }
@@ -66486,7 +66559,7 @@
        "basis": "record",
        "summary": "Voted for SB 9 in 2025.",
        "sources": [
-        "s10"
+        "s9"
        ]
       },
       "q_cannabis": {
@@ -66494,7 +66567,7 @@
        "basis": "record",
        "summary": "Voted against SB 3 (2025), which would have banned most hemp-derived THC products.",
        "sources": [
-        "s11"
+        "s10"
        ]
       },
       "q_gun_laws": {
@@ -66502,7 +66575,7 @@
        "basis": "record",
        "summary": "Voted against SB 1362 (2025) barring enforcement of extreme risk protective orders.",
        "sources": [
-        "s13"
+        "s12"
        ]
       },
       "q_foreign_land": {
@@ -66510,7 +66583,7 @@
        "basis": "record",
        "summary": "Voted against SB 17 (2025) restricting land purchases tied to designated foreign adversaries.",
        "sources": [
-        "s12"
+        "s11"
        ]
       },
       "q_deportation": {
@@ -66526,7 +66599,7 @@
        "basis": "record",
        "summary": "Voted against HB 7 (2025) authorizing civil lawsuits over abortion-inducing drugs.",
        "sources": [
-        "s15"
+        "s14"
        ]
       },
       "q_trans_minors": {
@@ -66534,7 +66607,7 @@
        "basis": "record",
        "summary": "Voted for SB 14 in 2023.",
        "sources": [
-        "s16"
+        "s15"
        ]
       },
       "q_preemption": {
@@ -66542,7 +66615,7 @@
        "basis": "record",
        "summary": "Voted against HB 2127 in 2023.",
        "sources": [
-        "s17"
+        "s16"
        ]
       },
       "q_border_state": {
@@ -66550,7 +66623,7 @@
        "basis": "record",
        "summary": "Voted against 2023 state border barrier funding (SB 3, fourth called session).",
        "sources": [
-        "s18"
+        "s17"
        ]
       },
       "q_voting_access": {
@@ -66630,94 +66703,94 @@
       },
       {
        "id": "s9",
-       "title": "Texas House Journal, 89th Legislature, Regular Session, 67th Day (SJR 5, Record 2931)",
-       "publisher": "Texas House of Representatives",
-       "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY67FINAL.HTM",
-       "date": "2025-05"
-      },
-      {
-       "id": "s10",
        "title": "Texas House Journal, 89th Legislature, Regular Session, 68th Day (SB 9, Record 3003)",
        "publisher": "Texas House of Representatives",
        "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY68FINAL.HTM",
        "date": "2025-05"
       },
       {
-       "id": "s11",
+       "id": "s10",
        "title": "Texas House Journal, 89th Legislature, Regular Session, 70th Day (SB 3, Record 3304)",
        "publisher": "Texas House of Representatives",
        "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY70FINAL.HTM",
        "date": "2025-05"
       },
       {
-       "id": "s12",
+       "id": "s11",
        "title": "Texas House Journal, 89th Legislature, Regular Session, 60th Day (SB 17, Record 1881)",
        "publisher": "Texas House of Representatives",
        "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY60FINAL.HTM",
        "date": "2025-05"
       },
       {
-       "id": "s13",
+       "id": "s12",
        "title": "Texas House Journal, 89th Legislature, Regular Session, 76th Day (SB 1362, Record 3869)",
        "publisher": "Texas House of Representatives",
        "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY76FINAL.HTM",
        "date": "2025-05"
       },
       {
-       "id": "s14",
+       "id": "s13",
        "title": "Texas House Journal, 89th Legislature, Second Called Session, 5th Day (HB 4 congressional redistricting, Record 30)",
        "publisher": "Texas House of Representatives",
        "url": "https://journals.house.texas.gov/HJRNL/892/HTML/89C2DAY05FINAL.HTM",
        "date": "2025-08"
       },
       {
-       "id": "s15",
+       "id": "s14",
        "title": "Texas House Journal, 89th Legislature, Second Called Session, 10th Day (SB 8 Record 134; HB 7 Record 135)",
        "publisher": "Texas House of Representatives",
        "url": "https://journals.house.texas.gov/HJRNL/892/HTML/89C2DAY10FINAL.HTM",
        "date": "2025-08"
       },
       {
-       "id": "s16",
+       "id": "s15",
        "title": "Texas House Journal, 88th Legislature, Regular Session, 63rd Day (SB 14, Record 1688)",
        "publisher": "Texas House of Representatives",
        "url": "https://journals.house.texas.gov/HJRNL/88R/HTML/88RDAY63FINAL.HTM",
        "date": "2023-05"
       },
       {
-       "id": "s17",
+       "id": "s16",
        "title": "Texas House Journal, 88th Legislature, Regular Session, 67th Day (HB 2127 concurrence, Record 1882)",
        "publisher": "Texas House of Representatives",
        "url": "https://journals.house.texas.gov/HJRNL/88R/HTML/88RDAY67FINAL.HTM",
        "date": "2023-05"
       },
       {
-       "id": "s18",
+       "id": "s17",
        "title": "Texas House Journal, 88th Legislature, Fourth Called Session, 5th Day (SB 3 Record 37; SB 4 Record 48)",
        "publisher": "Texas House of Representatives",
        "url": "https://journals.house.texas.gov/HJRNL/884/HTML/88C4DAY05FINAL.HTM",
        "date": "2023-11"
       },
       {
-       "id": "s19",
+       "id": "s18",
        "title": "Texas House Journal, 88th Legislature, Regular Session, 73rd Day (HR 2377 impeachment, Record 2191)",
        "publisher": "Texas House of Representatives",
        "url": "https://journals.house.texas.gov/HJRNL/88R/HTML/88RDAY73FINAL.HTM",
        "date": "2023-05-27"
       },
       {
-       "id": "s20",
+       "id": "s19",
        "title": "Texas House Journal, 89th Legislature, Regular Session, 1st Day (Speaker election, Record 3)",
        "publisher": "Texas House of Representatives",
        "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY01FINAL.HTM",
        "date": "2025-01-14"
       },
       {
-       "id": "s21",
+       "id": "s20",
        "title": "Texas House Journal, 89th Legislature, First Called Session, 6th Day (quorum roll call, Record 9)",
        "publisher": "Texas House of Representatives",
        "url": "https://journals.house.texas.gov/HJRNL/891/HTML/89C1DAY06FINAL.HTM",
        "date": "2025-08-05"
+      },
+      {
+       "id": "s21",
+       "title": "Texas Supreme Court rejects Abbott's request to remove Democratic Rep. Gene Wu over redistricting protest",
+       "publisher": "Texas Tribune",
+       "url": "https://www.texastribune.org/2026/05/15/texas-supreme-court-gene-wu-greg-abbott-redistricting-map-quorum-break/",
+       "date": "2026-05-15"
       },
       {
        "id": "s22",
@@ -66806,7 +66879,7 @@
        ]
       },
       {
-       "text": "Voted for HB 2 (2025 school finance) on third reading and for concurring in the final Senate version.",
+       "text": "Voted for HB 2 (2025 school finance) on third reading and voted to concur in the final Senate version.",
        "sources": [
         "s4",
         "s7"
@@ -66825,7 +66898,7 @@
        ]
       },
       {
-       "text": "Voted for SJR 5 and for SB 9 (2025), the bail constitutional amendment and bail procedures bill.",
+       "text": "Voted for SJR 5 (the 2025 bail constitutional amendment) and voted for SB 9 (2025 bail procedures).",
        "sources": [
         "s10",
         "s11"
@@ -66838,7 +66911,7 @@
        ]
       },
       {
-       "text": "In 2025 voted against SB 17 (land purchases tied to designated foreign adversaries), SB 8 (requiring certain sheriffs to enter agreements with ICE), SB 1362 (barring enforcement of extreme risk protective orders).",
+       "text": "In 2025 voted against SB 17 (land purchases tied to designated foreign adversaries), SB 8 (requiring certain sheriffs to enter agreements with ICE) and SB 1362 (barring enforcement of extreme risk protective orders).",
        "sources": [
         "s13",
         "s9",
@@ -66852,7 +66925,7 @@
        ]
       },
       {
-       "text": "In 2023 voted against SB 14 (ban on gender transition treatments for minors), SB 3 (state border barrier funding), SB 4 (state illegal entry offense).",
+       "text": "In 2023 voted against SB 14 (ban on gender transition treatments for minors), SB 3 (state border barrier funding) and SB 4 (state illegal entry offense).",
        "sources": [
         "s16",
         "s17"
@@ -66873,7 +66946,8 @@
       {
        "text": "Was recorded absent on August 5, 2025, when the House lacked a quorum during the House Democrats' walkout over congressional redistricting.",
        "sources": [
-        "s20"
+        "s20",
+        "s21"
        ]
       }
      ],
@@ -67120,6 +67194,13 @@
        "publisher": "Texas House of Representatives",
        "url": "https://journals.house.texas.gov/HJRNL/891/HTML/89C1DAY06FINAL.HTM",
        "date": "2025-08-05"
+      },
+      {
+       "id": "s21",
+       "title": "Texas Supreme Court rejects Abbott's request to remove Democratic Rep. Gene Wu over redistricting protest",
+       "publisher": "Texas Tribune",
+       "url": "https://www.texastribune.org/2026/05/15/texas-supreme-court-gene-wu-greg-abbott-redistricting-map-quorum-break/",
+       "date": "2026-05-15"
       }
      ],
      "research_gaps": "No 2026 questionnaire answers were found and her campaign site blocked automated access.",
@@ -67235,7 +67316,7 @@
        ]
       },
       {
-       "text": "Voted for HB 2 (2025 school finance) on third reading and for concurring in the final Senate version.",
+       "text": "Voted for HB 2 (2025 school finance) on third reading and voted to concur in the final Senate version.",
        "sources": [
         "s4",
         "s7"
@@ -67254,7 +67335,7 @@
        ]
       },
       {
-       "text": "Voted for SJR 5 and for SB 9 (2025), the bail constitutional amendment and bail procedures bill.",
+       "text": "Voted for SJR 5 (the 2025 bail constitutional amendment) and voted for SB 9 (2025 bail procedures).",
        "sources": [
         "s10",
         "s11"
@@ -67267,7 +67348,7 @@
        ]
       },
       {
-       "text": "In 2025 voted against SB 17 (land purchases tied to designated foreign adversaries), SB 8 (requiring certain sheriffs to enter agreements with ICE), SB 1362 (barring enforcement of extreme risk protective orders).",
+       "text": "In 2025 voted against SB 17 (land purchases tied to designated foreign adversaries), SB 8 (requiring certain sheriffs to enter agreements with ICE) and SB 1362 (barring enforcement of extreme risk protective orders).",
        "sources": [
         "s13",
         "s9",
@@ -67282,7 +67363,7 @@
        ]
       },
       {
-       "text": "In 2023 voted against SB 14 (ban on gender transition treatments for minors), HB 2127 (state preemption of local regulations), SB 3 (state border barrier funding), SB 4 (state illegal entry offense).",
+       "text": "In 2023 voted against SB 14 (ban on gender transition treatments for minors), HB 2127 (state preemption of local regulations), SB 3 (state border barrier funding) and SB 4 (state illegal entry offense).",
        "sources": [
         "s17",
         "s18",
@@ -67298,7 +67379,8 @@
       {
        "text": "Was recorded absent on August 5, 2025, when the House lacked a quorum during the House Democrats' walkout over congressional redistricting.",
        "sources": [
-        "s21"
+        "s21",
+        "s22"
        ]
       }
      ],
@@ -67574,6 +67656,13 @@
        "publisher": "Texas House of Representatives",
        "url": "https://journals.house.texas.gov/HJRNL/891/HTML/89C1DAY06FINAL.HTM",
        "date": "2025-08-05"
+      },
+      {
+       "id": "s22",
+       "title": "Texas Supreme Court rejects Abbott's request to remove Democratic Rep. Gene Wu over redistricting protest",
+       "publisher": "Texas Tribune",
+       "url": "https://www.texastribune.org/2026/05/15/texas-supreme-court-gene-wu-greg-abbott-redistricting-map-quorum-break/",
+       "date": "2026-05-15"
       }
      ],
      "research_gaps": "Did not respond to the 2026 ATPE survey; no 2026 questionnaire answers were found.",
@@ -67697,7 +67786,7 @@
        ]
       },
       {
-       "text": "Voted for HB 2 (2025 school finance) on third reading and for concurring in the final Senate version.",
+       "text": "Voted for HB 2 (2025 school finance) on third reading and voted to concur in the final Senate version.",
        "sources": [
         "s5",
         "s8"
@@ -67716,7 +67805,7 @@
        ]
       },
       {
-       "text": "Was present but not voting on SJR 5 and against SB 9 (2025), the bail constitutional amendment and bail procedures bill.",
+       "text": "Was present but not voting on SJR 5 (the 2025 bail constitutional amendment) and voted against SB 9 (2025 bail procedures).",
        "sources": [
         "s11",
         "s12"
@@ -67729,7 +67818,7 @@
        ]
       },
       {
-       "text": "In 2025 voted against SB 17 (land purchases tied to designated foreign adversaries), SB 8 (requiring certain sheriffs to enter agreements with ICE), SB 1362 (barring enforcement of extreme risk protective orders).",
+       "text": "In 2025 voted against SB 17 (land purchases tied to designated foreign adversaries), SB 8 (requiring certain sheriffs to enter agreements with ICE) and SB 1362 (barring enforcement of extreme risk protective orders).",
        "sources": [
         "s14",
         "s10",
@@ -67737,7 +67826,7 @@
        ]
       },
       {
-       "text": "In 2023 voted against SB 14 (ban on gender transition treatments for minors), HB 2127 (state preemption of local regulations), SB 3 (state border barrier funding), SB 4 (state illegal entry offense).",
+       "text": "In 2023 voted against SB 14 (ban on gender transition treatments for minors), HB 2127 (state preemption of local regulations), SB 3 (state border barrier funding) and SB 4 (state illegal entry offense).",
        "sources": [
         "s16",
         "s17",
@@ -67753,7 +67842,8 @@
       {
        "text": "Was recorded absent on August 5, 2025, when the House lacked a quorum during the House Democrats' walkout over congressional redistricting.",
        "sources": [
-        "s20"
+        "s20",
+        "s21"
        ]
       }
      ],
@@ -67767,7 +67857,7 @@
       {
        "text": "Was recorded present but not voting in the January 2025 Speaker runoff.",
        "sources": [
-        "s21"
+        "s22"
        ]
       }
      ],
@@ -68017,6 +68107,13 @@
       },
       {
        "id": "s21",
+       "title": "Texas Supreme Court rejects Abbott's request to remove Democratic Rep. Gene Wu over redistricting protest",
+       "publisher": "Texas Tribune",
+       "url": "https://www.texastribune.org/2026/05/15/texas-supreme-court-gene-wu-greg-abbott-redistricting-map-quorum-break/",
+       "date": "2026-05-15"
+      },
+      {
+       "id": "s22",
        "title": "Texas House Journal, 89th Legislature, Regular Session, 1st Day (Speaker election, Record 3)",
        "publisher": "Texas House of Representatives",
        "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY01FINAL.HTM",
@@ -68210,7 +68307,7 @@
        ]
       },
       {
-       "text": "Voted for SJR 5 and for SB 9 (2025), the bail constitutional amendment and bail procedures bill.",
+       "text": "Voted for SJR 5 (the 2025 bail constitutional amendment) and voted for SB 9 (2025 bail procedures).",
        "sources": [
         "s8",
         "s9"
@@ -68243,7 +68340,8 @@
       {
        "text": "Was recorded absent on August 5, 2025, when the House lacked a quorum during the House Democrats' walkout over congressional redistricting.",
        "sources": [
-        "s14"
+        "s14",
+        "s15"
        ]
       }
      ],
@@ -68447,6 +68545,13 @@
        "publisher": "Texas House of Representatives",
        "url": "https://journals.house.texas.gov/HJRNL/891/HTML/89C1DAY06FINAL.HTM",
        "date": "2025-08-05"
+      },
+      {
+       "id": "s15",
+       "title": "Texas Supreme Court rejects Abbott's request to remove Democratic Rep. Gene Wu over redistricting protest",
+       "publisher": "Texas Tribune",
+       "url": "https://www.texastribune.org/2026/05/15/texas-supreme-court-gene-wu-greg-abbott-redistricting-map-quorum-break/",
+       "date": "2026-05-15"
       }
      ],
      "research_gaps": "Did not respond to the 2026 ATPE survey.",
@@ -68595,7 +68700,7 @@
        ]
       },
       {
-       "text": "Voted for HB 2 (2025 school finance) on third reading and for concurring in the final Senate version.",
+       "text": "Voted for HB 2 (2025 school finance) on third reading and voted to concur in the final Senate version.",
        "sources": [
         "s5",
         "s8"
@@ -68614,49 +68719,49 @@
        ]
       },
       {
-       "text": "Voted for SJR 5 (2025), the bail constitutional amendment and bail procedures bill.",
+       "text": "Voted for SJR 5 (the 2025 bail constitutional amendment).",
        "sources": [
-        "s11",
-        "s12"
+        "s11"
        ]
       },
       {
        "text": "Voted against SB 3 (2025), which would have banned most hemp-derived THC products, on third reading.",
        "sources": [
-        "s13"
+        "s12"
        ]
       },
       {
-       "text": "In 2025 voted against SB 17 (land purchases tied to designated foreign adversaries), SB 8 (requiring certain sheriffs to enter agreements with ICE), SB 1362 (barring enforcement of extreme risk protective orders).",
+       "text": "In 2025 voted against SB 17 (land purchases tied to designated foreign adversaries), SB 8 (requiring certain sheriffs to enter agreements with ICE) and SB 1362 (barring enforcement of extreme risk protective orders).",
        "sources": [
-        "s14",
+        "s13",
         "s10",
-        "s15"
+        "s14"
        ]
       },
       {
        "text": "In the August 2025 second special session voted against HB 7 (2025, civil lawsuits over abortion-inducing drugs).",
        "sources": [
-        "s16"
+        "s15"
        ]
       },
       {
-       "text": "In 2023 voted against SB 14 (ban on gender transition treatments for minors), HB 2127 (state preemption of local regulations), SB 3 (state border barrier funding), SB 4 (state illegal entry offense).",
+       "text": "In 2023 voted against SB 14 (ban on gender transition treatments for minors), HB 2127 (state preemption of local regulations), SB 3 (state border barrier funding) and SB 4 (state illegal entry offense).",
        "sources": [
+        "s16",
         "s17",
-        "s18",
-        "s19"
+        "s18"
        ]
       },
       {
        "text": "Voted for impeaching Attorney General Ken Paxton in May 2023.",
        "sources": [
-        "s20"
+        "s19"
        ]
       },
       {
        "text": "Was recorded absent on August 5, 2025, when the House lacked a quorum during the House Democrats' walkout over congressional redistricting.",
        "sources": [
+        "s20",
         "s21"
        ]
       }
@@ -68719,7 +68824,7 @@
        "basis": "record",
        "summary": "Voted against SB 3 (2025), which would have banned most hemp-derived THC products.",
        "sources": [
-        "s13"
+        "s12"
        ]
       },
       "q_gun_laws": {
@@ -68727,7 +68832,7 @@
        "basis": "record",
        "summary": "Voted against SB 1362 (2025) barring enforcement of extreme risk protective orders.",
        "sources": [
-        "s15"
+        "s14"
        ]
       },
       "q_foreign_land": {
@@ -68735,7 +68840,7 @@
        "basis": "record",
        "summary": "Voted against SB 17 (2025) restricting land purchases tied to designated foreign adversaries.",
        "sources": [
-        "s14"
+        "s13"
        ]
       },
       "q_deportation": {
@@ -68751,7 +68856,7 @@
        "basis": "record",
        "summary": "Voted against HB 7 (2025) authorizing civil lawsuits over abortion-inducing drugs.",
        "sources": [
-        "s16"
+        "s15"
        ]
       },
       "q_trans_minors": {
@@ -68759,7 +68864,7 @@
        "basis": "record",
        "summary": "Voted against SB 14 in 2023.",
        "sources": [
-        "s17"
+        "s16"
        ]
       },
       "q_preemption": {
@@ -68767,7 +68872,7 @@
        "basis": "record",
        "summary": "Voted against HB 2127 in 2023.",
        "sources": [
-        "s18"
+        "s17"
        ]
       },
       "q_border_state": {
@@ -68775,7 +68880,7 @@
        "basis": "record",
        "summary": "Voted against 2023 state border barrier funding (SB 3, fourth called session).",
        "sources": [
-        "s19"
+        "s18"
        ]
       },
       "q_min_wage": {
@@ -68877,73 +68982,73 @@
       },
       {
        "id": "s12",
-       "title": "Texas House Journal, 89th Legislature, Regular Session, 68th Day (SB 9, Record 3003)",
-       "publisher": "Texas House of Representatives",
-       "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY68FINAL.HTM",
-       "date": "2025-05"
-      },
-      {
-       "id": "s13",
        "title": "Texas House Journal, 89th Legislature, Regular Session, 70th Day (SB 3, Record 3304)",
        "publisher": "Texas House of Representatives",
        "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY70FINAL.HTM",
        "date": "2025-05"
       },
       {
-       "id": "s14",
+       "id": "s13",
        "title": "Texas House Journal, 89th Legislature, Regular Session, 60th Day (SB 17, Record 1881)",
        "publisher": "Texas House of Representatives",
        "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY60FINAL.HTM",
        "date": "2025-05"
       },
       {
-       "id": "s15",
+       "id": "s14",
        "title": "Texas House Journal, 89th Legislature, Regular Session, 76th Day (SB 1362, Record 3869)",
        "publisher": "Texas House of Representatives",
        "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY76FINAL.HTM",
        "date": "2025-05"
       },
       {
-       "id": "s16",
+       "id": "s15",
        "title": "Texas House Journal, 89th Legislature, Second Called Session, 10th Day (SB 8 Record 134; HB 7 Record 135)",
        "publisher": "Texas House of Representatives",
        "url": "https://journals.house.texas.gov/HJRNL/892/HTML/89C2DAY10FINAL.HTM",
        "date": "2025-08"
       },
       {
-       "id": "s17",
+       "id": "s16",
        "title": "Texas House Journal, 88th Legislature, Regular Session, 63rd Day (SB 14, Record 1688)",
        "publisher": "Texas House of Representatives",
        "url": "https://journals.house.texas.gov/HJRNL/88R/HTML/88RDAY63FINAL.HTM",
        "date": "2023-05"
       },
       {
-       "id": "s18",
+       "id": "s17",
        "title": "Texas House Journal, 88th Legislature, Regular Session, 67th Day (HB 2127 concurrence, Record 1882)",
        "publisher": "Texas House of Representatives",
        "url": "https://journals.house.texas.gov/HJRNL/88R/HTML/88RDAY67FINAL.HTM",
        "date": "2023-05"
       },
       {
-       "id": "s19",
+       "id": "s18",
        "title": "Texas House Journal, 88th Legislature, Fourth Called Session, 5th Day (SB 3 Record 37; SB 4 Record 48)",
        "publisher": "Texas House of Representatives",
        "url": "https://journals.house.texas.gov/HJRNL/884/HTML/88C4DAY05FINAL.HTM",
        "date": "2023-11"
       },
       {
-       "id": "s20",
+       "id": "s19",
        "title": "Texas House Journal, 88th Legislature, Regular Session, 73rd Day (HR 2377 impeachment, Record 2191)",
        "publisher": "Texas House of Representatives",
        "url": "https://journals.house.texas.gov/HJRNL/88R/HTML/88RDAY73FINAL.HTM",
        "date": "2023-05-27"
       },
       {
-       "id": "s21",
+       "id": "s20",
        "title": "Texas House Journal, 89th Legislature, First Called Session, 6th Day (quorum roll call, Record 9)",
        "publisher": "Texas House of Representatives",
        "url": "https://journals.house.texas.gov/HJRNL/891/HTML/89C1DAY06FINAL.HTM",
        "date": "2025-08-05"
+      },
+      {
+       "id": "s21",
+       "title": "Texas Supreme Court rejects Abbott's request to remove Democratic Rep. Gene Wu over redistricting protest",
+       "publisher": "Texas Tribune",
+       "url": "https://www.texastribune.org/2026/05/15/texas-supreme-court-gene-wu-greg-abbott-redistricting-map-quorum-break/",
+       "date": "2026-05-15"
       }
      ],
      "research_gaps": "Did not respond to the 2026 ATPE survey.",
@@ -69068,7 +69173,7 @@
        ]
       },
       {
-       "text": "Voted for concurring in the final Senate version of HB 2 (2025 school finance).",
+       "text": "Voted to concur in the final Senate version of HB 2 (2025 school finance).",
        "sources": [
         "s6"
        ]
@@ -69080,7 +69185,7 @@
        ]
       },
       {
-       "text": "Was present but not voting on SJR 5 and present but not voting on SB 9 (2025), the bail constitutional amendment and bail procedures bill.",
+       "text": "Was present but not voting on SJR 5 (the 2025 bail constitutional amendment) and was present but not voting on SB 9 (2025 bail procedures).",
        "sources": [
         "s8",
         "s9"
@@ -69093,7 +69198,7 @@
        ]
       },
       {
-       "text": "In 2025 voted against SB 17 (land purchases tied to designated foreign adversaries), SB 8 (requiring certain sheriffs to enter agreements with ICE), SB 1362 (barring enforcement of extreme risk protective orders).",
+       "text": "In 2025 voted against SB 17 (land purchases tied to designated foreign adversaries), SB 8 (requiring certain sheriffs to enter agreements with ICE) and SB 1362 (barring enforcement of extreme risk protective orders).",
        "sources": [
         "s11",
         "s12",
@@ -69108,7 +69213,7 @@
        ]
       },
       {
-       "text": "In 2023 voted against SB 14 (ban on gender transition treatments for minors), HB 2127 (state preemption of local regulations), SB 3 (state border barrier funding), SB 4 (state illegal entry offense).",
+       "text": "In 2023 voted against SB 14 (ban on gender transition treatments for minors), HB 2127 (state preemption of local regulations), SB 3 (state border barrier funding) and SB 4 (state illegal entry offense).",
        "sources": [
         "s16",
         "s17",
@@ -69130,7 +69235,8 @@
       {
        "text": "Was recorded absent on August 5, 2025, when the House lacked a quorum during the House Democrats' walkout over congressional redistricting.",
        "sources": [
-        "s21"
+        "s21",
+        "s22"
        ]
       }
      ],
@@ -69144,7 +69250,7 @@
       {
        "text": "Was excused for the April 2025 votes on SB 2 and HB 2 and was present but not voting on SJR 5 and SB 9.",
        "sources": [
-        "s22",
+        "s23",
         "s8",
         "s9"
        ]
@@ -69402,6 +69508,13 @@
       },
       {
        "id": "s22",
+       "title": "Texas Supreme Court rejects Abbott's request to remove Democratic Rep. Gene Wu over redistricting protest",
+       "publisher": "Texas Tribune",
+       "url": "https://www.texastribune.org/2026/05/15/texas-supreme-court-gene-wu-greg-abbott-redistricting-map-quorum-break/",
+       "date": "2026-05-15"
+      },
+      {
+       "id": "s23",
        "title": "Texas House Journal, 89th Legislature, Regular Session, 46th Day (SB 2 Record 300; HB 2 Record 303)",
        "publisher": "Texas House of Representatives",
        "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY46FINAL.HTM",
@@ -69682,7 +69795,7 @@
        ]
       },
       {
-       "text": "Voted for HB 2 (2025 school finance) on third reading and for concurring in the final Senate version.",
+       "text": "Voted for HB 2 (2025 school finance) on third reading and voted to concur in the final Senate version.",
        "sources": [
         "s4",
         "s7"
@@ -69701,7 +69814,7 @@
        ]
       },
       {
-       "text": "Voted for SJR 5 and for SB 9 (2025), the bail constitutional amendment and bail procedures bill.",
+       "text": "Voted for SJR 5 (the 2025 bail constitutional amendment) and voted for SB 9 (2025 bail procedures).",
        "sources": [
         "s10",
         "s11"
@@ -69714,7 +69827,7 @@
        ]
       },
       {
-       "text": "In 2025 voted for SB 17 (land purchases tied to designated foreign adversaries), SB 8 (requiring certain sheriffs to enter agreements with ICE), SB 1362 (barring enforcement of extreme risk protective orders).",
+       "text": "In 2025 voted for SB 17 (land purchases tied to designated foreign adversaries), SB 8 (requiring certain sheriffs to enter agreements with ICE) and SB 1362 (barring enforcement of extreme risk protective orders).",
        "sources": [
         "s13",
         "s9",
@@ -69729,7 +69842,7 @@
        ]
       },
       {
-       "text": "In 2023 voted for SB 14 (ban on gender transition treatments for minors), HB 2127 (state preemption of local regulations), SB 3 (state border barrier funding), SB 4 (state illegal entry offense).",
+       "text": "In 2023 voted for SB 14 (ban on gender transition treatments for minors), HB 2127 (state preemption of local regulations), SB 3 (state border barrier funding) and SB 4 (state illegal entry offense).",
        "sources": [
         "s17",
         "s18",
@@ -101491,7 +101604,7 @@
        ]
       },
       {
-       "text": "Voted for HB 2 (2025 school finance) on third reading and for concurring in the final Senate version.",
+       "text": "Voted for HB 2 (2025 school finance) on third reading and voted to concur in the final Senate version.",
        "sources": [
         "s6",
         "s9"
@@ -101510,7 +101623,7 @@
        ]
       },
       {
-       "text": "Voted for SJR 5 and against SB 9 (2025), the bail constitutional amendment and bail procedures bill.",
+       "text": "Voted for SJR 5 (the 2025 bail constitutional amendment) and voted against SB 9 (2025 bail procedures).",
        "sources": [
         "s11",
         "s12"
@@ -101523,7 +101636,7 @@
        ]
       },
       {
-       "text": "In 2025 voted against SB 17 (land purchases tied to designated foreign adversaries), SB 8 (requiring certain sheriffs to enter agreements with ICE), SB 1362 (barring enforcement of extreme risk protective orders).",
+       "text": "In 2025 voted against SB 17 (land purchases tied to designated foreign adversaries), SB 8 (requiring certain sheriffs to enter agreements with ICE) and SB 1362 (barring enforcement of extreme risk protective orders).",
        "sources": [
         "s14",
         "s10",
@@ -101538,7 +101651,7 @@
        ]
       },
       {
-       "text": "In 2023 voted against SB 14 (ban on gender transition treatments for minors), HB 2127 (state preemption of local regulations), SB 3 (state border barrier funding), SB 4 (state illegal entry offense).",
+       "text": "In 2023 voted against SB 14 (ban on gender transition treatments for minors), HB 2127 (state preemption of local regulations), SB 3 (state border barrier funding) and SB 4 (state illegal entry offense).",
        "sources": [
         "s18",
         "s19",
@@ -101560,7 +101673,8 @@
       {
        "text": "Was recorded absent on August 5, 2025, when the House lacked a quorum during the House Democrats' walkout over congressional redistricting.",
        "sources": [
-        "s23"
+        "s23",
+        "s24"
        ]
       }
      ],
@@ -101867,6 +101981,13 @@
        "publisher": "Texas House of Representatives",
        "url": "https://journals.house.texas.gov/HJRNL/891/HTML/89C1DAY06FINAL.HTM",
        "date": "2025-08-05"
+      },
+      {
+       "id": "s24",
+       "title": "Texas Supreme Court rejects Abbott's request to remove Democratic Rep. Gene Wu over redistricting protest",
+       "publisher": "Texas Tribune",
+       "url": "https://www.texastribune.org/2026/05/15/texas-supreme-court-gene-wu-greg-abbott-redistricting-map-quorum-break/",
+       "date": "2026-05-15"
       }
      ],
      "research_gaps": "Did not respond to the 2026 ATPE survey; no 2026 questionnaire answers were found.",
