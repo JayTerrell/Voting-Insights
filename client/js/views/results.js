@@ -137,7 +137,7 @@ function draw(view, guide, data, isNew) {
       ${parties
         .map(
           (p) =>
-            `<div class="bar-row"><div class="label">${esc(p.name)}</div>${bar(p.score, PARTY_CLASS[p.name])}<div class="pct">${p.score}%</div></div>`
+            `<div class="bar-row"><div class="label">${esc(p.name)}</div>${bar(p.score, PARTY_CLASS[p.name])}<div class="pct" data-count="${p.score}" data-suffix="%">${p.score}%</div></div>`
         )
         .join('')}
     </div>

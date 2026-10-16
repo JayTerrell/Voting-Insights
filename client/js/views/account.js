@@ -25,12 +25,17 @@ async function submitting(form, work) {
   const err = form.querySelector('.form-error');
   err.hidden = true;
   btn.disabled = true;
+  // The button keeps its width and shows a spinner while the request runs.
+  btn.classList.add('is-loading');
+  btn.setAttribute('aria-busy', 'true');
   try {
     await work(err);
   } catch (ex) {
     showError(err, ex.message);
   } finally {
     btn.disabled = false;
+    btn.classList.remove('is-loading');
+    btn.removeAttribute('aria-busy');
   }
 }
 
@@ -402,9 +407,9 @@ function drawAccount(view, data, guide, options) {
     ${data.offline ? '<div class="callout" style="margin-bottom:16px">We could not reach the server, so this page shows results saved on this device.</div>' : ''}
 
     <div class="account-grid">
-      <a class="account-tile" href="/my-ballot"><span class="label">My Ballot</span><b>${pickCount}</b><span>choices marked</span></a>
-      <a class="account-tile" href="/my-ballot?show=starred"><span class="label">My Shortlist</span><b>${starredCount}</b><span>races and candidates starred</span></a>
-      <a class="account-tile" href="/quiz"><span class="label">Issue Quiz</span><b>${data.results.length}</b><span>${data.results.length === 1 ? 'result' : 'results'} saved</span></a>
+      <a class="account-tile" href="/my-ballot"><span class="label">My Ballot</span><b data-count="${pickCount}">${pickCount}</b><span>choices marked</span></a>
+      <a class="account-tile" href="/my-ballot?show=starred"><span class="label">My Shortlist</span><b data-count="${starredCount}">${starredCount}</b><span>races and candidates starred</span></a>
+      <a class="account-tile" href="/quiz"><span class="label">Issue Quiz</span><b data-count="${data.results.length}">${data.results.length}</b><span>${data.results.length === 1 ? 'result' : 'results'} saved</span></a>
     </div>
 
     <section aria-labelledby="hist-h">

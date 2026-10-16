@@ -15,6 +15,7 @@ import {
 } from './views/account.js';
 import { renderBallot, renderBallotPrint } from './views/ballot.js';
 import { session, plan } from './api.js';
+import { initMotion, routeProgress, afterRender } from './motion.js';
 import { renderScoring } from './views/scoring.js';
 import { renderMethodology, renderTerms, renderPrivacy } from './views/pages.js';
 
@@ -56,8 +57,10 @@ async function route() {
 
   if (!match) {
     view.innerHTML = `<h1>Page not found</h1><p>The page <code>${esc(path)}</code> does not exist. <a href="/">Return to the home page</a>.</p>`;
+    afterRender(view);
     return;
   }
+  routeProgress.start();
   view.innerHTML = skeleton();
   const params = path.match(match[0]).slice(1);
   try {
@@ -68,6 +71,10 @@ async function route() {
     if (token === renderToken) {
       view.innerHTML = `<h1>Something went wrong</h1><p>${esc(e.message || 'Please reload the page and try again.')}</p>`;
     }
+  }
+  if (token === renderToken) {
+    afterRender(view);
+    routeProgress.done();
   }
 }
 
@@ -99,7 +106,8 @@ document.addEventListener(
 export function navigate(href, { replace = false } = {}) {
   if (replace) history.replaceState({}, '', href);
   else history.pushState({}, '', href);
-  window.scrollTo(0, 0);
+  // Jump, not glide: smooth scrolling is for in-page movement only.
+  window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
   route();
 }
 
@@ -115,4 +123,5 @@ document.addEventListener('click', (e) => {
 });
 
 window.addEventListener('popstate', route);
+initMotion();
 route();

@@ -1,4 +1,13 @@
 :root {
+  /* Motion: fast in, gentle out. */
+  --ease-out: cubic-bezier(0, 0, 0.2, 1);
+  --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-smooth: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --dur-micro: 110ms;
+  --dur-short: 180ms;
+  --dur-std: 260ms;
+  --dur-long: 360ms;
   --navy: #13294b;
   --navy-2: #1f3a66;
   --red: #9e1b32;
@@ -1167,17 +1176,31 @@ mark {
   height: 120px;
   margin: 16px 0;
 }
+/* Shimmer: a soft band of light sweeps across each placeholder, one after another. */
 @media (prefers-reduced-motion: no-preference) {
   .sk {
-    animation: sk-pulse 1.6s ease-in-out infinite;
+    background: linear-gradient(90deg, var(--tan) 25%, #f6f1e4 37%, var(--tan) 63%);
+    background-size: 400% 100%;
+    animation: sk-shimmer 1.4s ease infinite;
   }
-  @keyframes sk-pulse {
-    0%,
-    100% {
-      opacity: 1;
+  .sk:nth-child(2) {
+    animation-delay: 80ms;
+  }
+  .sk:nth-child(3) {
+    animation-delay: 160ms;
+  }
+  .sk:nth-child(4) {
+    animation-delay: 240ms;
+  }
+  .sk:nth-child(n + 5) {
+    animation-delay: 320ms;
+  }
+  @keyframes sk-shimmer {
+    0% {
+      background-position: 100% 0;
     }
-    50% {
-      opacity: 0.55;
+    100% {
+      background-position: 0 0;
     }
   }
 }
@@ -1214,12 +1237,16 @@ mark {
   left: 50%;
   bottom: 20px;
   transform: translateX(-50%);
-  background: var(--ink);
+  background: rgba(19, 41, 75, 0.82);
+  backdrop-filter: blur(14px) saturate(160%);
+  -webkit-backdrop-filter: blur(14px) saturate(160%);
+  border: 1px solid rgba(255, 253, 248, 0.16);
   color: var(--card);
   padding: 10px 18px;
   font-size: 0.9rem;
-  z-index: 20;
+  z-index: 60;
   max-width: calc(100% - 32px);
+  animation: toast-in 320ms var(--ease-smooth) both;
 }
 
 @media print {
@@ -1957,4 +1984,467 @@ table.score-sheet tbody th {
 }
 .photo-credit a {
   color: var(--muted);
+}
+
+/* =====================================================================
+   Motion and depth
+   ===================================================================== */
+
+html {
+  scroll-padding-top: 96px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+::selection {
+  background: rgba(19, 41, 75, 0.16);
+  color: inherit;
+}
+input,
+textarea {
+  caret-color: var(--red);
+}
+
+/* ---------- Frosted masthead that compacts on scroll ---------- */
+.masthead {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  background: rgba(255, 253, 248, 0.86);
+  backdrop-filter: blur(14px) saturate(160%);
+  -webkit-backdrop-filter: blur(14px) saturate(160%);
+  transition:
+    box-shadow var(--dur-std) var(--ease-in-out),
+    background-color var(--dur-std) var(--ease-in-out);
+}
+.masthead .wrap,
+.brand svg,
+.brand-name,
+.brand-sub {
+  transition:
+    padding var(--dur-std) var(--ease-in-out),
+    width var(--dur-std) var(--ease-in-out),
+    height var(--dur-std) var(--ease-in-out),
+    font-size var(--dur-std) var(--ease-in-out),
+    opacity var(--dur-short) var(--ease-in-out),
+    max-height var(--dur-std) var(--ease-in-out),
+    margin var(--dur-std) var(--ease-in-out);
+}
+.brand-sub {
+  max-height: 2em;
+  overflow: hidden;
+}
+body.scrolled .masthead {
+  background: rgba(255, 253, 248, 0.78);
+  box-shadow:
+    0 1px 0 rgba(19, 41, 75, 0.06),
+    0 8px 24px -12px rgba(19, 41, 75, 0.22);
+}
+body.scrolled .masthead .wrap {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+body.scrolled .brand svg {
+  width: 30px;
+  height: 30px;
+}
+body.scrolled .brand-name {
+  font-size: 1.2rem;
+}
+body.scrolled .brand-sub {
+  opacity: 0;
+  max-height: 0;
+  margin-top: 0;
+}
+/* Phones: once scrolling, the brand row folds away and the navigation stays. */
+@media (max-width: 719px) {
+  .brand {
+    max-height: 60px;
+    overflow: hidden;
+    transition:
+      max-height var(--dur-std) var(--ease-in-out),
+      opacity var(--dur-short) var(--ease-in-out);
+  }
+  body.scrolled .brand {
+    max-height: 0;
+    opacity: 0;
+  }
+  body.scrolled .masthead .wrap {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    gap: 0;
+  }
+  body.scrolled .nav {
+    border-top: 0;
+    padding-top: 0;
+  }
+}
+
+/* ---------- Reading progress and route progress ---------- */
+#read-progress {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  height: 2px;
+  background: var(--red);
+  transform: scaleX(0);
+  transform-origin: left center;
+  pointer-events: none;
+}
+#route-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  z-index: 70;
+  background: var(--red);
+  transform: scaleX(0);
+  transform-origin: left center;
+  opacity: 0;
+  pointer-events: none;
+}
+#route-bar.active {
+  opacity: 1;
+  transform: scaleX(0.72);
+  transition:
+    transform 2.4s var(--ease-out),
+    opacity 120ms linear;
+}
+#route-bar.active.done {
+  transform: scaleX(1);
+  opacity: 0;
+  transition:
+    transform 220ms var(--ease-out),
+    opacity 260ms 180ms linear;
+}
+
+/* ---------- Page entrance ---------- */
+@keyframes page-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+#view.page-enter > * {
+  animation: page-in var(--dur-long) var(--ease-smooth) both;
+}
+#view.page-enter > *:nth-child(2) {
+  animation-delay: 40ms;
+}
+#view.page-enter > *:nth-child(3) {
+  animation-delay: 80ms;
+}
+#view.page-enter > *:nth-child(4) {
+  animation-delay: 120ms;
+}
+#view.page-enter > *:nth-child(5) {
+  animation-delay: 160ms;
+}
+#view.page-enter > *:nth-child(n + 6) {
+  animation-delay: 200ms;
+}
+
+/* ---------- Scroll-triggered reveals ---------- */
+.reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition:
+    opacity 520ms var(--ease-smooth),
+    transform 640ms var(--ease-smooth);
+}
+.reveal.in {
+  opacity: 1;
+  transform: none;
+}
+
+/* Result bars grow from the left when they come into view. */
+@keyframes bar-grow {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+.bar span {
+  transform-origin: left center;
+}
+#view.page-enter .bar span,
+.reveal.in .bar span {
+  animation: bar-grow 900ms var(--ease-smooth) both;
+}
+
+/* ---------- Photos fade in ---------- */
+img.cand-photo {
+  opacity: 0;
+  transition: opacity 420ms var(--ease-out);
+}
+img.cand-photo.loaded {
+  opacity: 1;
+}
+
+/* ---------- Buttons: hover lift, press, loading ---------- */
+.btn,
+.btn-provider,
+.seg button {
+  transition:
+    background-color var(--dur-short) var(--ease-in-out),
+    border-color var(--dur-short) var(--ease-in-out),
+    color var(--dur-short) var(--ease-in-out),
+    transform var(--dur-short) var(--ease-smooth),
+    box-shadow var(--dur-short) var(--ease-in-out);
+}
+.btn:hover:not([disabled]),
+.btn-provider:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px -8px rgba(19, 41, 75, 0.45);
+}
+.btn-red:hover:not([disabled]) {
+  box-shadow: 0 6px 16px -8px rgba(158, 27, 50, 0.5);
+}
+.btn:active:not([disabled]),
+.btn-provider:active,
+.seg button:active {
+  transform: scale(0.97);
+  box-shadow: none;
+  transition-duration: var(--dur-micro);
+}
+.btn.is-loading {
+  position: relative;
+  color: transparent !important;
+  pointer-events: none;
+  opacity: 1;
+}
+.btn.is-loading::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 16px;
+  height: 16px;
+  border: 2px solid rgba(255, 253, 248, 0.35);
+  border-top-color: var(--card);
+  border-radius: 50%;
+  animation: spin 700ms linear infinite;
+}
+.btn-ghost.is-loading::after {
+  border-color: rgba(19, 41, 75, 0.25);
+  border-top-color: var(--navy);
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ---------- Links and list rows ---------- */
+a {
+  transition:
+    color var(--dur-short) var(--ease-in-out),
+    text-decoration-color var(--dur-short) var(--ease-in-out);
+}
+.nav a {
+  transition:
+    background-color var(--dur-short) var(--ease-in-out),
+    border-color var(--dur-short) var(--ease-in-out),
+    color var(--dur-short) var(--ease-in-out);
+}
+.race-row {
+  transition:
+    background-color var(--dur-short) var(--ease-in-out),
+    box-shadow var(--dur-std) var(--ease-in-out),
+    transform var(--dur-std) var(--ease-smooth);
+}
+.race-row:hover {
+  background: var(--card);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px -16px rgba(19, 41, 75, 0.35);
+  position: relative;
+  z-index: 1;
+}
+.race-row .race-item:hover {
+  background: transparent;
+}
+.race-item .go {
+  transition: transform var(--dur-short) var(--ease-smooth);
+}
+.race-row:hover .go,
+.race-item:hover .go {
+  transform: translateX(4px);
+}
+
+/* ---------- Cards and tiles lift when they can be opened ---------- */
+.account-tile {
+  transition:
+    background-color var(--dur-short) var(--ease-in-out),
+    transform var(--dur-std) var(--ease-smooth),
+    box-shadow var(--dur-std) var(--ease-in-out);
+}
+.account-tile:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 28px -18px rgba(19, 41, 75, 0.45);
+  position: relative;
+  z-index: 1;
+}
+.cand-card {
+  transition:
+    box-shadow var(--dur-std) var(--ease-in-out),
+    border-color var(--dur-std) var(--ease-in-out);
+}
+.cand-card:hover {
+  box-shadow: 0 16px 32px -22px rgba(19, 41, 75, 0.45);
+}
+
+/* ---------- Ballot: rows respond, ovals fill, stars pop ---------- */
+.ballot-opt {
+  transition: background-color var(--dur-short) var(--ease-in-out);
+}
+.ballot-opt:hover {
+  background: #f4f6fa;
+}
+.ballot-opt.chosen:hover {
+  background: #e8ecf3;
+}
+.oval {
+  transition:
+    background-color var(--dur-short) var(--ease-in-out),
+    transform var(--dur-short) var(--ease-spring);
+}
+.oval-label:hover .oval {
+  transform: scale(1.06);
+}
+.oval-label input:checked + .oval {
+  animation: oval-fill 320ms var(--ease-spring);
+}
+@keyframes oval-fill {
+  0% {
+    transform: scale(0.82);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.star-btn {
+  transition:
+    background-color var(--dur-short) var(--ease-in-out),
+    border-color var(--dur-short) var(--ease-in-out),
+    color var(--dur-short) var(--ease-in-out),
+    transform var(--dur-short) var(--ease-spring);
+}
+.star-btn:hover {
+  transform: scale(1.06);
+}
+.star-btn:active {
+  transform: scale(0.9);
+}
+.star-btn[aria-pressed='true'] svg {
+  animation: star-pop 420ms var(--ease-spring);
+}
+@keyframes star-pop {
+  0% {
+    transform: scale(0.6) rotate(-18deg);
+  }
+  60% {
+    transform: scale(1.18) rotate(6deg);
+  }
+  100% {
+    transform: scale(1) rotate(0);
+  }
+}
+
+/* ---------- Inputs: a clear focus state ---------- */
+input[type='text'],
+input[type='email'],
+input[type='password'],
+input[type='search'],
+select {
+  transition:
+    border-color var(--dur-short) var(--ease-in-out),
+    box-shadow var(--dur-short) var(--ease-in-out),
+    background-color var(--dur-short) var(--ease-in-out);
+}
+input[type='text']:hover,
+input[type='email']:hover,
+input[type='password']:hover,
+input[type='search']:hover,
+select:hover {
+  border-color: var(--navy-2);
+}
+input[type='text']:focus,
+input[type='email']:focus,
+input[type='password']:focus,
+input[type='search']:focus,
+select:focus {
+  border-color: var(--navy);
+  background: #fff;
+  box-shadow: 0 0 0 3px rgba(19, 41, 75, 0.14);
+  outline: none;
+}
+
+/* ---------- Toast ---------- */
+@keyframes toast-in {
+  from {
+    opacity: 0;
+    transform: translate(-50%, 12px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+}
+
+/* ---------- Scrollbars ---------- */
+.table-scroll::-webkit-scrollbar {
+  height: 8px;
+}
+.table-scroll::-webkit-scrollbar-thumb {
+  background: var(--rule);
+}
+
+/* ---------- Respect reduced motion, and print everything ---------- */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .reveal,
+  img.cand-photo {
+    opacity: 1;
+    transform: none;
+  }
+}
+@media print {
+  .reveal,
+  img.cand-photo {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+  #route-bar,
+  #read-progress {
+    display: none !important;
+  }
+  .masthead {
+    position: static;
+    box-shadow: none;
+  }
+}
+@media (max-width: 719px) {
+  body.scrolled .masthead {
+    background: rgba(255, 253, 248, 0.92);
+  }
+  body.scrolled .nav a:not([aria-current='page']) {
+    background: rgba(255, 253, 248, 0.75);
+  }
 }
