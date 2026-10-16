@@ -1,0 +1,436 @@
+{
+ "candidates": [
+  {
+   "id": "alexandria-nicole-butler",
+   "photo": {
+    "url": "/img/candidates/alexandria-nicole-butler.jpg",
+    "credit": "Campaign website",
+    "source_url": "https://alexandriabutlercampaign.org/"
+   }
+  },
+  {
+   "id": "amy-m-tarno",
+   "photo": {
+    "url": "/img/candidates/amy-m-tarno.jpg",
+    "credit": "Official portrait, Kaufman County",
+    "source_url": "https://www.kaufmancounty.net/244/Justice-of-the-Peace-Precinct-2"
+   }
+  },
+  {
+   "id": "amy-taylor",
+   "photo": {
+    "url": "/img/candidates/amy-taylor.jpg",
+    "credit": "Campaign website",
+    "source_url": "https://amytaylortexas.com"
+   }
+  },
+  {
+   "id": "angelia-orr",
+   "photo": {
+    "url": "/img/candidates/angelia-orr.jpg",
+    "credit": "Official portrait, Texas House of Representatives",
+    "source_url": "https://www.house.texas.gov/members/4340/biography"
+   }
+  },
+  {
+   "id": "angie-unger",
+   "photo": {
+    "url": "/img/candidates/angie-unger.jpg",
+    "credit": "Campaign website",
+    "source_url": "https://www.ungerforhays.com"
+   }
+  },
+  {
+   "id": "arshia-papari",
+   "photo": {
+    "url": "/img/candidates/arshia-papari.jpg",
+    "credit": "Campaign website",
+    "source_url": "https://www.arshiafortexas.org/"
+   }
+  },
+  {
+   "id": "audra-riley",
+   "photo": {
+    "url": "/img/candidates/audra-riley.jpg",
+    "credit": "Campaign website",
+    "source_url": "https://judgeaudrariley.com"
+   }
+  },
+  {
+   "id": "benito-bo-ochoa",
+   "photo": {
+    "url": "/img/candidates/benito-bo-ochoa.jpg",
+    "credit": "Official portrait, Cameron County",
+    "source_url": "https://www.cameroncountytx.gov/cameron-county-justice-of-the-peace/"
+   }
+  },
+  {
+   "id": "bianca-santorini",
+   "photo": {
+    "url": "/img/candidates/bianca-santorini.jpg",
+    "credit": "Campaign website",
+    "source_url": "https://bianca4brazoria.com"
+   }
+  },
+  {
+   "id": "candy-noble",
+   "photo": {
+    "url": "/img/candidates/candy-noble.jpg",
+    "credit": "Official portrait, Texas House of Representatives",
+    "source_url": "https://house.texas.gov/members/3740/biography"
+   }
+  },
+  {
+   "id": "charles-schwertner",
+   "photo": {
+    "url": "/img/candidates/charles-schwertner.jpg",
+    "credit": "Official portrait, Texas Senate",
+    "source_url": "https://senate.texas.gov/member.php?d=5"
+   }
+  },
+  {
+   "id": "dale-frey",
+   "photo": {
+    "url": "/img/candidates/dale-frey.jpg",
+    "credit": "Campaign website",
+    "source_url": "https://freyfortexas.com"
+   }
+  },
+  {
+   "id": "dan-patrick",
+   "photo": {
+    "url": "/img/candidates/dan-patrick.jpg",
+    "credit": "Official portrait, Office of the Lieutenant Governor of Texas",
+    "source_url": "https://www.ltgov.texas.gov/"
+   }
+  },
+  {
+   "id": "elizabeth-buss",
+   "photo": {
+    "url": "/img/candidates/elizabeth-buss.jpg",
+    "credit": "Campaign website",
+    "source_url": "https://voteelizabethbuss.com"
+   }
+  },
+  {
+   "id": "erin-elizabeth-gamez",
+   "photo": {
+    "url": "/img/candidates/erin-elizabeth-gamez.jpg",
+    "credit": "Official portrait, Texas House of Representatives",
+    "source_url": "https://house.texas.gov/members/4095/biography"
+   }
+  },
+  {
+   "id": "espoir-ngabo",
+   "photo": {
+    "url": "/img/candidates/espoir-ngabo.jpg",
+    "credit": "Campaign website",
+    "source_url": "https://www.espoirfortexas.com/"
+   }
+  },
+  {
+   "id": "evan-hunt",
+   "photo": {
+    "url": "/img/candidates/evan-hunt.jpg",
+    "credit": "Campaign website",
+    "source_url": "https://www.electevanhunt.com/"
+   }
+  },
+  {
+   "id": "felicia-pitre",
+   "photo": {
+    "url": "/img/candidates/felicia-pitre.jpg",
+    "credit": "Official portrait, Dallas County",
+    "source_url": "https://www.dallascounty.org/government/district-clerk/meet-the-district-clerk.php"
+   }
+  },
+  {
+   "id": "heidi-hall",
+   "photo": {
+    "url": "/img/candidates/heidi-hall.jpg",
+    "credit": "Campaign website",
+    "source_url": "https://www.heididhall.com"
+   }
+  },
+  {
+   "id": "jeffrey-l-boney",
+   "photo": {
+    "url": "/img/candidates/jeffrey-l-boney.jpg",
+    "credit": "Campaign website",
+    "source_url": "https://www.jeffreyboney.com"
+   }
+  },
+  {
+   "id": "jerri-glover",
+   "photo": {
+    "url": "/img/candidates/jerri-glover.jpg",
+    "credit": "Campaign website",
+    "source_url": "https://jerriforjudge.com"
+   }
+  },
+  {
+   "id": "jessi-cowart",
+   "photo": {
+    "url": "/img/candidates/jessi-cowart.jpg",
+    "credit": "Campaign website",
+    "source_url": "https://www.cowartfortexas.com"
+   }
+  },
+  {
+   "id": "john-bryant",
+   "photo": {
+    "url": "/img/candidates/john-bryant.jpg",
+    "credit": "Official portrait, Texas House of Representatives",
+    "source_url": "https://house.texas.gov/members/4120/biography"
+   }
+  },
+  {
+   "id": "john-carter",
+   "photo": {
+    "url": "/img/candidates/john-carter.jpg",
+    "credit": "Official portrait, U.S. House of Representatives",
+    "source_url": "https://carter.house.gov/about/"
+   }
+  },
+  {
+   "id": "julya-jujubill-billhymer",
+   "photo": {
+    "url": "/img/candidates/julya-jujubill-billhymer.jpg",
+    "credit": "Campaign website",
+    "source_url": "https://julya4judge.com"
+   }
+  },
+  {
+   "id": "kenneth-d-sanders",
+   "photo": {
+    "url": "/img/candidates/kenneth-d-sanders.jpg",
+    "credit": "Official portrait, Tarrant County",
+    "source_url": "https://www.tarrantcountytx.gov/en/justice-of-the-peace-courts/justice-7.html"
+   }
+  },
+  {
+   "id": "kevin-sparks",
+   "photo": {
+    "url": "/img/candidates/kevin-sparks.jpg",
+    "credit": "Official portrait, Texas Senate",
+    "source_url": "https://senate.texas.gov/member.php?d=31"
+   }
+  },
+  {
+   "id": "kyle-hawkins",
+   "photo": {
+    "url": "/img/candidates/kyle-hawkins.jpg",
+    "credit": "Official portrait, Texas Judicial Branch",
+    "source_url": "https://txcourts.gov/supreme/about-the-court/justices/justice-kyle-d-hawkins/"
+   }
+  },
+  {
+   "id": "lacey-hull",
+   "photo": {
+    "url": "/img/candidates/lacey-hull.jpg",
+    "credit": "Official portrait, Texas House of Representatives",
+    "source_url": "https://house.texas.gov/members/3975/biography"
+   }
+  },
+  {
+   "id": "lawrence-brandyburg",
+   "photo": {
+    "url": "/img/candidates/lawrence-brandyburg.jpg",
+    "credit": "Campaign website",
+    "source_url": "https://drlawrencebrandyburg.com"
+   }
+  },
+  {
+   "id": "leslie-booker",
+   "photo": {
+    "url": "/img/candidates/leslie-booker.jpg",
+    "credit": "Campaign website",
+    "source_url": "https://booker4judge.com"
+   }
+  },
+  {
+   "id": "louie-ditta",
+   "photo": {
+    "url": "/img/candidates/louie-ditta.jpg",
+    "credit": "Campaign website",
+    "source_url": "https://www.keepjudgeditta.com"
+   }
+  },
+  {
+   "id": "luke-nichols",
+   "photo": {
+    "url": "/img/candidates/luke-nichols.jpg",
+    "credit": "Campaign website",
+    "source_url": "https://lukenicholsforjudge.com"
+   }
+  },
+  {
+   "id": "lyndsay-newell",
+   "photo": {
+    "url": "/img/candidates/lyndsay-newell.jpg",
+    "credit": "Campaign website",
+    "source_url": "https://www.lyndsaynewellforjudge.com/"
+   }
+  },
+  {
+   "id": "mano-deayala",
+   "photo": {
+    "url": "/img/candidates/mano-deayala.jpg",
+    "credit": "Official portrait, Texas House of Representatives",
+    "source_url": "https://house.texas.gov/members/4135/biography"
+   }
+  },
+  {
+   "id": "matthew-kolodoski",
+   "photo": {
+    "url": "/img/candidates/matthew-kolodoski.jpg",
+    "credit": "Campaign website",
+    "source_url": "https://kolodoski4justice.com"
+   }
+  },
+  {
+   "id": "merrie-fox",
+   "photo": {
+    "url": "/img/candidates/merrie-fox.jpg",
+    "credit": "Campaign website",
+    "source_url": "https://www.foxfortexas.com/"
+   }
+  },
+  {
+   "id": "michelle-butler",
+   "photo": {
+    "url": "/img/candidates/michelle-butler.jpg",
+    "credit": "Campaign website",
+    "source_url": "https://michelleforjustice.com"
+   }
+  },
+  {
+   "id": "mike-jones",
+   "photo": {
+    "url": "/img/candidates/mike-jones.jpg",
+    "credit": "Campaign website",
+    "source_url": "https://judgemikejones.com"
+   }
+  },
+  {
+   "id": "richard-hayes",
+   "photo": {
+    "url": "/img/candidates/richard-hayes.jpg",
+    "credit": "Official portrait, Texas House of Representatives",
+    "source_url": "https://house.texas.gov/members/4165/biography"
+   }
+  },
+  {
+   "id": "roger-williams",
+   "photo": {
+    "url": "/img/candidates/roger-williams.jpg",
+    "credit": "Official portrait, U.S. House of Representatives",
+    "source_url": "https://williams.house.gov/about/full-biography"
+   }
+  },
+  {
+   "id": "roland-gutierrez",
+   "photo": {
+    "url": "/img/candidates/roland-gutierrez.jpg",
+    "credit": "Official portrait, Texas Senate",
+    "source_url": "https://senate.texas.gov/member.php?d=19"
+   }
+  },
+  {
+   "id": "salman-bhojani",
+   "photo": {
+    "url": "/img/candidates/salman-bhojani.jpg",
+    "credit": "Official portrait, Texas House of Representatives",
+    "source_url": "https://house.texas.gov/members/4115/biography"
+   }
+  },
+  {
+   "id": "sarah-eckhardt",
+   "photo": {
+    "url": "/img/candidates/sarah-eckhardt.jpg",
+    "credit": "Official portrait, Texas Senate",
+    "source_url": "https://senate.texas.gov/member.php?d=14"
+   }
+  },
+  {
+   "id": "scott-bowen",
+   "photo": {
+    "url": "/img/candidates/scott-bowen.jpg",
+    "credit": "Campaign website",
+    "source_url": "https://bowenfortx.com/"
+   }
+  },
+  {
+   "id": "stephen-kallas",
+   "photo": {
+    "url": "/img/candidates/stephen-kallas.jpg",
+    "credit": "Campaign website",
+    "source_url": "https://kallasforjustice.com"
+   }
+  },
+  {
+   "id": "tameika-carter",
+   "photo": {
+    "url": "/img/candidates/tameika-carter.jpg",
+    "credit": "Campaign website",
+    "source_url": "https://www.tameikacarter4judge.com"
+   }
+  },
+  {
+   "id": "thomas-g-jones",
+   "photo": {
+    "url": "/img/candidates/thomas-g-jones.jpg",
+    "credit": "Official portrait, Dallas County",
+    "source_url": "https://www.dallascounty.org/government/jpcourts/1-1/bio.php"
+   }
+  },
+  {
+   "id": "thurman-bill-bartie",
+   "photo": {
+    "url": "/img/candidates/thurman-bill-bartie.jpg",
+    "credit": "Campaign website",
+    "source_url": "https://votebartie.org/"
+   }
+  },
+  {
+   "id": "tiffany-clark",
+   "photo": {
+    "url": "/img/candidates/tiffany-clark.jpg",
+    "credit": "Official portrait, Texas State Board of Education",
+    "source_url": "https://sboe.texas.gov/node/105718"
+   }
+  },
+  {
+   "id": "trey-wharton",
+   "photo": {
+    "url": "/img/candidates/trey-wharton.jpg",
+    "credit": "Official portrait, Texas House of Representatives",
+    "source_url": "https://www.house.texas.gov/members/4795/biography"
+   }
+  },
+  {
+   "id": "valoree-swanson",
+   "photo": {
+    "url": "/img/candidates/valoree-swanson.jpg",
+    "credit": "Official portrait, Texas House of Representatives",
+    "source_url": "https://house.texas.gov/members/3425/biography"
+   }
+  },
+  {
+   "id": "veronica-rivas-molloy",
+   "photo": {
+    "url": "/img/candidates/veronica-rivas-molloy.jpg",
+    "credit": "Official portrait, Texas Judicial Branch",
+    "source_url": "https://www.txcourts.gov/1stcoa/about-the-court/justices/justice-veronica-rivas-molloy/"
+   }
+  },
+  {
+   "id": "wes-virdell",
+   "photo": {
+    "url": "/img/candidates/wes-virdell.jpg",
+    "credit": "Official portrait, Texas House of Representatives",
+    "source_url": "https://house.texas.gov/members/4775/biography"
+   }
+  }
+ ]
+}

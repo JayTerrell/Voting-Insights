@@ -20,10 +20,10 @@ Requires Pillow (pip install pillow). Run it locally; the output is committed.
 import io
 import json
 import os
-import re
 import ssl
 import sys
 import urllib.request
+from urllib.parse import urlparse
 from pathlib import Path
 
 from PIL import Image, ImageOps
@@ -35,11 +35,16 @@ SUPPLEMENT = ROOT / 'data/research/pass6-photos.json'
 GUIDE = ROOT / 'data/guide.json'
 
 KINDS = {'official', 'commons', 'campaign'}
-BLOCKED = re.compile(
-    r'(facebook|fbcdn|instagram|twimg|twitter|x\.com|linkedin|licdn|ballotpedia|branch\.vote|vote411|ivoterguide'
-    r'|hoodline|theballotbrief|goodparty|gettyimages|apnews|reuters)',
-    re.I,
+BLOCKED_DOMAINS = (
+    'facebook.com', 'fbcdn.net', 'instagram.com', 'cdninstagram.com', 'twimg.com', 'twitter.com', 'x.com',
+    'linkedin.com', 'licdn.com', 'ballotpedia.org', 'branch.vote', 'vote411.org', 'ivoterguide.com',
+    'hoodline.com', 'theballotbrief.com', 'goodparty.org', 'gettyimages.com', 'apnews.com', 'reuters.com',
 )
+
+
+def blocked(url):
+    host = (urlparse(url).hostname or '').lower()
+    return any(host == d or host.endswith('.' + d) for d in BLOCKED_DOMAINS)
 SIZE = 320
 MAX_BYTES = 8 * 1024 * 1024
 
@@ -103,8 +108,8 @@ def main(inputs):
                 and p.get('kind') in KINDS
                 and str(p.get('image_url', '')).startswith('https://')
                 and str(p.get('source_url', '')).startswith('http')
-                and not BLOCKED.search(p['image_url'])
-                and not BLOCKED.search(p['source_url'])
+                and not blocked(p['image_url'])
+                and not blocked(p['source_url'])
             )
             if not ok:
                 print(f'skip {cid}: not an allowed photo entry')
