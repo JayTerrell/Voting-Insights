@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T15:48:08.383Z",
+ "generated_at": "2026-10-16T15:50:51.964Z",
  "election": {
   "name": "2026 November General Election",
   "county": "Collin County, Texas",
@@ -40100,37 +40100,173 @@
      "id": "tom-selleck",
      "name": "Tom Selleck",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Brazoria County Criminal District Attorney since October 2020",
+     "background": "Tom Selleck, of Angleton, was appointed Brazoria County Criminal District Attorney by Governor Greg Abbott effective October 1, 2020. Before the appointment he owned The Law Office of Tom Selleck, P.C. and served as a deputy sheriff with the Brazoria County Sheriff's Department. He holds a bachelor's degree in criminology from Florida State University and a law degree from South Texas College of Law.",
      "website": null,
      "priorities": [],
      "promises": [],
-     "record": [],
-     "notes": [],
+     "record": [
+      {
+       "text": "In August 2021 his office reported receiving allegations of irregularities in the county's jury selection process and asked the Texas Rangers to investigate; the Rangers confirmed in October 2021 that the investigation was ongoing.",
+       "sources": [
+        "s4"
+       ]
+      }
+     ],
+     "notes": [
+      {
+       "text": "Won the Republican nomination for Criminal District Attorney in 2026 as the incumbent and faces Democrat Bianca Santorini in November.",
+       "sources": [
+        "s3"
+       ]
+      },
+      {
+       "text": "At his 2020 appointment he was listed as a member of the State Bar of Texas, the Texas Criminal Defense Lawyers Association, The Federalist Society, and the Brazoria County Bar Association, and as board chair of the Angleton Area Emergency Medical Corps.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Branch reported that as of July 2026 he did not have a campaign website.",
+       "sources": [
+        "s6"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Governor Abbott Appoints Selleck Brazoria County Criminal District Attorney",
+       "publisher": "Office of the Texas Governor",
+       "url": "https://gov.texas.gov/news/post/governor-abbott-appoints-selleck-brazoria-county-criminal-district-attorney",
+       "date": "2020-09-11"
+      },
+      {
+       "id": "s2",
+       "title": "The Honorable Thomas J. \"Tom\" Selleck (R)",
+       "publisher": "Texas Directory",
+       "url": "https://txdirectory.com/online/person/?id=12122",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "2026 prosecutor primary results",
+       "publisher": "Texas District and County Attorneys Association",
+       "url": "https://www.tdcaa.com/wp-content/uploads/2026-prosecutor-results-2-1.pdf",
+       "date": "2026"
+      },
+      {
+       "id": "s4",
+       "title": "Families want answers in Brazoria County jury selection: 'This is ridiculous'",
+       "publisher": "ABC13 Houston",
+       "url": "https://abc13.com/amp/post/brazoria-county-district-attorney-investigation-texas-rangers/11096395/",
+       "date": "2021-10"
+      },
+      {
+       "id": "s5",
+       "title": "Brazoria County Elected Officials, January 2026",
+       "publisher": "Brazoria County Clerk",
+       "url": "https://www.brazoriacountyclerktx.gov/home/showpublisheddocument/28373/639035666578130000",
+       "date": "2026-01"
+      },
+      {
+       "id": "s6",
+       "title": "Tom Selleck, Brazoria Criminal District Attorney",
+       "publisher": "Branch Politics",
+       "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-criminal-district-attorney-tx-county-brazoria/candidates/tom-selleck",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No campaign website, candidate questionnaire, or 2026 interview was found, so his priorities and positions on bail and mental health diversion are undocumented.",
+     "researched": true
     },
     {
      "id": "bianca-santorini",
      "name": "Bianca Santorini",
      "party": "Democratic",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
-     "website": null,
-     "priorities": [],
-     "promises": [],
+     "current_role": "Attorney in private practice (criminal defense, immigration and family law)",
+     "background": "Bianca Santorini is a Texas native and attorney with more than 15 years of experience in criminal defense, immigration, and family law. She earned an undergraduate degree from the University of Texas at El Paso and a law degree from Thurgood Marshall School of Law. She worked in federal immigration courts in several states, served as outside counsel to the Mexican Consulate in Yuma, Arizona, from 2013 to 2015, and opened her own law firm in Texas in 2019. This is her first run for office.",
+     "website": "https://bianca4brazoria.com",
+     "priorities": [
+      {
+       "text": "Campaigns on the slogan \"Justice built on evidence. Not politics.\"",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Says every case will start with a standardized intake process requiring prosecutors to identify, log, and assess available evidence.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Says her office will set internal timelines so that defense evidence requests are answered promptly and fully.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Says she will set up regular communication with victims and defense counsel about case status.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Says decisions to pursue or dismiss cases will be insulated from political influence and public pressure.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
+     "promises": [
+      {
+       "text": "Says she will establish clear internal timelines and accountability measures for discovery compliance.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Member of the Pro Bono College of the State Bar of Texas, according to her campaign.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Bianca Santorini for Brazoria County District Attorney",
+       "publisher": "Bianca Santorini campaign",
+       "url": "https://bianca4brazoria.com",
+       "date": "2026"
+      },
+      {
+       "id": "s2",
+       "title": "Bianca Santorini, Brazoria Criminal District Attorney",
+       "publisher": "Branch Politics",
+       "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-criminal-district-attorney-tx-county-brazoria/candidates/bianca-santorini",
+       "date": "2026"
+      },
+      {
+       "id": "s3",
+       "title": "2026 prosecutor primary results",
+       "publisher": "Texas District and County Attorneys Association",
+       "url": "https://www.tdcaa.com/wp-content/uploads/2026-prosecutor-results-2-1.pdf",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No public statement was found on bail for violent felonies or on mental health diversion spending.",
+     "researched": true
     }
    ],
    "office": {
@@ -40156,54 +40292,385 @@
      "name": "Rob Giesecke",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
-     "website": null,
-     "priorities": [],
-     "promises": [],
-     "record": [],
-     "notes": [],
-     "stances": {},
-     "issue_notes": [],
-     "sources": [],
+     "current_role": "Chair of the Port Freeport Commission; commercial real estate broker",
+     "background": "Rob Giesecke, of Alvin, is a self-employed commercial real estate broker who was elected to the Port Freeport Commission in 2021 and chairs it. He is a former board member of Brazoria County Crime Stoppers. He won the March 2026 Republican primary for county judge with 64.8 percent over Pearland Mayor Kevin Cole. The seat is open because County Judge Matt Sebesta is retiring.",
+     "website": "https://robgiesecke.com",
+     "priorities": [
+      {
+       "text": "Promises to cut county property taxes by reducing wasteful spending and running programs more efficiently.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Says he will freeze county property taxes for residents aged 65 and older.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Campaigns on investing more in law enforcement and supporting officers.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Says he is committed to flood mitigation and road improvement projects.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Says voters should have a direct say before the county takes on large debt for a jail project.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
+     "promises": [
+      {
+       "text": "Has pledged a self-imposed term limit.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Says he will freeze county taxes for seniors 65 and older.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
+     "record": [
+      {
+       "text": "His campaign says that as a Port Freeport commissioner he delivered on promises to eliminate the port's tax rate, cut spending, and establish term limits.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
+     "notes": [
+      {
+       "text": "Won the March 3, 2026 Republican primary with 19,702 votes (64.82 percent) to 10,692 for Kevin Cole, per unofficial results.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
+     "stances": {
+      "q_county_tax": {
+       "position": 1,
+       "basis": "statement",
+       "summary": "Promises to cut county property taxes by reducing wasteful spending, while saying at a forum that the county must balance tax control with major capital needs and keep strong disaster reserves.",
+       "sources": [
+        "s1",
+        "s3"
+       ]
+      },
+      "q_county_mental": {
+       "position": 1,
+       "basis": "reported",
+       "summary": "Said at a September 2026 forum that the county is badly short of mental health facilities and supports expanding crisis services that could reduce jail admissions.",
+       "sources": [
+        "s3"
+       ]
+      },
+      "q_preemption": {
+       "position": -1,
+       "basis": "reported",
+       "summary": "Said counties have limited land-use authority and that the county would need additional authority from the Legislature to address data center siting.",
+       "sources": [
+        "s3"
+       ]
+      }
+     },
+     "issue_notes": [
+      {
+       "topic": "Public Safety",
+       "summary": "Calls for a cost-effective way to add jail beds as the county jail nears capacity, with voter approval before large jail debt.",
+       "sources": [
+        "s4",
+        "s3"
+       ]
+      },
+      {
+       "topic": "Disaster Preparedness",
+       "summary": "Named another major hurricane as the county's greatest threat and said the county should keep strong reserves while awaiting federal reimbursement.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Giesecke for County Judge",
+       "publisher": "Rob Giesecke campaign",
+       "url": "https://robgiesecke.com",
+       "date": "2026"
+      },
+      {
+       "id": "s2",
+       "title": "Rob Giesecke, Eugene Howard declare victory in primary races for Brazoria County judge, unofficial results show",
+       "publisher": "Community Impact",
+       "url": "https://communityimpact.com/pearland-friendswood-manvel/election/rob-giesecke-eugene-howard-declare-victory-in-primary-races-for-brazoria-county-judge-unofficial-results-show/",
+       "date": "2026-03-04"
+      },
+      {
+       "id": "s3",
+       "title": "Brazoria County judge candidates outline views on growth and infrastructure",
+       "publisher": "The Facts",
+       "url": "https://thefacts.com/news/brazoria-county-judge-candidates-outline-views-on-growth-and-infrastructure/article_e9a88364-5f99-4352-9c1f-396afaba8d0c.html",
+       "date": "2026-09-04"
+      },
+      {
+       "id": "s4",
+       "title": "Rob Giesecke, Brazoria County Judge",
+       "publisher": "Branch Politics",
+       "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-county-judge-tx-county-brazoria/candidates/rob-giesecke",
+       "date": "2026-09"
+      }
+     ],
      "research_gaps": "",
-     "researched": false
+     "researched": true
     },
     {
      "id": "eugene-howard",
      "name": "Eugene Howard",
      "party": "Democratic",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Owner of Visionary Outreach Inc., a nonprofit",
+     "background": "Eugene Howard owns Visionary Outreach Inc., a nonprofit, and describes himself as a community advocate with former NAACP leadership experience and a background in budget management. He ran for U.S. House District 14 in 2022. He won the March 2026 Democratic primary for county judge with 50.1 percent over Jim Mooney and Eddie Damian.",
      "website": null,
-     "priorities": [],
-     "promises": [],
+     "priorities": [
+      {
+       "text": "Lists lowering taxes and making sure every tax dollar benefits all residents as a top priority.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Says infrastructure and drainage are the county's biggest threat and calls for more investment in roads, flood control, and broadband.",
+       "sources": [
+        "s1",
+        "s3"
+       ]
+      },
+      {
+       "text": "Keeps public safety and emergency management as priorities given the county's coastal location and chemical plants.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Says he will support small businesses and attract industries with good-paying jobs.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
+     "promises": [
+      {
+       "text": "Says he would revive a restorative criminal justice plan, similar to one he introduced six years earlier, to build understanding between law enforcement and residents.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "record": [],
-     "notes": [],
-     "stances": {},
-     "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "notes": [
+      {
+       "text": "Won the March 3, 2026 Democratic primary with 13,091 votes (50.09 percent).",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
+     "stances": {
+      "q_county_tax": {
+       "position": 0,
+       "basis": "questionnaire",
+       "summary": "Lists lowering taxes as a priority, but also calls for greater investment in roads and drainage and for reconsidering tax abatements so large companies pay their share.",
+       "sources": [
+        "s1",
+        "s3"
+       ]
+      },
+      "q_county_mental": {
+       "position": 1,
+       "basis": "reported",
+       "summary": "Said the county needs more mental health treatment facilities, funding programs, and resources, and that the jail should stop serving as the main mental health facility.",
+       "sources": [
+        "s3"
+       ]
+      }
+     },
+     "issue_notes": [
+      {
+       "topic": "Economic Development",
+       "summary": "Says the county should reconsider its use of tax abatements and direct more money toward infrastructure.",
+       "sources": [
+        "s3"
+       ]
+      },
+      {
+       "topic": "Water",
+       "summary": "Says the county should protect water as a resource for residents.",
+       "sources": [
+        "s3"
+       ]
+      },
+      {
+       "topic": "Data Centers",
+       "summary": "Says working with state lawmakers is needed to address residents' concerns about data centers.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Q&A: Get to know the Democratic candidates running for Brazoria County judge ahead of the March primaries",
+       "publisher": "Community Impact",
+       "url": "https://communityimpact.com/pearland-friendswood-manvel/election/qa-get-to-know-the-democratic-candidates-running-for-brazoria-county-judge-ahead-of-the-march-primaries/",
+       "date": "2026-01-20"
+      },
+      {
+       "id": "s2",
+       "title": "Rob Giesecke, Eugene Howard declare victory in primary races for Brazoria County judge, unofficial results show",
+       "publisher": "Community Impact",
+       "url": "https://communityimpact.com/pearland-friendswood-manvel/election/rob-giesecke-eugene-howard-declare-victory-in-primary-races-for-brazoria-county-judge-unofficial-results-show/",
+       "date": "2026-03-04"
+      },
+      {
+       "id": "s3",
+       "title": "Brazoria County judge candidates outline views on growth and infrastructure",
+       "publisher": "The Facts",
+       "url": "https://thefacts.com/news/brazoria-county-judge-candidates-outline-views-on-growth-and-infrastructure/article_e9a88364-5f99-4352-9c1f-396afaba8d0c.html",
+       "date": "2026-09-04"
+      },
+      {
+       "id": "s4",
+       "title": "Eugene Howard, Brazoria County Judge",
+       "publisher": "Branch Politics",
+       "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-county-judge-tx-county-brazoria/candidates/eugene-howard",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No working campaign website was found; the site listed in his primary questionnaire did not load.",
+     "researched": true
     },
     {
      "id": "lucinda-henry",
      "name": "Lucinda Henry",
      "party": "Independent",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
-     "website": null,
-     "priorities": [],
+     "current_role": "Physician assistant in pediatric medicine; small business owner",
+     "background": "Lucinda Henry has lived in Brazoria County for about 40 years and graduated from Brazoswood High School. She has practiced pediatric medicine as a physician assistant since 2006 and helps run local small businesses with her husband. She holds a bachelor's degree and a master's in physician assistant studies from the University of Texas Medical Branch and an MBA in accounting from Texas A&M University-Corpus Christi. She is running as an independent and is a first-time candidate.",
+     "website": "https://lucindahenryforcountyjudge.com",
+     "priorities": [
+      {
+       "text": "Campaigns on \"People Over Politics\" and restoring trust through transparency and accountability.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Says county officials must carefully review budgets, contracts, debt, and long-term obligations and explain them openly to taxpayers.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "Says decisions should be made in the open with public records easily accessible.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Says infrastructure planning should be proactive, naming roads in Manvel and Iowa Colony and evacuation needs.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
      "promises": [],
      "record": [],
-     "notes": [],
-     "stances": {},
-     "issue_notes": [],
-     "sources": [],
+     "notes": [
+      {
+       "text": "Running as an independent; says this makes her accountable only to voters rather than to a party.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
+     "stances": {
+      "q_county_tax": {
+       "position": 1,
+       "basis": "reported",
+       "summary": "Said taxpayers are already overburdened by property taxes and that leaders should ensure existing dollars are used efficiently and cut unnecessary spending before asking for more money.",
+       "sources": [
+        "s3"
+       ]
+      },
+      "q_county_mental": {
+       "position": 1,
+       "basis": "reported",
+       "summary": "Said patients in suicidal crisis can wait days for placement and supports additional local mental health services for adults and adolescents.",
+       "sources": [
+        "s3"
+       ]
+      }
+     },
+     "issue_notes": [
+      {
+       "topic": "Growth",
+       "summary": "Says rural residents should have a meaningful voice in nearby developments and that the county is struggling to keep pace with growth.",
+       "sources": [
+        "s3"
+       ]
+      },
+      {
+       "topic": "Water",
+       "summary": "Identified water resources as a major issue for the county.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Lucinda Henry, Independent Candidate for Brazoria County Judge",
+       "publisher": "Lucinda Henry campaign",
+       "url": "https://lucindahenryforcountyjudge.com/",
+       "date": "2026"
+      },
+      {
+       "id": "s2",
+       "title": "About Lucinda Henry",
+       "publisher": "Lucinda Henry campaign",
+       "url": "https://lucindahenryforcountyjudge.com/about/",
+       "date": "2026"
+      },
+      {
+       "id": "s3",
+       "title": "Brazoria County judge candidates outline views on growth and infrastructure",
+       "publisher": "The Facts",
+       "url": "https://thefacts.com/news/brazoria-county-judge-candidates-outline-views-on-growth-and-infrastructure/article_e9a88364-5f99-4352-9c1f-396afaba8d0c.html",
+       "date": "2026-09-04"
+      },
+      {
+       "id": "s4",
+       "title": "Lucinda Henry, Brazoria County Judge",
+       "publisher": "Branch Politics",
+       "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-county-judge-tx-county-brazoria/candidates/lucinda-henry",
+       "date": "2026"
+      }
+     ],
      "research_gaps": "",
-     "researched": false
+     "researched": true
     }
    ],
    "office": {
@@ -40265,27 +40732,82 @@
      "id": "thomas-l-pfeiffer",
      "name": "Thomas L. Pfeiffer",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
-     "website": null,
-     "priorities": [],
+     "incumbent": true,
+     "current_role": "Judge, Brazoria County Court at Law No. 2, since 2023",
+     "background": "Thomas Pfeiffer was elected judge of Brazoria County Court at Law No. 2 in 2022. Before that he was an assistant district attorney for more than 18 years, prosecuting capital murder and juvenile cases. He served as defense counsel in the U.S. Army Reserve JAG Corps, including active duty in 2006, and reached the rank of captain. He holds a criminal justice degree from Sam Houston State University (2000) and a law degree from South Texas College of Law (2003), and has lived in Brazoria County since 2006.",
+     "website": "https://www.thomasforccl.com",
+     "priorities": [
+      {
+       "text": "Says the juvenile justice goals of punishment and rehabilitation should be balanced as the Texas Family Code directs.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "Says he strives to apply the law with compassion and fairness while adhering to the rule of law.",
+       "sources": [
+        "s3"
+       ]
+      },
+      {
+       "text": "Says judges should actively manage caseloads to prevent backlogs while giving lawyers reasonable time to prepare.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
      "promises": [],
-     "record": [],
-     "notes": [],
+     "record": [
+      {
+       "text": "Elected judge of County Court at Law No. 2 in 2022 after more than 18 years as an assistant district attorney.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
+     "notes": [
+      {
+       "text": "Endorsed by the Pearland Police Officers Association PAC, the Alvin Police Officers Association, and the Manvel Police Association, and by former Fort Bend County District Attorney John F. Healey.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Judge Thomas Pfeiffer, Brazoria County Court at Law No. 2",
+       "publisher": "Thomas Pfeiffer campaign",
+       "url": "https://www.thomasforccl.com/",
+       "date": "2026"
+      },
+      {
+       "id": "s2",
+       "title": "About Thomas",
+       "publisher": "Thomas Pfeiffer campaign",
+       "url": "https://www.thomasforccl.com/about/",
+       "date": "2026"
+      },
+      {
+       "id": "s3",
+       "title": "Thomas L. Pfeiffer, Brazoria County Court-at-Law Judge, Position 2",
+       "publisher": "Branch Politics",
+       "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-county-court-at-law-judge-tx-county-brazoria-position-2/candidates/thomas-l-pfeiffer",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No bar poll or rulings coverage was found for his current term.",
+     "researched": true
     },
     {
      "id": "matt-muller",
      "name": "Matt Muller",
      "party": "Democratic",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Democratic nominee for Brazoria County Court at Law No. 2",
+     "background": "Matt Muller is the Democratic nominee for Brazoria County Court at Law No. 2. No verified biography, legal experience, or campaign website was found.",
      "website": null,
      "priorities": [],
      "promises": [],
@@ -40293,9 +40815,17 @@
      "notes": [],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Matt Muller, Brazoria County Court-at-Law Judge, Position 2",
+       "publisher": "Branch Politics",
+       "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-county-court-at-law-judge-tx-county-brazoria-position-2/candidates/matt-muller",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No campaign website, biography, legal experience, or public statements were found.",
+     "researched": true
     }
    ],
    "office": {
@@ -40394,37 +40924,106 @@
      "id": "cassandra-tigner",
      "name": "Cassandra Tigner",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Brazoria County District Clerk",
+     "background": "Cassandra Tigner is the sitting Brazoria County District Clerk and is listed in the county's January 2026 roster of elected officials. No campaign website or detailed biography was found.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Listed as District Clerk in the county's January 2026 elected officials roster.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Brazoria County Elected Officials, January 2026",
+       "publisher": "Brazoria County Clerk",
+       "url": "https://www.brazoriacountyclerktx.gov/home/showpublisheddocument/28373/639035666578130000",
+       "date": "2026-01"
+      },
+      {
+       "id": "s2",
+       "title": "Cassandra Tigner, Brazoria District Clerk",
+       "publisher": "Branch Politics",
+       "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-district-clerk-tx-county-brazoria/candidates/cassandra-tigner",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No campaign website, biography, or stated priorities were found, including when she took office.",
+     "researched": true
     },
     {
      "id": "grandison-porter",
      "name": "Grandison Porter",
      "party": "Democratic",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
-     "website": null,
-     "priorities": [],
+     "current_role": "Army JROTC instructor; pastor",
+     "background": "Grandison Porter is a U.S. Army veteran of more than 20 years and a combat veteran of Operation Enduring Freedom who now teaches as an Army JROTC instructor. He is from New Orleans and attended the University of New Orleans, the University of Phoenix, and Excelsior University. He is pastor of Intergenerational House of Prayer in Houston and lives with his family in Brazoria County.",
+     "website": "https://gporter4brazoriadc.com",
+     "priorities": [
+      {
+       "text": "Commits to regular audits of the District Clerk's Office.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Says he will update or improve e-filing and case management systems.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Says the office should plan for growth in court filings, jury administration, and records before backlogs develop.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Says he would evaluate existing personnel, technology, contracts, and workflows before seeking more taxpayer funding.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Says that in Army recruiting command he was responsible for maintaining more than 750,000 records.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Grandison Porter for Brazoria County District Clerk",
+       "publisher": "Grandison Porter campaign",
+       "url": "https://gporter4brazoriadc.com",
+       "date": "2026"
+      },
+      {
+       "id": "s2",
+       "title": "Grandison Porter, Brazoria District Clerk",
+       "publisher": "Branch Politics",
+       "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-district-clerk-tx-county-brazoria/candidates/grandison-porter",
+       "date": "2026"
+      }
+     ],
      "research_gaps": "",
-     "researched": false
+     "researched": true
     }
    ],
    "office": {
@@ -40449,37 +41048,79 @@
      "id": "joyce-hudman",
      "name": "Joyce Hudman",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Brazoria County Clerk",
+     "background": "Joyce Hudman is the sitting Brazoria County Clerk and previously worked in the County Clerk's Office. Branch reports that she was first elected in 1999. No campaign website was found.",
      "website": null,
      "priorities": [],
      "promises": [],
-     "record": [],
+     "record": [
+      {
+       "text": "Branch reports that as county clerk she requested $2 million to digitize and index county records.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "notes": [],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Joyce Hudman, Brazoria County Clerk",
+       "publisher": "Branch Politics",
+       "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-county-clerk-tx-county-brazoria/candidates/joyce-hudman",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No campaign website or independent coverage was found; her tenure and records request are reported only by Branch.",
+     "researched": true
     },
     {
      "id": "adrienne-bell",
      "name": "Adrienne Bell",
      "party": "Democratic",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
-     "website": null,
-     "priorities": [],
+     "current_role": "Educator",
+     "background": "Adrienne Bell is an educator with public-sector experience, including classroom teaching, according to Branch. Her campaign website could not be loaded for verification.",
+     "website": "https://bellforbrazoria.com",
+     "priorities": [
+      {
+       "text": "Plans to modernize county clerk services to improve record access, efficiency, and transparency.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Plans to launch online systems for county records, licenses, and vital documents.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Pledges responsive, customer-centered service across the county.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "promises": [],
      "record": [],
      "notes": [],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Adrienne Bell, Brazoria County Clerk",
+       "publisher": "Branch Politics",
+       "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-county-clerk-tx-county-brazoria/candidates/adrienne-bell",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "Her campaign website did not load, so her priorities rest on a Branch summary only.",
+     "researched": true
     }
    ],
    "office": {
@@ -40504,37 +41145,79 @@
      "id": "angela-dees",
      "name": "Angela Dees",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Brazoria County Treasurer since January 2023",
+     "background": "Angela Dees was born and raised in Brazoria County, graduated from Angleton High School, and earned a business degree from the Mays Business School at Texas A&M University. She worked as a commercial loan officer at several local financial institutions and managed finances for her family's construction, real estate, and ranching businesses. She was sworn in as county treasurer on January 1, 2023.",
      "website": null,
-     "priorities": [],
+     "priorities": [
+      {
+       "text": "Says she prioritizes managing taxpayer funds responsibly and efficiently.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "promises": [],
      "record": [],
      "notes": [],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Angela Dees, Brazoria County Treasurer",
+       "publisher": "Branch Politics",
+       "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-county-treasurer-tx-county-brazoria/candidates/angela-dees",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No campaign website or independent coverage of her tenure was found.",
+     "researched": true
     },
     {
      "id": "steve-sanders",
      "name": "Steve Sanders",
      "party": "Democratic",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
-     "website": null,
-     "priorities": [],
+     "current_role": "President, Local 24 Employees Federal Credit Union",
+     "background": "Steve Sanders is president of the Local 24 Employees Federal Credit Union and has served as secretary-treasurer of his union. He is a U.S. Army veteran and earned bachelor's degrees in general business and management from Lamar University.",
+     "website": "https://electstevesanders.com",
+     "priorities": [
+      {
+       "text": "Plans rigorous oversight and conservative investment strategies to safeguard county funds.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Plans to update financial systems to improve efficiency and provide real-time reporting.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Plans to make county financial records accessible and communicate clearly about the county's finances.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "promises": [],
      "record": [],
      "notes": [],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Steve Sanders, Brazoria County Treasurer",
+       "publisher": "Branch Politics",
+       "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-county-treasurer-tx-county-brazoria/candidates/steve-sanders",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "His campaign website showed only a placeholder page, so his priorities rest on a Branch summary.",
+     "researched": true
     }
    ],
    "office": {
@@ -40560,36 +41243,130 @@
      "name": "Alfred Froberg",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
-     "website": null,
-     "priorities": [],
+     "current_role": "Retired farmer (Froberg's Farm)",
+     "background": "Alfred Froberg is a fourth-generation Brazoria County resident and retired from Froberg's Farm, the family business he led. His campaign describes him as a lifelong farmer. He supports groups including Meals on Wheels, the Boy Scouts and Girl Scouts, and the Alvin Manvel Chamber of Commerce.",
+     "website": "https://alfredfroberg.com",
+     "priorities": [
+      {
+       "text": "Campaigns on economic growth, improving infrastructure, and public safety.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Says he supports local agriculture and fair representation for every resident.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Calls for embracing development while preserving the county's history and retaining rural areas.",
+       "sources": [
+        "s1",
+        "s2"
+       ]
+      },
+      {
+       "text": "Says he will build working relationships with city, county, and state entities.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Prioritizes reinvesting in existing roads and drainage.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "promises": [],
      "record": [],
      "notes": [],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Alfred Froberg for Brazoria County Commissioner, Precinct 2",
+       "publisher": "Alfred Froberg campaign",
+       "url": "https://alfredfroberg.com",
+       "date": "2026"
+      },
+      {
+       "id": "s2",
+       "title": "Alfred Froberg, Brazoria County Commissioner, Precinct 2",
+       "publisher": "Branch Politics",
+       "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-county-commissioner-tx-brazoria-county-district-2/candidates/alfred-froberg",
+       "date": "2026"
+      },
+      {
+       "id": "s3",
+       "title": "Q&A: Get to know the candidates for Brazoria County Precinct 2 commissioner ahead of primary election",
+       "publisher": "Community Impact",
+       "url": "https://communityimpact.com/pearland-friendswood/city-county/qa-get-to-know-the-candidates-for-brazoria-county-precinct-2-commissioner-ahead-of-primary-election/",
+       "date": "2022-02-13"
+      }
+     ],
+     "research_gaps": "No stated positions on tax rates, spending caps, mental health, water funding, or state preemption were found, and it could not be confirmed whether the 2022 incumbent, Ryan Cade, sought reelection.",
+     "researched": true
     },
     {
      "id": "carlos-townsend-sr",
      "name": "Carlos Townsend, Sr",
      "party": "Democratic",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
-     "website": null,
-     "priorities": [],
+     "current_role": "U.S. Air Force veteran",
+     "background": "Carlos Townsend Sr. grew up in a small town in Arkansas and served four years as a flight mechanic in the U.S. Air Force. He studied organizational management at Ashford University and earned a master's degree in cybersecurity and computer forensics from Bellevue University.",
+     "website": "https://townsendforbrazoria.com",
+     "priorities": [
+      {
+       "text": "Campaigns on fixing potholes and uneven grades, improving drainage, and maintaining county roads.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Supports warming centers during freezing weather.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Says he will support law enforcement, firefighters, and first responders and work to modernize emergency services in Precinct 2.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Supports transparent, accountable budgeting that puts needs over wants.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "promises": [],
      "record": [],
      "notes": [],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Townsend for County Commissioner, Precinct 2",
+       "publisher": "Carlos Townsend campaign",
+       "url": "https://townsendforbrazoria.com",
+       "date": "2026"
+      },
+      {
+       "id": "s2",
+       "title": "Carlos Townsend, Sr, Brazoria County Commissioner, Precinct 2",
+       "publisher": "Branch Politics",
+       "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-county-commissioner-tx-brazoria-county-district-2/candidates/carlos-townsend-sr",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No stated positions on tax rates, spending caps, mental health, water funding, or state preemption were found.",
+     "researched": true
     }
    ],
    "office": {
@@ -40614,37 +41391,171 @@
      "id": "david-linder",
      "name": "David Linder",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
-     "website": null,
-     "priorities": [],
+     "incumbent": true,
+     "current_role": "Brazoria County Commissioner, Precinct 4, since 2015",
+     "background": "David Linder was born in Freeport, graduated from Brazosport High School, and attended Brazosport College and the law enforcement academy in Alvin. He spent about 20 years in law enforcement as an Angleton patrolman and a Brazoria County deputy constable, and has owned construction and retail businesses and ranched. He has served on the Commissioners Court for Precinct 4 since 2015 and lives in Bailey's Prairie.",
+     "website": "https://votelinder.com",
+     "priorities": [
+      {
+       "text": "Campaigns on lower taxes.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Says he is committed to upgrading the county's roads and drainage.",
+       "sources": [
+        "s1",
+        "s2"
+       ]
+      },
+      {
+       "text": "Pledges to work with the sheriff on public safety.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "Pledges to keep working with the parks department on county recreational areas.",
+       "sources": [
+        "s1",
+        "s2"
+       ]
+      }
+     ],
      "promises": [],
-     "record": [],
+     "record": [
+      {
+       "text": "His campaign says that as commissioner he helped cut the county tax rate well below the no-new-revenue rate and that the county has the lowest tax rate in the region.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "notes": [],
-     "stances": {},
+     "stances": {
+      "q_county_tax": {
+       "position": 1,
+       "basis": "statement",
+       "summary": "Campaigns on lower taxes and cites the county's tax rate cuts during his tenure, while also pledging road and drainage upgrades.",
+       "sources": [
+        "s1"
+       ]
+      }
+     },
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "David Linder for Brazoria County Commissioner Precinct 4",
+       "publisher": "David Linder campaign",
+       "url": "https://votelinder.com",
+       "date": "2026"
+      },
+      {
+       "id": "s2",
+       "title": "David Linder, Brazoria County Commissioner, Precinct 4",
+       "publisher": "Branch Politics",
+       "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-county-commissioner-tx-brazoria-county-district-4/candidates/david-linder",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "Specific votes, budget figures, and road mileage could not be verified from county records.",
+     "researched": true
     },
     {
      "id": "becky-singleton",
      "name": "Becky Singleton",
      "party": "Democratic",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
-     "website": null,
-     "priorities": [],
-     "promises": [],
+     "current_role": "Business owner",
+     "background": "Becky Singleton is a business owner who has lived in Manvel and Brazoria County for about 20 years. She attended Northeastern University and worked for Polaroid training law enforcement on documenting crime scenes, for Johnson & Johnson training surgeons on medical devices, and for seven years in NFL player development. She ran twice for the Alvin ISD school board and served as a PTO president.",
+     "website": "https://www.beckysingletonforcommissioner.com",
+     "priorities": [
+      {
+       "text": "Says she will build a county mental health facility in partnership with a medical facility.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "Plans to partner with the Homeless Coalition to support homeless teens and their families.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "Plans to work with local farms and groups to expand food access for families in need.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "Plans to increase safe locations for women and children affected by domestic violence.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "Plans to work with other commissioners on a comprehensive emergency and evacuation plan.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
+     "promises": [
+      {
+       "text": "Says her goal is to build a mental health facility for Brazoria County residents.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "record": [],
-     "notes": [],
-     "stances": {},
+     "notes": [
+      {
+       "text": "Her campaign site displays a Moms Demand Action \"Gun Sense Candidate\" designation.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
+     "stances": {
+      "q_county_mental": {
+       "position": 2,
+       "basis": "statement",
+       "summary": "Says the county is too large not to have a mental health facility and that she will build one in partnership with a medical provider.",
+       "sources": [
+        "s2"
+       ]
+      }
+     },
      "issue_notes": [],
-     "sources": [],
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Becky Singleton for Commissioner",
+       "publisher": "Becky Singleton campaign",
+       "url": "https://www.beckysingletonforcommissioner.com",
+       "date": "2026"
+      },
+      {
+       "id": "s2",
+       "title": "Who I Am",
+       "publisher": "Becky Singleton campaign",
+       "url": "https://www.beckysingletonforcommissioner.com/whoiam",
+       "date": "2026"
+      },
+      {
+       "id": "s3",
+       "title": "Becky Singleton, Brazoria County Commissioner, Precinct 4",
+       "publisher": "Branch Politics",
+       "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-county-commissioner-tx-brazoria-county-district-4/candidates/becky-singleton",
+       "date": "2026"
+      }
+     ],
      "research_gaps": "",
-     "researched": false
+     "researched": true
     }
    ],
    "office": {
@@ -40670,36 +41581,118 @@
      "name": "Gale Froberg",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
-     "website": null,
-     "priorities": [],
+     "current_role": "Civil deputy and Master Peace Officer",
+     "background": "Gale Froberg has been a Texas peace officer for more than 20 years, holds a Master Peace Officer certification, and works as a civil deputy for a local agency. She was raised in West Columbia and has lived in Precinct 1 for more than 20 years. She lists more than 2,000 hours of law enforcement training.",
+     "website": "https://www.frobergforjp.com",
+     "priorities": [
+      {
+       "text": "Says she will approach cases with fairness, wisdom, and an understanding of both the law and the people it affects.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "Campaigns on commitment, integrity, and transparency.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Lists training including civil process, courtroom testimony, and mental illness response.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
+     "sources": [
+      {
+       "id": "s1",
+       "title": "About Gale Froberg",
+       "publisher": "Gale Froberg campaign",
+       "url": "https://www.frobergforjp.com/about-gale-froberg",
+       "date": "2026"
+      },
+      {
+       "id": "s2",
+       "title": "Qualifications",
+       "publisher": "Gale Froberg campaign",
+       "url": "https://www.frobergforjp.com/qualifications",
+       "date": "2026"
+      },
+      {
+       "id": "s3",
+       "title": "Gale Froberg, Brazoria Justice of the Peace, Precinct 1, Seat 2",
+       "publisher": "Branch Politics",
+       "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-brazoria-justice-precinct-1-seat-2/candidates/gale-froberg",
+       "date": "2026"
+      }
+     ],
      "research_gaps": "",
-     "researched": false
+     "researched": true
     },
     {
      "id": "william-cook",
      "name": "William Cook",
      "party": "Democratic",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
-     "website": null,
-     "priorities": [],
+     "current_role": "College student; works in family automotive and towing business",
+     "background": "William Cook is a lifelong Brazoria County resident and college student pursuing a career in radiologic technology. He works in his family's local automotive and towing business.",
+     "website": "https://williamcookforjp.com",
+     "priorities": [
+      {
+       "text": "Proposes online filing with plain instructions, evening and Saturday dockets, and longer clerk's office hours.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Says people who cannot afford fines will be told up front about payment plans and community service options.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Supports restorative options such as community service for many minor offenses.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Proposes text reminders before court dates, forms in English and Spanish, and monthly small claims nights.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "promises": [],
      "record": [],
      "notes": [],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
+     "sources": [
+      {
+       "id": "s1",
+       "title": "William Cook for Justice of the Peace",
+       "publisher": "William Cook campaign",
+       "url": "https://williamcookforjp.com",
+       "date": "2026"
+      },
+      {
+       "id": "s2",
+       "title": "William Cook, Brazoria Justice of the Peace, Precinct 1, Seat 2",
+       "publisher": "Branch Politics",
+       "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-brazoria-justice-precinct-1-seat-2/candidates/william-cook",
+       "date": "2026"
+      }
+     ],
      "research_gaps": "",
-     "researched": false
+     "researched": true
     }
    ],
    "office": {
@@ -40724,9 +41717,9 @@
      "id": "richard-b-davis",
      "name": "Richard B. Davis",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Justice of the Peace, Brazoria County Precinct 2, Place 2",
+     "background": "Richard B. Davis is the sitting justice of the peace for Brazoria County Precinct 2, Place 2, and has a background in law enforcement, according to Branch.",
      "website": null,
      "priorities": [],
      "promises": [],
@@ -40734,27 +41727,69 @@
      "notes": [],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Richard B. Davis, Brazoria Justice of the Peace, Precinct 2, Seat 2",
+       "publisher": "Branch Politics",
+       "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-brazoria-justice-precinct-2-seat-2/candidates/richard-b-davis",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No campaign website, official biography, or record coverage was found; incumbency is reported only by Branch.",
+     "researched": true
     },
     {
      "id": "shenequa-harrison",
      "name": "Shenequa Harrison",
      "party": "Democratic",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
-     "website": null,
-     "priorities": [],
+     "current_role": "Human resources professional",
+     "background": "Shenequa Harrison was born in Houston, raised in Missouri City, and has worked in human resources. She holds a bachelor's degree in human resource development from the University of Houston and a Master of Jurisprudence in labor and employment law from Tulane University.",
+     "website": "https://shenequaharrison.com",
+     "priorities": [
+      {
+       "text": "Says she will apply the law consistently and transparently while treating every person with dignity and respect.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Says she will be a visible presence and work with schools, parents, and community partners on youth support and prevention.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Plans to streamline processes to reduce delays and prepare the office for county growth.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "promises": [],
      "record": [],
      "notes": [],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Shenequa Harrison for Justice of the Peace, PCT2, Brazoria County",
+       "publisher": "Shenequa Harrison campaign",
+       "url": "https://shenequaharrison.com",
+       "date": "2026"
+      },
+      {
+       "id": "s2",
+       "title": "Shenequa Harrison, Brazoria Justice of the Peace, Precinct 2, Seat 2",
+       "publisher": "Branch Politics",
+       "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-brazoria-justice-precinct-2-seat-2/candidates/shenequa-harrison",
+       "date": "2026"
+      }
+     ],
      "research_gaps": "",
-     "researched": false
+     "researched": true
     }
    ],
    "office": {
@@ -40780,36 +41815,125 @@
      "name": "Jon Albin",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
-     "website": null,
-     "priorities": [],
+     "current_role": "Police crime scene detective",
+     "background": "Jon Albin is a U.S. Marine Corps veteran and certified Texas Master Peace Officer who has spent his law enforcement career in Brazoria County, including as a corrections officer at the Clemens Unit and a Pearland police officer. For the last 18 years he has worked as a certified crime scene detective and has testified in local, state, and federal courts. He graduated from the Alvin College Law Enforcement Academy in 2000 and has lived in Precinct 3 since 2009.",
+     "website": "https://www.jonalbin4jp.com",
+     "priorities": [
+      {
+       "text": "Campaigns on fairness, impartiality, and a firm commitment to the law.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Says his experience in conflict resolution, applying state law, and understanding bail requirements fits the duties of the office.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Endorsed by the Pearland Police Officers Association, the Pearland Professional Firefighters Association, Constables Mike Fulton and Buck Stevens, and Brookside Village Mayor Glenda Hundl.",
+       "sources": [
+        "s3"
+       ]
+      },
+      {
+       "text": "Former vice president of the Pearland Police Officers Association.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Jon Albin Republican For Justice of The Peace 3-2",
+       "publisher": "Jon Albin campaign",
+       "url": "https://www.jonalbin4jp.com",
+       "date": "2026"
+      },
+      {
+       "id": "s2",
+       "title": "Bio, Jon Albin",
+       "publisher": "Jon Albin campaign",
+       "url": "https://www.jonalbin4jp.com/biography",
+       "date": "2026"
+      },
+      {
+       "id": "s3",
+       "title": "Endorsements, Jon Albin",
+       "publisher": "Jon Albin campaign",
+       "url": "https://www.jonalbin4jp.com/endorsements",
+       "date": "2026"
+      },
+      {
+       "id": "s4",
+       "title": "Jon Albin, Brazoria Justice of the Peace, Precinct 3, Seat 2",
+       "publisher": "Branch Politics",
+       "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-brazoria-justice-precinct-3-seat-2/candidates/jon-albin",
+       "date": "2026"
+      }
+     ],
      "research_gaps": "",
-     "researched": false
+     "researched": true
     },
     {
      "id": "mark-wright",
      "name": "Mark Wright",
      "party": "Democratic",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
-     "website": null,
-     "priorities": [],
+     "current_role": "Small business owner",
+     "background": "Mark Wright was born in Seabrook and has lived in Pearland for 23 years. He has worked as a banker, manager, and professional home inspector and now owns a small business.",
+     "website": "https://wright4jop.com",
+     "priorities": [
+      {
+       "text": "Promises to apply the law consistently and without bias for plaintiffs, defendants, and law enforcement.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Promises an efficient, well-managed court that resolves cases promptly and performs magistrate duties under strict legal standards.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Says he will be visible in the community and educate the public about the court.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "promises": [],
      "record": [],
      "notes": [],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Wright for JOP",
+       "publisher": "Mark Wright campaign",
+       "url": "https://wright4jop.com",
+       "date": "2026"
+      },
+      {
+       "id": "s2",
+       "title": "Mark Wright, Brazoria Justice of the Peace, Precinct 3, Seat 2",
+       "publisher": "Branch Politics",
+       "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-brazoria-justice-precinct-3-seat-2/candidates/mark-wright",
+       "date": "2026"
+      }
+     ],
      "research_gaps": "",
-     "researched": false
+     "researched": true
     }
    ],
    "office": {
@@ -40835,36 +41959,98 @@
      "name": "Blaine Chesser",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Retired state trooper",
+     "background": "Blaine Chesser is a retired Texas state trooper, according to Branch. No campaign website was found.",
      "website": null,
-     "priorities": [],
+     "priorities": [
+      {
+       "text": "Plans to uphold the law, protect constitutional rights, and treat every citizen fairly and respectfully.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "promises": [],
      "record": [],
      "notes": [],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Blaine Chesser, Brazoria Justice of the Peace, Precinct 4, Seat 2",
+       "publisher": "Branch Politics",
+       "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-brazoria-justice-precinct-4-seat-2/candidates/blaine-chesser",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No campaign website or independent biography was found.",
+     "researched": true
     },
     {
      "id": "stephanie-baird",
      "name": "Stephanie Baird",
      "party": "Democratic",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
-     "website": null,
-     "priorities": [],
+     "current_role": "Nurse; U.S. Coast Guard veteran",
+     "background": "Stephanie Baird is a U.S. Coast Guard veteran and a nurse of nearly 16 years who has worked in correctional, mental health, and substance use facilities. She was raised in Texas, Florida, and Saudi Arabia. She is president of the Southern Brazoria County Democrats, a member of the Brazoria County NAACP, and a volunteer deputy voter registrar. She ran for Justice of the Peace Precinct 4, Place 1 in 2024.",
+     "website": "https://sbaird4jp.com",
+     "priorities": [
+      {
+       "text": "Campaigns on \"Ethics. Education. Empathy.\"",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Says her medical background is relevant because justices of the peace conduct death inquests in a county without a medical examiner.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Says she will use community outreach and education to make the court less intimidating.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Says people in court deserve dignity and respect, and that everyone deserves fairness regardless of background.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Lists endorsements from Texas Together, Texas Stonewall Democrats, 134 PAC, Planned Parenthood Texas Votes, and the Texas Gulf Coast Area Labor Federation, AFL-CIO.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Stephanie Baird for Justice of the Peace 4-2",
+       "publisher": "Stephanie Baird campaign",
+       "url": "https://sbaird4jp.com",
+       "date": "2026"
+      },
+      {
+       "id": "s2",
+       "title": "Stephanie Baird, Brazoria Justice of the Peace, Precinct 4, Seat 2",
+       "publisher": "Branch Politics",
+       "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-brazoria-justice-precinct-4-seat-2/candidates/stephanie-baird",
+       "date": "2026"
+      }
+     ],
      "research_gaps": "",
-     "researched": false
+     "researched": true
     }
    ],
    "office": {
@@ -52173,37 +53359,128 @@
      "id": "tom-clark",
      "name": "Tom Clark",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
-     "website": null,
-     "priorities": [],
+     "incumbent": true,
+     "current_role": "Justice of the Peace, Comal County Precinct 1",
+     "background": "Tom Clark is a third-generation Comal County resident who is seeking a fourth term as justice of the peace for Precinct 1. He practiced law for about 15 years as a prosecutor and defense attorney, served as an associate municipal court judge, and has taught in Texas State University's criminal justice department. He graduated from New Braunfels High School, attended Texas A&M, and went to law school in Houston.",
+     "website": "https://www.clark4jp.com",
+     "priorities": [
+      {
+       "text": "Says judges should guide self-represented litigants through the process with respect, dignity, and compassion.",
+       "sources": [
+        "s3"
+       ]
+      },
+      {
+       "text": "Says he avoids alternative dispute resolution that merely delays cases.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "promises": [],
-     "record": [],
-     "notes": [],
+     "record": [
+      {
+       "text": "Says his office expanded phone and Zoom hearings and is moving toward e-filing.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
+     "notes": [
+      {
+       "text": "Won the May 2026 Republican primary runoff over Susan Patterson with 53.42 percent.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
+     "sources": [
+      {
+       "id": "s1",
+       "title": "2026 ELECTIONS: Meet your candidates for Comal County Justice of the Peace Precincts 1 & 2",
+       "publisher": "New Braunfels Herald-Zeitung",
+       "url": "https://herald-zeitung.com/election/2026-elections-meet-your-candidates-for-comal-county-justice-of-the-peace-precincts-1-2/article_4af96dba-d801-4ae8-8cbd-f14aa23ec29d.html",
+       "date": "2026-02-12"
+      },
+      {
+       "id": "s2",
+       "title": "2026 ELECTIONS: Clark, Davis win justices of the peace in 2026 primary runoff election",
+       "publisher": "New Braunfels Herald-Zeitung",
+       "url": "https://herald-zeitung.com/election/2026-elections-clark-davis-win-justices-of-the-peace-in-2026-primary-runoff-election/article_5f65afbd-f716-4eca-9834-d400fb20af83.html",
+       "date": "2026-05-27"
+      },
+      {
+       "id": "s3",
+       "title": "Judge Tom Clark for Comal County Justice of the Peace Pct 1",
+       "publisher": "Tom Clark campaign",
+       "url": "https://www.clark4jp.com",
+       "date": "2026"
+      },
+      {
+       "id": "s4",
+       "title": "Tom Clark, Comal Justice of the Peace, Precinct 1",
+       "publisher": "Branch Politics",
+       "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-comal-justice-precinct-1/candidates/tom-clark",
+       "date": "2026"
+      }
+     ],
      "research_gaps": "",
-     "researched": false
+     "researched": true
     },
     {
      "id": "amandine-ngakoue",
      "name": "Amandine Ngakoue",
      "party": "Democratic",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
-     "website": null,
-     "priorities": [],
+     "current_role": "Salon and beauty supply store owner; real estate agent",
+     "background": "Amandine \"Amanda\" Ngakoue is originally from Cameroon and owns a beauty salon and beauty supply store in New Braunfels. She holds a bachelor's degree from Texas State University, cosmetology and real estate licenses, and studied pharmacy in Germany. She says she has limited judicial experience.",
+     "website": "https://amandangakoue.com",
+     "priorities": [
+      {
+       "text": "Says she wants to reform the bail system, expand mental health treatment options, and encourage rehabilitation.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Says she will treat people fairly and look for the root causes of problems.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "promises": [],
      "record": [],
      "notes": [],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "2026 ELECTIONS: Meet your candidates for Comal County Justice of the Peace Precincts 1 & 2",
+       "publisher": "New Braunfels Herald-Zeitung",
+       "url": "https://herald-zeitung.com/election/2026-elections-meet-your-candidates-for-comal-county-justice-of-the-peace-precincts-1-2/article_4af96dba-d801-4ae8-8cbd-f14aa23ec29d.html",
+       "date": "2026-02-12"
+      },
+      {
+       "id": "s2",
+       "title": "Comal County candidates file to run for local office in March 3, 2026 primary elections",
+       "publisher": "My Canyon Lake",
+       "url": "https://mycanyonlake.com/comal-county-candidates-file-to-run-for-local-office-in-march-3-2026-primary-elections/",
+       "date": "2025-12"
+      },
+      {
+       "id": "s3",
+       "title": "Amandine Ngakoue, Comal Justice of the Peace, Precinct 1",
+       "publisher": "Branch Politics",
+       "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-comal-justice-precinct-1/candidates/amandine-ngakoue",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "Her campaign website did not load; no general election coverage was found.",
+     "researched": true
     }
    ],
    "office": {
@@ -52228,37 +53505,121 @@
      "id": "james-rick-walker",
      "name": "James \"Rick\" Walker",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Justice of the Peace, Comal County Precinct 2",
+     "background": "James \"Rick\" Walker has served two terms as justice of the peace for Comal County Precinct 2 and has lived in the county for 20 years. He spent about 40 years in law enforcement, rising to supervisor of the Houston Police Department's juvenile division. He holds a master's in criminal justice from Sam Houston State University and a doctorate in adult education from Texas A&M.",
      "website": null,
-     "priorities": [],
+     "priorities": [
+      {
+       "text": "Plans to move the office toward e-filing.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "promises": [],
-     "record": [],
-     "notes": [],
+     "record": [
+      {
+       "text": "Says he redesigned the office to handle growth and created a death investigator training program to reduce JP appearances at death scenes.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Says he expanded courtroom technology.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
+     "notes": [
+      {
+       "text": "Ran unopposed in the March 2026 Republican primary.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "2026 ELECTIONS: Meet your candidates for Comal County Justice of the Peace Precincts 1 & 2",
+       "publisher": "New Braunfels Herald-Zeitung",
+       "url": "https://herald-zeitung.com/election/2026-elections-meet-your-candidates-for-comal-county-justice-of-the-peace-precincts-1-2/article_4af96dba-d801-4ae8-8cbd-f14aa23ec29d.html",
+       "date": "2026-02-12"
+      },
+      {
+       "id": "s2",
+       "title": "Comal County candidates file to run for local office in March 3, 2026 primary elections",
+       "publisher": "My Canyon Lake",
+       "url": "https://mycanyonlake.com/comal-county-candidates-file-to-run-for-local-office-in-march-3-2026-primary-elections/",
+       "date": "2025-12"
+      },
+      {
+       "id": "s3",
+       "title": "James \"Rick\" Walker, Comal Justice of the Peace, Precinct 2",
+       "publisher": "Branch Politics",
+       "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-comal-justice-precinct-2/candidates/james-rick-walker",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "The campaign website listed by Branch did not resolve.",
+     "researched": true
     },
     {
      "id": "michael-pi-a",
      "name": "Michael Piña",
      "party": "Democratic",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Real estate; former auto dealership manager",
+     "background": "Michael Piña was born and raised in San Antonio and lives in Bulverde. He served in the U.S. Navy as an operations specialist, then worked for the Air Force at NATO headquarters in Norfolk, Virginia. He later rose to general manager and area dealer president in car sales and now works in real estate.",
      "website": null,
-     "priorities": [],
+     "priorities": [
+      {
+       "text": "Says he wants to bring transparency, good customer service, and fairness to the office.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Says he would listen to defendants and look for solutions that work for everyone.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "promises": [],
      "record": [],
      "notes": [],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "2026 ELECTIONS: Meet your candidates for Comal County Justice of the Peace Precincts 1 & 2",
+       "publisher": "New Braunfels Herald-Zeitung",
+       "url": "https://herald-zeitung.com/election/2026-elections-meet-your-candidates-for-comal-county-justice-of-the-peace-precincts-1-2/article_4af96dba-d801-4ae8-8cbd-f14aa23ec29d.html",
+       "date": "2026-02-12"
+      },
+      {
+       "id": "s2",
+       "title": "Comal County candidates file to run for local office in March 3, 2026 primary elections",
+       "publisher": "My Canyon Lake",
+       "url": "https://mycanyonlake.com/comal-county-candidates-file-to-run-for-local-office-in-march-3-2026-primary-elections/",
+       "date": "2025-12"
+      },
+      {
+       "id": "s3",
+       "title": "Michael Piña, Comal Justice of the Peace, Precinct 2",
+       "publisher": "Branch Politics",
+       "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-comal-justice-precinct-2/candidates/michael-pia",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No campaign website or general election coverage was found.",
+     "researched": true
     }
    ],
    "office": {
@@ -52284,36 +53645,108 @@
      "name": "Timothy Davis",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Contractor",
+     "background": "Timothy Davis is a New Braunfels contractor who won the 2026 Republican nomination for the open Precinct 3 seat. He did not respond to a Herald-Zeitung interview request before the primary.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Won the May 2026 Republican primary runoff over Barbara Harrell with 54.63 percent.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Comal County candidates file to run for local office in March 3, 2026 primary elections",
+       "publisher": "My Canyon Lake",
+       "url": "https://mycanyonlake.com/comal-county-candidates-file-to-run-for-local-office-in-march-3-2026-primary-elections/",
+       "date": "2025-12"
+      },
+      {
+       "id": "s2",
+       "title": "2026 ELECTIONS: Clark, Davis win justices of the peace in 2026 primary runoff election",
+       "publisher": "New Braunfels Herald-Zeitung",
+       "url": "https://herald-zeitung.com/election/2026-elections-clark-davis-win-justices-of-the-peace-in-2026-primary-runoff-election/article_5f65afbd-f716-4eca-9834-d400fb20af83.html",
+       "date": "2026-05-27"
+      },
+      {
+       "id": "s3",
+       "title": "2026 ELECTIONS: Meet your candidates for Comal County Justice of the Peace Precincts 3 & 4",
+       "publisher": "New Braunfels Herald-Zeitung",
+       "url": "https://herald-zeitung.com/election/2026-elections-meet-your-candidates-for-comal-county-justice-of-the-peace-precincts-3-4/article_079693cf-66ee-4070-8c14-195b5866b6dc.html",
+       "date": "2026-02-13"
+      },
+      {
+       "id": "s4",
+       "title": "Timothy Davis, Comal Justice of the Peace, Precinct 3",
+       "publisher": "Branch Politics",
+       "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-comal-justice-precinct-3/candidates/timothy-davis",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No campaign website, biography, or statements were found; the website listed by Branch is unrelated to the campaign.",
+     "researched": true
     },
     {
      "id": "jon-casey",
      "name": "Jon Casey",
      "party": "Democratic",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Restaurant server; former battery company executive",
+     "background": "Jon Casey grew up in Boston, worked in his father's battery manufacturing company in Iowa, where he says he created a mercury recycling program, and later ran a renewable energy and deregulated power business in Dallas. He moved to New Braunfels after the COVID-19 pandemic and works at a local restaurant.",
      "website": null,
-     "priorities": [],
+     "priorities": [
+      {
+       "text": "Says he wants to make a difference locally and is running for anyone affected by abuse like that described in the Epstein files.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Told the Herald-Zeitung he views the Trump administration as unjust and wants to make a difference in any way he can.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "2026 ELECTIONS: Meet your candidates for Comal County Justice of the Peace Precincts 3 & 4",
+       "publisher": "New Braunfels Herald-Zeitung",
+       "url": "https://herald-zeitung.com/election/2026-elections-meet-your-candidates-for-comal-county-justice-of-the-peace-precincts-3-4/article_079693cf-66ee-4070-8c14-195b5866b6dc.html",
+       "date": "2026-02-13"
+      },
+      {
+       "id": "s2",
+       "title": "Comal County candidates file to run for local office in March 3, 2026 primary elections",
+       "publisher": "My Canyon Lake",
+       "url": "https://mycanyonlake.com/comal-county-candidates-file-to-run-for-local-office-in-march-3-2026-primary-elections/",
+       "date": "2025-12"
+      },
+      {
+       "id": "s3",
+       "title": "Jon Casey, Comal Justice of the Peace, Precinct 3",
+       "publisher": "Branch Politics",
+       "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-comal-justice-precinct-3/candidates/jon-casey",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No campaign website or statements about court administration were found.",
+     "researched": true
     }
    ],
    "office": {
@@ -118481,36 +119914,113 @@
      "name": "Luke Nichols",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
-     "website": null,
-     "priorities": [],
+     "current_role": "Assistant District Attorney, Jefferson County",
+     "background": "Luke Nichols has spent more than 20 years as an assistant district attorney in Jefferson County, handling violent crime, capital murder, crimes against children, narcotics, and repeat-offender felony cases. He is married with three children and lives in Jefferson County.",
+     "website": "https://lukenicholsforjudge.com",
+     "priorities": [
+      {
+       "text": "Says he will address the Criminal District Court's case backlog with docket-management practices, timely hearings, and consistent scheduling.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "Says he will apply the law consistently and protect the rights of both victims and the accused.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "Campaigns on well-reasoned rulings, clear courtroom procedures, and high standards of judicial conduct.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Campaign states that it complies voluntarily with the Judicial Campaign Fairness Act.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Meet Luke Nichols",
+       "publisher": "Luke Nichols campaign",
+       "url": "https://lukenicholsforjudge.com/meet-luke",
+       "date": "2026"
+      },
+      {
+       "id": "s2",
+       "title": "Luke Nichols' Judicial Platform",
+       "publisher": "Luke Nichols campaign",
+       "url": "https://lukenicholsforjudge.com/platform",
+       "date": "2026"
+      },
+      {
+       "id": "s3",
+       "title": "Luke Nichols for Judge, Jefferson County Criminal Court",
+       "publisher": "Luke Nichols campaign",
+       "url": "https://lukenicholsforjudge.com",
+       "date": "2026"
+      },
+      {
+       "id": "s4",
+       "title": "Luke Nichols, Jefferson Criminal District Judge",
+       "publisher": "Branch Politics",
+       "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-criminal-district-judge-tx-county-jefferson/candidates/luke-nichols",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No bar poll results or endorsements from legal organizations were found.",
+     "researched": true
     },
     {
      "id": "john-johnny-b-stevens-jr",
      "name": "John \"Johnny\" B. Stevens, Jr",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, Jefferson County Criminal District Court",
+     "background": "John B. Stevens Jr. presides over the Jefferson County Criminal District Court in Beaumont. The county's court page states that he was elected in November 2006. No campaign website or detailed biography was found.",
      "website": null,
      "priorities": [],
      "promises": [],
-     "record": [],
+     "record": [
+      {
+       "text": "Presiding judge of the Jefferson County Criminal District Court, elected in November 2006 according to the county.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "notes": [],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Criminal District Court",
+       "publisher": "Jefferson County, Texas",
+       "url": "https://jeffersoncountytx.gov/distcrts/cdc.htm",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "John \"Johnny\" B. Stevens, Jr, Jefferson Criminal District Judge",
+       "publisher": "Branch Politics",
+       "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-criminal-district-judge-tx-county-jefferson/candidates/john-johnny-b-stevens-jr",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No campaign website, biography, notable rulings coverage, bar poll, or stated judicial philosophy was found.",
+     "researched": true
     }
    ],
    "office": {
@@ -118757,27 +120267,63 @@
      "id": "roxanne-acosta-hellberg",
      "name": "Roxanne Acosta-Hellberg",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Jefferson County Clerk since 2023",
+     "background": "Roxanne Acosta-Hellberg is the Jefferson County Clerk. She won the office as a Republican in the November 2022 election.",
      "website": null,
      "priorities": [],
      "promises": [],
-     "record": [],
-     "notes": [],
+     "record": [
+      {
+       "text": "Won the Jefferson County Clerk race as a Republican in November 2022.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
+     "notes": [
+      {
+       "text": "Listed as Jefferson County Clerk in the Texas Directory.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Counties: Jefferson",
+       "publisher": "Texas Directory",
+       "url": "https://www.txdirectory.com/online/county/detail.php?id=123",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Republicans sweep Jefferson County midterm elections",
+       "publisher": "12News (KBMT)",
+       "url": "https://12newsnow.com/article/news/politics/elections/republicans-sweep-jefferson-county-midterm-elections/502-2ad9a2ae-f884-4412-8f29-8cf700c9cbb0",
+       "date": "2022-11"
+      },
+      {
+       "id": "s3",
+       "title": "Roxanne Acosta-Hellberg, Jefferson County Clerk",
+       "publisher": "Branch Politics",
+       "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-county-clerk-tx-county-jefferson/candidates/roxanne-acostahellberg",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No campaign website, biography, or stated priorities for 2026 were found.",
+     "researched": true
     },
     {
      "id": "carolyn-l-guidry",
      "name": "Carolyn L. Guidry",
      "party": "Democratic",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Democratic nominee for Jefferson County Clerk",
+     "background": "Carolyn L. Guidry is the Democratic nominee for Jefferson County Clerk. No verified biography or campaign website was found.",
      "website": null,
      "priorities": [],
      "promises": [],
@@ -118785,9 +120331,17 @@
      "notes": [],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Carolyn L. Guidry, Jefferson County Clerk",
+       "publisher": "Branch Politics",
+       "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-county-clerk-tx-county-jefferson/candidates/carolyn-l-guidry",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No campaign website, biography, or public statements were found.",
+     "researched": true
     }
    ],
    "office": {
@@ -118812,27 +120366,49 @@
      "id": "tim-funchess",
      "name": "Tim Funchess",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Jefferson County Treasurer",
+     "background": "Tim Funchess is the sitting Jefferson County Treasurer, with a term listed as 2023 to 2026. No campaign website or detailed biography was found.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Listed as Jefferson County Treasurer in the Texas Directory.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Counties: Jefferson",
+       "publisher": "Texas Directory",
+       "url": "https://www.txdirectory.com/online/county/detail.php?id=123",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Tim Funchess, Jefferson County Treasurer",
+       "publisher": "Branch Politics",
+       "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-county-treasurer-tx-county-jefferson/candidates/tim-funchess",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No campaign website, biography, or stated priorities were found.",
+     "researched": true
     },
     {
      "id": "michael-cooper",
      "name": "Michael Cooper",
      "party": "Democratic",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Democratic nominee for Jefferson County Treasurer",
+     "background": "Michael Cooper is the Democratic nominee for Jefferson County Treasurer. No verified biography or campaign website was found.",
      "website": null,
      "priorities": [],
      "promises": [],
@@ -118840,9 +120416,24 @@
      "notes": [],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Jefferson County Treasurer, General Election November 3, 2026",
+       "publisher": "Blue Voter Guide",
+       "url": "https://bluevoterguide.org/district/TX/Jefferson_County/54961/688",
+       "date": "2026"
+      },
+      {
+       "id": "s2",
+       "title": "Michael Cooper, Jefferson County Treasurer",
+       "publisher": "Branch Politics",
+       "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-county-treasurer-tx-county-jefferson/candidates/michael-cooper",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No campaign website, biography, or public statements were found.",
+     "researched": true
     }
    ],
    "office": {
@@ -118942,36 +120533,105 @@
      "name": "Joe Evans",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
-     "website": null,
-     "priorities": [],
-     "promises": [],
+     "current_role": "Director of Operations and Juvenile Affairs, Inspire, Encourage, Achieve; Executive Director, ReVision Southeast Texas",
+     "background": "Joe A. Evans Jr. directs juvenile programs for the nonprofit Inspire, Encourage, Achieve and leads ReVision Southeast Texas, which focuses on mentorship, diversion, and substance abuse prevention. He serves as a court-appointed guardian ad litem and educational surrogate for more than 20 young people. He previously managed operations at Beaumont Occupational Services for more than a decade, including substance testing and expert court testimony. He is a graduate of Florida A&M University and holds a Master of Public Health from Lamar University.",
+     "website": "https://joeevans.net",
+     "priorities": [
+      {
+       "text": "Says he is looking forward to working on the juvenile diversion plan enacted by the Legislature.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Campaigns on \"Fair. Firm. Faithful to the Law.\" and on accountability combined with second chances.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Says he will support programs that keep parents engaged, keep children in school, and resolve disputes peacefully.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Promises quick case resolution, courteous service, and clear communication.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
+     "promises": [
+      {
+       "text": "Says he will work with the district courts and County Clerk to implement the Texas Court Reminder Program (eCourtDate) to reduce missed court appearances.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "record": [],
      "notes": [],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Joe Evans for Jefferson Co. Pct 1 Pl 2 Justice of the Peace",
+       "publisher": "Joe Evans campaign",
+       "url": "https://joeevans.net",
+       "date": "2026"
+      },
+      {
+       "id": "s2",
+       "title": "Joe Evans, Jefferson Justice of the Peace, Precinct 1, Post 2",
+       "publisher": "Branch Politics",
+       "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-jefferson-justice-precinct-1/candidates/joe-evans",
+       "date": "2026"
+      }
+     ],
      "research_gaps": "",
-     "researched": false
+     "researched": true
     },
     {
      "id": "benjamin-ben-collins-sr",
      "name": "Benjamin \"Ben\" Collins, Sr",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Justice of the Peace, Jefferson County Precinct 1, Place 2",
+     "background": "Benjamin \"Ben\" Collins Sr. is the sitting justice of the peace for Jefferson County Precinct 1, Place 2, according to the Texas Directory. No campaign website or detailed biography was found.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Listed as Justice of the Peace, Precinct 1, Place 2 in the Texas Directory.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Counties: Jefferson",
+       "publisher": "Texas Directory",
+       "url": "https://www.txdirectory.com/online/county/detail.php?id=123",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Benjamin \"Ben\" Collins, Sr, Jefferson Justice of the Peace, Precinct 1, Post 2",
+       "publisher": "Branch Politics",
+       "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-jefferson-justice-precinct-1/candidates/benjamin-ben-collins-sr",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No campaign website, biography, or record coverage was found.",
+     "researched": true
     }
    ],
    "office": {
@@ -124755,37 +126415,181 @@
      "id": "donis-dl-wilson",
      "name": "Donis \"D.l.\" Wilson",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "McLennan County Commissioner, Precinct 2, since 2025",
+     "background": "Donis \"D.L.\" Wilson has lived in Precinct 2 most of his life. He is a former Texas Department of Transportation surveyor and a former Highway Patrol sergeant who supervised eight counties. He won the seat in 2024, becoming the first Republican to hold it in more than a century.",
      "website": null,
-     "priorities": [],
+     "priorities": [
+      {
+       "text": "In 2024 he named road conditions as his main reason for running and proposed traffic counters to identify the most-used roads.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "In 2024 he proposed bringing in staff with road and bridge expertise.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "In 2024 he called for more rural health care options, such as smaller satellite clinics.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Ran unopposed in the March 2026 Republican primary.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "Mid-decade redistricting changed Precinct 2's boundaries; Democrats argue the change favors Republicans.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Meet the Candidates: McLennan County Commissioner Precinct 2",
+       "publisher": "KWBU",
+       "url": "https://www.kwbu.org/2024-10-22/meet-the-candidates-mclennan-county-commissioner-precinct-2",
+       "date": "2024-10-22"
+      },
+      {
+       "id": "s2",
+       "title": "Jeremy Davis to face Donis 'D.L.' Wilson for McLennan County Commissioner Precinct 2 in November general election",
+       "publisher": "KWTX",
+       "url": "https://www.kwtx.com/2026/03/04/mclennan-county-commissioner-precinct-2-jp-races-decided/",
+       "date": "2026-03-03"
+      },
+      {
+       "id": "s3",
+       "title": "Turnout rises in McLennan County primaries as key local and state races take shape",
+       "publisher": "KWBU",
+       "url": "https://www.kwbu.org/news/2026-03-04/turnout-rises-in-mclennan-county-primaries-as-key-local-and-state-races-take-shape",
+       "date": "2026-03-04"
+      },
+      {
+       "id": "s4",
+       "title": "Donis \"D.L.\" Wilson, McLennan County Commissioner, Precinct 2",
+       "publisher": "Branch Politics",
+       "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-county-commissioner-tx-mclennan-county-district-2/candidates/donis-dl-wilson",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No campaign website, 2026 interview, or record of his votes on the Commissioners Court was found.",
+     "researched": true
     },
     {
      "id": "jeremy-davis",
      "name": "Jeremy Davis",
      "party": "Democratic",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
-     "website": null,
-     "priorities": [],
-     "promises": [],
-     "record": [],
-     "notes": [],
+     "current_role": "Waco ISD trustee; workforce development",
+     "background": "Jeremy Davis is a Waco native who was elected to the Waco ISD Board of Trustees in 2021 and serves as board secretary. He founded Mentor Waco, a youth mentorship nonprofit, after working as a behavior specialist in Waco ISD, and works in workforce development. He has served on the City of Waco Parks and Recreation Advisory Board and as an NAACP political action co-chair. He was the 2024 Democratic nominee for this seat.",
+     "website": "https://jeremydaviscampaign.com",
+     "priorities": [
+      {
+       "text": "Says he will support small businesses, attract new companies, advocate for higher wages, and provide job training, including a Small Business Grant Program.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "Says he will focus on repairing county roads and bridges guided by a comprehensive assessment of high-need areas.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "Says he will fund the public health care district, support fair elections, and continue programs such as pauper cremations.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
+     "promises": [
+      {
+       "text": "Proposes a Small Business Grant Program.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
+     "record": [
+      {
+       "text": "As a Waco ISD trustee, he cites oversight of budgets up to $350 million and the construction of five new schools.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
+     "notes": [
+      {
+       "text": "Won the March 2026 Democratic primary with 51.7 percent over Bellmead council member Travis Gibson.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "About, Jeremy Davis for Precinct 2",
+       "publisher": "Jeremy Davis campaign",
+       "url": "https://jeremydaviscampaign.com/about",
+       "date": "2026"
+      },
+      {
+       "id": "s2",
+       "title": "Issues, Jeremy Davis for Precinct 2",
+       "publisher": "Jeremy Davis campaign",
+       "url": "https://jeremydaviscampaign.com/issues",
+       "date": "2026"
+      },
+      {
+       "id": "s3",
+       "title": "Jeremy Davis to face Donis 'D.L.' Wilson for McLennan County Commissioner Precinct 2 in November general election",
+       "publisher": "KWTX",
+       "url": "https://www.kwtx.com/2026/03/04/mclennan-county-commissioner-precinct-2-jp-races-decided/",
+       "date": "2026-03-03"
+      },
+      {
+       "id": "s4",
+       "title": "Turnout rises in McLennan County primaries as key local and state races take shape",
+       "publisher": "KWBU",
+       "url": "https://www.kwbu.org/news/2026-03-04/turnout-rises-in-mclennan-county-primaries-as-key-local-and-state-races-take-shape",
+       "date": "2026-03-04"
+      },
+      {
+       "id": "s5",
+       "title": "Meet the Candidates: McLennan County Commissioner Precinct 2",
+       "publisher": "KWBU",
+       "url": "https://www.kwbu.org/2024-10-22/meet-the-candidates-mclennan-county-commissioner-precinct-2",
+       "date": "2024-10-22"
+      },
+      {
+       "id": "s6",
+       "title": "Jeremy Davis, McLennan County Commissioner, Precinct 2",
+       "publisher": "Branch Politics",
+       "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-county-commissioner-tx-mclennan-county-district-2/candidates/jeremy-davis",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No stated position was found on the county tax rate, spending caps, mental health spending, water funding, or state preemption.",
+     "researched": true
     }
    ],
    "office": {
@@ -125143,37 +126947,106 @@
      "id": "david-a-maler",
      "name": "David A. Maler",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "McLennan County Constable, Precinct 3",
+     "background": "David A. Maler is listed as the incumbent McLennan County Constable for Precinct 3 for the 2023 to 2026 term. No campaign website or detailed biography was found.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Listed among Constable Precinct 3 candidates filing 2026 campaign finance reports with McLennan County.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s2",
+       "title": "2026 Campaign Finance Reports",
+       "publisher": "McLennan County",
+       "url": "https://www.mclennan.gov/1337/2026-Campaign-Finance-Reports",
+       "date": "2026"
+      },
+      {
+       "id": "s3",
+       "title": "David A. Maler, McLennan County Constable, Justice Precinct 3",
+       "publisher": "Branch Politics",
+       "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-county-constable-tx-mclennan-justice-precinct-3/candidates/david-a-maler",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No campaign website, biography, or record of his tenure was found; incumbency is reported only by GoodParty.",
+     "researched": true
     },
     {
      "id": "justin-gonzales",
      "name": "Justin Gonzales",
      "party": "Libertarian",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
-     "website": null,
-     "priorities": [],
+     "current_role": "Law enforcement officer",
+     "background": "Justin \"Tonto\" Gonzales was born and raised in Waco and has worked in law enforcement in McLennan County for 11 years, mostly in Precinct 3, where he lives. He is running as the Libertarian candidate.",
+     "website": "https://votejustin4pct3constable.com",
+     "priorities": [
+      {
+       "text": "Campaigns on protecting constitutional rights and equal justice under the law.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Says he will serve without partisan politics and build community partnerships.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Says he will use taxpayer dollars efficiently and respect property rights.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Campaigns on limited government, individual liberty, and transparency.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "promises": [],
      "record": [],
      "notes": [],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Justin Gonzales for McLennan County Constable Precinct 3",
+       "publisher": "Justin Gonzales campaign",
+       "url": "https://votejustin4pct3constable.com",
+       "date": "2026"
+      },
+      {
+       "id": "s2",
+       "title": "2026 Campaign Finance Reports",
+       "publisher": "McLennan County",
+       "url": "https://www.mclennan.gov/1337/2026-Campaign-Finance-Reports",
+       "date": "2026"
+      },
+      {
+       "id": "s3",
+       "title": "Justin Gonzales, McLennan County Constable, Justice Precinct 3",
+       "publisher": "Branch Politics",
+       "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-county-constable-tx-mclennan-justice-precinct-3/candidates/justin-gonzales",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "His campaign site does not name his current agency or rank.",
+     "researched": true
     }
    ],
    "office": {
@@ -133371,27 +135244,139 @@
      "id": "pat-deen",
      "name": "Pat Deen",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
-     "website": null,
-     "priorities": [],
+     "incumbent": true,
+     "current_role": "Parker County Judge since 2018",
+     "background": "Pat Deen has been Parker County Judge since 2018 and previously served as mayor of Hudson Oaks. He earned a bachelor's degree in economics and finance from Texas Wesleyan University and a master's in global management from the University of Phoenix, and worked as a global original equipment manufacturer manager. He serves on the Regional Transportation Council and is seeking a third term.",
+     "website": "https://www.re-electpatdeen.com",
+     "priorities": [
+      {
+       "text": "Campaigns on fiscal conservatism and sustainable growth, listing lower taxes, public safety, water, transportation, and economic development.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "Says he focuses on bringing high-wage jobs to the county while keeping its rural character.",
+       "sources": [
+        "s3"
+       ]
+      },
+      {
+       "text": "Says reducing the share of residents who commute east would ease I-20 congestion and add taxable value.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
      "promises": [],
-     "record": [],
-     "notes": [],
-     "stances": {},
+     "record": [
+      {
+       "text": "Cited allocating more than $9 million in American Rescue Plan funds to water infrastructure, hiring a full-time fire marshal and emergency operations manager, and creating a Mayors Council.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "Voters approved a $130 million county transportation bond in November 2023 during his tenure.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "His campaign says he helped secure $1.6 billion in federal funding for road safety and expansion.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Says the county recruited Wagner's, a bridge and concrete manufacturer, to Cresson.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
+     "notes": [
+      {
+       "text": "Endorsed by 14 Parker County mayors, according to his campaign.",
+       "sources": [
+        "s1",
+        "s4"
+       ]
+      }
+     ],
+     "stances": {
+      "q_county_tax": {
+       "position": 1,
+       "basis": "statement",
+       "summary": "Lists lower taxes and fiscal conservatism among his priorities, while also backing a $130 million transportation bond.",
+       "sources": [
+        "s2"
+       ]
+      },
+      "q_water": {
+       "position": 1,
+       "basis": "inferred",
+       "summary": "Inferred from his record of directing more than $9 million in federal relief funds to county water infrastructure and his listing of water among his top priorities.",
+       "sources": [
+        "s2"
+       ]
+      }
+     },
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Re-Elect Judge Pat Deen",
+       "publisher": "Pat Deen campaign",
+       "url": "https://www.re-electpatdeen.com",
+       "date": "2026"
+      },
+      {
+       "id": "s2",
+       "title": "Deen announces plans to seek third term as judge",
+       "publisher": "Weatherford Democrat (via Yahoo News)",
+       "url": "https://www.yahoo.com/news/deen-announces-plans-seek-third-201100940.html",
+       "date": "2025-01-16"
+      },
+      {
+       "id": "s3",
+       "title": "Economic Development, Re-Elect Pat Deen",
+       "publisher": "Pat Deen campaign",
+       "url": "https://www.re-electpatdeen.com/copy-of-transportation",
+       "date": "2026"
+      },
+      {
+       "id": "s4",
+       "title": "Endorsements, Re-Elect Pat Deen",
+       "publisher": "Pat Deen campaign",
+       "url": "https://www.re-electpatdeen.com/copy-of-about",
+       "date": "2026"
+      },
+      {
+       "id": "s5",
+       "title": "Elected Officials for Parker County",
+       "publisher": "Parker County",
+       "url": "https://www.parkercountytx.gov/DocumentCenter/View/10188",
+       "date": null
+      },
+      {
+       "id": "s6",
+       "title": "Pat Deen, Parker County Judge",
+       "publisher": "Branch Politics",
+       "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-county-judge-tx-county-parker/candidates/pat-deen",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No statement was found on a spending cap, mental health spending, or state preemption.",
+     "researched": true
     },
     {
      "id": "richard-simms",
      "name": "Richard Simms",
      "party": "Democratic",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Retired",
+     "background": "Richard Simms moved to Weatherford with his wife in 2022 and is retired after working for the footwear company Rocky Brands, according to Branch.",
      "website": null,
      "priorities": [],
      "promises": [],
@@ -133399,9 +135384,17 @@
      "notes": [],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Richard Simms, Parker County Judge",
+       "publisher": "Branch Politics",
+       "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-county-judge-tx-county-parker/candidates/richard-simms",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No campaign website, questionnaire, or news coverage of his positions was found.",
+     "researched": true
     }
    ],
    "office": {
@@ -133574,37 +135567,120 @@
      "id": "jacob-holt",
      "name": "Jacob Holt",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Parker County Commissioner, Precinct 2, since 2023",
+     "background": "Jacob Holt was elected Parker County Commissioner for Precinct 2 in 2022 and is completing his first term. His career has been mostly in risk management and commercial insurance, including as an assistant vice president at Alliant Insurance Services. He holds a bachelor's degree from the University of Texas at Arlington and a master's in finance from Texas Christian University.",
      "website": null,
-     "priorities": [],
+     "priorities": [
+      {
+       "text": "In 2022 he called for professionalizing road repair with an online repair tracking system and working with developers and TxDOT on turn lanes.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "In 2022 he said the county must ensure enough water for residents and livestock given the draw on the water table.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "In 2022 he pledged conservative management of the county and precinct budget and better communication with the public.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "promises": [],
      "record": [],
      "notes": [],
-     "stances": {},
+     "stances": {
+      "q_county_tax": {
+       "position": 0,
+       "basis": "statement",
+       "summary": "Said in 2022 that taxpayer money must be spent prudently, but that sometimes spending must increase to accommodate growth if managed vigilantly.",
+       "sources": [
+        "s2"
+       ]
+      }
+     },
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Elected Officials for Parker County",
+       "publisher": "Parker County",
+       "url": "https://www.parkercountytx.gov/DocumentCenter/View/10188",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Meet the Candidates: Parker County Commissioner Precinct 2",
+       "publisher": "Weatherford Democrat",
+       "url": "https://www.weatherforddemocrat.com/news/meet-the-candidates-parker-county-commissioner-precinct-2/article_a5b16c20-8b84-11ec-83a1-cb28021d5ef0.html",
+       "date": "2022-02-12"
+      },
+      {
+       "id": "s3",
+       "title": "Jacob Holt, Parker County Commissioner, Precinct 2",
+       "publisher": "Branch Politics",
+       "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-county-commissioner-tx-parker-county-district-2-post-2/candidates/jacob-holt",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No 2026 campaign website or 2026 interview was found; his positions come from his 2022 campaign.",
+     "researched": true
     },
     {
      "id": "henry-lee-butler",
      "name": "Henry Lee Butler",
      "party": "Democratic",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
-     "website": null,
-     "priorities": [],
+     "current_role": "Data engineer, University of North Texas",
+     "background": "Henry Lee Butler grew up in Crane in West Texas and lives in Weatherford. He earned bachelor's and master's degrees in sociology from Baylor University, works as a data engineer for the University of North Texas, and was previously director of information technology at Weatherford College. He is a first-time candidate.",
+     "website": "https://henrylee.vote",
+     "priorities": [
+      {
+       "text": "Calls for budgets that consider household affordability, explain how revenue is allocated, and disclose long-term financial commitments.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Says county growth should be managed through planning rather than ignored or blindly resisted.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Calls for road planning tied to development projections and long-term congestion reduction.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Commits to listening to residents across the precinct before making decisions.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "promises": [],
      "record": [],
      "notes": [],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Henry Lee Butler, Parker County Commissioner, Precinct 2",
+       "publisher": "Branch Politics",
+       "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-county-commissioner-tx-parker-county-district-2-post-2/candidates/henry-lee-butler",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "His campaign website did not load, so his priorities rest on a Branch summary only.",
+     "researched": true
     }
    ],
    "office": {
@@ -133629,37 +135705,142 @@
      "id": "mike-hale",
      "name": "Mike Hale",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
-     "website": null,
-     "priorities": [],
+     "incumbent": true,
+     "current_role": "Parker County Commissioner, Precinct 4, since 2023",
+     "background": "Mike Hale was elected Parker County Commissioner for Precinct 4 in 2022 and is completing his first term. He is a commercial real estate project manager and business owner with a bachelor's degree in business administration focused on finance and commercial real estate. He describes himself as a fifth-generation Texan.",
+     "website": "https://mikehaletexas.com",
+     "priorities": [
+      {
+       "text": "Calls for proactive, strategic planning to manage rapid growth while preserving local heritage.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Describes himself as pro-business, in favor of small government, and pro-Second Amendment.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "promises": [],
      "record": [],
      "notes": [],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Mike Hale for Parker County Commissioner Precinct 4",
+       "publisher": "Mike Hale campaign",
+       "url": "https://mikehaletexas.com",
+       "date": "2026"
+      },
+      {
+       "id": "s2",
+       "title": "Elected Officials for Parker County",
+       "publisher": "Parker County",
+       "url": "https://www.parkercountytx.gov/DocumentCenter/View/10188",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Mike Hale, Parker County Commissioner, Precinct 4",
+       "publisher": "Branch Politics",
+       "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-county-commissioner-tx-parker-county-district-4-post-4/candidates/mike-hale",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No specific votes, accomplishments, or positions on taxes, water, or spending were found.",
+     "researched": true
     },
     {
      "id": "rian-r-brassell",
      "name": "Rian R Brassell",
      "party": "Democratic",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
-     "website": null,
-     "priorities": [],
+     "current_role": "U.S. Air Force veteran; human resources professional",
+     "background": "Rian Brassell served 26 years in the U.S. Air Force as a firefighter and EMT across active duty, reserve, and Guard service, and has worked in human resources. He holds a degree from the University of Texas at San Antonio.",
+     "website": "https://rianbrassell.com",
+     "priorities": [
+      {
+       "text": "Says he will hold developers and large truck companies responsible for damage to county roads.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Proposes a checklist, including traffic, water demand, groundwater, and emergency studies, before any data center is approved.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Pledges to create a long-term water plan and press state officials to adopt water policies for the county's future.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Says he will work with other commissioners on a future county plan to keep up with growth.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Lists veterans' benefits, land conservation, and fentanyl enforcement among his priorities.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "promises": [],
      "record": [],
      "notes": [],
-     "stances": {},
-     "issue_notes": [],
-     "sources": [],
+     "stances": {
+      "q_water": {
+       "position": 1,
+       "basis": "statement",
+       "summary": "Says the county faces long-term water shortages and pledges to press state officials to enact water policies that secure supply for future generations.",
+       "sources": [
+        "s1"
+       ]
+      }
+     },
+     "issue_notes": [
+      {
+       "topic": "Property Taxes",
+       "summary": "Says taxes are high and residents are not getting much for the investment.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "topic": "Data Centers",
+       "summary": "Says residents should not front the cost of infrastructure for data centers.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Rian Brassell for Parker County Commissioner Precinct 4",
+       "publisher": "Rian Brassell campaign",
+       "url": "https://rianbrassell.com",
+       "date": "2026"
+      },
+      {
+       "id": "s2",
+       "title": "Rian R. Brassell, Parker County Commissioner, Precinct 4",
+       "publisher": "Branch Politics",
+       "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-county-commissioner-tx-parker-county-district-4-post-4/candidates/rian-r-brassell-1",
+       "date": "2026"
+      }
+     ],
      "research_gaps": "",
-     "researched": false
+     "researched": true
     }
    ],
    "office": {
@@ -138001,36 +140182,159 @@
      "name": "Austin Luce",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
-     "website": null,
-     "priorities": [],
-     "promises": [],
+     "current_role": "Commercial property manager and property tax consultant",
+     "background": "Austin Luce is a commercial property manager in Smith County and a licensed property tax consultant who previously worked in the oil and gas industry. He earned a business degree from Texas A&M University and has served in the Texas State Guard since 2021. He is a founding member and past president of the Smith County Young Republicans. The seat is open because Commissioner John Moore is not seeking reelection.",
+     "website": "https://voteluce.com",
+     "priorities": [
+      {
+       "text": "Says he will pursue property tax relief and keep budgets growing only as much as household incomes.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Says he will review expenditures, seek transparent vendors, and borrow best practices from other counties.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Campaigns on being \"brilliant at the basics\": roads and bridges, public safety, and the justice system.",
+       "sources": [
+        "s1",
+        "s3"
+       ]
+      },
+      {
+       "text": "Says he will recruit industries that pay high wages and sell outside the county to reduce homeowners' tax burden.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
+     "promises": [
+      {
+       "text": "Says the county needs a new comprehensive road plan, since the last road study was done in 2015, and a public app or website showing road repair status.",
+       "sources": [
+        "s3"
+       ]
+      },
+      {
+       "text": "Said he would be out on a different county road every day responding to citizen reports.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "record": [],
-     "notes": [],
-     "stances": {},
-     "issue_notes": [],
-     "sources": [],
+     "notes": [
+      {
+       "text": "Endorsed by Sheriff Larry Smith, District Attorney Jacob Putman, Tyler Mayor Don Warren, and outgoing Commissioner John Moore.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
+     "stances": {
+      "q_county_tax": {
+       "position": 1,
+       "basis": "statement",
+       "summary": "Says the county must get spending under control in order to get property taxes under control, while keeping focus on roads and public safety.",
+       "sources": [
+        "s3",
+        "s1"
+       ]
+      },
+      "q_spending_cap": {
+       "position": 1,
+       "basis": "statement",
+       "summary": "Says county budgets should grow only as much as household incomes.",
+       "sources": [
+        "s1"
+       ]
+      }
+     },
+     "issue_notes": [
+      {
+       "topic": "Mental Health",
+       "summary": "Said he wants to build on outgoing Commissioner John Moore's focus on roads, public mental health, and opening the new courthouse.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Austin Luce for Smith County Commissioner",
+       "publisher": "Austin Luce campaign",
+       "url": "https://voteluce.com",
+       "date": "2026"
+      },
+      {
+       "id": "s2",
+       "title": "Smith County commissioner candidates focus on roads, transparency in Republican primary",
+       "publisher": "KLTV",
+       "url": "https://www.kltv.com/2026/02/19/smith-county-commissioner-candidates-focus-roads-transparency-republican-primary",
+       "date": "2026-02-18"
+      },
+      {
+       "id": "s3",
+       "title": "Smith Co. Commissioner Precinct 2: Austin Luce pushes for transparency in budgeting and road projects",
+       "publisher": "KETK",
+       "url": "https://digital-release.ketk.com/news/your-local-election-hq/smith-co-commissioner-precinct-2-austin-luce-pushes-for-transparency-in-budgeting-and-road-projects/",
+       "date": "2026-02-20"
+      },
+      {
+       "id": "s4",
+       "title": "Austin Luce, Smith County Commissioner, Precinct 2",
+       "publisher": "Branch Politics",
+       "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-county-commissioner-tx-smith-county-district-2/candidates/austin-luce",
+       "date": "2026"
+      }
+     ],
      "research_gaps": "",
-     "researched": false
+     "researched": true
     },
     {
      "id": "dustin-gray-stephens",
      "name": "Dustin Gray Stephens",
      "party": "Democratic",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Democratic nominee for Smith County Commissioner, Precinct 2",
+     "background": "Dustin Gray Stephens ran unopposed for the Democratic nomination for Smith County Commissioner, Precinct 2. No verified biography or campaign website was found.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Ran unopposed as the Democratic candidate in the March 2026 primary.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Smith Co. Commissioner Precinct 2: Austin Luce pushes for transparency in budgeting and road projects",
+       "publisher": "KETK",
+       "url": "https://digital-release.ketk.com/news/your-local-election-hq/smith-co-commissioner-precinct-2-austin-luce-pushes-for-transparency-in-budgeting-and-road-projects/",
+       "date": "2026-02-20"
+      },
+      {
+       "id": "s2",
+       "title": "Dustin Gray Stephens, Smith County Commissioner, Precinct 2",
+       "publisher": "Branch Politics",
+       "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-county-commissioner-tx-smith-county-district-2/candidates/dustin-gray-stephens",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No campaign website, biography, or public statements were found.",
+     "researched": true
     }
    ],
    "office": {
