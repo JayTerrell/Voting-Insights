@@ -101,7 +101,18 @@ function citedItems(items, ids, who, field) {
   return out;
 }
 
-function cleanStances(stances, ids, who) {
+// Sites that summarize candidates rather than quote them. A stance supported
+// only by these counts as news reporting, never as the candidate's own words.
+const SECONDARY_SUMMARY_DOMAINS = ['branch.vote'];
+const hostOf = (url) => {
+  try {
+    return new URL(url).hostname.replace(/^www\./, '');
+  } catch {
+    return '';
+  }
+};
+
+function cleanStances(stances, ids, who, sourceUrls = {}) {
   const out = {};
   const qids = new Set(questions.map((q) => q.id));
   for (const [qid, s] of Object.entries(stances || {})) {
@@ -123,7 +134,10 @@ function cleanStances(stances, ids, who) {
       warn(`${who}: ${qid} stance has no valid source and was dropped`);
       continue;
     }
-    out[qid] = { position, basis: s.basis, summary: s.summary || '', sources };
+    let basis = s.basis;
+    const onlySummaries = sources.every((id) => SECONDARY_SUMMARY_DOMAINS.includes(hostOf(sourceUrls[id] || '')));
+    if (onlySummaries && ['statement', 'questionnaire', 'record'].includes(basis)) basis = 'reported';
+    out[qid] = { position, basis, summary: s.summary || '', sources };
   }
   return out;
 }
@@ -217,7 +231,7 @@ const builtRaces = races.map((race) => {
         promises: citedItems(r.promises, ids, who, 'promise'),
         record: citedItems(r.record, ids, who, 'record'),
         notes: citedItems(r.notes, ids, who, 'note'),
-        stances: cleanStances(r.stances, ids, who),
+        stances: cleanStances(r.stances, ids, who, Object.fromEntries(sources.map((x) => [x.id, x.url]))),
         issue_notes: (r.issue_notes || [])
           .map((n) => ({ topic: n.topic, summary: n.summary, sources: (n.sources || []).filter((x) => ids.has(x)) }))
           .filter((n) => n.topic && n.summary && n.sources.length),

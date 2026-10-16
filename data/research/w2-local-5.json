@@ -1,0 +1,2861 @@
+{
+ "candidates": [
+  {
+   "id": "clark-b-will",
+   "race_id": "district-298",
+   "incumbent": false,
+   "current_role": "Attorney; first-time candidate",
+   "background": "Clark B. Will is an attorney who studied at the University of Texas at Austin and earned his law degree from St. Mary's University School of Law. He served six years in the U.S. Army Judge Advocate General's Corps and has worked at several law firms. He has served as an election judge in Dallas County for 10 years. This is his first campaign for public office.",
+   "website": "https://clarkwillforjudge.com",
+   "priorities": [
+    {
+     "text": "Says he will streamline dockets, reduce backlogs, and improve case flow so that justice is not delayed.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says judges should decide cases based on the Constitution and statutes, not polling data or political pressure.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Faces Democrat Ashley Smith in the November 3, 2026 general election for the 298th District Court in Dallas County.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Clark B. Will, Texas District Judge, District 298",
+     "publisher": "Branch Politics",
+     "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-district-judge-tx-judicial-district-298/candidates/clark-b-will",
+     "date": "2026-07"
+    },
+    {
+     "id": "s2",
+     "title": "Texas District Judge, District 298",
+     "publisher": "Branch Politics",
+     "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-district-judge-tx-judicial-district-298",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "No Dallas Bar Association poll results, endorsements, or independent news coverage were found; profile details come from a single secondary source."
+  },
+  {
+   "id": "ashley-smith",
+   "race_id": "district-298",
+   "incumbent": false,
+   "current_role": "Partner, Fee, Smith & Sharp LLP (civil litigation)",
+   "background": "Ashley Smith is a civil litigation attorney and a partner at Fee, Smith & Sharp LLP in Dallas. She holds a B.B.A. in finance and a law degree from Texas Tech University. She previously worked as an associate at Lopez Law Group PLLC, Engvall & Lopez LLP, and Bergquist Law Firm. This is her first campaign for public office.",
+   "website": "https://ashleysmithforjudge.com",
+   "priorities": [
+    {
+     "text": "Campaigns on greater uniformity and consistency in court operations.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says she will address delays and improve case management.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Describes fairness and impartiality as the core purpose of a judge and says a judge should focus on process rather than advocacy.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Served as course director for the State Bar of Texas Advanced Personal Injury course planning committee.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Faces Republican Clark B. Will in the November 3, 2026 general election.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Ashley Smith, Texas District Judge, District 298",
+     "publisher": "Branch Politics",
+     "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-district-judge-tx-judicial-district-298/candidates/ashley-smith",
+     "date": "2026-07"
+    },
+    {
+     "id": "s2",
+     "title": "Texas District Judge, District 298",
+     "publisher": "Branch Politics",
+     "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-district-judge-tx-judicial-district-298",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "No Dallas Bar Association poll results, endorsements, or independent news coverage were found; profile details come from a single secondary source."
+  },
+  {
+   "id": "mike-immler",
+   "race_id": "dallas-county-judge",
+   "incumbent": false,
+   "current_role": "Retired U.S. Air Force colonel and attorney; first-time candidate",
+   "background": "Mike Immler served 30 years in the U.S. Air Force and its reserve components and retired as a colonel. He is an attorney and former executive who held legal, real estate, and strategy roles at the Army and Air Force Exchange Service and later served as vice president of military affairs at First Command Financial Services. He lives in Dallas and is running for office for the first time.",
+   "website": "https://mikeimmler.com",
+   "priorities": [
+    {
+     "text": "Campaigns on fiscal responsibility, saying the county should \"show residents where county dollars go\" and tie major investments to public results.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Proposes independent reviews of major county spending and plain-language budget and contract information.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Says he will support the county systems behind public safety, including the sheriff, jail, courts, and emergency readiness.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Campaigns on improving conditions for small businesses, including clearer and more accessible county procurement.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    }
+   ],
+   "promises": [
+    {
+     "text": "Describes his approach as to \"show the work, measure the result, and report back.\"",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "record": [],
+   "notes": [
+    {
+     "text": "Won the March 3, 2026 Republican primary unopposed with 76,957 votes.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "His campaign site features an endorsement from retired U.S. Marine Corps Lt. Gen. John Wissler.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [
+    {
+     "topic": "Behavioral Health",
+     "summary": "Says he favors better coordination among agencies on homelessness and behavioral health, without stating a spending level.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Mike Immler for Dallas County Judge",
+     "publisher": "Mike Immler campaign",
+     "url": "https://mikeimmler.com",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Mike Immler, Dallas County Judge",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-judge-tx-county-dallas/candidates/mike-immler",
+     "date": "2026-07-22"
+    },
+    {
+     "id": "s3",
+     "title": "2026 Dallas County elections",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/2026_Dallas_County_elections",
+     "date": null
+    }
+   ],
+   "research_gaps": "No documented position was found on the November 2026 county tax rate election, water funding, or state preemption."
+  },
+  {
+   "id": "clay-jenkins",
+   "race_id": "dallas-county-judge",
+   "incumbent": true,
+   "current_role": "Dallas County Judge since 2011",
+   "background": "Clay Jenkins has been Dallas County Judge since winning election in 2010 and is seeking a fifth term. He holds a bachelor's degree from the University of Texas and a law degree from Southern Methodist University. He previously practiced law as a solo practitioner and co-owned a dental health services business.",
+   "website": "https://jenkinsfordallascounty.com",
+   "priorities": [
+    {
+     "text": "Says he wants to provide debt-free college to all Dallas County graduating seniors.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "On August 11, 2026 he voted with Commissioners Andrew Sommerman and Theresa Daniel to adopt a tax rate of $0.248650 per $100 of valuation, $0.024 above the voter-approval rate, and to call a November 3, 2026 election on it; Commissioners John Wiley Price and Elba Garcia voted no.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "The 2026 tax rate election order states the added revenue would fund programs to reduce homelessness and resolve encampments, increase access to mental health treatment, and support stable housing programs.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Won the March 3, 2026 Democratic primary unopposed with 240,073 votes.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Launched his campaign for a fifth term in December 2025.",
+     "sources": [
+      "s3",
+      "s4"
+     ]
+    }
+   ],
+   "stances": {
+    "q_county_tax": {
+     "position": -1,
+     "basis": "record",
+     "summary": "Voted in August 2026 to seek a county tax rate above the voter-approval rate to fund homelessness and mental health programs, subject to voter approval.",
+     "sources": [
+      "s2"
+     ]
+    },
+    "q_county_mental": {
+     "position": 1,
+     "basis": "record",
+     "summary": "Voted for a proposed tax rate increase whose stated purposes include increasing access to mental health treatment.",
+     "sources": [
+      "s2"
+     ]
+    }
+   },
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Clay Jenkins, Dallas County Judge",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-judge-tx-county-dallas/candidates/clay-jenkins",
+     "date": "2026-07-22"
+    },
+    {
+     "id": "s2",
+     "title": "Court Order 2026-0879: Order Calling an Election to Approve or Reject a Tax Rate That Exceeds the Voter-Approval Rate",
+     "publisher": "Dallas County Commissioners Court",
+     "url": "https://www.dallascounty.org/Assets/uploads/docs/budget/tax-rate-info/2026-0879-Tax-Rate-Election-Order.pdf",
+     "date": "2026-08-11"
+    },
+    {
+     "id": "s3",
+     "title": "2026 Dallas County elections",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/2026_Dallas_County_elections",
+     "date": null
+    },
+    {
+     "id": "s4",
+     "title": "Dallas County Judge Clay Lewis Jenkins kicks off re-election for fifth term",
+     "publisher": "Dallas Morning News",
+     "url": "https://www.dallasnews.com/news/elections/2025/12/01/dallas-county-judge-clay-lewis-jenkins-kicks-off-re-election-for-fifth-term/",
+     "date": "2025-12-01"
+    }
+   ],
+   "research_gaps": "Campaign website positions on most county issues could not be retrieved; no documented position on water funding, spending caps, or state preemption was found."
+  },
+  {
+   "id": "dave-muehlhaeusler",
+   "race_id": "dallas-district-clerk",
+   "incumbent": false,
+   "current_role": "Retired engineer; first-time candidate",
+   "background": "Dave Muehlhaeusler is a retired engineer with a bachelor's degree in mechanical design technology from Oklahoma State University. He worked for several lighting and technology companies, including Luminator Technology Group and Greenlee Lighting. This is his first campaign for public office.",
+   "website": "https://dmdcdc.org",
+   "priorities": [
+    {
+     "text": "Says his goal is to make sure court records are accurately recorded and processed immediately.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Won the March 3, 2026 Republican primary unopposed with 76,623 votes.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Dave Muehlhaeusler, Dallas District Clerk",
+     "publisher": "Branch Politics",
+     "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-district-clerk-tx-county-dallas/candidates/dave-muehlhaeusler",
+     "date": "2026-07"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Dallas County elections",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/2026_Dallas_County_elections",
+     "date": null
+    }
+   ],
+   "research_gaps": "No independent news coverage, endorsements, or detailed platform were found; profile details come from a secondary source."
+  },
+  {
+   "id": "felicia-pitre",
+   "race_id": "dallas-district-clerk",
+   "incumbent": true,
+   "current_role": "Dallas County District Clerk since 2015",
+   "background": "Felicia Pitre has been Dallas County District Clerk since winning election in 2014. She is originally from Lake Charles, Louisiana, and has lived in the Dallas area for nearly 30 years. Before taking office she worked in nonprofit and public service management.",
+   "website": "https://feliciapitre.com",
+   "priorities": [
+    {
+     "text": "Campaigns on digitizing court records for historical preservation and upkeep.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Her office led the rollout of the first electronic case management system in the Dallas County juvenile courts.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Her office launched an online passport appointment system during the COVID-19 pandemic to reduce wait times.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Won the March 3, 2026 Democratic primary unopposed with 233,858 votes.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Felicia Pitre, Dallas District Clerk",
+     "publisher": "Branch Politics",
+     "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-district-clerk-tx-county-dallas/candidates/felicia-pitre",
+     "date": "2026-07"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Dallas County elections",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/2026_Dallas_County_elections",
+     "date": null
+    }
+   ],
+   "research_gaps": "No independent news coverage of her office record or endorsements was found; education not documented."
+  },
+  {
+   "id": "skye-garcia",
+   "race_id": "dallas-county-clerk",
+   "incumbent": false,
+   "current_role": "Candidate for Dallas County Clerk",
+   "background": "Skye Garcia is the Republican nominee for Dallas County Clerk, an open seat after incumbent John Warren chose not to seek a sixth term. No professional or educational background was found in available sources.",
+   "website": "https://www.skyegarciafortexas.com",
+   "priorities": [
+    {
+     "text": "Says she will make public records and administrative decisions easily accessible to all residents.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Campaigns on modernizing outdated processes with technology to reduce wait times, errors, and taxpayer costs.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says she will expand outreach programs and pursue language access for Dallas County's diverse population.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Won the March 3, 2026 Republican primary unopposed with 76,721 votes.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Skye Garcia, Dallas County Clerk",
+     "publisher": "Branch Politics",
+     "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-county-clerk-tx-county-dallas/candidates/skye-garcia",
+     "date": "2026-07"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Dallas County elections",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/2026_Dallas_County_elections",
+     "date": null
+    }
+   ],
+   "research_gaps": "No background, education, current occupation, or endorsements were found."
+  },
+  {
+   "id": "damarcus-l-offord",
+   "race_id": "dallas-county-clerk",
+   "incumbent": false,
+   "current_role": "Senior manager of state relations, Dallas Area Rapid Transit (DART)",
+   "background": "Damarcus Offord is senior manager of state relations at Dallas Area Rapid Transit. He holds an associate degree from Navarro College and a bachelor's degree in criminal justice from the University of North Texas at Dallas. He previously led intergovernmental relations for Dallas ISD, served as director of outreach and senior advisor to U.S. Rep. Eddie Bernice Johnson, and worked in the Dallas County district clerk's office and juvenile department. He ran unsuccessfully for the Dallas ISD board in 2012 and 2015.",
+   "website": "https://damarcusoffordcampaign.com",
+   "priorities": [
+    {
+     "text": "Campaigns on transparent, efficient, and accessible government services.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says he will emphasize strong customer service in the County Clerk's office.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says he will collaborate with other elected officials and county departments.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Won the May 26, 2026 Democratic primary runoff with 64.7 percent of the vote over Ann Marie Cruz, after placing second in the March 3 primary.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Outgoing County Clerk John Warren, who did not seek a sixth term, endorsed him.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Damarcus L Offord, Dallas County Clerk",
+     "publisher": "Branch Politics",
+     "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-county-clerk-tx-county-dallas/candidates/damarcus-l-offord",
+     "date": "2026-07"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Dallas County elections",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/2026_Dallas_County_elections",
+     "date": null
+    }
+   ],
+   "research_gaps": "No detailed policy platform or newspaper questionnaire responses were found."
+  },
+  {
+   "id": "corsandra-brigham-phelps",
+   "race_id": "dallas-treasurer",
+   "incumbent": false,
+   "current_role": "Licensed financial services representative; first-time candidate",
+   "background": "Corsandra Brigham Phelps is a licensed financial services representative who lives in Dallas County with her husband. This is her first campaign for public office.",
+   "website": "https://phelpshelpsdallas.com",
+   "priorities": [
+    {
+     "text": "Campaigns on clearer and more accessible county financial reporting.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says she will strengthen internal controls to prevent waste or misuse of public funds.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says she will update treasury systems for better security, speed, and accessibility.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Won the March 3, 2026 Republican primary unopposed with 76,354 votes.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Corsandra Brigham Phelps, Dallas County Treasurer",
+     "publisher": "Branch Politics",
+     "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-county-treasurer-tx-county-dallas/candidates/corsandra-brigham-phelps",
+     "date": "2026-07"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Dallas County elections",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/2026_Dallas_County_elections",
+     "date": null
+    }
+   ],
+   "research_gaps": "No education, endorsements, or independent news coverage were found."
+  },
+  {
+   "id": "pauline-medrano",
+   "race_id": "dallas-treasurer",
+   "incumbent": true,
+   "current_role": "Dallas County Treasurer since 2015",
+   "background": "Pauline Medrano has served as Dallas County Treasurer since January 2015. She served on the Dallas City Council from 2005 to 2013, including terms as deputy mayor pro tem and mayor pro tem. She holds a bachelor's degree in political science from the University of Texas at Arlington and previously worked in state and federal government administration and corporate management.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "As treasurer she chairs the County Financial Review Committee and serves on the County Bail Bond Board and the Employee Benefits Committee.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Won the March 3, 2026 Democratic primary unopposed with 233,258 votes.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Pauline Medrano, Dallas County Treasurer",
+     "publisher": "Branch Politics",
+     "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-county-treasurer-tx-county-dallas/candidates/pauline-medrano",
+     "date": "2026-07"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Dallas County elections",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/2026_Dallas_County_elections",
+     "date": null
+    }
+   ],
+   "research_gaps": "No campaign website, stated 2026 priorities, or endorsements were found."
+  },
+  {
+   "id": "barry-wernick",
+   "race_id": "dallas-commissioner-2",
+   "incumbent": false,
+   "current_role": "Attorney, mediator, and arbitrator",
+   "background": "Barry Wernick is a Dallas attorney, mediator, and arbitrator from the Preston Hollow area. He holds a bachelor's degree from the University of Texas at Austin and a law degree from SMU Dedman School of Law. He ran for Dallas City Council District 11 in 2021 and 2023 and lost the 2024 Republican primary for Texas House District 108 to Rep. Morgan Meyer by 523 votes after requesting a recount.",
+   "website": "https://wernickfortexas.com",
+   "priorities": [
+    {
+     "text": "Campaigns on \"transparency, accountability, and affordability.\"",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Opposes the proposed 2026 county tax rate increase on the November ballot, saying \"We can't afford Andy Sommerman.\"",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    },
+    {
+     "text": "Says county spending should prioritize the sheriff's department, jail operations, and law enforcement, and calls for closer cooperation between Dallas County and ICE.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Campaigns on elections with fully auditable results for every race and every ballot.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    },
+    {
+     "text": "Supports programs addressing mental health and substance use and says he would work with nonprofits and faith-based groups on homelessness.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "promises": [
+    {
+     "text": "Pledges a third-party forensic audit of county finances and says, \"I'll be that watchdog.\"",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    },
+    {
+     "text": "Proposed moving two Election Day vote centers from religious sites to Richardson ISD facilities.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "record": [],
+   "notes": [
+    {
+     "text": "Won the March 3, 2026 Republican primary with 57.4 percent of the vote over Blake Clemens.",
+     "sources": [
+      "s4"
+     ]
+    }
+   ],
+   "stances": {
+    "q_county_tax": {
+     "position": 1,
+     "basis": "statement",
+     "summary": "Opposes the proposed county tax rate increase and says residents are already struggling with rising costs.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    },
+    "q_spending_cap": {
+     "position": 1,
+     "basis": "statement",
+     "summary": "Says the county needs \"responsible budgeting that lives within our means\" and supports limiting spending growth by reducing the size of government.",
+     "sources": [
+      "s2",
+      "s3"
+     ]
+    }
+   },
+   "issue_notes": [
+    {
+     "topic": "Property Taxes",
+     "summary": "Supports increasing the homestead exemption and compressing property taxes.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Barry Wernick Targets Tax Increase, Pledges Forensic Audit In Bid To Flip Dallas County Seat",
+     "publisher": "The Dallas Express",
+     "url": "https://dallasexpress.com/?p=334868",
+     "date": "2026-09-06"
+    },
+    {
+     "id": "s2",
+     "title": "Wernick for Texas",
+     "publisher": "Barry Wernick campaign",
+     "url": "https://wernickfortexas.com",
+     "date": null
+    },
+    {
+     "id": "s3",
+     "title": "Barry Wernick, Dallas County Commissioner, Precinct 2",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-commissioner-tx-dallas-county-district-2/candidates/barry-wernick",
+     "date": "2026-07-22"
+    },
+    {
+     "id": "s4",
+     "title": "2026 Dallas County elections",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/2026_Dallas_County_elections",
+     "date": null
+    }
+   ],
+   "research_gaps": "No documented position on county water funding or state preemption of local rules was found."
+  },
+  {
+   "id": "andy-sommerman",
+   "race_id": "dallas-commissioner-2",
+   "incumbent": true,
+   "current_role": "Dallas County Commissioner, Precinct 2, since 2023",
+   "background": "Andy Sommerman has represented Precinct 2 on the Dallas County Commissioners Court since 2023. He is an attorney who attended the University of Texas at Arlington and South Texas College of Law, where he serves on the board of directors. He founded the American Moot Court Association and has handled pro bono voter protection cases.",
+   "website": null,
+   "priorities": [
+    {
+     "text": "Lists workforce housing and affordable, high-quality child care among his priorities.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says he wants to reduce the jail population by opening deflection centers across the county.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Supports helping homeless residents through partners such as Housing Forward, The Stewpot, and Austin Street Center.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Supports foster children, including those aging out of care, and a community center for Esperanza residents.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "On August 11, 2026 he made the motion, approved 3-2, to adopt a tax rate of $0.248650 per $100 of valuation, above the voter-approval rate, and to call a November 3, 2026 election on it.",
+     "sources": [
+      "s2",
+      "s3"
+     ]
+    },
+    {
+     "text": "He amended the motion so that the purpose of the added revenue is to fund programs that reduce homelessness and resolve encampments, increase access to mental health treatment, and support stable housing.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Won the March 3, 2026 Democratic primary unopposed with 57,554 votes.",
+     "sources": [
+      "s4"
+     ]
+    },
+    {
+     "text": "In September 2026 his opponent criticized the use of mosques as polling locations; the Daily Signal reported that Sommerman had been recorded taking credit for opening three mosques as polling sites.",
+     "sources": [
+      "s5"
+     ]
+    }
+   ],
+   "stances": {
+    "q_county_tax": {
+     "position": -1,
+     "basis": "record",
+     "summary": "Made the August 2026 motion to seek a county tax rate above the voter-approval rate to fund homelessness and mental health programs, subject to voter approval.",
+     "sources": [
+      "s2"
+     ]
+    },
+    "q_county_mental": {
+     "position": 1,
+     "basis": "record",
+     "summary": "Moved to dedicate proposed new tax revenue partly to mental health treatment and says he wants deflection centers to reduce the jail population.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    }
+   },
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Commissioner Andy Sommerman, District 2: Biography",
+     "publisher": "Dallas County",
+     "url": "https://www.dallascounty.org/government/comcrt/district2/bio.php",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Court Order 2026-0879: Order Calling an Election to Approve or Reject a Tax Rate That Exceeds the Voter-Approval Rate",
+     "publisher": "Dallas County Commissioners Court",
+     "url": "https://www.dallascounty.org/Assets/uploads/docs/budget/tax-rate-info/2026-0879-Tax-Rate-Election-Order.pdf",
+     "date": "2026-08-11"
+    },
+    {
+     "id": "s3",
+     "title": "Barry Wernick Targets Tax Increase, Pledges Forensic Audit In Bid To Flip Dallas County Seat",
+     "publisher": "The Dallas Express",
+     "url": "https://dallasexpress.com/?p=334868",
+     "date": "2026-09-06"
+    },
+    {
+     "id": "s4",
+     "title": "2026 Dallas County elections",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/2026_Dallas_County_elections",
+     "date": null
+    },
+    {
+     "id": "s5",
+     "title": "Candidate Accuses Dallas County Commissioner of Leveraging Mosque Polling Locations for Elections",
+     "publisher": "The Daily Signal",
+     "url": "https://www.dailysignal.com/?p=226398",
+     "date": "2026-09"
+    }
+   ],
+   "research_gaps": "No campaign website or questionnaire responses were found; no documented position on water funding, spending caps, or state preemption."
+  },
+  {
+   "id": "lizbeth-diaz",
+   "race_id": "dallas-jp-1-1",
+   "incumbent": false,
+   "current_role": "Former paralegal and case manager; licensed minister",
+   "background": "Lizbeth Diaz is from Dallas and holds a bachelor's degree from Dallas Baptist University. She attended Christ For The Nations Institute and is a licensed minister. She worked for more than 10 years as a paralegal and case manager. She ran for the U.S. House in Texas's 30th Congressional District in 2022.",
+   "website": "https://diazforjp.com",
+   "priorities": [
+    {
+     "text": "Says she is committed to impartial justice and equal treatment for all community members.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Was unopposed in the March 2026 Republican primary.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Lizbeth Diaz, Dallas Justice of the Peace, Precinct 1, Post 1",
+     "publisher": "Branch Politics",
+     "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-dallas-justice-precinct-1-post-1/candidates/lizbeth-diaz",
+     "date": "2026-08-05"
+    }
+   ],
+   "research_gaps": "Campaign website content could not be retrieved; no endorsements or independent coverage were found."
+  },
+  {
+   "id": "thomas-g-jones",
+   "race_id": "dallas-jp-1-1",
+   "incumbent": true,
+   "current_role": "Dallas County Justice of the Peace, Precinct 1, Place 1, since 1991",
+   "background": "Thomas G. Jones has served as Justice of the Peace for Precinct 1, Place 1 since 1991 and presides over one of the busiest justice courts in Texas. He holds an undergraduate degree from Dallas Baptist University and a master's in urban studies from the University of Texas at Arlington. He previously spent ten years as a civil rights investigator with the U.S. Department of Education and served on the Dallas ISD board from 1987 to 1992.",
+   "website": "https://thomasgjones.com",
+   "priorities": [
+    {
+     "text": "Says he seeks to balance the law with fairness.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "His court processed more than 50,000 cases in 2024, according to his candidate profile.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "The State Commission on Judicial Conduct reported that from 2006 his court received well over 100,000 new cases a year and absorbed more than 150,000 cases when the county's J.P. Central Collection Center closed in 2008.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "In 2009 the State Commission on Judicial Conduct issued him a public admonition after investigating complaints of long delays, poor customer service, and inadequate staff training and supervision in his court; the Commission dismissed most of the 26 pending complaints after he acknowledged the problems and described improvements.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Thomas G. Jones, Dallas Justice of the Peace, Precinct 1, Post 1",
+     "publisher": "Branch Politics",
+     "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-dallas-justice-precinct-1-post-1/candidates/thomas-g-jones",
+     "date": "2026-07"
+    },
+    {
+     "id": "s2",
+     "title": "Public Admonition, Honorable Thomas G. Jones, CJC Nos. 07-0269-JP, 08-0901-JP, and 09-0148-JP",
+     "publisher": "State Commission on Judicial Conduct",
+     "url": "https://www.scjc.texas.gov/media/46952/jones-07-0269-jp-pubadm-final.pdf",
+     "date": "2009"
+    }
+   ],
+   "research_gaps": "No current endorsements or bar poll results were found; Commission records of other sanctions referenced in search results could not be retrieved and verified."
+  },
+  {
+   "id": "vickie-whiteside",
+   "race_id": "dallas-jp-2-1",
+   "incumbent": false,
+   "current_role": "Former law enforcement officer and constable clerk; first-time candidate",
+   "background": "Vickie Whiteside spent 17 years in law enforcement and then four years as a constable clerk, where she worked with court procedures and justice of the peace courts. This is her first campaign for public office.",
+   "website": "https://whiteside4jp.com",
+   "priorities": [
+    {
+     "text": "Says she wants the court to be more approachable and open, to help residents follow legal processes, and to run more efficiently.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Pledges to apply the law evenly regardless of a person's background or finances and to base rulings on law and precedent.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Vickie Whiteside, Dallas Justice of the Peace, Precinct 2, Post 1",
+     "publisher": "Branch Politics",
+     "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-dallas-justice-precinct-2-post-1/candidates/vickie-whiteside",
+     "date": "2026-07-22"
+    }
+   ],
+   "research_gaps": "Campaign website content could not be retrieved; education, endorsements, and independent coverage were not found."
+  },
+  {
+   "id": "margaret-o-brien",
+   "race_id": "dallas-jp-2-1",
+   "incumbent": true,
+   "current_role": "Dallas County Justice of the Peace, Precinct 2, Place 1, since 2019",
+   "background": "Margaret O'Brien was first elected Justice of the Peace for Precinct 2, Place 1 in 2018 and is seeking re-election. Her campaign says the court has been recognized as a model court by the Texas Justice Court Training Center, where she serves as a trainer.",
+   "website": "https://mo4jp.com",
+   "priorities": [
+    {
+     "text": "Campaigns on fairness for everyone who appears in her court.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Supports legal assistance, representation, and financial help for renters.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Lists community and family safety, including issuing mental health warrants, as a priority.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Her campaign says she cleared a significant case backlog left by her predecessor.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Faces Republican Vickie Whiteside in the November 3, 2026 general election.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Judge Margaret O'Brien, Justice of the Peace, Precinct 2, Place 1",
+     "publisher": "Margaret O'Brien campaign",
+     "url": "https://mo4jp.com",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Dallas Justice of the Peace, Justice Precinct 2, Post 1",
+     "publisher": "Branch Politics",
+     "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-dallas-justice-precinct-2-post-1",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "Education, prior legal career, and endorsements were not found; record claims come from her campaign site."
+  },
+  {
+   "id": "lynn-a-benedetto",
+   "race_id": "dallas-jp-3-1",
+   "incumbent": false,
+   "current_role": "Candidate for Justice of the Peace",
+   "background": "Lynn A. Benedetto is the Republican nominee for Justice of the Peace, Precinct 3, Place 1 in Dallas County. No campaign website or public biographical information was found.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Branch Politics reported that as of July 22, 2026 the candidate had no website or other information online; faces Democratic incumbent Adam M. Swartz.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Lynn A. Benedetto, Dallas Justice of the Peace, Precinct 3, Post 1",
+     "publisher": "Branch Politics",
+     "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-dallas-justice-precinct-3-post-1/candidates/lynn-a-benedetto",
+     "date": "2026-07-22"
+    }
+   ],
+   "research_gaps": "No campaign website, background, priorities, or endorsements were found; Branch reported no online information as of July 2026."
+  },
+  {
+   "id": "adam-m-swartz",
+   "race_id": "dallas-jp-3-1",
+   "incumbent": true,
+   "current_role": "Dallas County Justice of the Peace, Precinct 3, Place 1, since 2023",
+   "background": "Adam Swartz was elected Justice of the Peace for Precinct 3, Place 1 in 2022 and took office in January 2023. He was born and raised in North Dallas and previously managed Swartz Davidson Law, a firm focused on consumer protection and criminal defense. He is a qualified mediator.",
+   "website": "https://keepjudgeswartz.com",
+   "priorities": [
+    {
+     "text": "Says he is restoring dignity and integrity to the courtroom.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "As co-administrative judge he implemented electronic filing and published new forms for self-represented litigants.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Won the seat in 2022, which his campaign describes as the first Democratic win for that bench in 28 years.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "notes": [],
+   "stances": {
+    "q_textualism": {
+     "position": -1,
+     "basis": "reported",
+     "summary": "Described as applying a purposivist approach that emphasizes a law's purpose and considers differing interpretations, rather than strict textualism.",
+     "sources": [
+      "s1"
+     ]
+    }
+   },
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Adam M. Swartz, Dallas Justice of the Peace, Precinct 3, Post 1",
+     "publisher": "Branch Politics",
+     "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-dallas-justice-precinct-3-post-1/candidates/adam-m-swartz",
+     "date": "2026-07-22"
+    },
+    {
+     "id": "s2",
+     "title": "Keep Judge Swartz",
+     "publisher": "Adam Swartz campaign",
+     "url": "https://keepjudgeswartz.com",
+     "date": null
+    }
+   ],
+   "research_gaps": "Education, endorsements, and bar poll results were not found; his stated judicial philosophy comes from a secondary source."
+  },
+  {
+   "id": "michael-l-geller",
+   "race_id": "dallas-jp-3-2",
+   "incumbent": false,
+   "current_role": "Debt collection attorney in Dallas",
+   "background": "Michael L. Geller is a Dallas attorney who practices debt collection law and has been licensed in Texas since 1989. He earned his law degree from Widener University's Delaware Law School.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Branch Politics reported that as of July 22, 2026 he had no campaign website; faces Democrat Paula M. Rosales.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Michael L. Geller, Dallas Justice of the Peace, Precinct 3, Post 2",
+     "publisher": "Branch Politics",
+     "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-dallas-justice-precinct-3-post-2/candidates/michael-l-geller",
+     "date": "2026-07-22"
+    }
+   ],
+   "research_gaps": "No campaign website, priorities, or endorsements were found; Branch reported no online information as of July 2026."
+  },
+  {
+   "id": "paula-m-rosales",
+   "race_id": "dallas-jp-3-2",
+   "incumbent": false,
+   "current_role": "Litigation attorney manager, Domingo Garcia Law Office",
+   "background": "Paula Rosales is a litigation attorney manager at the Dallas office of the Domingo Garcia Law Office. She previously served four years as a Dallas County Court at Law judge and as a Dallas municipal judge, and worked as a Dallas County assistant district attorney and as a human rights advisor for the U.S. Department of State. She holds a bachelor's degree from Southern Methodist University and a law degree from Texas Wesleyan School of Law.",
+   "website": "https://rosalesforjustice.com",
+   "priorities": [
+    {
+     "text": "Says justice should be accessible to everyone, not just those who can afford an attorney.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Endorsed by the Mexican American Bar Association of Dallas and Dallas County Young Democrats, among other groups.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Member of the Dallas Trial Lawyers Association and the Dallas Hispanic Bar Association.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Paula M Rosales, Dallas Justice of the Peace, Precinct 3, Post 2",
+     "publisher": "Branch Politics",
+     "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-dallas-justice-precinct-3-post-2/candidates/paula-m-rosales",
+     "date": "2026-07-22"
+    },
+    {
+     "id": "s2",
+     "title": "Paula Rosales, Candidate for Dallas County Justice of the Peace Precinct 3 Place 2",
+     "publisher": "Blue Voter Guide",
+     "url": "https://bluevoterguide.org/TX/candidate_Paula_Rosales/294418",
+     "date": "2026"
+    }
+   ],
+   "research_gaps": "No detailed platform, Dallas Bar poll results, or independent coverage were found."
+  },
+  {
+   "id": "fred-van-liew",
+   "race_id": "dallas-jp-4-1",
+   "incumbent": false,
+   "current_role": "Founder of ewater.com; former talk show host",
+   "background": "Fred Van Liew founded ewater.com and formerly hosted the nationally syndicated Christian talk show \"Your Health Your Choice.\" He is the author of a book on adrenal exhaustion and chronic fatigue. No legal experience was listed in available sources.",
+   "website": "https://vanliewforjp.com",
+   "priorities": [
+    {
+     "text": "Says he will run the court efficiently and transparently.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says he will resolve disputes fairly, treat every party equally, and follow Texas law.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Fred Van Liew, Dallas Justice of the Peace, Precinct 4, Post 1",
+     "publisher": "Branch Politics",
+     "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-dallas-justice-precinct-4-post-1/candidates/fred-van-liew",
+     "date": "2026-07-22"
+    }
+   ],
+   "research_gaps": "Campaign website content could not be retrieved; education, legal experience, and endorsements were not found."
+  },
+  {
+   "id": "mike-jones",
+   "race_id": "dallas-jp-4-1",
+   "incumbent": true,
+   "current_role": "Dallas County Justice of the Peace, Precinct 4, Place 1 (first term)",
+   "background": "Mike Jones is serving his first term as Justice of the Peace for Precinct 4, Place 1 and is seeking re-election. He graduated from DeSoto High School and serves on Dallas County's Advancement in Court Technology committee. He describes himself as a community volunteer who serves on several boards and professional associations.",
+   "website": "https://judgemikejones.com",
+   "priorities": [
+    {
+     "text": "Campaigns on modernizing the court with digital and paperless tools.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Supports expanded access, including longer court hours and online e-filing and payment.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Campaigns on preventing evictions and supporting both tenants and landlords.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "His campaign says he led implementation of a new case management system for all Dallas County justice courts.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "His campaign says he digitized paper files, added a paperless kiosk with text alerts, and introduced a Teen Court addressing vaping and truancy.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "His campaign reports he was named 2026 Judge of the Year by the Texas Justice of the Peace and Constable Association.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Faces Republican Fred Van Liew in the November 3, 2026 general election.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Judge Mike Jones",
+     "publisher": "Mike Jones campaign",
+     "url": "https://judgemikejones.com",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Dallas Justice of the Peace, Justice Precinct 4, Post 1",
+     "publisher": "Branch Politics",
+     "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-dallas-justice-precinct-4-post-1",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "Start date in office, education beyond high school, and endorsements were not found; record claims come from his campaign site."
+  },
+  {
+   "id": "chad-calvert",
+   "race_id": "dallas-constable-2",
+   "incumbent": false,
+   "current_role": "Candidate for Dallas County Constable, Precinct 2",
+   "background": "Chad Calvert is the Republican nominee for Dallas County Constable, Precinct 2, after winning the March 3, 2026 Republican primary. No professional background was found in available sources.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Won the March 3, 2026 Republican primary for Constable, Precinct 2.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Branch Politics reported that as of July 22, 2026 he had no website or other information online; faces Democratic incumbent Deanna Hammond.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Chad Calvert, Dallas County Constable, Precinct 2",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-constable-tx-dallas-justice-precinct-2/candidates/chad-calvert",
+     "date": "2026-07-22"
+    },
+    {
+     "id": "s2",
+     "title": "Chad Calvert",
+     "publisher": "Ballotpedia",
+     "url": "https://ballotpedia.org/Chad_Calvert",
+     "date": null
+    }
+   ],
+   "research_gaps": "No campaign website, background, priorities, or endorsements were found."
+  },
+  {
+   "id": "deanna-hammond",
+   "race_id": "dallas-constable-2",
+   "incumbent": true,
+   "current_role": "Dallas County Constable, Precinct 2, since 2023",
+   "background": "Deanna Hammond was elected Dallas County Constable for Precinct 2 in November 2022 after defeating incumbent Bill Gipson in the Democratic primary. She previously worked as a deputy constable in Tarrant County, a federal police officer with the Department of Veterans Affairs, a Dallas Police Department officer, and a school counselor. She holds a bachelor's degree from DeVry University, a master's from Dallas Baptist University, and a doctorate in psychology from Grand Canyon University.",
+   "website": "https://hammondforconstable.com",
+   "priorities": [
+    {
+     "text": "Supports community policing that involves residents in safety decisions through outreach and dialogue.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says her office will serve warrants, summonses, subpoenas, and writs of possession with dignity and respect.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says she will continue educating residents about their rights and available resources.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Defeated incumbent Bill Gipson in the 2022 Democratic primary and faced Republican Vince Griffin in the 2022 general election.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Listed by Dallas County as the Precinct 2 constable, with offices at the Mesquite and Garland government centers.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Deanna Hammond, Dallas County Constable, Precinct 2",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-constable-tx-dallas-justice-precinct-2/candidates/deanna-hammond",
+     "date": "2026-07"
+    },
+    {
+     "id": "s2",
+     "title": "The license plate said 'Texas Constable,' but Dallas County voters decide Tuesday if she'll be one",
+     "publisher": "KERA News",
+     "url": "https://www.keranews.org/news/2022-11-07/the-license-plate-said-texas-constable-but-dallas-county-voters-decide-tuesday-if-shell-be-one",
+     "date": "2022-11-07"
+    },
+    {
+     "id": "s3",
+     "title": "Constable Precinct 2: About",
+     "publisher": "Dallas County",
+     "url": "https://www.dallascounty.org/departments/constable/precinct2/about.php",
+     "date": null
+    }
+   ],
+   "research_gaps": "No independent coverage of her record in office or 2026 endorsements was found."
+  },
+  {
+   "id": "michelle-eggleston",
+   "race_id": "potter-county-judge",
+   "incumbent": false,
+   "current_role": "Attorney; Potter County resident for nearly 20 years",
+   "background": "Michelle Eggleston is an attorney with more than 30 years of legal experience, including more than two decades practicing in Potter County courts. She graduated from the University of Oklahoma College of Law. Gov. Rick Perry appointed her to the Texas State Board of Examiners of Licensed Professional Counselors, where she served 10 years. She serves on the board of trustees of Oklahoma Christian University.",
+   "website": "https://www.michelleforpottercountyjudge.com",
+   "priorities": [
+    {
+     "text": "Says she will develop a 10-year plan for the county focused on fiscal responsibility, public safety, and growth.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    },
+    {
+     "text": "Says sheriff's deputies, corrections officers, and firefighters deserve the resources and pay to do their jobs safely.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    },
+    {
+     "text": "Says she will explore new revenue ideas and budget responsibly as the county faces population decline and financial strain.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Campaigns on attracting investment and supporting existing businesses to grow the local economy.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Notes the county jail is more than 30 years old and struggling to meet state standards.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Won the March 3, 2026 Republican primary unopposed for the seat held by Judge Nancy Tanner, who did not seek a fourth term.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "stances": {
+    "q_county_tax": {
+     "position": 0,
+     "basis": "statement",
+     "summary": "Criticized a county tax increase and emphasizes economic growth, while also calling for new revenue ideas and better pay and resources for first responders.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    }
+   },
+   "issue_notes": [
+    {
+     "topic": "Mental Health",
+     "summary": "Says her guardianship work has shown her the importance of access to appropriate mental health care and resources.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Potter County attorney announces bid for county judge",
+     "publisher": "ABC 7 Amarillo (KVII)",
+     "url": "https://www.abc7amarillo.com/news/local/potter-county-attorney-michelle-eggleston-announces-bid-for-county-judge-potter-county-fire-chief-richard-lake-nancy-tanner-sheriffs-office",
+     "date": "2025-11-12"
+    },
+    {
+     "id": "s2",
+     "title": "Michelle Eggleston for Potter County Judge",
+     "publisher": "Michelle Eggleston campaign",
+     "url": "https://www.michelleforpottercountyjudge.com/",
+     "date": null
+    },
+    {
+     "id": "s3",
+     "title": "Majority of Potter County Commission will see turnover next year",
+     "publisher": "ABC 7 Amarillo (KVII)",
+     "url": "https://www.abc7amarillo.com/news/local/majority-of-potter-county-commission-will-see-turnover-next-year-changing-of-the-guard-election-2026-blair-schaffer-jeff-raef-warren-coble-sr-timothy-gassaway-jose-perez-judge-nancy-tanner-michelle-eggleston-jerri-glover",
+     "date": "2026-03-03"
+    }
+   ],
+   "research_gaps": "No documented position on water funding, state preemption, spending caps, or a specific mental health spending level was found; endorsements not retrieved."
+  },
+  {
+   "id": "jerri-glover",
+   "race_id": "potter-county-judge",
+   "incumbent": false,
+   "current_role": "Mediator and business owner",
+   "background": "Jerri Glover is the Democratic nominee for Potter County Judge. Her campaign says she has run her own business, worked as a mediator, worked inside the courts, and managed emergency response and personnel deployment preparation at Edwards Air Force Base.",
+   "website": "https://jerriforjudge.com",
+   "priorities": [
+    {
+     "text": "Wants Potter County to have a seat at the table on the Amarillo Economic Development Corporation, regional planning, and the Potter-Randall Appraisal District.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says the county pays other counties to house inmates and sends some services out of the county, and says she would bring that work home where possible.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says every resident should get the same fair hearing regardless of party or connections.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Won the March 3, 2026 Democratic primary unopposed.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Jerri Glover for Potter County Judge",
+     "publisher": "Jerri Glover campaign",
+     "url": "https://jerriforjudge.com/",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Majority of Potter County Commission will see turnover next year",
+     "publisher": "ABC 7 Amarillo (KVII)",
+     "url": "https://www.abc7amarillo.com/news/local/majority-of-potter-county-commission-will-see-turnover-next-year-changing-of-the-guard-election-2026-blair-schaffer-jeff-raef-warren-coble-sr-timothy-gassaway-jose-perez-judge-nancy-tanner-michelle-eggleston-jerri-glover",
+     "date": "2026-03-03"
+    }
+   ],
+   "research_gaps": "Education and detailed background were not found; no documented position on taxes, water, mental health spending, or state preemption."
+  },
+  {
+   "id": "stephnie-menke",
+   "race_id": "potter-district-clerk",
+   "incumbent": true,
+   "current_role": "Potter County District Clerk",
+   "background": "Stephnie Menke is the Potter County District Clerk and is seeking re-election. She has lived in Potter County for more than 34 years and says she has served the community for more than 24 years.",
+   "website": "https://www.menkefordistrictclerk.com",
+   "priorities": [
+    {
+     "text": "Campaigns on protecting the accuracy and integrity of court records.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says she will provide dependable administrative and case management support to the courts.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says she will serve the public with professionalism, efficiency, and open communication.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Faces Democrat Jessi Barrientos in the November 3, 2026 general election.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Stephnie Menke for Potter County District Clerk",
+     "publisher": "Stephnie Menke campaign",
+     "url": "https://www.menkefordistrictclerk.com/",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Potter District Clerk",
+     "publisher": "Branch Politics",
+     "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-district-clerk-tx-county-potter",
+     "date": "2026"
+    }
+   ],
+   "research_gaps": "Start date in office, education, and independent coverage were not found."
+  },
+  {
+   "id": "jessi-barrientos",
+   "race_id": "potter-district-clerk",
+   "incumbent": false,
+   "current_role": "Executive assistant and career coach",
+   "background": "Jessi Barrientos is a former librarian who became a career coach, consultant to small businesses and nonprofits, and executive assistant.",
+   "website": "https://jessibarrientos.wixsite.com/askjessib",
+   "priorities": [
+    {
+     "text": "Lists building relationships, creative problem solving, and continuing education as priorities.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Describes herself as an \"optimistic realist\" who uses data and strategic thinking to find solutions.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Faces Republican incumbent Stephnie Menke in the November 3, 2026 general election.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Jessi B",
+     "publisher": "Jessi Barrientos campaign",
+     "url": "https://jessibarrientos.wixsite.com/askjessib",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Potter District Clerk",
+     "publisher": "Branch Politics",
+     "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-district-clerk-tx-county-potter",
+     "date": "2026"
+    }
+   ],
+   "research_gaps": "No specific plans for the district clerk's office, endorsements, or independent coverage were found."
+  },
+  {
+   "id": "jose-perez",
+   "race_id": "potter-commissioner-4",
+   "incumbent": false,
+   "current_role": "Candidate for Potter County Commissioner, Precinct 4",
+   "background": "Jose Perez is the Republican nominee for Potter County Commissioner, Precinct 4. No background information was found in available sources.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Will face Democrat Timothy Gassaway, who defeated incumbent Warren Coble Sr. in the March 2026 Democratic primary.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Majority of Potter County Commission will see turnover next year",
+     "publisher": "ABC 7 Amarillo (KVII)",
+     "url": "https://www.abc7amarillo.com/news/local/majority-of-potter-county-commission-will-see-turnover-next-year-changing-of-the-guard-election-2026-blair-schaffer-jeff-raef-warren-coble-sr-timothy-gassaway-jose-perez-judge-nancy-tanner-michelle-eggleston-jerri-glover",
+     "date": "2026-03-03"
+    }
+   ],
+   "research_gaps": "No background, campaign website, priorities, or positions on county issues were found."
+  },
+  {
+   "id": "timothy-w-gassaway",
+   "race_id": "potter-commissioner-4",
+   "incumbent": false,
+   "current_role": "Candidate for Potter County Commissioner, Precinct 4",
+   "background": "Timothy Gassaway is the Democratic nominee for Potter County Commissioner, Precinct 4. He defeated incumbent Commissioner Warren Coble Sr. in the March 3, 2026 Democratic primary, 410 votes to 333.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Defeated incumbent Warren Coble Sr. in the March 3, 2026 Democratic primary, 410 to 333.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Majority of Potter County Commission will see turnover next year",
+     "publisher": "ABC 7 Amarillo (KVII)",
+     "url": "https://www.abc7amarillo.com/news/local/majority-of-potter-county-commission-will-see-turnover-next-year-changing-of-the-guard-election-2026-blair-schaffer-jeff-raef-warren-coble-sr-timothy-gassaway-jose-perez-judge-nancy-tanner-michelle-eggleston-jerri-glover",
+     "date": "2026-03-03"
+    }
+   ],
+   "research_gaps": "No background, campaign website, priorities, or positions on county issues were found."
+  },
+  {
+   "id": "amanda-mayfield",
+   "race_id": "potter-jp-1",
+   "incumbent": false,
+   "current_role": "Candidate for Potter County Justice of the Peace, Precinct 1",
+   "background": "Amanda Mayfield is the Republican nominee for Potter County Justice of the Peace, Precinct 1, after a May 2026 Republican primary runoff. No biographical information was found in available sources.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Appeared in the May 26, 2026 Republican primary runoff for this seat and is listed as the Republican nominee.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Potter Justice of the Peace, Justice Precinct 1",
+     "publisher": "Branch Politics",
+     "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-potter-justice-precinct-1",
+     "date": "2026"
+    },
+    {
+     "id": "s2",
+     "title": "See May 2026 Joint Primary Election runoff results here",
+     "publisher": "KFDA NewsChannel 10",
+     "url": "https://www.newschannel10.com/2026/05/27/see-may-2026-joint-primary-election-runoff-results-here/",
+     "date": "2026-05-27"
+    }
+   ],
+   "research_gaps": "No background, campaign website, or incumbency information was found."
+  },
+  {
+   "id": "david-martinez",
+   "race_id": "potter-jp-1",
+   "incumbent": false,
+   "current_role": "Educator, Amarillo ISD",
+   "background": "David Martinez is an educator with Amarillo Independent School District. He ran for Potter County Commissioner, Precinct 1 in 2024.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Faces Republican Amanda Mayfield in the November 3, 2026 general election.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "BallotReady lists his current occupation as an educator with Amarillo ISD and a 2024 candidacy for Potter County Commissioner, Precinct 1.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "David Martinez",
+     "publisher": "BallotReady",
+     "url": "https://www.ballotready.org/people/david-martinez-1bc15fd4-90d5-48c3-9de9-8c758d2faa2f",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Potter Justice of the Peace, Justice Precinct 1",
+     "publisher": "Branch Politics",
+     "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-potter-justice-precinct-1",
+     "date": "2026"
+    }
+   ],
+   "research_gaps": "No education, priorities, or endorsements were found."
+  },
+  {
+   "id": "lydia-elizondo",
+   "race_id": "hidalgo-da",
+   "incumbent": false,
+   "current_role": "Attorney; State Bar of Texas District 12 director",
+   "background": "Lydia Elizondo was born and raised in Weslaco and graduated from UTPA before earning her law degree from St. Mary's University School of Law. She began her legal career at the Hidalgo County District Attorney's Office, later ran her own firm, and spent seven years with the Indigent Defense Program. She was elected director for District 12 on the State Bar of Texas Board of Directors and has served on the Hidalgo County Bar Association board.",
+   "website": "https://lydiaelizondo.com",
+   "priorities": [
+    {
+     "text": "Says she is \"ready to take on corruption and restore faith in our justice system.\"",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Ran unopposed in the March 2026 Republican primary.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Serves on the State Bar Women in the Profession Committee and a local ethics and grievance committee.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Faces Democratic incumbent Terry Palacios in the November 3, 2026 general election.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Lydia Elizondo for District Attorney",
+     "publisher": "Lydia Elizondo campaign",
+     "url": "https://lydiaelizondo.com",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Hidalgo District Attorney",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-district-attorney-tx-county-hidalgo",
+     "date": "2026"
+    },
+    {
+     "id": "s3",
+     "title": "Early voting: Who is on the ballots",
+     "publisher": "Advance News Journal",
+     "url": "https://www.anjournal.com/area-state-news-news/early-voting-who-ballots",
+     "date": "2026-02"
+    }
+   ],
+   "research_gaps": "No documented positions on bail, mental health diversion, or charging policy were found; her campaign priorities page listed none."
+  },
+  {
+   "id": "toribio-terry-palacios",
+   "race_id": "hidalgo-da",
+   "incumbent": true,
+   "current_role": "Hidalgo County Criminal District Attorney since 2023",
+   "background": "Terry Palacios was elected Hidalgo County Criminal District Attorney in 2022, succeeding his nephew Ricardo Rodriguez Jr. He served 27 consecutive years as municipal court judge for the City of Edinburg and practiced more than 30 years as a criminal defense, personal injury, and family attorney. He holds a biology degree from Pan American University and a law degree from Thurgood Marshall School of Law at Texas Southern University.",
+   "website": null,
+   "priorities": [
+    {
+     "text": "Says the office will \"continue to ensure fairness and justice for all.\"",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "The DA's office under his leadership reports expanded assistance for crime victims, especially in violent cases, and added resources for their families.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "In 2022 he said that if someone were charged over an abortion in a case of incest, he would present the case to a grand jury to decide whether to indict.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "He has chaired the Edinburg Housing Authority, the Edinburg Chamber of Commerce, and the Boys and Girls Club of Edinburg.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Is the Democratic nominee for re-election in 2026.",
+     "sources": [
+      "s4"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "District Attorney Toribio \"Terry\" Palacios",
+     "publisher": "Hidalgo County Criminal District Attorney's Office",
+     "url": "https://hidalgocountyda.com/about/district-attorney-toribio-terry-palacios/",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Two candidates vying to become next Hidalgo County district attorney",
+     "publisher": "KRGV",
+     "url": "https://www.krgv.com/news/two-candidates-vying-to-become-next-hidalgo-county-district-attorney",
+     "date": "2022-11-04"
+    },
+    {
+     "id": "s3",
+     "title": "Hidalgo County Criminal District Attorney's Office",
+     "publisher": "Hidalgo County Criminal District Attorney's Office",
+     "url": "https://hidalgocountyda.com/",
+     "date": null
+    },
+    {
+     "id": "s4",
+     "title": "Early voting: Who is on the ballots",
+     "publisher": "Advance News Journal",
+     "url": "https://www.anjournal.com/area-state-news-news/early-voting-who-ballots",
+     "date": "2026-02"
+    }
+   ],
+   "research_gaps": "No campaign website or 2026 statements on bail or mental health diversion were found."
+  },
+  {
+   "id": "maricela-mari-de-leon",
+   "race_id": "hidalgo-district-clerk",
+   "incumbent": false,
+   "current_role": "Candidate for Hidalgo County District Clerk",
+   "background": "Maricela \"Mari\" De Leon is the Republican nominee for Hidalgo County District Clerk. No biographical information could be verified in available sources.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Listed as the Republican candidate for district clerk in the 2026 primary.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Faces Democratic incumbent Laura Hinojosa in the November 3, 2026 general election.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Hidalgo District Clerk",
+     "publisher": "Branch Politics",
+     "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-district-clerk-tx-county-hidalgo",
+     "date": "2026"
+    },
+    {
+     "id": "s2",
+     "title": "Early voting: Who is on the ballots",
+     "publisher": "Advance News Journal",
+     "url": "https://www.anjournal.com/area-state-news-news/early-voting-who-ballots",
+     "date": "2026-02"
+    }
+   ],
+   "research_gaps": "Her campaign website could not be loaded; no background, priorities, or endorsements were found."
+  },
+  {
+   "id": "laura-hinojosa",
+   "race_id": "hidalgo-district-clerk",
+   "incumbent": true,
+   "current_role": "Hidalgo County District Clerk since 2007",
+   "background": "Laura Hinojosa has served as Hidalgo County District Clerk since 2007 and was re-elected to a fifth term in 2022. She has served as president of the County and District Clerks' Association of Texas and was appointed to the Texas Association of Counties board of directors beginning in 2024. She served on the Texas Supreme Court Judicial Committee on Information Technology from 2014 to 2023.",
+   "website": null,
+   "priorities": [
+    {
+     "text": "Says she is committed to enhancing customer service, capitalizing on technology, and streamlining practices.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Was a statewide presenter on civil and criminal e-filing implementation in 2014.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Served on the Office of Court Administration advisory group on resuming jury trials in 2021 and 2022.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Named County and District Clerks' Association of Texas Region VIII Clerk of the Year in 2011.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Listed by Hidalgo County as the sitting district clerk and on the 2026 Democratic primary ballot.",
+     "sources": [
+      "s2",
+      "s3"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "About Laura Hinojosa",
+     "publisher": "Hidalgo County",
+     "url": "https://www.hidalgocounty.us/DocumentCenter/Home/View/1272",
+     "date": "2023-10"
+    },
+    {
+     "id": "s2",
+     "title": "County Officials",
+     "publisher": "Hidalgo County",
+     "url": "https://www.hidalgocounty.us/937/County-Officials",
+     "date": null
+    },
+    {
+     "id": "s3",
+     "title": "Early voting: Who is on the ballots",
+     "publisher": "Advance News Journal",
+     "url": "https://www.anjournal.com/area-state-news-news/early-voting-who-ballots",
+     "date": "2026-02"
+    }
+   ],
+   "research_gaps": "No campaign website or 2026 platform statements were found."
+  },
+  {
+   "id": "princess-anne-pena",
+   "race_id": "hidalgo-treasurer",
+   "incumbent": false,
+   "current_role": "Candidate for Hidalgo County Treasurer",
+   "background": "Princess Anne Pena is the Republican nominee for Hidalgo County Treasurer. No biographical information was found in available sources.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Listed as the Republican candidate for county treasurer in the 2026 primary.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Faces Democratic incumbent Lita Leo in the November 3, 2026 general election.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Hidalgo County Treasurer",
+     "publisher": "Branch Politics",
+     "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-county-treasurer-tx-county-hidalgo",
+     "date": "2026"
+    },
+    {
+     "id": "s2",
+     "title": "Early voting: Who is on the ballots",
+     "publisher": "Advance News Journal",
+     "url": "https://www.anjournal.com/area-state-news-news/early-voting-who-ballots",
+     "date": "2026-02"
+    }
+   ],
+   "research_gaps": "No background, campaign website, priorities, or endorsements were found."
+  },
+  {
+   "id": "lita-leo",
+   "race_id": "hidalgo-treasurer",
+   "incumbent": true,
+   "current_role": "Hidalgo County Treasurer",
+   "background": "Lita Leo is the Hidalgo County Treasurer and is seeking re-election. The treasurer receives and holds county money, serves as the county's investment officer, chairs the investment committee, and sits on the bail bond board.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Faced Alex Cantu in the March 2026 Democratic primary for county treasurer.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Listed by Hidalgo County as the sitting county treasurer.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Treasurer",
+     "publisher": "Hidalgo County",
+     "url": "https://www.hidalgocounty.us/111/Treasurer",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "County Officials",
+     "publisher": "Hidalgo County",
+     "url": "https://www.hidalgocounty.us/937/County-Officials",
+     "date": null
+    },
+    {
+     "id": "s3",
+     "title": "Early voting: Who is on the ballots",
+     "publisher": "Advance News Journal",
+     "url": "https://www.anjournal.com/area-state-news-news/early-voting-who-ballots",
+     "date": "2026-02"
+    }
+   ],
+   "research_gaps": "Start date in office, background, priorities, and final primary results were not found."
+  },
+  {
+   "id": "ron-mcvey",
+   "race_id": "hidalgo-jp-1-2",
+   "incumbent": false,
+   "current_role": "Owner, H2Oak Consulting, LLC",
+   "background": "Ron McVey was born and raised in the Rio Grande Valley and lives in Weslaco. He holds a bachelor's degree in criminal justice from UT-Pan American and reports more than 30 years of experience in the public, private, and health care sectors. He owns H2Oak Consulting, which provides business development services to public entities and private companies.",
+   "website": "https://www.ronmcvey.com",
+   "priorities": [
+    {
+     "text": "Says his mission is to establish and sustain \"justice, fairness, and community empowerment.\"",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says he will be accessible to residents so their concerns are heard and addressed.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Listed as the Republican candidate for Justice of the Peace, Precinct 1, Place 2 in the 2026 primary.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Ron McVey for Justice of the Peace",
+     "publisher": "Ron McVey campaign",
+     "url": "https://www.ronmcvey.com/",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Early voting: Who is on the ballots",
+     "publisher": "Advance News Journal",
+     "url": "https://www.anjournal.com/area-state-news-news/early-voting-who-ballots",
+     "date": "2026-02"
+    }
+   ],
+   "research_gaps": "No judicial philosophy statements, endorsements, or independent coverage were found."
+  },
+  {
+   "id": "andrew-gonz-lez",
+   "race_id": "hidalgo-jp-1-2",
+   "incumbent": true,
+   "current_role": "Hidalgo County Justice of the Peace, Precinct 1, Place 2, since January 2025",
+   "background": "Andrew Gonzalez has served as Hidalgo County Justice of the Peace for Precinct 1, Place 2 since January 2025, with his current term ending December 31, 2026.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Faces Republican Ron McVey in the November 3, 2026 general election.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Listed by Hidalgo County and the Texas State Directory as the sitting Justice of the Peace for Precinct 1, Place 2, with a term ending December 31, 2026.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Andrew Gonzalez (D)",
+     "publisher": "Texas State Directory",
+     "url": "https://www.txdirectory.com/online/person/?id=13718",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "County Officials",
+     "publisher": "Hidalgo County",
+     "url": "https://www.hidalgocounty.us/937/County-Officials",
+     "date": null
+    },
+    {
+     "id": "s3",
+     "title": "Hidalgo Justice of the Peace, Justice Precinct 1, Position 2",
+     "publisher": "Branch Politics",
+     "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-hidalgo-justice-precinct-1-position-2",
+     "date": "2026"
+    }
+   ],
+   "research_gaps": "No biography, campaign website, priorities, or record of court administration were found."
+  },
+  {
+   "id": "hoppy-haden",
+   "race_id": "caldwell-county-judge",
+   "incumbent": true,
+   "current_role": "Caldwell County Judge",
+   "background": "Hoppy Haden is the incumbent Caldwell County Judge. He owns Clear Creek, Inc., a construction, environmental, and farm and ranch services company, and reported more than 30 years in the environmental industry in 2017. He served about a year as Precinct 1 county commissioner before resigning to run for county judge in 2018.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "As a commissioner he chaired a host agreement advisory committee on a proposed landfill and worked with TxDOT on funding to widen Highway 21, according to his 2017 candidate profile.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Won the March 3, 2026 Republican primary over former County Judge Ken Schawe, 2,122 votes to 1,336.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "In July 2026 a local group, the Caldwell Data Center Action Team, called for his resignation and asked the Texas Rangers, the Attorney General's Office, and the district attorney to investigate after he disclosed signing a pre-sale agreement on his land with a company exploring a data center; Haden denied a conflict of interest, said he filed a conflict disclosure and would recuse himself from county matters involving the property, and said he would not resign. No investigation had been reported opened as of that report.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "CBS Austin confirmed that a land-buying company owner gave $17,000 to his campaign since February 2026.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Local coverage in December 2025 described the 2026 Republican primary against former Judge Ken Schawe, who served from 2015 to 2018, as competitive.",
+     "sources": [
+      "s4"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [
+    {
+     "topic": "Growth and Infrastructure",
+     "summary": "In 2017 he said the county was on the verge of unprecedented growth and named roads, sewer, and water supply as coming infrastructure challenges.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "CANDIDATE PROFILE: Hoppy Haden",
+     "publisher": "Lockhart Post-Register",
+     "url": "https://post-register.com/?p=13769",
+     "date": "2017-12-27"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Primary Election Results are in",
+     "publisher": "Lockhart Post-Register",
+     "url": "https://post-register.com/?p=32685",
+     "date": "2026-03-05"
+    },
+    {
+     "id": "s3",
+     "title": "Caldwell County Judge responds to calls for his resignation amid investigation request",
+     "publisher": "CBS Austin",
+     "url": "https://cbsaustin.com/news/local/caldwell-county-judge-responds-to-calls-for-his-resignation-amid-investigation-request",
+     "date": "2026-07-27"
+    },
+    {
+     "id": "s4",
+     "title": "Caldwell County braces for high-stakes races in 2026 election",
+     "publisher": "Lockhart Post-Register",
+     "url": "https://post-register.com/caldwell-county-braces-for-high-stakes-races-in-2026-election/",
+     "date": "2025-12-31"
+    }
+   ],
+   "research_gaps": "No 2026 campaign website or current statements on county taxes, mental health, water funding, or state preemption were found."
+  },
+  {
+   "id": "john-g-castillo",
+   "race_id": "caldwell-county-judge",
+   "incumbent": false,
+   "current_role": "Lockhart City Council member, District 2",
+   "background": "John G. Castillo serves on the Lockhart City Council representing District 2. Local coverage describes his background as municipal governance.",
+   "website": null,
+   "priorities": [
+    {
+     "text": "Local coverage describes his platform as rooted in local leadership.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Won the March 3, 2026 Democratic primary unopposed with 2,980 votes.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Faces Republican incumbent Hoppy Haden in what the Lockhart Post-Register called one of the county's most closely watched races.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Caldwell County braces for high-stakes races in 2026 election",
+     "publisher": "Lockhart Post-Register",
+     "url": "https://post-register.com/caldwell-county-braces-for-high-stakes-races-in-2026-election/",
+     "date": "2025-12-31"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Primary Election Results are in",
+     "publisher": "Lockhart Post-Register",
+     "url": "https://post-register.com/?p=32685",
+     "date": "2026-03-05"
+    },
+    {
+     "id": "s3",
+     "title": "Ballot taking shape for November election",
+     "publisher": "Lockhart Post-Register",
+     "url": "https://post-register.com/?p=33771",
+     "date": "2026-08-27"
+    }
+   ],
+   "research_gaps": "No campaign website, detailed biography, or documented positions on county issues were found."
+  },
+  {
+   "id": "rob-ortiz",
+   "race_id": "caldwell-commissioner-4",
+   "incumbent": false,
+   "current_role": "Chairman, Greater Caldwell County Hispanic Chamber of Commerce",
+   "background": "Rob Ortiz is chairman of the Greater Caldwell County Hispanic Chamber of Commerce. He also ran for this commissioner seat in 2022.",
+   "website": null,
+   "priorities": [
+    {
+     "text": "Campaigns on economic development, business leadership, and expanded community engagement.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Received 322 votes in the uncontested March 3, 2026 Republican primary.",
+     "sources": [
+      "s2",
+      "s3"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Caldwell County braces for high-stakes races in 2026 election",
+     "publisher": "Lockhart Post-Register",
+     "url": "https://post-register.com/caldwell-county-braces-for-high-stakes-races-in-2026-election/",
+     "date": "2025-12-31"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Primary Election Results are in",
+     "publisher": "Lockhart Post-Register",
+     "url": "https://post-register.com/?p=32685",
+     "date": "2026-03-05"
+    },
+    {
+     "id": "s3",
+     "title": "Ballot taking shape for November election",
+     "publisher": "Lockhart Post-Register",
+     "url": "https://post-register.com/?p=33771",
+     "date": "2026-08-27"
+    }
+   ],
+   "research_gaps": "No campaign website or documented positions on county taxes, mental health, water, or state preemption were found."
+  },
+  {
+   "id": "dyral-thomas",
+   "race_id": "caldwell-commissioner-4",
+   "incumbent": true,
+   "current_role": "Caldwell County Commissioner, Precinct 4",
+   "background": "Dyral Thomas is the incumbent Caldwell County Commissioner for Precinct 4 and is seeking another term.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Received 638 votes in the uncontested March 3, 2026 Democratic primary.",
+     "sources": [
+      "s2",
+      "s3"
+     ]
+    },
+    {
+     "text": "Faces Republican Rob Ortiz, who also ran for the seat in 2022.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Caldwell County braces for high-stakes races in 2026 election",
+     "publisher": "Lockhart Post-Register",
+     "url": "https://post-register.com/caldwell-county-braces-for-high-stakes-races-in-2026-election/",
+     "date": "2025-12-31"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Primary Election Results are in",
+     "publisher": "Lockhart Post-Register",
+     "url": "https://post-register.com/?p=32685",
+     "date": "2026-03-05"
+    },
+    {
+     "id": "s3",
+     "title": "Ballot taking shape for November election",
+     "publisher": "Lockhart Post-Register",
+     "url": "https://post-register.com/?p=33771",
+     "date": "2026-08-27"
+    }
+   ],
+   "research_gaps": "No biography, campaign website, voting record, or documented positions were found."
+  },
+  {
+   "id": "alma-morales",
+   "race_id": "caldwell-jp-3",
+   "incumbent": false,
+   "current_role": "Candidate for Caldwell County Justice of the Peace, Precinct 3",
+   "background": "Alma Morales is the Republican nominee for Caldwell County Justice of the Peace, Precinct 3. No biographical information was found in available sources.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Received 415 votes in the uncontested March 3, 2026 Republican primary.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "2026 Primary Election Results are in",
+     "publisher": "Lockhart Post-Register",
+     "url": "https://post-register.com/?p=32685",
+     "date": "2026-03-05"
+    },
+    {
+     "id": "s2",
+     "title": "Ballot taking shape for November election",
+     "publisher": "Lockhart Post-Register",
+     "url": "https://post-register.com/?p=33771",
+     "date": "2026-08-27"
+    }
+   ],
+   "research_gaps": "No background, incumbency status, campaign website, or priorities were found."
+  },
+  {
+   "id": "anita-deleon",
+   "race_id": "caldwell-jp-3",
+   "incumbent": false,
+   "current_role": "Candidate for Caldwell County Justice of the Peace, Precinct 3",
+   "background": "Anita DeLeon is the Democratic nominee for Caldwell County Justice of the Peace, Precinct 3. No biographical information was found in available sources.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Received 589 votes in the uncontested March 3, 2026 Democratic primary.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "2026 Primary Election Results are in",
+     "publisher": "Lockhart Post-Register",
+     "url": "https://post-register.com/?p=32685",
+     "date": "2026-03-05"
+    },
+    {
+     "id": "s2",
+     "title": "Ballot taking shape for November election",
+     "publisher": "Lockhart Post-Register",
+     "url": "https://post-register.com/?p=33771",
+     "date": "2026-08-27"
+    }
+   ],
+   "research_gaps": "No background, incumbency status, campaign website, or priorities were found."
+  },
+  {
+   "id": "kyle-butler",
+   "race_id": "ellis-commissioner-4",
+   "incumbent": true,
+   "current_role": "Ellis County Commissioner, Precinct 4, since 2015",
+   "background": "Kyle Butler has served as Ellis County Commissioner for Precinct 4 since January 1, 2015. He is a lifelong Ellis County resident and Waxahachie High School graduate. He worked 17 years at Tyler Refrigeration before joining the Precinct 4 Road and Bridge department in 2006.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Branch reported that he had no campaign website or online platform as of August 3, 2026.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Ellis County lists him as the Precinct 4 commissioner, sworn in for his first term on January 1, 2015.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Your County Commissioner",
+     "publisher": "Ellis County",
+     "url": "https://elliscountytx.gov/127",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Kyle Butler, Ellis County Commissioner, District 4",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-commissioner-tx-ellis-county-district-4-post-4/candidates/kyle-butler",
+     "date": "2026-08-03"
+    }
+   ],
+   "research_gaps": "No campaign website, voting record summary, or documented positions on county taxes, spending, water, or mental health were found."
+  },
+  {
+   "id": "oyinkansola-oj-jinadu",
+   "race_id": "ellis-commissioner-4",
+   "incumbent": false,
+   "current_role": "Founder and CEO, Honeydrops Pro Inc.",
+   "background": "Oyinkansola \"Oj\" Jinadu is founder and CEO of Honeydrops Pro Inc. and board chair of the Honeydrops Foundation. She holds a bachelor's degree in microbiology, a master's in psychology, and a PhD in humanities, and works as a coach, trainer, author, and licensed life agent. This is her first campaign for public office.",
+   "website": "https://drojspeaks4texas.com",
+   "priorities": [
+    {
+     "text": "Proposes a public portal showing county project photos and spending, plus two annual budget listening sessions.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says new subdivisions should have funded roads, drainage, and safety measures before residents move in.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Proposes a public dashboard tracking Precinct 4 road, drainage, park, and trail projects and more accountability from data centers.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Supports planned drainage, culvert, and ditch work instead of reacting after flooding.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [
+    {
+     "text": "Proposes a first-year \"Fix 5\" plan for safety upgrades at five priority sites.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Proposes micro-grants for \"Safe Walk to School\" and neighborhood projects, along with trail connectors and sidewalks.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "record": [],
+   "notes": [],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Oyinkansola (Dr. Oj) Jinadu, Ellis County Commissioner, District 4",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-commissioner-tx-ellis-county-district-4-post-4/candidates/oyinkansola-dr-oj-jinadu",
+     "date": "2026"
+    }
+   ],
+   "research_gaps": "Campaign website was not reviewed; no documented position on county tax rates, mental health spending, or state preemption."
+  },
+  {
+   "id": "james-butch-bryant",
+   "race_id": "ellis-jp-4",
+   "incumbent": true,
+   "current_role": "Ellis County Justice of the Peace, Precinct 4",
+   "background": "James \"Butch\" Bryant was elected Ellis County Justice of the Peace for Precinct 4 in a 2024 special election. He is involved with youth programs and civic education.",
+   "website": "https://bryant4jp.com",
+   "priorities": [
+    {
+     "text": "Says he is dedicated to clearing the backlog of cases in his precinct so justice is served swiftly and fairly.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says he treats each case with respect, patience, and fairness.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "James \"Butch\" Bryant, Ellis Justice of the Peace, Precinct 4",
+     "publisher": "Branch Politics",
+     "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-ellis-justice-precinct-4/candidates/james-butch-bryant",
+     "date": "2026-07-22"
+    }
+   ],
+   "research_gaps": "Legal experience, education, and endorsements were not found; profile details come from a secondary source."
+  },
+  {
+   "id": "pam-hampton",
+   "race_id": "ellis-jp-4",
+   "incumbent": false,
+   "current_role": "Police reserve officer; retired police sergeant",
+   "background": "Pam Hampton served 21 years as a sworn police officer and retired as a sergeant, and later worked in a Dallas County justice of the peace court. She taught civil procedure to police academy recruits for five years and is a U.S. Army veteran. She holds a B.S. in paralegal studies from Texas Wesleyan University and has lived in Ellis County for nearly 15 years.",
+   "website": "https://pamhamptonforjp4.com",
+   "priorities": [
+    {
+     "text": "Says she will clear a two-year small claims backlog and improve access to the office.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [
+    {
+     "text": "Says she will do so without raising taxes or increasing public spending.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "record": [],
+   "notes": [
+    {
+     "text": "Faces Republican incumbent James \"Butch\" Bryant in the November 3, 2026 general election.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Meet Pam",
+     "publisher": "Pam Hampton campaign",
+     "url": "https://pamhamptonforjp4.com/meet-pam",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Ellis Justice of the Peace, Justice Precinct 4",
+     "publisher": "Branch Politics",
+     "url": "https://www.branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-ellis-justice-precinct-4",
+     "date": "2026"
+    }
+   ],
+   "research_gaps": "No endorsements or independent coverage were found."
+  }
+ ]
+}
