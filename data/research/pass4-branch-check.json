@@ -1,0 +1,1726 @@
+{
+  "candidates": [
+    {
+      "id": "sandeep-srivastava",
+      "race_id": "state-house-66",
+      "stances": {
+        "q_vouchers": {
+          "position": -2,
+          "basis": "statement",
+          "summary": "Says on his campaign issues page that voucher schemes siphon money from public schools and that \"We say NO to vouchers.\"",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        },
+        "q_school_funding": {
+          "position": 2,
+          "basis": "statement",
+          "summary": "Says on his campaign issues page that the state should invest in public schools, pay teachers what they deserve and lower class sizes.",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        }
+      },
+      "sources": [
+        {
+          "id": "p4-s1",
+          "title": "Issues",
+          "publisher": "Sandeep Srivastava for Texas",
+          "url": "https://www.sandeepfortexas.com/issues.aspx",
+          "date": null
+        }
+      ]
+    },
+    {
+      "id": "tom-nowak",
+      "race_id": "district-366",
+      "stances": {
+        "q_textualism": {
+          "position": 1,
+          "basis": "statement",
+          "summary": "Says on his campaign site that his experience reinforced his commitment to impartiality, \"ensuring judges interpret the law rather than legislate from the bench.\"",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        }
+      },
+      "sources": [
+        {
+          "id": "p4-s1",
+          "title": "Tom Nowak for Judge, 366th District Court",
+          "publisher": "Tom Nowak campaign",
+          "url": "https://votingfortom.com",
+          "date": null
+        }
+      ]
+    },
+    {
+      "id": "kathryn-pruitt",
+      "race_id": "district-494",
+      "stances": {
+        "q_textualism": {
+          "position": 1,
+          "basis": "statement",
+          "summary": "Describes herself on her campaign site as a constitutional conservative who believes in judicial restraint and says judges must interpret the law as it is written and not create it.",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        }
+      },
+      "sources": [
+        {
+          "id": "p4-s1",
+          "title": "Keep Judge Pruitt",
+          "publisher": "Kathryn Pruitt campaign",
+          "url": "https://keepjudgepruitt.com",
+          "date": null
+        }
+      ]
+    },
+    {
+      "id": "randy-johnson",
+      "race_id": "collin-ccl-5",
+      "stances": {
+        "q_textualism": {
+          "position": 1,
+          "basis": "questionnaire",
+          "summary": "In a 2022 Ballotpedia candidate survey posted on his campaign site, says he believes in judicial restraint and that judges should not legislate from the bench but should apply and enforce the rule of law.",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        }
+      },
+      "sources": [
+        {
+          "id": "p4-s1",
+          "title": "Ballotpedia 2022 Candidate Survey (Randy Johnson)",
+          "publisher": "Keep Judge Randy Johnson campaign",
+          "url": "https://keepjudgerandyjohnson.com/images/100790/ballotpedia_2022_candidate_survey.pdf",
+          "date": null
+        }
+      ]
+    },
+    {
+      "id": "caitlin-rourk",
+      "race_id": "us-house-10",
+      "stances": {
+        "q_min_wage": {
+          "position": 1,
+          "basis": "statement",
+          "summary": "Her campaign issues page calls for raising and indexing the federal minimum wage so it better reflects the cost of living.",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        },
+        "q_medicaid": {
+          "position": 1,
+          "basis": "statement",
+          "summary": "Her campaign issues page calls for strengthening Medicare and Medicaid, permanently extending enhanced Affordable Care Act subsidies and pursuing a public option; it does not specifically call for Medicaid expansion (corrected from a Branch summary).",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        }
+      },
+      "sources": [
+        {
+          "id": "p4-s1",
+          "title": "Issues",
+          "publisher": "Caitlin Rourk for Congress",
+          "url": "https://www.caitlinrourk.com/issues",
+          "date": null
+        }
+      ]
+    },
+    {
+      "id": "charles-schwertner",
+      "race_id": "state-senate-5",
+      "stances": {
+        "q_border_state": {
+          "position": 2,
+          "basis": "statement",
+          "summary": "His campaign site says he helped secure over $6 billion to defend the southern border and passed legislation aimed at drug cartels and human smugglers.",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        }
+      },
+      "sources": [
+        {
+          "id": "p4-s1",
+          "title": "Accomplishments",
+          "publisher": "Charles Schwertner campaign",
+          "url": "https://www.drschwertner.com/accomplishments",
+          "date": null
+        }
+      ]
+    },
+    {
+      "id": "justin-early",
+      "race_id": "us-house-31",
+      "stances": {
+        "q_legal_status": {
+          "position": 1,
+          "basis": "statement",
+          "summary": "His campaign issues page calls for a clear and fair pathway to citizenship for those pursuing legal immigration and permanent protections for Dreamers; it does not describe a broader legalization plan (corrected from a Branch summary).",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        }
+      },
+      "sources": [
+        {
+          "id": "p4-s1",
+          "title": "Issues",
+          "publisher": "Justin Early for Congress",
+          "url": "https://www.votejustinearly.com/issues",
+          "date": null
+        }
+      ]
+    },
+    {
+      "id": "marquette-greene-scott",
+      "race_id": "us-house-22",
+      "stances": {
+        "q_abortion": {
+          "position": 2,
+          "basis": "statement",
+          "summary": "Her campaign positions page calls for improving access to reproductive health care and reinstating abortion rights after Roe v. Wade was overturned.",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        },
+        "q_medicaid": {
+          "position": 1,
+          "basis": "statement",
+          "summary": "Her campaign positions page calls for universal health care not tied to employment and for protecting the Affordable Care Act; it does not address Texas Medicaid expansion specifically.",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        }
+      },
+      "sources": [
+        {
+          "id": "p4-s1",
+          "title": "Marquette's Positions",
+          "publisher": "Marquette Greene-Scott for Congress",
+          "url": "https://marquettegreenescott.com/marquette-position-provocative-issues-facts/",
+          "date": null
+        }
+      ]
+    },
+    {
+      "id": "claire-reynolds",
+      "race_id": "us-house-11",
+      "stances": {
+        "q_medicaid": {
+          "position": 2,
+          "basis": "statement",
+          "summary": "Her campaign issues page says tying health insurance to jobs is \"absurd\" and argues for a single-payer health insurance system, which goes beyond Medicaid expansion.",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        }
+      },
+      "sources": [
+        {
+          "id": "p4-s1",
+          "title": "Issues",
+          "publisher": "Claire Reynolds for Congress",
+          "url": "https://www.clairereynoldsforcongress.org/issues",
+          "date": null
+        }
+      ]
+    },
+    {
+      "id": "judith-zaffirini",
+      "race_id": "state-senate-21",
+      "stances": {
+        "q_medicaid": {
+          "position": 2,
+          "basis": "statement",
+          "summary": "Her campaign health care page says she believes health care is a right and is a strong supporter of Medicaid expansion and the Affordable Care Act.",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        }
+      },
+      "sources": [
+        {
+          "id": "p4-s1",
+          "title": "Health Care",
+          "publisher": "Senator Judith Zaffirini campaign",
+          "url": "https://judithzaffirini.com/texas-health-crisis/",
+          "date": null
+        }
+      ]
+    },
+    {
+      "id": "vicente-gonzalez",
+      "race_id": "us-house-34",
+      "stances": {
+        "q_abortion": {
+          "position": 1,
+          "basis": "statement",
+          "summary": "His campaign accomplishments page says he supports \"assuring every woman retains the right to make her own healthcare decisions.\"",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        },
+        "q_legal_status": {
+          "position": 1,
+          "basis": "statement",
+          "summary": "Proposed the Save the American Workforce Act to let businesses sponsor undocumented immigrants with at least five years in the U.S. and no criminal record for renewable three-year visas; he describes it as \"a temporary path,\" and it would not offer citizenship.",
+          "sources": [
+            "p4-s2"
+          ],
+          "replace": true
+        }
+      },
+      "sources": [
+        {
+          "id": "p4-s1",
+          "title": "Accomplishments",
+          "publisher": "Vicente Gonzalez for Congress",
+          "url": "https://vicentegonzalez.com/accomplishments/",
+          "date": null
+        },
+        {
+          "id": "p4-s2",
+          "title": "Rio Grande Valley lawmaker to propose new immigrant worker visa program for small businesses",
+          "publisher": "RGV Business Journal",
+          "url": "https://www.rgvbusinessjournal.com/news/24/11/2025/rio-grande-valley-lawmaker-to-propose-new-immigrant-worker-visa-program-for-small-businesses/",
+          "date": "2025-11-24"
+        }
+      ]
+    },
+    {
+      "id": "mark-teixeira",
+      "race_id": "us-house-21",
+      "stances": {
+        "q_gun_laws": {
+          "position": -2,
+          "basis": "statement",
+          "summary": "His campaign issues page pledges to \"protect the God-given right to keep and bear arms from any infringement, federal or otherwise\" (position strengthened from a Branch summary).",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        },
+        "q_abortion": {
+          "position": -1,
+          "basis": "statement",
+          "summary": "His campaign issues page lists \"Defending Life, Faith & Freedom\" and pledges to \"protect the unborn.\"",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        },
+        "q_fossil_priority": {
+          "position": 1,
+          "basis": "statement",
+          "summary": "His campaign issues page calls for unleashing Texas oil, gas and nuclear energy to restore U.S. energy dominance and lower costs.",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        },
+        "q_voting_access": {
+          "position": -1,
+          "basis": "statement",
+          "summary": "His campaign issues page lists election integrity and ballot security and says elections should \"make sure only U.S. citizens vote\" and \"make it impossible to cheat.\"",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        },
+        "q_federal_spending": {
+          "position": 1,
+          "basis": "statement",
+          "summary": "His campaign issues page calls for expanding DOGE \"to cut insane wasteful spending.\"",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        }
+      },
+      "sources": [
+        {
+          "id": "p4-s1",
+          "title": "Issues",
+          "publisher": "Mark Teixeira for Congress",
+          "url": "https://teixeiraforcongress.com/issues",
+          "date": null
+        }
+      ]
+    },
+    {
+      "id": "jake-ellzey",
+      "race_id": "us-house-6",
+      "stances": {
+        "q_gun_laws": {
+          "position": -1,
+          "basis": "statement",
+          "summary": "His campaign issues page lists defending the Second Amendment and says he is a proud gun owner and lifetime NRA member; it does not state opposition to all federal gun regulations (corrected from a Branch summary).",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        },
+        "q_abortion": {
+          "position": -1,
+          "basis": "statement",
+          "summary": "His campaign issues page says, \"I 100% support the right to life as the first and most vital right.\"",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        }
+      },
+      "sources": [
+        {
+          "id": "p4-s1",
+          "title": "Issues",
+          "publisher": "Jake Ellzey for Congress",
+          "url": "https://ellzeyfortexas.com/issues/",
+          "date": null
+        }
+      ]
+    },
+    {
+      "id": "ronny-jackson",
+      "race_id": "us-house-13",
+      "stances": {
+        "q_fossil_priority": {
+          "position": 1,
+          "basis": "statement",
+          "summary": "His campaign issues page says he will always stand for the oil and gas sector, supports President Trump's order to \"unleash American energy,\" and calls control of our own energy essential to national security.",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        }
+      },
+      "sources": [
+        {
+          "id": "p4-s1",
+          "title": "Issues",
+          "publisher": "Team Ronny (Ronny Jackson campaign)",
+          "url": "https://www.teamronny.com/issues",
+          "date": null
+        }
+      ]
+    },
+    {
+      "id": "mark-nair",
+      "race_id": "us-house-13",
+      "stances": {
+        "q_medicaid": {
+          "position": 2,
+          "basis": "statement",
+          "summary": "His campaign platform page says he will \"work toward Medicare for All,\" which goes beyond Medicaid expansion.",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        }
+      },
+      "sources": [
+        {
+          "id": "p4-s1",
+          "title": "Platform",
+          "publisher": "Mark Nair for Congress",
+          "url": "https://www.marknair.com/platform",
+          "date": null
+        }
+      ]
+    },
+    {
+      "id": "veronica-escobar",
+      "race_id": "us-house-16",
+      "stances": {
+        "q_medicaid": {
+          "position": 2,
+          "basis": "statement",
+          "summary": "Her campaign issues page says healthcare is a human right and \"That's why I support Medicare for All,\" which goes beyond Medicaid expansion.",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        },
+        "q_fossil_priority": {
+          "position": -1,
+          "basis": "statement",
+          "summary": "Her campaign issues page says she helped pass the largest clean energy investment in the nation's history and is focused on expanding clean energy to address climate change.",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        }
+      },
+      "sources": [
+        {
+          "id": "p4-s1",
+          "title": "Issues",
+          "publisher": "Veronica Escobar for Congress",
+          "url": "https://veronicaescobar.com/issues/",
+          "date": null
+        }
+      ]
+    },
+    {
+      "id": "espoir-ngabo",
+      "race_id": "us-house-7",
+      "stances": {
+        "q_abortion": {
+          "position": 2,
+          "basis": "statement",
+          "summary": "His campaign platform page pledges to propose and co-sponsor legislation like the Women's Health Protection Act and to advocate a constitutional amendment enshrining women's bodily autonomy.",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        }
+      },
+      "sources": [
+        {
+          "id": "p4-s1",
+          "title": "Platform",
+          "publisher": "Espoir Ngabo for Texas",
+          "url": "https://www.espoirfortexas.com/platform",
+          "date": null
+        }
+      ]
+    },
+    {
+      "id": "christian-dashaun-menefee",
+      "race_id": "us-house-18",
+      "stances": {
+        "q_voting_access": {
+          "position": 2,
+          "basis": "statement",
+          "summary": "His campaign democracy page says he will fight to pass the John Lewis Voting Rights Advancement Act and the Freedom to Vote Act and push for automatic and same-day registration.",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        },
+        "q_medicaid": {
+          "position": 2,
+          "basis": "statement",
+          "summary": "His campaign health care page calls for Medicare for All and says he will fight to expand Medicare and strengthen Medicaid.",
+          "sources": [
+            "p4-s2"
+          ],
+          "replace": true
+        },
+        "q_oilgas_rules": {
+          "position": 1,
+          "basis": "statement",
+          "summary": "His campaign clean air and water page says he will fight for tougher environmental protections, hold polluters accountable and fund cleanup of contaminated sites; it does not address oil and gas rules specifically.",
+          "sources": [
+            "p4-s3"
+          ],
+          "replace": true
+        }
+      },
+      "sources": [
+        {
+          "id": "p4-s1",
+          "title": "Defending Our Democracy",
+          "publisher": "Christian Menefee for Congress",
+          "url": "https://christianmenefee.com/issue/defending-our-democracy/",
+          "date": null
+        },
+        {
+          "id": "p4-s2",
+          "title": "Guaranteeing Access to Healthcare Through Medicare for All",
+          "publisher": "Christian Menefee for Congress",
+          "url": "https://christianmenefee.com/issue/guaranteeing-access-to-healthcare/",
+          "date": null
+        },
+        {
+          "id": "p4-s3",
+          "title": "Fighting for Clean Air and Water",
+          "publisher": "Christian Menefee for Congress",
+          "url": "https://christianmenefee.com/issue/fighting-for-clean-air-water/",
+          "date": null
+        }
+      ]
+    },
+    {
+      "id": "laticia-ambroz",
+      "race_id": "state-senate-1",
+      "stances": {
+        "q_min_wage": {
+          "position": 1,
+          "basis": "statement",
+          "summary": "Her campaign issues page says \"I will fight for an increase in the minimum wage\" and a living wage across the state; it does not name a $15 figure (corrected from a Branch summary).",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        },
+        "q_abortion": {
+          "position": 1,
+          "basis": "statement",
+          "summary": "Her campaign issues page says women's health care must be protected and calls for policies on reproductive care that \"respect women's autonomy and ensure access to comprehensive services.\"",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        }
+      },
+      "sources": [
+        {
+          "id": "p4-s1",
+          "title": "Issues",
+          "publisher": "Laticia Ambroz for State Senate",
+          "url": "https://www.ambrozforstatesenate.com/issues",
+          "date": null
+        }
+      ]
+    },
+    {
+      "id": "shaun-finnie",
+      "race_id": "us-house-2",
+      "stances": {
+        "q_tariffs": {
+          "position": -2,
+          "basis": "statement",
+          "summary": "His campaign home page lists \"Remove the Tariffs\" among his positions.",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        }
+      },
+      "sources": [
+        {
+          "id": "p4-s1",
+          "title": "Shaun Finnie for Congress",
+          "publisher": "Shaun Finnie for Congress",
+          "url": "https://shaunfinnieforcongress.com/",
+          "date": null
+        }
+      ]
+    },
+    {
+      "id": "martha-fierro",
+      "race_id": "us-house-29",
+      "stances": {
+        "q_vouchers": {
+          "position": 1,
+          "basis": "statement",
+          "summary": "Her campaign site pledges to \"empower parents with school choice\" and defend parental rights.",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        },
+        "q_federal_spending": {
+          "position": 1,
+          "basis": "statement",
+          "summary": "Her campaign site calls for \"cutting reckless federal spending and fighting inflation\" to lower costs.",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        },
+        "q_fossil_priority": {
+          "position": 1,
+          "basis": "statement",
+          "summary": "Her campaign site pledges to keep energy decisions in Texas, support oil and natural gas, and strengthen grid reliability.",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        }
+      },
+      "sources": [
+        {
+          "id": "p4-s1",
+          "title": "Martha Fierro for Congress",
+          "publisher": "Martha Fierro for Congress",
+          "url": "https://www.fierrofortexas.com/",
+          "date": null
+        }
+      ]
+    },
+    {
+      "id": "sylvia-garcia",
+      "race_id": "us-house-29",
+      "stances": {
+        "q_abortion": {
+          "position": 2,
+          "basis": "statement",
+          "summary": "Her campaign issues page says overturning Roe v. Wade was \"a historic failure\" and that she is fighting to pass the Women's Health Protection Act to safeguard access to abortion and IVF.",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        },
+        "q_legal_status": {
+          "position": 1,
+          "basis": "statement",
+          "summary": "Her campaign issues page says she is lead sponsor of the Dream and Promise Act, which would create a pathway to citizenship for Dreamers, and supports expanding Temporary Protected Status.",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        },
+        "q_deportation": {
+          "position": -1,
+          "basis": "statement",
+          "summary": "Her campaign issues page calls her an advocate for immigrants who has fought to close abusive detention centers and supports \"fair, compassionate immigration policies.\"",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        }
+      },
+      "sources": [
+        {
+          "id": "p4-s1",
+          "title": "Issues",
+          "publisher": "Sylvia Garcia for Congress",
+          "url": "https://www.sylviaforcongress.com/issues",
+          "date": null
+        }
+      ]
+    },
+    {
+      "id": "jon-bonck",
+      "race_id": "us-house-38",
+      "stances": {
+        "q_gun_laws": {
+          "position": -2,
+          "basis": "statement",
+          "summary": "His campaign site lists \"Protect the Second Amendment\" and says \"God-given rights don't need D.C.'s permission.\"",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        }
+      },
+      "sources": [
+        {
+          "id": "p4-s1",
+          "title": "Jon Bonck for Congress",
+          "publisher": "Jon Bonck for Congress",
+          "url": "https://www.jonbonck.com/",
+          "date": null
+        }
+      ]
+    },
+    {
+      "id": "alex-mcmenemy",
+      "race_id": "us-house-38",
+      "stances": {
+        "q_medicaid": {
+          "position": 2,
+          "basis": "statement",
+          "summary": "His campaign platform page calls for \"Free, Universal Healthcare for All,\" which goes beyond Medicaid expansion.",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        }
+      },
+      "sources": [
+        {
+          "id": "p4-s1",
+          "title": "Our Platform",
+          "publisher": "Alex McMenemy campaign",
+          "url": "https://alexforthepeople.org/our-platform/",
+          "date": null
+        }
+      ]
+    },
+    {
+      "id": "charles-perry",
+      "race_id": "state-senate-28",
+      "stances": {
+        "q_spending_cap": {
+          "position": 2,
+          "basis": "statement",
+          "summary": "His campaign about page says he authored legislation to \"put in place common sense caps on government spending\" and lists placing fiscal restraints on government growth and spending.",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        }
+      },
+      "sources": [
+        {
+          "id": "p4-s1",
+          "title": "About",
+          "publisher": "Charles Perry campaign",
+          "url": "https://www.electcharlesperry.com/about",
+          "date": null
+        }
+      ]
+    },
+    {
+      "id": "kevin-sparks",
+      "race_id": "state-senate-31",
+      "stances": {
+        "q_border_state": {
+          "position": 2,
+          "basis": "statement",
+          "summary": "His campaign issues page calls for fully funding State Troopers and the Texas National Guard and demands federal reimbursement for Texas border security spending.",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        },
+        "q_abortion": {
+          "position": -1,
+          "basis": "statement",
+          "summary": "His campaign issues page says \"we must always protect innocent life, born and unborn\" and that tax dollars should never fund any entity involved with abortion.",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        }
+      },
+      "sources": [
+        {
+          "id": "p4-s1",
+          "title": "Issues",
+          "publisher": "Kevin Sparks for Texas",
+          "url": "https://kevinsparksfortexas.com/issues",
+          "date": null
+        }
+      ]
+    },
+    {
+      "id": "angela-heli-rodriguez-prilliman",
+      "race_id": "us-house-12",
+      "stances": {
+        "q_medicaid": {
+          "position": 2,
+          "basis": "statement",
+          "summary": "Her campaign issues page says she is running to pass universal health care paid for by wealth taxes, and her bio describes a universal system not attached to an employer.",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        },
+        "q_voting_access": {
+          "position": 1,
+          "basis": "statement",
+          "summary": "Her campaign bio says she is running to protect democracy with voting rights.",
+          "sources": [
+            "p4-s2"
+          ],
+          "replace": true
+        }
+      },
+      "sources": [
+        {
+          "id": "p4-s1",
+          "title": "Issues",
+          "publisher": "Heli Rodriguez Prilliman for Congress",
+          "url": "https://www.helifortexas.com/issues",
+          "date": null
+        },
+        {
+          "id": "p4-s2",
+          "title": "Bio",
+          "publisher": "Heli Rodriguez Prilliman for Congress",
+          "url": "https://www.helifortexas.com/bio",
+          "date": null
+        }
+      ]
+    },
+    {
+      "id": "leigh-wambsganss",
+      "race_id": "state-senate-9",
+      "stances": {
+        "q_abortion": {
+          "position": -1,
+          "basis": "statement",
+          "summary": "Her campaign issues page pledges to protect innocent life and remove barriers so the private sector can provide resources to women facing crisis pregnancies.",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        },
+        "q_gun_laws": {
+          "position": -1,
+          "basis": "statement",
+          "summary": "Her campaign issues page pledges to \"protect Texan's right to keep and bear arms.\"",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        },
+        "q_bail": {
+          "position": 1,
+          "basis": "statement",
+          "summary": "Her campaign issues page pledges to \"keep violent, repeat criminals behind bars.\"",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        },
+        "q_school_funding": {
+          "position": 1,
+          "basis": "statement",
+          "summary": "Her campaign issues page says she will \"support funding needed to improve education\" and expand career training; it does not address per-student funding levels or teacher pay specifically.",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        }
+      },
+      "sources": [
+        {
+          "id": "p4-s1",
+          "title": "Issues",
+          "publisher": "Leigh Wambsganss for Texas",
+          "url": "https://www.leighfortexas.com/issues/",
+          "date": null
+        }
+      ]
+    },
+    {
+      "id": "tom-sell",
+      "race_id": "us-house-19",
+      "stances": {
+        "q_gun_laws": {
+          "position": -2,
+          "basis": "statement",
+          "summary": "His campaign issues page pledges to \"oppose any form of gun control\" and \"stop red flag laws\" (position strengthened from a Branch summary).",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        }
+      },
+      "sources": [
+        {
+          "id": "p4-s1",
+          "title": "Issues",
+          "publisher": "Tom Sell for Congress",
+          "url": "https://www.selltexastrue.com/issues",
+          "date": null
+        }
+      ]
+    },
+    {
+      "id": "joe-paz-herrera",
+      "race_id": "state-senate-24",
+      "stances": {
+        "q_vouchers": {
+          "position": -2,
+          "basis": "statement",
+          "summary": "His campaign site says he \"does not support diverting funds from our public schools into the Greg Abbott-backed Voucher Program.\"",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        },
+        "q_school_funding": {
+          "position": 2,
+          "basis": "statement",
+          "summary": "His campaign site says \"We need increased funding for our public schools and higher salaries for our teachers and staff.\"",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        },
+        "q_abortion": {
+          "position": 1,
+          "basis": "statement",
+          "summary": "His campaign site says that although he is pro-life, he \"will work to restore the reproductive freedoms of women in Texas\" and that each woman has the right to decide in consultation with family, church leaders and doctors (position adjusted from a Branch summary to reflect his stated personal pro-life view).",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        },
+        "q_fossil_priority": {
+          "position": 0,
+          "basis": "statement",
+          "summary": "His campaign site says it is crucial to continue supporting the oil and gas industry while increasing investments in solar, wind and other renewable energy.",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        }
+      },
+      "sources": [
+        {
+          "id": "p4-s1",
+          "title": "Joe P. Herrera for Texas Senate",
+          "publisher": "Herrera for Texas campaign",
+          "url": "https://herrerafortexas.com",
+          "date": null
+        }
+      ]
+    },
+    {
+      "id": "bobby-tillman",
+      "race_id": "state-senate-3",
+      "stances": {
+        "q_vouchers": {
+          "position": -2,
+          "basis": "statement",
+          "summary": "His campaign site says, \"I'll fight to stop school vouchers, which drain money from the public schools most of our families depend on.\"",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        },
+        "q_school_funding": {
+          "position": 2,
+          "basis": "statement",
+          "summary": "His campaign site calls for raising the student allotment and for state-funded teacher pay that matches the national level.",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        },
+        "q_min_wage": {
+          "position": 1,
+          "basis": "statement",
+          "summary": "His campaign site calls for \"a minimum wage people can actually live on.\"",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        },
+        "q_cannabis": {
+          "position": 1,
+          "basis": "statement",
+          "summary": "His campaign site calls for access to medical cannabis for veterans, elderly Texans and disabled Texans; it does not address recreational adult sales.",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        }
+      },
+      "sources": [
+        {
+          "id": "p4-s1",
+          "title": "Bobby Tillman for Texas Senate",
+          "publisher": "Tillman for Texas campaign",
+          "url": "https://tillman4texas.com",
+          "date": null
+        }
+      ]
+    },
+    {
+      "id": "yolanda-r-prince",
+      "race_id": "us-house-1",
+      "stances": {
+        "q_min_wage": {
+          "position": 2,
+          "basis": "statement",
+          "summary": "Her campaign issues page says, \"I support raising the minimum wage to at least $15 per hour.\"",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        },
+        "q_medicaid": {
+          "position": 2,
+          "basis": "statement",
+          "summary": "Her campaign issues page says she supports a Medicare for All single-payer health care system, which goes beyond Medicaid expansion.",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        },
+        "q_legal_status": {
+          "position": 1,
+          "basis": "statement",
+          "summary": "Her campaign issues page calls for \"a realistic pathway to citizenship that is less expensive\" and faster than the current process.",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        },
+        "q_deportation": {
+          "position": -1,
+          "basis": "statement",
+          "summary": "Her campaign issues page says, \"I will also advocate for ending the use of detention centers.\"",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        }
+      },
+      "sources": [
+        {
+          "id": "p4-s1",
+          "title": "Issues",
+          "publisher": "Yolanda Prince for Congress",
+          "url": "https://yolandaprince.com/issues",
+          "date": null
+        }
+      ]
+    },
+    {
+      "id": "patrick-david-gillespie",
+      "race_id": "us-house-33",
+      "stances": {
+        "q_vouchers": {
+          "position": 1,
+          "basis": "statement",
+          "summary": "His campaign site lists among his principles parents \"having the freedom of choice for the education of their children\"; it does not mention vouchers, tax credits or charter schools specifically (corrected from a Branch summary).",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        },
+        "q_abortion": {
+          "position": -1,
+          "basis": "statement",
+          "summary": "His campaign site lists as a principle \"the sanctity of human life, created in the image of God, which should be protected from fertilization to natural death.\"",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        },
+        "q_voting_access": {
+          "position": -1,
+          "basis": "statement",
+          "summary": "His campaign site says, \"We have the correct laws in place: photo ID.\"",
+          "sources": [
+            "p4-s2"
+          ],
+          "replace": true
+        },
+        "q_foreign_land": {
+          "position": 2,
+          "basis": "statement",
+          "summary": "His campaign site says \"we should stop selling land to China, especially around military bases.\"",
+          "sources": [
+            "p4-s2"
+          ],
+          "replace": true
+        },
+        "q_fossil_priority": {
+          "position": 1,
+          "basis": "statement",
+          "summary": "His campaign site says the U.S. can switch to natural gas for all electric generation now done by coal; it does not address wind or solar.",
+          "sources": [
+            "p4-s2"
+          ],
+          "replace": true
+        }
+      },
+      "sources": [
+        {
+          "id": "p4-s1",
+          "title": "About Patrick Gillespie",
+          "publisher": "Patrick Gillespie for Congress",
+          "url": "https://patrickgillespie4congress33.com/about-patrick-gillespie",
+          "date": null
+        },
+        {
+          "id": "p4-s2",
+          "title": "Patrick Gillespie for Congress",
+          "publisher": "Patrick Gillespie for Congress",
+          "url": "https://patrickgillespie4congress33.com/",
+          "date": null
+        }
+      ]
+    },
+    {
+      "id": "steven-shook",
+      "race_id": "us-house-26",
+      "stances": {
+        "q_gun_laws": {
+          "position": 2,
+          "basis": "statement",
+          "summary": "His campaign site pledges to \"close loopholes that allow guns to be sold without background checks\" and \"support red-flag laws.\"",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        },
+        "q_vouchers": {
+          "position": -2,
+          "basis": "statement",
+          "summary": "His campaign site pledges to \"oppose efforts to drain funds into unaccountable voucher programs.\"",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        },
+        "q_legal_status": {
+          "position": 1,
+          "basis": "statement",
+          "summary": "His campaign site pledges to \"fix a broken immigration system with lawful pathways and due process\"; it does not specify legal status for current undocumented residents.",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        }
+      },
+      "sources": [
+        {
+          "id": "p4-s1",
+          "title": "Steven Shook for Congress",
+          "publisher": "Steven Shook for Congress",
+          "url": "https://shookforcongress2026.com/",
+          "date": null
+        }
+      ]
+    },
+    {
+      "id": "rhonda-hart",
+      "race_id": "us-house-36",
+      "stances": {
+        "q_gun_laws": {
+          "position": 2,
+          "basis": "statement",
+          "summary": "Her campaign site says she worked to pass the Kimberly Vaughan Safe Storage of Firearms Act, part of the Bipartisan Safer Communities Act, and has spent six years pushing for stronger storage rules; the site does not mention universal background checks or raising the purchase age (summary corrected from a Branch summary).",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        }
+      },
+      "sources": [
+        {
+          "id": "p4-s1",
+          "title": "Rhonda Hart for Congress",
+          "publisher": "Rhonda Hart for Congress",
+          "url": "https://www.hart4congress.com/",
+          "date": null
+        }
+      ]
+    },
+    {
+      "id": "kristin-hook",
+      "race_id": "us-house-21",
+      "stances": {
+        "q_voting_access": {
+          "position": 1,
+          "basis": "statement",
+          "summary": "Her campaign issues page lists \"Democracy: Strengthening Voting Rights\" as one of her campaign issues.",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        }
+      },
+      "sources": [
+        {
+          "id": "p4-s1",
+          "title": "Issues",
+          "publisher": "Dr. Kristin Hook for Congress",
+          "url": "https://www.drkristinhook.org/issues",
+          "date": null
+        }
+      ]
+    },
+    {
+      "id": "dione-sims",
+      "race_id": "us-house-25",
+      "stances": {
+        "q_medicaid": {
+          "position": 2,
+          "basis": "statement",
+          "summary": "Her campaign health care platform calls for closing the Texas coverage gap through the Affordable Care Act's Medicaid expansion and says she will support policies that strengthen incentives for Texas to expand.",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        }
+      },
+      "sources": [
+        {
+          "id": "p4-s1",
+          "title": "Healthcare",
+          "publisher": "Dione Sims for Congress",
+          "url": "https://dionesimsforcongress.com/platform/healthcare",
+          "date": null
+        }
+      ]
+    },
+    {
+      "id": "lauren-b-pe-a",
+      "race_id": "us-house-37",
+      "stances": {
+        "q_federal_spending": {
+          "position": 1,
+          "basis": "statement",
+          "summary": "Her campaign site says she will \"cut federal spending driving inflation\" and support the Department of Government Efficiency mission; the balanced budget and welfare statements in the Branch summary were not found on the site.",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        }
+      },
+      "sources": [
+        {
+          "id": "p4-s1",
+          "title": "Lauren B. Pena for Congress",
+          "publisher": "Lauren B. Pena for Congress",
+          "url": "https://www.lauren4congress.com/",
+          "date": null
+        }
+      ]
+    },
+    {
+      "id": "riley-rodriquez",
+      "race_id": "state-senate-28",
+      "stances": {
+        "q_vouchers": {
+          "position": -2,
+          "basis": "statement",
+          "summary": "His campaign issues page describes his platform as including \"school voucher repeal.\"",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        }
+      },
+      "sources": [
+        {
+          "id": "p4-s1",
+          "title": "Issues",
+          "publisher": "Riley Rodriquez for State Senate",
+          "url": "https://rileyforsenate.org/issues",
+          "date": null
+        }
+      ]
+    },
+    {
+      "id": "dennis-paul",
+      "race_id": "state-senate-11",
+      "stances": {
+        "q_prop_tax_eliminate": {
+          "position": 2,
+          "basis": "statement",
+          "summary": "His campaign issues page says he is committed to expanding compression, raising the homestead exemption, \"and ultimately eliminating school property taxes while keeping schools funded.\"",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        },
+        "q_border_state": {
+          "position": 2,
+          "basis": "statement",
+          "summary": "His campaign issues page says he \"has consistently supported Operation Lone Star\" and will continue championing strong border enforcement.",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        }
+      },
+      "sources": [
+        {
+          "id": "p4-s1",
+          "title": "Issues",
+          "publisher": "Dennis Paul campaign",
+          "url": "https://www.dennispaul.com/issues/",
+          "date": null
+        }
+      ]
+    },
+    {
+      "id": "lance-gooden",
+      "race_id": "us-house-5",
+      "stances": {
+        "q_gun_laws": {
+          "position": -2,
+          "basis": "record",
+          "summary": "Voted against H.R. 8, the Bipartisan Background Checks Act of 2021, on March 11, 2021 (roll call 75); the stated reason in the Branch summary was not verified.",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        }
+      },
+      "sources": [
+        {
+          "id": "p4-s1",
+          "title": "Roll Call 75, H.R. 8, Bipartisan Background Checks Act (March 11, 2021)",
+          "publisher": "Office of the Clerk, U.S. House of Representatives",
+          "url": "https://clerk.house.gov/evs/2021/roll075.xml",
+          "date": "2021-03-11"
+        }
+      ]
+    },
+    {
+      "id": "henry-cuellar",
+      "race_id": "us-house-28",
+      "stances": {
+        "q_legal_status": {
+          "position": 1,
+          "basis": "record",
+          "summary": "Voted for the Farm Workforce Modernization Act (H.R. 1603), which would create a path to legal status for agricultural workers, and for the American Dream and Promise Act (H.R. 6) on March 18, 2021; his cosponsorship cited in a Branch summary was not verified.",
+          "sources": [
+            "p4-s1",
+            "p4-s2"
+          ],
+          "replace": true
+        }
+      },
+      "sources": [
+        {
+          "id": "p4-s1",
+          "title": "Roll Call 93, H.R. 1603, Farm Workforce Modernization Act (March 18, 2021)",
+          "publisher": "Office of the Clerk, U.S. House of Representatives",
+          "url": "https://clerk.house.gov/evs/2021/roll093.xml",
+          "date": "2021-03-18"
+        },
+        {
+          "id": "p4-s2",
+          "title": "Roll Call 91, H.R. 6, American Dream and Promise Act (March 18, 2021)",
+          "publisher": "Office of the Clerk, U.S. House of Representatives",
+          "url": "https://clerk.house.gov/evs/2021/roll091.xml",
+          "date": "2021-03-18"
+        }
+      ]
+    },
+    {
+      "id": "mark-ash",
+      "race_id": "cca-3",
+      "stances": {
+        "q_judicial_selection": {
+          "position": -1,
+          "basis": "questionnaire",
+          "summary": "In a 2016 iVoterGuide questionnaire he answered \"Agree\" to the statement that election of judges by the people for a definite term of office is the best way to select judges.",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        }
+      },
+      "sources": [
+        {
+          "id": "p4-s1",
+          "title": "Voter Guide Profile: Mark Ash (Court of Criminal Appeals, Place 2, 2016)",
+          "publisher": "iVoterGuide",
+          "url": "https://ivoterguide.com/candidate/17181/race/4673/election/477?culture=en-us",
+          "date": null
+        }
+      ]
+    },
+    {
+      "id": "david-rippel",
+      "race_id": "collin-ccl-4",
+      "stances": {
+        "q_textualism": {
+          "position": 1,
+          "basis": "questionnaire",
+          "summary": "Asked in a Ballotpedia candidate survey to describe his legal philosophy, he answered, \"Strict adherence to the law.\"",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        }
+      },
+      "sources": [
+        {
+          "id": "p4-s1",
+          "title": "David Rippel",
+          "publisher": "Ballotpedia",
+          "url": "https://ballotpedia.org/David_Rippel",
+          "date": null
+        }
+      ]
+    },
+    {
+      "id": "borris-l-miles",
+      "race_id": "state-senate-13",
+      "stances": {
+        "q_school_funding": {
+          "position": 2,
+          "basis": "statement",
+          "summary": "In a 2023 official statement opposing private school vouchers, he said the real priorities are \"fully funding our public schools and giving our hard working educators a well-deserved pay raise.\"",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        }
+      },
+      "sources": [
+        {
+          "id": "p4-s1",
+          "title": "Statement by Senator Borris L. Miles Regarding the Texas House Voting Against HB 1",
+          "publisher": "Texas Senate",
+          "url": "https://senate.texas.gov/members/d13/press/en/p20231117a.pdf",
+          "date": "2023-11-17"
+        }
+      ]
+    },
+    {
+      "id": "chris-royal",
+      "race_id": "us-house-34",
+      "stances": {
+        "q_federal_spending": {
+          "position": 1,
+          "basis": "statement",
+          "summary": "His campaign site says the federal government \"has a spending problem which neither party feels a need to correct\" and argues for a federal balanced budget like Texas has.",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        }
+      },
+      "sources": [
+        {
+          "id": "p4-s1",
+          "title": "Chris Royal for Congress",
+          "publisher": "Chris Royal campaign",
+          "url": "https://chriscongress.com/",
+          "date": null
+        }
+      ]
+    },
+    {
+      "id": "julie-dahlberg",
+      "race_id": "state-senate-21",
+      "stances": {
+        "q_prop_tax_eliminate": {
+          "position": 2,
+          "basis": "statement",
+          "summary": "Her campaign priority issues page calls for completely eliminating all property taxes and replacing them with a consumption tax that does not raise the overall tax burden (broader than the homeowner-only wording in a Branch summary).",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        },
+        "q_vouchers": {
+          "position": 2,
+          "basis": "statement",
+          "summary": "Her campaign priority issues page says \"school choice should be truly universal,\" including traditional public, charter and private schools.",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        },
+        "q_school_funding": {
+          "position": 1,
+          "basis": "statement",
+          "summary": "Her campaign priority issues page says teacher compensation should be a major priority, supports a 20 percent increase in teacher base pay, and calls for examining administrative compensation and staffing.",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        },
+        "q_abortion": {
+          "position": -2,
+          "basis": "statement",
+          "summary": "Her campaign priority issues page says preborn children should have equal protection under the law from fertilization and calls for stronger criminal penalties against abortion and abortion pill trafficking.",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        },
+        "q_gun_laws": {
+          "position": -2,
+          "basis": "statement",
+          "summary": "Her campaign priority issues page pledges to \"oppose gun-grab laws that infringe upon the Second Amendment or deny citizens their right to due process\" and to repeal gun-free zone laws.",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        },
+        "q_voting_access": {
+          "position": -2,
+          "basis": "statement",
+          "summary": "Her campaign priority issues page calls for government-issued photo identification to vote and proof of U.S. citizenship for voter registration; fingerprint ID was not found on the page.",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        }
+      },
+      "sources": [
+        {
+          "id": "p4-s1",
+          "title": "Priority Issues",
+          "publisher": "Julie Dahlberg for Texas Senate",
+          "url": "http://juliefortexassenate.com/priority-issues",
+          "date": null
+        }
+      ]
+    },
+    {
+      "id": "phil-gray",
+      "race_id": "us-house-26",
+      "stances": {
+        "q_abortion": {
+          "position": 2,
+          "basis": "questionnaire",
+          "summary": "In a 2024 iVoterGuide questionnaire he said elective abortion should be allowed \"when the mother chooses\" and answered \"No\" on whether the federal government has a role in limiting abortion.",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        },
+        "q_vouchers": {
+          "position": -2,
+          "basis": "questionnaire",
+          "summary": "In a 2024 iVoterGuide questionnaire he answered \"Strongly Disagree\" on supporting school choice and vouchers, calling vouchers \"handouts for the wealthy\" (position strengthened from a Branch summary).",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        },
+        "q_federal_spending": {
+          "position": 1,
+          "basis": "questionnaire",
+          "summary": "In a 2024 iVoterGuide questionnaire he named paying down the national debt as the action he would take to let Americans keep more of their income.",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        },
+        "q_cannabis": {
+          "position": 0,
+          "basis": "questionnaire",
+          "summary": "In a 2021 iVoterGuide questionnaire he answered \"Neutral\" on legalizing recreational marijuana while listing decriminalization of all drug use among his legislative priorities (corrected from a Branch summary that inferred support for legal cannabis).",
+          "sources": [
+            "p4-s2"
+          ],
+          "replace": true
+        }
+      },
+      "sources": [
+        {
+          "id": "p4-s1",
+          "title": "Voter Guide Profile: Phil Gray (U.S. House District 26, 2024)",
+          "publisher": "iVoterGuide",
+          "url": "https://ivoterguide.com/candidate/32149/race/6584/election/1214?culture=en-us",
+          "date": null
+        },
+        {
+          "id": "p4-s2",
+          "title": "Voter Guide Profile: Phil Gray (U.S. House District 6 special election, 2021)",
+          "publisher": "iVoterGuide",
+          "url": "https://ivoterguide.com/candidate/32149/race/12872/election/824?culture=en-us",
+          "date": null
+        }
+      ]
+    },
+    {
+      "id": "danny-minton",
+      "race_id": "us-house-6",
+      "stances": {
+        "q_min_wage": {
+          "position": 2,
+          "basis": "questionnaire",
+          "summary": "Asked whether Congress should pass a federal $17 per hour minimum wage indexed to inflation, he answered \"Yes. If tax policy adjusts for inflation, workers' wages should too.\"",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        },
+        "q_deportation": {
+          "position": -1,
+          "basis": "questionnaire",
+          "summary": "Said in a candidate questionnaire that \"ICE should be abolished or significantly reduced, and its budget redirected to local and state law enforcement.\"",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        },
+        "q_voting_access": {
+          "position": 1,
+          "basis": "questionnaire",
+          "summary": "Said in a candidate questionnaire, \"I strongly support passing the John Lewis Voting Rights Act and expanding protections for every voter.\"",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        },
+        "q_fossil_priority": {
+          "position": -1,
+          "basis": "questionnaire",
+          "summary": "Answered \"Yes\" to supporting a Green New Deal or similar large-scale federal climate plan and called for tax incentives for rooftop solar.",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        }
+      },
+      "sources": [
+        {
+          "id": "p4-s1",
+          "title": "Meet The Candidates: Danny Minton For Texas Congressional District 06",
+          "publisher": "Lone Star Left",
+          "url": "https://www.lonestarleft.com/p/meet-the-candidates-danny-minton",
+          "date": "2026-03-23"
+        }
+      ]
+    },
+    {
+      "id": "greg-stoker",
+      "race_id": "us-house-31",
+      "stances": {
+        "q_cannabis": {
+          "position": 2,
+          "basis": "questionnaire",
+          "summary": "Told Community Impact that one of his top three priorities is \"to end the federal prohibition on THC.\"",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        }
+      },
+      "sources": [
+        {
+          "id": "p4-s1",
+          "title": "Q&A: Meet the candidates for US House District 31",
+          "publisher": "Community Impact",
+          "url": "https://communityimpact.com/georgetown/election/qa-meet-the-candidates-for-us-house-district-31/",
+          "date": "2026-08-26"
+        }
+      ]
+    },
+    {
+      "id": "shannon-dicely",
+      "race_id": "state-senate-11",
+      "stances": {
+        "q_school_funding": {
+          "position": 2,
+          "basis": "questionnaire",
+          "summary": "Told Community Impact her priorities include \"fully funding our public schools and giving our teachers and staff the pay increase and benefits they deserve,\" and that she would change how per-student funding is calculated.",
+          "sources": [
+            "p4-s1"
+          ],
+          "replace": true
+        }
+      },
+      "sources": [
+        {
+          "id": "p4-s1",
+          "title": "Q&A: Get to know the Democratic candidates running for Texas Senate District 11 ahead of the March primaries",
+          "publisher": "Community Impact",
+          "url": "https://communityimpact.com/houston/bay-area/election/2026/01/19/qa-get-to-know-the-democratic-candidates-running-for-texas-senate-district-11-ahead-of-the-march-primaries/",
+          "date": "2026-01-19"
+        }
+      ]
+    }
+  ],
+  "remove_stances": [
+    {
+      "candidate": "nate-sheets",
+      "question": "q_foreign_land",
+      "reason": "Campaign issues page (natesheets.com/nate-sheets-on-the-issues/) addresses agroterrorism by foreign nationals smuggling pathogens, not land purchases; no documented position on banning land purchases by adversarial nations."
+    }
+  ]
+}

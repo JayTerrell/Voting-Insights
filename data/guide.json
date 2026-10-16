@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T16:15:21.893Z",
+ "generated_at": "2026-10-16T16:16:07.241Z",
  "election": {
   "name": "2026 November General Election",
   "county": "Collin County, Texas",
@@ -13363,16 +13363,7 @@
        ]
       }
      ],
-     "stances": {
-      "q_foreign_land": {
-       "position": 1,
-       "basis": "reported",
-       "summary": "Advocates protecting agricultural land and food systems from foreign threats, according to a candidate profile; no statement on specific land purchase bans was found.",
-       "sources": [
-        "p2-s2"
-       ]
-      }
-     },
+     "stances": {},
      "issue_notes": [
       {
        "topic": "Water and Data Centers",
@@ -17229,10 +17220,10 @@
      "stances": {
       "q_judicial_selection": {
        "position": -1,
-       "basis": "reported",
-       "summary": "Supports electing judges to defined terms of office, according to his candidate profile.",
+       "basis": "questionnaire",
+       "summary": "In a 2016 iVoterGuide questionnaire he answered \"Agree\" to the statement that election of judges by the people for a definite term of office is the best way to select judges.",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       }
      },
@@ -17287,6 +17278,13 @@
        "publisher": "The Dallas Morning News",
        "url": "https://www.dallasnews.com/projects/2026/dallas-texas-november-election-voter-guide/tx-court-of-criminal-appeals-place-3/",
        "date": "2026-10"
+      },
+      {
+       "id": "p4-s1",
+       "title": "Voter Guide Profile: Mark Ash (Court of Criminal Appeals, Place 2, 2016)",
+       "publisher": "iVoterGuide",
+       "url": "https://ivoterguide.com/candidate/17181/race/4673/election/477?culture=en-us",
+       "date": null
       }
      ],
      "research_gaps": "Ash has no standalone campaign website and did not complete Ballotpedia surveys; sources differ on whether his private practice began in 1992 or 1994.",
@@ -20983,18 +20981,18 @@
      "stances": {
       "q_vouchers": {
        "position": -2,
-       "basis": "reported",
-       "summary": "Calls for repealing voucher legislation.",
+       "basis": "statement",
+       "summary": "Says on his campaign issues page that voucher schemes siphon money from public schools and that \"We say NO to vouchers.\"",
        "sources": [
-        "s3"
+        "p4-s1"
        ]
       },
       "q_school_funding": {
        "position": 2,
-       "basis": "reported",
-       "summary": "Calls for increasing public school funding and raising teacher pay.",
+       "basis": "statement",
+       "summary": "Says on his campaign issues page that the state should invest in public schools, pay teachers what they deserve and lower class sizes.",
        "sources": [
-        "s3"
+        "p4-s1"
        ]
       },
       "q_medicaid": {
@@ -21110,6 +21108,13 @@
        "title": "Endorsement",
        "publisher": "Sandeep for Texas",
        "url": "https://www.sandeepfortexas.com/endorsement.aspx",
+       "date": null
+      },
+      {
+       "id": "p4-s1",
+       "title": "Issues",
+       "publisher": "Sandeep Srivastava for Texas",
+       "url": "https://www.sandeepfortexas.com/issues.aspx",
        "date": null
       }
      ],
@@ -25969,10 +25974,10 @@
      "stances": {
       "q_textualism": {
        "position": 1,
-       "basis": "reported",
-       "summary": "Describes himself as committed to impartial interpretation of the law rather than legislating from the bench.",
+       "basis": "statement",
+       "summary": "Says on his campaign site that his experience reinforced his commitment to impartiality, \"ensuring judges interpret the law rather than legislate from the bench.\"",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       }
      },
@@ -25990,6 +25995,13 @@
        "title": "District Courts",
        "publisher": "Collin County",
        "url": "https://www.collincountytx.gov/Courts/District-Courts?hl=en-US",
+       "date": null
+      },
+      {
+       "id": "p4-s1",
+       "title": "Tom Nowak for Judge, 366th District Court",
+       "publisher": "Tom Nowak campaign",
+       "url": "https://votingfortom.com",
        "date": null
       }
      ],
@@ -26302,10 +26314,10 @@
      "stances": {
       "q_textualism": {
        "position": 1,
-       "basis": "reported",
-       "summary": "Says judges must interpret the law as it is written and not create it.",
+       "basis": "statement",
+       "summary": "Describes herself on her campaign site as a constitutional conservative who believes in judicial restraint and says judges must interpret the law as it is written and not create it.",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       }
      },
@@ -26323,6 +26335,13 @@
        "title": "District Courts",
        "publisher": "Collin County",
        "url": "https://www.collincountytx.gov/Courts/District-Courts?hl=en-US",
+       "date": null
+      },
+      {
+       "id": "p4-s1",
+       "title": "Keep Judge Pruitt",
+       "publisher": "Kathryn Pruitt campaign",
+       "url": "https://keepjudgepruitt.com",
        "date": null
       }
      ],
@@ -27235,10 +27254,10 @@
      "stances": {
       "q_textualism": {
        "position": 1,
-       "basis": "reported",
-       "summary": "Describes his judicial philosophy as strict adherence to the law.",
+       "basis": "questionnaire",
+       "summary": "Asked in a Ballotpedia candidate survey to describe his legal philosophy, he answered, \"Strict adherence to the law.\"",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       }
      },
@@ -27250,6 +27269,13 @@
        "publisher": "Branch Politics",
        "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-court-at-law-judge-tx-county-collin-post-4/candidates/david-rippel",
        "date": "2026-07"
+      },
+      {
+       "id": "p4-s1",
+       "title": "David Rippel",
+       "publisher": "Ballotpedia",
+       "url": "https://ballotpedia.org/David_Rippel",
+       "date": null
       }
      ],
      "research_gaps": "No campaign website, education details, notable rulings, or bar poll results were found.",
@@ -27303,10 +27329,10 @@
      "stances": {
       "q_textualism": {
        "position": 1,
-       "basis": "reported",
-       "summary": "Says he favors judicial restraint and that judges should follow the law and uphold the Constitution rather than legislate from the bench.",
+       "basis": "questionnaire",
+       "summary": "In a 2022 Ballotpedia candidate survey posted on his campaign site, says he believes in judicial restraint and that judges should not legislate from the bench but should apply and enforce the rule of law.",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       }
      },
@@ -27318,6 +27344,13 @@
        "publisher": "Branch Politics",
        "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-court-at-law-judge-tx-county-collin-post-5/candidates/randy-johnson-1",
        "date": "2026-07"
+      },
+      {
+       "id": "p4-s1",
+       "title": "Ballotpedia 2022 Candidate Survey (Randy Johnson)",
+       "publisher": "Keep Judge Randy Johnson campaign",
+       "url": "https://keepjudgerandyjohnson.com/images/100790/ballotpedia_2022_candidate_survey.pdf",
+       "date": null
       }
      ],
      "research_gaps": "No notable rulings or bar poll results were found.",
@@ -29181,18 +29214,18 @@
      "stances": {
       "q_min_wage": {
        "position": 1,
-       "basis": "reported",
-       "summary": "Supports a living minimum wage, according to a Branch summary of her website.",
+       "basis": "statement",
+       "summary": "Her campaign issues page calls for raising and indexing the federal minimum wage so it better reflects the cost of living.",
        "sources": [
-        "s3"
+        "p4-s1"
        ]
       },
       "q_medicaid": {
-       "position": 2,
-       "basis": "reported",
-       "summary": "Supports strengthening the Affordable Care Act while advocating for Medicaid expansion, according to a Branch summary of her website.",
+       "position": 1,
+       "basis": "statement",
+       "summary": "Her campaign issues page calls for strengthening Medicare and Medicaid, permanently extending enhanced Affordable Care Act subsidies and pursuing a public option; it does not specifically call for Medicaid expansion (corrected from a Branch summary).",
        "sources": [
-        "s3"
+        "p4-s1"
        ]
       }
      },
@@ -29233,6 +29266,13 @@
        "publisher": "Branch",
        "url": "https://branch.vote/races/2026-texas-general-election-tx-state-us-representative-tx-congressional-10/candidates/caitlin-rourk",
        "date": "2026-07"
+      },
+      {
+       "id": "p4-s1",
+       "title": "Issues",
+       "publisher": "Caitlin Rourk for Congress",
+       "url": "https://www.caitlinrourk.com/issues",
+       "date": null
       }
      ],
      "research_gaps": "Her website lists issue headings without detailed text, so positions on tariffs, abortion, guns, immigration specifics and energy were not documented.",
@@ -30166,10 +30206,10 @@
       },
       "q_border_state": {
        "position": 2,
-       "basis": "reported",
-       "summary": "Cites securing over $6 billion for southern border security.",
+       "basis": "statement",
+       "summary": "His campaign site says he helped secure over $6 billion to defend the southern border and passed legislation aimed at drug cartels and human smugglers.",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       },
       "q_voting_access": {
@@ -30486,6 +30526,13 @@
        "publisher": "Texas Senate",
        "url": "https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-30-F.PDF#page=110",
        "date": "2025-05-30"
+      },
+      {
+       "id": "p4-s1",
+       "title": "Accomplishments",
+       "publisher": "Charles Schwertner campaign",
+       "url": "https://www.drschwertner.com/accomplishments",
+       "date": null
       }
      ],
      "research_gaps": "No candidate questionnaire responses from 2026 were found.",
@@ -33002,11 +33049,11 @@
        ]
       },
       "q_legal_status": {
-       "position": 2,
-       "basis": "reported",
-       "summary": "Supports immigration reform giving people who work hard and contribute a realistic path to citizenship.",
+       "position": 1,
+       "basis": "statement",
+       "summary": "His campaign issues page calls for a clear and fair pathway to citizenship for those pursuing legal immigration and permanent protections for Dreamers; it does not describe a broader legalization plan (corrected from a Branch summary).",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       }
      },
@@ -33032,6 +33079,13 @@
        "title": "News",
        "publisher": "Campaign website",
        "url": "https://www.votejustinearly.com/news",
+       "date": null
+      },
+      {
+       "id": "p4-s1",
+       "title": "Issues",
+       "publisher": "Justin Early for Congress",
+       "url": "https://www.votejustinearly.com/issues",
        "date": null
       }
      ],
@@ -33078,10 +33132,10 @@
      "stances": {
       "q_cannabis": {
        "position": 2,
-       "basis": "reported",
-       "summary": "Plans to end the federal prohibition on THC.",
+       "basis": "questionnaire",
+       "summary": "Told Community Impact that one of his top three priorities is \"to end the federal prohibition on THC.\"",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       },
       "q_medicaid": {
@@ -33101,6 +33155,13 @@
        "publisher": "Branch",
        "url": "https://branch.vote/races/2026-texas-general-election-tx-state-us-representative-tx-congressional-31/candidates/greg-stoker",
        "date": "2026-07"
+      },
+      {
+       "id": "p4-s1",
+       "title": "Q&A: Meet the candidates for US House District 31",
+       "publisher": "Community Impact",
+       "url": "https://communityimpact.com/georgetown/election/qa-meet-the-candidates-for-us-house-district-31/",
+       "date": "2026-08-26"
       }
      ],
      "research_gaps": "His campaign website could not be loaded directly; positions come from a Branch summary.",
@@ -33646,34 +33707,34 @@
      "stances": {
       "q_vouchers": {
        "position": -2,
-       "basis": "reported",
-       "summary": "Opposes diverting public school funding to the state voucher program.",
+       "basis": "statement",
+       "summary": "His campaign site says he \"does not support diverting funds from our public schools into the Greg Abbott-backed Voucher Program.\"",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       },
       "q_school_funding": {
        "position": 2,
-       "basis": "reported",
-       "summary": "Calls for increased public school funding and higher pay for teachers and staff.",
+       "basis": "statement",
+       "summary": "His campaign site says \"We need increased funding for our public schools and higher salaries for our teachers and staff.\"",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       },
       "q_abortion": {
-       "position": 2,
-       "basis": "reported",
-       "summary": "Supports restoring reproductive freedoms so women can make their own health care decisions.",
+       "position": 1,
+       "basis": "statement",
+       "summary": "His campaign site says that although he is pro-life, he \"will work to restore the reproductive freedoms of women in Texas\" and that each woman has the right to decide in consultation with family, church leaders and doctors (position adjusted from a Branch summary to reflect his stated personal pro-life view).",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       },
       "q_fossil_priority": {
        "position": 0,
-       "basis": "reported",
-       "summary": "Supports continued support for oil and gas along with more investment in solar, wind and other renewables.",
+       "basis": "statement",
+       "summary": "His campaign site says it is crucial to continue supporting the oil and gas industry while increasing investments in solar, wind and other renewable energy.",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       }
      },
@@ -33699,6 +33760,13 @@
        "title": "Joe Herrera | Teach the Vote",
        "publisher": "Association of Texas Professional Educators (Teach the Vote)",
        "url": "https://teachthevote.atpe.org/candidates/Joe-Herrera",
+       "date": null
+      },
+      {
+       "id": "p4-s1",
+       "title": "Joe P. Herrera for Texas Senate",
+       "publisher": "Herrera for Texas campaign",
+       "url": "https://herrerafortexas.com",
        "date": null
       }
      ],
@@ -36715,10 +36783,10 @@
      "stances": {
       "q_abortion": {
        "position": 2,
-       "basis": "reported",
-       "summary": "Supports abortion access, according to a Branch summary of her website.",
+       "basis": "statement",
+       "summary": "Her campaign positions page calls for improving access to reproductive health care and reinstating abortion rights after Roe v. Wade was overturned.",
        "sources": [
-        "s2"
+        "p4-s1"
        ]
       },
       "q_legal_status": {
@@ -36731,10 +36799,10 @@
       },
       "q_medicaid": {
        "position": 1,
-       "basis": "inferred",
-       "summary": "Supports universal health care, which implies support for broader public coverage.",
+       "basis": "statement",
+       "summary": "Her campaign positions page calls for universal health care not tied to employment and for protecting the Affordable Care Act; it does not address Texas Medicaid expansion specifically.",
        "sources": [
-        "s2"
+        "p4-s1"
        ]
       }
      },
@@ -36753,6 +36821,13 @@
        "publisher": "Branch",
        "url": "https://branch.vote/races/2026-texas-general-election-tx-state-us-representative-tx-congressional-22/candidates/marquette-greene-scott",
        "date": "2026-07"
+      },
+      {
+       "id": "p4-s1",
+       "title": "Marquette's Positions",
+       "publisher": "Marquette Greene-Scott for Congress",
+       "url": "https://marquettegreenescott.com/marquette-position-provocative-issues-facts/",
+       "date": null
       }
      ],
      "research_gaps": "No positions were found on tariffs, guns or energy.",
@@ -37089,10 +37164,10 @@
      "stances": {
       "q_gun_laws": {
        "position": 2,
-       "basis": "reported",
-       "summary": "Supports universal background checks, safe storage rules and raising the purchase age for semi-automatic weapons to 21.",
+       "basis": "statement",
+       "summary": "Her campaign site says she worked to pass the Kimberly Vaughan Safe Storage of Firearms Act, part of the Bipartisan Safer Communities Act, and has spent six years pushing for stronger storage rules; the site does not mention universal background checks or raising the purchase age (summary corrected from a Branch summary).",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       },
       "q_abortion": {
@@ -37112,6 +37187,13 @@
        "publisher": "Branch",
        "url": "https://branch.vote/races/2026-texas-general-election-tx-state-us-representative-tx-congressional-36/candidates/rhonda-hart",
        "date": "2026-07"
+      },
+      {
+       "id": "p4-s1",
+       "title": "Rhonda Hart for Congress",
+       "publisher": "Rhonda Hart for Congress",
+       "url": "https://www.hart4congress.com/",
+       "date": null
       }
      ],
      "research_gaps": "Her campaign website offered little text; positions come from a Branch summary.",
@@ -37643,10 +37725,10 @@
       },
       "q_prop_tax_eliminate": {
        "position": 2,
-       "basis": "reported",
-       "summary": "Says he is committed to ultimately eliminating school property taxes while keeping schools funded.",
+       "basis": "statement",
+       "summary": "His campaign issues page says he is committed to expanding compression, raising the homestead exemption, \"and ultimately eliminating school property taxes while keeping schools funded.\"",
        "sources": [
-        "s2"
+        "p4-s1"
        ]
       },
       "q_ten_commandments": {
@@ -37712,10 +37794,10 @@
       },
       "q_border_state": {
        "position": 2,
-       "basis": "reported",
-       "summary": "Supports Operation Lone Star and stronger border enforcement.",
+       "basis": "statement",
+       "summary": "His campaign issues page says he \"has consistently supported Operation Lone Star\" and will continue championing strong border enforcement.",
        "sources": [
-        "s2"
+        "p4-s1"
        ]
       },
       "q_deportation": {
@@ -37945,6 +38027,13 @@
        "publisher": "Texas Legislature Online",
        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB16",
        "date": null
+      },
+      {
+       "id": "p4-s1",
+       "title": "Issues",
+       "publisher": "Dennis Paul campaign",
+       "url": "https://www.dennispaul.com/issues/",
+       "date": null
       }
      ],
      "research_gaps": "No 2026 questionnaire responses were found.",
@@ -38003,10 +38092,10 @@
      "stances": {
       "q_school_funding": {
        "position": 2,
-       "basis": "reported",
-       "summary": "Supports increasing per-student funding and raising teacher pay and benefits.",
+       "basis": "questionnaire",
+       "summary": "Told Community Impact her priorities include \"fully funding our public schools and giving our teachers and staff the pay increase and benefits they deserve,\" and that she would change how per-student funding is calculated.",
        "sources": [
-        "s2"
+        "p4-s1"
        ]
       },
       "q_min_wage": {
@@ -38064,6 +38153,13 @@
        "publisher": "Association of Texas Professional Educators (Teach the Vote)",
        "url": "https://teachthevote.atpe.org/candidates/Shannon-Dicely",
        "date": null
+      },
+      {
+       "id": "p4-s1",
+       "title": "Q&A: Get to know the Democratic candidates running for Texas Senate District 11 ahead of the March primaries",
+       "publisher": "Community Impact",
+       "url": "https://communityimpact.com/houston/bay-area/election/2026/01/19/qa-get-to-know-the-democratic-candidates-running-for-texas-senate-district-11-ahead-of-the-march-primaries/",
+       "date": "2026-01-19"
       }
      ],
      "research_gaps": "No questionnaire responses were found, and her campaign site could not be loaded directly.",
@@ -45456,10 +45552,10 @@
       },
       "q_medicaid": {
        "position": 2,
-       "basis": "inferred",
-       "summary": "Supports a single-payer health care system, which goes beyond Medicaid expansion.",
+       "basis": "statement",
+       "summary": "Her campaign issues page says tying health insurance to jobs is \"absurd\" and argues for a single-payer health insurance system, which goes beyond Medicaid expansion.",
        "sources": [
-        "s3"
+        "p4-s1"
        ]
       },
       "q_tariffs": {
@@ -45518,6 +45614,13 @@
        "publisher": "Branch",
        "url": "https://branch.vote/races/2026-texas-general-election-tx-state-us-representative-tx-congressional-11/candidates/claire-reynolds",
        "date": "2026-07"
+      },
+      {
+       "id": "p4-s1",
+       "title": "Issues",
+       "publisher": "Claire Reynolds for Congress",
+       "url": "https://www.clairereynoldsforcongress.org/issues",
+       "date": null
       }
      ],
      "research_gaps": "No positions were found on guns, minimum wage or vouchers.",
@@ -46592,42 +46695,42 @@
      "stances": {
       "q_prop_tax_eliminate": {
        "position": 2,
-       "basis": "reported",
-       "summary": "Supports ending property taxes for homeowners.",
+       "basis": "statement",
+       "summary": "Her campaign priority issues page calls for completely eliminating all property taxes and replacing them with a consumption tax that does not raise the overall tax burden (broader than the homeowner-only wording in a Branch summary).",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       },
       "q_vouchers": {
        "position": 2,
-       "basis": "reported",
-       "summary": "Believes school choice should be universal.",
+       "basis": "statement",
+       "summary": "Her campaign priority issues page says \"school choice should be truly universal,\" including traditional public, charter and private schools.",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       },
       "q_school_funding": {
        "position": 1,
-       "basis": "reported",
-       "summary": "Proposes a 20 percent teacher pay raise while cutting some administrative salaries.",
+       "basis": "statement",
+       "summary": "Her campaign priority issues page says teacher compensation should be a major priority, supports a 20 percent increase in teacher base pay, and calls for examining administrative compensation and staffing.",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       },
       "q_abortion": {
        "position": -2,
-       "basis": "reported",
-       "summary": "Supports equal legal protection for unborn children and banning abortion-inducing drugs.",
+       "basis": "statement",
+       "summary": "Her campaign priority issues page says preborn children should have equal protection under the law from fertilization and calls for stronger criminal penalties against abortion and abortion pill trafficking.",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       },
       "q_gun_laws": {
        "position": -2,
-       "basis": "reported",
-       "summary": "Supports strengthening Second Amendment protections and opposes restrictions she says lack due process.",
+       "basis": "statement",
+       "summary": "Her campaign priority issues page pledges to \"oppose gun-grab laws that infringe upon the Second Amendment or deny citizens their right to due process\" and to repeal gun-free zone laws.",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       },
       "q_border_state": {
@@ -46640,10 +46743,10 @@
       },
       "q_voting_access": {
        "position": -2,
-       "basis": "reported",
-       "summary": "Supports photo ID to vote, possible fingerprint ID, and proof of citizenship to register.",
+       "basis": "statement",
+       "summary": "Her campaign priority issues page calls for government-issued photo identification to vote and proof of U.S. citizenship for voter registration; fingerprint ID was not found on the page.",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       }
      },
@@ -46676,6 +46779,13 @@
        "title": "Julie Dahlberg | Teach the Vote",
        "publisher": "Association of Texas Professional Educators (Teach the Vote)",
        "url": "https://teachthevote.atpe.org/candidates/Julie-Dahlberg",
+       "date": null
+      },
+      {
+       "id": "p4-s1",
+       "title": "Priority Issues",
+       "publisher": "Julie Dahlberg for Texas Senate",
+       "url": "http://juliefortexassenate.com/priority-issues",
        "date": null
       }
      ],
@@ -46902,10 +47012,10 @@
       },
       "q_medicaid": {
        "position": 2,
-       "basis": "reported",
-       "summary": "Supports Medicaid expansion.",
+       "basis": "statement",
+       "summary": "Her campaign health care page says she believes health care is a right and is a strong supporter of Medicaid expansion and the Affordable Care Act.",
        "sources": [
-        "s2"
+        "p4-s1"
        ]
       },
       "q_min_wage": {
@@ -47138,6 +47248,13 @@
        "publisher": "Texas Senate",
        "url": "https://journals.senate.texas.gov/sjrnl/88r/pdf/88RSJ05-15-F.PDF#page=58",
        "date": "2023-05-15"
+      },
+      {
+       "id": "p4-s1",
+       "title": "Health Care",
+       "publisher": "Senator Judith Zaffirini campaign",
+       "url": "https://judithzaffirini.com/texas-health-crisis/",
+       "date": null
       }
      ],
      "research_gaps": "",
@@ -48542,10 +48659,10 @@
       },
       "q_legal_status": {
        "position": 1,
-       "basis": "reported",
-       "summary": "Proposes letting small businesses sponsor undocumented immigrants who pass background checks.",
+       "basis": "statement",
+       "summary": "Proposed the Save the American Workforce Act to let businesses sponsor undocumented immigrants with at least five years in the U.S. and no criminal record for renewable three-year visas; he describes it as \"a temporary path,\" and it would not offer citizenship.",
        "sources": [
-        "s2"
+        "p4-s2"
        ]
       },
       "q_deportation": {
@@ -48558,10 +48675,10 @@
       },
       "q_abortion": {
        "position": 1,
-       "basis": "reported",
-       "summary": "Supports each woman's right to make her own health care decisions.",
+       "basis": "statement",
+       "summary": "His campaign accomplishments page says he supports \"assuring every woman retains the right to make her own healthcare decisions.\"",
        "sources": [
-        "s2"
+        "p4-s1"
        ]
       }
      },
@@ -48672,6 +48789,20 @@
        "publisher": "Office of the Clerk, U.S. House of Representatives",
        "url": "https://clerk.house.gov/evs/2026/roll087.xml",
        "date": "2026-03-05"
+      },
+      {
+       "id": "p4-s1",
+       "title": "Accomplishments",
+       "publisher": "Vicente Gonzalez for Congress",
+       "url": "https://vicentegonzalez.com/accomplishments/",
+       "date": null
+      },
+      {
+       "id": "p4-s2",
+       "title": "Rio Grande Valley lawmaker to propose new immigrant worker visa program for small businesses",
+       "publisher": "RGV Business Journal",
+       "url": "https://www.rgvbusinessjournal.com/news/24/11/2025/rio-grande-valley-lawmaker-to-propose-new-immigrant-worker-visa-program-for-small-businesses/",
+       "date": "2025-11-24"
       }
      ],
      "research_gaps": "No 2026 questionnaire responses were found.",
@@ -48712,10 +48843,10 @@
      "stances": {
       "q_federal_spending": {
        "position": 1,
-       "basis": "inferred",
-       "summary": "Advocates an annually balanced federal budget with no deficits, which implies spending restraint.",
+       "basis": "statement",
+       "summary": "His campaign site says the federal government \"has a spending problem which neither party feels a need to correct\" and argues for a federal balanced budget like Texas has.",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       },
       "q_fossil_priority": {
@@ -48750,6 +48881,13 @@
        "publisher": "Scientist Network for Advancing Policy",
        "url": "https://snapcoalition.org/initiatives/stance-on-science/candidates/tx/chris-royal",
        "date": "2026"
+      },
+      {
+       "id": "p4-s1",
+       "title": "Chris Royal for Congress",
+       "publisher": "Chris Royal campaign",
+       "url": "https://chriscongress.com/",
+       "date": null
       }
      ],
      "research_gaps": "No campaign website was found; positions come from a science policy questionnaire and a Branch summary.",
@@ -54079,43 +54217,43 @@
      "notes": [],
      "stances": {
       "q_gun_laws": {
-       "position": -1,
-       "basis": "reported",
-       "summary": "Opposes gun control, according to a Branch summary of his website.",
+       "position": -2,
+       "basis": "statement",
+       "summary": "His campaign issues page pledges to \"protect the God-given right to keep and bear arms from any infringement, federal or otherwise\" (position strengthened from a Branch summary).",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       },
       "q_abortion": {
        "position": -1,
-       "basis": "reported",
-       "summary": "Opposes access to abortion, according to a Branch summary of his website.",
+       "basis": "statement",
+       "summary": "His campaign issues page lists \"Defending Life, Faith & Freedom\" and pledges to \"protect the unborn.\"",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       },
       "q_fossil_priority": {
        "position": 1,
-       "basis": "reported",
-       "summary": "Supports increasing oil, gas and nuclear energy production.",
+       "basis": "statement",
+       "summary": "His campaign issues page calls for unleashing Texas oil, gas and nuclear energy to restore U.S. energy dominance and lower costs.",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       },
       "q_voting_access": {
        "position": -1,
-       "basis": "reported",
-       "summary": "Says elections should make sure only U.S. citizens vote and make it impossible to cheat.",
+       "basis": "statement",
+       "summary": "His campaign issues page lists election integrity and ballot security and says elections should \"make sure only U.S. citizens vote\" and \"make it impossible to cheat.\"",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       },
       "q_federal_spending": {
        "position": 1,
-       "basis": "reported",
-       "summary": "Supports expanding efforts to cut government spending.",
+       "basis": "statement",
+       "summary": "His campaign issues page calls for expanding DOGE \"to cut insane wasteful spending.\"",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       }
      },
@@ -54127,6 +54265,13 @@
        "publisher": "Branch",
        "url": "https://branch.vote/races/2026-texas-general-election-tx-state-us-representative-tx-congressional-21/candidates/mark-teixeira",
        "date": "2026-07"
+      },
+      {
+       "id": "p4-s1",
+       "title": "Issues",
+       "publisher": "Mark Teixeira for Congress",
+       "url": "https://teixeiraforcongress.com/issues",
+       "date": null
       }
      ],
      "research_gaps": "His campaign website offered little issue text beyond a biography; positions come from a Branch summary.",
@@ -54183,10 +54328,10 @@
       },
       "q_voting_access": {
        "position": 1,
-       "basis": "reported",
-       "summary": "Says she will support legislation that protects voting rights.",
+       "basis": "statement",
+       "summary": "Her campaign issues page lists \"Democracy: Strengthening Voting Rights\" as one of her campaign issues.",
        "sources": [
-        "s2"
+        "p4-s1"
        ]
       }
      },
@@ -54205,6 +54350,13 @@
        "publisher": "Branch",
        "url": "https://branch.vote/races/2026-texas-general-election-tx-state-us-representative-tx-congressional-21/candidates/kristin-hook",
        "date": "2026-07"
+      },
+      {
+       "id": "p4-s1",
+       "title": "Issues",
+       "publisher": "Dr. Kristin Hook for Congress",
+       "url": "https://www.drkristinhook.org/issues",
+       "date": null
       }
      ],
      "research_gaps": "Her issue pages are collapsed sections that could not be read in full; no positions were found on tariffs, guns or energy.",
@@ -57989,10 +58141,10 @@
       },
       "q_gun_laws": {
        "position": -2,
-       "basis": "reported",
-       "summary": "Voted against expanding background checks in 2021, citing the rights of law-abiding gun owners.",
+       "basis": "record",
+       "summary": "Voted against H.R. 8, the Bipartisan Background Checks Act of 2021, on March 11, 2021 (roll call 75); the stated reason in the Branch summary was not verified.",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       },
       "q_abortion": {
@@ -58097,6 +58249,13 @@
        "publisher": "Office of the Clerk, U.S. House of Representatives",
        "url": "https://clerk.house.gov/evs/2025/roll027.xml",
        "date": "2025-01-23"
+      },
+      {
+       "id": "p4-s1",
+       "title": "Roll Call 75, H.R. 8, Bipartisan Background Checks Act (March 11, 2021)",
+       "publisher": "Office of the Clerk, U.S. House of Representatives",
+       "url": "https://clerk.house.gov/evs/2021/roll075.xml",
+       "date": "2021-03-11"
       }
      ],
      "research_gaps": "His campaign website has almost no issue content; no 2026 questionnaire responses were found.",
@@ -58376,19 +58535,19 @@
        ]
       },
       "q_gun_laws": {
-       "position": -2,
-       "basis": "reported",
-       "summary": "Opposes any federal gun control regulations.",
+       "position": -1,
+       "basis": "statement",
+       "summary": "His campaign issues page lists defending the Second Amendment and says he is a proud gun owner and lifetime NRA member; it does not state opposition to all federal gun regulations (corrected from a Branch summary).",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       },
       "q_abortion": {
        "position": -1,
-       "basis": "reported",
-       "summary": "Opposes abortion access, according to a Branch summary of his website.",
+       "basis": "statement",
+       "summary": "His campaign issues page says, \"I 100% support the right to life as the first and most vital right.\"",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       },
       "q_fossil_priority": {
@@ -58514,6 +58673,13 @@
        "publisher": "Office of the Clerk, U.S. House of Representatives",
        "url": "https://clerk.house.gov/evs/2025/roll027.xml",
        "date": "2025-01-23"
+      },
+      {
+       "id": "p4-s1",
+       "title": "Issues",
+       "publisher": "Jake Ellzey for Congress",
+       "url": "https://ellzeyfortexas.com/issues/",
+       "date": null
       }
      ],
      "research_gaps": "No 2026 questionnaire responses were found.",
@@ -58559,10 +58725,10 @@
      "stances": {
       "q_min_wage": {
        "position": 2,
-       "basis": "reported",
-       "summary": "Supports a $17 federal minimum wage indexed to inflation.",
+       "basis": "questionnaire",
+       "summary": "Asked whether Congress should pass a federal $17 per hour minimum wage indexed to inflation, he answered \"Yes. If tax policy adjusts for inflation, workers' wages should too.\"",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       },
       "q_abortion": {
@@ -58583,26 +58749,26 @@
       },
       "q_deportation": {
        "position": -1,
-       "basis": "reported",
-       "summary": "Wants to abolish ICE or return it to its original purpose and redirect its budget to local law enforcement.",
+       "basis": "questionnaire",
+       "summary": "Said in a candidate questionnaire that \"ICE should be abolished or significantly reduced, and its budget redirected to local and state law enforcement.\"",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       },
       "q_voting_access": {
        "position": 1,
-       "basis": "reported",
-       "summary": "Supports passing the John Lewis Voting Rights Act and expanding voter protections.",
+       "basis": "questionnaire",
+       "summary": "Said in a candidate questionnaire, \"I strongly support passing the John Lewis Voting Rights Act and expanding protections for every voter.\"",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       },
       "q_fossil_priority": {
        "position": -1,
-       "basis": "reported",
-       "summary": "Supports large-scale climate action and rooftop solar incentives.",
+       "basis": "questionnaire",
+       "summary": "Answered \"Yes\" to supporting a Green New Deal or similar large-scale federal climate plan and called for tax incentives for rooftop solar.",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       }
      },
@@ -58614,6 +58780,13 @@
        "publisher": "Branch",
        "url": "https://branch.vote/races/2026-texas-general-election-tx-state-us-representative-tx-congressional-6/candidates/danny-minton",
        "date": "2026-07"
+      },
+      {
+       "id": "p4-s1",
+       "title": "Meet The Candidates: Danny Minton For Texas Congressional District 06",
+       "publisher": "Lone Star Left",
+       "url": "https://www.lonestarleft.com/p/meet-the-candidates-danny-minton",
+       "date": "2026-03-23"
       }
      ],
      "research_gaps": "His campaign website could not be loaded directly; positions come from a Branch summary.",
@@ -59240,43 +59413,43 @@
      "notes": [],
      "stances": {
       "q_vouchers": {
-       "position": 2,
-       "basis": "reported",
-       "summary": "Supports school choice, including vouchers, tax credits, charter schools and home schools.",
+       "position": 1,
+       "basis": "statement",
+       "summary": "His campaign site lists among his principles parents \"having the freedom of choice for the education of their children\"; it does not mention vouchers, tax credits or charter schools specifically (corrected from a Branch summary).",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       },
       "q_abortion": {
        "position": -1,
-       "basis": "reported",
-       "summary": "Opposes abortion, according to a Branch summary of his website.",
+       "basis": "statement",
+       "summary": "His campaign site lists as a principle \"the sanctity of human life, created in the image of God, which should be protected from fertilization to natural death.\"",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       },
       "q_voting_access": {
        "position": -1,
-       "basis": "reported",
-       "summary": "Supports requiring government-issued photo ID to vote.",
+       "basis": "statement",
+       "summary": "His campaign site says, \"We have the correct laws in place: photo ID.\"",
        "sources": [
-        "s1"
+        "p4-s2"
        ]
       },
       "q_foreign_land": {
        "position": 2,
-       "basis": "reported",
-       "summary": "Opposes selling land to foreign persons, especially near military bases.",
+       "basis": "statement",
+       "summary": "His campaign site says \"we should stop selling land to China, especially around military bases.\"",
        "sources": [
-        "s1"
+        "p4-s2"
        ]
       },
       "q_fossil_priority": {
        "position": 1,
-       "basis": "reported",
-       "summary": "Supports using more natural gas for electricity generation.",
+       "basis": "statement",
+       "summary": "His campaign site says the U.S. can switch to natural gas for all electric generation now done by coal; it does not address wind or solar.",
        "sources": [
-        "s1"
+        "p4-s2"
        ]
       }
      },
@@ -59288,6 +59461,20 @@
        "publisher": "Branch",
        "url": "https://branch.vote/races/2026-texas-general-election-tx-state-us-representative-tx-congressional-33/candidates/patrick-david-gillespie",
        "date": "2026-07"
+      },
+      {
+       "id": "p4-s1",
+       "title": "About Patrick Gillespie",
+       "publisher": "Patrick Gillespie for Congress",
+       "url": "https://patrickgillespie4congress33.com/about-patrick-gillespie",
+       "date": null
+      },
+      {
+       "id": "p4-s2",
+       "title": "Patrick Gillespie for Congress",
+       "publisher": "Patrick Gillespie for Congress",
+       "url": "https://patrickgillespie4congress33.com/",
+       "date": null
       }
      ],
      "research_gaps": "His campaign website could not be loaded directly; positions come from a Branch summary.",
@@ -72873,10 +73060,10 @@
       },
       "q_fossil_priority": {
        "position": 1,
-       "basis": "reported",
-       "summary": "Supports American energy dominance and describes oil and gas as a pillar of national security.",
+       "basis": "statement",
+       "summary": "His campaign issues page says he will always stand for the oil and gas sector, supports President Trump's order to \"unleash American energy,\" and calls control of our own energy essential to national security.",
        "sources": [
-        "s2"
+        "p4-s1"
        ]
       }
      },
@@ -72994,6 +73181,13 @@
        "publisher": "Office of the Clerk, U.S. House of Representatives",
        "url": "https://clerk.house.gov/evs/2025/roll168.xml",
        "date": "2025-06-12"
+      },
+      {
+       "id": "p4-s1",
+       "title": "Issues",
+       "publisher": "Team Ronny (Ronny Jackson campaign)",
+       "url": "https://www.teamronny.com/issues",
+       "date": null
       }
      ],
      "research_gaps": "No 2026 questionnaire responses were found.",
@@ -73070,10 +73264,10 @@
       },
       "q_medicaid": {
        "position": 2,
-       "basis": "inferred",
-       "summary": "Plans to work toward Medicare for All, which goes beyond Medicaid expansion.",
+       "basis": "statement",
+       "summary": "His campaign platform page says he will \"work toward Medicare for All,\" which goes beyond Medicaid expansion.",
        "sources": [
-        "s2"
+        "p4-s1"
        ]
       }
      },
@@ -73100,6 +73294,13 @@
        "publisher": "Branch",
        "url": "https://branch.vote/races/2026-texas-general-election-tx-state-us-representative-tx-congressional-13/candidates/mark-nair",
        "date": "2026-07"
+      },
+      {
+       "id": "p4-s1",
+       "title": "Platform",
+       "publisher": "Mark Nair for Congress",
+       "url": "https://www.marknair.com/platform",
+       "date": null
       }
      ],
      "research_gaps": "No positions were found on abortion, guns or energy production.",
@@ -73446,26 +73647,26 @@
      "stances": {
       "q_gun_laws": {
        "position": 2,
-       "basis": "reported",
-       "summary": "Supports closing background check loopholes and red flag laws.",
+       "basis": "statement",
+       "summary": "His campaign site pledges to \"close loopholes that allow guns to be sold without background checks\" and \"support red-flag laws.\"",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       },
       "q_vouchers": {
        "position": -2,
-       "basis": "reported",
-       "summary": "Opposes efforts to drain public school funds into what he calls unaccountable voucher programs.",
+       "basis": "statement",
+       "summary": "His campaign site pledges to \"oppose efforts to drain funds into unaccountable voucher programs.\"",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       },
       "q_legal_status": {
        "position": 1,
-       "basis": "reported",
-       "summary": "Proposes fixing the immigration system by establishing lawful pathways and ensuring due process.",
+       "basis": "statement",
+       "summary": "His campaign site pledges to \"fix a broken immigration system with lawful pathways and due process\"; it does not specify legal status for current undocumented residents.",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       }
      },
@@ -73477,6 +73678,13 @@
        "publisher": "Branch",
        "url": "https://branch.vote/races/2026-texas-general-election-tx-state-us-representative-tx-congressional-26/candidates/steven-shook",
        "date": "2026-07"
+      },
+      {
+       "id": "p4-s1",
+       "title": "Steven Shook for Congress",
+       "publisher": "Steven Shook for Congress",
+       "url": "https://shookforcongress2026.com/",
+       "date": null
       }
      ],
      "research_gaps": "His campaign website could not be loaded directly; positions come from a Branch summary.",
@@ -73522,34 +73730,34 @@
      "stances": {
       "q_abortion": {
        "position": 2,
-       "basis": "reported",
-       "summary": "Supports allowing elective abortion at the mother's discretion and opposes federal limits.",
+       "basis": "questionnaire",
+       "summary": "In a 2024 iVoterGuide questionnaire he said elective abortion should be allowed \"when the mother chooses\" and answered \"No\" on whether the federal government has a role in limiting abortion.",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       },
       "q_vouchers": {
-       "position": -1,
-       "basis": "reported",
-       "summary": "Opposes school vouchers, saying recipient schools can raise costs beyond what families can afford.",
+       "position": -2,
+       "basis": "questionnaire",
+       "summary": "In a 2024 iVoterGuide questionnaire he answered \"Strongly Disagree\" on supporting school choice and vouchers, calling vouchers \"handouts for the wealthy\" (position strengthened from a Branch summary).",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       },
       "q_federal_spending": {
        "position": 1,
-       "basis": "inferred",
-       "summary": "Prioritizes paying down the national debt, which implies reducing federal spending.",
+       "basis": "questionnaire",
+       "summary": "In a 2024 iVoterGuide questionnaire he named paying down the national debt as the action he would take to let Americans keep more of their income.",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       },
       "q_cannabis": {
-       "position": 1,
-       "basis": "inferred",
-       "summary": "Advocates decriminalizing drug use, which implies support for legal adult cannabis.",
+       "position": 0,
+       "basis": "questionnaire",
+       "summary": "In a 2021 iVoterGuide questionnaire he answered \"Neutral\" on legalizing recreational marijuana while listing decriminalization of all drug use among his legislative priorities (corrected from a Branch summary that inferred support for legal cannabis).",
        "sources": [
-        "s1"
+        "p4-s2"
        ]
       }
      },
@@ -73569,6 +73777,20 @@
        "publisher": "Branch",
        "url": "https://branch.vote/races/2026-texas-general-election-tx-state-us-representative-tx-congressional-26/candidates/phil-gray",
        "date": "2026-09"
+      },
+      {
+       "id": "p4-s1",
+       "title": "Voter Guide Profile: Phil Gray (U.S. House District 26, 2024)",
+       "publisher": "iVoterGuide",
+       "url": "https://ivoterguide.com/candidate/32149/race/6584/election/1214?culture=en-us",
+       "date": null
+      },
+      {
+       "id": "p4-s2",
+       "title": "Voter Guide Profile: Phil Gray (U.S. House District 6 special election, 2021)",
+       "publisher": "iVoterGuide",
+       "url": "https://ivoterguide.com/candidate/32149/race/12872/election/824?culture=en-us",
+       "date": null
       }
      ],
      "research_gaps": "No campaign website was found; positions come from a Branch summary.",
@@ -81463,18 +81685,18 @@
       },
       "q_medicaid": {
        "position": 2,
-       "basis": "inferred",
-       "summary": "Supports Medicare for All, which goes beyond Medicaid expansion.",
+       "basis": "statement",
+       "summary": "Her campaign issues page says healthcare is a human right and \"That's why I support Medicare for All,\" which goes beyond Medicaid expansion.",
        "sources": [
-        "s2"
+        "p4-s1"
        ]
       },
       "q_fossil_priority": {
        "position": -1,
-       "basis": "reported",
-       "summary": "Prioritizes expanding clean energy and helped pass a major clean energy investment.",
+       "basis": "statement",
+       "summary": "Her campaign issues page says she helped pass the largest clean energy investment in the nation's history and is focused on expanding clean energy to address climate change.",
        "sources": [
-        "s2"
+        "p4-s1"
        ]
       }
      },
@@ -81570,6 +81792,13 @@
        "publisher": "Office of the Clerk, U.S. House of Representatives",
        "url": "https://clerk.house.gov/evs/2026/roll214.xml",
        "date": "2026-06-09"
+      },
+      {
+       "id": "p4-s1",
+       "title": "Issues",
+       "publisher": "Veronica Escobar for Congress",
+       "url": "https://veronicaescobar.com/issues/",
+       "date": null
       }
      ],
      "research_gaps": "No 2026 questionnaire responses were found.",
@@ -87523,10 +87752,10 @@
       },
       "q_abortion": {
        "position": 2,
-       "basis": "reported",
-       "summary": "Supports the Women's Health Protection Act and a constitutional amendment protecting bodily autonomy.",
+       "basis": "statement",
+       "summary": "His campaign platform page pledges to propose and co-sponsor legislation like the Women's Health Protection Act and to advocate a constitutional amendment enshrining women's bodily autonomy.",
        "sources": [
-        "s3"
+        "p4-s1"
        ]
       }
      },
@@ -87560,6 +87789,13 @@
        "publisher": "Branch",
        "url": "https://branch.vote/races/2026-texas-general-election-tx-state-us-representative-tx-congressional-7/candidates/espoir-ngabo",
        "date": "2026-07"
+      },
+      {
+       "id": "p4-s1",
+       "title": "Platform",
+       "publisher": "Espoir Ngabo for Texas",
+       "url": "https://www.espoirfortexas.com/platform",
+       "date": null
       }
      ],
      "research_gaps": "No positions were found on guns, energy production or immigration status.",
@@ -87734,26 +87970,26 @@
       },
       "q_voting_access": {
        "position": 2,
-       "basis": "reported",
-       "summary": "Supports the John Lewis Voting Rights Advancement Act and the Freedom to Vote Act.",
+       "basis": "statement",
+       "summary": "His campaign democracy page says he will fight to pass the John Lewis Voting Rights Advancement Act and the Freedom to Vote Act and push for automatic and same-day registration.",
        "sources": [
-        "s6"
+        "p4-s1"
        ]
       },
       "q_medicaid": {
        "position": 2,
-       "basis": "reported",
-       "summary": "Supports Medicare for All and expanding Medicare and Medicaid.",
+       "basis": "statement",
+       "summary": "His campaign health care page calls for Medicare for All and says he will fight to expand Medicare and strengthen Medicaid.",
        "sources": [
-        "s6"
+        "p4-s2"
        ]
       },
       "q_oilgas_rules": {
        "position": 1,
-       "basis": "reported",
-       "summary": "Supports stronger environmental safeguards and accountability for violators.",
+       "basis": "statement",
+       "summary": "His campaign clean air and water page says he will fight for tougher environmental protections, hold polluters accountable and fund cleanup of contaminated sites; it does not address oil and gas rules specifically.",
        "sources": [
-        "s6"
+        "p4-s3"
        ]
       }
      },
@@ -87835,6 +88071,27 @@
        "publisher": "Office of the Clerk, U.S. House of Representatives",
        "url": "https://clerk.house.gov/evs/2026/roll087.xml",
        "date": "2026-03-05"
+      },
+      {
+       "id": "p4-s1",
+       "title": "Defending Our Democracy",
+       "publisher": "Christian Menefee for Congress",
+       "url": "https://christianmenefee.com/issue/defending-our-democracy/",
+       "date": null
+      },
+      {
+       "id": "p4-s2",
+       "title": "Guaranteeing Access to Healthcare Through Medicare for All",
+       "publisher": "Christian Menefee for Congress",
+       "url": "https://christianmenefee.com/issue/guaranteeing-access-to-healthcare/",
+       "date": null
+      },
+      {
+       "id": "p4-s3",
+       "title": "Fighting for Clean Air and Water",
+       "publisher": "Christian Menefee for Congress",
+       "url": "https://christianmenefee.com/issue/fighting-for-clean-air-water/",
+       "date": null
       }
      ],
      "research_gaps": "He joined Congress in February 2026, so his House voting record is short.",
@@ -88258,10 +88515,10 @@
       },
       "q_school_funding": {
        "position": 2,
-       "basis": "reported",
-       "summary": "Calls for fully funding public schools and raising educator pay.",
+       "basis": "statement",
+       "summary": "In a 2023 official statement opposing private school vouchers, he said the real priorities are \"fully funding our public schools and giving our hard working educators a well-deserved pay raise.\"",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       },
       "q_ten_commandments": {
@@ -88534,6 +88791,13 @@
        "publisher": "Texas Senate",
        "url": "https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-30-F.PDF#page=110",
        "date": "2025-05-30"
+      },
+      {
+       "id": "p4-s1",
+       "title": "Statement by Senator Borris L. Miles Regarding the Texas House Voting Against HB 1",
+       "publisher": "Texas Senate",
+       "url": "https://senate.texas.gov/members/d13/press/en/p20231117a.pdf",
+       "date": "2023-11-17"
       }
      ],
      "research_gaps": "He has no campaign website and no 2026 questionnaire responses were found.",
@@ -98508,34 +98772,34 @@
      "stances": {
       "q_min_wage": {
        "position": 2,
-       "basis": "reported",
-       "summary": "Supports raising the federal minimum wage to at least $15 per hour.",
+       "basis": "statement",
+       "summary": "Her campaign issues page says, \"I support raising the minimum wage to at least $15 per hour.\"",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       },
       "q_medicaid": {
        "position": 2,
-       "basis": "inferred",
-       "summary": "Supports Medicare for All, which goes beyond Medicaid expansion.",
+       "basis": "statement",
+       "summary": "Her campaign issues page says she supports a Medicare for All single-payer health care system, which goes beyond Medicaid expansion.",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       },
       "q_legal_status": {
        "position": 1,
-       "basis": "reported",
-       "summary": "Supports less expensive and faster pathways to citizenship.",
+       "basis": "statement",
+       "summary": "Her campaign issues page calls for \"a realistic pathway to citizenship that is less expensive\" and faster than the current process.",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       },
       "q_deportation": {
        "position": -1,
-       "basis": "reported",
-       "summary": "Advocates ending the use of detention centers in immigration enforcement.",
+       "basis": "statement",
+       "summary": "Her campaign issues page says, \"I will also advocate for ending the use of detention centers.\"",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       }
      },
@@ -98547,6 +98811,13 @@
        "publisher": "Branch",
        "url": "https://branch.vote/races/2026-texas-general-election-tx-state-us-representative-tx-congressional-1/candidates/yolanda-r-prince",
        "date": "2026-07"
+      },
+      {
+       "id": "p4-s1",
+       "title": "Issues",
+       "publisher": "Yolanda Prince for Congress",
+       "url": "https://yolandaprince.com/issues",
+       "date": null
       }
      ],
      "research_gaps": "Her campaign website could not be loaded directly; positions come from a Branch summary.",
@@ -99082,19 +99353,19 @@
        ]
       },
       "q_min_wage": {
-       "position": 2,
-       "basis": "reported",
-       "summary": "Advocates a minimum wage of at least $15 per hour.",
+       "position": 1,
+       "basis": "statement",
+       "summary": "Her campaign issues page says \"I will fight for an increase in the minimum wage\" and a living wage across the state; it does not name a $15 figure (corrected from a Branch summary).",
        "sources": [
-        "s2"
+        "p4-s1"
        ]
       },
       "q_abortion": {
        "position": 1,
-       "basis": "reported",
-       "summary": "Calls for policies protecting reproductive care that respect women's autonomy.",
+       "basis": "statement",
+       "summary": "Her campaign issues page says women's health care must be protected and calls for policies on reproductive care that \"respect women's autonomy and ensure access to comprehensive services.\"",
        "sources": [
-        "s2"
+        "p4-s1"
        ]
       },
       "q_medicaid": {
@@ -99130,6 +99401,13 @@
        "publisher": "Branch",
        "url": "https://branch.vote/races/2026-texas-general-election-tx-state-state-senator-tx-state-senate-1/candidates/laticia-ambroz",
        "date": "2026-07"
+      },
+      {
+       "id": "p4-s1",
+       "title": "Issues",
+       "publisher": "Laticia Ambroz for State Senate",
+       "url": "https://www.ambrozforstatesenate.com/issues",
+       "date": null
       }
      ],
      "research_gaps": "No news coverage was found.",
@@ -102976,10 +103254,10 @@
      "stances": {
       "q_tariffs": {
        "position": -2,
-       "basis": "reported",
-       "summary": "Calls for removing tariffs.",
+       "basis": "statement",
+       "summary": "His campaign home page lists \"Remove the Tariffs\" among his positions.",
        "sources": [
-        "s2"
+        "p4-s1"
        ]
       },
       "q_abortion": {
@@ -103014,6 +103292,13 @@
        "publisher": "Branch",
        "url": "https://branch.vote/races/2026-texas-general-election-tx-state-us-representative-tx-congressional-2/candidates/shaun-finnie",
        "date": "2026-07"
+      },
+      {
+       "id": "p4-s1",
+       "title": "Shaun Finnie for Congress",
+       "publisher": "Shaun Finnie for Congress",
+       "url": "https://shaunfinnieforcongress.com/",
+       "date": null
       }
      ],
      "research_gaps": "No positions were found on immigration, guns or energy.",
@@ -103525,26 +103810,26 @@
      "stances": {
       "q_vouchers": {
        "position": 1,
-       "basis": "reported",
-       "summary": "Supports school choice and parental rights in education.",
+       "basis": "statement",
+       "summary": "Her campaign site pledges to \"empower parents with school choice\" and defend parental rights.",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       },
       "q_federal_spending": {
        "position": 1,
-       "basis": "reported",
-       "summary": "Calls for cutting federal spending to fight inflation.",
+       "basis": "statement",
+       "summary": "Her campaign site calls for \"cutting reckless federal spending and fighting inflation\" to lower costs.",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       },
       "q_fossil_priority": {
        "position": 1,
-       "basis": "reported",
-       "summary": "Supports Texas control over energy decisions, oil and natural gas, and grid reliability.",
+       "basis": "statement",
+       "summary": "Her campaign site pledges to keep energy decisions in Texas, support oil and natural gas, and strengthen grid reliability.",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       }
      },
@@ -103556,6 +103841,13 @@
        "publisher": "Branch",
        "url": "https://branch.vote/races/2026-texas-general-election-tx-state-us-representative-tx-congressional-29/candidates/martha-fierro",
        "date": "2026-07"
+      },
+      {
+       "id": "p4-s1",
+       "title": "Martha Fierro for Congress",
+       "publisher": "Martha Fierro for Congress",
+       "url": "https://www.fierrofortexas.com/",
+       "date": null
       }
      ],
      "research_gaps": "Her campaign website could not be loaded directly; positions come from a Branch summary.",
@@ -103696,26 +103988,26 @@
       },
       "q_abortion": {
        "position": 2,
-       "basis": "reported",
-       "summary": "Supports abortion access, according to a Branch summary of her website.",
+       "basis": "statement",
+       "summary": "Her campaign issues page says overturning Roe v. Wade was \"a historic failure\" and that she is fighting to pass the Women's Health Protection Act to safeguard access to abortion and IVF.",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       },
       "q_legal_status": {
        "position": 1,
-       "basis": "reported",
-       "summary": "Supports expanding Temporary Protected Status and reforming the immigration system.",
+       "basis": "statement",
+       "summary": "Her campaign issues page says she is lead sponsor of the Dream and Promise Act, which would create a pathway to citizenship for Dreamers, and supports expanding Temporary Protected Status.",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       },
       "q_deportation": {
        "position": -1,
-       "basis": "reported",
-       "summary": "Opposes DHS and ICE actions on immigration.",
+       "basis": "statement",
+       "summary": "Her campaign issues page calls her an advocate for immigrants who has fought to close abusive detention centers and supports \"fair, compassionate immigration policies.\"",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       }
      },
@@ -103804,6 +104096,13 @@
        "publisher": "Office of the Clerk, U.S. House of Representatives",
        "url": "https://clerk.house.gov/evs/2026/roll214.xml",
        "date": "2026-06-09"
+      },
+      {
+       "id": "p4-s1",
+       "title": "Issues",
+       "publisher": "Sylvia Garcia for Congress",
+       "url": "https://www.sylviaforcongress.com/issues",
+       "date": null
       }
      ],
      "research_gaps": "Her campaign website could not be loaded directly; positions come from a Branch summary and House votes.",
@@ -103869,10 +104168,10 @@
      "stances": {
       "q_gun_laws": {
        "position": -2,
-       "basis": "reported",
-       "summary": "Opposes gun regulations and calls carrying a firearm a God-given right.",
+       "basis": "statement",
+       "summary": "His campaign site lists \"Protect the Second Amendment\" and says \"God-given rights don't need D.C.'s permission.\"",
        "sources": [
-        "s2"
+        "p4-s1"
        ]
       },
       "q_abortion": {
@@ -103916,6 +104215,13 @@
        "publisher": "Branch",
        "url": "https://branch.vote/races/2026-texas-general-election-tx-state-us-representative-tx-congressional-38/candidates/jon-bonck",
        "date": "2026-07"
+      },
+      {
+       "id": "p4-s1",
+       "title": "Jon Bonck for Congress",
+       "publisher": "Jon Bonck for Congress",
+       "url": "https://www.jonbonck.com/",
+       "date": null
       }
      ],
      "research_gaps": "No questionnaire responses were found.",
@@ -104100,10 +104406,10 @@
       },
       "q_medicaid": {
        "position": 2,
-       "basis": "inferred",
-       "summary": "Advocates free universal health care, which goes beyond Medicaid expansion.",
+       "basis": "statement",
+       "summary": "His campaign platform page calls for \"Free, Universal Healthcare for All,\" which goes beyond Medicaid expansion.",
        "sources": [
-        "s2"
+        "p4-s1"
        ]
       }
      },
@@ -104122,6 +104428,13 @@
        "publisher": "Branch",
        "url": "https://branch.vote/races/2026-texas-general-election-tx-state-us-representative-tx-congressional-38/candidates/alex-mcmenemy",
        "date": "2026-07"
+      },
+      {
+       "id": "p4-s1",
+       "title": "Our Platform",
+       "publisher": "Alex McMenemy campaign",
+       "url": "https://alexforthepeople.org/our-platform/",
+       "date": null
       }
      ],
      "research_gaps": "No positions were found on tariffs, guns or abortion.",
@@ -130957,10 +131270,11 @@
       },
       "q_legal_status": {
        "position": 1,
-       "basis": "reported",
-       "summary": "Cosponsored the Farm Workforce Modernization Act, which would create legal pathways for agricultural workers.",
+       "basis": "record",
+       "summary": "Voted for the Farm Workforce Modernization Act (H.R. 1603), which would create a path to legal status for agricultural workers, and for the American Dream and Promise Act (H.R. 6) on March 18, 2021; his cosponsorship cited in a Branch summary was not verified.",
        "sources": [
-        "s2"
+        "p4-s1",
+        "p4-s2"
        ]
       }
      },
@@ -131070,6 +131384,20 @@
        "publisher": "Office of the Clerk, U.S. House of Representatives",
        "url": "https://clerk.house.gov/evs/2026/roll087.xml",
        "date": "2026-03-05"
+      },
+      {
+       "id": "p4-s1",
+       "title": "Roll Call 93, H.R. 1603, Farm Workforce Modernization Act (March 18, 2021)",
+       "publisher": "Office of the Clerk, U.S. House of Representatives",
+       "url": "https://clerk.house.gov/evs/2021/roll093.xml",
+       "date": "2021-03-18"
+      },
+      {
+       "id": "p4-s2",
+       "title": "Roll Call 91, H.R. 6, American Dream and Promise Act (March 18, 2021)",
+       "publisher": "Office of the Clerk, U.S. House of Representatives",
+       "url": "https://clerk.house.gov/evs/2021/roll091.xml",
+       "date": "2021-03-18"
       }
      ],
      "research_gaps": "No 2026 questionnaire responses were found; his campaign site offered little issue text.",
@@ -134861,34 +135189,34 @@
      "stances": {
       "q_vouchers": {
        "position": -2,
-       "basis": "reported",
-       "summary": "Opposes school vouchers.",
+       "basis": "statement",
+       "summary": "His campaign site says, \"I'll fight to stop school vouchers, which drain money from the public schools most of our families depend on.\"",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       },
       "q_school_funding": {
        "position": 2,
-       "basis": "reported",
-       "summary": "Supports raising the student allotment and state-funded teacher pay at the national level.",
+       "basis": "statement",
+       "summary": "His campaign site calls for raising the student allotment and for state-funded teacher pay that matches the national level.",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       },
       "q_min_wage": {
        "position": 1,
-       "basis": "reported",
-       "summary": "Supports a minimum wage people can live on.",
+       "basis": "statement",
+       "summary": "His campaign site calls for \"a minimum wage people can actually live on.\"",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       },
       "q_cannabis": {
        "position": 1,
-       "basis": "reported",
-       "summary": "Supports medical cannabis access for veterans, elderly Texans and disabled Texans.",
+       "basis": "statement",
+       "summary": "His campaign site calls for access to medical cannabis for veterans, elderly Texans and disabled Texans; it does not address recreational adult sales.",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       }
      },
@@ -134914,6 +135242,13 @@
        "title": "Bobby Tillman | Teach the Vote",
        "publisher": "Association of Texas Professional Educators (Teach the Vote)",
        "url": "https://teachthevote.atpe.org/candidates/Bobby-Tillman",
+       "date": null
+      },
+      {
+       "id": "p4-s1",
+       "title": "Bobby Tillman for Texas Senate",
+       "publisher": "Tillman for Texas campaign",
+       "url": "https://tillman4texas.com",
        "date": null
       }
      ],
@@ -137477,10 +137812,10 @@
      "stances": {
       "q_medicaid": {
        "position": 2,
-       "basis": "reported",
-       "summary": "Supports strengthening the Affordable Care Act and expanding Medicaid.",
+       "basis": "statement",
+       "summary": "Her campaign health care platform calls for closing the Texas coverage gap through the Affordable Care Act's Medicaid expansion and says she will support policies that strengthen incentives for Texas to expand.",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       },
       "q_legal_status": {
@@ -137500,6 +137835,13 @@
        "publisher": "Branch",
        "url": "https://branch.vote/races/2026-texas-general-election-tx-state-us-representative-tx-congressional-25/candidates/dione-sims",
        "date": "2026-07"
+      },
+      {
+       "id": "p4-s1",
+       "title": "Healthcare",
+       "publisher": "Dione Sims for Congress",
+       "url": "https://dionesimsforcongress.com/platform/healthcare",
+       "date": null
       }
      ],
      "research_gaps": "Her campaign website could not be loaded directly; positions come from a Branch summary.",
@@ -141713,10 +142055,10 @@
       },
       "q_spending_cap": {
        "position": 2,
-       "basis": "reported",
-       "summary": "Cites authoring legislation to cap government spending.",
+       "basis": "statement",
+       "summary": "His campaign about page says he authored legislation to \"put in place common sense caps on government spending\" and lists placing fiscal restraints on government growth and spending.",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       },
       "q_preemption": {
@@ -141964,6 +142306,13 @@
        "publisher": "Texas Senate",
        "url": "https://journals.senate.texas.gov/sjrnl/89r/pdf/89RSJ05-23-F.PDF#page=43",
        "date": "2025-05-23"
+      },
+      {
+       "id": "p4-s1",
+       "title": "About",
+       "publisher": "Charles Perry campaign",
+       "url": "https://www.electcharlesperry.com/about",
+       "date": null
       }
      ],
      "research_gaps": "No 2026 questionnaire responses were found.",
@@ -142030,10 +142379,10 @@
       },
       "q_vouchers": {
        "position": -2,
-       "basis": "reported",
-       "summary": "Opposes public funding for private schools.",
+       "basis": "statement",
+       "summary": "His campaign issues page describes his platform as including \"school voucher repeal.\"",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       },
       "q_oilgas_rules": {
@@ -142067,6 +142416,13 @@
        "title": "Riley Rodriquez | Teach the Vote",
        "publisher": "Association of Texas Professional Educators (Teach the Vote)",
        "url": "https://teachthevote.atpe.org/candidates/Riley-Rodriquez",
+       "date": null
+      },
+      {
+       "id": "p4-s1",
+       "title": "Issues",
+       "publisher": "Riley Rodriquez for State Senate",
+       "url": "https://rileyforsenate.org/issues",
        "date": null
       }
      ],
@@ -146380,10 +146736,10 @@
       },
       "q_border_state": {
        "position": 2,
-       "basis": "reported",
-       "summary": "Calls for fully funding state troopers and the Texas National Guard for border security.",
+       "basis": "statement",
+       "summary": "His campaign issues page calls for fully funding State Troopers and the Texas National Guard and demands federal reimbursement for Texas border security spending.",
        "sources": [
-        "s2"
+        "p4-s1"
        ]
       },
       "q_vouchers": {
@@ -146449,10 +146805,10 @@
       },
       "q_abortion": {
        "position": -1,
-       "basis": "reported",
-       "summary": "Opposes using tax dollars for entities involved with abortion.",
+       "basis": "statement",
+       "summary": "His campaign issues page says \"we must always protect innocent life, born and unborn\" and that tax dollars should never fund any entity involved with abortion.",
        "sources": [
-        "s2"
+        "p4-s1"
        ]
       },
       "q_water": {
@@ -146665,6 +147021,13 @@
        "publisher": "Texas Senate",
        "url": "https://journals.senate.texas.gov/sjrnl/88r/pdf/88RSJ05-15-F.PDF#page=58",
        "date": "2023-05-15"
+      },
+      {
+       "id": "p4-s1",
+       "title": "Issues",
+       "publisher": "Kevin Sparks for Texas",
+       "url": "https://kevinsparksfortexas.com/issues",
+       "date": null
       }
      ],
      "research_gaps": "No 2026 questionnaire responses were found.",
@@ -153970,18 +154333,18 @@
      "stances": {
       "q_medicaid": {
        "position": 2,
-       "basis": "inferred",
-       "summary": "Supports a universal health care system not tied to employment, which goes beyond Medicaid expansion.",
+       "basis": "statement",
+       "summary": "Her campaign issues page says she is running to pass universal health care paid for by wealth taxes, and her bio describes a universal system not attached to an employer.",
        "sources": [
-        "s2"
+        "p4-s1"
        ]
       },
       "q_voting_access": {
        "position": 1,
-       "basis": "reported",
-       "summary": "Says she will protect democracy with voting rights.",
+       "basis": "statement",
+       "summary": "Her campaign bio says she is running to protect democracy with voting rights.",
        "sources": [
-        "s2"
+        "p4-s2"
        ]
       }
      },
@@ -154000,6 +154363,20 @@
        "publisher": "Branch",
        "url": "https://branch.vote/races/2026-texas-general-election-tx-state-us-representative-tx-congressional-12/candidates/angela-heli-rodriguez-prilliman",
        "date": "2026-07"
+      },
+      {
+       "id": "p4-s1",
+       "title": "Issues",
+       "publisher": "Heli Rodriguez Prilliman for Congress",
+       "url": "https://www.helifortexas.com/issues",
+       "date": null
+      },
+      {
+       "id": "p4-s2",
+       "title": "Bio",
+       "publisher": "Heli Rodriguez Prilliman for Congress",
+       "url": "https://www.helifortexas.com/bio",
+       "date": null
       }
      ],
      "research_gaps": "No positions were found on tariffs, immigration, abortion or guns.",
@@ -160928,34 +161305,34 @@
      "stances": {
       "q_abortion": {
        "position": -1,
-       "basis": "reported",
-       "summary": "Advocates protecting innocent life and removing barriers to private resources for women in crisis pregnancies.",
+       "basis": "statement",
+       "summary": "Her campaign issues page pledges to protect innocent life and remove barriers so the private sector can provide resources to women facing crisis pregnancies.",
        "sources": [
-        "s2"
+        "p4-s1"
        ]
       },
       "q_gun_laws": {
        "position": -1,
-       "basis": "reported",
-       "summary": "Supports Texans' right to keep and bear arms.",
+       "basis": "statement",
+       "summary": "Her campaign issues page pledges to \"protect Texan's right to keep and bear arms.\"",
        "sources": [
-        "s2"
+        "p4-s1"
        ]
       },
       "q_bail": {
        "position": 1,
-       "basis": "reported",
-       "summary": "Calls for keeping violent repeat offenders incarcerated.",
+       "basis": "statement",
+       "summary": "Her campaign issues page pledges to \"keep violent, repeat criminals behind bars.\"",
        "sources": [
-        "s2"
+        "p4-s1"
        ]
       },
       "q_school_funding": {
        "position": 1,
-       "basis": "reported",
-       "summary": "Supports public education funding.",
+       "basis": "statement",
+       "summary": "Her campaign issues page says she will \"support funding needed to improve education\" and expand career training; it does not address per-student funding levels or teacher pay specifically.",
        "sources": [
-        "s2"
+        "p4-s1"
        ]
       }
      },
@@ -161002,6 +161379,13 @@
        "title": "Leigh Wambsganss | Teach the Vote",
        "publisher": "Association of Texas Professional Educators (Teach the Vote)",
        "url": "https://teachthevote.atpe.org/candidates/Leigh-Wambsganss",
+       "date": null
+      },
+      {
+       "id": "p4-s1",
+       "title": "Issues",
+       "publisher": "Leigh Wambsganss for Texas",
+       "url": "https://www.leighfortexas.com/issues/",
        "date": null
       }
      ],
@@ -170078,11 +170462,11 @@
      ],
      "stances": {
       "q_gun_laws": {
-       "position": -1,
-       "basis": "reported",
-       "summary": "Opposes firearm regulations.",
+       "position": -2,
+       "basis": "statement",
+       "summary": "His campaign issues page pledges to \"oppose any form of gun control\" and \"stop red flag laws\" (position strengthened from a Branch summary).",
        "sources": [
-        "s2"
+        "p4-s1"
        ]
       },
       "q_federal_spending": {
@@ -170109,6 +170493,13 @@
        "publisher": "Branch",
        "url": "https://branch.vote/races/2026-texas-general-election-tx-state-us-representative-tx-congressional-19/candidates/tom-sell",
        "date": "2026-07"
+      },
+      {
+       "id": "p4-s1",
+       "title": "Issues",
+       "publisher": "Tom Sell for Congress",
+       "url": "https://www.selltexastrue.com/issues",
+       "date": null
       }
      ],
      "research_gaps": "No positions were found on abortion, health coverage or energy beyond a call for energy dominance.",
@@ -171972,10 +172363,10 @@
      "stances": {
       "q_federal_spending": {
        "position": 1,
-       "basis": "reported",
-       "summary": "Supports a balanced budget and says welfare should be a bridge to work.",
+       "basis": "statement",
+       "summary": "Her campaign site says she will \"cut federal spending driving inflation\" and support the Department of Government Efficiency mission; the balanced budget and welfare statements in the Branch summary were not found on the site.",
        "sources": [
-        "s1"
+        "p4-s1"
        ]
       }
      },
@@ -172002,6 +172393,13 @@
        "publisher": "Branch",
        "url": "https://branch.vote/races/2026-texas-general-election-tx-state-us-representative-tx-congressional-37/candidates/lauren-b-pea",
        "date": "2026-07"
+      },
+      {
+       "id": "p4-s1",
+       "title": "Lauren B. Pena for Congress",
+       "publisher": "Lauren B. Pena for Congress",
+       "url": "https://www.lauren4congress.com/",
+       "date": null
       }
      ],
      "research_gaps": "Her campaign website could not be loaded directly; positions come from a Branch summary.",
