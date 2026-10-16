@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T16:08:38.444Z",
+ "generated_at": "2026-10-16T16:11:21.779Z",
  "election": {
   "name": "2026 November General Election",
   "county": "Collin County, Texas",
@@ -80494,18 +80494,59 @@
      "name": "Amanda Enriquez",
      "party": "Democratic",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Democratic nominee for District Judge, 171st Judicial District",
+     "background": "Amanda Enriquez is the Democratic nominee for District Judge, 171st Judicial District and is not the current officeholder: the El Paso County Elections Department lists Bonnie Rangel in that office, with the seat up for election on November 3, 2026.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "The county's list of declared write-in candidates names no write-in candidate for this office.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "The seat is now held by Bonnie Rangel, according to the county's elected officials listing.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Sample Ballot, General and Special Election, El Paso County, November 3, 2026 (Federal, State and County)",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/815/original/11._Federal_State_County_Ballot.pdf?1789660550",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "List of Declared Write-In Candidates, November 3, 2026 General Election",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/829/original/Write-In1.pdf?1790178390",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Elected Officials: District Judge, 171st Judicial District",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://epcountyvotestx.gov/elected-officials-and-candidate-information/elected-officials/220",
+       "date": null
+      }
+     ],
+     "research_gaps": "No official biography, campaign site or news profile describing the candidate's profession and background was found within the research budget.",
+     "researched": true
     }
    ],
    "office": {
@@ -80530,19 +80571,54 @@
      "id": "francisco-x-dominguez",
      "name": "Francisco X. Dominguez",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Incumbent District Judge, 205th Judicial District",
+     "background": "The El Paso County Elections Department lists Francisco X. Dominguez, a Democrat, as the current officeholder for District Judge, 205th Judicial District, a four-year term whose next election is November 3, 2026. The official county pages consulted do not publish a biography.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "The county's list of declared write-in candidates names no write-in candidate for this office.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Sample Ballot, General and Special Election, El Paso County, November 3, 2026 (Federal, State and County)",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/815/original/11._Federal_State_County_Ballot.pdf?1789660550",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "List of Declared Write-In Candidates, November 3, 2026 General Election",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/829/original/Write-In1.pdf?1790178390",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Elected Officials: District Judge, 205th Judicial District",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://epcountyvotestx.gov/elected-officials-and-candidate-information/elected-officials/221",
+       "date": null
+      }
+     ],
+     "research_gaps": "No published biography (start date in office, education, prior career) was found on the county pages consulted.",
+     "researched": true
     }
    ],
    "office": {
@@ -80567,19 +80643,54 @@
      "id": "alyssa-g-perez",
      "name": "Alyssa G. Perez",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Incumbent District Judge, 210th Judicial District",
+     "background": "The El Paso County Elections Department lists Alyssa G. Perez, a Democrat, as the current officeholder for District Judge, 210th Judicial District, a four-year term whose next election is November 3, 2026. The official county pages consulted do not publish a biography.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "The county's list of declared write-in candidates names no write-in candidate for this office.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Sample Ballot, General and Special Election, El Paso County, November 3, 2026 (Federal, State and County)",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/815/original/11._Federal_State_County_Ballot.pdf?1789660550",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "List of Declared Write-In Candidates, November 3, 2026 General Election",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/829/original/Write-In1.pdf?1790178390",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Elected Officials: District Judge, 210th Judicial District",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://epcountyvotestx.gov/elected-officials-and-candidate-information/elected-officials/222",
+       "date": null
+      }
+     ],
+     "research_gaps": "No published biography (start date in office, education, prior career) was found on the county pages consulted.",
+     "researched": true
     }
    ],
    "office": {
@@ -80604,19 +80715,54 @@
      "id": "selena-n-solis",
      "name": "Selena N. Solis",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Incumbent District Judge, 243rd Judicial District",
+     "background": "The El Paso County Elections Department lists Selena N. Solis, a Democrat, as the current officeholder for District Judge, 243rd Judicial District, a four-year term whose next election is November 3, 2026. The official county pages consulted do not publish a biography.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "The county's list of declared write-in candidates names no write-in candidate for this office.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Sample Ballot, General and Special Election, El Paso County, November 3, 2026 (Federal, State and County)",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/815/original/11._Federal_State_County_Ballot.pdf?1789660550",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "List of Declared Write-In Candidates, November 3, 2026 General Election",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/829/original/Write-In1.pdf?1790178390",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Elected Officials: District Judge, 243rd Judicial District",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://epcountyvotestx.gov/elected-officials-and-candidate-information/elected-officials/83",
+       "date": null
+      }
+     ],
+     "research_gaps": "No published biography (start date in office, education, prior career) was found on the county pages consulted.",
+     "researched": true
     }
    ],
    "office": {
@@ -80641,19 +80787,54 @@
      "id": "monique-velarde-reyes",
      "name": "Monique Velarde Reyes",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Incumbent District Judge, 327th Judicial District",
+     "background": "The El Paso County Elections Department lists Monique Velarde Reyes, a Democrat, as the current officeholder for District Judge, 327th Judicial District, a four-year term whose next election is November 3, 2026. The official county pages consulted do not publish a biography.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "The county's list of declared write-in candidates names no write-in candidate for this office.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Sample Ballot, General and Special Election, El Paso County, November 3, 2026 (Federal, State and County)",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/815/original/11._Federal_State_County_Ballot.pdf?1789660550",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "List of Declared Write-In Candidates, November 3, 2026 General Election",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/829/original/Write-In1.pdf?1790178390",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Elected Officials: District Judge, 327th Judicial District",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://epcountyvotestx.gov/elected-officials-and-candidate-information/elected-officials/223",
+       "date": null
+      }
+     ],
+     "research_gaps": "No published biography (start date in office, education, prior career) was found on the county pages consulted.",
+     "researched": true
     }
    ],
    "office": {
@@ -80819,19 +81000,54 @@
      "id": "ruth-reyes",
      "name": "Ruth Reyes",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Incumbent Judge, El Paso County Court at Law No. 1",
+     "background": "The El Paso County Elections Department lists Ruth Reyes, a Democrat, as the current officeholder for Judge, El Paso County Court at Law No. 1, a four-year term whose next election is November 3, 2026. The official county pages consulted do not publish a biography.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "The county's list of declared write-in candidates names no write-in candidate for this office.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Sample Ballot, General and Special Election, El Paso County, November 3, 2026 (Federal, State and County)",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/815/original/11._Federal_State_County_Ballot.pdf?1789660550",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "List of Declared Write-In Candidates, November 3, 2026 General Election",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/829/original/Write-In1.pdf?1790178390",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Elected Officials: Judge, El Paso County Court at Law No. 1",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://epcountyvotestx.gov/elected-officials-and-candidate-information/elected-officials/55",
+       "date": null
+      }
+     ],
+     "research_gaps": "No published biography (start date in office, education, prior career) was found on the county pages consulted.",
+     "researched": true
     }
    ],
    "office": {
@@ -80857,18 +81073,59 @@
      "name": "Frances M. Maldonado",
      "party": "Democratic",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Democratic nominee for Judge, El Paso County Court at Law No. 2",
+     "background": "Frances M. Maldonado is the Democratic nominee for Judge, El Paso County Court at Law No. 2 and is not the current officeholder: the El Paso County Elections Department lists Julie Gonzalez in that office, with the seat up for election on November 3, 2026.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "The county's list of declared write-in candidates names no write-in candidate for this office.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "The seat is now held by Julie Gonzalez, according to the county's elected officials listing.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Sample Ballot, General and Special Election, El Paso County, November 3, 2026 (Federal, State and County)",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/815/original/11._Federal_State_County_Ballot.pdf?1789660550",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "List of Declared Write-In Candidates, November 3, 2026 General Election",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/829/original/Write-In1.pdf?1790178390",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Elected Officials: Judge, El Paso County Court at Law No. 2",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://epcountyvotestx.gov/elected-officials-and-candidate-information/elected-officials/56",
+       "date": null
+      }
+     ],
+     "research_gaps": "No official biography, campaign site or news profile describing the candidate's profession and background was found within the research budget.",
+     "researched": true
     }
    ],
    "office": {
@@ -80893,19 +81150,54 @@
      "id": "melissa-baeza",
      "name": "Melissa Baeza",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Incumbent Judge, El Paso County Court at Law No. 3",
+     "background": "The El Paso County Elections Department lists Melissa Baeza, a Democrat, as the current officeholder for Judge, El Paso County Court at Law No. 3, a four-year term whose next election is November 3, 2026. The official county pages consulted do not publish a biography.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "The county's list of declared write-in candidates names no write-in candidate for this office.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Sample Ballot, General and Special Election, El Paso County, November 3, 2026 (Federal, State and County)",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/815/original/11._Federal_State_County_Ballot.pdf?1789660550",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "List of Declared Write-In Candidates, November 3, 2026 General Election",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/829/original/Write-In1.pdf?1790178390",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Elected Officials: Judge, El Paso County Court at Law No. 3",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://epcountyvotestx.gov/elected-officials-and-candidate-information/elected-officials/57",
+       "date": null
+      }
+     ],
+     "research_gaps": "No published biography (start date in office, education, prior career) was found on the county pages consulted.",
+     "researched": true
     }
    ],
    "office": {
@@ -80931,18 +81223,59 @@
      "name": "Eunice Reyes",
      "party": "Democratic",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Democratic nominee for Judge, El Paso County Court at Law No. 4",
+     "background": "Eunice Reyes is the Democratic nominee for Judge, El Paso County Court at Law No. 4 and is not the current officeholder: the El Paso County Elections Department lists Alex Gonzalez in that office, with the seat up for election on November 3, 2026.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "The county's list of declared write-in candidates names no write-in candidate for this office.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "The seat is now held by Alex Gonzalez, according to the county's elected officials listing.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Sample Ballot, General and Special Election, El Paso County, November 3, 2026 (Federal, State and County)",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/815/original/11._Federal_State_County_Ballot.pdf?1789660550",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "List of Declared Write-In Candidates, November 3, 2026 General Election",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/829/original/Write-In1.pdf?1790178390",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Elected Officials: Judge, El Paso County Court at Law No. 4",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://epcountyvotestx.gov/elected-officials-and-candidate-information/elected-officials/58",
+       "date": null
+      }
+     ],
+     "research_gaps": "No official biography, campaign site or news profile describing the candidate's profession and background was found within the research budget.",
+     "researched": true
     }
    ],
    "office": {
@@ -80967,19 +81300,54 @@
      "id": "jesus-rodriguez",
      "name": "Jesus Rodriguez",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Incumbent Judge, El Paso County Court at Law No. 5",
+     "background": "The El Paso County Elections Department lists Jesus Rodriguez, a Democrat, as the current officeholder for Judge, El Paso County Court at Law No. 5, a four-year term whose next election is November 3, 2026. The official county pages consulted do not publish a biography.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "The county's list of declared write-in candidates names no write-in candidate for this office.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Sample Ballot, General and Special Election, El Paso County, November 3, 2026 (Federal, State and County)",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/815/original/11._Federal_State_County_Ballot.pdf?1789660550",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "List of Declared Write-In Candidates, November 3, 2026 General Election",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/829/original/Write-In1.pdf?1790178390",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Elected Officials: Judge, El Paso County Court at Law No. 5",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://epcountyvotestx.gov/elected-officials-and-candidate-information/elected-officials/59",
+       "date": null
+      }
+     ],
+     "research_gaps": "No published biography (start date in office, education, prior career) was found on the county pages consulted.",
+     "researched": true
     }
    ],
    "office": {
@@ -81004,19 +81372,54 @@
      "id": "m-sue-kurita",
      "name": "M. Sue Kurita",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Incumbent Judge, El Paso County Court at Law No. 6",
+     "background": "The El Paso County Elections Department lists M. Sue Kurita, a Democrat, as the current officeholder for Judge, El Paso County Court at Law No. 6, a four-year term whose next election is November 3, 2026. The official county pages consulted do not publish a biography.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "The county's list of declared write-in candidates names no write-in candidate for this office.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Sample Ballot, General and Special Election, El Paso County, November 3, 2026 (Federal, State and County)",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/815/original/11._Federal_State_County_Ballot.pdf?1789660550",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "List of Declared Write-In Candidates, November 3, 2026 General Election",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/829/original/Write-In1.pdf?1790178390",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Elected Officials: Judge, El Paso County Court at Law No. 6",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://epcountyvotestx.gov/elected-officials-and-candidate-information/elected-officials/60",
+       "date": null
+      }
+     ],
+     "research_gaps": "No published biography (start date in office, education, prior career) was found on the county pages consulted.",
+     "researched": true
     }
    ],
    "office": {
@@ -81041,19 +81444,54 @@
      "id": "ruben-morales",
      "name": "Ruben Morales",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Incumbent Judge, El Paso County Court at Law No. 7",
+     "background": "The El Paso County Elections Department lists Ruben Morales, a Democrat, as the current officeholder for Judge, El Paso County Court at Law No. 7, a four-year term whose next election is November 3, 2026. The official county pages consulted do not publish a biography.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "The county's list of declared write-in candidates names no write-in candidate for this office.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Sample Ballot, General and Special Election, El Paso County, November 3, 2026 (Federal, State and County)",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/815/original/11._Federal_State_County_Ballot.pdf?1789660550",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "List of Declared Write-In Candidates, November 3, 2026 General Election",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/829/original/Write-In1.pdf?1790178390",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Elected Officials: Judge, El Paso County Court at Law No. 7",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://epcountyvotestx.gov/elected-officials-and-candidate-information/elected-officials/61",
+       "date": null
+      }
+     ],
+     "research_gaps": "No published biography (start date in office, education, prior career) was found on the county pages consulted.",
+     "researched": true
     }
    ],
    "office": {
@@ -81078,19 +81516,54 @@
      "id": "linda-perez",
      "name": "Linda Perez",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Incumbent Judge, El Paso County Criminal Court at Law No. 1",
+     "background": "The El Paso County Elections Department lists Linda Perez, a Democrat, as the current officeholder for Judge, El Paso County Criminal Court at Law No. 1, a four-year term whose next election is November 3, 2026. The official county pages consulted do not publish a biography.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "The county's list of declared write-in candidates names no write-in candidate for this office.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Sample Ballot, General and Special Election, El Paso County, November 3, 2026 (Federal, State and County)",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/815/original/11._Federal_State_County_Ballot.pdf?1789660550",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "List of Declared Write-In Candidates, November 3, 2026 General Election",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/829/original/Write-In1.pdf?1790178390",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Elected Officials: Judge, El Paso County Criminal Court at Law No. 1",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://epcountyvotestx.gov/elected-officials-and-candidate-information/elected-officials/62",
+       "date": null
+      }
+     ],
+     "research_gaps": "No published biography (start date in office, education, prior career) was found on the county pages consulted.",
+     "researched": true
     }
    ],
    "office": {
@@ -81115,19 +81588,54 @@
      "id": "robert-s-anchondo",
      "name": "Robert S. Anchondo",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Incumbent Judge, El Paso County Criminal Court at Law No. 2",
+     "background": "The El Paso County Elections Department lists Robert S. Anchondo, a Democrat, as the current officeholder for Judge, El Paso County Criminal Court at Law No. 2, a four-year term whose next election is November 3, 2026. The official county pages consulted do not publish a biography.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "The county's list of declared write-in candidates names no write-in candidate for this office.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Sample Ballot, General and Special Election, El Paso County, November 3, 2026 (Federal, State and County)",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/815/original/11._Federal_State_County_Ballot.pdf?1789660550",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "List of Declared Write-In Candidates, November 3, 2026 General Election",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/829/original/Write-In1.pdf?1790178390",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Elected Officials: Judge, El Paso County Criminal Court at Law No. 2",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://epcountyvotestx.gov/elected-officials-and-candidate-information/elected-officials/63",
+       "date": null
+      }
+     ],
+     "research_gaps": "No published biography (start date in office, education, prior career) was found on the county pages consulted.",
+     "researched": true
     }
    ],
    "office": {
@@ -81152,19 +81660,54 @@
      "id": "patricia-b-chew",
      "name": "Patricia B. Chew",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Incumbent Judge, El Paso County Probate Court No. 1",
+     "background": "The El Paso County Elections Department lists Patricia B. Chew, a Democrat, as the current officeholder for Judge, El Paso County Probate Court No. 1, a four-year term whose next election is November 3, 2026. The official county pages consulted do not publish a biography.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "The county's list of declared write-in candidates names no write-in candidate for this office.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Sample Ballot, General and Special Election, El Paso County, November 3, 2026 (Federal, State and County)",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/815/original/11._Federal_State_County_Ballot.pdf?1789660550",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "List of Declared Write-In Candidates, November 3, 2026 General Election",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/829/original/Write-In1.pdf?1790178390",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Elected Officials: Judge, El Paso County Probate Court No. 1",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://epcountyvotestx.gov/elected-officials-and-candidate-information/elected-officials/66",
+       "date": null
+      }
+     ],
+     "research_gaps": "No published biography (start date in office, education, prior career) was found on the county pages consulted.",
+     "researched": true
     }
    ],
    "office": {
@@ -81190,18 +81733,59 @@
      "name": "Gabriella M. Reed",
      "party": "Democratic",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Democratic nominee for Judge, El Paso County Probate Court No. 2",
+     "background": "Gabriella M. Reed is the Democratic nominee for Judge, El Paso County Probate Court No. 2 and is not the current officeholder: the El Paso County Elections Department lists Eduardo Aristeo Gamboa in that office, with the seat up for election on November 3, 2026.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "The county's list of declared write-in candidates names no write-in candidate for this office.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "The seat is now held by Eduardo Aristeo Gamboa, according to the county's elected officials listing.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Sample Ballot, General and Special Election, El Paso County, November 3, 2026 (Federal, State and County)",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/815/original/11._Federal_State_County_Ballot.pdf?1789660550",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "List of Declared Write-In Candidates, November 3, 2026 General Election",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/829/original/Write-In1.pdf?1790178390",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Elected Officials: Judge, El Paso County Probate Court No. 2",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://epcountyvotestx.gov/elected-officials-and-candidate-information/elected-officials/67",
+       "date": null
+      }
+     ],
+     "research_gaps": "No official biography, campaign site or news profile describing the candidate's profession and background was found within the research budget.",
+     "researched": true
     }
    ],
    "office": {
@@ -81226,19 +81810,54 @@
      "id": "norma-favela-barceleau",
      "name": "Norma Favela Barceleau",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Incumbent El Paso County District Clerk",
+     "background": "The El Paso County Elections Department lists Norma Favela Barceleau, a Democrat, as the current officeholder for El Paso County District Clerk, a four-year term whose next election is November 3, 2026. The official county pages consulted do not publish a biography.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "The county's list of declared write-in candidates names no write-in candidate for this office.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Sample Ballot, General and Special Election, El Paso County, November 3, 2026 (Federal, State and County)",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/815/original/11._Federal_State_County_Ballot.pdf?1789660550",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "List of Declared Write-In Candidates, November 3, 2026 General Election",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/829/original/Write-In1.pdf?1790178390",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Elected Officials: El Paso County District Clerk",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://epcountyvotestx.gov/elected-officials-and-candidate-information/elected-officials/232",
+       "date": null
+      }
+     ],
+     "research_gaps": "No published biography (start date in office, education, prior career) was found on the county pages consulted.",
+     "researched": true
     }
    ],
    "office": {
@@ -81263,19 +81882,54 @@
      "id": "delia-briones",
      "name": "Delia Briones",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Incumbent El Paso County Clerk",
+     "background": "The El Paso County Elections Department lists Delia Briones, a Democrat, as the current officeholder for El Paso County Clerk, a four-year term whose next election is November 3, 2026. The official county pages consulted do not publish a biography.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "The county's list of declared write-in candidates names no write-in candidate for this office.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Sample Ballot, General and Special Election, El Paso County, November 3, 2026 (Federal, State and County)",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/815/original/11._Federal_State_County_Ballot.pdf?1789660550",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "List of Declared Write-In Candidates, November 3, 2026 General Election",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/829/original/Write-In1.pdf?1790178390",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Elected Officials: El Paso County Clerk",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://epcountyvotestx.gov/elected-officials-and-candidate-information/elected-officials/73",
+       "date": null
+      }
+     ],
+     "research_gaps": "No published biography (start date in office, education, prior career) was found on the county pages consulted.",
+     "researched": true
     }
    ],
    "office": {
@@ -81584,18 +82238,59 @@
      "name": "Denise Butterworth",
      "party": "Democratic",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Democratic nominee for Justice of the Peace, Precinct 1, El Paso County",
+     "background": "Denise Butterworth is the Democratic nominee for Justice of the Peace, Precinct 1, El Paso County and is not the current officeholder: the El Paso County Elections Department lists Robert T. Pearson in that office, with the seat up for election on November 3, 2026.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "The county's list of declared write-in candidates names no write-in candidate for this office.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "The seat is now held by Robert T. Pearson, according to the county's elected officials listing.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Sample Ballot, General and Special Election, El Paso County, November 3, 2026 (Federal, State and County)",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/815/original/11._Federal_State_County_Ballot.pdf?1789660550",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "List of Declared Write-In Candidates, November 3, 2026 General Election",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/829/original/Write-In1.pdf?1790178390",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Elected Officials: Justice of the Peace, Precinct 1, El Paso County",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://epcountyvotestx.gov/elected-officials-and-candidate-information/elected-officials/76",
+       "date": null
+      }
+     ],
+     "research_gaps": "No official biography, campaign site or news profile describing the candidate's profession and background was found within the research budget.",
+     "researched": true
     }
    ],
    "office": {
@@ -81621,18 +82316,59 @@
      "name": "Christie Saiz",
      "party": "Democratic",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Democratic nominee for Justice of the Peace, Precinct 2, El Paso County",
+     "background": "Christie Saiz is the Democratic nominee for Justice of the Peace, Precinct 2, El Paso County and is not the current officeholder: the El Paso County Elections Department lists Brian J. Haggerty in that office, with the seat up for election on November 3, 2026.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "The county's list of declared write-in candidates names no write-in candidate for this office.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "The seat is now held by Brian J. Haggerty, according to the county's elected officials listing.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Sample Ballot, General and Special Election, El Paso County, November 3, 2026 (Federal, State and County)",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/815/original/11._Federal_State_County_Ballot.pdf?1789660550",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "List of Declared Write-In Candidates, November 3, 2026 General Election",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/829/original/Write-In1.pdf?1790178390",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Elected Officials: Justice of the Peace, Precinct 2, El Paso County",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://epcountyvotestx.gov/elected-officials-and-candidate-information/elected-officials/78",
+       "date": null
+      }
+     ],
+     "research_gaps": "No official biography, campaign site or news profile describing the candidate's profession and background was found within the research budget.",
+     "researched": true
     }
    ],
    "office": {
@@ -81657,19 +82393,67 @@
      "id": "josh-herrera",
      "name": "Josh Herrera",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Justice of the Peace, Precinct 3, El Paso County, since January 2019",
+     "background": "Josh Herrera became Justice of the Peace for Precinct 3 in January 2019. He began his legal career as an assistant district attorney in El Paso County handling misdemeanor cases, then worked in private practice, and served as a criminal law magistrate for El Paso County from 2015 to 2018. He earned a B.A. in political science from the University of Texas at El Paso and attended the University of Utah's S.J. Quinney College of Law.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "The county's list of declared write-in candidates names no write-in candidate for this office.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "His county biography says he has served on the Council of Justices, Juvenile Board, Dispute Resolution Committee, Bond Review Committee and Criminal Law Committee.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Sample Ballot, General and Special Election, El Paso County, November 3, 2026 (Federal, State and County)",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/815/original/11._Federal_State_County_Ballot.pdf?1789660550",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "List of Declared Write-In Candidates, November 3, 2026 General Election",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/829/original/Write-In1.pdf?1790178390",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Justice of the Peace, Precinct 3: Josh Herrera",
+       "publisher": "El Paso County",
+       "url": "https://www.epcountytx.gov/781/Precinct-3---Josh-Herrera",
+       "date": null
+      },
+      {
+       "id": "s4",
+       "title": "Elected Officials: Justice of the Peace, Precinct 3",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://epcountyvotestx.gov/elected-officials-and-candidate-information/elected-officials/80",
+       "date": null
+      }
+     ],
      "research_gaps": "",
-     "researched": false
+     "researched": true
     }
    ],
    "office": {
@@ -81694,19 +82478,54 @@
      "id": "rebeca-bustamante",
      "name": "Rebeca Bustamante",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Incumbent Justice of the Peace, Precinct 4, El Paso County",
+     "background": "The El Paso County Elections Department lists Rebeca Bustamante, a Democrat, as the current officeholder for Justice of the Peace, Precinct 4, El Paso County, a four-year term whose next election is November 3, 2026. The official county pages consulted do not publish a biography.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "The county's list of declared write-in candidates names no write-in candidate for this office.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Sample Ballot, General and Special Election, El Paso County, November 3, 2026 (Federal, State and County)",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/815/original/11._Federal_State_County_Ballot.pdf?1789660550",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "List of Declared Write-In Candidates, November 3, 2026 General Election",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/829/original/Write-In1.pdf?1790178390",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Elected Officials: Justice of the Peace, Precinct 4, El Paso County",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://epcountyvotestx.gov/elected-officials-and-candidate-information/elected-officials/82",
+       "date": null
+      }
+     ],
+     "research_gaps": "No published biography (start date in office, education, prior career) was found on the county pages consulted.",
+     "researched": true
     }
    ],
    "office": {
@@ -81732,18 +82551,59 @@
      "name": "Dora Oaxaca Rivera",
      "party": "Democratic",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Democratic nominee for Justice of the Peace, Precinct 5, El Paso County",
+     "background": "Dora Oaxaca Rivera is the Democratic nominee for Justice of the Peace, Precinct 5, El Paso County and is not the current officeholder: the El Paso County Elections Department lists Lucilla Najera in that office, with the seat up for election on November 3, 2026.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "The county's list of declared write-in candidates names no write-in candidate for this office.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "The seat is now held by Lucilla Najera, according to the county's elected officials listing.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Sample Ballot, General and Special Election, El Paso County, November 3, 2026 (Federal, State and County)",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/815/original/11._Federal_State_County_Ballot.pdf?1789660550",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "List of Declared Write-In Candidates, November 3, 2026 General Election",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/829/original/Write-In1.pdf?1790178390",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Elected Officials: Justice of the Peace, Precinct 5, El Paso County",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://epcountyvotestx.gov/elected-officials-and-candidate-information/elected-officials/84",
+       "date": null
+      }
+     ],
+     "research_gaps": "No official biography, campaign site or news profile describing the candidate's profession and background was found within the research budget.",
+     "researched": true
     }
    ],
    "office": {
@@ -81768,19 +82628,54 @@
      "id": "enedina-nina-serna",
      "name": "Enedina \"Nina\" Serna",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Incumbent Justice of the Peace, Precinct 6, Place 2, El Paso County",
+     "background": "The El Paso County Elections Department lists Enedina \"Nina\" Serna, a Democrat, as the current officeholder for Justice of the Peace, Precinct 6, Place 2, El Paso County, a four-year term whose next election is November 3, 2026. The official county pages consulted do not publish a biography.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "The county's list of declared write-in candidates names no write-in candidate for this office.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Sample Ballot, General and Special Election, El Paso County, November 3, 2026 (Federal, State and County)",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/815/original/11._Federal_State_County_Ballot.pdf?1789660550",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "List of Declared Write-In Candidates, November 3, 2026 General Election",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/829/original/Write-In1.pdf?1790178390",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Elected Officials: Justice of the Peace, Precinct 6, Place 2, El Paso County",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://epcountyvotestx.gov/elected-officials-and-candidate-information/elected-officials/88",
+       "date": null
+      }
+     ],
+     "research_gaps": "No published biography (start date in office, education, prior career) was found on the county pages consulted.",
+     "researched": true
     }
    ],
    "office": {
@@ -81805,19 +82700,54 @@
      "id": "ruben-lujan",
      "name": "Ruben Lujan",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Incumbent Justice of the Peace, Precinct 6, Place 1, El Paso County",
+     "background": "The El Paso County Elections Department lists Ruben Lujan, a Democrat, as the current officeholder for Justice of the Peace, Precinct 6, Place 1, El Paso County, a four-year term whose next election is November 3, 2026. The official county pages consulted do not publish a biography.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "The county's list of declared write-in candidates names no write-in candidate for this office.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Sample Ballot, General and Special Election, El Paso County, November 3, 2026 (Federal, State and County)",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/815/original/11._Federal_State_County_Ballot.pdf?1789660550",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "List of Declared Write-In Candidates, November 3, 2026 General Election",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/829/original/Write-In1.pdf?1790178390",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Elected Officials: Justice of the Peace, Precinct 6, Place 1, El Paso County",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://epcountyvotestx.gov/elected-officials-and-candidate-information/elected-officials/86",
+       "date": null
+      }
+     ],
+     "research_gaps": "No published biography (start date in office, education, prior career) was found on the county pages consulted.",
+     "researched": true
     }
    ],
    "office": {
@@ -81842,19 +82772,54 @@
      "id": "humberto-beto-enriquez",
      "name": "Humberto \"Beto\" Enriquez",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Incumbent Justice of the Peace, Precinct 7, El Paso County",
+     "background": "The El Paso County Elections Department lists Humberto \"Beto\" Enriquez, a Democrat, as the current officeholder for Justice of the Peace, Precinct 7, El Paso County, a four-year term whose next election is November 3, 2026. The official county pages consulted do not publish a biography.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "The county's list of declared write-in candidates names no write-in candidate for this office.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Sample Ballot, General and Special Election, El Paso County, November 3, 2026 (Federal, State and County)",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/815/original/11._Federal_State_County_Ballot.pdf?1789660550",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "List of Declared Write-In Candidates, November 3, 2026 General Election",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://ep-county-elections-production.s3.amazonaws.com/documents/files/000/006/829/original/Write-In1.pdf?1790178390",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Elected Officials: Justice of the Peace, Precinct 7, El Paso County",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://epcountyvotestx.gov/elected-officials-and-candidate-information/elected-officials/89",
+       "date": null
+      }
+     ],
+     "research_gaps": "No published biography (start date in office, education, prior career) was found on the county pages consulted.",
+     "researched": true
     }
    ],
    "office": {
@@ -94315,19 +95280,34 @@
      "id": "j-scott-novy",
      "name": "J. Scott Novy",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, 188th District Court (Gregg County)",
+     "background": "Gregg County's 188th District Court page lists Scott Novy as judge. The court hears felony criminal cases together with the 124th District Court, according to the court's docket materials. No biography is posted on the county page.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "188th District Court",
+       "publisher": "Gregg County",
+       "url": "https://greggcounty.texas.gov/government/district-courts/188th-district-court",
+       "date": null
+      }
+     ],
+     "research_gaps": "No biography, start date or education found on the county page; no ballot document was reachable on the county elections site.",
+     "researched": true
     }
    ],
    "office": {
@@ -94352,19 +95332,34 @@
      "id": "tim-womack",
      "name": "Tim Womack",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, 307th District Court (Gregg County)",
+     "background": "Gregg County's 307th District Court page lists Tim Womack as judge. The page posts family law resources such as CPS visitation orders and divorce filing materials. No biography is posted on the county page.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "307th District Court",
+       "publisher": "Gregg County",
+       "url": "https://greggcounty.texas.gov/government/district-courts/307th-district-court",
+       "date": null
+      }
+     ],
+     "research_gaps": "No biography, start date or education found on the county page.",
+     "researched": true
     }
    ],
    "office": {
@@ -94389,19 +95384,34 @@
      "id": "john-w-moore",
      "name": "John W. Moore",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Gregg County Criminal District Attorney",
+     "background": "Gregg County's District Attorney page lists John Moore as District Attorney. The office also operates a worthless check division. No biography is posted on the county page.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "District Attorney",
+       "publisher": "Gregg County",
+       "url": "https://greggcounty.texas.gov/departments/district-attorney",
+       "date": null
+      }
+     ],
+     "research_gaps": "No biography, start date or prior career found on the county page.",
+     "researched": true
     }
    ],
    "office": {
@@ -94426,19 +95436,41 @@
      "id": "bill-stoudt",
      "name": "Bill Stoudt",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Gregg County Judge",
+     "background": "Bill Stoudt is Gregg County Judge, according to the county's website. He was listed as the Republican incumbent county judge in KETK's list of candidates for the March 2022 primaries.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "County Judge",
+       "publisher": "Gregg County",
+       "url": "https://greggcounty.texas.gov/government/county-judge",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Gregg County primary election candidates (March 1, 2022 primaries)",
+       "publisher": "KETK",
+       "url": "https://digital-release.ketk.com/?p=1193145",
+       "date": "2022-01-18"
+      }
+     ],
+     "research_gaps": "No official biography with start date or prior career was found.",
+     "researched": true
     }
    ],
    "office": {
@@ -94463,19 +95495,41 @@
      "id": "angie-konczak",
      "name": "Angie Konczak",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, Gregg County Court at Law No. 1",
+     "background": "Angie Konczak is judge of Gregg County Court at Law No. 1, according to the county's website. KETK's list of candidates for the March 2022 primaries showed her running for the court without an incumbent designation.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "County Court at Law 1",
+       "publisher": "Gregg County",
+       "url": "https://greggcounty.texas.gov/government/county-courts/county-court-at-law-1",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Gregg County primary election candidates (March 1, 2022 primaries)",
+       "publisher": "KETK",
+       "url": "https://digital-release.ketk.com/?p=1193145",
+       "date": "2022-01-18"
+      }
+     ],
+     "research_gaps": "No official biography with education or prior legal career was found.",
+     "researched": true
     }
    ],
    "office": {
@@ -94500,19 +95554,41 @@
      "id": "vincent-l-dulweber",
      "name": "Vincent L. Dulweber",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, Gregg County Court at Law No. 2",
+     "background": "Vincent Dulweber is judge of Gregg County Court at Law No. 2, according to the county's website. He was listed as the incumbent for the court in KETK's list of candidates for the March 2022 primaries.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "County Court at Law 2",
+       "publisher": "Gregg County",
+       "url": "https://greggcounty.texas.gov/government/county-courts/county-court-at-law-2",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Gregg County primary election candidates (March 1, 2022 primaries)",
+       "publisher": "KETK",
+       "url": "https://digital-release.ketk.com/?p=1193145",
+       "date": "2022-01-18"
+      }
+     ],
+     "research_gaps": "No official biography with education or prior legal career was found.",
+     "researched": true
     }
    ],
    "office": {
@@ -94537,19 +95613,41 @@
      "id": "trey-hattaway",
      "name": "Trey Hattaway",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Gregg County District Clerk",
+     "background": "Trey Hattaway is Gregg County District Clerk, according to the county's website. He was listed as the incumbent district clerk in KETK's list of candidates for the March 2022 primaries. The office also accepts passport applications by appointment.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "District Clerk",
+       "publisher": "Gregg County",
+       "url": "https://greggcounty.texas.gov/departments/district-clerk",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Gregg County primary election candidates (March 1, 2022 primaries)",
+       "publisher": "KETK",
+       "url": "https://digital-release.ketk.com/?p=1193145",
+       "date": "2022-01-18"
+      }
+     ],
+     "research_gaps": "No official biography with start date or prior career was found.",
+     "researched": true
     }
    ],
    "office": {
@@ -94574,19 +95672,41 @@
      "id": "michelle-gilley",
      "name": "Michelle Gilley",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Gregg County Clerk",
+     "background": "Michelle Gilley is Gregg County Clerk, according to the county's website. She was listed as the incumbent county clerk in KETK's list of candidates for the March 2022 primaries.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "County Clerk",
+       "publisher": "Gregg County",
+       "url": "https://greggcounty.texas.gov/departments/county-clerk",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Gregg County primary election candidates (March 1, 2022 primaries)",
+       "publisher": "KETK",
+       "url": "https://digital-release.ketk.com/?p=1193145",
+       "date": "2022-01-18"
+      }
+     ],
+     "research_gaps": "No official biography with start date or prior career was found.",
+     "researched": true
     }
    ],
    "office": {
@@ -94611,19 +95731,41 @@
      "id": "ray-bostick",
      "name": "Ray Bostick",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Gregg County Commissioner, Precinct 2",
+     "background": "Ray Bostick Jr. is Gregg County Commissioner for Precinct 2, according to the county's website. In the March 2022 Republican primary he challenged then-incumbent R. Darryl Primo for the seat, according to KETK's candidate list.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Commissioner, Precinct 2",
+       "publisher": "Gregg County",
+       "url": "https://greggcounty.texas.gov/government/precinct-2/commissioner-precinct-2",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Gregg County primary election candidates (March 1, 2022 primaries)",
+       "publisher": "KETK",
+       "url": "https://digital-release.ketk.com/?p=1193145",
+       "date": "2022-01-18"
+      }
+     ],
+     "research_gaps": "No official biography with profession or start date was found.",
+     "researched": true
     }
    ],
    "office": {
@@ -94648,19 +95790,41 @@
      "id": "danny-craig-ii",
      "name": "Danny Craig II",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Gregg County Commissioner, Precinct 4 (appointed 2025)",
+     "background": "Danny Craig II is Gregg County Commissioner for Precinct 4, according to the county's website. He previously served as Gregg County Precinct 4 constable and resigned that post in November 2025 to serve as commissioner following the death of his father, Commissioner Danny Craig Sr., KLTV reported.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Commissioner, Precinct 4",
+       "publisher": "Gregg County",
+       "url": "https://greggcounty.texas.gov/government/precinct-4/commissioner-precinct-4",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "New Gregg County Pct. 4 constable sworn in",
+       "publisher": "KLTV",
+       "url": "https://www.kltv.com/2025/11/10/new-gregg-county-pct-4-constable-sworn",
+       "date": "2025-11-10"
+      }
+     ],
+     "research_gaps": "Profession and education were not found.",
+     "researched": true
     }
    ],
    "office": {
@@ -94686,18 +95850,41 @@
      "name": "Donna Blalock",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Republican nominee for Justice of the Peace, Precinct 1, Gregg County",
+     "background": "Donna Blalock is the Republican nominee for Gregg County Justice of the Peace, Precinct 1. She is not the current officeholder: the county's Precinct 1 page lists Judge B. H. Jameson, who was elected in 1987.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1",
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Justices of the Peace, Precinct 1",
+       "publisher": "Gregg County",
+       "url": "https://greggcounty.texas.gov/government/precinct-1/justices-of-the-peace-precinct-1",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Gregg Justice of the Peace, Precinct 1: 2026 Texas General Election",
+       "publisher": "Branch Politics",
+       "url": "https://branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-gregg-justice-precinct-1",
+       "date": null
+      }
+     ],
+     "research_gaps": "No biography, profession or campaign site was found; her unopposed status is reported by Branch Politics and the county page shows a different incumbent.",
+     "researched": true
     }
    ],
    "office": {
@@ -94722,19 +95909,34 @@
      "id": "tim-bryan",
      "name": "Tim Bryan",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Justice of the Peace, Precinct 2, Gregg County (elected 2014)",
+     "background": "Tim Bryan is Justice of the Peace for Gregg County Precinct 2. His county page says he has served the citizens of Gregg County since 2001 and was elected to office in 2014. The court handles truancy cases for the Longview area.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Justices of the Peace, Precinct 2",
+       "publisher": "Gregg County",
+       "url": "https://greggcounty.texas.gov/government/precinct-2/justices-of-the-peace-precinct-2",
+       "date": null
+      }
+     ],
+     "research_gaps": "Education and prior positions held since 2001 are not described.",
+     "researched": true
     }
    ],
    "office": {
@@ -94759,19 +95961,34 @@
      "id": "bruce-dalme",
      "name": "Bruce Dalme",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Justice of the Peace, Precinct 3, Gregg County",
+     "background": "Bruce Dalme is Justice of the Peace for Gregg County Precinct 3, according to the county's website. No biography is posted on the county page.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Justices of the Peace, Precinct 3",
+       "publisher": "Gregg County",
+       "url": "https://greggcounty.texas.gov/government/precinct-3/justices-of-the-peace-precinct-3",
+       "date": null
+      }
+     ],
+     "research_gaps": "No biography, start date or prior career found.",
+     "researched": true
     }
    ],
    "office": {
@@ -94797,18 +96014,33 @@
      "name": "Chris Byrdsong",
      "party": "Democratic",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Democratic nominee for Justice of the Peace, Precinct 4, Gregg County",
+     "background": "Chris Byrdsong is the Democratic nominee for Gregg County Justice of the Peace, Precinct 4. He is not the current officeholder: the county's Precinct 4 page lists Judge Robby Cox.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Justices of the Peace, Precinct 4",
+       "publisher": "Gregg County",
+       "url": "https://greggcounty.texas.gov/government/precinct-4/justices-of-the-peace-precinct-4",
+       "date": null
+      }
+     ],
+     "research_gaps": "No biography, profession or campaign site was found within the research budget.",
+     "researched": true
     }
    ],
    "office": {
@@ -94833,19 +96065,41 @@
      "id": "nashabra-judy-morgan",
      "name": "Nashabra \"Judy\" Morgan",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Gregg County Constable, Precinct 4 (appointed November 2025)",
+     "background": "NaShabra \"Judy\" Morgan was sworn in as Gregg County Precinct 4 constable in November 2025 to finish the unexpired term of Danny Craig II, who had recommended her for the appointment, KLTV reported. She served 18 years in the Gregg County Sheriff's Office and had recently retired. KLTV reported she is the first woman to hold the post in more than 50 years.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Constable, Precinct 4",
+       "publisher": "Gregg County",
+       "url": "https://greggcounty.texas.gov/government/precinct-4/constable-precinct-4",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "New Gregg County Pct. 4 constable sworn in",
+       "publisher": "KLTV",
+       "url": "https://www.kltv.com/2025/11/10/new-gregg-county-pct-4-constable-sworn",
+       "date": "2025-11-10"
+      }
+     ],
+     "research_gaps": "Education not found.",
+     "researched": true
     }
    ],
    "office": {
@@ -132481,19 +133735,41 @@
      "id": "casey-blair",
      "name": "Casey Blair",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, 86th District Court (Kaufman County), since 2015",
+     "background": "Casey Blair was elected judge of the 86th District Court in November 2014 and sworn in on January 1, 2015; he is the local administrative judge for Kaufman County. A Mesquite High School graduate, he earned a B.A. from Southern Methodist University in 2000 and an M.B.A. and J.D. from Texas Tech University in 2006. He was an assistant district attorney in Dallas County for four years, then a partner in a private firm practicing divorce, child custody, criminal defense and civil litigation.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Sample Ballot, 2026 Gubernatorial/Joint Election, November 3, 2026",
+       "publisher": "Kaufman County Elections",
+       "url": "https://www.kaufmancounty.net/DocumentCenter/View/12022/261103-Joint-Sample-Ballot",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "86th District Judge",
+       "publisher": "Kaufman County",
+       "url": "https://www.kaufmancounty.net/214/86th-District-Judge",
+       "date": null
+      }
+     ],
      "research_gaps": "",
-     "researched": false
+     "researched": true
     }
    ],
    "office": {
@@ -132518,19 +133794,41 @@
      "id": "erleigh-n-wiley",
      "name": "Erleigh N Wiley",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Kaufman County Criminal District Attorney, since 2013",
+     "background": "Erleigh N. Wiley was appointed Kaufman County District Attorney by Governor Rick Perry in 2013 and was elected to a third term in 2022. She was elected judge of the Kaufman County Court at Law in 2002. Earlier she worked in the Dallas County District Attorney's Office, supervising CPS and juvenile cases in the Dallas County family courts. A Kaufman High School graduate, she studied finance at Texas Tech University and earned her law degree at the University of Texas School of Law; she was admitted to the bar in 1989.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Sample Ballot, 2026 Gubernatorial/Joint Election, November 3, 2026",
+       "publisher": "Kaufman County Elections",
+       "url": "https://www.kaufmancounty.net/DocumentCenter/View/12022/261103-Joint-Sample-Ballot",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "District Attorney",
+       "publisher": "Kaufman County",
+       "url": "https://www.kaufmancounty.net/217/District-Attorney",
+       "date": null
+      }
+     ],
      "research_gaps": "",
-     "researched": false
+     "researched": true
     }
    ],
    "office": {
@@ -132555,19 +133853,41 @@
      "id": "jakie-allen",
      "name": "Jakie Allen",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Kaufman County Judge",
+     "background": "Jakie Allen is Kaufman County Judge and a former Kaufman County Commissioner. His county biography says he is a U.S. veteran, a past president of the Crandall Economic Development Corporation, and a former president of the Kaufman County Livestock Show and Board and the Crandall Lions Club. As commissioner he was appointed to the National Association of Counties, serving on its Agricultural and Rural Affairs committee and Immigration Task Force, and completed the V.G. Young Institute county government academy.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Sample Ballot, 2026 Gubernatorial/Joint Election, November 3, 2026",
+       "publisher": "Kaufman County Elections",
+       "url": "https://www.kaufmancounty.net/DocumentCenter/View/12022/261103-Joint-Sample-Ballot",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "County Judge Jakie Allen",
+       "publisher": "Kaufman County",
+       "url": "https://www.kaufmancounty.net/531/County-Judge-Jakie-Allen",
+       "date": null
+      }
+     ],
+     "research_gaps": "The county biography does not give the year he became county judge.",
+     "researched": true
     }
    ],
    "office": {
@@ -132592,19 +133912,47 @@
      "id": "joseph-russell",
      "name": "Joseph Russell",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, Kaufman County Court at Law, since July 2024",
+     "background": "Joseph Russell was elected County Court at Law judge in May 2024 and sworn in on July 1, 2024. He earned a B.A. from Tarleton State University in 1994 and a J.D. from Texas Tech University School of Law in 1998. He worked for a federally funded legal group in West Texas, moved to Terrell in 2000 to work for two law firms, and in 2003 opened a private practice in Kaufman focused on criminal defense and family law.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "The court handles misdemeanor and felony cases, CPS and juvenile cases, civil suits, justice court appeals, and a DWI specialty court, according to the county page.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Sample Ballot, 2026 Gubernatorial/Joint Election, November 3, 2026",
+       "publisher": "Kaufman County Elections",
+       "url": "https://www.kaufmancounty.net/DocumentCenter/View/12022/261103-Joint-Sample-Ballot",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "County Court at Law",
+       "publisher": "Kaufman County",
+       "url": "https://www.kaufmancounty.net/568/County-Court-at-Law",
+       "date": null
+      }
+     ],
      "research_gaps": "",
-     "researched": false
+     "researched": true
     }
    ],
    "office": {
@@ -132629,19 +133977,70 @@
      "id": "bobby-rich",
      "name": "Bobby Rich",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, Kaufman County Court at Law No. 2",
+     "background": "Bobby Rich is judge of Kaufman County Court at Law No. 2 and presiding officer of the county Bail Bond Board. inForney reported that he spent 21 years with the Dallas Police Department and has worked as a prosecutor, defense attorney and civil attorney. He has lived in Kaufman County for more than 30 years and is a pastor at Gray's Prairie Missionary Baptist Church.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
-     "stances": {},
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "He told inForney that his court reviews any case pending more than six months and that the Office of Court Administration reports a 109 percent clearance rate for the court.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
+     "stances": {
+      "q_textualism": {
+       "position": 1,
+       "basis": "statement",
+       "summary": "Told inForney that judges should \"uphold the law as it is written\" and that \"there is no room for legislating from the bench.\"",
+       "sources": [
+        "s3"
+       ]
+      }
+     },
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Sample Ballot, 2026 Gubernatorial/Joint Election, November 3, 2026",
+       "publisher": "Kaufman County Elections",
+       "url": "https://www.kaufmancounty.net/DocumentCenter/View/12022/261103-Joint-Sample-Ballot",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "County Court at Law #2",
+       "publisher": "Kaufman County",
+       "url": "https://www.kaufmancounty.net/509/County-Court-at-Law-2",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "A Judicial Perspective: Insights from Incumbent Judge Bobby Rich",
+       "publisher": "inForney",
+       "url": "https://www.inforney.com/local-news/a-judicial-perspective-insights-from-incumbent-judge-bobby-rich/article_b06b0626-ae91-421c-b4da-642c522154bc.html",
+       "date": "2026-03-01"
+      },
+      {
+       "id": "s4",
+       "title": "Bail Bond Board",
+       "publisher": "Kaufman County",
+       "url": "https://kaufmancounty.net/251/Bail-Bond-Board",
+       "date": null
+      }
+     ],
+     "research_gaps": "Year first elected and education not confirmed from an official source.",
+     "researched": true
     }
    ],
    "office": {
@@ -132666,19 +134065,48 @@
      "id": "rhonda-gayle-hughey",
      "name": "Rhonda Gayle Hughey",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Kaufman County District Clerk",
+     "background": "Rhonda Hughey is Kaufman County District Clerk, according to the county's website, and serves on the county Bail Bond Board. The office handles district court filings and passport processing.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Sample Ballot, 2026 Gubernatorial/Joint Election, November 3, 2026",
+       "publisher": "Kaufman County Elections",
+       "url": "https://www.kaufmancounty.net/DocumentCenter/View/12022/261103-Joint-Sample-Ballot",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "District Clerk",
+       "publisher": "Kaufman County",
+       "url": "https://www.kaufmancounty.net/232/District-Clerk",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Bail Bond Board",
+       "publisher": "Kaufman County",
+       "url": "https://kaufmancounty.net/251/Bail-Bond-Board",
+       "date": null
+      }
+     ],
+     "research_gaps": "No biography, start date or prior career found.",
+     "researched": true
     }
    ],
    "office": {
@@ -132703,19 +134131,48 @@
      "id": "laura-hughes",
      "name": "Laura Hughes",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Kaufman County Clerk",
+     "background": "Laura Hughes is Kaufman County Clerk, according to the county's website, and serves on the county Bail Bond Board.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Sample Ballot, 2026 Gubernatorial/Joint Election, November 3, 2026",
+       "publisher": "Kaufman County Elections",
+       "url": "https://www.kaufmancounty.net/DocumentCenter/View/12022/261103-Joint-Sample-Ballot",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "County Clerk",
+       "publisher": "Kaufman County",
+       "url": "https://www.kaufmancounty.net/166/County-Clerk",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Bail Bond Board",
+       "publisher": "Kaufman County",
+       "url": "https://kaufmancounty.net/251/Bail-Bond-Board",
+       "date": null
+      }
+     ],
+     "research_gaps": "No biography, start date or prior career found.",
+     "researched": true
     }
    ],
    "office": {
@@ -132740,19 +134197,48 @@
      "id": "chuck-mohnkern",
      "name": "Chuck Mohnkern",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Kaufman County Treasurer",
+     "background": "Charles \"Chuck\" Mohnkern is Kaufman County Treasurer and serves on the county Bail Bond Board. The county page says he is Kaufman County's representative on the Emergency Preparedness Planning Council of the North Central Texas Council of Governments.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Sample Ballot, 2026 Gubernatorial/Joint Election, November 3, 2026",
+       "publisher": "Kaufman County Elections",
+       "url": "https://www.kaufmancounty.net/DocumentCenter/View/12022/261103-Joint-Sample-Ballot",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "County Treasurer",
+       "publisher": "Kaufman County",
+       "url": "https://www.kaufmancounty.net/211/County-Treasurer",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Bail Bond Board",
+       "publisher": "Kaufman County",
+       "url": "https://kaufmancounty.net/251/Bail-Bond-Board",
+       "date": null
+      }
+     ],
+     "research_gaps": "No biography with start date, profession or education found.",
+     "researched": true
     }
    ],
    "office": {
@@ -132777,19 +134263,41 @@
      "id": "greg-sjerven",
      "name": "Greg Sjerven",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Kaufman County Surveyor",
+     "background": "Greg Sjerven is Kaufman County Surveyor, according to the county's website, which lists his office at Statewide Surveying Service in Kaufman.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Sample Ballot, 2026 Gubernatorial/Joint Election, November 3, 2026",
+       "publisher": "Kaufman County Elections",
+       "url": "https://www.kaufmancounty.net/DocumentCenter/View/12022/261103-Joint-Sample-Ballot",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "County Surveyor",
+       "publisher": "Kaufman County",
+       "url": "https://www.kaufmancounty.net/254/County-Surveyor",
+       "date": null
+      }
+     ],
+     "research_gaps": "No biography or start date found.",
+     "researched": true
     }
    ],
    "office": {
@@ -132951,19 +134459,48 @@
      "id": "tommy-moore",
      "name": "Tommy Moore",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Kaufman County Commissioner, Precinct 4",
+     "background": "Tommy Moore is Kaufman County Commissioner for Precinct 4 and serves on the county Bail Bond Board. His precinct page lists county road projects completed in 2024, 2025 and 2026 and roads planned for 2027.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Sample Ballot, 2026 Gubernatorial/Joint Election, November 3, 2026",
+       "publisher": "Kaufman County Elections",
+       "url": "https://www.kaufmancounty.net/DocumentCenter/View/12022/261103-Joint-Sample-Ballot",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Precinct 4 Commissioner Tommy Moore",
+       "publisher": "Kaufman County",
+       "url": "https://www.kaufmancounty.net/530/Precinct-4-Commissioner-Tommy-Moore",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Bail Bond Board",
+       "publisher": "Kaufman County",
+       "url": "https://kaufmancounty.net/251/Bail-Bond-Board",
+       "date": null
+      }
+     ],
+     "research_gaps": "No biography, start date or profession found.",
+     "researched": true
     }
    ],
    "office": {
@@ -132988,19 +134525,48 @@
      "id": "mary-a-bardin",
      "name": "Mary A. Bardin",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Justice of the Peace, Precinct 1, Kaufman County",
+     "background": "Mary Bardin is Justice of the Peace for Kaufman County Precinct 1 and vice chairman of the county Bail Bond Board, according to county pages.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Sample Ballot, 2026 Gubernatorial/Joint Election, November 3, 2026",
+       "publisher": "Kaufman County Elections",
+       "url": "https://www.kaufmancounty.net/DocumentCenter/View/12022/261103-Joint-Sample-Ballot",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Justice of the Peace Precinct 1",
+       "publisher": "Kaufman County",
+       "url": "https://www.kaufmancounty.net/243/Justice-of-the-Peace-Precinct-1",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Bail Bond Board",
+       "publisher": "Kaufman County",
+       "url": "https://kaufmancounty.net/251/Bail-Bond-Board",
+       "date": null
+      }
+     ],
+     "research_gaps": "No biography or start date found.",
+     "researched": true
     }
    ],
    "office": {
@@ -133144,19 +134710,41 @@
      "id": "rhitt-jackson",
      "name": "Rhitt Jackson",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Justice of the Peace, Precinct 3, Kaufman County",
+     "background": "Rhitt Jackson is Justice of the Peace for Kaufman County Precinct 3, based at the Terrell sub-courthouse, according to the county's website.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Sample Ballot, 2026 Gubernatorial/Joint Election, November 3, 2026",
+       "publisher": "Kaufman County Elections",
+       "url": "https://www.kaufmancounty.net/DocumentCenter/View/12022/261103-Joint-Sample-Ballot",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Justice of the Peace Precinct 3",
+       "publisher": "Kaufman County",
+       "url": "https://www.kaufmancounty.net/245/Justice-of-the-Peace-Precinct-3",
+       "date": null
+      }
+     ],
+     "research_gaps": "No biography or start date found.",
+     "researched": true
     }
    ],
    "office": {
@@ -133181,19 +134769,41 @@
      "id": "johnny-adams",
      "name": "Johnny Adams",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Justice of the Peace, Precinct 4, Kaufman County",
+     "background": "Johnny Adams is Justice of the Peace for Kaufman County Precinct 4, according to the county's website.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Sample Ballot, 2026 Gubernatorial/Joint Election, November 3, 2026",
+       "publisher": "Kaufman County Elections",
+       "url": "https://www.kaufmancounty.net/DocumentCenter/View/12022/261103-Joint-Sample-Ballot",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Justice of the Peace Precinct 4",
+       "publisher": "Kaufman County",
+       "url": "https://www.kaufmancounty.net/246/Justice-of-the-Peace-Precinct-4",
+       "date": null
+      }
+     ],
+     "research_gaps": "No biography or start date found.",
+     "researched": true
     }
    ],
    "office": {
@@ -143522,19 +145132,42 @@
      "id": "jack-w-pulcher",
      "name": "Jack W. Pulcher",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, 105th District Court (Nueces County)",
+     "background": "Jack Pulcher is judge of the 105th District Court, according to Nueces County's website. Ballotpedia reports that he previously worked as a prosecutor in the Nueces County District Attorney's Office and that he was unopposed in the March 2026 Republican primary.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1",
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "105th District Court",
+       "publisher": "Nueces County",
+       "url": "https://www.nuecesco.com/courts/district-courts/105th-district-court-d",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Jack Pulcher",
+       "publisher": "Ballotpedia",
+       "url": "https://ballotpedia.org/Jack_Pulcher",
+       "date": null
+      }
+     ],
+     "research_gaps": "The county website blocked direct access during research; start date and education were not confirmed.",
+     "researched": true
     }
    ],
    "office": {
@@ -143559,19 +145192,34 @@
      "id": "susan-barclay",
      "name": "Susan Barclay",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, 117th District Court (Nueces County), since January 2023",
+     "background": "Susan Barclay was elected judge of the 117th District Court on November 8, 2022, and took office on January 1, 2023. From August 2017 she was presiding judge of the Title IV-D (child support) court in Nueces County, according to her county biography.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Judge Barclay, 117th District Court",
+       "publisher": "Nueces County",
+       "url": "https://www.nuecesco.com/courts/district-courts/117th-district-court-b/judge-barclay",
+       "date": null
+      }
+     ],
+     "research_gaps": "The county website blocked direct access during research; details were taken from the indexed county page. Education not found.",
+     "researched": true
     }
    ],
    "office": {
@@ -143732,19 +145380,54 @@
      "id": "david-stith",
      "name": "David Stith",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, 319th District Court, Nueces County",
+     "background": "David Stith is the judge of the 319th District Court in Nueces County. Gov. Rick Perry appointed him to the court in 2013; he previously served as judge of Nueces County Court at Law No. 3. He holds an undergraduate degree from the University of North Texas and a law degree from Texas Tech University School of Law.",
      "website": null,
      "priorities": [],
      "promises": [],
-     "record": [],
-     "notes": [],
+     "record": [
+      {
+       "text": "Appointed judge of the 319th District Court by Gov. Rick Perry in 2013, after serving as judge of Nueces County Court at Law No. 3.",
+       "sources": [
+        "bp-stith"
+       ]
+      },
+      {
+       "text": "Won the 2022 Republican primary unopposed and was reelected without a general election opponent.",
+       "sources": [
+        "bp-stith"
+       ]
+      }
+     ],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "nueces-319"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "nueces-319",
+       "title": "319th District Court",
+       "publisher": "Nueces County",
+       "url": "https://www.nuecesco.com/courts/district-courts/319th-district-court-g",
+       "date": null
+      },
+      {
+       "id": "bp-stith",
+       "title": "David Stith",
+       "publisher": "Ballotpedia",
+       "url": "https://ballotpedia.org/David_Stith",
+       "date": null
+      }
+     ],
+     "research_gaps": "No campaign website or stated 2026 priorities were found.",
+     "researched": true
     }
    ],
    "office": {
@@ -144309,19 +145992,34 @@
      "id": "mark-h-woerner",
      "name": "Mark H. Woerner",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, Nueces County Court at Law No. 4",
+     "background": "Mark H. Woerner is listed as judge of Nueces County Court at Law No. 4 on the county's County Courts at Law page.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "County Courts at Law",
+       "publisher": "Nueces County",
+       "url": "https://www.nuecesco.com/courts/county-courts-at-law",
+       "date": null
+      }
+     ],
+     "research_gaps": "No biography, start date or education found; county website blocked direct access.",
+     "researched": true
     }
    ],
    "office": {
@@ -144346,19 +146044,34 @@
      "id": "tim-mccoy",
      "name": "Tim McCoy",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, Nueces County Court at Law No. 5",
+     "background": "Timothy J. McCoy is listed as judge of Nueces County Court at Law No. 5 on the county's County Courts at Law page.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "County Courts at Law",
+       "publisher": "Nueces County",
+       "url": "https://www.nuecesco.com/courts/county-courts-at-law",
+       "date": null
+      }
+     ],
+     "research_gaps": "No biography, start date or education found; county website blocked direct access.",
+     "researched": true
     }
    ],
    "office": {
@@ -144693,19 +146406,34 @@
      "id": "brent-chesney",
      "name": "Brent Chesney",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Nueces County Commissioner, Precinct 4 (first elected 2014)",
+     "background": "Brent Chesney was first elected Nueces County Commissioner for Precinct 4 in 2014 and began his third term on January 1, 2023, according to the county's website.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Commissioner Precinct 4",
+       "publisher": "Nueces County",
+       "url": "https://www.nuecesco.com/commissioners-court/commissioner-precinct-4",
+       "date": null
+      }
+     ],
+     "research_gaps": "Profession and education not confirmed; county website blocked direct access.",
+     "researched": true
     }
    ],
    "office": {
@@ -144829,19 +146557,42 @@
      "id": "thelma-l-rodriguez",
      "name": "Thelma L. Rodriguez",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Justice of the Peace, Precinct 2, Place 2, Nueces County",
+     "background": "Thelma L. Rodriguez is listed by Nueces County as Justice of the Peace for Precinct 2, Place 2.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1",
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Justice of the Peace 2-2",
+       "publisher": "Nueces County",
+       "url": "https://www.nuecesco.com/courts/justices-of-the-peace/justice-of-the-peace-2-2",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Nueces Justice of the Peace, Precinct 2, Position 2: 2026 Texas General Election",
+       "publisher": "Branch Politics",
+       "url": "https://branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-nueces-justice-precinct-2-position-2",
+       "date": null
+      }
+     ],
+     "research_gaps": "No biography or start date found; county website blocked direct access.",
+     "researched": true
     }
    ],
    "office": {
@@ -144866,19 +146617,34 @@
      "id": "larry-lawrence",
      "name": "Larry Lawrence",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Justice of the Peace, Precinct 3, Nueces County",
+     "background": "Larry L. Lawrence is listed by Nueces County as Justice of the Peace for Precinct 3.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Justice of the Peace 3",
+       "publisher": "Nueces County",
+       "url": "https://www.nuecesco.com/courts/justices-of-the-peace/justice-of-the-peace-3",
+       "date": null
+      }
+     ],
+     "research_gaps": "No biography or start date found; county website blocked direct access.",
+     "researched": true
     }
    ],
    "office": {
@@ -144903,19 +146669,42 @@
      "id": "duncan-neblett-jr",
      "name": "Duncan Neblett, Jr",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Justice of the Peace, Precinct 4, Nueces County",
+     "background": "Duncan Neblett Jr. is listed by Nueces County as Justice of the Peace for Precinct 4.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1",
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Justice of the Peace 4",
+       "publisher": "Nueces County",
+       "url": "https://www.nuecesco.com/courts/justices-of-the-peace/justice-of-the-peace-4",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Nueces Justice of the Peace, Precinct 4: 2026 Texas General Election",
+       "publisher": "Branch Politics",
+       "url": "https://branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-nueces-justice-precinct-4",
+       "date": null
+      }
+     ],
+     "research_gaps": "No biography or start date found; county website blocked direct access.",
+     "researched": true
     }
    ],
    "office": {
@@ -150286,19 +152075,47 @@
      "id": "j-brian-williams",
      "name": "J. Brian Williams",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, 503rd District Court (Rockwall County), since December 2025",
+     "background": "J. Brian Williams was appointed by Governor Greg Abbott in October 2025 to the newly created 503rd Judicial District Court and sworn in on December 1, 2025. He was appointed Rockwall County Court at Law judge in November 2010 and elected to that bench in 2012. Earlier he was chief of the civil division of the Rockwall County Criminal District Attorney's Office, practiced commercial litigation in Dallas, and worked as Rockwall County court administrator and as a legislative aide to Congressman Ralph Hall. He holds a B.A. in government from the University of Texas at Austin (1995) and a J.D. from Southern Methodist University (2000).",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "He was unopposed in the March 3, 2026 Republican primary.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
+     "sources": [
+      {
+       "id": "s1",
+       "title": "503rd District Court",
+       "publisher": "Rockwall County",
+       "url": "https://www.rockwallcountytexas.com/1355/503rd-District-Court",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Voters have their say in primary elections",
+       "publisher": "Royse City Herald-Banner",
+       "url": "https://www.roysecityheraldbanner.com/news/local_news/voters-have-their-say-in-primary-elections/article_d18822da-6377-4184-beab-0e7d2198606c.html",
+       "date": "2026-03-03"
+      }
+     ],
      "research_gaps": "",
-     "researched": false
+     "researched": true
     }
    ],
    "office": {
@@ -150323,19 +152140,53 @@
      "id": "kenda-culpepper",
      "name": "Kenda Culpepper",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Rockwall County Criminal District Attorney (first elected 2008)",
+     "background": "Kenda Culpepper was elected Rockwall County Criminal District Attorney in November 2008 and re-elected in 2010, 2014, 2018 and 2022; the county says she was the first woman to take office as a district attorney in North Texas. She graduated from Texas A&M University in 1989 and SMU School of Law in 1992, then prosecuted cases for the Dallas County District Attorney's Office from 1992 to 1995 before private practice in Dallas and Rockwall.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Her county biography lists her as a vice president of the National District Attorneys Association and a past president of the Texas District and County Attorneys Association board.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "She was unopposed in the March 3, 2026 Republican primary.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
+     "sources": [
+      {
+       "id": "s1",
+       "title": "District Attorney",
+       "publisher": "Rockwall County",
+       "url": "https://www.rockwallcountytexas.com/79/District-Attorney",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Voters have their say in primary elections",
+       "publisher": "Royse City Herald-Banner",
+       "url": "https://www.roysecityheraldbanner.com/news/local_news/voters-have-their-say-in-primary-elections/article_d18822da-6377-4184-beab-0e7d2198606c.html",
+       "date": "2026-03-03"
+      }
+     ],
      "research_gaps": "",
-     "researched": false
+     "researched": true
     }
    ],
    "office": {
@@ -150360,19 +152211,47 @@
      "id": "frank-new",
      "name": "Frank New",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Rockwall County Judge",
+     "background": "Frank New is Rockwall County Judge. His county biography says he owns Dallas Corporate Flooring, a commercial floor-covering business, served on the Heath City Council from 2017 through December 31, 2022, and has lived in Heath since 2009.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "He defeated Royse City ISD trustee Scott Muckensturm in the March 3, 2026 Republican primary, 57.66 percent to 42.34 percent, according to unofficial results.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "County Judge",
+       "publisher": "Rockwall County",
+       "url": "https://www.rockwallcountytexas.com/100/County-Judge",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Voters have their say in primary elections",
+       "publisher": "Royse City Herald-Banner",
+       "url": "https://www.roysecityheraldbanner.com/news/local_news/voters-have-their-say-in-primary-elections/article_d18822da-6377-4184-beab-0e7d2198606c.html",
+       "date": "2026-03-03"
+      }
+     ],
+     "research_gaps": "The county biography does not state the date he became county judge.",
+     "researched": true
     }
    ],
    "office": {
@@ -150398,18 +152277,53 @@
      "name": "Ben Massar",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Justice of the Peace, Precinct 2, Rockwall County; Republican nominee for County Court at Law No. 1 (unexpired term)",
+     "background": "Ben Massar is Justice of the Peace for Rockwall County Precinct 2, according to the county's website. He is the Republican nominee for the unexpired term on County Court at Law No. 1, a court the county site currently lists under Judge Keith Wheeler.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "He led a four-candidate March 3, 2026 Republican primary with 38.48 percent and advanced to a May runoff against Richard Archibald, the Herald-Banner reported.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Justice of the Peace, Precinct Two",
+       "publisher": "Rockwall County",
+       "url": "https://www.rockwallcountytexas.com/104/Precinct-2",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Court at Law #1",
+       "publisher": "Rockwall County",
+       "url": "https://www.rockwallcountytexas.com/77/Court-at-Law-1",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Voters have their say in primary elections",
+       "publisher": "Royse City Herald-Banner",
+       "url": "https://www.roysecityheraldbanner.com/news/local_news/voters-have-their-say-in-primary-elections/article_d18822da-6377-4184-beab-0e7d2198606c.html",
+       "date": "2026-03-03"
+      }
+     ],
+     "research_gaps": "Education and legal career not found on official pages.",
+     "researched": true
     }
    ],
    "office": {
@@ -150434,19 +152348,47 @@
      "id": "lea-carlson",
      "name": "Lea Carlson",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Rockwall County District Clerk",
+     "background": "Lea Carlson is Rockwall County District Clerk, according to the county's website.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "She was unopposed in the March 3, 2026 Republican primary.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "District Clerk",
+       "publisher": "Rockwall County",
+       "url": "https://www.rockwallcountytexas.com/67/District-Clerk",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Voters have their say in primary elections",
+       "publisher": "Royse City Herald-Banner",
+       "url": "https://www.roysecityheraldbanner.com/news/local_news/voters-have-their-say-in-primary-elections/article_d18822da-6377-4184-beab-0e7d2198606c.html",
+       "date": "2026-03-03"
+      }
+     ],
+     "research_gaps": "No biography or start date found.",
+     "researched": true
     }
    ],
    "office": {
@@ -150471,19 +152413,47 @@
      "id": "jennifer-fogg",
      "name": "Jennifer Fogg",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Rockwall County Clerk, since December 2020",
+     "background": "Jennifer Fogg was appointed Rockwall County Clerk by the Commissioners Court in December 2020 and elected in November 2022. Her county biography says she has more than 16 years of experience in the Rockwall County Clerk's Office.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "She was unopposed in the March 3, 2026 Republican primary.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
+     "sources": [
+      {
+       "id": "s1",
+       "title": "County Clerk",
+       "publisher": "Rockwall County",
+       "url": "https://www.rockwallcountytexas.com/108/County-Clerk",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Voters have their say in primary elections",
+       "publisher": "Royse City Herald-Banner",
+       "url": "https://www.roysecityheraldbanner.com/news/local_news/voters-have-their-say-in-primary-elections/article_d18822da-6377-4184-beab-0e7d2198606c.html",
+       "date": "2026-03-03"
+      }
+     ],
      "research_gaps": "",
-     "researched": false
+     "researched": true
     }
    ],
    "office": {
@@ -150508,19 +152478,47 @@
      "id": "david-peek",
      "name": "David Peek",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Rockwall County Treasurer",
+     "background": "David Peek is Rockwall County Treasurer, according to the county's website.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "He was unopposed in the March 3, 2026 Republican primary.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Treasurer",
+       "publisher": "Rockwall County",
+       "url": "https://www.rockwallcountytexas.com/234/Treasurer",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Voters have their say in primary elections",
+       "publisher": "Royse City Herald-Banner",
+       "url": "https://www.roysecityheraldbanner.com/news/local_news/voters-have-their-say-in-primary-elections/article_d18822da-6377-4184-beab-0e7d2198606c.html",
+       "date": "2026-03-03"
+      }
+     ],
+     "research_gaps": "No biography or start date found.",
+     "researched": true
     }
    ],
    "office": {
@@ -150545,19 +152543,47 @@
      "id": "dana-k-macalik",
      "name": "Dana K. Macalik",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Rockwall County Commissioner, Precinct 2, since January 2023",
+     "background": "Dana K. Macalik was elected Rockwall County Commissioner for Precinct 2 in November 2022, effective January 1, 2023. She served on the Rockwall City Council from 2017 to 2022, including as mayor pro tem in 2019, and became CEO of the Rockwall Area Chamber of Commerce in 2011 after 17 years in corporate leadership. She is a licensed Realtor and holds a BBA from Sam Houston State University.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "She was unopposed in the March 3, 2026 Republican primary.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Commissioner, Precinct 2",
+       "publisher": "Rockwall County",
+       "url": "https://www.rockwallcountytexas.com/103/Precinct-2",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Voters have their say in primary elections",
+       "publisher": "Royse City Herald-Banner",
+       "url": "https://www.roysecityheraldbanner.com/news/local_news/voters-have-their-say-in-primary-elections/article_d18822da-6377-4184-beab-0e7d2198606c.html",
+       "date": "2026-03-03"
+      }
+     ],
      "research_gaps": "",
-     "researched": false
+     "researched": true
     }
    ],
    "office": {
@@ -150582,19 +152608,47 @@
      "id": "john-stacy",
      "name": "John Stacy",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Rockwall County Commissioner, Precinct 4",
+     "background": "John Stacy is Rockwall County Commissioner for Precinct 4. His county page posts updates on transportation and development issues and on a road bond issuance.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "He won a three-way March 3, 2026 Republican primary with 61.26 percent, avoiding a runoff, according to unofficial results.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Commissioner, Precinct 4",
+       "publisher": "Rockwall County",
+       "url": "https://www.rockwallcountytexas.com/251/Precinct-4",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Voters have their say in primary elections",
+       "publisher": "Royse City Herald-Banner",
+       "url": "https://www.roysecityheraldbanner.com/news/local_news/voters-have-their-say-in-primary-elections/article_d18822da-6377-4184-beab-0e7d2198606c.html",
+       "date": "2026-03-03"
+      }
+     ],
+     "research_gaps": "No biography or start date found.",
+     "researched": true
     }
    ],
    "office": {
@@ -150619,19 +152673,47 @@
      "id": "tony-norton",
      "name": "Tony Norton",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Justice of the Peace, Precinct 1, Rockwall County",
+     "background": "Tony Norton is Justice of the Peace for Rockwall County Precinct 1, according to the county's website.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "He was unopposed in the March 3, 2026 Republican primary.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Justice of the Peace, Precinct 1",
+       "publisher": "Rockwall County",
+       "url": "https://www.rockwallcountytexas.com/58/Precinct-1",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Voters have their say in primary elections",
+       "publisher": "Royse City Herald-Banner",
+       "url": "https://www.roysecityheraldbanner.com/news/local_news/voters-have-their-say-in-primary-elections/article_d18822da-6377-4184-beab-0e7d2198606c.html",
+       "date": "2026-03-03"
+      }
+     ],
+     "research_gaps": "No biography or start date found.",
+     "researched": true
     }
    ],
    "office": {
@@ -150657,18 +152739,68 @@
      "name": "Victor G. Carrillo",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Attorney and corporate director, Germania Farm Mutual Insurance Association; Republican nominee for Justice of the Peace, Precinct 2, Rockwall County",
+     "background": "Victor G. Carrillo is a licensed Texas attorney since 1994 and a former statewide official who served on the Texas Railroad Commission, twice as chairman. He has also been Taylor County Judge, an Abilene City Council member, and an Abilene assistant city attorney and municipal court prosecutor, and has held executive roles in the energy industry and a charter school system. He holds geology degrees from Hardin-Simmons University and Baylor University, a law degree from the University of Houston Law Center, and has lived in Rockwall since 2012.",
      "website": null,
-     "priorities": [],
+     "priorities": [
+      {
+       "text": "Says his goal is to ensure that everyone who enters the court is treated with respect and integrity while upholding law and order.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "promises": [],
-     "record": [],
-     "notes": [],
+     "record": [
+      {
+       "text": "Served as a member and twice as chairman of the Texas Railroad Commission.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s2",
+        "s3"
+       ]
+      },
+      {
+       "text": "He defeated Chris Florance in the March 3, 2026 Republican primary, 52.10 percent to 47.90 percent, according to unofficial results.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Victor G. Carrillo files for Rockwall County Justice of the Peace, Precinct 2",
+       "publisher": "Blue Ribbon News",
+       "url": "https://blueribbonnews.com/?p=126444",
+       "date": "2025-12-09"
+      },
+      {
+       "id": "s2",
+       "title": "Voters have their say in primary elections",
+       "publisher": "Royse City Herald-Banner",
+       "url": "https://www.roysecityheraldbanner.com/news/local_news/voters-have-their-say-in-primary-elections/article_d18822da-6377-4184-beab-0e7d2198606c.html",
+       "date": "2026-03-03"
+      },
+      {
+       "id": "s3",
+       "title": "Justice of the Peace, Precinct Two",
+       "publisher": "Rockwall County",
+       "url": "https://www.rockwallcountytexas.com/104/Precinct-2",
+       "date": null
+      }
+     ],
      "research_gaps": "",
-     "researched": false
+     "researched": true
     }
    ],
    "office": {
@@ -150693,19 +152825,47 @@
      "id": "steve-frazier",
      "name": "Steve Frazier",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Rockwall County Constable, Precinct 3, since June 2025",
+     "background": "Steve Frazier was appointed Rockwall County Precinct 3 Constable by the Commissioners Court on June 1, 2025. His county biography says he has 37 years of law enforcement and corporate security experience, retired from the Garland Police Department as a Master Peace Officer, and is a licensed police instructor. He has lived in Heath for more than two decades.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "He was unopposed in the March 3, 2026 Republican primary for the unexpired term.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Constable, Precinct 3",
+       "publisher": "Rockwall County",
+       "url": "https://www.rockwallcountytexas.com/696/Precinct-3",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Voters have their say in primary elections",
+       "publisher": "Royse City Herald-Banner",
+       "url": "https://www.roysecityheraldbanner.com/news/local_news/voters-have-their-say-in-primary-elections/article_d18822da-6377-4184-beab-0e7d2198606c.html",
+       "date": "2026-03-03"
+      }
+     ],
      "research_gaps": "",
-     "researched": false
+     "researched": true
     }
    ],
    "office": {
@@ -176496,19 +178656,48 @@
      "id": "lane-carter",
      "name": "Lane Carter",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Tom Green County Judge",
+     "background": "Lane Carter is Tom Green County Judge, according to the county's website and public officials list.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Sample Ballot, November 3, 2026 (County Commissioner Pct. 2, Justice of the Peace Pct. 2 ballot style 201BS14)",
+       "publisher": "Tom Green County Elections",
+       "url": "https://www.tomgreencountytx.gov/upload/page/0099/docs/2026/11032026/201BS14.pdf",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "County Judge",
+       "publisher": "Tom Green County",
+       "url": "https://www.tomgreencountytx.gov/page/co.judge",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Public Officials",
+       "publisher": "Tom Green County",
+       "url": "https://www.tomgreencountytx.gov/page/ele.publicofficials",
+       "date": null
+      }
+     ],
+     "research_gaps": "No biography, start date or prior career found on county pages.",
+     "researched": true
     }
    ],
    "office": {
@@ -176534,18 +178723,53 @@
      "name": "Leland Lacy",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Republican nominee for Judge, Tom Green County Court at Law No. 1",
+     "background": "Leland Lacy is the Republican nominee for Tom Green County Court at Law No. 1. The court is currently presided over by Judge Ben Nolen, who was appointed in 2002, according to the county's website.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "He won the March 3, 2026 Republican primary with 54.3 percent over Jessica Skinner and Jana Johnson, according to unofficial results.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Sample Ballot, November 3, 2026 (County Commissioner Pct. 2, Justice of the Peace Pct. 2 ballot style 201BS14)",
+       "publisher": "Tom Green County Elections",
+       "url": "https://www.tomgreencountytx.gov/upload/page/0099/docs/2026/11032026/201BS14.pdf",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Here's How the March 3 Primary Went in Tom Green County",
+       "publisher": "San Angelo LIVE!",
+       "url": "https://sanangelolive.com/news/san-angelo/2026-03-04/heres-how-march-3-primary-went-tom-green-county",
+       "date": "2026-03-04"
+      },
+      {
+       "id": "s3",
+       "title": "County Courts at Law",
+       "publisher": "Tom Green County",
+       "url": "https://www.tomgreencountytx.gov/page/ccl.Homepage",
+       "date": null
+      }
+     ],
+     "research_gaps": "No biography, legal career or education found.",
+     "researched": true
     }
    ],
    "office": {
@@ -176570,19 +178794,41 @@
      "id": "andrew-graves",
      "name": "Andrew Graves",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, Tom Green County Court at Law No. 2 (elected 2022)",
+     "background": "Andrew Graves was elected judge of Tom Green County Court at Law No. 2 in 2022. He graduated from Texas Tech University School of Law in May 2001.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Sample Ballot, November 3, 2026 (County Commissioner Pct. 2, Justice of the Peace Pct. 2 ballot style 201BS14)",
+       "publisher": "Tom Green County Elections",
+       "url": "https://www.tomgreencountytx.gov/upload/page/0099/docs/2026/11032026/201BS14.pdf",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "County Courts at Law",
+       "publisher": "Tom Green County",
+       "url": "https://www.tomgreencountytx.gov/page/ccl.Homepage",
+       "date": null
+      }
+     ],
+     "research_gaps": "Prior legal career not described on the county page.",
+     "researched": true
     }
    ],
    "office": {
@@ -176607,19 +178853,41 @@
      "id": "vicki-vines",
      "name": "Vicki Vines",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Tom Green County District Clerk",
+     "background": "Vicki Vines is Tom Green County District Clerk, according to the county's website. The office is registrar and custodian of filings in the county's district courts.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Sample Ballot, November 3, 2026 (County Commissioner Pct. 2, Justice of the Peace Pct. 2 ballot style 201BS14)",
+       "publisher": "Tom Green County Elections",
+       "url": "https://www.tomgreencountytx.gov/upload/page/0099/docs/2026/11032026/201BS14.pdf",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "District Clerk",
+       "publisher": "Tom Green County",
+       "url": "https://www.tomgreencountytx.gov/page/dcl.DistrictClerkHome",
+       "date": null
+      }
+     ],
+     "research_gaps": "No biography or start date found.",
+     "researched": true
     }
    ],
    "office": {
@@ -176645,18 +178913,53 @@
      "name": "Lauren Barron",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Chief Deputy, Tom Green County Clerk's Office; Republican nominee for County Clerk",
+     "background": "Lauren Barron is chief deputy in the Tom Green County Clerk's Office, according to the county's website. She defeated incumbent County Clerk Christina Ubando in the March 3, 2026 Republican primary.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "She won the March 3, 2026 Republican primary 66.2 percent to 33.7 percent over incumbent Christina Ubando, according to unofficial results.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Sample Ballot, November 3, 2026 (County Commissioner Pct. 2, Justice of the Peace Pct. 2 ballot style 201BS14)",
+       "publisher": "Tom Green County Elections",
+       "url": "https://www.tomgreencountytx.gov/upload/page/0099/docs/2026/11032026/201BS14.pdf",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Here's How the March 3 Primary Went in Tom Green County",
+       "publisher": "San Angelo LIVE!",
+       "url": "https://sanangelolive.com/news/san-angelo/2026-03-04/heres-how-march-3-primary-went-tom-green-county",
+       "date": "2026-03-04"
+      },
+      {
+       "id": "s3",
+       "title": "County Clerk",
+       "publisher": "Tom Green County",
+       "url": "https://www.tomgreencountytx.gov/page/cck.CountyClerkHome",
+       "date": null
+      }
+     ],
+     "research_gaps": "Education and length of service in the clerk's office not found.",
+     "researched": true
     }
    ],
    "office": {
@@ -176681,19 +178984,47 @@
      "id": "dianna-m-spieker",
      "name": "Dianna M. Spieker",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Tom Green County Treasurer, since 1999",
+     "background": "Dianna Spieker has been Tom Green County Treasurer since 1999. Her county page says she also serves as the county's indigent health care director, justice and county court compliance director, and bail bond board chair. She was president of the County Treasurers' Association of Texas in 2004 and 2005.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Her county page says she was named Outstanding County Treasurer of Texas in 2015.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Sample Ballot, November 3, 2026 (County Commissioner Pct. 2, Justice of the Peace Pct. 2 ballot style 201BS14)",
+       "publisher": "Tom Green County Elections",
+       "url": "https://www.tomgreencountytx.gov/upload/page/0099/docs/2026/11032026/201BS14.pdf",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "County Treasurer",
+       "publisher": "Tom Green County",
+       "url": "https://www.tomgreencountytx.gov/page/ct.TreasurerHomePage",
+       "date": null
+      }
+     ],
      "research_gaps": "",
-     "researched": false
+     "researched": true
     }
    ],
    "office": {
@@ -176718,19 +179049,54 @@
      "id": "chad-decker",
      "name": "Chad Decker",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Tom Green County Commissioner, Precinct 2, since 2026",
+     "background": "Chad Decker is Tom Green County Commissioner for Precinct 2, listed by the county as serving from 2026 to the present. He won the March 3, 2026 Republican primary for the seat.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "He won the March 3, 2026 Republican primary 60.2 percent to 39.7 percent over Todd Smith, according to unofficial results.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Sample Ballot, November 3, 2026 (County Commissioner Pct. 2, Justice of the Peace Pct. 2 ballot style 201BS14)",
+       "publisher": "Tom Green County Elections",
+       "url": "https://www.tomgreencountytx.gov/upload/page/0099/docs/2026/11032026/201BS14.pdf",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Commissioners Court",
+       "publisher": "Tom Green County",
+       "url": "https://www.tomgreencountytx.gov/page/cc.CommissionersHome",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Here's How the March 3 Primary Went in Tom Green County",
+       "publisher": "San Angelo LIVE!",
+       "url": "https://sanangelolive.com/news/san-angelo/2026-03-04/heres-how-march-3-primary-went-tom-green-county",
+       "date": "2026-03-04"
+      }
+     ],
+     "research_gaps": "Profession and how he came into office before the general election were not found.",
+     "researched": true
     }
    ],
    "office": {
@@ -176755,19 +179121,41 @@
      "id": "shawn-nanny",
      "name": "Shawn Nanny",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Tom Green County Commissioner, Precinct 4, since 2023",
+     "background": "Shawn Nanny has been Tom Green County Commissioner for Precinct 4 since 2023, according to the county's website.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Sample Ballot, November 3, 2026 (County Commissioner Pct. 4, Justice of the Peace Pct. 4 ballot style 401BS32)",
+       "publisher": "Tom Green County Elections",
+       "url": "https://www.tomgreencountytx.gov/upload/page/0099/docs/2026/11032026/401BS32.pdf",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Commissioners Court",
+       "publisher": "Tom Green County",
+       "url": "https://www.tomgreencountytx.gov/page/cc.CommissionersHome",
+       "date": null
+      }
+     ],
+     "research_gaps": "No biography or profession found.",
+     "researched": true
     }
    ],
    "office": {
@@ -176869,19 +179257,41 @@
      "id": "thomas-lee-daniel",
      "name": "Thomas Lee Daniel",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Justice of the Peace, Precinct 2, Tom Green County",
+     "background": "Thomas Lee Daniel is on the ballot for Tom Green County Justice of the Peace, Precinct 2. The county's justice of the peace page lists the Precinct 2 judge as \"Thomas Daniels\".",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Sample Ballot, November 3, 2026 (County Commissioner Pct. 2, Justice of the Peace Pct. 2 ballot style 201BS14)",
+       "publisher": "Tom Green County Elections",
+       "url": "https://www.tomgreencountytx.gov/upload/page/0099/docs/2026/11032026/201BS14.pdf",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Justices of the Peace 1, 2, 4",
+       "publisher": "Tom Green County",
+       "url": "https://www.tomgreencountytx.gov/page/jp.JPHomePage",
+       "date": null
+      }
+     ],
+     "research_gaps": "The county page spells the officeholder's name \"Thomas Daniels\"; that this is the same person is likely but not confirmed. No biography found.",
+     "researched": true
     }
    ],
    "office": {
@@ -176906,19 +179316,41 @@
      "id": "stacye-w-speck",
      "name": "Stacye W. Speck",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Justice of the Peace, Precinct 3, Tom Green County, since 2023",
+     "background": "Stacye Speck has been Tom Green County Justice of the Peace for Precinct 3 since 2023, according to the county's website.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Sample Ballot, November 3, 2026 (Justice of the Peace Pct. 3 ballot styles)",
+       "publisher": "Tom Green County Elections",
+       "url": "https://www.tomgreencountytx.gov/upload/page/0099/docs/2026/11032026/304BS22%20306BS23%20308BS24%20318BS25%20319BS26%20327BS27%20348BS28%20351BS29%20358BS30.pdf",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Justice of the Peace 3",
+       "publisher": "Tom Green County",
+       "url": "https://www.tomgreencountytx.gov/page/jp.JP3Homepage",
+       "date": null
+      }
+     ],
+     "research_gaps": "No biography or prior career found.",
+     "researched": true
     }
    ],
    "office": {
@@ -176943,19 +179375,41 @@
      "id": "randy-harris",
      "name": "Randy Harris",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Justice of the Peace, Precinct 4, Tom Green County",
+     "background": "Randy Harris is Tom Green County Justice of the Peace for Precinct 4, according to the county's website.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Sample Ballot, November 3, 2026 (County Commissioner Pct. 4, Justice of the Peace Pct. 4 ballot style 401BS32)",
+       "publisher": "Tom Green County Elections",
+       "url": "https://www.tomgreencountytx.gov/upload/page/0099/docs/2026/11032026/401BS32.pdf",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Justices of the Peace 1, 2, 4",
+       "publisher": "Tom Green County",
+       "url": "https://www.tomgreencountytx.gov/page/jp.JPHomePage",
+       "date": null
+      }
+     ],
+     "research_gaps": "No biography or start date found.",
+     "researched": true
     }
    ],
    "office": {
