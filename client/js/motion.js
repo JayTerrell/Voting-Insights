@@ -70,7 +70,7 @@ function getObserver() {
         countUpWithin(el);
       });
     },
-    { rootMargin: '0px 0px -6% 0px', threshold: 0.04 }
+    { rootMargin: '0px 0px -6% 0px', threshold: 0 }
   );
   return observer;
 }
@@ -82,8 +82,10 @@ export function reveal(root) {
   root.querySelectorAll(REVEAL).forEach((el) => {
     // Never hide a block inside another block that is already animating.
     if (el.closest('.reveal') || el.classList.contains('reveal')) return;
-    // Anything already on screen stays put; the page entrance covers it.
-    if (el.getBoundingClientRect().top < fold) return;
+    // Anything already on screen stays put; the page entrance covers it. Very
+    // tall blocks and content inside collapsed sections are never hidden.
+    const box = el.getBoundingClientRect();
+    if (box.top < fold || box.height > fold * 1.2 || el.closest('details:not([open])')) return;
     el.classList.add('reveal');
     io.observe(el);
   });
@@ -116,6 +118,7 @@ function countUpWithin(root, instant = false) {
 function onScroll() {
   const y = window.scrollY;
   document.body.classList.toggle('scrolled', y > 24);
+  document.body.classList.toggle('far', y > window.innerHeight * 1.5);
   const bar = document.getElementById('read-progress');
   if (!bar) return;
   const total = document.documentElement.scrollHeight - window.innerHeight;
@@ -140,7 +143,24 @@ function markLoaded(img) {
   img.classList.add('loaded');
 }
 
+// Sticky page menus sit just under the masthead, whose height changes as it compacts.
+function trackMastheadHeight() {
+  const masthead = document.querySelector('.masthead');
+  if (!masthead || !('ResizeObserver' in window)) return;
+  new ResizeObserver(([entry]) => {
+    document.documentElement.style.setProperty(
+      '--masthead-h',
+      `${Math.round(entry.borderBoxSize?.[0]?.blockSize ?? masthead.offsetHeight)}px`
+    );
+  }).observe(masthead);
+}
+
 export function initMotion() {
+  trackMastheadHeight();
+  document.getElementById('to-top')?.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: reduced() ? 'auto' : 'smooth' });
+    document.getElementById('main')?.focus({ preventScroll: true });
+  });
   window.addEventListener('scroll', scheduleScroll, { passive: true });
   window.addEventListener('resize', scheduleScroll, { passive: true });
   document.addEventListener(

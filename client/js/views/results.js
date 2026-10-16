@@ -77,7 +77,7 @@ function draw(view, guide, data, isNew) {
               r.tie ? 'The top two are within 3 points.' : ''
             }</p>
             <a class="small" href="/candidates/${esc(r.id)}">Compare these candidates</a>
-            <span class="small muted"> | </span><a class="small" href="/scoring?race=${esc(r.id)}">Scores and sources</a></div>
+            <span class="small muted"> | </span><a class="small" href="/scoring">How scores work</a></div>
           <div>${rows}</div></div>`;
       })
       .join('')}`;

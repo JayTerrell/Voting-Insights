@@ -1,4 +1,4 @@
-import { $, esc, setTitle, partyTag, sourceLabel, formatScore, raceTitle, GROUPS } from '../ui.js';
+import { $, esc, setTitle, sourceLabel, formatScore, raceTitle } from '../ui.js';
 import { loadGuide } from '../api.js';
 import {
   SCALE,
@@ -168,19 +168,33 @@ function workedExample(guide) {
     <p class="small muted">This example is calculated live by the same code the quiz uses (result: ${result.score}%). Matches built on fewer than ${LIMITED_DATA_THRESHOLD} shared questions are labeled "limited data." This example shares three, so it is not.</p>`;
 }
 
+const slug = (t) =>
+  t
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '');
+
+// The page's three sections, in order. Each is collapsible and listed in the sticky menu.
+const SECTIONS = [
+  { id: 'how', label: 'How scoring works', short: 'How it works' },
+  { id: 'party', label: 'Party platform scores', short: 'Party scores' },
+  { id: 'offices', label: 'Which questions count for which office', short: 'Office questions' },
+];
+
+function section(id, title, body, { open = false, tools = '' } = {}) {
+  return `<details class="fold" id="${id}" ${open ? 'open' : ''}>
+    <summary><h2 id="${id}-h">${esc(title)}</h2><span class="fold-hint" aria-hidden="true"></span></summary>
+    ${tools}
+    <div class="fold-body">${body}</div>
+  </details>`;
+}
+
 export async function renderScoring(view, _params, current) {
   setTitle('Scoring Logic');
   const guide = await loadGuide();
   if (!current()) return;
-  const params = new URLSearchParams(location.search);
-  const filters = {
-    race: params.get('race') || '',
-    candidate: params.get('candidate') || '',
-    question: params.get('question') || '',
-    basis: params.get('basis') || '',
-    text: params.get('q') || '',
-  };
-  const allRows = sheetRows(guide);
+
+  const categories = [...new Set(guide.questions.map((q) => q.category))];
 
   const officeMatrix = guide.questions
     .map(
@@ -192,37 +206,30 @@ export async function renderScoring(view, _params, current) {
     )
     .join('');
 
-  const partySheet = guide.questions
-    .map(
-      (q) =>
-        `<tr><th scope="row"><span class="cat">${esc(q.category)}</span>${esc(q.short)}</th>${guide.parties
-          .map((p) => {
-            const s = p.stances[q.id];
-            if (!s) return `<td data-label="${esc(p.short)}"><span class="pos-none">Not addressed</span></td>`;
-            const srcs = s.sources.map((id) => p.sources.find((x) => x.id === id)).filter(Boolean);
-            return `<td data-label="${esc(p.short)}"><span class="score-badge">Score ${formatScore(s.position)}</span><span class="small">${esc(
-              s.summary
-            )}</span><span class="cites">Source: ${sourceLinks(srcs).replace(/<br>/g, ', ')}</span></td>`;
-          })
-          .join('')}</tr>`
-    )
+  // Party scores, grouped by issue category so the list can be jumped through.
+  const partyCell = (p, q) => {
+    const st = p.stances[q.id];
+    if (!st) return `<td data-label="${esc(p.short)}"><span class="pos-none">Not addressed</span></td>`;
+    const srcs = st.sources.map((id) => p.sources.find((x) => x.id === id)).filter(Boolean);
+    return `<td data-label="${esc(p.short)}"><span class="score-badge">Score ${formatScore(st.position)}</span><span class="small">${esc(
+      st.summary
+    )}</span><span class="cites">Source: ${sourceLinks(srcs).replace(/<br>/g, ', ')}</span></td>`;
+  };
+  const partySheet = categories
+    .map((cat) => {
+      const qs = guide.questions.filter((q) => q.category === cat);
+      return `<tbody class="cat-group" id="party-${slug(cat)}">
+        <tr class="cat-row"><th colspan="${guide.parties.length + 1}" scope="rowgroup">${esc(cat)}</th></tr>
+        ${qs
+          .map(
+            (q) =>
+              `<tr id="party-q-${esc(q.id)}"><th scope="row">${esc(q.short)}</th>${guide.parties.map((p) => partyCell(p, q)).join('')}</tr>`
+          )
+          .join('')}</tbody>`;
+    })
     .join('');
 
-  const candidateOptions = guide.races
-    .flatMap((r) => r.candidates.map((c) => ({ c, r })))
-    .sort((a, b) => a.c.name.localeCompare(b.c.name))
-    .map(({ c, r }) => `<option value="${esc(c.id)}">${esc(c.name)} (${esc(raceTitle(r))})</option>`)
-    .join('');
-
-  view.innerHTML = `
-  <div class="prose" style="max-width:none">
-    <span class="eyebrow">Scoring Logic</span>
-    <h1>How every match percentage is calculated</h1>
-    <p class="lede" style="max-width:46em">This page shows the exact rules behind the quiz, the score assigned to every candidate on every issue, and the page each score came from, so anyone can check the work.</p>
-  </div>
-
-  <section aria-labelledby="steps-h">
-    <div class="section-head"><h2 id="steps-h">The five steps</h2></div>
+  const howBody = `
     <ol class="steps">
       <li><div><b>Every candidate position gets a score from -2 to +2.</b> Researchers read the candidate's votes, statements, questionnaire answers, and news coverage, and record how strongly the candidate agrees with each quiz statement. Every score links to its source. If nothing is documented, there is no score, and we never fill one in from a party label.</div></li>
       <li><div><b>Your answers use the same scale.</b> Strongly agree is +2 and Strongly disagree is -2. You also rate how important each issue is to you. Skipped questions are left out.</div></li>
@@ -230,14 +237,11 @@ export async function renderScoring(view, _params, current) {
       <li><div><b>Agreement values are averaged with weights.</b> Questions you marked important count more, and positions backed by stronger evidence count more. A neutral 50 percent starting point keeps a candidate with very few documented positions from showing an extreme score.</div></li>
       <li><div><b>Only questions tied to the office count for each race.</b> A Railroad Commission race uses energy and land questions; a county race uses county budget questions. Every candidate in a race is measured on the same set of questions.</div></li>
     </ol>
-  </section>
-
-  <section aria-labelledby="scales-h">
-    <div class="section-head"><h2 id="scales-h">The scales and weights</h2></div>
+    <h3>The scales and weights</h3>
     <div class="scale-tables">
       <table class="ballot"><caption>Position score (answers and candidates)</caption>
         <thead><tr><th>Meaning</th><th class="num">Score</th></tr></thead>
-        <tbody>${SCALE.map((s) => `<tr><td>${esc(s.label)}</td><td class="num">${formatScore(s.value)}</td></tr>`).join('')}</tbody></table>
+        <tbody>${SCALE.map((x) => `<tr><td>${esc(x.label)}</td><td class="num">${formatScore(x.value)}</td></tr>`).join('')}</tbody></table>
       <table class="ballot"><caption>How important the issue is to you</caption>
         <thead><tr><th>Your rating</th><th class="num">Weight</th></tr></thead>
         <tbody>${IMPORTANCE.map((i) => `<tr><td>${esc(i.label)}</td><td class="num">${i.value}</td></tr>`).join('')}</tbody></table>
@@ -247,129 +251,170 @@ export async function renderScoring(view, _params, current) {
       <tbody>${Object.entries(BASIS_WEIGHT)
         .map(([k, v]) => `<tr><td>${esc(BASIS_LABEL[k])}</td><td>${esc(BASIS_MEANING[k])}</td><td class="num">${v}</td></tr>`)
         .join('')}</tbody></table>
-  </section>
-
-  <section aria-labelledby="formula-h">
-    <div class="section-head"><h2 id="formula-h">The formula</h2></div>
+    <h3>The formula</h3>
     <p class="formula">agreement = 1 - |your answer - candidate score| / 4</p>
     <p class="formula">weight = your importance rating x evidence weight</p>
     <p class="formula">match = (sum of weight x agreement + 0.5 x ${PRIOR_WEIGHT}) / (sum of weights + ${PRIOR_WEIGHT})</p>
     <p>The "+ 0.5 x ${PRIOR_WEIGHT}" and "+ ${PRIOR_WEIGHT}" terms are the neutral starting point: it acts like ${PRIOR_WEIGHT} extra questions of evidence sitting at exactly 50 percent. A match built on fewer than ${LIMITED_DATA_THRESHOLD} shared questions is labeled "limited data." The closest match in a race is the highest percentage; when the top two are within 3 points the race is marked as close.</p>
-    <h3 style="margin-top:24px">Worked example</h3>
+    <h3>Worked example</h3>
     <p>Suppose you answer three questions and a candidate has documented positions on all three:</p>
     ${workedExample(guide)}
-  </section>
+    <h3>Check every score yourself</h3>
+    <p>Each candidate's profile lists every documented position with its score, evidence type, and a link to the exact source. To review all of them at once, download the full score sheet: every candidate, question, score, evidence type, and source link (${sheetRows(guide).length} rows).</p>
+    <p><button class="btn btn-ghost btn-small" id="csv" type="button">Download the full score sheet (CSV)</button></p>`;
 
-  <section aria-labelledby="offices-h">
-    <div class="section-head"><h2 id="offices-h">Which questions count for which office</h2></div>
-    <p>A question counts toward a race only when that office has real power over the issue. Party alignment uses every question.</p>
-    <div class="table-scroll"><table class="stance-table stack office-matrix">
-      <thead><tr><th>Question</th>${OFFICE_COLUMNS.map(([l]) => `<th>${esc(l)}</th>`).join('')}</tr></thead>
-      <tbody>${officeMatrix}</tbody></table></div>
-  </section>
+  const partyTools = `<div class="fold-tools" role="navigation" aria-label="Jump to an issue">
+      <div class="chip-row">${categories
+        .map((c) => `<a class="chip" href="#party-${slug(c)}" data-jump="party-${slug(c)}">${esc(c)}</a>`)
+        .join('')}</div>
+      <div class="jump-row">
+        <label class="sr-only" for="party-jump">Jump to an issue</label>
+        <select id="party-jump"><option value="">Jump to an issue</option>${categories
+          .map(
+            (c) =>
+              `<optgroup label="${esc(c)}">${guide.questions
+                .filter((q) => q.category === c)
+                .map((q) => `<option value="party-q-${esc(q.id)}">${esc(q.short)}</option>`)
+                .join('')}</optgroup>`
+          )
+          .join('')}</select>
+        <a class="small" href="#party" data-jump="party">Section top</a>
+      </div>
+    </div>`;
 
-  <section aria-labelledby="party-h">
-    <div class="section-head"><h2 id="party-h">Party platform scores</h2></div>
+  const partyBody = `
     <p>Party alignment compares your answers with each party's official Texas platform, using the same formula. Platforms used: ${guide.parties
       .map((p) => `<a href="${esc(p.platform_url || '#')}" target="_blank" rel="noopener">${esc(p.platform_title || p.name)}</a>`)
       .join('; ')}.</p>
-    <div class="table-scroll"><table class="stance-table stack">
+    <div class="table-scroll"><table class="stance-table stack party-sheet">
       <thead><tr><th>Question</th>${guide.parties.map((p) => `<th>${esc(p.short)}</th>`).join('')}</tr></thead>
-      <tbody>${partySheet}</tbody></table></div>
-  </section>
+      ${partySheet}</table></div>`;
 
-  <section aria-labelledby="sheet-h">
-    <div class="section-head"><h2 id="sheet-h">Candidate score sheet</h2><button class="btn btn-ghost btn-small" id="csv">Download as CSV</button></div>
-    <p>Every documented candidate position, its score, the kind of evidence, and the exact page it came from. Select a source to open it and check it yourself.</p>
-    <div class="sheet-filters">
-      <div><label for="f-race">Race</label><select id="f-race"><option value="">All races</option>${GROUPS.map(
-        (g) =>
-          `<optgroup label="${esc(g.label)}">${guide.races
-            .filter((r) => r.group === g.id)
-            .map((r) => `<option value="${esc(r.id)}">${esc(raceTitle(r))}</option>`)
-            .join('')}</optgroup>`
-      ).join('')}</select></div>
-      <div><label for="f-cand">Candidate</label><select id="f-cand"><option value="">All candidates</option>${candidateOptions}</select></div>
-      <div><label for="f-q">Question</label><select id="f-q"><option value="">All questions</option>${guide.questions
-        .map((q) => `<option value="${esc(q.id)}">${esc(q.short)}</option>`)
-        .join('')}</select></div>
-      <div><label for="f-basis">Evidence</label><select id="f-basis"><option value="">All evidence types</option>${Object.keys(
-        BASIS_WEIGHT
-      )
-        .filter((k) => k !== 'platform')
-        .map((k) => `<option value="${k}">${esc(BASIS_LABEL[k])}</option>`)
-        .join('')}</select></div>
-      <div><label for="f-text">Search</label><input id="f-text" type="search" placeholder="Name or word"></div>
+  const officeBody = `
+    <p>A question counts toward a race only when that office has real power over the issue. Party alignment uses every question.</p>
+    <div class="table-scroll"><table class="stance-table stack office-matrix">
+      <thead><tr><th>Question</th>${OFFICE_COLUMNS.map(([l]) => `<th>${esc(l)}</th>`).join('')}</tr></thead>
+      <tbody>${officeMatrix}</tbody></table></div>`;
+
+  view.innerHTML = `<div id="scoring-root">
+  <div class="prose" style="max-width:none">
+    <span class="eyebrow">Scoring Logic</span>
+    <h1>How every match percentage is calculated</h1>
+    <p class="lede" style="max-width:46em">The exact rules behind the quiz, each party's score on every issue, and which questions count for each office. Open any section below, or use the menu to jump between them.</p>
+  </div>
+  <nav class="subnav" aria-label="On this page">
+    <div class="subnav-links">${SECTIONS.map(
+      (x) =>
+        `<a href="#${x.id}" data-jump="${x.id}"><span class="long-label">${esc(x.label)}</span><span class="short-label">${esc(x.short)}</span></a>`
+    ).join('')}</div>
+    <div class="subnav-actions">
+      <button type="button" class="linkish" id="fold-all">Expand all</button>
+      <a href="#top" data-jump="top" class="subnav-top">Top</a>
     </div>
-    <p class="small muted" id="sheet-count" aria-live="polite"></p>
-    <div class="table-scroll"><table class="stance-table stack score-sheet">
-      <thead><tr><th>Candidate</th><th>Question</th><th>Score</th><th>Evidence</th><th>What the record shows</th><th>Source</th></tr></thead>
-      <tbody id="sheet-body"></tbody></table></div>
-  </section>
+  </nav>
+  ${section('how', 'How scoring works', howBody, { open: true })}
+  ${section('party', 'Party platform scores', partyBody, { tools: partyTools })}
+  ${section('offices', 'Which questions count for which office', officeBody)}
+  </div>`;
 
-  <section aria-labelledby="coverage-h">
-    <div class="section-head"><h2 id="coverage-h">Coverage by candidate</h2></div>
-    <p>How many of the questions that count for each office have a documented position. Low coverage means a candidate's match percentage rests on less evidence.</p>
-    <table class="ballot" id="coverage"><thead><tr><th>Race</th><th>Candidate</th><th class="num">Documented</th><th class="num">Sources</th></tr></thead><tbody>${guide.races
-      .flatMap((r) => {
-        const n = guide.questions.filter((q) => q.offices.includes(r.office_type)).length;
-        return r.candidates.map(
-          (
-            c
-          ) => `<tr><td>${esc(raceTitle(r))}</td><td><a href="/candidate/${esc(c.id)}">${esc(c.name)}</a> ${partyTag(c.party)}</td>
-            <td class="num">${guide.questions.filter((q) => q.offices.includes(r.office_type) && c.stances[q.id]).length} of ${n}</td>
-            <td class="num">${c.sources.length}</td></tr>`
-        );
-      })
-      .join('')}</tbody></table>
-  </section>`;
+  const root = $('#scoring-root', view);
+  const folds = [...root.querySelectorAll('details.fold')];
 
-  const ids = { race: '#f-race', candidate: '#f-cand', question: '#f-q', basis: '#f-basis', text: '#f-text' };
-  for (const [k, sel] of Object.entries(ids)) $(sel, view).value = filters[k];
-
-  function filtered() {
-    const t = filters.text.trim().toLowerCase();
-    return allRows
-      .filter(
-        (r) =>
-          (!filters.race || r.race.id === filters.race) &&
-          (!filters.candidate || r.candidate.id === filters.candidate) &&
-          (!filters.question || r.question.id === filters.question) &&
-          (!filters.basis || r.stance.basis === filters.basis) &&
-          (!t || `${r.candidate.name} ${r.question.statement} ${r.stance.summary} ${raceTitle(r.race)}`.toLowerCase().includes(t))
-      )
-      .sort((a, b) => a.order - b.order);
+  // Opening a section from the menu, a chip, or the issue list scrolls to it.
+  function jump(id) {
+    if (id === 'top') return window.scrollTo({ top: 0, behavior: 'smooth' });
+    const target = document.getElementById(id);
+    if (!target) return;
+    const fold = target.closest('details.fold');
+    if (fold && !fold.open) fold.open = true;
+    // Land just below the sticky bars. The masthead compacts once the page scrolls,
+    // so use its compact height when it has not compacted yet.
+    const masthead = document.querySelector('.masthead');
+    const mastheadH = document.body.classList.contains('scrolled') ? masthead.offsetHeight : window.innerWidth < 720 ? 100 : 58;
+    const inIssues = target.closest('.party-sheet') !== null;
+    const offset = mastheadH + $('.subnav', root).offsetHeight + (inIssues ? $('.fold-tools', root).offsetHeight : 0) + 8;
+    const top = target.getBoundingClientRect().top + window.scrollY - offset;
+    window.scrollTo({ top, behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+    target.classList.remove('flash');
+    void target.offsetWidth;
+    target.classList.add('flash');
   }
 
-  function draw() {
-    const rows = filtered();
-    $('#sheet-count', view).textContent = `${rows.length} of ${allRows.length} documented positions shown.`;
-    $('#sheet-body', view).innerHTML = rows.length
-      ? rows
-          .map(
-            (r) => `<tr>
-          <th scope="row"><a href="/candidate/${esc(r.candidate.id)}"><b>${esc(r.candidate.name)}</b></a><br>${partyTag(r.candidate.party)}<br><span class="small muted">${esc(raceTitle(r.race))}</span></th>
-          <td data-label="Question">${esc(r.question.short)}${r.counts ? '' : '<br><span class="small muted">Not counted for this office</span>'}</td>
-          <td data-label="Score"><span class="score-badge">${formatScore(r.stance.position)}</span><br><span class="small">${esc(positionLabel(r.stance.position))}</span></td>
-          <td data-label="Evidence">${esc(BASIS_LABEL[r.stance.basis] || r.stance.basis)}<br><span class="small muted">weight ${BASIS_WEIGHT[r.stance.basis] ?? ''}</span></td>
-          <td data-label="What the record shows">${esc(r.stance.summary)}</td>
-          <td data-label="Source">${sourceLinks(r.sources)}</td></tr>`
-          )
-          .join('')
-      : '<tr><td colspan="6" class="muted">No documented positions match these filters.</td></tr>';
-    const p = new URLSearchParams();
-    for (const k of ['race', 'candidate', 'question', 'basis']) if (filters[k]) p.set(k, filters[k]);
-    if (filters.text) p.set('q', filters.text);
-    history.replaceState({}, '', `/scoring${p.toString() ? '?' + p : ''}`);
-  }
+  root.addEventListener('click', (e) => {
+    const link = e.target.closest('[data-jump]');
+    if (!link) return;
+    e.preventDefault();
+    jump(link.dataset.jump);
+  });
+  $('#party-jump', root).addEventListener('change', (e) => {
+    if (e.target.value) jump(e.target.value);
+    e.target.value = '';
+  });
 
-  for (const [k, sel] of Object.entries(ids)) {
-    $(sel, view).addEventListener(k === 'text' ? 'input' : 'change', (e) => {
-      filters[k] = e.target.value;
-      draw();
+  const foldAll = $('#fold-all', root);
+  const syncFoldAll = () => {
+    foldAll.textContent = folds.every((f) => f.open) ? 'Collapse all' : 'Expand all';
+  };
+  foldAll.addEventListener('click', () => {
+    const open = !folds.every((f) => f.open);
+    folds.forEach((f) => (f.open = open));
+    syncFoldAll();
+  });
+  folds.forEach((f) => f.addEventListener('toggle', syncFoldAll));
+  syncFoldAll();
+
+  // The menu marks the section currently on screen.
+  const links = [...root.querySelectorAll('.subnav-links a')];
+  const spy = new IntersectionObserver(
+    (entries) => {
+      for (const entry of entries) {
+        if (!entry.isIntersecting) continue;
+        links.forEach((a) => a.classList.toggle('current', a.dataset.jump === entry.target.id));
+      }
+    },
+    { rootMargin: '-35% 0px -60% 0px' }
+  );
+  folds.forEach((f) => spy.observe(f));
+
+  // The issue chips mark the category currently on screen.
+  const chips = [...root.querySelectorAll('.chip')];
+  const chipRow = $('.chip-row', root);
+  const markChip = (id) => {
+    let active;
+    chips.forEach((c) => {
+      const on = c.dataset.jump === id;
+      c.classList.toggle('current', on);
+      if (on) active = c;
     });
+    // On phones the chips scroll sideways; keep the current one in view.
+    if (active && chipRow.scrollWidth > chipRow.clientWidth) {
+      chipRow.scrollTo({ left: active.offsetLeft - chipRow.clientWidth / 2 + active.offsetWidth / 2, behavior: 'smooth' });
+    }
+  };
+  root.addEventListener('click', (e) => {
+    const chip = e.target.closest('.chip');
+    if (chip) markChip(chip.dataset.jump);
+  });
+  const chipSpy = new IntersectionObserver(
+    (entries) => {
+      for (const entry of entries) if (entry.isIntersecting) markChip(entry.target.id);
+    },
+    { rootMargin: '-40% 0px -55% 0px' }
+  );
+  root.querySelectorAll('.cat-group').forEach((g) => chipSpy.observe(g));
+
+  // Jump targets land below the sticky menus, whatever their height.
+  const tools = $('.fold-tools', root);
+  const subnav = $('.subnav', root);
+  if ('ResizeObserver' in window) {
+    new ResizeObserver(() => {
+      root.style.setProperty('--subnav-h', `${subnav.offsetHeight}px`);
+      root.style.setProperty('--tools-h', `${tools.offsetHeight}px`);
+    }).observe(root);
   }
-  $('#csv', view).addEventListener('click', () => downloadCsv(filtered()));
-  draw();
-  if (filters.race || filters.candidate || filters.question) $('#sheet-h', view).scrollIntoView({ block: 'start' });
+
+  $('#csv', root).addEventListener('click', () => downloadCsv(sheetRows(guide)));
+
+  // Links such as /scoring#party open that section.
+  if (location.hash) requestAnimationFrame(() => jump(location.hash.slice(1)));
 }

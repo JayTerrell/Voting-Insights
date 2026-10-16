@@ -2448,3 +2448,356 @@ select:focus {
     background: rgba(255, 253, 248, 0.75);
   }
 }
+
+/* =====================================================================
+   In-page navigation: sticky section menu, collapsible sections, issue jumps
+   ===================================================================== */
+
+:root {
+  --masthead-h: 88px;
+}
+html {
+  scroll-padding-top: calc(var(--masthead-h) + 12px);
+}
+
+.subnav {
+  position: sticky;
+  top: var(--masthead-h);
+  z-index: 30;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px 16px;
+  margin: 20px 0 24px;
+  padding: 6px;
+  background: rgba(247, 244, 236, 0.9);
+  backdrop-filter: blur(12px) saturate(150%);
+  -webkit-backdrop-filter: blur(12px) saturate(150%);
+  border: 1px solid var(--rule);
+  border-top: 2px solid var(--navy);
+}
+.subnav-links {
+  display: flex;
+  gap: 4px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.subnav-links::-webkit-scrollbar {
+  display: none;
+}
+.subnav-links a,
+.subnav-top {
+  flex: none;
+  padding: 7px 12px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--navy);
+  text-decoration: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  transition:
+    background-color var(--dur-short) var(--ease-in-out),
+    border-color var(--dur-short) var(--ease-in-out),
+    color var(--dur-short) var(--ease-in-out);
+}
+.subnav-links a:hover,
+.subnav-top:hover {
+  border-color: var(--rule);
+  background: var(--card);
+}
+.subnav-links a.current {
+  background: var(--navy);
+  border-color: var(--navy);
+  color: var(--card);
+}
+.subnav-actions {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex: none;
+}
+.subnav-actions .linkish {
+  font-size: 0.85rem;
+}
+@media (max-width: 639px) {
+  .subnav {
+    flex-wrap: wrap;
+    margin-left: -16px;
+    margin-right: -16px;
+    border-left: 0;
+    border-right: 0;
+  }
+  .subnav-links {
+    width: 100%;
+  }
+  .subnav-actions {
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 6px 2px;
+  }
+}
+
+/* ---------- Collapsible sections ---------- */
+details.fold {
+  border-top: 2px solid var(--navy);
+  margin-top: 8px;
+  scroll-margin-top: calc(var(--masthead-h) + var(--subnav-h, 52px) + 8px);
+}
+details.fold > summary {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 16px 4px;
+  cursor: pointer;
+  border-bottom: 1px solid var(--rule);
+}
+details.fold > summary::-webkit-details-marker {
+  display: none;
+}
+details.fold > summary h2 {
+  margin: 0;
+  font-size: clamp(1.2rem, 2.4vw, 1.55rem);
+}
+details.fold > summary:hover h2 {
+  color: var(--red);
+}
+/* A drawn plus that turns into a minus when the section is open. */
+.fold-hint {
+  position: relative;
+  flex: none;
+  width: 30px;
+  height: 30px;
+  border: 1px solid var(--navy);
+  transition:
+    background-color var(--dur-short) var(--ease-in-out),
+    transform var(--dur-std) var(--ease-smooth);
+}
+.fold-hint::before,
+.fold-hint::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 12px;
+  height: 2px;
+  margin: -1px 0 0 -6px;
+  background: var(--navy);
+  transition:
+    transform var(--dur-std) var(--ease-smooth),
+    background-color var(--dur-short) var(--ease-in-out);
+}
+.fold-hint::after {
+  transform: rotate(90deg);
+}
+details.fold[open] > summary .fold-hint {
+  background: var(--navy);
+}
+details.fold[open] > summary .fold-hint::before,
+details.fold[open] > summary .fold-hint::after {
+  background: var(--card);
+}
+details.fold[open] > summary .fold-hint::after {
+  transform: rotate(0deg);
+}
+.fold-body {
+  padding: 16px 0 28px;
+}
+.fold-body > h3 {
+  margin-top: 28px;
+}
+@keyframes fold-open {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+details.fold[open] > .fold-body,
+details.fold[open] > .fold-tools {
+  animation: fold-open var(--dur-std) var(--ease-smooth);
+}
+
+/* ---------- Issue jump tools inside the party section ---------- */
+.fold-tools {
+  position: sticky;
+  top: calc(var(--masthead-h) + var(--subnav-h, 52px));
+  z-index: 20;
+  padding: 10px 0 8px;
+  background: rgba(247, 244, 236, 0.92);
+  backdrop-filter: blur(12px) saturate(150%);
+  -webkit-backdrop-filter: blur(12px) saturate(150%);
+  border-bottom: 1px solid var(--rule);
+}
+.chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.chip {
+  padding: 4px 10px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--navy);
+  text-decoration: none;
+  border: 1px solid var(--rule);
+  background: var(--card);
+  white-space: nowrap;
+  transition:
+    background-color var(--dur-short) var(--ease-in-out),
+    border-color var(--dur-short) var(--ease-in-out),
+    color var(--dur-short) var(--ease-in-out);
+}
+.chip:hover {
+  border-color: var(--navy);
+}
+.chip.current {
+  background: var(--navy);
+  border-color: var(--navy);
+  color: var(--card);
+}
+.jump-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-top: 8px;
+}
+.jump-row a {
+  white-space: nowrap;
+}
+.jump-row select {
+  width: auto;
+  max-width: 100%;
+  padding: 6px 10px;
+  font-size: 0.9rem;
+}
+/* Phones: the categories scroll sideways in one line instead of stacking. */
+@media (max-width: 639px) {
+  .fold-tools {
+    margin-left: -16px;
+    margin-right: -16px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .chip-row {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+    padding-bottom: 2px;
+  }
+  .chip-row::-webkit-scrollbar {
+    display: none;
+  }
+  .jump-row {
+    justify-content: space-between;
+  }
+  .jump-row select {
+    flex: 1;
+  }
+}
+.party-sheet .cat-group,
+.party-sheet tr {
+  scroll-margin-top: calc(var(--masthead-h) + var(--subnav-h, 52px) + var(--tools-h, 90px) + 8px);
+}
+.stance-table.party-sheet tr.cat-row th {
+  background: var(--navy);
+  color: var(--card);
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 7px 12px;
+}
+@media (max-width: 639px) {
+  .party-sheet.stack .cat-row {
+    display: block;
+  }
+  .party-sheet.stack .cat-row th {
+    display: block;
+  }
+}
+
+/* A brief highlight shows where a jump landed. */
+@keyframes flash {
+  0% {
+    outline-color: rgba(212, 167, 44, 0.9);
+  }
+  100% {
+    outline-color: rgba(212, 167, 44, 0);
+  }
+}
+.flash {
+  outline: 3px solid rgba(212, 167, 44, 0);
+  outline-offset: -3px;
+  animation: flash 1.8s var(--ease-out);
+}
+
+/* ---------- Back to top ---------- */
+#to-top {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  z-index: 45;
+  width: 44px;
+  height: 44px;
+  border: 1px solid var(--navy);
+  background: rgba(19, 41, 75, 0.88);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  cursor: pointer;
+  opacity: 0;
+  transform: translateY(12px);
+  pointer-events: none;
+  transition:
+    opacity var(--dur-std) var(--ease-in-out),
+    transform var(--dur-std) var(--ease-smooth),
+    background-color var(--dur-short) var(--ease-in-out);
+}
+#to-top span {
+  position: absolute;
+  left: 50%;
+  top: 55%;
+  width: 12px;
+  height: 12px;
+  margin: -6px 0 0 -6px;
+  border-left: 2px solid var(--card);
+  border-top: 2px solid var(--card);
+  transform: rotate(45deg);
+}
+body.far #to-top {
+  opacity: 1;
+  transform: none;
+  pointer-events: auto;
+}
+#to-top:hover {
+  background: var(--red);
+  border-color: var(--red);
+}
+@media print {
+  #to-top,
+  .subnav,
+  .fold-tools,
+  .fold-hint {
+    display: none !important;
+  }
+  details.fold > .fold-body {
+    display: block;
+  }
+}
+.subnav,
+.fold-tools {
+  background: rgba(247, 244, 236, 0.97);
+}
+@media (max-width: 639px) {
+  .subnav-actions {
+    display: none;
+  }
+  .jump-row select {
+    min-width: 0;
+  }
+}
