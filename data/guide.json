@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T16:02:45.780Z",
+ "generated_at": "2026-10-16T16:08:38.444Z",
  "election": {
   "name": "2026 November General Election",
   "county": "Collin County, Texas",
@@ -90796,19 +90796,34 @@
      "id": "jeth-jones",
      "name": "Jeth Jones",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, 122nd District Court",
+     "background": "The Texas judicial directory lists Louis (Jeth) Jether Jones II as judge of the 122nd District Court in Galveston County.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Texas Judicial Directory, court personnel search",
+       "publisher": "Texas Office of Court Administration",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": "2026-10"
+      }
+     ],
+     "research_gaps": "Galveston County's website blocked automated access, so this profile relies on the state judicial directory; no biography was found.",
+     "researched": true
     }
    ],
    "office": {
@@ -90833,19 +90848,34 @@
      "id": "patricia-grady",
      "name": "Patricia Grady",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, 212th District Court",
+     "background": "The Texas judicial directory lists Patricia V. Grady as judge of the 212th District Court in Galveston County.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Texas Judicial Directory, court personnel search",
+       "publisher": "Texas Office of Court Administration",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": "2026-10"
+      }
+     ],
+     "research_gaps": "Galveston County's website blocked automated access, so this profile relies on the state judicial directory; no biography was found.",
+     "researched": true
     }
    ],
    "office": {
@@ -90870,19 +90900,41 @@
      "id": "emily-a-fisher",
      "name": "Emily A. Fisher",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, 306th District Court since January 2025 (appointed)",
+     "background": "Governor Greg Abbott appointed Emily A. Fisher of Galveston to the 306th District Court effective January 4, 2025. She was previously a family associate judge for Galveston County and is board certified in family law by the Texas Board of Legal Specialization. She holds a bachelor's degree from Baylor University and a law degree from Baylor Law School, and is a former president of the Galveston County Bar Association.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Governor Abbott Appoints Fisher To 306th Judicial District Court",
+       "publisher": "Office of the Texas Governor",
+       "url": "https://gov.texas.gov/news/post/governor-abbott-appoints-fisher-to-306th-judicial-district-court",
+       "date": "2024-12-19"
+      },
+      {
+       "id": "s2",
+       "title": "Texas Judicial Directory, court personnel search",
+       "publisher": "Texas Office of Court Administration",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": "2026-10"
+      }
+     ],
      "research_gaps": "",
-     "researched": false
+     "researched": true
     }
    ],
    "office": {
@@ -90907,19 +90959,34 @@
      "id": "kenneth-cusick",
      "name": "Kenneth Cusick",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Galveston County Criminal District Attorney since October 2025 (appointed)",
+     "background": "Governor Greg Abbott appointed Kenneth Cusick of Dickinson as Galveston County Criminal District Attorney on October 6, 2025, for a term running through December 31, 2026. He was an assistant U.S. attorney in the Southern District of Texas. He received an honorable discharge from the U.S. Marine Corps in 1990 and holds an economics degree from Texas A&M University and a law degree from South Texas College of Law.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Governor Abbott Appoints Cusick As Galveston County Criminal District Attorney",
+       "publisher": "Office of the Texas Governor",
+       "url": "https://gov.texas.gov/news/post/governor-abbott-appoints-cusick-as-galveston-county-criminal-district-attorney",
+       "date": "2025-10-06"
+      }
+     ],
+     "research_gaps": "No campaign website or stated policy priorities were found in this pass.",
+     "researched": true
     }
    ],
    "office": {
@@ -91172,19 +91239,34 @@
      "id": "john-grady",
      "name": "John Grady",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, Galveston County Court at Law No. 1",
+     "background": "The Texas judicial directory lists John Grady as judge of Galveston County Court at Law No. 1.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Texas Judicial Directory, court personnel search",
+       "publisher": "Texas Office of Court Administration",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": "2026-10"
+      }
+     ],
+     "research_gaps": "Galveston County's website blocked automated access, so this profile relies on the state judicial directory; no biography was found.",
+     "researched": true
     }
    ],
    "office": {
@@ -91209,19 +91291,34 @@
      "id": "kerri-foley",
      "name": "Kerri Foley",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, Galveston County Court at Law No. 2",
+     "background": "The Texas judicial directory lists Kerri M. Foley as judge of Galveston County Court at Law No. 2.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Texas Judicial Directory, court personnel search",
+       "publisher": "Texas Office of Court Administration",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": "2026-10"
+      }
+     ],
+     "research_gaps": "Galveston County's website blocked automated access, so this profile relies on the state judicial directory; no biography was found.",
+     "researched": true
     }
    ],
    "office": {
@@ -91246,19 +91343,34 @@
      "id": "jack-ewing",
      "name": "Jack Ewing",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, Galveston County Court at Law No. 3",
+     "background": "The Texas judicial directory lists Jack Ewing as judge of Galveston County Court at Law No. 3.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Texas Judicial Directory, court personnel search",
+       "publisher": "Texas Office of Court Administration",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": "2026-10"
+      }
+     ],
+     "research_gaps": "Galveston County's website blocked automated access, so this profile relies on the state judicial directory; no biography was found.",
+     "researched": true
     }
    ],
    "office": {
@@ -91283,19 +91395,34 @@
      "id": "kim-sullivan",
      "name": "Kim Sullivan",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, Galveston County Probate Court",
+     "background": "The Texas judicial directory lists Kimberly Sullivan as judge of the Galveston County Probate Court.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Texas Judicial Directory, court personnel search",
+       "publisher": "Texas Office of Court Administration",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": "2026-10"
+      }
+     ],
+     "research_gaps": "Galveston County's website blocked automated access, so this profile relies on the state judicial directory; no biography was found.",
+     "researched": true
     }
    ],
    "office": {
@@ -91321,18 +91448,53 @@
      "name": "Samantha Morris",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
-     "website": null,
+     "current_role": "Educator; Republican nominee for Galveston County District Clerk",
+     "background": "Samantha Morris describes herself as an educator with 17 years serving local students, a single mother of two daughters, and a community volunteer. She is running as a challenger; the Texas judicial directory lists John D. Kinard as the current Galveston County District Clerk.",
+     "website": "https://electsamantha.com/",
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Her campaign lists fiscal responsibility, transparency and accountability, and access to justice through technology upgrades as priorities.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Samantha Morris for Galveston County District Clerk",
+       "publisher": "Samantha Morris campaign",
+       "url": "https://electsamantha.com/",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Texas Judicial Directory, court personnel search",
+       "publisher": "Texas Office of Court Administration",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": "2026-10"
+      },
+      {
+       "id": "s3",
+       "title": "2026 Texas General Election: Galveston County District Clerk",
+       "publisher": "Branch",
+       "url": "https://branch.vote/races/2026-texas-general-election-tx-state-district-clerk-tx-county-galveston",
+       "date": null
+      }
+     ],
+     "research_gaps": "No official county source for her candidacy was reachable; Galveston County's website blocked automated access.",
+     "researched": true
     }
    ],
    "office": {
@@ -91357,19 +91519,34 @@
      "id": "dwight-sullivan",
      "name": "Dwight Sullivan",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Galveston County Clerk",
+     "background": "The Texas judicial directory lists Dwight D. Sullivan as the Galveston County Clerk.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Texas Judicial Directory, court personnel search",
+       "publisher": "Texas Office of Court Administration",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": "2026-10"
+      }
+     ],
+     "research_gaps": "Galveston County's website blocked automated access, so this profile relies on the state judicial directory; no biography was found.",
+     "researched": true
     }
    ],
    "office": {
@@ -91394,19 +91571,34 @@
      "id": "joe-giusti",
      "name": "Joe Giusti",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Galveston County Commissioner, Precinct 2",
+     "background": "Joe Giusti is the Galveston County Commissioner for Precinct 2, according to the Galveston Central Appraisal District's 2025 directory of taxing unit officials.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "2025 Online Directory",
+       "publisher": "Galveston Central Appraisal District",
+       "url": "https://galvestoncad.org/wp-content/uploads/2025/10/2025_Online_Directory.pdf",
+       "date": "2025-10"
+      }
+     ],
+     "research_gaps": "Galveston County's website blocked automated access; no biography or start date was found.",
+     "researched": true
     }
    ],
    "office": {
@@ -91431,19 +91623,41 @@
      "id": "robin-armstrong",
      "name": "Robin Armstrong",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Galveston County Commissioner, Precinct 4",
+     "background": "Robin Armstrong is the Galveston County Commissioner for Precinct 4, according to the Galveston Central Appraisal District's 2025 directory. The Galveston County Daily News reported that he was chosen as the Republican Party's pick for the Precinct 4 seat.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "2025 Online Directory",
+       "publisher": "Galveston Central Appraisal District",
+       "url": "https://galvestoncad.org/wp-content/uploads/2025/10/2025_Online_Directory.pdf",
+       "date": "2025-10"
+      },
+      {
+       "id": "s2",
+       "title": "Armstrong elected as GOP pick for Precinct 4 commissioner",
+       "publisher": "The Galveston County Daily News",
+       "url": "https://www.galvnews.com/news/armstrong-elected-as-gop-pick-for-precinct-4-commissioner/article_d3a4a629-b5b8-514c-80b0-cd89f07c659e.html",
+       "date": null
+      }
+     ],
+     "research_gaps": "Galveston County's website blocked automated access and the news article could not be read; his background and start date were not confirmed.",
+     "researched": true
     }
    ],
    "office": {
@@ -91468,19 +91682,34 @@
      "id": "greg-rikard",
      "name": "Greg Rikard",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Justice of the Peace, Galveston County Precinct 1",
+     "background": "The Texas judicial directory lists Gregory Lynn Rikard as Justice of the Peace for Galveston County Precinct 1.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Texas Judicial Directory, court personnel search",
+       "publisher": "Texas Office of Court Administration",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": "2026-10"
+      }
+     ],
+     "research_gaps": "Galveston County's website blocked automated access, so this profile relies on the state judicial directory; no biography was found.",
+     "researched": true
     }
    ],
    "office": {
@@ -91505,19 +91734,34 @@
      "id": "d-blake-apffel",
      "name": "D. Blake Apffel",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Justice of the Peace, Galveston County Precinct 2",
+     "background": "The Texas judicial directory lists Darrell Blake Apffel as Justice of the Peace for Galveston County Precinct 2.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Texas Judicial Directory, court personnel search",
+       "publisher": "Texas Office of Court Administration",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": "2026-10"
+      }
+     ],
+     "research_gaps": "Galveston County's website blocked automated access, so this profile relies on the state judicial directory; no biography was found.",
+     "researched": true
     }
    ],
    "office": {
@@ -91542,19 +91786,34 @@
      "id": "billy-a-williams-jr",
      "name": "Billy A. Williams, Jr",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Justice of the Peace, Galveston County Precinct 3",
+     "background": "The Texas judicial directory lists Billy Alfred Williams Jr. as Justice of the Peace for Galveston County Precinct 3.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Texas Judicial Directory, court personnel search",
+       "publisher": "Texas Office of Court Administration",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": "2026-10"
+      }
+     ],
+     "research_gaps": "Galveston County's website blocked automated access, so this profile relies on the state judicial directory; no biography was found.",
+     "researched": true
     }
    ],
    "office": {
@@ -131043,19 +131302,34 @@
      "id": "tiffany-strother",
      "name": "Tiffany Strother",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, 249th District Court",
+     "background": "The Texas judicial directory lists Tiffany Suzanne Strother as judge of the 249th District Court in Johnson County.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Texas Judicial Directory, court personnel search",
+       "publisher": "Texas Office of Court Administration",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": "2026-10"
+      }
+     ],
+     "research_gaps": "Johnson County's website blocked automated access, so this profile relies on the state judicial directory; no biography was found.",
+     "researched": true
     }
    ],
    "office": {
@@ -131080,19 +131354,41 @@
      "id": "christopher-boedeker",
      "name": "Christopher Boedeker",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Johnson County Judge",
+     "background": "The Texas judicial directory lists Christopher Charles Boedeker as Johnson County Judge.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Texas Judicial Directory, court personnel search",
+       "publisher": "Texas Office of Court Administration",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": "2026-10"
+      },
+      {
+       "id": "s2",
+       "title": "Johnson County contacts (2024)",
+       "publisher": "Johnson County Tax Office",
+       "url": "https://johnsoncountytaxoffice.org/media/Contacts 2024/Johnson County.docx",
+       "date": "2024"
+      }
+     ],
+     "research_gaps": "Johnson County's website blocked automated access, so this profile relies on the state judicial directory; no biography was found.",
+     "researched": true
     }
    ],
    "office": {
@@ -131117,19 +131413,34 @@
      "id": "john-e-neill",
      "name": "John E. Neill",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, Johnson County Court at Law No. 1",
+     "background": "The Texas judicial directory lists John Edward Neill as judge of Johnson County Court at Law No. 1.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Texas Judicial Directory, court personnel search",
+       "publisher": "Texas Office of Court Administration",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": "2026-10"
+      }
+     ],
+     "research_gaps": "Johnson County's website blocked automated access, so this profile relies on the state judicial directory; no biography was found.",
+     "researched": true
     }
    ],
    "office": {
@@ -131155,18 +131466,33 @@
      "name": "Stephanie Bosworth",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Republican nominee for Johnson County Court at Law No. 2",
+     "background": "Stephanie Bosworth is the Republican nominee for Johnson County Court at Law No. 2. The Texas judicial directory lists F. Steven McClure as the current judge of that court, so Bosworth is not the incumbent.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Texas Judicial Directory, court personnel search",
+       "publisher": "Texas Office of Court Administration",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": "2026-10"
+      }
+     ],
+     "research_gaps": "No biography, campaign website, or news coverage of Stephanie Bosworth was found in this pass.",
+     "researched": true
     }
    ],
    "office": {
@@ -131191,19 +131517,34 @@
      "id": "will-keeton",
      "name": "Will Keeton",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Johnson County District Clerk",
+     "background": "The Texas judicial directory lists Will F. Keeton as the Johnson County District Clerk.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Texas Judicial Directory, court personnel search",
+       "publisher": "Texas Office of Court Administration",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": "2026-10"
+      }
+     ],
+     "research_gaps": "Johnson County's website blocked automated access, so this profile relies on the state judicial directory; no biography was found.",
+     "researched": true
     }
    ],
    "office": {
@@ -131228,19 +131569,34 @@
      "id": "april-long",
      "name": "April Long",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Johnson County Clerk",
+     "background": "The Texas judicial directory lists April Long as the Johnson County Clerk.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Texas Judicial Directory, court personnel search",
+       "publisher": "Texas Office of Court Administration",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": "2026-10"
+      }
+     ],
+     "research_gaps": "Johnson County's website blocked automated access, so this profile relies on the state judicial directory; no biography was found.",
+     "researched": true
     }
    ],
    "office": {
@@ -131266,18 +131622,33 @@
      "name": "Kathy McVey-Blackwell",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Republican nominee for Johnson County Treasurer",
+     "background": "Kathy McVey-Blackwell is the Republican nominee for Johnson County Treasurer.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Texas Judicial Directory, court personnel search",
+       "publisher": "Texas Office of Court Administration",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": "2026-10"
+      }
+     ],
+     "research_gaps": "Johnson County's website blocked automated access, and no source was found confirming whether she is the incumbent treasurer or describing her background; the cited directory covers courts and clerks only.",
+     "researched": true
     }
    ],
    "office": {
@@ -131302,19 +131673,47 @@
      "id": "kenny-howell",
      "name": "Kenny Howell",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Johnson County Commissioner, Precinct 2, since 2013",
+     "background": "Kenny Howell has served as Johnson County Commissioner for Precinct 2 since 2013, according to Branch. The Johnson County Tax Office's 2024 contact list includes him among county commissioners.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "In Branch's candidate survey he said county officials should consider strengthening developer road-construction standards.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Kenny Howell, candidate for Johnson County Commissioner, Precinct 2",
+       "publisher": "Branch",
+       "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-commissioner-tx-johnson-county-district-2-post-2/candidates/kenny-howell",
+       "date": "2026-07-22"
+      },
+      {
+       "id": "s2",
+       "title": "Johnson County contacts (2024)",
+       "publisher": "Johnson County Tax Office",
+       "url": "https://johnsoncountytaxoffice.org/media/Contacts 2024/Johnson County.docx",
+       "date": "2024"
+      }
+     ],
+     "research_gaps": "Johnson County's website blocked automated access; no official biography was found.",
+     "researched": true
     }
    ],
    "office": {
@@ -131339,19 +131738,48 @@
      "id": "larry-woolley",
      "name": "Larry Woolley",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Johnson County Commissioner, Precinct 4",
+     "background": "Larry Woolley is the Johnson County Commissioner for Precinct 4. The Cleburne Times-Review reported in January 2022 that he was seeking a third term in the March 2022 Republican primary against challenger Mark Eder.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Woolley cites experience, stability in seeking third term",
+       "publisher": "Cleburne Times-Review",
+       "url": "https://www.cleburnetimesreview.com/news/woolley-sites-experience-stability-in-seeking-third-term/article_e7a761f0-725e-11ec-84c0-0f572dcd8c12.html",
+       "date": "2022-01-10"
+      },
+      {
+       "id": "s2",
+       "title": "Johnson County contacts (2024)",
+       "publisher": "Johnson County Tax Office",
+       "url": "https://johnsoncountytaxoffice.org/media/Contacts 2024/Johnson County.docx",
+       "date": "2024"
+      },
+      {
+       "id": "s3",
+       "title": "Larry Woolley, candidate for Johnson County Commissioner, Precinct 4",
+       "publisher": "Branch",
+       "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-commissioner-tx-johnson-county-district-4-post-4/candidates/larry-woolley",
+       "date": null
+      }
+     ],
+     "research_gaps": "Johnson County's website blocked automated access and the newspaper article is paywalled; his background was not confirmed.",
+     "researched": true
     }
    ],
    "office": {
@@ -131377,18 +131805,33 @@
      "name": "Julie Hammond",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Republican nominee for Justice of the Peace, Johnson County Precinct 1",
+     "background": "Julie Hammond is the Republican nominee for Johnson County Justice of the Peace, Precinct 1. The Texas judicial directory lists Andrea DeeAnn Strother as the current justice of the peace, so Hammond is not the incumbent.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Texas Judicial Directory, court personnel search",
+       "publisher": "Texas Office of Court Administration",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": "2026-10"
+      }
+     ],
+     "research_gaps": "No biography, campaign website, or news coverage of Julie Hammond was found in this pass.",
+     "researched": true
     }
    ],
    "office": {
@@ -131413,19 +131856,34 @@
      "id": "jeff-monk",
      "name": "Jeff Monk",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Justice of the Peace, Johnson County Precinct 2",
+     "background": "The Texas judicial directory lists Jeff Monk as Justice of the Peace for Johnson County Precinct 2.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Texas Judicial Directory, court personnel search",
+       "publisher": "Texas Office of Court Administration",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": "2026-10"
+      }
+     ],
+     "research_gaps": "Johnson County's website blocked automated access, so this profile relies on the state judicial directory; no biography was found.",
+     "researched": true
     }
    ],
    "office": {
@@ -131450,19 +131908,34 @@
      "id": "andy-nolan",
      "name": "Andy Nolan",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Justice of the Peace, Johnson County Precinct 3",
+     "background": "The Texas judicial directory lists Andrew (Andy) Lee Nolan as Justice of the Peace for Johnson County Precinct 3.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Texas Judicial Directory, court personnel search",
+       "publisher": "Texas Office of Court Administration",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": "2026-10"
+      }
+     ],
+     "research_gaps": "Johnson County's website blocked automated access, so this profile relies on the state judicial directory; no biography was found.",
+     "researched": true
     }
    ],
    "office": {
@@ -131488,18 +131961,33 @@
      "name": "Kathy Osier",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Republican nominee for Justice of the Peace, Johnson County Precinct 4",
+     "background": "Kathy Osier is the Republican nominee for Johnson County Justice of the Peace, Precinct 4. The Texas judicial directory lists Robert Shaw as the current justice of the peace, so Osier is not the incumbent.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Texas Judicial Directory, court personnel search",
+       "publisher": "Texas Office of Court Administration",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": "2026-10"
+      }
+     ],
+     "research_gaps": "No biography, campaign website, or news coverage of Kathy Osier was found in this pass.",
+     "researched": true
     }
    ],
    "office": {
@@ -137519,19 +138007,41 @@
      "id": "keith-a-lutz",
      "name": "Keith A. Lutz",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Medina County Judge (term 2023 to 2026)",
+     "background": "Keith Lutz is the Medina County Judge. County candidate filing information lists his current term as January 1, 2023 through December 31, 2026.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Candidate Filing Information for Medina County",
+       "publisher": "Medina County Elections",
+       "url": "https://www.medinatx.gov/upload/page/0083/Candidate Filing Information for Medina County - bilingual copy.pdf",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Commissioners Court",
+       "publisher": "Medina County",
+       "url": "https://www.medinatx.gov/page/Commissioners.Court",
+       "date": null
+      }
+     ],
+     "research_gaps": "No biography was found on the county pages reviewed.",
+     "researched": true
     }
    ],
    "office": {
@@ -137556,19 +138066,48 @@
      "id": "mark-cashion",
      "name": "Mark Cashion",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, Medina County Court at Law (term 2023 to 2026)",
+     "background": "Mark Cashion is judge of the Medina County Court at Law. County candidate filing information lists his current term as January 1, 2023 through December 31, 2026. The Texas judicial directory lists his full name as David Mark Cashion.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Court at Law",
+       "publisher": "Medina County",
+       "url": "https://www.medinatx.gov/page/County.Court",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Candidate Filing Information for Medina County",
+       "publisher": "Medina County Elections",
+       "url": "https://www.medinatx.gov/upload/page/0083/Candidate Filing Information for Medina County - bilingual copy.pdf",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Texas Judicial Directory, court personnel search",
+       "publisher": "Texas Office of Court Administration",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": "2026-10"
+      }
+     ],
+     "research_gaps": "No biography was found on the county pages reviewed.",
+     "researched": true
     }
    ],
    "office": {
@@ -137593,19 +138132,41 @@
      "id": "cindy-fowler",
      "name": "Cindy Fowler",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Medina County District Clerk (term 2023 to 2026)",
+     "background": "Cindy Fowler is the Medina County District Clerk. County candidate filing information lists her current term as January 1, 2023 through December 31, 2026.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "District Clerk",
+       "publisher": "Medina County",
+       "url": "https://www.medinatx.gov/page/District.Clerk",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Candidate Filing Information for Medina County",
+       "publisher": "Medina County Elections",
+       "url": "https://www.medinatx.gov/upload/page/0083/Candidate Filing Information for Medina County - bilingual copy.pdf",
+       "date": null
+      }
+     ],
+     "research_gaps": "No biography was found on the county pages reviewed.",
+     "researched": true
     }
    ],
    "office": {
@@ -137631,18 +138192,40 @@
      "name": "Cindy Modgling Everett",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Republican nominee for Medina County Clerk",
+     "background": "Cindy Modgling Everett is the Republican nominee for Medina County Clerk. The county website lists Gina Champion as the current county clerk, so Everett is not the incumbent.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "County Clerk",
+       "publisher": "Medina County",
+       "url": "https://www.medinatx.gov/page/County.Clerk",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Candidate Filing Information for Medina County",
+       "publisher": "Medina County Elections",
+       "url": "https://www.medinatx.gov/upload/page/0083/Candidate Filing Information for Medina County - bilingual copy.pdf",
+       "date": null
+      }
+     ],
+     "research_gaps": "No biography, campaign website, or news coverage of Cindy Modgling Everett was found in this pass.",
+     "researched": true
     }
    ],
    "office": {
@@ -137807,19 +138390,41 @@
      "id": "danny-lawler",
      "name": "Danny Lawler",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Medina County Commissioner, Precinct 4 (term 2023 to 2026)",
+     "background": "Danny Lawler is the Medina County Commissioner for Precinct 4. County candidate filing information lists Daniel Lawler's current term as January 1, 2023 through December 31, 2026.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Commissioners Court",
+       "publisher": "Medina County",
+       "url": "https://www.medinatx.gov/page/Commissioners.Court",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Candidate Filing Information for Medina County",
+       "publisher": "Medina County Elections",
+       "url": "https://www.medinatx.gov/upload/page/0083/Candidate Filing Information for Medina County - bilingual copy.pdf",
+       "date": null
+      }
+     ],
+     "research_gaps": "No biography was found on the county pages reviewed.",
+     "researched": true
     }
    ],
    "office": {
@@ -137914,19 +138519,48 @@
      "id": "bill-terry-tschirhart-jr",
      "name": "Bill Terry Tschirhart, Jr",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Justice of the Peace, Medina County Precinct 2 (term 2023 to 2026)",
+     "background": "The county website lists William T. Tschirhart, Jr. as Justice of the Peace for Medina County Precinct 2, and the Texas judicial directory lists him as William (Bill) T. Tschirhart Jr. County candidate filing information lists his current term as January 1, 2023 through December 31, 2026.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Justice of the Peace",
+       "publisher": "Medina County",
+       "url": "https://www.medinatx.gov/page/Justice",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Candidate Filing Information for Medina County",
+       "publisher": "Medina County Elections",
+       "url": "https://www.medinatx.gov/upload/page/0083/Candidate Filing Information for Medina County - bilingual copy.pdf",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Texas Judicial Directory, court personnel search",
+       "publisher": "Texas Office of Court Administration",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": "2026-10"
+      }
+     ],
+     "research_gaps": "No biography was found on the county pages reviewed.",
+     "researched": true
     }
    ],
    "office": {
@@ -137952,18 +138586,40 @@
      "name": "Teresa Koch",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Republican nominee for Justice of the Peace, Medina County Precinct 3",
+     "background": "Teresa Koch is the Republican nominee for Medina County Justice of the Peace, Precinct 3. The county website lists Glenn E. Klaus as the current justice of the peace, so Koch is not the incumbent.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Justice of the Peace",
+       "publisher": "Medina County",
+       "url": "https://www.medinatx.gov/page/Justice",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Candidate Filing Information for Medina County",
+       "publisher": "Medina County Elections",
+       "url": "https://www.medinatx.gov/upload/page/0083/Candidate Filing Information for Medina County - bilingual copy.pdf",
+       "date": null
+      }
+     ],
+     "research_gaps": "No biography, campaign website, or news coverage of Teresa Koch was found in this pass.",
+     "researched": true
     }
    ],
    "office": {
@@ -137988,19 +138644,48 @@
      "id": "tomas-tommy-ramirez-iii",
      "name": "Tomas \"Tommy\" Ramirez, III",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Justice of the Peace, Medina County Precinct 4 (term 2023 to 2026)",
+     "background": "Tomas Ramirez III is the Justice of the Peace for Medina County Precinct 4, according to the county website. County candidate filing information lists his current term as January 1, 2023 through December 31, 2026.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Justice of the Peace",
+       "publisher": "Medina County",
+       "url": "https://www.medinatx.gov/page/Justice",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Candidate Filing Information for Medina County",
+       "publisher": "Medina County Elections",
+       "url": "https://www.medinatx.gov/upload/page/0083/Candidate Filing Information for Medina County - bilingual copy.pdf",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Texas Judicial Directory, court personnel search",
+       "publisher": "Texas Office of Court Administration",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": "2026-10"
+      }
+     ],
+     "research_gaps": "No biography was found on the county pages reviewed.",
+     "researched": true
     }
    ],
    "office": {
@@ -146853,19 +147538,47 @@
      "id": "dee-johnson",
      "name": "Dee Johnson",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, 47th District Court since August 2022",
+     "background": "Dee Johnson grew up in the Texas Hill Country and earned a government degree from UT Austin in 1987 and a law degree from St. Mary's School of Law in 1990. She was a briefing attorney for the Second Court of Appeals and practiced civil litigation for 32 years. Governor Greg Abbott appointed her to the 47th District Court, where she took the bench on August 1, 2022, and she began her elected term on January 1, 2023.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "The court serves Potter, Randall, and Armstrong counties and hears civil, felony criminal, and family matters.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
+     "sources": [
+      {
+       "id": "s1",
+       "title": "47th District Court",
+       "publisher": "47th District Court",
+       "url": "https://47thdistrictcourt.org/",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Elected Officials",
+       "publisher": "Randall County",
+       "url": "https://www.randallcounty.gov/296/Elected-Officials",
+       "date": null
+      }
+     ],
      "research_gaps": "",
-     "researched": false
+     "researched": true
     }
    ],
    "office": {
@@ -146890,19 +147603,47 @@
      "id": "titiana-d-frausto",
      "name": "Titiana D. Frausto",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, 181st District Court since September 2020",
+     "background": "Titiana D. Frausto is a Louisiana native who earned a political science degree from the University of New Orleans and a law degree from Texas Tech University School of Law in 2009. She practiced criminal defense and family law for 11 years. Governor Greg Abbott appointed her to the 181st District Court in September 2020 to complete the unexpired term of Judge John Board, and she won a contested election in 2022.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "She serves as the Local Administrative Judge for Randall County.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
+     "sources": [
+      {
+       "id": "s1",
+       "title": "181st District Court for Potter and Randall County",
+       "publisher": "181st District Court",
+       "url": "https://181districtcourt.org/",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Elected Officials",
+       "publisher": "Randall County",
+       "url": "https://www.randallcounty.gov/296/Elected-Officials",
+       "date": null
+      }
+     ],
      "research_gaps": "",
-     "researched": false
+     "researched": true
     }
    ],
    "office": {
@@ -146927,19 +147668,48 @@
      "id": "ana-e-estevez",
      "name": "Ana E. Estevez",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, 251st District Court since 2007",
+     "background": "Ana E. Estevez is judge of the 251st District Court, which serves Potter and Randall counties. Randall County's elected officials list shows she took office in 2007.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Elected Officials",
+       "publisher": "Randall County",
+       "url": "https://www.randallcounty.gov/296/Elected-Officials",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "251st District Court",
+       "publisher": "Potter County",
+       "url": "https://www.co.potter.tx.us/page/District.Court.251",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "251st District Court",
+       "publisher": "Randall County",
+       "url": "https://www.randallcounty.gov/398/251st-District-Court",
+       "date": null
+      }
+     ],
+     "research_gaps": "No detailed biography was found on the official pages reviewed.",
+     "researched": true
     }
    ],
    "office": {
@@ -146964,19 +147734,41 @@
      "id": "steven-denny",
      "name": "Steven Denny",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, 320th District Court",
+     "background": "Steven Denny is judge of the 320th District Court in Potter County, according to the county website. The Texas judicial directory lists his full name as Steven Michael Denny.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "320th District Court",
+       "publisher": "Potter County",
+       "url": "https://www.co.potter.tx.us/page/District.Court.320",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Texas Judicial Directory, court personnel search",
+       "publisher": "Texas Office of Court Administration",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": "2026-10"
+      }
+     ],
+     "research_gaps": "His start date and background were not stated on the official pages reviewed.",
+     "researched": true
     }
    ],
    "office": {
@@ -147177,19 +147969,34 @@
      "id": "walt-weaver",
      "name": "Walt Weaver",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, Potter County Court at Law No. 1",
+     "background": "Walt Weaver is judge of Potter County Court at Law No. 1, according to the county website.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "County Court at Law #1",
+       "publisher": "Potter County",
+       "url": "https://www.co.potter.tx.us/page/County.Court",
+       "date": null
+      }
+     ],
+     "research_gaps": "His start date and background were not stated on the county page reviewed.",
+     "researched": true
     }
    ],
    "office": {
@@ -147214,19 +148021,41 @@
      "id": "matt-hand",
      "name": "Matt Hand",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, Potter County Court at Law No. 2",
+     "background": "Matt Hand is judge of Potter County Court at Law No. 2, according to the county website.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "County Court at Law #2",
+       "publisher": "Potter County",
+       "url": "https://www.co.potter.tx.us/page/County.Court.2",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Texas Judicial Directory, court personnel search",
+       "publisher": "Texas Office of Court Administration",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": "2026-10"
+      }
+     ],
+     "research_gaps": "His start date and background were not stated on the official pages reviewed.",
+     "researched": true
     }
    ],
    "office": {
@@ -147382,19 +148211,41 @@
      "id": "julie-smith",
      "name": "Julie Smith",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Potter County Clerk",
+     "background": "Julie Smith is the Potter County Clerk, according to the county website.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Potter County Clerk",
+       "publisher": "Potter County",
+       "url": "https://www.co.potter.tx.us/page/County.Clerk",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Texas Judicial Directory, court personnel search",
+       "publisher": "Texas Office of Court Administration",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": "2026-10"
+      }
+     ],
+     "research_gaps": "Her start date and background were not stated on the official pages reviewed.",
+     "researched": true
     }
    ],
    "office": {
@@ -147419,19 +148270,34 @@
      "id": "brooke-graves",
      "name": "Brooke Graves",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Potter County Treasurer",
+     "background": "Brooke Graves is the Potter County Treasurer, according to the county website. The office receives and safeguards county revenues, issues payments approved by the Commissioners Court, and invests county funds.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "County Treasurer",
+       "publisher": "Potter County",
+       "url": "https://www.co.potter.tx.us/page/Treasurer",
+       "date": null
+      }
+     ],
+     "research_gaps": "Her start date and background were not stated on the county page reviewed.",
+     "researched": true
     }
    ],
    "office": {
@@ -147457,18 +148323,33 @@
      "name": "Jeff Raef",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Republican nominee for Potter County Commissioner, Precinct 2",
+     "background": "Jeff Raef is the Republican nominee for Potter County Commissioner, Precinct 2. The county website lists Blair Schaffer as the current Precinct 2 commissioner, so Raef is not the incumbent.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Potter County Commissioner, Precinct Two",
+       "publisher": "Potter County",
+       "url": "https://www.co.potter.tx.us/page/Commissioner2",
+       "date": null
+      }
+     ],
+     "research_gaps": "No biography, campaign website, or news coverage of Jeff Raef was found in this pass.",
+     "researched": true
     }
    ],
    "office": {
@@ -147684,19 +148565,41 @@
      "id": "robert-j-taylor",
      "name": "Robert J Taylor",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Justice of the Peace, Potter County Precinct 2",
+     "background": "Robert J. Taylor is the Justice of the Peace for Potter County Precinct 2, according to the county website.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Justice of the Peace, Precinct Two",
+       "publisher": "Potter County",
+       "url": "https://www.co.potter.tx.us/page/JP2",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Texas Judicial Directory, court personnel search",
+       "publisher": "Texas Office of Court Administration",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": "2026-10"
+      }
+     ],
+     "research_gaps": "His start date and background were not stated on the official pages reviewed.",
+     "researched": true
     }
    ],
    "office": {
@@ -147721,19 +148624,41 @@
      "id": "gary-jackson",
      "name": "Gary Jackson",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Justice of the Peace, Potter County Precinct 3",
+     "background": "Gary L. Jackson is the Justice of the Peace for Potter County Precinct 3, according to the county website.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Justice of the Peace, Precinct Three",
+       "publisher": "Potter County",
+       "url": "https://www.co.potter.tx.us/page/JP3",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Texas Judicial Directory, court personnel search",
+       "publisher": "Texas Office of Court Administration",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": "2026-10"
+      }
+     ],
+     "research_gaps": "His start date and background were not stated on the official pages reviewed.",
+     "researched": true
     }
    ],
    "office": {
@@ -147758,19 +148683,41 @@
      "id": "thomas-jones",
      "name": "Thomas Jones",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Justice of the Peace, Potter County Precinct 4",
+     "background": "Thomas Jones is the Justice of the Peace for Potter County Precinct 4, according to the county website. The Texas judicial directory lists his full name as Thomas Lee Jones.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Justice of the Peace, Precinct Four",
+       "publisher": "Potter County",
+       "url": "https://www.co.potter.tx.us/page/JP4",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Texas Judicial Directory, court personnel search",
+       "publisher": "Texas Office of Court Administration",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": "2026-10"
+      }
+     ],
+     "research_gaps": "His start date and background were not stated on the official pages reviewed.",
+     "researched": true
     }
    ],
    "office": {
@@ -147985,18 +148932,40 @@
      "name": "Lacy Miller",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Republican nominee for Randall County Criminal District Attorney",
+     "background": "Lacy Miller was unopposed in the March 3, 2026 Republican primary for Randall County Criminal District Attorney, according to the county's official canvass. Randall County's elected officials list shows Robert Love as the current district attorney, with a term ending in 2026, so Miller is not the incumbent.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Official Republican Primary Canvass Results, March 3, 2026",
+       "publisher": "Randall County Elections",
+       "url": "https://www.randallcounty.gov/DocumentCenter/View/4548/OFFICIAL-REP-Canvass-Results-3-10-2026-10-50-36-AM",
+       "date": "2026-03-10"
+      },
+      {
+       "id": "s2",
+       "title": "Elected Officials",
+       "publisher": "Randall County",
+       "url": "https://www.randallcounty.gov/296/Elected-Officials",
+       "date": null
+      }
+     ],
+     "research_gaps": "No biography, campaign website, or news coverage of Lacy Miller was found in this pass.",
+     "researched": true
     }
    ],
    "office": {
@@ -148021,19 +148990,41 @@
      "id": "christy-dyer",
      "name": "Christy Dyer",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Randall County Judge since 2021",
+     "background": "Christy Dyer has been Randall County Judge since 2021, according to the county's elected officials list. She was unopposed in the March 3, 2026 Republican primary.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Elected Officials",
+       "publisher": "Randall County",
+       "url": "https://www.randallcounty.gov/296/Elected-Officials",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Official Republican Primary Canvass Results, March 3, 2026",
+       "publisher": "Randall County Elections",
+       "url": "https://www.randallcounty.gov/DocumentCenter/View/4548/OFFICIAL-REP-Canvass-Results-3-10-2026-10-50-36-AM",
+       "date": "2026-03-10"
+      }
+     ],
+     "research_gaps": "No detailed biography was found on the county pages reviewed.",
+     "researched": true
     }
    ],
    "office": {
@@ -148059,18 +149050,54 @@
      "name": "Paul Herrmann",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Republican nominee for Randall County Court at Law No. 1",
+     "background": "Paul Herrmann won the May 26, 2026 Republican runoff for Randall County Court at Law No. 1, according to KFDA NewsChannel 10's results listing. The March 3 primary for the seat had five candidates, according to the county canvass. Randall County lists James Anderson as the current judge, in office since 1999, so Herrmann is not the incumbent.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "See May 2026 Joint Primary Election runoff results here",
+       "publisher": "KFDA NewsChannel 10",
+       "url": "https://www.newschannel10.com/2026/05/27/see-may-2026-joint-primary-election-runoff-results-here/",
+       "date": "2026-05-26"
+      },
+      {
+       "id": "s2",
+       "title": "Official Republican Primary Canvass Results, March 3, 2026",
+       "publisher": "Randall County Elections",
+       "url": "https://www.randallcounty.gov/DocumentCenter/View/4548/OFFICIAL-REP-Canvass-Results-3-10-2026-10-50-36-AM",
+       "date": "2026-03-10"
+      },
+      {
+       "id": "s3",
+       "title": "Elected Officials",
+       "publisher": "Randall County",
+       "url": "https://www.randallcounty.gov/296/Elected-Officials",
+       "date": null
+      },
+      {
+       "id": "s4",
+       "title": "County Court at Law Number 1",
+       "publisher": "Randall County",
+       "url": "https://www.randallcounty.gov/202/County-Court-at-Law-Number-1",
+       "date": null
+      }
+     ],
+     "research_gaps": "No biography or campaign website for Paul Herrmann was found in this pass.",
+     "researched": true
     }
    ],
    "office": {
@@ -148095,19 +149122,48 @@
      "id": "matthew-c-martindale",
      "name": "Matthew C. Martindale",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, Randall County Court at Law No. 2 since 2019",
+     "background": "Matt Martindale has been judge of Randall County Court at Law No. 2 since 2019, according to the county's elected officials list. He was unopposed in the March 3, 2026 Republican primary.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Elected Officials",
+       "publisher": "Randall County",
+       "url": "https://www.randallcounty.gov/296/Elected-Officials",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "County Court at Law Number 2",
+       "publisher": "Randall County",
+       "url": "https://www.randallcounty.gov/204/County-Court-at-Law-Number-2",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Official Republican Primary Canvass Results, March 3, 2026",
+       "publisher": "Randall County Elections",
+       "url": "https://www.randallcounty.gov/DocumentCenter/View/4548/OFFICIAL-REP-Canvass-Results-3-10-2026-10-50-36-AM",
+       "date": "2026-03-10"
+      }
+     ],
+     "research_gaps": "No detailed biography was found on the county pages reviewed.",
+     "researched": true
     }
    ],
    "office": {
@@ -148132,19 +149188,41 @@
      "id": "joel-forbis",
      "name": "Joel Forbis",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Randall County District Clerk since 2019",
+     "background": "Joel Forbis has been Randall County District Clerk since 2019, according to the county's elected officials list.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Elected Officials",
+       "publisher": "Randall County",
+       "url": "https://www.randallcounty.gov/296/Elected-Officials",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Official Republican Primary Canvass Results, March 3, 2026",
+       "publisher": "Randall County Elections",
+       "url": "https://www.randallcounty.gov/DocumentCenter/View/4548/OFFICIAL-REP-Canvass-Results-3-10-2026-10-50-36-AM",
+       "date": "2026-03-10"
+      }
+     ],
+     "research_gaps": "No detailed biography was found on the county pages reviewed.",
+     "researched": true
     }
    ],
    "office": {
@@ -148170,18 +149248,40 @@
      "name": "Marie McNutt",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Republican nominee for Randall County Clerk",
+     "background": "Marie McNutt won the March 3, 2026 Republican primary for Randall County Clerk over GiGi Yeats, according to the county's official canvass. Randall County lists Susan Allen as the current county clerk, so McNutt is not the incumbent.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Official Republican Primary Canvass Results, March 3, 2026",
+       "publisher": "Randall County Elections",
+       "url": "https://www.randallcounty.gov/DocumentCenter/View/4548/OFFICIAL-REP-Canvass-Results-3-10-2026-10-50-36-AM",
+       "date": "2026-03-10"
+      },
+      {
+       "id": "s2",
+       "title": "Elected Officials",
+       "publisher": "Randall County",
+       "url": "https://www.randallcounty.gov/296/Elected-Officials",
+       "date": null
+      }
+     ],
+     "research_gaps": "No biography or campaign website for Marie McNutt was found in this pass.",
+     "researched": true
     }
    ],
    "office": {
@@ -148207,18 +149307,40 @@
      "name": "Nadia Whitten",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Republican nominee for Randall County Treasurer",
+     "background": "Nadia Whitten was unopposed in the March 3, 2026 Republican primary for Randall County Treasurer, according to the county's official canvass. Randall County lists Angie Parker as the current treasurer, so Whitten is not the incumbent.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Official Republican Primary Canvass Results, March 3, 2026",
+       "publisher": "Randall County Elections",
+       "url": "https://www.randallcounty.gov/DocumentCenter/View/4548/OFFICIAL-REP-Canvass-Results-3-10-2026-10-50-36-AM",
+       "date": "2026-03-10"
+      },
+      {
+       "id": "s2",
+       "title": "Elected Officials",
+       "publisher": "Randall County",
+       "url": "https://www.randallcounty.gov/296/Elected-Officials",
+       "date": null
+      }
+     ],
+     "research_gaps": "No biography or campaign website for Nadia Whitten was found in this pass.",
+     "researched": true
     }
    ],
    "office": {
@@ -148243,19 +149365,41 @@
      "id": "eric-barry",
      "name": "Eric Barry",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Randall County Commissioner, Precinct 2, since 2023",
+     "background": "Eric Barry has been Randall County Commissioner for Precinct 2 since 2023, according to the county's elected officials list.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Elected Officials",
+       "publisher": "Randall County",
+       "url": "https://www.randallcounty.gov/296/Elected-Officials",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Official Republican Primary Canvass Results, March 3, 2026",
+       "publisher": "Randall County Elections",
+       "url": "https://www.randallcounty.gov/DocumentCenter/View/4548/OFFICIAL-REP-Canvass-Results-3-10-2026-10-50-36-AM",
+       "date": "2026-03-10"
+      }
+     ],
+     "research_gaps": "No detailed biography was found on the county pages reviewed.",
+     "researched": true
     }
    ],
    "office": {
@@ -148280,19 +149424,41 @@
      "id": "tam-boatler",
      "name": "Tam Boatler",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Randall County Commissioner, Precinct 4, since 2023",
+     "background": "Tam Boatler has been Randall County Commissioner for Precinct 4 since 2023, according to the county's elected officials list.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Elected Officials",
+       "publisher": "Randall County",
+       "url": "https://www.randallcounty.gov/296/Elected-Officials",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Official Republican Primary Canvass Results, March 3, 2026",
+       "publisher": "Randall County Elections",
+       "url": "https://www.randallcounty.gov/DocumentCenter/View/4548/OFFICIAL-REP-Canvass-Results-3-10-2026-10-50-36-AM",
+       "date": "2026-03-10"
+      }
+     ],
+     "research_gaps": "No detailed biography was found on the county pages reviewed.",
+     "researched": true
     }
    ],
    "office": {
@@ -148318,18 +149484,47 @@
      "name": "K. Chase Ralston",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Republican nominee for Justice of the Peace, Randall County Precinct 1",
+     "background": "K. Chase Ralston was unopposed in the March 3, 2026 Republican primary for Randall County Justice of the Peace, Precinct 1, according to the county's official canvass. Randall County lists J. Tracy Byrd as the current justice of the peace, in office since 2014, so Ralston is not the incumbent.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Official Republican Primary Canvass Results, March 3, 2026",
+       "publisher": "Randall County Elections",
+       "url": "https://www.randallcounty.gov/DocumentCenter/View/4548/OFFICIAL-REP-Canvass-Results-3-10-2026-10-50-36-AM",
+       "date": "2026-03-10"
+      },
+      {
+       "id": "s2",
+       "title": "Elected Officials",
+       "publisher": "Randall County",
+       "url": "https://www.randallcounty.gov/296/Elected-Officials",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Justice of the Peace Number 1",
+       "publisher": "Randall County",
+       "url": "https://www.randallcounty.gov/239/Justice-of-the-Peace-Number-1",
+       "date": null
+      }
+     ],
+     "research_gaps": "No biography or campaign website for K. Chase Ralston was found in this pass.",
+     "researched": true
     }
    ],
    "office": {
@@ -148354,19 +149549,48 @@
      "id": "joanne-garcia-flores",
      "name": "Joanne Garcia Flores",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Justice of the Peace, Randall County Precinct 4, since 2023",
+     "background": "Joanne Garcia Flores has been Justice of the Peace for Randall County Precinct 4 since 2023, according to the county's elected officials list.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Elected Officials",
+       "publisher": "Randall County",
+       "url": "https://www.randallcounty.gov/296/Elected-Officials",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Justice of the Peace Number 4",
+       "publisher": "Randall County",
+       "url": "https://www.randallcounty.gov/260/Justice-of-the-Peace-Number-4",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Official Republican Primary Canvass Results, March 3, 2026",
+       "publisher": "Randall County Elections",
+       "url": "https://www.randallcounty.gov/DocumentCenter/View/4548/OFFICIAL-REP-Canvass-Results-3-10-2026-10-50-36-AM",
+       "date": "2026-03-10"
+      }
+     ],
+     "research_gaps": "No detailed biography was found on the county pages reviewed.",
+     "researched": true
     }
    ],
    "office": {
@@ -164351,19 +165575,41 @@
      "id": "cliff-brown",
      "name": "Cliff Brown",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, 147th District Court since January 2011",
+     "background": "Cliff Brown has presided over the 147th District Court, a criminal district court in Travis County, since January 2011. The county website identifies him as the presiding judge for the Travis County criminal courts.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "147th Criminal District Court",
+       "publisher": "Travis County",
+       "url": "https://www.traviscountytx.gov/courts/criminal/district/147",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "G26 Bedsheet Ballot, November 3, 2026 General Election",
+       "publisher": "Travis County Clerk Elections Division",
+       "url": "https://votetravis.gov/wp-content/uploads/G26-Bedsheet-Ballot-Corrected-Final2.pdf",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No campaign website, education details, or bar poll results were found in this pass.",
+     "researched": true
     }
    ],
    "office": {
@@ -164388,19 +165634,41 @@
      "id": "amy-clark-meachum",
      "name": "Amy Clark Meachum",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, 201st District Court since January 2011",
+     "background": "Amy Clark Meachum has presided over the 201st District Court, a civil district court in Travis County, since January 2011. She has also served as the Travis County Local Administrative District Judge since September 1, 2021.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "201st Civil District Court",
+       "publisher": "Travis County",
+       "url": "https://www.traviscountytx.gov/courts/civil/district/201",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "G26 Bedsheet Ballot, November 3, 2026 General Election",
+       "publisher": "Travis County Clerk Elections Division",
+       "url": "https://votetravis.gov/wp-content/uploads/G26-Bedsheet-Ballot-Corrected-Final2.pdf",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No campaign website, education details, or bar poll results were found in this pass.",
+     "researched": true
     }
    ],
    "office": {
@@ -164426,18 +165694,66 @@
      "name": "Kennon Lily Wooten",
      "party": "Democratic",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Attorney; Democratic nominee for the 250th District Court",
+     "background": "Kennon Wooten is a civil attorney. In 2019 the Austin Chronicle reported that she had practiced civil litigation for 15 years and had worked as a law clerk and rules attorney for the Supreme Court of Texas and as an intern for the Third Court of Appeals. She ran for the 53rd District Court in 2020.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Branch reports that her background includes work as an associate at Baker Botts LLP and as a law clerk to former Chief Justice Wallace B. Jefferson.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "The county website lists Cory Liu as the presiding judge of the 250th District Court since April 30, 2025. Wooten is not the incumbent.",
+       "sources": [
+        "s3"
+       ]
+      },
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s4"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "District Court Candidates Announce Dem Primary Candidacies",
+       "publisher": "The Austin Chronicle",
+       "url": "https://www.austinchronicle.com/news/district-court-candidates-announce-dem-primary-candidacies-12100520/",
+       "date": "2019-06-27"
+      },
+      {
+       "id": "s2",
+       "title": "Kennon Lily Wooten, candidate for District Judge, 250th Judicial District",
+       "publisher": "Branch",
+       "url": "https://branch.vote/races/2026-texas-general-election-tx-state-district-judge-tx-judicial-district-250/candidates/kennon-lily-wooten",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "250th Civil District Court",
+       "publisher": "Travis County",
+       "url": "https://www.traviscountytx.gov/courts/civil/district/250",
+       "date": null
+      },
+      {
+       "id": "s4",
+       "title": "G26 Bedsheet Ballot, November 3, 2026 General Election",
+       "publisher": "Travis County Clerk Elections Division",
+       "url": "https://votetravis.gov/wp-content/uploads/G26-Bedsheet-Ballot-Corrected-Final2.pdf",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No campaign website or current biography was found in this pass.",
+     "researched": true
     }
    ],
    "office": {
@@ -164462,19 +165778,41 @@
      "id": "daniella-deseta-lyttle",
      "name": "Daniella Deseta Lyttle",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, 261st District Court since January 2023",
+     "background": "Daniella DeSeta Lyttle has presided over the 261st District Court, a civil district court in Travis County, since January 2023.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "261st Civil District Court",
+       "publisher": "Travis County",
+       "url": "https://www.traviscountytx.gov/courts/civil/district/261",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "G26 Bedsheet Ballot, November 3, 2026 General Election",
+       "publisher": "Travis County Clerk Elections Division",
+       "url": "https://votetravis.gov/wp-content/uploads/G26-Bedsheet-Ballot-Corrected-Final2.pdf",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No campaign website, education details, or bar poll results were found in this pass.",
+     "researched": true
     }
    ],
    "office": {
@@ -164499,19 +165837,41 @@
      "id": "karen-r-sage",
      "name": "Karen R. Sage",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, 299th District Court since January 2011",
+     "background": "Karen Sage has presided over the 299th District Court, a criminal district court in Travis County, since January 2011.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "299th Criminal District Court",
+       "publisher": "Travis County",
+       "url": "https://www.traviscountytx.gov/courts/criminal/district/299",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "G26 Bedsheet Ballot, November 3, 2026 General Election",
+       "publisher": "Travis County Clerk Elections Division",
+       "url": "https://votetravis.gov/wp-content/uploads/G26-Bedsheet-Ballot-Corrected-Final2.pdf",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No campaign website, education details, or bar poll results were found in this pass.",
+     "researched": true
     }
    ],
    "office": {
@@ -164536,19 +165896,41 @@
      "id": "chantal-melissa-eldridge",
      "name": "Chantal Melissa Eldridge",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, 331st District Court since January 2019",
+     "background": "Chantal Eldridge has presided over the 331st District Court, a criminal district court in Travis County, since January 2019. The court's page lists a drug court program.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "331st Criminal District Court",
+       "publisher": "Travis County",
+       "url": "https://www.traviscountytx.gov/courts/criminal/district/331",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "G26 Bedsheet Ballot, November 3, 2026 General Election",
+       "publisher": "Travis County Clerk Elections Division",
+       "url": "https://votetravis.gov/wp-content/uploads/G26-Bedsheet-Ballot-Corrected-Final2.pdf",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No campaign website, education details, or bar poll results were found in this pass.",
+     "researched": true
     }
    ],
    "office": {
@@ -164573,19 +165955,54 @@
      "id": "brandy-mueller",
      "name": "Brandy Mueller",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, 403rd District Court since January 2023; Travis County judge since 2011",
+     "background": "Brandy Mueller is a native of Austin. She was first elected to a county court at law bench in November 2010 and has presided over the 403rd District Court since January 2023. Before becoming a judge she worked as an assistant county attorney, an assistant district attorney, a special assistant U.S. attorney, and a defense attorney in Austin.",
      "website": null,
      "priorities": [],
      "promises": [],
-     "record": [],
-     "notes": [],
+     "record": [
+      {
+       "text": "Created Project Engage, a specialty docket for defendants ages 17 to 24 that requires work or school and provides supportive services.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
+     "notes": [
+      {
+       "text": "The county website lists awards including the Austin Bar Association award for Judicial Excellence in Criminal Law (2019) and the Pioneering Pathways Award (April 2026) for Project Engage.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "403rd Criminal District Court",
+       "publisher": "Travis County",
+       "url": "https://www.traviscountytx.gov/courts/criminal/district/403",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "G26 Bedsheet Ballot, November 3, 2026 General Election",
+       "publisher": "Travis County Clerk Elections Division",
+       "url": "https://votetravis.gov/wp-content/uploads/G26-Bedsheet-Ballot-Corrected-Final2.pdf",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No campaign website or bar poll results were found in this pass.",
+     "researched": true
     }
    ],
    "office": {
@@ -164610,19 +166027,41 @@
      "id": "catherine-a-mauzy",
      "name": "Catherine A. Mauzy",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, 419th District Court since January 2019",
+     "background": "Catherine A. Mauzy has presided over the 419th District Court, a civil district court in Travis County, since January 2019.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "419th Civil District Court",
+       "publisher": "Travis County",
+       "url": "https://www.traviscountytx.gov/courts/civil/district/419",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "G26 Bedsheet Ballot, November 3, 2026 General Election",
+       "publisher": "Travis County Clerk Elections Division",
+       "url": "https://votetravis.gov/wp-content/uploads/G26-Bedsheet-Ballot-Corrected-Final2.pdf",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No campaign website, education details, or bar poll results were found in this pass.",
+     "researched": true
     }
    ],
    "office": {
@@ -164647,19 +166086,41 @@
      "id": "laurie-eiserloh",
      "name": "Laurie Eiserloh",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, 455th District Court since January 2023",
+     "background": "Laurie Eiserloh has presided over the 455th District Court, a civil district court in Travis County, since January 2023.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "455th Civil District Court",
+       "publisher": "Travis County",
+       "url": "https://www.traviscountytx.gov/courts/civil/district/455th-civil-district-court",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "G26 Bedsheet Ballot, November 3, 2026 General Election",
+       "publisher": "Travis County Clerk Elections Division",
+       "url": "https://votetravis.gov/wp-content/uploads/G26-Bedsheet-Ballot-Corrected-Final2.pdf",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No campaign website, education details, or bar poll results were found in this pass.",
+     "researched": true
     }
    ],
    "office": {
@@ -164684,19 +166145,41 @@
      "id": "maya-guerra-gamble",
      "name": "Maya Guerra Gamble",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, 459th District Court since January 2019",
+     "background": "Maya Guerra Gamble has presided over the 459th District Court, a civil district court in Travis County, since January 2019.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "459th Civil District Court",
+       "publisher": "Travis County",
+       "url": "https://www.traviscountytx.gov/courts/civil/district/459",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "G26 Bedsheet Ballot, November 3, 2026 General Election",
+       "publisher": "Travis County Clerk Elections Division",
+       "url": "https://votetravis.gov/wp-content/uploads/G26-Bedsheet-Ballot-Corrected-Final2.pdf",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No campaign website, education details, or bar poll results were found in this pass.",
+     "researched": true
     }
    ],
    "office": {
@@ -164721,19 +166204,63 @@
      "id": "andy-brown",
      "name": "Andy Brown",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Travis County Judge",
+     "background": "Andy Brown is the Travis County Judge. He presides over the Commissioners Court, serves as the county's chief executive, and is Director of Emergency Management. Before taking office he helped establish the Sobering Center, was a legislative aide to former Texas House Speaker Pete Laney, managed Congressman Lloyd Doggett's campaign, clerked for the U.S. District Court in McAllen, and chaired the Travis County Democratic Party.",
      "website": null,
      "priorities": [],
      "promises": [],
-     "record": [],
-     "notes": [],
-     "stances": {},
+     "record": [
+      {
+       "text": "Led the creation of Raising Travis County, a voter-approved child care and after-school initiative that the county says serves more than 5,000 children.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "The county says that under his leadership Travis County more than tripled its investment in mental health services and invested $120 million in affordable and supportive housing.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
+     "stances": {
+      "q_county_mental": {
+       "position": 2,
+       "basis": "record",
+       "summary": "The county reports that under his leadership Travis County more than tripled its investment in mental health services; he also helped establish the Sobering Center.",
+       "sources": [
+        "s1"
+       ]
+      }
+     },
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Travis County Judge Andy Brown Bio",
+       "publisher": "Travis County",
+       "url": "https://www.traviscountytx.gov/commissioners-court/county-judge/andy-brown-bio",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "G26 Bedsheet Ballot, November 3, 2026 General Election",
+       "publisher": "Travis County Clerk Elections Division",
+       "url": "https://votetravis.gov/wp-content/uploads/G26-Bedsheet-Ballot-Corrected-Final2.pdf",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "Start date in office and education were not stated on the county page reviewed.",
+     "researched": true
     }
    ],
    "office": {
@@ -164758,19 +166285,41 @@
      "id": "todd-wong",
      "name": "Todd Wong",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, County Court at Law No. 1 since January 2015",
+     "background": "Todd Wong has presided over Travis County Court at Law No. 1, a civil and family court, since January 2015.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "County Court Judge at Law One",
+       "publisher": "Travis County",
+       "url": "https://www.traviscountytx.gov/courts/civil/county/cc1",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "G26 Bedsheet Ballot, November 3, 2026 General Election",
+       "publisher": "Travis County Clerk Elections Division",
+       "url": "https://votetravis.gov/wp-content/uploads/G26-Bedsheet-Ballot-Corrected-Final2.pdf",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No campaign website, education details, or bar poll results were found in this pass.",
+     "researched": true
     }
    ],
    "office": {
@@ -164796,18 +166345,40 @@
      "name": "Leslie Dippel",
      "party": "Democratic",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Democratic nominee for County Court at Law No. 2",
+     "background": "Leslie Dippel is the Democratic nominee for Travis County Court at Law No. 2. The county website lists Eric Shepperd as the presiding judge of that court since January 2007, so Dippel is not the incumbent.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "County Court at Law Two",
+       "publisher": "Travis County",
+       "url": "https://www.traviscountytx.gov/courts/civil/county/cc2",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "G26 Bedsheet Ballot, November 3, 2026 General Election",
+       "publisher": "Travis County Clerk Elections Division",
+       "url": "https://votetravis.gov/wp-content/uploads/G26-Bedsheet-Ballot-Corrected-Final2.pdf",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No biography, campaign website, or news coverage of Leslie Dippel was found in this pass.",
+     "researched": true
     }
    ],
    "office": {
@@ -164832,19 +166403,41 @@
      "id": "bianca-garcia",
      "name": "Bianca Garcia",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, County Court at Law No. 3 since January 2023",
+     "background": "Bianca Garcia has presided over Travis County Court at Law No. 3, a criminal court, since January 2023.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "County Court #3",
+       "publisher": "Travis County",
+       "url": "https://www.traviscountytx.gov/courts/criminal/county/cc3",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "G26 Bedsheet Ballot, November 3, 2026 General Election",
+       "publisher": "Travis County Clerk Elections Division",
+       "url": "https://votetravis.gov/wp-content/uploads/G26-Bedsheet-Ballot-Corrected-Final2.pdf",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No campaign website, education details, or bar poll results were found in this pass.",
+     "researched": true
     }
    ],
    "office": {
@@ -164869,19 +166462,41 @@
      "id": "dimple-malhotra",
      "name": "Dimple Malhotra",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, County Court at Law No. 4 since October 2019",
+     "background": "Dimple Malhotra has presided over Travis County Court at Law No. 4, a criminal court, since October 2019. The court's page lists a Phoenix Court program.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "County Court #4",
+       "publisher": "Travis County",
+       "url": "https://www.traviscountytx.gov/courts/criminal/county/cc4",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "G26 Bedsheet Ballot, November 3, 2026 General Election",
+       "publisher": "Travis County Clerk Elections Division",
+       "url": "https://votetravis.gov/wp-content/uploads/G26-Bedsheet-Ballot-Corrected-Final2.pdf",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No campaign website, education details, or bar poll results were found in this pass.",
+     "researched": true
     }
    ],
    "office": {
@@ -164906,19 +166521,41 @@
      "id": "mary-ann-espiritu",
      "name": "Mary Ann Espiritu",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, County Court at Law No. 5 since January 2023",
+     "background": "Mary Ann Espiritu has presided over Travis County Court at Law No. 5 since January 2023. She previously worked as a defense attorney in private practice and, before that, as a staff attorney for the Texas Department of Public Safety. She has been licensed to practice law since 2001.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "County Court #5",
+       "publisher": "Travis County",
+       "url": "https://www.traviscountytx.gov/courts/criminal/county/cc5",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "G26 Bedsheet Ballot, November 3, 2026 General Election",
+       "publisher": "Travis County Clerk Elections Division",
+       "url": "https://votetravis.gov/wp-content/uploads/G26-Bedsheet-Ballot-Corrected-Final2.pdf",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No campaign website or bar poll results were found in this pass.",
+     "researched": true
     }
    ],
    "office": {
@@ -164943,19 +166580,48 @@
      "id": "denise-hern-ndez",
      "name": "Denise Hernández",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, County Court at Law No. 6 since January 2023",
+     "background": "Denise Hernández has presided over Travis County Court at Law No. 6 since January 2023.",
      "website": null,
      "priorities": [],
      "promises": [],
-     "record": [],
-     "notes": [],
+     "record": [
+      {
+       "text": "Leads Transformative Youth Justice, a court-led diversion program for people ages 17 to 20 run with the County Attorney's Office and community partners.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "County Court #6",
+       "publisher": "Travis County",
+       "url": "https://www.traviscountytx.gov/courts/criminal/county/cc6",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "G26 Bedsheet Ballot, November 3, 2026 General Election",
+       "publisher": "Travis County Clerk Elections Division",
+       "url": "https://votetravis.gov/wp-content/uploads/G26-Bedsheet-Ballot-Corrected-Final2.pdf",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No campaign website, education details, or bar poll results were found in this pass.",
+     "researched": true
     }
    ],
    "office": {
@@ -164980,19 +166646,54 @@
      "id": "elisabeth-earle",
      "name": "Elisabeth Earle",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, County Court at Law No. 7 since January 2003",
+     "background": "Elisabeth Earle has presided over Travis County Court at Law No. 7 since January 2003. Her peers voted her presiding judge over the county court at law judges in 2011, and she continues in that role.",
      "website": null,
      "priorities": [],
      "promises": [],
-     "record": [],
-     "notes": [],
+     "record": [
+      {
+       "text": "Founded the Travis County DWI Court in 2008 and serves as its presiding judge.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
+     "notes": [
+      {
+       "text": "The county website lists awards including the MADD National President's Award for Criminal Justice and the DWI Court Advocate Award from the Texas Criminal Justice Coalition.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "County Court #7",
+       "publisher": "Travis County",
+       "url": "https://www.traviscountytx.gov/courts/criminal/county/cc7",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "G26 Bedsheet Ballot, November 3, 2026 General Election",
+       "publisher": "Travis County Clerk Elections Division",
+       "url": "https://votetravis.gov/wp-content/uploads/G26-Bedsheet-Ballot-Corrected-Final2.pdf",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No campaign website, education details, or bar poll results were found in this pass.",
+     "researched": true
     }
    ],
    "office": {
@@ -165017,19 +166718,48 @@
      "id": "guy-herman",
      "name": "Guy Herman",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, Travis County Probate Court No. 1",
+     "background": "Guy Herman is the judge of Travis County Probate Court No. 1, according to the county probate court page. The court handles probate, guardianship, and related matters.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Probate Court",
+       "publisher": "Travis County",
+       "url": "https://www.traviscountytx.gov/probate",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Texas Judicial Directory, court personnel search",
+       "publisher": "Texas Office of Court Administration",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": "2026-10"
+      },
+      {
+       "id": "s3",
+       "title": "G26 Bedsheet Ballot, November 3, 2026 General Election",
+       "publisher": "Travis County Clerk Elections Division",
+       "url": "https://votetravis.gov/wp-content/uploads/G26-Bedsheet-Ballot-Corrected-Final2.pdf",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "Start date in office and background were not stated on the official pages reviewed.",
+     "researched": true
     }
    ],
    "office": {
@@ -165054,19 +166784,41 @@
      "id": "velva-l-price",
      "name": "Velva L. Price",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Travis County District Clerk",
+     "background": "Velva L. Price came to Travis County in 1983 to attend the University of Texas School of Law and graduated in 1986. She then practiced law representing individuals, governmental entities, and corporations. She was the first African American woman elected president of the Austin Bar Association and has served as president of the Austin Black Lawyers Association and the Travis County Women Lawyers Association.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "District Clerk Bio",
+       "publisher": "Travis County",
+       "url": "https://www.traviscountytx.gov/district-clerk/bio",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "G26 Bedsheet Ballot, November 3, 2026 General Election",
+       "publisher": "Travis County Clerk Elections Division",
+       "url": "https://votetravis.gov/wp-content/uploads/G26-Bedsheet-Ballot-Corrected-Final2.pdf",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "The year she first took office was not stated on the county page reviewed.",
+     "researched": true
     }
    ],
    "office": {
@@ -165091,19 +166843,41 @@
      "id": "dyana-limon-mercado",
      "name": "Dyana Limon-Mercado",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Travis County Clerk",
+     "background": "Dyana Limon-Mercado is the Travis County Clerk. She previously served as executive director of Planned Parenthood Texas Votes and as Travis County Democratic Party chair from 2018 to 2020. She holds an associate degree from Austin Community College (2003), a bachelor's degree from Texas State University (2005), and a graduate degree from the University of Texas at San Antonio (2008).",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "About the County Clerk",
+       "publisher": "Travis County Clerk",
+       "url": "https://countyclerk.traviscountytx.gov/about-the-county-clerk/",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "G26 Bedsheet Ballot, November 3, 2026 General Election",
+       "publisher": "Travis County Clerk Elections Division",
+       "url": "https://votetravis.gov/wp-content/uploads/G26-Bedsheet-Ballot-Corrected-Final2.pdf",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "The county page describes her as newly elected but does not give a start date.",
+     "researched": true
     }
    ],
    "office": {
@@ -165128,19 +166902,41 @@
      "id": "dolores-ortega-carter",
      "name": "Dolores Ortega Carter",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Travis County Treasurer",
+     "background": "Dolores Ortega Carter is the Travis County Treasurer. The office safeguards and disburses county funds, acts as paying agent for county bonds, and processes cash bail bond checks and juror payments.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Treasurer: About Us",
+       "publisher": "Travis County",
+       "url": "https://www.traviscountytx.gov/treasurer/about",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "G26 Bedsheet Ballot, November 3, 2026 General Election",
+       "publisher": "Travis County Clerk Elections Division",
+       "url": "https://votetravis.gov/wp-content/uploads/G26-Bedsheet-Ballot-Corrected-Final2.pdf",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "Her start date and background were not stated on the county page reviewed.",
+     "researched": true
     }
    ],
    "office": {
@@ -165165,19 +166961,48 @@
      "id": "brigid-shea",
      "name": "Brigid Shea",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Travis County Commissioner, Precinct 2, since 2014 election",
+     "background": "Brigid Shea was elected to the Travis County Commissioners Court in 2014. She is a former public radio reporter and served on the Austin City Council from 1993 to 1996. She started the Texas Clean Water Action program in 1988 and led the Save Our Springs citizen initiative that passed in 1992.",
      "website": null,
      "priorities": [],
      "promises": [],
-     "record": [],
-     "notes": [],
+     "record": [
+      {
+       "text": "The county website says her climate and resilience work on the Commissioners Court has won four National Association of Counties Achievement Awards, including for a neighborhood wildfire drill and reclaimed wastewater use in county buildings.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Commissioner, Brigid Shea, Precinct Two",
+       "publisher": "Travis County",
+       "url": "https://www.traviscountytx.gov/commissioners-court/precinct-two",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "G26 Bedsheet Ballot, November 3, 2026 General Election",
+       "publisher": "Travis County Clerk Elections Division",
+       "url": "https://votetravis.gov/wp-content/uploads/G26-Bedsheet-Ballot-Corrected-Final2.pdf",
+       "date": "2026"
+      }
+     ],
      "research_gaps": "",
-     "researched": false
+     "researched": true
     }
    ],
    "office": {
@@ -165202,19 +167027,47 @@
      "id": "george-morales-iii",
      "name": "George Morales III",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Travis County Commissioner, Precinct 4",
+     "background": "George Morales III was born and raised in Austin's Dove Springs community. He graduated from Johnston High School and from Huston-Tillotson University summa cum laude. The county website describes him as a certified Master Peace Officer with 27 years of public experience and as \"The People's Constable.\"",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "The county website says he advocated for the Southeast Health and Wellness clinic bond, with the clinic opening in 2024.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Precinct Four, Commissioner George Morales",
+       "publisher": "Travis County",
+       "url": "https://www.traviscountytx.gov/commissioners-court/precinct-four",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "G26 Bedsheet Ballot, November 3, 2026 General Election",
+       "publisher": "Travis County Clerk Elections Division",
+       "url": "https://votetravis.gov/wp-content/uploads/G26-Bedsheet-Ballot-Corrected-Final2.pdf",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "His start date as commissioner was not stated on the county page reviewed.",
+     "researched": true
     }
    ],
    "office": {
@@ -165240,18 +167093,47 @@
      "name": "Ciara Parks",
      "party": "Democratic",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Democratic nominee for Justice of the Peace, Precinct 1",
+     "background": "Ciara Parks won the March 3, 2026 Democratic primary for Travis County Justice of the Peace, Precinct 1, with about 65.6 percent of the vote over Andrew Hairston, according to Ballotpedia. The county website lists Yvonne Michelle Williams as the current judge, so Parks is not the incumbent.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Ciara Parks",
+       "publisher": "Ballotpedia",
+       "url": "https://ballotpedia.org/Ciara_Parks",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Justice of the Peace, Precinct 1",
+       "publisher": "Travis County",
+       "url": "https://www.traviscountytx.gov/justices-of-peace/jp1",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "G26 Bedsheet Ballot, November 3, 2026 General Election",
+       "publisher": "Travis County Clerk Elections Division",
+       "url": "https://votetravis.gov/wp-content/uploads/G26-Bedsheet-Ballot-Corrected-Final2.pdf",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No professional biography or campaign website for Ciara Parks was found in this pass.",
+     "researched": true
     }
    ],
    "office": {
@@ -165277,18 +167159,40 @@
      "name": "Mariel Kelley",
      "party": "Democratic",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Democratic nominee for Justice of the Peace, Precinct 2",
+     "background": "Mariel Kelley is the Democratic nominee for Travis County Justice of the Peace, Precinct 2. The county website lists Randall Slagle as the current justice of the peace, so Kelley is not the incumbent.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Justice of the Peace, Precinct Two",
+       "publisher": "Travis County",
+       "url": "https://www.traviscountytx.gov/justices-of-peace/jp2",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "G26 Bedsheet Ballot, November 3, 2026 General Election",
+       "publisher": "Travis County Clerk Elections Division",
+       "url": "https://votetravis.gov/wp-content/uploads/G26-Bedsheet-Ballot-Corrected-Final2.pdf",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No biography, campaign website, or news coverage of Mariel Kelley was found in this pass.",
+     "researched": true
     }
    ],
    "office": {
@@ -165313,19 +167217,48 @@
      "id": "sylvia-holmes",
      "name": "Sylvia Holmes",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Justice of the Peace, Travis County Precinct 3",
+     "background": "Sylvia Holmes is the Justice of the Peace for Travis County Precinct 3, according to the county website.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Justice of the Peace, Precinct 3",
+       "publisher": "Travis County",
+       "url": "https://www.traviscountytx.gov/justices-of-peace/jp3",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Texas Judicial Directory, court personnel search",
+       "publisher": "Texas Office of Court Administration",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": "2026-10"
+      },
+      {
+       "id": "s3",
+       "title": "G26 Bedsheet Ballot, November 3, 2026 General Election",
+       "publisher": "Travis County Clerk Elections Division",
+       "url": "https://votetravis.gov/wp-content/uploads/G26-Bedsheet-Ballot-Corrected-Final2.pdf",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "Her start date and background were not stated on the official pages reviewed.",
+     "researched": true
     }
    ],
    "office": {
@@ -165350,19 +167283,41 @@
      "id": "raul-arturo-gonzalez",
      "name": "Raul Arturo Gonzalez",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Justice of the Peace, Travis County Precinct 4, since 2007",
+     "background": "Raúl Arturo González was elected Justice of the Peace for Travis County Precinct 4 in November 2006. He previously served as assistant counsel for the State Board of Educator Certification and the Texas Education Agency and spent six and a half years as an assistant district attorney in Travis County. An Austin native, he earned a business degree and a law degree from the University of Texas and has been licensed since 1996.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Justice of the Peace, Precinct Four",
+       "publisher": "Travis County",
+       "url": "https://www.traviscountytx.gov/justices-of-peace/jp4",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "G26 Bedsheet Ballot, November 3, 2026 General Election",
+       "publisher": "Travis County Clerk Elections Division",
+       "url": "https://votetravis.gov/wp-content/uploads/G26-Bedsheet-Ballot-Corrected-Final2.pdf",
+       "date": "2026"
+      }
+     ],
      "research_gaps": "",
-     "researched": false
+     "researched": true
     }
    ],
    "office": {
@@ -165387,19 +167342,41 @@
      "id": "tanisa-jeffers",
      "name": "Tanisa Jeffers",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Justice of the Peace, Travis County Precinct 5, since December 2024",
+     "background": "Tanisa Jeffers was sworn in as Justice of the Peace for Travis County Precinct 5 on December 18, 2024. She earned journalism and history degrees from the University of Texas at Austin in 1992, worked in the Attorney General's Crime Victims' Compensation Program, and became a licensed attorney in 2000 after earning her law degree at UT. She practiced family and criminal law, served as the Travis County Drug Court defense attorney from 2014 to 2018, and was appointed a substitute associate judge by the Austin City Council in 2018.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Justice of the Peace, Precinct 5",
+       "publisher": "Travis County",
+       "url": "https://www.traviscountytx.gov/justices-of-peace/jp5",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "G26 Bedsheet Ballot, November 3, 2026 General Election",
+       "publisher": "Travis County Clerk Elections Division",
+       "url": "https://votetravis.gov/wp-content/uploads/G26-Bedsheet-Ballot-Corrected-Final2.pdf",
+       "date": "2026"
+      }
+     ],
      "research_gaps": "",
-     "researched": false
+     "researched": true
     }
    ],
    "office": {
@@ -165424,19 +167401,41 @@
      "id": "gabriel-padilla",
      "name": "Gabriel Padilla",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Travis County Constable, Precinct 4",
+     "background": "Gabriel Padilla is the Travis County Constable for Precinct 4, according to the county constable page. The 2026 race is for the remainder of an unexpired term.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Constables Precinct Four",
+       "publisher": "Travis County",
+       "url": "https://www.traviscountytx.gov/constables/4",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "G26 Bedsheet Ballot, November 3, 2026 General Election",
+       "publisher": "Travis County Clerk Elections Division",
+       "url": "https://votetravis.gov/wp-content/uploads/G26-Bedsheet-Ballot-Corrected-Final2.pdf",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "How and when he took office, and his background, were not stated on the county page reviewed.",
+     "researched": true
     }
    ],
    "office": {
