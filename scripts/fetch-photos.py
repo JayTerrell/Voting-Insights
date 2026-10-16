@@ -4,6 +4,8 @@
     python3 -I scripts/fetch-photos.py [--retry] [found.json ...]
 
 --retry tries again every photo that failed to download on an earlier run.
+--reject <id> marks a photo as unsuitable after review: its file is deleted and
+it is never downloaded again, even if a later input lists it.
 
 Each input file has {"photos": [{candidate_id, image_url, source_url, credit, kind}]}.
 New entries are merged into data/photos/manifest.json (the permanent record of
@@ -108,7 +110,8 @@ def process(data):
 
 def main(args):
     retry = '--retry' in args
-    inputs = [a for a in args if a != '--retry']
+    rejects = {args[i + 1] for i, a in enumerate(args[:-1]) if a == '--reject'}
+    inputs = [a for i, a in enumerate(args) if a not in ('--retry', '--reject') and (i == 0 or args[i - 1] != '--reject')]
     candidates = {c['id'] for r in json.loads(GUIDE.read_text())['races'] for c in r['candidates']}
     manifest = json.loads(MANIFEST.read_text()) if MANIFEST.exists() else {'photos': {}}
     added = 0
@@ -126,9 +129,17 @@ def main(args):
             if not ok:
                 print(f'skip {cid}: not an allowed photo entry')
                 continue
+            if manifest['photos'].get(cid, {}).get('rejected'):
+                continue
             if cid not in manifest['photos']:
                 added += 1
             manifest['photos'][cid] = {k: p[k] for k in ('image_url', 'source_url', 'credit', 'kind')}
+
+    for cid in rejects:
+        if cid in manifest['photos']:
+            manifest['photos'][cid]['rejected'] = True
+            (OUT_DIR / f'{cid}.jpg').unlink(missing_ok=True)
+            print(f'rejected {cid}')
 
     if retry:
         for p in manifest['photos'].values():
@@ -138,7 +149,7 @@ def main(args):
     saved, failed = 0, []
     for cid, p in sorted(manifest['photos'].items()):
         dest = OUT_DIR / f'{cid}.jpg'
-        if dest.exists() or p.get('failed'):
+        if dest.exists() or p.get('failed') or p.get('rejected'):
             continue
         try:
             dest.write_bytes(process(download(p['image_url'])))
@@ -152,7 +163,7 @@ def main(args):
 
     entries = []
     for cid, p in sorted(manifest['photos'].items()):
-        if cid in candidates and (OUT_DIR / f'{cid}.jpg').exists():
+        if cid in candidates and not p.get('rejected') and (OUT_DIR / f'{cid}.jpg').exists():
             entries.append(
                 {
                     'id': cid,
