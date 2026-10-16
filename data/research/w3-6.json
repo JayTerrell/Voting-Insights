@@ -1,0 +1,3332 @@
+{
+ "candidates": [
+  {
+   "id": "juan-zamora",
+   "race_id": "district-206",
+   "incumbent": false,
+   "current_role": "Democratic nominee for the 206th District Court",
+   "background": "Juan Zamora is the Democratic nominee for the 206th District Court in Hidalgo County. The Hidalgo County staff directory lists Rose Guerra Reyna as the current judge of the 206th District Court, so the seat will change hands. Branch lists him as running unopposed.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    },
+    {
+     "text": "Branch reports that he is running unopposed in the November 2026 general election and advanced from the Democratic primary.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Staff Directory",
+     "publisher": "Hidalgo County, Texas",
+     "url": "https://www.hidalgocounty.us/Directory.aspx",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "2026 Texas General Election: District Judge, 206th Judicial District",
+     "publisher": "Branch",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-district-judge-tx-judicial-district-206",
+     "date": null
+    }
+   ],
+   "research_gaps": "No official biography, campaign website, or news profile describing his legal career or education was found."
+  },
+  {
+   "id": "marla-cuellar",
+   "race_id": "district-275",
+   "incumbent": true,
+   "current_role": "Judge, 275th District Court, Hidalgo County",
+   "background": "Marla Cuellar is the sitting judge of the 275th District Court, according to the Hidalgo County staff directory. She is seeking another term as the Democratic nominee.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Staff Directory",
+     "publisher": "Hidalgo County, Texas",
+     "url": "https://www.hidalgocounty.us/Directory.aspx",
+     "date": null
+    }
+   ],
+   "research_gaps": "No published biography (education, prior career, or date first took office) was found on official sites."
+  },
+  {
+   "id": "noe-gonzalez",
+   "race_id": "district-370",
+   "incumbent": true,
+   "current_role": "Judge, 370th District Court, Hidalgo County",
+   "background": "Noe Gonzalez is the sitting judge of the 370th District Court, according to the Hidalgo County staff directory. He is seeking another term as the Democratic nominee.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Staff Directory",
+     "publisher": "Hidalgo County, Texas",
+     "url": "https://www.hidalgocounty.us/Directory.aspx",
+     "date": null
+    }
+   ],
+   "research_gaps": "No published biography (education, prior career, or date first took office) was found on official sites."
+  },
+  {
+   "id": "richard-cortez",
+   "race_id": "hidalgo-county-judge",
+   "incumbent": true,
+   "current_role": "Hidalgo County Judge",
+   "background": "Richard F. Cortez is the sitting Hidalgo County Judge, according to the county staff directory. As county judge he presides over the Hidalgo County Commissioners Court. He is seeking another term as the Democratic nominee.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Staff Directory",
+     "publisher": "Hidalgo County, Texas",
+     "url": "https://www.hidalgocounty.us/Directory.aspx",
+     "date": null
+    }
+   ],
+   "research_gaps": "The official directory does not give his start date, prior offices, or education, and no other source was reviewed within the research budget."
+  },
+  {
+   "id": "rodolfo-rudy-gonz-lez",
+   "race_id": "hidalgo-ccl-1",
+   "incumbent": true,
+   "current_role": "Judge, Hidalgo County Court at Law No. 1",
+   "background": "Rodolfo Gonzalez is listed as judge of Hidalgo County Court at Law No. 1 in the county staff directory. He is seeking another term as the Democratic nominee.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Staff Directory",
+     "publisher": "Hidalgo County, Texas",
+     "url": "https://www.hidalgocounty.us/Directory.aspx",
+     "date": null
+    }
+   ],
+   "research_gaps": "No published biography (education, prior career, or date first took office) was found on official sites."
+  },
+  {
+   "id": "jaime-jay-palacios",
+   "race_id": "hidalgo-ccl-2",
+   "incumbent": true,
+   "current_role": "Judge, Hidalgo County Court at Law No. 2",
+   "background": "Jaime Palacios is listed as judge of Hidalgo County Court at Law No. 2 in the county staff directory. He is seeking another term as the Democratic nominee.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Staff Directory",
+     "publisher": "Hidalgo County, Texas",
+     "url": "https://www.hidalgocounty.us/Directory.aspx",
+     "date": null
+    }
+   ],
+   "research_gaps": "No published biography (education, prior career, or date first took office) was found on official sites."
+  },
+  {
+   "id": "katherine-garc-a-p-rez",
+   "race_id": "hidalgo-ccl-4",
+   "incumbent": false,
+   "current_role": "Democratic nominee for Hidalgo County Court at Law No. 4",
+   "background": "Katherine García Pérez is the Democratic nominee for Hidalgo County Court at Law No. 4. The Hidalgo County staff directory lists Fred Garza as the current judge of that court, so the seat will change hands.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Staff Directory",
+     "publisher": "Hidalgo County, Texas",
+     "url": "https://www.hidalgocounty.us/Directory.aspx",
+     "date": null
+    }
+   ],
+   "research_gaps": "No official biography or campaign site was found; final certified primary results against Judge Fred Garza were not located within the research budget."
+  },
+  {
+   "id": "arnoldo-cant-jr",
+   "race_id": "hidalgo-ccl-5",
+   "incumbent": true,
+   "current_role": "Judge, Hidalgo County Court at Law No. 5",
+   "background": "Arnoldo Cantu is listed as judge of Hidalgo County Court at Law No. 5 in the county staff directory. He is seeking another term as the Democratic nominee.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Staff Directory",
+     "publisher": "Hidalgo County, Texas",
+     "url": "https://www.hidalgocounty.us/Directory.aspx",
+     "date": null
+    }
+   ],
+   "research_gaps": "No published biography (education, prior career, or date first took office) was found on official sites."
+  },
+  {
+   "id": "albert-garc-a",
+   "race_id": "hidalgo-ccl-6",
+   "incumbent": true,
+   "current_role": "Judge, Hidalgo County Court at Law No. 6",
+   "background": "Albert Garcia is listed as judge of Hidalgo County Court at Law No. 6 in the county staff directory. He is seeking another term as the Democratic nominee.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Staff Directory",
+     "publisher": "Hidalgo County, Texas",
+     "url": "https://www.hidalgocounty.us/Directory.aspx",
+     "date": null
+    }
+   ],
+   "research_gaps": "No published biography (education, prior career, or date first took office) was found on official sites."
+  },
+  {
+   "id": "omar-maldonado",
+   "race_id": "hidalgo-ccl-8",
+   "incumbent": true,
+   "current_role": "Judge, Hidalgo County Court at Law No. 8",
+   "background": "Omar Maldonado is listed as judge of Hidalgo County Court No. 8 in the county staff directory. He is seeking another term as the Democratic nominee.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Staff Directory",
+     "publisher": "Hidalgo County, Texas",
+     "url": "https://www.hidalgocounty.us/Directory.aspx",
+     "date": null
+    }
+   ],
+   "research_gaps": "No published biography (education, prior career, or date first took office) was found on official sites."
+  },
+  {
+   "id": "joanne-garc-a",
+   "race_id": "hidalgo-probate-1",
+   "incumbent": true,
+   "current_role": "Judge, Hidalgo County Probate Court No. 1",
+   "background": "JoAnne Garcia is listed as Probate Judge of the Hidalgo County Probate Court in the county staff directory. She is seeking another term as the Democratic nominee.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Staff Directory",
+     "publisher": "Hidalgo County, Texas",
+     "url": "https://www.hidalgocounty.us/Directory.aspx",
+     "date": null
+    }
+   ],
+   "research_gaps": "No published biography (education, prior career, or date first took office) was found on official sites."
+  },
+  {
+   "id": "aissa-garza",
+   "race_id": "hidalgo-probate-2",
+   "incumbent": true,
+   "current_role": "Judge, Hidalgo County Probate Court No. 2",
+   "background": "Aissa I. Garza is listed as judge of Hidalgo County Probate Court 2 in the county staff directory. She is seeking another term as the Democratic nominee.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Staff Directory",
+     "publisher": "Hidalgo County, Texas",
+     "url": "https://www.hidalgocounty.us/Directory.aspx",
+     "date": null
+    }
+   ],
+   "research_gaps": "No published biography (education, prior career, or date first took office) was found on official sites."
+  },
+  {
+   "id": "arturo-guajardo-jr",
+   "race_id": "hidalgo-county-clerk",
+   "incumbent": true,
+   "current_role": "Hidalgo County Clerk",
+   "background": "Arturo Guajardo, Jr. is the sitting Hidalgo County Clerk, according to the county staff directory. The county clerk keeps county court and property records and issues marriage licenses. He is seeking another term as the Democratic nominee.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Staff Directory",
+     "publisher": "Hidalgo County, Texas",
+     "url": "https://www.hidalgocounty.us/Directory.aspx",
+     "date": null
+    }
+   ],
+   "research_gaps": "No published biography (education, prior career, or date first took office) was found on official sites."
+  },
+  {
+   "id": "eduardo-eddie-cant",
+   "race_id": "hidalgo-commissioner-2",
+   "incumbent": true,
+   "current_role": "Hidalgo County Commissioner, Precinct 2",
+   "background": "Eduardo \"Eddie\" Cantu is the sitting Hidalgo County Commissioner for Precinct 2, according to the county staff directory. He is seeking another term as the Democratic nominee.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Staff Directory",
+     "publisher": "Hidalgo County, Texas",
+     "url": "https://www.hidalgocounty.us/Directory.aspx",
+     "date": null
+    }
+   ],
+   "research_gaps": "No published biography (education, prior career, or date first took office) was found on official sites."
+  },
+  {
+   "id": "ellie-torres",
+   "race_id": "hidalgo-commissioner-4",
+   "incumbent": true,
+   "current_role": "Hidalgo County Commissioner, Precinct 4",
+   "background": "Ellie Torres is the sitting Hidalgo County Commissioner for Precinct 4, according to the county staff directory. She is seeking another term as the Democratic nominee.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Staff Directory",
+     "publisher": "Hidalgo County, Texas",
+     "url": "https://www.hidalgocounty.us/Directory.aspx",
+     "date": null
+    }
+   ],
+   "research_gaps": "No published biography (education, prior career, or date first took office) was found on official sites."
+  },
+  {
+   "id": "jaime-jerry-mu-oz",
+   "race_id": "hidalgo-jp-2-2",
+   "incumbent": true,
+   "current_role": "Justice of the Peace, Precinct 2, Place 2, Hidalgo County",
+   "background": "Jaime Jerry Muñoz is listed as Justice of the Peace for Precinct 2, Place 2 in the Hidalgo County staff directory. He is seeking another term as the Democratic nominee.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Staff Directory",
+     "publisher": "Hidalgo County, Texas",
+     "url": "https://www.hidalgocounty.us/Directory.aspx",
+     "date": null
+    }
+   ],
+   "research_gaps": "No published biography (education, prior career, or date first took office) was found on official sites."
+  },
+  {
+   "id": "cynthia-a-guti-rrez",
+   "race_id": "hidalgo-jp-2-1",
+   "incumbent": false,
+   "current_role": "Democratic nominee for Justice of the Peace, Precinct 2, Place 1",
+   "background": "Cynthia A. Gutiérrez is the Democratic nominee for Justice of the Peace, Precinct 2, Place 1 in Hidalgo County. The county staff directory lists Ricardo Perez as the current justice of the peace for that place, so the seat will change hands. Branch lists her as running unopposed.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Staff Directory",
+     "publisher": "Hidalgo County, Texas",
+     "url": "https://www.hidalgocounty.us/Directory.aspx",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "2026 Texas General Election: Hidalgo County Justice of the Peace, Precinct 2, Place 1",
+     "publisher": "Branch",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-hidalgo-justice-precinct-2-position-1",
+     "date": null
+    }
+   ],
+   "research_gaps": "No official biography, campaign website, or news profile describing her background was found."
+  },
+  {
+   "id": "juan-jj-pe-a-jr",
+   "race_id": "hidalgo-jp-3-2",
+   "incumbent": true,
+   "current_role": "Justice of the Peace, Precinct 3, Place 2, Hidalgo County",
+   "background": "Juan Jose Peña, Jr. is listed as Justice of the Peace for Precinct 3, Place 2 in the Hidalgo County staff directory. He is seeking another term as the Democratic nominee.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Staff Directory",
+     "publisher": "Hidalgo County, Texas",
+     "url": "https://www.hidalgocounty.us/Directory.aspx",
+     "date": null
+    }
+   ],
+   "research_gaps": "No published biography (education, prior career, or date first took office) was found on official sites."
+  },
+  {
+   "id": "andr-maldonado",
+   "race_id": "hidalgo-jp-4-2",
+   "incumbent": true,
+   "current_role": "Justice of the Peace, Precinct 4, Place 2, Hidalgo County",
+   "background": "Andre Maldonado is listed as judge of Justice of the Peace Precinct 4, Place 2 in the Hidalgo County staff directory. He is seeking another term as the Democratic nominee.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Staff Directory",
+     "publisher": "Hidalgo County, Texas",
+     "url": "https://www.hidalgocounty.us/Directory.aspx",
+     "date": null
+    }
+   ],
+   "research_gaps": "No published biography (education, prior career, or date first took office) was found on official sites."
+  },
+  {
+   "id": "jason-jp-pe-a",
+   "race_id": "hidalgo-jp-5-1",
+   "incumbent": true,
+   "current_role": "Justice of the Peace, Precinct 5, Place 1, Hidalgo County",
+   "background": "Jason Peña is listed as Justice of the Peace for Precinct 5, Place 1 in the Hidalgo County staff directory. He is seeking another term as the Democratic nominee.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Staff Directory",
+     "publisher": "Hidalgo County, Texas",
+     "url": "https://www.hidalgocounty.us/Directory.aspx",
+     "date": null
+    }
+   ],
+   "research_gaps": "No published biography (education, prior career, or date first took office) was found on official sites."
+  },
+  {
+   "id": "daniel-danny-marichalar",
+   "race_id": "hidalgo-constable-5",
+   "incumbent": true,
+   "current_role": "Hidalgo County Constable, Precinct 5",
+   "background": "Daniel Marichalar is listed as Constable for Precinct 5 in the Hidalgo County staff directory. He is seeking another term as the Democratic nominee.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Staff Directory",
+     "publisher": "Hidalgo County, Texas",
+     "url": "https://www.hidalgocounty.us/Directory.aspx",
+     "date": null
+    }
+   ],
+   "research_gaps": "No published biography (education, prior career, or date first took office) was found on official sites."
+  },
+  {
+   "id": "elizabeth-byer-leonard",
+   "race_id": "district-238",
+   "incumbent": true,
+   "current_role": "Presiding Judge, 238th District Court, Midland County",
+   "background": "Elizabeth Byer Leonard is listed as presiding judge of the 238th Judicial District Court in the Midland County staff directory. She is seeking another term as the Republican nominee.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Staff Directory",
+     "publisher": "Midland County, Texas",
+     "url": "https://www.co.midland.tx.us/Directory.aspx",
+     "date": null
+    }
+   ],
+   "research_gaps": "No published biography (education, prior career, or date first took office) was found on official sites."
+  },
+  {
+   "id": "brent-morgan",
+   "race_id": "district-318",
+   "incumbent": true,
+   "current_role": "Judge, 318th Family District Court, Midland County",
+   "background": "Brent Morgan is listed as district judge of the 318th Family District Court in the Midland County staff directory. The 318th handles family law cases in Midland County. He is seeking another term as the Republican nominee.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Staff Directory",
+     "publisher": "Midland County, Texas",
+     "url": "https://www.co.midland.tx.us/Directory.aspx",
+     "date": null
+    }
+   ],
+   "research_gaps": "No published biography (education, prior career, or date first took office) was found on official sites."
+  },
+  {
+   "id": "leah-g-robertson",
+   "race_id": "district-385",
+   "incumbent": true,
+   "current_role": "Presiding Judge, 385th District Court, Midland County",
+   "background": "Leah Robertson is listed as presiding judge of the 385th Judicial District Court in the Midland County staff directory. She is seeking another term as the Republican nominee.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Staff Directory",
+     "publisher": "Midland County, Texas",
+     "url": "https://www.co.midland.tx.us/Directory.aspx",
+     "date": null
+    }
+   ],
+   "research_gaps": "No published biography (education, prior career, or date first took office) was found on official sites."
+  },
+  {
+   "id": "jeffrey-todd-robnett",
+   "race_id": "district-441",
+   "incumbent": true,
+   "current_role": "Presiding Judge, 441st District Court, Midland County",
+   "background": "Jeff Robnett is listed as presiding judge of the 441st Judicial District Court in the Midland County staff directory. He is seeking another term as the Republican nominee.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Staff Directory",
+     "publisher": "Midland County, Texas",
+     "url": "https://www.co.midland.tx.us/Directory.aspx",
+     "date": null
+    }
+   ],
+   "research_gaps": "No published biography (education, prior career, or date first took office) was found on official sites."
+  },
+  {
+   "id": "javier-marquez",
+   "race_id": "midland-county-judge",
+   "incumbent": true,
+   "current_role": "Midland County Judge (listed in county directory)",
+   "background": "Jay Marquez is listed as Midland County Judge in the county staff directory. In the March 3, 2026 Republican primary he led a three-way race with 37.47 percent, ahead of Karen Hood and incumbent County Judge Terry Johnson, and advanced to a May runoff with Hood. He appears on the November ballot without an opponent.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Marfa Public Radio reported that incumbent Terry Johnson finished third in the March 2026 Republican primary, and that no Democrat filed for the office.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Staff Directory",
+     "publisher": "Midland County, Texas",
+     "url": "https://www.co.midland.tx.us/Directory.aspx",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "West Texas primary election results 2026",
+     "publisher": "Marfa Public Radio",
+     "url": "https://www.marfapublicradio.org/news/2026-03-03/west-texas-primary-election-results-2026",
+     "date": "2026-03-03"
+    }
+   ],
+   "research_gaps": "The date he began serving as county judge, the May runoff margin, and his professional background were not found."
+  },
+  {
+   "id": "mark-henry-dettman",
+   "race_id": "midland-ccl-1",
+   "incumbent": true,
+   "current_role": "Presiding Judge, Midland County Court at Law",
+   "background": "Mark Dettman is listed as presiding judge of the Midland County Courts-at-Law (Court No. 1) in the county staff directory. He is seeking another term as the Republican nominee.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Staff Directory",
+     "publisher": "Midland County, Texas",
+     "url": "https://www.co.midland.tx.us/Directory.aspx",
+     "date": null
+    }
+   ],
+   "research_gaps": "No published biography (education, prior career, or date first took office) was found on official sites."
+  },
+  {
+   "id": "mike-rittenberry",
+   "race_id": "midland-ccl-2",
+   "incumbent": false,
+   "current_role": "Republican nominee for Midland County Court at Law No. 2",
+   "background": "Mike Rittenberry is the Republican nominee for Midland County Court at Law No. 2. The Midland County staff directory lists Judge Marvin L. Moore as presiding judge of County Court at Law 2, so the seat will change hands.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Staff Directory",
+     "publisher": "Midland County, Texas",
+     "url": "https://www.co.midland.tx.us/Directory.aspx",
+     "date": null
+    }
+   ],
+   "research_gaps": "No biography, campaign site, or news coverage of his legal career was found within the research budget."
+  },
+  {
+   "id": "alex-lex-archuleta",
+   "race_id": "midland-district-clerk",
+   "incumbent": true,
+   "current_role": "Midland County District Clerk",
+   "background": "Alex \"Lex\" Archuleta is listed as District Clerk in the Midland County staff directory. The district clerk keeps records for the district courts and manages jury service. He is seeking another term as the Republican nominee.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Staff Directory",
+     "publisher": "Midland County, Texas",
+     "url": "https://www.co.midland.tx.us/Directory.aspx",
+     "date": null
+    }
+   ],
+   "research_gaps": "No published biography (education, prior career, or date first took office) was found on official sites."
+  },
+  {
+   "id": "alison-haley",
+   "race_id": "midland-county-clerk",
+   "incumbent": true,
+   "current_role": "Midland County Clerk",
+   "background": "Alison Haley is listed as County Clerk in the Midland County staff directory. She is seeking another term as the Republican nominee.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Staff Directory",
+     "publisher": "Midland County, Texas",
+     "url": "https://www.co.midland.tx.us/Directory.aspx",
+     "date": null
+    }
+   ],
+   "research_gaps": "No published biography (education, prior career, or date first took office) was found on official sites."
+  },
+  {
+   "id": "sara-gray",
+   "race_id": "midland-treasurer",
+   "incumbent": true,
+   "current_role": "Midland County Treasurer",
+   "background": "Sara Gray is listed as Treasurer in the Midland County staff directory. She is seeking another term as the Republican nominee.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Staff Directory",
+     "publisher": "Midland County, Texas",
+     "url": "https://www.co.midland.tx.us/Directory.aspx",
+     "date": null
+    }
+   ],
+   "research_gaps": "No published biography (education, prior career, or date first took office) was found on official sites."
+  },
+  {
+   "id": "brian-carney",
+   "race_id": "midland-commissioner-2",
+   "incumbent": false,
+   "current_role": "Republican nominee for Midland County Commissioner, Precinct 2",
+   "background": "Brian Carney is the Republican nominee for Midland County Commissioner, Precinct 2. The Midland County staff directory lists Jeff Somers as the current Precinct 2 commissioner, so the seat will change hands.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Staff Directory",
+     "publisher": "Midland County, Texas",
+     "url": "https://www.co.midland.tx.us/Directory.aspx",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "West Texas primary election results 2026",
+     "publisher": "Marfa Public Radio",
+     "url": "https://www.marfapublicradio.org/news/2026-03-03/west-texas-primary-election-results-2026",
+     "date": "2026-03-03"
+    }
+   ],
+   "research_gaps": "No biography or campaign website was found."
+  },
+  {
+   "id": "dianne-anderson",
+   "race_id": "midland-commissioner-4",
+   "incumbent": true,
+   "current_role": "Midland County Commissioner, Precinct 4",
+   "background": "Dianne Anderson is the incumbent Midland County Commissioner for Precinct 4, according to the county staff directory and KOSA. She finished second in a three-way March 2026 Republican primary and then defeated H. Lance Friday in the May 26, 2026 runoff.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "KOSA reported that she won the May 26, 2026 Republican runoff against H. Lance Friday after no candidate topped 50 percent in March.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Staff Directory",
+     "publisher": "Midland County, Texas",
+     "url": "https://www.co.midland.tx.us/Directory.aspx",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Dianne Anderson reclaims Midland County Precinct 4 seat",
+     "publisher": "KOSA First Alert 7",
+     "url": "https://www.firstalert7.com/2026/05/27/dianne-anderson-reclaims-midland-county-precinct-4-seat/",
+     "date": "2026-05-26"
+    }
+   ],
+   "research_gaps": "Her start date as commissioner and her professional background were not found."
+  },
+  {
+   "id": "edelmira-ede-zamora-subia",
+   "race_id": "midland-jp-1",
+   "incumbent": true,
+   "current_role": "Justice of the Peace, Precinct 1, Midland County",
+   "background": "Edelmira \"Ede\" Subia is listed as Precinct 1 Judge in the Midland County Justice of the Peace section of the county staff directory. She is seeking another term as the Republican nominee.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Staff Directory",
+     "publisher": "Midland County, Texas",
+     "url": "https://www.co.midland.tx.us/Directory.aspx",
+     "date": null
+    }
+   ],
+   "research_gaps": "No published biography (education, prior career, or date first took office) was found on official sites."
+  },
+  {
+   "id": "yadi-billeck",
+   "race_id": "midland-jp-2",
+   "incumbent": true,
+   "current_role": "Justice of the Peace, Precinct 2, Midland County",
+   "background": "Yadi Billeck is listed as Precinct 2 Judge in the Midland County Justice of the Peace section of the county staff directory. She won the March 3, 2026 Republican primary with 55.76 percent against Rhonda Eggleston.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Marfa Public Radio reported that she won the March 2026 Republican primary over Rhonda Eggleston, 895 votes to 710.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Staff Directory",
+     "publisher": "Midland County, Texas",
+     "url": "https://www.co.midland.tx.us/Directory.aspx",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "West Texas primary election results 2026",
+     "publisher": "Marfa Public Radio",
+     "url": "https://www.marfapublicradio.org/news/2026-03-03/west-texas-primary-election-results-2026",
+     "date": "2026-03-03"
+    }
+   ],
+   "research_gaps": "No published biography (education, prior career, or date first took office) was found on official sites."
+  },
+  {
+   "id": "susan-rayos",
+   "race_id": "midland-jp-3",
+   "incumbent": true,
+   "current_role": "Justice of the Peace, Precinct 3, Midland County",
+   "background": "Susan Rayos is listed as Precinct 3 Judge in the Midland County Justice of the Peace section of the county staff directory. She is seeking another term as the Republican nominee.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Staff Directory",
+     "publisher": "Midland County, Texas",
+     "url": "https://www.co.midland.tx.us/Directory.aspx",
+     "date": null
+    }
+   ],
+   "research_gaps": "No published biography (education, prior career, or date first took office) was found on official sites."
+  },
+  {
+   "id": "john-wesley-barton",
+   "race_id": "midland-jp-4",
+   "incumbent": true,
+   "current_role": "Justice of the Peace, Precinct 4, Midland County",
+   "background": "John W. Barton is listed as Justice of the Peace, Precinct 4 in the Midland County staff directory. He is seeking another term as the Republican nominee.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Staff Directory",
+     "publisher": "Midland County, Texas",
+     "url": "https://www.co.midland.tx.us/Directory.aspx",
+     "date": null
+    }
+   ],
+   "research_gaps": "No published biography (education, prior career, or date first took office) was found on official sites."
+  },
+  {
+   "id": "james-jd-chandler",
+   "race_id": "district-75",
+   "incumbent": false,
+   "current_role": "Republican nominee for the 75th District Court",
+   "background": "James \"JD\" Chandler is the Republican nominee for the 75th District Court, which serves Liberty County. He was one of four candidates in the March 3, 2026 Republican primary and defeated Judge Michelle Merendino, who had been appointed to the seat in 2025, in the May 26, 2026 runoff with 56.54 percent of the vote.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1",
+      "s4"
+     ]
+    },
+    {
+     "text": "Official Liberty County runoff results show Chandler with 4,049 votes (56.54 percent) to 3,112 for Merendino.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Bluebonnet News reported that Merendino was appointed in 2025 to fill the unexpired term of former Judge Mark Morefield.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Cumulative Results Report, May 26, 2026 Primary Runoff (Official Results)",
+     "publisher": "Liberty County, Texas",
+     "url": "https://newtools.cira.state.tx.us/upload/page/12641/Cumulative%20Results-5-28-2026.pdf",
+     "date": "2026-05-28"
+    },
+    {
+     "id": "s2",
+     "title": "Filing period ends with crowded fields in several Liberty County races",
+     "publisher": "Bluebonnet News",
+     "url": "https://bluebonnetnews.com/2025/12/08/filing-period-ends-with-crowded-fields-in-several-liberty-county-races/",
+     "date": "2025-12-08"
+    },
+    {
+     "id": "s3",
+     "title": "Candidates start lining up for March 2026 primary in Liberty County",
+     "publisher": "Bluebonnet News",
+     "url": "https://bluebonnetnews.com/2025/11/20/candidates-start-lining-up-for-march-2026-primary-in-liberty-county/",
+     "date": "2025-11-20"
+    },
+    {
+     "id": "s4",
+     "title": "75th District Court",
+     "publisher": "Liberty County, Texas",
+     "url": "https://www.co.liberty.tx.us/page/liberty.75th",
+     "date": null
+    }
+   ],
+   "research_gaps": "No biography of his legal career or education was found."
+  },
+  {
+   "id": "jay-knight",
+   "race_id": "liberty-county-judge",
+   "incumbent": true,
+   "current_role": "Liberty County Judge",
+   "background": "Jay Knight is the sitting Liberty County Judge; the county judge page directs residents to contact Judge Knight. He was unopposed in the March 2026 Republican primary.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Bluebonnet News reported that he was unopposed on the March 2026 Republican primary ballot.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Liberty County Judge",
+     "publisher": "Liberty County, Texas",
+     "url": "https://www.co.liberty.tx.us/page/liberty.County.Judge",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Filing period ends with crowded fields in several Liberty County races",
+     "publisher": "Bluebonnet News",
+     "url": "https://bluebonnetnews.com/2025/12/08/filing-period-ends-with-crowded-fields-in-several-liberty-county-races/",
+     "date": "2025-12-08"
+    }
+   ],
+   "research_gaps": "No published biography (education, prior career, or date first took office) was found on official sites."
+  },
+  {
+   "id": "thomas-a-tommy-chambers",
+   "race_id": "liberty-ccl-1",
+   "incumbent": true,
+   "current_role": "Judge, Liberty County Court at Law",
+   "background": "Thomas \"Tommy\" Chambers is judge of the Liberty County Court at Law. The court's official page says he was elected to the bench in 2010, 2014, 2018 and 2022. He was unopposed in the March 2026 Republican primary.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "Elected judge of the Liberty County Court at Law in 2010 and reelected in 2014, 2018 and 2022, according to the court's official page.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "County Court at Law",
+     "publisher": "Liberty County, Texas",
+     "url": "https://www.co.liberty.tx.us/page/liberty.County.Court",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Filing period ends with crowded fields in several Liberty County races",
+     "publisher": "Bluebonnet News",
+     "url": "https://bluebonnetnews.com/2025/12/08/filing-period-ends-with-crowded-fields-in-several-liberty-county-races/",
+     "date": "2025-12-08"
+    }
+   ],
+   "research_gaps": "Education and pre-judicial career were not found."
+  },
+  {
+   "id": "dolores-wiley",
+   "race_id": "liberty-district-clerk",
+   "incumbent": false,
+   "current_role": "Republican nominee for Liberty County District Clerk",
+   "background": "Dolores Wiley (spelled Delores in news coverage) is the Republican nominee for Liberty County District Clerk. She was the only candidate to file after District Clerk Delia Sellers decided not to seek reelection; the county website still lists Sellers as district clerk.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Filing period ends with crowded fields in several Liberty County races",
+     "publisher": "Bluebonnet News",
+     "url": "https://bluebonnetnews.com/2025/12/08/filing-period-ends-with-crowded-fields-in-several-liberty-county-races/",
+     "date": "2025-12-08"
+    },
+    {
+     "id": "s2",
+     "title": "Liberty County District Clerk",
+     "publisher": "Liberty County, Texas",
+     "url": "https://www.co.liberty.tx.us/page/liberty.District.Clerk",
+     "date": null
+    }
+   ],
+   "research_gaps": "No information on her professional background was found."
+  },
+  {
+   "id": "lee-haidusek-chambers",
+   "race_id": "liberty-county-clerk",
+   "incumbent": true,
+   "current_role": "Liberty County Clerk",
+   "background": "Lee Haidusek Chambers is the sitting Liberty County Clerk, according to the county clerk's official page. The office handles official public records and elections in Liberty County. She was unopposed in the March 2026 Republican primary.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Liberty County Clerk",
+     "publisher": "Liberty County, Texas",
+     "url": "https://www.co.liberty.tx.us/page/liberty.County.Clerk",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Filing period ends with crowded fields in several Liberty County races",
+     "publisher": "Bluebonnet News",
+     "url": "https://bluebonnetnews.com/2025/12/08/filing-period-ends-with-crowded-fields-in-several-liberty-county-races/",
+     "date": "2025-12-08"
+    },
+    {
+     "id": "s3",
+     "title": "Candidates start lining up for March 2026 primary in Liberty County",
+     "publisher": "Bluebonnet News",
+     "url": "https://bluebonnetnews.com/2025/11/20/candidates-start-lining-up-for-march-2026-primary-in-liberty-county/",
+     "date": "2025-11-20"
+    }
+   ],
+   "research_gaps": "No published biography (education, prior career, or date first took office) was found on official sites."
+  },
+  {
+   "id": "kim-harris",
+   "race_id": "liberty-treasurer",
+   "incumbent": true,
+   "current_role": "Liberty County Treasurer",
+   "background": "Kim Harris is the sitting Liberty County Treasurer, according to the treasurer's official page. She won the March 3, 2026 Republican primary with 79.94 percent against Jackie G. Johnson.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Official Liberty County results show she received 7,471 votes to 1,875 for Jackie G. Johnson in the March 2026 primary.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Liberty County Treasurer",
+     "publisher": "Liberty County, Texas",
+     "url": "https://www.co.liberty.tx.us/page/liberty.County.Treasurer",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Results by Category, March 3, 2026 Primary Election (Official Results)",
+     "publisher": "Liberty County, Texas",
+     "url": "https://newtools.cira.state.tx.us/upload/page/12453/Results%20by%20Category-3-11-2026%2007-36-55%20AM.pdf",
+     "date": "2026-03-11"
+    }
+   ],
+   "research_gaps": "No published biography (education, prior career, or date first took office) was found on official sites."
+  },
+  {
+   "id": "wade-brown",
+   "race_id": "liberty-commissioner-2",
+   "incumbent": false,
+   "current_role": "Liberty County Justice of the Peace, Precinct 5; Republican nominee for Commissioner, Precinct 2",
+   "background": "Wade Brown currently serves as Liberty County Justice of the Peace for Precinct 5, according to the county website and Bluebonnet News. He ran for Commissioner, Precinct 2 against incumbent Greg Arthur and three others, and defeated Arthur in the May 26, 2026 Republican runoff with 59.23 percent.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s3",
+      "s4"
+     ]
+    },
+    {
+     "text": "Official Liberty County runoff results show Brown with 1,562 votes (59.23 percent) to 1,075 for Greg Arthur.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Justice of the Peace, Precinct 5",
+     "publisher": "Liberty County, Texas",
+     "url": "https://www.co.liberty.tx.us/page/liberty.JP5",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Filing period ends with crowded fields in several Liberty County races",
+     "publisher": "Bluebonnet News",
+     "url": "https://bluebonnetnews.com/2025/12/08/filing-period-ends-with-crowded-fields-in-several-liberty-county-races/",
+     "date": "2025-12-08"
+    },
+    {
+     "id": "s3",
+     "title": "Cumulative Results Report, May 26, 2026 Primary Runoff (Official Results)",
+     "publisher": "Liberty County, Texas",
+     "url": "https://newtools.cira.state.tx.us/upload/page/12641/Cumulative%20Results-5-28-2026.pdf",
+     "date": "2026-05-28"
+    },
+    {
+     "id": "s4",
+     "title": "Liberty County Commissioner, Precinct 2",
+     "publisher": "Liberty County, Texas",
+     "url": "https://www.co.liberty.tx.us/page/liberty.Comm2",
+     "date": null
+    }
+   ],
+   "research_gaps": "His start date as justice of the peace and his prior career were not found."
+  },
+  {
+   "id": "gerald-kolarik",
+   "race_id": "liberty-commissioner-4",
+   "incumbent": true,
+   "current_role": "Liberty County Commissioner, Precinct 4",
+   "background": "Gerald Kolarik is listed as Precinct 4 Commissioner on the Liberty County website. He led a three-candidate March 2026 Republican primary and won the May 26, 2026 runoff against John Headrick with 61.89 percent.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Official Liberty County runoff results show Kolarik with 1,080 votes (61.89 percent) to 665 for John Headrick.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Precinct 4 Commissioner Gerald Kolarik",
+     "publisher": "Liberty County, Texas",
+     "url": "https://www.co.liberty.tx.us/page/liberty.Comm4",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Cumulative Results Report, May 26, 2026 Primary Runoff (Official Results)",
+     "publisher": "Liberty County, Texas",
+     "url": "https://newtools.cira.state.tx.us/upload/page/12641/Cumulative%20Results-5-28-2026.pdf",
+     "date": "2026-05-28"
+    },
+    {
+     "id": "s3",
+     "title": "Filing period ends with crowded fields in several Liberty County races",
+     "publisher": "Bluebonnet News",
+     "url": "https://bluebonnetnews.com/2025/12/08/filing-period-ends-with-crowded-fields-in-several-liberty-county-races/",
+     "date": "2025-12-08"
+    }
+   ],
+   "research_gaps": "The date he began serving as commissioner was not found."
+  },
+  {
+   "id": "stephen-hebert",
+   "race_id": "liberty-jp-1",
+   "incumbent": true,
+   "current_role": "Liberty County Justice of the Peace, Precinct 1",
+   "background": "Stephen Hebert is listed as Justice of the Peace, Precinct 1 on the Liberty County website. He was unopposed in the March 2026 Republican primary.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Justice of the Peace, Precinct 1",
+     "publisher": "Liberty County, Texas",
+     "url": "https://www.co.liberty.tx.us/page/liberty.JP1",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Filing period ends with crowded fields in several Liberty County races",
+     "publisher": "Bluebonnet News",
+     "url": "https://bluebonnetnews.com/2025/12/08/filing-period-ends-with-crowded-fields-in-several-liberty-county-races/",
+     "date": "2025-12-08"
+    }
+   ],
+   "research_gaps": "No published biography (education, prior career, or date first took office) was found on official sites."
+  },
+  {
+   "id": "jimmy-belt",
+   "race_id": "liberty-jp-2",
+   "incumbent": true,
+   "current_role": "Liberty County Justice of the Peace, Precinct 2",
+   "background": "Jimmy L. Belt is listed as Justice of the Peace, Precinct 2 on the Liberty County website. He won the March 3, 2026 Republican primary with 63.89 percent against Robert Adams and Briana Dryer.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Official Liberty County results show 430 votes for Belt, 177 for Robert Adams and 66 for Briana Dryer in the March 2026 primary.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Justice of the Peace, Precinct 2",
+     "publisher": "Liberty County, Texas",
+     "url": "https://www.co.liberty.tx.us/page/liberty.JP2",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Results by Category, March 3, 2026 Primary Election (Official Results)",
+     "publisher": "Liberty County, Texas",
+     "url": "https://newtools.cira.state.tx.us/upload/page/12453/Results%20by%20Category-3-11-2026%2007-36-55%20AM.pdf",
+     "date": "2026-03-11"
+    },
+    {
+     "id": "s3",
+     "title": "Filing period ends with crowded fields in several Liberty County races",
+     "publisher": "Bluebonnet News",
+     "url": "https://bluebonnetnews.com/2025/12/08/filing-period-ends-with-crowded-fields-in-several-liberty-county-races/",
+     "date": "2025-12-08"
+    }
+   ],
+   "research_gaps": "No published biography (education, prior career, or date first took office) was found on official sites."
+  },
+  {
+   "id": "cody-parrish",
+   "race_id": "liberty-jp-3",
+   "incumbent": true,
+   "current_role": "Liberty County Justice of the Peace, Precinct 3",
+   "background": "Cody Parrish is listed as Justice of the Peace, Precinct 3 on the Liberty County website. He was unopposed in the March 2026 Republican primary.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Justice of the Peace, Precinct 3",
+     "publisher": "Liberty County, Texas",
+     "url": "https://www.co.liberty.tx.us/page/liberty.JP3",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Filing period ends with crowded fields in several Liberty County races",
+     "publisher": "Bluebonnet News",
+     "url": "https://bluebonnetnews.com/2025/12/08/filing-period-ends-with-crowded-fields-in-several-liberty-county-races/",
+     "date": "2025-12-08"
+    }
+   ],
+   "research_gaps": "No published biography (education, prior career, or date first took office) was found on official sites."
+  },
+  {
+   "id": "larry-wilburn",
+   "race_id": "liberty-jp-4",
+   "incumbent": true,
+   "current_role": "Liberty County Justice of the Peace, Precinct 4",
+   "background": "Larry Wilburn is listed as Justice of the Peace, Precinct 4 on the Liberty County website. He was unopposed in the March 2026 Republican primary.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Justice of the Peace, Precinct 4",
+     "publisher": "Liberty County, Texas",
+     "url": "https://www.co.liberty.tx.us/page/liberty.JP4",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Filing period ends with crowded fields in several Liberty County races",
+     "publisher": "Bluebonnet News",
+     "url": "https://bluebonnetnews.com/2025/12/08/filing-period-ends-with-crowded-fields-in-several-liberty-county-races/",
+     "date": "2025-12-08"
+    }
+   ],
+   "research_gaps": "No published biography (education, prior career, or date first took office) was found on official sites."
+  },
+  {
+   "id": "joe-mcanally",
+   "race_id": "liberty-jp-5",
+   "incumbent": false,
+   "current_role": "Republican nominee for Liberty County Justice of the Peace, Precinct 5",
+   "background": "Joe McAnally (Joseph Weldon McAnally) is the Republican nominee for the open Precinct 5 justice of the peace seat that Wade Brown is leaving to run for commissioner. He was one of four primary candidates and won the May 26, 2026 runoff against Joe Williams with 59.40 percent.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Official Liberty County runoff results show McAnally with 768 votes (59.40 percent) to 525 for Joe Williams.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Cumulative Results Report, May 26, 2026 Primary Runoff (Official Results)",
+     "publisher": "Liberty County, Texas",
+     "url": "https://newtools.cira.state.tx.us/upload/page/12641/Cumulative%20Results-5-28-2026.pdf",
+     "date": "2026-05-28"
+    },
+    {
+     "id": "s2",
+     "title": "Filing period ends with crowded fields in several Liberty County races",
+     "publisher": "Bluebonnet News",
+     "url": "https://bluebonnetnews.com/2025/12/08/filing-period-ends-with-crowded-fields-in-several-liberty-county-races/",
+     "date": "2025-12-08"
+    }
+   ],
+   "research_gaps": "No information on his professional background was found."
+  },
+  {
+   "id": "ralph-fuller",
+   "race_id": "liberty-jp-6",
+   "incumbent": true,
+   "current_role": "Liberty County Justice of the Peace, Precinct 6",
+   "background": "Ralph Fuller is listed as Justice of the Peace, Precinct 6 on the Liberty County website. He was unopposed in the March 2026 Republican primary.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Justice of the Peace, Precinct 6",
+     "publisher": "Liberty County, Texas",
+     "url": "https://www.co.liberty.tx.us/page/liberty.JP6",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Filing period ends with crowded fields in several Liberty County races",
+     "publisher": "Bluebonnet News",
+     "url": "https://bluebonnetnews.com/2025/12/08/filing-period-ends-with-crowded-fields-in-several-liberty-county-races/",
+     "date": "2025-12-08"
+    }
+   ],
+   "research_gaps": "No published biography (education, prior career, or date first took office) was found on official sites."
+  },
+  {
+   "id": "josh-fitzgerald",
+   "race_id": "district-253",
+   "incumbent": false,
+   "current_role": "Republican nominee for the 253rd District Court",
+   "background": "Josh Fitzgerald is the Republican nominee for the 253rd District Court, which serves Liberty and Chambers counties. He challenged incumbent Judge Chap B. Cain III in the March 3, 2026 Republican primary; in Liberty County's official results he received 55.14 percent to Cain's 44.86 percent. Both county websites still list Cain as the 253rd's judge.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s3",
+      "s4"
+     ]
+    },
+    {
+     "text": "Official Liberty County primary results show 5,539 votes for Fitzgerald and 4,506 for Cain in Liberty County.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Results by Category, March 3, 2026 Primary Election (Official Results)",
+     "publisher": "Liberty County, Texas",
+     "url": "https://newtools.cira.state.tx.us/upload/page/12453/Results%20by%20Category-3-11-2026%2007-36-55%20AM.pdf",
+     "date": "2026-03-11"
+    },
+    {
+     "id": "s2",
+     "title": "Voters head to polls on Tuesday",
+     "publisher": "The Vindicator",
+     "url": "https://www.thevindicator.com/article/2364,voters-head-to-polls-on-tuesday",
+     "date": "2026-02-27"
+    },
+    {
+     "id": "s3",
+     "title": "253rd District Court",
+     "publisher": "Liberty County, Texas",
+     "url": "https://www.co.liberty.tx.us/page/liberty.253rd",
+     "date": null
+    },
+    {
+     "id": "s4",
+     "title": "Staff Directory",
+     "publisher": "Chambers County, Texas",
+     "url": "https://www.chamberscountytx.gov/Directory.aspx",
+     "date": null
+    },
+    {
+     "id": "s5",
+     "title": "Filing period ends with crowded fields in several Liberty County races",
+     "publisher": "Bluebonnet News",
+     "url": "https://bluebonnetnews.com/2025/12/08/filing-period-ends-with-crowded-fields-in-several-liberty-county-races/",
+     "date": "2025-12-08"
+    }
+   ],
+   "research_gaps": "Chambers County results and his professional background, legal experience, and education were not found."
+  },
+  {
+   "id": "ryan-dagley",
+   "race_id": "chambers-county-judge",
+   "incumbent": false,
+   "current_role": "Chambers County Commissioner, Precinct 4; Republican nominee for County Judge",
+   "background": "Ryan Dagley currently serves as Chambers County Commissioner for Precinct 4, according to the county directory. He was the only candidate to file in the Republican primary for county judge, to succeed Judge Jimmy Sylvia, who is retiring after more than three decades in the office.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "The Vindicator reported that County Judge Jimmy Sylvia announced his retirement in 2025 after more than three decades in office.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Staff Directory",
+     "publisher": "Chambers County, Texas",
+     "url": "https://www.chamberscountytx.gov/Directory.aspx",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Voters head to polls on Tuesday",
+     "publisher": "The Vindicator",
+     "url": "https://www.thevindicator.com/article/2364,voters-head-to-polls-on-tuesday",
+     "date": "2026-02-27"
+    },
+    {
+     "id": "s3",
+     "title": "GOP candidates file for county office",
+     "publisher": "The Vindicator",
+     "url": "https://www.thevindicator.com/article/1878,gop-candidates-file-for-county-office",
+     "date": "2025-11-13"
+    }
+   ],
+   "research_gaps": "His start date as commissioner and his professional background were not found."
+  },
+  {
+   "id": "cindy-s-price",
+   "race_id": "chambers-ccl",
+   "incumbent": true,
+   "current_role": "Judge, Chambers County Court at Law",
+   "background": "Cindy S. Price is the sitting judge of the Chambers County Court at Law, according to the county directory. The Vindicator reported that she filed to seek a new term.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Staff Directory",
+     "publisher": "Chambers County, Texas",
+     "url": "https://www.chamberscountytx.gov/Directory.aspx",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "GOP candidates file for county office",
+     "publisher": "The Vindicator",
+     "url": "https://www.thevindicator.com/article/1878,gop-candidates-file-for-county-office",
+     "date": "2025-11-13"
+    }
+   ],
+   "research_gaps": "No published biography (education, prior career, or date first took office) was found on official sites."
+  },
+  {
+   "id": "patti-l-henry",
+   "race_id": "chambers-district-clerk",
+   "incumbent": true,
+   "current_role": "Chambers County District Clerk",
+   "background": "Patti L. Henry is the sitting Chambers County District Clerk, according to the county directory. The Vindicator reported that she filed to seek a new term.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Staff Directory",
+     "publisher": "Chambers County, Texas",
+     "url": "https://www.chamberscountytx.gov/Directory.aspx",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "GOP candidates file for county office",
+     "publisher": "The Vindicator",
+     "url": "https://www.thevindicator.com/article/1878,gop-candidates-file-for-county-office",
+     "date": "2025-11-13"
+    }
+   ],
+   "research_gaps": "No published biography (education, prior career, or date first took office) was found on official sites."
+  },
+  {
+   "id": "heather-h-hawthorne",
+   "race_id": "chambers-county-clerk",
+   "incumbent": true,
+   "current_role": "Chambers County Clerk",
+   "background": "Heather Hawthorne is the sitting Chambers County Clerk, according to the county directory. The Vindicator reported that she filed to seek a new term.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Staff Directory",
+     "publisher": "Chambers County, Texas",
+     "url": "https://www.chamberscountytx.gov/Directory.aspx",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "GOP candidates file for county office",
+     "publisher": "The Vindicator",
+     "url": "https://www.thevindicator.com/article/1878,gop-candidates-file-for-county-office",
+     "date": "2025-11-13"
+    }
+   ],
+   "research_gaps": "No published biography (education, prior career, or date first took office) was found on official sites."
+  },
+  {
+   "id": "nicole-nikki-whittington",
+   "race_id": "chambers-treasurer",
+   "incumbent": true,
+   "current_role": "Chambers County Treasurer",
+   "background": "Nicole (Nikki) Whittington is the sitting Chambers County Treasurer, according to the county directory. The Vindicator reported that she filed to seek a new term.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Staff Directory",
+     "publisher": "Chambers County, Texas",
+     "url": "https://www.chamberscountytx.gov/Directory.aspx",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "GOP candidates file for county office",
+     "publisher": "The Vindicator",
+     "url": "https://www.thevindicator.com/article/1878,gop-candidates-file-for-county-office",
+     "date": "2025-11-13"
+    }
+   ],
+   "research_gaps": "No published biography (education, prior career, or date first took office) was found on official sites."
+  },
+  {
+   "id": "kenneth-mark-tice",
+   "race_id": "chambers-commissioner-2",
+   "incumbent": true,
+   "current_role": "Chambers County Commissioner, Precinct 2",
+   "background": "Mark Tice is the sitting Chambers County Commissioner for Precinct 2, according to the county directory. The Vindicator reported that he filed to seek a new term.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Staff Directory",
+     "publisher": "Chambers County, Texas",
+     "url": "https://www.chamberscountytx.gov/Directory.aspx",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "GOP candidates file for county office",
+     "publisher": "The Vindicator",
+     "url": "https://www.thevindicator.com/article/1878,gop-candidates-file-for-county-office",
+     "date": "2025-11-13"
+    }
+   ],
+   "research_gaps": "No published biography (education, prior career, or date first took office) was found on official sites."
+  },
+  {
+   "id": "william-bill-o-wallace-jr",
+   "race_id": "chambers-commissioner-4",
+   "incumbent": false,
+   "current_role": "Former Chambers County commissioner; Republican nominee for Commissioner, Precinct 4",
+   "background": "Bill Wallace, Jr. is a former Chambers County commissioner, according to The Vindicator. He ran in the March 2026 Republican primary against Rusty Senac, also a former commissioner, for the Precinct 4 seat Ryan Dagley is leaving. The county directory lists Dagley as the current Precinct 4 commissioner.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Voters head to polls on Tuesday",
+     "publisher": "The Vindicator",
+     "url": "https://www.thevindicator.com/article/2364,voters-head-to-polls-on-tuesday",
+     "date": "2026-02-27"
+    },
+    {
+     "id": "s2",
+     "title": "GOP candidates file for county office",
+     "publisher": "The Vindicator",
+     "url": "https://www.thevindicator.com/article/1878,gop-candidates-file-for-county-office",
+     "date": "2025-11-13"
+    },
+    {
+     "id": "s3",
+     "title": "Staff Directory",
+     "publisher": "Chambers County, Texas",
+     "url": "https://www.chamberscountytx.gov/Directory.aspx",
+     "date": null
+    }
+   ],
+   "research_gaps": "When and for which precinct he previously served, and his professional background, were not found."
+  },
+  {
+   "id": "celia-devillier",
+   "race_id": "chambers-jp-1",
+   "incumbent": true,
+   "current_role": "Chambers County Justice of the Peace, Precinct 1",
+   "background": "Celia Devillier (listed as Celia Devillier Baker) is the judge of the Chambers County Justice of the Peace Court, Precinct 1, according to the county directory. She is seeking another term as the Republican nominee.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Staff Directory",
+     "publisher": "Chambers County, Texas",
+     "url": "https://www.chamberscountytx.gov/Directory.aspx",
+     "date": null
+    }
+   ],
+   "research_gaps": "No published biography (education, prior career, or date first took office) was found on official sites."
+  },
+  {
+   "id": "michael-mike-wheat",
+   "race_id": "chambers-jp-2",
+   "incumbent": true,
+   "current_role": "Chambers County Justice of the Peace, Precinct 2",
+   "background": "Michael W. Wheat is the judge of the Chambers County Justice of the Peace Court, Precinct 2, according to the county directory. The Vindicator reported that he filed to seek a new term.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Staff Directory",
+     "publisher": "Chambers County, Texas",
+     "url": "https://www.chamberscountytx.gov/Directory.aspx",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "GOP candidates file for county office",
+     "publisher": "The Vindicator",
+     "url": "https://www.thevindicator.com/article/1878,gop-candidates-file-for-county-office",
+     "date": "2025-11-13"
+    }
+   ],
+   "research_gaps": "No published biography (education, prior career, or date first took office) was found on official sites."
+  },
+  {
+   "id": "blake-sylvia",
+   "race_id": "chambers-jp-4",
+   "incumbent": true,
+   "current_role": "Chambers County Justice of the Peace, Precinct 4",
+   "background": "Blake D. Sylvia is the judge of the Chambers County Justice of the Peace Court, Precinct 4, according to the county directory. He is seeking another term as the Republican nominee.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Staff Directory",
+     "publisher": "Chambers County, Texas",
+     "url": "https://www.chamberscountytx.gov/Directory.aspx",
+     "date": null
+    }
+   ],
+   "research_gaps": "No published biography (education, prior career, or date first took office) was found on official sites."
+  },
+  {
+   "id": "david-hatfield",
+   "race_id": "chambers-jp-5",
+   "incumbent": true,
+   "current_role": "Chambers County Justice of the Peace, Precinct 5",
+   "background": "David Hatfield is the judge of the Chambers County Justice of the Peace Court, Precinct 5, according to the county directory. The Vindicator reported that he filed for another term and drew at least one primary challenger, Cindy Davis.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Staff Directory",
+     "publisher": "Chambers County, Texas",
+     "url": "https://www.chamberscountytx.gov/Directory.aspx",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "GOP candidates file for county office",
+     "publisher": "The Vindicator",
+     "url": "https://www.thevindicator.com/article/1878,gop-candidates-file-for-county-office",
+     "date": "2025-11-13"
+    }
+   ],
+   "research_gaps": "No published biography (education, prior career, or date first took office) was found on official sites."
+  },
+  {
+   "id": "jimmy-smith",
+   "race_id": "chambers-jp-6",
+   "incumbent": false,
+   "current_role": "Republican nominee for Chambers County Justice of the Peace, Precinct 6",
+   "background": "Jimmy Smith is the Republican nominee for Chambers County Justice of the Peace, Precinct 6. He was one of three candidates, with Jimmy Moss and Amanda Cordell, in the Republican primary for the seat held by retiring Justice of the Peace Larry Cryer. The county directory lists Cryer as the current Precinct 6 judge.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Voters head to polls on Tuesday",
+     "publisher": "The Vindicator",
+     "url": "https://www.thevindicator.com/article/2364,voters-head-to-polls-on-tuesday",
+     "date": "2026-02-27"
+    },
+    {
+     "id": "s2",
+     "title": "Staff Directory",
+     "publisher": "Chambers County, Texas",
+     "url": "https://www.chamberscountytx.gov/Directory.aspx",
+     "date": null
+    }
+   ],
+   "research_gaps": "No information on his professional background was found."
+  },
+  {
+   "id": "gary-l-steel",
+   "race_id": "district-274",
+   "incumbent": true,
+   "current_role": "Judge, 274th District Court",
+   "background": "Gary Steel is the judge of the 274th Judicial District, according to Comal County's district court page. He is seeking another term as the Republican nominee.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "District Court",
+     "publisher": "Comal County, Texas",
+     "url": "https://www.comalcounty.gov/194/District-Court",
+     "date": null
+    }
+   ],
+   "research_gaps": "His start date, education, and prior legal career were not found within the research budget."
+  },
+  {
+   "id": "stephanie-bascon",
+   "race_id": "district-466",
+   "incumbent": true,
+   "current_role": "Judge, 466th District Court",
+   "background": "Stephanie Bascon is the judge of the 466th Judicial District, according to Comal County's district court page. She is seeking another term as the Republican nominee.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "District Court",
+     "publisher": "Comal County, Texas",
+     "url": "https://www.comalcounty.gov/194/District-Court",
+     "date": null
+    }
+   ],
+   "research_gaps": "Her start date, education, and prior legal career were not found within the research budget."
+  },
+  {
+   "id": "jennifer-tharp",
+   "race_id": "comal-da",
+   "incumbent": true,
+   "current_role": "Comal County Criminal District Attorney",
+   "background": "Jennifer Tharp is the Comal County Criminal District Attorney, according to the county staff directory. MyCanyonLake.com reported that she is seeking a fifth term.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Staff Directory",
+     "publisher": "Comal County, Texas",
+     "url": "https://www.comalcounty.gov/directory.aspx",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Comal County candidates file to run for local office in March 3, 2026 primary elections",
+     "publisher": "MyCanyonLake.com",
+     "url": "https://mycanyonlake.com/comal-county-candidates-file-to-run-for-local-office-in-march-3-2026-primary-elections/",
+     "date": "2025-12-10"
+    }
+   ],
+   "research_gaps": "Her prior legal career and education were not found within the research budget."
+  },
+  {
+   "id": "kristen-h-hoyt",
+   "race_id": "comal-county-judge",
+   "incumbent": true,
+   "current_role": "Comal County Judge (listed in county directory)",
+   "background": "Kristen Hoyt is listed as Comal County Judge in the county staff directory. She previously served as Comal County Tax Assessor-Collector and resigned that office to run for county judge. The New Braunfels Herald-Zeitung reported that she defeated Parrish in the March 2026 Republican primary.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "The New Braunfels Herald-Zeitung reported that Hoyt defeated Parrish in the March 2026 Republican primary for county judge.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Staff Directory",
+     "publisher": "Comal County, Texas",
+     "url": "https://www.comalcounty.gov/directory.aspx",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Comal County candidates file to run for local office in March 3, 2026 primary elections",
+     "publisher": "MyCanyonLake.com",
+     "url": "https://mycanyonlake.com/comal-county-candidates-file-to-run-for-local-office-in-march-3-2026-primary-elections/",
+     "date": "2025-12-10"
+    },
+    {
+     "id": "s3",
+     "title": "Hoyt defeats Parrish, Miller and Minus win in 2026 primary elections",
+     "publisher": "New Braunfels Herald-Zeitung",
+     "url": "https://herald-zeitung.com/news/hoyt-defeats-parrish-miller-and-minus-win-in-2026-primary-elections/article_a74dcde2-2044-4ba2-a539-538d37206917.html",
+     "date": "2026-03"
+    }
+   ],
+   "research_gaps": "The date she began serving as county judge and her professional background before the tax office were not found."
+  },
+  {
+   "id": "geoff-barr",
+   "race_id": "comal-ccl-1",
+   "incumbent": false,
+   "current_role": "Attorney; Republican nominee for Comal County Court at Law No. 1",
+   "background": "Geoff Barr is an attorney who grew up in Comal County, graduated from the University of Texas at Austin, and attended law school at St. Mary's University. After several years in general civil practice, he worked as a civil lawyer for the county and commissioners court. In 2012 he became a human trafficking prosecutor under then-Attorney General Greg Abbott, and later rose to deputy chief of the criminal division and chief of the election integrity division at the Attorney General's office.",
+   "website": null,
+   "priorities": [
+    {
+     "text": "Says he wants to remind the public of the importance of judges and their role as the third branch of government.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says he has the skills and temperament to move from courtroom advocate after 25 years to arbiter.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "2026 Elections: Meet your unopposed incumbent candidates",
+     "publisher": "New Braunfels Herald-Zeitung",
+     "url": "https://herald-zeitung.com/election/2026-elections-meet-your-unopposed-incumbent-candidates/article_1ba26de1-bf4c-4cb4-a88a-8b5d4f9a014d.html",
+     "date": "2026-02-16"
+    },
+    {
+     "id": "s2",
+     "title": "Comal County candidates file to run for local office in March 3, 2026 primary elections",
+     "publisher": "MyCanyonLake.com",
+     "url": "https://mycanyonlake.com/comal-county-candidates-file-to-run-for-local-office-in-march-3-2026-primary-elections/",
+     "date": "2025-12-10"
+    },
+    {
+     "id": "s3",
+     "title": "Staff Directory",
+     "publisher": "Comal County, Texas",
+     "url": "https://www.comalcounty.gov/directory.aspx",
+     "date": null
+    }
+   ],
+   "research_gaps": "The current judge of County Court at Law No. 1 was not confirmed from an official page."
+  },
+  {
+   "id": "heather-n-kellar",
+   "race_id": "comal-district-clerk",
+   "incumbent": true,
+   "current_role": "Comal County District Clerk",
+   "background": "Heather Kellar is the Comal County District Clerk, according to the county staff directory. MyCanyonLake.com identified her as the incumbent running for another term.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Staff Directory",
+     "publisher": "Comal County, Texas",
+     "url": "https://www.comalcounty.gov/directory.aspx",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Comal County candidates file to run for local office in March 3, 2026 primary elections",
+     "publisher": "MyCanyonLake.com",
+     "url": "https://mycanyonlake.com/comal-county-candidates-file-to-run-for-local-office-in-march-3-2026-primary-elections/",
+     "date": "2025-12-10"
+    }
+   ],
+   "research_gaps": "No published biography (education, prior career, or date first took office) was found on official sites."
+  },
+  {
+   "id": "leann-miller",
+   "race_id": "comal-county-clerk",
+   "incumbent": false,
+   "current_role": "Comal ISD administrator; Republican nominee for Comal County Clerk",
+   "background": "LeAnn Miller has lived in Comal County for 20 years and has worked for Comal Independent School District for 17 years, the last five as an administrator. She ran for county clerk after County Clerk Bobbie Koepp decided to retire, and won the March 2026 Republican primary. The county directory lists Koepp as the current county clerk.",
+   "website": null,
+   "priorities": [
+    {
+     "text": "Says she wants to make the clerk's office more efficient and spend its budget with taxpayers in mind.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Campaigns on friendly, efficient public service and modernizing the office.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says she wants to educate residents about clerk services such as the county's property fraud system.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s4"
+     ]
+    },
+    {
+     "text": "The New Braunfels Herald-Zeitung reported that she won the March 2026 Republican primary with 67.97 percent of the vote.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "2026 Elections: Meet your candidates for Comal County Clerk",
+     "publisher": "New Braunfels Herald-Zeitung",
+     "url": "https://herald-zeitung.com/election/2026-elections-meet-your-candidates-for-comal-county-clerk/article_b4388deb-8434-421d-9621-62733f26f205.html",
+     "date": "2026-02-09"
+    },
+    {
+     "id": "s2",
+     "title": "Comal County candidates file to run for local office in March 3, 2026 primary elections",
+     "publisher": "MyCanyonLake.com",
+     "url": "https://mycanyonlake.com/comal-county-candidates-file-to-run-for-local-office-in-march-3-2026-primary-elections/",
+     "date": "2025-12-10"
+    },
+    {
+     "id": "s3",
+     "title": "Hoyt defeats Parrish, Miller and Minus win in 2026 primary elections",
+     "publisher": "New Braunfels Herald-Zeitung",
+     "url": "https://herald-zeitung.com/news/hoyt-defeats-parrish-miller-and-minus-win-in-2026-primary-elections/article_a74dcde2-2044-4ba2-a539-538d37206917.html",
+     "date": "2026-03"
+    },
+    {
+     "id": "s4",
+     "title": "Staff Directory",
+     "publisher": "Comal County, Texas",
+     "url": "https://www.comalcounty.gov/directory.aspx",
+     "date": null
+    }
+   ],
+   "research_gaps": ""
+  },
+  {
+   "id": "stuart-hansmann",
+   "race_id": "comal-tax-assessor",
+   "incumbent": true,
+   "current_role": "Comal County Tax Assessor-Collector (appointed)",
+   "background": "Stuart Hansmann was appointed by the Comal County Commissioners Court as tax assessor-collector to serve the rest of Kristen Hoyt's term after she resigned to run for county judge. He was born and raised in Comal County, has a finance degree from Texas A&M University, and worked about 30 years in commercial, real estate and construction finance. The race is for the unexpired term.",
+   "website": null,
+   "priorities": [
+    {
+     "text": "Says he emphasizes clear communication with taxpayers and being available to answer questions.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "2026 Elections: Meet your unopposed incumbent candidates",
+     "publisher": "New Braunfels Herald-Zeitung",
+     "url": "https://herald-zeitung.com/election/2026-elections-meet-your-unopposed-incumbent-candidates/article_1ba26de1-bf4c-4cb4-a88a-8b5d4f9a014d.html",
+     "date": "2026-02-16"
+    },
+    {
+     "id": "s2",
+     "title": "Comal County candidates file to run for local office in March 3, 2026 primary elections",
+     "publisher": "MyCanyonLake.com",
+     "url": "https://mycanyonlake.com/comal-county-candidates-file-to-run-for-local-office-in-march-3-2026-primary-elections/",
+     "date": "2025-12-10"
+    },
+    {
+     "id": "s3",
+     "title": "Staff Directory",
+     "publisher": "Comal County, Texas",
+     "url": "https://www.comalcounty.gov/directory.aspx",
+     "date": null
+    }
+   ],
+   "research_gaps": ""
+  },
+  {
+   "id": "renee-l-couch",
+   "race_id": "comal-treasurer",
+   "incumbent": true,
+   "current_role": "Comal County Treasurer",
+   "background": "Renee Couch is the Comal County Treasurer and is running unopposed for a sixth term. She has a degree in family and consumer sciences from Texas State University and previously worked as a vendor to the county before being asked to seek the office when her predecessor stepped down.",
+   "website": null,
+   "priorities": [
+    {
+     "text": "Describes the treasurer's role as the county's banker, working with the depository bank to safeguard county funds.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "The Herald-Zeitung reported that during her tenure the office added a cash management coordinator position.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "2026 Elections: Meet your unopposed incumbent candidates",
+     "publisher": "New Braunfels Herald-Zeitung",
+     "url": "https://herald-zeitung.com/election/2026-elections-meet-your-unopposed-incumbent-candidates/article_1ba26de1-bf4c-4cb4-a88a-8b5d4f9a014d.html",
+     "date": "2026-02-16"
+    },
+    {
+     "id": "s2",
+     "title": "Staff Directory",
+     "publisher": "Comal County, Texas",
+     "url": "https://www.comalcounty.gov/directory.aspx",
+     "date": null
+    }
+   ],
+   "research_gaps": "The year she first took office was not found."
+  },
+  {
+   "id": "steve-minus",
+   "race_id": "comal-commissioner-2",
+   "incumbent": false,
+   "current_role": "Rancher; New Braunfels ISD trustee; Republican nominee for Comal County Commissioner, Precinct 2",
+   "background": "Steve Minus is a San Antonio native who attended the University of Texas at San Antonio on a baseball scholarship, played for the Boston Red Sox for about four years, and then worked about 20 years in construction sales and manufacturing. He has served on the New Braunfels ISD board for five years. He won the March 2026 Republican primary for the Precinct 2 seat held by Commissioner Scott Haag, who did not appear on the primary ballot.",
+   "website": null,
+   "priorities": [
+    {
+     "text": "Says he wants more public collaboration among stakeholders, describing the county as feeling segmented.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s4"
+     ]
+    },
+    {
+     "text": "The New Braunfels Herald-Zeitung reported that he won the March 2026 Republican primary with 51.36 percent of the vote.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [
+    {
+     "topic": "Property rights and development",
+     "summary": "Says he is in full support of protecting property rights but that the requirements developers must meet are disjointed.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "2026 Elections: Meet your Comal County commissioner candidates",
+     "publisher": "New Braunfels Herald-Zeitung",
+     "url": "https://herald-zeitung.com/election/2026-elections-meet-your-comal-county-commissioner-candidates/article_89b2fe25-4cc3-49a9-be06-5ace70620f86.html",
+     "date": "2026-02-10"
+    },
+    {
+     "id": "s2",
+     "title": "Comal County candidates file to run for local office in March 3, 2026 primary elections",
+     "publisher": "MyCanyonLake.com",
+     "url": "https://mycanyonlake.com/comal-county-candidates-file-to-run-for-local-office-in-march-3-2026-primary-elections/",
+     "date": "2025-12-10"
+    },
+    {
+     "id": "s3",
+     "title": "Hoyt defeats Parrish, Miller and Minus win in 2026 primary elections",
+     "publisher": "New Braunfels Herald-Zeitung",
+     "url": "https://herald-zeitung.com/news/hoyt-defeats-parrish-miller-and-minus-win-in-2026-primary-elections/article_a74dcde2-2044-4ba2-a539-538d37206917.html",
+     "date": "2026-03"
+    },
+    {
+     "id": "s4",
+     "title": "Staff Directory",
+     "publisher": "Comal County, Texas",
+     "url": "https://www.comalcounty.gov/directory.aspx",
+     "date": null
+    }
+   ],
+   "research_gaps": ""
+  },
+  {
+   "id": "jen-crownover",
+   "race_id": "comal-commissioner-4",
+   "incumbent": true,
+   "current_role": "Comal County Commissioner, Precinct 4",
+   "background": "Jen Crownover is the Comal County Commissioner for Precinct 4, according to the county directory, and has served nearly three terms. She is running unopposed for a fourth term. She says she entered county government through community work on county parks and infrastructure projects.",
+   "website": null,
+   "priorities": [
+    {
+     "text": "Says her focus has been improving county communication and transparency, including explaining which duties belong to the county, state or cities.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Holds weekly station days in Canyon Lake and Spring Branch to meet constituents.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Cites completion of the new county jail and remodeled sheriff's office and downtown court buildings during her tenure.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [
+    {
+     "topic": "Traffic safety",
+     "summary": "Says she has pushed for a school zone on Loop 306 at Rebecca Creek.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Staff Directory",
+     "publisher": "Comal County, Texas",
+     "url": "https://www.comalcounty.gov/directory.aspx",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "2026 Elections: Meet your Comal County commissioner candidates",
+     "publisher": "New Braunfels Herald-Zeitung",
+     "url": "https://herald-zeitung.com/election/2026-elections-meet-your-comal-county-commissioner-candidates/article_89b2fe25-4cc3-49a9-be06-5ace70620f86.html",
+     "date": "2026-02-10"
+    }
+   ],
+   "research_gaps": ""
+  },
+  {
+   "id": "ashley-rae-evans",
+   "race_id": "comal-jp-4",
+   "incumbent": true,
+   "current_role": "Comal County Justice of the Peace, Precinct 4",
+   "background": "Ashley Evans is the Comal County Justice of the Peace for Precinct 4, according to the county staff directory. MyCanyonLake.com identified her as the incumbent running for another term.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Staff Directory",
+     "publisher": "Comal County, Texas",
+     "url": "https://www.comalcounty.gov/directory.aspx",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Comal County candidates file to run for local office in March 3, 2026 primary elections",
+     "publisher": "MyCanyonLake.com",
+     "url": "https://mycanyonlake.com/comal-county-candidates-file-to-run-for-local-office-in-march-3-2026-primary-elections/",
+     "date": "2025-12-10"
+    }
+   ],
+   "research_gaps": "No published biography (education, prior career, or date first took office) was found on official sites."
+  },
+  {
+   "id": "bryan-f-rusty-russ-jr",
+   "race_id": "district-82",
+   "incumbent": true,
+   "current_role": "Judge, 82nd District Court",
+   "background": "Bryan Russ Jr. is the district court judge for Robertson County, according to the county's district court page, which lists a Marlin mailing address for the court. He is seeking another term as the Republican nominee.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "District Court Judge",
+     "publisher": "Robertson County, Texas",
+     "url": "https://www.co.robertson.tx.us/page/robertson.District.Court",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "What's on my Ballot? (November 3, 2026 General Election)",
+     "publisher": "Robertson County Elections",
+     "url": "https://www.co.robertson.tx.us/upload/page/5882/Whats%20on%20my%20Ballot.pdf",
+     "date": "2026"
+    }
+   ],
+   "research_gaps": "No published biography (education, prior career, or date first took office) was found on official sites."
+  },
+  {
+   "id": "joe-david-scarpinato",
+   "race_id": "robertson-county-judge",
+   "incumbent": true,
+   "current_role": "Robertson County Judge",
+   "background": "Joe David Scarpinato is the sitting Robertson County Judge, according to the county judge's official page. The county judge's court also handles probate and guardianship matters by appointment. He is seeking another term as the Republican nominee.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "County Judge",
+     "publisher": "Robertson County, Texas",
+     "url": "https://www.co.robertson.tx.us/page/robertson.County.Judge",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "What's on my Ballot? (November 3, 2026 General Election)",
+     "publisher": "Robertson County Elections",
+     "url": "https://www.co.robertson.tx.us/upload/page/5882/Whats%20on%20my%20Ballot.pdf",
+     "date": "2026"
+    }
+   ],
+   "research_gaps": "No published biography (education, prior career, or date first took office) was found on official sites."
+  },
+  {
+   "id": "barbara-w-axtell",
+   "race_id": "robertson-district-clerk",
+   "incumbent": true,
+   "current_role": "Robertson County District Clerk",
+   "background": "Barbara W. Axtell is the sitting Robertson County District Clerk, according to the district clerk's official page. She is seeking another term as the Republican nominee.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "District Clerk",
+     "publisher": "Robertson County, Texas",
+     "url": "https://www.co.robertson.tx.us/page/robertson.District.Clerk",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "What's on my Ballot? (November 3, 2026 General Election)",
+     "publisher": "Robertson County Elections",
+     "url": "https://www.co.robertson.tx.us/upload/page/5882/Whats%20on%20my%20Ballot.pdf",
+     "date": "2026"
+    }
+   ],
+   "research_gaps": "No published biography (education, prior career, or date first took office) was found on official sites."
+  },
+  {
+   "id": "stephanie-m-sanders",
+   "race_id": "robertson-county-clerk",
+   "incumbent": true,
+   "current_role": "Robertson County Clerk",
+   "background": "Stephanie M. Sanders is the sitting Robertson County Clerk, according to the county clerk's official page. She is seeking another term as the Republican nominee.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "County Clerk",
+     "publisher": "Robertson County, Texas",
+     "url": "https://www.co.robertson.tx.us/page/robertson.County.Clerk",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "What's on my Ballot? (November 3, 2026 General Election)",
+     "publisher": "Robertson County Elections",
+     "url": "https://www.co.robertson.tx.us/upload/page/5882/Whats%20on%20my%20Ballot.pdf",
+     "date": "2026"
+    }
+   ],
+   "research_gaps": "No published biography (education, prior career, or date first took office) was found on official sites."
+  },
+  {
+   "id": "mindy-brewer-turner",
+   "race_id": "robertson-treasurer",
+   "incumbent": true,
+   "current_role": "Robertson County Treasurer (listed as Melinda Turner)",
+   "background": "The Robertson County treasurer page lists Melinda Turner as County Treasurer. Mindy Brewer Turner appears on the November ballot as the Republican nominee for treasurer.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "County Treasurer",
+     "publisher": "Robertson County, Texas",
+     "url": "https://www.co.robertson.tx.us/page/robertson.County.Treasurer",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "What's on my Ballot? (November 3, 2026 General Election)",
+     "publisher": "Robertson County Elections",
+     "url": "https://www.co.robertson.tx.us/upload/page/5882/Whats%20on%20my%20Ballot.pdf",
+     "date": "2026"
+    }
+   ],
+   "research_gaps": "A second source confirming that ballot name Mindy Brewer Turner and listed treasurer Melinda Turner are the same person was not found; no biography was found."
+  },
+  {
+   "id": "rodney-hancock",
+   "race_id": "robertson-commissioner-2",
+   "incumbent": false,
+   "current_role": "Republican nominee for Robertson County Commissioner, Precinct 2",
+   "background": "Rodney Hancock is the Republican nominee for Robertson County Commissioner, Precinct 2. The county commissioners court page lists Donald Threadgill as the current Precinct 2 commissioner, so the seat will change hands.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Commissioners Court",
+     "publisher": "Robertson County, Texas",
+     "url": "https://www.co.robertson.tx.us/page/robertson.Commissioners.Court",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "What's on my Ballot? (November 3, 2026 General Election)",
+     "publisher": "Robertson County Elections",
+     "url": "https://www.co.robertson.tx.us/upload/page/5882/Whats%20on%20my%20Ballot.pdf",
+     "date": "2026"
+    }
+   ],
+   "research_gaps": "No biography, campaign site, or news coverage was found."
+  },
+  {
+   "id": "carla-barker",
+   "race_id": "robertson-jp-1",
+   "incumbent": true,
+   "current_role": "Robertson County Justice of the Peace, Precinct 1",
+   "background": "Carla Barker is the Robertson County Justice of the Peace for Precinct 1, based in Calvert, according to the county justice of the peace page. She is seeking another term as the Republican nominee.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Justice of the Peace",
+     "publisher": "Robertson County, Texas",
+     "url": "https://www.co.robertson.tx.us/page/robertson.Justice",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "What's on my Ballot? (November 3, 2026 General Election)",
+     "publisher": "Robertson County Elections",
+     "url": "https://www.co.robertson.tx.us/upload/page/5882/Whats%20on%20my%20Ballot.pdf",
+     "date": "2026"
+    }
+   ],
+   "research_gaps": "No published biography (education, prior career, or date first took office) was found on official sites."
+  },
+  {
+   "id": "ramona-monie-aguirre",
+   "race_id": "robertson-jp-2",
+   "incumbent": true,
+   "current_role": "Robertson County Justice of the Peace, Precinct 2",
+   "background": "Ramona Aguirre is the Robertson County Justice of the Peace for Precinct 2, based in Hearne, according to the county justice of the peace page. She is seeking another term as the Republican nominee.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Justice of the Peace",
+     "publisher": "Robertson County, Texas",
+     "url": "https://www.co.robertson.tx.us/page/robertson.Justice",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "What's on my Ballot? (November 3, 2026 General Election)",
+     "publisher": "Robertson County Elections",
+     "url": "https://www.co.robertson.tx.us/upload/page/5882/Whats%20on%20my%20Ballot.pdf",
+     "date": "2026"
+    }
+   ],
+   "research_gaps": "No published biography (education, prior career, or date first took office) was found on official sites."
+  },
+  {
+   "id": "melanie-green",
+   "race_id": "robertson-jp-3",
+   "incumbent": true,
+   "current_role": "Robertson County Justice of the Peace, Precinct 3",
+   "background": "Melanie Green is the Robertson County Justice of the Peace for Precinct 3, based in Franklin, according to the county justice of the peace page. She is seeking another term as the Republican nominee.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed on the November 3, 2026 ballot.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Justice of the Peace",
+     "publisher": "Robertson County, Texas",
+     "url": "https://www.co.robertson.tx.us/page/robertson.Justice",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "What's on my Ballot? (November 3, 2026 General Election)",
+     "publisher": "Robertson County Elections",
+     "url": "https://www.co.robertson.tx.us/upload/page/5882/Whats%20on%20my%20Ballot.pdf",
+     "date": "2026"
+    }
+   ],
+   "research_gaps": "No published biography (education, prior career, or date first took office) was found on official sites."
+  }
+ ]
+}
