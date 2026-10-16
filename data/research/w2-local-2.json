@@ -1,0 +1,3787 @@
+{
+ "candidates": [
+  {
+   "id": "asha-reddi",
+   "race_id": "district-240",
+   "incumbent": false,
+   "current_role": "Attorney in private practice; candidate for 240th District Court",
+   "background": "Asha Reddi is a Fort Bend County attorney who says she has practiced law for more than 34 years in Fort Bend, Harris and surrounding counties. She says she earned her law degree from South Texas College of Law while raising a young family. She says she has eight years of judicial experience, which Branch describes as including service on a Texas municipal bench. She says she has lived in Fort Bend County for 27 years.",
+   "website": "https://ashareddi.com",
+   "priorities": [
+    {
+     "text": "Campaigns on decisions based on the law and facts, not politics, pressure or personal preference.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says every person should receive fair and respectful treatment in the courtroom.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Campaigns on strong case management that moves cases promptly while protecting due process.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says she will bring prepared, consistent and disciplined leadership to the court.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Challenging incumbent Judge Surendran K. Pattel in the November 2026 general election.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Asha Reddi, Candidate for Judge, 240th District Court",
+     "publisher": "Asha Reddi campaign",
+     "url": "https://ashareddi.com/",
+     "date": "2026-10"
+    },
+    {
+     "id": "s2",
+     "title": "Asha Reddi, Texas District Judge, District 240",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-district-judge-tx-judicial-district-240/candidates/asha-reddi",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "No bar poll results, endorsements, or details of her prior judicial service were found."
+  },
+  {
+   "id": "surendran-k-pattel",
+   "race_id": "district-240",
+   "incumbent": true,
+   "current_role": "Judge, 240th District Court, Fort Bend County, since January 2023",
+   "background": "Surendran K. Pattel was born and raised in Kerala, India, and earned his law degree from the University of Calicut in 1995. He practiced as a trial and appellate attorney in India, including before the Supreme Court of India, before moving to the Houston area in 2007. He passed the Texas bar and earned a master's degree in international law from the University of Houston Law Center. He is a certified mediator and practiced in Fort Bend, Harris and Brazoria counties before his election; the county describes him as the first Indian American district judge in Fort Bend County.",
+   "website": "https://judgesurendran.com",
+   "priorities": [
+    {
+     "text": "Pledges to serve with dignity and respect for all who appear before him.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Has presided over the 240th District Court since January 1, 2023; the court holds criminal dockets including in-person arraignment and criminal settings.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Member of the Exchange Club of Sugar Land and active in Indian American cultural organizations in the Houston area.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "240th District Court: Judge Surendran K. Pattel",
+     "publisher": "Fort Bend County",
+     "url": "https://www.fortbendcountytx.gov/government/departments/district-courts/240th-district-court",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Surendran K. Pattel, Texas District Judge, District 240",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-district-judge-tx-judicial-district-240/candidates/surendran-k-pattel",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "No campaign platform, bar poll results, endorsements, or notable rulings were found; his campaign website did not load."
+  },
+  {
+   "id": "steve-rogers",
+   "race_id": "district-268",
+   "incumbent": true,
+   "current_role": "Judge, 268th District Court, Fort Bend County",
+   "background": "Steve Rogers is a Houston native and seventh-generation Texan who practiced real estate and tax law for about two decades after an earlier career in sales and insurance. He served as senior counsel and general counsel to multinational companies, practiced in Arizona and federal courts, and later worked as a lawyer in the oil-services industry. He holds a business degree from Baylor University, an MBA from Pepperdine University, a law degree from Trinity Law School and an LLM from Regent University School of Law. He lives in Fort Bend County with his wife and four children and raises sheep on a farm in Needville.",
+   "website": "https://steverogers.com",
+   "priorities": [
+    {
+     "text": "Says he is running to keep criminals off the streets, enforce the law and get the justice system back to work.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Says he will follow the law as written and will not rewrite the law from the bench.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Campaigns on fair and speedy trials and clearing case backlogs.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Says he ran and won on a 'Tired of Crime' platform and works to move as many criminal cases as he can.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Says he has disposed of more than 35 sexual assault cases since taking the bench, many involving young victims.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "In December 2025 he sentenced Timothy Carroll to 25 years in prison after guilty pleas to aggravated sexual assault of a child, as reported by the Fort Bend Star and cited by his campaign.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Appointed Maggie Jaramillo as his associate judge (2023 to 2024) and later appointed former child abuse prosecutor Craig Priesmeyer as associate judge in 2025.",
+     "sources": [
+      "s1",
+      "s5"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "The county court page says he was diagnosed with cancer after taking the bench and believes he is now cancer free.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {
+    "q_textualism": {
+     "position": 1,
+     "basis": "statement",
+     "summary": "Says a judge's duty is to follow the law as it is written and apply it fairly, not to make, rewrite or bend the law to fit public opinion.",
+     "sources": [
+      "s2"
+     ]
+    }
+   },
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "268th District Court: Judge Steve Rogers",
+     "publisher": "Fort Bend County",
+     "url": "https://www.fortbendcountytx.gov/government/departments/district-courts/268th-district-court",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Meet Judge Rogers",
+     "publisher": "Steve Rogers campaign",
+     "url": "https://steverogers.com/meet-judge-rogers/",
+     "date": "2026-10"
+    },
+    {
+     "id": "s3",
+     "title": "Re-Elect Judge Steve Rogers",
+     "publisher": "Steve Rogers campaign",
+     "url": "https://steverogers.com/",
+     "date": "2026-10"
+    },
+    {
+     "id": "s4",
+     "title": "Steve Rogers, Texas District Judge, District 268",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-district-judge-tx-judicial-district-268/candidates/steve-rogers",
+     "date": "2026-07"
+    },
+    {
+     "id": "s5",
+     "title": "Judge Maggie Jaramillo for 458th District Court",
+     "publisher": "Maggie Jaramillo campaign",
+     "url": "https://maggiejaramillo.com/",
+     "date": "2026-10"
+    }
+   ],
+   "research_gaps": "No bar poll results or organizational endorsements were found."
+  },
+  {
+   "id": "brendetta-scott",
+   "race_id": "district-268",
+   "incumbent": false,
+   "current_role": "Commercial law attorney; candidate for 268th District Court",
+   "background": "Brendetta Scott is a commercial law attorney and mother of three who earned her law degree at Thurgood Marshall School of Law. According to Branch, she previously served as an independent hearing examiner for the Texas Education Agency and as an adjunct professor at Thurgood Marshall, teaching appellate litigation and professional responsibility. Branch says her practice has covered family law, civil litigation, personal injury, consumer protection, evictions, foreclosures, bankruptcy and appeals.",
+   "website": "https://brendettascott4judge.com",
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Faced Argie Brame in the March 3, 2026 Democratic primary for the 268th District Court and is the Democratic nominee.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Brendetta Scott, Texas District Judge, District 268",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-district-judge-tx-judicial-district-268/candidates/brendetta-scott-1",
+     "date": "2026-07"
+    },
+    {
+     "id": "s2",
+     "title": "Argie Brame",
+     "publisher": "Ballotpedia",
+     "url": "https://ballotpedia.org/Argie_Brame",
+     "date": "2026"
+    }
+   ],
+   "research_gaps": "Her campaign website did not load; no independent biography, platform, bar poll results or endorsements were found beyond Branch."
+  },
+  {
+   "id": "richard-lybarger",
+   "race_id": "district-328",
+   "incumbent": false,
+   "current_role": "Family law attorney; candidate for 328th District Court",
+   "background": "Richard Lybarger is a family law attorney in Sugar Land who, according to Branch, has practiced since 1986 in divorce, custody, support, property division and adoption cases. He earned a psychology degree from Abilene Christian University, a master's in healthcare administration from Trinity University and a law degree from St. Mary's University School of Law. He previously worked as a respiratory therapist and real estate broker. This is his first campaign for public office.",
+   "website": "https://lybargerfor328.com",
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Challenging incumbent Judge Monica Rawlins for the 328th District Court, a family law court.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Richard Lybarger, Texas District Judge, District 328",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-district-judge-tx-judicial-district-328/candidates/richard-lybarger",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "His campaign website did not load; Branch is the only source found and no platform, bar poll results or endorsements were located."
+  },
+  {
+   "id": "monica-rawlins",
+   "race_id": "district-328",
+   "incumbent": true,
+   "current_role": "Judge, 328th District Court (family law), Fort Bend County, elected 2022",
+   "background": "Monica Rawlins was elected to the 328th District Court, a family law court, on November 8, 2022. She earned a criminal justice degree from the University of Houston-Downtown in 1997 and a law degree from Thurgood Marshall School of Law in 2001. She practiced family law as a solo practitioner from 2001 until taking the bench, and earlier worked for the Star of Hope homeless mission and the Texas Department of Family and Protective Services. She was born and raised in Houston.",
+   "website": null,
+   "priorities": [
+    {
+     "text": "Says she will continue properly applying the law, making unbiased decisions when discretion is necessary, and holding the court to high ethical standards.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Presides over divorce, custody, enforcement, CPS, termination, adoption and paternity cases; the court requires a parenting education course in all cases involving children.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "328th District Court: Judge Monica Rawlins",
+     "publisher": "Fort Bend County",
+     "url": "https://www.fortbendcountytx.gov/government/departments/district-courts/328th-district-court",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Monica Rawlins, Texas District Judge, District 328",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-district-judge-tx-judicial-district-328/candidates/monica-rawlins",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "No campaign website, bar poll results, endorsements or notable rulings were found; Branch lists only a Facebook page."
+  },
+  {
+   "id": "maggie-jaramillo",
+   "race_id": "district-458",
+   "incumbent": true,
+   "current_role": "Judge, 458th District Court, Fort Bend County, by appointment of Gov. Greg Abbott (2025)",
+   "background": "Maggie Jaramillo emigrated legally from Mexico with her parents at age 9, grew up in Los Angeles and married a U.S. Marine. She earned degrees from Arizona Western College and Northern Arizona University and graduated from Thurgood Marshall School of Law in 1997. She was an assistant county attorney in Starr County and a solo practitioner in Fort Bend County from 1998 to 2014. Gov. Rick Perry appointed her to the 400th District Court in 2014; she won election in 2016 and served through 2020, later serving as associate judge of the 268th District Court before Gov. Greg Abbott appointed her to the 458th District Court in 2025.",
+   "website": "https://maggiejaramillo.com",
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "Presiding judge of the 400th District Court from October 2014 (appointment) through December 2020 (elected 2016).",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Associate judge of the 268th District Court from 2023 to 2024 by appointment of Judge Steve Rogers.",
+     "sources": [
+      "s1",
+      "s3"
+     ]
+    },
+    {
+     "text": "Worked as an assistant district attorney in the intake division from 2020 to 2022 and as a public defender's office magistrate attorney in 2020.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Appointed presiding judge of the 458th District Court for a term running January 1, 2025 to December 31, 2026.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Lists the Texas Gang Investigators Association Ted Poe Best Judge in Texas Award among her honors.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Was president of the Fort Bend County Criminal Defense Lawyers Association in 2009 and taught as an adjunct professor at Thurgood Marshall School of Law.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Her campaign biography says her daughter Jessica is a Fort Bend County attorney and Rosenberg City Council member; Jessica Jaramillo is the Republican nominee for County Court at Law No. 3.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Judge Maggie Jaramillo for 458th District Court",
+     "publisher": "Maggie Jaramillo campaign",
+     "url": "https://maggiejaramillo.com/",
+     "date": "2026-10"
+    },
+    {
+     "id": "s2",
+     "title": "458th District Court",
+     "publisher": "Fort Bend County",
+     "url": "https://www.fortbendcountytx.gov/government/departments/district-courts/458th-district-court",
+     "date": null
+    },
+    {
+     "id": "s3",
+     "title": "268th District Court: Judge Steve Rogers",
+     "publisher": "Fort Bend County",
+     "url": "https://www.fortbendcountytx.gov/government/departments/district-courts/268th-district-court",
+     "date": null
+    },
+    {
+     "id": "s4",
+     "title": "Maggie Jaramillo, Texas District Judge, District 458",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-district-judge-tx-judicial-district-458/candidates/maggie-jaramillo",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "Endorsement names on her site could not be read; no bar poll results or notable rulings were found."
+  },
+  {
+   "id": "tameika-carter",
+   "race_id": "district-458",
+   "incumbent": false,
+   "current_role": "Chief assistant district attorney, Felony Trial Bureau, Harris County District Attorney's Office; former judge, 400th District Court",
+   "background": "Tameika Carter graduated from Johnson C. Smith University and Thurgood Marshall School of Law. She was presiding judge of the 400th District Court in Fort Bend County from 2021 through 2024 and lost her 2024 reelection bid. She now works as a felony trial prosecutor and says her trial experience includes sexual assaults, aggravated robberies and murders. She is married with two children.",
+   "website": "https://www.tameikacarter4judge.com",
+   "priorities": [
+    {
+     "text": "Campaigns on reducing case backlogs and running efficient courtroom operations.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says litigants can expect efficiency and to be treated with dignity and respect regardless of background or economic status.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Lists community outreach as a priority.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "As judge of the 400th District Court she presided over criminal and civil jury trials and served as local administrative district judge.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Served as the courthouse 'jury judge' during the COVID-19 pandemic, sat on the Fort Bend Bail Bond Board and chaired the Courthouse Security Council.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Received the Houston Lawyers Association Weldon Berry Judicial Service Award in May 2023.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Tameika Carter for Judge, 458th District Court",
+     "publisher": "Tameika Carter campaign",
+     "url": "https://www.tameikacarter4judge.com/",
+     "date": "2026-10"
+    },
+    {
+     "id": "s2",
+     "title": "Tameika Carter, Texas District Judge, District 458",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-district-judge-tx-judicial-district-458/candidates/tameika-carter",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "No bar poll results or listed endorsements were found."
+  },
+  {
+   "id": "richard-t-bell",
+   "race_id": "district-501",
+   "incumbent": true,
+   "current_role": "Judge, 501st District Court, Fort Bend County, by appointment effective December 1, 2025",
+   "background": "Richard T. Bell was appointed judge of the 501st District Court effective December 1, 2025, for a term ending December 31, 2026. He earned a business degree from Southwestern University in 1994 and a law degree from South Texas College of Law in 1997, then practiced family law across Texas for nearly 20 years, handling complex property and custody cases. He is an adjunct professor at the University of Houston Law Center and served on a State Bar of Texas grievance committee for four years before taking the bench. He is from Richmond.",
+   "website": "https://judgebell.org",
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "Appointed to the newly created 501st District Court effective December 1, 2025.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Former president of the Fort Bend County Bar Association and of the Fort Bend County Dispute Resolution Center; recognized as a member of the State Bar of Texas Pro Bono College.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Served as 2022 president of the Exchange Club of Sugar Land.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "501st District Court: Judge Richard T. Bell",
+     "publisher": "Fort Bend County",
+     "url": "https://www.fortbendcountytx.gov/government/departments/district-courts/501st-district-court",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Richard T. Bell, Texas District Judge, District 501",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-district-judge-tx-judicial-district-501/candidates/richard-t-bell",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "His campaign website returned little content; no bar poll results, endorsements or rulings were found."
+  },
+  {
+   "id": "latosha-mcgill-clayton",
+   "race_id": "district-501",
+   "incumbent": false,
+   "current_role": "Associate Judge, 505th District Court, Fort Bend County, since 2021",
+   "background": "LaTosha McGill Clayton has lived in Fort Bend County for more than 40 years and attended Fort Bend ISD schools. She earned a biology degree from Sam Houston State University, taught middle school science in Fort Bend ISD for five years, and earned her law degree from Thurgood Marshall School of Law in 2004. She founded The McGill Law Firm in 2005, practicing family, criminal, personal injury and probate law, then worked as a legal enforcement attorney at the Harris County Domestic Relations Office before becoming associate judge of the 505th District Court in 2021.",
+   "website": "https://voteclaytonforjudge.com",
+   "priorities": [
+    {
+     "text": "Campaigns on 'Families First,' ensuring every family is heard and treated with fairness and dignity.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says she is committed to applying the law fairly while using discretion and compassion where it matters most.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Has served as associate judge of the 505th District Court since 2021.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Says she provided pro bono services with the Houston Volunteer Lawyers Program and Houston Bar Association Legal Lines and volunteered as a mediator with the Fort Bend Dispute Resolution Center.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Branch describes this as her first campaign for elected office.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "LaTosha McGill Clayton for Judge",
+     "publisher": "LaTosha McGill Clayton campaign",
+     "url": "https://voteclaytonforjudge.com/",
+     "date": "2026-10"
+    },
+    {
+     "id": "s2",
+     "title": "Honorable LaTosha McGill Clayton, Associate Judge",
+     "publisher": "Fort Bend County",
+     "url": "https://www.fortbendcountytx.gov/government/departments/district-courts/505th-district-court/about-associate-latosha-mcgill-clayton",
+     "date": null
+    },
+    {
+     "id": "s3",
+     "title": "Latosha McGill Clayton, Texas District Judge, District 501",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-district-judge-tx-judicial-district-501/candidates/latosha-mcgill-clayton",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "No bar poll results or endorsements were found."
+  },
+  {
+   "id": "mark-h-hanna",
+   "race_id": "district-502",
+   "incumbent": true,
+   "current_role": "Judge, 502nd District Court, Fort Bend County, by appointment of Gov. Greg Abbott effective December 1, 2025",
+   "background": "Mark Hanna was appointed judge of the 502nd District Court effective December 1, 2025. He earned a criminal justice degree from Texas State University and a law degree from South Texas College of Law, then served as an assistant county attorney and assistant district attorney in Matagorda County. He joined the Fort Bend County District Attorney's Office in 1998, where he led the narcotics and special crimes divisions and was deputy chief of the felony division, and he says he tried about 100 cases. He is board certified in criminal law and has lived in Fort Bend County for more than 30 years.",
+   "website": "https://judgemarkhanna.com",
+   "priorities": [
+    {
+     "text": "Says he is committed to fairness, integrity and the rule of law, ensuring every person in his courtroom is treated with respect and impartiality.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Campaigns on his record of promoting accountability, rehabilitation and public safety through problem-solving courts.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Appointed to the newly created 502nd District Court effective December 1, 2025.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Previously served as associate judge of the 458th District Court, according to his campaign.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Helped develop and operate Fort Bend County's first treatment court, the Drug Court, as a prosecutor.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Has taught at the Gus George Law Enforcement Academy and presented continuing legal education for the State Bar and the Texas District and County Attorneys Association.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "502nd District Court: Judge Mark Hanna",
+     "publisher": "Fort Bend County",
+     "url": "https://www.fortbendcountytx.gov/government/departments/district-courts/502nd-district-court",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Judge Mark Hanna for 502nd District Court",
+     "publisher": "Mark Hanna campaign",
+     "url": "https://judgemarkhanna.com/",
+     "date": "2026-10"
+    },
+    {
+     "id": "s3",
+     "title": "Mark H. Hanna, Texas District Judge, District 502",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-district-judge-tx-judicial-district-502/candidates/mark-h-hanna",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "No bar poll results or listed endorsements were found."
+  },
+  {
+   "id": "tamecia-glover",
+   "race_id": "district-502",
+   "incumbent": false,
+   "current_role": "Attorney; former associate judge, 400th District Court",
+   "background": "Tamecia Glover was raised in Alief and is an alumna of the University of Houston, the University of Houston Law Center and the C. T. Bauer College of Business. She worked at law firms, founded her own firm and served as an assistant county attorney before serving as associate judge of the 400th District Court in Fort Bend County. She is active in Delta Sigma Theta Sorority, University of Houston alumni leadership and The Fort Bend Church.",
+   "website": "https://gloverforjudge.com",
+   "priorities": [
+    {
+     "text": "Says she is committed to public safety, upholding the law and ensuring the 502nd District Court serves residents fairly and efficiently.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Campaigns on due process, fairness and reducing case backlogs.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "As associate judge of the 400th District Court she presided over substance abuse and young offender specialty probation courts, according to her campaign.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Lists honors including a 2022 National Diversity Awards listing of the 100 Most Influential African American Lawyers and a 2021 University of Houston Black Alumni Association distinguished alumni award.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Tamecia Glover for Judge, 502nd District Court",
+     "publisher": "Tamecia Glover campaign",
+     "url": "https://gloverforjudge.com/",
+     "date": "2026-10"
+    },
+    {
+     "id": "s2",
+     "title": "Tamecia Glover, Texas District Judge, District 502",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-district-judge-tx-judicial-district-502/candidates/tamecia-glover",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "No bar poll results or endorsements were found."
+  },
+  {
+   "id": "shawn-mcdonald",
+   "race_id": "da-268",
+   "incumbent": false,
+   "current_role": "Criminal defense attorney and Sugar Land municipal court judge",
+   "background": "Shawn McDonald began his career as a felony prosecutor in Henderson County and joined the Fort Bend County District Attorney's Office in 2004 before opening a criminal defense practice in Sugar Land in 2006. He says he has first-chaired nearly 100 jury trials, was appointed special prosecutor in the Sandra Bland case, and is board certified in criminal law. He holds a criminal justice degree from UNC Charlotte and a law degree from St. Mary's University School of Law. He serves as a municipal court judge for Sugar Land and has served on the board of Fort Bend County Crime Stoppers.",
+   "website": "https://www.mcdonaldforda.com",
+   "priorities": [
+    {
+     "text": "Says he will aggressively prosecute violent criminals, including murderers, rapists, armed robbers and gang members, to the fullest extent of the law.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Campaigns on protecting children, the elderly and vulnerable victims and improving communication with crime victims.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Says he will stand with law enforcement and strengthen partnerships with police and sheriff's deputies.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Campaigns on reducing case backlogs and eliminating unnecessary dismissals.",
+     "sources": [
+      "s2",
+      "s3"
+     ]
+    },
+    {
+     "text": "Says the county budget should prioritize public safety, efficient courts and victim services while protecting taxpayers.",
+     "sources": [
+      "s4"
+     ]
+    }
+   ],
+   "promises": [
+    {
+     "text": "Says he will ensure pretrial diversion is reserved for appropriate cases and not used as a substitute for accountability.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Says he will hold regular community forums and publicly report the office's performance.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "record": [],
+   "notes": [
+    {
+     "text": "Won the March 3, 2026 Republican primary with about 74.9 percent of the vote over Mark Rubal.",
+     "sources": [
+      "s5"
+     ]
+    },
+    {
+     "text": "His campaign says the incumbent received more than $750,000 from George Soros in his 2018 election and criticizes the creation of an office division to police law enforcement.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [
+    {
+     "topic": "Criminal Justice",
+     "summary": "Says he would end 'unbridled diversion offers,' failure to prosecute entire categories of crimes, widespread dismissals and expunctions, and lenient plea deals.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "About Shawn",
+     "publisher": "Shawn McDonald for Fort Bend County District Attorney",
+     "url": "https://www.mcdonaldforda.com/",
+     "date": "2026-10"
+    },
+    {
+     "id": "s2",
+     "title": "Issues",
+     "publisher": "Shawn McDonald for Fort Bend County District Attorney",
+     "url": "https://www.mcdonaldforda.com/issues/",
+     "date": "2026-10"
+    },
+    {
+     "id": "s3",
+     "title": "Q&A: See the candidates running for Fort Bend County district attorney",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/sugar-land-missouri-city/election/q-a-see-the-candidates-running-for-fort-bend-county-district-attorney/",
+     "date": "2026-09-29"
+    },
+    {
+     "id": "s4",
+     "title": "Q&A: Meet the 2 Republican primary candidates running for Fort Bend County district attorney",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/sugar-land-missouri-city/election/qa-meet-the-2-republican-primary-candidates-running-for-fort-bend-county-district-attorney/",
+     "date": "2026-02-20"
+    },
+    {
+     "id": "s5",
+     "title": "Update: Unofficial results show multiple Fort Bend County primary races heading to runoffs",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/houston/sugar-land-missouri-city/election/2026/03/03/update-unofficial-results-show-multiple-fort-bend-county-primary-races-heading-to-runoffs/",
+     "date": "2026-03-05"
+    }
+   ],
+   "research_gaps": "No documented position specific to bail for violent felonies or county mental health and jail diversion spending was found."
+  },
+  {
+   "id": "brian-m-middleton",
+   "race_id": "da-268",
+   "incumbent": true,
+   "current_role": "Fort Bend County District Attorney since January 2019",
+   "background": "Brian Middleton was elected Fort Bend County District Attorney in November 2018 and reelected in 2022; he is the county's first African American district attorney and the first Democrat in the office in more than two decades. He earned an economics degree from the University of Houston and a law degree from Thurgood Marshall School of Law in 1997. He worked in the Texas attorney general's habeas corpus division, as a briefing attorney at the Texas Court of Criminal Appeals, and in private practice. He is a certified peace officer and the 2026 president-elect of the Texas District and County Attorneys Association.",
+   "website": "https://www.middletonforda.com",
+   "priorities": [
+    {
+     "text": "Campaigns on public safety through coordinated operations with local, state and federal agencies targeting violent offenders, fugitives and human traffickers.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Campaigns on protecting families from domestic violence and partnering with shelters and nonprofits.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Lists his top priorities as reducing crime, reducing harm and helping youth.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Says he will study the community impact of new development and forecast and fund law enforcement resources as the county urbanizes.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Created Fort Bend County's first Civil Rights and Public Integrity divisions in the district attorney's office.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Offers juvenile and young adult diversion, including informal probation and pretrial intervention, and requires counseling before domestic violence victims may drop charges.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Leads the Fort Bend Anti-Trafficking Collective, funded by an $888,000 U.S. Justice Department grant.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "His office prosecuted County Judge KP George, who was convicted on March 20, 2026 of two felony money laundering charges tied to campaign funds.",
+     "sources": [
+      "s3",
+      "s5"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Named 2022 Texas Prosecutor of the Year by the State Bar of Texas and the Texas District and County Attorneys Association, according to his campaign.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Ran unopposed in the March 2026 Democratic primary.",
+     "sources": [
+      "s6"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Re-elect Brian Middleton, Fort Bend County District Attorney",
+     "publisher": "Brian Middleton campaign",
+     "url": "https://www.middletonforda.com/",
+     "date": "2026-10"
+    },
+    {
+     "id": "s2",
+     "title": "Q&A: See the candidates running for Fort Bend County district attorney",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/sugar-land-missouri-city/election/q-a-see-the-candidates-running-for-fort-bend-county-district-attorney/",
+     "date": "2026-09-29"
+    },
+    {
+     "id": "s3",
+     "title": "Brian Middleton, Fort Bend",
+     "publisher": "Houston Defender",
+     "url": "https://defendernetwork.com/people/dn-news-profiles/brian-middleton-fort-bend/",
+     "date": "2025-10-27"
+    },
+    {
+     "id": "s4",
+     "title": "Brian M Middleton, Texas District Attorney, District 268",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-district-attorney-tx-judicial-district-268/candidates/brian-m-middleton",
+     "date": "2026-07"
+    },
+    {
+     "id": "s5",
+     "title": "Daniel Wong named interim judge for Fort Bend County",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/sugar-land-missouri-city/government/daniel-wong-named-interim-judge-for-fort-bend-county/",
+     "date": "2026-04-10"
+    },
+    {
+     "id": "s6",
+     "title": "Update: Unofficial results show multiple Fort Bend County primary races heading to runoffs",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/houston/sugar-land-missouri-city/election/2026/03/03/update-unofficial-results-show-multiple-fort-bend-county-primary-races-heading-to-runoffs/",
+     "date": "2026-03-05"
+    }
+   ],
+   "research_gaps": "No documented position on bail for violent felonies or on county mental health and jail diversion spending was found."
+  },
+  {
+   "id": "daniel-wong",
+   "race_id": "fort-bend-county-judge",
+   "incumbent": true,
+   "current_role": "Interim Fort Bend County Judge since April 2026 (appointment disputed); president and CEO, Tolunay-Wong Engineers",
+   "background": "Daniel Wong, originally from Macau, is a civil engineer who earned bachelor's, master's and doctoral degrees from the University of Houston and leads Tolunay-Wong Engineers, a firm he says employs more than 400 people. He served on the Sugar Land City Council from 2002 to 2008 and on the Texas Higher Education Coordinating Board. He won the March 2026 Republican primary with about 54 percent, defeating incumbent KP George, and was named interim county judge in April 2026 after a visiting judge suspended George in a civil case. He is an elder at Fort Bend Community Church and lives in Sugar Land.",
+   "website": "https://danielowong.com",
+   "priorities": [
+    {
+     "text": "Says he is running to lower property taxes so tax bills go down, not just grow more slowly.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Campaigns on attracting employers to grow the commercial tax base and streamlining small business permitting.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Campaigns on infrastructure and flood protection, including repaving neglected roads and holding developers accountable for infrastructure.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Campaigns on workforce development, including skilled trades and apprenticeships.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Says he will support law enforcement and first responders and reduce crime through prevention and enforcement.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Says his priority is managing growth while protecting taxpayers and essential services.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "promises": [
+    {
+     "text": "Says he will use the office to advocate for a cap on appraisal increases and to stop 'backdoor tax increases.'",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Says he will audit government waste and prioritize fiscal discipline.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Says he will work with local authorities for reliable access to safe drinking water for all residents.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "record": [
+    {
+     "text": "Was named interim county judge on April 10, 2026, after visiting Judge Jeth Jones suspended KP George in a civil case over residents' First Amendment complaints; the appointment was to last through that case.",
+     "sources": [
+      "s6"
+     ]
+    },
+    {
+     "text": "After the civil case was dismissed in June 2026, the county attorney said his appointment ended June 17; he continued presiding, citing the Texas Constitution's holdover provision, and two commissioners voted to keep him presiding.",
+     "sources": [
+      "s7"
+     ]
+    },
+    {
+     "text": "Filed suit against County Attorney Bridgette Smith-Lawson, arguing she exceeded her authority by declaring his appointment over; his attorneys say Commissioners Court approved his appointment through the end of 2026.",
+     "sources": [
+      "s9"
+     ]
+    },
+    {
+     "text": "Says the county lowered its tax rate from 41.2 to 40.7 cents during his tenure.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Hired Trever Nehls as chief of staff at a six-figure salary, which Dexter McCoy said was more than double what other court employees earn.",
+     "sources": [
+      "s8"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Endorsed by Gov. Greg Abbott, according to his campaign.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "The Houston Chronicle editorial board endorsed him in the Republican primary; it endorsed his opponent in the general election.",
+     "sources": [
+      "s5"
+     ]
+    },
+    {
+     "text": "A Texas Southern University poll conducted September 9 to October 2, 2026 found McCoy at 49 percent and Wong at 40 percent among registered voters.",
+     "sources": [
+      "s5"
+     ]
+    }
+   ],
+   "stances": {
+    "q_county_tax": {
+     "position": 2,
+     "basis": "statement",
+     "summary": "Pledges to lower property tax bills, not just slow their growth, and says he would manage growth without raising taxes by seeking outside funding and growing the commercial base.",
+     "sources": [
+      "s2",
+      "s4"
+     ]
+    }
+   },
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Daniel Wong, Republican for Fort Bend County Judge",
+     "publisher": "Daniel Wong campaign",
+     "url": "https://danielowong.com/",
+     "date": "2026-10"
+    },
+    {
+     "id": "s2",
+     "title": "Issues",
+     "publisher": "Daniel Wong campaign",
+     "url": "https://danielowong.com/issues/",
+     "date": "2026-10"
+    },
+    {
+     "id": "s3",
+     "title": "Q&A: Get to know the candidates running for Fort Bend County judge",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/sugar-land-missouri-city/election/q-a-get-to-know-the-candidates-running-for-fort-bend-county-judge/",
+     "date": "2026-09-28"
+    },
+    {
+     "id": "s4",
+     "title": "Meet the 5 Republican candidates for Fort Bend County judge in the March primaries",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/houston/katy-fulshear/election/2026/01/16/meet-the-5-republican-candidates-for-fort-bend-county-judge-in-the-march-primaries/",
+     "date": "2026-01-16"
+    },
+    {
+     "id": "s5",
+     "title": "2026 Fort Bend County Judge election",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/2026_Fort_Bend_County_Judge_election",
+     "date": "2026-10"
+    },
+    {
+     "id": "s6",
+     "title": "Daniel Wong named interim judge for Fort Bend County",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/sugar-land-missouri-city/government/daniel-wong-named-interim-judge-for-fort-bend-county/",
+     "date": "2026-04-10"
+    },
+    {
+     "id": "s7",
+     "title": "Does Fort Bend County have a judge? It depends on who you ask",
+     "publisher": "ABC13 Houston",
+     "url": "https://abc13.com/amp/post/does-fort-bend-county-have-judge-depends-ask/19381260/",
+     "date": "2026-06-25"
+    },
+    {
+     "id": "s8",
+     "title": "Challenges Loom in McCoy's Bid for Fort Bend County Judge",
+     "publisher": "Houston Press",
+     "url": "https://www.houstonpress.com/news/challenges-loom-in-mccoys-bid-for-fort-bend-county-judge/",
+     "date": "2026-05-18"
+    },
+    {
+     "id": "s9",
+     "title": "Daniel Wong asks court to confirm he is still interim Fort Bend County judge",
+     "publisher": "FOX 26 Houston",
+     "url": "https://www.fox26houston.com/news/daniel-wong-asks-court-confirm-he-is-still-interim-fort-bend-county-judge",
+     "date": "2026-07"
+    },
+    {
+     "id": "s10",
+     "title": "Daniel Wong, Fort Bend County Judge",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-judge-tx-county-fort-bend/candidates/daniel-wong",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "No documented positions were found on a state spending cap, county mental health and jail diversion spending, state water funding, or state preemption of local rules."
+  },
+  {
+   "id": "dexter-l-mccoy",
+   "race_id": "fort-bend-county-judge",
+   "incumbent": false,
+   "current_role": "Fort Bend County Commissioner, Precinct 4, since January 2023",
+   "background": "Dexter McCoy grew up in Mission Bend and earned a degree in broadcast journalism and political science from Boston University. He worked in the Obama administration, helped create an Office of Student Affairs in the Washington, D.C. public schools, worked for Fort Bend ISD, and served as chief of staff to the Fort Bend County judge before winning the Precinct 4 commissioner seat in 2022. He won the May 26, 2026 Democratic runoff for county judge with about 74 percent over Rachelle Carter. He is married with two daughters.",
+   "website": "https://www.dextermccoy.com",
+   "priorities": [
+    {
+     "text": "Says his top priority is affordability, including targeted tax relief and growing the commercial tax base so infrastructure costs are not placed solely on homeowners and renters.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Campaigns on 'bringing back ethical leadership,' including an open budget process and zero tolerance for corruption.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Campaigns on better transportation, congestion relief and expanded transit options.",
+     "sources": [
+      "s2",
+      "s4"
+     ]
+    },
+    {
+     "text": "Says he will require county contractors to pay a living wage and promote worker safety standards.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Campaigns on supporting early childhood education and union apprenticeship programs.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "promises": [
+    {
+     "text": "Says he will expand his budget town halls from Precinct 4 to the entire county.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Says he will initiate a countywide development plan to serve as a roadmap for future growth.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Says he will encourage the county to join or support lawsuits when state or federal actions violate voting rights or local authority.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "record": [
+    {
+     "text": "As commissioner, says he helped raise the minimum wage for county employees, passed the county's first paid parental leave policy and nearly doubled paid sick time.",
+     "sources": [
+      "s1",
+      "s8"
+     ]
+    },
+    {
+     "text": "Says he launched a mobility dashboard and a countywide 311 system and has held nearly 40 town halls in Precinct 4.",
+     "sources": [
+      "s1",
+      "s3"
+     ]
+    },
+    {
+     "text": "In June 2026 he and Commissioner Grady Prestage walked out of a Commissioners Court meeting, saying the court lacked a legal quorum because they do not recognize Daniel Wong as acting county judge.",
+     "sources": [
+      "s7"
+     ]
+    },
+    {
+     "text": "Opposed the appointment of Daniel Wong as interim county judge and criticized Wong's hiring of a chief of staff at a six-figure salary as 'completely wasting taxpayer dollars.'",
+     "sources": [
+      "s6"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Endorsed by U.S. Reps. Lizzie Fletcher and Christian Menefee and state Reps. Gene Wu, Jon Rosenthal and James Talarico; the Houston Chronicle endorsed him in the primary and the general election.",
+     "sources": [
+      "s5",
+      "s6"
+     ]
+    },
+    {
+     "text": "Led the March 3, 2026 Democratic primary with about 40 percent and won the May 26 runoff with about 74 percent.",
+     "sources": [
+      "s5"
+     ]
+    }
+   ],
+   "stances": {
+    "q_preemption": {
+     "position": -2,
+     "basis": "statement",
+     "summary": "Opposes efforts that 'take away local control' and wants the county to join lawsuits when state actions violate local authority.",
+     "sources": [
+      "s2"
+     ]
+    },
+    "q_county_tax": {
+     "position": 0,
+     "basis": "statement",
+     "summary": "Favors targeted tax relief through exemptions, efficiency and cutting 'pet projects' while also calling for investment in infrastructure, transit and county services, so his position on rate versus services is mixed.",
+     "sources": [
+      "s3",
+      "s4"
+     ]
+    }
+   },
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Dexter McCoy for Fort Bend County Judge",
+     "publisher": "Dexter McCoy campaign",
+     "url": "https://www.dextermccoy.com/",
+     "date": "2026-10"
+    },
+    {
+     "id": "s2",
+     "title": "Priorities",
+     "publisher": "Dexter McCoy campaign",
+     "url": "https://www.dextermccoy.com/priorities",
+     "date": "2026-10"
+    },
+    {
+     "id": "s3",
+     "title": "Q&A: Get to know the candidates running for Fort Bend County judge",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/sugar-land-missouri-city/election/q-a-get-to-know-the-candidates-running-for-fort-bend-county-judge/",
+     "date": "2026-09-28"
+    },
+    {
+     "id": "s4",
+     "title": "Q&A: Dexter L. McCoy and Rachelle Carter to face off in May Democratic runoff for Fort Bend County judge",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/houston/sugar-land-missouri-city/election/2026/05/06/qa-dexter-l-mccoy-and-rachelle-carter-to-face-off-in-may-democratic-runoff-for-fort-bend-county-judge/",
+     "date": "2026-05-06"
+    },
+    {
+     "id": "s5",
+     "title": "2026 Fort Bend County Judge election",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/2026_Fort_Bend_County_Judge_election",
+     "date": "2026-10"
+    },
+    {
+     "id": "s6",
+     "title": "Challenges Loom in McCoy's Bid for Fort Bend County Judge",
+     "publisher": "Houston Press",
+     "url": "https://www.houstonpress.com/news/challenges-loom-in-mccoys-bid-for-fort-bend-county-judge/",
+     "date": "2026-05-18"
+    },
+    {
+     "id": "s7",
+     "title": "Does Fort Bend County have a judge? It depends on who you ask",
+     "publisher": "ABC13 Houston",
+     "url": "https://abc13.com/amp/post/does-fort-bend-county-have-judge-depends-ask/19381260/",
+     "date": "2026-06-25"
+    },
+    {
+     "id": "s8",
+     "title": "Profiles of Democratic Party candidates for Fort Bend County Judge",
+     "publisher": "Fort Bend Independent",
+     "url": "https://fbindependent.com/profiles-of-democratic-party-candidates-for-fort-bend-county-judge-p16433-1.htm",
+     "date": "2026-01-27"
+    },
+    {
+     "id": "s9",
+     "title": "Dexter L McCoy, Fort Bend County Judge",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-judge-tx-county-fort-bend/candidates/dexter-l-mc-coy",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "No documented positions were found on a state spending cap, county mental health and jail diversion spending, or state water funding."
+  },
+  {
+   "id": "chris-morales",
+   "race_id": "fort-bend-ccl-1",
+   "incumbent": true,
+   "current_role": "Judge, Fort Bend County Court at Law No. 1, elected 2014",
+   "background": "Chris Morales was elected judge of County Court at Law No. 1 in 2014 and reelected in 2018 and 2022; the county describes him as its longest-serving judge. He is a lifelong Fort Bend County resident who graduated from B.F. Terry High School, Texas A&M University and South Texas College of Law. Before the bench he was a Fort Bend County assistant district attorney, a litigator at a Houston firm and owner of a law practice. He teaches trial advocacy as an adjunct professor at the University of Houston Law Center.",
+   "website": "https://judgemorales.com",
+   "priorities": [
+    {
+     "text": "Says he will continue to follow the law and hold offenders accountable for a safer Fort Bend County.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Oversees Fort Bend County's only misdemeanor mental health court, a program intended to reduce recidivism among defendants with mental illness.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    },
+    {
+     "text": "Was the first Fort Bend County judge to hold a fully remote video hearing after courts closed during the COVID-19 pandemic.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "His campaign says his court recorded 2,689 court actions in 2024, more than any other Fort Bend County Court at Law.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Endorsed by the Fort Bend Business Coalition, Texas Latino Conservatives PAC, the Houston Police Officers' Union, former District Attorney John Healey and former state Rep. Jacey Jetton, among others.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Received a 2022 Lone Star Legal Aid Pro Bono Excellence Award and was elected to the Judicial Section Board of the State Bar of Texas.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "County Court at Law No. 1: Honorable Christopher G. Morales",
+     "publisher": "Fort Bend County",
+     "url": "https://www.fortbendcountytx.gov/government/departments/county-courts-at-law/county-court-at-law-1",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Judge Chris Morales, Fort Bend County Court at Law No. 1",
+     "publisher": "Chris Morales campaign",
+     "url": "https://judgemorales.com/",
+     "date": "2026-10"
+    },
+    {
+     "id": "s3",
+     "title": "Endorsements",
+     "publisher": "Chris Morales campaign",
+     "url": "https://judgemorales.com/endorsements/",
+     "date": "2026-10"
+    },
+    {
+     "id": "s4",
+     "title": "Chris Morales, Fort Bend County Court-At-Law Judge, Post 1",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-court-at-law-judge-tx-county-fort-bend-post-1/candidates/chris-morales",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "No bar poll results were found."
+  },
+  {
+   "id": "nireasha-murray",
+   "race_id": "fort-bend-ccl-1",
+   "incumbent": false,
+   "current_role": "Attorney; candidate for County Court at Law No. 1",
+   "background": "Nireasha Murray is a Fort Bend County native raised in Missouri City who graduated from the High School for Law Enforcement and Criminal Justice, the University of Houston and Thurgood Marshall School of Law. She says she has practiced criminal, probate, education, juvenile, family and mental health law and served as a guardian ad litem. She has worked as an advocate with the Houston Federation of Teachers and holds Texas Education Agency teaching certifications. She is a cancer survivor and a member of Delta Sigma Theta Sorority.",
+   "website": "https://votenmurrayforjudge.com",
+   "priorities": [
+    {
+     "text": "Campaigns on 'fairness in every result,' with dignity and due process for every person.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Campaigns as 'firm on crime,' with community-focused decisions that ensure accountability.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Says she believes in rehabilitation for nonviolent offenders while protecting the community from violent offenders.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "About the Candidate",
+     "publisher": "Nireasha Murray campaign",
+     "url": "https://votenmurrayforjudge.com/about-the-candidate/",
+     "date": "2026-10"
+    },
+    {
+     "id": "s2",
+     "title": "Vote N Murray for Judge",
+     "publisher": "Nireasha Murray campaign",
+     "url": "https://votenmurrayforjudge.com/",
+     "date": "2026-10"
+    },
+    {
+     "id": "s3",
+     "title": "Nireasha Murray, Fort Bend County Court-At-Law Judge, Post 1",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-court-at-law-judge-tx-county-fort-bend-post-1/candidates/nireasha-murray",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "No bar poll results, endorsements or detailed court administration plans were found."
+  },
+  {
+   "id": "jorden-maljovec",
+   "race_id": "fort-bend-ccl-2",
+   "incumbent": false,
+   "current_role": "Attorney; candidate for County Court at Law No. 2",
+   "background": "Jorden Maljovec was born and raised in Fort Bend County and graduated from Clements High School, Syracuse University (2009) and South Texas College of Law (2013). According to Branch, he has more than a decade of experience as an attorney, focusing on criminal defense and on clients facing behavioral health-related legal challenges.",
+   "website": "https://www.jordenforjudge.com",
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Challenging incumbent Judge Tyra McCollum in the November 2026 general election.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Jorden Maljovec, Fort Bend County Court-At-Law Judge, Post 2",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-court-at-law-judge-tx-county-fort-bend-post-2/candidates/jorden-maljovec",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "His campaign website returned minimal content; Branch is the only source found, and no platform, endorsements or bar poll results were located."
+  },
+  {
+   "id": "tyra-mccollum",
+   "race_id": "fort-bend-ccl-2",
+   "incumbent": true,
+   "current_role": "Judge, Fort Bend County Court at Law No. 2, since January 2023 (elected November 2022)",
+   "background": "Tyra McCollum is a Missouri City native who graduated from Willowridge High School, the University of Texas and the University of Houston Law Center. She was an assistant city attorney in Tyler, then joined the Fort Bend County District Attorney's Office in 1997, where she served as chief of the juvenile division for 19 years and prosecuted major violent crimes. She was elected judge of County Court at Law No. 2 in November 2022. She teaches trial advocacy as an adjunct professor at the University of Houston Law Center.",
+   "website": "https://www.judgetyramccollum.com",
+   "priorities": [
+    {
+     "text": "Says she is committed to fair interpretation of the law while balancing community safety and equitable justice.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Campaigns on 'Compassion, Experience, Integrity' and court efficiency.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Presides over the Fort Bend County Veterans Treatment Court; her campaign says she more than tripled participants and graduates.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Her campaign reports a recent caseload clearance rate of 125 percent.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Was jointly appointed in December 2023 by the Supreme Court of Texas and the Court of Criminal Appeals to the Judicial Commission on Mental Health.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Her campaign site displays endorsements from Asian American Democrats for Texas, the Texas Coalition of Black Democrats, Run Sister Run and the AFL-CIO, among others.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "County Court at Law No. 2: Honorable Tyra McCollum",
+     "publisher": "Fort Bend County",
+     "url": "https://www.fortbendcountytx.gov/government/departments/county-courts-at-law/county-court-at-law-2",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Judge Tyra McCollum",
+     "publisher": "Tyra McCollum campaign",
+     "url": "https://www.judgetyramccollum.com/",
+     "date": "2026-10"
+    },
+    {
+     "id": "s3",
+     "title": "Tyra McCollum, Fort Bend County Court-At-Law Judge, Post 2",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-court-at-law-judge-tx-county-fort-bend-post-2/candidates/tyra-mccollum",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "No bar poll results were found."
+  },
+  {
+   "id": "jessica-jaramillo",
+   "race_id": "fort-bend-ccl-3",
+   "incumbent": false,
+   "current_role": "Attorney in solo practice; Rosenberg City Council member, at-large Position 2, since May 2024",
+   "background": "Jessica Jaramillo has been a solo attorney since 2011, practicing juvenile, family, criminal, probate, civil, eviction defense and appellate law, according to Branch. She has served on the Rosenberg City Council since May 2024. She has volunteered at her church and at Saint Theresa Catholic School in Sugar Land. Her mother, Judge Maggie Jaramillo, describes her daughter Jessica as a Fort Bend County attorney and Rosenberg council member.",
+   "website": "https://jessicajaramillocampaign.com",
+   "priorities": [],
+   "promises": [
+    {
+     "text": "Says she will manage the court, its docket and its budget efficiently.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says she will keep professional and appropriate relationships with attorneys who practice in the court.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says she will treat attorneys, staff and litigants with dignity and respect.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "record": [],
+   "notes": [
+    {
+     "text": "Challenging incumbent Judge Juli A. Mathew in the November 2026 general election.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Jessica Jaramillo for Judge, County Court at Law No. 3",
+     "publisher": "Jessica Jaramillo campaign",
+     "url": "https://jessicajaramillocampaign.com/",
+     "date": "2026-10"
+    },
+    {
+     "id": "s2",
+     "title": "Jessica Jaramillo, Fort Bend County Court-At-Law Judge, Post 3",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-court-at-law-judge-tx-county-fort-bend-post-3/candidates/jessica-jaramillo",
+     "date": "2026-07"
+    },
+    {
+     "id": "s3",
+     "title": "Judge Maggie Jaramillo for 458th District Court",
+     "publisher": "Maggie Jaramillo campaign",
+     "url": "https://maggiejaramillo.com/",
+     "date": "2026-10"
+    }
+   ],
+   "research_gaps": "No endorsements or bar poll results were found."
+  },
+  {
+   "id": "juli-a-mathew",
+   "race_id": "fort-bend-ccl-3",
+   "incumbent": true,
+   "current_role": "Judge, Fort Bend County Court at Law No. 3, since January 2019",
+   "background": "Juli A. Mathew was born in Kerala, India, raised in Philadelphia, and earned degrees from Pennsylvania State University (1999) and Delaware Law School (2002). She practiced civil litigation for about 15 years across Fort Bend, Harris, Montgomery, Galveston and Brazoria counties and served as an associate municipal judge in Arcola. She was elected in November 2018, the first Indian American woman elected to a U.S. bench by her account, and reelected in 2022. She teaches legal writing as an adjunct professor at the University of Houston Law Center.",
+   "website": "https://judgejuli.com",
+   "priorities": [
+    {
+     "text": "Campaigns on court efficiency, citing clearance rates above state benchmarks.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Campaigns on specialty programs that keep young people out of the justice system.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Founded the Juvenile Intervention and Mental Health Specialty (JIMHS) Court, which the county describes as the first of its kind in Texas.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    },
+    {
+     "text": "Her campaign reports a case clearance rate of about 135 percent in 2024 to 2025.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Served as administrative judge of the county courts at law during the COVID-19 pandemic.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Chairs the county's Edward Byrne Memorial Justice Assistance Grant program and has served on the Fort Bend County Bail Bond Committee.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Created community programs including 'Chai & Chat' and 'Kitchen to the Courthouse.'",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Re-Elect Judge Juli A. Mathew, Fort Bend County Court at Law No. 3",
+     "publisher": "Juli Mathew campaign",
+     "url": "https://judgejuli.com/",
+     "date": "2026-10"
+    },
+    {
+     "id": "s2",
+     "title": "County Court at Law No. 3: Honorable Juli Mathew",
+     "publisher": "Fort Bend County",
+     "url": "https://www.fortbendcountytx.gov/government/departments/county-courts-at-law/county-court-at-law-3",
+     "date": null
+    },
+    {
+     "id": "s3",
+     "title": "Juli Mathew, Fort Bend County Court-At-Law Judge, Post 3",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-court-at-law-judge-tx-county-fort-bend-post-3/candidates/juli-mathew",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "No bar poll results or listed endorsements were found."
+  },
+  {
+   "id": "michael-cody-moore",
+   "race_id": "fort-bend-ccl-4",
+   "incumbent": false,
+   "current_role": "Municipal court judge, City of Needville; former Fort Bend County Justice of the Peace, Precinct 2, Place 2",
+   "background": "Michael Cody Moore is an attorney and former commercial beekeeper who has lived in Fort Bend County for more than 20 years. He was appointed and confirmed by Commissioners Court as Justice of the Peace for Precinct 2, Place 2, and says he built that courthouse from scratch within budget. He now serves as municipal court judge for Needville and has practiced criminal defense, family, estate and business law since 2016.",
+   "website": "https://www.judgemichaelmoore.com",
+   "priorities": [
+    {
+     "text": "Campaigns on being 'tough on crime, tough on corruption, fair on justice.'",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Campaigns on safe schools, safe streets and safe neighborhoods.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "As justice of the peace he represented the county's justices of the peace on the Fort Bend County Bail Bond Board.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Judge Michael Cody Moore, Republican for Judge, County Court at Law No. 4",
+     "publisher": "Michael Cody Moore campaign",
+     "url": "https://www.judgemichaelmoore.com/",
+     "date": "2026-10"
+    },
+    {
+     "id": "s2",
+     "title": "Michael Cody Moore, Fort Bend County Court-At-Law Judge, Post 4",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-court-at-law-judge-tx-county-fort-bend-post-4/candidates/michael-moore-1",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "No endorsements, bar poll results or dates of his JP service were found."
+  },
+  {
+   "id": "toni-wallace",
+   "race_id": "fort-bend-ccl-4",
+   "incumbent": true,
+   "current_role": "Judge, Fort Bend County Court at Law No. 4, since November 2018",
+   "background": "Toni M. Wallace has presided over County Court at Law No. 4 since November 2018 after serving as the inaugural judge of County Court at Law No. 5, to which Commissioners Court unanimously appointed her in 2016. She was previously a Fort Bend County assistant district attorney and practiced criminal defense, juvenile, probate, real estate and family law. She holds a journalism degree from the University of Texas at Austin and a law degree from South Texas College of Law. She has chaired the Fort Bend County Juvenile Board since 2022.",
+   "website": null,
+   "priorities": [
+    {
+     "text": "Describes her judicial philosophy as fairness, professionalism, efficiency and respect for the rule of law, with accountability paired with access to services.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Served as administrative judge for all six county courts at law in 2019 to 2021 and from 2024 to the present; the county says she led efforts that removed about 70 percent of inactive cases from dockets.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Her court is a state-recognized specialty court for the CORE program serving girls affected by commercial sexual exploitation, and she created the S.E.A. Court for justice-involved young adults ages 18 to 24.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Founded A.C.T. Now!, an annual human trafficking awareness training program.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "County Court at Law No. 4: Judge Toni M. Wallace",
+     "publisher": "Fort Bend County",
+     "url": "https://www.fortbendcountytx.gov/government/departments/county-courts-at-law/county-court-at-law-4",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Toni Wallace, Fort Bend County Court-At-Law Judge, Post 4",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-court-at-law-judge-tx-county-fort-bend-post-4/candidates/toni-wallace",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "No campaign website, endorsements or bar poll results were found."
+  },
+  {
+   "id": "dean-hrbacek",
+   "race_id": "fort-bend-ccl-6",
+   "incumbent": true,
+   "current_role": "Judge, Fort Bend County Court at Law No. 6, since January 2023 (elected 2022)",
+   "background": "Dean Hrbacek is a third-generation Texan who moved to Fort Bend County in 1987. He earned an accounting degree from the University of Houston-Clear Lake and a law degree from the University of Houston Law Center, is a certified public accountant, and is board certified in tax law. He practiced civil, probate, estate planning, real estate and business law for more than 25 years. He served on the Sugar Land City Council from 1993 to 1996 and as mayor of Sugar Land from 1996 to 2002, and was elected to County Court at Law No. 6 in 2022.",
+   "website": "https://judgedeanhrbacek.com",
+   "priorities": [
+    {
+     "text": "Says keeping families and the community safe is his number one priority.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Says his guiding principle is to follow the law, apply it evenly and ensure everyone has their day in court.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Administers Fort Bend County's DWI Court, a program aimed at reducing recidivism among impaired drivers.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    },
+    {
+     "text": "Serves on the Fort Bend County Council of Judges, Juvenile Board and Bail Bond Board.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Previously served as legal counsel for the Fort Bend County Republican Party and the Fort Bend Chamber of Commerce.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "County Court at Law No. 6: Honorable Dean Hrbacek",
+     "publisher": "Fort Bend County",
+     "url": "https://www.fortbendcountytx.gov/government/departments/county-courts-at-law/county-court-at-law-6",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Re-Elect Judge Dean Hrbacek for County Court at Law 6",
+     "publisher": "Dean Hrbacek campaign",
+     "url": "https://judgedeanhrbacek.com/",
+     "date": "2026-10"
+    },
+    {
+     "id": "s3",
+     "title": "Dean Hrbacek, Fort Bend County Court-At-Law Judge, Post 6",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-court-at-law-judge-tx-county-fort-bend-post-6/candidates/dean-hrbacek",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "No endorsements or bar poll results were found."
+  },
+  {
+   "id": "stephen-longoria",
+   "race_id": "fort-bend-ccl-6",
+   "incumbent": false,
+   "current_role": "Attorney; candidate for County Court at Law No. 6",
+   "background": "Stephen Longoria was born and raised in Corpus Christi and graduated from the University of Texas at Austin in 1988 and Thurgood Marshall School of Law in 1993. He began as an intern and then an assistant district attorney in the Fort Bend County District Attorney's Office and says he has practiced for more than 32 years as a prosecutor and defense attorney in misdemeanor and felony courts. He is president of the Exchange Club of Fort Bend and has been married for 35 years with three children.",
+   "website": "https://longoriaforjudge.com",
+   "priorities": [
+    {
+     "text": "Says his experience on both the prosecution and defense sides brings a balanced perspective so every case is treated with respect.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says he will deliver experience, leadership and accountability as judge.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Previously ran unsuccessfully for judge of the 458th District Court.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Stephen Longoria for Judge, Fort Bend County Court at Law No. 6",
+     "publisher": "Stephen Longoria campaign",
+     "url": "https://longoriaforjudge.com/",
+     "date": "2026-10"
+    },
+    {
+     "id": "s2",
+     "title": "Stephen Longoria, Fort Bend County Court-At-Law Judge, Post 6",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-court-at-law-judge-tx-county-fort-bend-post-6/candidates/stephen-longoria",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "No endorsements or bar poll results were found."
+  },
+  {
+   "id": "audrey-lee",
+   "race_id": "fort-bend-district-clerk",
+   "incumbent": false,
+   "current_role": "Software developer; candidate for Fort Bend County District Clerk",
+   "background": "Audrey Lee is a software developer with a management degree from Texas A&M University who has worked in statewide campus grassroots management and is a published author. She won the March 3, 2026 Republican primary for district clerk with about 52.9 percent of the vote.",
+   "website": "https://audrey4districtclerk.com",
+   "priorities": [
+    {
+     "text": "Says residents experience delays and poor communication from the office and that she would improve customer service and reduce delays.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says she would hold staff to clear performance standards.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Favors spending on essential services, efficient staffing and useful technology 'without unnecessary expansion.'",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says she would prepare for growth by hiring qualified staff and upgrading systems that scale.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Won the Republican primary with 52.85 percent.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Meet the 2 Republican primary candidates for Fort Bend County district clerk",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/houston/sugar-land-missouri-city/election/2026/01/30/meet-the-2-republican-primary-candidates-for-fort-bend-county-district-clerk",
+     "date": "2026-01-30"
+    },
+    {
+     "id": "s2",
+     "title": "Update: Unofficial results show multiple Fort Bend County primary races heading to runoffs",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/houston/sugar-land-missouri-city/election/2026/03/03/update-unofficial-results-show-multiple-fort-bend-county-primary-races-heading-to-runoffs/",
+     "date": "2026-03-05"
+    }
+   ],
+   "research_gaps": "Little biographical detail beyond her primary questionnaire was found; Branch had no profile content."
+  },
+  {
+   "id": "beverley-mcgrew-walker",
+   "race_id": "fort-bend-district-clerk",
+   "incumbent": true,
+   "current_role": "Fort Bend County District Clerk, serving her second term",
+   "background": "Beverley McGrew Walker is serving her second term as Fort Bend County District Clerk. She is a licensed Texas attorney with a bachelor's degree from Texas A&M University, a master of education from the University of Houston and a law degree from Texas Southern University. She was the first African American woman to serve on the Houston City Council and served two terms on the One Call Board of Texas by appointment of Governors Bush and Perry. She earlier taught English and Spanish and worked as a counselor in Houston ISD and as an admissions officer at Texas A&M.",
+   "website": null,
+   "priorities": [
+    {
+     "text": "Her office's stated vision is to deliver modern, transparent and efficient court services that reflect the county's diversity and rapid growth.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Her office serves as registrar and custodian of records for the county's 10 district courts.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Won the March 3, 2026 Democratic primary with 62.44 percent.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Graduate of the National Association of Counties High Performance Leadership Academy.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "About the District Clerk: Beverley McGrew Walker",
+     "publisher": "Fort Bend County District Clerk's Office",
+     "url": "https://www.fortbendcountytx.gov/government/departments/fort-bend-county-district-clerks-office/about-the-district-clerk",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Fort Bend County District Clerk's Office",
+     "publisher": "Fort Bend County",
+     "url": "https://www.fortbendcountytx.gov/government/departments/fort-bend-county-district-clerks-office",
+     "date": null
+    },
+    {
+     "id": "s3",
+     "title": "Update: Unofficial results show multiple Fort Bend County primary races heading to runoffs",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/houston/sugar-land-missouri-city/election/2026/03/03/update-unofficial-results-show-multiple-fort-bend-county-primary-races-heading-to-runoffs/",
+     "date": "2026-03-05"
+    }
+   ],
+   "research_gaps": "No campaign website, campaign platform or endorsements were found."
+  },
+  {
+   "id": "tamara-mcfarlane",
+   "race_id": "fort-bend-county-clerk",
+   "incumbent": false,
+   "current_role": "Director of real estate, McFarlane Management; candidate for Fort Bend County Clerk",
+   "background": "Tamara McFarlane was born in Yugoslavia and earned a finance degree from the Haskayne School of Business at the University of Calgary. According to Branch, she worked in acquisitions and divestitures for ConocoPhillips, BP and Shell, as an auditor for the Government of Alberta, and as an energy equity associate, and now directs real estate for McFarlane Management. She lives in Katy with her husband and three children. She won the March 2026 Republican primary with about 53 percent.",
+   "website": "https://www.tamaraforfortbend.com",
+   "priorities": [
+    {
+     "text": "Says she will keep government small and efficient and ensure every dollar is spent wisely.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says she will fight to ensure every legal vote is counted and every illegal vote is rejected.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Campaigns on property fraud and deed protection, including expanding awareness of the Property Fraud Alert program.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Campaigns on cybersecurity and continuity of government records.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [
+    {
+     "text": "Proposes published monthly wait times, transaction-processing dashboards and an annual taxpayer-facing performance report.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Proposes a line-by-line operational review of the clerk's office budget.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Proposes expanded multilingual materials and evening or periodic Saturday availability.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "record": [],
+   "notes": [
+    {
+     "text": "Says she has been endorsed by Houston Latino Family Magazine and Katy Christian Magazine.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Won the Republican primary with 52.72 percent over J.J. Clemence.",
+     "sources": [
+      "s5"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Issues",
+     "publisher": "Tamara McFarlane campaign",
+     "url": "https://www.tamaraforfortbend.com/issues",
+     "date": "2026-10"
+    },
+    {
+     "id": "s2",
+     "title": "Tamara McFarlane for County Clerk",
+     "publisher": "Tamara McFarlane campaign",
+     "url": "https://www.tamaraforfortbend.com/",
+     "date": "2026-10"
+    },
+    {
+     "id": "s3",
+     "title": "Tamara McFarlane, Fort Bend County Clerk",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-clerk-tx-county-fort-bend/candidates/tamara-mcfarlane",
+     "date": "2026-07"
+    },
+    {
+     "id": "s4",
+     "title": "2026 primary elections results for Fort Bend County",
+     "publisher": "KPRC Click2Houston",
+     "url": "https://www.click2houston.com/decision-2026/2026/02/26/2026-primary-elections-results-for-fort-bend-county/",
+     "date": "2026-03-03"
+    },
+    {
+     "id": "s5",
+     "title": "Update: Unofficial results show multiple Fort Bend County primary races heading to runoffs",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/houston/sugar-land-missouri-city/election/2026/03/03/update-unofficial-results-show-multiple-fort-bend-county-primary-races-heading-to-runoffs/",
+     "date": "2026-03-05"
+    }
+   ],
+   "research_gaps": "No independent verification of her election-related role listed by Branch was found."
+  },
+  {
+   "id": "sonya-jones",
+   "race_id": "fort-bend-county-clerk",
+   "incumbent": false,
+   "current_role": "Former Fort Bend ISD trustee; candidate for Fort Bend County Clerk",
+   "background": "Sonya Jones is a former Fort Bend ISD board trustee who says she helped bring the district's special education program into compliance. She earned a bachelor's degree in human science from Our Lady of the Lake University and a master's in education administration from Lamar University, and Branch lists her as a law degree candidate at St. Mary's University School of Law. She previously worked as an academic advisor and assistant director at Our Lady of the Lake's Houston Weekend College. She led the March 2026 Democratic primary with about 38 percent and advanced to a May runoff.",
+   "website": "https://sonya4fortbend.com",
+   "priorities": [
+    {
+     "text": "Campaigns on modernizing services, protecting vital and legal records and supporting Commissioners Court.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says she will expand language-accessible and online services.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Campaigns on an 'open book and open-door policy' for records.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says she will reduce wait times through streamlined services and technology.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Says she would be the first African American to lead the Fort Bend County Clerk's office.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Led the Democratic primary with 37.5 percent, forcing a May 26 runoff.",
+     "sources": [
+      "s4"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "My Priorities",
+     "publisher": "Sonya Jones campaign",
+     "url": "https://sonya4fortbend.com/my-priorities/",
+     "date": "2026-10"
+    },
+    {
+     "id": "s2",
+     "title": "Sonya Jones for County Clerk",
+     "publisher": "Sonya Jones campaign",
+     "url": "https://sonya4fortbend.com/",
+     "date": "2026-10"
+    },
+    {
+     "id": "s3",
+     "title": "Sonya Jones, Fort Bend County Clerk",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-clerk-tx-county-fort-bend/candidates/sonya-jones",
+     "date": "2026-07"
+    },
+    {
+     "id": "s4",
+     "title": "Update: Unofficial results show multiple Fort Bend County primary races heading to runoffs",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/houston/sugar-land-missouri-city/election/2026/03/03/update-unofficial-results-show-multiple-fort-bend-county-primary-races-heading-to-runoffs/",
+     "date": "2026-03-05"
+    }
+   ],
+   "research_gaps": "Results of the May 26 Democratic runoff were not found in a source, though she is the certified nominee."
+  },
+  {
+   "id": "bill-rickert",
+   "race_id": "fort-bend-treasurer",
+   "incumbent": true,
+   "current_role": "Fort Bend County Treasurer since 2019 (elected 2018)",
+   "background": "Bill Rickert was elected Fort Bend County Treasurer in 2018. He is originally from New Orleans, studied computer information systems at Loyola University New Orleans and holds an MBA certificate from Tulane University's Freeman School of Business. He worked in business and information technology management, including heading a seismic imaging business at PGS, according to former colleagues quoted on his site. He moved to Sugar Land in 1992 and has served on a municipal utility district board and as president of the Rosenberg Railroad Museum.",
+   "website": "https://rickert.com",
+   "priorities": [
+    {
+     "text": "Campaigns on the theme 'The financial strength of the county is the future of the county.'",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Implemented fraud-prevention measures to protect county funds and digital financial-management tools across county offices, according to Branch.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Trained under the Texas Public Funds Investment Act.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Endorsed by the Fort Bend Business Coalition PAC, Fort Bend Conservatives PAC and Katy / Fort Bend Christian Magazine, among others.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Has served as a Fort Bend Republican Party precinct chair for 10 years.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Ran unopposed in the March 2026 Republican primary.",
+     "sources": [
+      "s4"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [
+    {
+     "topic": "Remote Work",
+     "summary": "Opposes making remote work a regular practice for county employees, favoring it for emergencies or as needed, according to Branch.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Bill Rickert, Fort Bend County Treasurer",
+     "publisher": "Bill Rickert campaign",
+     "url": "https://rickert.com/",
+     "date": "2026-10"
+    },
+    {
+     "id": "s2",
+     "title": "Endorsements",
+     "publisher": "Bill Rickert campaign",
+     "url": "https://rickert.com/endorsements/",
+     "date": "2026-10"
+    },
+    {
+     "id": "s3",
+     "title": "Bill Rickert, Fort Bend County Treasurer",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-treasurer-tx-county-fort-bend/candidates/bill-rickert",
+     "date": "2026-07"
+    },
+    {
+     "id": "s4",
+     "title": "Update: Unofficial results show multiple Fort Bend County primary races heading to runoffs",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/houston/sugar-land-missouri-city/election/2026/03/03/update-unofficial-results-show-multiple-fort-bend-county-primary-races-heading-to-runoffs/",
+     "date": "2026-03-05"
+    }
+   ],
+   "research_gaps": "No independent reporting on his record as treasurer was found."
+  },
+  {
+   "id": "jeffrey-l-boney",
+   "race_id": "fort-bend-treasurer",
+   "incumbent": false,
+   "current_role": "Missouri City Council member, District B; associate editor, Houston Forward Times",
+   "background": "Jeffrey L. Boney is a Houston native with a business management degree from Texas Southern University. He worked 11 years as a bank executive at Washington Mutual and served as president and CEO of the Greater Houston Black Chamber. He is associate editor of the Houston Forward Times and founder of the Texas Business Alliance. He was first elected to the Missouri City Council in 2017 and has served as mayor pro tem; he lives in Missouri City with his wife and three children.",
+   "website": "https://www.jeffreyboney.com",
+   "priorities": [
+    {
+     "text": "Says his top priorities are strengthening internal controls to protect taxpayer funds, community-focused stewardship and modernizing the treasurer's office.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Says the county should focus on fiscal discipline and efficient operations and that tax increases should be a last resort.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Campaigns on transparency so residents know how their tax dollars are used.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "On the Missouri City Council, says he authored the city's first citywide homestead exemption along with expanded tax relief for seniors and residents with disabilities.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says he introduced and passed the ordinance creating Missouri City's first Ethics Commission.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says he created a business facade improvement program and a restaurant incentive program for the Texas Parkway and Cartwright corridor.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Led the March 2026 Democratic primary with 35.32 percent and advanced to a May 26 runoff.",
+     "sources": [
+      "s4"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Jeffrey Boney for Fort Bend County Treasurer",
+     "publisher": "Jeffrey Boney campaign",
+     "url": "https://www.jeffreyboney.com/",
+     "date": "2026-10"
+    },
+    {
+     "id": "s2",
+     "title": "See the 5 Democratic primary candidates running for Fort Bend County treasurer",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/sugar-land-missouri-city/election/see-the-5-democratic-primary-candidates-running-for-fort-bend-county-treasurer/",
+     "date": "2026-01-30"
+    },
+    {
+     "id": "s3",
+     "title": "Jeffrey L Boney, Fort Bend County Treasurer",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-treasurer-tx-county-fort-bend/candidates/jeffrey-l-boney",
+     "date": "2026-07"
+    },
+    {
+     "id": "s4",
+     "title": "Update: Unofficial results show multiple Fort Bend County primary races heading to runoffs",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/houston/sugar-land-missouri-city/election/2026/03/03/update-unofficial-results-show-multiple-fort-bend-county-primary-races-heading-to-runoffs/",
+     "date": "2026-03-05"
+    }
+   ],
+   "research_gaps": "Results of the May 26 Democratic runoff were not found in a source, though he is the certified nominee."
+  },
+  {
+   "id": "tony-aranda",
+   "race_id": "fort-bend-commissioner-2",
+   "incumbent": false,
+   "current_role": "Retired U.S. Marine Corps aviator; candidate for Fort Bend County Commissioner, Precinct 2",
+   "background": "Tony Aranda served 22 years in the U.S. Marine Corps, including in artillery, the Marine Security Guard program and as a rotary-wing aviator. He earned a political science degree with a minor in biblical studies from Houston Baptist University. He has been married since 2017, has five children, serves as a church deacon and volunteers with The Navigators ministry at Houston Christian University. He ran unopposed in the March 2026 Republican primary.",
+   "website": "https://tonyarandacampaign.com",
+   "priorities": [
+    {
+     "text": "Says his top priority is making county government work for residents by being present, listening and protecting taxpayer dollars.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says the most pressing issue is managing growth while maintaining roads, drainage and public safety.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Campaigns on maintenance-first infrastructure spending and proactive flood mitigation and drainage.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Campaigns on transparency, including publishing metrics for county projects.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "promises": [
+    {
+     "text": "Says he will hold community meetings and make county information easier to understand.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "record": [],
+   "notes": [
+    {
+     "text": "Ran unopposed in the March 2026 Republican primary.",
+     "sources": [
+      "s5"
+     ]
+    }
+   ],
+   "stances": {
+    "q_county_tax": {
+     "position": 1,
+     "basis": "statement",
+     "summary": "Says the county needs responsible planning and measurable results before asking taxpayers to support additional spending and that every dollar spent should be justified.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    }
+   },
+   "issue_notes": [
+    {
+     "topic": "Growth",
+     "summary": "Says Fort Bend County should focus on economic growth rather than expansion and opposes taking land from residents, ranchers and farmers.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Q&A: Meet the candidates running for Fort Bend County Precinct 2 commissioner",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/sugar-land-missouri-city/election/q-a-meet-the-candidates-running-for-fort-bend-county-precinct-2-commissioner/",
+     "date": "2026-09-29"
+    },
+    {
+     "id": "s2",
+     "title": "Challenges & Solutions",
+     "publisher": "Tony Aranda campaign",
+     "url": "https://tonyarandacampaign.com/challenges-solutions/",
+     "date": "2026-10"
+    },
+    {
+     "id": "s3",
+     "title": "Tony Aranda Campaign",
+     "publisher": "Tony Aranda campaign",
+     "url": "https://tonyarandacampaign.com/",
+     "date": "2026-10"
+    },
+    {
+     "id": "s4",
+     "title": "Tony Aranda, Fort Bend County Commissioner, Precinct 2",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-commissioner-tx-fort-bend-county-district-2-post-2/candidates/tony-aranda",
+     "date": "2026-07"
+    },
+    {
+     "id": "s5",
+     "title": "Q&A: Meet the 2 Democratic primary candidates running for Fort Bend County Precinct 2 commissioner",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/houston/sugar-land-missouri-city/election/2026/01/30/qa-meet-the-2-democratic-primary-candidates-running-for-fort-bend-county-precinct-2-commissioner",
+     "date": "2026-01-30"
+    }
+   ],
+   "research_gaps": "No documented positions were found on county mental health spending, state water funding, a spending cap or state preemption."
+  },
+  {
+   "id": "grady-prestage",
+   "race_id": "fort-bend-commissioner-2",
+   "incumbent": true,
+   "current_role": "Fort Bend County Commissioner, Precinct 2, since 1991",
+   "background": "Grady Prestage is a registered professional civil engineer who earned his degree from Southern University in 1980. He was elected Precinct 2 commissioner in November 1990 and took office in 1991, becoming the county's first African American commissioner since Reconstruction; he is serving his ninth term. He worked as a civil engineer for oil and gas companies and consulting firms and later in real estate development and consulting. Precinct 2 includes parts of Houston, Missouri City, Stafford and Fresno.",
+   "website": "https://www.gradyprestage.com",
+   "priorities": [
+    {
+     "text": "Says his top priority is expanding access to services and amenities, including advancing the Fresno Plan and improving parks, health care, youth and senior programs and housing.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says the pressing challenge is delivering essential services equitably, especially in unincorporated areas.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Lists safe drinking water, drainage and flood control, and health care access among his priorities.",
+     "sources": [
+      "s4"
+     ]
+    },
+    {
+     "text": "Supports public-private partnerships and strategic road and transit investments to expand the tax base.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Helped establish the county's Community Development Department, Housing Finance Corporation, Toll Road Authority and Parks and Recreation Department.",
+     "sources": [
+      "s2",
+      "s3"
+     ]
+    },
+    {
+     "text": "His campaign says the county tax rate is 37 percent lower and cites more than $250 million in infrastructure projects during his tenure.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "In June 2026 he and Commissioner Dexter McCoy walked out of a Commissioners Court meeting, saying there was no legal quorum because they do not recognize Daniel Wong as acting county judge.",
+     "sources": [
+      "s5"
+     ]
+    }
+   ],
+   "notes": [],
+   "stances": {
+    "q_county_tax": {
+     "position": 0,
+     "basis": "questionnaire",
+     "summary": "Says spending should be disciplined and avoid unnecessary pressure on property taxpayers, but favors investing early in roads, drainage and service capacity.",
+     "sources": [
+      "s4"
+     ]
+    }
+   },
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Q&A: Meet the candidates running for Fort Bend County Precinct 2 commissioner",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/sugar-land-missouri-city/election/q-a-meet-the-candidates-running-for-fort-bend-county-precinct-2-commissioner/",
+     "date": "2026-09-29"
+    },
+    {
+     "id": "s2",
+     "title": "Re-Elect Commissioner Grady Prestage",
+     "publisher": "Grady Prestage campaign",
+     "url": "https://www.gradyprestage.com/",
+     "date": "2026-10"
+    },
+    {
+     "id": "s3",
+     "title": "About Grady Prestage",
+     "publisher": "Grady Prestage campaign",
+     "url": "https://www.gradyprestage.com/copy-of-building-with-grady-1",
+     "date": "2026-10"
+    },
+    {
+     "id": "s4",
+     "title": "Q&A: Meet the 2 Democratic primary candidates running for Fort Bend County Precinct 2 commissioner",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/houston/sugar-land-missouri-city/election/2026/01/30/qa-meet-the-2-democratic-primary-candidates-running-for-fort-bend-county-precinct-2-commissioner",
+     "date": "2026-01-30"
+    },
+    {
+     "id": "s5",
+     "title": "Does Fort Bend County have a judge? It depends on who you ask",
+     "publisher": "ABC13 Houston",
+     "url": "https://abc13.com/amp/post/does-fort-bend-county-have-judge-depends-ask/19381260/",
+     "date": "2026-06-25"
+    },
+    {
+     "id": "s6",
+     "title": "Grady Prestage, Fort Bend County Commissioner, Precinct 2",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-commissioner-tx-fort-bend-county-district-2-post-2/candidates/grady-prestage",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "No documented positions were found on county mental health spending, a spending cap, state water funding or state preemption."
+  },
+  {
+   "id": "ken-mathews",
+   "race_id": "fort-bend-commissioner-4",
+   "incumbent": false,
+   "current_role": "Business owner and technology professional; candidate for Fort Bend County Commissioner, Precinct 4",
+   "background": "Ken Mathews is a business owner who founded three Texas small businesses in information technology, video surveillance and security services, according to Branch. He previously served in the military reserves and worked in law enforcement, and holds a bachelor's degree in public administration and urban studies and advanced degrees in business administration and criminology. He describes himself as a successful global business owner and an eight-year elected vice president of a municipal utility district board.",
+   "website": "https://www.ken4fortbend.com",
+   "priorities": [
+    {
+     "text": "Says the county must become fiscally responsible and that county government is wasting tax dollars without distinguishing needs from wants.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says his top priority is managing growth and finances responsibly while restoring older communities.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says the most pressing issue is career jobs for younger generations and affordable living.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Lists traffic, flooding, public safety and cost reductions as budget priorities.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "promises": [
+    {
+     "text": "Says he will cast every vote based on what Precinct 4 residents say is in the community's interest, not party leadership.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Proposes advisory councils of residents from each neighborhood to guide decisions.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    }
+   ],
+   "record": [],
+   "notes": [],
+   "stances": {
+    "q_county_tax": {
+     "position": 1,
+     "basis": "questionnaire",
+     "summary": "Says leaders must control spending and protect families from being taxed out of their homes, while also listing traffic, flooding and safety as budget priorities.",
+     "sources": [
+      "s2",
+      "s1"
+     ]
+    }
+   },
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Q&A: Get to know the candidates running for Fort Bend County Precinct 4 commissioner",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/sugar-land-missouri-city/election/q-a-get-to-know-the-candidates-running-for-fort-bend-county-precinct-4-commissioner/",
+     "date": "2026-09-29"
+    },
+    {
+     "id": "s2",
+     "title": "Q&A: Meet the 4 Republican primary candidates for Fort Bend County Precinct 4 commissioner",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/katy-fulshear/election/qa-meet-the-4-republican-primary-candidates-for-fort-bend-county-precinct-4-commissioner/",
+     "date": "2026-01-30"
+    },
+    {
+     "id": "s3",
+     "title": "Ken Mathews for Fort Bend County Commissioner",
+     "publisher": "Ken Mathews campaign",
+     "url": "https://www.ken4fortbend.com/",
+     "date": "2026-10"
+    },
+    {
+     "id": "s4",
+     "title": "Ken Mathews, Fort Bend County Commissioner, Precinct 4",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-commissioner-tx-fort-bend-county-district-4/candidates/ken-mathews",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "No documented positions were found on county mental health spending, a spending cap, state water funding or state preemption."
+  },
+  {
+   "id": "april-l-jones",
+   "race_id": "fort-bend-commissioner-4",
+   "incumbent": false,
+   "current_role": "Contracts specialist; Mission Glen HOA president; candidate for Fort Bend County Commissioner, Precinct 4",
+   "background": "April L. Jones has lived in Mission Glen for 30 years and is in her eighth year as the Mission Glen homeowners association president; she is also an elected director of the North Mission Glen MUD. She earned a paralegal associate degree from Houston City College and a bachelor's degree and MBA from the University of St. Thomas. She works in contracts, most recently at Phillips 66, after roles at energy and technology companies, and runs a small consulting business. She is a former Democratic precinct chair and Fort Bend Democratic Party treasurer; this is her first run for county office.",
+   "website": "https://www.apriljones4fbpct4.com",
+   "priorities": [
+    {
+     "text": "Says her top priority is ensuring the county grows responsibly while protecting quality of life, focusing on infrastructure, mobility, public safety and protecting taxpayer dollars.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Campaigns on transparency and accountability on Commissioners Court.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    },
+    {
+     "text": "Says budget priorities should include protecting residents from harmful developments, sustainability, safety and residents' mental health.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Supports small businesses, workforce development programs and local entrepreneurship.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "promises": [
+    {
+     "text": "Says she will hold community meetings and seek out residents who may not attend traditional meetings.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "record": [],
+   "notes": [],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Q&A: Get to know the candidates running for Fort Bend County Precinct 4 commissioner",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/sugar-land-missouri-city/election/q-a-get-to-know-the-candidates-running-for-fort-bend-county-precinct-4-commissioner/",
+     "date": "2026-09-29"
+    },
+    {
+     "id": "s2",
+     "title": "Q&A: See the 7 Democratic primary candidates for Fort Bend County Precinct 4 commissioner",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/katy-fulshear/election/qa-see-the-7-democratic-primary-candidates-for-fort-bend-county-precinct-4-commissioner/",
+     "date": "2026-01-30"
+    },
+    {
+     "id": "s3",
+     "title": "April L. Jones, Fort Bend County Commissioner, Precinct 4",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-commissioner-tx-fort-bend-county-district-4/candidates/april-l-jones",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "Her campaign website did not render readable content; no documented positions were found on the county tax rate, mental health spending, water funding or state preemption."
+  },
+  {
+   "id": "kelly-crow",
+   "race_id": "fort-bend-jp-1-1",
+   "incumbent": true,
+   "current_role": "Fort Bend County Justice of the Peace, Precinct 1, Place 1, since January 2019; presiding municipal judge, City of Fulshear",
+   "background": "Kelly Crow grew up in Mission Bend and attended Texas A&M University and South Texas College of Law. According to Branch, she was an assistant district attorney in Fort Bend County, an assistant city attorney, prosecutor and associate judge for Missouri City and Sugar Land, and presiding judge for Rosenberg. She has served as Justice of the Peace for Precinct 1, Place 1 since January 1, 2019, and is presiding judge for the City of Fulshear.",
+   "website": "https://judgekellycrow.godaddysites.com",
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "Her court holds traffic court, criminal pretrials, eviction hearings, civil trials and mediations on a weekly schedule.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "notes": [],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Kelly Crow, Fort Bend Justice of the Peace, Precinct 1, Post 1",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-fort-bend-justice-precinct-1-post-1/candidates/kelly-crow",
+     "date": "2026-07"
+    },
+    {
+     "id": "s2",
+     "title": "Justice of the Peace, Precinct 1, Place 1: Judge Kelly Crow",
+     "publisher": "Fort Bend County",
+     "url": "https://www.fortbendcountytx.gov/government/departments/justice-of-the-peace/precinct-1-place-1",
+     "date": null
+    }
+   ],
+   "research_gaps": "Her campaign website did not load; no platform statements or endorsements were found."
+  },
+  {
+   "id": "martin-b-sanchez",
+   "race_id": "fort-bend-jp-1-1",
+   "incumbent": false,
+   "current_role": "Substitute teacher; candidate for Justice of the Peace, Precinct 1, Place 1",
+   "background": "Martin B. Sanchez was born in Texas and raised in Corpus Christi. According to Branch, he attended Del Mar College and earned a bachelor's degree in international business from the University of St. Thomas, works as a substitute teacher in Katy, and previously worked as a client solutions specialist in banking and financial services. He is involved with the Texas Association of Mediators and Prospanica.",
+   "website": "https://martinsanchezfortx.com",
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Martin B. Sanchez, Fort Bend Justice of the Peace, Precinct 1, Post 1",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-fort-bend-justice-precinct-1-post-1/candidates/martin-b-sanchez",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "His campaign website did not load; Branch is the only source found and no platform or endorsements were located."
+  },
+  {
+   "id": "tricia-krenek",
+   "race_id": "fort-bend-jp-1-2",
+   "incumbent": true,
+   "current_role": "Fort Bend County Justice of the Peace, Precinct 1, Place 2, since January 2023",
+   "background": "Tricia Krenek took the bench as Justice of the Peace for Precinct 1, Place 2 in January 2023. She earned a BBA and MBA in accounting from the University of St. Thomas and a law degree from the University of Houston Law Center, and clerked for a state district judge. She was managing partner of a Katy litigation firm with her husband, handling business, consumer and landlord-tenant cases, and is a certified mediator. She was elected to the Fulshear City Council in 2014 and served as mayor pro tem from 2017 to 2018.",
+   "website": "https://triciakrenek.com",
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Past president of the Brazos River Rotary Club and member of the Justice of the Peace and Constable Association.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Previously ran for Texas House District 28 in a 2019 special election and for County Court at Law No. 3 in 2018, according to Branch.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Justice of the Peace, Precinct 1, Place 2: Judge Tricia Krenek",
+     "publisher": "Fort Bend County",
+     "url": "https://www.fortbendcountytx.gov/government/departments/justice-of-the-peace/precinct-1-place-2",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Tricia Krenek, Fort Bend Justice of the Peace, Precinct 1, Post 2",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-fort-bend-justice-precinct-1-post-2/candidates/tricia-krenek",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "Her campaign website did not load; no platform statements or endorsements were found."
+  },
+  {
+   "id": "hortencia-sanchez",
+   "race_id": "fort-bend-jp-1-2",
+   "incumbent": false,
+   "current_role": "Executive administrator of a family business; mediator; candidate for Justice of the Peace, Precinct 1, Place 2",
+   "background": "Hortencia Sanchez graduated from Texas A&M University-Corpus Christi and studied as a legal assistant at Del Mar College, interning in the Nueces County criminal department. She worked as an outreach counselor with runaway children in conjunction with JP courts, as a program support analyst for the Nueces County veterans office, and as a case specialist for an intensive supervision appearance program. She describes herself as a professional mediator and arbitrator and runs her husband's business.",
+   "website": "https://hortencia-sanchezfortx.com",
+   "priorities": [
+    {
+     "text": "Says she will serve the community with respect and dignity.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Hortencia Sanchez for Justice of the Peace",
+     "publisher": "Hortencia Sanchez campaign",
+     "url": "https://hortencia-sanchezfortx.com/",
+     "date": "2026-10"
+    },
+    {
+     "id": "s2",
+     "title": "Hortencia Sanchez, Fort Bend Justice of the Peace, Precinct 1, Post 2",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-fort-bend-justice-precinct-1-post-2/candidates/hortencia-sanchez",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "Her campaign issues page contained only placeholder text; no specific court priorities or endorsements were found."
+  },
+  {
+   "id": "ninh-truong",
+   "race_id": "fort-bend-jp-2-1",
+   "incumbent": false,
+   "current_role": "Independent insurance adjuster; candidate for Justice of the Peace, Precinct 2, Place 1",
+   "background": "Ninh Truong came to the United States at 16, graduated from Westbury High School and the University of Houston, and lives in Stafford. He served a two-year mission in California for The Church of Jesus Christ of Latter-day Saints. He worked as a car salesman and then spent nearly a decade as an insurance adjuster before becoming an independent adjuster for Fort Bend families. This is his first run for public office.",
+   "website": "https://ninhtruongcampaign.carrd.co",
+   "priorities": [
+    {
+     "text": "Says justice should be fair, fast and close to home, and that he will judge every case on the facts.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [
+    {
+     "text": "Says he will make sure tenants and landlords are heard fairly in eviction cases.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says he will crack down on ticket scams and predatory fines.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says he will hold night and weekend court for working families.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says he will ensure language is not a barrier in his court.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "record": [],
+   "notes": [],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Ninh Truong Campaign",
+     "publisher": "Ninh Truong campaign",
+     "url": "https://ninhtruongcampaign.carrd.co/",
+     "date": "2026-10"
+    },
+    {
+     "id": "s2",
+     "title": "Ninh Truong, Fort Bend Justice of the Peace, Precinct 2, Post 1",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-fort-bend-justice-precinct-2-post-1/candidates/ninh-truong",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "No endorsements were found."
+  },
+  {
+   "id": "roderick-c-garner-sr",
+   "race_id": "fort-bend-jp-2-1",
+   "incumbent": true,
+   "current_role": "Fort Bend County Justice of the Peace, Precinct 2, Place 1, elected November 2022",
+   "background": "Roderick C. Garner Sr. grew up in Fort Bend County and graduated from Willowridge High School in 1985 and the University of Houston-Downtown in 1992. He was a Texas Department of Public Safety trooper and narcotics sergeant who worked on a joint federal drug task force, then taught English and coached baseball at Willowridge for 10 years. He earned a master's in criminal justice and a law degree from Thurgood Marshall School of Law in 2016, and served four years as chief deputy of the Precinct 2 Constable's Office before his election as justice of the peace in November 2022.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Served as a captain in Waller County law enforcement while attending law school.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Justice of the Peace, Precinct 2, Place 1: Judge Roderick Garner",
+     "publisher": "Fort Bend County",
+     "url": "https://www.fortbendcountytx.gov/government/departments/justice-of-the-peace/precinct-2-place-1",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Roderick C. Garner, Sr, Fort Bend Justice of the Peace, Precinct 2, Post 1",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-fort-bend-justice-precinct-2-post-1/candidates/roderick-c-garner-sr",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "No campaign website, platform statements or endorsements were found."
+  },
+  {
+   "id": "william-ferguson",
+   "race_id": "fort-bend-jp-3",
+   "incumbent": false,
+   "current_role": "Reserve lieutenant, Fort Bend County Precinct 1 Constable's Office; former Sugar Land City Council member",
+   "background": "William Ferguson has been a Texas peace officer for 33 years, starting with the Stafford Police Department in 1992 and serving with the Fort Bend County Sheriff's Office and Precinct 4 Constable's Office; he is now a reserve lieutenant with Precinct 1. He served as an at-large Sugar Land City Council member from 2020 to 2025. He describes himself as a small-business owner and has lived in Pecan Grove and Greatwood.",
+   "website": "https://www.fergusonforyou.com",
+   "priorities": [
+    {
+     "text": "Says he will respond quickly to mental health warrants relied on by hospitals, law enforcement and families.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says he will handle evictions, small claims, school attendance and magistrations with fairness and compassion.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Campaigns on conservative values of responsibility, accountability, faith, family and freedom.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "William Ferguson for Justice of the Peace, Precinct 3",
+     "publisher": "William Ferguson campaign",
+     "url": "https://www.fergusonforyou.com/",
+     "date": "2026-10"
+    },
+    {
+     "id": "s2",
+     "title": "William Ferguson, Fort Bend Justice of the Peace, Justice Precinct 3, Seat 1",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-fort-bend-justice-precinct-3/candidates/william-ferguson",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "No endorsements were found."
+  },
+  {
+   "id": "sonia-rash",
+   "race_id": "fort-bend-jp-3",
+   "incumbent": true,
+   "current_role": "Fort Bend County Justice of the Peace, Precinct 3, Place 1, since January 2023",
+   "background": "Sonia Rash took office as Justice of the Peace for Precinct 3, Place 1 on January 1, 2023. She holds a law degree from Texas Southern University, a master's in international relations from St. Mary's University and a political science degree from Our Lady of the Lake University. Before her election she had a private law practice. She has lived in Fort Bend County for 17 years and has served as vice president of LULAC Council 2911 and an officer of the Missouri City-area NAACP.",
+   "website": "https://judgesoniarash.com",
+   "priorities": [
+    {
+     "text": "Campaigns on justice, fairness and accessibility, and on efficient online hearings for students and working residents.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Says she introduced night court for working families, free community programs and a resource hub for legal and non-legal needs.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "notes": [],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Justice of the Peace, Precinct 3, Place 1: Judge Sonia Rash",
+     "publisher": "Fort Bend County",
+     "url": "https://www.fortbendcountytx.gov/government/departments/justice-of-the-peace/precinct-3-place-1",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Re-Elect Judge Sonia Rash for Justice of the Peace Precinct 3",
+     "publisher": "Sonia Rash campaign",
+     "url": "https://judgesoniarash.com/",
+     "date": "2026-10"
+    },
+    {
+     "id": "s3",
+     "title": "Sonia Rash, Fort Bend Justice of the Peace, Justice Precinct 3, Seat 1",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-fort-bend-justice-precinct-3/candidates/sonia-rash",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "No endorsements were found."
+  },
+  {
+   "id": "ken-cannata",
+   "race_id": "fort-bend-jp-3-2",
+   "incumbent": true,
+   "current_role": "Fort Bend County Justice of the Peace, Precinct 3, Place 2, by appointment since January 2026",
+   "background": "Kenneth Cannata was unanimously appointed by Commissioners Court on January 8, 2026 to the newly created Justice of the Peace Precinct 3, Place 2 seat and sworn in January 13. He previously served 11 years as Precinct 3 justice of the peace before Gov. Greg Abbott appointed him the first judge of the 458th District Court in September 2017. After leaving the district bench in 2019 he joined the Fort Bend County Attorney's Office and became chief of litigation. He holds degrees from the University of South Florida and South Texas College of Law and has been board certified in civil trial law since 1993.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "Served as the first judge of the 458th District Court from September 2017 to 2019 by appointment of Gov. Greg Abbott.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Served as chief of litigation in the Fort Bend County Attorney's Office.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Justice of the Peace, Precinct 3, Place 2: Judge Kenneth S. Cannata",
+     "publisher": "Fort Bend County",
+     "url": "https://www.fortbendcountytx.gov/government/departments/justice-of-the-peace/precinct-3-place-2",
+     "date": null
+    }
+   ],
+   "research_gaps": "No campaign website, platform statements or endorsements were found."
+  },
+  {
+   "id": "rachelle-carter",
+   "race_id": "fort-bend-jp-3-2",
+   "incumbent": false,
+   "current_role": "Associate judge, Sugar Land Municipal Court; candidate for Justice of the Peace, Precinct 3, Place 2",
+   "background": "Rachelle Carter is an attorney, former educator and associate judge of the Sugar Land Municipal Court. She ran for Fort Bend County judge in 2026, finishing second in the March Democratic primary with about 19 percent and losing the May 26 runoff to Dexter McCoy with about 26 percent. She is now the Democratic nominee for the Precinct 3, Place 2 justice of the peace seat.",
+   "website": null,
+   "priorities": [
+    {
+     "text": "In her county judge campaign she said county government should listen to residents, solve real problems and plan responsibly.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "In her county judge campaign she listed fixing existing roads and drainage before expanding, flood mitigation, public safety and transparency as priorities.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Lost the May 26, 2026 Democratic runoff for county judge, 25.57 percent to 74.43 percent.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Received 13,717 votes (about 19 percent) in the five-candidate March 3, 2026 Democratic primary for county judge.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "2026 Fort Bend County Judge election",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/2026_Fort_Bend_County_Judge_election",
+     "date": "2026-10"
+    },
+    {
+     "id": "s2",
+     "title": "Q&A: Dexter L. McCoy and Rachelle Carter to face off in May Democratic runoff for Fort Bend County judge",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/houston/sugar-land-missouri-city/election/2026/05/06/qa-dexter-l-mccoy-and-rachelle-carter-to-face-off-in-may-democratic-runoff-for-fort-bend-county-judge/",
+     "date": "2026-05-06"
+    },
+    {
+     "id": "s3",
+     "title": "2026 primary elections results for Fort Bend County",
+     "publisher": "KPRC Click2Houston",
+     "url": "https://www.click2houston.com/decision-2026/2026/02/26/2026-primary-elections-results-for-fort-bend-county/",
+     "date": "2026-03-03"
+    }
+   ],
+   "research_gaps": "No campaign materials specific to the justice of the peace race were found."
+  },
+  {
+   "id": "skeet-phillips",
+   "race_id": "kaufman-commissioner-2",
+   "incumbent": true,
+   "current_role": "Kaufman County Commissioner, Precinct 2 (Forney area), since 2015",
+   "background": "Skeet Phillips has represented Kaufman County Precinct 2, generally the Forney area, on Commissioners Court since 2015. He was a close friend of District Attorney Mike McLelland, and CBS Texas reported in 2014 that he found McLelland and his wife dead in their home in 2013 and later kept a promise to McLelland to run for commissioner. He won the 2014 Republican primary and faced no Democratic opponent that year.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "As commissioner, sought state funding to expand low-cost spay and neuter surgeries for county residents and unowned animals, according to Branch.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "His precinct office takes county road repair requests and publishes precinct road reports.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Precinct 2 Commissioner Skeet Phillips",
+     "publisher": "Kaufman County",
+     "url": "https://www.kaufmancounty.net/528/Precinct-2-Commissioner-Skeet-Phillips",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Kaufman County Man Fulfills Promise To Murdered DA",
+     "publisher": "CBS Texas",
+     "url": "https://www.cbsnews.com/dfw/news/kaufman-county-man-fulfills-promise-to-murdered-da/",
+     "date": "2014-03-06"
+    },
+    {
+     "id": "s3",
+     "title": "Skeet Phillips, Kaufman County Commissioner, Precinct 2",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-commissioner-tx-kaufman-county-district-2/candidates/skeet-phillips",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "No campaign website, platform statements, votes on the tax rate or budget, or positions on the quiz questions were found."
+  },
+  {
+   "id": "shree-henderson",
+   "race_id": "kaufman-commissioner-2",
+   "incumbent": false,
+   "current_role": "Public servant; candidate for Kaufman County Commissioner, Precinct 2",
+   "background": "Shree Henderson says 19 years in public service have been spent working to protect families, support victims and build stronger communities. Henderson is involved in local community organizations. The campaign theme is 'Growth with Respect, Honoring the Past, Embrace the Future.'",
+   "website": "https://www.shreehendersonforcommissioner.com",
+   "priorities": [
+    {
+     "text": "Campaigns on responsible growth that preserves the character, safety and quality of life of Kaufman County communities.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says supporting first responders and keeping communities safe will always be a top priority.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Pledges to advocate for investments in roads, bridges and transportation to keep pace with growth.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Campaigns on transparent and accountable fiscal decisions that protect the county's long-term financial health.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Elect Shree Henderson, Kaufman County Commissioner",
+     "publisher": "Shree Henderson campaign",
+     "url": "https://www.shreehendersonforcommissioner.com/",
+     "date": "2026-10"
+    },
+    {
+     "id": "s2",
+     "title": "Shree Henderson, Kaufman County Commissioner, Precinct 2",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-commissioner-tx-kaufman-county-district-2/candidates/shree-henderson",
+     "date": "2026-07"
+    },
+    {
+     "id": "s3",
+     "title": "Kaufman County gears up for pivotal 2026 primary elections",
+     "publisher": "inForney",
+     "url": "https://www.inforney.com/local-news/kaufman-county-gears-up-for-pivotal-2026-primary-elections/article_d62b7daf-87a2-4474-a4fc-787b426534da.html",
+     "date": "2026-02-13"
+    }
+   ],
+   "research_gaps": "The specific public service role and any documented positions on the quiz questions were not found."
+  },
+  {
+   "id": "amy-m-tarno",
+   "race_id": "kaufman-jp-2",
+   "incumbent": true,
+   "current_role": "Kaufman County Justice of the Peace, Precinct 2 (Forney)",
+   "background": "Amy Tarno presides over Kaufman County Justice of the Peace Precinct 2, which serves Forney. She worked as a civil paralegal for almost 20 years before becoming a justice of the peace and has taught other justices of the peace across Texas. She says she pursued the office with encouragement from former Forney mayor and justice of the peace Don Cates.",
+   "website": null,
+   "priorities": [
+    {
+     "text": "Says she is developing programs to help juveniles in Kaufman County and looking for ways to improve the court's operations.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says integrity is the cornerstone of the judicial system.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Her court handles the county's Juvenile Diversion Program, which took effect January 1, 2025, and all Kaufman County truancy cases.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Is the Republican nominee seeking reelection against Democrat Marcus Henderson.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Justice in the people's court: Judge Amy Tarno on serving Forney as justice of the peace",
+     "publisher": "inForney",
+     "url": "https://www.inforney.com/crime/justice-in-the-people-s-court-judge-amy-tarno-on-serving-forney-as-justice-of/article_9ef829ee-e051-11ef-9aba-4be516d45a29.html",
+     "date": "2025-02-01"
+    },
+    {
+     "id": "s2",
+     "title": "Justice of the Peace Precinct 2",
+     "publisher": "Kaufman County",
+     "url": "https://www.kaufmancounty.net/244/Justice-of-the-Peace-Precinct-2",
+     "date": null
+    },
+    {
+     "id": "s3",
+     "title": "Amy M Tarno, Kaufman Justice of the Peace, Justice Precinct 2",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-kaufman-justice-precinct-2/candidates/amy-m-tarno",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "The date she took office and any campaign platform or endorsements were not found."
+  },
+  {
+   "id": "marcus-henderson",
+   "race_id": "kaufman-jp-2",
+   "incumbent": false,
+   "current_role": "Candidate for Kaufman County Justice of the Peace, Precinct 2",
+   "background": "Marcus Henderson has a background in law enforcement and is a first-time candidate for public office, according to Branch.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Marcus Henderson, Kaufman Justice of the Peace, Justice Precinct 2",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-kaufman-justice-precinct-2/candidates/marcus-henderson",
+     "date": "2026-07"
+    },
+    {
+     "id": "s2",
+     "title": "Kaufman County gears up for pivotal 2026 primary elections",
+     "publisher": "inForney",
+     "url": "https://www.inforney.com/local-news/kaufman-county-gears-up-for-pivotal-2026-primary-elections/article_d62b7daf-87a2-4474-a4fc-787b426534da.html",
+     "date": "2026-02-13"
+    }
+   ],
+   "research_gaps": "No campaign website, detailed biography, platform or endorsements were found; Branch reported no online information as of July 2026."
+  },
+  {
+   "id": "mark-henry",
+   "race_id": "galveston-county-judge",
+   "incumbent": true,
+   "current_role": "Galveston County Judge since 2011",
+   "background": "Mark Henry was elected Galveston County Judge in 2010, the first Republican to hold the office since Reconstruction, and took office in 2011; he is seeking a fifth term. He defeated Chris Kinard in the March 2026 Republican primary with about 67 percent. He was an original chairman of the Gulf Coast Community Protection and Recovery District, formed after Hurricane Ike to study a coastal barrier.",
+   "website": "https://www.judgehenry.com",
+   "priorities": [
+    {
+     "text": "Campaigns on lower taxes, public safety, less government and more efficiency, emergency management and infrastructure.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says permanent drainage solutions will require federal, state and regional partnerships and billions of dollars of investment.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Says the county has adopted a property tax rate below the no-new-revenue rate every year since 2011, cutting the rate from about 0.63 to 0.32 per $100 valuation by 2025.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Says the county paid down debt and earned its first Aaa bond rating.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says the Commissioners Court completed a countywide drainage study in 2021 and has spent hundreds of millions of dollars on road and drainage projects.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "In 2021 the county declared a disaster over fentanyl deaths, created a Southern Border Taskforce that sent deputies to the border, and joined Operation Lone Star until it stood down in April 2025.",
+     "sources": [
+      "s4"
+     ]
+    },
+    {
+     "text": "Says he increased the number of sheriff's and constable's officers on the streets.",
+     "sources": [
+      "s4"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Galveston County, with Henry as a named defendant, was sued over the 2021 commissioners precinct map; a federal district court found it violated Section 2 of the Voting Rights Act, and on August 1, 2024 the full Fifth Circuit reversed that ruling.",
+     "sources": [
+      "s6",
+      "s7"
+     ]
+    },
+    {
+     "text": "Won the March 3, 2026 Republican primary with about 67 percent of the vote over Chris Kinard.",
+     "sources": [
+      "s5"
+     ]
+    }
+   ],
+   "stances": {
+    "q_county_tax": {
+     "position": 2,
+     "basis": "record",
+     "summary": "Says the county has set its tax rate below the no-new-revenue rate every year since 2011, cutting the rate by nearly half, while urging voters to elect fiscally conservative local officials.",
+     "sources": [
+      "s2"
+     ]
+    }
+   },
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Judge Mark Henry: Conservative leadership for Galveston County",
+     "publisher": "Mark Henry campaign",
+     "url": "https://www.judgehenry.com/",
+     "date": "2026-10"
+    },
+    {
+     "id": "s2",
+     "title": "Lower Taxes",
+     "publisher": "Mark Henry campaign",
+     "url": "https://www.judgehenry.com/lower-taxes",
+     "date": "2026-10"
+    },
+    {
+     "id": "s3",
+     "title": "Infrastructure",
+     "publisher": "Mark Henry campaign",
+     "url": "https://www.judgehenry.com/infrastructure",
+     "date": "2026-10"
+    },
+    {
+     "id": "s4",
+     "title": "Public Safety",
+     "publisher": "Mark Henry campaign",
+     "url": "https://www.judgehenry.com/public-safety",
+     "date": "2026-10"
+    },
+    {
+     "id": "s5",
+     "title": "Mark Henry wins Republican primary for Galveston County judge",
+     "publisher": "AOL",
+     "url": "https://www.aol.com/news/mark-henry-wins-republican-primary-051421795.html",
+     "date": "2026-03"
+    },
+    {
+     "id": "s6",
+     "title": "Petteway v. Galveston County",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Petteway_v._Galveston_County",
+     "date": null
+    },
+    {
+     "id": "s7",
+     "title": "Appeals Court Further Narrows Voting Rights Act's Scope",
+     "publisher": "The New York Times",
+     "url": "https://www.nytimes.com/2024/08/02/us/texas-voting-rights-minorities.html",
+     "date": "2024-08-02"
+    }
+   ],
+   "research_gaps": "No documented positions were found on county mental health spending, a spending cap, state water funding or state preemption."
+  },
+  {
+   "id": "albert-al-smith",
+   "race_id": "galveston-county-judge",
+   "incumbent": false,
+   "current_role": "Educator and U.S. Marine Corps veteran; candidate for Galveston County Judge",
+   "background": "Albert 'Al' Smith earned a bachelor's degree in education from Texas Southern University and a master's in special education administration from Prairie View A&M University, and spent 15 years as an educator. He served in the U.S. Marine Corps with the 10th Marine Regiment at Camp Lejeune. He is a member of the Rotary Club of Texas City and ran unopposed in the March 2026 Democratic primary.",
+   "website": "https://alsmithwin.com",
+   "priorities": [
+    {
+     "text": "Campaigns on expanding opportunity and ensuring county resources reach historically underserved neighborhoods.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says he will support development of new housing opportunities.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Campaigns on helping small businesses and economic growth.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Campaigns on transparent leadership, fiscal responsibility and disaster preparedness.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Ran unopposed in the March 2026 Democratic primary.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {
+    "q_county_mental": {
+     "position": 1,
+     "basis": "statement",
+     "summary": "Lists investing in mental and behavioral health services outside the jail system as part of his plan.",
+     "sources": [
+      "s1"
+     ]
+    }
+   },
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Albert 'AL' Smith, Candidate for Galveston County Judge",
+     "publisher": "Al Smith campaign",
+     "url": "https://alsmithwin.com/",
+     "date": "2026-10"
+    },
+    {
+     "id": "s2",
+     "title": "Mark Henry wins Republican primary for Galveston County judge",
+     "publisher": "AOL",
+     "url": "https://www.aol.com/news/mark-henry-wins-republican-primary-051421795.html",
+     "date": "2026-03"
+    }
+   ],
+   "research_gaps": "No detailed policy positions, endorsements or news coverage of his campaign beyond his website were found."
+  }
+ ]
+}
