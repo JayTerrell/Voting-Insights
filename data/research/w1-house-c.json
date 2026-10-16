@@ -7497,27 +7497,33 @@
      ]
     },
     {
+     "text": "Voted for SB 3 (2025), which would have banned most consumable hemp-derived THC products, on second reading (95 to 44).",
+     "sources": [
+      "s7"
+     ]
+    },
+    {
      "text": "Voted for SB 8 (2025), requiring agreements between county sheriffs and U.S. Immigration and Customs Enforcement to enforce federal immigration law (passed 86 to 47).",
-     "sources": [
-      "s7"
-     ]
-    },
-    {
-     "text": "Voted for SB 10 (2025), requiring Ten Commandments displays in public school classrooms (passed 82 to 46).",
-     "sources": [
-      "s7"
-     ]
-    },
-    {
-     "text": "Voted for SB 1362 (2025), prohibiting recognition and enforcement of extreme risk protective orders (passed 86 to 53).",
      "sources": [
       "s8"
      ]
     },
     {
-     "text": "Voted for the motion to concur in Senate amendments to HJR 7 (2025), a constitutional amendment dedicating sales tax revenue to the Texas water fund (122 to 12).",
+     "text": "Voted for SB 10 (2025), requiring Ten Commandments displays in public school classrooms (passed 82 to 46).",
+     "sources": [
+      "s8"
+     ]
+    },
+    {
+     "text": "Voted for SB 1362 (2025), prohibiting recognition and enforcement of extreme risk protective orders (passed 86 to 53).",
      "sources": [
       "s9"
+     ]
+    },
+    {
+     "text": "Voted for the motion to concur in Senate amendments to HJR 7 (2025), a constitutional amendment dedicating sales tax revenue to the Texas water fund (122 to 12).",
+     "sources": [
+      "s10"
      ]
     },
     {
@@ -7529,67 +7535,67 @@
     {
      "text": "Voted for HB 4 (2025, second called session), redrawing Texas congressional districts (passed 88 to 52).",
      "sources": [
-      "s10"
+      "s11"
      ]
     },
     {
      "text": "Was recorded absent for the vote on HB 7 (2025, second called session), prohibiting the manufacture and provision of abortion-inducing drugs and authorizing private lawsuits (passed 82 to 48).",
      "sources": [
-      "s11"
+      "s12"
      ]
     },
     {
      "text": "Voted for SB 14 (2023), banning gender transition medical treatments for minors (passed 87 to 56).",
      "sources": [
-      "s12"
+      "s13"
      ]
     },
     {
      "text": "Voted for the May 2023 resolution impeaching Attorney General Ken Paxton (adopted 121 to 23).",
      "sources": [
-      "s13"
+      "s14"
      ]
     },
     {
      "text": "Voted for Amendment No. 45 to the 2023 House budget, barring state money for vouchers or education savings accounts (adopted 86 to 52).",
      "sources": [
-      "s14"
+      "s15"
      ]
     },
     {
      "text": "Voted for the November 2023 amendment removing the education savings account program from HB 1 (adopted 84 to 63).",
      "sources": [
-      "s15"
+      "s16"
      ]
     },
     {
      "text": "Voted for SB 3 (2023, fourth called session), funding border barrier construction and border security operations (passed 84 to 59).",
      "sources": [
-      "s16"
+      "s17"
      ]
     },
     {
      "text": "Voted for SB 4 (2023, fourth called session), creating a state offense for illegal entry (passed 83 to 61).",
      "sources": [
-      "s16"
+      "s17"
      ]
     },
     {
      "text": "Voted for the motion to concur in Senate amendments to HB 2127 (2023), which preempts certain city and county regulation (84 to 58).",
      "sources": [
-      "s17"
+      "s18"
      ]
     },
     {
      "text": "Authored HB 44 (2025), on exceptions to the abortion ban based on a physician's reasonable medical judgment; it was left pending in committee.",
      "sources": [
-      "s18"
+      "s19"
      ]
     },
     {
      "text": "Authored HB 3071 (2025), on cancellation of certain solid waste permits, which became law.",
      "sources": [
-      "s18"
+      "s19"
      ]
     }
    ],
@@ -7614,8 +7620,8 @@
      "summary": "Voted for SB 2 (2025); in 2023 he voted for amendments barring voucher funding and removing ESAs from HB 1.",
      "sources": [
       "s1",
-      "s14",
-      "s15"
+      "s15",
+      "s16"
      ]
     },
     "q_school_funding": {
@@ -7631,7 +7637,7 @@
      "basis": "record",
      "summary": "Voted for SB 10 (2025), requiring Ten Commandments displays in classrooms.",
      "sources": [
-      "s7"
+      "s8"
      ]
     },
     "q_medicaid": {
@@ -7656,7 +7662,7 @@
      "basis": "record",
      "summary": "Voted for SB 3 (2025), which would have banned most hemp-derived THC products.",
      "sources": [
-      "s19"
+      "s7"
      ]
     },
     "q_foreign_land": {
@@ -7673,7 +7679,7 @@
      "summary": "Cites increased state cooperation with ICE and voted for SB 8 (2025).",
      "sources": [
       "s20",
-      "s7"
+      "s8"
      ]
     },
     "q_trans_minors": {
@@ -7681,7 +7687,7 @@
      "basis": "record",
      "summary": "Voted for SB 14 (2023) and cites the ban on gender modification for minors as an accomplishment.",
      "sources": [
-      "s12",
+      "s13",
       "s20"
      ]
     },
@@ -7699,7 +7705,7 @@
      "summary": "Campaigns on constitutional carry and banning red flag laws without due process; voted for SB 1362.",
      "sources": [
       "s20",
-      "s8"
+      "s9"
      ]
     },
     "q_water": {
@@ -7707,8 +7713,8 @@
      "basis": "record",
      "summary": "Voted for SB 7 and HJR 7 (2025), creating dedicated water infrastructure funding.",
      "sources": [
-      "s8",
-      "s9"
+      "s9",
+      "s10"
      ]
     },
     "q_preemption": {
@@ -7716,7 +7722,7 @@
      "basis": "record",
      "summary": "Voted to approve HB 2127 (2023), which preempts certain city and county regulation.",
      "sources": [
-      "s17"
+      "s18"
      ]
     },
     "q_border_state": {
@@ -7725,7 +7731,7 @@
      "summary": "Campaigns on securing $1.5 billion for border wall expansion and voted for 2023 border barrier funding.",
      "sources": [
       "s20",
-      "s16"
+      "s17"
      ]
     }
    },
@@ -7783,94 +7789,94 @@
     },
     {
      "id": "s7",
+     "title": "Texas House Journal, 89th Legislature, Regular Session, 69th Day (SB 3 second reading, Record 3192)",
+     "publisher": "Texas House of Representatives",
+     "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY69FINAL.HTM",
+     "date": "2025-05"
+    },
+    {
+     "id": "s8",
      "title": "Texas House Journal, 89th Legislature, Regular Session, 73rd Day (SB 8 Record 3502; SB 10 Record 3503; SB 12 Record 3506)",
      "publisher": "Texas House of Representatives",
      "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY73FINAL.HTM",
      "date": "2025-05"
     },
     {
-     "id": "s8",
+     "id": "s9",
      "title": "Texas House Journal, 89th Legislature, Regular Session, 76th Day (SB 1362 Record 3869; SB 7 Record 3922)",
      "publisher": "Texas House of Representatives",
      "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY76FINAL.HTM",
      "date": "2025-05"
     },
     {
-     "id": "s9",
+     "id": "s10",
      "title": "Texas House Journal, 89th Legislature, Regular Session, 77th Day (HB 2 concurrence Record 4015; HJR 7 concurrence Record 4039)",
      "publisher": "Texas House of Representatives",
      "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY77FINAL.HTM",
      "date": "2025-05"
     },
     {
-     "id": "s10",
+     "id": "s11",
      "title": "Texas House Journal, 89th Legislature, Second Called Session, 5th Day (HB 4, Record 30)",
      "publisher": "Texas House of Representatives",
      "url": "https://journals.house.texas.gov/HJRNL/892/HTML/89C2DAY05FINAL.HTM",
      "date": "2025-08"
     },
     {
-     "id": "s11",
+     "id": "s12",
      "title": "Texas House Journal, 89th Legislature, Second Called Session, 10th Day (SB 8 Record 134; HB 7 Record 135)",
      "publisher": "Texas House of Representatives",
      "url": "https://journals.house.texas.gov/HJRNL/892/HTML/89C2DAY10FINAL.HTM",
      "date": "2025-08"
     },
     {
-     "id": "s12",
+     "id": "s13",
      "title": "Texas House Journal, 88th Legislature, Regular Session, 63rd Day (SB 14, Record 1688)",
      "publisher": "Texas House of Representatives",
      "url": "https://journals.house.texas.gov/HJRNL/88R/HTML/88RDAY63FINAL.HTM",
      "date": "2023-05"
     },
     {
-     "id": "s13",
+     "id": "s14",
      "title": "Texas House Journal, 88th Legislature, Regular Session, 73rd Day (HR 2377 impeachment, Record 2191; HB 1 conference report reasons for vote)",
      "publisher": "Texas House of Representatives",
      "url": "https://journals.house.texas.gov/HJRNL/88R/HTML/88RDAY73FINAL.HTM",
      "date": "2023-05-27"
     },
     {
-     "id": "s14",
+     "id": "s15",
      "title": "Texas House Journal, 88th Legislature, Regular Session, 36th Day (HB 1 Amendment No. 45, Record 111)",
      "publisher": "Texas House of Representatives",
      "url": "https://journals.house.texas.gov/HJRNL/88R/HTML/88RDAY36FINAL.HTM",
      "date": "2023-04"
     },
     {
-     "id": "s15",
+     "id": "s16",
      "title": "Texas House Journal, 88th Legislature, Fourth Called Session, 5th Day continued (HB 1 Amendment No. 2, Record 56)",
      "publisher": "Texas House of Representatives",
      "url": "https://journals.house.texas.gov/HJRNL/884/HTML/88C4DAY05CFINAL.HTM",
      "date": "2023-11"
     },
     {
-     "id": "s16",
+     "id": "s17",
      "title": "Texas House Journal, 88th Legislature, Fourth Called Session, 5th Day (SB 3 Record 37; SB 4 Record 48)",
      "publisher": "Texas House of Representatives",
      "url": "https://journals.house.texas.gov/HJRNL/884/HTML/88C4DAY05FINAL.HTM",
      "date": "2023-11"
     },
     {
-     "id": "s17",
+     "id": "s18",
      "title": "Texas House Journal, 88th Legislature, Regular Session, 67th Day (HB 2127 concurrence, Record 1882)",
      "publisher": "Texas House of Representatives",
      "url": "https://journals.house.texas.gov/HJRNL/88R/HTML/88RDAY67FINAL.HTM",
      "date": "2023-05"
     },
     {
-     "id": "s18",
+     "id": "s19",
      "title": "Bills Authored / Joint Authored: Rep. Charlie Geren, 89th Legislature, Regular Session",
      "publisher": "Texas Legislature Online",
      "url": "https://capitol.texas.gov/reports/report.aspx?LegSess=89R&ID=author&Code=A2945",
      "date": "2026-10-16"
-    },
-    {
-     "id": "s19",
-     "title": "Texas House Journal, 89th Legislature, Regular Session, 69th Day (SB 3 second reading, Record 3192)",
-     "publisher": "Texas House of Representatives",
-     "url": "https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY69FINAL.HTM",
-     "date": "2025-05"
     },
     {
      "id": "s20",
@@ -8157,6 +8163,12 @@
      "text": "Was recorded absent for the vote on the motion to concur in Senate amendments to HJR 7 (2025), a constitutional amendment dedicating sales tax revenue to the Texas water fund (122 to 12).",
      "sources": [
       "s9"
+     ]
+    },
+    {
+     "text": "Voted for SB 7 (2025), on water infrastructure financing (passed 136 to 0).",
+     "sources": [
+      "s8"
      ]
     },
     {
@@ -8816,7 +8828,7 @@
      ]
     },
     {
-     "text": "During the 2025 second called session, filed journal statements that she was away from her desk in protest of redistricting and would have voted against HB 4, SB 8, and HB 7.",
+     "text": "During the 2025 second called session, filed journal statements explaining that she was away from her desk in protest of the special session called for redistricting.",
      "sources": [
       "s10",
       "s11"
@@ -10096,6 +10108,12 @@
      "text": "Was recorded absent for the vote on the motion to concur in Senate amendments to HJR 7 (2025), a constitutional amendment dedicating sales tax revenue to the Texas water fund (122 to 12).",
      "sources": [
       "s9"
+     ]
+    },
+    {
+     "text": "Voted for SB 7 (2025), on water infrastructure financing (passed 136 to 0).",
+     "sources": [
+      "s8"
      ]
     },
     {
@@ -12186,6 +12204,12 @@
      "text": "Was not recorded voting on the motion to concur in Senate amendments to HJR 7 (2025), a constitutional amendment dedicating sales tax revenue to the Texas water fund (122 to 12), and stated in the journal that she would have voted yes.",
      "sources": [
       "s9"
+     ]
+    },
+    {
+     "text": "Voted for SB 7 (2025), on water infrastructure financing (passed 136 to 0).",
+     "sources": [
+      "s8"
      ]
     },
     {
