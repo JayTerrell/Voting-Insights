@@ -1,0 +1,57 @@
+{
+  "candidates": [
+    {
+      "id": "leslie-r-johnson",
+      "sources": [
+        {"id": "p5-monitor9", "title": "Monitoring Pretrial Reform in Harris County: Ninth Report of the Court-Appointed Monitor", "publisher": "ODonnell Consent Decree Monitor (Duke University School of Law)", "url": "https://sites.law.duke.edu/odonnellmonitor/wp-content/uploads/sites/26/2026/03/ODonnell-Monitor-Ninth-Report-v.19.pdf", "date": "2026-03-03"},
+        {"id": "p5-hced", "title": "Harris County voters should replace these two misdemeanor judges", "publisher": "Houston Chronicle Editorial Board", "url": "https://www.houstonchronicle.com/opinion/endorsements/article/johnson-aguayo-fleischer-stevens-misdemeanor-2026-22474457.php", "date": "2026-10-13"}
+      ],
+      "record": [
+        {"text": "The court-appointed monitor's Ninth Report (March 3, 2026) in the federal ODonnell misdemeanor bail case described three cases in her Court Three, one from October 2025 and two from January 2026, in which general order bonds were revoked or replaced with secured bonds at first appearance for defendants not yet represented by counsel, and stated that these actions violated Local Rule 9 and the Consent Decree. The Houston Chronicle editorial board reported that she called the report \"slanderous.\"", "sources": ["p5-monitor9", "p5-hced"]}
+      ]
+    },
+    {
+      "id": "david-m-fleischer",
+      "sources": [
+        {"id": "p5-hcfl", "title": "Houston Judge Fleischer: Some argue viral videos harm defendants", "publisher": "Houston Chronicle", "url": "https://www.houstonchronicle.com/news/houston-texas/trending/article/houston-judge-fleischer-viral-youtube-19978121.php", "date": "2024-12"},
+        {"id": "p5-aba", "title": "From Courtroom to Clickbait: Judge reflects on viral video livestreams in his court", "publisher": "ABA Journal", "url": "https://www.abajournal.com/web/article/from-courtroom-to-clickbait", "date": "2025-09-03"}
+      ],
+      "notes": [
+        {"text": "A Houston Chronicle news report described a livestreamed hearing in his County Criminal Court at Law No. 5 in which he told a first-time defendant who wore shorts to court, \"If you come in here and try to play this game again I will put you over my knee like a little child and I'm going to spank you,\" adding, \"But I will do it with a ton of jail time.\" The report said critics argue clips from the livestream can harm defendants, and that he has described the livestreams, begun in 2020, as providing public education and transparency.", "sources": ["p5-hcfl"]},
+        {"text": "The ABA Journal reported in September 2025 that he stopped livestreaming his court in April 2025; he said the videos educate young viewers about the consequences of crime.", "sources": ["p5-aba"]}
+      ]
+    },
+    {
+      "id": "darrell-jordan-jr",
+      "sources": [
+        {"id": "p5-texan", "title": "District Attorney Drops Charges Against Suspended Harris County Judge Arrested for Oppression", "publisher": "The Texan", "url": "https://thetexan.news/issues/criminal-justice/district-attorney-drops-charges-against-suspended-harris-county-judge-arrested-for-oppression/article_72a5f171-3b10-508a-9919-771759784c95.html", "date": "2022-07-05"}
+      ],
+      "notes": [
+        {"text": "In 2022, while judge of Harris County Criminal Court at Law No. 16, he was indicted for official oppression in connection with his 2020 contempt jailing and sentencing of reporter Wayne Dolcefino, a contempt sentence the Texas Court of Criminal Appeals later overturned. The State Commission on Judicial Conduct suspended him without pay while the charge was pending. In July 2022 the Fort Bend County District Attorney's office, which handled the case after the Harris County District Attorney recused, moved to dismiss the charge, stating it could not be proven beyond a reasonable doubt, which allowed him to return to the bench.", "sources": ["p5-texan"]}
+      ]
+    },
+    {
+      "id": "mike-wolfe",
+      "sources": [
+        {"id": "p5-censure", "title": "HCDE board censures Trustee Michael Wolfe after judge denies restraining order", "publisher": "Houston Chronicle", "url": "https://www.chron.com/news/houston-texas/houston/article/HCDE-trustee-Wolfe-seeks-emergency-injunction-to-13774756.php", "date": "2019-04"},
+        {"id": "p5-report", "title": "Harris County education official harassed female job applicant, according to report", "publisher": "Houston Chronicle", "url": "https://www.houstonchronicle.com/news/houston-texas/houston/article/Report-HCDE-Trustee-Wolfe-harassed-retaliated-13653520.php", "date": "2019"},
+        {"id": "p5-clerkrace", "title": "Meet the Republican and Democrat running for Harris County clerk this November", "publisher": "Houston Chronicle", "url": "https://www.houstonchronicle.com/politics/houston/article/harris-county-clerk-candidates-2026-22466546.php", "date": "2026-10"}
+      ],
+      "notes": [
+        {"text": "In 2019, the Harris County Department of Education board voted 4-2, with one trustee abstaining, to censure him as a trustee after an outside investigation found he had sexually harassed a female job candidate; the vote followed a state district judge's denial of his request for a restraining order. He denied wrongdoing and called the allegations politically motivated. The Chronicle reported in 2026 that a related Harris County Attorney investigation was opened and its results were never made public.", "sources": ["p5-censure", "p5-report", "p5-clerkrace"]}
+      ]
+    },
+    {
+      "id": "mark-fury",
+      "sources": [
+        {"id": "p5-indict", "title": "JP Fury faces 8 felony charges", "publisher": "Houston Chronicle", "url": "https://www.chron.com/news/houston-texas/article/JP-Fury-faces-8-felony-charges-2044894.php", "date": null},
+        {"id": "p5-probation", "title": "Former JP gets probation in time sheet case", "publisher": "Houston Chronicle", "url": "https://www.chron.com/news/houston-texas/article/former-jp-gets-probation-in-time-sheet-case-2107261.php", "date": null},
+        {"id": "p5-scjc", "title": "Voluntary Agreement to Resign from Judicial Office in Lieu of Disciplinary Action (September 1, 2001 to Present)", "publisher": "State Commission on Judicial Conduct", "url": "https://www.scjc.texas.gov/media/46662/resign-in-lieu-list-update-6-6-18.pdf", "date": "2017-01-26"},
+        {"id": "p5-hcedjp", "title": "2 Democrats and 2 Republicans for justices of the peace", "publisher": "Houston Chronicle Editorial Board", "url": "https://www.houstonchronicle.com/opinion/endorsements/article/justice-of-the-peace-harris-county-2026-22477641.php", "date": "2026-10-15"}
+      ],
+      "record": [
+        {"text": "As a Harris County justice of the peace, he was indicted in 2001 on eight felony counts of tampering with a government document related to employee time sheets. He resigned, and the State Commission on Judicial Conduct lists him among judges who resigned in lieu of disciplinary action, with an agreement dated May 7, 2003. He pleaded no contest to four misdemeanor counts of tampering with a government document and received two years of deferred adjudication probation and a $4,000 fine. The Chronicle editorial board wrote that the felony indictments were later dismissed.", "sources": ["p5-indict", "p5-probation", "p5-scjc", "p5-hcedjp"]}
+      ]
+    }
+  ]
+}
