@@ -57,7 +57,7 @@ function scrub(value) {
 
 // Sites whose articles are labeled as AI-generated or AI-assisted are not
 // accepted as evidence. Claims that cited only these sources are dropped.
-const BLOCKED_SOURCE_DOMAINS = ['hoodline.com'];
+const BLOCKED_SOURCE_DOMAINS = ['hoodline.com', 'theballotbrief.com'];
 const isBlocked = (url) => {
   try {
     const host = new URL(url).hostname.replace(/^www\./, '');
