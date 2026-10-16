@@ -79,7 +79,8 @@ def square_crop(img):
     if w > h:
         left = (w - h) // 2
         return img.crop((left, 0, left + h, h))
-    top = int((h - w) * 0.15)
+    # Very tall photos are usually full length with the head at the very top.
+    top = 0 if h / w > 1.8 else int((h - w) * 0.15)
     return img.crop((0, top, w, top + w))
 
 
@@ -89,8 +90,15 @@ def process(data):
     w, h = img.size
     if min(w, h) < 120:
         raise ValueError(f'too small ({w}x{h})')
-    if max(w, h) / min(w, h) > 2.2:
+    # Tall full-length portraits crop well from the top; wide images are usually banners.
+    if w / h > 2.2 or h / w > 3:
         raise ValueError(f'banner shape ({w}x{h})')
+    if img.mode in ('RGBA', 'LA', 'P'):
+        # Transparent backgrounds become white instead of black.
+        img = img.convert('RGBA')
+        base = Image.new('RGB', img.size, (255, 255, 255))
+        base.paste(img, mask=img.split()[-1])
+        img = base
     img = img.convert('RGB')
     img = square_crop(img).resize((SIZE, SIZE), Image.LANCZOS)
     buf = io.BytesIO()
