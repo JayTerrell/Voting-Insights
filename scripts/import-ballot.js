@@ -60,6 +60,8 @@ export function nameCase(raw, overrides = {}) {
       let out = w.charAt(0).toUpperCase() + w.slice(1);
       out = out.replace(/^Mc([a-z])/, (_, c) => 'Mc' + c.toUpperCase());
       out = out.replace(/^O'([a-z])/, (_, c) => "O'" + c.toUpperCase());
+      // Nicknames in quotes or parentheses: "(art)" -> "(Art)", '"mari"' -> '"Mari"'.
+      out = out.replace(/^(["'(])([a-z])/, (_, p, c) => p + c.toUpperCase());
       return out;
     })
     .join('');
@@ -87,11 +89,13 @@ function titleCase(raw) {
 // the questionnaire office type, the office description key, display group,
 // whether every Texas voter sees it, and whether it belongs to one county.
 export function classify(heading, countySlug) {
+  // "Unexpired term" races fill the same office, so they classify like the full term.
   const h = heading
-    .replace(/\s+Party$/, '')
+    .replace(/\s*Party$/, '')
     .replace(/\s+/g, ' ')
     .trim()
-    .toUpperCase();
+    .toUpperCase()
+    .replace(/\s*[,-]?\s*UNEXPIRED TERM$/, '');
   const c = countySlug;
   const m = (re) => h.match(re);
   let r;
@@ -156,11 +160,22 @@ export function classify(heading, countySlug) {
   if (/^CRIMINAL DISTRICT ATTORNEY/.test(h)) return S(`${c}-da`, 'district_attorney', 'district_attorney', 'county', false, true);
   if (/^COUNTY ATTORNEY/.test(h)) return S(`${c}-county-attorney`, 'district_attorney', 'county_attorney', 'county', false, true);
   if (h === 'COUNTY JUDGE') return S(`${c}-county-judge`, 'county_judge', 'county_judge', 'county', false, true);
+  if ((r = m(/^JUDGE, COUNTY CRIMINAL COURT OF APPEALS,? NO\. ?(\d+)/))) {
+    return S(`${c}-ccl-criminal-appeals-${r[1]}`, 'judicial', 'ccl', 'county-judicial', false, true);
+  }
+  if ((r = m(/^JUDGE, COUNTY CRIMINAL COURT,? NO\. ?(\d+)/))) {
+    return S(`${c}-ccl-criminal-${r[1]}`, 'judicial', 'ccl', 'county-judicial', false, true);
+  }
+  if (h === 'JUDGE, COUNTY COURT AT LAW') return S(`${c}-ccl`, 'judicial', 'ccl', 'county-judicial', false, true);
+  if (/^CRIMINAL DISTRICT JUDGE/.test(h)) {
+    const n = h.match(/(?:NUMBER|NO\.|#)\s*(\d+)/);
+    return S(`${c}-criminal-district${n ? '-' + n[1] : ''}`, 'judicial', 'district_court', 'county-judicial', false, true);
+  }
   if ((r = m(/^JUDGE, COUNTY (CRIMINAL |CIVIL )?COURT AT LAW,? NO\. ?(\d+)/))) {
     const kind = r[1] ? slug(r[1]) + '-' : '';
     return S(`${c}-ccl-${kind}${r[2]}`, 'judicial', 'ccl', 'county-judicial', false, true);
   }
-  if ((r = m(/^(?:JUDGE, )?PROBATE COURT(?:,? NO\. ?(\d+))?/)))
+  if ((r = m(/^(?:JUDGE, )?(?:COUNTY )?PROBATE COURT(?: AT LAW)?(?:,? NO\. ?(\d+))?/)))
     return S(`${c}-probate${r[1] ? '-' + r[1] : ''}`, 'judicial', 'probate', 'county-judicial', false, true);
   if (h === 'DISTRICT CLERK') return S(`${c}-district-clerk`, 'clerk', 'district_clerk', 'county', false, true);
   if (h === 'COUNTY CLERK') return S(`${c}-county-clerk`, 'clerk', 'county_clerk', 'county', false, true);
@@ -172,7 +187,12 @@ export function classify(heading, countySlug) {
   if ((r = m(/^JUSTICE OF THE PEACE,? PRECINCT (\d+)(?:,? PLACE (\d+))?/))) {
     return S(`${c}-jp-${r[1]}${r[2] ? '-' + r[2] : ''}`, 'judicial', 'jp', 'county-judicial', false, true);
   }
-  if ((r = m(/^CONSTABLE,? PRECINCT (\d+)/))) return S(`${c}-constable-${r[1]}`, 'constable', 'constable', 'county', false, true);
+  if ((r = m(/^(?:COUNTY )?CONSTABLE,? PRECINCT (\d+)/)))
+    return S(`${c}-constable-${r[1]}`, 'constable', 'constable', 'county', false, true);
+  if (h === 'COUNTY SURVEYOR') return S(`${c}-surveyor`, 'clerk', 'county_surveyor', 'county', false, true);
+  if ((r = m(/COUNTY DEPARTMENT OF EDUCATION,? (?:POSITION|PLACE) (\d+)/))) {
+    return S(`${c}-dept-education-${r[1]}`, 'county_education_board', 'county_ed_board', 'county', false, true);
+  }
   return { ...S(`${c}-${slug(h)}`, 'other', null, 'county', false, true), unrecognized: true };
 }
 
@@ -191,8 +211,14 @@ export function parseReport(text) {
       current.candidates.push({ raw: cand[1].trim(), party: PARTIES[cand[2]] });
       continue;
     }
-    const heading = line.replace(/\s{2,}Party\s*$/, '').trim();
+    const heading = line.replace(/\s*Party\s*$/, '').trim();
     if (/^\d{1,2}\/\d{1,2}\/\d{4}/.test(heading)) continue;
+    // Every race lists at least one candidate, so a heading line that arrives
+    // before any candidate is the wrapped second line of the previous heading.
+    if (current && !current.candidates.length) {
+      current.heading += ` ${heading}`;
+      continue;
+    }
     current = { heading, candidates: [] };
     races.push(current);
   }
@@ -255,6 +281,8 @@ function main(files) {
     const notes = [];
     for (const pr of report.races) {
       const info = classify(pr.heading, cslug);
+      // A ballot can list a full term and an unexpired term for the same seat.
+      if (raceIds.includes(info.id) && /UNEXPIRED/i.test(pr.heading)) info.id += '-unexpired';
       let race = byId.get(info.id);
       if (!race) {
         race = {

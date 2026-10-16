@@ -22,7 +22,8 @@ cpSync(join(root, 'shared'), target, { recursive: true });
 // file from the CDN. Guide pages then work even before the database is set up.
 const dataTarget = join(root, 'client/data');
 mkdirSync(dataTarget, { recursive: true });
-cpSync(join(root, 'data/guide.json'), join(dataTarget, 'guide.json'));
+// Published without indentation; the CDN compresses it further.
+writeFileSync(join(dataTarget, 'guide.json'), JSON.stringify(JSON.parse(readFileSync(join(root, 'data/guide.json'), 'utf8'))));
 // The county list offered to visitors is the set of counties with a loaded ballot.
 const guide = JSON.parse(readFileSync(join(root, 'data/guide.json'), 'utf8'));
 const { age_ranges } = JSON.parse(readFileSync(join(root, 'data/form-options.json'), 'utf8'));

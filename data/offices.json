@@ -246,5 +246,21 @@
       "title": "Texas Association of Counties: Duties of County Officials",
       "url": "https://www.county.org/resources/resource-library/education-and-training/duties-texas-county-officials"
     }
+  },
+  "county_surveyor": {
+    "summary": "Conducts and records official land surveys for the county, and in some counties maintains survey records and settles boundary questions.",
+    "term": "4 years",
+    "source": {
+      "title": "Texas Association of Counties: Duties of County Officials",
+      "url": "https://www.county.org/resources/resource-library/education-and-training/duties-texas-county-officials"
+    }
+  },
+  "county_ed_board": {
+    "summary": "A trustee on the Harris County Department of Education board, which oversees countywide education services such as adult education, early childhood programs, therapy services for school districts, and alternative schools.",
+    "term": "6 years",
+    "source": {
+      "title": "Harris County Department of Education: Board of Trustees",
+      "url": "https://www.hcde-texas.org/board"
+    }
   }
 }
