@@ -43,6 +43,7 @@ export async function remove(id) {
   await db.run('DELETE FROM access_tokens WHERE user_id = ?', [id]);
   await db.run('DELETE FROM password_resets WHERE user_id = ?', [id]);
   await db.run('DELETE FROM ballot_plans WHERE user_id = ?', [id]);
+  await db.run('DELETE FROM user_identities WHERE user_id = ?', [id]);
   await db.run('DELETE FROM users WHERE id = ?', [id]);
 }
 

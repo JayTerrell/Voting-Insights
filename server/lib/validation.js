@@ -3,6 +3,7 @@
 
 import { formOptions, questionIds, raceCandidates, candidateIds } from '../services/guide.js';
 import { PASSWORD_MIN, PASSWORD_MAX } from './password.js';
+import { COMMON_PASSWORDS } from './common-passwords.js';
 
 const EMAIL_RE = /^[^\s@<>()[\]\\,;:"]{1,64}@[a-z0-9.-]{1,190}\.[a-z]{2,24}$/i;
 const SHARE_ID_RE = /^[A-Za-z0-9_-]{12}$/;
@@ -65,6 +66,9 @@ export function requirePassword(raw) {
   if (password.length < PASSWORD_MIN)
     throw new ValidationError(`Please choose a password of at least ${PASSWORD_MIN} characters.`);
   if (password.length > PASSWORD_MAX) throw new ValidationError(`Passwords can be at most ${PASSWORD_MAX} characters.`);
+  if (COMMON_PASSWORDS.has(password.toLowerCase()) || /^(.)\1+$/.test(password)) {
+    throw new ValidationError('That password is too common and easy to guess. Please choose a different one.');
+  }
   return password;
 }
 

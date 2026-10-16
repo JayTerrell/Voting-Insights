@@ -22,13 +22,22 @@ JSON bodies are limited to 32 KB.
 
 **Authentication.** Browsing is open to everyone. Taking the quiz, viewing saved results, and saving a ballot plan to an account require signing in with an email address and password.
 
-- Passwords are hashed with scrypt (N=16384, r=8, p=1, 16-byte random salt). Parameters are stored with each hash so they can be raised later.
+- Passwords are hashed with scrypt (N=16384, r=8, p=1, 16-byte random salt). Parameters are stored with each hash so they can be raised later. Passwords must be 8 to 200 characters; there are no composition rules, following NIST SP 800-63B, but the most common breached passwords are rejected. The site never emails a password.
 - Unknown emails are checked against a dummy hash, so a sign-in takes the same time whether or not the account exists.
 - A successful sign-in returns a random 256-bit token. Only its SHA-256 hash is stored. Tokens expire after 180 days, are revoked on sign-out, and every token for the account is revoked when the password changes or is reset.
 - Tokens are sent in the `Authorization` header, never in cookies, so cross-site request forgery does not apply.
 - Password reset links carry a one-time token in the URL fragment, which browsers never send to servers or in referrers. Reset tokens are stored hashed, expire after one hour, and are deleted on use. The "forgot password" endpoint gives the same response whether or not an account exists.
 - Deleting an account requires the current password.
 - Accounts created before passwords existed have no password; their owners set one through the emailed reset link. When passwords were introduced, every existing sign-in token was revoked, because those tokens had been issued for an email address alone.
+
+**Sign in with Google and Apple.** OpenID Connect authorization code flow, implemented with `node:crypto` only (`server/services/oauth.js`, `server/lib/jwt.js`).
+
+- A random `state`, `nonce`, and (for Google) PKCE verifier are kept in a signed, HttpOnly, ten-minute cookie scoped to `/api/auth`. The callback rejects any state that does not match.
+- ID tokens are verified against the provider's published keys: RS256 signature, issuer, audience, expiry, and nonce. Other algorithms are refused.
+- An identity links to an existing account only when the provider marks the email as verified. Unverified emails never take over an account.
+- New users finish sign-up (county, age range, terms) with a signed ticket that expires in 30 minutes.
+- The finished session token is passed to the browser in a URL fragment, which is never sent to servers or in referrers.
+- `AUTH_SECRET` (at least 32 characters) signs the state cookie and tickets. Without it, the Google and Apple buttons are hidden.
 
 **Privacy of results.**
 

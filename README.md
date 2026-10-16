@@ -4,7 +4,7 @@ A nonpartisan candidate guide and issue alignment quiz for the November 3, 2026 
 
 ## Features
 
-- **Accounts.** Anyone can browse the guide. Taking the quiz requires a free account (name, email, password, county, age range). Passwords are hashed with scrypt, and forgotten passwords are reset through a one-time emailed link.
+- **Accounts.** Anyone can browse the guide. Taking the quiz requires a free account: email and password, or Continue with Google or Apple, plus name, county, and age range. Passwords are hashed with scrypt, common passwords are rejected, new accounts get a welcome email, and forgotten passwords are reset through a one-time emailed link.
 - **Issue Quiz.** Signed-in visitors answer 31 issue statements and rate how important each one is. Results show a match percentage for every candidate on their county ballot and an alignment score with each party's official Texas platform. Results are saved with a timestamp, emailed, cached on the device, and shareable.
 - **Candidates.** Every race, grouped by level and filtered by county. Each race page compares its candidates side by side (office duties, priorities, promises, record, documented positions, numbered sources). Each candidate also has a profile page.
 - **Compare by Issue.** Choose an issue from a dropdown or type any word to see every candidate's documented position.
@@ -74,6 +74,7 @@ A click-by-click guide for Supabase, Resend, and Vercel is in [docs/DEPLOYING.md
    | `MAIL_FROM`                                        | Yes          | For example `Voting Insights <results@vote.example.org>`                              |
    | `ADMIN_TOKEN`                                      | Yes          | At least 24 random characters. Unlocks the CSV exports.                               |
    | `CONTACT_EMAIL`                                    | Yes          | Corrections and privacy contact shown in the Terms and Privacy Policy                 |
+   | `AUTH_SECRET`, `GOOGLE_*`, `APPLE_*`               | No           | Sign in with Google and Apple (see docs/DEPLOYING.md, Part 4)                         |
 
 5. **Deploy.** Static pages are served from the CDN. Requests to `/api/*`, plus shared result links (`/results/<id>`, which get personalized social preview tags), run in the serverless function.
 

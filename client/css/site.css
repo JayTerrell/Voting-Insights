@@ -1898,3 +1898,55 @@ table.score-sheet tbody th {
     border-color: var(--rule-soft);
   }
 }
+
+/* ---------- Google and Apple buttons ---------- */
+.provider-row {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 560px) {
+  .provider-row:has(> :nth-child(2)) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.btn-provider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 44px;
+  padding: 10px 16px;
+  border: 1px solid #747775;
+  background: #fff;
+  color: #1f1f1f;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none;
+}
+.btn-provider:hover {
+  border-color: var(--navy);
+  color: #1f1f1f;
+  background: #f8f8f8;
+}
+.btn-provider svg {
+  width: 18px;
+  height: 18px;
+  flex: none;
+}
+.or-rule {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 18px 0 14px;
+  font-size: 0.82rem;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.or-rule::before,
+.or-rule::after {
+  content: '';
+  flex: 1;
+  border-top: 1px solid var(--rule);
+}

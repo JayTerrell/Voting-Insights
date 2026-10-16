@@ -4,6 +4,10 @@ import assert from 'node:assert/strict';
 process.env.NODE_ENV = 'test';
 process.env.DATABASE_PATH = ':memory:';
 process.env.ADMIN_TOKEN = 'test-admin-token-0123456789abcdef';
+process.env.AUTH_SECRET = 'test-auth-secret-0123456789abcdef-0123456789';
+process.env.GOOGLE_CLIENT_ID = 'test-google-client';
+process.env.GOOGLE_CLIENT_SECRET = 'test-google-secret';
+delete process.env.APPLE_CLIENT_ID;
 // Set TEST_DATABASE_URL to run the same tests against a Postgres database.
 // Its tables are emptied first, so never point this at real data.
 if (process.env.TEST_DATABASE_URL) process.env.DATABASE_URL = process.env.TEST_DATABASE_URL;
@@ -13,6 +17,8 @@ delete process.env.SMTP_HOST;
 const { createApp } = await import('../server/app.js');
 const { devOutbox } = await import('../server/services/mailer.js');
 const { getDb, resetDb } = await import('../server/db/index.js');
+const { oauthHttp } = await import('../server/services/oauth.js');
+const { generateKeyPairSync, sign: rsaSign } = await import('node:crypto');
 
 let server;
 let base;
@@ -21,7 +27,7 @@ before(async () => {
   const db = await getDb();
   if (db.dialect === 'postgres') {
     await db.exec(
-      'TRUNCATE users, quiz_results, access_tokens, rate_limits, password_resets, ballot_plans RESTART IDENTITY CASCADE'
+      'TRUNCATE users, quiz_results, access_tokens, rate_limits, password_resets, ballot_plans, user_identities RESTART IDENTITY CASCADE'
     );
   }
   server = createApp().listen(0);
@@ -300,4 +306,111 @@ test('sign out revokes the token and deletion removes the account', async () => 
   const reg2 = await signUp('signout@example.com');
   assert.equal((await call('POST', '/api/sign-out', { token: reg2.json.token })).status, 200);
   assert.equal((await call('GET', '/api/me', { token: reg2.json.token })).status, 401);
+});
+
+test('common passwords are rejected', async () => {
+  assert.equal((await signUp('common@example.com', { password: 'password123' })).status, 400);
+  assert.equal((await signUp('common2@example.com', { password: 'aaaaaaaaaa' })).status, 400);
+});
+
+test('sign-up sends a welcome email that never contains the password', async () => {
+  const before = devOutbox.length;
+  await signUp('welcome@example.com', { password: 'a quiet river morning' });
+  const mail = devOutbox.slice(before).find((m) => m.to === 'welcome@example.com');
+  assert.ok(mail, 'welcome email sent');
+  assert.equal(mail.html.includes('a quiet river morning') || mail.text.includes('a quiet river morning'), false);
+});
+
+// ---------- Google sign-in, with a stand-in for Google ----------
+
+const { privateKey, publicKey } = generateKeyPairSync('rsa', { modulusLength: 2048 });
+const jwk = { ...publicKey.export({ format: 'jwk' }), kid: 'test-key', alg: 'RS256', use: 'sig' };
+const b64 = (o) => Buffer.from(JSON.stringify(o)).toString('base64url');
+function idToken(claims) {
+  const head = b64({ alg: 'RS256', kid: 'test-key', typ: 'JWT' });
+  const body = b64({
+    iss: 'https://accounts.google.com',
+    aud: 'test-google-client',
+    exp: Math.floor(Date.now() / 1000) + 600,
+    ...claims,
+  });
+  return `${head}.${body}.${rsaSign('RSA-SHA256', Buffer.from(`${head}.${body}`), privateKey).toString('base64url')}`;
+}
+
+async function googleFlow(claims, { tamperState = false } = {}) {
+  const start = await fetch(`${base}/api/auth/google/start?next=/quiz`, { redirect: 'manual' });
+  assert.equal(start.status, 303);
+  const to = new URL(start.headers.get('location'));
+  assert.equal(to.host, 'accounts.google.com');
+  assert.equal(to.searchParams.get('code_challenge_method'), 'S256');
+  const cookie = start.headers.get('set-cookie').split(';')[0];
+  assert.match(start.headers.get('set-cookie'), /HttpOnly/);
+  const nonce = to.searchParams.get('nonce');
+  oauthHttp.fetch = async (url, init) => {
+    if (url.includes('certs')) return new Response(JSON.stringify({ keys: [jwk] }));
+    const body = new URLSearchParams(init.body);
+    assert.ok(body.get('code_verifier'), 'PKCE verifier sent');
+    return new Response(JSON.stringify({ id_token: idToken({ nonce, ...claims }) }));
+  };
+  const state = tamperState ? 'wrong-state' : to.searchParams.get('state');
+  const cb = await fetch(`${base}/api/auth/google/callback?code=abc&state=${state}`, {
+    redirect: 'manual',
+    headers: { cookie },
+  });
+  assert.equal(cb.status, 303);
+  return cb.headers.get('location');
+}
+
+test('Google sign-in creates an account after the voter adds county and age', async () => {
+  const providers = await call('GET', '/api/form-options');
+  assert.deepEqual(providers.json.auth_providers, ['google']);
+  const loc = await googleFlow({
+    sub: 'g-123',
+    email: 'New.Person@Gmail.com',
+    email_verified: true,
+    given_name: 'New',
+    family_name: 'Person',
+  });
+  assert.match(loc, /^\/finish-sign-up#ticket=/);
+  const ticket = new URLSearchParams(loc.split('#')[1]).get('ticket');
+  const pending = await call('POST', '/api/auth/pending', { body: { ticket } });
+  assert.equal(pending.json.email, 'new.person@gmail.com');
+  assert.equal(pending.json.first_name, 'New');
+  const done = await call('POST', '/api/auth/complete', {
+    body: { ticket, first_name: 'New', last_name: 'Person', county: 'Collin', age_range: '25-34', agree_terms: true },
+  });
+  assert.equal(done.status, 201);
+  assert.equal(done.json.user.email, 'new.person@gmail.com');
+  assert.equal(done.json.user.has_password, false);
+
+  // The second time, Google signs straight in.
+  const again = await googleFlow({ sub: 'g-123', email: 'new.person@gmail.com', email_verified: true });
+  assert.match(again, /^\/auth\/complete#token=[A-Za-z0-9_-]{40,}&next=%2Fquiz$/);
+  const token = new URLSearchParams(again.split('#')[1]).get('token');
+  const me = await call('GET', '/api/me', { token });
+  assert.deepEqual(me.json.providers, ['google']);
+  // Without a password, deleting the account needs the email address typed out.
+  assert.equal((await call('DELETE', '/api/me', { token, body: { confirm_email: 'wrong@example.com' } })).status, 401);
+});
+
+test('Google sign-in links to an existing account with the same verified email', async () => {
+  const loc = await googleFlow({ sub: 'g-ana', email: 'ana@example.com', email_verified: true });
+  assert.match(loc, /^\/auth\/complete#token=/);
+});
+
+test('Google sign-in rejects a mismatched state or an unverified email link', async () => {
+  assert.equal(
+    await googleFlow({ sub: 'g-x', email: 'x@example.com', email_verified: true }, { tamperState: true }),
+    '/sign-in?error=failed'
+  );
+  // An unverified email never links to the existing account.
+  const loc = await googleFlow({ sub: 'g-evil', email: 'ana@example.com', email_verified: false });
+  assert.match(loc, /^\/finish-sign-up#ticket=/);
+  const ticket = new URLSearchParams(loc.split('#')[1]).get('ticket');
+  const done = await call('POST', '/api/auth/complete', {
+    body: { ticket, first_name: 'E', last_name: 'V', county: 'Collin', age_range: '25-34', agree_terms: true },
+  });
+  assert.equal(done.status, 400);
+  const forged = await call('POST', '/api/auth/pending', { body: { ticket: ticket.slice(0, -2) + 'xx' } });
+  assert.equal(forged.status, 400);
 });

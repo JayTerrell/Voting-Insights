@@ -49,7 +49,7 @@ npm install
 npm run db:check
 ```
 
-A successful check prints the six tables (`users`, `quiz_results`, `access_tokens`, `rate_limits`, `password_resets`, `ballot_plans`), each with "row level security on". In Supabase, **Table Editor** now shows them too. If the check fails, it prints the likely cause.
+A successful check prints the seven tables (`users`, `quiz_results`, `access_tokens`, `rate_limits`, `password_resets`, `ballot_plans`, `user_identities`), each with "row level security on". In Supabase, **Table Editor** now shows them too. If the check fails, it prints the likely cause.
 
 If you skip this step, the tables are created the first time someone uses the deployed site.
 
@@ -105,12 +105,49 @@ Resend sends the results emails over SMTP.
    curl -H "Authorization: Bearer <ADMIN_TOKEN>" https://<your-site>/api/admin/results.csv -o results.csv
    ```
 
+## Part 4: Sign in with Google and Apple (optional)
+
+Email and password sign-in always works. These buttons appear only after their settings are added in Vercel. In every step below, replace `https://your-site` with your real site address (the same value as `PUBLIC_URL`).
+
+### Shared secret
+
+Add `AUTH_SECRET` in Vercel: a random string of at least 32 characters. Generate one with the same command as `ADMIN_TOKEN`. It signs the short-lived sign-in state.
+
+### Google (free)
+
+1. Go to [console.cloud.google.com](https://console.cloud.google.com), create a project (for example "Voting Insights"), and open **APIs and Services**.
+2. **OAuth consent screen:** choose **External**, enter the app name, your support email, and your site's home page, privacy policy (`https://your-site/privacy`), and terms (`https://your-site/terms`) links. Add the scopes `openid`, `email`, and `profile`. Publish the app (move it from Testing to In production) so anyone can sign in.
+3. **Credentials, Create credentials, OAuth client ID:** application type **Web application**.
+   - Authorized JavaScript origins: `https://your-site`
+   - Authorized redirect URIs: `https://your-site/api/auth/google/callback`
+4. Copy the **Client ID** and **Client secret** into Vercel as `GOOGLE_CLIENT_ID` and `GOOGLE_CLIENT_SECRET`.
+
+### Apple (requires the Apple Developer Program, $99 per year)
+
+1. At [developer.apple.com](https://developer.apple.com/account), open **Certificates, Identifiers and Profiles**.
+2. **Identifiers, App IDs:** create an App ID (for example `org.yourdomain.votinginsights`) with **Sign in with Apple** enabled.
+3. **Identifiers, Services IDs:** create a Services ID (for example `org.yourdomain.votinginsights.web`). Enable **Sign in with Apple**, select **Configure**, choose the App ID from step 2, and add:
+   - Domains: `your-site` (no https://)
+   - Return URLs: `https://your-site/api/auth/apple/callback`
+4. **Keys:** create a key with **Sign in with Apple** enabled and linked to the App ID. Download the `.p8` file (Apple lets you download it once) and note the **Key ID**.
+5. In Vercel add:
+   - `APPLE_CLIENT_ID`: the Services ID from step 3
+   - `APPLE_TEAM_ID`: your Team ID (top right of the developer site)
+   - `APPLE_KEY_ID`: the Key ID from step 4
+   - `APPLE_PRIVATE_KEY`: the full contents of the `.p8` file, including the BEGIN and END lines
+
+Apple lets people hide their real email address. Their account then uses an Apple relay address that forwards to them. To email those addresses, add your sending domain under **Services, Sign in with Apple for Email Communication** in the developer site.
+
+After adding these variables, redeploy. The buttons appear on the sign-in and sign-up pages and on the quiz.
+
 ## Troubleshooting
 
-| Symptom                                             | Likely cause                                                                                                                |
-| --------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| `self-signed certificate in certificate chain`      | `DATABASE_CA_CERT` is missing or incomplete. Paste the entire certificate, including the BEGIN and END lines.               |
-| `password authentication failed`                    | Wrong password in `DATABASE_URL`, or the password contains symbols that need URL-encoding. Reset it to letters and numbers. |
-| `Tenant or user not found`                          | The username part of the pooler string must be `postgres.<project-id>`, exactly as Supabase shows it.                       |
-| Results save but no email arrives                   | Check `SMTP_PASS`, and that `MAIL_FROM` uses your verified Resend domain. Resend's **Logs** page shows each attempt.        |
-| The site shows "Something went wrong" on every quiz | Check the Vercel function logs. The app refuses to start on Vercel without `DATABASE_URL`.                                  |
+| Symptom                                             | Likely cause                                                                                                                                      |
+| --------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `self-signed certificate in certificate chain`      | `DATABASE_CA_CERT` is missing or incomplete. Paste the entire certificate, including the BEGIN and END lines.                                     |
+| `password authentication failed`                    | Wrong password in `DATABASE_URL`, or the password contains symbols that need URL-encoding. Reset it to letters and numbers.                       |
+| `Tenant or user not found`                          | The username part of the pooler string must be `postgres.<project-id>`, exactly as Supabase shows it.                                             |
+| Results save but no email arrives                   | Check `SMTP_PASS`, and that `MAIL_FROM` uses your verified Resend domain. Resend's **Logs** page shows each attempt.                              |
+| Google says `redirect_uri_mismatch`                 | The redirect URI in Google Cloud must exactly match `https://your-site/api/auth/google/callback`, and `PUBLIC_URL` must be the same site address. |
+| Google or Apple buttons do not appear               | `AUTH_SECRET` is missing or shorter than 32 characters, or one of the provider's variables is missing. Redeploy after adding them.                |
+| The site shows "Something went wrong" on every quiz | Check the Vercel function logs. The app refuses to start on Vercel without `DATABASE_URL`.                                                        |

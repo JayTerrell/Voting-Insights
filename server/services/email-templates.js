@@ -130,3 +130,33 @@ export function passwordResetEmail({ firstName, resetUrl }) {
   ].join('\n');
   return { subject: 'Reset your Voting Insights password', html, text };
 }
+
+const METHOD_LABEL = { password: 'your email address and password', google: 'your Google account', apple: 'your Apple account' };
+
+export function welcomeEmail({ firstName, method, siteUrl, resetUrl }) {
+  const how = METHOD_LABEL[method] || METHOD_LABEL.password;
+  const html = shell(
+    'Welcome to Voting Insights',
+    `<tr><td style="padding:8px 28px 16px 28px;font-family:${SANS};font-size:14px;line-height:1.6">
+      <p style="margin:0 0 12px 0">${esc(firstName)}, your account is ready. You signed up with ${esc(how)}.</p>
+      <p style="margin:0 0 8px 0">With your account you can:</p>
+      <ul style="margin:0 0 14px 18px;padding:0">
+        <li>Take the issue quiz and keep every result with its date and time.</li>
+        <li>Star the races and candidates you care about most.</li>
+        <li>Mark a mock ballot and print it to take with you.</li>
+      </ul>
+      <p style="margin:0 0 16px 0"><a href="${esc(siteUrl)}/quiz" style="display:inline-block;background:${NAVY};color:#FFFDF8;padding:10px 18px;text-decoration:none;font-weight:bold">Take the quiz</a>
+      &nbsp; <a href="${esc(siteUrl)}/my-ballot" style="color:${NAVY}">Open My Ballot</a></p>
+      <p style="margin:0;color:${MUTED};font-size:13px">We will never email you a password. If you did not create this account, someone may have used your address. <a href="${esc(resetUrl)}" style="color:${NAVY}">Reset the password</a> to take control of it, or delete the account from the My Account page.</p>
+    </td></tr>`
+  );
+  const text = [
+    `${firstName}, your Voting Insights account is ready. You signed up with ${how}.`,
+    '',
+    `Take the quiz: ${siteUrl}/quiz`,
+    `Open My Ballot: ${siteUrl}/my-ballot`,
+    '',
+    `We will never email you a password. If you did not create this account, reset the password at ${resetUrl}.`,
+  ].join('\n');
+  return { subject: 'Welcome to Voting Insights', html, text };
+}

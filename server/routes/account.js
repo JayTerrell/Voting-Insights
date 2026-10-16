@@ -45,8 +45,8 @@ accountRoutes.post('/password/change', rateLimit('change', 10, MINUTES_15), requ
   res.json(await accounts.changePassword(req.user, String(body.current_password || ''), next));
 });
 
-accountRoutes.get('/me', requireUser, (req, res) => {
-  res.json({ user: accounts.publicUser(req.user) });
+accountRoutes.get('/me', requireUser, async (req, res) => {
+  res.json({ user: accounts.publicUser(req.user), providers: await accounts.linkedProviders(req.user) });
 });
 
 // The email address is the account's identity and cannot be changed here.
@@ -69,6 +69,9 @@ accountRoutes.post('/sign-out', requireUser, async (req, res) => {
 });
 
 accountRoutes.delete('/me', rateLimit('delete', 5, MINUTES_15), requireUser, async (req, res) => {
-  await accounts.deleteAccount(req.user, String(req.body?.password || ''));
+  await accounts.deleteAccount(req.user, {
+    password: String(req.body?.password || ''),
+    confirmEmail: req.body?.confirm_email,
+  });
   res.json({ deleted: true });
 });

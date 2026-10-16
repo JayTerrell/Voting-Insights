@@ -4,7 +4,15 @@ import { renderQuiz } from './views/quiz.js';
 import { renderResults } from './views/results.js';
 import { renderGuide, renderRace, renderCandidate } from './views/guide.js';
 import { renderIssues } from './views/issues.js';
-import { renderSignIn, renderSignUp, renderForgot, renderReset, renderAccount } from './views/account.js';
+import {
+  renderSignIn,
+  renderSignUp,
+  renderForgot,
+  renderReset,
+  renderAccount,
+  renderAuthComplete,
+  renderFinishSignUp,
+} from './views/account.js';
 import { renderBallot, renderBallotPrint } from './views/ballot.js';
 import { session, plan } from './api.js';
 import { renderScoring } from './views/scoring.js';
@@ -27,6 +35,8 @@ const routes = [
   [/^\/sign-up$/, renderSignUp, '/account'],
   [/^\/forgot-password$/, renderForgot, '/account'],
   [/^\/reset-password$/, renderReset, '/account'],
+  [/^\/auth\/complete$/, renderAuthComplete, '/account'],
+  [/^\/finish-sign-up$/, renderFinishSignUp, '/account'],
   [/^\/methodology$/, renderMethodology, null],
   [/^\/terms$/, renderTerms, null],
   [/^\/privacy$/, renderPrivacy, null],

@@ -2,7 +2,7 @@
 // ISO strings set by the application, and expiry times are epoch milliseconds,
 // so the same queries work on both engines.
 
-const TABLES = ['users', 'quiz_results', 'access_tokens', 'rate_limits', 'password_resets', 'ballot_plans'];
+const TABLES = ['users', 'quiz_results', 'access_tokens', 'rate_limits', 'password_resets', 'ballot_plans', 'user_identities'];
 
 export function schema(dialect) {
   const id = dialect === 'postgres' ? 'BIGSERIAL PRIMARY KEY' : 'INTEGER PRIMARY KEY AUTOINCREMENT';
@@ -45,6 +45,16 @@ export function schema(dialect) {
       created_at TEXT NOT NULL
     )`,
     'CREATE INDEX IF NOT EXISTS idx_resets_user ON password_resets(user_id)',
+    // Google and Apple accounts linked to a user. The subject is the provider's stable user id.
+    `CREATE TABLE IF NOT EXISTS user_identities (
+      provider   TEXT NOT NULL,
+      subject    TEXT NOT NULL,
+      user_id    ${ref} NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+      email      TEXT,
+      created_at TEXT NOT NULL,
+      PRIMARY KEY (provider, subject)
+    )`,
+    'CREATE INDEX IF NOT EXISTS idx_identities_user ON user_identities(user_id)',
     // Starred races and candidates, and mock ballot choices, as one JSON document per account.
     `CREATE TABLE IF NOT EXISTS ballot_plans (
       user_id    ${ref} PRIMARY KEY REFERENCES users(id) ON DELETE CASCADE,

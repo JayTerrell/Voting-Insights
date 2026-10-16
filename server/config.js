@@ -24,6 +24,18 @@ export const config = {
   adminToken: env.ADMIN_TOKEN || '',
   contactEmail: env.CONTACT_EMAIL || null,
   trustProxy: env.TRUST_PROXY ?? (env.VERCEL ? true : 1),
+  // Signs short-lived Google and Apple sign-in state. Required for those buttons to appear.
+  authSecret: env.AUTH_SECRET || '',
+  google: {
+    clientId: clean(env.GOOGLE_CLIENT_ID),
+    clientSecret: clean(env.GOOGLE_CLIENT_SECRET),
+  },
+  apple: {
+    clientId: clean(env.APPLE_CLIENT_ID),
+    teamId: clean(env.APPLE_TEAM_ID),
+    keyId: clean(env.APPLE_KEY_ID),
+    privateKey: env.APPLE_PRIVATE_KEY || '',
+  },
   smtp: {
     host: env.SMTP_HOST || '',
     port: Number(env.SMTP_PORT || 587),
@@ -36,4 +48,8 @@ export const config = {
 
 if (config.adminToken && config.adminToken.length < 24) {
   throw new Error('ADMIN_TOKEN must be at least 24 characters.');
+}
+
+if (config.authSecret && config.authSecret.length < 32) {
+  throw new Error('AUTH_SECRET must be at least 32 characters.');
 }

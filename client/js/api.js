@@ -139,6 +139,9 @@ export const api = {
   resetPassword: (token, password) => call('POST', '/api/password/reset', { token, password }),
   changePassword: (current, next) => call('POST', '/api/password/change', { current_password: current, new_password: next }),
   updateProfile: (profile) => call('PATCH', '/api/me', profile),
+  me: () => call('GET', '/api/me'),
+  authPending: (ticket) => call('POST', '/api/auth/pending', { ticket }),
+  authComplete: (body) => call('POST', '/api/auth/complete', body),
   getPlan: () => call('GET', '/api/me/plan'),
   savePlan: (plan) => call('PUT', '/api/me/plan', plan),
   submit: (answers) => call('POST', '/api/results', { answers }),
@@ -146,7 +149,7 @@ export const api = {
   emailResult: (id) => call('POST', `/api/results/${encodeURIComponent(id)}/email`),
   myResults: () => call('GET', '/api/my-results'),
   signOut: () => call('POST', '/api/sign-out'),
-  deleteAccount: (password) => call('DELETE', '/api/me', { password }),
+  deleteAccount: (confirm) => call('DELETE', '/api/me', confirm),
 };
 
 // ---------- Ballot plan: starred races and candidates, and mock ballot choices ----------
