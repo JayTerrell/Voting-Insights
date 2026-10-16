@@ -131,9 +131,13 @@ function candidateCard(c, prefix, { full = false } = {}) {
     ${c.current_role ? `<p class="role">${esc(c.current_role)}</p>` : ''}
     ${c.background ? `<p class="small">${esc(c.background)}</p>` : ''}
     ${c.website ? `<p class="small"><a href="${esc(c.website)}" target="_blank" rel="noopener">Campaign website</a></p>` : ''}
-    <p class="sub">Priorities</p>${list(c.priorities, c, prefix, 'No stated priorities found.')}
+    ${
+      c.researched === false
+        ? '<p class="callout small" style="margin-top:12px">Research on this candidate is in progress. Their profile, positions, and sources will appear here soon.</p>'
+        : `<p class="sub">Priorities</p>${list(c.priorities, c, prefix, 'No stated priorities found.')}
     <p class="sub">Promises</p>${list(c.promises, c, prefix, 'No specific promises found.')}
-    <p class="sub">Record</p>${list(c.record, c, prefix, 'No public record in office found.')}
+    <p class="sub">Record</p>${list(c.record, c, prefix, 'No public record in office found.')}`
+    }
     ${c.notes.length ? `<p class="sub">Notes</p>${list(c.notes, c, prefix, '')}` : ''}
     ${
       full && c.issue_notes.length
