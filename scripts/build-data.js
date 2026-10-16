@@ -237,7 +237,7 @@ const builtRaces = races.map((race) => {
           .filter((n) => n.topic && n.summary && n.sources.length),
         sources,
         research_gaps: r.research_gaps || '',
-        researched: research.has(base.id),
+        researched: research.has(base.id) && sources.length > 0,
       };
     }),
   };

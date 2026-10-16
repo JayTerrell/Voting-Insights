@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T16:17:32.032Z",
+ "generated_at": "2026-10-16T16:17:44.013Z",
  "election": {
   "name": "2026 November General Election",
   "county": "Collin County, Texas",
@@ -38732,7 +38732,7 @@
      "issue_notes": [],
      "sources": [],
      "research_gaps": "No campaign website, questionnaire responses, news coverage, or verified biography was found.",
-     "researched": true
+     "researched": false
     }
    ],
    "office": {
@@ -52061,7 +52061,7 @@
      "issue_notes": [],
      "sources": [],
      "research_gaps": "No background, campaign website or news coverage was found for this candidate.",
-     "researched": true
+     "researched": false
     },
     {
      "id": "sylvia-garza",
@@ -52079,7 +52079,7 @@
      "issue_notes": [],
      "sources": [],
      "research_gaps": "No verifiable background, campaign website or news coverage was found within the search budget.",
-     "researched": true
+     "researched": false
     }
    ],
    "office": {
@@ -52177,7 +52177,7 @@
      "issue_notes": [],
      "sources": [],
      "research_gaps": "No background, campaign website or news coverage was found for this candidate.",
-     "researched": true
+     "researched": false
     }
    ],
    "office": {
@@ -52365,7 +52365,7 @@
      "issue_notes": [],
      "sources": [],
      "research_gaps": "No verifiable background, campaign website or positions were found within the search budget.",
-     "researched": true
+     "researched": false
     },
     {
      "id": "gus-ruiz",
@@ -52482,7 +52482,7 @@
      "issue_notes": [],
      "sources": [],
      "research_gaps": "No background, campaign website or news coverage was found for this candidate.",
-     "researched": true
+     "researched": false
     },
     {
      "id": "benito-bo-ochoa",
@@ -52552,7 +52552,7 @@
      "issue_notes": [],
      "sources": [],
      "research_gaps": "No background, campaign website or news coverage was found for this candidate.",
-     "researched": true
+     "researched": false
     },
     {
      "id": "cyndi-hinojosa",
@@ -52636,7 +52636,7 @@
      "issue_notes": [],
      "sources": [],
      "research_gaps": "No background, campaign website or reliable news coverage was found for this candidate.",
-     "researched": true
+     "researched": false
     },
     {
      "id": "mary-esther-sorola",
@@ -52706,7 +52706,7 @@
      "issue_notes": [],
      "sources": [],
      "research_gaps": "No background, campaign website or news coverage was found for this candidate.",
-     "researched": true
+     "researched": false
     },
     {
      "id": "noe-alaniz-jr",
@@ -52815,7 +52815,7 @@
      "issue_notes": [],
      "sources": [],
      "research_gaps": "No background, campaign website or news coverage was found for this candidate.",
-     "researched": true
+     "researched": false
     },
     {
      "id": "jessica-alvarado-gonzales",
@@ -53669,7 +53669,7 @@
      "issue_notes": [],
      "sources": [],
      "research_gaps": "No campaign website, questionnaire responses, news coverage, or verified biography was found.",
-     "researched": true
+     "researched": false
     }
    ],
    "office": {
@@ -75229,7 +75229,7 @@
      "issue_notes": [],
      "sources": [],
      "research_gaps": "No verifiable sources describing her background or positions were found; an ATPE profile under her name lists no district or information.",
-     "researched": true
+     "researched": false
     }
    ],
    "office": {
@@ -84887,7 +84887,7 @@
      "issue_notes": [],
      "sources": [],
      "research_gaps": "No campaign website, ATPE profile, news coverage, or questionnaire responses could be found for this candidate.",
-     "researched": true
+     "researched": false
     },
     {
      "id": "claudia-ordaz",
@@ -147580,7 +147580,7 @@
      "issue_notes": [],
      "sources": [],
      "research_gaps": "No biography, campaign website or stated priorities were found.",
-     "researched": true
+     "researched": false
     }
    ],
    "office": {
@@ -147650,7 +147650,7 @@
      "issue_notes": [],
      "sources": [],
      "research_gaps": "No background, campaign website or news coverage was found for this candidate.",
-     "researched": true
+     "researched": false
     }
    ],
    "office": {
@@ -147779,7 +147779,7 @@
      "issue_notes": [],
      "sources": [],
      "research_gaps": "No background, campaign website or news coverage was found for this candidate.",
-     "researched": true
+     "researched": false
     }
    ],
    "office": {
@@ -152006,7 +152006,7 @@
      "issue_notes": [],
      "sources": [],
      "research_gaps": "No campaign website, biography or qualifications were found.",
-     "researched": true
+     "researched": false
     }
    ],
    "office": {
@@ -152142,7 +152142,7 @@
      "issue_notes": [],
      "sources": [],
      "research_gaps": "No campaign website, biography or qualifications were found.",
-     "researched": true
+     "researched": false
     }
    ],
    "office": {
@@ -152730,7 +152730,7 @@
      "issue_notes": [],
      "sources": [],
      "research_gaps": "No campaign website, questionnaire responses, news coverage, or verified biography was found.",
-     "researched": true
+     "researched": false
     }
    ],
    "office": {
@@ -160357,7 +160357,7 @@
      "issue_notes": [],
      "sources": [],
      "research_gaps": "No background, campaign website or news coverage was found for this candidate.",
-     "researched": true
+     "researched": false
     },
     {
      "id": "james-taylor",
@@ -160604,7 +160604,7 @@
      "issue_notes": [],
      "sources": [],
      "research_gaps": "No background, campaign website or news coverage was found for this candidate.",
-     "researched": true
+     "researched": false
     },
     {
      "id": "fredrick-webber",
@@ -174209,7 +174209,7 @@
      "issue_notes": [],
      "sources": [],
      "research_gaps": "No background, campaign website or reliable news coverage was found for this candidate.",
-     "researched": true
+     "researched": false
     }
    ],
    "office": {
@@ -180753,7 +180753,7 @@
      "issue_notes": [],
      "sources": [],
      "research_gaps": "No biography, campaign website, priorities or news coverage could be found; searches of Victoria County sites and news returned nothing on her candidacy.",
-     "researched": true
+     "researched": false
     }
    ],
    "office": {
@@ -183793,7 +183793,7 @@
      "issue_notes": [],
      "sources": [],
      "research_gaps": "No background, campaign website or news coverage was found for this candidate.",
-     "researched": true
+     "researched": false
     },
     {
      "id": "salvador-johnson",
@@ -185138,7 +185138,7 @@
      "issue_notes": [],
      "sources": [],
      "research_gaps": "No accessible source was found: the Wichita County website blocked automated access and local news coverage did not profile this race, so incumbency and background are unverified.",
-     "researched": true
+     "researched": false
     }
    ],
    "office": {
@@ -185175,7 +185175,7 @@
      "issue_notes": [],
      "sources": [],
      "research_gaps": "No accessible source was found: the Wichita County website blocked automated access and local news coverage did not profile this race, so incumbency and background are unverified.",
-     "researched": true
+     "researched": false
     }
    ],
    "office": {
@@ -185212,7 +185212,7 @@
      "issue_notes": [],
      "sources": [],
      "research_gaps": "No accessible source was found: the Wichita County website blocked automated access and local news coverage did not profile this race, so incumbency and background are unverified.",
-     "researched": true
+     "researched": false
     }
    ],
    "office": {
@@ -189665,7 +189665,7 @@
      "issue_notes": [],
      "sources": [],
      "research_gaps": "No campaign website, biography, priorities or positions were found.",
-     "researched": true
+     "researched": false
     }
    ],
    "office": {
@@ -191392,7 +191392,7 @@
      "issue_notes": [],
      "sources": [],
      "research_gaps": "",
-     "researched": true
+     "researched": false
     }
    ],
    "office": {
