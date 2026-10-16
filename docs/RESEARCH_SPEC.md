@@ -123,3 +123,24 @@ The build deletes each listed stance after merging and prints what it removed.
 
 Never circumvent a paywall, login, or bot check (no mirror, cache, or preview hosts used to read paywalled
 articles). If an article is paywalled, cite it only for what is visible without bypassing, or use another source.
+
+## Candidate photos
+
+Photos are optional and are held to the same neutrality standard as text: every candidate in a race gets the same treatment, and a missing photo shows the candidate's initials.
+
+Allowed sources, in order of preference:
+
+1. Official government portraits (legislature, Congress, courts, county and city pages, state agencies).
+2. Wikimedia Commons images of the candidate, credited with author and license.
+3. The candidate's own campaign website headshot.
+
+Never use news photos, voter-guide sites (Ballotpedia, Branch, Vote411, iVoterGuide), social media images, AI-generated images, group photos, or images reached by getting around a paywall or bot check.
+
+Researchers record finds as `{candidate_id, image_url, source_url, credit, kind}`. Then run:
+
+```bash
+python3 -I scripts/fetch-photos.py found.json
+npm run build:data
+```
+
+The script keeps the permanent record in `data/photos/manifest.json`, saves a 320 px square JPEG to `client/img/candidates/<id>.jpg`, and writes `data/research/pass6-photos.json`. The build accepts only local photo files with a source URL, and each profile shows a "Photo:" credit linking to the page the photo came from. To remove a photo, delete its manifest entry and image file and rerun the script.

@@ -13,6 +13,7 @@ import {
   countyLabel,
   starButton,
   candidatePhoto,
+  photoCredit,
 } from '../ui.js';
 import { loadGuide, loadFormOptions, ballotCounty } from '../api.js';
 import { positionLabel, BASIS_LABEL, racesForCounty } from '../shared/scoring.js';
@@ -151,6 +152,7 @@ function candidateCard(c, prefix, { full = false } = {}) {
         : ''
     }
     ${c.research_gaps ? `<p class="small muted" style="margin-top:12px">Research gaps: ${esc(c.research_gaps)}</p>` : ''}
+    ${photoCredit(c)}
   </article>`;
 }
 

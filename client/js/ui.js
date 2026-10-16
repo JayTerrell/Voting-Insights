@@ -148,7 +148,7 @@ const initials = (name) =>
 // A candidate's photo when one is on file, otherwise their initials.
 export function candidatePhoto(c, size = 'md') {
   if (c.photo && c.photo.url) {
-    return `<img class="cand-photo cand-photo-${size}" src="${esc(c.photo.url)}" alt="" loading="lazy" decoding="async">`;
+    return `<img class="cand-photo cand-photo-${size}" src="${esc(c.photo.url)}" alt="${esc(`Photo of ${c.name}`)}" title="${esc(`Photo: ${c.photo.credit}`)}" loading="lazy" decoding="async" width="${size === 'lg' ? 64 : 52}" height="${size === 'lg' ? 64 : 52}">`;
   }
   return `<span class="cand-photo cand-photo-${size} cand-initials" aria-hidden="true">${esc(initials(c.name))}</span>`;
 }
@@ -167,4 +167,10 @@ export function miniCard(c, { match = null, star = true } = {}) {
     </div>
     ${star ? starButton('candidate', c.id, c.name) : ''}
   </div>`;
+}
+
+// Credit line for a candidate photo, linking to the page it came from.
+export function photoCredit(c) {
+  if (!c.photo) return '';
+  return `<p class="photo-credit">Photo: <a href="${esc(c.photo.source_url)}" target="_blank" rel="noopener">${esc(c.photo.credit)}</a></p>`;
 }

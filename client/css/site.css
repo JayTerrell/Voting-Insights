@@ -1950,3 +1950,11 @@ table.score-sheet tbody th {
   flex: 1;
   border-top: 1px solid var(--rule);
 }
+.photo-credit {
+  margin: 10px 0 0;
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+.photo-credit a {
+  color: var(--muted);
+}
