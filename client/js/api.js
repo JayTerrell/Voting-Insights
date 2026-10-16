@@ -1,7 +1,14 @@
 // Server calls and browser storage. Storage access is wrapped because private
 // browsing modes can throw on localStorage.
 
-const KEYS = { token: 'vi_token', user: 'vi_user', results: 'vi_results', progress: 'vi_progress', county: 'vi_county' };
+const KEYS = {
+  token: 'vi_token',
+  user: 'vi_user',
+  results: 'vi_results',
+  progress: 'vi_progress',
+  county: 'vi_county',
+  plan: 'vi_plan',
+};
 
 function getJSON(key, fallback) {
   try {
@@ -36,6 +43,7 @@ export const session = {
     setJSON(KEYS.user, null);
     setJSON(KEYS.results, null);
     setJSON(KEYS.progress, null);
+    setJSON(KEYS.plan, null);
   },
 };
 
@@ -125,12 +133,91 @@ export const loadFormOptions = () =>
   (optionsPromise ||= call('GET', '/api/form-options').catch(() => call('GET', '/data/form-options.json')));
 
 export const api = {
-  register: (profile) => call('POST', '/api/register', profile),
-  lookup: (email) => call('POST', '/api/lookup', { email }),
+  signUp: (profile) => call('POST', '/api/sign-up', profile),
+  signIn: (email, password) => call('POST', '/api/sign-in', { email, password }),
+  forgotPassword: (email) => call('POST', '/api/password/forgot', { email }),
+  resetPassword: (token, password) => call('POST', '/api/password/reset', { token, password }),
+  changePassword: (current, next) => call('POST', '/api/password/change', { current_password: current, new_password: next }),
+  updateProfile: (profile) => call('PATCH', '/api/me', profile),
+  getPlan: () => call('GET', '/api/me/plan'),
+  savePlan: (plan) => call('PUT', '/api/me/plan', plan),
   submit: (answers) => call('POST', '/api/results', { answers }),
   result: (id) => call('GET', `/api/results/${encodeURIComponent(id)}`),
   emailResult: (id) => call('POST', `/api/results/${encodeURIComponent(id)}/email`),
   myResults: () => call('GET', '/api/my-results'),
   signOut: () => call('POST', '/api/sign-out'),
-  deleteAccount: () => call('DELETE', '/api/me'),
+  deleteAccount: (password) => call('DELETE', '/api/me', { password }),
 };
+
+// ---------- Ballot plan: starred races and candidates, and mock ballot choices ----------
+// Saved in this browser for everyone, and to the account when signed in, so the
+// list follows the voter to another device.
+
+const EMPTY_PLAN = () => ({ starred_races: [], starred_candidates: [], picks: {} });
+const listeners = new Set();
+let saveTimer;
+
+function readPlan() {
+  const p = getJSON(KEYS.plan, null);
+  return p && typeof p === 'object' ? { ...EMPTY_PLAN(), ...p } : EMPTY_PLAN();
+}
+
+function writePlan(p) {
+  setJSON(KEYS.plan, p);
+  listeners.forEach((fn) => fn(p));
+  if (!session.token) return;
+  clearTimeout(saveTimer);
+  saveTimer = setTimeout(() => api.savePlan(p).catch(() => {}), 600);
+}
+
+export const plan = {
+  get: readPlan,
+  onChange(fn) {
+    listeners.add(fn);
+    return () => listeners.delete(fn);
+  },
+  isStarred(kind, id) {
+    const p = readPlan();
+    return (kind === 'race' ? p.starred_races : p.starred_candidates).includes(id);
+  },
+  toggleStar(kind, id) {
+    const p = readPlan();
+    const key = kind === 'race' ? 'starred_races' : 'starred_candidates';
+    p[key] = p[key].includes(id) ? p[key].filter((x) => x !== id) : [...p[key], id];
+    writePlan(p);
+    return p[key].includes(id);
+  },
+  pick(raceId, candidateId) {
+    const p = readPlan();
+    if (candidateId) p.picks[raceId] = candidateId;
+    else delete p.picks[raceId];
+    writePlan(p);
+  },
+  clearPicks() {
+    const p = readPlan();
+    p.picks = {};
+    writePlan(p);
+  },
+  // After signing in, combine what was saved on this device with the account copy.
+  async sync() {
+    if (!session.token) return;
+    const local = readPlan();
+    const { plan: remote } = await api.getPlan();
+    const merged = {
+      starred_races: [...new Set([...remote.starred_races, ...local.starred_races])],
+      starred_candidates: [...new Set([...remote.starred_candidates, ...local.starred_candidates])],
+      picks: { ...remote.picks, ...local.picks },
+    };
+    setJSON(KEYS.plan, merged);
+    listeners.forEach((fn) => fn(merged));
+    const changed = JSON.stringify(merged) !== JSON.stringify({ ...EMPTY_PLAN(), ...remote, updated_at: undefined });
+    if (changed) await api.savePlan(merged).catch(() => {});
+  },
+};
+
+// Signs in on this device: stores the session and merges the ballot plan.
+export async function startSession(res) {
+  if (session.user && session.user.email !== res.user.email) session.clear();
+  session.set(res.token, res.user);
+  await plan.sync().catch(() => {});
+}

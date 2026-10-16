@@ -2,7 +2,7 @@
 // DATABASE_URL selects Postgres; otherwise a local SQLite file is used.
 
 import { config } from '../config.js';
-import { schema } from './schema.js';
+import { schema, migrate } from './schema.js';
 
 let ready;
 
@@ -20,6 +20,7 @@ export function getDb() {
         ? (await import('./postgres.js')).connect(config.databaseUrl, config.databaseCaCert)
         : (await import('./sqlite.js')).connect(config.sqlitePath);
       for (const statement of schema(db.dialect)) await db.exec(statement);
+      await migrate(db);
       return db;
     })();
     ready.catch(() => {

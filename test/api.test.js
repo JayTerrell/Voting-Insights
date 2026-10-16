@@ -20,7 +20,9 @@ let base;
 before(async () => {
   const db = await getDb();
   if (db.dialect === 'postgres') {
-    await db.exec('TRUNCATE users, quiz_results, access_tokens, rate_limits RESTART IDENTITY CASCADE');
+    await db.exec(
+      'TRUNCATE users, quiz_results, access_tokens, rate_limits, password_resets, ballot_plans RESTART IDENTITY CASCADE'
+    );
   }
   server = createApp().listen(0);
   await new Promise((r) => server.once('listening', r));
@@ -57,9 +59,12 @@ const profile = (email, extra = {}) => ({
   email,
   county: 'Collin',
   age_range: '25-34',
+  password: 'correct horse battery',
   agree_terms: true,
   ...extra,
 });
+
+const signUp = (email, extra) => call('POST', '/api/sign-up', { body: profile(email, extra) });
 
 const answers = {
   q_abortion: { value: 2, weight: 2 },
@@ -70,37 +75,48 @@ const answers = {
   q_county_tax: { value: 1, weight: 1 },
 };
 
-test('registration creates an account and returns a token', async () => {
-  const r = await call('POST', '/api/register', { body: profile('ana@example.com') });
-  assert.equal(r.status, 200);
+test('sign-up creates an account and returns a token', async () => {
+  const r = await signUp('ana@example.com');
+  assert.equal(r.status, 201);
   assert.ok(r.json.token.length > 30);
   assert.equal(r.json.user.email, 'ana@example.com');
+  const db = await getDb();
+  const row = await db.get('SELECT password_hash FROM users WHERE email = ?', ['ana@example.com']);
+  assert.match(row.password_hash, /^scrypt\$/);
+  assert.equal(row.password_hash.includes('correct horse'), false);
 });
 
-test('a reused email opens the same account without a code', async () => {
-  const r = await call('POST', '/api/register', { body: profile('ANA@example.com', { age_range: '45-54' }) });
-  assert.equal(r.status, 200);
-  assert.ok(r.json.token);
-  assert.equal(r.json.user.email, 'ana@example.com');
-  assert.equal(r.json.user.age_range, '45-54');
+test('an email address can hold only one account, and email alone never opens it', async () => {
+  const again = await signUp('ANA@example.com', { password: 'someone else entirely' });
+  assert.equal(again.status, 409);
+  assert.equal(again.json.token, undefined);
+  assert.equal((await call('POST', '/api/lookup', { body: { email: 'ana@example.com' } })).status, 404);
+  assert.equal((await call('POST', '/api/register', { body: profile('ana@example.com') })).status, 404);
 });
 
-test('My Results opens by email and reports unknown emails', async () => {
-  const found = await call('POST', '/api/lookup', { body: { email: 'Ana@Example.com' } });
-  assert.equal(found.status, 200);
-  assert.ok(found.json.token);
-  assert.ok(Array.isArray(found.json.results));
-  const missing = await call('POST', '/api/lookup', { body: { email: 'nobody@example.com' } });
-  assert.equal(missing.status, 404);
+test('sign-in needs the right password', async () => {
+  const ok = await call('POST', '/api/sign-in', { body: { email: 'Ana@Example.com', password: 'correct horse battery' } });
+  assert.equal(ok.status, 200);
+  assert.ok(ok.json.token);
+  const bad = await call('POST', '/api/sign-in', { body: { email: 'ana@example.com', password: 'wrong password' } });
+  assert.equal(bad.status, 401);
+  const unknown = await call('POST', '/api/sign-in', { body: { email: 'nobody@example.com', password: 'whatever123' } });
+  assert.equal(unknown.status, 401);
+  assert.equal(bad.json.error, unknown.json.error, 'wrong password and unknown email look the same');
+});
+
+test('passwords must be at least 8 characters', async () => {
+  assert.equal((await signUp('short@example.com', { password: 'abc' })).status, 400);
+  assert.equal((await signUp('missing@example.com', { password: undefined })).status, 400);
 });
 
 test('input is validated and consent is required', async () => {
-  assert.equal((await call('POST', '/api/register', { body: profile('bad') })).status, 400);
-  assert.equal((await call('POST', '/api/register', { body: profile('x@example.com', { county: 'Atlantis' }) })).status, 400);
+  assert.equal((await signUp('bad')).status, 400);
+  assert.equal((await signUp('x@example.com', { county: 'Atlantis' })).status, 400);
   // Only counties with a loaded ballot can be chosen.
-  assert.equal((await call('POST', '/api/register', { body: profile('x@example.com', { county: 'Loving' }) })).status, 400);
-  assert.equal((await call('POST', '/api/register', { body: profile('x@example.com', { agree_terms: false }) })).status, 400);
-  const malformed = await fetch(base + '/api/register', {
+  assert.equal((await signUp('x@example.com', { county: 'Loving' })).status, 400);
+  assert.equal((await signUp('x@example.com', { agree_terms: false })).status, 400);
+  const malformed = await fetch(base + '/api/sign-up', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: '{nope',
@@ -109,13 +125,15 @@ test('input is validated and consent is required', async () => {
 });
 
 test('SQL injection attempts are treated as plain data', async () => {
-  const inj = await call('POST', '/api/lookup', { body: { email: "a@b.com' OR '1'='1" } });
+  const inj = await call('POST', '/api/sign-in', { body: { email: "a@b.com' OR '1'='1", password: "' OR '1'='1" } });
   assert.equal(inj.status, 400);
+  const inj2 = await call('POST', '/api/sign-in', { body: { email: 'ana@example.com', password: "' OR '1'='1" } });
+  assert.equal(inj2.status, 401);
   const share = await call('GET', `/api/results/${encodeURIComponent("' OR 1=1 --")}`);
   assert.equal(share.status, 404);
   const name = "Robert'); DROP TABLE users;--";
-  const r = await call('POST', '/api/register', { body: profile('bobby@example.com', { first_name: name }) });
-  assert.equal(r.status, 200);
+  const r = await signUp('bobby@example.com', { first_name: name });
+  assert.equal(r.status, 201);
   assert.equal(r.json.user.first_name, name);
   const db = await getDb();
   const count = await db.get('SELECT COUNT(*) AS n FROM users');
@@ -123,14 +141,12 @@ test('SQL injection attempts are treated as plain data', async () => {
 });
 
 test('markup is stripped from names', async () => {
-  const r = await call('POST', '/api/register', {
-    body: profile('xss@example.com', { first_name: '<script>alert(1)</script>' }),
-  });
+  const r = await signUp('xss@example.com', { first_name: '<script>alert(1)</script>' });
   assert.equal(r.json.user.first_name.includes('<'), false);
 });
 
 test('results are saved, emailed, and only the owner sees answers', async () => {
-  const reg = await call('POST', '/api/register', { body: profile('owner@example.com') });
+  const reg = await signUp('owner@example.com');
   const token = reg.json.token;
   const before = devOutbox.length;
   const sub = await call('POST', '/api/results', { body: { answers }, token });
@@ -149,7 +165,7 @@ test('results are saved, emailed, and only the owner sees answers', async () => 
   assert.equal(mine.json.owner, true);
   assert.deepEqual(mine.json.answers.q_abortion, { value: 2, weight: 2 });
 
-  const other = await call('POST', '/api/register', { body: profile('other@example.com') });
+  const other = await signUp('other@example.com');
   const steal = await call('POST', `/api/results/${sub.json.share_id}/email`, { token: other.json.token });
   assert.equal(steal.status, 403);
 
@@ -163,7 +179,7 @@ test('results are saved, emailed, and only the owner sees answers', async () => 
 test('submitting needs a valid token and enough answers', async () => {
   assert.equal((await call('POST', '/api/results', { body: { answers } })).status, 401);
   assert.equal((await call('POST', '/api/results', { body: { answers }, token: 'x'.repeat(43) })).status, 401);
-  const reg = await call('POST', '/api/register', { body: profile('few@example.com') });
+  const reg = await signUp('few@example.com');
   const few = await call('POST', '/api/results', {
     body: { answers: { q_abortion: { value: 2, weight: 1 } } },
     token: reg.json.token,
@@ -174,7 +190,7 @@ test('submitting needs a valid token and enough answers', async () => {
 test('admin exports require the admin token in a header and escape formulas', async () => {
   assert.equal((await call('GET', '/api/admin/users.csv')).status, 401);
   assert.equal((await call('GET', '/api/admin/users.csv?token=test-admin-token-0123456789abcdef')).status, 401);
-  await call('POST', '/api/register', { body: profile('csv@example.com', { first_name: '=HYPERLINK("x")' }) });
+  await signUp('csv@example.com', { first_name: '=HYPERLINK("x")' });
   const csv = await call('GET', '/api/admin/users.csv', { token: 'test-admin-token-0123456789abcdef' });
   assert.equal(csv.status, 200);
   assert.match(csv.text, /"'=HYPERLINK\(""x""\)"/);
@@ -188,20 +204,100 @@ test('security headers are set and API responses are not cached', async () => {
   assert.equal(r.headers.get('x-powered-by'), null);
 });
 
-test('email lookups are rate limited', async () => {
+test('password guessing is rate limited per email address', async () => {
   let last;
-  for (let i = 0; i < 21; i++) last = await call('POST', '/api/lookup', { body: { email: 'ana@example.com' } });
+  for (let i = 0; i < 11; i++) {
+    last = await call('POST', '/api/sign-in', { body: { email: 'owner@example.com', password: `guess-${i}-xyz` } });
+  }
   assert.equal(last.status, 429);
 });
 
+test('password reset works once, signs out other devices, and does not reveal accounts', async () => {
+  const reg = await signUp('reset@example.com');
+  const before = devOutbox.length;
+  const known = await call('POST', '/api/password/forgot', { body: { email: 'reset@example.com' } });
+  const unknown = await call('POST', '/api/password/forgot', { body: { email: 'ghost@example.com' } });
+  assert.equal(known.status, 200);
+  assert.deepEqual(known.json, unknown.json);
+  assert.equal(devOutbox.length, before + 1);
+  const mail = devOutbox.at(-1);
+  assert.equal(mail.to, 'reset@example.com');
+  const token = mail.text.match(/#token=([A-Za-z0-9_-]+)/)[1];
+
+  const done = await call('POST', '/api/password/reset', { body: { token, password: 'a brand new password' } });
+  assert.equal(done.status, 200);
+  assert.ok(done.json.token);
+  assert.equal((await call('GET', '/api/me', { token: reg.json.token })).status, 401, 'old sessions end');
+  const reuse = await call('POST', '/api/password/reset', { body: { token, password: 'another password' } });
+  assert.equal(reuse.status, 400);
+  const signIn = await call('POST', '/api/sign-in', { body: { email: 'reset@example.com', password: 'a brand new password' } });
+  assert.equal(signIn.status, 200);
+});
+
+test('accounts from before passwords must set one by email', async () => {
+  const db = await getDb();
+  const ts = new Date().toISOString();
+  await db.run(
+    `INSERT INTO users (first_name, last_name, email, county, age_range, marketing_ok, created_at, updated_at)
+     VALUES ('Old', 'Account', 'legacy@example.com', 'Collin', '25-34', 0, ?, ?)`,
+    [ts, ts]
+  );
+  const signIn = await call('POST', '/api/sign-in', { body: { email: 'legacy@example.com', password: 'anything at all' } });
+  assert.equal(signIn.status, 401);
+  assert.match(signIn.json.error, /Forgot your password/);
+  const claim = await signUp('legacy@example.com');
+  assert.equal(claim.status, 409);
+  assert.equal(claim.json.token, undefined);
+});
+
+test('profile updates keep the email address and require sign-in', async () => {
+  const reg = await signUp('profile@example.com');
+  assert.equal((await call('PATCH', '/api/me', { body: { first_name: 'X' } })).status, 401);
+  const r = await call('PATCH', '/api/me', {
+    token: reg.json.token,
+    body: { ...profile('attacker@example.com'), first_name: 'Ann', county: 'Dallas', age_range: '45-54' },
+  });
+  assert.equal(r.status, 200);
+  assert.equal(r.json.user.email, 'profile@example.com');
+  assert.equal(r.json.user.county, 'Dallas');
+});
+
+test('ballot plans save only known races and candidates', async () => {
+  const reg = await signUp('plan@example.com');
+  const token = reg.json.token;
+  assert.equal((await call('GET', '/api/me/plan')).status, 401);
+  const empty = await call('GET', '/api/me/plan', { token });
+  assert.deepEqual(empty.json.plan.picks, {});
+  const { guide } = await import('../server/services/guide.js');
+  const race = guide.races.find((r) => r.candidates.length > 1);
+  const other = guide.races.find((r) => r.id !== race.id);
+  const saved = await call('PUT', '/api/me/plan', {
+    token,
+    body: {
+      starred_races: [race.id, 'not-a-race', race.id],
+      starred_candidates: [race.candidates[0].id, '<script>'],
+      picks: { [race.id]: race.candidates[1].id, [other.id]: race.candidates[0].id, bogus: 'x' },
+    },
+  });
+  assert.equal(saved.status, 200);
+  assert.deepEqual(saved.json.plan.starred_races, [race.id]);
+  assert.deepEqual(saved.json.plan.starred_candidates, [race.candidates[0].id]);
+  assert.deepEqual(saved.json.plan.picks, { [race.id]: race.candidates[1].id });
+  const back = await call('GET', '/api/me/plan', { token });
+  assert.deepEqual(back.json.plan.picks, { [race.id]: race.candidates[1].id });
+});
+
 test('sign out revokes the token and deletion removes the account', async () => {
-  const reg = await call('POST', '/api/register', { body: profile('gone@example.com') });
+  const reg = await signUp('gone@example.com');
   const token = reg.json.token;
   await call('POST', '/api/results', { body: { answers }, token });
-  assert.equal((await call('DELETE', '/api/me', { token })).status, 200);
+  assert.equal((await call('DELETE', '/api/me', { token, body: { password: 'wrong one' } })).status, 401);
+  assert.equal((await call('DELETE', '/api/me', { token, body: { password: 'correct horse battery' } })).status, 200);
   assert.equal((await call('GET', '/api/me', { token })).status, 401);
+  const db = await getDb();
+  assert.equal((await db.get('SELECT COUNT(*) AS n FROM users WHERE email = ?', ['gone@example.com'])).n, 0);
 
-  const reg2 = await call('POST', '/api/register', { body: profile('signout@example.com') });
+  const reg2 = await signUp('signout@example.com');
   assert.equal((await call('POST', '/api/sign-out', { token: reg2.json.token })).status, 200);
   assert.equal((await call('GET', '/api/me', { token: reg2.json.token })).status, 401);
 });

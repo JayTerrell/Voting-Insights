@@ -11,6 +11,8 @@ import {
   countyPicker,
   ballotNote,
   countyLabel,
+  starButton,
+  candidatePhoto,
 } from '../ui.js';
 import { loadGuide, loadFormOptions, ballotCounty } from '../api.js';
 import { positionLabel, BASIS_LABEL, racesForCounty } from '../shared/scoring.js';
@@ -65,10 +67,12 @@ export async function renderGuide(view, _params, current) {
         if (!races.length) return '';
         return `<h2 class="group-title">${esc(g.label)}</h2><div class="race-list">${races
           .map(
-            (r) => `<a class="race-item" href="/candidates/${esc(r.id)}">
+            (
+              r
+            ) => `<div class="race-row">${starButton('race', r.id, raceTitle(r))}<a class="race-item" href="/candidates/${esc(r.id)}">
               <span class="office">${esc(raceTitle(r))}</span>
               <span class="names">${r.candidates.map((c) => `<span>${esc(c.name)} ${partyTag(c.party)}</span>`).join('')}</span>
-              <span class="go">${r.candidates.length > 1 ? 'Compare' : 'View profile'}</span></a>`
+              <span class="go">${r.candidates.length > 1 ? 'Compare' : 'View profile'}</span></a></div>`
           )
           .join('')}</div>`;
       })
@@ -126,7 +130,7 @@ function officeBox(race) {
 
 function candidateCard(c, prefix, { full = false } = {}) {
   return `<article class="cand-card">
-    <h3><a href="/candidate/${esc(c.id)}">${esc(c.name)}</a></h3>
+    <div class="cand-card-head">${candidatePhoto(c, 'lg')}<h3><a href="/candidate/${esc(c.id)}">${esc(c.name)}</a></h3>${starButton('candidate', c.id, c.name)}</div>
     <div>${partyTag(c.party)} ${c.incumbent ? '<span class="tag tag-navy">Incumbent</span>' : ''}</div>
     ${c.current_role ? `<p class="role">${esc(c.current_role)}</p>` : ''}
     ${c.background ? `<p class="small">${esc(c.background)}</p>` : ''}
@@ -183,7 +187,7 @@ export async function renderRace(view, [raceId], current) {
   view.innerHTML = `
     <p class="small"><a href="/candidates">All races</a></p>
     <span class="eyebrow">${cands.length > 1 ? 'Compare candidates' : 'Uncontested race'}</span>
-    <h1>${esc(raceTitle(race))}</h1>
+    <div class="title-row"><h1>${esc(raceTitle(race))}</h1>${starButton('race', race.id, raceTitle(race))}</div>
     ${race.statewide ? '<p class="small muted">On the ballot for every Texas voter.</p>' : race.county ? '' : '<p class="small muted">On the ballot only for voters who live in this district.</p>'}
     ${officeBox(race)}
 

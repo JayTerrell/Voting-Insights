@@ -4,10 +4,12 @@ A nonpartisan candidate guide and issue alignment quiz for the November 3, 2026 
 
 ## Features
 
-- **Issue Quiz.** Visitors enter their first name, last name, email, county, and age range, then answer 31 issue statements and rate how important each one is. Results show a match percentage for every candidate on their county ballot and an alignment score with each party's official Texas platform. Results are saved with a timestamp, emailed, cached on the device, and shareable.
+- **Accounts.** Anyone can browse the guide. Taking the quiz requires a free account (name, email, password, county, age range). Passwords are hashed with scrypt, and forgotten passwords are reset through a one-time emailed link.
+- **Issue Quiz.** Signed-in visitors answer 31 issue statements and rate how important each one is. Results show a match percentage for every candidate on their county ballot and an alignment score with each party's official Texas platform. Results are saved with a timestamp, emailed, cached on the device, and shareable.
 - **Candidates.** Every race, grouped by level and filtered by county. Each race page compares its candidates side by side (office duties, priorities, promises, record, documented positions, numbered sources). Each candidate also has a profile page.
 - **Compare by Issue.** Choose an issue from a dropdown or type any word to see every candidate's documented position.
-- **My Results.** Enter an email address to see every saved attempt for it, with timestamps. Visitors can sign out or delete their account and all of their data.
+- **My Ballot.** A mock ballot in official ballot order. Voters star the races and candidates they care about to build a shortlist, mark a choice in each race, and print either the shortlist or every choice. Saved in the browser, and to the account when signed in.
+- **My Account.** Every saved quiz attempt with timestamps, profile and password settings, sign out, and deleting the account and all of its data.
 - **Methodology, Terms of Use, and Privacy Policy** pages.
 
 ## Project structure

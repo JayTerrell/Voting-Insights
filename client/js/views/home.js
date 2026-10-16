@@ -41,11 +41,11 @@ export async function renderHome(view, _params, current) {
       <p class="lede">Answer ${guide.questions.length} questions on the issues these offices actually handle. We compare your answers with each candidate's documented public record and show how closely you align, race by race, with links to every source.</p>
       <div class="btn-row">
         <a class="btn btn-red" href="/quiz">Start the quiz</a>
-        <a class="btn btn-ghost" href="/candidates">Read the candidate guide</a>
+        <a class="btn btn-ghost" href="/my-ballot">Build my ballot</a>
       </div>
       ${
         user && cached.length
-          ? `<p class="small" style="margin-top:14px">Welcome back, ${esc(user.first_name)}. <a href="/results/${esc(cached[0].share_id)}">Open your most recent results</a> or see <a href="/my-results">all of your results</a>.</p>`
+          ? `<p class="small" style="margin-top:14px">Welcome back, ${esc(user.first_name)}. <a href="/results/${esc(cached[0].share_id)}">Open your most recent results</a> or open <a href="/account">your account</a> and <a href="/my-ballot">your ballot</a>.</p>`
           : `<p class="small muted" style="margin-top:14px">Takes about 6 minutes. You can skip any question and retake the quiz as often as you like.</p>`
       }
     </div>
@@ -66,7 +66,7 @@ export async function renderHome(view, _params, current) {
   <section aria-labelledby="how-h">
     <div class="section-head"><h2 id="how-h">How the quiz works</h2><a href="/methodology">Full methodology</a></div>
     <ol class="steps">
-      <li><div><b>Tell us a little about yourself.</b> Your name, email, county, and age range let us save your results so you can return to them, and let us email you a copy. We never sell your information.</div></li>
+      <li><div><b>Create a free account.</b> Your name, email, county, and age range let us save your results privately so you can return to them, and let us email you a copy. Browsing candidates never requires an account, and we never sell your information.</div></li>
       <li><div><b>Answer each statement and say how much it matters to you.</b> Every question includes a short, balanced background note. Questions marked as more important count more in your results.</div></li>
       <li><div><b>We compare your answers with documented positions only.</b> A candidate is scored only on questions where we found a vote, statement, questionnaire answer, or credible report. We never assume a position from a party label.</div></li>
       <li><div><b>Review your matches and read the evidence.</b> Results show a percentage for every candidate in every race and your alignment with each party's official platform. Each position links to its source.</div></li>

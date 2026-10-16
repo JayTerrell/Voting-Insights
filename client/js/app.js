@@ -1,23 +1,32 @@
-import { $, $$, esc, skeleton } from './ui.js';
+import { $, $$, esc, skeleton, toast, starLabel } from './ui.js';
 import { renderHome } from './views/home.js';
 import { renderQuiz } from './views/quiz.js';
 import { renderResults } from './views/results.js';
 import { renderGuide, renderRace, renderCandidate } from './views/guide.js';
 import { renderIssues } from './views/issues.js';
-import { renderMyResults } from './views/my-results.js';
+import { renderSignIn, renderSignUp, renderForgot, renderReset, renderAccount } from './views/account.js';
+import { renderBallot, renderBallotPrint } from './views/ballot.js';
+import { session, plan } from './api.js';
 import { renderScoring } from './views/scoring.js';
 import { renderMethodology, renderTerms, renderPrivacy } from './views/pages.js';
 
 const routes = [
   [/^\/$/, renderHome, '/'],
   [/^\/quiz$/, renderQuiz, '/'],
-  [/^\/results\/([\w-]+)$/, renderResults, '/my-results'],
+  [/^\/results\/([\w-]+)$/, renderResults, '/account'],
   [/^\/candidates$/, renderGuide, '/candidates'],
   [/^\/candidates\/([\w-]+)$/, renderRace, '/candidates'],
   [/^\/candidate\/([\w-]+)$/, renderCandidate, '/candidates'],
   [/^\/issues$/, renderIssues, '/issues'],
   [/^\/scoring$/, renderScoring, '/scoring'],
-  [/^\/my-results$/, renderMyResults, '/my-results'],
+  [/^\/my-ballot$/, renderBallot, '/my-ballot'],
+  [/^\/my-ballot\/print$/, renderBallotPrint, '/my-ballot'],
+  [/^\/account$/, renderAccount, '/account'],
+  [/^\/my-results$/, renderAccount, '/account'],
+  [/^\/sign-in$/, renderSignIn, '/account'],
+  [/^\/sign-up$/, renderSignUp, '/account'],
+  [/^\/forgot-password$/, renderForgot, '/account'],
+  [/^\/reset-password$/, renderReset, '/account'],
   [/^\/methodology$/, renderMethodology, null],
   [/^\/terms$/, renderTerms, null],
   [/^\/privacy$/, renderPrivacy, null],
@@ -31,6 +40,7 @@ async function route() {
   const match = routes.find(([re]) => re.test(path));
   const token = ++renderToken;
 
+  updateAccountLink();
   $$('.nav a').forEach((a) => a.removeAttribute('aria-current'));
   if (match && match[2]) $(`.nav a[href="${match[2]}"]`)?.setAttribute('aria-current', 'page');
 
@@ -50,6 +60,31 @@ async function route() {
     }
   }
 }
+
+// The last nav link reads "Sign In" or "Account" depending on the session.
+function updateAccountLink() {
+  const link = $('#nav-account');
+  if (link) link.textContent = session.token ? 'Account' : 'Sign In';
+}
+
+// Star buttons anywhere on the page toggle a race or candidate on the shortlist.
+document.addEventListener(
+  'click',
+  (e) => {
+    const btn = e.target.closest('[data-star]');
+    if (!btn) return;
+    e.preventDefault();
+    e.stopPropagation();
+    const on = plan.toggleStar(btn.dataset.star, btn.dataset.id);
+    $$(`[data-star="${btn.dataset.star}"][data-id="${CSS.escape(btn.dataset.id)}"]`).forEach((b) => {
+      b.setAttribute('aria-pressed', String(on));
+      b.title = on ? 'On your shortlist' : 'Add to your shortlist';
+      b.setAttribute('aria-label', starLabel(on, b.dataset.label || ''));
+    });
+    toast(on ? 'Added to your shortlist on My Ballot.' : 'Removed from your shortlist.');
+  },
+  true
+);
 
 export function navigate(href, { replace = false } = {}) {
   if (replace) history.replaceState({}, '', href);

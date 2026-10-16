@@ -16,9 +16,9 @@ export async function create(p) {
   const db = await getDb();
   const ts = now();
   return db.get(
-    `INSERT INTO users (first_name, last_name, email, county, age_range, marketing_ok, created_at, updated_at)
-     VALUES (?, ?, ?, ?, ?, ?, ?, ?) RETURNING *`,
-    [p.firstName, p.lastName, p.email, p.county, p.ageRange, p.marketingOk ? 1 : 0, ts, ts]
+    `INSERT INTO users (first_name, last_name, email, county, age_range, marketing_ok, password_hash, created_at, updated_at)
+     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?) RETURNING *`,
+    [p.firstName, p.lastName, p.email, p.county, p.ageRange, p.marketingOk ? 1 : 0, p.passwordHash, ts, ts]
   );
 }
 
@@ -31,11 +31,18 @@ export async function updateProfile(id, p) {
   );
 }
 
+export async function setPassword(id, passwordHash) {
+  const db = await getDb();
+  await db.run('UPDATE users SET password_hash = ?, updated_at = ? WHERE id = ?', [passwordHash, now(), id]);
+}
+
 // Deletes the account. Results and tokens are removed by ON DELETE CASCADE.
 export async function remove(id) {
   const db = await getDb();
   await db.run('DELETE FROM quiz_results WHERE user_id = ?', [id]);
   await db.run('DELETE FROM access_tokens WHERE user_id = ?', [id]);
+  await db.run('DELETE FROM password_resets WHERE user_id = ?', [id]);
+  await db.run('DELETE FROM ballot_plans WHERE user_id = ?', [id]);
   await db.run('DELETE FROM users WHERE id = ?', [id]);
 }
 

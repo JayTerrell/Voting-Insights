@@ -2,7 +2,7 @@
 // ISO strings set by the application, and expiry times are epoch milliseconds,
 // so the same queries work on both engines.
 
-const TABLES = ['users', 'quiz_results', 'access_tokens', 'rate_limits'];
+const TABLES = ['users', 'quiz_results', 'access_tokens', 'rate_limits', 'password_resets', 'ballot_plans'];
 
 export function schema(dialect) {
   const id = dialect === 'postgres' ? 'BIGSERIAL PRIMARY KEY' : 'INTEGER PRIMARY KEY AUTOINCREMENT';
@@ -16,6 +16,7 @@ export function schema(dialect) {
       county       TEXT NOT NULL,
       age_range    TEXT NOT NULL,
       marketing_ok INTEGER NOT NULL DEFAULT 0,
+      password_hash TEXT,
       created_at   TEXT NOT NULL,
       updated_at   TEXT NOT NULL
     )`,
@@ -37,6 +38,19 @@ export function schema(dialect) {
       created_at TEXT NOT NULL
     )`,
     'CREATE INDEX IF NOT EXISTS idx_tokens_user ON access_tokens(user_id)',
+    `CREATE TABLE IF NOT EXISTS password_resets (
+      token_hash TEXT PRIMARY KEY,
+      user_id    ${ref} NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+      expires_at BIGINT NOT NULL,
+      created_at TEXT NOT NULL
+    )`,
+    'CREATE INDEX IF NOT EXISTS idx_resets_user ON password_resets(user_id)',
+    // Starred races and candidates, and mock ballot choices, as one JSON document per account.
+    `CREATE TABLE IF NOT EXISTS ballot_plans (
+      user_id    ${ref} PRIMARY KEY REFERENCES users(id) ON DELETE CASCADE,
+      plan_json  TEXT NOT NULL,
+      updated_at TEXT NOT NULL
+    )`,
     `CREATE TABLE IF NOT EXISTS rate_limits (
       bucket   TEXT PRIMARY KEY,
       hits     INTEGER NOT NULL,
@@ -47,4 +61,22 @@ export function schema(dialect) {
     // app connects as the table owner, which RLS does not restrict.
     ...(dialect === 'postgres' ? TABLES.map((t) => `ALTER TABLE ${t} ENABLE ROW LEVEL SECURITY`) : []),
   ];
+}
+
+// Changes to tables created by earlier versions. Each step checks before it acts,
+// so running them on every start is safe.
+export async function migrate(db) {
+  const hasPassword =
+    db.dialect === 'postgres'
+      ? await db.get(
+          `SELECT 1 AS x FROM information_schema.columns
+           WHERE table_schema = current_schema() AND table_name = 'users' AND column_name = 'password_hash'`
+        )
+      : await db.get(`SELECT 1 AS x FROM pragma_table_info('users') WHERE name = 'password_hash'`);
+  if (!hasPassword) {
+    await db.exec(`ALTER TABLE users ADD COLUMN ${db.dialect === 'postgres' ? 'IF NOT EXISTS ' : ''}password_hash TEXT`);
+    // Sign-in tokens issued before passwords existed were handed out for an
+    // email address alone, so every one of them is revoked.
+    await db.exec('DELETE FROM access_tokens');
+  }
 }

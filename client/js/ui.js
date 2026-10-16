@@ -1,5 +1,7 @@
 // Small DOM and formatting helpers shared by every view.
 
+import { plan } from './api.js';
+
 export const esc = (s) =>
   String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
 
@@ -122,4 +124,47 @@ export function ballotNote(guide, county) {
     .map(countyLabel)
     .join(', ');
   return `<div class="callout" style="margin-bottom:16px">We have not loaded the full ${esc(countyLabel(county))} ballot yet, so only statewide races are shown. Full ballots are available for: ${esc(loaded)}.</div>`;
+}
+
+// A star button that adds a race or candidate to the voter's shortlist. Clicks are
+// handled once for the whole page in app.js.
+export const starLabel = (on, label) => `${on ? 'Remove' : 'Add'} ${label} ${on ? 'from' : 'to'} your shortlist`;
+
+export function starButton(kind, id, label) {
+  const on = plan.isStarred(kind, id);
+  return `<button type="button" class="star-btn" data-star="${kind}" data-id="${esc(id)}" data-label="${esc(label)}" aria-pressed="${on}"
+    aria-label="${esc(starLabel(on, label))}" title="${on ? 'On your shortlist' : 'Add to your shortlist'}"><svg viewBox="0 0 64 64" aria-hidden="true"><polygon points="32,6 39.1,25.7 60,25.7 43.4,38.1 49.6,58 32,46 14.4,58 20.6,38.1 4,25.7 24.9,25.7"/></svg></button>`;
+}
+
+const initials = (name) =>
+  name
+    .replace(/["(].*?[")]/g, ' ')
+    .split(/\s+/)
+    .filter((w) => /^[A-Za-z]/.test(w) && !/^(jr|sr|ii|iii|iv)\.?$/i.test(w))
+    .map((w) => w[0].toUpperCase())
+    .filter((_, i, a) => i === 0 || i === a.length - 1)
+    .join('');
+
+// A candidate's photo when one is on file, otherwise their initials.
+export function candidatePhoto(c, size = 'md') {
+  if (c.photo && c.photo.url) {
+    return `<img class="cand-photo cand-photo-${size}" src="${esc(c.photo.url)}" alt="" loading="lazy" decoding="async">`;
+  }
+  return `<span class="cand-photo cand-photo-${size} cand-initials" aria-hidden="true">${esc(initials(c.name))}</span>`;
+}
+
+// A small candidate card: photo, name, party, incumbency, and an optional quiz match.
+export function miniCard(c, { match = null, star = true } = {}) {
+  const matchChip =
+    match && match.score !== null
+      ? `<span class="match-chip" title="Your quiz match${match.limited ? ', based on limited data' : ''}">${match.score}% match</span>`
+      : '';
+  return `<div class="mini-card">
+    ${candidatePhoto(c)}
+    <div class="mini-body">
+      <a class="mini-name" href="/candidate/${esc(c.id)}">${esc(c.name)}</a>
+      <div class="mini-tags">${partyTag(c.party)}${c.incumbent ? '<span class="tag tag-navy">Incumbent</span>' : ''}${matchChip}</div>
+    </div>
+    ${star ? starButton('candidate', c.id, c.name) : ''}
+  </div>`;
 }

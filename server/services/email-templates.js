@@ -111,3 +111,22 @@ export function resultsEmail({ firstName, results, shareUrl, createdAt }) {
 
   return { subject: 'Your 2026 ballot alignment results', html, text };
 }
+
+export function passwordResetEmail({ firstName, resetUrl }) {
+  const html = shell(
+    'Reset your password',
+    `<tr><td style="padding:8px 28px 16px 28px;font-family:${SANS};font-size:14px;line-height:1.6">
+      <p style="margin:0 0 12px 0">${esc(firstName)}, we received a request to set a new password for your Voting Insights account.</p>
+      <p style="margin:0 0 16px 0"><a href="${esc(resetUrl)}" style="display:inline-block;background:${NAVY};color:#FFFDF8;padding:10px 18px;text-decoration:none;font-weight:bold">Choose a new password</a></p>
+      <p style="margin:0 0 12px 0">This link works once and expires in one hour. If you did not ask to reset your password, you can ignore this email and your password will not change.</p>
+    </td></tr>`
+  );
+  const text = [
+    `${firstName}, we received a request to set a new password for your Voting Insights account.`,
+    '',
+    `Choose a new password: ${resetUrl}`,
+    '',
+    'This link works once and expires in one hour. If you did not ask for this, ignore this email.',
+  ].join('\n');
+  return { subject: 'Reset your Voting Insights password', html, text };
+}

@@ -12,7 +12,7 @@ if (!config.databaseUrl) {
 try {
   const db = await getDb();
   console.log(`Connected to ${db.dialect === 'postgres' ? 'Postgres' : 'SQLite'}. Tables are ready.`);
-  const tables = ['users', 'quiz_results', 'access_tokens', 'rate_limits'];
+  const tables = ['users', 'quiz_results', 'access_tokens', 'rate_limits', 'password_resets', 'ballot_plans'];
   for (const t of tables) {
     const { n } = await db.get(`SELECT COUNT(*) AS n FROM ${t}`);
     let rls = '';

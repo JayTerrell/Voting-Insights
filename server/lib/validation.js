@@ -1,7 +1,8 @@
 // Input validation. Every value from a request passes through here before it
 // reaches the database or an email.
 
-import { formOptions, questionIds } from '../services/guide.js';
+import { formOptions, questionIds, raceCandidates, candidateIds } from '../services/guide.js';
+import { PASSWORD_MIN, PASSWORD_MAX } from './password.js';
 
 const EMAIL_RE = /^[^\s@<>()[\]\\,;:"]{1,64}@[a-z0-9.-]{1,190}\.[a-z]{2,24}$/i;
 const SHARE_ID_RE = /^[A-Za-z0-9_-]{12}$/;
@@ -57,6 +58,33 @@ export function parseProfile(body, { requireConsent = true } = {}) {
     throw new ValidationError('Please agree to the Terms of Use and Privacy Policy to continue.');
   }
   return profile;
+}
+
+export function requirePassword(raw) {
+  const password = typeof raw === 'string' ? raw : '';
+  if (password.length < PASSWORD_MIN)
+    throw new ValidationError(`Please choose a password of at least ${PASSWORD_MIN} characters.`);
+  if (password.length > PASSWORD_MAX) throw new ValidationError(`Passwords can be at most ${PASSWORD_MAX} characters.`);
+  return password;
+}
+
+// A ballot plan: starred race and candidate ids, and one chosen candidate per race.
+// Unknown ids are dropped, so a plan saved before a data update still loads.
+export function parsePlan(raw) {
+  const body = raw && typeof raw === 'object' ? raw : {};
+  const starredRaces = [...new Set(Array.isArray(body.starred_races) ? body.starred_races : [])]
+    .filter((id) => typeof id === 'string' && raceCandidates.has(id))
+    .slice(0, 2000);
+  const starredCandidates = [...new Set(Array.isArray(body.starred_candidates) ? body.starred_candidates : [])]
+    .filter((id) => typeof id === 'string' && candidateIds.has(id))
+    .slice(0, 4000);
+  const picks = {};
+  if (body.picks && typeof body.picks === 'object' && !Array.isArray(body.picks)) {
+    for (const [raceId, candId] of Object.entries(body.picks).slice(0, 2000)) {
+      if (raceCandidates.get(raceId)?.has(candId)) picks[raceId] = candId;
+    }
+  }
+  return { starred_races: starredRaces, starred_candidates: starredCandidates, picks };
 }
 
 export const isShareId = (id) => SHARE_ID_RE.test(String(id));

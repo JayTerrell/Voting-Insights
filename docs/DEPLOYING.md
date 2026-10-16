@@ -49,7 +49,7 @@ npm install
 npm run db:check
 ```
 
-A successful check prints the four tables (`users`, `quiz_results`, `access_tokens`, `rate_limits`), each with "row level security on". In Supabase, **Table Editor** now shows them too. If the check fails, it prints the likely cause.
+A successful check prints the six tables (`users`, `quiz_results`, `access_tokens`, `rate_limits`, `password_resets`, `ballot_plans`), each with "row level security on". In Supabase, **Table Editor** now shows them too. If the check fails, it prints the likely cause.
 
 If you skip this step, the tables are created the first time someone uses the deployed site.
 
@@ -97,7 +97,7 @@ Resend sends the results emails over SMTP.
    | `CONTACT_EMAIL`                                                                | The public address for corrections and privacy requests                                                                  |
 
 3. Select **Deploy**.
-4. Test the live site: take the quiz with your own email and confirm the results email arrives. Then open **My Results**, enter the email, and confirm your results appear. In Supabase, **Table Editor, users** should show your row.
+4. Test the live site: create an account, take the quiz, and confirm the results email arrives. Then sign out, select **Forgot your password?** on the sign-in page, and confirm the reset email arrives. Password resets need working email, so finish Part 2 before launch. In Supabase, **Table Editor, users** should show your row.
 5. Download the collected data at any time:
 
    ```bash

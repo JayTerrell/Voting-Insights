@@ -5,7 +5,7 @@ import nodemailer from 'nodemailer';
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { config } from '../config.js';
-import { resultsEmail } from './email-templates.js';
+import { resultsEmail, passwordResetEmail } from './email-templates.js';
 
 export const emailConfigured = Boolean(config.smtp.host);
 
@@ -41,3 +41,4 @@ async function send(to, { subject, html, text }) {
 }
 
 export const sendResultsEmail = (to, payload) => send(to, resultsEmail(payload));
+export const sendPasswordResetEmail = (to, payload) => send(to, passwordResetEmail(payload));

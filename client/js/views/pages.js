@@ -85,14 +85,14 @@ export async function renderTerms(view, _p, current) {
   view.innerHTML = `<div class="prose">
     <span class="eyebrow">Legal</span>
     <h1>Terms of Use</h1>
-    <p class="muted">Effective October 14, 2026</p>
+    <p class="muted">Effective October 16, 2026</p>
     <p>These terms govern your use of Voting Insights (the "Site"). By using the Site you agree to them. If you do not agree, please do not use the Site.</p>
     <h2>1. Purpose of the Site</h2>
     <p>The Site is an independent, nonpartisan educational resource about candidates on Texas ballots for the November 3, 2026 general election. It is not affiliated with, endorsed by, or paid for by any candidate, campaign, political party, political action committee, or government office. Nothing on the Site is an endorsement of any candidate or party or a recommendation on how to vote.</p>
     <h2>2. Accuracy of information</h2>
     <p>Candidate information is compiled from public sources and summarized by our editors. We work to be accurate and fair, but information may be incomplete, out of date, or wrong, and candidates' positions may change. Quiz results are an automated comparison based on limited data and should be one of many tools you use. Always confirm important details, including your polling place and the races on your ballot, with official election sources.</p>
     <h2>3. Your account and results</h2>
-    <p>To save quiz results you provide your name, email address, county, and age range. You agree to provide accurate information and to use only an email address you control. Each email address may have one account. You are responsible for results you choose to share. A shared results link can be viewed by anyone who has it, and saved results can be opened by anyone who enters the email address they were saved under.</p>
+    <p>Reading the candidate guide does not require an account. Taking the quiz and saving results across devices requires a free account, for which you provide your name, email address, a password, county, and age range. You agree to provide accurate information, to use only an email address you control, and to keep your password private. Each email address may have one account. You are responsible for activity under your account and for results you choose to share. A shared results link can be viewed by anyone who has it.</p>
     <h2>4. Acceptable use</h2>
     <p>You agree not to misuse the Site, including by submitting automated or bulk requests, attempting to access other people's results or accounts, interfering with the Site's operation, scraping personal information, or using the Site to harass anyone.</p>
     <h2>5. Content and links</h2>
@@ -117,19 +117,20 @@ export async function renderPrivacy(view, _p, current) {
   view.innerHTML = `<div class="prose">
     <span class="eyebrow">Legal</span>
     <h1>Privacy Policy</h1>
-    <p class="muted">Effective October 14, 2026</p>
+    <p class="muted">Effective October 16, 2026</p>
     <p>Your views on political issues are personal. This policy explains what we collect, why, and the choices you have.</p>
     <h2>Information we collect</h2>
     <ul>
-      <li><b>Information you give us when you start the quiz:</b> first name, last name, email address, county, age range, and whether you want update emails.</li>
+      <li><b>Information you give us when you create an account:</b> first name, last name, email address, password, county, age range, and whether you want update emails. Passwords are stored only as a salted one-way hash (scrypt) and can never be read back, even by us.</li>
       <li><b>Your quiz answers and results,</b> each saved with the date and time you completed the quiz.</li>
+      <li><b>Your ballot plan:</b> the races and candidates you star and the choices you mark on My Ballot, if you are signed in. Without an account these stay only in your browser.</li>
       <li><b>Technical information:</b> to prevent abuse, we keep a one-way hash of your IP address in a request counter that resets within 15 minutes. It is never stored with your account. We do not use advertising trackers, analytics cookies, or third-party ad networks.</li>
-      <li><b>On your device:</b> the Site stores a sign-in token, your cached results, and any unfinished quiz in your browser's local storage so they load quickly when you return. You can clear this at any time with "Sign out on this device" on the My Results page or through your browser settings.</li>
+      <li><b>On your device:</b> the Site stores a sign-in token, your cached results, your starred races and mock ballot choices, and any unfinished quiz in your browser's local storage so they load quickly when you return. You can clear this at any time with "Sign out on this device" on the My Account page or through your browser settings.</li>
     </ul>
     <h2>How we use it</h2>
     <ul>
-      <li>To save your results and let you find them later under My Results.</li>
-      <li>To email you a copy of your results.</li>
+      <li>To save your results, starred races, and mock ballot to your account so you can return to them on any device.</li>
+      <li>To email you a copy of your results, and password reset links when you ask for them.</li>
       <li>To produce anonymous, aggregate statistics about quiz participation, such as totals by county or age range. We do not publish information that identifies you.</li>
       <li>If you opted in, to tell you when the guide is updated for future elections. You can opt out at any time.</li>
     </ul>
@@ -141,11 +142,11 @@ export async function renderPrivacy(view, _p, current) {
     <h2>Sharing</h2>
     <p>We use service providers to host the Site and send email, and they process data only to provide those services. We may disclose information if required by law. If you share a results link, anyone with the link can see your first name and match percentages, but never your email address, last name, or individual answers.</p>
     <h2>Viewing your results</h2>
-    <p>Your saved results, including your individual answers, can be opened from the My Results page by entering your email address. This means anyone who knows the email address you used can view your saved results. If that concerns you, delete your account from the My Results page at any time, or take the quiz without saving it under an email you share with others.</p>
+    <p>Your saved results, individual answers, starred races, and mock ballot can be opened only by signing in with your email address and password. Shared results links show only what is described above.</p>
     <h2>Retention and deletion</h2>
-    <p>We keep your account and results until you ask us to delete them, or until we retire the Site. You can delete your account and all saved results at any time from the My Results page. To correct your information, contact ${contact} from the email address on your account.</p>
+    <p>We keep your account and results until you ask us to delete them, or until we retire the Site. You can delete your account, all saved results, and your ballot plan at any time from the My Account page. To correct your information, contact ${contact} from the email address on your account.</p>
     <h2>Security</h2>
-    <p>Sign-in tokens are stored only in hashed form, and the Site uses encrypted connections. No system is perfectly secure, so please use an email address you control.</p>
+    <p>Passwords and sign-in tokens are stored only in hashed form, sign-in attempts are rate limited, and the Site uses encrypted connections. No system is perfectly secure, so please use a password you do not use anywhere else.</p>
     <h2>Children</h2>
     <p>The Site is meant for voters and people learning about elections. It is not directed to children under 13, and we do not knowingly collect information from them.</p>
     <h2>Changes</h2>

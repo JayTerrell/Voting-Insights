@@ -1,4 +1,4 @@
-// Sign-in tokens let a device reopen saved results. Only a SHA-256 hash of each
+// Sign-in tokens keep a device signed in after a password sign-in. Only a SHA-256 hash of each
 // token is stored, so a database leak does not expose usable tokens.
 
 import { getDb } from '../index.js';
@@ -31,4 +31,10 @@ export async function findUser(token) {
 export async function revoke(token) {
   const db = await getDb();
   await db.run('DELETE FROM access_tokens WHERE token_hash = ?', [sha256(token)]);
+}
+
+// Signs the account out everywhere, for example after a password change.
+export async function revokeAll(userId) {
+  const db = await getDb();
+  await db.run('DELETE FROM access_tokens WHERE user_id = ?', [userId]);
 }

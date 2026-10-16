@@ -142,6 +142,21 @@ function cleanStances(stances, ids, who, sourceUrls = {}) {
   return out;
 }
 
+// Photos are served from this site only (client/img/candidates), with credit to
+// the page they came from. See docs/RESEARCH_SPEC.md.
+function cleanPhoto(photo, who) {
+  if (!photo) return null;
+  const ok =
+    /^\/img\/candidates\/[a-z0-9-]+\.(jpg|jpeg|png|webp)$/.test(photo.url || '') &&
+    /^https?:\/\//.test(photo.source_url || '') &&
+    existsSync(join(root, 'client', photo.url));
+  if (!ok) {
+    warn(`${who}: photo dropped (needs a local /img/candidates/ file and a source_url)`);
+    return null;
+  }
+  return { url: photo.url, credit: photo.credit || '', source_url: photo.source_url };
+}
+
 // ---- Research files ----
 // Primary files are read first; supplement files (pass2-*.json and later) are
 // merged into the matching candidate entries. See docs/RESEARCH_SPEC.md.
@@ -150,7 +165,7 @@ const research = new Map();
 let parties = [];
 
 const LIST_FIELDS = ['priorities', 'promises', 'record', 'notes', 'issue_notes'];
-const SCALAR_FIELDS = ['website', 'current_role', 'background', 'incumbent'];
+const SCALAR_FIELDS = ['website', 'current_role', 'background', 'incumbent', 'photo'];
 
 function mergeSupplement(base, extra, file) {
   const ids = new Set((base.sources || []).map((s) => s.id));
@@ -227,6 +242,7 @@ const builtRaces = races.map((race) => {
         current_role: r.current_role || '',
         background: r.background || '',
         website: r.website && /^https?:\/\//.test(r.website) ? r.website : null,
+        photo: cleanPhoto(r.photo, who),
         priorities: citedItems(r.priorities, ids, who, 'priority'),
         promises: citedItems(r.promises, ids, who, 'promise'),
         record: citedItems(r.record, ids, who, 'record'),

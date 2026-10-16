@@ -15,8 +15,7 @@ export async function optionalUser(req, res, next) {
 
 export async function requireUser(req, res, next) {
   req.user = await findUser(bearerToken(req));
-  if (!req.user)
-    return res.status(401).json({ error: 'Your session has ended. Enter your email under My Results or start the quiz again.' });
+  if (!req.user) return res.status(401).json({ error: 'Please sign in to continue.' });
   next();
 }
 

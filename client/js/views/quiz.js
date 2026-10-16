@@ -1,5 +1,6 @@
-import { $, $$, esc, setTitle, skeleton } from '../ui.js';
+import { $, $$, esc, setTitle, skeleton, countyLabel } from '../ui.js';
 import { api, loadGuide, loadFormOptions, session, progress, resultCache, ballotCounty } from '../api.js';
+import { signUpForm, bindSignUp, signInForm, bindSignIn } from './account.js';
 import { SCALE, IMPORTANCE } from '../shared/scoring.js';
 import { navigate } from '../app.js';
 
@@ -26,73 +27,43 @@ export async function renderQuiz(view, _params, current) {
   const [guide, options] = await Promise.all([loadGuide(), loadFormOptions()]);
   if (!current()) return;
 
+  if (!session.token) return renderGate(view, guide, options);
   const saved = progress.get();
-  if (session.token && saved && saved.started) return runQuestions(view, guide, saved);
-  renderRegistration(view, guide, options);
+  if (saved && saved.started) return runQuestions(view, guide, saved);
+  renderStart(view, guide);
 }
 
-function renderRegistration(view, guide, options) {
-  const u = session.user || {};
-  const preferred = options.counties.includes(u.county) ? u.county : ballotCounty.get(guide);
-  const countyOpts = options.counties
-    .map((c) => `<option value="${esc(c)}" ${c === preferred ? 'selected' : ''}>${esc(c)} County</option>`)
-    .join('');
-  const ageOpts = options.age_ranges.map((a) => `<option ${a === u.age_range ? 'selected' : ''}>${esc(a)}</option>`).join('');
-
+// Taking the quiz needs a free account, so results are saved privately to it.
+function renderGate(view, guide, options) {
   view.innerHTML = `
   <div class="quiz-shell">
     <span class="eyebrow">Issue Alignment Quiz</span>
-    <h1>Before you begin</h1>
-    <p class="lede">We save each set of results to your email address so you can find them later under My Results, and we email you a copy when you finish. You can retake the quiz any time and every attempt is kept with its date and time.</p>
-    <form class="panel" id="reg" novalidate>
-      <div class="form-grid">
-        <div><label for="fn">First name</label><input id="fn" name="first_name" type="text" autocomplete="given-name" maxlength="60" required value="${esc(u.first_name || '')}"></div>
-        <div><label for="ln">Last name</label><input id="ln" name="last_name" type="text" autocomplete="family-name" maxlength="60" required value="${esc(u.last_name || '')}"></div>
-        <div class="full"><label for="em">Email address</label><input id="em" name="email" type="email" autocomplete="email" maxlength="254" required value="${esc(u.email || '')}">
-          <p class="form-note">One account per email address. If you have taken the quiz before, use the same email and your new results are added to your history.</p></div>
-        <div><label for="co">County where you vote</label><select id="co" name="county" required>${countyOpts}</select>
-          <p class="form-note">Your results cover the races on this county's ballot.</p></div>
-        <div><label for="ag">Age range</label><select id="ag" name="age_range" required><option value="">Choose one</option>${ageOpts}</select></div>
-        <div class="full">
-          <label class="check"><input type="checkbox" name="agree_terms" required> <span>I agree to the <a href="/terms" target="_blank">Terms of Use</a> and <a href="/privacy" target="_blank">Privacy Policy</a>.</span></label>
-          <label class="check"><input type="checkbox" name="marketing_ok"> <span>Email me when this guide is updated for future elections. (Optional)</span></label>
-        </div>
-      </div>
-      <p class="form-error" id="reg-err" role="alert" hidden></p>
-      <div class="btn-row" style="margin-top:18px"><button class="btn btn-red" type="submit">Begin the quiz</button>
-      <span class="small muted">${guide.questions.length} questions, about 6 minutes</span></div>
-    </form>
+    <h1>Create a free account to take the quiz</h1>
+    <p class="lede">Your results are saved privately to your account with the date and time of each attempt, and we email you a copy. Retake the quiz any time. Browsing candidates and races never requires an account.</p>
+    <div class="gate-grid">
+      <div>${signUpForm(guide, options, { next: '/quiz' })}</div>
+      <div><h2 class="h4">Already have an account?</h2>${signInForm('/quiz')}</div>
+    </div>
   </div>`;
+  bindSignUp(view, () => renderStart(view, guide));
+  bindSignIn(view, () => renderQuiz(view, [], () => true));
+}
 
-  const form = $('#reg', view);
-  const err = $('#reg-err', view);
-  form.addEventListener('submit', async (e) => {
-    e.preventDefault();
-    err.hidden = true;
-    const fd = new FormData(form);
-    const profile = {
-      first_name: fd.get('first_name'),
-      last_name: fd.get('last_name'),
-      email: fd.get('email'),
-      county: fd.get('county'),
-      age_range: fd.get('age_range'),
-      agree_terms: fd.get('agree_terms') === 'on',
-      marketing_ok: fd.get('marketing_ok') === 'on',
-    };
-    const btn = form.querySelector('button[type=submit]');
-    btn.disabled = true;
-    try {
-      // Results cached on this device belong to the previous email; drop them when it changes.
-      if (session.user && session.user.email !== String(profile.email).trim().toLowerCase()) session.clear();
-      const res = await api.register(profile);
-      session.set(res.token, res.user);
-      start(view, guide);
-    } catch (ex) {
-      err.textContent = ex.message;
-      err.hidden = false;
-      btn.disabled = false;
-    }
-  });
+function renderStart(view, guide) {
+  const u = session.user || {};
+  const county = guide.ballots && Object.hasOwn(guide.ballots, u.county) ? u.county : ballotCounty.get(guide);
+  view.innerHTML = `
+  <div class="quiz-shell">
+    <span class="eyebrow">Issue Alignment Quiz</span>
+    <h1>${esc(u.first_name ? `Ready when you are, ${u.first_name}` : 'Ready when you are')}</h1>
+    <p class="lede">Answer each statement and say how much it matters to you. We compare your answers with the documented positions of every candidate on the ${esc(countyLabel(county))} ballot and with each party's official platform.</p>
+    <div class="panel">
+      <p style="margin-top:0">Your results are saved to your account (${esc(u.email || '')}) and a copy is emailed to you. Voting somewhere else? <a href="/account">Change your county</a> first.</p>
+      <div class="btn-row"><button class="btn btn-red" id="begin">Begin the quiz</button>
+      <span class="small muted">${guide.questions.length} questions, about 6 minutes</span></div>
+    </div>
+  </div>`;
+  $('#begin', view).addEventListener('click', () => start(view, guide));
 }
 
 function start(view, guide) {
@@ -192,7 +163,7 @@ function runQuestions(view, guide, state) {
       <div class="progress" aria-hidden="true"><span style="width:100%"></span></div>
       <span class="eyebrow">Almost done</span>
       <h1>Ready to see your results</h1>
-      <p class="lede">You answered ${answered} of ${total} questions${skipped.length ? ` and skipped ${skipped.length}` : ''}. When you submit, your results are saved to ${esc(session.user?.email || 'your email')} and a copy is emailed to you.</p>
+      <p class="lede">You answered ${answered} of ${total} questions${skipped.length ? ` and skipped ${skipped.length}` : ''}. When you submit, your results are saved to your account and a copy is emailed to ${esc(session.user?.email || 'you')}.</p>
       ${
         skipped.length
           ? `<div class="panel"><h2 class="h4" style="font-size:1.1rem">Skipped questions</h2><ul>${skipped
@@ -236,8 +207,9 @@ function runQuestions(view, guide, state) {
         e2.textContent = ex.message;
         e2.hidden = false;
         if (ex.status === 401) {
-          session.clear();
-          e2.innerHTML = `${esc(ex.message)} <a href="/quiz">Start again</a>`;
+          // Keep the answers on this device so they survive signing back in.
+          session.set(null, null);
+          e2.innerHTML = `${esc(ex.message)} <a href="/sign-in?next=/quiz">Sign in</a> and your answers will still be here.`;
         }
       }
     });

@@ -20,20 +20,23 @@ JSON bodies are limited to 32 KB.
 
 **Cross-site scripting.** All dynamic text in the client is escaped through `esc()` in `client/js/ui.js` before it is written to the page, and email templates escape every value. The Content Security Policy only allows scripts from the site itself, with no inline scripts and no `eval`. Source links are accepted only with `http` or `https` URLs.
 
-**Authentication.** There are no passwords or codes, by design: entering an email address opens the saved results for that address. A device receives a random 256-bit sign-in token when it starts the quiz or opens My Results, and that token is required to submit results, email them, see individual answers, or delete the account.
+**Authentication.** Browsing is open to everyone. Taking the quiz, viewing saved results, and saving a ballot plan to an account require signing in with an email address and password.
 
-- Only SHA-256 hashes of tokens are stored.
-- Tokens expire after 180 days and are revoked on sign-out.
+- Passwords are hashed with scrypt (N=16384, r=8, p=1, 16-byte random salt). Parameters are stored with each hash so they can be raised later.
+- Unknown emails are checked against a dummy hash, so a sign-in takes the same time whether or not the account exists.
+- A successful sign-in returns a random 256-bit token. Only its SHA-256 hash is stored. Tokens expire after 180 days, are revoked on sign-out, and every token for the account is revoked when the password changes or is reset.
 - Tokens are sent in the `Authorization` header, never in cookies, so cross-site request forgery does not apply.
+- Password reset links carry a one-time token in the URL fragment, which browsers never send to servers or in referrers. Reset tokens are stored hashed, expire after one hour, and are deleted on use. The "forgot password" endpoint gives the same response whether or not an account exists.
+- Deleting an account requires the current password.
+- Accounts created before passwords existed have no password; their owners set one through the emailed reset link. When passwords were introduced, every existing sign-in token was revoked, because those tokens had been issued for an email address alone.
 
 **Privacy of results.**
 
 - A shared results link shows only the first name and percentages.
-- Individual answers are returned only to the owner.
+- Individual answers are returned only to the signed-in owner.
 - Only the owner can trigger emails.
-- Because My Results opens by email alone, anyone who knows a visitor's email can see that visitor's saved results. The Privacy Policy states this plainly. Lookups are rate limited to slow automated guessing.
 
-**Rate limiting.** Registration, email lookups, result submission, email resends, account deletion, and admin exports are rate limited per client. Counters are stored in the database, so limits hold across serverless instances. Only a hash of the client IP is stored, and counters reset within 15 minutes.
+**Rate limiting.** Sign-up, sign-in, password reset requests, result submission, email resends, ballot plan saves, account deletion, and admin exports are rate limited per client IP. Sign-in is also limited to 10 attempts per 15 minutes for each email address, and reset emails to 3 per hour per address, so spreading attempts across many IPs does not help against one account. Counters are stored in the database, so limits hold across serverless instances. Only hashes of IPs and email addresses are stored in the counters.
 
 **Admin exports.** These require `ADMIN_TOKEN` (at least 24 characters) in the `Authorization` header. The comparison is constant-time, and the token is never accepted in a URL. CSV cells that a spreadsheet would treat as formulas are neutralized.
 

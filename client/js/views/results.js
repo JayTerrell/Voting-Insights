@@ -98,7 +98,7 @@ function draw(view, guide, data, isNew) {
       : '';
 
   view.innerHTML = `
-  ${isNew && owner ? `<div class="callout" role="status" style="margin-bottom:20px">Your results are saved${session.user ? ` to ${esc(session.user.email)}` : ''} and a copy is on its way to your inbox. Find them any time under <a href="/my-results">My Results</a>.</div>` : ''}
+  ${isNew && owner ? `<div class="callout" role="status" style="margin-bottom:20px">Your results are saved${session.user ? ` to ${esc(session.user.email)}` : ''} and a copy is on its way to your inbox. Find them any time in <a href="/account">your account</a>, and mark your choices on <a href="/my-ballot">My Ballot</a>.</div>` : ''}
   ${data.current_version && data.data_version !== data.current_version ? `<div class="callout" style="margin-bottom:20px">Candidate research has been updated since these results were calculated. <a href="/quiz">Retake the quiz</a> to use the latest information.</div>` : ''}
   <div class="result-head">
     <div>
