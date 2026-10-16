@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T15:36:44.819Z",
+ "generated_at": "2026-10-16T15:40:10.779Z",
  "election": {
   "name": "2026 November General Election",
   "county": "Collin County, Texas",
@@ -45412,36 +45412,147 @@
      "name": "Frank Lozano",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
-     "website": null,
-     "priorities": [],
-     "promises": [],
+     "current_role": "Attorney; Republican nominee for the 107th District Court",
+     "background": "Frank Lozano describes himself as a lifelong Cameron County resident and a military veteran. His campaign says he has worked as both a prosecutor and a criminal defense attorney, and that he concentrated on constitutional law in law school. He was a candidate for the Harlingen City Commission, District 3, in 2024. He ran unopposed for the Republican nomination for the open 107th District Court seat, which Judge Ben Euresti is leaving at retirement.",
+     "website": "https://votefranklozano.com/",
+     "priorities": [
+      {
+       "text": "Says he wants to make justice more accessible and predictable.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Campaigns on streamlining scheduling, pretrial procedures and case management to save taxpayer money and litigants' time.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Describes his approach with three principles: \"Firm in Principle,\" \"Fair in Process\" and \"Frank in Judgment.\"",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
+     "promises": [
+      {
+       "text": "Proposes a deposition hotline that he says could resolve routine disputes in real time to reduce delays.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "record": [],
-     "notes": [],
-     "stances": {},
+     "notes": [
+      {
+       "text": "KRGV identified him as the Republican nominee who will face the winner of the Democratic runoff for the open seat in November 2026.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "His campaign site argues that having judges from both parties on the bench provides checks and balances.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
+     "stances": {
+      "q_textualism": {
+       "position": 1,
+       "basis": "statement",
+       "summary": "His campaign says judges must follow the law and rule without personal preference, and that personal opinions should never obscure legal principles; he does not use the term textualism.",
+       "sources": [
+        "s1"
+       ]
+      }
+     },
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Frank Lozano for 107th District Judge",
+       "publisher": "Frank Lozano campaign",
+       "url": "https://votefranklozano.com/",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Early voting underway for the 107th District Court race in Cameron County",
+       "publisher": "KRGV",
+       "url": "https://www.krgv.com/news/early-voting-underway-for-the-107th-district-court-race-in-cameron-county",
+       "date": "2026-05-18"
+      }
+     ],
+     "research_gaps": "No law school name, bar admission year, bar poll result or endorsements were found.",
+     "researched": true
     },
     {
      "id": "noe-garza",
      "name": "Noe Garza",
      "party": "Democratic",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Attorney in Cameron County; Democratic nominee for the 107th District Court",
+     "background": "Noe Garza is an attorney who has practiced law in Cameron County for nearly four decades, according to KRGV. He says he has tried the types of cases that come before the 107th District Court. The 2026 race is his first campaign for public office. He won the May 26, 2026 Democratic runoff over Jesus T. Garcia Jr. with about 58 percent of the vote, according to unofficial results.",
      "website": null,
-     "priorities": [],
+     "priorities": [
+      {
+       "text": "Says his campaign is focused on experience, integrity and fairness.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Says he wants to give back to his community by applying what he has learned in the courtroom.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Says retiring Judge Ben Euresti's management of the 107th is a model for how he would run the court.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Won the Democratic primary runoff with 10,475 votes (58.45 percent) to 7,446 for Jesus T. Garcia Jr., per unofficial KRGV results.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Early voting underway for the 107th District Court Democratic primary runoff in Cameron County",
+       "publisher": "KRGV",
+       "url": "https://www.krgv.com/news/early-voting-underway-for-the-107th-district-court-democratic-primary-runoff-in-cameron-county/",
+       "date": "2026-05-18"
+      },
+      {
+       "id": "s2",
+       "title": "Early voting underway for the 107th District Court race in Cameron County",
+       "publisher": "KRGV",
+       "url": "https://www.krgv.com/news/early-voting-underway-for-the-107th-district-court-race-in-cameron-county",
+       "date": "2026-05-18"
+      },
+      {
+       "id": "s3",
+       "title": "Vote 2026: Election results for joint primary runoff elections",
+       "publisher": "KRGV",
+       "url": "https://www.krgv.com/news/vote-2026-election-results-for-joint-primary-runoff-elections",
+       "date": "2026-05-26"
+      }
+     ],
+     "research_gaps": "No campaign website, education details, bar poll result or endorsements were found.",
+     "researched": true
     }
    ],
    "office": {
@@ -45578,36 +45689,215 @@
      "name": "Mauro Garza",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
-     "website": null,
-     "priorities": [],
-     "promises": [],
+     "current_role": "Businessman; Republican nominee for Cameron County Judge",
+     "background": "Mauro Garza is a businessman who was the only Republican to file for Cameron County Judge in 2026. A campaign release published by the San Benito News describes him as a health-field researcher who has led programs to protect children from violence and abuse, and says he has more than 45 years of public service experience. His campaign site says he has run companies and worked with state and federal officials to bring funding to the region.",
+     "website": "https://mauroforjudge.com/",
+     "priorities": [
+      {
+       "text": "Lists securing the county's water future through stronger water infrastructure, innovation and conservation.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "Campaigns on drainage improvements, county road maintenance and modernized public facilities.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "Says he will pursue better-paying jobs tied to the Port of Brownsville, trade, aerospace, manufacturing, agriculture and tourism.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "Campaigns on \"protecting taxpayers\" through responsible spending, outside funding and transparency.",
+       "sources": [
+        "s2",
+        "s1"
+       ]
+      },
+      {
+       "text": "Says he supports law enforcement and emergency preparedness.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
+     "promises": [
+      {
+       "text": "Says he will seek outside funding to ease the cost burden on local families.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Said at his 2025 launch that he would prioritize hurricane and flood repairs over what he called pet projects such as a proposed county arena.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
      "record": [],
-     "notes": [],
-     "stances": {},
-     "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "notes": [
+      {
+       "text": "His 2025 campaign launch criticized then-incumbent Judge Eddie Trevino Jr. over county tax revenue management and a proposed arena that voters rejected.",
+       "sources": [
+        "s3"
+       ]
+      },
+      {
+       "text": "KRGV reported he will face Democrat Steve Guerra in November 2026.",
+       "sources": [
+        "s4"
+       ]
+      }
+     ],
+     "stances": {
+      "q_water": {
+       "position": 1,
+       "basis": "statement",
+       "summary": "His plan calls for working with regional, state and federal partners to strengthen water infrastructure, and his launch release cited water shortages affecting farmers and ranchers.",
+       "sources": [
+        "s2",
+        "s3"
+       ]
+      }
+     },
+     "issue_notes": [
+      {
+       "topic": "Spending",
+       "summary": "His plan states that good government is not measured by how much it spends but by how effectively it serves people.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "topic": "Border",
+       "summary": "His 2025 launch release listed securing the border against drug cartels as a priority.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Mauro Garza for Cameron County Judge",
+       "publisher": "Mauro Garza campaign",
+       "url": "https://mauroforjudge.com/",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "The Plan",
+       "publisher": "Mauro Garza campaign",
+       "url": "https://mauroforjudge.com/the-plan",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Garza launches campaign",
+       "publisher": "San Benito News",
+       "url": "https://www.sbnewspaper.com/?p=174679",
+       "date": "2025-06-13"
+      },
+      {
+       "id": "s4",
+       "title": "Incumbent Cameron County judge loses Democratic nomination to Steve Guerra, unofficial results show",
+       "publisher": "KRGV",
+       "url": "https://www.krgv.com/news/incumbent-cameron-county-judge-loses-democratic-nomination-to-steve-guerra-unofficial-results-show/",
+       "date": "2026-05-26"
+      }
+     ],
+     "research_gaps": "No stated position on the county tax rate, mental health spending, a spending cap or state preemption was found.",
+     "researched": true
     },
     {
      "id": "esteban-steve-guerra",
      "name": "Esteban \"Steve\" Guerra",
      "party": "Democratic",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Chairman of the Port of Brownsville board; Democratic nominee for Cameron County Judge",
+     "background": "Esteban \"Steve\" Guerra has served eight years on the Port of Brownsville board, the last four as chairman, according to KRGV. He defeated incumbent County Judge Eddie Trevino Jr. in the May 26, 2026 Democratic runoff with about 55 percent of the vote, per unofficial results. He says the county needs a change in direction.",
      "website": null,
-     "priorities": [],
+     "priorities": [
+      {
+       "text": "Campaigns on economic development and says companies investing in South Texas should pay fair wages.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Lists improving drainage and flood prevention infrastructure.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Says he wants county services to be accessible to residents.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Says he would bring the Port of Brownsville's record to county government.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "promises": [],
-     "record": [],
-     "notes": [],
+     "record": [
+      {
+       "text": "Served as chairman of the Port of Brownsville board for four years, after joining the board eight years before the 2026 race.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
+     "notes": [
+      {
+       "text": "Won the Democratic runoff with 10,010 votes (55.19 percent) to 8,128 for incumbent Eddie Trevino Jr., per unofficial KRGV results.",
+       "sources": [
+        "s3"
+       ]
+      },
+      {
+       "text": "Ran in a three-way March 2026 primary that also included former Sheriff Eric Garza.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Democratic candidates running for Cameron County judge outline priorities",
+       "publisher": "KRGV",
+       "url": "https://www.krgv.com/news/democratic-candidates-running-for-cameron-county-judge-outline-priorities/",
+       "date": "2026-03-02"
+      },
+      {
+       "id": "s2",
+       "title": "Incumbent Cameron County judge loses Democratic nomination to Steve Guerra, unofficial results show",
+       "publisher": "KRGV",
+       "url": "https://www.krgv.com/news/incumbent-cameron-county-judge-loses-democratic-nomination-to-steve-guerra-unofficial-results-show/",
+       "date": "2026-05-26"
+      },
+      {
+       "id": "s3",
+       "title": "Vote 2026: Election results for joint primary runoff elections",
+       "publisher": "KRGV",
+       "url": "https://www.krgv.com/news/vote-2026-election-results-for-joint-primary-runoff-elections",
+       "date": "2026-05-26"
+      }
+     ],
+     "research_gaps": "No campaign website or documented positions on the county tax rate, mental health spending, water supply funding or state preemption were found.",
+     "researched": true
     }
    ],
    "office": {
@@ -45781,7 +46071,7 @@
      "name": "Ricardo (Rick) Herrera",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
+     "current_role": "Republican nominee for Cameron County Clerk",
      "background": "",
      "website": null,
      "priorities": [],
@@ -45791,15 +46081,15 @@
      "stances": {},
      "issue_notes": [],
      "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "research_gaps": "No background, campaign website or news coverage was found for this candidate.",
+     "researched": true
     },
     {
      "id": "sylvia-garza",
      "name": "Sylvia Garza",
      "party": "Democratic",
      "incumbent": false,
-     "current_role": "",
+     "current_role": "Democratic nominee for Cameron County Clerk",
      "background": "",
      "website": null,
      "priorities": [],
@@ -45809,8 +46099,8 @@
      "stances": {},
      "issue_notes": [],
      "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "research_gaps": "No verifiable background, campaign website or news coverage was found within the search budget.",
+     "researched": true
     }
    ],
    "office": {
@@ -45836,25 +46126,68 @@
      "name": "Jonathan Gracia",
      "party": "Democratic",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
-     "website": null,
-     "priorities": [],
+     "current_role": "Attorney, Gracia Law Firm; Democratic nominee for Cameron County Treasurer",
+     "background": "Jonathan Gracia is a Brownsville attorney who has run his own law firm since 2012. He served as Justice of the Peace, Precinct 2, Place 2, from 2015 to 2022 and as a Cameron County assistant district attorney from 2008 to 2015. Earlier he was special projects director for Congressman Solomon P. Ortiz and economic development director for Port Isabel. He holds a law degree from the University of Texas and ran for Texas House District 38 in 2022 and District 37 in 2024.",
+     "website": "https://jonathangracia.com/",
+     "priorities": [
+      {
+       "text": "Says taxes have risen while families struggle.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Says the county needs a treasurer committed to efficiency and hard work.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "promises": [],
-     "record": [],
-     "notes": [],
+     "record": [
+      {
+       "text": "Served as Cameron County Justice of the Peace, Precinct 2, Place 2, from 2015 to 2022.",
+       "sources": [
+        "s2",
+        "s1"
+       ]
+      }
+     ],
+     "notes": [
+      {
+       "text": "Says that as an elected official he donated more than $80,000 of his salary to nonprofits, scholarships and veterans.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Jonathan Gracia for Cameron County Treasurer",
+       "publisher": "Jonathan Gracia campaign",
+       "url": "https://jonathangracia.com/",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Jonathan Gracia",
+       "publisher": "BallotReady",
+       "url": "https://www.ballotready.org/people/jonathan-gracia",
+       "date": null
+      }
+     ],
+     "research_gaps": "No specific plans for the treasurer's office were found.",
+     "researched": true
     },
     {
      "id": "lucy-jeannette-gonzales",
      "name": "Lucy Jeannette Gonzales",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
+     "current_role": "Republican nominee for Cameron County Treasurer",
      "background": "",
      "website": null,
      "priorities": [],
@@ -45864,8 +46197,8 @@
      "stances": {},
      "issue_notes": [],
      "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "research_gaps": "No background, campaign website or news coverage was found for this candidate.",
+     "researched": true
     }
    ],
    "office": {
@@ -45891,36 +46224,132 @@
      "name": "Jonathan Campos",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Small business owner; Republican nominee for Cameron County Commissioner Precinct 2",
+     "background": "Jonathan Campos is a small business owner who says his business background and experience working with the county qualify him for the job. He won the March 3, 2026 Republican primary with about 66 percent of the vote over former county employee Barbie Lopez, per unofficial results.",
      "website": null,
-     "priorities": [],
+     "priorities": [
+      {
+       "text": "Says he wants to streamline the county permit process and cut red tape for residents and businesses.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Says he will work to bring road infrastructure up to date for safety.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Says he wants to bring pay raises to local law enforcement.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Says he wants to work with the community and other municipalities to build a better Cameron County.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Received 1,794 votes (more than 66 percent) in the Republican primary, per unofficial KRGV results.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Business owner and former county employee seek GOP nomination for Cameron County Commissioner Precinct 2 seat",
+       "publisher": "KRGV",
+       "url": "https://www.krgv.com/news/business-owner-and-former-county-employee-seek-gop-nomination-for-cameron-county-commissioner-precinct-2-seat",
+       "date": "2026-02-26"
+      },
+      {
+       "id": "s2",
+       "title": "Lopez and Campos in the lead in Democratic and GOP primary elections for Cameron County commissioner",
+       "publisher": "KRGV",
+       "url": "https://www.krgv.com/news/lopez-and-campos-in-the-lead-in-democratic-and-gop-primary-elections-for-cameron-county-commissioner",
+       "date": "2026-03-03"
+      }
+     ],
+     "research_gaps": "No campaign website or documented positions on the county tax rate, mental health spending, water or state preemption were found.",
+     "researched": true
     },
     {
      "id": "joseph-l-lucio",
      "name": "Joseph L Lucio",
      "party": "Democratic",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Texas Department of State Health Services employee; Democratic nominee for Cameron County Commissioner Precinct 2",
+     "background": "Joseph L. Lucio is an employee of the Texas Department of State Health Services, according to KRGV. He defeated incumbent Commissioner Joey Lopez in the May 26, 2026 Democratic runoff by 44 votes, per unofficial results.",
      "website": null,
-     "priorities": [],
+     "priorities": [
+      {
+       "text": "Says he would focus on county employees and creating systems that make them want to stay with the county.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Says he would review county operations.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Finished second in the March 2026 primary with 3,370 votes, forcing a runoff.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "Won the runoff 3,471 to 3,427 over incumbent Joey Lopez, per unofficial results.",
+       "sources": [
+        "s1",
+        "s3"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Lucio beats Lopez for Democratic nomination in Cameron County Precinct 2 runoff race, unofficial results show",
+       "publisher": "KRGV",
+       "url": "https://www.krgv.com/news/lucio-beats-lopez-for-democratic-nomination-in-cameron-county-precinct-2-runoff-race-unofficial-results-show/",
+       "date": "2026-05-27"
+      },
+      {
+       "id": "s2",
+       "title": "Cameron County Precinct 2 Democrat primary heads to runoff",
+       "publisher": "KRGV",
+       "url": "https://www.krgv.com/news/cameron-county-precinct-2-democrat-primary-heads-to-runoff/",
+       "date": "2026-03-03"
+      },
+      {
+       "id": "s3",
+       "title": "Vote 2026: Election results for joint primary runoff elections",
+       "publisher": "KRGV",
+       "url": "https://www.krgv.com/news/vote-2026-election-results-for-joint-primary-runoff-elections",
+       "date": "2026-05-26"
+      }
+     ],
+     "research_gaps": "No campaign website or documented positions on the county tax rate, mental health spending, water or state preemption were found.",
+     "researched": true
     }
    ],
    "office": {
@@ -45946,7 +46375,7 @@
      "name": "Oscar Guerra",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
+     "current_role": "Republican nominee for Cameron County Commissioner Precinct 4",
      "background": "",
      "website": null,
      "priorities": [],
@@ -45956,26 +46385,88 @@
      "stances": {},
      "issue_notes": [],
      "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "research_gaps": "No verifiable background, campaign website or positions were found within the search budget.",
+     "researched": true
     },
     {
      "id": "gus-ruiz",
      "name": "Gus Ruiz",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
-     "website": null,
+     "incumbent": true,
+     "current_role": "Cameron County Commissioner, Precinct 4, since 2016",
+     "background": "Gus Ruiz has been Cameron County Commissioner for Precinct 4 since March 2016. He is a U.S. Marine Corps veteran who served in Iraq and was honorably discharged as a sergeant in 2006. He holds bachelor's degrees from the University of Texas-Pan American and a law degree from South Texas College of Law. He served on the Harlingen City Commission and as a Cameron County assistant district attorney.",
+     "website": "https://www.cameroncountytx.gov/commissioner-pct-4-gus-ruiz/",
      "priorities": [],
      "promises": [],
-     "record": [],
-     "notes": [],
+     "record": [
+      {
+       "text": "Announced the creation of Cameron County Drainage District No. 6 in 2021.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Took part in a July 2026 groundbreaking for the Adams Project drainage project.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "His office lists completed road maintenance projects in Precinct 4, which has the most county road miles (338.8), during 2025 and 2026.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Approved Veterans Crisis Hotline signage in August 2026, according to his county page.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Passed a resolution opposing HB 3766 on Hazlewood Legacy tuition exemptions and testified before a state higher education committee.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
+     "notes": [
+      {
+       "text": "Served on the Harlingen City Commission and as a Cameron County assistant district attorney from about 2010 to 2012.",
+       "sources": [
+        "s2",
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
-     "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "issue_notes": [
+      {
+       "topic": "Property Taxes",
+       "summary": "His county page publishes a comparison showing Cameron County's tax rate below those of nearby cities and counties.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Commissioner Pct. 4 Gus Ruiz",
+       "publisher": "Cameron County",
+       "url": "https://www.cameroncountytx.gov/commissioner-pct-4-gus-ruiz/",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Gus Ruiz",
+       "publisher": "BallotReady",
+       "url": "https://www.ballotready.org/people/gus-ruiz",
+       "date": null
+      }
+     ],
+     "research_gaps": "No 2026 campaign statements on the county tax rate, mental health spending, water funding or state preemption were found.",
+     "researched": true
     }
    ],
    "office": {
@@ -46001,7 +46492,7 @@
      "name": "Andrew Infante",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
+     "current_role": "Republican nominee for Justice of the Peace, Precinct 1",
      "background": "",
      "website": null,
      "priorities": [],
@@ -46011,26 +46502,41 @@
      "stances": {},
      "issue_notes": [],
      "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "research_gaps": "No background, campaign website or news coverage was found for this candidate.",
+     "researched": true
     },
     {
      "id": "benito-bo-ochoa",
      "name": "Benito \"Bo\" Ochoa",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Cameron County Justice of the Peace, Precinct 1",
+     "background": "Benito \"Bo\" Ochoa IV is the Justice of the Peace for Cameron County Precinct 1, based in Port Isabel. He has held the office since 2019, according to GoodParty.org.",
      "website": null,
      "priorities": [],
      "promises": [],
-     "record": [],
+     "record": [
+      {
+       "text": "Listed by Cameron County as the sitting Justice of the Peace for Precinct 1.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "notes": [],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Cameron County Justice of the Peace",
+       "publisher": "Cameron County",
+       "url": "https://www.cameroncountytx.gov/cameron-county-justice-of-the-peace/",
+       "date": null
+      }
+     ],
+     "research_gaps": "No campaign website, education details or stated priorities were found.",
+     "researched": true
     }
    ],
    "office": {
@@ -46056,7 +46562,7 @@
      "name": "Julian B. Martinez",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
+     "current_role": "Republican nominee for Justice of the Peace, Precinct 2, Place 2",
      "background": "",
      "website": null,
      "priorities": [],
@@ -46066,26 +46572,55 @@
      "stances": {},
      "issue_notes": [],
      "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "research_gaps": "No background, campaign website or news coverage was found for this candidate.",
+     "researched": true
     },
     {
      "id": "cyndi-hinojosa",
      "name": "Cyndi Hinojosa",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Cameron County Justice of the Peace, Precinct 2, Place 2",
+     "background": "Cyndi M. Hinojosa is the Justice of the Peace for Cameron County Precinct 2, Place 2, in Brownsville. BallotReady lists her as a candidate for the same office in 2022, and her current term ends December 31, 2026.",
      "website": null,
      "priorities": [],
      "promises": [],
-     "record": [],
-     "notes": [],
+     "record": [
+      {
+       "text": "Listed by Cameron County as the sitting Justice of the Peace for Precinct 2, Place 2.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
+     "notes": [
+      {
+       "text": "Her campaign Facebook page is facebook.com/vote4cyndi4jp, according to BallotReady.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Cameron County Justice of the Peace",
+       "publisher": "Cameron County",
+       "url": "https://www.cameroncountytx.gov/cameron-county-justice-of-the-peace/",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Cyndi Hinojosa",
+       "publisher": "BallotReady",
+       "url": "https://www.ballotready.org/people/cyndi-hinojosa",
+       "date": null
+      }
+     ],
+     "research_gaps": "No education details or stated priorities were found.",
+     "researched": true
     }
    ],
    "office": {
@@ -46111,7 +46646,7 @@
      "name": "Ricardo Alejandro",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
+     "current_role": "Republican nominee for Justice of the Peace, Precinct 2, Place 3",
      "background": "",
      "website": null,
      "priorities": [],
@@ -46121,26 +46656,41 @@
      "stances": {},
      "issue_notes": [],
      "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "research_gaps": "No background, campaign website or reliable news coverage was found for this candidate.",
+     "researched": true
     },
     {
      "id": "mary-esther-sorola",
      "name": "Mary Esther Sorola",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Cameron County Justice of the Peace, Precinct 2, Place 3",
+     "background": "Mary Esther Sorola is listed by Cameron County as the Justice of the Peace for Precinct 2, Place 3, in Brownsville.",
      "website": null,
      "priorities": [],
      "promises": [],
-     "record": [],
+     "record": [
+      {
+       "text": "Listed by Cameron County as the sitting Justice of the Peace for Precinct 2, Place 3.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "notes": [],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Cameron County Justice of the Peace",
+       "publisher": "Cameron County",
+       "url": "https://www.cameroncountytx.gov/cameron-county-justice-of-the-peace/",
+       "date": null
+      }
+     ],
+     "research_gaps": "No campaign website, biography, length of tenure or stated priorities were found.",
+     "researched": true
     }
    ],
    "office": {
@@ -46166,7 +46716,7 @@
      "name": "Esteban Steve Rodriguez",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
+     "current_role": "Republican nominee for Justice of the Peace, Precinct 3, Place 1",
      "background": "",
      "website": null,
      "priorities": [],
@@ -46176,26 +46726,80 @@
      "stances": {},
      "issue_notes": [],
      "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "research_gaps": "No background, campaign website or news coverage was found for this candidate.",
+     "researched": true
     },
     {
      "id": "noe-alaniz-jr",
      "name": "Noe Alaniz, Jr",
      "party": "Democratic",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "San Benito Municipal Court judge; Democratic nominee for Justice of the Peace, Precinct 3, Place 1",
+     "background": "Noe Alaniz Jr. is a Cameron County native who has been a San Benito municipal court judge since 2021 and runs Alaniz Law Firm in San Benito. He was a Cameron County assistant district attorney from 2009 to 2011 and served on the Rio Hondo ISD board from 2010 to 2020. He holds a law degree from Thurgood Marshall School of Law (2008). He is running for the seat held by Jesus \"Chuy\" Garcia Jr., who did not seek re-election.",
      "website": null,
-     "priorities": [],
+     "priorities": [
+      {
+       "text": "Says he wants to make the justice court more accessible and efficient.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Says every resident should receive prompt and equitable justice regardless of background.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Emphasizes in-person service and building community trust.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "promises": [],
-     "record": [],
-     "notes": [],
+     "record": [
+      {
+       "text": "Has served as municipal court judge for the City of San Benito since 2021.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
+     "notes": [
+      {
+       "text": "The San Benito News announcement was published as a campaign-supplied release.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Cameron County lists Jesus T. \"Chuy\" Garcia Jr. as the current Precinct 3, Place 1 justice of the peace.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Alaniz launches JP campaign",
+       "publisher": "San Benito News",
+       "url": "https://www.sbnewspaper.com/?p=175751",
+       "date": "2026-01-30"
+      },
+      {
+       "id": "s2",
+       "title": "Cameron County Justice of the Peace",
+       "publisher": "Cameron County",
+       "url": "https://www.cameroncountytx.gov/cameron-county-justice-of-the-peace/",
+       "date": null
+      }
+     ],
+     "research_gaps": "No campaign website, bar poll result or endorsements were found.",
+     "researched": true
     }
    ],
    "office": {
@@ -46221,7 +46825,7 @@
      "name": "Gilbert Garcia Jr.",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
+     "current_role": "Republican nominee for Justice of the Peace, Precinct 3, Place 2",
      "background": "",
      "website": null,
      "priorities": [],
@@ -46231,26 +46835,41 @@
      "stances": {},
      "issue_notes": [],
      "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "research_gaps": "No background, campaign website or news coverage was found for this candidate.",
+     "researched": true
     },
     {
      "id": "jessica-alvarado-gonzales",
      "name": "Jessica Alvarado Gonzales",
      "party": "Democratic",
      "incumbent": false,
-     "current_role": "",
+     "current_role": "Democratic nominee for Justice of the Peace, Precinct 3, Place 2",
      "background": "",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Cameron County lists David Garza as the current Precinct 3, Place 2 justice of the peace.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Cameron County Justice of the Peace",
+       "publisher": "Cameron County",
+       "url": "https://www.cameroncountytx.gov/cameron-county-justice-of-the-peace/",
+       "date": null
+      }
+     ],
+     "research_gaps": "No background, campaign website or news coverage was found for this candidate.",
+     "researched": true
     }
    ],
    "office": {
@@ -72092,37 +72711,95 @@
      "id": "ben-ivey",
      "name": "Ben Ivey",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, 120th District Court, since 2025 (appointed)",
+     "background": "Ben L. Ivey III was appointed judge of the 120th District Court in El Paso by Gov. Greg Abbott in February 2025, replacing Maria Salas-Mendoza, for a term running through 2026. Before the appointment he owned a law practice and had served as an assistant district attorney for El Paso County. He holds a bachelor's degree in agricultural economics from Texas A&M University and an MBA and law degree from Texas Tech University.",
      "website": null,
      "priorities": [],
      "promises": [],
-     "record": [],
-     "notes": [],
+     "record": [
+      {
+       "text": "Appointed by Gov. Greg Abbott to the 120th District Court on February 25, 2025, subject to Senate confirmation.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
+     "notes": [
+      {
+       "text": "Member of the State Bar of Texas and the Texas Criminal Defense Lawyers Association at the time of his appointment.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "El Paso County lists him as the current officeholder for the 120th District Court.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Governor Abbott Appoints Ivey To 120th Judicial District Court",
+       "publisher": "Office of the Texas Governor",
+       "url": "https://gov.texas.gov/news/post/governor-abbott-appoints-ivey-to-120th-judicial-district-court",
+       "date": "2025-02-25"
+      },
+      {
+       "id": "s2",
+       "title": "District Judge, 120th Judicial District",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://epcountyvotestx.gov/elected-officials-and-candidate-information/elected-officials/218",
+       "date": null
+      }
+     ],
+     "research_gaps": "No campaign website, notable rulings, bar poll result or statements on judicial philosophy were found.",
+     "researched": true
     },
     {
      "id": "chris-anchondo",
      "name": "Chris Anchondo",
      "party": "Democratic",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Democratic nominee for the 120th District Court",
+     "background": "Chris Anchondo is the Democratic nominee for the 120th District Court in El Paso. His campaign Facebook page is titled \"Chris Anchondo For Judge, 120th Judicial District.\"",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Branch lists him as the Democratic candidate and links his campaign Facebook page.",
+       "sources": [
+        "s2",
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Chris Anchondo For Judge, 120th Judicial District",
+       "publisher": "Facebook (campaign page)",
+       "url": "https://www.facebook.com/ElectChrisAnchondoJudge327thJudicialDistrict/",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "2026 Texas General Election: District Judge, 120th Judicial District",
+       "publisher": "Branch",
+       "url": "https://branch.vote/races/2026-texas-general-election-tx-state-district-judge-tx-judicial-district-120",
+       "date": null
+      }
+     ],
+     "research_gaps": "No biography, legal experience, education, priorities or bar poll result could be verified.",
+     "researched": true
     }
    ],
    "office": {
@@ -72148,36 +72825,130 @@
      "name": "R. Wayne Pritchard",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
-     "website": null,
-     "priorities": [],
+     "current_role": "Attorney and professional engineer; Republican nominee for the 168th District Court",
+     "background": "R. Wayne Pritchard is an El Paso attorney and Texas-licensed professional engineer who has practiced law for about 37 years, the last 20 as a solo practitioner. His practice has included intellectual property, employment, antitrust, family, probate and contract cases, with trial and appellate work. He holds a chemical engineering degree from Texas A&M University and a law degree from St. Mary's.",
+     "website": "https://pritchardforjudge.com/",
+     "priorities": [
+      {
+       "text": "Says a judge should give everyone a fair opportunity to present their case.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Lists ethics, courtroom experience, commitment and morals as his core qualifications.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Describes a strong commitment to the rule of law.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Admitted to practice before the U.S. Patent Office, the Fifth Circuit and the U.S. Supreme Court, according to his campaign site.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Branch lists him as the Republican candidate for the 168th District Court.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Pritchard for Judge, 168th District Court",
+       "publisher": "R. Wayne Pritchard campaign",
+       "url": "https://pritchardforjudge.com/",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "2026 Texas General Election: District Judge, 168th Judicial District",
+       "publisher": "Branch",
+       "url": "https://branch.vote/races/2026-texas-general-election-tx-state-district-judge-tx-judicial-district-168",
+       "date": null
+      }
+     ],
+     "research_gaps": "No endorsements, bar poll result or detailed statement of judicial philosophy were found.",
+     "researched": true
     },
     {
      "id": "bernardo-cruz",
      "name": "Bernardo Cruz",
      "party": "Democratic",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
-     "website": null,
-     "priorities": [],
+     "current_role": "Attorney, El Paso County Attorney's Office; Democratic nominee for the 168th District Court",
+     "background": "Bernardo Cruz was born in El Paso, raised in Juarez, and worked as a banker before law school. He holds a business degree from UTEP and a 2016 law degree from Seattle University. He represented farmworkers at a nonprofit firm in Washington state, litigated civil rights cases for the ACLU of Texas in El Paso beginning in 2018, and now handles affirmative litigation for the El Paso County Attorney's Office.",
+     "website": "https://www.bernardocruzforjudge.com/",
+     "priorities": [
+      {
+       "text": "Says he will work for speedy resolution of civil and criminal cases.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Says everyone who enters the courtroom deserves to be treated with dignity and respect.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Says he will manage the docket efficiently with limited resources.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Won the May 26, 2026 Democratic runoff with 54.6 percent to 45.4 percent for Enrique A. Holguin, per Branch.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "Clerked at the Inter-American Court of Human Rights in Costa Rica, according to his campaign site.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Bernardo Cruz for Judge, 168th Judicial District Court",
+       "publisher": "Bernardo Cruz campaign",
+       "url": "https://www.bernardocruzforjudge.com/",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "2026 Texas Primary Runoff: District Judge, 168th Judicial District (Democratic)",
+       "publisher": "Branch",
+       "url": "https://www.branch.vote/races/2026-texas-primary-runoff-tx-state-district-judge-tx-judicial-district-168-d",
+       "date": "2026-05-26"
+      }
+     ],
+     "research_gaps": "No endorsements, bar poll result or statements on textualism or judicial selection were found.",
+     "researched": true
     }
    ],
    "office": {
@@ -72388,36 +73159,122 @@
      "name": "Minerva Torres Shelton",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Republican nominee for El Paso County Judge",
+     "background": "Minerva Torres Shelton won the March 3, 2026 Republican primary for El Paso County Judge with about 62 percent of the vote over Guadalupe \"Lupe\" Giner, per unofficial results.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Received about 62 percent of the Republican primary vote, per unofficial KFOX14 results.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Election Day: El Paso County Judge March 2026 primary",
+       "publisher": "KFOX14",
+       "url": "https://kfoxtv.com/news/local/election-day-el-paso-county-judge-march-2026-primary",
+       "date": "2026-03-03"
+      }
+     ],
+     "research_gaps": "No biography, campaign website or documented positions were found.",
+     "researched": true
     },
     {
      "id": "ricardo-samaniego",
      "name": "Ricardo Samaniego",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
-     "website": null,
-     "priorities": [],
-     "promises": [],
-     "record": [],
+     "incumbent": true,
+     "current_role": "El Paso County Judge since 2019",
+     "background": "Ricardo Samaniego was born and raised in El Paso and was first elected county judge in 2018, then re-elected in 2022. He is seeking a third term in 2026 and has said it would be his last.",
+     "website": "https://www.epcountytx.gov/206/County-Judge",
+     "priorities": [
+      {
+       "text": "Says he wants to finish unfinished work and help El Paso reach its full potential.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Points to the planned Meta artificial intelligence center in Northeast El Paso and a cancer center at Texas Tech Health El Paso as signs of growth he wants to build on.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Cites his relationships with the mayor, the state legislative delegation and officials in Mexico.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "His office lists mental health, veterans services, county infrastructure, economic development and border policy as focus areas.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
+     "promises": [
+      {
+       "text": "Says a third term would be his last.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
+     "record": [
+      {
+       "text": "Elected El Paso County Judge in 2018 and re-elected in 2022; presides over Commissioners Court.",
+       "sources": [
+        "s1",
+        "s3"
+       ]
+      }
+     ],
      "notes": [],
-     "stances": {},
+     "stances": {
+      "q_county_mental": {
+       "position": 1,
+       "basis": "statement",
+       "summary": "His official office page lists mental health initiatives among its focus areas; it does not state spending levels.",
+       "sources": [
+        "s2"
+       ]
+      }
+     },
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Samaniego running for 3rd term as county judge",
+       "publisher": "KTSM 9 News",
+       "url": "https://www.ktsm.com/news/your-local-election-hq/samaniego-running-for-3rd-term-as-county-judge/amp/",
+       "date": "2025-11-14"
+      },
+      {
+       "id": "s2",
+       "title": "County Judge",
+       "publisher": "El Paso County",
+       "url": "https://www.epcountytx.gov/206/County-Judge",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "County Judge",
+       "publisher": "El Paso County Elections Department",
+       "url": "https://epcountyvotestx.gov/elected-officials-and-candidate-information/elected-officials/72",
+       "date": null
+      }
+     ],
+     "research_gaps": "No 2026 statements on the county tax rate, a spending cap, water funding or state preemption were found, and Commissioners Court votes were not reviewed.",
+     "researched": true
     }
    ],
    "office": {
@@ -72924,36 +73781,122 @@
      "name": "Matt Sistrunk",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Republican nominee for El Paso County Commissioner Precinct 2",
+     "background": "Thomas \"Matt\" Sistrunk, 66, is a U.S. Army veteran and cryptocurrency promoter, according to El Paso Inc. He ran unopposed in the March 2026 Republican primary.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Ran unopposed for the Republican nomination.",
+       "sources": [
+        "s2",
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "El Paso primary election results",
+       "publisher": "El Paso Inc.",
+       "url": "https://www.elpasoinc.com/news/local_news/el-paso-primary-election-results/article_3bfb77f3-bd56-4afc-82d7-485892bd9afc.html",
+       "date": "2026-03-13"
+      },
+      {
+       "id": "s2",
+       "title": "Election Day: El Paso County Commissioner Precinct 2 March 2026 primary",
+       "publisher": "KFOX14",
+       "url": "https://www.kfoxtv.com/news/local/election-day-el-paso-county-commissioner-precinct-2-march-2026-primary",
+       "date": "2026-03-03"
+      }
+     ],
+     "research_gaps": "No campaign website or documented positions were found.",
+     "researched": true
     },
     {
      "id": "miguel-mike-teran",
      "name": "Miguel (Mike) Teran",
      "party": "Democratic",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Construction business owner; Democratic nominee for El Paso County Commissioner Precinct 2",
+     "background": "Miguel \"Mike\" Teran, 61, owns Roman Construction and Project Management and is the son of former four-term county commissioner Miguel Teran, according to El Paso Inc. KTSM reported he has led El Paso County Water Improvement District No. 1 since 2005. He defeated incumbent Commissioner David Stout in the March 3, 2026 Democratic primary, 53.1 percent to 46.8 percent.",
      "website": null,
-     "priorities": [],
+     "priorities": [
+      {
+       "text": "Criticized the incumbent for raising taxes and for commissioner pay raises.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "Criticized a $1.5 million pay raise for the CEO of University Medical Center.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "Says he wants to earn voters' trust.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
      "promises": [],
      "record": [],
-     "notes": [],
-     "stances": {},
+     "notes": [
+      {
+       "text": "Defeated incumbent David Stout by 945 votes in the Democratic primary.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "During the primary, Stout accused Teran's campaign of campaign finance misrepresentations and using an AI-generated image; the report did not describe any official finding.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
+     "stances": {
+      "q_county_tax": {
+       "position": 1,
+       "basis": "reported",
+       "summary": "Criticized the incumbent commissioner for raising taxes and approving pay raises, according to KTSM.",
+       "sources": [
+        "s2"
+       ]
+      }
+     },
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "El Paso primary election results",
+       "publisher": "El Paso Inc.",
+       "url": "https://www.elpasoinc.com/news/local_news/el-paso-primary-election-results/article_3bfb77f3-bd56-4afc-82d7-485892bd9afc.html",
+       "date": "2026-03-13"
+      },
+      {
+       "id": "s2",
+       "title": "2 El Paso County Commission seats up for grabs during primary",
+       "publisher": "KTSM 9 News",
+       "url": "https://www.ktsm.com/news/2-el-paso-county-commission-seats-up-for-grabs-during-primary/amp/",
+       "date": "2026-03-03"
+      },
+      {
+       "id": "s3",
+       "title": "Election Day: El Paso County Commissioner Precinct 2 March 2026 primary",
+       "publisher": "KFOX14",
+       "url": "https://www.kfoxtv.com/news/local/election-day-el-paso-county-commissioner-precinct-2-march-2026-primary",
+       "date": "2026-03-03"
+      }
+     ],
+     "research_gaps": "No campaign website or positions on mental health spending, water funding, a spending cap or state preemption were found.",
+     "researched": true
     }
    ],
    "office": {
@@ -72979,36 +73922,123 @@
      "name": "Leo Arcos",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Republican nominee for El Paso County Commissioner Precinct 4",
+     "background": "Leo Arcos, 40, is a U.S. Army veteran, according to El Paso Inc. He ran unopposed in the March 2026 Republican primary.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Ran unopposed for the Republican nomination.",
+       "sources": [
+        "s2",
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "El Paso primary election results",
+       "publisher": "El Paso Inc.",
+       "url": "https://www.elpasoinc.com/news/local_news/el-paso-primary-election-results/article_3bfb77f3-bd56-4afc-82d7-485892bd9afc.html",
+       "date": "2026-03-13"
+      },
+      {
+       "id": "s2",
+       "title": "Election Day: El Paso County Commissioner Precinct 4 March 2026 primary",
+       "publisher": "KFOX14",
+       "url": "https://www.kfoxtv.com/news/local/election-day-el-paso-county-commissioner-precinct-4-march-2026-primary",
+       "date": "2026-03-03"
+      }
+     ],
+     "research_gaps": "No campaign website or documented positions were found.",
+     "researched": true
     },
     {
      "id": "annette-griego",
      "name": "Annette Griego",
      "party": "Democratic",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Family nurse practitioner and clinic owner; Democratic nominee for El Paso County Commissioner Precinct 4",
+     "background": "Annette Griego, 50, owns the El Paso Family and Pediatric Clinic and is a family nurse practitioner. She is a former intensive care unit director and coordinated patient services for Tenet hospitals in El Paso, according to El Paso Inc. She defeated incumbent Commissioner Sergio Coronado in the March 3, 2026 Democratic primary with about 57 percent of the vote.",
      "website": null,
-     "priorities": [],
-     "promises": [],
+     "priorities": [
+      {
+       "text": "Says the county needs a watchdog to address rising taxes.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "Calls for department-by-department budget reviews to cut unnecessary expenses.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "Says she wants to invest in critical infrastructure.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
+     "promises": [
+      {
+       "text": "Says she will continue keeping her campaign promises.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
      "record": [],
-     "notes": [],
-     "stances": {},
+     "notes": [
+      {
+       "text": "Defeated incumbent Sergio Coronado by 2,572 votes in the Democratic primary.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
+     "stances": {
+      "q_county_tax": {
+       "position": 1,
+       "basis": "reported",
+       "summary": "Calls for a watchdog on rising taxes and department-by-department budget reviews, while also supporting investment in critical infrastructure, according to KTSM.",
+       "sources": [
+        "s2"
+       ]
+      }
+     },
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "El Paso primary election results",
+       "publisher": "El Paso Inc.",
+       "url": "https://www.elpasoinc.com/news/local_news/el-paso-primary-election-results/article_3bfb77f3-bd56-4afc-82d7-485892bd9afc.html",
+       "date": "2026-03-13"
+      },
+      {
+       "id": "s2",
+       "title": "2 El Paso County Commission seats up for grabs during primary",
+       "publisher": "KTSM 9 News",
+       "url": "https://www.ktsm.com/news/2-el-paso-county-commission-seats-up-for-grabs-during-primary/amp/",
+       "date": "2026-03-03"
+      },
+      {
+       "id": "s3",
+       "title": "Election Day: El Paso County Commissioner Precinct 4 March 2026 primary",
+       "publisher": "KFOX14",
+       "url": "https://www.kfoxtv.com/news/local/election-day-el-paso-county-commissioner-precinct-4-march-2026-primary",
+       "date": "2026-03-03"
+      }
+     ],
+     "research_gaps": "No campaign website or positions on mental health spending, water funding, a spending cap or state preemption were found.",
+     "researched": true
     }
    ],
    "office": {
@@ -115163,27 +116193,42 @@
      "id": "debra-graff",
      "name": "Debra Graff",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Medina County Treasurer",
+     "background": "Debra Graff is the Medina County Treasurer and is seeking re-election. GoodParty.org lists her current term as 2024 to 2026.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "The Texas State Directory lists her as Medina County Treasurer.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Counties > Medina",
+       "publisher": "Texas State Directory",
+       "url": "https://www.txdirectory.com/online/county/detail.php?id=163",
+       "date": null
+      }
+     ],
+     "research_gaps": "No campaign website, biography or stated priorities were found.",
+     "researched": true
     },
     {
      "id": "cathy-coker",
      "name": "Cathy Coker",
      "party": "Democratic",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Democratic nominee for Medina County Treasurer",
+     "background": "Cathy Coker is the Democratic nominee for Medina County Treasurer.",
      "website": null,
      "priorities": [],
      "promises": [],
@@ -115192,8 +116237,8 @@
      "stances": {},
      "issue_notes": [],
      "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "research_gaps": "No biography, campaign website or stated priorities were found.",
+     "researched": true
     }
    ],
    "office": {
@@ -115218,26 +116263,41 @@
      "id": "larry-sittre",
      "name": "Larry Sittre",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Medina County Commissioner, Precinct 2",
+     "background": "Larry Sittre is the Medina County Commissioner for Precinct 2 and is seeking re-election.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "The Texas State Directory lists him as Commissioner, Precinct 2.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Counties > Medina",
+       "publisher": "Texas State Directory",
+       "url": "https://www.txdirectory.com/online/county/detail.php?id=163",
+       "date": null
+      }
+     ],
+     "research_gaps": "No campaign website, biography, Commissioners Court record or positions on quiz topics were found.",
+     "researched": true
     },
     {
      "id": "eli-arroyo",
      "name": "Eli Arroyo",
      "party": "Democratic",
      "incumbent": false,
-     "current_role": "",
+     "current_role": "Democratic nominee for Medina County Commissioner Precinct 2",
      "background": "",
      "website": null,
      "priorities": [],
@@ -115247,8 +116307,8 @@
      "stances": {},
      "issue_notes": [],
      "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "research_gaps": "No background, campaign website or news coverage was found for this candidate.",
+     "researched": true
     }
    ],
    "office": {
@@ -115310,26 +116370,41 @@
      "id": "phillip-m-lange",
      "name": "Phillip M. Lange",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Medina County Justice of the Peace, Precinct 1",
+     "background": "Phillip M. Lange is the Justice of the Peace for Medina County Precinct 1 and is seeking re-election.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "The Texas State Directory lists him as Justice of the Peace, Precinct 1.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Counties > Medina",
+       "publisher": "Texas State Directory",
+       "url": "https://www.txdirectory.com/online/county/detail.php?id=163",
+       "date": null
+      }
+     ],
+     "research_gaps": "No campaign website, biography or length of tenure was found.",
+     "researched": true
     },
     {
      "id": "al-anaya",
      "name": "Al Anaya",
      "party": "Democratic",
      "incumbent": false,
-     "current_role": "",
+     "current_role": "Democratic nominee for Justice of the Peace, Precinct 1",
      "background": "",
      "website": null,
      "priorities": [],
@@ -115339,8 +116414,8 @@
      "stances": {},
      "issue_notes": [],
      "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "research_gaps": "No background, campaign website or news coverage was found for this candidate.",
+     "researched": true
     }
    ],
    "office": {
@@ -124241,7 +125316,7 @@
      "name": "Casey Czajkowski",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
+     "current_role": "Republican nominee for Robertson County Commissioner Precinct 4",
      "background": "",
      "website": null,
      "priorities": [],
@@ -124251,26 +125326,41 @@
      "stances": {},
      "issue_notes": [],
      "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "research_gaps": "No background, campaign website or news coverage was found for this candidate.",
+     "researched": true
     },
     {
      "id": "james-taylor",
      "name": "James Taylor",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Robertson County Commissioner, Precinct 4",
+     "background": "James Taylor is listed by the Texas State Directory as the Robertson County Commissioner for Precinct 4.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "The Texas State Directory lists him as Commissioner, Precinct 4; the listing is undated.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Counties > Robertson",
+       "publisher": "Texas State Directory",
+       "url": "https://www.txdirectory.com/online/county/detail.php?id=198",
+       "date": null
+      }
+     ],
+     "research_gaps": "No campaign website, biography, Commissioners Court record or positions on quiz topics were found.",
+     "researched": true
     }
    ],
    "office": {
@@ -124407,7 +125497,7 @@
      "name": "Debbie Zan",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
+     "current_role": "Republican nominee for Justice of the Peace, Precinct 4",
      "background": "",
      "website": null,
      "priorities": [],
@@ -124417,26 +125507,41 @@
      "stances": {},
      "issue_notes": [],
      "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "research_gaps": "No background, campaign website or news coverage was found for this candidate.",
+     "researched": true
     },
     {
      "id": "fredrick-webber",
      "name": "Fredrick Webber",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Robertson County Justice of the Peace, Precinct 4",
+     "background": "Frederick B. Webber is listed by the Texas State Directory as the Robertson County Justice of the Peace for Precinct 4, based in Bremond.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "The Texas State Directory lists him as Justice of the Peace, Precinct 4; the listing is undated.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Counties > Robertson",
+       "publisher": "Texas State Directory",
+       "url": "https://www.txdirectory.com/online/county/detail.php?id=198",
+       "date": null
+      }
+     ],
+     "research_gaps": "No campaign website, biography or length of tenure was found.",
+     "researched": true
     }
    ],
    "office": {
@@ -133379,26 +134484,41 @@
      "id": "becky-freeman",
      "name": "Becky Freeman",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Taylor County Treasurer",
+     "background": "Becky Freeman is listed by the Texas State Directory as the Taylor County Treasurer.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "The Texas State Directory lists her as County Treasurer; the listing is undated.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Counties > Taylor",
+       "publisher": "Texas State Directory",
+       "url": "https://www.txdirectory.com/online/county/detail.php?id=221",
+       "date": null
+      }
+     ],
+     "research_gaps": "No campaign website, biography or length of tenure was found.",
+     "researched": true
     },
     {
      "id": "pierce-lopachin",
      "name": "Pierce Lopachin",
      "party": "Democratic",
      "incumbent": false,
-     "current_role": "",
+     "current_role": "Democratic nominee for Taylor County Treasurer",
      "background": "",
      "website": null,
      "priorities": [],
@@ -133408,8 +134528,8 @@
      "stances": {},
      "issue_notes": [],
      "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "research_gaps": "No background, campaign website or reliable news coverage was found for this candidate.",
+     "researched": true
     }
    ],
    "office": {
@@ -141079,36 +142199,66 @@
      "name": "Oscar \"Weebo\" Romanos",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Republican nominee for Webb County Clerk",
+     "background": "Oscar \"Weebo\" Romanos is the Republican nominee for Webb County Clerk.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "KGNS lists him as the Republican candidate for Webb County Clerk.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Election Guide",
+       "publisher": "KGNS",
+       "url": "https://www.kgns.tv/politics/election-guide",
+       "date": "2026-10-16"
+      }
+     ],
+     "research_gaps": "No biography, campaign website or stated priorities were found.",
+     "researched": true
     },
     {
      "id": "margie-ramirez-ibarra",
      "name": "Margie Ramirez Ibarra",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Webb County Clerk",
+     "background": "Margie Ramirez Ibarra is the Webb County Clerk and is seeking re-election. GoodParty.org lists her as serving in the office from 2019 to 2022 and 2023 to 2026.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "KGNS lists her as the Democratic candidate for Webb County Clerk.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Election Guide",
+       "publisher": "KGNS",
+       "url": "https://www.kgns.tv/politics/election-guide",
+       "date": "2026-10-16"
+      }
+     ],
+     "research_gaps": "No campaign website, biography beyond office tenure, or stated priorities were found.",
+     "researched": true
     }
    ],
    "office": {
@@ -141134,36 +142284,87 @@
      "name": "Liza Janette Pena",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Republican nominee for Webb County Treasurer",
+     "background": "Liza Janette Pena is the Republican nominee for Webb County Treasurer.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "KGNS and Ballotpedia list her as the Republican candidate for Webb County Treasurer.",
+       "sources": [
+        "s1",
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Election Guide",
+       "publisher": "KGNS",
+       "url": "https://www.kgns.tv/politics/election-guide",
+       "date": "2026-10-16"
+      },
+      {
+       "id": "s2",
+       "title": "Liza Pena",
+       "publisher": "Ballotpedia",
+       "url": "https://ballotpedia.org/Liza_Pena",
+       "date": null
+      }
+     ],
+     "research_gaps": "No biography, campaign website or stated priorities were found.",
+     "researched": true
     },
     {
      "id": "esteban-rangel",
      "name": "Esteban Rangel",
      "party": "Democratic",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Democratic nominee for Webb County Treasurer",
+     "background": "Esteban Rangel won the March 3, 2026 Democratic primary for Webb County Treasurer over Nancy Garcia, 50.4 percent to 49.6 percent, according to Ballotpedia.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Defeated Nancy Garcia in the Democratic primary by about 0.8 percentage points, per Ballotpedia.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "KGNS lists him as the Democratic candidate for Webb County Treasurer.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Nancy Garcia",
+       "publisher": "Ballotpedia",
+       "url": "https://ballotpedia.org/Nancy_Garcia",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Election Guide",
+       "publisher": "KGNS",
+       "url": "https://www.kgns.tv/politics/election-guide",
+       "date": "2026-10-16"
+      }
+     ],
+     "research_gaps": "No biography, campaign website or stated priorities were found.",
+     "researched": true
     }
    ],
    "office": {
@@ -141374,7 +142575,7 @@
      "name": "Leo Garcia",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
+     "current_role": "Republican nominee for Justice of the Peace, Precinct 3",
      "background": "",
      "website": null,
      "priorities": [],
@@ -141384,26 +142585,41 @@
      "stances": {},
      "issue_notes": [],
      "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "research_gaps": "No background, campaign website or news coverage was found for this candidate.",
+     "researched": true
     },
     {
      "id": "salvador-johnson",
      "name": "Salvador Johnson",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Webb County Justice of the Peace, Precinct 3",
+     "background": "Salvador Johnson Sr. is the incumbent Justice of the Peace for Webb County Precinct 3. He faced Adrian Cortez in the March 3, 2026 Democratic primary, according to Ballotpedia.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Ballotpedia lists him as the incumbent in the 2026 Democratic primary against Adrian Cortez.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Adrian Cortez",
+       "publisher": "Ballotpedia",
+       "url": "https://ballotpedia.org/Adrian_Cortez",
+       "date": null
+      }
+     ],
+     "research_gaps": "No biography, length of tenure, campaign website or stated priorities were found.",
+     "researched": true
     }
    ],
    "office": {
