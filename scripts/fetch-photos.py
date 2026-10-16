@@ -48,7 +48,7 @@ def blocked(url):
     host = (urlparse(url).hostname or '').lower()
     return any(host == d or host.endswith('.' + d) for d in BLOCKED_DOMAINS)
 SIZE = 320
-MAX_BYTES = 8 * 1024 * 1024
+MAX_BYTES = 20 * 1024 * 1024
 
 
 def ssl_context():
