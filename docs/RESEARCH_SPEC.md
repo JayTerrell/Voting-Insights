@@ -118,3 +118,8 @@ A fact-check file may include a top-level `remove_stances` list:
 ```
 
 The build deletes each listed stance after merging and prints what it removed.
+
+## Access rules
+
+Never circumvent a paywall, login, or bot check (no mirror, cache, or preview hosts used to read paywalled
+articles). If an article is paywalled, cite it only for what is visible without bypassing, or use another source.

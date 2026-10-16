@@ -1,0 +1,3654 @@
+{
+ "candidates": [
+  {
+   "id": "crystal-edmonson-levonius",
+   "race_id": "district-481",
+   "incumbent": true,
+   "current_role": "Judge, 481st Judicial District Court, Denton County, since January 2022",
+   "background": "Crystal Edmonson Levonius of Flower Mound was appointed by Gov. Greg Abbott as the first judge of the newly created 481st Judicial District Court, effective January 1, 2022. Before her appointment she was managing member of Crystal Levonius Law, PLLC and an assistant district attorney in the Collin County District Attorney's Office. She holds a bachelor's degree in government from New Mexico State University and a law degree from Southwestern Law School.",
+   "website": "https://judgelevonius.com",
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "Appointed by Gov. Greg Abbott in December 2021 to the new 481st District Court, taking the bench January 1, 2022.",
+     "sources": [
+      "s1",
+      "s3"
+     ]
+    },
+    {
+     "text": "Ran without opposition for the seat in 2022 and was unopposed in the March 2026 Republican primary.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Memberships listed at her appointment include the State Bar of Texas, the State Bar of New Mexico, the Denton County Bar Association and the Denton County Criminal Defense Lawyers Association.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Community roles listed include former vice president of Ways and Means for the Wellington Elementary PTA and former director for Taking A Step Against Colon Cancer.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Governor Abbott Appoints Levonius to 481st Judicial District Court",
+     "publisher": "Office of the Texas Governor",
+     "url": "https://gov.texas.gov/news/post/governor-abbott-appoints-levonius-to-481st-judicial-district-court",
+     "date": "2021-12-08"
+    },
+    {
+     "id": "s2",
+     "title": "Crystal Edmonson Levonius, Texas District Judge, District 481",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-district-judge-tx-judicial-district-481/candidates/crystal-edmonson-levonius",
+     "date": "2026-07"
+    },
+    {
+     "id": "s3",
+     "title": "Fuller running as Democratic nominee in Denton County district judge race after primary candidate's death",
+     "publisher": "Denton Record-Chronicle",
+     "url": "https://dentonrc.com/elections/fuller-running-as-democratic-nominee-in-denton-county-district-judge-race-after-primary-candidate-s/article_d502e205-b42b-4b1d-b297-f6b0b83fefa7.html",
+     "date": "2026-08-11"
+    }
+   ],
+   "research_gaps": "No published statements on judicial philosophy, notable rulings, or bar poll results were found."
+  },
+  {
+   "id": "seth-fuller",
+   "race_id": "district-481",
+   "incumbent": false,
+   "current_role": "Criminal defense attorney; founder of Texas Trial Champions",
+   "background": "Seth Fuller is a criminal defense attorney who founded the firm Texas Trial Champions; the Denton County Democratic Party chair says he also has family law experience. The party's executive committee appointed him as the nominee in June 2026 after the original Democratic nominee, Frisco lawyer David Przeracki, died in December 2025.",
+   "website": "https://sethfullerforjudge.com",
+   "priorities": [
+    {
+     "text": "Says the justice system works best when everyone involved zealously seeks justice.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Placed on the ballot by a vote of the Denton County Democratic Party executive committee in June 2026, replacing nominee David Przeracki, who died in December 2025.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "He did not respond to the Denton Record-Chronicle's requests for comment for its August 2026 article.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Fuller running as Democratic nominee in Denton County district judge race after primary candidate's death",
+     "publisher": "Denton Record-Chronicle",
+     "url": "https://dentonrc.com/elections/fuller-running-as-democratic-nominee-in-denton-county-district-judge-race-after-primary-candidate-s/article_d502e205-b42b-4b1d-b297-f6b0b83fefa7.html",
+     "date": "2026-08-11"
+    },
+    {
+     "id": "s2",
+     "title": "Seth Fuller, Texas District Judge, District 481",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-district-judge-tx-judicial-district-481/candidates/seth-fuller",
+     "date": "2026-09"
+    }
+   ],
+   "research_gaps": "Education, years of practice, bar poll results, and detailed judicial philosophy were not found."
+  },
+  {
+   "id": "andy-eads",
+   "race_id": "denton-county-judge",
+   "incumbent": true,
+   "current_role": "Denton County Judge since 2019",
+   "background": "Andy Eads is a fifth-generation Denton County resident who served on the Denton County Commissioners Court before becoming county judge in 2019. He holds a bachelor's degree in business administration from Howard Payne University and a master's in public administration from the University of North Texas. He lives in Flower Mound.",
+   "website": "https://andyeads.com",
+   "priorities": [
+    {
+     "text": "Campaigns on keeping property taxes low, strengthening public safety, improving transportation infrastructure, and promoting economic development.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says managing rapid growth in a county of more than one million residents is the county's biggest challenge.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says he will plan ahead and work with cities, regional partners and state leaders, and keep county government from growing faster than needed.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says he wants to keep property taxes low through the senior tax freeze and homestead exemption.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "promises": [
+    {
+     "text": "Says he will partner with the Texas Department of Transportation on state highway, farm-to-market road and interstate projects in the county.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "record": [
+    {
+     "text": "Championed two countywide road bond elections and credits himself with work on SH 114, US 380 reconstruction, the I-635 agreement and the 35Express project.",
+     "sources": [
+      "s2",
+      "s3"
+     ]
+    },
+    {
+     "text": "The FY2027 recommended county budget presented to the Commissioners Court in August 2026 was about $494.5 million with a tax rate of $0.183394 per $100, described by the budget office as the lowest since at least 1986 and a 1.4% decrease from FY2026.",
+     "sources": [
+      "s4"
+     ]
+    },
+    {
+     "text": "The FY2027 recommended budget keeps a homestead exemption (1% of value, minimum $5,000) for a seventh year and the senior and disabled homestead tax ceiling for an eighth year.",
+     "sources": [
+      "s4"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Faces Democrat Nick Pappas in the November 3, 2026 general election.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {
+    "q_county_tax": {
+     "position": 1,
+     "basis": "questionnaire",
+     "summary": "Lists keeping property taxes low and disciplined spending among his top priorities, while also prioritizing road investment.",
+     "sources": [
+      "s1",
+      "s2",
+      "s4"
+     ]
+    }
+   },
+   "issue_notes": [
+    {
+     "topic": "Transportation",
+     "summary": "Emphasizes partnerships with TxDOT and regional agencies on highway and road projects.",
+     "sources": [
+      "s2",
+      "s3"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Meet the candidates running for Denton County judge",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/frisco/election/meet-the-candidates-running-for-denton-county-judge/",
+     "date": "2026-09-29"
+    },
+    {
+     "id": "s2",
+     "title": "Andy Eads, Denton County Judge",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-judge-tx-county-denton/candidates/andy-eads",
+     "date": "2026-07"
+    },
+    {
+     "id": "s3",
+     "title": "Andy Eads for Denton County Judge",
+     "publisher": "Andy Eads campaign",
+     "url": "https://andyeads.com",
+     "date": null
+    },
+    {
+     "id": "s4",
+     "title": "FY 2027 Recommended Budget Summary",
+     "publisher": "Denton County Budget Office",
+     "url": "https://www.dentoncounty.gov/DocumentCenter/View/12412/FY-2027-Recommended-Budget-Summary-PDF",
+     "date": "2026-08-18"
+    },
+    {
+     "id": "s5",
+     "title": "Election Q&A: Meet the candidates running for Denton County judge",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/frisco/election/election-qa-meet-the-candidates-running-for-denton-county-judge/",
+     "date": "2022-10"
+    }
+   ],
+   "research_gaps": "No documented positions were found on mental health spending, water funding, or state preemption, and individual votes on the FY2027 budget were not located."
+  },
+  {
+   "id": "nick-pappas",
+   "race_id": "denton-county-judge",
+   "incumbent": false,
+   "current_role": "Retired U.S. Marine and small business owner",
+   "background": "Nick Pappas is a retired, disabled U.S. Marine Corps veteran who served 17 years, including multiple combat deployments, in personnel, payroll, legal and logistics roles. He has worked in emergency management, as a voting officer and as an event planner, and says he transcribes and summarizes weekly Commissioners Court meetings. This is his first run for office.",
+   "website": "https://pappasfordenton.com",
+   "priorities": [
+    {
+     "text": "Proposes free meals for every child in the county, using federal grant funds.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    },
+    {
+     "text": "Proposes a public county hospital and health campus with mental health and addiction treatment on site.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    },
+    {
+     "text": "Proposes a county-funded foster care support system and a reentry program for people leaving jail.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Proposes raising the county homestead exemption from 1% to 20%.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Calls for weekend Commissioners Court sessions, livestreamed and archived meetings, and published budgets and contracts.",
+     "sources": [
+      "s2",
+      "s3"
+     ]
+    }
+   ],
+   "promises": [
+    {
+     "text": "Says he would raise the homestead exemption each June until it reaches 20% and would apply for the county to be a federal summer meals sponsor.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says he would sign a countywide voting letter in his first week.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says he would remove Flock cameras from county property and the budget, and would offer no county tax breaks for data centers.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Says he would end 287(g) immigration enforcement outside the jail.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "record": [],
+   "notes": [],
+   "stances": {
+    "q_county_mental": {
+     "position": 2,
+     "basis": "statement",
+     "summary": "Proposes a public county hospital with mental health and addiction treatment centers and expanded evidence-based jail and reentry programs.",
+     "sources": [
+      "s1",
+      "s2",
+      "s3"
+     ]
+    },
+    "q_county_tax": {
+     "position": 0,
+     "basis": "questionnaire",
+     "summary": "Proposes a 20% homestead exemption for homeowners while directing county funds to new food, health, foster care and reentry programs; Branch reports he would start any new taxes with businesses.",
+     "sources": [
+      "s1",
+      "s3"
+     ]
+    }
+   },
+   "issue_notes": [
+    {
+     "topic": "Public Safety",
+     "summary": "Supports limiting gun access for children, people with felony convictions, and people deemed mentally unstable, and calls for stable first responder funding.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "topic": "Immigration",
+     "summary": "Says he would end 287(g) immigration enforcement outside the county jail.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Meet the candidates running for Denton County judge",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/frisco/election/meet-the-candidates-running-for-denton-county-judge/",
+     "date": "2026-09-29"
+    },
+    {
+     "id": "s2",
+     "title": "Pappas for Denton County",
+     "publisher": "Nick Pappas campaign",
+     "url": "https://pappasfordenton.com",
+     "date": null
+    },
+    {
+     "id": "s3",
+     "title": "Nick Pappas, Denton County Judge",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-judge-tx-county-denton/candidates/nick-pappas",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "No documented positions on water funding or state preemption were found."
+  },
+  {
+   "id": "juli-luke",
+   "race_id": "denton-county-clerk",
+   "incumbent": true,
+   "current_role": "Denton County Clerk",
+   "background": "Juli Luke is the elected Denton County Clerk. She reports nine years of experience in the clerk's office before 12 years as the elected official, and previously worked for a school district. She says she has never run for another office.",
+   "website": null,
+   "priorities": [
+    {
+     "text": "Says she will keep advancing the office through innovation and continuous improvement.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Identifies supporting a rapidly growing county while balancing resources and customer service as the office's greatest challenge.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Lists preserving Denton County's historical records as a priority.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Cites working relationships with local, state and federal leaders, including on legislation affecting the office.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Q&A: Meet the candidates running for Denton County Clerk",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/denton/election/q-a-meet-the-candidates-running-for-denton-county-clerk/",
+     "date": "2026-10-07"
+    },
+    {
+     "id": "s2",
+     "title": "Juli Luke, Denton County Clerk",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-clerk-tx-county-denton/candidates/juli-luke",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "No campaign website, education details, or specific office performance data were found."
+  },
+  {
+   "id": "dale-frey",
+   "race_id": "denton-county-clerk",
+   "incumbent": false,
+   "current_role": "Former federal web developer and systems administrator",
+   "background": "Dale Frey is a George Mason University graduate who worked at the U.S. Department of Education headquarters and as a web developer and systems administrator with the General Services Administration, the U.S. Geological Survey and NOAA. He previously ran unsuccessfully for Texas Senate District 30.",
+   "website": "https://freyfortexas.com",
+   "priorities": [
+    {
+     "text": "Pledges to serve residents professionally, respectfully, fairly and lawfully while protecting the integrity of records.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Supports countywide Election Day voting centers so voters can cast ballots at any open polling place.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [
+    {
+     "text": "Calls for public funding of passports and related documents if lawmakers require documentary proof of citizenship for voter registration.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "record": [],
+   "notes": [
+    {
+     "text": "Did not respond to the Community Impact questionnaire for the county clerk race.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Dale Frey, Denton County Clerk",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-clerk-tx-county-denton/candidates/dale-frey",
+     "date": "2026-07"
+    },
+    {
+     "id": "s2",
+     "title": "Q&A: Meet the candidates running for Denton County Clerk",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/denton/election/q-a-meet-the-candidates-running-for-denton-county-clerk/",
+     "date": "2026-10-07"
+    }
+   ],
+   "research_gaps": "Only one detailed profile (Branch) was found; no news coverage of his background was located."
+  },
+  {
+   "id": "kevin-falconer",
+   "race_id": "denton-commissioner-2",
+   "incumbent": true,
+   "current_role": "Denton County Commissioner, Precinct 2",
+   "background": "Kevin Falconer is a registered architect who holds a bachelor's degree in architecture and an MBA from Texas Tech University. He served on the Carrollton City Council from 2009 to 2015 and as Carrollton mayor from 2017 to 2022 before winning the Precinct 2 commissioner seat. He has lived in Carrollton and Denton County for 32 years.",
+   "website": "https://votefalconer.com",
+   "priorities": [
+    {
+     "text": "Campaigns on cutting the tax burden, fighting inflation, strengthening public safety and reducing traffic.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Supports budgets meant to keep Denton County tax burdens low and opposes wasteful spending and unnecessary regulation.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says he works with local entities to plan infrastructure ahead of development.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "As Carrollton mayor he says the city cut its tax rate six years in a row.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says he is working to convert a county-purchased five-story office building into a new Denton County Civil Courts Building.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says he has used $650 million in county bonds for new roads and bridges and consistently votes to support the Sheriff's Office.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Sits on the Commissioners Court that received the FY2027 recommended budget with a tax rate of $0.183394 per $100, the lowest since at least 1986.",
+     "sources": [
+      "s4"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Was one of three Republicans in the 2022 primary for the open Precinct 2 seat.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "stances": {
+    "q_county_tax": {
+     "position": 1,
+     "basis": "statement",
+     "summary": "Campaigns on cutting the tax burden and supports budgets that keep county tax burdens low.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    }
+   },
+   "issue_notes": [
+    {
+     "topic": "Public Safety",
+     "summary": "Says he works with law enforcement on crime, including drug and human trafficking.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Kevin Falconer, Denton County Commissioner, Precinct 2",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-commissioner-tx-denton-county-district-2/candidates/kevin-falconer",
+     "date": "2026-07"
+    },
+    {
+     "id": "s2",
+     "title": "Kevin Falconer for Denton County Commissioner",
+     "publisher": "Kevin Falconer campaign",
+     "url": "https://votefalconer.com",
+     "date": null
+    },
+    {
+     "id": "s3",
+     "title": "Denton County primary filings end: See who's running",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/lewisville-flower-mound-highland-village/election/denton-county-primary-filings-end-see-whos-running/",
+     "date": "2021-12-17"
+    },
+    {
+     "id": "s4",
+     "title": "FY 2027 Recommended Budget Summary",
+     "publisher": "Denton County Budget Office",
+     "url": "https://www.dentoncounty.gov/DocumentCenter/View/12412/FY-2027-Recommended-Budget-Summary-PDF",
+     "date": "2026-08-18"
+    }
+   ],
+   "research_gaps": "No questionnaire answers or positions on water, mental health or state preemption were found, and individual votes were not located."
+  },
+  {
+   "id": "candace-valenzuela",
+   "race_id": "denton-commissioner-2",
+   "incumbent": false,
+   "current_role": "Former HUD Regional Administrator",
+   "background": "Candace Valenzuela was born in El Paso in 1984 and earned a bachelor's degree in government from Claremont McKenna College. She is a former educator who served on the Carrollton-Farmers Branch ISD board from 2017 to 2019 and was the 2020 Democratic nominee for Texas's 24th Congressional District, losing to Republican Beth Van Duyne. From 2022 to 2025 she was HUD regional administrator for Texas, Oklahoma, New Mexico, Louisiana and Arkansas.",
+   "website": "https://candacefordentoncounty.com",
+   "priorities": [
+    {
+     "text": "Campaigns on making housing more affordable in Denton County.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    },
+    {
+     "text": "Says she will invest in infrastructure that keeps pace with growth.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    },
+    {
+     "text": "Calls for county government that is transparent, accountable and focused on the people it serves.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Served as a Carrollton-Farmers Branch ISD trustee from 2017 until resigning in December 2019.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Appointed by President Joe Biden in March 2022 as HUD regional administrator for Region 6.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Unopposed in the 2026 Democratic primary for Precinct 2.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [
+    {
+     "topic": "Housing",
+     "summary": "Cites her own experience of housing insecurity growing up and her HUD background in campaigning on housing affordability.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Candace Valenzuela for Denton County",
+     "publisher": "Candace Valenzuela campaign",
+     "url": "https://candacefordentoncounty.com",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Candace Valenzuela, Denton County Commissioner, Precinct 2",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-commissioner-tx-denton-county-district-2/candidates/candace-valenzuela",
+     "date": "2026-07"
+    },
+    {
+     "id": "s3",
+     "title": "Candace Valenzuela",
+     "publisher": "Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Candace_Valenzuela",
+     "date": null
+    }
+   ],
+   "research_gaps": "No positions were found on county taxes, mental health spending, water funding or state preemption."
+  },
+  {
+   "id": "david-wylie",
+   "race_id": "denton-commissioner-4",
+   "incumbent": false,
+   "current_role": "Application developer and systems architect",
+   "background": "David Wylie is an application developer at Pratt & Whitney who previously worked for American Airlines, Citi and other firms. He holds an associate's degree in business management from Tarrant County College and lives in Argyle. He won the May 2026 Republican runoff for the open Precinct 4 seat, previously held by Dianne Edmondson, over Valerie Roehrs. This is his first run for office.",
+   "website": "https://wyliefordenton.com",
+   "priorities": [
+    {
+     "text": "Says he will review the county budget, which he says has more than doubled in eight years, to find ways to spend less.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    },
+    {
+     "text": "Supports Sheriff Tracy Murphree's use of the 287(g) program, which he says will ease the burden on jails.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    },
+    {
+     "text": "Calls out-of-control growth a major challenge and supports building roads before new residential and commercial development.",
+     "sources": [
+      "s1",
+      "s3"
+     ]
+    },
+    {
+     "text": "Says he will stand against what he calls Islamic development in the county.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    },
+    {
+     "text": "Supports limiting high-density development and keeping the county focused on essential services.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Won the May 26, 2026 Republican runoff for Precinct 4 by a narrow margin over Valerie Roehrs.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {
+    "q_county_tax": {
+     "position": 2,
+     "basis": "questionnaire",
+     "summary": "Names taxes as a major challenge, says he will cut spending, and says the county should focus only on essential services and use growth revenue to lower taxes.",
+     "sources": [
+      "s1",
+      "s2",
+      "s3"
+     ]
+    }
+   },
+   "issue_notes": [
+    {
+     "topic": "Growth",
+     "summary": "Says the county should build roads and infrastructure before approving new development and should limit high-density housing.",
+     "sources": [
+      "s1",
+      "s3"
+     ]
+    },
+    {
+     "topic": "Immigration",
+     "summary": "Supports the sheriff's 287(g) program with federal immigration authorities.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Q&A: Meet the candidates running for Denton County Commissioners Court, Precinct 4",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/denton/election/q-a-meet-the-candidates-running-for-denton-county-commissioners-court-precinct-4/",
+     "date": "2026-09-21"
+    },
+    {
+     "id": "s2",
+     "title": "Q&A: Wylie, Roehrs to face off in Republican primary runoff for Denton County Commissioners Court Precinct 4",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/dallas-fort-worth/denton/election/2026/05/07/qa-wylie-roehrs-to-face-off-in-republican-primary-runoff-for-denton-county-commissioners-court-precinct-4/",
+     "date": "2026-05-07"
+    },
+    {
+     "id": "s3",
+     "title": "David Wylie, Denton County Commissioner, Precinct 4",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-commissioner-tx-denton-county-district-4/candidates/david-wylie",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "No documented positions on mental health spending, water funding or state preemption were found."
+  },
+  {
+   "id": "stephanie-draper",
+   "race_id": "denton-commissioner-4",
+   "incumbent": false,
+   "current_role": "Small business owner and consultant",
+   "background": "Stephanie Draper is a small business owner, benefits specialist and small business consultant who cites 25 years of corporate management experience. She hosts the podcast Let's Talk About It, Steph. She previously ran against Tan Parker for Texas Senate District 12.",
+   "website": "https://draperfortexas.com",
+   "priorities": [
+    {
+     "text": "Campaigns on improving roads, with repairs prioritized using community-sourced data.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    },
+    {
+     "text": "Says data center companies should get no tax breaks unless they are transparent about water usage and invest in communities first.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Supports countywide Election Day voting centers.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    },
+    {
+     "text": "Supports first-time homeowner grants, small business grants and expanded public transit in Precinct 4, including links to UNT and TWU.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "promises": [
+    {
+     "text": "Says she will hold regular town halls for precinct residents.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "record": [],
+   "notes": [],
+   "stances": {
+    "q_county_tax": {
+     "position": 0,
+     "basis": "reported",
+     "summary": "Supports protecting residents from unnecessary property tax increases and prioritizing core services, while also calling for more emergency services funding and expanded transit.",
+     "sources": [
+      "s2"
+     ]
+    }
+   },
+   "issue_notes": [
+    {
+     "topic": "Data Centers",
+     "summary": "Would condition any county tax breaks for data centers on water usage transparency and community investment.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Q&A: Meet the candidates running for Denton County Commissioners Court, Precinct 4",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/denton/election/q-a-meet-the-candidates-running-for-denton-county-commissioners-court-precinct-4/",
+     "date": "2026-09-21"
+    },
+    {
+     "id": "s2",
+     "title": "Stephanie Draper, Denton County Commissioner, Precinct 4",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-commissioner-tx-denton-county-district-4/candidates/stephanie-draper-1",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "No positions were found on mental health spending, water funding or state preemption."
+  },
+  {
+   "id": "alan-wheeler",
+   "race_id": "denton-jp-1",
+   "incumbent": true,
+   "current_role": "Denton County Justice of the Peace, Precinct 1, since 2023",
+   "background": "Alan Wheeler took office as Precinct 1 justice of the peace on January 1, 2023, after serving as an assistant district attorney and running a private law practice. He has a finance degree from Ouachita Baptist University and a law degree. He is secretary of the Denton County Republican Party.",
+   "website": "https://alanwheelerfordenton.com",
+   "priorities": [
+    {
+     "text": "Says he will expand online tools for easier access to justice.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Says he will maintain accountability in school truancy programs and strengthen collaboration with law enforcement and schools.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Says he will keep taxpayer costs low while delivering service.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Cites cleared case backlogs, faster small claims resolution and expanded online tools during his first term.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Defeated Steven Oliver in the March 2026 Republican primary with about 61% of the vote.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Results: Mix of incumbents, newcomers win Denton County justice of the peace races",
+     "publisher": "Denton Record-Chronicle",
+     "url": "https://dentonrc.com/news/politics/results-mix-of-incumbents-newcomers-win-denton-county-justice-of-the-peace-races-precinct-2/article_f9fb9dc8-0a12-4dee-be81-6f96448164dc.html",
+     "date": "2026-03-04"
+    },
+    {
+     "id": "s2",
+     "title": "Alan Wheeler, Denton Justice of the Peace, Precinct 1",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-denton-justice-precinct-1/candidates/alan-wheeler",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "No published judicial philosophy statement was found."
+  },
+  {
+   "id": "brandon-mcgee",
+   "race_id": "denton-jp-1",
+   "incumbent": false,
+   "current_role": "Denton City Council member, Place 5",
+   "background": "Brandon McGee is serving his second term on the Denton City Council in the at-large Place 5 seat, first elected in 2022. He holds a bachelor's degree in history and political science from the University of North Texas and works as a truck driver.",
+   "website": "https://mcgeefordenton.com",
+   "priorities": [
+    {
+     "text": "Wants to increase legal representation for tenants and expand mediation.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Supports alternatives to ticket fines, such as community service, under a compliance over cash approach.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Elected to the Denton City Council, Place 5, in 2022 and is serving a second term.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Unopposed in the March 2026 Democratic primary.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Results: Mix of incumbents, newcomers win Denton County justice of the peace races",
+     "publisher": "Denton Record-Chronicle",
+     "url": "https://dentonrc.com/news/politics/results-mix-of-incumbents-newcomers-win-denton-county-justice-of-the-peace-races-precinct-2/article_f9fb9dc8-0a12-4dee-be81-6f96448164dc.html",
+     "date": "2026-03-04"
+    },
+    {
+     "id": "s2",
+     "title": "Brandon McGee, Denton Justice of the Peace, Precinct 1",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-denton-justice-precinct-1/candidates/brandon-mcgee",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "No legal experience or detailed judicial philosophy was found."
+  },
+  {
+   "id": "chris-pochyla",
+   "race_id": "denton-jp-2",
+   "incumbent": false,
+   "current_role": "Attorney; associate magistrate judge for Frisco and The Colony",
+   "background": "Chris Pochyla is an attorney who founded a law office in The Colony and serves as an associate magistrate judge for Frisco and The Colony, citing 24 years of legal experience. He holds a business degree from Texas A&M University and a law degree from SMU. This is his first run for public office; the seat is open after Judge James DePiazza, who held it since 2007, did not run.",
+   "website": null,
+   "priorities": [
+    {
+     "text": "Says he aims to run an efficient, accessible court.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Describes himself as a conservative who believes in the rule of law and equal justice under the Constitution, and says he will treat every person with dignity and respect.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Finished second (36.3%) to Chelsie Adams in the March 2026 Republican primary, advancing to the May 26 runoff; he is the Republican nominee on the November ballot.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Results: Mix of incumbents, newcomers win Denton County justice of the peace races",
+     "publisher": "Denton Record-Chronicle",
+     "url": "https://dentonrc.com/news/politics/results-mix-of-incumbents-newcomers-win-denton-county-justice-of-the-peace-races-precinct-2/article_f9fb9dc8-0a12-4dee-be81-6f96448164dc.html",
+     "date": "2026-03-04"
+    },
+    {
+     "id": "s2",
+     "title": "Chris Pochyla, Denton Justice of the Peace, Precinct 2",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-denton-justice-precinct-2/candidates/chris-pochyla",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "No campaign website or runoff vote totals were found."
+  },
+  {
+   "id": "katrina-d-moore",
+   "race_id": "denton-jp-2",
+   "incumbent": false,
+   "current_role": "Senior attorney and operations administrator, Akula & Associates, P.C.",
+   "background": "Katrina D. Moore is a senior attorney and operations administrator at Akula & Associates, P.C., an immigration law firm. She previously worked at Whitt Law Firm, Cowles & Thompson, Badmus Law Firm and Maryland Legal Aid, and as a sole practitioner. She has lived in Little Elm for nearly a decade and served on the 2025 Little Elm Charter Review Committee. This is her first run for office.",
+   "website": "https://katrinamooreforjp2.com",
+   "priorities": [
+    {
+     "text": "Says she will run a court that holds people accountable while helping them understand court processes and options.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Pledges transparency, willingness to explain decisions, and prompt handling of cases.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Pledges to apply the law equally regardless of background, status or circumstances.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed in the March 2026 Democratic primary.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Results: Mix of incumbents, newcomers win Denton County justice of the peace races",
+     "publisher": "Denton Record-Chronicle",
+     "url": "https://dentonrc.com/news/politics/results-mix-of-incumbents-newcomers-win-denton-county-justice-of-the-peace-races-precinct-2/article_f9fb9dc8-0a12-4dee-be81-6f96448164dc.html",
+     "date": "2026-03-04"
+    },
+    {
+     "id": "s2",
+     "title": "Katrina D. Moore, Denton Justice of the Peace, Precinct 2",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-denton-justice-precinct-2/candidates/katrina-d-moore",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "Law school and years of practice were not found."
+  },
+  {
+   "id": "james-kerbow",
+   "race_id": "denton-jp-3",
+   "incumbent": true,
+   "current_role": "Denton County Justice of the Peace, Precinct 3, since 2019",
+   "background": "James Kerbow is a Denton County native who was first elected Precinct 3 justice of the peace in 2018 and re-elected without opposition in 2022. He previously worked in property management and reports 10 years of work in justice of the peace courts in Collin and Dallas counties. He holds degrees from North Central Texas College, Oklahoma State University and the University of North Texas.",
+   "website": null,
+   "priorities": [
+    {
+     "text": "Says he will focus on using technology to make court processes more efficient.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Says he will keep a fiscally conservative budget.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Supports the truancy court's role in holding youth and parents accountable.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Says he made the court paperless and added Zoom access for hearings.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Won the March 2026 Republican primary with more than 76% of the vote over Daniel Caldwell, seeking a third term.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Results: Mix of incumbents, newcomers win Denton County justice of the peace races",
+     "publisher": "Denton Record-Chronicle",
+     "url": "https://dentonrc.com/news/politics/results-mix-of-incumbents-newcomers-win-denton-county-justice-of-the-peace-races-precinct-2/article_f9fb9dc8-0a12-4dee-be81-6f96448164dc.html",
+     "date": "2026-03-04"
+    },
+    {
+     "id": "s2",
+     "title": "James Kerbow, Denton Justice of the Peace, Precinct 3",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-denton-justice-precinct-3/candidates/james-kerbow",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "No campaign website or judicial philosophy statement was found."
+  },
+  {
+   "id": "trista-willeford",
+   "race_id": "denton-jp-3",
+   "incumbent": false,
+   "current_role": "Finance and accounting executive",
+   "background": "Trista Willeford has led finance and accounting organizations for more than 30 years. She has organized neighborhood assistance efforts and gatherings in Orchard Valley Estates.",
+   "website": "https://tristaforjustice.com",
+   "priorities": [
+    {
+     "text": "Says she will make the court more accessible through flexible options for people with work, physical access or scheduling barriers.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says she will streamline operations to reduce wait times and delays.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says she will work with Lewisville ISD on truancy prevention and family resources.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says judges should apply the law fairly, ensure people are heard and treat everyone with dignity.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Trista Willeford, Denton Justice of the Peace, Precinct 3",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-denton-justice-precinct-3/candidates/trista-willeford",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "Only a Branch profile was found; no news coverage, education or legal experience was located."
+  },
+  {
+   "id": "harris-hughey",
+   "race_id": "denton-jp-4",
+   "incumbent": true,
+   "current_role": "Denton County Justice of the Peace, Precinct 4",
+   "background": "Harris Hughey is the Precinct 4 justice of the peace, first elected in 2018. He previously practiced law privately, including criminal defense, and was a municipal prosecutor for the City of Northlake. He holds a business degree from Texas Wesleyan University and a law degree from the University of Tulsa, and lives in Northlake.",
+   "website": null,
+   "priorities": [
+    {
+     "text": "Says justice of the peace courts should apply the law fairly and impartially, with decisions following the evidence after hearing all parties.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says court users should have their day in court and be treated with courtesy and respect.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "First elected justice of the peace in 2018 and is completing his second term.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Unopposed in the March 2026 Republican primary.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Harris Hughey, Denton Justice of the Peace, Precinct 4",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-denton-justice-precinct-4/candidates/harris-hughey",
+     "date": "2026-07"
+    },
+    {
+     "id": "s2",
+     "title": "Results: Mix of incumbents, newcomers win Denton County justice of the peace races",
+     "publisher": "Denton Record-Chronicle",
+     "url": "https://dentonrc.com/news/politics/results-mix-of-incumbents-newcomers-win-denton-county-justice-of-the-peace-races-precinct-2/article_f9fb9dc8-0a12-4dee-be81-6f96448164dc.html",
+     "date": "2026-03-04"
+    }
+   ],
+   "research_gaps": "No campaign website or news coverage of his record was found."
+  },
+  {
+   "id": "will-robertson",
+   "race_id": "denton-jp-4",
+   "incumbent": false,
+   "current_role": "Owner of a photography and media business",
+   "background": "Will Robertson served five years in the U.S. Marine Corps as an infantry machine gunner and in the Marine Security Guard program at U.S. embassies in Dhaka, Tokyo and Paris. He owns a photography and media business in the Dallas-Fort Worth area. He holds a bachelor's degree from SMU and is completing a master's in political science at the University of Arizona.",
+   "website": "https://robertsonfortx.com",
+   "priorities": [
+    {
+     "text": "Supports a court that clearly explains procedures, options, deadlines and consequences.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Supports using judicial discretion, where the law allows, to resolve small-offense cases without accumulating fines, warrants and debt.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says decisions should rest on facts and law and that access to justice should not depend on income, race, age or language.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed in the March 2026 Democratic primary.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Will Robertson, Denton Justice of the Peace, Precinct 4",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-denton-justice-precinct-4/candidates/will-robertson",
+     "date": "2026-07"
+    },
+    {
+     "id": "s2",
+     "title": "Results: Mix of incumbents, newcomers win Denton County justice of the peace races",
+     "publisher": "Denton Record-Chronicle",
+     "url": "https://dentonrc.com/news/politics/results-mix-of-incumbents-newcomers-win-denton-county-justice-of-the-peace-races-precinct-2/article_f9fb9dc8-0a12-4dee-be81-6f96448164dc.html",
+     "date": "2026-03-04"
+    }
+   ],
+   "research_gaps": "No legal experience or news coverage was found."
+  },
+  {
+   "id": "vince-handler",
+   "race_id": "denton-jp-5",
+   "incumbent": false,
+   "current_role": "Litigator; volunteer Teen Court judge",
+   "background": "Vince Handler is a Frisco-based litigator and volunteer Teen Court judge with a law degree from Baylor University. He served more than 20 years in the U.S. Air Force, including as a special agent with the Office of Special Investigations and as an emergency management director. The seat is open because Judge Mike Oglesby did not seek re-election.",
+   "website": "https://handlerforjudge.com",
+   "priorities": [
+    {
+     "text": "Says he has handled thousands of cases in Denton County justice of the peace courts.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Won the March 2026 Republican primary with about 61% of the vote over Derek Gurley.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Endorsed in the primary by U.S. Rep. Brandon Gill and the Denton County sheriff.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Vice president of the Denton County Republican Veterans club and a VFW member; has served as a precinct chair and election judge.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Results: Mix of incumbents, newcomers win Denton County justice of the peace races",
+     "publisher": "Denton Record-Chronicle",
+     "url": "https://dentonrc.com/news/politics/results-mix-of-incumbents-newcomers-win-denton-county-justice-of-the-peace-races-precinct-2/article_f9fb9dc8-0a12-4dee-be81-6f96448164dc.html",
+     "date": "2026-03-04"
+    },
+    {
+     "id": "s2",
+     "title": "Vince Handler, Denton Justice of the Peace, Precinct 5",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-denton-justice-precinct-5/candidates/vince-handler",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "No stated judicial philosophy or court administration plans were found."
+  },
+  {
+   "id": "patrece-perry",
+   "race_id": "denton-jp-5",
+   "incumbent": false,
+   "current_role": "Business professional",
+   "background": "Patrece Perry lives in Prosper and holds a bachelor's degree in business administration from the University of Tulsa. She has worked as a consumer affairs analyst at Transamerica and owned and ran HealthCare Assistance at Home in Southlake from 2011 to 2014.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed in the March 2026 Democratic primary.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Results: Mix of incumbents, newcomers win Denton County justice of the peace races",
+     "publisher": "Denton Record-Chronicle",
+     "url": "https://dentonrc.com/news/politics/results-mix-of-incumbents-newcomers-win-denton-county-justice-of-the-peace-races-precinct-2/article_f9fb9dc8-0a12-4dee-be81-6f96448164dc.html",
+     "date": "2026-03-04"
+    },
+    {
+     "id": "s2",
+     "title": "Patrece Perry, Denton Justice of the Peace, Precinct 5",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-denton-justice-precinct-5/candidates/patrece-perry",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "No campaign website, priorities, legal experience or judicial philosophy were found."
+  },
+  {
+   "id": "blanca-oliver",
+   "race_id": "denton-jp-6",
+   "incumbent": true,
+   "current_role": "Denton County Justice of the Peace, Precinct 6, since 2023",
+   "background": "Blanca Oliver took office as Precinct 6 justice of the peace on January 1, 2023. Originally from Mexico, she previously worked as a court interpreter, a truancy court juvenile case manager and a paralegal, and is a certified mediator. She holds a psychology degree from Texas Woman's University and a master's in dispute resolution from SMU, and serves on the faculty of the Justice Court Training Center.",
+   "website": "https://blancaoliver.org",
+   "priorities": [
+    {
+     "text": "Says she runs a fair, compassionate and well-managed court.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Uses Spanish in court to help ensure access to justice.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Took office January 1, 2023, after winning the 2022 election for Precinct 6.",
+     "sources": [
+      "s1",
+      "s3"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Unopposed in the March 2026 Republican primary.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Teaches justices of the peace, clerks and constables through the Justice Court Training Center.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Results: Mix of incumbents, newcomers win Denton County justice of the peace races",
+     "publisher": "Denton Record-Chronicle",
+     "url": "https://dentonrc.com/news/politics/results-mix-of-incumbents-newcomers-win-denton-county-justice-of-the-peace-races-precinct-2/article_f9fb9dc8-0a12-4dee-be81-6f96448164dc.html",
+     "date": "2026-03-04"
+    },
+    {
+     "id": "s2",
+     "title": "Blanca Oliver, Denton Justice of the Peace, Precinct 6",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-denton-justice-precinct-6/candidates/blanca-oliver",
+     "date": "2026-08"
+    },
+    {
+     "id": "s3",
+     "title": "Denton County primary filings end: See who's running",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/lewisville-flower-mound-highland-village/election/denton-county-primary-filings-end-see-whos-running/",
+     "date": "2021-12-17"
+    }
+   ],
+   "research_gaps": "No published judicial philosophy statement was found."
+  },
+  {
+   "id": "michelle-butler",
+   "race_id": "denton-jp-6",
+   "incumbent": false,
+   "current_role": "Political strategist",
+   "background": "Michelle Butler is a political strategist who has worked on presidential campaigns for Elizabeth Warren, Joe Biden and Kamala Harris and served as Texas state director for Run for Something. This is her first run for public office.",
+   "website": "https://michelleforjustice.com",
+   "priorities": [
+    {
+     "text": "Lists community courts, fewer default judgments, expanded mediation, multilingual materials and evening court hours as priorities.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says she will make the court a trusted resource and connect residents with services.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Defeated Sophia Anwar in the March 2026 Democratic primary with 56.4% of the vote.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Results: Mix of incumbents, newcomers win Denton County justice of the peace races",
+     "publisher": "Denton Record-Chronicle",
+     "url": "https://dentonrc.com/news/politics/results-mix-of-incumbents-newcomers-win-denton-county-justice-of-the-peace-races-precinct-2/article_f9fb9dc8-0a12-4dee-be81-6f96448164dc.html",
+     "date": "2026-03-04"
+    },
+    {
+     "id": "s2",
+     "title": "Michelle Butler, Denton Justice of the Peace, Precinct 6",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-denton-justice-precinct-6/candidates/michelle-butler",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "No legal experience or education details were found."
+  },
+  {
+   "id": "sarah-moore",
+   "race_id": "district-512",
+   "incumbent": true,
+   "current_role": "Judge, 512th Judicial District Court, Williamson County, since March 2026 (appointed)",
+   "background": "Sarah Moore of Liberty Hill was appointed by Gov. Greg Abbott in March 2026 as the first judge of the newly created 512th District Court. She was an assistant district attorney in the 26th Judicial District Attorney's Office and describes herself as a career prosecutor and board-certified attorney who has tried more than 100 felony jury cases. She holds a business degree from the University of Phoenix and a law degree from St. Mary's University School of Law.",
+   "website": "https://mooreforwilco.com",
+   "priorities": [
+    {
+     "text": "Describes herself as a leader in ethics and victim advocacy.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Appointed March 13, 2026, to serve through December 31, 2026, or until a successor is elected.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Memberships include the Williamson County Bar Association, the Williamson County Inns of Court and the Texas District & County Attorneys Association.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Chairs the Georgetown Rotary Club's Human Trafficking Awareness Committee and serves on the WilCo Women's Center executive board.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Lists membership in several Republican clubs, including the Georgetown Area Republican Women.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Governor Abbott Appoints Moore To 512th Judicial District Court In Williamson County",
+     "publisher": "Office of the Texas Governor",
+     "url": "https://gov.texas.gov/news/post/governor-abbott-appoints-moore-to-512th-judicial-district-court-in-williamson-county",
+     "date": "2026-03-13"
+    },
+    {
+     "id": "s2",
+     "title": "Sarah Moore, Texas District Judge, District 512",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-district-judge-tx-judicial-district-512/candidates/sarah-moore",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "No published judicial philosophy, rulings, primary results or bar poll results were found."
+  },
+  {
+   "id": "leslie-booker",
+   "race_id": "district-512",
+   "incumbent": false,
+   "current_role": "Attorney in private practice, Georgetown",
+   "background": "Leslie Andrews Booker is a Georgetown attorney with more than 30 years of courtroom experience. She was a public defender for juveniles in Baltimore and an assistant state's attorney, then a chief felony prosecutor in the 277th District Court in Williamson County and head of the Child Abuse, Juvenile and CPS units in the Travis County District Attorney's Office. She says she was the first African American prosecutor in Williamson County and now represents indigent clients facing felony charges.",
+   "website": "https://booker4judge.com",
+   "priorities": [
+    {
+     "text": "Says judges should be fair, impartial and guided by the rule of law, and that political affiliation has no place in a courtroom.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    },
+    {
+     "text": "Says her top priority is protecting children, seniors and small businesses by holding dangerous individuals accountable.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Supports rehabilitation for people who struggle with addiction and are not a public threat, and plans to work with employers on reentry.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Announced her candidacy on the Williamson County courthouse steps on October 15, 2025.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Leslie Booker announces candidacy for 512th District Court",
+     "publisher": "Williamson County Sun",
+     "url": "https://www.wilcosun.com/news-georgetown-jarrell-liberty-hill-florence-hutto-taylor-east-williamson-county-round-rock-292",
+     "date": "2025-10-28"
+    },
+    {
+     "id": "s2",
+     "title": "Leslie Booker, Texas District Judge, District 512",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-district-judge-tx-judicial-district-512/candidates/leslie-booker",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "Education and bar poll results were not found."
+  },
+  {
+   "id": "steve-snell",
+   "race_id": "williamson-county-judge",
+   "incumbent": true,
+   "current_role": "Williamson County Judge since April 2025 (appointed)",
+   "background": "Steve Snell was appointed Williamson County judge by the Commissioners Court on a 3-1 vote in March 2025 after Bill Gravell resigned. He spent about three decades in public schools, including six years as Liberty Hill ISD superintendent, and previously led Spring Hill ISD and was an assistant superintendent in Hutto ISD. He holds bachelor's and master's degrees from Texas Tech University and lives in Leander.",
+   "website": "https://www.texansforsnell.com",
+   "priorities": [
+    {
+     "text": "Lists public safety, infrastructure and responsible growth, long-term water security, and fiscal responsibility with low taxes as priorities.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says the county's population is expected to double by 2050 and that roads and quality of life must keep pace.",
+     "sources": [
+      "s1",
+      "s5"
+     ]
+    },
+    {
+     "text": "Supports high school programs tied to local job needs.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Appointed county judge by a 3-1 Commissioners Court vote in March 2025 to serve until the November 2026 election.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Sponsored a $500,000 countywide water supply study, which he says covers both rural and city residents.",
+     "sources": [
+      "s3",
+      "s4"
+     ]
+    },
+    {
+     "text": "Says he led the court in approving large pay raises for Sheriff's deputies.",
+     "sources": [
+      "s3",
+      "s4"
+     ]
+    },
+    {
+     "text": "In 2025 the Commissioners Court he chairs adopted a FY2025-26 budget at the voter-approval tax rate of $0.413776, a 3.4% rate increase; Snell said residents should all be frustrated.",
+     "sources": [
+      "s6"
+     ]
+    },
+    {
+     "text": "In September 2026 the court adopted a $712.9 million FY2026-27 budget at the no-new-revenue rate of $0.421547; Snell said he was happy to hold to the no-new-revenue rate.",
+     "sources": [
+      "s5"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Unopposed in the March 2026 Republican primary.",
+     "sources": [
+      "s7"
+     ]
+    }
+   ],
+   "stances": {
+    "q_county_tax": {
+     "position": 1,
+     "basis": "questionnaire",
+     "summary": "Lists fiscal responsibility with low taxes as a priority and praised holding the 2026-27 budget to the no-new-revenue rate.",
+     "sources": [
+      "s1",
+      "s5"
+     ]
+    },
+    "q_water": {
+     "position": 1,
+     "basis": "record",
+     "summary": "Sponsored a $500,000 county water supply study and calls long-term water security a key priority.",
+     "sources": [
+      "s1",
+      "s3",
+      "s4"
+     ]
+    }
+   },
+   "issue_notes": [
+    {
+     "topic": "Transportation",
+     "summary": "Calls for coordination with the state, cities, TxDOT, CAMPO and CAPCOG on mobility as the county grows.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Q&A: Meet the candidates for Williamson County judge",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/georgetown/election/qa-meet-the-candidates-for-williamson-county-judge/",
+     "date": "2026-08-21"
+    },
+    {
+     "id": "s2",
+     "title": "Williamson County Judge Steven Snell appointed",
+     "publisher": "KUT",
+     "url": "https://www.kut.org/politics/2025-03-28/williamson-county-judge-steven-snell-bill-gravell-texas",
+     "date": "2025-03-28"
+    },
+    {
+     "id": "s3",
+     "title": "Steve Snell, Williamson County Judge",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-judge-tx-county-williamson/candidates/steve-snell",
+     "date": "2026-07"
+    },
+    {
+     "id": "s4",
+     "title": "Texans for Snell",
+     "publisher": "Steve Snell campaign",
+     "url": "https://www.texansforsnell.com/",
+     "date": null
+    },
+    {
+     "id": "s5",
+     "title": "Williamson County adopts $712.9M budget, no-new-revenue tax rate",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/georgetown/government/williamson-county-adopts-7129m-budget-no-new-revenue-tax-rate/",
+     "date": "2026-09-04"
+    },
+    {
+     "id": "s6",
+     "title": "Williamson County Commissioners Court approves property tax increase and budget",
+     "publisher": "KXAN",
+     "url": "https://www.kxan.com/news/local/williamson-county/williamson-county-commissioners-court-approves-property-tax-increase-and-budget/amp",
+     "date": "2025"
+    },
+    {
+     "id": "s7",
+     "title": "Here are the candidates running in Williamson County races in 2026",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/georgetown/government/here-are-the-candidates-running-in-williamson-county-races-in-2026/",
+     "date": "2025-12-09"
+    }
+   ],
+   "research_gaps": "Individual votes on county budgets and positions on mental health spending and state preemption were not found."
+  },
+  {
+   "id": "heather-jefts",
+   "race_id": "williamson-county-judge",
+   "incumbent": false,
+   "current_role": "Small business owner; former Cedar Park City Council member",
+   "background": "Heather Jefts founded Tempo Swimming, a swim instruction business, and previously worked at a genomic sequencing facility and as a veterinary surgical technician. She served four terms on the Cedar Park City Council and resigned in October 2025 to run for county judge. She holds a degree in sustainability and economics from UT Austin and moved to Cedar Park in 2005.",
+   "website": "https://jeftsforjudge.com",
+   "priorities": [
+    {
+     "text": "Calls for transparent county business with real public notice and community input.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Lists protecting water supplies and the power grid, lowering the cost of living, and rural health care access as priorities.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Proposes a countywide Mobility Master Plan with smart traffic signals, plus expanded regional transit.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Cites the county's debt per capita and says taxpayers should not be overburdened.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [
+    {
+     "text": "Proposes a Crimes Against Children task force and a county medical examiner's office.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "record": [
+    {
+     "text": "On the Cedar Park council she says she helped pass the city's first homestead exemption and lowered the city tax rate annually while paying down more than $21 million in debt early.",
+     "sources": [
+      "s2",
+      "s3"
+     ]
+    },
+    {
+     "text": "Says she helped fund a joint mental health task force with law enforcement and Bluebonnet Mental Health Services.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Says she led a voter-approved drainage initiative and a program using treated water to irrigate parks.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Resigned from the Cedar Park City Council in October 2025 to run; unopposed in the Democratic primary.",
+     "sources": [
+      "s4"
+     ]
+    }
+   ],
+   "stances": {
+    "q_county_tax": {
+     "position": 1,
+     "basis": "record",
+     "summary": "Points to a city homestead exemption and annual tax rate cuts on the Cedar Park council and says county taxpayers should not be overburdened.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    },
+    "q_county_mental": {
+     "position": 1,
+     "basis": "record",
+     "summary": "Helped fund a Cedar Park mental health task force pairing law enforcement with Bluebonnet Mental Health Services.",
+     "sources": [
+      "s2"
+     ]
+    }
+   },
+   "issue_notes": [
+    {
+     "topic": "Water",
+     "summary": "Calls for protecting water supplies and for water conservation and integration projects.",
+     "sources": [
+      "s1",
+      "s3"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Q&A: Meet the candidates for Williamson County judge",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/georgetown/election/qa-meet-the-candidates-for-williamson-county-judge/",
+     "date": "2026-08-21"
+    },
+    {
+     "id": "s2",
+     "title": "Heather Jefts, Williamson County Judge",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-judge-tx-county-williamson/candidates/heather-jefts",
+     "date": "2026-07"
+    },
+    {
+     "id": "s3",
+     "title": "Jefts for Judge",
+     "publisher": "Heather Jefts campaign",
+     "url": "https://jeftsforjudge.com",
+     "date": null
+    },
+    {
+     "id": "s4",
+     "title": "Here are the candidates running in Williamson County races in 2026",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/georgetown/government/here-are-the-candidates-running-in-williamson-county-races-in-2026/",
+     "date": "2025-12-09"
+    }
+   ],
+   "research_gaps": "No documented position on state preemption or a specific county water funding level was found."
+  },
+  {
+   "id": "bill-fairbrother",
+   "race_id": "williamson-county-clerk",
+   "incumbent": false,
+   "current_role": "Chief Deputy County Clerk, Williamson County",
+   "background": "Bill Fairbrother has been chief deputy to Williamson County Clerk Nancy Rister for about three years after serving as a deputy clerk, and oversees the office's call center. He previously worked in technology at IBM and Dell and ran Fairbrother Consulting Services. He holds a mathematics and computer science degree from Baylor University and a master's in mathematics from Indiana University.",
+   "website": "https://billfairbrother.com",
+   "priorities": [
+    {
+     "text": "Says he will maintain vital, judicial, commissioners court and public records with customer service grounded in his training.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says he will protect residents from identity theft and property fraud.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Names training and retaining staff within budget limits as a challenge.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Q&A: Meet the candidates for Williamson County clerk",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/georgetown/election/qa-meet-the-candidates-for-williamson-county-clerk/",
+     "date": "2026-08-24"
+    },
+    {
+     "id": "s2",
+     "title": "Bill Fairbrother, Williamson County Clerk",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-clerk-tx-county-williamson/candidates/william-fairbrother",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "No specific office modernization plans or endorsements were found."
+  },
+  {
+   "id": "erin-block",
+   "race_id": "williamson-county-clerk",
+   "incumbent": false,
+   "current_role": "Accountant; nonprofit and government finance professional",
+   "background": "Erin Block is an accountant and nonprofit and government finance professional who describes herself as a community advocate.",
+   "website": "https://erinforwilco.com",
+   "priorities": [
+    {
+     "text": "Says she will make county services easier to access and protect public records.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Plans to modernize services to cut wait times and expand online access.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    },
+    {
+     "text": "Says she will protect public records from cyber threats.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says residents should have clear expectations, reliable timelines and request status information.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Q&A: Meet the candidates for Williamson County clerk",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/georgetown/election/qa-meet-the-candidates-for-williamson-county-clerk/",
+     "date": "2026-08-24"
+    },
+    {
+     "id": "s2",
+     "title": "Erin Block, Williamson County Clerk",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-clerk-tx-county-williamson/candidates/erin-block",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "Education and employment history were not found."
+  },
+  {
+   "id": "catherine-totty",
+   "race_id": "williamson-tax-assessor",
+   "incumbent": true,
+   "current_role": "Williamson County Tax Assessor-Collector (interim appointee) since July 2026",
+   "background": "Catherine Totty was appointed interim Williamson County tax assessor-collector by the Commissioners Court on July 14, 2026, after Larry Gaddes resigned to join the Texas Department of Motor Vehicles. She has more than 25 years in banking and lending, most recently as a sales manager and mortgage loan originator at Cardinal Financial Company. She holds an English degree from the University of Houston-Victoria and teaches continuing education courses for Texas Realtors.",
+   "website": "https://votecatherinetotty.com",
+   "priorities": [
+    {
+     "text": "Emphasizes efficient operations, sound financial management and accountable services that protect taxpayer resources.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Prioritizes updating office processes and using technology to make services faster and more convenient.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Appointed by the Commissioners Court on July 14, 2026, and began serving July 21.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "County Judge Steve Snell said her financial background and leadership experience make her well prepared for the role.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Catherine Totty appointed Williamson County Tax Assessor-Collector, will begin serving July 21",
+     "publisher": "My Neighborhood News",
+     "url": "https://myneighborhoodnews.com/catherine-totty-appointed-williamson-county-tax-assessor-collector-will-begin-serving-july-21",
+     "date": "2026-07-17"
+    },
+    {
+     "id": "s2",
+     "title": "Williamson County commissioners tap Totty as new Tax Assessor-Collector",
+     "publisher": "Williamson County Sun",
+     "url": "https://www.wilcosun.com/node/7904",
+     "date": "2026-07-20"
+    },
+    {
+     "id": "s3",
+     "title": "Catherine Totty, Williamson County Tax Assessor-Collector",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-tax-assessor-collector-tx-county-williamson-special/candidates/catherine-totty",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "No detailed policy proposals or endorsements were found."
+  },
+  {
+   "id": "eric-hanke",
+   "race_id": "williamson-tax-assessor",
+   "incumbent": false,
+   "current_role": "Member services field representative, Texas County and District Retirement System",
+   "background": "Eric Hanke works as a member services field representative and financial educator for the Texas County and District Retirement System. He attended Southwestern University, grew up in the Dallas area and has owned a home in Liberty Hill for 10 years.",
+   "website": "https://hankefortexas.com",
+   "priorities": [
+    {
+     "text": "Says he will maintain customer service standards while improving tax office workflow and efficiency.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says he will use technology to modernize processes and reduce wait times.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says he will educate taxpayers on tax calculations, rates and their rights.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Eric Hanke, Williamson County Tax Assessor-Collector",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-tax-assessor-collector-tx-county-williamson-special/candidates/eric-hanke",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "Only a Branch profile was found; no news coverage of his nomination was located."
+  },
+  {
+   "id": "russ-boles",
+   "race_id": "williamson-commissioner-4",
+   "incumbent": true,
+   "current_role": "Williamson County Commissioner, Precinct 4, since 2019",
+   "background": "Russ Boles grew up in Round Rock and was elected Precinct 4 commissioner in 2018 and re-elected in 2022. He is a commercial broker with his family's commercial real estate firm, Summit Commercial, and co-owns an events center. He earned a business degree from Texas State University and a law degree from St. Mary's University School of Law.",
+   "website": "https://voterussboles.com",
+   "priorities": [
+    {
+     "text": "Says road planning protects taxpayers and gives families more time at home instead of in traffic.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says the county must partner with cities such as Round Rock, Hutto, Taylor and Jarrell on roads, water and public safety.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Calls the county a higher education desert and wants regional, workforce-focused four-year programs decided locally.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Supports keeping property taxes low while maintaining essential county services.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Says he helped bring Samsung's $18 billion facility to the county and prioritized County Roads 366 and 101 to serve it.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Says he supported property tax exemptions for first-time homeowners, seniors and people with disabilities, and overall rate cuts.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Says he supported requiring developers to demonstrate water availability before final project approval.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Says he increased the Sheriff's Office budget by $12 million with 15 new positions and expanded EMS to carry whole blood.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Sits on the Commissioners Court that adopted the FY2026-27 budget at the no-new-revenue tax rate in September 2026.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Unopposed in the March 2026 Republican primary.",
+     "sources": [
+      "s4"
+     ]
+    }
+   ],
+   "stances": {
+    "q_county_tax": {
+     "position": 1,
+     "basis": "reported",
+     "summary": "Supports keeping property taxes low while maintaining essential services and cites support for exemptions and rate cuts.",
+     "sources": [
+      "s2"
+     ]
+    }
+   },
+   "issue_notes": [
+    {
+     "topic": "Water",
+     "summary": "Supports requiring developers to show water availability before final approval and objects to wastewater discharge permits so residents can seek hearings.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "topic": "Growth",
+     "summary": "Supports requiring new municipal utility districts to maintain their own roads.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Q&A: Meet the candidates for Williamson County Precinct 4 commissioner",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/pflugerville-hutto/election/qa-meet-the-candidates-for-williamson-county-precinct-4-commissioner/",
+     "date": "2026-08-25"
+    },
+    {
+     "id": "s2",
+     "title": "Russ Boles, Williamson County Commissioner, Precinct 4",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-commissioner-tx-williamson-county-district-4-post-4/candidates/russ-boles",
+     "date": "2026-07"
+    },
+    {
+     "id": "s3",
+     "title": "Williamson County adopts $712.9M budget, no-new-revenue tax rate",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/georgetown/government/williamson-county-adopts-7129m-budget-no-new-revenue-tax-rate/",
+     "date": "2026-09-04"
+    },
+    {
+     "id": "s4",
+     "title": "Here are the candidates running in Williamson County races in 2026",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/georgetown/government/here-are-the-candidates-running-in-williamson-county-races-in-2026/",
+     "date": "2025-12-09"
+    }
+   ],
+   "research_gaps": "Individual budget votes and positions on mental health spending and state preemption were not found."
+  },
+  {
+   "id": "harmon-rhea",
+   "race_id": "williamson-commissioner-4",
+   "incumbent": false,
+   "current_role": "Business owner",
+   "background": "Harmon Rhea is a longtime Williamson County resident and business owner.",
+   "website": "https://harmonrhea.com",
+   "priorities": [
+    {
+     "text": "Supports transparent budgeting, efficient use of taxpayer money and opposes wasteful spending.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Supports small businesses, good-paying jobs and local economic development.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Supports increasing housing supply while protecting property values.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Supports improving roads, water and sewer systems without overburdening taxpayers.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Did not respond to the Community Impact questionnaire for the race.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Unopposed in the March 2026 Democratic primary.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Harmon Rhea, Williamson County Commissioner, Precinct 4",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-commissioner-tx-williamson-county-district-4-post-4/candidates/harmon-rhea",
+     "date": "2026-07"
+    },
+    {
+     "id": "s2",
+     "title": "Q&A: Meet the candidates for Williamson County Precinct 4 commissioner",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/pflugerville-hutto/election/qa-meet-the-candidates-for-williamson-county-precinct-4-commissioner/",
+     "date": "2026-08-25"
+    },
+    {
+     "id": "s3",
+     "title": "Here are the candidates running in Williamson County races in 2026",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/georgetown/government/here-are-the-candidates-running-in-williamson-county-races-in-2026/",
+     "date": "2025-12-09"
+    }
+   ],
+   "research_gaps": "Professional background details, education and specific positions on quiz topics were not found."
+  },
+  {
+   "id": "gregory-klaus",
+   "race_id": "bastrop-county-judge",
+   "incumbent": true,
+   "current_role": "Bastrop County Judge since 2023",
+   "background": "Gregory Klaus is a lifelong Bastrop County resident who won the county judge seat in 2022, defeating Democrat Dock Jackson. He describes himself as a conservative Republican with county leadership and public service experience.",
+   "website": "https://electgregoryklaus.com",
+   "priorities": [
+    {
+     "text": "Lists public safety, responsible growth and fiscal responsibility, including protecting taxpayers, as top priorities.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    },
+    {
+     "text": "Calls growth the county's biggest issue and says he will coordinate with county departments and cities to plan ahead.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Pledges to keep property taxes low while maintaining county services.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Won the 2022 general election for county judge over Democrat Dock Jackson, who received 32% of the vote.",
+     "sources": [
+      "s5"
+     ]
+    },
+    {
+     "text": "Cites a record of balanced budgets as county judge.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Won the March 2026 Republican primary over Donald Loucks with about 64% of the vote.",
+     "sources": [
+      "s4"
+     ]
+    },
+    {
+     "text": "Endorsed by Bastrop County Conservatives.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "stances": {
+    "q_county_tax": {
+     "position": 1,
+     "basis": "statement",
+     "summary": "Pledges to keep property taxes low while maintaining high-quality county services.",
+     "sources": [
+      "s3"
+     ]
+    },
+    "q_preemption": {
+     "position": -1,
+     "basis": "questionnaire",
+     "summary": "Supports counties having more authority over the road, water, drainage and emergency service impacts of large industrial developments, with clear rules that respect property rights.",
+     "sources": [
+      "s1"
+     ]
+    }
+   },
+   "issue_notes": [
+    {
+     "topic": "Growth",
+     "summary": "Wants growth managed to protect residents' quality of life and property rights.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Q&A: Meet the candidates for Bastrop County judge",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/bastrop-cedar-creek/election/q-a-meet-the-candidates-for-bastrop-county-judge/",
+     "date": "2026-09-17"
+    },
+    {
+     "id": "s2",
+     "title": "Q&A: Meet the candidates for Bastrop County judge",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/austin/bastrop-cedar-creek/government/2026/01/16/qa-meet-the-candidates-for-bastrop-county-judge",
+     "date": "2026-01-16"
+    },
+    {
+     "id": "s3",
+     "title": "Elect Gregory Klaus",
+     "publisher": "Gregory Klaus campaign",
+     "url": "https://electgregoryklaus.com/",
+     "date": null
+    },
+    {
+     "id": "s4",
+     "title": "2026 Primary Election",
+     "publisher": "The Elgin Courier",
+     "url": "https://www.elgincourier.com/article/4453,2026-primary-election",
+     "date": "2026-03-03"
+    },
+    {
+     "id": "s5",
+     "title": "Party chair resigns for county judge race",
+     "publisher": "The Elgin Courier",
+     "url": "https://www.elgincourier.com/article/4317,party-chair-resigns-for-county-judge-race",
+     "date": "2025-12-17"
+    }
+   ],
+   "research_gaps": "Education, prior career, and specific budget and tax rate votes were not found."
+  },
+  {
+   "id": "dock-jackson",
+   "race_id": "bastrop-county-judge",
+   "incumbent": false,
+   "current_role": "Retired Bastrop County employee; former Bastrop City Council member",
+   "background": "Dock Jackson served nearly three decades on the Bastrop City Council and retired from Bastrop County after almost 10 years in the County Judge's, County Clerk's and Justice of the Peace offices. He was a City of Austin special events manager and the first parks and recreation director for the City of Elgin. He chaired the Bastrop County Democratic Party until December 2025 and was the party's 2022 nominee for county judge.",
+   "website": "https://www.dockjackson.com",
+   "priorities": [
+    {
+     "text": "Lists managing growth while protecting water, affordability and rural quality of life as priorities.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Calls for a countywide master plan to improve roads, bridges, broadband, water and electricity.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says developers should help pay for the infrastructure their projects need and residents should have a meaningful voice in growth decisions.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Emphasizes bipartisan cooperation in county affairs.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Resigned as Bastrop County Democratic Party chair on December 3, 2025, to run; unopposed in the Democratic primary.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Lost the 2022 county judge race to Gregory Klaus with 32% of the vote.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Endorsed by former Bastrop County Commissioner Don Loucks.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Has served on the Texas Municipal League board, the State Bar of Texas Grievance Committee (appointed 2020) and the CASA board, and founded the Bastrop County MLK Holiday Commission walk.",
+     "sources": [
+      "s4"
+     ]
+    }
+   ],
+   "stances": {
+    "q_preemption": {
+     "position": -1,
+     "basis": "questionnaire",
+     "summary": "Wants stronger county authority over development standards, including roads, drainage, flood protection and water availability.",
+     "sources": [
+      "s1"
+     ]
+    }
+   },
+   "issue_notes": [
+    {
+     "topic": "Water",
+     "summary": "Names water as a growth priority and cites water systems in disaster preparedness.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Q&A: Meet the candidates for Bastrop County judge",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/bastrop-cedar-creek/election/q-a-meet-the-candidates-for-bastrop-county-judge/",
+     "date": "2026-09-17"
+    },
+    {
+     "id": "s2",
+     "title": "Party chair resigns for county judge race",
+     "publisher": "The Elgin Courier",
+     "url": "https://www.elgincourier.com/article/4317,party-chair-resigns-for-county-judge-race",
+     "date": "2025-12-17"
+    },
+    {
+     "id": "s3",
+     "title": "Dock Jackson for Bastrop County Judge",
+     "publisher": "Dock Jackson campaign",
+     "url": "https://www.dockjackson.com/",
+     "date": null
+    },
+    {
+     "id": "s4",
+     "title": "Biography",
+     "publisher": "Dock Jackson campaign",
+     "url": "https://www.dockjackson.com/biography",
+     "date": null
+    }
+   ],
+   "research_gaps": "No documented positions on county tax rates or mental health spending were found."
+  },
+  {
+   "id": "cindy-allen",
+   "race_id": "bastrop-jp-1",
+   "incumbent": true,
+   "current_role": "Bastrop County Justice of the Peace, Precinct 1",
+   "background": "Cindy Allen is the sitting Bastrop County Justice of the Peace for Precinct 1 and has held the seat since at least 2023.",
+   "website": "https://www.cindyallen.com",
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Listed by Bastrop County as the Precinct 1 justice of the peace and in a 2023 local officeholder guide; Branch lists her as the 2026 Republican nominee.",
+     "sources": [
+      "s1",
+      "s2",
+      "s3"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Justices of the Peace",
+     "publisher": "Bastrop County",
+     "url": "https://www.bastropcounty.gov/page/co.justice_peace",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Who represents me?",
+     "publisher": "The Elgin Courier",
+     "url": "https://www.elgincourier.com/article/1612,who-represents-me",
+     "date": "2023-08-30"
+    },
+    {
+     "id": "s3",
+     "title": "Bastrop Justice of the Peace, Precinct 1 (2026 general election)",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-bastrop-justice-precinct-1",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "Her campaign site could not be loaded, and no biography, priorities or record were found."
+  },
+  {
+   "id": "tamera-peterson-mcintyre",
+   "race_id": "bastrop-jp-1",
+   "incumbent": false,
+   "current_role": "",
+   "background": "Tamera Peterson McIntyre is the Democratic candidate for Bastrop County Justice of the Peace, Precinct 1. No further biographical information was found.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Listed as the Democratic candidate for Bastrop County Justice of the Peace, Precinct 1.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Bastrop Justice of the Peace, Precinct 1 (2026 general election)",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-bastrop-justice-precinct-1",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "No biography, priorities or qualifications were found; the campaign website linked from Branch did not show candidate content."
+  },
+  {
+   "id": "zachary-carter",
+   "race_id": "bastrop-jp-2",
+   "incumbent": true,
+   "current_role": "Bastrop County Justice of the Peace, Precinct 2",
+   "background": "Zachary Carter was appointed Precinct 2 justice of the peace by a unanimous vote of the Bastrop County Commissioners Court and ran as the incumbent in the 2024 Republican primary. He previously spent 16 years with the Bastrop County Sheriff's Office in corrections and law enforcement.",
+   "website": null,
+   "priorities": [
+    {
+     "text": "Said in 2024 he would work closely with law enforcement to promote public safety and use technology to support traffic enforcement.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Said in 2024 he would support practices that help violence victims and provide community resources about the justice court.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Appointed to the Precinct 2 seat by the Commissioners Court and led the five-candidate March 2024 Republican primary before a May runoff.",
+     "sources": [
+      "s2",
+      "s3"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Listed by Bastrop County as the Precinct 2 justice of the peace, and by Branch as the 2026 Republican nominee.",
+     "sources": [
+      "s1",
+      "s4"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Justices of the Peace",
+     "publisher": "Bastrop County",
+     "url": "https://www.bastropcounty.gov/page/co.justice_peace",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Q&A: Meet the Bastrop justice of the peace Precinct 2 candidates in the March primary election",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/bastrop/government/qa-meet-the-bastrop-justice-of-the-peace-precinct-2-candidates-in-the-march-primary-election/",
+     "date": "2024-02-03"
+    },
+    {
+     "id": "s3",
+     "title": "Bastrop voters turn out, Cook re-elected",
+     "publisher": "The Elgin Courier",
+     "url": "https://www.elgincourier.com/article/2576,bastrop-voters-turn-out-cook-re-elected",
+     "date": "2024-03-06"
+    },
+    {
+     "id": "s4",
+     "title": "Bastrop Justice of the Peace, Precinct 2 (2026 general election)",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-bastrop-justice-precinct-2",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "No 2026 campaign statements or website were found; priorities listed are from his 2024 campaign."
+  },
+  {
+   "id": "ruth-todd",
+   "race_id": "bastrop-jp-2",
+   "incumbent": false,
+   "current_role": "",
+   "background": "Ruth Todd is the Democratic candidate for Bastrop County Justice of the Peace, Precinct 2.",
+   "website": "https://www.ruthtodd4jp2.com",
+   "priorities": [
+    {
+     "text": "Says she aims to ensure fairness in the precinct and to engage community voices in local decision-making.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Ruth Todd for Justice of the Peace",
+     "publisher": "Ruth Todd campaign",
+     "url": "https://www.ruthtodd4jp2.com/",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Bastrop Justice of the Peace, Precinct 2 (2026 general election)",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-bastrop-justice-precinct-2",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "No biography, legal or court experience, or education was found."
+  },
+  {
+   "id": "larry-dunne",
+   "race_id": "bastrop-jp-4",
+   "incumbent": true,
+   "current_role": "Bastrop County Justice of the Peace, Precinct 4",
+   "background": "Larry Dunne is the sitting Bastrop County Justice of the Peace for Precinct 4, based in Elgin, and has held the seat since at least 2023.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Listed by Bastrop County as the Precinct 4 justice of the peace and in a 2023 local officeholder guide; Branch lists him as the 2026 Republican nominee.",
+     "sources": [
+      "s1",
+      "s2",
+      "s3"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Justices of the Peace",
+     "publisher": "Bastrop County",
+     "url": "https://www.bastropcounty.gov/page/co.justice_peace",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Who represents me?",
+     "publisher": "The Elgin Courier",
+     "url": "https://www.elgincourier.com/article/1612,who-represents-me",
+     "date": "2023-08-30"
+    },
+    {
+     "id": "s3",
+     "title": "Bastrop Justice of the Peace, Precinct 4 (2026 general election)",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-bastrop-justice-precinct-4",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "No biography, priorities or record beyond his current office were found."
+  },
+  {
+   "id": "rachel-turman-smith",
+   "race_id": "bastrop-jp-4",
+   "incumbent": false,
+   "current_role": "",
+   "background": "Rachel Turman-Smith is the Democratic candidate for Bastrop County Justice of the Peace, Precinct 4. No further biographical information was found.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Listed as the Democratic candidate for Bastrop County Justice of the Peace, Precinct 4.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Bastrop Justice of the Peace, Precinct 4 (2026 general election)",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-bastrop-justice-precinct-4",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "No biography, campaign website, priorities or qualifications were found."
+  },
+  {
+   "id": "bobby-whitson",
+   "race_id": "bell-commissioner-2",
+   "incumbent": true,
+   "current_role": "Bell County Commissioner, Precinct 2; banker",
+   "background": "Bobby Whitson is the incumbent Precinct 2 commissioner, which covers parts of Killeen and Harker Heights, and works as a banker. He says he has lived, worked and worshiped in Bell County his entire life and cites knowledge of finance, development and human capital.",
+   "website": "https://www.bobbywhitson.com",
+   "priorities": [
+    {
+     "text": "Says he will promote economic development in Bell County and the region.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Says he will be accessible and visible within Precinct 2.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Says he will build a strong relationship with Fort Hood and surrounding counties.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed in the March 2026 Republican primary.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [
+    {
+     "topic": "Water",
+     "summary": "Describes water availability as a very real challenge facing the county.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "The field is set for the local primaries",
+     "publisher": "Killeen Daily Herald",
+     "url": "https://kdhnews.com/news/local/the-field-is-set-for-the-local-primaries/article_98ac69b7-e2c1-4622-b028-bf4d2e30c61b.html",
+     "date": "2025-12-14"
+    },
+    {
+     "id": "s2",
+     "title": "Bobby Whitson for Bell County Commissioner",
+     "publisher": "Bobby Whitson campaign",
+     "url": "https://www.bobbywhitson.com/",
+     "date": null
+    },
+    {
+     "id": "s3",
+     "title": "Bell County Commissioner, Precinct 2 (2026 general election)",
+     "publisher": "Branch Politics",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-commissioner-tx-bell-county-district-2",
+     "date": "2026-07"
+    }
+   ],
+   "research_gaps": "His voting record, years in office, and positions on quiz topics were not found."
+  },
+  {
+   "id": "stacey-l-wilson",
+   "race_id": "bell-commissioner-2",
+   "incumbent": false,
+   "current_role": "Small business owner; former Harker Heights City Council member",
+   "background": "Stacey L. Wilson grew up in Steubenville, Ohio, and moved to Bell County in 2000 with her husband's Fort Hood assignment. She worked 22 years as a contractor with the Fort Hood Garrison Chaplain's Office, owns a small business and served on the Harker Heights City Council. She is political chair of the Killeen NAACP.",
+   "website": "https://vote4stacey.com",
+   "priorities": [
+    {
+     "text": "Lists fixed roads, clean water, fair property taxes, mental health as health care, and standing up for veterans as priorities.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Says property taxes should not rise faster than paychecks.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Says Bell County should receive full state reimbursement for veteran property tax exemptions.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Says mental health crises should be handled by doctors and counselors, not police and jail cells.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "promises": [
+    {
+     "text": "Says she will restore county veteran services funding, which she says was cut significantly.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed in the March 2026 Democratic primary.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {
+    "q_county_mental": {
+     "position": 1,
+     "basis": "statement",
+     "summary": "Says mental health crises should be handled by doctors and counselors rather than police and jails, and lists mental health as health care as a priority.",
+     "sources": [
+      "s2"
+     ]
+    },
+    "q_county_tax": {
+     "position": 0,
+     "basis": "statement",
+     "summary": "Says property taxes should not rise faster than paychecks, while also calling for more spending on infrastructure and veteran services.",
+     "sources": [
+      "s2"
+     ]
+    }
+   },
+   "issue_notes": [
+    {
+     "topic": "Water",
+     "summary": "Says Salado residents deserve clean water from the tap.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "The field is set for the local primaries",
+     "publisher": "Killeen Daily Herald",
+     "url": "https://kdhnews.com/news/local/the-field-is-set-for-the-local-primaries/article_98ac69b7-e2c1-4622-b028-bf4d2e30c61b.html",
+     "date": "2025-12-14"
+    },
+    {
+     "id": "s2",
+     "title": "Stacey Wilson for Bell County Commissioner",
+     "publisher": "Stacey Wilson campaign",
+     "url": "https://vote4stacey.com/",
+     "date": null
+    }
+   ],
+   "research_gaps": "Her Harker Heights council years and votes were not found."
+  },
+  {
+   "id": "curtis-emmons",
+   "race_id": "bell-commissioner-4",
+   "incumbent": false,
+   "current_role": "Builder and entrepreneur",
+   "background": "Curtis Emmons is a builder and entrepreneur who was born and raised in Killeen.",
+   "website": "https://www.electemmons.com",
+   "priorities": [
+    {
+     "text": "Calls for stronger law enforcement coordination.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Calls for a proactive long-term road plan.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Says he will reduce government regulation so residents can freely build homes and businesses.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed in the March 2026 Republican primary.",
+     "sources": [
+      "s1",
+      "s3"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "The field is set for the local primaries",
+     "publisher": "Killeen Daily Herald",
+     "url": "https://kdhnews.com/news/local/the-field-is-set-for-the-local-primaries/article_98ac69b7-e2c1-4622-b028-bf4d2e30c61b.html",
+     "date": "2025-12-14"
+    },
+    {
+     "id": "s2",
+     "title": "Elect Emmons",
+     "publisher": "Curtis Emmons campaign",
+     "url": "https://www.electemmons.com/",
+     "date": null
+    },
+    {
+     "id": "s3",
+     "title": "March 3 election: Who will represent Killeen at Bell County Commissioners Court?",
+     "publisher": "Killeen Daily Herald",
+     "url": "https://kdhnews.com/centerforpolitics/march-3-election-who-will-represent-killeen-at-bell-county-commissioners-court/article_5cdbd1fc-ed4b-4910-bc6a-9436f1978313.html",
+     "date": "2026-03-01"
+    }
+   ],
+   "research_gaps": "Career details, prior offices and positions on quiz topics were not found."
+  },
+  {
+   "id": "ernest-wilkerson",
+   "race_id": "bell-commissioner-4",
+   "incumbent": false,
+   "current_role": "Central Texas College Board of Trustees member",
+   "background": "Ernest Wilkerson is a Central Texas College trustee, a former four-term Killeen City Council member first elected in 2001, and a former vice president of the Killeen Economic Development Corporation. He is a U.S. Army and Army National Guard veteran and former state employee who has lived in Bell County for 26 years. He describes himself as a moderate Democrat.",
+   "website": "https://ernestwilkerson.com",
+   "priorities": [
+    {
+     "text": "Lists infrastructure modernization, including roads, drainage, flood mitigation, water utilities and rural broadband, as a priority.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Supports law enforcement recruitment and retention and open, accountable budgeting.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Supports economic development through streamlined permitting, tax abatements, industry recruitment and workforce training.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Wants the Chaparral Road expansion completed on a reasonable timeline.",
+     "sources": [
+      "s2",
+      "s3"
+     ]
+    }
+   ],
+   "promises": [
+    {
+     "text": "Says he will champion a county economic development corporation for western Bell County.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Says he will seek a moratorium on new data centers that lack a full environmental plan.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Says he will press for a review of the Public Health District and more county funding for community clinics.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Says he will form a task force to help laid-off federal employees find work.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "record": [
+    {
+     "text": "Credits himself with lobbying for the Killeen Regional Airport during his council service.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Defeated incumbent Commissioner Louie Minor in the March 3, 2026 Democratic primary, 64.6% to 35.3%.",
+     "sources": [
+      "s4"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [
+    {
+     "topic": "Water",
+     "summary": "Says he will work with municipalities to secure water pumping rights and keep construction runoff out of creeks and rivers.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "topic": "Health Care",
+     "summary": "Wants more county funding for community clinics after federal funding cuts closed one.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "The field is set for the local primaries",
+     "publisher": "Killeen Daily Herald",
+     "url": "https://kdhnews.com/news/local/the-field-is-set-for-the-local-primaries/article_98ac69b7-e2c1-4622-b028-bf4d2e30c61b.html",
+     "date": "2025-12-14"
+    },
+    {
+     "id": "s2",
+     "title": "Ernest Wilkerson for Bell County Commissioner",
+     "publisher": "Ernest Wilkerson campaign",
+     "url": "https://ernestwilkerson.com/",
+     "date": null
+    },
+    {
+     "id": "s3",
+     "title": "March 3 election: Who will represent Killeen at Bell County Commissioners Court?",
+     "publisher": "Killeen Daily Herald",
+     "url": "https://kdhnews.com/centerforpolitics/march-3-election-who-will-represent-killeen-at-bell-county-commissioners-court/article_5cdbd1fc-ed4b-4910-bc6a-9436f1978313.html",
+     "date": "2026-03-01"
+    },
+    {
+     "id": "s4",
+     "title": "Bell County election results at a glance",
+     "publisher": "Killeen Daily Herald",
+     "url": "https://kdhnews.com/news/region/bell-county-election-results-at-a-glance/article_7889bdf5-e780-52df-8904-8146148e10cd.html",
+     "date": "2026-03-04"
+    }
+   ],
+   "research_gaps": "No documented positions on county tax rates, mental health spending or state preemption were found."
+  },
+  {
+   "id": "beatrice-bea-cox",
+   "race_id": "bell-jp-4-2",
+   "incumbent": false,
+   "current_role": "Bell County truancy master",
+   "background": "Beatrice \"Bea\" Cox serves as a Bell County truancy master.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Unopposed in the March 2026 Republican primary.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "The field is set for the local primaries",
+     "publisher": "Killeen Daily Herald",
+     "url": "https://kdhnews.com/news/local/the-field-is-set-for-the-local-primaries/article_98ac69b7-e2c1-4622-b028-bf4d2e30c61b.html",
+     "date": "2025-12-14"
+    },
+    {
+     "id": "s2",
+     "title": "Gonzalez, a Killeen councilwoman, wins Democratic JP primary runoff",
+     "publisher": "Killeen Daily Herald",
+     "url": "https://kdhnews.com/centerforpolitics/gonzalez-a-killeen-councilwoman-wins-democratic-jp-primary-runoff/article_86fc56ce-ab7a-4d23-8bdc-d4b7b1a1bf86.html",
+     "date": "2026-05-26"
+    }
+   ],
+   "research_gaps": "No biography beyond her current role, campaign website, priorities or qualifications were found."
+  },
+  {
+   "id": "jessica-a-gonzalez",
+   "race_id": "bell-jp-4-2",
+   "incumbent": false,
+   "current_role": "Killeen City Council member",
+   "background": "Jessica Gonzalez is a longtime Killeen resident who has served three terms on the Killeen City Council, including the District 1 seat, and has been mayor pro tem. The Precinct 4, Place 2 seat covers much of Killeen and Harker Heights.",
+   "website": null,
+   "priorities": [
+    {
+     "text": "Says she will bring a fair, balanced and impartial voice to the local justice system.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says she will make the justice court more accessible and easier to understand.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says her priorities will focus on confidence, fairness and efficiency.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Says she will operate from a place of dignity and respect.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Elected to the Killeen City Council in 2021 and served three terms.",
+     "sources": [
+      "s1",
+      "s3"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Finished second in the March 2026 Democratic primary, in which incumbent Judge Nicola James finished third, then won the May 26 runoff over LaTasha Quarles with 51.3%.",
+     "sources": [
+      "s3",
+      "s4"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Gonzalez to run for justice of the peace position",
+     "publisher": "Killeen Daily Herald",
+     "url": "https://kdhnews.com/centerforpolitics/gonzalez-to-run-for-justice-of-the-peace-position/article_4a4bb39d-3110-491d-bd34-5c9340cc2db7.html",
+     "date": "2025-08-16"
+    },
+    {
+     "id": "s2",
+     "title": "Three women vie for Democrat JP nod",
+     "publisher": "Killeen Daily Herald",
+     "url": "https://kdhnews.com/centerforpolitics/three-women-vie-for-democrat-jp-nod/article_e8a8c5f2-1605-4fcc-a737-3b6aa493ddd5.html",
+     "date": "2026-02-15"
+    },
+    {
+     "id": "s3",
+     "title": "Gonzalez, a Killeen councilwoman, wins Democratic JP primary runoff",
+     "publisher": "Killeen Daily Herald",
+     "url": "https://kdhnews.com/centerforpolitics/gonzalez-a-killeen-councilwoman-wins-democratic-jp-primary-runoff/article_86fc56ce-ab7a-4d23-8bdc-d4b7b1a1bf86.html",
+     "date": "2026-05-26"
+    },
+    {
+     "id": "s4",
+     "title": "Bell County election results at a glance",
+     "publisher": "Killeen Daily Herald",
+     "url": "https://kdhnews.com/news/region/bell-county-election-results-at-a-glance/article_7889bdf5-e780-52df-8904-8146148e10cd.html",
+     "date": "2026-03-04"
+    }
+   ],
+   "research_gaps": "Education, legal background and campaign website were not found."
+  },
+  {
+   "id": "peter-michelena",
+   "race_id": "brazos-commissioner-4",
+   "incumbent": false,
+   "current_role": "Nonprofit financial officer; VFW Post 4692 quartermaster",
+   "background": "Peter Michelena is a U.S. Marine Corps veteran and two-time Purple Heart recipient. He is quartermaster and chief finance officer of VFW Post 4692, managing more than $2 million in annual activity, and has worked in construction, field engineering and as a City of Bryan building inspector. He studied manufacturing and mechanical engineering technology at Texas A&M (Class of 2016).",
+   "website": "https://www.voteformichelena.com",
+   "priorities": [
+    {
+     "text": "Campaigns on fiscal responsibility, accessibility and transparency, which he says the court has overlooked.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Says growth should pay for growth, with infrastructure planned so taxpayers are not unfairly burdened.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Says transportation projects should be driven by data and public need, with property rights and public input considered.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Says residents deserve clear information before decisions are made, not explanations after the fact.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [
+    {
+     "text": "Says he will hold quarterly town halls downtown during business hours and at the VFW after hours.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "record": [],
+   "notes": [
+    {
+     "text": "Won the March 2026 Republican primary with about 65% of the vote over Andre Malone.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {
+    "q_county_tax": {
+     "position": 1,
+     "basis": "questionnaire",
+     "summary": "Says growth should pay for growth so taxpayers are not unfairly burdened, and pledges to scrutinize budgets and major expenditures.",
+     "sources": [
+      "s1",
+      "s3"
+     ]
+    }
+   },
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Vote for Michelena",
+     "publisher": "Peter Michelena campaign",
+     "url": "https://www.voteformichelena.com/",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Watson, Michelena to face off in general election for Brazos County Commissioner Pct. 4",
+     "publisher": "KBTX",
+     "url": "https://www.kbtx.com/2026/03/04/watson-michelena-face-off-general-election-brazos-county-commissioner-pct-4/",
+     "date": "2026-03-04"
+    },
+    {
+     "id": "s3",
+     "title": "Q&A: Meet the Republican primary candidates for Brazos County Precinct 4 commissioner",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/houston/bryan-college-station/election/2026/02/18/qa-meet-the-republican-primary-candidates-for-brazos-county-precinct-4-commissioner",
+     "date": "2026-02-18"
+    }
+   ],
+   "research_gaps": "No documented positions on mental health spending, water funding or state preemption were found."
+  },
+  {
+   "id": "wanda-j-watson",
+   "race_id": "brazos-commissioner-4",
+   "incumbent": true,
+   "current_role": "Brazos County Commissioner, Precinct 4, since 2023",
+   "background": "Wanda J. Watson has lived in Brazos County for 41 years and was sworn in as Precinct 4 commissioner on January 1, 2023. She worked 32 years at Texas A&M University, retiring in 2016 as an admissions director at the Health Science Center College of Medicine. She holds an accounting degree from UT Arlington and a master's in educational administration from Texas A&M.",
+   "website": "https://www.wandajwatson.com",
+   "priorities": [
+    {
+     "text": "Says her top budget goal is balancing essential services, including law enforcement and roads and bridges, with fiscal responsibility without overtaxing residents.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Campaigns on keeping Brazos County affordable, smarter transit across Bryan and College Station, and modern roads.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Calls for fair voting standards so eligible citizens can vote with confidence and ease.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Says health care has not kept pace and wants to recruit employers offering high wages and comprehensive benefits.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Took office January 1, 2023.",
+     "sources": [
+      "s4"
+     ]
+    },
+    {
+     "text": "The county discontinued the Inner East Loop project after constituents raised transparency concerns; Watson said the court heard residents and decided to discontinue it.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Won the March 2026 Democratic primary with about 73% of the vote over Prentiss Madison.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "stances": {
+    "q_county_tax": {
+     "position": 0,
+     "basis": "reported",
+     "summary": "Says she aims to balance essential services with fiscal responsibility without overtaxing residents.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    }
+   },
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Brazos County Commissioner Wanda Watson seeks re-election",
+     "publisher": "KBTX",
+     "url": "https://www.kbtx.com/2026/02/28/brazos-county-commissioner-wanda-watson-seeks-re-election/",
+     "date": "2026-02-27"
+    },
+    {
+     "id": "s2",
+     "title": "Wanda J. Watson for Commissioner",
+     "publisher": "Wanda J. Watson campaign",
+     "url": "https://www.wandajwatson.com/",
+     "date": null
+    },
+    {
+     "id": "s3",
+     "title": "Watson, Michelena to face off in general election for Brazos County Commissioner Pct. 4",
+     "publisher": "KBTX",
+     "url": "https://www.kbtx.com/2026/03/04/watson-michelena-face-off-general-election-brazos-county-commissioner-pct-4/",
+     "date": "2026-03-04"
+    },
+    {
+     "id": "s4",
+     "title": "Five new Brazos County officials among 15 who were sworn in on New Year's Day",
+     "publisher": "WTAW",
+     "url": "https://wtaw.com/?p=157963",
+     "date": "2023-01-01"
+    }
+   ],
+   "research_gaps": "Her individual votes on budgets and tax rates and positions on mental health spending, water funding and preemption were not found."
+  },
+  {
+   "id": "guadalupe-lupe-arredondo",
+   "race_id": "brazos-constable-4",
+   "incumbent": false,
+   "current_role": "",
+   "background": "Guadalupe Arredondo is the Republican candidate for Brazos County Constable, Precinct 4. No further biographical information was found.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Filed as the Republican candidate for Brazos County Constable, Precinct 4.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Candidates in 2026 Brazos County political races",
+     "publisher": "WTAW",
+     "url": "https://wtaw.com/candidates-in-2026-brazos-county-political-races/",
+     "date": "2025-12-10"
+    }
+   ],
+   "research_gaps": "No biography, law enforcement experience, priorities or campaign website were found."
+  },
+  {
+   "id": "hezekiah-carter-jr",
+   "race_id": "brazos-constable-4",
+   "incumbent": true,
+   "current_role": "Brazos County Constable, Precinct 4, since 2023",
+   "background": "Hezekiah Carter, Jr. is the Brazos County Constable for Precinct 4. He was among the newly elected officials sworn in on January 1, 2023.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "Sworn in as a newly elected constable on January 1, 2023.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Filed as the Democratic candidate for Constable, Precinct 4, in 2026.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Counties: Brazos",
+     "publisher": "Texas Directory",
+     "url": "https://txdirectory.com/online/county/detail.php?id=21",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Five new Brazos County officials among 15 who were sworn in on New Year's Day",
+     "publisher": "WTAW",
+     "url": "https://wtaw.com/?p=157963",
+     "date": "2023-01-01"
+    },
+    {
+     "id": "s3",
+     "title": "Candidates in 2026 Brazos County political races",
+     "publisher": "WTAW",
+     "url": "https://wtaw.com/candidates-in-2026-brazos-county-political-races/",
+     "date": "2025-12-10"
+    }
+   ],
+   "research_gaps": "No biography, law enforcement background, priorities or record details were found."
+  }
+ ]
+}

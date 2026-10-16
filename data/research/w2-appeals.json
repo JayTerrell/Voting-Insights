@@ -1,0 +1,2633 @@
+{
+ "candidates": [
+  {
+   "id": "cory-liu",
+   "race_id": "coa3-chief",
+   "incumbent": false,
+   "current_role": "Judge, 250th District Court (Travis County), appointed by Gov. Greg Abbott in 2025",
+   "background": "Cory Liu is an Austin native and a Travis County civil district judge. He holds a B.A. in political science from the University of Chicago and a J.D. from Harvard Law School (2015), where he was editor-in-chief of the Harvard Journal of Law & Public Policy. He clerked for Judge Andrew Oldham of the U.S. Fifth Circuit and Judge Danny Boggs of the U.S. Sixth Circuit, and he was an attorney at Butler Snow LLP in Austin before his appointment. Texasjudges.org also lists prior work in the general counsel's office of the governor, as a Texas Supreme Court law clerk, and in the Texas Solicitor General's Office.",
+   "website": "https://www.coryfortexas.com",
+   "priorities": [
+    {
+     "text": "Campaigns on ending discrimination and equal justice under the law, including support for what his site calls a colorblind Constitution.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Highlights a record of defending free speech and religious freedom.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Campaigns on law and order, including support for public safety, crime victims, and military members and veterans.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Appointed by Gov. Greg Abbott in March 2025 to the 250th District Court in Travis County, for a term running through December 31, 2026.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "In an October 2025 order in Becker v. UpEquity Title, criticized Travis County's central docket system for the handling of a nearly two-year-old case, according to The Texas Lawbook.",
+     "sources": [
+      "s4"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "State Bar of Texas 2026 Judicial Poll (3rd Court of Appeals, Chief Justice): Darlene Byrne 536 votes, Liu 146 (about 79 percent to 21 percent). The State Bar poll was a non-scientific survey of participating lawyers taken before the March 2026 primaries.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "At the time of his 2025 appointment he was president of the Federalist Society's Austin Lawyers Chapter and a steering committee member for the Texas Review of Law and Politics.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Texasjudges.org lists his nonjudicial experience as the governor's general counsel office, a Texas Supreme Court clerkship, and the Texas Solicitor General's Office.",
+     "sources": [
+      "s5"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "State Bar of Texas 2026 Judicial Poll, Final Vote Summary (February 10, 2026)",
+     "publisher": "State Bar of Texas",
+     "url": "https://www.texasbar.com/pollresults/",
+     "date": "2026-02-10"
+    },
+    {
+     "id": "s2",
+     "title": "Governor Abbott Appoints Liu To 250th Judicial District Court",
+     "publisher": "Office of the Texas Governor",
+     "url": "https://gov.texas.gov/news/post/governor-abbott-appoints-liu-to-250th-judicial-district-court",
+     "date": "2025-03-05"
+    },
+    {
+     "id": "s3",
+     "title": "Cory Liu for Texas (campaign website)",
+     "publisher": "Cory Liu Campaign",
+     "url": "https://www.coryfortexas.com",
+     "date": null
+    },
+    {
+     "id": "s4",
+     "title": "Judge Liu Calls Out 'Deplorable Management' of Case, Points to Central Docket System as Culprit",
+     "publisher": "The Texas Lawbook",
+     "url": "https://texaslawbook.net/?p=129768",
+     "date": "2025-10-30"
+    },
+    {
+     "id": "s5",
+     "title": "3rd Court of Appeals, Chief Justice",
+     "publisher": "Texas Judges (texasjudges.org)",
+     "url": "https://texasjudges.org/2026-races/3rd-court-of-appeals-chief-justice/",
+     "date": "2026"
+    }
+   ],
+   "research_gaps": "No public statement of judicial philosophy on textualism or judicial selection, no candidate questionnaire, and no newspaper endorsement in this race were found."
+  },
+  {
+   "id": "darlene-byrne",
+   "race_id": "coa3-chief",
+   "incumbent": true,
+   "current_role": "Chief Justice, Third Court of Appeals, since 2021 (elected 2020)",
+   "background": "Darlene Byrne was elected chief justice of the Austin-based Third Court of Appeals in 2020. Before that she presided over Travis County's 126th District Court for 20 years, where for 17 years she oversaw the county's foster care docket. She practiced employment, commercial and governmental litigation for 13 years before taking the bench, and she graduated magna cum laude from the University of Houston Law Center (1987).",
+   "website": "https://www.justicedarlenebyrne.com/",
+   "priorities": [
+    {
+     "text": "Says appeals should be decided promptly so that people's lives do not languish through delayed decision making.",
+     "sources": [
+      "s2",
+      "s3"
+     ]
+    },
+    {
+     "text": "Campaigns on access to justice for all, regardless of wealth, nationality, gender, race or language.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Says a person's day in court should be treated with dignity and respect.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Campaigns on bringing nearly 25 years of trial and appellate judicial experience to grounded, real-world decisions.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Presided over the 126th District Court in Travis County from 2001 to 2020 and founded the Travis County Family Drug Treatment Court and a Dual Status Youth docket.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Appointed by the Texas Supreme Court in 2008 as the first vice chair of the Texas Children's Commission, serving as a commissioner or judicial advisor until 2024.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Elected chief justice of the Third Court of Appeals in 2020.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "State Bar of Texas 2026 Judicial Poll (3rd Court of Appeals, Chief Justice): Byrne 536 votes, Cory Liu 146 (about 79 percent to 21 percent). The State Bar poll was a non-scientific survey of participating lawyers taken before the March 2026 primaries.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Named Texas Judge of the Year by Texas ABOTA in 2023; past president of the National Council of Juvenile and Family Court Judges; Judge of the Year honors from National CASA, Texas CASA and CASA of Travis County.",
+     "sources": [
+      "s2",
+      "s4"
+     ]
+    },
+    {
+     "text": "Serves on the Executive Committee of the Council of Chief Judges of State Courts of Appeal and chairs the board of TexProtects.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [
+    {
+     "topic": "Court Administration",
+     "summary": "Says that as chief justice she has carried a sense of urgency to the appellate court so that justice is not delayed.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "State Bar of Texas 2026 Judicial Poll, Final Vote Summary (February 10, 2026)",
+     "publisher": "State Bar of Texas",
+     "url": "https://www.texasbar.com/pollresults/",
+     "date": "2026-02-10"
+    },
+    {
+     "id": "s2",
+     "title": "Chief Justice Darlene Byrne (official biography)",
+     "publisher": "Third Court of Appeals, Texas Judicial Branch",
+     "url": "https://www.txcourts.gov/3rdcoa/about-the-court/justices/chief-justice-darlene-byrne/",
+     "date": null
+    },
+    {
+     "id": "s3",
+     "title": "Re-Elect Chief Justice Darlene Byrne (campaign website)",
+     "publisher": "Darlene Byrne Campaign",
+     "url": "https://www.justicedarlenebyrne.com/",
+     "date": null
+    },
+    {
+     "id": "s4",
+     "title": "3rd Court of Appeals, Chief Justice",
+     "publisher": "Texas Judges (texasjudges.org)",
+     "url": "https://texasjudges.org/2026-races/3rd-court-of-appeals-chief-justice/",
+     "date": "2026"
+    }
+   ],
+   "research_gaps": "No notable individual opinions with news coverage, no newspaper endorsement, and no statements on textualism or judicial selection were found."
+  },
+  {
+   "id": "kevin-jewell",
+   "race_id": "coa14-chief",
+   "incumbent": false,
+   "current_role": "Justice, Fourteenth Court of Appeals, Place 2, since 2017 (elected 2016)",
+   "background": "Kevin Jewell is a Houston appellate judge seeking the chief justice seat being vacated by Chief Justice Tracy Christopher. He was elected to Place 2 on the Fourteenth Court of Appeals in 2016 after 23 years in private practice, most recently as a litigation and appellate shareholder at Chamberlain, Hrdlicka, White, Williams & Aughtry, where he chaired the appellate practice group. He has been board certified in civil appellate law since 1998. He holds a B.B.A. from the University of Texas at Austin and a law degree from the University of Houston Law Center (1993).",
+   "website": "http://justicekevinjewell.com",
+   "priorities": [
+    {
+     "text": "Says he applies the law as written and will never legislate from the bench.",
+     "sources": [
+      "s3",
+      "s4"
+     ]
+    },
+    {
+     "text": "Says a judge's core job is to give all parties a fair day in court, regardless of personal beliefs or partisan affiliation.",
+     "sources": [
+      "s4"
+     ]
+    },
+    {
+     "text": "Says he wants to ensure the courts never become another political arena.",
+     "sources": [
+      "s3",
+      "s4"
+     ]
+    }
+   ],
+   "promises": [
+    {
+     "text": "Says he will treat everyone who comes before the Fourteenth Court of Appeals with fairness and dignity.",
+     "sources": [
+      "s4"
+     ]
+    }
+   ],
+   "record": [
+    {
+     "text": "Elected to the Fourteenth Court of Appeals, Place 2, in November 2016 and re-elected in 2022.",
+     "sources": [
+      "s2",
+      "s4"
+     ]
+    },
+    {
+     "text": "Before taking the bench, handled hundreds of appeals and argued more than 100 cases in the Supreme Court of Texas, Texas intermediate appellate courts and federal courts of appeals.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Houston Chronicle editorial board endorsed Sarah Beth Landau (4.5 stars) and rated Jewell 4 stars, calling him widely respected and noting he received very high ratings in the Houston Bar Association judicial evaluation.",
+     "sources": [
+      "s5"
+     ]
+    },
+    {
+     "text": "Houston Bar Association 2026 Judicial Preference Poll: Jewell 284 votes, Landau 250. The HBA poll had 769 participating members and is not an HBA endorsement.",
+     "sources": [
+      "s6"
+     ]
+    },
+    {
+     "text": "State Bar of Texas 2026 Judicial Poll: Landau 522 votes, Jewell 422 (about 55 percent to 45 percent). The State Bar poll was a non-scientific survey of participating lawyers taken before the March 2026 primaries.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Endorsed by the Texas Civil Justice League PAC.",
+     "sources": [
+      "s7"
+     ]
+    },
+    {
+     "text": "If Jewell wins, the governor will appoint a replacement for his Place 2 seat; if he loses, he keeps Place 2, which has four years remaining, according to the Houston Chronicle.",
+     "sources": [
+      "s5"
+     ]
+    }
+   ],
+   "stances": {
+    "q_textualism": {
+     "position": 1,
+     "basis": "statement",
+     "summary": "Says he strictly applies the text of the Constitution and laws as written and will never legislate from the bench.",
+     "sources": [
+      "s3",
+      "s4"
+     ]
+    }
+   },
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "State Bar of Texas 2026 Judicial Poll, Final Vote Summary (February 10, 2026)",
+     "publisher": "State Bar of Texas",
+     "url": "https://www.texasbar.com/pollresults/",
+     "date": "2026-02-10"
+    },
+    {
+     "id": "s2",
+     "title": "Justice Kevin Jewell (official biography)",
+     "publisher": "Fourteenth Court of Appeals, Texas Judicial Branch",
+     "url": "https://www.txcourts.gov/14thcoa/about-the-court/justices/justice-kevin-jewell/",
+     "date": null
+    },
+    {
+     "id": "s3",
+     "title": "Justice Kevin Jewell (campaign website)",
+     "publisher": "Kevin Jewell Campaign",
+     "url": "http://justicekevinjewell.com",
+     "date": null
+    },
+    {
+     "id": "s4",
+     "title": "14th Court of Appeals, Chief Justice",
+     "publisher": "Texas Judges (texasjudges.org)",
+     "url": "https://texasjudges.org/2026-races/14th-court-of-appeals-chief-justice/",
+     "date": "2026"
+    },
+    {
+     "id": "s5",
+     "title": "It's hard to go wrong, no matter who you vote for on the Courts of Appeals | Endorsement",
+     "publisher": "Houston Chronicle Editorial Board",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/1st-14th-courts-of-appeals-texas-2026-22476159.php",
+     "date": "2026-10-14"
+    },
+    {
+     "id": "s6",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    },
+    {
+     "id": "s7",
+     "title": "TCJL PAC: 2026 Judicial Endorsements",
+     "publisher": "Texas Civil Justice League PAC",
+     "url": "https://tcjlpac.com/?p=217586",
+     "date": "2026"
+    }
+   ],
+   "research_gaps": "No notable individual opinions with news coverage and no statement on judicial selection were found."
+  },
+  {
+   "id": "sarah-beth-landau",
+   "race_id": "coa14-chief",
+   "incumbent": false,
+   "current_role": "Senior counsel in private practice; former Justice, First Court of Appeals (2019 to 2024)",
+   "background": "Sarah Beth Landau served on Houston's First Court of Appeals from 2019 to 2024 after winning election in 2018; she lost re-election in 2024. She began her Texas legal career clerking for U.S. District Judge Vanessa D. Gilmore, practiced complex commercial litigation at Vinson & Elkins, and spent about a decade as an assistant federal public defender handling appeals and trials. She also worked at the Harris County Public Defender's Office and has taught appellate litigation at Thurgood Marshall School of Law. She holds a law degree from Columbia Law School (1998) and is board certified in civil appellate law, according to texasjudges.org.",
+   "website": "https://landauforjustice.com/",
+   "priorities": [
+    {
+     "text": "Campaigns on her experience as the first public defender on the First Court of Appeals, citing over 20 years in state and federal, civil and criminal practice and more than 400 appeals handled before taking the bench.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Highlights efforts to make the courts more accessible, including opening the court to public weddings and bringing opinion-writing software to make opinions easier to read.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Campaigns on expanding opportunities for law students through the court's intern program, which she says she overhauled to include first-generation and non-traditional students.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Served as a justice on the First Court of Appeals from 2019 to 2024, winning in 2018 with about 52 percent and losing re-election in 2024 with about 47 percent.",
+     "sources": [
+      "s2",
+      "s4"
+     ]
+    },
+    {
+     "text": "Led the First Court of Appeals law student intern program from 2020 to 2024.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Endorsed by the Houston Chronicle editorial board (4.5 stars), which said she has a remarkable breadth of experience and a record of administrative excellence; the board also endorsed her in the March 2026 Democratic primary.",
+     "sources": [
+      "s5",
+      "s6"
+     ]
+    },
+    {
+     "text": "State Bar of Texas 2026 Judicial Poll: Landau 522 votes, Kevin Jewell 422 (about 55 percent to 45 percent). The State Bar poll was a non-scientific survey of participating lawyers taken before the March 2026 primaries.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Houston Bar Association 2026 Judicial Preference Poll: Jewell 284 votes, Landau 250. The HBA poll had 769 participating members and is not an HBA endorsement.",
+     "sources": [
+      "s7"
+     ]
+    },
+    {
+     "text": "Campaign lists endorsements from the Houston Chronicle, the Texas Gulf Coast Area Labor Federation, The Caucus, the Houston Lawyers Association, the Mexican American Bar Association of Houston, Secular Houston and the Houston Association of Women Attorneys.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [
+    {
+     "topic": "Court Administration",
+     "summary": "The Houston Chronicle reported she has ideas to make the courts more efficient and accessible, including changes to how family court transcripts are handled and organizing public events.",
+     "sources": [
+      "s5"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "State Bar of Texas 2026 Judicial Poll, Final Vote Summary (February 10, 2026)",
+     "publisher": "State Bar of Texas",
+     "url": "https://www.texasbar.com/pollresults/",
+     "date": "2026-02-10"
+    },
+    {
+     "id": "s2",
+     "title": "Elect Justice Sarah Beth Landau (campaign website)",
+     "publisher": "Sarah Beth Landau Campaign",
+     "url": "https://landauforjustice.com/",
+     "date": null
+    },
+    {
+     "id": "s3",
+     "title": "Endorsements",
+     "publisher": "Sarah Beth Landau Campaign",
+     "url": "https://landauforjustice.com/endorsements/",
+     "date": null
+    },
+    {
+     "id": "s4",
+     "title": "14th Court of Appeals, Chief Justice",
+     "publisher": "Texas Judges (texasjudges.org)",
+     "url": "https://texasjudges.org/2026-races/14th-court-of-appeals-chief-justice/",
+     "date": "2026"
+    },
+    {
+     "id": "s5",
+     "title": "It's hard to go wrong, no matter who you vote for on the Courts of Appeals | Endorsement",
+     "publisher": "Houston Chronicle Editorial Board",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/1st-14th-courts-of-appeals-texas-2026-22476159.php",
+     "date": "2026-10-14"
+    },
+    {
+     "id": "s6",
+     "title": "Special alert to Democrats: Landau for chief justice 14th Court of Appeals",
+     "publisher": "Houston Chronicle Editorial Board",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/14th-court-appeals-landau-21355775.php",
+     "date": "2026-02"
+    },
+    {
+     "id": "s7",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No statements on textualism or judicial selection and no news coverage of specific opinions from her First Court tenure were found."
+  },
+  {
+   "id": "todd-frankfort",
+   "race_id": "coa1-3",
+   "incumbent": false,
+   "current_role": "Managing partner, O'Neil Wysocki Family Law (Houston)",
+   "background": "Todd Frankfort is a native Houstonian and family lawyer with more than 30 years in private practice. He is board certified in family law and has handled marital property, custody, child support enforcement and family law appeals, after earlier work in real estate and commercial litigation. He holds a B.A. in American studies from the University of Texas at Austin (1990) and a J.D. from South Texas College of Law (1994). He won the Republican nomination after a May 2026 primary runoff.",
+   "website": "https://frankfortforjudge.com",
+   "priorities": [
+    {
+     "text": "Campaigns on upholding the Constitution and well-established precedent.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Says he will promote transparency, accessibility and equal treatment under the law to restore public confidence in the courts.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Campaigns on fairness and predictability through consistent application of the law.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Cites public safety and support from law enforcement groups.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Says his family law experience would add expertise that is not well represented on the appellate courts.",
+     "sources": [
+      "s2",
+      "s4"
+     ]
+    }
+   ],
+   "promises": [
+    {
+     "text": "Says he will review each case under the Constitution, existing law and prior precedent, and states that it is not his job to change the law.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "record": [],
+   "notes": [
+    {
+     "text": "Houston Chronicle editorial board endorsed incumbent Veronica Rivas-Molloy (4 stars) and rated Frankfort 3.5 stars, saying his family law experience is relevant to many cases before the court; the board endorsed Frankfort in the Republican primary and runoff.",
+     "sources": [
+      "s4",
+      "s5",
+      "s6"
+     ]
+    },
+    {
+     "text": "State Bar of Texas 2026 Judicial Poll (all primary candidates): Rivas-Molloy 415 votes, Frankfort 210, Zach Gibson 122, Malcolm E. Whittaker 73, Elizabeth Ling Urrego 54. The State Bar poll was a non-scientific survey of participating lawyers taken before the March 2026 primaries.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Houston Bar Association 2026 Judicial Preference Poll: Rivas-Molloy 299 votes, Frankfort 232. The HBA poll had 769 participating members and is not an HBA endorsement.",
+     "sources": [
+      "s7"
+     ]
+    },
+    {
+     "text": "Campaign lists endorsements from the Houston Police Officers' Union, CLEAT (Harris County), the Texas Municipal Police Association, State Reps. Valoree Swanson and Charles Cunningham, Harris County Commissioner Tom Ramsey, former Texas Supreme Court Justice Eva Guzman and former Court of Criminal Appeals Judge Michelle Slaughter.",
+     "sources": [
+      "s2",
+      "s3"
+     ]
+    },
+    {
+     "text": "Named a Super Lawyer each year since 2012 and received Houston Bar Association President's Awards in 2004 and 2012, according to his campaign.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {
+    "q_textualism": {
+     "position": 1,
+     "basis": "statement",
+     "summary": "Says he favors judicial restraint and strict interpretation of statutes, that judges must apply the law as written, and that changing the law is the legislature's job.",
+     "sources": [
+      "s2"
+     ]
+    }
+   },
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "State Bar of Texas 2026 Judicial Poll, Final Vote Summary (February 10, 2026)",
+     "publisher": "State Bar of Texas",
+     "url": "https://www.texasbar.com/pollresults/",
+     "date": "2026-02-10"
+    },
+    {
+     "id": "s2",
+     "title": "Todd Frankfort for Judge (campaign website)",
+     "publisher": "Todd Frankfort Campaign",
+     "url": "https://frankfortforjudge.com",
+     "date": null
+    },
+    {
+     "id": "s3",
+     "title": "1st Court of Appeals, Place 3",
+     "publisher": "Texas Judges (texasjudges.org)",
+     "url": "https://texasjudges.org/2026-1st-court-of-appeals-place-3/",
+     "date": "2026"
+    },
+    {
+     "id": "s4",
+     "title": "It's hard to go wrong, no matter who you vote for on the Courts of Appeals | Endorsement",
+     "publisher": "Houston Chronicle Editorial Board",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/1st-14th-courts-of-appeals-texas-2026-22476159.php",
+     "date": "2026-10-14"
+    },
+    {
+     "id": "s5",
+     "title": "Todd Frankfort for 1st Court of Appeals Place 3 in Republican primary",
+     "publisher": "Houston Chronicle Editorial Board",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/frankfort-1st-court-of-appeals-republican-2026-21339987.php",
+     "date": "2026-02"
+    },
+    {
+     "id": "s6",
+     "title": "Alison Fox and Todd Frankfort in Republican appellate court runoffs",
+     "publisher": "Houston Chronicle Editorial Board",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/republican-runoffs-appellate-courts-22261662.php",
+     "date": "2026-05"
+    },
+    {
+     "id": "s7",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No statement on judicial selection was found, and primary and runoff vote totals were not verified."
+  },
+  {
+   "id": "veronica-rivas-molloy",
+   "race_id": "coa1-3",
+   "incumbent": true,
+   "current_role": "Justice, First Court of Appeals, Place 3, since 2021 (elected 2020)",
+   "background": "Veronica Rivas-Molloy was elected to Houston's First Court of Appeals in November 2020, defeating the Republican incumbent. She grew up on the El Paso and Juarez border, is a first-generation college graduate, and is the first immigrant elected to the court. She graduated from the University of Texas at El Paso and received her law degree magna cum laude from the University of Houston Law Center. She clerked for U.S. District Judge Ewing Werlein Jr. and spent 20 years as a business litigator and appellate lawyer, including at Baker Botts and Jones Walker, and volunteered as a City of Houston prosecutor.",
+   "website": "https://veronicarivasmolloy.com",
+   "priorities": [
+    {
+     "text": "Campaigns on her judicial experience, record on the court and dedication to the rule of law.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Highlights more than 250 majority opinions authored in civil, criminal, probate and family law appeals.",
+     "sources": [
+      "s2",
+      "s3"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Elected to the First Court of Appeals, Place 3, in November 2020 and has authored hundreds of majority opinions since joining the court.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Told the Houston Chronicle editorial board that the Texas Supreme Court has never reversed any of her decisions.",
+     "sources": [
+      "s4"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Endorsed by the Houston Chronicle editorial board (4 stars), citing rock-solid credentials and an excellent record as a justice.",
+     "sources": [
+      "s4"
+     ]
+    },
+    {
+     "text": "State Bar of Texas 2026 Judicial Poll (all primary candidates): Rivas-Molloy 415 votes, Todd Frankfort 210, Zach Gibson 122, Malcolm E. Whittaker 73, Elizabeth Ling Urrego 54. The State Bar poll was a non-scientific survey of participating lawyers taken before the March 2026 primaries.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Houston Bar Association 2026 Judicial Preference Poll: Rivas-Molloy 299 votes, Frankfort 232. The HBA poll had 769 participating members and is not an HBA endorsement.",
+     "sources": [
+      "s5"
+     ]
+    },
+    {
+     "text": "Named Judge of the Year by the Hispanic Bar Association of Houston (2024) and received the National Hispanic Bar Foundation's Judicial Leadership Award (2025); her campaign reports Excellent ratings in the HBA Judicial Evaluation Questionnaire in 2021, 2023 and 2025.",
+     "sources": [
+      "s2",
+      "s3"
+     ]
+    },
+    {
+     "text": "Texasjudges.org lists her prior work as a 20-year litigator and appellate lawyer and her volunteer service as a City of Houston prosecutor.",
+     "sources": [
+      "s6"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "State Bar of Texas 2026 Judicial Poll, Final Vote Summary (February 10, 2026)",
+     "publisher": "State Bar of Texas",
+     "url": "https://www.texasbar.com/pollresults/",
+     "date": "2026-02-10"
+    },
+    {
+     "id": "s2",
+     "title": "Justice Veronica Rivas-Molloy (official biography)",
+     "publisher": "First Court of Appeals, Texas Judicial Branch",
+     "url": "https://www.txcourts.gov/1stcoa/about-the-court/justices/justice-veronica-rivas-molloy/",
+     "date": null
+    },
+    {
+     "id": "s3",
+     "title": "Justice Veronica Rivas-Molloy (campaign website)",
+     "publisher": "Veronica Rivas-Molloy Campaign",
+     "url": "https://veronicarivasmolloy.com",
+     "date": null
+    },
+    {
+     "id": "s4",
+     "title": "It's hard to go wrong, no matter who you vote for on the Courts of Appeals | Endorsement",
+     "publisher": "Houston Chronicle Editorial Board",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/1st-14th-courts-of-appeals-texas-2026-22476159.php",
+     "date": "2026-10-14"
+    },
+    {
+     "id": "s5",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    },
+    {
+     "id": "s6",
+     "title": "1st Court of Appeals, Place 3",
+     "publisher": "Texas Judges (texasjudges.org)",
+     "url": "https://texasjudges.org/2026-1st-court-of-appeals-place-3/",
+     "date": "2026"
+    }
+   ],
+   "research_gaps": "No public statement of judicial philosophy on textualism or judicial selection, no organizational endorsement list, and no news coverage of specific opinions were found."
+  },
+  {
+   "id": "david-gunn",
+   "race_id": "coa1-4",
+   "incumbent": true,
+   "current_role": "Justice, First Court of Appeals, Place 4, since October 2024 (appointed by Gov. Greg Abbott)",
+   "background": "David Gunn joined Houston's First Court of Appeals in October 2024 after more than two decades as an appellate partner at Beck Redden LLP. He holds a B.S. in chemical engineering from the University of Texas, an M.S. in chemical engineering from MIT, a J.D. from Baylor Law School (1987) and an LL.M. from the University of Houston Law Center. He began as a court attorney for the Fourteenth Court of Appeals (1987 to 1990), argued more than 30 times before the Texas Supreme Court, and is board certified in civil appellate law. He served on the Hilshire Village City Council from 2012 to 2019.",
+   "website": "https://justicedavidgunn.com",
+   "priorities": [
+    {
+     "text": "Says a judge's main goals should be to rule correctly, evenhandedly and efficiently, leaving legislation to the people's representatives.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Says the process matters and that people who come to court want to be heard.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Campaigns on fairness, integrity and clarity and efficiency in legal proceedings.",
+     "sources": [
+      "s4"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Appointed by Gov. Greg Abbott and joined the First Court of Appeals in October 2024.",
+     "sources": [
+      "s2",
+      "s4"
+     ]
+    },
+    {
+     "text": "His campaign materials, as compiled by texasjudges.org, state that the court heard oral argument in 50 appeals in his first 12 months and that he was responsible for more than a quarter of them.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Authored law review articles on Texas law, including on the original meaning of the Texas harmless error rule (South Texas Law Review, 2025).",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Endorsed by the Houston Chronicle editorial board (4 stars, as was Julie Countiss), which cited his temperament, deep knowledge of the law and status as incumbent.",
+     "sources": [
+      "s5"
+     ]
+    },
+    {
+     "text": "State Bar of Texas 2026 Judicial Poll: Julie Countiss 529 votes, Gunn 446 (about 54 percent to 46 percent). The State Bar poll was a non-scientific survey of participating lawyers taken before the March 2026 primaries.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Houston Bar Association 2026 Judicial Preference Poll: Gunn 331 votes, Countiss 234. The HBA poll had 769 participating members and is not an HBA endorsement.",
+     "sources": [
+      "s6"
+     ]
+    },
+    {
+     "text": "Endorsed by the Texas Civil Justice League PAC.",
+     "sources": [
+      "s7"
+     ]
+    },
+    {
+     "text": "Fellow of the American Academy of Appellate Lawyers and member of the State Bar Pattern Jury Charge Committee.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {
+    "q_textualism": {
+     "position": 1,
+     "basis": "statement",
+     "summary": "Says judges should interpret laws and legal documents based on the written words, not on what someone thinks would have been a better idea; his campaign site also refers to respect for the letter and spirit of the constitution.",
+     "sources": [
+      "s3",
+      "s4"
+     ]
+    }
+   },
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "State Bar of Texas 2026 Judicial Poll, Final Vote Summary (February 10, 2026)",
+     "publisher": "State Bar of Texas",
+     "url": "https://www.texasbar.com/pollresults/",
+     "date": "2026-02-10"
+    },
+    {
+     "id": "s2",
+     "title": "Justice David M. Gunn (official biography)",
+     "publisher": "First Court of Appeals, Texas Judicial Branch",
+     "url": "https://www.txcourts.gov/1stcoa/about-the-court/justices/justice-david-m-gunn/",
+     "date": null
+    },
+    {
+     "id": "s3",
+     "title": "1st Court of Appeals, Place 4",
+     "publisher": "Texas Judges (texasjudges.org)",
+     "url": "https://texasjudges.org/2026-1coa4/",
+     "date": "2026"
+    },
+    {
+     "id": "s4",
+     "title": "Justice David Gunn (campaign website)",
+     "publisher": "David Gunn Campaign",
+     "url": "https://justicedavidgunn.com",
+     "date": null
+    },
+    {
+     "id": "s5",
+     "title": "It's hard to go wrong, no matter who you vote for on the Courts of Appeals | Endorsement",
+     "publisher": "Houston Chronicle Editorial Board",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/1st-14th-courts-of-appeals-texas-2026-22476159.php",
+     "date": "2026-10-14"
+    },
+    {
+     "id": "s6",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    },
+    {
+     "id": "s7",
+     "title": "TCJL PAC: 2026 Judicial Endorsements",
+     "publisher": "Texas Civil Justice League PAC",
+     "url": "https://tcjlpac.com/?p=217586",
+     "date": "2026"
+    }
+   ],
+   "research_gaps": "No news coverage of specific opinions and no statement on judicial selection were found."
+  },
+  {
+   "id": "julie-countiss",
+   "race_id": "coa1-4",
+   "incumbent": false,
+   "current_role": "Partner, Conklin Countiss Sternfels PLLC; former Justice, First Court of Appeals (2019 to 2024)",
+   "background": "Julie Countiss served six years on Houston's First Court of Appeals after winning a seat in 2018 and lost re-election in 2024. Before joining the bench, she was an assistant county attorney with the Harris County Attorney's Office, representing the county in state and federal civil litigation. She began her career as a Teach for America teacher in the South Bronx. She is a native Texan with a degree from Southern Methodist University (1993) and a J.D. from the University of Houston (2002).",
+   "website": "https://juliecountiss.com",
+   "priorities": [
+    {
+     "text": "Campaigns on six years of service on the First Court of Appeals and more than 300 written opinions on the merits.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Says appellate judging requires careful legal analysis and applying the law consistently and thoughtfully.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Emphasizes a career of public service and commitment to fair and impartial justice.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Served on the First Court of Appeals, Place 7, from 2019 to 2024, authoring more than 300 opinions on the merits, according to her campaign.",
+     "sources": [
+      "s2",
+      "s3"
+     ]
+    },
+    {
+     "text": "Appointed by the Supreme Court of Texas to the Texas Children's Commission.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Houston Chronicle editorial board endorsed David Gunn but rated Countiss 4 stars as well, calling her experienced and respected and noting it had enthusiastically endorsed her in the past.",
+     "sources": [
+      "s4"
+     ]
+    },
+    {
+     "text": "State Bar of Texas 2026 Judicial Poll: Countiss 529 votes, David Gunn 446 (about 54 percent to 46 percent). The State Bar poll was a non-scientific survey of participating lawyers taken before the March 2026 primaries.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Houston Bar Association 2026 Judicial Preference Poll: Gunn 331 votes, Countiss 234. The HBA poll had 769 participating members and is not an HBA endorsement.",
+     "sources": [
+      "s5"
+     ]
+    },
+    {
+     "text": "Named Appellate Judge of the Year by the Texas Association of Civil Trial and Appellate Specialists (her campaign site says 2023).",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Texasjudges.org lists endorsements from the Gulf Coast AFL-CIO, the Houston Mexican American Bar Association and the Houston LGBTQ+ Caucus.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Received two Houston Bar Association President's Awards.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "State Bar of Texas 2026 Judicial Poll, Final Vote Summary (February 10, 2026)",
+     "publisher": "State Bar of Texas",
+     "url": "https://www.texasbar.com/pollresults/",
+     "date": "2026-02-10"
+    },
+    {
+     "id": "s2",
+     "title": "Julie Countiss for First Court of Appeals, Place 4 (campaign website)",
+     "publisher": "Julie Countiss Campaign",
+     "url": "https://juliecountiss.com",
+     "date": null
+    },
+    {
+     "id": "s3",
+     "title": "1st Court of Appeals, Place 4",
+     "publisher": "Texas Judges (texasjudges.org)",
+     "url": "https://texasjudges.org/2026-1coa4/",
+     "date": "2026"
+    },
+    {
+     "id": "s4",
+     "title": "It's hard to go wrong, no matter who you vote for on the Courts of Appeals | Endorsement",
+     "publisher": "Houston Chronicle Editorial Board",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/1st-14th-courts-of-appeals-texas-2026-22476159.php",
+     "date": "2026-10-14"
+    },
+    {
+     "id": "s5",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No statements on textualism or judicial selection and no news coverage of specific opinions from her First Court tenure were found."
+  },
+  {
+   "id": "jessica-caird",
+   "race_id": "coa1-5",
+   "incumbent": false,
+   "current_role": "Appellate Division Chief, Harris County District Attorney's Office",
+   "background": "Jessica Caird has been an assistant district attorney in Harris County for 26 years, including about 20 years in appeals, and has served as appellate division chief since 2021, supervising 12 to 15 attorneys. She has worked under seven district attorneys of both parties. She says she has filed more than 440 briefs in Texas courts and presented oral argument 34 times. She holds a B.A. in English literature from American University and a J.D. from the University of Houston Law Center (1998).",
+   "website": "https://www.cairdforjustice.com/",
+   "priorities": [
+    {
+     "text": "Says constitutions must be interpreted as written because they stand as the will of the people.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Says the job of a judge is to faithfully apply the law as written by the Legislature, not to ignore or create it.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Raised concerns that the First Court of Appeals has been slow to rule, according to the Houston Chronicle.",
+     "sources": [
+      "s4"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Houston Chronicle editorial board endorsed incumbent Amy Guerra (4 stars) and rated Caird 3.5 stars, calling her a strong candidate; the board reported the court's clearance rate for the fiscal year ending August 31, 2025 was 83 percent, lower than other regional courts.",
+     "sources": [
+      "s4"
+     ]
+    },
+    {
+     "text": "State Bar of Texas 2026 Judicial Poll: Amy Guerra 575 votes, Caird 287 (about 67 percent to 33 percent). The State Bar poll was a non-scientific survey of participating lawyers taken before the March 2026 primaries.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Houston Bar Association 2026 Judicial Preference Poll: Guerra 277 votes, Caird 157. The HBA poll had 769 participating members and is not an HBA endorsement.",
+     "sources": [
+      "s5"
+     ]
+    },
+    {
+     "text": "Texasjudges.org lists endorsements from the Log Cabin Republicans and The Menudo Club.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "stances": {
+    "q_textualism": {
+     "position": 1,
+     "basis": "statement",
+     "summary": "Says the U.S. and Texas Constitutions must be interpreted as written and that judges should faithfully apply laws as written by the Legislature.",
+     "sources": [
+      "s2",
+      "s3"
+     ]
+    }
+   },
+   "issue_notes": [
+    {
+     "topic": "Court Administration",
+     "summary": "Has raised the pace of decisions at the First Court of Appeals as her main concern, according to the Houston Chronicle.",
+     "sources": [
+      "s4"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "State Bar of Texas 2026 Judicial Poll, Final Vote Summary (February 10, 2026)",
+     "publisher": "State Bar of Texas",
+     "url": "https://www.texasbar.com/pollresults/",
+     "date": "2026-02-10"
+    },
+    {
+     "id": "s2",
+     "title": "Jessica Caird for Justice (campaign website)",
+     "publisher": "Jessica Caird Campaign",
+     "url": "https://www.cairdforjustice.com/",
+     "date": null
+    },
+    {
+     "id": "s3",
+     "title": "1st Court of Appeals, Place 5",
+     "publisher": "Texas Judges (texasjudges.org)",
+     "url": "https://texasjudges.org/2026-races/1st-court-of-appeals-place-5/",
+     "date": "2026"
+    },
+    {
+     "id": "s4",
+     "title": "It's hard to go wrong, no matter who you vote for on the Courts of Appeals | Endorsement",
+     "publisher": "Houston Chronicle Editorial Board",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/1st-14th-courts-of-appeals-texas-2026-22476159.php",
+     "date": "2026-10-14"
+    },
+    {
+     "id": "s5",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No statement on judicial selection and no news coverage of specific appellate cases she handled were found."
+  },
+  {
+   "id": "amy-guerra",
+   "race_id": "coa1-5",
+   "incumbent": true,
+   "current_role": "Justice, First Court of Appeals, Place 5, since 2021 (elected 2020)",
+   "background": "Amparo \"Amy\" Guerra was elected to Houston's First Court of Appeals in 2020. Before that she practiced complex civil litigation for nearly 20 years in state and federal courts, became the first Hispanic partner at her law firm, and was named a Texas Super Lawyer in business litigation. She served as a part-time City of Houston associate municipal judge beginning in 2005. She graduated from Rice University, earned her J.D. from the University of Houston Law Center (2002), and clerked for U.S. District Judge Filemon Vela.",
+   "website": "https://www.justiceguerra.com/",
+   "priorities": [
+    {
+     "text": "Campaigns on public safety, protecting rights and upholding the rule of law.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Campaigns on ensuring equal justice for all.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Highlights hundreds of opinions authored in civil and criminal cases since joining the court.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Elected to the First Court of Appeals in November 2020 and has authored hundreds of opinions in civil and criminal cases.",
+     "sources": [
+      "s2",
+      "s3"
+     ]
+    },
+    {
+     "text": "Served as an associate municipal judge for the City of Houston from 2005 to 2010 while practicing law.",
+     "sources": [
+      "s3",
+      "s5"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Endorsed by the Houston Chronicle editorial board (4 stars), which said she has earned another term.",
+     "sources": [
+      "s4"
+     ]
+    },
+    {
+     "text": "State Bar of Texas 2026 Judicial Poll: Guerra 575 votes, Jessica Caird 287 (about 67 percent to 33 percent); her campaign says this was the most votes of any regional court of appeals candidate. The State Bar poll was a non-scientific survey of participating lawyers taken before the March 2026 primaries.",
+     "sources": [
+      "s1",
+      "s3"
+     ]
+    },
+    {
+     "text": "Houston Bar Association 2026 Judicial Preference Poll: Guerra 277 votes, Caird 157. The HBA poll had 769 participating members and is not an HBA endorsement.",
+     "sources": [
+      "s6"
+     ]
+    },
+    {
+     "text": "Recognized as Judge of the Year in 2023, according to her campaign.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "She is the daughter of retired Senior Justice Linda Yanez, the first Latina to serve on a Texas appellate court.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "State Bar of Texas 2026 Judicial Poll, Final Vote Summary (February 10, 2026)",
+     "publisher": "State Bar of Texas",
+     "url": "https://www.texasbar.com/pollresults/",
+     "date": "2026-02-10"
+    },
+    {
+     "id": "s2",
+     "title": "Justice Amparo \"Amy\" Guerra (official biography)",
+     "publisher": "First Court of Appeals, Texas Judicial Branch",
+     "url": "https://www.txcourts.gov/1stcoa/about-the-court/justices/justice-amparo-amy-guerra/",
+     "date": null
+    },
+    {
+     "id": "s3",
+     "title": "Justice Amy Guerra (campaign website)",
+     "publisher": "Amy Guerra Campaign",
+     "url": "https://www.justiceguerra.com/",
+     "date": null
+    },
+    {
+     "id": "s4",
+     "title": "It's hard to go wrong, no matter who you vote for on the Courts of Appeals | Endorsement",
+     "publisher": "Houston Chronicle Editorial Board",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/1st-14th-courts-of-appeals-texas-2026-22476159.php",
+     "date": "2026-10-14"
+    },
+    {
+     "id": "s5",
+     "title": "1st Court of Appeals, Place 5",
+     "publisher": "Texas Judges (texasjudges.org)",
+     "url": "https://texasjudges.org/2026-races/1st-court-of-appeals-place-5/",
+     "date": "2026"
+    },
+    {
+     "id": "s6",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No public statement of judicial philosophy on textualism or judicial selection, no organizational endorsements, and no news coverage of specific opinions were found."
+  },
+  {
+   "id": "ken-wise",
+   "race_id": "coa14-7",
+   "incumbent": true,
+   "current_role": "Justice, Fourteenth Court of Appeals, Place 7, since October 2013 (appointed by Gov. Rick Perry)",
+   "background": "Ken Wise was appointed to Houston's Fourteenth Court of Appeals by Gov. Rick Perry in October 2013. He previously served as judge of Harris County's 152nd District Court (2002 to 2008) and 334th District Court (2011 to 2013), and in 2011 the Harris County district judges elected him local administrative judge. He was a partner at Fridge, Resendez & Wise and has taught as an adjunct professor at the University of Houston Law Center. He holds a B.B.A. in finance from Texas A&M University (1991) and a J.D. from the University of Houston Law Center (1994).",
+   "website": "https://www.wisefortexas.com/",
+   "priorities": [
+    {
+     "text": "Campaigns on experience and fairness for Texas.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Says the court is not a place for ideology and tries to maintain a nonpartisan posture within a partisan system, according to the Houston Chronicle.",
+     "sources": [
+      "s4"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Appointed to the Fourteenth Court of Appeals in October 2013 and re-elected in 2014 (58.2 percent against Gordon Goodman) and 2020 (50.4 percent against Tamika Craft).",
+     "sources": [
+      "s2",
+      "s5"
+     ]
+    },
+    {
+     "text": "Serves as vice chairman of the State Commission on Judicial Conduct and on the Texas Multi-District Litigation Panel, according to his campaign.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Co-chaired a State Bar task force that studied the structure of the Texas court system, according to his campaign.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Endorsed by the Houston Chronicle editorial board (4.5 stars, as was William Demond), which called him a highly respected incumbent committed to leaving politics aside and noted his high marks in Houston Bar Association evaluations.",
+     "sources": [
+      "s4"
+     ]
+    },
+    {
+     "text": "Houston Bar Association 2026 Judicial Preference Poll: Wise 401 votes, Demond 177. The HBA poll had 769 participating members and is not an HBA endorsement.",
+     "sources": [
+      "s6"
+     ]
+    },
+    {
+     "text": "State Bar of Texas 2026 Judicial Poll (all primary candidates): Wise 559 votes, William Demond 206, Michael Adams-Hurta 130, Derek Obialo 101. The State Bar poll was a non-scientific survey of participating lawyers taken before the March 2026 primaries.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Endorsed by the Texas Civil Justice League PAC; texasjudges.org also lists the Texas Alliance for Life PAC.",
+     "sources": [
+      "s7",
+      "s5"
+     ]
+    },
+    {
+     "text": "Hosts the Texas history podcast Wise About Texas and is a director of the Houston Livestock Show and Rodeo.",
+     "sources": [
+      "s2",
+      "s3"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "State Bar of Texas 2026 Judicial Poll, Final Vote Summary (February 10, 2026)",
+     "publisher": "State Bar of Texas",
+     "url": "https://www.texasbar.com/pollresults/",
+     "date": "2026-02-10"
+    },
+    {
+     "id": "s2",
+     "title": "Justice Ken Wise (official biography)",
+     "publisher": "Fourteenth Court of Appeals, Texas Judicial Branch",
+     "url": "https://www.txcourts.gov/14thcoa/about-the-court/justices/justice-ken-wise/",
+     "date": null
+    },
+    {
+     "id": "s3",
+     "title": "Ken Wise for Texas (campaign website)",
+     "publisher": "Ken Wise Campaign",
+     "url": "https://www.wisefortexas.com/",
+     "date": null
+    },
+    {
+     "id": "s4",
+     "title": "It's hard to go wrong, no matter who you vote for on the Courts of Appeals | Endorsement",
+     "publisher": "Houston Chronicle Editorial Board",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/1st-14th-courts-of-appeals-texas-2026-22476159.php",
+     "date": "2026-10-14"
+    },
+    {
+     "id": "s5",
+     "title": "14th Court of Appeals, Place 7",
+     "publisher": "Texas Judges (texasjudges.org)",
+     "url": "https://texasjudges.org/2026-races/14th-court-of-appeals-place-7/",
+     "date": "2026"
+    },
+    {
+     "id": "s6",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    },
+    {
+     "id": "s7",
+     "title": "TCJL PAC: 2026 Judicial Endorsements",
+     "publisher": "Texas Civil Justice League PAC",
+     "url": "https://tcjlpac.com/?p=217586",
+     "date": "2026"
+    }
+   ],
+   "research_gaps": "No public statement on textualism or judicial selection and no news coverage of specific recent opinions were found."
+  },
+  {
+   "id": "william-demond",
+   "race_id": "coa14-7",
+   "incumbent": false,
+   "current_role": "Staff attorney, Fifth Court of Appeals (Dallas), since 2023",
+   "background": "William Demond has been a staff attorney at the Fifth Court of Appeals in Dallas since 2023, working for Justice Cory Carlyle. Before that he practiced constitutional and civil rights law in Houston for more than a decade, at Demond & Hassan (2011 to 2018) and Demond Law (2019 to 2023), after earlier practice at Connor & Demond in Austin. He holds a B.A. in Asian studies from Furman University (2000) and a J.D. and an M.A. in international relations from Seton Hall University (2006). He was the Democratic nominee for the Fourteenth Court, Place 9 in 2022 and won the 2026 Democratic nomination for Place 7 after a primary runoff.",
+   "website": "https://williamdemondforjustice.com/",
+   "priorities": [
+    {
+     "text": "Says he is running to protect the rights of the people and guard the rule of law and the Constitution.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Campaigns on constitutional law, public service and due process.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Assisted with briefing in Turner v. Driver (5th Cir. 2017), which recognized a First Amendment right to record police, and worked on Zadeh v. Robinson (5th Cir. 2019) on administrative subpoenas, according to his campaign.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Was appointed by courts as an ad litem for Harris County inmates in COVID-19 confinement litigation and in other matters, according to his campaign.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Lost the 2022 general election for the Fourteenth Court of Appeals, Place 9, with about 47 percent against Randy Wilson.",
+     "sources": [
+      "s5"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Houston Chronicle editorial board endorsed Ken Wise but rated Demond 4.5 stars, saying he has a remarkable command of the law and calling him a generational talent; the board endorsed Demond in the March primary and the May runoff.",
+     "sources": [
+      "s4",
+      "s7",
+      "s8"
+     ]
+    },
+    {
+     "text": "Houston Bar Association 2026 Judicial Preference Poll: Wise 401 votes, Demond 177. The HBA poll had 769 participating members and is not an HBA endorsement.",
+     "sources": [
+      "s6"
+     ]
+    },
+    {
+     "text": "State Bar of Texas 2026 Judicial Poll (all primary candidates): Ken Wise 559 votes, Demond 206, Michael Adams-Hurta 130, Derek Obialo 101. The State Bar poll was a non-scientific survey of participating lawyers taken before the March 2026 primaries.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Texasjudges.org lists endorsements from the Houston Lawyers Association, the Gulf Coast AFL-CIO, the Mexican American Bar Association, the Greater Heights Democratic Club and Area 5 Democrats.",
+     "sources": [
+      "s5"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "State Bar of Texas 2026 Judicial Poll, Final Vote Summary (February 10, 2026)",
+     "publisher": "State Bar of Texas",
+     "url": "https://www.texasbar.com/pollresults/",
+     "date": "2026-02-10"
+    },
+    {
+     "id": "s2",
+     "title": "William Demond, Candidate for Texas' Fourteenth Court of Appeals (campaign website)",
+     "publisher": "William Demond Campaign",
+     "url": "https://williamdemondforjustice.com/",
+     "date": null
+    },
+    {
+     "id": "s3",
+     "title": "Victories",
+     "publisher": "William Demond Campaign",
+     "url": "https://williamdemondforjustice.com/victories",
+     "date": null
+    },
+    {
+     "id": "s4",
+     "title": "It's hard to go wrong, no matter who you vote for on the Courts of Appeals | Endorsement",
+     "publisher": "Houston Chronicle Editorial Board",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/1st-14th-courts-of-appeals-texas-2026-22476159.php",
+     "date": "2026-10-14"
+    },
+    {
+     "id": "s5",
+     "title": "14th Court of Appeals, Place 7",
+     "publisher": "Texas Judges (texasjudges.org)",
+     "url": "https://texasjudges.org/2026-races/14th-court-of-appeals-place-7/",
+     "date": "2026"
+    },
+    {
+     "id": "s6",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    },
+    {
+     "id": "s7",
+     "title": "Democrats should pick Demond for the 14th Court of Appeals, Place 7",
+     "publisher": "Houston Chronicle Editorial Board",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/william-demond-democratic-primary-2026-21355803.php",
+     "date": "2026-02"
+    },
+    {
+     "id": "s8",
+     "title": "William Demond for 14th Court of Appeals District, Place 7 runoff",
+     "publisher": "Houston Chronicle Editorial Board",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/14th-court-demond-democratic-primary-runoff-22261537.php",
+     "date": "2026-05"
+    }
+   ],
+   "research_gaps": "No statements on textualism or judicial selection were found, and primary and runoff vote totals were not verified."
+  },
+  {
+   "id": "clarissa-silva",
+   "race_id": "coa13-6",
+   "incumbent": true,
+   "current_role": "Justice, Thirteenth Court of Appeals, Place 6, since 2021 (elected 2020)",
+   "background": "Clarissa Silva was born and raised in Harlingen and was elected to the Thirteenth Court of Appeals in 2020. She earned a B.A. in criminal justice from the University of Texas at San Antonio and a J.D. from Thurgood Marshall School of Law (2007). She worked at the Nueces County District Attorney's Office from 2008, handling juvenile cases and cases involving abuse and neglect, and from 2017 at the San Patricio County Attorney's Office representing the Texas Department of Family and Protective Services. She has been board certified in juvenile law since 2015.",
+   "website": "https://voteclarissasilva.com",
+   "priorities": [
+    {
+     "text": "Campaigns on applying the law fairly, thoughtfully and consistently.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Says she is committed to protecting constitutional principles and due process.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Says every case deserves careful consideration and every person deserves dignity and respect.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Elected to the Thirteenth Court of Appeals in 2020 and has authored more than 550 appellate opinions, according to her campaign.",
+     "sources": [
+      "s3",
+      "s6"
+     ]
+    },
+    {
+     "text": "Ran for the Thirteenth Court, Place 5, in 2018 and received about 47 percent against Gina Benavides.",
+     "sources": [
+      "s4"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "State Bar of Texas 2026 Judicial Poll: John Ball 100 votes, Silva 64 (about 61 percent to 39 percent). The State Bar poll was a non-scientific survey of participating lawyers taken before the March 2026 primaries.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Endorsed by the Texas Civil Justice League PAC.",
+     "sources": [
+      "s5"
+     ]
+    },
+    {
+     "text": "Received a certificate of appreciation from the Coastal Bend Coalition for Crime Victims' Rights.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "State Bar of Texas 2026 Judicial Poll, Final Vote Summary (February 10, 2026)",
+     "publisher": "State Bar of Texas",
+     "url": "https://www.texasbar.com/pollresults/",
+     "date": "2026-02-10"
+    },
+    {
+     "id": "s2",
+     "title": "Re-Elect Justice Clarissa Silva (campaign website)",
+     "publisher": "Clarissa Silva Campaign",
+     "url": "https://voteclarissasilva.com",
+     "date": null
+    },
+    {
+     "id": "s3",
+     "title": "Meet Clarissa",
+     "publisher": "Clarissa Silva Campaign",
+     "url": "https://reelectjusticeclarissasilva.com/blog/meetclarissa/",
+     "date": null
+    },
+    {
+     "id": "s4",
+     "title": "13th Court of Appeals, Place 6",
+     "publisher": "Texas Judges (texasjudges.org)",
+     "url": "https://texasjudges.org/2026-races/13th-court-of-appeals-place-6/",
+     "date": "2026"
+    },
+    {
+     "id": "s5",
+     "title": "TCJL PAC: 2026 Judicial Endorsements",
+     "publisher": "Texas Civil Justice League PAC",
+     "url": "https://tcjlpac.com/?p=217586",
+     "date": "2026"
+    },
+    {
+     "id": "s6",
+     "title": "Judicial Experience",
+     "publisher": "Clarissa Silva Campaign",
+     "url": "https://reelectjusticeclarissasilva.com/experience/",
+     "date": null
+    }
+   ],
+   "research_gaps": "No newspaper endorsement, no news coverage of specific opinions, and no statements on textualism or judicial selection were found."
+  },
+  {
+   "id": "john-ball",
+   "race_id": "coa13-6",
+   "incumbent": false,
+   "current_role": "Attorney in McAllen; in-house counsel, McAllen ISD (per texasjudges.org)",
+   "background": "John Ball is a lifelong South Texas resident and McAllen attorney who has practiced criminal and family law and is double board certified in criminal law and family law. He served in the Border Prosecution Unit of the Hidalgo County District Attorney's Office and was previously elected to the McAllen ISD Board of Trustees. He attended Texas A&M University and earned his J.D. from St. Mary's University School of Law with a concentration in criminal law.",
+   "website": "http://votejohnball.com",
+   "priorities": [
+    {
+     "text": "Says he is prepared to bring his trial and appellate background to the Thirteenth Court of Appeals.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Previously served as an elected trustee of the McAllen ISD Board of Trustees.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "State Bar of Texas 2026 Judicial Poll: Ball 100 votes, Clarissa Silva 64 (about 61 percent to 39 percent). The State Bar poll was a non-scientific survey of participating lawyers taken before the March 2026 primaries.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Texasjudges.org lists no endorsements for Ball.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "State Bar of Texas 2026 Judicial Poll, Final Vote Summary (February 10, 2026)",
+     "publisher": "State Bar of Texas",
+     "url": "https://www.texasbar.com/pollresults/",
+     "date": "2026-02-10"
+    },
+    {
+     "id": "s2",
+     "title": "John Ball for Thirteenth Court of Appeals, Place 6 (campaign website)",
+     "publisher": "John Ball Campaign",
+     "url": "http://votejohnball.com",
+     "date": null
+    },
+    {
+     "id": "s3",
+     "title": "13th Court of Appeals, Place 6",
+     "publisher": "Texas Judges (texasjudges.org)",
+     "url": "https://texasjudges.org/2026-races/13th-court-of-appeals-place-6/",
+     "date": "2026"
+    }
+   ],
+   "research_gaps": "No stated judicial philosophy, specific priorities, endorsements, or news coverage of his campaign were found."
+  },
+  {
+   "id": "bert-richardson",
+   "race_id": "coa4-chief",
+   "incumbent": false,
+   "current_role": "Judge, Texas Court of Criminal Appeals, Place 3, since 2015",
+   "background": "Bert Richardson has served on the Texas Court of Criminal Appeals since 2015 and is leaving that statewide seat to run for chief justice of the San Antonio-based Fourth Court of Appeals. He was an assistant district attorney in Bexar County and an assistant U.S. attorney for the Western District of Texas, was appointed to the 379th District Court by Gov. George W. Bush in 1999, and later served as a senior visiting judge. He holds an undergraduate degree from Brigham Young University and a law degree from St. Mary's University School of Law, and is board certified in criminal law.",
+   "website": "https://electjudgerichardson.com/",
+   "priorities": [
+    {
+     "text": "Says he will treat all cases before the Fourth Court of Appeals with equal right.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Describes his approach as faithfully following the laws of Texas and says his opinions reflect a conservative-minded approach to the law.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Campaigns on 37 years as a trial and appellate lawyer and judge as preparation to lead the court as chief justice.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Elected to the Court of Criminal Appeals in 2014 and re-elected in 2020.",
+     "sources": [
+      "s4",
+      "s5"
+     ]
+    },
+    {
+     "text": "Joined the 2021 Court of Criminal Appeals majority holding that Attorney General Ken Paxton lacked authority to unilaterally prosecute election fraud cases; he told the San Antonio Report he stands by the ruling.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Served on the 379th District Court from 1999 until losing the 2008 election to Ron Rangel, then served as a senior visiting judge from 2009 to 2014.",
+     "sources": [
+      "s2",
+      "s4"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "State Bar of Texas 2026 Judicial Poll (all primary candidates): Richardson 176 votes, Antonia Arteaga 109, Velia J. Meza 65. The State Bar poll was a non-scientific survey of participating lawyers taken before the March 2026 primaries.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "He was unopposed in the March 2026 Republican primary.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Received the St. Mary's University School of Law Rosewood Gavel Award (2022) and Distinguished Law Graduate award (2015).",
+     "sources": [
+      "s3",
+      "s4"
+     ]
+    }
+   ],
+   "stances": {
+    "q_textualism": {
+     "position": 1,
+     "basis": "statement",
+     "summary": "Says judges should faithfully follow the constitutions and laws of the United States and Texas because the legislature makes the laws, and describes his approach as conservative-minded.",
+     "sources": [
+      "s4",
+      "s3"
+     ]
+    }
+   },
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "State Bar of Texas 2026 Judicial Poll, Final Vote Summary (February 10, 2026)",
+     "publisher": "State Bar of Texas",
+     "url": "https://www.texasbar.com/pollresults/",
+     "date": "2026-02-10"
+    },
+    {
+     "id": "s2",
+     "title": "Fourth Court of Appeals chief justice race 2026",
+     "publisher": "San Antonio Report",
+     "url": "https://sanantonioreport.org/fourth-court-of-appeals-chief-justice-race-2026/",
+     "date": "2025-12-31"
+    },
+    {
+     "id": "s3",
+     "title": "Elect Judge Richardson, Chief Justice, 4th Court of Appeals (campaign website)",
+     "publisher": "Bert Richardson Campaign",
+     "url": "https://electjudgerichardson.com/",
+     "date": null
+    },
+    {
+     "id": "s4",
+     "title": "Bert Richardson | 2026 candidate for Fourth Court of Appeals",
+     "publisher": "San Antonio Report",
+     "url": "https://sanantonioreport.org/profile/bert-richardson-2026-candidate-for-fourth-court-of-appeals",
+     "date": "2026-07-17"
+    },
+    {
+     "id": "s5",
+     "title": "4th Court of Appeals Chief Justice",
+     "publisher": "Texas Judges (texasjudges.org)",
+     "url": "https://texasjudges.org/2026-races/4th-court-of-appeals-chief-justice/",
+     "date": "2026"
+    }
+   ],
+   "research_gaps": "No verified organizational or newspaper endorsements for the general election and no statement on judicial selection were found."
+  },
+  {
+   "id": "antonia-toni-arteaga",
+   "race_id": "coa4-chief",
+   "incumbent": false,
+   "current_role": "Judge, 57th District Court (Bexar County), since 2009",
+   "background": "Antonia \"Toni\" Arteaga is a West Texas native and the first woman elected to Bexar County's 57th Civil District Court, where she has served since winning election in 2008. Before that she practiced criminal and civil law with a focus on family law, tried more than 70 jury trials, and was twice appointed a criminal magistrate judge. She holds a B.A. in government and sociology from the University of Texas at Austin and a J.D. from St. Mary's University School of Law (2000). She won the 2026 Democratic primary over Fourth Court Justice Velia Meza.",
+   "website": "https://judgearteaga.com/",
+   "priorities": [
+    {
+     "text": "Says the chief justice of a 32-county appellate court needs executive experience and that her long trial court career prepares her for it.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Says she would aim to issue clear, timely opinions that give trial judges and the public legal certainty.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Describes the appellate court's role as ensuring decisions are grounded in the record and free from abuse of discretion.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "promises": [
+    {
+     "text": "Says she would aim to provide clear and timely opinions as an appellate justice.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "record": [
+    {
+     "text": "Has presided over the 57th District Court since 2009, handling complex civil litigation, and is in her fifth term.",
+     "sources": [
+      "s2",
+      "s3"
+     ]
+    },
+    {
+     "text": "Twice served as president of the Texas Association of District Judges, which represents district courts' needs before the Legislature.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "State Bar of Texas 2026 Judicial Poll (all primary candidates): Bert Richardson 176 votes, Arteaga 109, Velia J. Meza 65. The State Bar poll was a non-scientific survey of participating lawyers taken before the March 2026 primaries.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Founding member of Texas Latinx Judges and Bexar County chair of the National Association of Women Judges, according to texasjudges.org.",
+     "sources": [
+      "s4",
+      "s3"
+     ]
+    },
+    {
+     "text": "Texasjudges.org lists endorsements from the North East Bexar County Democrats and the Bexar County Young Democrats.",
+     "sources": [
+      "s4"
+     ]
+    },
+    {
+     "text": "If she wins, Gov. Greg Abbott would appoint a replacement to her district court seat, according to the San Antonio Report.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [
+    {
+     "topic": "Court Administration",
+     "summary": "Says the chief justice role requires executive and legislative experience, citing her leadership of the Texas Association of District Judges.",
+     "sources": [
+      "s2",
+      "s3"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "State Bar of Texas 2026 Judicial Poll, Final Vote Summary (February 10, 2026)",
+     "publisher": "State Bar of Texas",
+     "url": "https://www.texasbar.com/pollresults/",
+     "date": "2026-02-10"
+    },
+    {
+     "id": "s2",
+     "title": "Fourth Court of Appeals chief justice race 2026",
+     "publisher": "San Antonio Report",
+     "url": "https://sanantonioreport.org/fourth-court-of-appeals-chief-justice-race-2026/",
+     "date": "2025-12-31"
+    },
+    {
+     "id": "s3",
+     "title": "Antonia Arteaga | 2026 candidate for Fourth Court of Appeals",
+     "publisher": "San Antonio Report",
+     "url": "https://sanantonioreport.org/profile/antonia-arteaga-2026-candidate-for-fourth-court-of-appeals/",
+     "date": "2026-07-17"
+    },
+    {
+     "id": "s4",
+     "title": "4th Court of Appeals Chief Justice",
+     "publisher": "Texas Judges (texasjudges.org)",
+     "url": "https://texasjudges.org/2026-races/4th-court-of-appeals-chief-justice/",
+     "date": "2026"
+    }
+   ],
+   "research_gaps": "No newspaper endorsement, no news coverage of specific rulings, and no statements on textualism or judicial selection were found; primary vote totals were not verified."
+  },
+  {
+   "id": "lee-harris",
+   "race_id": "coa10-2",
+   "incumbent": true,
+   "current_role": "Justice, Tenth Court of Appeals, Place 2, since January 2025 (appointed by Gov. Greg Abbott)",
+   "background": "Lee Harris was appointed to the Waco-based Tenth Court of Appeals by Gov. Greg Abbott in January 2025. He was the first judge of the Hill County Court at Law (2005 to 2014) and then judge of the 66th District Court in Hill County from 2015. Earlier he was a partner at Moore & Harris and served as Hill County district attorney pro tem from 1999 to 2005, prosecuting about 600 felony cases. He holds a B.S. in agriculture from Stephen F. Austin State University and a J.D. from Baylor Law School (1993), where he has taught in the Practice Court program since 2010.",
+   "website": "https://justiceleeharris.com",
+   "priorities": [
+    {
+     "text": "Says his judicial philosophy is that judges should uphold the law, not make the law.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Describes himself as a strict constructionist who opposes legislating from the bench.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Pledges what he calls conservative common sense in every decision.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "promises": [
+    {
+     "text": "Says that if kept on the court he will apply conservative common sense in every decision.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "record": [
+    {
+     "text": "Appointed to the Tenth Court of Appeals by Gov. Greg Abbott in January 2025.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Served as the first judge of the Hill County Court at Law from 2005 to 2014 and as judge of the 66th District Court beginning in 2015; he was the first judge of the Hill County Juvenile Drug Court.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Texasjudges.org lists no opponent in the November 2026 general election.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "stances": {
+    "q_textualism": {
+     "position": 1,
+     "basis": "statement",
+     "summary": "Describes himself as a strict constructionist of the law who believes judges should uphold the law rather than make it.",
+     "sources": [
+      "s2"
+     ]
+    }
+   },
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Justice Lee Harris (official biography)",
+     "publisher": "Tenth Court of Appeals, Texas Judicial Branch",
+     "url": "https://www.txcourts.gov/10thcoa/about-the-court/justices/justice-lee-harris/",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Justice Lee Harris (campaign website)",
+     "publisher": "Lee Harris Campaign",
+     "url": "https://justiceleeharris.com",
+     "date": null
+    },
+    {
+     "id": "s3",
+     "title": "10th Court of Appeals, Place 2",
+     "publisher": "Texas Judges (texasjudges.org)",
+     "url": "https://texasjudges.org/2026-races/10th-court-of-appeals-place-2/",
+     "date": "2026"
+    }
+   ],
+   "research_gaps": "No bar poll, newspaper coverage, or notable opinions were found for this uncontested race."
+  },
+  {
+   "id": "chris-taylor",
+   "race_id": "coa2-2",
+   "incumbent": false,
+   "current_role": "Judge, 48th District Court (Tarrant County), since 2021",
+   "background": "Chris Taylor was born at Carswell Air Force Base in Fort Worth and has been judge of Tarrant County's 48th District Court since Gov. Greg Abbott appointed him in 2021; he has since won election and re-election to that court. He previously practiced civil litigation at Fort Worth firms, represented school districts and municipalities, and worked in the civil division of the Tarrant County District Attorney's Office from 2018 to 2021. He holds a political science degree from the University of North Texas and a J.D. from Texas Tech University School of Law (2010).",
+   "website": "https://taylor4judge.com",
+   "priorities": [
+    {
+     "text": "Campaigns on the rule of law for North Texas.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says he believes in applying the law as written and honoring the Constitution rather than rewriting it from the bench.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Highlights running an efficient courtroom in civil cases.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Appointed by Gov. Greg Abbott in 2021 as presiding judge of the 48th District Court, a civil court in Tarrant County, and later elected and re-elected.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Texasjudges.org lists no opponent in the November 2026 general election.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {
+    "q_textualism": {
+     "position": 1,
+     "basis": "statement",
+     "summary": "Says judges should apply the law as written and honor the Constitution rather than rewrite it from the bench.",
+     "sources": [
+      "s1"
+     ]
+    }
+   },
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Judge Chris Taylor (campaign website)",
+     "publisher": "Chris Taylor Campaign",
+     "url": "https://taylor4judge.com",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "2nd Court of Appeals, Place 2",
+     "publisher": "Texas Judges (texasjudges.org)",
+     "url": "https://texasjudges.org/2026-races/2nd-court-of-appeals-place-2/",
+     "date": "2026"
+    }
+   ],
+   "research_gaps": "No bar poll, newspaper coverage, or notable rulings were found for this uncontested race."
+  },
+  {
+   "id": "brian-walker",
+   "race_id": "coa2-7",
+   "incumbent": true,
+   "current_role": "Justice, Second Court of Appeals, Place 7",
+   "background": "Brian Walker is a native Texan and a justice on the Fort Worth-based Second Court of Appeals. After law school at the University of Houston (J.D. 2003), he was a prosecutor in the Harrison County District Attorney's Office for nearly two years and then spent almost 15 years in private practice handling military and veterans law, civil litigation and criminal defense, trying more than 75 jury trials. He served nine years as a Judge Advocate in the U.S. Air Force Reserves. He also holds a B.S. from Texas State University, an M.A. in international relations from the University of Oklahoma and a master's degree from Dallas Theological Seminary.",
+   "website": "https://voteforwalker.com",
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "Authored about 100 civil and criminal appellate briefs while in private practice and co-founded a Tarrant County program providing pro bono legal services to veterans.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Texasjudges.org lists no opponent in the November 2026 general election.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Named a Super Lawyer in 2020 and 2021 and a Lawyer on the Rise by Texas Lawyer magazine in 2016, according to his official biography.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Justice Brian Walker (official biography)",
+     "publisher": "Second Court of Appeals, Texas Judicial Branch",
+     "url": "https://www.txcourts.gov/2ndcoa/about-the-court/justices/justice-brian-walker/",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "2nd Court of Appeals, Place 7",
+     "publisher": "Texas Judges (texasjudges.org)",
+     "url": "https://texasjudges.org/2026-races/2nd-court-of-appeals-place-7/",
+     "date": "2026"
+    }
+   ],
+   "research_gaps": "The date he joined the court, campaign priorities, a stated judicial philosophy, and notable opinions were not found."
+  },
+  {
+   "id": "maria-salas-mendoza",
+   "race_id": "coa8-chief",
+   "incumbent": true,
+   "current_role": "Chief Justice, Eighth Court of Appeals, since January 2025",
+   "background": "Maria Salas Mendoza was elected chief justice of the El Paso-based Eighth Court of Appeals in November 2024 and sworn in on January 10, 2025. She served 18 years as judge of El Paso's 120th District Court after winning election in 2006. She earlier worked at the Harriett Buhai Center for Family Law in Los Angeles, as a staff attorney for the El Paso Legal Assistance Society, and as an El Paso assistant county attorney (1999 to 2006). She holds a bachelor's degree in history and literature from Harvard-Radcliffe College and a J.D. from the UCLA School of Law.",
+   "website": null,
+   "priorities": [
+    {
+     "text": "Said on taking office that she would commit to living up to the highest standards expected of the judiciary.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Served as judge of the 120th District Court from 2006 to 2024.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Elected chief justice of the Eighth Court of Appeals in November 2024 and sworn in January 10, 2025.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Texasjudges.org lists no opponent in the November 2026 general election.",
+     "sources": [
+      "s4"
+     ]
+    },
+    {
+     "text": "Founder of Texas Latinx Judges, immediate past chair of the State Bar Hispanic Lawyers Section, and a member of the Supreme Court Advisory Committee.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Chief Justice Salas Mendoza (official biography)",
+     "publisher": "Eighth Court of Appeals, Texas Judicial Branch",
+     "url": "https://www.txcourts.gov/8thcoa/about-the-court/justices/chief-justice-salas-mendoza/",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Hon. Maria Salas Mendoza sworn in as Chief Justice of the Texas Eighth Court of Appeals",
+     "publisher": "National Association of Women Judges",
+     "url": "https://nawj.org/blog/newsroom/news/hon-maria-salas-mendoza-sworn-in-as-chief-justice-of-the-texas-eighth-court-of-appeals",
+     "date": "2025-01"
+    },
+    {
+     "id": "s3",
+     "title": "El Paso native ready for role as chief justice of 8th appeals court",
+     "publisher": "KTSM 9 News",
+     "url": "https://www.ktsm.com/news/el-paso-native-ready-for-role-as-chief-justice-of-8th-appeals-court/amp/",
+     "date": "2025-01"
+    },
+    {
+     "id": "s4",
+     "title": "8th Court of Appeals, Chief Justice",
+     "publisher": "Texas Judges (texasjudges.org)",
+     "url": "https://texasjudges.org/2026-races/8th-court-of-appeals-chief-justice/",
+     "date": "2026"
+    }
+   ],
+   "research_gaps": "No campaign website, stated judicial philosophy, or notable appellate opinions were found, and why the seat is on the 2026 ballot two years after her election was not confirmed."
+  },
+  {
+   "id": "brian-hoyle",
+   "race_id": "coa12-chief",
+   "incumbent": false,
+   "current_role": "Justice, Twelfth Court of Appeals, Place 2, since August 2006",
+   "background": "Brian Hoyle has served on the Tyler-based Twelfth Court of Appeals since Gov. Rick Perry appointed him in August 2006, and he is running for the court's chief justice seat. He grew up in Mansfield, earned a B.A. from the University of Texas at Arlington (1991) and a J.D. from Baylor University School of Law (1994), and clerked for U.S. District Judge William M. Steger. He practiced civil litigation in Longview from 1996 to 2006, becoming a partner at Brown McCarroll in 2001.",
+   "website": "https://justicehoyle.com",
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "Appointed to the Twelfth Court of Appeals in August 2006, elected to the unexpired term in November 2006, and re-elected to full terms in 2010 and 2016.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Texasjudges.org lists no opponent in the November 2026 general election. Texasjudges.org lists his prior elections as unopposed.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "The court's current chief justice is James T. Worthen, according to the court's website.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Justice Brian Hoyle (official biography)",
+     "publisher": "Twelfth Court of Appeals, Texas Judicial Branch",
+     "url": "https://www.txcourts.gov/12thcoa/about-the-court/justices/justice-brian-hoyle/",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "12th Court of Appeals, Chief Justice",
+     "publisher": "Texas Judges (texasjudges.org)",
+     "url": "https://texasjudges.org/2026-races/12th-court-of-appeals-chief-justice/",
+     "date": "2026"
+    },
+    {
+     "id": "s3",
+     "title": "Justices",
+     "publisher": "Twelfth Court of Appeals, Texas Judicial Branch",
+     "url": "https://www.txcourts.gov/12thcoa/about-the-court/justices/",
+     "date": null
+    }
+   ],
+   "research_gaps": "No campaign priorities, stated judicial philosophy, or notable opinions were found; the campaign website could not be loaded."
+  },
+  {
+   "id": "charles-van-cleef",
+   "race_id": "coa6-3",
+   "incumbent": true,
+   "current_role": "Justice, Sixth Court of Appeals, Place 3, since April 2022 (appointed by Gov. Greg Abbott)",
+   "background": "Charles van Cleef was born in Fort Worth, raised in Tyler, and has lived in Longview for more than 20 years. He holds a B.A. in economics from the University of Texas at Austin and a J.D. from South Texas College of Law (1992). He worked for the federal court in Tyler during and after law school and then practiced in state and federal trial and appellate courts across East Texas. Gov. Greg Abbott appointed him to the Texarkana-based Sixth Court of Appeals in April 2022.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "Appointed to the Sixth Court of Appeals by Gov. Greg Abbott in April 2022.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Texasjudges.org lists no opponent in the November 2026 general election.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Justice Charles van Cleef (official biography)",
+     "publisher": "Sixth Court of Appeals, Texas Judicial Branch",
+     "url": "https://www.txcourts.gov/6thcoa/about-the-court/justices/justice-charles-van-cleef/",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "6th Court of Appeals, Place 3",
+     "publisher": "Texas Judges (texasjudges.org)",
+     "url": "https://texasjudges.org/2026-races/6th-court-of-appeals-place-3/",
+     "date": "2026"
+    }
+   ],
+   "research_gaps": "No campaign website, priorities, stated judicial philosophy, or notable opinions were found."
+  },
+  {
+   "id": "michael-davis",
+   "race_id": "coa12-3",
+   "incumbent": true,
+   "current_role": "Justice, Twelfth Court of Appeals, Place 3, since November 2025 (appointed by Gov. Greg Abbott)",
+   "background": "C. Michael Davis was appointed to the Twelfth Court of Appeals by Gov. Greg Abbott in November 2025. He previously served eight years as judge of the 369th District Court (Anderson, Cherokee and Leon counties) after Abbott first appointed him in 2017. He is a U.S. Air Force veteran, graduated summa cum laude from Texas State University with majors in philosophy and psychology, and earned his law degree from Texas Tech University School of Law, where he is an adjunct professor.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "Served as judge of the 369th District Court from 2017 to 2025 and was appointed to the Twelfth Court of Appeals in November 2025.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Serves on the board of the State Bar of Texas Judicial Section and as its representative to the State Bar Board of Directors.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Justice C. Michael Davis (official biography)",
+     "publisher": "Twelfth Court of Appeals, Texas Judicial Branch",
+     "url": "https://www.txcourts.gov/12thcoa/about-the-court/justices/justice-c-michael-davis/",
+     "date": null
+    }
+   ],
+   "research_gaps": "No campaign website, priorities, stated judicial philosophy, or notable opinions were found, and no texasjudges.org race page for this seat was located."
+  },
+  {
+   "id": "scott-golemon",
+   "race_id": "coa9-chief",
+   "incumbent": true,
+   "current_role": "Chief Justice, Ninth Court of Appeals, since January 1, 2021",
+   "background": "Scott Golemon became chief justice of the Beaumont-based Ninth Court of Appeals on January 1, 2021. He spent more than 30 years as a civil trial and appellate lawyer in Montgomery County and the surrounding region, at firms including Haas & Golemon (1997 to 2011) and Hope & Causey (2012 to 2020), and says he handled about 300 jury trials. He earned B.S. and M.S. degrees in agricultural education from Tarleton State University (1983 and 1984) and a J.D. from the University of Houston (1987). He is a past president of the Montgomery County Bar Association.",
+   "website": "https://golemonforjudge.com",
+   "priorities": [
+    {
+     "text": "Said in a 2020 candidate statement that he would follow and enforce the laws and would not legislate from the bench.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Said a justice's philosophy should be one of judicial self-restraint, with rulings based on established case law precedent.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "promises": [
+    {
+     "text": "Said in 2020 that he would uphold the Constitution and laws and ensure fair and equal access to justice for all.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "record": [
+    {
+     "text": "Elected chief justice of the Ninth Court of Appeals without opposition in the 2020 general election and took office January 1, 2021.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Texasjudges.org lists no opponent in the November 2026 general election.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {
+    "q_textualism": {
+     "position": 1,
+     "basis": "statement",
+     "summary": "In a 2020 candidate statement, called for judicial self-restraint, enforcing laws as written, following precedent, and not legislating from the bench.",
+     "sources": [
+      "s2"
+     ]
+    }
+   },
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Chief Justice Scott Golemon (official biography)",
+     "publisher": "Ninth Court of Appeals, Texas Judicial Branch",
+     "url": "https://www.txcourts.gov/9thcoa/about-the-court/justices/chief-justice-scott-golemon/",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "9th Court of Appeals, Chief Justice",
+     "publisher": "Texas Judges (texasjudges.org)",
+     "url": "https://texasjudges.org/2026-races/9th-court-of-appeals-chief-justice/",
+     "date": "2026"
+    }
+   ],
+   "research_gaps": "No 2026 campaign statements or notable opinions were found; his judicial philosophy statement dates from 2020 and the campaign website could not be loaded."
+  },
+  {
+   "id": "bruce-williams",
+   "race_id": "coa11-2",
+   "incumbent": true,
+   "current_role": "Justice, Eleventh Court of Appeals, Place 2, since January 2021 (elected 2020)",
+   "background": "W. Bruce Williams was elected to the Eastland-based Eleventh Court of Appeals in November 2020. Before that he practiced for 38 years at Cotton Bledsoe Tighe & Dawson in Midland, focusing on civil trial work and product liability defense, and he is board certified in personal injury trial law and civil trial law. He graduated from Brigham Young University (1979) and Texas Tech University School of Law (1982), where he was a law review note editor.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "Elected to the Eleventh Court of Appeals in November 2020 for a six-year term that began January 1, 2021.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Texasjudges.org lists no opponent in the November 2026 general election.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Member of the American Board of Trial Advocates and the Texas Association of Defense Counsel, according to texasjudges.org.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Justice Bruce Williams (official biography)",
+     "publisher": "Eleventh Court of Appeals, Texas Judicial Branch",
+     "url": "https://www.txcourts.gov/11thcoa/about-the-court/justices/justice-bruce-williams/",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "11th Court of Appeals, Place 2",
+     "publisher": "Texas Judges (texasjudges.org)",
+     "url": "https://texasjudges.org/2026-races/11th-court-of-appeals-place-2/",
+     "date": "2026"
+    }
+   ],
+   "research_gaps": "No campaign website, priorities, stated judicial philosophy, or notable opinions were found."
+  },
+  {
+   "id": "judy-parker",
+   "race_id": "coa7-chief",
+   "incumbent": true,
+   "current_role": "Chief Justice, Seventh Court of Appeals, since January 15, 2026 (appointed by Gov. Greg Abbott)",
+   "background": "Judy Parker was appointed chief justice of the Amarillo-based Seventh Court of Appeals by Gov. Greg Abbott on January 15, 2026, after serving as a justice on the court since 2017. She was judge of Lubbock County Court at Law No. 3 from 2008 to 2017 and a Lubbock County associate judge from 1994 to 2008, after more than nine years of civil litigation practice at Purdom Law Offices in Lubbock. She holds a B.A. cum laude from Angelo State University and a J.D. from Texas Tech University School of Law (1985).",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "Appointed chief justice of the Seventh Court of Appeals on January 15, 2026, for a term expiring December 31, 2026.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    },
+    {
+     "text": "Served as a justice of the Seventh Court of Appeals, Place 2, from 2017 until her appointment as chief justice.",
+     "sources": [
+      "s1",
+      "s3"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Texasjudges.org lists no opponent in the November 2026 general election.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Member of the State Bar of Texas Judicial Section Board of Directors and a past president of the Lubbock Area Bar Association; texasjudges.org reports she is a member of the Federalist Society.",
+     "sources": [
+      "s1",
+      "s2",
+      "s3"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Chief Justice Judy C. Parker (official biography)",
+     "publisher": "Seventh Court of Appeals, Texas Judicial Branch",
+     "url": "https://www.txcourts.gov/7thcoa/about-the-court/justices/chief-justice-judy-c-parker/",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Governor Abbott Appoints Parker As Chief Justice Of The Seventh Court of Appeals",
+     "publisher": "Texas Judges (texasjudges.org)",
+     "url": "https://texasjudges.org/governor-abbott-appoints-parker-as-chief-justice-of-the-seventh-court-of-appeals/",
+     "date": "2026-01-16"
+    },
+    {
+     "id": "s3",
+     "title": "7th Court of Appeals, Chief Justice",
+     "publisher": "Texas Judges (texasjudges.org)",
+     "url": "https://texasjudges.org/2026-races/7th-court-of-appeals-chief-justice/",
+     "date": "2026"
+    }
+   ],
+   "research_gaps": "No campaign website, priorities, stated judicial philosophy, or notable opinions were found."
+  },
+  {
+   "id": "laura-pratt",
+   "race_id": "coa7-2",
+   "incumbent": true,
+   "current_role": "Justice, Seventh Court of Appeals, Place 2, since March 13, 2026 (appointed)",
+   "background": "Laura A. W. Pratt was appointed to the Seventh Court of Appeals on March 13, 2026. Before joining the court she practiced business and commercial litigation in federal and state trial and appellate courts and handled administrative and regulatory matters, after beginning her career in the City of Lubbock Attorney's Office as a municipal lawyer and prosecutor. She earned her J.D. magna cum laude from Texas Tech University School of Law and a B.A. in chemistry from the University of Arkansas.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "Appointed to the Seventh Court of Appeals, Place 2, on March 13, 2026.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Serves on the Board of Trustees of the Texas Bar Foundation and as treasurer of the Lubbock Area Bar Association.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Justice Laura A. W. Pratt (official biography)",
+     "publisher": "Seventh Court of Appeals, Texas Judicial Branch",
+     "url": "https://www.txcourts.gov/7thcoa/about-the-court/justices/justice-laura-a-w-pratt/",
+     "date": null
+    }
+   ],
+   "research_gaps": "No campaign website, priorities, stated judicial philosophy, or opponent information were found, and no texasjudges.org race page for this seat was located."
+  }
+ ]
+}

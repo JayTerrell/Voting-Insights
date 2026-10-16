@@ -1,0 +1,4324 @@
+{
+ "candidates": [
+  {
+   "id": "nile-copeland",
+   "race_id": "district-55",
+   "incumbent": false,
+   "current_role": "Attorney; former municipal court judge",
+   "background": "Nile Copeland is an attorney and former municipal court judge. The Houston Chronicle reported that he is 58, has run for office eight times in 16 years, and has switched parties.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Told the Chronicle editorial board he entered this race because the 55th was the first district court on the list, and argued that low attorney participation makes the Houston Bar Association survey an unreliable measure.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "The Chronicle editorial board endorsed his opponent, rating Copeland 3 of 5 stars and describing him as qualified.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Copeland received 276 votes to 267 for Latosha Lewis Payne.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Harris County is lucky to have these qualified civil judges",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/harris-county-civil-district-court-democrats-2026-22476214.php",
+     "date": "2026-10-14"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, candidate questionnaire, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "latosha-lewis-payne",
+   "race_id": "district-55",
+   "incumbent": true,
+   "current_role": "Judge, 55th Civil District Court since 2019",
+   "background": "Latosha Lewis Payne has presided over the 55th Civil District Court since 2019. She is a University of Texas School of Law graduate, a former partner at Gardere Wynne Sewell (now Foley and Lardner), and later cofounded a civil litigation and insurance coverage firm. She is board certified in civil trial law.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "Grants oral hearings to self-represented litigants rather than ruling only on written filings, according to the Chronicle editorial board.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "The Chronicle editorial board endorsed her for reelection in October 2026, rating her 4 of 5 stars.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Payne received 267 votes to 276 for Nile Copeland.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Harris County is lucky to have these qualified civil judges",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/harris-county-civil-district-court-democrats-2026-22476214.php",
+     "date": "2026-10-14"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, candidate questionnaire, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "paul-m-sullivan",
+   "race_id": "district-113",
+   "incumbent": false,
+   "current_role": "Attorney in solo practice",
+   "background": "Paul M. Sullivan is an attorney. He told the Houston Chronicle editorial board he is the most experienced attorney in the race and acknowledged he had not handled a jury trial as a solo practitioner.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "The Chronicle editorial board endorsed his opponent, rating Sullivan 2.5 of 5 stars.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Sullivan received 222 votes to 335 for Rabeea Collier.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Harris County is lucky to have these qualified civil judges",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/harris-county-civil-district-court-democrats-2026-22476214.php",
+     "date": "2026-10-14"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, education details, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "rabeea-collier",
+   "race_id": "district-113",
+   "incumbent": true,
+   "current_role": "Judge, 113th Civil District Court since 2019",
+   "background": "Rabeea Collier was first elected judge of the 113th Civil District Court in 2018 and reelected in 2022. She is double board certified in civil trial law and personal injury trial law and recently completed a term as president of the Texas Association of District Judges.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "Has presided over more than 90 jury trials and more than 100 bench trials, and revised the civil trial chapter of the Texas Judicial Bench Book.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Chaired the Harris County district judges' Jury Committee from 2021 to 2024 and co-chaired the COVID Response Judicial Task Force.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Handled procedural and discovery disputes in the 2021 Deshaun Watson civil litigation.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "The Chronicle editorial board endorsed her for reelection, rating her 4 of 5 stars.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Collier received 335 votes to 222 for Paul M. Sullivan.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Harris County is lucky to have these qualified civil judges",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/harris-county-civil-district-court-democrats-2026-22476214.php",
+     "date": "2026-10-14"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, candidate questionnaire, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "gerald-fowler",
+   "race_id": "district-157",
+   "incumbent": false,
+   "current_role": "Attorney",
+   "background": "Gerald Fowler is an attorney who has practiced in other jurisdictions, according to the Houston Chronicle. He told the paper's editorial board he is running to ensure the race has two qualified candidates rather than to unseat the incumbent.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "The Chronicle editorial board endorsed his opponent, rating Fowler 3 of 5 stars and encouraging him to run again.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Fowler received 178 votes to 412 for Tanya Garrison.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Harris County is lucky to have these qualified civil judges",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/harris-county-civil-district-court-democrats-2026-22476214.php",
+     "date": "2026-10-14"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, education details, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "tanya-garrison",
+   "race_id": "district-157",
+   "incumbent": true,
+   "current_role": "Judge, 157th Civil District Court since 2019",
+   "background": "Tanya Garrison was first elected judge of the 157th Civil District Court in 2018. She is board certified in civil appellate law and in judicial administration and is a member of the American Board of Trial Advocates.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "Named Trial Judge of the Year in 2021 by the Texas Association of Civil Trial and Appellate Specialists.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Her docket includes civil forfeiture cases, according to the Chronicle.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Won the March 2026 Democratic primary with 55.6 percent of the vote over Whitney Jones Moore.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "The Chronicle editorial board endorsed her in the primary and again in the general election (3.5 of 5 stars in October 2026).",
+     "sources": [
+      "s2",
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Garrison received 412 votes to 178 for Gerald Fowler.",
+     "sources": [
+      "s4"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Harris County is lucky to have these qualified civil judges",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/harris-county-civil-district-court-democrats-2026-22476214.php",
+     "date": "2026-10-14"
+    },
+    {
+     "id": "s2",
+     "title": "Democratic primary endorsements: Harris County civil district courts (157th, 270th, 281st)",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/civil-courts-harris-county-endorsements-21338926.php",
+     "date": "2026-02-09"
+    },
+    {
+     "id": "s3",
+     "title": "Democratic Primary Election, March 3, 2026, Cumulative Results",
+     "publisher": "Harris County Clerk / Harris Votes",
+     "url": "https://appfiles.harrisvotes.com/harrisvotes/prd/Data/0326/dem-cumulative.pdf",
+     "date": "2026-03"
+    },
+    {
+     "id": "s4",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, candidate questionnaire, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "tami-c-pierce",
+   "race_id": "district-180",
+   "incumbent": true,
+   "current_role": "Judge, 180th Criminal District Court since October 2025 (appointed)",
+   "background": "Tami Pierce of Humble was appointed to the 180th Criminal District Court by Gov. Greg Abbott in October 2025. She is a former police officer and sergeant, a former assistant district attorney in Polk, San Jacinto, and Liberty counties, and owner of Pierce Law Firm in Kingwood. She holds a bachelor's degree from Northeast Louisiana University and a law degree from Thurgood Marshall School of Law.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "Appointed in October 2025 to fill the remainder of the term of Judge DaSean Jones, who resigned.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    },
+    {
+     "text": "Her one-year case clearance rate was 95 percent, with a backlog about average among the county's 29 felony courts, according to the Chronicle.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Lost the 2022 election for this court to DaSean Jones by 449 votes, then prevailed in an election contest after a visiting judge ruled that about 1,400 votes should not have been counted, according to the Chronicle.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "The Chronicle editorial board endorsed her for a full term (3 of 5 stars) while writing that her temperament during its screening raised concerns; it reported that 50 percent of defense bar respondents approved of her overall performance.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Pierce received 158 votes to 135 for Stephanie Morales.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Governor Abbott Appoints Pierce To 180th Judicial District Court",
+     "publisher": "Office of the Texas Governor",
+     "url": "https://gov.texas.gov/news/post/governor-abbott-appoints-pierce-to-180th-judicial-district-court",
+     "date": "2025-10-06"
+    },
+    {
+     "id": "s2",
+     "title": "Harris County voters should keep Gov. Abbott's felony court judges",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/pierce-long-dozier-velasquez-deangelo-peebles-2026-22458240.php",
+     "date": "2026-10-02"
+    },
+    {
+     "id": "s3",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, candidate questionnaire, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "stephanie-morales",
+   "race_id": "district-180",
+   "incumbent": false,
+   "current_role": "Criminal defense attorney",
+   "background": "Stephanie Morales began her career as an immigration lawyer, served two years as a Harris County prosecutor, and has run her own criminal defense firm since 2017, according to the Houston Chronicle. She is 37.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "The Chronicle reported that she owed more than $45,000 to the Texas Ethics Commission for late filings from a 2024 Texas House campaign and had unpaid State Bar dues, which she paid during the screening; she attributed the late filings partly to health issues.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "The Chronicle editorial board endorsed her opponent, rating Morales 2.5 of 5 stars.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Morales received 135 votes to 158 for Tami C. Pierce.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Harris County voters should keep Gov. Abbott's felony court judges",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/pierce-long-dozier-velasquez-deangelo-peebles-2026-22458240.php",
+     "date": "2026-10-02"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, candidate questionnaire, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "brent-haynes",
+   "race_id": "district-182",
+   "incumbent": false,
+   "current_role": "Assistant district attorney, Galveston County",
+   "background": "Brent Haynes is a Galveston County assistant district attorney, according to the Houston Chronicle. He did not meet with the Chronicle editorial board.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "The Chronicle editorial board endorsed his opponent, rating Haynes 2.5 of 5 stars.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Haynes received 120 votes to 180 for Danilo \"Danny\" Lacayo.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Don't kick out these 9 Democratic criminal district court judges",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/keep-9-democrats-harris-county-criminal-district-22470511.php",
+     "date": "2026-10-12"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, education details, or public statement of judicial philosophy was found; background is limited to one news source."
+  },
+  {
+   "id": "danilo-danny-lacayo",
+   "race_id": "district-182",
+   "incumbent": true,
+   "current_role": "Judge, 182nd Criminal District Court",
+   "background": "Danilo \"Danny\" Lacayo is the incumbent judge of the 182nd Criminal District Court and is seeking another term. He is 48, according to the Houston Chronicle.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "Makes individualized bond decisions and keeps cases moving, according to the Chronicle editorial board, which also described him as blunt with defendants who violate bond conditions.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "The Chronicle editorial board endorsed him for reelection, rating him 4 of 5 stars and citing his reputation with the defense bar and the Houston Bar Association.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Lacayo received 180 votes to 120 for Brent Haynes.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Don't kick out these 9 Democratic criminal district court judges",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/keep-9-democrats-harris-county-criminal-district-22470511.php",
+     "date": "2026-10-12"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, education history, or first-election year was found in the sources reviewed."
+  },
+  {
+   "id": "lance-long",
+   "race_id": "district-183",
+   "incumbent": true,
+   "current_role": "Judge, 183rd Criminal District Court since January 2025 (appointed)",
+   "background": "Lance Long was appointed to the 183rd Criminal District Court by Gov. Greg Abbott effective January 1, 2025, to fill the term of Kristin Guiney. He spent 25 years as a Harris County prosecutor and later worked for the Smith County Criminal District Attorney's Office and as a staff attorney for the Harris County Office of Court Management. He holds a bachelor's degree from Georgetown University and a law degree from the University of Texas School of Law.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "Requires defendants to attend every court setting, and posted a one-year clearance rate of 99 percent with a low jail population, according to the Chronicle.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Was one of the higher-rated judges in the Houston Bar Association's 2025 judicial evaluation, according to the Chronicle.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "The Chronicle editorial board endorsed him (4 of 5 stars); the Mexican American Bar Association of Houston co-endorsed both candidates in this race.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Long received 226 votes to 140 for Julia Maldonado.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Governor Abbott Appoints Long To 183rd Judicial District Court",
+     "publisher": "Office of the Texas Governor",
+     "url": "https://gov.texas.gov/news/post/governor-abbott-appoints-long-to-183rd-judicial-district-court",
+     "date": "2024-12-31"
+    },
+    {
+     "id": "s2",
+     "title": "Harris County voters should keep Gov. Abbott's felony court judges",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/pierce-long-dozier-velasquez-deangelo-peebles-2026-22458240.php",
+     "date": "2026-10-02"
+    },
+    {
+     "id": "s3",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, candidate questionnaire, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "julia-maldonado",
+   "race_id": "district-183",
+   "incumbent": false,
+   "current_role": "Attorney; former judge, 507th Family District Court",
+   "background": "Julia Maldonado served eight years as judge of the 507th Family District Court and lost the 2024 Democratic primary for that seat. Her practice is mainly civil, and she has criminal defense experience, according to the Houston Chronicle.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Won the March 2026 Democratic primary for the 183rd by 815 votes (50.13 percent) over Katie Wilson.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "The Chronicle editorial board endorsed her opponent (rating Maldonado 1 of 5 stars), noting she ranked lowest among family judges in the 2023 Houston Bar Association poll and had not tried a criminal case in nine years; she did not meet with the board.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "The Mexican American Bar Association of Houston co-endorsed both candidates in this race.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Maldonado received 140 votes to 226 for Lance Long.",
+     "sources": [
+      "s4"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Democratic primary endorsements: Harris County criminal district courts (183rd, 209th, 232nd, 496th)",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/katie-wilson-josh-hill-brian-warren-abner-judge-21336031.php",
+     "date": "2026-02-08"
+    },
+    {
+     "id": "s2",
+     "title": "Harris County voters should keep Gov. Abbott's felony court judges",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/pierce-long-dozier-velasquez-deangelo-peebles-2026-22458240.php",
+     "date": "2026-10-02"
+    },
+    {
+     "id": "s3",
+     "title": "Democratic Primary Election, March 3, 2026, Cumulative Results",
+     "publisher": "Harris County Clerk / Harris Votes",
+     "url": "https://appfiles.harrisvotes.com/harrisvotes/prd/Data/0326/dem-cumulative.pdf",
+     "date": "2026-03"
+    },
+    {
+     "id": "s4",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, candidate questionnaire, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "heather-hudson",
+   "race_id": "district-184",
+   "incumbent": false,
+   "current_role": "Felony appellate prosecutor, Harris County District Attorney's Office",
+   "background": "Heather Hudson is a felony appellate prosecutor in the Harris County District Attorney's Office, according to the Houston Chronicle. The paper's editorial board endorsed her in a different race in 2022.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "The Chronicle editorial board rated her 3 of 5 stars, citing deep legal knowledge but no criminal trial experience, and endorsed the incumbent.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Hudson received 132 votes to 150 for Katherine \"Kat\" Thomas.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Don't kick out these 9 Democratic criminal district court judges",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/keep-9-democrats-harris-county-criminal-district-22470511.php",
+     "date": "2026-10-12"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, candidate questionnaire, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "katherine-kat-thomas",
+   "race_id": "district-184",
+   "incumbent": true,
+   "current_role": "Judge, 184th Criminal District Court",
+   "background": "Katherine \"Kat\" Thomas is a former Harris County prosecutor and the incumbent judge of the 184th Criminal District Court. The Houston Chronicle described her as the youngest district judge in Texas.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "Reduced her court's pending caseload from more than 2,100 cases to 594 through September 2026 and piloted the Emerging Adult Docket for young, nonviolent offenders.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In May 2026 the 14th Court of Appeals reversed a capital murder conviction from her court for violating the right to an open courtroom after the defendant's family was barred during jury selection.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "The Chronicle editorial board endorsed her for reelection (3 of 5 stars), writing that she accepted accountability for the reversed case.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Thomas received 150 votes to 132 for Heather Hudson.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Don't kick out these 9 Democratic criminal district court judges",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/keep-9-democrats-harris-county-criminal-district-22470511.php",
+     "date": "2026-10-12"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, candidate questionnaire, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "mark-goldberg",
+   "race_id": "district-185",
+   "incumbent": false,
+   "current_role": "Prosecutor in a diversion court; former Houston City Council member",
+   "background": "Mark Goldberg is a former defense attorney and three-term Houston City Council member who worked in Iraq in 2006, according to the Houston Chronicle. He retired in 2018 and now prosecutes in a diversion court.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "The Chronicle editorial board rated him 3 of 5 stars, calling his public service impressive, and endorsed the incumbent.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Goldberg received 140 votes to 182 for Andrea Beall.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Don't kick out these 9 Democratic criminal district court judges",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/keep-9-democrats-harris-county-criminal-district-22470511.php",
+     "date": "2026-10-12"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, candidate questionnaire, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "andrea-beall",
+   "race_id": "district-185",
+   "incumbent": true,
+   "current_role": "Judge, 185th Criminal District Court (first term)",
+   "background": "Andrea Beall is completing her first term as judge of the 185th Criminal District Court. She is an adjunct professor at South Texas College of Law Houston.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "Reduced her docket from about 1,900 active cases to 546 through September 2026 and presided over 65 jury trials, according to the Chronicle.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Created a youthful offender docket and co-presides over Veterans Court.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "The Chronicle reported she was the highest-rated criminal district judge in the Houston Bar Association's 2025 evaluations; its editorial board endorsed her (4 of 5 stars).",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Beall received 182 votes to 140 for Mark Goldberg.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Don't kick out these 9 Democratic criminal district court judges",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/keep-9-democrats-harris-county-criminal-district-22470511.php",
+     "date": "2026-10-12"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, candidate questionnaire, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "vance-christopher",
+   "race_id": "district-189",
+   "incumbent": false,
+   "current_role": "Trial lawyer",
+   "background": "Vance Christopher is a trial lawyer with 45 years of practice and a University of Texas School of Law graduate, according to the Houston Chronicle. He is married to Tracy Christopher, chief justice of the 14th Court of Appeals.",
+   "website": null,
+   "priorities": [
+    {
+     "text": "Says he is committed to honesty and to following the law.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Endorsed by the Mexican American Bar Association and the Association of Women Attorneys, according to the Chronicle.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "The Chronicle editorial board endorsed him over the incumbent, rating him 3.5 of 5 stars.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Christopher received 379 votes to 148 for Tamika \"Tami\" Craft.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Editorial board endorsement, 189th Civil District Court (Vance Christopher, Tami Craft)",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/vance-christopher-tami-craft-189th-2026-22476209.php",
+     "date": "2026-10-14"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website or detailed public statement of judicial philosophy was found."
+  },
+  {
+   "id": "tamika-tami-craft",
+   "race_id": "district-189",
+   "incumbent": true,
+   "current_role": "Judge, 189th Civil District Court",
+   "background": "Tamika \"Tami\" Craft is the incumbent judge of the 189th Civil District Court. She declined to meet with the Houston Chronicle editorial board in 2026.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "In August 2026 an appeals court reversed one of her rulings, holding that she improperly disregarded jury findings on disputed facts; Justice David Gunn wrote that her court \"went where no Texas court has gone before.\"",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "The Chronicle reported that she rated near the bottom of the Houston Bar Association judicial evaluation; its editorial board endorsed her opponent and rated her 2 of 5 stars.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Craft received 148 votes to 379 for Vance Christopher.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Editorial board endorsement, 189th Civil District Court (Vance Christopher, Tami Craft)",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/vance-christopher-tami-craft-189th-2026-22476209.php",
+     "date": "2026-10-14"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, biography, or response to the reported criticisms was found."
+  },
+  {
+   "id": "aaron-adams",
+   "race_id": "district-190",
+   "incumbent": false,
+   "current_role": "Attorney",
+   "background": "Aaron Adams is an attorney who has made multiple bids for the bench, according to the Houston Chronicle. He did not appear before the paper's editorial board, which wrote that his credentials and judicial philosophy were hard to find online.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "The Chronicle editorial board endorsed his opponent, rating Adams 2 of 5 stars.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Adams received 142 votes to 429 for Beau Miller.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Harris County is lucky to have these qualified civil judges",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/harris-county-civil-district-court-democrats-2026-22476214.php",
+     "date": "2026-10-14"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, biography, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "beau-miller",
+   "race_id": "district-190",
+   "incumbent": true,
+   "current_role": "Judge, 190th Civil District Court since 2019",
+   "background": "Beau Miller has presided over the 190th Civil District Court since 2019. A former band director at Stephen F. Austin High School, he graduated from the University of Texas School of Law and had a commercial litigation practice for more than 15 years before his election.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "Helped set up COVID-era emergency procedures, including the county's first virtual bench trial.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "As legislative chair of Harris County's state district judges, helped secure five new civil district courts.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Named 2024 Trial Judge of the Year by the Texas Association of Civil Trial and Appellate Specialists.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "The Chronicle editorial board endorsed him, rating him 4.5 of 5 stars.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Miller received 429 votes to 142 for Aaron Adams.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Harris County is lucky to have these qualified civil judges",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/harris-county-civil-district-court-democrats-2026-22476214.php",
+     "date": "2026-10-14"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, candidate questionnaire, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "stephen-f-driver",
+   "race_id": "district-208",
+   "incumbent": false,
+   "current_role": "Prosecutor, Harris County District Attorney's Office",
+   "background": "Stephen F. Driver is a longtime Harris County prosecutor who handles internet crimes against children cases, according to the Houston Chronicle.",
+   "website": null,
+   "priorities": [
+    {
+     "text": "Cites what he calls an \"ideological shift\" in the county's felony courts since 2018.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "The Chronicle editorial board endorsed his opponent, rating Driver 3 of 5 stars.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Driver received 129 votes to 151 for Beverly D. Armstrong.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Don't kick out these 9 Democratic criminal district court judges",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/keep-9-democrats-harris-county-criminal-district-22470511.php",
+     "date": "2026-10-12"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, candidate questionnaire, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "beverly-d-armstrong",
+   "race_id": "district-208",
+   "incumbent": true,
+   "current_role": "Judge, 208th Criminal District Court",
+   "background": "Beverly D. Armstrong is the incumbent judge of the 208th Criminal District Court. She has about 30 years of experience as a defense attorney and as a prosecutor in Polk and Galveston counties, according to the Houston Chronicle.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "Took over a court the Chronicle described as known for resets, reduced its backlog, and posted a 99 percent clearance rate for the past year.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "The Chronicle editorial board, which endorsed her opponent in 2022, endorsed her in 2026 (3.5 of 5 stars), citing high peer ratings for impartiality and temperament.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Armstrong received 151 votes to 129 for Stephen F. Driver.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Don't kick out these 9 Democratic criminal district court judges",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/keep-9-democrats-harris-county-criminal-district-22470511.php",
+     "date": "2026-10-12"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, candidate questionnaire, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "tony-coveny",
+   "race_id": "district-209",
+   "incumbent": false,
+   "current_role": "Attorney (foodborne illness litigation)",
+   "background": "Tony Coveny is an attorney whom the Houston Chronicle described as a foodborne illness lawyer. He did not attend the paper's endorsement screening.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "The Chronicle editorial board endorsed his opponent, rating Coveny 0.5 of 5 stars.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Coveny received 84 votes to 200 for Brian Edward Warren.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Don't kick out these 9 Democratic criminal district court judges",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/keep-9-democrats-harris-county-criminal-district-22470511.php",
+     "date": "2026-10-12"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, biography, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "brian-edward-warren",
+   "race_id": "district-209",
+   "incumbent": true,
+   "current_role": "Judge, 209th Criminal District Court since 2019",
+   "background": "Brian Edward Warren was elected judge of the 209th Criminal District Court in 2018. He is a former felony prosecutor and defense attorney and is 51, according to the Houston Chronicle.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "Named Texas Criminal Court Judge of the Year in 2022 and cleared 96 percent of cases in the year before February 2026, according to the Chronicle.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Led a three-way March 2026 Democratic primary with 35.7 percent and won the May runoff with 59.8 percent over Ysidra \"Sissy\" Kyles.",
+     "sources": [
+      "s3",
+      "s4"
+     ]
+    },
+    {
+     "text": "The Chronicle editorial board endorsed him in the primary and general election (4 of 5 stars).",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Warren received 200 votes to 84 for Tony Coveny.",
+     "sources": [
+      "s5"
+     ]
+    }
+   ],
+   "stances": {
+    "q_textualism": {
+     "position": 1,
+     "basis": "reported",
+     "summary": "Told the Chronicle board he disagrees with a 2025 state law limiting personal bonds for defendants with immigration detainers but that it is his job to follow it.",
+     "sources": [
+      "s2"
+     ]
+    }
+   },
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Democratic primary endorsements: Harris County criminal district courts (183rd, 209th, 232nd, 496th)",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/katie-wilson-josh-hill-brian-warren-abner-judge-21336031.php",
+     "date": "2026-02-08"
+    },
+    {
+     "id": "s2",
+     "title": "Don't kick out these 9 Democratic criminal district court judges",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/keep-9-democrats-harris-county-criminal-district-22470511.php",
+     "date": "2026-10-12"
+    },
+    {
+     "id": "s3",
+     "title": "Democratic Primary Election, March 3, 2026, Cumulative Results",
+     "publisher": "Harris County Clerk / Harris Votes",
+     "url": "https://appfiles.harrisvotes.com/harrisvotes/prd/Data/0326/dem-cumulative.pdf",
+     "date": "2026-03"
+    },
+    {
+     "id": "s4",
+     "title": "Democratic Primary Runoff Election, May 26, 2026, Cumulative Results",
+     "publisher": "Harris County Clerk / Harris Votes",
+     "url": "https://appfiles.harrisvotes.com/harrisvotes/prd/Data/0526/dem-cumulative.pdf",
+     "date": "2026-05"
+    },
+    {
+     "id": "s5",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website or broader statement of judicial philosophy was found."
+  },
+  {
+   "id": "caroline-dozier",
+   "race_id": "district-228",
+   "incumbent": true,
+   "current_role": "Judge, 228th Criminal District Court (appointed)",
+   "background": "Caroline Dozier was appointed to the 228th Criminal District Court by Gov. Greg Abbott in December 2024 after Judge Frank Aguilar died. She was a Harris County prosecutor for more than 30 years, most recently as chief of the Misdemeanor Trial Bureau. She holds a bachelor's degree from Brigham Young University and a law degree from the University of Texas School of Law.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "Inherited a backlog of more than 1,000 cases and reduced it to 892; her clearance rates were below average and she hired a new court coordinator, according to the Chronicle.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "The Chronicle editorial board endorsed her (3.5 of 5 stars), giving her the edge for courtroom and judicial experience.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Dozier received 168 votes to 93 for Alyson Almaguer.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Governor Abbott Appoints Dozier To 228th Judicial District Court",
+     "publisher": "Office of the Texas Governor",
+     "url": "https://gov.texas.gov/news/post/governor-abbott-appoints-dozier-to-228th-judicial-district-court",
+     "date": "2024-12-20"
+    },
+    {
+     "id": "s2",
+     "title": "Harris County voters should keep Gov. Abbott's felony court judges",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/pierce-long-dozier-velasquez-deangelo-peebles-2026-22458240.php",
+     "date": "2026-10-02"
+    },
+    {
+     "id": "s3",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, candidate questionnaire, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "alyson-almaguer",
+   "race_id": "district-228",
+   "incumbent": false,
+   "current_role": "Felony prosecutor, Harris County District Attorney's Office",
+   "background": "Alyson Almaguer has been a Harris County felony prosecutor for nine years and is currently felony chief in the 182nd District Court, according to the Houston Chronicle. She is 36 and grew up in a family of criminal defense lawyers.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "The Chronicle editorial board rated her 3.5 of 5 stars, the same as her opponent, and endorsed the incumbent.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Almaguer received 93 votes to 168 for Caroline Dozier.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Harris County voters should keep Gov. Abbott's felony court judges",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/pierce-long-dozier-velasquez-deangelo-peebles-2026-22458240.php",
+     "date": "2026-10-02"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, candidate questionnaire, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "megan-long",
+   "race_id": "district-230",
+   "incumbent": false,
+   "current_role": "Division chief, homicide bureau, Harris County District Attorney's Office",
+   "background": "Megan Long is a Harris County prosecutor and a division chief in the District Attorney's homicide bureau, according to the Houston Chronicle.",
+   "website": null,
+   "priorities": [
+    {
+     "text": "Argues the incumbent does not adequately weigh public safety when setting bonds for violent offenders.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "The Chronicle editorial board rated her 3 of 5 stars and endorsed the incumbent.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Long received 114 votes to 162 for Chris Morton.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Don't kick out these 9 Democratic criminal district court judges",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/keep-9-democrats-harris-county-criminal-district-22470511.php",
+     "date": "2026-10-12"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, candidate questionnaire, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "chris-morton",
+   "race_id": "district-230",
+   "incumbent": true,
+   "current_role": "Judge, 230th Criminal District Court",
+   "background": "Chris Morton is the incumbent judge of the 230th Criminal District Court. He has said this will be his final term, according to the Houston Chronicle.",
+   "website": null,
+   "priorities": [
+    {
+     "text": "Wants Harris County to adopt a Managed Assigned Counsel system for indigent defense.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "The Chronicle editorial board endorsed him (3.5 of 5 stars).",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Morton received 162 votes to 114 for Megan Long.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Don't kick out these 9 Democratic criminal district court judges",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/keep-9-democrats-harris-county-criminal-district-22470511.php",
+     "date": "2026-10-12"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, education history, or first-election year was found in the sources reviewed."
+  },
+  {
+   "id": "chuck-silverman",
+   "race_id": "district-232",
+   "incumbent": false,
+   "current_role": "Associate municipal judge; former judge, 183rd Criminal District Court",
+   "background": "Chuck Silverman was judge of the 183rd Criminal District Court from 2018 to 2022, according to the Houston Chronicle. He has since switched from the Democratic to the Republican Party and serves as an associate municipal judge.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "The Chronicle editorial board endorsed his opponent, rating Silverman 2.5 of 5 stars.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Silverman received 131 votes to 181 for Josh Hill.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Don't kick out these 9 Democratic criminal district court judges",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/keep-9-democrats-harris-county-criminal-district-22470511.php",
+     "date": "2026-10-12"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, candidate questionnaire, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "josh-hill",
+   "race_id": "district-232",
+   "incumbent": true,
+   "current_role": "Judge, 232nd Criminal District Court since 2019",
+   "background": "Josh Hill was elected judge of the 232nd Criminal District Court in 2018. He is board certified in criminal law and has worked as a prosecutor and a defense attorney.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "Had the second-highest one-year clearance rate among the 29 felony courts through September 2026, after earlier backlog concerns, according to the Chronicle.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "In early 2026 his court had the most active cases and the highest jail population among felony courts, with 39 percent of cases over a year old, according to the Chronicle.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Won the March 2026 Democratic primary with 55.6 percent over Roderick Deon Rodgers.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "His bail decisions and public comments on bail reform have drawn criticism in conservative media; the Chronicle noted many criticized bail decisions were set by magistrates before cases reached his court.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "The Chronicle editorial board endorsed him in the primary and general election (3 of 5 stars in October 2026).",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Hill received 181 votes to 131 for Chuck Silverman.",
+     "sources": [
+      "s4"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Democratic primary endorsements: Harris County criminal district courts (183rd, 209th, 232nd, 496th)",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/katie-wilson-josh-hill-brian-warren-abner-judge-21336031.php",
+     "date": "2026-02-08"
+    },
+    {
+     "id": "s2",
+     "title": "Don't kick out these 9 Democratic criminal district court judges",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/keep-9-democrats-harris-county-criminal-district-22470511.php",
+     "date": "2026-10-12"
+    },
+    {
+     "id": "s3",
+     "title": "Democratic Primary Election, March 3, 2026, Cumulative Results",
+     "publisher": "Harris County Clerk / Harris Votes",
+     "url": "https://appfiles.harrisvotes.com/harrisvotes/prd/Data/0326/dem-cumulative.pdf",
+     "date": "2026-03"
+    },
+    {
+     "id": "s4",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, candidate questionnaire, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "david-dave-harvey",
+   "race_id": "district-234",
+   "incumbent": false,
+   "current_role": "Attorney",
+   "background": "David \"Dave\" Harvey is an attorney who declined the Houston Chronicle editorial board's screening and has a limited public profile, according to the paper.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "The Chronicle editorial board endorsed his opponent, rating Harvey 2 of 5 stars.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Harvey received 134 votes to 453 for Lauren Reeder.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Harris County is lucky to have these qualified civil judges",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/harris-county-civil-district-court-democrats-2026-22476214.php",
+     "date": "2026-10-14"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, biography, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "lauren-reeder",
+   "race_id": "district-234",
+   "incumbent": true,
+   "current_role": "Judge, 234th Civil District Court; administrative judge, civil division",
+   "background": "Lauren Reeder has presided over the 234th Civil District Court for eight years. A Harvard Law School graduate, she worked as a litigator in private practice and as a Harris County prosecutor under District Attorneys Devon Anderson and Kim Ogg.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "Elected administrative judge of the civil division by her colleagues in 2025 and helped secure five new civil courts.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Named 2026 Trial Judge of the Year by the Texas Association of Civil Trial and Appellate Specialists and received the 2025 Judiciary Award from the Mexican American Bar Association of Texas Foundation.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "The Chronicle reported she ranked as the top civil district judge in the most recent Houston Bar Association evaluation; its editorial board endorsed her (5 of 5 stars).",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Reeder received 453 votes to 134 for David \"Dave\" Harvey.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Harris County is lucky to have these qualified civil judges",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/harris-county-civil-district-court-democrats-2026-22476214.php",
+     "date": "2026-10-14"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, candidate questionnaire, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "paula-vlahakos",
+   "race_id": "district-245",
+   "incumbent": false,
+   "current_role": "Associate judge, Harris County family court",
+   "background": "Paula Vlahakos is an associate judge in another Harris County family court, according to the Houston Chronicle. She had no campaign website and declined the paper's screening invitation.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "The Chronicle editorial board endorsed her opponent, rating Vlahakos 2.5 of 5 stars.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Vlahakos received 155 votes to 154 for Angela M. Lancelin.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Family-court drama can cause judges to crack. These judges haven't",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/harris-county-family-court-judge-endorsements-22475037.php",
+     "date": "2026-10-13"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, education details, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "angela-m-lancelin",
+   "race_id": "district-245",
+   "incumbent": true,
+   "current_role": "Judge, 245th Family District Court since 2023",
+   "background": "Angela M. Lancelin was first elected judge of the 245th Family District Court in 2022. She previously worked as a lawyer in the Texas Attorney General's child support division and is 60, according to the Houston Chronicle.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "Her court is not backlogged and she has improved access for self-represented litigants, according to the Chronicle.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "The Chronicle reported her Houston Bar Association scores are low; its editorial board endorsed her (3 of 5 stars).",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Lancelin received 154 votes to 155 for Paula Vlahakos.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Family-court drama can cause judges to crack. These judges haven't",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/harris-county-family-court-judge-endorsements-22475037.php",
+     "date": "2026-10-13"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, candidate questionnaire, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "david-w-overhuls",
+   "race_id": "district-248",
+   "incumbent": false,
+   "current_role": "Criminal defense attorney",
+   "background": "David W. Overhuls began his career running a prisoner advocacy clinic at Georgetown, then worked as a Harris County prosecutor supervising misdemeanor and felony prosecutors, according to the Houston Chronicle. He left when Kim Ogg became district attorney and started a defense practice serving mostly indigent clients. He is 39.",
+   "website": null,
+   "priorities": [
+    {
+     "text": "The Chronicle board wrote that he would move cases faster without acting as a prosecutor from the bench.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "The Chronicle editorial board endorsed him over the incumbent, rating him 3.5 of 5 stars.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Overhuls received 130 votes to 170 for Hilary Unger.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Editorial board endorsement, 248th and 262nd Criminal District Courts (David W. Overhuls, Nathan Moss)",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/vote-david-w-overhuls-nathan-moss-criminal-22476093.php",
+     "date": "2026-10-14"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, candidate questionnaire, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "hilary-unger",
+   "race_id": "district-248",
+   "incumbent": true,
+   "current_role": "Judge, 248th Criminal District Court (second term)",
+   "background": "Hilary Unger is completing her second term as judge of the 248th Criminal District Court. She is 63, according to the Houston Chronicle.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "Expanded re-entry programs for defendants with mental health and addiction issues, according to the Chronicle.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Her 2026 one-year clearance rate was the lowest of the 29 felony courts and below the state's 90 percent benchmark; she attributed it partly to caring for her ailing mother.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "The Chronicle editorial board endorsed her opponent, rating Unger 2.5 of 5 stars.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Unger received 170 votes to 130 for David W. Overhuls.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Editorial board endorsement, 248th and 262nd Criminal District Courts (David W. Overhuls, Nathan Moss)",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/vote-david-w-overhuls-nathan-moss-criminal-22476093.php",
+     "date": "2026-10-14"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, candidate questionnaire, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "nathan-moss",
+   "race_id": "district-262",
+   "incumbent": false,
+   "current_role": "Division chief, homicide bureau, Harris County District Attorney's Office",
+   "background": "Nathan Moss has been a Harris County prosecutor for nearly 20 years and is a division chief in the District Attorney's homicide bureau, according to the Houston Chronicle. He is 48 and describes himself as a moderate Republican.",
+   "website": null,
+   "priorities": [
+    {
+     "text": "Favors tougher bonds for violent offenders.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Proposes setting clear case milestones and issuing personal recognizance bonds for low-level, nonviolent offenses.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "The Chronicle editorial board endorsed him over the incumbent, rating him 3.5 of 5 stars.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Moss received 129 votes to 142 for Lori Chambers Gray.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Editorial board endorsement, 248th and 262nd Criminal District Courts (David W. Overhuls, Nathan Moss)",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/vote-david-w-overhuls-nathan-moss-criminal-22476093.php",
+     "date": "2026-10-14"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, candidate questionnaire, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "lori-chambers-gray",
+   "race_id": "district-262",
+   "incumbent": true,
+   "current_role": "Judge, 262nd Criminal District Court since 2019",
+   "background": "Lori Chambers Gray took the bench of the 262nd Criminal District Court in 2019, according to the Houston Chronicle.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "In October 2025 the State Commission on Judicial Conduct issued her a public warning for missed court-imposed deadlines and lack of professional competence in a 2015 post-conviction habeas case.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Her three-month and one-year clearance rates remained below average in 2026, though her backlog somewhat improved, according to the Chronicle.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "The Chronicle editorial board endorsed her opponent, rating Gray 2 of 5 stars.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Gray received 142 votes to 129 for Nathan Moss.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Editorial board endorsement, 248th and 262nd Criminal District Courts (David W. Overhuls, Nathan Moss)",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/vote-david-w-overhuls-nathan-moss-criminal-22476093.php",
+     "date": "2026-10-14"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, education history, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "jason-a-campo",
+   "race_id": "district-263",
+   "incumbent": false,
+   "current_role": "Chief, domestic violence bureau, Harris County District Attorney's Office",
+   "background": "Jason A. Campo is a career prosecutor who leads the Harris County District Attorney's domestic violence bureau, according to the Houston Chronicle.",
+   "website": null,
+   "priorities": [
+    {
+     "text": "Says the incumbent's bond decisions are \"significantly different\" from other courts.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "The Chronicle editorial board rated him 3 of 5 stars and endorsed the incumbent.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Campo received 124 votes to 145 for Melissa Marie Morris.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Don't kick out these 9 Democratic criminal district court judges",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/keep-9-democrats-harris-county-criminal-district-22470511.php",
+     "date": "2026-10-12"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, candidate questionnaire, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "melissa-marie-morris",
+   "race_id": "district-263",
+   "incumbent": true,
+   "current_role": "Judge, 263rd Criminal District Court since 2023",
+   "background": "Melissa Marie Morris is a former criminal defense attorney who took the bench of the 263rd Criminal District Court in 2023.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "Reduced her backlog from more than 2,100 cases to 761 through September 2026 and is leading indigent defense reform efforts, according to the Chronicle.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In May 2026 the State Commission on Judicial Conduct publicly sanctioned her for ending probation for four deported defendants without checking sex offender registration, and separately admonished her for sharing emails related to a grand jury subpoena; she admitted the mistakes.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "The Chronicle editorial board endorsed her (3 of 5 stars).",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Morris received 145 votes to 124 for Jason A. Campo.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Don't kick out these 9 Democratic criminal district court judges",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/keep-9-democrats-harris-county-criminal-district-22470511.php",
+     "date": "2026-10-12"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, candidate questionnaire, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "celena-guerra-pawlak",
+   "race_id": "district-269",
+   "incumbent": false,
+   "current_role": "Attorney",
+   "background": "Celena Guerra Pawlak has practiced law for more than 20 years and is a South Texas College of Law graduate, according to the Houston Chronicle. She did not respond to the paper's screening invitation.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "The Chronicle editorial board endorsed her opponent, rating Pawlak 2.5 of 5 stars, and reported finding no campaign website or social media presence.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Pawlak received 127 votes to 389 for Cory Don Sepolio.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Harris County is lucky to have these qualified civil judges",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/harris-county-civil-district-court-democrats-2026-22476214.php",
+     "date": "2026-10-14"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, practice details, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "cory-don-sepolio",
+   "race_id": "district-269",
+   "incumbent": true,
+   "current_role": "Judge, 269th Civil District Court since 2019",
+   "background": "Cory Don Sepolio was first elected judge of the 269th Civil District Court in 2018. He is a former Harris County prosecutor who later did civil trial work for an insurance company, and a South Texas College of Law graduate.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "Served on the State Bar of Texas Grievance Committee and has taught as an adjunct at the University of Houston Law Center.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "The Chronicle editorial board endorsed him (4 of 5 stars), citing high marks on the 2025 Houston Bar Association evaluation.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Sepolio received 389 votes to 127 for Celena Guerra Pawlak.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Harris County is lucky to have these qualified civil judges",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/harris-county-civil-district-court-democrats-2026-22476214.php",
+     "date": "2026-10-14"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, candidate questionnaire, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "brian-staley",
+   "race_id": "district-270",
+   "incumbent": false,
+   "current_role": "Senior staff counsel, Midland Credit Management",
+   "background": "Brian Staley began his career as a research specialist and imagery analyst at the CIA and has practiced law for nearly 30 years, according to the Houston Chronicle. He is senior staff counsel at Midland Credit Management, is licensed in Texas, Arizona, and Colorado, and graduated from South Texas College of Law Houston. He is 58.",
+   "website": null,
+   "priorities": [
+    {
+     "text": "Campaigns on a promise to do a better job than the incumbent and says he is willing to learn best practices from judges of any party.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Endorsed by the Mexican American Bar Association of Houston; the Gulf Coast AFL-CIO backed him in the primary.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "The Chronicle editorial board endorsed him over the incumbent, rating him 3.5 of 5 stars.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Staley received 409 votes to 125 for Dedra Davis.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Even staunch Democrats should choose Republican Brian Staley for the 270th District Court",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/brian-staley-dedra-davis-270th-district-court-22424732.php",
+     "date": "2026-09-10"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, candidate questionnaire, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "dedra-davis",
+   "race_id": "district-270",
+   "incumbent": true,
+   "current_role": "Judge, 270th Civil District Court since 2019",
+   "background": "Dedra Davis was first elected judge of the 270th Civil District Court in 2018. She is a South Texas College of Law Houston graduate.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "Had a higher case clearance rate in 2025 than any other civil district judge, according to the Chronicle, which also questioned her high number of non-jury trials.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Won the March 2026 Democratic primary with 70.2 percent over Jimmie L. Brown Jr.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "The Chronicle reported she was rated lowest of any Harris County judge in the Houston Bar Association evaluation, with about 73 percent of respondents giving her the lowest overall rating; its editorial board endorsed her opponents in the primary and general election.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    },
+    {
+     "text": "She declined the Chronicle's general election screening.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Davis received 125 votes to 409 for Brian Staley.",
+     "sources": [
+      "s4"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Even staunch Democrats should choose Republican Brian Staley for the 270th District Court",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/brian-staley-dedra-davis-270th-district-court-22424732.php",
+     "date": "2026-09-10"
+    },
+    {
+     "id": "s2",
+     "title": "Democratic primary endorsements: Harris County civil district courts (157th, 270th, 281st)",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/civil-courts-harris-county-endorsements-21338926.php",
+     "date": "2026-02-09"
+    },
+    {
+     "id": "s3",
+     "title": "Democratic Primary Election, March 3, 2026, Cumulative Results",
+     "publisher": "Harris County Clerk / Harris Votes",
+     "url": "https://appfiles.harrisvotes.com/harrisvotes/prd/Data/0326/dem-cumulative.pdf",
+     "date": "2026-03"
+    },
+    {
+     "id": "s4",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website or response to the reported criticisms was found."
+  },
+  {
+   "id": "rose-cardenas",
+   "race_id": "district-280",
+   "incumbent": false,
+   "current_role": "Attorney",
+   "background": "Rose Cardenas is an attorney who lost the 2022 race for the 280th Family District Court to the incumbent, 49.3 percent to 50.7 percent, according to the Houston Chronicle. Her campaign presence is mainly a Facebook page.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "The Chronicle reported that in an online video she made bias allegations against the incumbent, which the board could not verify with the State Commission on Judicial Conduct; she declined to meet with the board, which rated her 1.5 of 5 stars.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), the candidate listed as Rosa Cardenas received 160 votes to 140 for Damiane Dianne Curvey.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Family-court drama can cause judges to crack. These judges haven't",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/harris-county-family-court-judge-endorsements-22475037.php",
+     "date": "2026-10-13"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, education details, or public statement of judicial philosophy was found; the HBA poll lists her as Rosa Cardenas."
+  },
+  {
+   "id": "damiane-dianne-curvey",
+   "race_id": "district-280",
+   "incumbent": true,
+   "current_role": "Judge, 280th Family District Court (protective orders)",
+   "background": "Damiane Dianne Curvey is completing her first term as judge of the 280th Family District Court, which handles protective orders. She is 55, according to the Houston Chronicle.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "Her court typically rules on protective order requests within a day, according to the Chronicle.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "The Chronicle reported that she has faced threats and harassment related to her rulings, including a feces-filled cake delivered to her courtroom, and now carries a gun.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "The Chronicle editorial board endorsed her (3 of 5 stars).",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Curvey received 140 votes to 160 for Rose Cardenas.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Family-court drama can cause judges to crack. These judges haven't",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/harris-county-family-court-judge-endorsements-22475037.php",
+     "date": "2026-10-13"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, candidate questionnaire, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "chris-carmona",
+   "race_id": "district-281",
+   "incumbent": false,
+   "current_role": "Attorney",
+   "background": "Chris Carmona is an attorney who has run unsuccessfully for the Texas Legislature, Houston City Council, criminal court, Harris County Attorney, and Harris County Republican Party chair, according to the Houston Chronicle. He declined the paper's screening.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "The Chronicle editorial board endorsed his opponent, rating Carmona 0.5 of 5 stars and reporting little online information about his experience.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Carmona received 148 votes to 432 for Christine Weems.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Harris County is lucky to have these qualified civil judges",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/harris-county-civil-district-court-democrats-2026-22476214.php",
+     "date": "2026-10-14"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, biography, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "christine-weems",
+   "race_id": "district-281",
+   "incumbent": true,
+   "current_role": "Judge, 281st Civil District Court since 2019",
+   "background": "Christine Weems was first elected judge of the 281st Civil District Court in 2018 after 18 years of practice. She is a South Texas College of Law Houston graduate, board certified in personal injury trial law and civil trial law, and directs the University of Houston Law Center's mock trial program.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "In 2022 she issued an order blocking enforcement of Texas's 1925 abortion ban on due process grounds.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Publishes a weekly list of her court's top 15 cases so lawyers can plan their schedules.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Lost the 2024 race for the Supreme Court of Texas to Justice John Devine.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Won the March 2026 Democratic primary with 63.6 percent over Amber Boyd-Cora.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "The Chronicle editorial board endorsed her in the primary and the general election (4 of 5 stars).",
+     "sources": [
+      "s2",
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Weems received 432 votes to 148 for Chris Carmona.",
+     "sources": [
+      "s4"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Harris County is lucky to have these qualified civil judges",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/harris-county-civil-district-court-democrats-2026-22476214.php",
+     "date": "2026-10-14"
+    },
+    {
+     "id": "s2",
+     "title": "Democratic primary endorsements: Harris County civil district courts (157th, 270th, 281st)",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/civil-courts-harris-county-endorsements-21338926.php",
+     "date": "2026-02-09"
+    },
+    {
+     "id": "s3",
+     "title": "Democratic Primary Election, March 3, 2026, Cumulative Results",
+     "publisher": "Harris County Clerk / Harris Votes",
+     "url": "https://appfiles.harrisvotes.com/harrisvotes/prd/Data/0326/dem-cumulative.pdf",
+     "date": "2026-03"
+    },
+    {
+     "id": "s4",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, candidate questionnaire, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "greg-travis",
+   "race_id": "district-295",
+   "incumbent": false,
+   "current_role": "Attorney and certified mediator; former Houston City Council member",
+   "background": "Greg Travis is a former Houston City Council member with about 35 years of legal practice, including roughly two dozen jury trials in construction contract, toxic tort, and insurance defense cases, according to the Houston Chronicle. He is a certified mediator.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "The Chronicle editorial board questioned his temperament, citing a Facebook post about Michelle Obama that he declined to remove after then-Mayor Sylvester Turner asked him to; it endorsed his opponent and rated Travis 2.5 of 5 stars.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Travis received 211 votes to 337 for Donna Roth.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Harris County is lucky to have these qualified civil judges",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/harris-county-civil-district-court-democrats-2026-22476214.php",
+     "date": "2026-10-14"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, candidate questionnaire, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "donna-roth",
+   "race_id": "district-295",
+   "incumbent": true,
+   "current_role": "Judge, 295th Civil District Court (second term)",
+   "background": "Donna Roth is a two-term judge of the 295th Civil District Court seeking a third term. She is a South Texas College of Law graduate, board certified in personal injury law, and is 68, according to the Houston Chronicle.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "Serves on the Harris County Juvenile Board and a Texas Supreme Court committee on pretrial and posttrial procedures, and helped reduce the COVID-era backlog.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "The Chronicle reported solid Houston Bar Association ratings with a relatively low courteousness score; its editorial board endorsed her (4 of 5 stars).",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Roth received 337 votes to 211 for Greg Travis.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Harris County is lucky to have these qualified civil judges",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/harris-county-civil-district-court-democrats-2026-22476214.php",
+     "date": "2026-10-14"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, candidate questionnaire, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "melissa-fertel",
+   "race_id": "district-309",
+   "incumbent": false,
+   "current_role": "Attorney",
+   "background": "Melissa Fertel is an attorney running for the 309th Family District Court. The Houston Chronicle found no sign of an active campaign, and she did not respond to the paper's screening invitation.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "The Chronicle editorial board endorsed her opponent, rating Fertel 2 of 5 stars.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Fertel received 133 votes to 166 for Linda Marie Dunson.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Family-court drama can cause judges to crack. These judges haven't",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/harris-county-family-court-judge-endorsements-22475037.php",
+     "date": "2026-10-13"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, biography, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "linda-marie-dunson",
+   "race_id": "district-309",
+   "incumbent": true,
+   "current_role": "Judge, 309th Family District Court since 2019",
+   "background": "Linda Marie Dunson has presided over the 309th Family District Court, which handles child welfare cases, since 2019. She declined to meet with the Houston Chronicle editorial board in 2026.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Endorsed by the Houston Association of Women Attorneys and the Mexican American Bar Association, and received favorable Houston Bar Association evaluation results, according to the Chronicle.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "The Chronicle editorial board endorsed her (2.5 of 5 stars).",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Dunson received 166 votes to 133 for Melissa Fertel.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Family-court drama can cause judges to crack. These judges haven't",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/harris-county-family-court-judge-endorsements-22475037.php",
+     "date": "2026-10-13"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, candidate questionnaire, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "joe-radler",
+   "race_id": "district-311",
+   "incumbent": false,
+   "current_role": "Family law attorney",
+   "background": "Joe Radler is a family law attorney, according to the Houston Chronicle. He did not meet with the paper's editorial board.",
+   "website": null,
+   "priorities": [
+    {
+     "text": "His campaign website says he is running to restore structure and public confidence in the court.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "The Chronicle editorial board endorsed his opponent, rating Radler 2 of 5 stars.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Radler received 120 votes to 187 for Germaine Janet Tanner.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Family-court drama can cause judges to crack. These judges haven't",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/harris-county-family-court-judge-endorsements-22475037.php",
+     "date": "2026-10-13"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "Campaign website address not confirmed; no education details or detailed statement of judicial philosophy was found."
+  },
+  {
+   "id": "germaine-janet-tanner",
+   "race_id": "district-311",
+   "incumbent": true,
+   "current_role": "Judge, 311th Family District Court since 2019",
+   "background": "Germaine Janet Tanner has presided over the 311th Family District Court since 2019, according to the Houston Chronicle.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "Has a solid case clearance rate, according to the Chronicle.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "About half of responding lawyers rated her excellent overall in the Houston Bar Association evaluation, according to the Chronicle, whose editorial board endorsed her (3.5 of 5 stars).",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Tanner received 187 votes to 120 for Joe Radler.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Family-court drama can cause judges to crack. These judges haven't",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/harris-county-family-court-judge-endorsements-22475037.php",
+     "date": "2026-10-13"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, education history, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "jesus-guillen",
+   "race_id": "district-312",
+   "incumbent": false,
+   "current_role": "Assistant county attorney, Harris County",
+   "background": "Jesus Guillen is a Harris County assistant county attorney who represents the Texas Department of Family and Protective Services in court, according to the Houston Chronicle.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "The Chronicle editorial board rated him 3 of 5 stars and endorsed the incumbent.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Guillen received 98 votes to 229 for Teresa Waldrop.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Family-court drama can cause judges to crack. These judges haven't",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/harris-county-family-court-judge-endorsements-22475037.php",
+     "date": "2026-10-13"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, candidate questionnaire, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "teresa-waldrop",
+   "race_id": "district-312",
+   "incumbent": true,
+   "current_role": "Judge, 312th Family District Court",
+   "background": "Teresa Waldrop is a former divorce attorney who won the 312th Family District Court seat after the previous judge, Clinton \"Chip\" Wells Jr., was sanctioned by the State Commission on Judicial Conduct following her complaint. She is 61, according to the Houston Chronicle.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "Consistently has one of the highest case clearance rates among family courts, according to the Chronicle.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "More than half of responding lawyers rated her excellent overall in the Houston Bar Association evaluation, according to the Chronicle, whose editorial board endorsed her (3.5 of 5 stars).",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Waldrop received 229 votes to 98 for Jesus Guillen.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Family-court drama can cause judges to crack. These judges haven't",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/harris-county-family-court-judge-endorsements-22475037.php",
+     "date": "2026-10-13"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, candidate questionnaire, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "amy-strickling",
+   "race_id": "district-313",
+   "incumbent": false,
+   "current_role": "Deputy director, CPS division, Harris County Attorney's Office",
+   "background": "Amy Strickling began as a solo family law practitioner and later was lead attorney for the CPS division of the Brazoria County District Attorney's Office, according to the Houston Chronicle. She has worked for the Harris County Attorney's Office since 2013 and is deputy director of its CPS division.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "She did not meet with the Chronicle editorial board, which rated her 2.5 of 5 stars and endorsed her opponent for this open seat.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Strickling received 109 votes to 126 for Samantha Y. Davis.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Editorial board endorsement, 313th and 315th Juvenile District Courts",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/juvenile-courts-313-315-22478371.php",
+     "date": "2026-10-15"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, candidate questionnaire, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "samantha-y-davis",
+   "race_id": "district-313",
+   "incumbent": false,
+   "current_role": "Referee, Harris County Juvenile Detention Court",
+   "background": "Samantha Y. Davis has been referee of the Harris County Juvenile Detention Court since 2019 and also sits as a quasi-associate judge in the county's three juvenile courts. She spent about 20 years as a solo practitioner in juvenile law, including CPS cases and adoptions. She is 55 and is running to succeed retiring Judge Natalia Oakes.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "The Chronicle editorial board endorsed her (3 of 5 stars).",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Davis received 126 votes to 109 for Amy Strickling.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [
+    {
+     "topic": "Juvenile Justice",
+     "summary": "Indicated to the Chronicle board that she would likely transfer more juvenile offenders to adult court than incumbent Judge Leah Shapiro, and that detention can be preferable for youths without home support.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Editorial board endorsement, 313th and 315th Juvenile District Courts",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/juvenile-courts-313-315-22478371.php",
+     "date": "2026-10-15"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, candidate questionnaire, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "maria-valeria-brock",
+   "race_id": "district-315",
+   "incumbent": false,
+   "current_role": "Attorney, Harris County Attorney's Office",
+   "background": "Maria Valeria Brock is a lawyer in the Harris County Attorney's Office and is running for the 315th Juvenile District Court a second time after losing in 2022, according to the Houston Chronicle.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "She did not meet with the Chronicle editorial board, which endorsed her opponent and rated Brock 2 of 5 stars.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Brock received 103 votes to 198 for Leah Shapiro.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Editorial board endorsement, 313th and 315th Juvenile District Courts",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/juvenile-courts-313-315-22478371.php",
+     "date": "2026-10-15"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, education details, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "leah-shapiro",
+   "race_id": "district-315",
+   "incumbent": true,
+   "current_role": "Judge, 315th Juvenile District Court (second term)",
+   "background": "Leah Shapiro is a two-term judge of the 315th Juvenile District Court, whose docket covers child protection, delinquency, and adoptions. She is 46, according to the Houston Chronicle.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "Presides over two specialty courts, one for juvenile sex trafficking victims and one for juveniles with mental health issues, and sponsored an implicit bias education requirement for court-appointed attorneys on the Harris County Juvenile Board.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "An ABC13 report cited by the Chronicle found she transferred 64 percent of violent juvenile offenders to adult court over three years, compared with 78 and 96 percent for two colleagues.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Won the March 2026 Democratic primary with 51.4 percent over Gloria Sanchez Glover.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "The Chronicle editorial board endorsed her (4 of 5 stars).",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Shapiro received 198 votes to 103 for Maria Valeria Brock.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Editorial board endorsement, 313th and 315th Juvenile District Courts",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/juvenile-courts-313-315-22478371.php",
+     "date": "2026-10-15"
+    },
+    {
+     "id": "s2",
+     "title": "Democratic Primary Election, March 3, 2026, Cumulative Results",
+     "publisher": "Harris County Clerk / Harris Votes",
+     "url": "https://appfiles.harrisvotes.com/harrisvotes/prd/Data/0326/dem-cumulative.pdf",
+     "date": "2026-03"
+    },
+    {
+     "id": "s3",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, candidate questionnaire, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "bryan-honeycutt",
+   "race_id": "district-482",
+   "incumbent": false,
+   "current_role": "Felony chief prosecutor, 497th District Court",
+   "background": "Bryan Honeycutt is a career prosecutor who has worked in Fort Bend, Wharton, and Harris counties and has been in Harris County since 2020, according to the Houston Chronicle. He is felony chief prosecutor for the 497th District Court.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "The Chronicle editorial board rated him 3.5 of 5 stars and endorsed the incumbent.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Honeycutt received 133 votes to 145 for Veronica M. Nelson.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Don't kick out these 9 Democratic criminal district court judges",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/keep-9-democrats-harris-county-criminal-district-22470511.php",
+     "date": "2026-10-12"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, candidate questionnaire, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "veronica-m-nelson",
+   "race_id": "district-482",
+   "incumbent": true,
+   "current_role": "Judge, 482nd Criminal District Court (first term)",
+   "background": "Veronica M. Nelson is completing her first term as judge of the 482nd Criminal District Court. She is a former Harris County prosecutor and staff attorney for the county courts.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "Presided over the murder trial of former Houston police officer Gerald Goines, who was convicted and sentenced to 60 years.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "The Chronicle editorial board endorsed her (4 of 5 stars).",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Nelson received 145 votes to 133 for Bryan Honeycutt.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Don't kick out these 9 Democratic criminal district court judges",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/keep-9-democrats-harris-county-criminal-district-22470511.php",
+     "date": "2026-10-12"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, candidate questionnaire, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "vanessa-velasquez",
+   "race_id": "district-486",
+   "incumbent": true,
+   "current_role": "Judge, 486th Criminal District Court since July 2026 (appointed)",
+   "background": "Vanessa Velasquez served three terms as a Harris County felony judge from 2006 to 2018 and later worked as a visiting judge. Gov. Greg Abbott appointed her to the 486th Criminal District Court in July 2026 after Judge Aaron Burdette stepped down. She is 65, according to the Houston Chronicle.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "The court's backlog fell from about 1,200 cases to under 500, and her one-year clearance rate is fifth-highest of the 29 felony courts, according to the Chronicle.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Has moved from revoking bonds for late arrivals, which the Chronicle board previously criticized, to a case-by-case approach.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "The Chronicle editorial board endorsed her (4 of 5 stars).",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "The 486th race was not included in the Houston Bar Association's 2026 Judicial Preference Poll results.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Harris County voters should keep Gov. Abbott's felony court judges",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/pierce-long-dozier-velasquez-deangelo-peebles-2026-22458240.php",
+     "date": "2026-10-02"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website or official appointment announcement was found."
+  },
+  {
+   "id": "kathryn-katie-wilson",
+   "race_id": "district-486",
+   "incumbent": false,
+   "current_role": "Senior litigator, mental health division, Harris County Public Defender's Office",
+   "background": "Kathryn \"Katie\" Wilson has been a Harris County public defender for about four years and is a senior litigator in the office's mental health division; she spent a decade as a prosecutor in Colorado. Democratic precinct chairs chose her as the party's nominee for this unexpired term. She is 45, according to the Houston Chronicle.",
+   "website": null,
+   "priorities": [
+    {
+     "text": "Has raised concerns about jail overcrowding and said she would use discovery orders to require prosecutors to show cases are strong enough to proceed.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Lost the March 2026 Democratic primary for the 183rd District Court to Julia Maldonado by 815 votes.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "The Chronicle editorial board endorsed her in that primary; for the 486th it rated her 3.5 of 5 stars and endorsed her opponent.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    },
+    {
+     "text": "The 486th race was not included in the Houston Bar Association's 2026 Judicial Preference Poll results.",
+     "sources": [
+      "s4"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Democratic primary endorsements: Harris County criminal district courts (183rd, 209th, 232nd, 496th)",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/katie-wilson-josh-hill-brian-warren-abner-judge-21336031.php",
+     "date": "2026-02-08"
+    },
+    {
+     "id": "s2",
+     "title": "Harris County voters should keep Gov. Abbott's felony court judges",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/pierce-long-dozier-velasquez-deangelo-peebles-2026-22458240.php",
+     "date": "2026-10-02"
+    },
+    {
+     "id": "s3",
+     "title": "Democratic Primary Election, March 3, 2026, Cumulative Results",
+     "publisher": "Harris County Clerk / Harris Votes",
+     "url": "https://appfiles.harrisvotes.com/harrisvotes/prd/Data/0326/dem-cumulative.pdf",
+     "date": "2026-03"
+    },
+    {
+     "id": "s4",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, candidate questionnaire, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "lori-ann-deangelo",
+   "race_id": "district-495",
+   "incumbent": true,
+   "current_role": "Judge, 495th Criminal District Court since January 2025 (appointed)",
+   "background": "Lori Ann DeAngelo of Spring was appointed by Gov. Greg Abbott to the new 495th Criminal District Court effective January 1, 2025, after serving as an appointed judge of the 487th District Court. She spent more than 20 years as a Harris County prosecutor and worked in private practice. She holds a journalism degree from the University of Florida and a law degree from Baylor Law School.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "Has a one-year clearance rate of 96 percent and one of the lowest active caseloads among felony courts, according to the Chronicle.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Lost the 2024 election for the 487th District Court to Stacy Allen Barrow.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "During her earlier tenure she was criticized for bringing her dog to court and for a strict tardiness policy; she says she has softened her approach, according to the Chronicle.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "The Chronicle editorial board endorsed her (3.5 of 5 stars).",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), DeAngelo received 158 votes to 114 for Tiffany M. Hill.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Governor Abbott Appoints DeAngelo To 495th Judicial District Court",
+     "publisher": "Office of the Texas Governor",
+     "url": "https://gov.texas.gov/news/post/governor-abbott-appoints-deangelo-to-495th-judicial-district-court",
+     "date": "2024-12-19"
+    },
+    {
+     "id": "s2",
+     "title": "Harris County voters should keep Gov. Abbott's felony court judges",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/pierce-long-dozier-velasquez-deangelo-peebles-2026-22458240.php",
+     "date": "2026-10-02"
+    },
+    {
+     "id": "s3",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, candidate questionnaire, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "tiffany-m-hill",
+   "race_id": "district-495",
+   "incumbent": false,
+   "current_role": "Public defender",
+   "background": "Tiffany M. Hill is a public defender and former associate judge who helped handle felony dockets during the COVID-19 pandemic, according to the Houston Chronicle. She is 40.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "The Chronicle editorial board rated her 3 of 5 stars and endorsed her opponent.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Hill received 114 votes to 158 for Lori Ann DeAngelo.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Harris County voters should keep Gov. Abbott's felony court judges",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/pierce-long-dozier-velasquez-deangelo-peebles-2026-22458240.php",
+     "date": "2026-10-02"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, candidate questionnaire, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "dan-simons",
+   "race_id": "district-496",
+   "incumbent": true,
+   "current_role": "Judge, 496th Criminal District Court since January 2025 (appointed)",
+   "background": "Dan Simons of Humble was appointed by Gov. Greg Abbott to the new 496th Criminal District Court in January 2025. He is a U.S. Air Force veteran, a former Harris County prosecutor who rose to misdemeanor chief, and a former criminal defense attorney. He holds degrees from Sam Houston State University and Thurgood Marshall School of Law.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "Had held 22 trials in 2026 as of late July and had the fourth-highest clearance rate of the 29 criminal district courts, according to the Chronicle.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Lost the 2024 Harris County district attorney race to Sean Teare by about 2 percentage points and a 2018 misdemeanor bench race.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "The Chronicle reported that he was part of a lawsuit seeking to overturn 2022 Harris County election results.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "The Chronicle editorial board endorsed him (3 of 5 stars) over his Democratic opponent.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Simons received 225 votes to 89 for Ramona Franklin.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [
+    {
+     "topic": "Bail",
+     "summary": "The Chronicle board wrote that he is more supportive of cash bail than it prefers, though he has used bail-denial powers sparingly.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Governor Abbott Appoints Simons To 496th Judicial District Court",
+     "publisher": "Office of the Texas Governor",
+     "url": "https://gov.texas.gov/news/post/governor-abbott-appoints-simons-to-496th-judicial-district-court",
+     "date": "2025-01-07"
+    },
+    {
+     "id": "s2",
+     "title": "Why Houston Democrats should vote for Republican Judge Dan Simons",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/dan-simons-ramona-franklin-496-criminal-court-2026-22366379.php",
+     "date": "2026-07-30"
+    },
+    {
+     "id": "s3",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, candidate questionnaire, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "ramona-franklin",
+   "race_id": "district-496",
+   "incumbent": false,
+   "current_role": "Attorney; former judge, 338th Criminal District Court",
+   "background": "Ramona Franklin was judge of the 338th Criminal District Court until losing the 2024 Democratic primary. She declined to meet with the Houston Chronicle editorial board in 2026.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "As judge of the 338th, appellate courts rebuked some of her bail rulings, and her court had more than 1,300 pending cases in 2022, according to the Chronicle.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Won the March 2026 Democratic primary with 61.5 percent over Michael Abner.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "The Chronicle editorial board endorsed her primary opponent and then her general election opponent, rating Franklin 1 of 5 stars.",
+     "sources": [
+      "s2",
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Franklin received 89 votes to 225 for Dan Simons.",
+     "sources": [
+      "s4"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Why Houston Democrats should vote for Republican Judge Dan Simons",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/dan-simons-ramona-franklin-496-criminal-court-2026-22366379.php",
+     "date": "2026-07-30"
+    },
+    {
+     "id": "s2",
+     "title": "Democratic primary endorsements: Harris County criminal district courts (183rd, 209th, 232nd, 496th)",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/katie-wilson-josh-hill-brian-warren-abner-judge-21336031.php",
+     "date": "2026-02-08"
+    },
+    {
+     "id": "s3",
+     "title": "Democratic Primary Election, March 3, 2026, Cumulative Results",
+     "publisher": "Harris County Clerk / Harris Votes",
+     "url": "https://appfiles.harrisvotes.com/harrisvotes/prd/Data/0326/dem-cumulative.pdf",
+     "date": "2026-03"
+    },
+    {
+     "id": "s4",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website or response to the reported criticisms was found."
+  },
+  {
+   "id": "peyton-peebles",
+   "race_id": "district-497",
+   "incumbent": true,
+   "current_role": "Judge, 497th Criminal District Court since January 2025 (appointed)",
+   "background": "Peyton Peebles was appointed by Gov. Greg Abbott to the new 497th Criminal District Court in January 2025. He was a partner at Shellist Peebles McAlister and previously worked as an investigator and assistant district attorney in Harris County and as general counsel for the Harris County Office of Court Management. He holds a bachelor's degree from the University of Florida and a law degree from the University of Houston Law Center.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "Had the second-highest three-month clearance rate among felony courts, according to the Chronicle.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Presides over the Lee Gilley murder case and issued a gag order to prosecutors and the defense after Gilley posted bond set by a visiting judge and fled to Italy.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "The Chronicle editorial board endorsed him (4 of 5 stars).",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Peebles received 178 votes to 94 for Breanna Schwartz.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [
+    {
+     "topic": "Bail",
+     "summary": "Says he weighs specific factors in setting bond, including the charge, criminal history, ability to pay, and public safety risk.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Governor Abbott Appoints Peebles To 497th Judicial District Court",
+     "publisher": "Office of the Texas Governor",
+     "url": "https://gov.texas.gov/news/post/governor-abbott-appoints-peebles-to-497th-judicial-district-court",
+     "date": "2025-01-07"
+    },
+    {
+     "id": "s2",
+     "title": "Harris County voters should keep Gov. Abbott's felony court judges",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/pierce-long-dozier-velasquez-deangelo-peebles-2026-22458240.php",
+     "date": "2026-10-02"
+    },
+    {
+     "id": "s3",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, candidate questionnaire, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "breanna-schwartz",
+   "race_id": "district-497",
+   "incumbent": false,
+   "current_role": "Attorney in private practice (indigent defense)",
+   "background": "Breanna Schwartz spent nine years as a prosecutor and is now in private practice focused mainly on indigent defense, according to the Houston Chronicle. She helped start the county's RIC diversion court for low-level, nonviolent felony offenders. She is 40.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "The Chronicle editorial board rated her 3 of 5 stars and endorsed her opponent.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 Judicial Preference Poll (769 ballots, not an endorsement), Schwartz received 94 votes to 178 for Peyton Peebles.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [
+    {
+     "topic": "Bail",
+     "summary": "Says she would use the least restrictive bond conditions and seek no-bond holds sparingly.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Harris County voters should keep Gov. Abbott's felony court judges",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/pierce-long-dozier-velasquez-deangelo-peebles-2026-22458240.php",
+     "date": "2026-10-02"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No campaign website, candidate questionnaire, or public statement of judicial philosophy was found."
+  },
+  {
+   "id": "orlando-sanchez",
+   "race_id": "harris-county-judge",
+   "incumbent": false,
+   "current_role": "Former Harris County Treasurer (2007 to 2018)",
+   "background": "Orlando Sanchez was born in Cuba, is an Air Force veteran, and attended Bellaire High School and the University of Houston. He served on the Houston City Council from 1995 to 2001 and as Harris County Treasurer from 2007 to 2018, and ran unsuccessfully for Houston mayor in 2001 and 2003 and for city controller in 2019 and 2023. He sits on the boards of HCA Hospital Northwest and Capital Bank and founded Texas Latino Conservatives.",
+   "website": "https://orlandosanchez.com",
+   "priorities": [
+    {
+     "text": "Calls fiscal responsibility the most important part of his campaign and says he would rein in county spending and scrub the budget.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Lists cutting property taxes, creating a regional public safety district, and using voter-approved flood bond money as top priorities.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Campaigns on election integrity, streamlined county operations, tighter travel spending, and eliminating what he calls \"left-wing employment practices.\"",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says the county should expand its courts and jail and expand access to health care, particularly for people with mental illness.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "promises": [
+    {
+     "text": "Says he would lower the county property tax rate in his first budget, without specifying by how much.",
+     "sources": [
+      "s4"
+     ]
+    },
+    {
+     "text": "Pledged at an October 2026 forum to support raising $1 million for at least three new community lighthouse resilience hubs and $500,000 for the Capital IDEA Houston workforce program.",
+     "sources": [
+      "s5"
+     ]
+    },
+    {
+     "text": "Pledged to seek future flood control bond elections once 2018 bond funds are spent.",
+     "sources": [
+      "s5"
+     ]
+    }
+   ],
+   "record": [
+    {
+     "text": "As county treasurer, made efficiencies that returned funds to the general fund, according to the Chronicle.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says he voted for property tax cuts as a member of the Houston City Council.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Won the March 2026 Republican primary with 26.5 percent and the May runoff with 63.3 percent over Warren Howell.",
+     "sources": [
+      "s6",
+      "s7"
+     ]
+    },
+    {
+     "text": "The Chronicle editorial board endorsed his opponent in the general election, rating Sanchez 3 of 5 stars, and noted he said he would vote for Railroad Commission nominee Bo French and later declined to say whether he still backed French after French's racist social media posts.",
+     "sources": [
+      "s8"
+     ]
+    },
+    {
+     "text": "A University of Houston Hobby School survey released October 13, 2026 showed Sanchez at 40 percent to 47 percent for Plummer among likely voters.",
+     "sources": [
+      "s9"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 poll (not an endorsement), Sanchez received 282 votes to 271 for Letitia Plummer.",
+     "sources": [
+      "s10"
+     ]
+    }
+   ],
+   "stances": {
+    "q_county_tax": {
+     "position": 2,
+     "basis": "statement",
+     "summary": "Says county taxes are too high and he would lower the property tax rate in his first budget, opposing the 2026 county tax increase.",
+     "sources": [
+      "s4",
+      "s2",
+      "s9"
+     ]
+    },
+    "q_county_mental": {
+     "position": 1,
+     "basis": "statement",
+     "summary": "Calls for treatment for people with serious mental health needs who end up in the county jail and for expanded health care access for people with mental illness.",
+     "sources": [
+      "s4",
+      "s3"
+     ]
+    }
+   },
+   "issue_notes": [
+    {
+     "topic": "Flooding",
+     "summary": "calls flooding a regional problem requiring cooperation with neighboring counties, and proposes accelerating the Kingwood Diversion Channel and Taylor Gully projects and joining the Lake Houston dredging district.",
+     "sources": [
+      "s4",
+      "s2"
+     ]
+    },
+    {
+     "topic": "Public Safety",
+     "summary": "proposes agreements letting the nearest available law enforcement unit respond to emergencies across jurisdictional lines.",
+     "sources": [
+      "s4"
+     ]
+    },
+    {
+     "topic": "Jail and Courts",
+     "summary": "agrees a new jail is needed and proposed selling downtown court facilities and rebuilding a criminal justice facility elsewhere.",
+     "sources": [
+      "s8"
+     ]
+    },
+    {
+     "topic": "Surveillance",
+     "summary": "has not committed to extending the county's Flock camera contract and says camera data should be limited to law enforcement use with no third-party sharing or sale.",
+     "sources": [
+      "s4"
+     ]
+    },
+    {
+     "topic": "Housing",
+     "summary": "says he would work with the Texas Department of Insurance and the Legislature to lower insurance premiums and help first-time buyers with interest rate assistance.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "topic": "Immigration",
+     "summary": "has called for investigations and transparency in ICE operations, according to the Chronicle.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Meet the candidates for Harris County judge",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/politics/houston/article/harris-county-judge-election-candidates-22466593.php",
+     "date": "2026-10-15"
+    },
+    {
+     "id": "s2",
+     "title": "Q&A: Meet the Republican runoff candidates for Harris County judge",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/houston/cypress/election/2026/05/12/qa-meet-the-republican-runoff-candidates-for-harris-county-judge/",
+     "date": "2026-05-12"
+    },
+    {
+     "id": "s3",
+     "title": "Republican Orlando Sanchez, former county treasurer and city council member, running for Harris County judge",
+     "publisher": "Houston Public Media",
+     "url": "https://www.houstonpublicmedia.org/articles/news/politics/2025/09/23/531664/orlando-sanchez-former-county-treasurer-announces-bid-for-harris-county-judge/",
+     "date": "2025-09-23"
+    },
+    {
+     "id": "s4",
+     "title": "Orlando Sanchez faces your questions about leading Harris County on ENOUGH",
+     "publisher": "KPRC 2 (Click2Houston)",
+     "url": "https://www.click2houston.com/news/local/2026/10/08/orlando-sanchez-faces-your-questions-about-leading-harris-county-on-enough/",
+     "date": "2026-10"
+    },
+    {
+     "id": "s5",
+     "title": "Harris County judge candidates find common ground on flooding, Houston Health, at Sunday forum",
+     "publisher": "Houston Public Media",
+     "url": "https://www.houstonpublicmedia.org/articles/news/politics/election-2026/2026/10/05/563570/harris-county-judge-candidates-find-common-ground-on-flooding-houston-health-workforce-development/",
+     "date": "2026-10-05"
+    },
+    {
+     "id": "s6",
+     "title": "Republican Primary Election, March 3, 2026, Cumulative Results",
+     "publisher": "Harris County Clerk / Harris Votes",
+     "url": "https://appfiles.harrisvotes.com/harrisvotes/prd/Data/0326/rep-cumulative.pdf",
+     "date": "2026-03"
+    },
+    {
+     "id": "s7",
+     "title": "Republican Primary Runoff Election, May 26, 2026, Cumulative Results",
+     "publisher": "Harris County Clerk / Harris Votes",
+     "url": "https://appfiles.harrisvotes.com/harrisvotes/prd/Data/0526/rep-cumulative.pdf",
+     "date": "2026-05"
+    },
+    {
+     "id": "s8",
+     "title": "For Harris County Judge: Letitia Plummer",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/letitia-plummer-orlando-sanchez-harris-county-22448825.php",
+     "date": "2026-09-29"
+    },
+    {
+     "id": "s9",
+     "title": "Survey: Democratic candidate Letitia Plummer leads Orlando Sanchez by 7 points for Harris County judge seat",
+     "publisher": "Houston Public Media",
+     "url": "https://www.houstonpublicmedia.org/articles/news/harris-county/2026/10/13/564196/harris-county-judge-race-poll/",
+     "date": "2026-10-13"
+    },
+    {
+     "id": "s10",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No positions found on a state spending cap, state water funding, or state preemption of local rules."
+  },
+  {
+   "id": "letitia-plummer",
+   "race_id": "harris-county-judge",
+   "incumbent": false,
+   "current_role": "Dentist; former Houston City Council member, At-Large Position 4 (2020 to 2025)",
+   "background": "Letitia Plummer is a dentist and small business owner who served on the Houston City Council in At-Large Position 4 from 2020 through 2025. She ran unsuccessfully for Congress in 2018. She won the 2026 Democratic nomination for county judge by defeating former Houston Mayor Annise Parker in a May runoff.",
+   "website": "https://www.drletitiaplummer.com",
+   "priorities": [
+    {
+     "text": "Says it is time for the county to \"tighten the belt\" and examine where it spends the most money, while seeking more state and federal infrastructure funding.",
+     "sources": [
+      "s4"
+     ]
+    },
+    {
+     "text": "Names justice (including expanding Cite and Release and non-police emergency response), a county housing trust fund, and funding Harris Health clinics and behavioral health services as top priorities.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Calls disaster resilience her primary priority, including neighborhood resilience hubs that can operate off the grid.",
+     "sources": [
+      "s5",
+      "s6"
+     ]
+    },
+    {
+     "text": "Wants to continue county services beyond infrastructure and public safety, including mental health, financial literacy, and small business support.",
+     "sources": [
+      "s6"
+     ]
+    }
+   ],
+   "promises": [
+    {
+     "text": "Says she would not renew or would cancel the county's Flock license plate camera contract as written and would require published use policies, audits, and data limits.",
+     "sources": [
+      "s7",
+      "s1"
+     ]
+    },
+    {
+     "text": "Pledged at an October 2026 forum to support raising $1 million for at least three new community lighthouse resilience hubs and full funding for Harris Health.",
+     "sources": [
+      "s5"
+     ]
+    },
+    {
+     "text": "Pledged to seek future flood control bond elections once 2018 bond funds are spent.",
+     "sources": [
+      "s5"
+     ]
+    },
+    {
+     "text": "Says she would create a dedicated County Housing Trust Fund and offer down payment assistance for first-time homebuyers.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "record": [
+    {
+     "text": "On the Houston City Council, pushed a police reform proposal, tenant protections for substandard apartments, and limits on Houston Police Department cooperation with federal immigration agents.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says she secured funding for the first generator at the Kashmere Gardens Multipurpose Center while on the council.",
+     "sources": [
+      "s5"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Finished second in the March 2026 Democratic primary with 37.3 percent and won the May runoff with 51.1 percent over Annise Parker.",
+     "sources": [
+      "s8",
+      "s3"
+     ]
+    },
+    {
+     "text": "The Chronicle editorial board endorsed her (3.5 of 5 stars), and noted she has filed faulty campaign finance reports and was sanctioned twice by the Texas State Board of Dental Examiners, most recently in 2022.",
+     "sources": [
+      "s6"
+     ]
+    },
+    {
+     "text": "A University of Houston Hobby School survey released October 13, 2026 showed Plummer at 47 percent to 40 percent for Sanchez among likely voters.",
+     "sources": [
+      "s9"
+     ]
+    },
+    {
+     "text": "In the Houston Bar Association's 2026 poll (not an endorsement), Plummer received 271 votes to 282 for Orlando Sanchez.",
+     "sources": [
+      "s10"
+     ]
+    }
+   ],
+   "stances": {
+    "q_county_tax": {
+     "position": 0,
+     "basis": "statement",
+     "summary": "Opposed the 2026 county property tax increase and supports finding efficiencies, but declined to commit to lowering the rate and said she would not cut county programs.",
+     "sources": [
+      "s7",
+      "s9",
+      "s6"
+     ]
+    },
+    "q_county_mental": {
+     "position": 2,
+     "basis": "questionnaire",
+     "summary": "Lists expanding behavioral health services and non-police emergency response among her top priorities and wants the county to keep funding mental health services.",
+     "sources": [
+      "s2",
+      "s6"
+     ]
+    }
+   },
+   "issue_notes": [
+    {
+     "topic": "Jail",
+     "summary": "supports building a new, fully staffed and more humane jail rather than a larger one, while reducing the jail population and speeding case processing.",
+     "sources": [
+      "s6"
+     ]
+    },
+    {
+     "topic": "Flooding",
+     "summary": "proposes bringing in more small and midsize contractors, paying them promptly, and planning better around state and federal funding rules.",
+     "sources": [
+      "s7"
+     ]
+    },
+    {
+     "topic": "Immigration",
+     "summary": "wrote that the county should comply with the letter of the law on immigration enforcement and not go beyond its requirements.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "topic": "Spending",
+     "summary": "criticized using temporary COVID-era federal funds for permanent programs and says residents should have been told when programs relied on temporary funding.",
+     "sources": [
+      "s6",
+      "s7"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Meet the candidates for Harris County judge",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/politics/houston/article/harris-county-judge-election-candidates-22466593.php",
+     "date": "2026-10-15"
+    },
+    {
+     "id": "s2",
+     "title": "Q&A: Meet the Democratic runoff candidates for Harris County judge",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/houston/cypress/election/2026/05/12/qa-meet-the-democratic-runoff-candidates-for-harris-county-judge/",
+     "date": "2026-05-12"
+    },
+    {
+     "id": "s3",
+     "title": "Democratic Primary Runoff Election, May 26, 2026, Cumulative Results",
+     "publisher": "Harris County Clerk / Harris Votes",
+     "url": "https://appfiles.harrisvotes.com/harrisvotes/prd/Data/0526/dem-cumulative.pdf",
+     "date": "2026-05"
+    },
+    {
+     "id": "s4",
+     "title": "Houston City Council member Letitia Plummer announces run for Harris County Judge",
+     "publisher": "Houston Public Media",
+     "url": "https://www.houstonpublicmedia.org/articles/news/politics/2025/07/08/525895/houston-city-council-member-letitia-plummer-announces-run-for-harris-county-judge/",
+     "date": "2025-07-08"
+    },
+    {
+     "id": "s5",
+     "title": "Harris County judge candidates find common ground on flooding, Houston Health, at Sunday forum",
+     "publisher": "Houston Public Media",
+     "url": "https://www.houstonpublicmedia.org/articles/news/politics/election-2026/2026/10/05/563570/harris-county-judge-candidates-find-common-ground-on-flooding-houston-health-workforce-development/",
+     "date": "2026-10-05"
+    },
+    {
+     "id": "s6",
+     "title": "For Harris County Judge: Letitia Plummer",
+     "publisher": "Houston Chronicle",
+     "url": "https://www.houstonchronicle.com/opinion/endorsements/article/letitia-plummer-orlando-sanchez-harris-county-22448825.php",
+     "date": "2026-09-29"
+    },
+    {
+     "id": "s7",
+     "title": "Letitia Plummer talks property taxes, public safety, Flock cameras and flooding in ENOUGH sit-down",
+     "publisher": "KPRC 2 (Click2Houston)",
+     "url": "https://www.click2houston.com/news/local/2026/10/09/from-campaign-promises-to-governing-enough-asks-letitia-plummer-how-she-would-deliver/",
+     "date": "2026-10"
+    },
+    {
+     "id": "s8",
+     "title": "Democratic Primary Election, March 3, 2026, Cumulative Results",
+     "publisher": "Harris County Clerk / Harris Votes",
+     "url": "https://appfiles.harrisvotes.com/harrisvotes/prd/Data/0326/dem-cumulative.pdf",
+     "date": "2026-03"
+    },
+    {
+     "id": "s9",
+     "title": "Survey: Democratic candidate Letitia Plummer leads Orlando Sanchez by 7 points for Harris County judge seat",
+     "publisher": "Houston Public Media",
+     "url": "https://www.houstonpublicmedia.org/articles/news/harris-county/2026/10/13/564196/harris-county-judge-race-poll/",
+     "date": "2026-10-13"
+    },
+    {
+     "id": "s10",
+     "title": "2026 Judicial Preference Poll Results",
+     "publisher": "Houston Bar Association",
+     "url": "https://www.hba.org/docDownload/3135922",
+     "date": "2026-10-09"
+    }
+   ],
+   "research_gaps": "No positions found on a state spending cap, state water funding, or state preemption of local rules."
+  }
+ ]
+}

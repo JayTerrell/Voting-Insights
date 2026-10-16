@@ -1,0 +1,3051 @@
+{
+ "candidates": [
+  {
+   "id": "chris-dorsey",
+   "race_id": "district-94",
+   "incumbent": false,
+   "current_role": "Republican nominee for the 94th District Court",
+   "background": "Chris Dorsey is the Republican nominee for judge of the 94th District Court in Nueces County. He appeared on the March 3, 2026 Republican primary ballot alongside Kathy S. Mills. No campaign biography, legal background or official profile could be located.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Ran in the March 3, 2026 Republican primary for the 94th District Court against Kathy S. Mills.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "The 94th District Court seat was held by Democrat Bobby Galvan, who was reelected without opposition in 2022.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Republican primary ballot for Nueces County",
+     "publisher": "KRIS 6 News",
+     "url": "https://www.kristv.com/news/local-news/local-elections/republican-primary-ballot-for-nueces-county",
+     "date": "2026-02"
+    },
+    {
+     "id": "s2",
+     "title": "Here are the election results for the November 2022 in South Texas counties",
+     "publisher": "Corpus Christi Caller-Times (via Yahoo News)",
+     "url": "https://www.yahoo.com/news/election-results-november-2022-south-010347917.html",
+     "date": "2022-11-11"
+    }
+   ],
+   "research_gaps": "No campaign website, legal experience, bar poll result or judicial philosophy statement could be found."
+  },
+  {
+   "id": "celina-leon",
+   "race_id": "district-94",
+   "incumbent": false,
+   "current_role": "Democratic nominee for the 94th District Court",
+   "background": "Celina Leon is the Democratic nominee for judge of the 94th District Court in Nueces County. She was the only Democratic candidate listed for the court on the March 3, 2026 primary ballot. No campaign biography or legal background could be located.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Listed as the sole Democratic primary candidate for the 94th District Court in March 2026.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "The 94th District Court seat was held by Democrat Bobby Galvan, who was reelected without opposition in 2022.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Democratic primary ballot rundown for Nueces County",
+     "publisher": "KRIS 6 News",
+     "url": "https://www.kristv.com/news/local-news/local-elections/democratic-primary-ballot-rundown-for-nueces-county",
+     "date": "2026-02"
+    },
+    {
+     "id": "s2",
+     "title": "Here are the election results for the November 2022 in South Texas counties",
+     "publisher": "Corpus Christi Caller-Times (via Yahoo News)",
+     "url": "https://www.yahoo.com/news/election-results-november-2022-south-010347917.html",
+     "date": "2022-11-11"
+    }
+   ],
+   "research_gaps": "No campaign website, legal experience, bar poll result or judicial philosophy statement could be found."
+  },
+  {
+   "id": "david-klein",
+   "race_id": "district-148",
+   "incumbent": true,
+   "current_role": "Judge, 148th District Court, Nueces County, since January 2023",
+   "background": "David Klein has been judge of the 148th District Court in Nueces County since January 1, 2023. He won the seat in November 2022 by defeating the Democratic incumbent, Carlos Valdez. He was the only Republican primary candidate for the court in March 2026.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "Won election to the 148th District Court on November 8, 2022, with 51.1 percent of the vote against incumbent Carlos Valdez.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "The November 2026 race is a rematch of the 2022 contest between Klein and Valdez.",
+     "sources": [
+      "s1",
+      "s3",
+      "s4"
+     ]
+    },
+    {
+     "text": "Was unopposed on the March 3, 2026 Republican primary ballot for the 148th District Court.",
+     "sources": [
+      "s4"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Here are the election results for the November 2022 in South Texas counties",
+     "publisher": "Corpus Christi Caller-Times (via Yahoo News)",
+     "url": "https://www.yahoo.com/news/election-results-november-2022-south-010347917.html",
+     "date": "2022-11-11"
+    },
+    {
+     "id": "s2",
+     "title": "David Klein (Texas)",
+     "publisher": "Ballotpedia",
+     "url": "https://ballotpedia.org/David_Klein_(Texas)",
+     "date": null
+    },
+    {
+     "id": "s3",
+     "title": "Democratic primary ballot rundown for Nueces County",
+     "publisher": "KRIS 6 News",
+     "url": "https://www.kristv.com/news/local-news/local-elections/democratic-primary-ballot-rundown-for-nueces-county",
+     "date": "2026-02"
+    },
+    {
+     "id": "s4",
+     "title": "Republican primary ballot for Nueces County",
+     "publisher": "KRIS 6 News",
+     "url": "https://www.kristv.com/news/local-news/local-elections/republican-primary-ballot-for-nueces-county",
+     "date": "2026-02"
+    }
+   ],
+   "research_gaps": "Could not access the Nueces County court biography; no notable rulings, bar poll result or campaign website was found."
+  },
+  {
+   "id": "carlos-valdez",
+   "race_id": "district-148",
+   "incumbent": false,
+   "current_role": "Former judge, 148th District Court; Democratic nominee",
+   "background": "Carlos Valdez is a former judge of the 148th District Court in Nueces County. He held the seat until losing the November 2022 election to Republican David Klein by about two percentage points. He was the only Democratic candidate for the court on the March 2026 primary ballot.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "As the incumbent 148th District Court judge, received 48.9 percent of the vote in November 2022 and lost to David Klein.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Listed as the sole Democratic primary candidate for the 148th District Court in March 2026.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Here are the election results for the November 2022 in South Texas counties",
+     "publisher": "Corpus Christi Caller-Times (via Yahoo News)",
+     "url": "https://www.yahoo.com/news/election-results-november-2022-south-010347917.html",
+     "date": "2022-11-11"
+    },
+    {
+     "id": "s2",
+     "title": "Democratic primary ballot rundown for Nueces County",
+     "publisher": "KRIS 6 News",
+     "url": "https://www.kristv.com/news/local-news/local-elections/democratic-primary-ballot-rundown-for-nueces-county",
+     "date": "2026-02"
+    }
+   ],
+   "research_gaps": "No campaign website, biography, rulings summary or bar poll result could be found."
+  },
+  {
+   "id": "connie-scott",
+   "race_id": "nueces-county-judge",
+   "incumbent": true,
+   "current_role": "Nueces County Judge since January 2023",
+   "background": "Connie Scott has been Nueces County Judge since January 2023. She previously served one term in the Texas House for District 34, from 2011 to 2013. She won the county judge seat in November 2022 by defeating Democratic incumbent Barbara Canales.",
+   "website": null,
+   "priorities": [
+    {
+     "text": "In her 2022 campaign, ran on accountability and transparency in county government.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Won the November 2022 county judge election with 55.7 percent of the vote over incumbent Barbara Canales.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    },
+    {
+     "text": "Served one term in the Texas House representing District 34 from 2011 to 2013.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "In 2022 she was endorsed by former President Donald Trump and by two Democratic county commissioners, Joe A. Gonzalez and Robert Hernandez.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Her 2022 campaign raised concerns about the county jail's overcrowding and state compliance, a criminal probe into the medical examiner's office, and a legal dispute over Padre Balli Park.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Was unopposed in the March 3, 2026 Republican primary.",
+     "sources": [
+      "s4"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "'It does not feel real': Scott bests Canales by 11 points to be next Nueces County judge",
+     "publisher": "Corpus Christi Caller-Times (via Yahoo News)",
+     "url": "https://www.yahoo.com/news/does-not-feel-real-scott-174327541.html",
+     "date": "2022-11-09"
+    },
+    {
+     "id": "s2",
+     "title": "Here are the election results for the November 2022 in South Texas counties",
+     "publisher": "Corpus Christi Caller-Times (via Yahoo News)",
+     "url": "https://www.yahoo.com/news/election-results-november-2022-south-010347917.html",
+     "date": "2022-11-11"
+    },
+    {
+     "id": "s3",
+     "title": "Nueces County judge race: Here's what you need to know ahead of Election Day",
+     "publisher": "Corpus Christi Caller-Times (via Yahoo News)",
+     "url": "https://www.yahoo.com/news/nueces-county-judge-race-heres-120057277.html",
+     "date": "2022-11-05"
+    },
+    {
+     "id": "s4",
+     "title": "Republican primary ballot for Nueces County",
+     "publisher": "KRIS 6 News",
+     "url": "https://www.kristv.com/news/local-news/local-elections/republican-primary-ballot-for-nueces-county",
+     "date": "2026-02"
+    },
+    {
+     "id": "s5",
+     "title": "County Judge, Nueces County, TX",
+     "publisher": "GoodParty.org",
+     "url": "https://goodparty.org/elections/tx/nueces-county/position/county-executive-head",
+     "date": null
+    }
+   ],
+   "research_gaps": "The official county biography was not accessible and no 2026 campaign platform, questionnaire or statements on taxes, water or mental health were found."
+  },
+  {
+   "id": "aidee-hernandez",
+   "race_id": "nueces-county-judge",
+   "incumbent": false,
+   "current_role": "Democratic nominee for Nueces County Judge; former Nueces County audit and budget employee",
+   "background": "Aidee Hernandez is originally from Tampico, Mexico, and has lived in Nueces County for 16 years. Her campaign says she worked for Nueces County for a decade in roles including audit and budget. She holds a bachelor's degree in business administration with an accounting concentration and master's degrees in business administration (2018) and accounting (2023) from Texas A&M University-Corpus Christi.",
+   "website": "https://www.aideefornuecescountyjudge.com/",
+   "priorities": [
+    {
+     "text": "Says she will ensure accountability and transparency remain in place throughout the county budgeting process.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Campaigns on emergency preparedness, response and recovery.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Lists economic growth, small business support and job creation as a priority.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says healthcare is \"a fundamental right, not a privilege\" and that she would work with the Hospital District on affordability and access.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Campaigns on repairing and modernizing roads, bridges and public transportation.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says she will collaborate with the sheriff, constables, county attorney, judges and district attorney on public safety and justice reforms.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Was unopposed in the March 3, 2026 Democratic primary.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [
+    {
+     "topic": "Environment",
+     "summary": "Lists environmental sustainability, including renewable energy, pollution reduction and natural resource protection, as a campaign priority.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Aidee Hernandez for Nueces County Judge",
+     "publisher": "Hernandez campaign",
+     "url": "https://www.aideefornuecescountyjudge.com/",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Democratic primary ballot rundown for Nueces County",
+     "publisher": "KRIS 6 News",
+     "url": "https://www.kristv.com/news/local-news/local-elections/democratic-primary-ballot-rundown-for-nueces-county",
+     "date": "2026-02"
+    },
+    {
+     "id": "s3",
+     "title": "Aidee Hernandez, candidate profile",
+     "publisher": "GoodParty.org",
+     "url": "https://goodparty.org/people/aidee-hernandez-7e4ffc0f",
+     "date": null
+    }
+   ],
+   "research_gaps": "No statements on property tax rates, mental health spending, water supply or state preemption, and no news coverage or endorsements were found."
+  },
+  {
+   "id": "todd-robinson",
+   "race_id": "nueces-ccl-1",
+   "incumbent": true,
+   "current_role": "Judge, Nueces County Court at Law No. 1, since January 2023",
+   "background": "Todd Robinson is the judge of Nueces County Court at Law No. 1, with a term running from 2023 through 2026. He won the seat in November 2022 by defeating the Democratic incumbent, Melissa \"Mel\" Madrigal.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "Won election to County Court at Law No. 1 in November 2022 with 51.8 percent of the vote against incumbent Melissa Madrigal.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Was unopposed on the March 3, 2026 Republican primary ballot.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Here are the election results for the November 2022 in South Texas counties",
+     "publisher": "Corpus Christi Caller-Times (via Yahoo News)",
+     "url": "https://www.yahoo.com/news/election-results-november-2022-south-010347917.html",
+     "date": "2022-11-11"
+    },
+    {
+     "id": "s2",
+     "title": "Republican primary ballot for Nueces County",
+     "publisher": "KRIS 6 News",
+     "url": "https://www.kristv.com/news/local-news/local-elections/republican-primary-ballot-for-nueces-county",
+     "date": "2026-02"
+    },
+    {
+     "id": "s3",
+     "title": "Todd Robinson, candidate profile",
+     "publisher": "GoodParty.org",
+     "url": "https://goodparty.org/people/todd-robinson-6ee12f71",
+     "date": null
+    }
+   ],
+   "research_gaps": "No campaign website, biography, education or legal background, notable rulings or bar poll results were found."
+  },
+  {
+   "id": "joseph-barrientos",
+   "race_id": "nueces-ccl-1",
+   "incumbent": false,
+   "current_role": "Democratic nominee for Nueces County Court at Law No. 1",
+   "background": "Joseph Barrientos is the Democratic nominee for Nueces County Court at Law No. 1. He was the only Democratic candidate for the court on the March 2026 primary ballot. No biography or legal background could be located.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Listed as the sole Democratic primary candidate for County Court at Law No. 1 in March 2026.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Democratic primary ballot rundown for Nueces County",
+     "publisher": "KRIS 6 News",
+     "url": "https://www.kristv.com/news/local-news/local-elections/democratic-primary-ballot-rundown-for-nueces-county",
+     "date": "2026-02"
+    }
+   ],
+   "research_gaps": "No campaign website, biography, legal experience or bar poll result could be found."
+  },
+  {
+   "id": "jerry-batek",
+   "race_id": "nueces-ccl-2",
+   "incumbent": false,
+   "current_role": "Trustee, Calallen ISD Board of Trustees",
+   "background": "Jerry Batek is the Republican nominee for Nueces County Court at Law No. 2. GoodParty.org lists him as a sitting Calallen ISD trustee, with service on that board since 2019. No legal biography could be located.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Was unopposed on the March 3, 2026 Republican primary ballot.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Listed as a Calallen ISD trustee (Place 3, term 2024 to 2028), after earlier service in Place 5.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Republican primary ballot for Nueces County",
+     "publisher": "KRIS 6 News",
+     "url": "https://www.kristv.com/news/local-news/local-elections/republican-primary-ballot-for-nueces-county",
+     "date": "2026-02"
+    },
+    {
+     "id": "s2",
+     "title": "Jerry Batek, candidate profile",
+     "publisher": "GoodParty.org",
+     "url": "https://goodparty.org/people/jerry-batek-5a635f6d",
+     "date": null
+    },
+    {
+     "id": "s3",
+     "title": "County Court-at-Law Judge, Nueces County, TX",
+     "publisher": "GoodParty.org",
+     "url": "https://goodparty.org/elections/tx/nueces-county/position/county-court-judge",
+     "date": null
+    }
+   ],
+   "research_gaps": "No campaign platform, legal experience, education or bar poll result could be found."
+  },
+  {
+   "id": "lisa-gonzales",
+   "race_id": "nueces-ccl-2",
+   "incumbent": true,
+   "current_role": "Judge, Nueces County Court at Law No. 2, since 2003",
+   "background": "Lisa Gonzales has been judge of Nueces County Court at Law No. 2 since 2003. She is a Nueces County native with a bachelor's degree from Yale University (1984) and a law degree from the University of Texas School of Law (1987). She previously served as an assistant Texas attorney general, assistant general counsel at the Texas Department of Banking, assistant county attorney, assistant district attorney, and Justice of the Peace Precinct 1, Place 1 (elected 1996).",
+   "website": "https://www.judge-lisa.com/",
+   "priorities": [
+    {
+     "text": "Says she is dedicated to \"the rule of law as well as the fair and independent administration of justice.\"",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Her campaign says she has presided over thousands of cases, including more than 600 jury trials in criminal, civil, probate and mental health matters.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Was reelected without opposition in November 2022.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Lists membership in the Corpus Christi Bar Association and the Coastal Bend Women Lawyers Association, and is a member and former board member of the League of Women Voters.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Was unopposed in the March 3, 2026 Democratic primary.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Judge Lisa Gonzales",
+     "publisher": "Gonzales campaign",
+     "url": "https://www.judge-lisa.com/",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Here are the election results for the November 2022 in South Texas counties",
+     "publisher": "Corpus Christi Caller-Times (via Yahoo News)",
+     "url": "https://www.yahoo.com/news/election-results-november-2022-south-010347917.html",
+     "date": "2022-11-11"
+    },
+    {
+     "id": "s3",
+     "title": "Democratic primary ballot rundown for Nueces County",
+     "publisher": "KRIS 6 News",
+     "url": "https://www.kristv.com/news/local-news/local-elections/democratic-primary-ballot-rundown-for-nueces-county",
+     "date": "2026-02"
+    },
+    {
+     "id": "s4",
+     "title": "Lisa Gonzales, candidate profile",
+     "publisher": "GoodParty.org",
+     "url": "https://goodparty.org/people/lisa-gonzales-700cb42c",
+     "date": null
+    }
+   ],
+   "research_gaps": "No bar poll results, endorsements or notable rulings from independent sources were found."
+  },
+  {
+   "id": "neely-balko",
+   "race_id": "nueces-ccl-3",
+   "incumbent": false,
+   "current_role": "Trial attorney",
+   "background": "Neely Balko is a trial attorney and lifelong Nueces County resident. He attended Calallen High School, Texas A&M University and St. Mary's University School of Law. His campaign says he has handled civil litigation for plaintiffs and defendants and criminal cases as both a prosecutor and a defense attorney.",
+   "website": "https://neelybalko.com",
+   "priorities": [
+    {
+     "text": "Says he will \"be impartial while still upholding the rule of law.\"",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Describes himself as believing in \"honesty, integrity, and the rule of law\" and in continuing legal education.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Ran in the March 3, 2026 Republican primary for County Court at Law No. 3 against Laura Allison Ramos.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Lists community service as president of a local youth basketball league and as a Big Brothers Big Sisters mentor.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Neely Balko for County Court at Law No. 3",
+     "publisher": "Balko campaign",
+     "url": "https://neelybalko.com",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Republican primary ballot for Nueces County",
+     "publisher": "KRIS 6 News",
+     "url": "https://www.kristv.com/news/local-news/local-elections/republican-primary-ballot-for-nueces-county",
+     "date": "2026-02"
+    },
+    {
+     "id": "s3",
+     "title": "Neely Balko, candidate profile",
+     "publisher": "GoodParty.org",
+     "url": "https://goodparty.org/people/neely-balko-a37bb79a",
+     "date": null
+    }
+   ],
+   "research_gaps": "No endorsements, bar poll results or independent news coverage were found."
+  },
+  {
+   "id": "deeanne-svoboda-galvan",
+   "race_id": "nueces-ccl-3",
+   "incumbent": true,
+   "current_role": "Judge, Nueces County Court at Law No. 3",
+   "background": "Deeanne Svoboda Galvan is the judge of Nueces County Court at Law No. 3. GoodParty.org lists her in the seat for the 2019 to 2022 and 2023 to 2026 terms. She was reelected without opposition in 2022.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "Was reelected to County Court at Law No. 3 without opposition in November 2022.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Was unopposed in the March 3, 2026 Democratic primary.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Here are the election results for the November 2022 in South Texas counties",
+     "publisher": "Corpus Christi Caller-Times (via Yahoo News)",
+     "url": "https://www.yahoo.com/news/election-results-november-2022-south-010347917.html",
+     "date": "2022-11-11"
+    },
+    {
+     "id": "s2",
+     "title": "Democratic primary ballot rundown for Nueces County",
+     "publisher": "KRIS 6 News",
+     "url": "https://www.kristv.com/news/local-news/local-elections/democratic-primary-ballot-rundown-for-nueces-county",
+     "date": "2026-02"
+    },
+    {
+     "id": "s3",
+     "title": "Deeanne Svoboda Galvan, candidate profile",
+     "publisher": "GoodParty.org",
+     "url": "https://goodparty.org/people/deeanne-galvan-c75302de",
+     "date": null
+    },
+    {
+     "id": "s4",
+     "title": "County Court-at-Law Judge, Nueces County, TX",
+     "publisher": "GoodParty.org",
+     "url": "https://goodparty.org/elections/tx/nueces-county/position/county-court-judge",
+     "date": null
+    }
+   ],
+   "research_gaps": "No campaign website, biography, education, rulings or bar poll results were found."
+  },
+  {
+   "id": "anne-lorentzen",
+   "race_id": "nueces-district-clerk",
+   "incumbent": true,
+   "current_role": "Nueces County District Clerk since 2019",
+   "background": "Anne Lorentzen is the Nueces County District Clerk and is listed in the office for the 2019 to 2022 and 2023 to 2026 terms. The office keeps District Court records, collects filing fees and coordinates jury panels. She defeated Maria Carolina (Kina) Ventura in 2022, the same opponent she faces in 2026.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "Was reelected in November 2022 with 56.1 percent of the vote over Maria C. (Kina) Ventura.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Was unopposed in the March 3, 2026 Republican primary.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Here are the election results for the November 2022 in South Texas counties",
+     "publisher": "Corpus Christi Caller-Times (via Yahoo News)",
+     "url": "https://www.yahoo.com/news/election-results-november-2022-south-010347917.html",
+     "date": "2022-11-11"
+    },
+    {
+     "id": "s2",
+     "title": "Republican primary ballot for Nueces County",
+     "publisher": "KRIS 6 News",
+     "url": "https://www.kristv.com/news/local-news/local-elections/republican-primary-ballot-for-nueces-county",
+     "date": "2026-02"
+    },
+    {
+     "id": "s3",
+     "title": "Anne Lorentzen, candidate profile",
+     "publisher": "GoodParty.org",
+     "url": "https://goodparty.org/people/anne-lorentzen-94c2299e",
+     "date": null
+    },
+    {
+     "id": "s4",
+     "title": "County District Clerk, Nueces County, TX",
+     "publisher": "GoodParty.org",
+     "url": "https://goodparty.org/elections/tx/nueces-county/position/county-court-clerk",
+     "date": null
+    }
+   ],
+   "research_gaps": "No campaign platform, stated priorities or biography beyond office tenure were found."
+  },
+  {
+   "id": "maria-carolina-kina-ventura",
+   "race_id": "nueces-district-clerk",
+   "incumbent": false,
+   "current_role": "Democratic nominee for Nueces County District Clerk",
+   "background": "Maria Carolina (Kina) Ventura is the Democratic nominee for Nueces County District Clerk. She was also the Democratic nominee for the office in 2022, when she received 43.9 percent of the vote against incumbent Anne Lorentzen.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "Received 43.9 percent of the vote as the Democratic nominee for district clerk in November 2022.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Was unopposed in the March 3, 2026 Democratic primary.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Here are the election results for the November 2022 in South Texas counties",
+     "publisher": "Corpus Christi Caller-Times (via Yahoo News)",
+     "url": "https://www.yahoo.com/news/election-results-november-2022-south-010347917.html",
+     "date": "2022-11-11"
+    },
+    {
+     "id": "s2",
+     "title": "Democratic primary ballot rundown for Nueces County",
+     "publisher": "KRIS 6 News",
+     "url": "https://www.kristv.com/news/local-news/local-elections/democratic-primary-ballot-rundown-for-nueces-county",
+     "date": "2026-02"
+    },
+    {
+     "id": "s3",
+     "title": "Maria Ventura, candidate profile",
+     "publisher": "GoodParty.org",
+     "url": "https://goodparty.org/people/maria-ventura-d3fbdaa7",
+     "date": null
+    }
+   ],
+   "research_gaps": "No campaign website, biography, qualifications or stated priorities were found."
+  },
+  {
+   "id": "kara-sands",
+   "race_id": "nueces-county-clerk",
+   "incumbent": true,
+   "current_role": "Nueces County Clerk since 2019",
+   "background": "Kara Sands is the Nueces County Clerk and is listed in the office for the 2019 to 2022 and 2023 to 2026 terms. She was reelected in 2022 with 59.7 percent of the vote.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "Was reelected county clerk in November 2022 with 59.7 percent of the vote over Ruell Ector Guana.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Was unopposed in the March 3, 2026 Republican primary.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Here are the election results for the November 2022 in South Texas counties",
+     "publisher": "Corpus Christi Caller-Times (via Yahoo News)",
+     "url": "https://www.yahoo.com/news/election-results-november-2022-south-010347917.html",
+     "date": "2022-11-11"
+    },
+    {
+     "id": "s2",
+     "title": "Republican primary ballot for Nueces County",
+     "publisher": "KRIS 6 News",
+     "url": "https://www.kristv.com/news/local-news/local-elections/republican-primary-ballot-for-nueces-county",
+     "date": "2026-02"
+    },
+    {
+     "id": "s3",
+     "title": "Kara Sands, candidate profile",
+     "publisher": "GoodParty.org",
+     "url": "https://goodparty.org/people/kara-sands-d49731d1",
+     "date": null
+    },
+    {
+     "id": "s4",
+     "title": "County Clerk, Nueces County, TX",
+     "publisher": "GoodParty.org",
+     "url": "https://goodparty.org/elections/tx/nueces-county/position/county-clerk",
+     "date": null
+    }
+   ],
+   "research_gaps": "No campaign platform, stated priorities or biography beyond office tenure were found."
+  },
+  {
+   "id": "leanna-gutierrez-gonzales",
+   "race_id": "nueces-county-clerk",
+   "incumbent": false,
+   "current_role": "Democratic nominee for Nueces County Clerk",
+   "background": "Leanna Gutierrez Gonzales is the Democratic nominee for Nueces County Clerk. She competed in the March 2026 Democratic primary against Jo Ann Beltran. No biography could be located.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Ran in the March 3, 2026 Democratic primary for county clerk against Jo Ann Beltran.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Democratic primary ballot rundown for Nueces County",
+     "publisher": "KRIS 6 News",
+     "url": "https://www.kristv.com/news/local-news/local-elections/democratic-primary-ballot-rundown-for-nueces-county",
+     "date": "2026-02"
+    },
+    {
+     "id": "s2",
+     "title": "Leanna Gonzales, candidate profile",
+     "publisher": "GoodParty.org",
+     "url": "https://goodparty.org/people/leanna-gonzales-b7566b28",
+     "date": null
+    }
+   ],
+   "research_gaps": "No campaign website, biography, qualifications or stated priorities were found."
+  },
+  {
+   "id": "ed-bennett",
+   "race_id": "nueces-commissioner-2",
+   "incumbent": false,
+   "current_role": "Republican nominee for Nueces County Commissioner Precinct 2",
+   "background": "Ed Bennett is the Republican nominee for Nueces County Commissioner Precinct 2. He was the only Republican on the March 2026 primary ballot for the seat. No biography could be located.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Was unopposed in the March 3, 2026 Republican primary.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Republican primary ballot for Nueces County",
+     "publisher": "KRIS 6 News",
+     "url": "https://www.kristv.com/news/local-news/local-elections/republican-primary-ballot-for-nueces-county",
+     "date": "2026-02"
+    },
+    {
+     "id": "s2",
+     "title": "Ed Bennett, candidate profile",
+     "publisher": "GoodParty.org",
+     "url": "https://goodparty.org/people/ed-bennett-2fd88aa6",
+     "date": null
+    },
+    {
+     "id": "s3",
+     "title": "County Commission, Nueces County, TX",
+     "publisher": "GoodParty.org",
+     "url": "https://goodparty.org/elections/tx/nueces-county/position/county-legislature-executive-board",
+     "date": null
+    }
+   ],
+   "research_gaps": "No campaign website, biography, priorities or positions on county taxes, mental health, water or preemption were found."
+  },
+  {
+   "id": "isabel-noyola-martin",
+   "race_id": "nueces-commissioner-2",
+   "incumbent": false,
+   "current_role": "Democratic nominee for Nueces County Commissioner Precinct 2",
+   "background": "Isabel Noyola-Martin is the Democratic nominee for Nueces County Commissioner Precinct 2. She ran in a three-way March 2026 Democratic primary that included incumbent Commissioner Joe A. (JAG) Gonzalez and Mark A. Gonzalez. No biography could be located.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Ran in the March 3, 2026 Democratic primary against Mark A. Gonzalez and Joe A. (JAG) Gonzalez.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Joe A. (JAG) Gonzalez held the Precinct 2 seat and was reelected without opposition in 2022.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Democratic primary ballot rundown for Nueces County",
+     "publisher": "KRIS 6 News",
+     "url": "https://www.kristv.com/news/local-news/local-elections/democratic-primary-ballot-rundown-for-nueces-county",
+     "date": "2026-02"
+    },
+    {
+     "id": "s2",
+     "title": "Here are the election results for the November 2022 in South Texas counties",
+     "publisher": "Corpus Christi Caller-Times (via Yahoo News)",
+     "url": "https://www.yahoo.com/news/election-results-november-2022-south-010347917.html",
+     "date": "2022-11-11"
+    },
+    {
+     "id": "s3",
+     "title": "Isabel Noyola-Martin, candidate profile",
+     "publisher": "GoodParty.org",
+     "url": "https://goodparty.org/people/isabel-noyola-martin-1538604f",
+     "date": null
+    },
+    {
+     "id": "s4",
+     "title": "County Commission, Nueces County, TX",
+     "publisher": "GoodParty.org",
+     "url": "https://goodparty.org/elections/tx/nueces-county/position/county-legislature-executive-board",
+     "date": null
+    }
+   ],
+   "research_gaps": "No campaign website, biography, priorities or positions on county taxes, mental health, water or preemption were found, and primary runoff details were not confirmed."
+  },
+  {
+   "id": "rogelio-roy-reschman-iii",
+   "race_id": "nueces-jp-1-3",
+   "incumbent": false,
+   "current_role": "Republican nominee for Justice of the Peace Precinct 1, Place 3",
+   "background": "Rogelio \"Roy\" Reschman III is the Republican nominee for Nueces County Justice of the Peace Precinct 1, Place 3. He was unopposed on the March 2026 Republican primary ballot. No biography could be located.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Was unopposed on the March 3, 2026 Republican primary ballot.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Republican primary ballot for Nueces County",
+     "publisher": "KRIS 6 News",
+     "url": "https://www.kristv.com/news/local-news/local-elections/republican-primary-ballot-for-nueces-county",
+     "date": "2026-02"
+    }
+   ],
+   "research_gaps": "No campaign website, biography or qualifications were found."
+  },
+  {
+   "id": "lucy-rubio",
+   "race_id": "nueces-jp-1-3",
+   "incumbent": true,
+   "current_role": "Justice of the Peace, Nueces County Precinct 1, Place 3",
+   "background": "Lucy Rubio is the justice of the peace for Nueces County Precinct 1, Place 3, listed in the office for the 2019 to 2022 and 2023 to 2026 terms. She was reelected in 2022 with 53.0 percent of the vote.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "Was reelected in November 2022 with 53.0 percent of the vote over Republican Bernice Perez-Beem.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Ran in the March 3, 2026 Democratic primary against Baldemar \"Ben\" Benavides.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Here are the election results for the November 2022 in South Texas counties",
+     "publisher": "Corpus Christi Caller-Times (via Yahoo News)",
+     "url": "https://www.yahoo.com/news/election-results-november-2022-south-010347917.html",
+     "date": "2022-11-11"
+    },
+    {
+     "id": "s2",
+     "title": "Democratic primary ballot rundown for Nueces County",
+     "publisher": "KRIS 6 News",
+     "url": "https://www.kristv.com/news/local-news/local-elections/democratic-primary-ballot-rundown-for-nueces-county",
+     "date": "2026-02"
+    },
+    {
+     "id": "s3",
+     "title": "Lucy Rubio, candidate profile",
+     "publisher": "GoodParty.org",
+     "url": "https://goodparty.org/people/lucy-rubio-e5867b09",
+     "date": null
+    },
+    {
+     "id": "s4",
+     "title": "Justice of the Peace, Nueces County, TX",
+     "publisher": "GoodParty.org",
+     "url": "https://goodparty.org/elections/tx/nueces-county/position/justice-of-the-peace-judicial",
+     "date": null
+    }
+   ],
+   "research_gaps": "No campaign website, biography or court administration priorities were found."
+  },
+  {
+   "id": "hermilo-milo-pena-jr",
+   "race_id": "nueces-jp-5-2",
+   "incumbent": true,
+   "current_role": "Justice of the Peace, Nueces County Precinct 5, Place 2, since 2023",
+   "background": "Hermilo (Milo) Pena Jr. is the justice of the peace for Nueces County Precinct 5, Place 2. He won the seat in November 2022 by defeating the Democratic incumbent, Armando B. Gonzalez Jr.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "Won the Precinct 5, Place 2 seat in November 2022 with 54.0 percent of the vote over incumbent Armando B. Gonzalez Jr.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Was unopposed on the March 3, 2026 Republican primary ballot.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Here are the election results for the November 2022 in South Texas counties",
+     "publisher": "Corpus Christi Caller-Times (via Yahoo News)",
+     "url": "https://www.yahoo.com/news/election-results-november-2022-south-010347917.html",
+     "date": "2022-11-11"
+    },
+    {
+     "id": "s2",
+     "title": "Republican primary ballot for Nueces County",
+     "publisher": "KRIS 6 News",
+     "url": "https://www.kristv.com/news/local-news/local-elections/republican-primary-ballot-for-nueces-county",
+     "date": "2026-02"
+    },
+    {
+     "id": "s3",
+     "title": "Justice of the Peace, Nueces County, TX",
+     "publisher": "GoodParty.org",
+     "url": "https://goodparty.org/elections/tx/nueces-county/position/justice-of-the-peace-judicial",
+     "date": null
+    }
+   ],
+   "research_gaps": "No campaign website, biography or court administration priorities were found."
+  },
+  {
+   "id": "jesse-rojas-iii",
+   "race_id": "nueces-jp-5-2",
+   "incumbent": false,
+   "current_role": "Democratic nominee for Justice of the Peace Precinct 5, Place 2",
+   "background": "Jesse Rojas III is the Democratic nominee for Nueces County Justice of the Peace Precinct 5, Place 2. He was the only Democratic candidate on the March 2026 primary ballot for the seat. No biography could be located.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Listed as the sole Democratic primary candidate for the seat in March 2026.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Democratic primary ballot rundown for Nueces County",
+     "publisher": "KRIS 6 News",
+     "url": "https://www.kristv.com/news/local-news/local-elections/democratic-primary-ballot-rundown-for-nueces-county",
+     "date": "2026-02"
+    }
+   ],
+   "research_gaps": "No campaign website, biography or qualifications were found."
+  },
+  {
+   "id": "paul-still",
+   "race_id": "district-428",
+   "incumbent": false,
+   "current_role": "Republican nominee for the 428th District Court",
+   "background": "Paul Still is the Republican nominee for judge of the 428th District Court in Hays County. He was unopposed in the March 2026 Republican primary. No campaign biography or legal background could be located.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Was unopposed in the March 3, 2026 Republican primary, receiving 15,046 votes.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Listed as a contested race on the November ballot against Democrat Cassie Benoist-Templeton.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Democratic candidates chosen, McClelland to vie for commissioner seat",
+     "publisher": "Hays Free Press",
+     "url": "https://www.haysfreepress.com/article/26143,democratic-candidates-chosen-mcclelland-to-vie-for-commissioner-seat",
+     "date": "2026-03-03"
+    },
+    {
+     "id": "s2",
+     "title": "Local municipal candidates announced for November election, following filing deadline",
+     "publisher": "Hays Free Press",
+     "url": "https://www.haysfreepress.com/article/26695,candidates-announced-for-november-election-following-filing-deadline",
+     "date": "2026-08-26"
+    }
+   ],
+   "research_gaps": "No campaign website, legal experience, bar poll result or judicial philosophy statement could be found."
+  },
+  {
+   "id": "cassie-benoist-templeton",
+   "race_id": "district-428",
+   "incumbent": false,
+   "current_role": "Prosecutor, Caldwell County District Attorney's Office",
+   "background": "Cassie Benoist-Templeton has worked as a prosecutor in the Caldwell County District Attorney's Office for about 12 years, focusing on serious crimes against women and children, according to her campaign. She holds a criminal justice degree from Texas State University and a law degree from Oklahoma City University. She has lived in Hays County since 2012.",
+   "website": "https://cassieforjudge.com/",
+   "priorities": [
+    {
+     "text": "Says \"every person must be treated with fairness, dignity, and respect\" in the courtroom.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Commits to \"ensuring the law is applied evenly and in accordance with customary practice.\"",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Won the March 3, 2026 Democratic primary with 66.54 percent of the vote over Joe Pool and Bill Henry.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Her campaign says she was recognized by the Hays-Caldwell Women's Center in 2024 and by Roxanne's House child advocacy center in 2025.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Cassie Benoist-Templeton for 428th District Judge",
+     "publisher": "Benoist-Templeton campaign",
+     "url": "https://cassieforjudge.com/",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Democratic candidates chosen, McClelland to vie for commissioner seat",
+     "publisher": "Hays Free Press",
+     "url": "https://www.haysfreepress.com/article/26143,democratic-candidates-chosen-mcclelland-to-vie-for-commissioner-seat",
+     "date": "2026-03-03"
+    },
+    {
+     "id": "s3",
+     "title": "Candidates 2026",
+     "publisher": "Hays County Democratic Party",
+     "url": "https://haysdems.org/candidates.html",
+     "date": null
+    }
+   ],
+   "research_gaps": "No bar poll results or endorsements from legal organizations were found."
+  },
+  {
+   "id": "alfonso-o-salazar",
+   "race_id": "hays-da",
+   "incumbent": false,
+   "current_role": "Democratic nominee for Hays County Criminal District Attorney; U.S. Air Force and Texas Air National Guard veteran",
+   "background": "Alfonso O. Salazar was born in San Antonio and is a veteran of the active duty U.S. Air Force and the Texas Air National Guard. He won the March 2026 Democratic primary for the open criminal district attorney seat. His campaign materials do not describe his legal career in detail.",
+   "website": "https://www.alfonso4haysda.com/",
+   "priorities": [
+    {
+     "text": "Says his mission is to \"protect the rule of law\" and to re-educate law enforcement and civilians to remove an \"us versus them\" mentality.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    },
+    {
+     "text": "Says he supports both severe punishment and restorative justice.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says he will represent \"the entire county, not just a select few.\"",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Won the March 3, 2026 Democratic primary with 54.50 percent of the vote over Landon Bryan Campbell.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "No Republican filed for the office; Salazar faces independent Kirsta Melton.",
+     "sources": [
+      "s4"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Local, state election candidates announced",
+     "publisher": "Hays Free Press",
+     "url": "https://www.haysfreepress.com/article/25886,local-state-election-candidates-announced",
+     "date": "2025-12-17"
+    },
+    {
+     "id": "s2",
+     "title": "Democratic candidates chosen, McClelland to vie for commissioner seat",
+     "publisher": "Hays Free Press",
+     "url": "https://www.haysfreepress.com/article/26143,democratic-candidates-chosen-mcclelland-to-vie-for-commissioner-seat",
+     "date": "2026-03-03"
+    },
+    {
+     "id": "s3",
+     "title": "Alfonso Salazar for Hays County District Attorney",
+     "publisher": "Salazar campaign",
+     "url": "https://www.alfonso4haysda.com/",
+     "date": null
+    },
+    {
+     "id": "s4",
+     "title": "Local municipal candidates announced for November election, following filing deadline",
+     "publisher": "Hays Free Press",
+     "url": "https://www.haysfreepress.com/article/26695,candidates-announced-for-november-election-following-filing-deadline",
+     "date": "2026-08-26"
+    }
+   ],
+   "research_gaps": "No documented positions on bail for violent felonies or on mental health and diversion funding, and no details of his legal experience, were found."
+  },
+  {
+   "id": "kirsta-melton",
+   "race_id": "hays-da",
+   "incumbent": false,
+   "current_role": "Founder and CEO, Institute to Combat Trafficking",
+   "background": "Kirsta Melton is a career felony prosecutor running as an independent. She was an assistant prosecutor in the Bexar County Criminal District Attorney's Office from 2000 to 2014 and deputy criminal chief of the Texas Attorney General's Human Trafficking and Transnational Organized Crime Section from 2015 to 2019. She founded the Institute to Combat Trafficking, a Dripping Springs nonprofit, in 2020. She holds a bachelor's degree from Cornell University and a law degree and master of public affairs from the University of Texas.",
+   "website": "https://www.kirstamelton.com/",
+   "priorities": [
+    {
+     "text": "Frames her campaign around professionalism, integrity and transparency, and says \"Justice should be independent.\"",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Proposes personal contact with all crime victims and additional experienced domestic violence prosecutors.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Proposes adopting Prosecutorial Performance Indicators with a public data dashboard and twice-yearly town halls.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Proposes specialized units with vertical prosecution and a streamlined intake process to reduce delays.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "promises": [
+    {
+     "text": "Says she will create a conviction review unit and review past rejections of serious felony cases.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Pledges \"to deal openly and honestly with the community at all times.\"",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    }
+   ],
+   "record": [],
+   "notes": [
+    {
+     "text": "Endorsed by the Combined Law Enforcement Associations of Texas (CLEAT), the Hays County Law Enforcement Association, the San Marcos Police Officers Association and the Buda Police Officers Association, according to her campaign.",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Endorsed by retired Hays County sheriffs Gary Cutler and Don Montague, according to her campaign.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Kirsta Melton for Hays County District Attorney",
+     "publisher": "Melton campaign",
+     "url": "https://www.kirstamelton.com/",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Policy Priorities",
+     "publisher": "Melton campaign",
+     "url": "https://www.kirstamelton.com/policy",
+     "date": null
+    },
+    {
+     "id": "s3",
+     "title": "Endorsements",
+     "publisher": "Melton campaign",
+     "url": "https://www.kirstamelton.com/endorsements",
+     "date": null
+    },
+    {
+     "id": "s4",
+     "title": "About Kirsta",
+     "publisher": "Melton campaign",
+     "url": "https://www.kirstamelton.com/about",
+     "date": null
+    },
+    {
+     "id": "s5",
+     "title": "Local, state election candidates announced",
+     "publisher": "Hays Free Press",
+     "url": "https://www.haysfreepress.com/article/25886,local-state-election-candidates-announced",
+     "date": "2025-12-17"
+    },
+    {
+     "id": "s6",
+     "title": "Local municipal candidates announced for November election, following filing deadline",
+     "publisher": "Hays Free Press",
+     "url": "https://www.haysfreepress.com/article/26695,candidates-announced-for-november-election-following-filing-deadline",
+     "date": "2026-08-26"
+    }
+   ],
+   "research_gaps": "No documented positions on bail for violent felonies or on mental health and diversion funding were found."
+  },
+  {
+   "id": "geoffrey-tahuahua",
+   "race_id": "hays-county-judge",
+   "incumbent": false,
+   "current_role": "Dripping Springs City Council member; trade association president",
+   "background": "Geoffrey Tahuahua is a Dripping Springs City Council member and lives in Dripping Springs. He has spent more than a decade as a nonprofit and association executive and is president of a large Texas trade association, according to the Hays Free Press. He was unopposed in the March 2026 Republican primary.",
+   "website": null,
+   "priorities": [
+    {
+     "text": "Says his campaign is guided by \"conservative principles, fiscal responsibility, accountability\" and protecting the values that make the county a good place to live.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Was unopposed in the March 3, 2026 Republican primary, receiving 15,418 votes.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Local, state election candidates announced",
+     "publisher": "Hays Free Press",
+     "url": "https://www.haysfreepress.com/article/25886,local-state-election-candidates-announced",
+     "date": "2025-12-17"
+    },
+    {
+     "id": "s2",
+     "title": "Democratic candidates chosen, McClelland to vie for commissioner seat",
+     "publisher": "Hays Free Press",
+     "url": "https://www.haysfreepress.com/article/26143,democratic-candidates-chosen-mcclelland-to-vie-for-commissioner-seat",
+     "date": "2026-03-03"
+    },
+    {
+     "id": "s3",
+     "title": "Local municipal candidates announced for November election, following filing deadline",
+     "publisher": "Hays Free Press",
+     "url": "https://www.haysfreepress.com/article/26695,candidates-announced-for-november-election-following-filing-deadline",
+     "date": "2026-08-26"
+    }
+   ],
+   "research_gaps": "No campaign website, questionnaire answers or specific positions on county taxes, mental health, water or preemption were found."
+  },
+  {
+   "id": "michelle-gutierrez-cohen",
+   "race_id": "hays-county-judge",
+   "incumbent": false,
+   "current_role": "Hays County Commissioner, Precinct 2",
+   "background": "Michelle Gutierrez Cohen is the Hays County Precinct 2 commissioner. She was born in Austin and raised in Hays County, and reports more than 30 years of work experience, including 12 years in state government. She holds a bachelor's degree, an MBA and a doctorate in management in organizational leadership. She won the Democratic nomination by defeating incumbent County Judge Ruben Becerra in the May 26, 2026 runoff.",
+   "website": "https://www.michelle4hays.com",
+   "priorities": [
+    {
+     "text": "Proposes a comprehensive strategic plan to manage growth while safeguarding resources.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    },
+    {
+     "text": "Lists fiscal responsibility and transparency, infrastructure and smart growth, and public safety as her goals.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    },
+    {
+     "text": "Says protecting water, \"our most critical resource,\" is \"non-negotiable.\"",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Says she will manage county finances with \"honesty, precision, and full transparency to the public.\"",
+     "sources": [
+      "s3"
+     ]
+    },
+    {
+     "text": "Calls for state, county and city coordination on roads, regional transit, bikeways and trails.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "promises": [
+    {
+     "text": "Pledges to protect free and fair elections and oppose attempts to interfere with voters.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "record": [
+    {
+     "text": "Has served as Hays County Commissioner for Precinct 2; she did not seek reelection to that seat in 2026.",
+     "sources": [
+      "s4",
+      "s5"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Won the May 26, 2026 Democratic runoff over incumbent Ruben Becerra with about 58 percent of the vote.",
+     "sources": [
+      "s6",
+      "s7"
+     ]
+    },
+    {
+     "text": "Endorsed by State Rep. Erin Zwiener and Hays County Commissioner Debbie Gonzales Ingalsbe, according to her campaign.",
+     "sources": [
+      "s8"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [
+    {
+     "topic": "Public Safety",
+     "summary": "Says she will work to keep communities safe from crime, government overreach and ICE interference while protecting residents' rights.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Q&A: Meet the Democratic candidates for Hays County judge ahead of the March primary election",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/san-marcos-buda-kyle/election/qa-meet-the-democratic-candidates-for-hays-county-judge-ahead-of-the-march-primary-election/",
+     "date": "2026-01-16"
+    },
+    {
+     "id": "s2",
+     "title": "Q&A: Meet the Democratic candidates for Hays County judge ahead of the May primary election runoff",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/austin/san-marcos-buda-kyle/2026/05/14/qa-meet-the-democratic-candidates-for-hays-county-judge-ahead-of-the-may-primary-election-runoff/",
+     "date": "2026-05-14"
+    },
+    {
+     "id": "s3",
+     "title": "Michelle on the Issues",
+     "publisher": "Cohen campaign",
+     "url": "https://www.michelle4hays.com/issues",
+     "date": null
+    },
+    {
+     "id": "s4",
+     "title": "Democratic candidates chosen, McClelland to vie for commissioner seat",
+     "publisher": "Hays Free Press",
+     "url": "https://www.haysfreepress.com/article/26143,democratic-candidates-chosen-mcclelland-to-vie-for-commissioner-seat",
+     "date": "2026-03-03"
+    },
+    {
+     "id": "s5",
+     "title": "Local, state election candidates announced",
+     "publisher": "Hays Free Press",
+     "url": "https://www.haysfreepress.com/article/25886,local-state-election-candidates-announced",
+     "date": "2025-12-17"
+    },
+    {
+     "id": "s6",
+     "title": "Cohen advances to general election for county judge",
+     "publisher": "The University Star",
+     "url": "https://universitystar.com/35729/news/cohen-advances-to-general-election-for-county-judge/",
+     "date": "2026-05"
+    },
+    {
+     "id": "s7",
+     "title": "Hays County judge Democratic primary runoff results",
+     "publisher": "KUT",
+     "url": "https://www.kut.org/politics/2026-05-26/primary-runoff-election-democrat-hays-county-tx-judge",
+     "date": "2026-05-26"
+    },
+    {
+     "id": "s8",
+     "title": "Meet Michelle",
+     "publisher": "Cohen campaign",
+     "url": "https://www.michelle4hays.com/meet-michelle",
+     "date": null
+    }
+   ],
+   "research_gaps": "No documented positions on the property tax rate, mental health spending, state water funding or state preemption, and no summary of her commissioners court votes, were found."
+  },
+  {
+   "id": "liz-sumter-gajdos",
+   "race_id": "hays-county-judge",
+   "incumbent": false,
+   "current_role": "Independent candidate for Hays County Judge",
+   "background": "Liz \"Sumter\" Gajdos, also reported as Elizabeth Gajdos Potolicchio, is an independent candidate for Hays County Judge. In August 2026 the Hays Free Press reported that she said she had filed for the ballot, but the paper could not confirm her candidacy with the county elections office.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "The Hays Free Press could not confirm her ballot status with the elections office as of late August 2026.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Branch lists her as an independent candidate in the 2026 Hays County judge race.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Local municipal candidates announced for November election, following filing deadline",
+     "publisher": "Hays Free Press",
+     "url": "https://www.haysfreepress.com/article/26695,candidates-announced-for-november-election-following-filing-deadline",
+     "date": "2026-08-26"
+    },
+    {
+     "id": "s2",
+     "title": "2026 Texas General Election: Hays County Judge",
+     "publisher": "Branch",
+     "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-judge-tx-county-hays",
+     "date": null
+    }
+   ],
+   "research_gaps": "No biography, campaign website, priorities or positions were found."
+  },
+  {
+   "id": "charmaine-wilde",
+   "race_id": "hays-ccl-2",
+   "incumbent": false,
+   "current_role": "Attorney; former Hays County assistant district attorney",
+   "background": "Charmaine Wilde is a former Hays County assistant district attorney and a former president of the Hays County Bar Association. She attended Baylor Law School and has practiced in both criminal prosecution and private civil practice. She ran in the 2022 Republican primary for the 207th District Court.",
+   "website": null,
+   "priorities": [
+    {
+     "text": "In 2022 said, \"Judges are public servants who must be prepared to lead and take control.\"",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "In 2022 said she was running so the county would \"continue to have judges with experience and knowledge in all areas of the law.\"",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Was unopposed in the March 3, 2026 Republican primary for County Court at Law No. 2.",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Was one of four Republicans in the 2022 primary for the 207th District Court.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Former prosecutor announces candidacy for 207th Judicial District",
+     "publisher": "Hays Free Press",
+     "url": "https://www.haysfreepress.com/article/1210,former-prosecutor-announces-candidacy-for-207th-judicial-district",
+     "date": "2022-01-03"
+    },
+    {
+     "id": "s2",
+     "title": "Democratic candidates chosen, McClelland to vie for commissioner seat",
+     "publisher": "Hays Free Press",
+     "url": "https://www.haysfreepress.com/article/26143,democratic-candidates-chosen-mcclelland-to-vie-for-commissioner-seat",
+     "date": "2026-03-03"
+    },
+    {
+     "id": "s3",
+     "title": "Local municipal candidates announced for November election, following filing deadline",
+     "publisher": "Hays Free Press",
+     "url": "https://www.haysfreepress.com/article/26695,candidates-announced-for-november-election-following-filing-deadline",
+     "date": "2026-08-26"
+    }
+   ],
+   "research_gaps": "No 2026 campaign website, endorsements or bar poll results were found; biographical details come from 2022 coverage."
+  },
+  {
+   "id": "chris-johnson",
+   "race_id": "hays-ccl-2",
+   "incumbent": true,
+   "current_role": "Judge, Hays County Court at Law No. 2, since 2018",
+   "background": "Chris Johnson has been judge of Hays County Court at Law No. 2 since 2018 and is seeking a third term. He grew up in an Air Force family. The court now hears mainly misdemeanor, juvenile and veterans court matters.",
+   "website": "https://www.chrisjohnsonforjudge.com/",
+   "priorities": [
+    {
+     "text": "Describes his core values as \"Duty. Honor. Justice.\"",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Presides over the Hays County Juvenile Court and the Hays County Veterans Treatment Court; his campaign reports a 98 percent success rate for the veterans court.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Has served as administrative judge for the Hays County Courts at Law, according to his campaign.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Led the March 3, 2026 Democratic primary with 47.97 percent and advanced to a May 26 runoff with Thomas Just.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Judge Chris Johnson for County Court at Law No. 2",
+     "publisher": "Johnson campaign",
+     "url": "https://www.chrisjohnsonforjudge.com/",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Democratic candidates chosen, McClelland to vie for commissioner seat",
+     "publisher": "Hays Free Press",
+     "url": "https://www.haysfreepress.com/article/26143,democratic-candidates-chosen-mcclelland-to-vie-for-commissioner-seat",
+     "date": "2026-03-03"
+    },
+    {
+     "id": "s3",
+     "title": "Local municipal candidates announced for November election, following filing deadline",
+     "publisher": "Hays Free Press",
+     "url": "https://www.haysfreepress.com/article/26695,candidates-announced-for-november-election-following-filing-deadline",
+     "date": "2026-08-26"
+    },
+    {
+     "id": "s4",
+     "title": "Candidates 2026",
+     "publisher": "Hays County Democratic Party",
+     "url": "https://haysdems.org/candidates.html",
+     "date": null
+    }
+   ],
+   "research_gaps": "No education details, bar poll results or legal organization endorsements were found."
+  },
+  {
+   "id": "abby-gibson",
+   "race_id": "hays-commissioner-2",
+   "incumbent": false,
+   "current_role": "President, Hays County Republican Women",
+   "background": "Abby Gibson is president of the Hays County Republican Women and a longtime resident of eastern Hays County. The Hays Free Press describes her as an advocate for children and public safety. She was unopposed in the March 2026 Republican primary.",
+   "website": null,
+   "priorities": [
+    {
+     "text": "Says she is running out of \"a calling to support her community.\"",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Was unopposed in the March 3, 2026 Republican primary.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Local, state election candidates announced",
+     "publisher": "Hays Free Press",
+     "url": "https://www.haysfreepress.com/article/25886,local-state-election-candidates-announced",
+     "date": "2025-12-17"
+    },
+    {
+     "id": "s2",
+     "title": "Democratic candidates chosen, McClelland to vie for commissioner seat",
+     "publisher": "Hays Free Press",
+     "url": "https://www.haysfreepress.com/article/26143,democratic-candidates-chosen-mcclelland-to-vie-for-commissioner-seat",
+     "date": "2026-03-03"
+    }
+   ],
+   "research_gaps": "No campaign website or positions on county taxes, mental health, water or preemption were found."
+  },
+  {
+   "id": "johnny-flores",
+   "race_id": "hays-commissioner-2",
+   "incumbent": false,
+   "current_role": "Trustee, Hays CISD Board of Trustees",
+   "background": "Johnny Flores is a Hays CISD trustee and serves on the Kyle Radio board and the Hays County Historical Commission. He was raised in South Texas by a military veteran and postal worker and a nurse. He holds bachelor's and master's degrees in political science from Texas State University.",
+   "website": "https://johnnyfloresforhays.com/",
+   "priorities": [
+    {
+     "text": "Campaigns on sustainable growth that balances economic development with protecting natural resources.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    },
+    {
+     "text": "Says he will work to expand affordable housing, especially for teachers and first responders.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Proposes improving the county jail through mental health care, job training and reentry programs to reduce recidivism and overcrowding.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Lists community engagement, transparency, equity and safety among his goals.",
+     "sources": [
+      "s1",
+      "s3"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Won the March 3, 2026 Democratic primary with 72.60 percent of the vote over Bryan Escobar.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "stances": {
+    "q_county_mental": {
+     "position": 2,
+     "basis": "statement",
+     "summary": "Calls the mental health crisis \"both a public safety and public health issue\" and supports increased investment in mental health care and jail reentry programs.",
+     "sources": [
+      "s1"
+     ]
+    }
+   },
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Johnny Flores for Hays County Commissioner Precinct 2",
+     "publisher": "Flores campaign",
+     "url": "https://johnnyfloresforhays.com/",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Local, state election candidates announced",
+     "publisher": "Hays Free Press",
+     "url": "https://www.haysfreepress.com/article/25886,local-state-election-candidates-announced",
+     "date": "2025-12-17"
+    },
+    {
+     "id": "s3",
+     "title": "Democratic candidates chosen, McClelland to vie for commissioner seat",
+     "publisher": "Hays Free Press",
+     "url": "https://www.haysfreepress.com/article/26143,democratic-candidates-chosen-mcclelland-to-vie-for-commissioner-seat",
+     "date": "2026-03-03"
+    },
+    {
+     "id": "s4",
+     "title": "Candidates 2026",
+     "publisher": "Hays County Democratic Party",
+     "url": "https://haysdems.org/candidates.html",
+     "date": null
+    }
+   ],
+   "research_gaps": "No positions on the property tax rate, state water funding, spending caps or state preemption were found, and no endorsements were listed."
+  },
+  {
+   "id": "rob-mcclelland",
+   "race_id": "hays-commissioner-4",
+   "incumbent": false,
+   "current_role": "Trustee, Dripping Springs ISD Board of Trustees",
+   "background": "Rob McClelland is a military veteran and a Dripping Springs ISD trustee. He is the board's liaison to its Safety and Security Committee and sits on the Hays County Sheriff's Office Training Advisory Board.",
+   "website": null,
+   "priorities": [
+    {
+     "text": "Lists lowering taxes as a campaign priority.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    },
+    {
+     "text": "Campaigns on infrastructure, safe and well-maintained county roads, and easing traffic.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    },
+    {
+     "text": "Says he will back law enforcement and emergency responders.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    },
+    {
+     "text": "Says he will protect the Hill Country's natural beauty.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Won the March 3, 2026 Republican primary with 66.12 percent of the vote over Wm. Travis Crow.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {
+    "q_county_tax": {
+     "position": 1,
+     "basis": "reported",
+     "summary": "Lists lowering taxes among his top priorities, alongside road maintenance and public safety.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    }
+   },
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Local, state election candidates announced",
+     "publisher": "Hays Free Press",
+     "url": "https://www.haysfreepress.com/article/25886,local-state-election-candidates-announced",
+     "date": "2025-12-17"
+    },
+    {
+     "id": "s2",
+     "title": "Democratic candidates chosen, McClelland to vie for commissioner seat",
+     "publisher": "Hays Free Press",
+     "url": "https://www.haysfreepress.com/article/26143,democratic-candidates-chosen-mcclelland-to-vie-for-commissioner-seat",
+     "date": "2026-03-03"
+    }
+   ],
+   "research_gaps": "No campaign website or positions on mental health spending, state water funding or preemption were found."
+  },
+  {
+   "id": "angie-unger",
+   "race_id": "hays-commissioner-4",
+   "incumbent": false,
+   "current_role": "Realtor and small business owner",
+   "background": "Angie Unger is a Realtor and small business owner who moved her family to Precinct 4 more than a decade ago. Her daughters attend Dripping Springs ISD schools, and during the pandemic she founded a parent support network. She narrowly won the March 2026 Democratic primary.",
+   "website": "https://www.ungerforhays.com",
+   "priorities": [
+    {
+     "text": "Says she will \"align growth with real water availability\" and protect recharge zones.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says she will prioritize road maintenance and drainage over new expansion.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Promises regular community meetings and feedback loops with residents.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says new growth should pay its fair share and that every dollar should be tracked and explained.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Won the March 3, 2026 Democratic primary with 50.56 percent of the vote over Laurie Brown, according to unofficial results.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [
+    {
+     "topic": "Water",
+     "summary": "Campaigns on tying new development to available water supply and protecting aquifer recharge zones and springs.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Angie Unger for Hays County Commissioner Precinct 4",
+     "publisher": "Unger campaign",
+     "url": "https://www.ungerforhays.com",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "About Angie",
+     "publisher": "Unger campaign",
+     "url": "https://www.ungerforhays.com/about",
+     "date": null
+    },
+    {
+     "id": "s3",
+     "title": "Democratic candidates chosen, McClelland to vie for commissioner seat",
+     "publisher": "Hays Free Press",
+     "url": "https://www.haysfreepress.com/article/26143,democratic-candidates-chosen-mcclelland-to-vie-for-commissioner-seat",
+     "date": "2026-03-03"
+    },
+    {
+     "id": "s4",
+     "title": "Candidates 2026",
+     "publisher": "Hays County Democratic Party",
+     "url": "https://haysdems.org/candidates.html",
+     "date": null
+    }
+   ],
+   "research_gaps": "No positions on the property tax rate, mental health spending, state water funding or preemption were found, and no endorsements were listed."
+  },
+  {
+   "id": "janie-flores",
+   "race_id": "hays-jp-2-1",
+   "incumbent": false,
+   "current_role": "Republican nominee for Justice of the Peace Precinct 2, Place 1",
+   "background": "Janie Flores is the Republican nominee for Hays County Justice of the Peace Precinct 2, Place 1. She was unopposed in the March 2026 Republican primary. She was also a candidate for Precinct 2, Place 2 in 2024.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Was unopposed in the March 3, 2026 Republican primary, receiving 2,545 votes.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Was a 2024 candidate for Justice of the Peace Precinct 2, Place 2.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Democratic candidates chosen, McClelland to vie for commissioner seat",
+     "publisher": "Hays Free Press",
+     "url": "https://www.haysfreepress.com/article/26143,democratic-candidates-chosen-mcclelland-to-vie-for-commissioner-seat",
+     "date": "2026-03-03"
+    },
+    {
+     "id": "s2",
+     "title": "Janie Flores, candidate profile",
+     "publisher": "GoodParty.org",
+     "url": "https://goodparty.org/people/janie-flores-35def59f",
+     "date": null
+    }
+   ],
+   "research_gaps": "No campaign website, biography or qualifications were found."
+  },
+  {
+   "id": "beth-smith",
+   "race_id": "hays-jp-2-1",
+   "incumbent": true,
+   "current_role": "Justice of the Peace, Hays County Precinct 2, since 1999",
+   "background": "Beth Smith has served as Hays County Justice of the Peace for Precinct 2 since January 1, 1999. Her campaign site describes her approach as \"Fair, but firm\" and highlights school safety programs.",
+   "website": "https://www.judgebeth.com/",
+   "priorities": [
+    {
+     "text": "Emphasizes working with school districts and law enforcement for a safer environment.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Emphasizes transparency and modernization, including paperless processes and 24/7 availability.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Introduced the Shattered Dreams program to Hays CISD high schools on a three-year rotation, according to her campaign.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Was unopposed in the March 3, 2026 Democratic primary.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Judge Beth Smith, Justice of the Peace Precinct 2",
+     "publisher": "Smith campaign",
+     "url": "https://www.judgebeth.com/",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Democratic candidates chosen, McClelland to vie for commissioner seat",
+     "publisher": "Hays Free Press",
+     "url": "https://www.haysfreepress.com/article/26143,democratic-candidates-chosen-mcclelland-to-vie-for-commissioner-seat",
+     "date": "2026-03-03"
+    },
+    {
+     "id": "s3",
+     "title": "Local municipal candidates announced for November election, following filing deadline",
+     "publisher": "Hays Free Press",
+     "url": "https://www.haysfreepress.com/article/26695,candidates-announced-for-november-election-following-filing-deadline",
+     "date": "2026-08-26"
+    }
+   ],
+   "research_gaps": "Her campaign site appears to date from a prior cycle; no 2026 platform, education details or endorsements were found."
+  },
+  {
+   "id": "mark-keough",
+   "race_id": "montgomery-county-judge",
+   "incumbent": true,
+   "current_role": "Montgomery County Judge since January 2019",
+   "background": "Mark Keough has been Montgomery County Judge since January 1, 2019. He previously represented District 15 in the Texas House for two terms (84th and 85th Legislatures). Before public office he worked as an automotive dealer principal and general manager and as a minister.",
+   "website": null,
+   "priorities": [
+    {
+     "text": "Lists a modern jail, a new courthouse and expanded roads as his top priorities, calling them \"vital investments in our safety and economy.\"",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Pledges to keep taxes low and says tax dollars should go to \"needs, not waste.\"",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says county facility needs should be addressed \"in pieces, being fiscally responsible and not constantly increasing taxes.\"",
+     "sources": [
+      "s2"
+     ]
+    },
+    {
+     "text": "Says he will manage growth without \"turning into Harris County.\"",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Cites a roughly 20 percent tax reduction and full funding for law enforcement during his tenure, according to his own Q&A answers.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Won the March 3, 2026 Republican primary with 51 percent of the vote over Wayne Mack, a margin of 1,519 votes.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "First won the county judge seat in 2018 and won renomination in 2022 with 66.11 percent of the Republican primary vote.",
+     "sources": [
+      "s4",
+      "s3"
+     ]
+    }
+   ],
+   "stances": {
+    "q_county_tax": {
+     "position": 2,
+     "basis": "statement",
+     "summary": "Says he will keep fighting for low taxes and favors phasing in jail, courthouse and other projects rather than constantly raising taxes.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    }
+   },
+   "issue_notes": [
+    {
+     "topic": "Roads",
+     "summary": "Says growth may allow the county to keep passing road bonds every three to four years because infrastructure must expand.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Q&A: Meet the Republican candidates running for Montgomery County judge",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/houston/conroe-montgomery/election/2026/01/16/qa-meet-the-republican-candidates-running-for-montgomery-county-judge",
+     "date": "2026-01-16"
+    },
+    {
+     "id": "s2",
+     "title": "See what Montgomery County judge primary candidates had to say in Feb. 17 forum",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/the-woodlands/election/see-what-montgomery-county-judge-primary-candidates-had-to-say-in-feb-17-forum/",
+     "date": "2026-02-18"
+    },
+    {
+     "id": "s3",
+     "title": "Keough wins Montgomery County judge race by 1,519 votes per unofficial voting results",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/conroe-montgomery/election/keough-wins-montgomery-county-judge-race-by-1519-votes-per-unofficial-voting-results/",
+     "date": "2026-03-03"
+    },
+    {
+     "id": "s4",
+     "title": "UPDATED: Mark Keough earns Republican nomination for Montgomery County judge",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/the-woodlands/election/updated-mark-keough-earns-republican-nomination-for-montgomery-county-judge/",
+     "date": "2022-03-01"
+    }
+   ],
+   "research_gaps": "No campaign website was located and no statements on mental health spending, flooding or water, or state preemption were found."
+  },
+  {
+   "id": "james-graf",
+   "race_id": "montgomery-county-judge",
+   "incumbent": false,
+   "current_role": "CEO of a company based in The Woodlands",
+   "background": "James Graf is the Democratic nominee for Montgomery County Judge. At a February 2026 forum he said he is CEO of a company based in The Woodlands and has nearly 40 years of experience in business. He was unopposed in the March 2026 Democratic primary.",
+   "website": null,
+   "priorities": [
+    {
+     "text": "Says the county should do more to support small businesses, especially those financially disrupted by road projects.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Was the sole Democratic candidate for county judge in the March 3, 2026 primary.",
+     "sources": [
+      "s2",
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "See what Montgomery County judge primary candidates had to say in Feb. 17 forum",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/the-woodlands/election/see-what-montgomery-county-judge-primary-candidates-had-to-say-in-feb-17-forum/",
+     "date": "2026-02-18"
+    },
+    {
+     "id": "s2",
+     "title": "March primaries and May elections to know in The Woodlands area",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/the-woodlands/election/march-primaries-and-may-elections-to-know-in-the-woodlands-area/",
+     "date": "2026-01-08"
+    },
+    {
+     "id": "s3",
+     "title": "James Graf, candidate profile",
+     "publisher": "GoodParty.org",
+     "url": "https://goodparty.org/people/james-graf-3905197f",
+     "date": null
+    }
+   ],
+   "research_gaps": "No campaign website or positions on property taxes, mental health, water or preemption were found."
+  },
+  {
+   "id": "scott-carson",
+   "race_id": "montgomery-jp-1",
+   "incumbent": false,
+   "current_role": "Trustee, Willis ISD Board, Position 3",
+   "background": "Scott Carson is a Willis ISD trustee (Position 3) and the Republican nominee for Montgomery County Justice of the Peace Precinct 1. The current Precinct 1 justice of the peace, Wayne Mack, ran for county judge in 2026.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Listed as a sitting Willis ISD trustee with a term from 2023 to 2026.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Precinct 1 incumbent Wayne Mack ran for county judge in the March 2026 Republican primary.",
+     "sources": [
+      "s2",
+      "s3"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Scott Carson, candidate profile",
+     "publisher": "GoodParty.org",
+     "url": "https://goodparty.org/people/scott-carson-0ea2cb7d",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Justice of the Peace, Montgomery County, TX",
+     "publisher": "GoodParty.org",
+     "url": "https://goodparty.org/elections/tx/montgomery-county/position/justice-of-the-peace-judicial",
+     "date": null
+    },
+    {
+     "id": "s3",
+     "title": "Keough wins Montgomery County judge race by 1,519 votes per unofficial voting results",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/conroe-montgomery/election/keough-wins-montgomery-county-judge-race-by-1519-votes-per-unofficial-voting-results/",
+     "date": "2026-03-03"
+    }
+   ],
+   "research_gaps": "No campaign website, biography or qualifications were found."
+  },
+  {
+   "id": "john-a-lagway-jr",
+   "race_id": "montgomery-jp-1",
+   "incumbent": false,
+   "current_role": "Democratic nominee for Justice of the Peace Precinct 1",
+   "background": "John A. Lagway Jr. is the Democratic nominee for Montgomery County Justice of the Peace Precinct 1. No biography could be located.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Listed as a 2026 Democratic candidate for Montgomery County Justice of the Peace Precinct 1.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "John Lagway, candidate profile",
+     "publisher": "GoodParty.org",
+     "url": "https://goodparty.org/people/john-lagway-f7a60819",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Justice of the Peace, Montgomery County, TX",
+     "publisher": "GoodParty.org",
+     "url": "https://goodparty.org/elections/tx/montgomery-county/position/justice-of-the-peace-judicial",
+     "date": null
+    }
+   ],
+   "research_gaps": "No campaign website, biography or qualifications were found."
+  },
+  {
+   "id": "brittany-gable-hale",
+   "race_id": "montgomery-jp-3",
+   "incumbent": false,
+   "current_role": "Republican nominee for Justice of the Peace Precinct 3",
+   "background": "Brittany Gable-Hale is the Republican nominee for Montgomery County Justice of the Peace Precinct 3. She challenged incumbent Jay Mac Sanders in the March 3, 2026 Republican primary. No biography could be located.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Was listed with incumbent Jay Mac Sanders in the March 3, 2026 Republican primary for Precinct 3.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "March primaries and May elections to know in The Woodlands area",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/the-woodlands/election/march-primaries-and-may-elections-to-know-in-the-woodlands-area/",
+     "date": "2026-01-08"
+    }
+   ],
+   "research_gaps": "No campaign website, biography or qualifications were found."
+  },
+  {
+   "id": "charles-b-chuck-meyer",
+   "race_id": "montgomery-jp-3",
+   "incumbent": false,
+   "current_role": "Independent candidate for Justice of the Peace Precinct 3",
+   "background": "Charles B. \"Chuck\" Meyer is an independent candidate for Montgomery County Justice of the Peace Precinct 3. He has signed the GoodParty.org pledge for independent candidates. No biography could be located.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Listed as an independent candidate who has taken the GoodParty.org pledge.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Charles Meyer, candidate profile",
+     "publisher": "GoodParty.org",
+     "url": "https://goodparty.org/people/charles-meyer-b45ff0ca",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Justice of the Peace, Montgomery County, TX",
+     "publisher": "GoodParty.org",
+     "url": "https://goodparty.org/elections/tx/montgomery-county/position/justice-of-the-peace-judicial",
+     "date": null
+    }
+   ],
+   "research_gaps": "No campaign website, biography or qualifications were found."
+  },
+  {
+   "id": "shannon-wooten-birkelbach",
+   "race_id": "waller-commissioner-2",
+   "incumbent": false,
+   "current_role": "Accountant and business owner",
+   "background": "Shannon Wooten Birkelbach was raised in the Fieldstore area, graduated from Waller High School in 1990 and earned an accounting degree from Texas A&M University. She is an accountant and business owner. She says her interest in politics grew after 2020, when she felt government overreach harmed local businesses.",
+   "website": "https://shannon4texas.org/",
+   "priorities": [
+    {
+     "text": "Campaigns on preserving the county's conservative character while pursuing \"smart growth.\"",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Campaigns on fiscal responsibility, transparent budgeting and protecting taxpayers.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Says rural voices must be heard as development increases.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [
+    {
+     "text": "Her campaign says she led the effort that resulted in a unanimous commissioners court vote to accept a donated Ten Commandments monument.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Received the most votes (751) in the three-candidate March 3, 2026 Republican primary, ahead of Robert J.P. Goodspeed and David Luther; her site referenced a May 26 runoff.",
+     "sources": [
+      "s2",
+      "s1"
+     ]
+    },
+    {
+     "text": "Endorsed by Tarrant County Commissioner Matt Krause; her site displays logos of True Texas Project and Texans for Medical Freedom.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {
+    "q_county_tax": {
+     "position": 1,
+     "basis": "statement",
+     "summary": "Says she protested the county's 2026 tax rate increase and offered ideas to reduce the county budget.",
+     "sources": [
+      "s1"
+     ]
+    }
+   },
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Shannon Wooten Birkelbach for Waller County Commissioner Precinct 2",
+     "publisher": "Birkelbach campaign",
+     "url": "https://shannon4texas.org/",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Election results: area counties",
+     "publisher": "KWHI",
+     "url": "https://kwhi.com/2026/03/03/election-results-area-counties-2/",
+     "date": "2026-03-03"
+    },
+    {
+     "id": "s3",
+     "title": "Shannon Wooten Birkelbach, candidate profile",
+     "publisher": "GoodParty.org",
+     "url": "https://goodparty.org/people/shannon-birkelbach-cab964d1",
+     "date": null
+    }
+   ],
+   "research_gaps": "No positions on mental health spending, state water funding or preemption were found."
+  },
+  {
+   "id": "marva-l-wills",
+   "race_id": "waller-commissioner-2",
+   "incumbent": false,
+   "current_role": "Democratic nominee for Waller County Commissioner Precinct 2",
+   "background": "Marva L. Wills is the Democratic nominee for Waller County Commissioner Precinct 2. No biography could be located.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Named as the Democratic nominee who will face the Republican primary winner in November.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Election results: area counties",
+     "publisher": "KWHI",
+     "url": "https://kwhi.com/2026/03/03/election-results-area-counties-2/",
+     "date": "2026-03-03"
+    },
+    {
+     "id": "s2",
+     "title": "Marva Wills, candidate profile",
+     "publisher": "GoodParty.org",
+     "url": "https://goodparty.org/people/marva-wills-987af575",
+     "date": null
+    },
+    {
+     "id": "s3",
+     "title": "County Commission, Waller County, TX",
+     "publisher": "GoodParty.org",
+     "url": "https://goodparty.org/elections/tx/waller-county/position/county-legislature-executive-board",
+     "date": null
+    }
+   ],
+   "research_gaps": "No campaign website, biography, priorities or positions were found."
+  },
+  {
+   "id": "brian-cantrell",
+   "race_id": "waller-commissioner-4",
+   "incumbent": false,
+   "current_role": "Waller County Fire Marshal and chief of emergency management",
+   "background": "Brian Cantrell is the Waller County fire marshal and chief of emergency management and homeland security. He reports 27 years in public safety, including service as sheriff's office chief deputy and emergency management coordinator. He holds a bachelor's degree in criminal justice (2001) and a master's in leadership and management (2024) from Sam Houston State University, and lives in Katy's Cane Island neighborhood.",
+   "website": null,
+   "priorities": [
+    {
+     "text": "Lists managing growth and infrastructure, public safety, supporting county employees, transparency, local hiring and parks as his six priorities.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    },
+    {
+     "text": "Says \"We need to maintain Waller County's rural identity while planning for the next 10 to 20 years.\"",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Wants to build partnerships with the city of Katy.",
+     "sources": [
+      "s3"
+     ]
+    }
+   ],
+   "promises": [
+    {
+     "text": "Proposes a road and drainage needs assessment, a centralized emergency operations center, published budget summaries, digital permits and forms, and Precinct 4's first park.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "record": [],
+   "notes": [
+    {
+     "text": "Won the March 3, 2026 Republican primary with 785 votes (51 percent) over former Katy council member Dan Smith.",
+     "sources": [
+      "s2",
+      "s3"
+     ]
+    },
+    {
+     "text": "The seat is open because Commissioner Justin Beckendorff ran for county judge.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Katy's Brian Cantrell runs for Waller County Precinct 4 commissioner",
+     "publisher": "Covering Katy News",
+     "url": "https://coveringkaty.com/news/waller/katy-s-brian-cantrell-runs-for-waller-county-precinct-4-comm/",
+     "date": "2025-12-10"
+    },
+    {
+     "id": "s2",
+     "title": "Cantrell defeats Smith for Pct. 4 commissioner GOP nomination",
+     "publisher": "Covering Katy News",
+     "url": "https://coveringkaty.com/news/waller/cantrell-defeats-smith-for-pct-4-commissioner-gop-nomination/",
+     "date": "2026-03-04"
+    },
+    {
+     "id": "s3",
+     "title": "UPDATE: Unofficial results show Beckendorff, Cantrell secure Waller County primaries",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/katy-fulshear/election/update-unofficial-results-show-beckendorff-cantrell-secure-waller-county-primaries/",
+     "date": "2026-03-03"
+    }
+   ],
+   "research_gaps": "No campaign website or positions on the property tax rate, mental health spending, state water funding or preemption were found."
+  },
+  {
+   "id": "ethel-wilmore",
+   "race_id": "waller-commissioner-4",
+   "incumbent": false,
+   "current_role": "Nurse",
+   "background": "Ethel Wilmore is a nurse and the Democratic nominee for Waller County Commissioner Precinct 4. She was unopposed in the March 2026 Democratic primary.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Was unopposed in the March 3, 2026 Democratic primary.",
+     "sources": [
+      "s1"
+     ]
+    },
+    {
+     "text": "Described by Covering Katy News as a nurse.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "UPDATE: Unofficial results show Beckendorff, Cantrell secure Waller County primaries",
+     "publisher": "Community Impact",
+     "url": "https://communityimpact.com/katy-fulshear/election/update-unofficial-results-show-beckendorff-cantrell-secure-waller-county-primaries/",
+     "date": "2026-03-03"
+    },
+    {
+     "id": "s2",
+     "title": "Cantrell defeats Smith for Pct. 4 commissioner GOP nomination",
+     "publisher": "Covering Katy News",
+     "url": "https://coveringkaty.com/news/waller/cantrell-defeats-smith-for-pct-4-commissioner-gop-nomination/",
+     "date": "2026-03-04"
+    },
+    {
+     "id": "s3",
+     "title": "Ethel Wilmore, candidate profile",
+     "publisher": "GoodParty.org",
+     "url": "https://goodparty.org/people/ethel-wilmore-f717e53c",
+     "date": null
+    }
+   ],
+   "research_gaps": "No campaign website, detailed biography, priorities or positions were found."
+  },
+  {
+   "id": "john-scott-akin",
+   "race_id": "wilson-commissioner-4",
+   "incumbent": true,
+   "current_role": "Wilson County Commissioner, Precinct 4",
+   "background": "John \"Scott\" Akin is the Wilson County Precinct 4 commissioner, with an office in Stockdale. His current term runs from 2023 through 2026. He received 1,567 votes in the March 2026 Republican primary.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [
+    {
+     "text": "Sponsored a July 13, 2026 commissioners court item on accepting a resignation from and appointing a member to the Emergency Services District No. 1 board.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "notes": [
+    {
+     "text": "Received 1,567 votes in the March 3, 2026 Republican primary, according to unofficial county results.",
+     "sources": [
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Commissioners Court agenda, July 13, 2026",
+     "publisher": "Wilson County",
+     "url": "https://www.wilsoncountytx.gov/upload/page/2230/docs/Agendas/07-13-2026 AGENDA.pdf",
+     "date": "2026-07-13"
+    },
+    {
+     "id": "s2",
+     "title": "Unofficial results summary, March 3, 2026 primary",
+     "publisher": "Wilson County Elections",
+     "url": "https://newtools.cira.state.tx.us/upload/page/2254/docs/Elections/03.03.26%20Primary/UNOFFICIAL%20RESULTS%20SUMMARY.pdf",
+     "date": "2026-03-03"
+    },
+    {
+     "id": "s3",
+     "title": "Commissioners Court",
+     "publisher": "Wilson County",
+     "url": "https://www.wilsoncountytx.gov/page/wilson.Commissioners.Court",
+     "date": null
+    },
+    {
+     "id": "s4",
+     "title": "County Commission, Wilson County, TX",
+     "publisher": "GoodParty.org",
+     "url": "https://goodparty.org/elections/tx/wilson-county/position/county-legislature-executive-board",
+     "date": null
+    }
+   ],
+   "research_gaps": "No campaign website, biography, priorities or documented positions on county taxes, mental health, water or preemption were found."
+  },
+  {
+   "id": "mark-hurd",
+   "race_id": "wilson-commissioner-4",
+   "incumbent": false,
+   "current_role": "Democratic nominee for Wilson County Commissioner Precinct 4",
+   "background": "Mark Hurd is the Democratic nominee for Wilson County Commissioner Precinct 4. No biography could be located.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Listed as a 2026 Democratic candidate for Wilson County Commission Precinct 4.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Mark Hurd, candidate profile",
+     "publisher": "GoodParty.org",
+     "url": "https://goodparty.org/people/mark-hurd-3873495c",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "County Commission, Wilson County, TX",
+     "publisher": "GoodParty.org",
+     "url": "https://goodparty.org/elections/tx/wilson-county/position/county-legislature-executive-board",
+     "date": null
+    }
+   ],
+   "research_gaps": "No campaign website, biography, priorities or positions were found."
+  },
+  {
+   "id": "susan-werner",
+   "race_id": "tom-green-jp-1",
+   "incumbent": true,
+   "current_role": "Justice of the Peace, Tom Green County Precinct 1, since 2016",
+   "background": "Susan Werner has served as Justice of the Peace for Precinct 1 in Tom Green County (San Angelo) since her appointment in 2016, and won election in 2018. Before her appointment she spent eight years as a court clerk and held master clerk certification. Available sources place this race in Tom Green County, not Lubbock County.",
+   "website": null,
+   "priorities": [
+    {
+     "text": "Says, \"I hope to continue serving Tom Green County in the courtroom.\"",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Endorsed by the San Angelo Association of Realtors in 2026, as in 2018 and 2022.",
+     "sources": [
+      "s1"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "San Angelo Association of Realtors Endorses Werner for Justice of the Peace",
+     "publisher": "San Angelo LIVE!",
+     "url": "https://sanangelolive.com/news/san-angelo/2026-08-20/san-angelo-association-realtors-endorses-werner-justice-peace",
+     "date": "2026-08-20"
+    },
+    {
+     "id": "s2",
+     "title": "Justice of the Peace, Tom Green County, TX",
+     "publisher": "GoodParty.org",
+     "url": "https://goodparty.org/elections/tx/tom-green-county/position/justice-of-the-peace-judicial",
+     "date": null
+    }
+   ],
+   "research_gaps": ""
+  },
+  {
+   "id": "walter-bryant",
+   "race_id": "tom-green-jp-1",
+   "incumbent": false,
+   "current_role": "Democratic nominee for Justice of the Peace Precinct 1",
+   "background": "Walter Bryant is the Democratic candidate for Justice of the Peace Precinct 1. Available sources list him as a candidate in Tom Green County, not Lubbock County. No biography could be located.",
+   "website": null,
+   "priorities": [],
+   "promises": [],
+   "record": [],
+   "notes": [
+    {
+     "text": "Listed as a 2026 Democratic candidate for Tom Green County Justice of the Peace, Precinct 1.",
+     "sources": [
+      "s1",
+      "s2"
+     ]
+    }
+   ],
+   "stances": {},
+   "issue_notes": [],
+   "sources": [
+    {
+     "id": "s1",
+     "title": "Walter Bryant, candidate profile",
+     "publisher": "GoodParty.org",
+     "url": "https://goodparty.org/people/walter-bryant-9bd40194",
+     "date": null
+    },
+    {
+     "id": "s2",
+     "title": "Justice of the Peace, Tom Green County, TX",
+     "publisher": "GoodParty.org",
+     "url": "https://goodparty.org/elections/tx/tom-green-county/position/justice-of-the-peace-judicial",
+     "date": null
+    }
+   ],
+   "research_gaps": ""
+  }
+ ]
+}

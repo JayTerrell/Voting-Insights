@@ -14286,203 +14286,6 @@
   ]
  },
  {
-  "id": "lubbock-county-judge",
-  "title": "County Judge",
-  "office_type": "county_judge",
-  "office_key": "county_judge",
-  "group": "county",
-  "statewide": false,
-  "county": "Lubbock",
-  "candidates": [
-   {
-    "id": "lane-carter",
-    "name": "Lane Carter",
-    "party": "Republican"
-   }
-  ]
- },
- {
-  "id": "lubbock-ccl-1",
-  "title": "Judge, County Court at Law No. 1",
-  "office_type": "judicial",
-  "office_key": "ccl",
-  "group": "county-judicial",
-  "statewide": false,
-  "county": "Lubbock",
-  "candidates": [
-   {
-    "id": "leland-lacy",
-    "name": "Leland Lacy",
-    "party": "Republican"
-   }
-  ]
- },
- {
-  "id": "lubbock-ccl-2",
-  "title": "Judge, County Court at Law No. 2",
-  "office_type": "judicial",
-  "office_key": "ccl",
-  "group": "county-judicial",
-  "statewide": false,
-  "county": "Lubbock",
-  "candidates": [
-   {
-    "id": "andrew-graves",
-    "name": "Andrew Graves",
-    "party": "Republican"
-   }
-  ]
- },
- {
-  "id": "lubbock-district-clerk",
-  "title": "District Clerk",
-  "office_type": "clerk",
-  "office_key": "district_clerk",
-  "group": "county",
-  "statewide": false,
-  "county": "Lubbock",
-  "candidates": [
-   {
-    "id": "vicki-vines",
-    "name": "Vicki Vines",
-    "party": "Republican"
-   }
-  ]
- },
- {
-  "id": "lubbock-county-clerk",
-  "title": "County Clerk",
-  "office_type": "clerk",
-  "office_key": "county_clerk",
-  "group": "county",
-  "statewide": false,
-  "county": "Lubbock",
-  "candidates": [
-   {
-    "id": "lauren-barron",
-    "name": "Lauren Barron",
-    "party": "Republican"
-   }
-  ]
- },
- {
-  "id": "lubbock-treasurer",
-  "title": "County Treasurer",
-  "office_type": "clerk",
-  "office_key": "county_treasurer",
-  "group": "county",
-  "statewide": false,
-  "county": "Lubbock",
-  "candidates": [
-   {
-    "id": "dianna-m-spieker",
-    "name": "Dianna M. Spieker",
-    "party": "Republican"
-   }
-  ]
- },
- {
-  "id": "lubbock-commissioner-2",
-  "title": "County Commissioner Precinct 2",
-  "office_type": "county_commissioner",
-  "office_key": "county_commissioner",
-  "group": "county",
-  "statewide": false,
-  "county": "Lubbock",
-  "candidates": [
-   {
-    "id": "chad-decker",
-    "name": "Chad Decker",
-    "party": "Republican"
-   }
-  ]
- },
- {
-  "id": "lubbock-commissioner-4",
-  "title": "County Commissioner Precinct 4",
-  "office_type": "county_commissioner",
-  "office_key": "county_commissioner",
-  "group": "county",
-  "statewide": false,
-  "county": "Lubbock",
-  "candidates": [
-   {
-    "id": "shawn-nanny",
-    "name": "Shawn Nanny",
-    "party": "Republican"
-   }
-  ]
- },
- {
-  "id": "lubbock-jp-1",
-  "title": "Justice of the Peace Precinct 1",
-  "office_type": "judicial",
-  "office_key": "jp",
-  "group": "county-judicial",
-  "statewide": false,
-  "county": "Lubbock",
-  "candidates": [
-   {
-    "id": "susan-werner",
-    "name": "Susan Werner",
-    "party": "Republican"
-   },
-   {
-    "id": "walter-bryant",
-    "name": "Walter Bryant",
-    "party": "Democratic"
-   }
-  ]
- },
- {
-  "id": "lubbock-jp-2",
-  "title": "Justice of the Peace Precinct 2",
-  "office_type": "judicial",
-  "office_key": "jp",
-  "group": "county-judicial",
-  "statewide": false,
-  "county": "Lubbock",
-  "candidates": [
-   {
-    "id": "thomas-lee-daniel",
-    "name": "Thomas Lee Daniel",
-    "party": "Republican"
-   }
-  ]
- },
- {
-  "id": "lubbock-jp-3",
-  "title": "Justice of the Peace Precinct 3",
-  "office_type": "judicial",
-  "office_key": "jp",
-  "group": "county-judicial",
-  "statewide": false,
-  "county": "Lubbock",
-  "candidates": [
-   {
-    "id": "stacye-w-speck",
-    "name": "Stacye W. Speck",
-    "party": "Republican"
-   }
-  ]
- },
- {
-  "id": "lubbock-jp-4",
-  "title": "Justice of the Peace Precinct 4",
-  "office_type": "judicial",
-  "office_key": "jp",
-  "group": "county-judicial",
-  "statewide": false,
-  "county": "Lubbock",
-  "candidates": [
-   {
-    "id": "randy-harris",
-    "name": "Randy Harris",
-    "party": "Republican"
-   }
-  ]
- },
- {
   "id": "state-house-13",
   "title": "State Representative District 13",
   "office_type": "state_house",
@@ -19352,208 +19155,6 @@
   ]
  },
  {
-  "id": "tom-green-county-judge",
-  "title": "County Judge",
-  "office_type": "county_judge",
-  "office_key": "county_judge",
-  "group": "county",
-  "statewide": false,
-  "county": "Tom Green",
-  "candidates": [
-   {
-    "id": "dustin-fawcett",
-    "name": "Dustin Fawcett",
-    "party": "Republican"
-   }
-  ]
- },
- {
-  "id": "tom-green-ccl-1",
-  "title": "Judge, County Court at Law No. 1",
-  "office_type": "judicial",
-  "office_key": "ccl",
-  "group": "county-judicial",
-  "statewide": false,
-  "county": "Tom Green",
-  "candidates": [
-   {
-    "id": "brooke-d-hendricks",
-    "name": "Brooke D. Hendricks",
-    "party": "Republican"
-   }
-  ]
- },
- {
-  "id": "tom-green-ccl-2",
-  "title": "Judge, County Court at Law No. 2",
-  "office_type": "judicial",
-  "office_key": "ccl",
-  "group": "county-judicial",
-  "statewide": false,
-  "county": "Tom Green",
-  "candidates": [
-   {
-    "id": "christopher-m-clark",
-    "name": "Christopher M. Clark",
-    "party": "Republican"
-   }
-  ]
- },
- {
-  "id": "tom-green-district-clerk",
-  "title": "District Clerk",
-  "office_type": "clerk",
-  "office_key": "district_clerk",
-  "group": "county",
-  "statewide": false,
-  "county": "Tom Green",
-  "candidates": [
-   {
-    "id": "guadalupe-lupita-navarrette",
-    "name": "Guadalupe 'Lupita' Navarrette",
-    "party": "Republican"
-   }
-  ]
- },
- {
-  "id": "tom-green-county-clerk",
-  "title": "County Clerk",
-  "office_type": "clerk",
-  "office_key": "county_clerk",
-  "group": "county",
-  "statewide": false,
-  "county": "Tom Green",
-  "candidates": [
-   {
-    "id": "jennifer-martin",
-    "name": "Jennifer Martin",
-    "party": "Republican"
-   }
-  ]
- },
- {
-  "id": "tom-green-treasurer",
-  "title": "County Treasurer",
-  "office_type": "clerk",
-  "office_key": "county_treasurer",
-  "group": "county",
-  "statewide": false,
-  "county": "Tom Green",
-  "candidates": [
-   {
-    "id": "amanda-prieto-snyder",
-    "name": "Amanda Prieto Snyder",
-    "party": "Republican"
-   }
-  ]
- },
- {
-  "id": "tom-green-commissioner-2",
-  "title": "County Commissioner Precinct 2",
-  "office_type": "county_commissioner",
-  "office_key": "county_commissioner",
-  "group": "county",
-  "statewide": false,
-  "county": "Tom Green",
-  "candidates": [
-   {
-    "id": "grayson-hankins",
-    "name": "Grayson Hankins",
-    "party": "Republican"
-   }
-  ]
- },
- {
-  "id": "tom-green-commissioner-4",
-  "title": "County Commissioner Precinct 4",
-  "office_type": "county_commissioner",
-  "office_key": "county_commissioner",
-  "group": "county",
-  "statewide": false,
-  "county": "Tom Green",
-  "candidates": [
-   {
-    "id": "billy-hall",
-    "name": "Billy Hall",
-    "party": "Republican"
-   },
-   {
-    "id": "jesse-m-porras-iii",
-    "name": "Jesse M Porras, III",
-    "party": "Democratic"
-   }
-  ]
- },
- {
-  "id": "tom-green-jp-1",
-  "title": "Justice of the Peace Precinct 1",
-  "office_type": "judicial",
-  "office_key": "jp",
-  "group": "county-judicial",
-  "statewide": false,
-  "county": "Tom Green",
-  "candidates": [
-   {
-    "id": "steven-brennan",
-    "name": "Steven Brennan",
-    "party": "Republican"
-   }
-  ]
- },
- {
-  "id": "tom-green-jp-2",
-  "title": "Justice of the Peace Precinct 2",
-  "office_type": "judicial",
-  "office_key": "jp",
-  "group": "county-judicial",
-  "statewide": false,
-  "county": "Tom Green",
-  "candidates": [
-   {
-    "id": "missi-walden",
-    "name": "Missi Walden",
-    "party": "Republican"
-   }
-  ]
- },
- {
-  "id": "tom-green-jp-3",
-  "title": "Justice of the Peace Precinct 3",
-  "office_type": "judicial",
-  "office_key": "jp",
-  "group": "county-judicial",
-  "statewide": false,
-  "county": "Tom Green",
-  "candidates": [
-   {
-    "id": "bill-bowen",
-    "name": "Bill Bowen",
-    "party": "Republican"
-   }
-  ]
- },
- {
-  "id": "tom-green-jp-4",
-  "title": "Justice of the Peace Precinct 4",
-  "office_type": "judicial",
-  "office_key": "jp",
-  "group": "county-judicial",
-  "statewide": false,
-  "county": "Tom Green",
-  "candidates": [
-   {
-    "id": "elizabeth-r-baeza",
-    "name": "Elizabeth R Baeza",
-    "party": "Republican"
-   },
-   {
-    "id": "crystal-z-rios",
-    "name": "Crystal Z. Rios",
-    "party": "Democratic"
-   }
-  ]
- },
- {
   "id": "us-house-37",
   "title": "U.S. Representative District 37",
   "office_type": "us_house",
@@ -21807,6 +21408,405 @@
    {
     "id": "monica-lambeck-gutierrez",
     "name": "Monica Lambeck Gutierrez",
+    "party": "Republican"
+   }
+  ]
+ },
+ {
+  "id": "ector-county-judge",
+  "title": "County Judge",
+  "office_type": "county_judge",
+  "office_key": "county_judge",
+  "group": "county",
+  "statewide": false,
+  "county": "Ector",
+  "candidates": [
+   {
+    "id": "dustin-fawcett",
+    "name": "Dustin Fawcett",
+    "party": "Republican"
+   }
+  ]
+ },
+ {
+  "id": "ector-ccl-1",
+  "title": "Judge, County Court at Law No. 1",
+  "office_type": "judicial",
+  "office_key": "ccl",
+  "group": "county-judicial",
+  "statewide": false,
+  "county": "Ector",
+  "candidates": [
+   {
+    "id": "brooke-d-hendricks",
+    "name": "Brooke D. Hendricks",
+    "party": "Republican"
+   }
+  ]
+ },
+ {
+  "id": "ector-ccl-2",
+  "title": "Judge, County Court at Law No. 2",
+  "office_type": "judicial",
+  "office_key": "ccl",
+  "group": "county-judicial",
+  "statewide": false,
+  "county": "Ector",
+  "candidates": [
+   {
+    "id": "christopher-m-clark",
+    "name": "Christopher M. Clark",
+    "party": "Republican"
+   }
+  ]
+ },
+ {
+  "id": "ector-district-clerk",
+  "title": "District Clerk",
+  "office_type": "clerk",
+  "office_key": "district_clerk",
+  "group": "county",
+  "statewide": false,
+  "county": "Ector",
+  "candidates": [
+   {
+    "id": "guadalupe-lupita-navarrette",
+    "name": "Guadalupe 'Lupita' Navarrette",
+    "party": "Republican"
+   }
+  ]
+ },
+ {
+  "id": "ector-county-clerk",
+  "title": "County Clerk",
+  "office_type": "clerk",
+  "office_key": "county_clerk",
+  "group": "county",
+  "statewide": false,
+  "county": "Ector",
+  "candidates": [
+   {
+    "id": "jennifer-martin",
+    "name": "Jennifer Martin",
+    "party": "Republican"
+   }
+  ]
+ },
+ {
+  "id": "ector-treasurer",
+  "title": "County Treasurer",
+  "office_type": "clerk",
+  "office_key": "county_treasurer",
+  "group": "county",
+  "statewide": false,
+  "county": "Ector",
+  "candidates": [
+   {
+    "id": "amanda-prieto-snyder",
+    "name": "Amanda Prieto Snyder",
+    "party": "Republican"
+   }
+  ]
+ },
+ {
+  "id": "ector-commissioner-2",
+  "title": "County Commissioner Precinct 2",
+  "office_type": "county_commissioner",
+  "office_key": "county_commissioner",
+  "group": "county",
+  "statewide": false,
+  "county": "Ector",
+  "candidates": [
+   {
+    "id": "grayson-hankins",
+    "name": "Grayson Hankins",
+    "party": "Republican"
+   }
+  ]
+ },
+ {
+  "id": "ector-commissioner-4",
+  "title": "County Commissioner Precinct 4",
+  "office_type": "county_commissioner",
+  "office_key": "county_commissioner",
+  "group": "county",
+  "statewide": false,
+  "county": "Ector",
+  "candidates": [
+   {
+    "id": "billy-hall",
+    "name": "Billy Hall",
+    "party": "Republican"
+   },
+   {
+    "id": "jesse-m-porras-iii",
+    "name": "Jesse M Porras, III",
+    "party": "Democratic"
+   }
+  ]
+ },
+ {
+  "id": "ector-jp-1",
+  "title": "Justice of the Peace Precinct 1",
+  "office_type": "judicial",
+  "office_key": "jp",
+  "group": "county-judicial",
+  "statewide": false,
+  "county": "Ector",
+  "candidates": [
+   {
+    "id": "steven-brennan",
+    "name": "Steven Brennan",
+    "party": "Republican"
+   }
+  ]
+ },
+ {
+  "id": "ector-jp-2",
+  "title": "Justice of the Peace Precinct 2",
+  "office_type": "judicial",
+  "office_key": "jp",
+  "group": "county-judicial",
+  "statewide": false,
+  "county": "Ector",
+  "candidates": [
+   {
+    "id": "missi-walden",
+    "name": "Missi Walden",
+    "party": "Republican"
+   }
+  ]
+ },
+ {
+  "id": "ector-jp-3",
+  "title": "Justice of the Peace Precinct 3",
+  "office_type": "judicial",
+  "office_key": "jp",
+  "group": "county-judicial",
+  "statewide": false,
+  "county": "Ector",
+  "candidates": [
+   {
+    "id": "bill-bowen",
+    "name": "Bill Bowen",
+    "party": "Republican"
+   }
+  ]
+ },
+ {
+  "id": "ector-jp-4",
+  "title": "Justice of the Peace Precinct 4",
+  "office_type": "judicial",
+  "office_key": "jp",
+  "group": "county-judicial",
+  "statewide": false,
+  "county": "Ector",
+  "candidates": [
+   {
+    "id": "elizabeth-r-baeza",
+    "name": "Elizabeth R Baeza",
+    "party": "Republican"
+   },
+   {
+    "id": "crystal-z-rios",
+    "name": "Crystal Z. Rios",
+    "party": "Democratic"
+   }
+  ]
+ },
+ {
+  "id": "tom-green-county-judge",
+  "title": "County Judge",
+  "office_type": "county_judge",
+  "office_key": "county_judge",
+  "group": "county",
+  "statewide": false,
+  "county": "Tom Green",
+  "candidates": [
+   {
+    "id": "lane-carter",
+    "name": "Lane Carter",
+    "party": "Republican"
+   }
+  ]
+ },
+ {
+  "id": "tom-green-ccl-1",
+  "title": "Judge, County Court at Law No. 1",
+  "office_type": "judicial",
+  "office_key": "ccl",
+  "group": "county-judicial",
+  "statewide": false,
+  "county": "Tom Green",
+  "candidates": [
+   {
+    "id": "leland-lacy",
+    "name": "Leland Lacy",
+    "party": "Republican"
+   }
+  ]
+ },
+ {
+  "id": "tom-green-ccl-2",
+  "title": "Judge, County Court at Law No. 2",
+  "office_type": "judicial",
+  "office_key": "ccl",
+  "group": "county-judicial",
+  "statewide": false,
+  "county": "Tom Green",
+  "candidates": [
+   {
+    "id": "andrew-graves",
+    "name": "Andrew Graves",
+    "party": "Republican"
+   }
+  ]
+ },
+ {
+  "id": "tom-green-district-clerk",
+  "title": "District Clerk",
+  "office_type": "clerk",
+  "office_key": "district_clerk",
+  "group": "county",
+  "statewide": false,
+  "county": "Tom Green",
+  "candidates": [
+   {
+    "id": "vicki-vines",
+    "name": "Vicki Vines",
+    "party": "Republican"
+   }
+  ]
+ },
+ {
+  "id": "tom-green-county-clerk",
+  "title": "County Clerk",
+  "office_type": "clerk",
+  "office_key": "county_clerk",
+  "group": "county",
+  "statewide": false,
+  "county": "Tom Green",
+  "candidates": [
+   {
+    "id": "lauren-barron",
+    "name": "Lauren Barron",
+    "party": "Republican"
+   }
+  ]
+ },
+ {
+  "id": "tom-green-treasurer",
+  "title": "County Treasurer",
+  "office_type": "clerk",
+  "office_key": "county_treasurer",
+  "group": "county",
+  "statewide": false,
+  "county": "Tom Green",
+  "candidates": [
+   {
+    "id": "dianna-m-spieker",
+    "name": "Dianna M. Spieker",
+    "party": "Republican"
+   }
+  ]
+ },
+ {
+  "id": "tom-green-commissioner-2",
+  "title": "County Commissioner Precinct 2",
+  "office_type": "county_commissioner",
+  "office_key": "county_commissioner",
+  "group": "county",
+  "statewide": false,
+  "county": "Tom Green",
+  "candidates": [
+   {
+    "id": "chad-decker",
+    "name": "Chad Decker",
+    "party": "Republican"
+   }
+  ]
+ },
+ {
+  "id": "tom-green-commissioner-4",
+  "title": "County Commissioner Precinct 4",
+  "office_type": "county_commissioner",
+  "office_key": "county_commissioner",
+  "group": "county",
+  "statewide": false,
+  "county": "Tom Green",
+  "candidates": [
+   {
+    "id": "shawn-nanny",
+    "name": "Shawn Nanny",
+    "party": "Republican"
+   }
+  ]
+ },
+ {
+  "id": "tom-green-jp-1",
+  "title": "Justice of the Peace Precinct 1",
+  "office_type": "judicial",
+  "office_key": "jp",
+  "group": "county-judicial",
+  "statewide": false,
+  "county": "Tom Green",
+  "candidates": [
+   {
+    "id": "susan-werner",
+    "name": "Susan Werner",
+    "party": "Republican"
+   },
+   {
+    "id": "walter-bryant",
+    "name": "Walter Bryant",
+    "party": "Democratic"
+   }
+  ]
+ },
+ {
+  "id": "tom-green-jp-2",
+  "title": "Justice of the Peace Precinct 2",
+  "office_type": "judicial",
+  "office_key": "jp",
+  "group": "county-judicial",
+  "statewide": false,
+  "county": "Tom Green",
+  "candidates": [
+   {
+    "id": "thomas-lee-daniel",
+    "name": "Thomas Lee Daniel",
+    "party": "Republican"
+   }
+  ]
+ },
+ {
+  "id": "tom-green-jp-3",
+  "title": "Justice of the Peace Precinct 3",
+  "office_type": "judicial",
+  "office_key": "jp",
+  "group": "county-judicial",
+  "statewide": false,
+  "county": "Tom Green",
+  "candidates": [
+   {
+    "id": "stacye-w-speck",
+    "name": "Stacye W. Speck",
+    "party": "Republican"
+   }
+  ]
+ },
+ {
+  "id": "tom-green-jp-4",
+  "title": "Justice of the Peace Precinct 4",
+  "office_type": "judicial",
+  "office_key": "jp",
+  "group": "county-judicial",
+  "statewide": false,
+  "county": "Tom Green",
+  "candidates": [
+   {
+    "id": "randy-harris",
+    "name": "Randy Harris",
     "party": "Republican"
    }
   ]

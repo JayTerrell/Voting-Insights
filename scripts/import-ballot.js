@@ -266,7 +266,7 @@ function readReport(file) {
   return parseReport(execFileSync('pdftotext', ['-layout', file, '-'], { encoding: 'utf8' }));
 }
 
-function main(files) {
+function main(files, countyOverride = null) {
   const races = JSON.parse(readFileSync(racesPath, 'utf8'));
   const overrides = existsSync(overridesPath) ? JSON.parse(readFileSync(overridesPath, 'utf8')) : {};
   const byId = new Map(races.map((r) => [r.id, r]));
@@ -276,6 +276,9 @@ function main(files) {
 
   for (const file of files) {
     const report = readReport(file);
+    // Use when a report's header names the wrong county (the Secretary of State
+    // site has been seen returning the previous county's ballot under a new name).
+    if (countyOverride) report.county = countyOverride;
     const cslug = slug(report.county);
     const raceIds = [];
     const notes = [];
@@ -328,10 +331,17 @@ function main(files) {
 }
 
 if (process.argv[1] && resolve(process.argv[1]) === resolve(import.meta.filename)) {
-  const files = process.argv.slice(2);
-  if (!files.length) {
-    console.error('Usage: node scripts/import-ballot.js report.pdf [more.pdf ...]');
+  const args = process.argv.slice(2);
+  const asIndex = args.indexOf('--as');
+  const countyOverride = asIndex >= 0 ? args.splice(asIndex, 2)[1] : null;
+  const files = args;
+  if (countyOverride && files.length !== 1) {
+    console.error('--as applies to exactly one report file.');
     process.exit(1);
   }
-  main(files);
+  if (!files.length) {
+    console.error('Usage: node scripts/import-ballot.js report.pdf [more.pdf ...]  or  --as "County" report.pdf');
+    process.exit(1);
+  }
+  main(files, countyOverride);
 }
