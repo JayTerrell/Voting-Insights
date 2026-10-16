@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T16:11:35.079Z",
+ "generated_at": "2026-10-16T16:13:42.597Z",
  "election": {
   "name": "2026 November General Election",
   "county": "Collin County, Texas",
@@ -34718,19 +34718,48 @@
      "id": "cari-starritt-burnett",
      "name": "Cari Starritt-Burnett",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, 169th District Court, Bell County",
+     "background": "Cari L. Starritt-Burnett is the judge of the 169th Judicial District Court in Belton, according to Bell County and the Texas Office of Court Administration. She was unopposed in the March 2026 Republican primary.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "169th Judicial District Court",
+       "publisher": "Bell County, Texas",
+       "url": "https://www.bellcountytx.com/county_government/district_courts/169th_district_court/index.php",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Texas Judicial Directory, Bell County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "The field is set for the local primaries",
+       "publisher": "Killeen Daily Herald",
+       "url": "https://kdhnews.com/news/local/the-field-is-set-for-the-local-primaries/article_98ac69b7-e2c1-4622-b028-bf4d2e30c61b.html",
+       "date": "2025-12-14"
+      }
+     ],
+     "research_gaps": "No published biography covering education or professional background was found on official county or court pages.",
+     "researched": true
     }
    ],
    "office": {
@@ -34755,19 +34784,48 @@
      "id": "paul-l-lepak",
      "name": "Paul L. Lepak",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, 264th District Court, Bell County",
+     "background": "Paul L. LePak is the judge of the 264th Judicial District Court in Belton, according to Bell County and the Texas Office of Court Administration. He was unopposed in the March 2026 Republican primary.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "264th Judicial District Court",
+       "publisher": "Bell County, Texas",
+       "url": "https://www.bellcountytx.com/county_government/district_courts/264th_district_court/index.php",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Texas Judicial Directory, Bell County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "The field is set for the local primaries",
+       "publisher": "Killeen Daily Herald",
+       "url": "https://kdhnews.com/news/local/the-field-is-set-for-the-local-primaries/article_98ac69b7-e2c1-4622-b028-bf4d2e30c61b.html",
+       "date": "2025-12-14"
+      }
+     ],
+     "research_gaps": "No published biography covering education or professional background was found on official county or court pages.",
+     "researched": true
     }
    ],
    "office": {
@@ -34792,19 +34850,48 @@
      "id": "wade-faulkner",
      "name": "Wade Faulkner",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, 478th District Court, Bell County",
+     "background": "Wade Nicholas Faulkner is the judge of the 478th Judicial District Court in Belton, according to Bell County and the Texas Office of Court Administration. He was unopposed in the March 2026 Republican primary.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "478th Judicial District Court",
+       "publisher": "Bell County, Texas",
+       "url": "https://www.bellcountytx.com/county_government/district_courts/478th_judicial_district_court/index.php",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Texas Judicial Directory, Bell County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "The field is set for the local primaries",
+       "publisher": "Killeen Daily Herald",
+       "url": "https://kdhnews.com/news/local/the-field-is-set-for-the-local-primaries/article_98ac69b7-e2c1-4622-b028-bf4d2e30c61b.html",
+       "date": "2025-12-14"
+      }
+     ],
+     "research_gaps": "No published biography covering education or professional background was found on official county or court pages.",
+     "researched": true
     }
    ],
    "office": {
@@ -34829,19 +34916,61 @@
      "id": "david-blackburn",
      "name": "David Blackburn",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Bell County Judge",
+     "background": "David A. Blackburn is the Bell County Judge and presides over the Commissioners Court, according to Bell County. He won the March 2026 Republican primary with 65.66 percent over former Justice of the Peace Ted Duffield.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Won the 2026 Republican primary with 65.66 percent of the vote over Ted Duffield (34.34 percent).",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Commissioners Court",
+       "publisher": "Bell County, Texas",
+       "url": "https://www.bellcountytx.com/county_government/commissioners_court/index.php",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Texas Judicial Directory, Bell County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Bell County primary races see winners, runoff elections (The Belton Journal, March 5, 2026 edition)",
+       "publisher": "The Belton Journal",
+       "url": "https://irp.cdn-website.com/ba51ed1b/files/uploaded/03-05-2026+Belton+Journal.pdf",
+       "date": "2026-03-05"
+      },
+      {
+       "id": "s4",
+       "title": "The field is set for the local primaries",
+       "publisher": "Killeen Daily Herald",
+       "url": "https://kdhnews.com/news/local/the-field-is-set-for-the-local-primaries/article_98ac69b7-e2c1-4622-b028-bf4d2e30c61b.html",
+       "date": "2025-12-14"
+      }
+     ],
+     "research_gaps": "Years in office and professional background were not found on the county page.",
+     "researched": true
     }
    ],
    "office": {
@@ -34866,19 +34995,48 @@
      "id": "paul-motz",
      "name": "Paul Motz",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, Bell County Court at Law No. 1",
+     "background": "Paul A. Motz is the judge of Bell County Court at Law No. 1, which handles civil, probate and mental health matters, according to Bell County. He was unopposed in the March 2026 Republican primary.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Court at Law 1",
+       "publisher": "Bell County, Texas",
+       "url": "https://www.bellcountytx.com/county_government/county_courts/court_at_law_1/index.php",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Texas Judicial Directory, Bell County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Bell County primary races see winners, runoff elections (The Belton Journal, March 5, 2026 edition)",
+       "publisher": "The Belton Journal",
+       "url": "https://irp.cdn-website.com/ba51ed1b/files/uploaded/03-05-2026+Belton+Journal.pdf",
+       "date": "2026-03-05"
+      }
+     ],
+     "research_gaps": "No published biography covering education or professional background was found on official county or court pages.",
+     "researched": true
     }
    ],
    "office": {
@@ -34903,19 +35061,48 @@
      "id": "john-mischtian",
      "name": "John Mischtian",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, Bell County Court at Law No. 2",
+     "background": "John Michael Mischtian is the judge of Bell County Court at Law No. 2, according to Bell County and the Texas Office of Court Administration. He was unopposed in the March 2026 Republican primary.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Court at Law 2",
+       "publisher": "Bell County, Texas",
+       "url": "https://www.bellcountytx.com/county_government/county_courts/court_at_law_2/index.php",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Texas Judicial Directory, Bell County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Bell County primary races see winners, runoff elections (The Belton Journal, March 5, 2026 edition)",
+       "publisher": "The Belton Journal",
+       "url": "https://irp.cdn-website.com/ba51ed1b/files/uploaded/03-05-2026+Belton+Journal.pdf",
+       "date": "2026-03-05"
+      }
+     ],
+     "research_gaps": "No published biography covering education or professional background was found on official county or court pages.",
+     "researched": true
     }
    ],
    "office": {
@@ -34941,18 +35128,55 @@
      "name": "John Gauntt, Jr",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Republican nominee for Bell County Court at Law No. 3",
+     "background": "John Gauntt Jr. ran unopposed for the Republican nomination for County Court at Law No. 3, and no Democrat filed. Bell County lists Rebecca DePew as the current judge of that court.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1",
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "The field is set for the local primaries",
+       "publisher": "Killeen Daily Herald",
+       "url": "https://kdhnews.com/news/local/the-field-is-set-for-the-local-primaries/article_98ac69b7-e2c1-4622-b028-bf4d2e30c61b.html",
+       "date": "2025-12-14"
+      },
+      {
+       "id": "s2",
+       "title": "Bell County primary races see winners, runoff elections (The Belton Journal, March 5, 2026 edition)",
+       "publisher": "The Belton Journal",
+       "url": "https://irp.cdn-website.com/ba51ed1b/files/uploaded/03-05-2026+Belton+Journal.pdf",
+       "date": "2026-03-05"
+      },
+      {
+       "id": "s3",
+       "title": "Court at Law 3",
+       "publisher": "Bell County, Texas",
+       "url": "https://www.bellcountytx.com/county_government/county_courts/court_at_law_3/index.php",
+       "date": null
+      },
+      {
+       "id": "s4",
+       "title": "Texas Judicial Directory, Bell County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      }
+     ],
+     "research_gaps": "No biography, legal experience, or campaign website was found.",
+     "researched": true
     }
    ],
    "office": {
@@ -34978,18 +35202,55 @@
      "name": "Lacey Martindale",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Chief deputy, Bell County District Clerk's Office; Republican nominee for District Clerk",
+     "background": "Lacey Martindale has worked in the Bell County District Clerk's office, according to the Killeen Daily Herald, and Branch lists her ballot occupation as chief deputy. She won the March 2026 Republican primary with 59.24 percent over Pam Blair. Bell County lists Joanna Staton as the current district clerk.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1",
+        "s3"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "The field is set for the local primaries",
+       "publisher": "Killeen Daily Herald",
+       "url": "https://kdhnews.com/news/local/the-field-is-set-for-the-local-primaries/article_98ac69b7-e2c1-4622-b028-bf4d2e30c61b.html",
+       "date": "2025-12-14"
+      },
+      {
+       "id": "s2",
+       "title": "Bell County primary races see winners, runoff elections (The Belton Journal, March 5, 2026 edition)",
+       "publisher": "The Belton Journal",
+       "url": "https://irp.cdn-website.com/ba51ed1b/files/uploaded/03-05-2026+Belton+Journal.pdf",
+       "date": "2026-03-05"
+      },
+      {
+       "id": "s3",
+       "title": "Lacey Martindale, candidate for Bell District Clerk",
+       "publisher": "Branch Politics (branch.vote)",
+       "url": "https://branch.vote/races/2026-texas-general-election-tx-state-district-clerk-tx-county-bell/candidates/6aa42a6d0bffdeaf5e567398",
+       "date": null
+      },
+      {
+       "id": "s4",
+       "title": "District Clerk",
+       "publisher": "Bell County, Texas",
+       "url": "https://www.bellcountytx.com/district_clerk/index.php",
+       "date": null
+      }
+     ],
+     "research_gaps": "Years of service and education were not found.",
+     "researched": true
     }
    ],
    "office": {
@@ -35014,19 +35275,48 @@
      "id": "shelley-coston",
      "name": "Shelley Coston",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Bell County Clerk",
+     "background": "Shelley Coston is the Bell County Clerk, according to Bell County. She was unopposed in the March 2026 Republican primary.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "County Clerk",
+       "publisher": "Bell County, Texas",
+       "url": "https://www.bellcountytx.com/county_government/county_clerk/index.php",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Texas Judicial Directory, Bell County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "The field is set for the local primaries",
+       "publisher": "Killeen Daily Herald",
+       "url": "https://kdhnews.com/news/local/the-field-is-set-for-the-local-primaries/article_98ac69b7-e2c1-4622-b028-bf4d2e30c61b.html",
+       "date": "2025-12-14"
+      }
+     ],
+     "research_gaps": "No published biography covering education or professional background was found on official county or court pages.",
+     "researched": true
     }
    ],
    "office": {
@@ -35052,18 +35342,60 @@
      "name": "Adriane Hodges",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Small-business owner; Republican nominee for Bell County Treasurer",
+     "background": "Adriane Hodges is a small-business owner who challenged incumbent Treasurer Gaylon Evans in the March 2026 Republican primary and won with 52.46 percent. Bell County lists Evans as the current treasurer.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s3"
+       ]
+      },
+      {
+       "text": "Defeated incumbent Gaylon Evans in the 2026 Republican primary, 52.46 percent to 47.54 percent.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "The field is set for the local primaries",
+       "publisher": "Killeen Daily Herald",
+       "url": "https://kdhnews.com/news/local/the-field-is-set-for-the-local-primaries/article_98ac69b7-e2c1-4622-b028-bf4d2e30c61b.html",
+       "date": "2025-12-14"
+      },
+      {
+       "id": "s2",
+       "title": "Bell County primary races see winners, runoff elections (The Belton Journal, March 5, 2026 edition)",
+       "publisher": "The Belton Journal",
+       "url": "https://irp.cdn-website.com/ba51ed1b/files/uploaded/03-05-2026+Belton+Journal.pdf",
+       "date": "2026-03-05"
+      },
+      {
+       "id": "s3",
+       "title": "Adriane Hodges, candidate for Bell County Treasurer",
+       "publisher": "Branch Politics (branch.vote)",
+       "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-treasurer-tx-county-bell/candidates/6aa42a6d0bffdeaf5e56739c",
+       "date": null
+      },
+      {
+       "id": "s4",
+       "title": "Treasurer",
+       "publisher": "Bell County, Texas",
+       "url": "https://www.bellcountytx.com/county_government/treasurer/index.php",
+       "date": null
+      }
+     ],
+     "research_gaps": "Name of her business and other background were not found.",
+     "researched": true
     }
    ],
    "office": {
@@ -35492,18 +35824,54 @@
      "name": "Patrick \"Pat\" Patterson",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Bell County adult probation; Republican nominee for Justice of the Peace Precinct 1",
+     "background": "Pat Patterson won the March 2026 Republican primary for Precinct 1 justice of the peace with 56.15 percent over Joey Agee. Branch lists his ballot occupation as Bell County adult probation. The seat is held by Ted Duffield, who ran for county judge.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Bell County primary races see winners, runoff elections (The Belton Journal, March 5, 2026 edition)",
+       "publisher": "The Belton Journal",
+       "url": "https://irp.cdn-website.com/ba51ed1b/files/uploaded/03-05-2026+Belton+Journal.pdf",
+       "date": "2026-03-05"
+      },
+      {
+       "id": "s2",
+       "title": "Patrick \"Pat\" Patterson, candidate for Bell Justice of the Peace, Justice Precinct 1",
+       "publisher": "Branch Politics (branch.vote)",
+       "url": "https://branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-bell-justice-precinct-1/candidates/6aa42a6d0bffdeaf5e5673a4",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Justice of the Peace, Precinct 1",
+       "publisher": "Bell County, Texas",
+       "url": "https://www.bellcountytx.com/county_government/justice_of_the_peace/precinct_1/index.php",
+       "date": null
+      },
+      {
+       "id": "s4",
+       "title": "The field is set for the local primaries",
+       "publisher": "Killeen Daily Herald",
+       "url": "https://kdhnews.com/news/local/the-field-is-set-for-the-local-primaries/article_98ac69b7-e2c1-4622-b028-bf4d2e30c61b.html",
+       "date": "2025-12-14"
+      }
+     ],
+     "research_gaps": "No detailed biography was found.",
+     "researched": true
     }
    ],
    "office": {
@@ -35528,19 +35896,69 @@
      "id": "michael-tice",
      "name": "Michael Tice",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Justice of the Peace, Precinct 2, Bell County (per county listing)",
+     "background": "Michael Martinez Tice is listed by Bell County and the Texas Office of Court Administration as Justice of the Peace for Precinct 2, based in Salado. He won the May 26, 2026 Republican runoff over Richard Sapp, 1,286 votes to 1,111, after a four-way primary. Branch lists his ballot occupation at filing as travel agent.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1",
+        "s3"
+       ]
+      },
+      {
+       "text": "After the runoff he said he would lead the office with fairness and consistency and treat everyone fairly regardless of how they voted.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Justice of the Peace, Precinct 2",
+       "publisher": "Bell County, Texas",
+       "url": "https://www.bellcountytx.com/county_government/justice_of_the_peace/precinct_2/index.php",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Texas Judicial Directory, Bell County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Low turnout, high stakes: Bell County Republicans lean conservative in runoff election",
+       "publisher": "Killeen Daily Herald (Temple Daily Telegram staff)",
+       "url": "https://kdhnews.com/news/region/low-turnout-high-stakes-bell-county-republicans-lean-conservative-in-runoff-election/article_99d45d87-32ee-5d96-84d9-4a50afee7f74.html",
+       "date": "2026-05-27"
+      },
+      {
+       "id": "s4",
+       "title": "Bell County primary races see winners, runoff elections (The Belton Journal, March 5, 2026 edition)",
+       "publisher": "The Belton Journal",
+       "url": "https://irp.cdn-website.com/ba51ed1b/files/uploaded/03-05-2026+Belton+Journal.pdf",
+       "date": "2026-03-05"
+      },
+      {
+       "id": "s5",
+       "title": "Michael Tice, candidate for Bell Justice of the Peace, Justice Precinct 2",
+       "publisher": "Branch Politics (branch.vote)",
+       "url": "https://branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-bell-justice-precinct-2/candidates/6aa42a6d0bffdeaf5e5673a6",
+       "date": null
+      }
+     ],
+     "research_gaps": "When and how he began serving (he was not listed as the incumbent at filing) was not found.",
+     "researched": true
     }
    ],
    "office": {
@@ -35565,19 +35983,48 @@
      "id": "larry-wilkey",
      "name": "Larry Wilkey",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Justice of the Peace, Precinct 3, Place 2, Bell County",
+     "background": "Larry D. Wilkey is the Justice of the Peace for Precinct 3, Place 2, based in Temple, according to Bell County. He was unopposed as the incumbent in the March 2026 Republican primary.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Justice of the Peace, Precinct 3, Place 2",
+       "publisher": "Bell County, Texas",
+       "url": "https://www.bellcountytx.com/county_government/justice_of_the_peace/precinct_3_place_2/index.php",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Texas Judicial Directory, Bell County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "The field is set for the local primaries",
+       "publisher": "Killeen Daily Herald",
+       "url": "https://kdhnews.com/news/local/the-field-is-set-for-the-local-primaries/article_98ac69b7-e2c1-4622-b028-bf4d2e30c61b.html",
+       "date": "2025-12-14"
+      }
+     ],
+     "research_gaps": "No published biography covering education or professional background was found on official county or court pages.",
+     "researched": true
     }
    ],
    "office": {
@@ -43113,18 +43560,53 @@
      "name": "Roy D. Brantley",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Judge, Brazos County Court at Law No. 2; Republican nominee for the 85th District Court",
+     "background": "Roy Dayton Brantley is listed by the Texas Office of Court Administration as judge of Brazos County Court at Law No. 2. He is seeking the 85th District Court seat, which the directory lists as held by Judge Kyle Hawthorne. He was unopposed in the March 2026 Republican primary.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "His move leaves County Court at Law No. 2 open; Mark Maltsberger is the nominee for that seat.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Texas Judicial Directory, Brazos County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Sample Ballot, November 3, 2026 General Election",
+       "publisher": "Brazos County Elections Administration",
+       "url": "https://elections.brazoscountytx.gov/wp-content/uploads/2026/09/Sample-Ballot-Nov-3-2026-General-FINAL-YELLOW.pdf",
+       "date": "2026-09"
+      },
+      {
+       "id": "s3",
+       "title": "Cumulative Results Report, 2026 March 3rd Primary Election (official results)",
+       "publisher": "Brazos County Elections Administration",
+       "url": "https://elections.brazoscountytx.gov/wp-content/uploads/2026/04/Cumulative-Results-3-12-2026-04-47-19-PM-official-accessible.pdf",
+       "date": "2026-03-12"
+      }
+     ],
+     "research_gaps": "The Brazos County website blocked automated access, so no official biography was available.",
+     "researched": true
     }
    ],
    "office": {
@@ -43149,19 +43631,48 @@
      "id": "david-hilburn",
      "name": "David Hilburn",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, 361st District Court, Brazos County",
+     "background": "David George Hilburn is listed by the Texas Office of Court Administration as judge of the 361st District Court in Bryan. He was unopposed in the March 2026 Republican primary.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Texas Judicial Directory, Brazos County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Sample Ballot, November 3, 2026 General Election",
+       "publisher": "Brazos County Elections Administration",
+       "url": "https://elections.brazoscountytx.gov/wp-content/uploads/2026/09/Sample-Ballot-Nov-3-2026-General-FINAL-YELLOW.pdf",
+       "date": "2026-09"
+      },
+      {
+       "id": "s3",
+       "title": "Cumulative Results Report, 2026 March 3rd Primary Election (official results)",
+       "publisher": "Brazos County Elections Administration",
+       "url": "https://elections.brazoscountytx.gov/wp-content/uploads/2026/04/Cumulative-Results-3-12-2026-04-47-19-PM-official-accessible.pdf",
+       "date": "2026-03-12"
+      }
+     ],
+     "research_gaps": "The Brazos County website blocked automated access, so no official biography was available.",
+     "researched": true
     }
    ],
    "office": {
@@ -43187,18 +43698,54 @@
      "name": "Kyle Kacal",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Rancher; Republican nominee for Brazos County Judge",
+     "background": "Kyle Kacal won the March 2026 Republican primary for Brazos County Judge with 62.18 percent over Mike Southerland. Branch lists his ballot occupation as rancher. The state judicial directory lists Duane Peters as the current county judge.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Cumulative Results Report, 2026 March 3rd Primary Election (official results)",
+       "publisher": "Brazos County Elections Administration",
+       "url": "https://elections.brazoscountytx.gov/wp-content/uploads/2026/04/Cumulative-Results-3-12-2026-04-47-19-PM-official-accessible.pdf",
+       "date": "2026-03-12"
+      },
+      {
+       "id": "s2",
+       "title": "Sample Ballot, November 3, 2026 General Election",
+       "publisher": "Brazos County Elections Administration",
+       "url": "https://elections.brazoscountytx.gov/wp-content/uploads/2026/09/Sample-Ballot-Nov-3-2026-General-FINAL-YELLOW.pdf",
+       "date": "2026-09"
+      },
+      {
+       "id": "s3",
+       "title": "Texas Judicial Directory, Brazos County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      },
+      {
+       "id": "s4",
+       "title": "Kyle Kacal, candidate for Brazos County Judge",
+       "publisher": "Branch Politics (branch.vote)",
+       "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-judge-tx-county-brazos/candidates/6aa42a6d0bffdeaf5e5673f0",
+       "date": null
+      }
+     ],
+     "research_gaps": "His prior public offices and education could not be confirmed from an accessible source during this pass.",
+     "researched": true
     }
    ],
    "office": {
@@ -43223,19 +43770,48 @@
      "id": "amanda-s-matzke",
      "name": "Amanda S. Matzke",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, Brazos County Court at Law No. 1",
+     "background": "Amanda Sullivan Matzke is listed by the Texas Office of Court Administration as judge of Brazos County Court at Law No. 1. She was unopposed in the March 2026 Republican primary.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Texas Judicial Directory, Brazos County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Sample Ballot, November 3, 2026 General Election",
+       "publisher": "Brazos County Elections Administration",
+       "url": "https://elections.brazoscountytx.gov/wp-content/uploads/2026/09/Sample-Ballot-Nov-3-2026-General-FINAL-YELLOW.pdf",
+       "date": "2026-09"
+      },
+      {
+       "id": "s3",
+       "title": "Cumulative Results Report, 2026 March 3rd Primary Election (official results)",
+       "publisher": "Brazos County Elections Administration",
+       "url": "https://elections.brazoscountytx.gov/wp-content/uploads/2026/04/Cumulative-Results-3-12-2026-04-47-19-PM-official-accessible.pdf",
+       "date": "2026-03-12"
+      }
+     ],
+     "research_gaps": "The Brazos County website blocked automated access, so no official biography was available.",
+     "researched": true
     }
    ],
    "office": {
@@ -43261,18 +43837,54 @@
      "name": "Mark Maltsberger",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Republican nominee for Brazos County Court at Law No. 2",
+     "background": "Mark Maltsberger won the March 2026 Republican primary for County Court at Law No. 2 with 57.43 percent over Patrick Meece. The seat is held by Judge Roy Brantley, who is running for the 85th District Court.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Cumulative Results Report, 2026 March 3rd Primary Election (official results)",
+       "publisher": "Brazos County Elections Administration",
+       "url": "https://elections.brazoscountytx.gov/wp-content/uploads/2026/04/Cumulative-Results-3-12-2026-04-47-19-PM-official-accessible.pdf",
+       "date": "2026-03-12"
+      },
+      {
+       "id": "s2",
+       "title": "Sample Ballot, November 3, 2026 General Election",
+       "publisher": "Brazos County Elections Administration",
+       "url": "https://elections.brazoscountytx.gov/wp-content/uploads/2026/09/Sample-Ballot-Nov-3-2026-General-FINAL-YELLOW.pdf",
+       "date": "2026-09"
+      },
+      {
+       "id": "s3",
+       "title": "Filing closes for 2026 Texas Primaries as Brazos County braces for packed election year",
+       "publisher": "KBTX",
+       "url": "https://www.kbtx.com/2025/12/11/filing-closes-2026-texas-primaries-brazos-county-braces-packed-election-year",
+       "date": "2025-12-10"
+      },
+      {
+       "id": "s4",
+       "title": "Texas Judicial Directory, Brazos County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      }
+     ],
+     "research_gaps": "No biography or professional background was found.",
+     "researched": true
     }
    ],
    "office": {
@@ -43298,18 +43910,47 @@
      "name": "Wayland Van Nest",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Court bailiff; Republican nominee for Brazos County District Clerk",
+     "background": "Wayland Van Nest is a Bryan High School graduate and a 24-year Brazos County employee who spent 19 years as a courtroom bailiff; he holds a bachelor's degree in criminal justice. He led the March 2026 Republican primary with 44.16 percent, ahead of incumbent District Clerk Gabriel Garcia (31.92 percent), and the two advanced to a May runoff. He is the nominee on the November ballot.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Brazos County District Clerk race heads to runoff as Van Nest leads Primary",
+       "publisher": "KBTX",
+       "url": "https://www.kbtx.com/2026/03/04/brazos-county-district-clerk-race-heads-runoff-van-nest-leads-primary/",
+       "date": "2026-03-04"
+      },
+      {
+       "id": "s2",
+       "title": "Cumulative Results Report, 2026 March 3rd Primary Election (official results)",
+       "publisher": "Brazos County Elections Administration",
+       "url": "https://elections.brazoscountytx.gov/wp-content/uploads/2026/04/Cumulative-Results-3-12-2026-04-47-19-PM-official-accessible.pdf",
+       "date": "2026-03-12"
+      },
+      {
+       "id": "s3",
+       "title": "Sample Ballot, November 3, 2026 General Election",
+       "publisher": "Brazos County Elections Administration",
+       "url": "https://elections.brazoscountytx.gov/wp-content/uploads/2026/09/Sample-Ballot-Nov-3-2026-General-FINAL-YELLOW.pdf",
+       "date": "2026-09"
+      }
+     ],
+     "research_gaps": "Runoff vote totals were not retrieved.",
+     "researched": true
     }
    ],
    "office": {
@@ -43335,18 +43976,54 @@
      "name": "Ashlie Peters-Bowman",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Chief deputy county clerk; Republican nominee for Brazos County Clerk",
+     "background": "Ashlie Peters-Bowman lists her ballot occupation as chief deputy county clerk, according to Branch. She was unopposed in the March 2026 Republican primary. Longtime County Clerk Karen McQueen withdrew from the race on the last day of filing.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Ashlie Peters-Bowman, candidate for Brazos County Clerk",
+       "publisher": "Branch Politics (branch.vote)",
+       "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-clerk-tx-county-brazos/candidates/6aa42a6d0bffdeaf5e5673f8",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Cumulative Results Report, 2026 March 3rd Primary Election (official results)",
+       "publisher": "Brazos County Elections Administration",
+       "url": "https://elections.brazoscountytx.gov/wp-content/uploads/2026/04/Cumulative-Results-3-12-2026-04-47-19-PM-official-accessible.pdf",
+       "date": "2026-03-12"
+      },
+      {
+       "id": "s3",
+       "title": "Sample Ballot, November 3, 2026 General Election",
+       "publisher": "Brazos County Elections Administration",
+       "url": "https://elections.brazoscountytx.gov/wp-content/uploads/2026/09/Sample-Ballot-Nov-3-2026-General-FINAL-YELLOW.pdf",
+       "date": "2026-09"
+      },
+      {
+       "id": "s4",
+       "title": "Filing closes for 2026 Texas Primaries as Brazos County braces for packed election year",
+       "publisher": "KBTX",
+       "url": "https://www.kbtx.com/2025/12/11/filing-closes-2026-texas-primaries-brazos-county-braces-packed-election-year",
+       "date": "2025-12-10"
+      }
+     ],
+     "research_gaps": "No detailed biography was found.",
+     "researched": true
     }
    ],
    "office": {
@@ -43371,19 +44048,48 @@
      "id": "cristian-villarreal",
      "name": "Cristian Villarreal",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Brazos County Treasurer (reported)",
+     "background": "Branch lists Cristian Villarreal as the incumbent Brazos County Treasurer, with a ballot occupation of treasurer. He was unopposed in the March 2026 Republican primary.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Cristian Villarreal, candidate for Brazos County Treasurer",
+       "publisher": "Branch Politics (branch.vote)",
+       "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-treasurer-tx-county-brazos/candidates/6aa42a6d0bffdeaf5e5673fa",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Cumulative Results Report, 2026 March 3rd Primary Election (official results)",
+       "publisher": "Brazos County Elections Administration",
+       "url": "https://elections.brazoscountytx.gov/wp-content/uploads/2026/04/Cumulative-Results-3-12-2026-04-47-19-PM-official-accessible.pdf",
+       "date": "2026-03-12"
+      },
+      {
+       "id": "s3",
+       "title": "Sample Ballot, November 3, 2026 General Election",
+       "publisher": "Brazos County Elections Administration",
+       "url": "https://elections.brazoscountytx.gov/wp-content/uploads/2026/09/Sample-Ballot-Nov-3-2026-General-FINAL-YELLOW.pdf",
+       "date": "2026-09"
+      }
+     ],
+     "research_gaps": "The Brazos County website blocked automated access, so no official biography was available. Incumbency is based on Branch.",
+     "researched": true
     }
    ],
    "office": {
@@ -43409,18 +44115,47 @@
      "name": "Kyle Greenwood",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Business owner; Republican nominee for County Commissioner Precinct 2",
+     "background": "Kyle Greenwood led the March 2026 Republican primary for Precinct 2 commissioner with 49.87 percent over Jordan Januse and Jeff Murski, short of a majority, and is the nominee on the November ballot. Branch lists his ballot occupation as business owner.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Cumulative Results Report, 2026 March 3rd Primary Election (official results)",
+       "publisher": "Brazos County Elections Administration",
+       "url": "https://elections.brazoscountytx.gov/wp-content/uploads/2026/04/Cumulative-Results-3-12-2026-04-47-19-PM-official-accessible.pdf",
+       "date": "2026-03-12"
+      },
+      {
+       "id": "s2",
+       "title": "Sample Ballot, November 3, 2026 General Election",
+       "publisher": "Brazos County Elections Administration",
+       "url": "https://elections.brazoscountytx.gov/wp-content/uploads/2026/09/Sample-Ballot-Nov-3-2026-General-FINAL-YELLOW.pdf",
+       "date": "2026-09"
+      },
+      {
+       "id": "s3",
+       "title": "Kyle Greenwood, candidate for Brazos County Commissioner, Precinct 2",
+       "publisher": "Branch Politics (branch.vote)",
+       "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-commissioner-tx-brazos-county-district-2/candidates/6aa42a6d0bffdeaf5e5673fc",
+       "date": null
+      }
+     ],
+     "research_gaps": "Runoff results and a biography were not retrieved.",
+     "researched": true
     }
    ],
    "office": {
@@ -43655,19 +44390,48 @@
      "id": "kenny-e-elliott",
      "name": "Kenny E. Elliott",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Justice of the Peace, Precinct 1, Brazos County",
+     "background": "Kenny E. Elliott is listed by the Texas Office of Court Administration as Justice of the Peace for Precinct 1, based in College Station. He was unopposed in the March 2026 Republican primary.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Texas Judicial Directory, Brazos County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Sample Ballot, November 3, 2026 General Election",
+       "publisher": "Brazos County Elections Administration",
+       "url": "https://elections.brazoscountytx.gov/wp-content/uploads/2026/09/Sample-Ballot-Nov-3-2026-General-FINAL-YELLOW.pdf",
+       "date": "2026-09"
+      },
+      {
+       "id": "s3",
+       "title": "Cumulative Results Report, 2026 March 3rd Primary Election (official results)",
+       "publisher": "Brazos County Elections Administration",
+       "url": "https://elections.brazoscountytx.gov/wp-content/uploads/2026/04/Cumulative-Results-3-12-2026-04-47-19-PM-official-accessible.pdf",
+       "date": "2026-03-12"
+      }
+     ],
+     "research_gaps": "The Brazos County website blocked automated access, so no official biography was available.",
+     "researched": true
     }
    ],
    "office": {
@@ -43692,19 +44456,48 @@
      "id": "terrence-nunn",
      "name": "Terrence Nunn",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Justice of the Peace, Precinct 2, Brazos County",
+     "background": "Terrence Nunn is listed by the Texas Office of Court Administration as Justice of the Peace for Precinct 2 in Bryan. He was unopposed in the March 2026 Republican primary.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Texas Judicial Directory, Brazos County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Sample Ballot, November 3, 2026 General Election",
+       "publisher": "Brazos County Elections Administration",
+       "url": "https://elections.brazoscountytx.gov/wp-content/uploads/2026/09/Sample-Ballot-Nov-3-2026-General-FINAL-YELLOW.pdf",
+       "date": "2026-09"
+      },
+      {
+       "id": "s3",
+       "title": "Cumulative Results Report, 2026 March 3rd Primary Election (official results)",
+       "publisher": "Brazos County Elections Administration",
+       "url": "https://elections.brazoscountytx.gov/wp-content/uploads/2026/04/Cumulative-Results-3-12-2026-04-47-19-PM-official-accessible.pdf",
+       "date": "2026-03-12"
+      }
+     ],
+     "research_gaps": "The Brazos County website blocked automated access, so no official biography was available.",
+     "researched": true
     }
    ],
    "office": {
@@ -43730,18 +44523,54 @@
      "name": "Kim Russell",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Self-employed; Republican nominee for Justice of the Peace Precinct 3",
+     "background": "Kim Russell won the March 2026 Republican primary for Precinct 3 justice of the peace with 74.49 percent over Steven Emert and Wajih Ajib. Branch lists the ballot occupation as self-employed. The state judicial directory lists Rick Hill as the current Precinct 3 justice of the peace.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Cumulative Results Report, 2026 March 3rd Primary Election (official results)",
+       "publisher": "Brazos County Elections Administration",
+       "url": "https://elections.brazoscountytx.gov/wp-content/uploads/2026/04/Cumulative-Results-3-12-2026-04-47-19-PM-official-accessible.pdf",
+       "date": "2026-03-12"
+      },
+      {
+       "id": "s2",
+       "title": "Sample Ballot, November 3, 2026 General Election",
+       "publisher": "Brazos County Elections Administration",
+       "url": "https://elections.brazoscountytx.gov/wp-content/uploads/2026/09/Sample-Ballot-Nov-3-2026-General-FINAL-YELLOW.pdf",
+       "date": "2026-09"
+      },
+      {
+       "id": "s3",
+       "title": "Kim Russell, candidate for Brazos Justice of the Peace, Precinct 3",
+       "publisher": "Branch Politics (branch.vote)",
+       "url": "https://branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-brazos-justice-precinct-3/candidates/6aa42a6d0bffdeaf5e567405",
+       "date": null
+      },
+      {
+       "id": "s4",
+       "title": "Texas Judicial Directory, Brazos County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      }
+     ],
+     "research_gaps": "No biography was found.",
+     "researched": true
     }
    ],
    "office": {
@@ -43766,19 +44595,48 @@
      "id": "darrell-booker",
      "name": "Darrell Booker",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Justice of the Peace, Precinct 4, Brazos County",
+     "background": "Darrell Booker is listed by the Texas Office of Court Administration as Justice of the Peace for Precinct 4 in Bryan. He was unopposed in the March 2026 Democratic primary.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Texas Judicial Directory, Brazos County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Sample Ballot, November 3, 2026 General Election",
+       "publisher": "Brazos County Elections Administration",
+       "url": "https://elections.brazoscountytx.gov/wp-content/uploads/2026/09/Sample-Ballot-Nov-3-2026-General-FINAL-YELLOW.pdf",
+       "date": "2026-09"
+      },
+      {
+       "id": "s3",
+       "title": "Cumulative Results Report, 2026 March 3rd Primary Election (official results)",
+       "publisher": "Brazos County Elections Administration",
+       "url": "https://elections.brazoscountytx.gov/wp-content/uploads/2026/04/Cumulative-Results-3-12-2026-04-47-19-PM-official-accessible.pdf",
+       "date": "2026-03-12"
+      }
+     ],
+     "research_gaps": "The Brazos County website blocked automated access, so no official biography was available.",
+     "researched": true
     }
    ],
    "office": {
@@ -43803,19 +44661,48 @@
      "id": "jeff-w-reeves",
      "name": "Jeff W. Reeves",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Brazos County Constable, Precinct 1 (reported)",
+     "background": "Branch lists Jeff W. Reeves as the incumbent Precinct 1 constable. He was unopposed in the March 2026 Republican primary.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Jeff W. Reeves, candidate for Brazos County Constable, Justice Precinct 1",
+       "publisher": "Branch Politics (branch.vote)",
+       "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-constable-tx-brazos-justice-precinct-1/candidates/6aa42a6d0bffdeaf5e567409",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Cumulative Results Report, 2026 March 3rd Primary Election (official results)",
+       "publisher": "Brazos County Elections Administration",
+       "url": "https://elections.brazoscountytx.gov/wp-content/uploads/2026/04/Cumulative-Results-3-12-2026-04-47-19-PM-official-accessible.pdf",
+       "date": "2026-03-12"
+      },
+      {
+       "id": "s3",
+       "title": "Sample Ballot, November 3, 2026 General Election",
+       "publisher": "Brazos County Elections Administration",
+       "url": "https://elections.brazoscountytx.gov/wp-content/uploads/2026/09/Sample-Ballot-Nov-3-2026-General-FINAL-YELLOW.pdf",
+       "date": "2026-09"
+      }
+     ],
+     "research_gaps": "The Brazos County website blocked automated access, so no official biography was available. Incumbency is based on Branch.",
+     "researched": true
     }
    ],
    "office": {
@@ -43840,19 +44727,48 @@
      "id": "donald-joe-lampo",
      "name": "Donald Joe Lampo",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Brazos County Constable, Precinct 2 (reported ballot occupation)",
+     "background": "Donald Joe Lampo listed his ballot occupation as Brazos County Constable, Precinct 2, according to Branch. He was unopposed in the March 2026 Republican primary.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Donald Joe Lampo, candidate for Brazos County Constable, Justice Precinct 2",
+       "publisher": "Branch Politics (branch.vote)",
+       "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-constable-tx-brazos-justice-precinct-2/candidates/6aa42a6d0bffdeaf5e56740b",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Cumulative Results Report, 2026 March 3rd Primary Election (official results)",
+       "publisher": "Brazos County Elections Administration",
+       "url": "https://elections.brazoscountytx.gov/wp-content/uploads/2026/04/Cumulative-Results-3-12-2026-04-47-19-PM-official-accessible.pdf",
+       "date": "2026-03-12"
+      },
+      {
+       "id": "s3",
+       "title": "Sample Ballot, November 3, 2026 General Election",
+       "publisher": "Brazos County Elections Administration",
+       "url": "https://elections.brazoscountytx.gov/wp-content/uploads/2026/09/Sample-Ballot-Nov-3-2026-General-FINAL-YELLOW.pdf",
+       "date": "2026-09"
+      }
+     ],
+     "research_gaps": "Branch's incumbent flag for him is false despite his listed occupation, so how long he has held the office (elected or appointed) is unconfirmed.",
+     "researched": true
     }
    ],
    "office": {
@@ -43877,19 +44793,48 @@
      "id": "jp-ingram",
      "name": "J.p. Ingram",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Brazos County Constable, Precinct 3 (reported)",
+     "background": "Branch lists J.P. Ingram as the incumbent Precinct 3 constable. He was unopposed in the March 2026 Republican primary.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "J.P. Ingram, candidate for Brazos County Constable, Justice Precinct 3",
+       "publisher": "Branch Politics (branch.vote)",
+       "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-constable-tx-brazos-justice-precinct-3/candidates/6aa42a6d0bffdeaf5e56740d",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Cumulative Results Report, 2026 March 3rd Primary Election (official results)",
+       "publisher": "Brazos County Elections Administration",
+       "url": "https://elections.brazoscountytx.gov/wp-content/uploads/2026/04/Cumulative-Results-3-12-2026-04-47-19-PM-official-accessible.pdf",
+       "date": "2026-03-12"
+      },
+      {
+       "id": "s3",
+       "title": "Sample Ballot, November 3, 2026 General Election",
+       "publisher": "Brazos County Elections Administration",
+       "url": "https://elections.brazoscountytx.gov/wp-content/uploads/2026/09/Sample-Ballot-Nov-3-2026-General-FINAL-YELLOW.pdf",
+       "date": "2026-09"
+      }
+     ],
+     "research_gaps": "The Brazos County website blocked automated access, so no official biography was available. Incumbency is based on Branch.",
+     "researched": true
     }
    ],
    "office": {
@@ -46092,19 +47037,41 @@
      "id": "tracie-wright-reneau",
      "name": "Tracie Wright Reneau",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, 207th District Court",
+     "background": "Tracie Wright-Reneau is judge of the 207th District Court, according to Caldwell County's court page and the Texas Office of Court Administration.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "207th District Court",
+       "publisher": "Caldwell County, Texas",
+       "url": "https://www.co.caldwell.tx.us/page/207th_court",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Texas Judicial Directory, Caldwell County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      }
+     ],
+     "research_gaps": "No published biography covering education or professional background was found on official county or court pages.",
+     "researched": true
     }
    ],
    "office": {
@@ -46129,19 +47096,62 @@
      "id": "fred-h-weber",
      "name": "Fred H. Weber",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Caldwell County Criminal District Attorney",
+     "background": "Fred Weber is the Caldwell County Criminal District Attorney, according to the county's District Attorney page. The Texas District and County Attorneys Association lists him as an incumbent running uncontested in 2026.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1",
+        "s2"
+       ]
+      },
+      {
+       "text": "Caldwell County's official list of write-in candidates for November 3, 2026 includes no write-in candidates for county offices.",
+       "sources": [
+        "s4"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "District Attorney's Office",
+       "publisher": "Caldwell County, Texas",
+       "url": "https://www.co.caldwell.tx.us/page/District.Attorney",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "2026 Elections for District and County Attorneys",
+       "publisher": "Texas District and County Attorneys Association",
+       "url": "https://www.tdcaa.com/wp-content/uploads/2026-prosecutor-results-2-1.pdf",
+       "date": "2026"
+      },
+      {
+       "id": "s3",
+       "title": "Texas Judicial Directory, Caldwell County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      },
+      {
+       "id": "s4",
+       "title": "November 3, 2026, General Election, Caldwell County Official Write-In Candidates",
+       "publisher": "Caldwell County Elections",
+       "url": "https://www.co.caldwell.tx.us/upload/page/0231/2026/November/Social%20Media%20Posts/Caldwell%20County%20Official%20Write-Ins_2026%20November%203.pdf",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No official biography or documented positions on bail or diversion were found.",
+     "researched": true
     }
    ],
    "office": {
@@ -46332,19 +47342,54 @@
      "id": "trey-hicks",
      "name": "Trey Hicks",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, Caldwell County Court at Law",
+     "background": "Trey Hicks (Richard R. Hicks III) is the presiding judge of the Caldwell County Court at Law, according to the county's court page and the Texas Office of Court Administration.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Caldwell County's official list of write-in candidates for November 3, 2026 includes no write-in candidates for county offices.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Caldwell County Court at Law",
+       "publisher": "Caldwell County, Texas",
+       "url": "https://www.co.caldwell.tx.us/page/County.Court",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Texas Judicial Directory, Caldwell County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "November 3, 2026, General Election, Caldwell County Official Write-In Candidates",
+       "publisher": "Caldwell County Elections",
+       "url": "https://www.co.caldwell.tx.us/upload/page/0231/2026/November/Social%20Media%20Posts/Caldwell%20County%20Official%20Write-Ins_2026%20November%203.pdf",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No published biography covering education or professional background was found on official county or court pages.",
+     "researched": true
     }
    ],
    "office": {
@@ -46369,19 +47414,54 @@
      "id": "juanita-allen",
      "name": "Juanita Allen",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Caldwell County District Clerk",
+     "background": "Juanita Allen is the Caldwell County District Clerk, according to the county's District Clerk page and the Texas Office of Court Administration.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Caldwell County's official list of write-in candidates for November 3, 2026 includes no write-in candidates for county offices.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "District Clerk",
+       "publisher": "Caldwell County, Texas",
+       "url": "https://www.co.caldwell.tx.us/page/District.Clerk",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Texas Judicial Directory, Caldwell County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "November 3, 2026, General Election, Caldwell County Official Write-In Candidates",
+       "publisher": "Caldwell County Elections",
+       "url": "https://www.co.caldwell.tx.us/upload/page/0231/2026/November/Social%20Media%20Posts/Caldwell%20County%20Official%20Write-Ins_2026%20November%203.pdf",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No published biography covering education or professional background was found on official county or court pages.",
+     "researched": true
     }
    ],
    "office": {
@@ -46406,19 +47486,54 @@
      "id": "teresa-rodriguez",
      "name": "Teresa Rodriguez",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Caldwell County Clerk",
+     "background": "Teresa Rodriguez is the Caldwell County Clerk, according to the county's County Clerk page and the Texas Office of Court Administration.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Caldwell County's official list of write-in candidates for November 3, 2026 includes no write-in candidates for county offices.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Caldwell County Clerk",
+       "publisher": "Caldwell County, Texas",
+       "url": "https://www.co.caldwell.tx.us/page/County.Clerk",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Texas Judicial Directory, Caldwell County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "November 3, 2026, General Election, Caldwell County Official Write-In Candidates",
+       "publisher": "Caldwell County Elections",
+       "url": "https://www.co.caldwell.tx.us/upload/page/0231/2026/November/Social%20Media%20Posts/Caldwell%20County%20Official%20Write-Ins_2026%20November%203.pdf",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No published biography covering education or professional background was found on official county or court pages.",
+     "researched": true
     }
    ],
    "office": {
@@ -46444,18 +47559,68 @@
      "name": "Darla Law",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Former Caldwell County Tax Assessor-Collector; Republican nominee for County Treasurer",
+     "background": "Darla Law served as Caldwell County Tax Assessor-Collector from 2012 through 2024 and did not seek re-election to that office in 2024. In 2026 she ran for county treasurer against incumbent Treasurer Gloria Garcia, who was appointed in 2023. Caldwell County lists Garcia as the current treasurer.",
      "website": null,
      "priorities": [],
      "promises": [],
-     "record": [],
-     "notes": [],
+     "record": [
+      {
+       "text": "Served as Caldwell County Tax Assessor-Collector from 2012 through 2024.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1",
+        "s4"
+       ]
+      },
+      {
+       "text": "Caldwell County's official list of write-in candidates for November 3, 2026 includes no write-in candidates for county offices.",
+       "sources": [
+        "s4"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Caldwell County braces for high-stakes races in 2026 election",
+       "publisher": "Lockhart Post-Register",
+       "url": "https://post-register.com/caldwell-county-braces-for-high-stakes-races-in-2026-election/",
+       "date": "2025-12-31"
+      },
+      {
+       "id": "s2",
+       "title": "Several county positions on March ballot",
+       "publisher": "Lockhart Post-Register",
+       "url": "https://post-register.com/several-county-positions-on-march-ballot/",
+       "date": "2023-12-20"
+      },
+      {
+       "id": "s3",
+       "title": "County Treasurer",
+       "publisher": "Caldwell County, Texas",
+       "url": "https://www.co.caldwell.tx.us/page/County.Treasurer",
+       "date": null
+      },
+      {
+       "id": "s4",
+       "title": "November 3, 2026, General Election, Caldwell County Official Write-In Candidates",
+       "publisher": "Caldwell County Elections",
+       "url": "https://www.co.caldwell.tx.us/upload/page/0231/2026/November/Social%20Media%20Posts/Caldwell%20County%20Official%20Write-Ins_2026%20November%203.pdf",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "March 2026 primary results for the treasurer race were not retrieved.",
+     "researched": true
     }
    ],
    "office": {
@@ -46480,19 +47645,47 @@
      "id": "rusty-horne",
      "name": "Rusty Horne",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Caldwell County Commissioner, Precinct 2",
+     "background": "Rusty Horne is the Caldwell County Commissioner for Precinct 2, according to the county's Commissioners Court page.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Caldwell County's official list of write-in candidates for November 3, 2026 includes no write-in candidates for county offices.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Commissioners Court",
+       "publisher": "Caldwell County, Texas",
+       "url": "https://www.co.caldwell.tx.us/page/Commissioners.Court",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "November 3, 2026, General Election, Caldwell County Official Write-In Candidates",
+       "publisher": "Caldwell County Elections",
+       "url": "https://www.co.caldwell.tx.us/upload/page/0231/2026/November/Social%20Media%20Posts/Caldwell%20County%20Official%20Write-Ins_2026%20November%203.pdf",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No published biography covering education or professional background was found on official county or court pages.",
+     "researched": true
     }
    ],
    "office": {
@@ -46645,19 +47838,54 @@
      "id": "matt-kiely",
      "name": "Matt Kiely",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Justice of the Peace, Precinct 1, Caldwell County",
+     "background": "Matt Kiely is the Justice of the Peace for Precinct 1 in Lockhart, according to Caldwell County and the Texas Office of Court Administration.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Caldwell County's official list of write-in candidates for November 3, 2026 includes no write-in candidates for county offices.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Justice of the Peace, Precinct 1",
+       "publisher": "Caldwell County, Texas",
+       "url": "https://www.co.caldwell.tx.us/page/JP1",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Texas Judicial Directory, Caldwell County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "November 3, 2026, General Election, Caldwell County Official Write-In Candidates",
+       "publisher": "Caldwell County Elections",
+       "url": "https://www.co.caldwell.tx.us/upload/page/0231/2026/November/Social%20Media%20Posts/Caldwell%20County%20Official%20Write-Ins_2026%20November%203.pdf",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No published biography covering education or professional background was found on official county or court pages.",
+     "researched": true
     }
    ],
    "office": {
@@ -46682,19 +47910,54 @@
      "id": "shanna-conley",
      "name": "Shanna Conley",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Justice of the Peace, Precinct 2, Caldwell County",
+     "background": "Shanna Conley is the Justice of the Peace for Precinct 2 in Luling, according to Caldwell County and the Texas Office of Court Administration.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Caldwell County's official list of write-in candidates for November 3, 2026 includes no write-in candidates for county offices.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Justice of the Peace, Precinct 2",
+       "publisher": "Caldwell County, Texas",
+       "url": "https://www.co.caldwell.tx.us/page/JP2",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Texas Judicial Directory, Caldwell County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "November 3, 2026, General Election, Caldwell County Official Write-In Candidates",
+       "publisher": "Caldwell County Elections",
+       "url": "https://www.co.caldwell.tx.us/upload/page/0231/2026/November/Social%20Media%20Posts/Caldwell%20County%20Official%20Write-Ins_2026%20November%203.pdf",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No published biography covering education or professional background was found on official county or court pages.",
+     "researched": true
     }
    ],
    "office": {
@@ -46820,19 +48083,54 @@
      "id": "yvette-m-mireles",
      "name": "Yvette M. Mireles",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Justice of the Peace, Precinct 4, Caldwell County",
+     "background": "Yvette Mireles is the Justice of the Peace for Precinct 4, according to Caldwell County and the Texas Office of Court Administration.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Caldwell County's official list of write-in candidates for November 3, 2026 includes no write-in candidates for county offices.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Justice of the Peace, Precinct 4",
+       "publisher": "Caldwell County, Texas",
+       "url": "https://www.co.caldwell.tx.us/page/JP4",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Texas Judicial Directory, Caldwell County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "November 3, 2026, General Election, Caldwell County Official Write-In Candidates",
+       "publisher": "Caldwell County Elections",
+       "url": "https://www.co.caldwell.tx.us/upload/page/0231/2026/November/Social%20Media%20Posts/Caldwell%20County%20Official%20Write-Ins_2026%20November%203.pdf",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No published biography covering education or professional background was found on official county or court pages.",
+     "researched": true
     }
    ],
    "office": {
@@ -138093,19 +139391,41 @@
      "id": "susan-kelly",
      "name": "Susan Kelly",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, 54th District Court, McLennan County",
+     "background": "Susan N. Kelly is listed by the Texas Office of Court Administration as judge of the 54th District Court in Waco. Branch lists her ballot occupation as 54th District judge.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Texas Judicial Directory, McLennan County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Susan Kelly, candidate for District Judge, 54th Judicial District",
+       "publisher": "Branch Politics (branch.vote)",
+       "url": "https://branch.vote/races/2026-texas-general-election-tx-state-district-judge-tx-judicial-district-54/candidates/6a60efa3d356f778be6c1c02",
+       "date": null
+      }
+     ],
+     "research_gaps": "No published biography covering education or professional background was found on official county or court pages. The year she took the bench was not confirmed.",
+     "researched": true
     }
    ],
    "office": {
@@ -138130,19 +139450,62 @@
      "id": "pete-rusek",
      "name": "Pete Rusek",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, 74th District Court, McLennan County, since December 2025 (appointed)",
+     "background": "Peter Rusek is a Waco attorney and shareholder at Sheehy, Lovelace and Mayfield, P.C. Governor Greg Abbott appointed him on September 22, 2025, to replace Judge Gary Coley Jr., who resigned in February 2025; he was sworn in on December 1, 2025. He holds a B.S. in psychology from Texas A&M University and a J.D. from Baylor Law School, where KWTX reports he has been an adjunct professor since 1987. He served on the Midway ISD board from 1996, most recently as president, and has represented local entities including the Waco school board, McLennan Community College, and the Brazos River Authority.",
      "website": null,
      "priorities": [],
      "promises": [],
-     "record": [],
-     "notes": [],
+     "record": [
+      {
+       "text": "Appointed by Governor Greg Abbott in September 2025 to the 74th District Court for a term ending December 31, 2026, or until a successor is elected and qualified.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot. He is seeking the remainder of the unexpired term.",
+       "sources": [
+        "s1",
+        "s3"
+       ]
+      },
+      {
+       "text": "The governor's office lists memberships in the State Bar of Texas, the Waco-McLennan County Bar Association, the Texas Council of School Attorneys and the National School Attorneys Association.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Governor Abbott Appoints Rusek To 74th Judicial District Court",
+       "publisher": "Office of the Texas Governor",
+       "url": "https://gov.texas.gov/news/post/governor-abbott-appoints-rusek-to-74th-judicial-district-court",
+       "date": "2025-09-22"
+      },
+      {
+       "id": "s2",
+       "title": "Rusek sworn in as 74th State District Court judge",
+       "publisher": "KWTX",
+       "url": "https://www.kwtx.com/2025/12/01/rusek-sworn-74th-state-district-court-judge",
+       "date": "2025-12-01"
+      },
+      {
+       "id": "s3",
+       "title": "Texas Judicial Directory, McLennan County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      }
+     ],
      "research_gaps": "",
-     "researched": false
+     "researched": true
     }
    ],
    "office": {
@@ -138167,19 +139530,54 @@
      "id": "gina-long",
      "name": "Gina Long",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, 170th District Court, McLennan County (per state judicial directory)",
+     "background": "Gina Christine-Avery Long is listed by the Texas Office of Court Administration as judge of the 170th District Court. She won the March 3, 2026 Republican primary for the seat with 57.61 percent over Barrett Thomas; she was not listed as the incumbent at that time. Branch lists her ballot occupation as attorney.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Won the 2026 Republican primary with 57.61 percent of the vote over Barrett Thomas (42.39 percent).",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Texas Judicial Directory, McLennan County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "RESULTS: McLennan County state and local primary races",
+       "publisher": "KWBU",
+       "url": "https://www.kwbu.org/2026-03-03/live-results-mclennan-county-state-and-local-primary-races",
+       "date": "2026-03-04"
+      },
+      {
+       "id": "s3",
+       "title": "Gina Long, candidate for District Judge, 170th Judicial District",
+       "publisher": "Branch Politics (branch.vote)",
+       "url": "https://branch.vote/races/2026-texas-general-election-tx-state-district-judge-tx-judicial-district-170/candidates/6a60e9bdd356f778be62fd58",
+       "date": null
+      }
+     ],
+     "research_gaps": "How and when she took the bench (for example, by appointment after the primary) was not found; no biography located.",
+     "researched": true
     }
    ],
    "office": {
@@ -138204,19 +139602,41 @@
      "id": "ryan-luna",
      "name": "Ryan Luna",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, 414th District Court, McLennan County",
+     "background": "Ryan Alexander Luna is listed by the Texas Office of Court Administration as judge of the 414th District Court in Waco. KWTX identified him in 2025 as the judge of the 414th State District Court.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Texas Judicial Directory, McLennan County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "McLennan County employees announce bids for district clerk",
+       "publisher": "KWTX",
+       "url": "https://www.kwtx.com/2025/08/07/mclennan-county-employees-announce-bids-district-clerk/",
+       "date": "2025-08-07"
+      }
+     ],
+     "research_gaps": "No published biography covering education or professional background was found on official county or court pages.",
+     "researched": true
     }
    ],
    "office": {
@@ -138241,19 +139661,42 @@
      "id": "josh-tetens",
      "name": "Josh Tetens",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "McLennan County Criminal District Attorney",
+     "background": "Josh Tetens is listed by the Texas Office of Court Administration as the McLennan County district attorney. The Texas District and County Attorneys Association lists him as an incumbent running uncontested in 2026.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1",
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Texas Judicial Directory, McLennan County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "2026 Elections for District and County Attorneys",
+       "publisher": "Texas District and County Attorneys Association",
+       "url": "https://www.tdcaa.com/wp-content/uploads/2026-prosecutor-results-2-1.pdf",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No official biography or documented positions on bail or mental health diversion were found.",
+     "researched": true
     }
    ],
    "office": {
@@ -138279,18 +139722,93 @@
      "name": "Rick Tullis",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Waco businessman; Republican nominee for McLennan County Judge",
+     "background": "Rick Tullis is a 1993 Baylor University mechanical engineering graduate and a longtime Waco businessman, the former president and a founding partner of Capstone Mechanical, an HVAC, plumbing, piping and building automation firm. He ran unopposed in the 2026 Republican primary. He would succeed County Judge Scott Felton, who announced his retirement after 13 years in office, and take office in January 2027.",
      "website": null,
-     "priorities": [],
+     "priorities": [
+      {
+       "text": "Names economic development as his top focus.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Describes water, transportation and infrastructure as challenges for the coming decades.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Says he wants to improve mental health services in the county.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "Says he wants to be known as \"the collaborative county judge.\"",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s4"
+       ]
+      },
+      {
+       "text": "The state judicial directory lists Scott M. Felton as the current McLennan County Judge.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
      "stances": {},
-     "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "issue_notes": [
+      {
+       "topic": "Property Taxes",
+       "summary": "Told the Baylor Lariat the county must \"figure out a way to relieve some of the tax burden off taxpayers\" while keeping services at the same level or better.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Baylor alumnus steps into McLennan County judge role with big goals",
+       "publisher": "The Baylor Lariat",
+       "url": "https://baylorlariat.com/2026/03/17/baylor-alumnus-steps-into-mclennan-county-judge-role-with-big-goals/",
+       "date": "2026-03-17"
+      },
+      {
+       "id": "s2",
+       "title": "Special: Meet Rick Tullis, McLennan County's next county judge",
+       "publisher": "KWBU",
+       "url": "https://www.kwbu.org/show/friday-forum-with-the-waco-bridge/2026-03-13/special-meet-rick-tullis-mclennan-countys-next-county-judge",
+       "date": "2026-03-13"
+      },
+      {
+       "id": "s3",
+       "title": "Texas Judicial Directory, McLennan County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      },
+      {
+       "id": "s4",
+       "title": "Rick Tullis, candidate for McLennan County Judge",
+       "publisher": "Branch Politics (branch.vote)",
+       "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-judge-tx-county-mclennan/candidates/6aa42a6d0bffdeaf5e5675dd",
+       "date": null
+      }
+     ],
+     "research_gaps": "No campaign website or detailed policy platform was found.",
+     "researched": true
     }
    ],
    "office": {
@@ -138315,19 +139833,34 @@
      "id": "vikram-vik-deivanayagam",
      "name": "Vikram \"Vik\" Deivanayagam",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, McLennan County Court at Law (No. 1)",
+     "background": "Vikram Deivanayagam is listed by the Texas Office of Court Administration as judge of the McLennan County Court at Law in Waco.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Texas Judicial Directory, McLennan County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      }
+     ],
+     "research_gaps": "No published biography covering education or professional background was found on official county or court pages.",
+     "researched": true
     }
    ],
    "office": {
@@ -138352,19 +139885,34 @@
      "id": "brad-cates",
      "name": "Brad Cates",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, McLennan County Court at Law No. 2",
+     "background": "Thomas Bradley (Brad) Cates is listed by the Texas Office of Court Administration as judge of McLennan County Court at Law No. 2.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Texas Judicial Directory, McLennan County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      }
+     ],
+     "research_gaps": "No published biography covering education or professional background was found on official county or court pages.",
+     "researched": true
     }
    ],
    "office": {
@@ -138389,19 +139937,41 @@
      "id": "pat-atkins",
      "name": "Pat Atkins",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, McLennan County Court at Law No. 3",
+     "background": "J. Patrick (Pat) Atkins is listed by the Texas Office of Court Administration as judge of McLennan County Court at Law No. 3. KWTX identified him as the County Court-at-Law No. 3 judge in December 2025.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Texas Judicial Directory, McLennan County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Rusek sworn in as 74th State District Court judge",
+       "publisher": "KWTX",
+       "url": "https://www.kwtx.com/2025/12/01/rusek-sworn-74th-state-district-court-judge",
+       "date": "2025-12-01"
+      }
+     ],
+     "research_gaps": "No published biography covering education or professional background was found on official county or court pages.",
+     "researched": true
     }
    ],
    "office": {
@@ -138427,18 +139997,62 @@
      "name": "Rebecca Eubank",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Assistant court administrator, 414th District Court; Republican nominee for District Clerk",
+     "background": "Rebecca Eubank is an Air Force veteran with a bachelor's degree in criminal justice administration and a master's in criminology. She worked as a patrol officer in Bruceville-Eddy, in the Precinct 1 Constable's Office and as a Bellmead police investigator before joining the McLennan County Sheriff's Office in 2016, where she rose to sergeant. Since 2024 she has been assistant court administrator for the 414th District Court. She won the 2026 Republican primary with 66.23 percent over Connley Litton.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s3",
+        "s4"
+       ]
+      },
+      {
+       "text": "The seat opened when longtime District Clerk Jon Gimble ran for Texas Senate District 22; the state judicial directory now lists Ralph Strother in the District Clerk's office.",
+       "sources": [
+        "s1",
+        "s3"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
+     "sources": [
+      {
+       "id": "s1",
+       "title": "McLennan County employees announce bids for district clerk",
+       "publisher": "KWTX",
+       "url": "https://www.kwtx.com/2025/08/07/mclennan-county-employees-announce-bids-district-clerk/",
+       "date": "2025-08-07"
+      },
+      {
+       "id": "s2",
+       "title": "RESULTS: McLennan County state and local primary races",
+       "publisher": "KWBU",
+       "url": "https://www.kwbu.org/2026-03-03/live-results-mclennan-county-state-and-local-primary-races",
+       "date": "2026-03-04"
+      },
+      {
+       "id": "s3",
+       "title": "Texas Judicial Directory, McLennan County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      },
+      {
+       "id": "s4",
+       "title": "Rebecca Eubank, candidate for McLennan District Clerk",
+       "publisher": "Branch Politics (branch.vote)",
+       "url": "https://branch.vote/races/2026-texas-general-election-tx-state-district-clerk-tx-county-mclennan/candidates/6aa42a6d0bffdeaf5e5675e5",
+       "date": null
+      }
+     ],
      "research_gaps": "",
-     "researched": false
+     "researched": true
     }
    ],
    "office": {
@@ -138463,19 +140077,34 @@
      "id": "andy-harwell",
      "name": "Andy Harwell",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "McLennan County Clerk",
+     "background": "J. A. (Andy) Harwell is listed by the Texas Office of Court Administration as the McLennan County Clerk.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Texas Judicial Directory, McLennan County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      }
+     ],
+     "research_gaps": "No published biography covering education or professional background was found on official county or court pages.",
+     "researched": true
     }
    ],
    "office": {
@@ -138500,19 +140129,34 @@
      "id": "bill-helton",
      "name": "Bill Helton",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "McLennan County Treasurer (reported)",
+     "background": "Branch lists Bill Helton as the incumbent McLennan County Treasurer, with his ballot occupation given as McLennan County Treasurer.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Bill Helton, candidate for McLennan County Treasurer",
+       "publisher": "Branch Politics (branch.vote)",
+       "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-treasurer-tx-county-mclennan/candidates/6aa42a6d0bffdeaf5e5675e9",
+       "date": null
+      }
+     ],
+     "research_gaps": "The McLennan County website blocked automated access, so incumbency and background could not be confirmed from an official county page.",
+     "researched": true
     }
    ],
    "office": {
@@ -138737,18 +140381,33 @@
      "name": "Perry Felton",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Banker; Republican nominee for County Commissioner Precinct 4 (reported)",
+     "background": "Branch lists Perry Felton as a non-incumbent candidate for McLennan County Commissioner, Precinct 4, with a ballot occupation of banker.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Perry Felton, candidate for McLennan County Commissioner, Precinct 4",
+       "publisher": "Branch Politics (branch.vote)",
+       "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-commissioner-tx-mclennan-county-district-4/candidates/6aa42a6d0bffdeaf5e5675ee",
+       "date": null
+      }
+     ],
+     "research_gaps": "The McLennan County website blocked automated access; no official or news biography was found.",
+     "researched": true
     }
    ],
    "office": {
@@ -138773,19 +140432,75 @@
      "id": "dianne-hensley",
      "name": "Dianne Hensley",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Justice of the Peace, Precinct 1, Place 1, McLennan County, since 2015",
+     "background": "Dianne L. Hensley was first elected justice of the peace in McLennan County in 2014 and has been re-elected since, according to the Supreme Court of Texas. She won the 2026 Republican primary with 56.71 percent in a four-candidate field.",
      "website": null,
      "priorities": [],
      "promises": [],
-     "record": [],
-     "notes": [],
+     "record": [
+      {
+       "text": "In November 2019 the State Commission on Judicial Conduct issued her a public warning, finding that her practice of declining to officiate same-sex weddings for religious reasons while referring couples elsewhere violated Canon 4A(1); she did not appeal and instead sued the commission in December 2019.",
+       "sources": [
+        "s1"
+       ]
+      },
+      {
+       "text": "In June 2024 the Supreme Court of Texas held that, apart from one declaratory request, her lawsuit was not barred and remanded it to the court of appeals.",
+       "sources": [
+        "s1",
+        "s2"
+       ]
+      }
+     ],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s4"
+       ]
+      },
+      {
+       "text": "Won the 2026 Republican primary with 56.71 percent over Sterling Shepperd, Adriana Bost and Anthony Luevanos.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Hensley v. State Commission on Judicial Conduct, No. 22-1145 (opinion of the Court, Hecht, C.J.)",
+       "publisher": "Supreme Court of Texas (search.txcourts.gov)",
+       "url": "https://search.txcourts.gov/SearchMedia.aspx?MediaVersionID=4839140d-373c-4a62-be67-0b4477c71729&coa=cossup&DT=OPINION&MediaID=dc1389e2-fc2e-4acd-a943-c30520127cd2",
+       "date": "2024-06-28"
+      },
+      {
+       "id": "s2",
+       "title": "Case 22-1145, Dianne Hensley v. State Commission on Judicial Conduct (case page)",
+       "publisher": "Supreme Court of Texas (search.txcourts.gov)",
+       "url": "https://search.txcourts.gov/Case.aspx?cn=22-1145&coa=cossup",
+       "date": "2024-06-28"
+      },
+      {
+       "id": "s3",
+       "title": "RESULTS: McLennan County state and local primary races",
+       "publisher": "KWBU",
+       "url": "https://www.kwbu.org/2026-03-03/live-results-mclennan-county-state-and-local-primary-races",
+       "date": "2026-03-04"
+      },
+      {
+       "id": "s4",
+       "title": "Texas Judicial Directory, McLennan County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      }
+     ],
+     "research_gaps": "The current status of her lawsuit after the 2024 remand was not researched.",
+     "researched": true
     }
    ],
    "office": {
@@ -138810,19 +140525,41 @@
      "id": "gary-bull-durham",
      "name": "Gary \"Bull\" Durham",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Justice of the Peace, Precinct 1, Place 2, McLennan County",
+     "background": "Gary W. (Bull) Durham is listed by the Texas Office of Court Administration as Justice of the Peace for Precinct 1, Place 2. He won the 2026 Republican primary as the incumbent with 67.2 percent over Will Hutson and Aubrey Robertson III.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Texas Judicial Directory, McLennan County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "RESULTS: McLennan County state and local primary races",
+       "publisher": "KWBU",
+       "url": "https://www.kwbu.org/2026-03-03/live-results-mclennan-county-state-and-local-primary-races",
+       "date": "2026-03-04"
+      }
+     ],
+     "research_gaps": "No published biography covering education or professional background was found on official county or court pages.",
+     "researched": true
     }
    ],
    "office": {
@@ -138847,19 +140584,34 @@
      "id": "james-e-lee-jr",
      "name": "James E. Lee, Jr",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Justice of the Peace, Precinct 2, McLennan County",
+     "background": "James E. Lee Jr. is listed by the Texas Office of Court Administration as Justice of the Peace for Precinct 2 in Waco.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Texas Judicial Directory, McLennan County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      }
+     ],
+     "research_gaps": "No published biography covering education or professional background was found on official county or court pages.",
+     "researched": true
     }
    ],
    "office": {
@@ -138884,19 +140636,34 @@
      "id": "david-w-pareya",
      "name": "David W. Pareya",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Justice of the Peace, Precinct 3, McLennan County",
+     "background": "David W. Pareya is listed by the Texas Office of Court Administration as Justice of the Peace for Precinct 3, based in West.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Texas Judicial Directory, McLennan County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      }
+     ],
+     "research_gaps": "No published biography covering education or professional background was found on official county or court pages.",
+     "researched": true
     }
    ],
    "office": {
@@ -138921,19 +140688,34 @@
      "id": "brian-richardson",
      "name": "Brian Richardson",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Justice of the Peace, Precinct 4, McLennan County",
+     "background": "Brian Richardson is listed by the Texas Office of Court Administration as Justice of the Peace for Precinct 4, based in McGregor.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Texas Judicial Directory, McLennan County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      }
+     ],
+     "research_gaps": "No published biography covering education or professional background was found on official county or court pages.",
+     "researched": true
     }
    ],
    "office": {
@@ -138959,18 +140741,53 @@
      "name": "Leslie Edwards",
      "party": "Democratic",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Broker; Democratic nominee for Justice of the Peace Precinct 5",
+     "background": "Leslie Edwards finished second (37.64 percent) in the March 2026 Democratic primary and advanced to a runoff with incumbent Lucyann Sanchez-Miramontez; Edwards is now the Democratic nominee. Branch lists her ballot occupation as broker.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "The state judicial directory lists Lucyann Sanchez-Miramontez as the current Precinct 5 justice of the peace.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "RESULTS: McLennan County state and local primary races",
+       "publisher": "KWBU",
+       "url": "https://www.kwbu.org/2026-03-03/live-results-mclennan-county-state-and-local-primary-races",
+       "date": "2026-03-04"
+      },
+      {
+       "id": "s2",
+       "title": "Leslie Edwards, candidate for McLennan Justice of the Peace, Precinct 5",
+       "publisher": "Branch Politics (branch.vote)",
+       "url": "https://branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-mclennan-justice-precinct-5/candidates/6aa42a6d0bffdeaf5e5675fa",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Texas Judicial Directory, McLennan County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      }
+     ],
+     "research_gaps": "Runoff vote totals and a biography were not found.",
+     "researched": true
     }
    ],
    "office": {
@@ -138995,19 +140812,34 @@
      "id": "walt-strickland",
      "name": "Walt Strickland",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "McLennan County Constable, Precinct 1 (reported)",
+     "background": "Branch lists Walt Strickland as the incumbent Precinct 1 constable, with a ballot occupation of constable.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Walt Strickland, candidate for McLennan County Constable, Justice Precinct 1",
+       "publisher": "Branch Politics (branch.vote)",
+       "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-constable-tx-mclennan-justice-precinct-1/candidates/6aa42a6d0bffdeaf5e5675fc",
+       "date": null
+      }
+     ],
+     "research_gaps": "The McLennan County website blocked automated access; incumbency could not be confirmed from an official page and no biography was found.",
+     "researched": true
     }
    ],
    "office": {
@@ -139033,18 +140865,33 @@
      "name": "Reggie Jackson",
      "party": "Democratic",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Manufacturing technician; Democratic nominee for Constable Precinct 2 (reported)",
+     "background": "Branch lists Reggie Jackson as a non-incumbent candidate for Precinct 2 constable, with a ballot occupation of manufacturing technician.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Reggie Jackson, candidate for McLennan County Constable, Justice Precinct 2",
+       "publisher": "Branch Politics (branch.vote)",
+       "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-constable-tx-mclennan-justice-precinct-2/candidates/6aa42a6d0bffdeaf5e5675fe",
+       "date": null
+      }
+     ],
+     "research_gaps": "No official or news biography was found.",
+     "researched": true
     }
    ],
    "office": {
@@ -139193,19 +141040,34 @@
      "id": "charlie-guerrero",
      "name": "Charlie Guerrero",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "McLennan County Constable, Precinct 4 (reported)",
+     "background": "Branch lists Charlie Guerrero as the incumbent Precinct 4 constable, with a ballot occupation of constable.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Charlie Guerrero, candidate for McLennan County Constable, Justice Precinct 4",
+       "publisher": "Branch Politics (branch.vote)",
+       "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-constable-tx-mclennan-justice-precinct-4/candidates/6aa42a6d0bffdeaf5e567603",
+       "date": null
+      }
+     ],
+     "research_gaps": "The McLennan County website blocked automated access; incumbency could not be confirmed from an official page and no biography was found.",
+     "researched": true
     }
    ],
    "office": {
@@ -139230,19 +141092,34 @@
      "id": "freddie-cantu",
      "name": "Freddie Cantu",
      "party": "Democratic",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "McLennan County Constable, Precinct 5 (reported)",
+     "background": "Branch lists Freddie Cantu as the incumbent Precinct 5 constable, with a ballot occupation of constable.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Freddie Cantu, candidate for McLennan County Constable, Justice Precinct 5",
+       "publisher": "Branch Politics (branch.vote)",
+       "url": "https://branch.vote/races/2026-texas-general-election-tx-state-county-constable-tx-mclennan-justice-precinct-5/candidates/6aa42a6d0bffdeaf5e567605",
+       "date": null
+      }
+     ],
+     "research_gaps": "The McLennan County website blocked automated access; incumbency could not be confirmed from an official page and no biography was found.",
+     "researched": true
     }
    ],
    "office": {
@@ -163989,19 +165866,48 @@
      "id": "paul-r-rotenberry",
      "name": "Paul R. Rotenberry",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, 326th District Court, Taylor County",
+     "background": "Paul R. Rotenberry is the judge of the 326th District Court in Abilene, according to Taylor County and the Texas Office of Court Administration.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "326th District Court",
+       "publisher": "Taylor County, Texas",
+       "url": "https://www.taylorcounty.texas.gov/592/326th-District-Court",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Texas Judicial Directory, Taylor County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Sample Ballot, November 3, 2026 General Election (Pct. 204-B, 204-E, 204-I, 205-B)",
+       "publisher": "Taylor County Elections",
+       "url": "https://www.taylorcounty.texas.gov/DocumentCenter/View/5281",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No published biography covering education or professional background was found on official county or court pages.",
+     "researched": true
     }
    ],
    "office": {
@@ -164027,18 +165933,86 @@
      "name": "Erin Stamey",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
-     "website": null,
-     "priorities": [],
+     "current_role": "First Assistant Criminal District Attorney, Taylor County",
+     "background": "Erin Stamey is First Assistant Criminal District Attorney in Taylor County. Her campaign says she was a misdemeanor prosecutor in Ellis County, joined the Taylor County office in 2011, prosecuted felonies in the 350th District Court, became juvenile prosecutor and misdemeanor chief in 2016, and was later promoted to first assistant. She holds a B.A. (1998) and a law degree with honors (2002) from Texas Tech University. Current Criminal District Attorney James Hicks has held the office since a 2016 appointment.",
+     "website": "https://electerinstamey.com/",
+     "priorities": [
+      {
+       "text": "Says her mission is to \"uphold the law with integrity\" and \"embrace innovation in this digital age.\"",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "Campaigns on bringing law enforcement, the justice system and the community together to make Taylor County safer.",
+       "sources": [
+        "s2"
+       ]
+      },
+      {
+       "text": "Describes her career as \"defending the innocent, putting away violent criminals\" and ensuring justice is served.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s5"
+       ]
+      },
+      {
+       "text": "The Texas District and County Attorneys Association lists her as a non-incumbent, uncontested candidate.",
+       "sources": [
+        "s4"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "About Erin",
+       "publisher": "Erin Stamey campaign",
+       "url": "https://electerinstamey.com/about-erin",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "What Does Erin Stand For",
+       "publisher": "Erin Stamey campaign",
+       "url": "https://electerinstamey.com/what-does-erin-stand-for",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "District Attorney",
+       "publisher": "Taylor County, Texas",
+       "url": "https://www.taylorcounty.texas.gov/125/District-Attorney",
+       "date": null
+      },
+      {
+       "id": "s4",
+       "title": "2026 Elections for District and County Attorneys",
+       "publisher": "Texas District and County Attorneys Association",
+       "url": "https://www.tdcaa.com/wp-content/uploads/2026-prosecutor-results-2-1.pdf",
+       "date": "2026"
+      },
+      {
+       "id": "s5",
+       "title": "Sample Ballot, November 3, 2026 General Election (Pct. 204-B, 204-E, 204-I, 205-B)",
+       "publisher": "Taylor County Elections",
+       "url": "https://www.taylorcounty.texas.gov/DocumentCenter/View/5281",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No documented positions on bail or mental health diversion were found.",
+     "researched": true
     }
    ],
    "office": {
@@ -164063,19 +166037,49 @@
      "id": "phil-crowley",
      "name": "Phil Crowley",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Taylor County Judge since January 2023",
+     "background": "Phil Crowley was born at Dyess Air Force Base, grew up in Abilene, and graduated from Hardin-Simmons University, where he is an adjunct professor, and from Texas Wesleyan School of Law (now Texas A&M School of Law). After private practice, he joined the Taylor County District Attorney's Office in 2015 and was a felony prosecutor from 2017 until he became county judge on January 1, 2023. He serves on numerous local boards, including the West Central Texas Council of Governments Executive Board and the Metropolitan Planning Organization.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot. His county biography notes he was also unopposed in the 2022 general election and the March 2026 Republican primary.",
+       "sources": [
+        "s1",
+        "s3"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Phil Crowley, County Judge (biography)",
+       "publisher": "Taylor County, Texas",
+       "url": "https://www.taylorcounty.texas.gov/DocumentCenter/View/5063/Phil-Crowley-Bio-",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "County Judge",
+       "publisher": "Taylor County, Texas",
+       "url": "https://www.taylorcounty.texas.gov/203/County-Judge",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Sample Ballot, November 3, 2026 General Election (Pct. 204-B, 204-E, 204-I, 205-B)",
+       "publisher": "Taylor County Elections",
+       "url": "https://www.taylorcounty.texas.gov/DocumentCenter/View/5281",
+       "date": "2026"
+      }
+     ],
      "research_gaps": "",
-     "researched": false
+     "researched": true
     }
    ],
    "office": {
@@ -164100,19 +166104,48 @@
      "id": "robert-harper",
      "name": "Robert Harper",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, Taylor County Court at Law No. 1",
+     "background": "Robert Harper is the judge of Taylor County Court at Law No. 1, according to Taylor County and the Texas Office of Court Administration.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "CCL#1",
+       "publisher": "Taylor County, Texas",
+       "url": "https://www.taylorcounty.texas.gov/205/CCL1",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Texas Judicial Directory, Taylor County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Sample Ballot, November 3, 2026 General Election (Pct. 204-B, 204-E, 204-I, 205-B)",
+       "publisher": "Taylor County Elections",
+       "url": "https://www.taylorcounty.texas.gov/DocumentCenter/View/5281",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No published biography covering education or professional background was found on official county or court pages.",
+     "researched": true
     }
    ],
    "office": {
@@ -164137,19 +166170,41 @@
      "id": "harriett-l-haag",
      "name": "Harriett L. Haag",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, Taylor County Court at Law No. 2, since January 2017",
+     "background": "Harriett L. Haag was sworn in as judge of Taylor County Court at Law No. 2 on January 1, 2017, succeeding Samuel J. Carroll, according to the county's court page.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "CCL#2",
+       "publisher": "Taylor County, Texas",
+       "url": "https://www.taylorcounty.texas.gov/206/CCL2",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Sample Ballot, November 3, 2026 General Election (Pct. 204-B, 204-E, 204-I, 205-B)",
+       "publisher": "Taylor County Elections",
+       "url": "https://www.taylorcounty.texas.gov/DocumentCenter/View/5281",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "Education and pre-judicial career were not published on the county page.",
+     "researched": true
     }
    ],
    "office": {
@@ -164174,19 +166229,48 @@
      "id": "tammy-robinson",
      "name": "Tammy Robinson",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Taylor County District Clerk",
+     "background": "Tammy Robinson is the Taylor County District Clerk, according to the county's District Clerk page and the Texas Office of Court Administration.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "District Clerk",
+       "publisher": "Taylor County, Texas",
+       "url": "https://www.taylorcounty.texas.gov/131/District-Clerk",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Texas Judicial Directory, Taylor County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Sample Ballot, November 3, 2026 General Election (Pct. 204-B, 204-E, 204-I, 205-B)",
+       "publisher": "Taylor County Elections",
+       "url": "https://www.taylorcounty.texas.gov/DocumentCenter/View/5281",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No published biography covering education or professional background was found on official county or court pages.",
+     "researched": true
     }
    ],
    "office": {
@@ -164211,19 +166295,48 @@
      "id": "brandi-deremer",
      "name": "Brandi Deremer",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Taylor County Clerk",
+     "background": "Brandi DeRemer is the Taylor County Clerk, according to the county's County Clerk page and the Texas Office of Court Administration.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "County Clerk",
+       "publisher": "Taylor County, Texas",
+       "url": "https://www.taylorcounty.texas.gov/120/County-Clerk",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Texas Judicial Directory, Taylor County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Sample Ballot, November 3, 2026 General Election (Pct. 204-B, 204-E, 204-I, 205-B)",
+       "publisher": "Taylor County Elections",
+       "url": "https://www.taylorcounty.texas.gov/DocumentCenter/View/5281",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No published biography covering education or professional background was found on official county or court pages.",
+     "researched": true
     }
    ],
    "office": {
@@ -164318,19 +166431,48 @@
      "id": "kyle-kendrick",
      "name": "Kyle Kendrick",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Taylor County Commissioner, Precinct 2, since 2010 election",
+     "background": "Kyle Kendrick was elected to the Taylor County Commissioners Court for Precinct 2 in 2010 and has farmed and ranched in Taylor County since 2000, according to his county biography. He serves on the Taylor County Expo Center board, the City and Rural Rides (CARR) board and the county insurance committee.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Kyle Kendrick (commissioner biography)",
+       "publisher": "Taylor County, Texas",
+       "url": "https://www.taylorcounty.texas.gov/DocumentCenter/View/19",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "County Commissioners, Precinct 2",
+       "publisher": "Taylor County, Texas",
+       "url": "https://www.taylorcounty.texas.gov/200/Precinct-2",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Sample Ballot, November 3, 2026 General Election (Pct. 204-B, 204-E, 204-I, 205-B)",
+       "publisher": "Taylor County Elections",
+       "url": "https://www.taylorcounty.texas.gov/DocumentCenter/View/5281",
+       "date": "2026"
+      }
+     ],
      "research_gaps": "",
-     "researched": false
+     "researched": true
     }
    ],
    "office": {
@@ -164355,19 +166497,41 @@
      "id": "chuck-statler",
      "name": "Chuck Statler",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Taylor County Commissioner, Precinct 4",
+     "background": "Chuck Statler is the Taylor County Commissioner for Precinct 4, according to the county's commissioner page.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s2"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "County Commissioners, Precinct 4",
+       "publisher": "Taylor County, Texas",
+       "url": "https://www.taylorcounty.texas.gov/202/Precinct-4",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Sample Ballot, November 3, 2026 General Election (Pct. 409-C)",
+       "publisher": "Taylor County Elections",
+       "url": "https://www.taylorcounty.texas.gov/DocumentCenter/View/5288",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "The county's linked biography document could not be retrieved, so his background and years in office are not included.",
+     "researched": true
     }
    ],
    "office": {
@@ -164392,19 +166556,48 @@
      "id": "shawna-joiner",
      "name": "Shawna Joiner",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Justice of the Peace, Precinct 1, Place 2, Taylor County",
+     "background": "Shawna Joiner is the Justice of the Peace for Precinct 1, Place 2, in Abilene, according to Taylor County and the Texas Office of Court Administration.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Justice of the Peace, Precinct 1, Place 2",
+       "publisher": "Taylor County, Texas",
+       "url": "https://www.taylorcounty.texas.gov/159/Precinct-1-Place-2",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Texas Judicial Directory, Taylor County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Sample Ballot, November 3, 2026 General Election (Pct. 204-B, 204-E, 204-I, 205-B)",
+       "publisher": "Taylor County Elections",
+       "url": "https://www.taylorcounty.texas.gov/DocumentCenter/View/5281",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No published biography covering education or professional background was found on official county or court pages.",
+     "researched": true
     }
    ],
    "office": {
@@ -164430,18 +166623,47 @@
      "name": "Eddy Harris",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Retired; Republican nominee for Justice of the Peace Precinct 2",
+     "background": "Branch lists Eddy Harris as a non-incumbent candidate for Taylor County Justice of the Peace, Precinct 2, with a ballot occupation of retired. Taylor County lists Robert (Bob) Jones as the current Precinct 2 justice of the peace.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Eddy Harris, candidate for Taylor Justice of the Peace, Justice Precinct 2",
+       "publisher": "Branch Politics (branch.vote)",
+       "url": "https://branch.vote/races/2026-texas-general-election-tx-state-justice-of-the-peace-tx-taylor-justice-precinct-2/candidates/6aa42a6d0bffdeaf5e5676e2",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Justice of the Peace, Precinct 2",
+       "publisher": "Taylor County, Texas",
+       "url": "https://www.taylorcounty.texas.gov/160/Precinct-2",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Sample Ballot, November 3, 2026 General Election (Pct. 108-J, 108-M, 108-W, 109-B, 109-M, 109-T)",
+       "publisher": "Taylor County Elections",
+       "url": "https://www.taylorcounty.texas.gov/DocumentCenter/View/5291",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No biography or prior work history was found.",
+     "researched": true
     }
    ],
    "office": {
@@ -164466,19 +166688,48 @@
      "id": "earl-donnell",
      "name": "Earl Donnell",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Justice of the Peace, Precinct 3, Taylor County",
+     "background": "Earl Donnell is the Justice of the Peace for Precinct 3, based in Tuscola, according to Taylor County and the Texas Office of Court Administration.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Justice of the Peace, Precinct 3",
+       "publisher": "Taylor County, Texas",
+       "url": "https://www.taylorcounty.texas.gov/162/Precinct-3",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Texas Judicial Directory, Taylor County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Sample Ballot, November 3, 2026 General Election (Pct. 110-B, 110-W4, 303-0, 303-B, 303-W4, 308-0, 308-B)",
+       "publisher": "Taylor County Elections",
+       "url": "https://www.taylorcounty.texas.gov/DocumentCenter/View/5293",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No published biography covering education or professional background was found on official county or court pages.",
+     "researched": true
     }
    ],
    "office": {
@@ -164503,19 +166754,48 @@
      "id": "david-d-doherty",
      "name": "David D. Doherty",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Justice of the Peace, Precinct 4, Taylor County",
+     "background": "David D. Doherty is the Justice of the Peace for Precinct 4, based in Lawn, according to Taylor County and the Texas Office of Court Administration.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s3"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Justice of the Peace, Precinct 4",
+       "publisher": "Taylor County, Texas",
+       "url": "https://www.taylorcounty.texas.gov/163/Precinct-4",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Texas Judicial Directory, Taylor County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Sample Ballot, November 3, 2026 General Election (Pct. 409-C)",
+       "publisher": "Taylor County Elections",
+       "url": "https://www.taylorcounty.texas.gov/DocumentCenter/View/5288",
+       "date": "2026"
+      }
+     ],
+     "research_gaps": "No published biography covering education or professional background was found on official county or court pages.",
+     "researched": true
     }
    ],
    "office": {
@@ -177522,19 +179802,48 @@
      "id": "jennifer-ebrom-dillingham",
      "name": "Jennifer Ebrom Dillingham",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, 81st District Court",
+     "background": "Jennifer Margaret Dillingham is judge of the 81st District Court, which sits in Jourdanton and serves Wilson County, according to Wilson County and the Texas Office of Court Administration. She was unopposed in the March 2026 Republican primary.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "District Court",
+       "publisher": "Wilson County, Texas",
+       "url": "https://www.wilsoncountytx.gov/page/wilson.District.Court",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Texas Judicial Directory, Wilson County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Summary Results Report, 2026 Primary Election, March 3, 2026 (official results)",
+       "publisher": "Wilson County Elections",
+       "url": "https://www.wilsoncountytx.gov/upload/page/2254/docs/Elections/03.03.26%20Primary/OFFICIAL%20SUMMARY.pdf",
+       "date": "2026-03"
+      }
+     ],
+     "research_gaps": "No published biography covering education or professional background was found on official county or court pages.",
+     "researched": true
     }
    ],
    "office": {
@@ -177559,19 +179868,48 @@
      "id": "russell-wilson",
      "name": "Russell Wilson",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Judge, 218th District Court",
+     "background": "Russell H. Wilson is judge of the 218th District Court, which sits in Jourdanton and serves Wilson County, according to Wilson County and the Texas Office of Court Administration. He was unopposed in the March 2026 Republican primary.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "District Court",
+       "publisher": "Wilson County, Texas",
+       "url": "https://www.wilsoncountytx.gov/page/wilson.District.Court",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Texas Judicial Directory, Wilson County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Summary Results Report, 2026 Primary Election, March 3, 2026 (official results)",
+       "publisher": "Wilson County Elections",
+       "url": "https://www.wilsoncountytx.gov/upload/page/2254/docs/Elections/03.03.26%20Primary/OFFICIAL%20SUMMARY.pdf",
+       "date": "2026-03"
+      }
+     ],
+     "research_gaps": "No published biography covering education or professional background was found on official county or court pages.",
+     "researched": true
     }
    ],
    "office": {
@@ -177597,18 +179935,47 @@
      "name": "Michael Monreal",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Republican nominee for Wilson County Judge",
+     "background": "Michael Monreal won the March 2026 Republican primary for Wilson County Judge with 5,494 votes to 1,756 for Brenda Trevino (about 76 percent), according to the county's official results. Wilson County lists Henry L. Whitman Jr. as the current county judge.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Summary Results Report, 2026 Primary Election, March 3, 2026 (official results)",
+       "publisher": "Wilson County Elections",
+       "url": "https://www.wilsoncountytx.gov/upload/page/2254/docs/Elections/03.03.26%20Primary/OFFICIAL%20SUMMARY.pdf",
+       "date": "2026-03"
+      },
+      {
+       "id": "s2",
+       "title": "County Court (County Judge)",
+       "publisher": "Wilson County, Texas",
+       "url": "https://www.wilsoncountytx.gov/page/wilson.County.Judge",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Texas Judicial Directory, Wilson County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      }
+     ],
+     "research_gaps": "No biography, profession or campaign platform was found.",
+     "researched": true
     }
    ],
    "office": {
@@ -177633,19 +180000,48 @@
      "id": "deborah-bryan",
      "name": "Deborah Bryan",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Wilson County District Clerk",
+     "background": "Deborah Bryan is the Wilson County District Clerk, according to the county's District Clerk page. She was unopposed in the March 2026 Republican primary.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "District Clerk",
+       "publisher": "Wilson County, Texas",
+       "url": "https://www.wilsoncountytx.gov/page/wilson.District.Clerk",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Texas Judicial Directory, Wilson County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Summary Results Report, 2026 Primary Election, March 3, 2026 (official results)",
+       "publisher": "Wilson County Elections",
+       "url": "https://www.wilsoncountytx.gov/upload/page/2254/docs/Elections/03.03.26%20Primary/OFFICIAL%20SUMMARY.pdf",
+       "date": "2026-03"
+      }
+     ],
+     "research_gaps": "No published biography covering education or professional background was found on official county or court pages.",
+     "researched": true
     }
    ],
    "office": {
@@ -177670,19 +180066,48 @@
      "id": "genevieve-martinez",
      "name": "Genevieve Martinez",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Wilson County Clerk",
+     "background": "Genevieve Martinez is the Wilson County Clerk, according to the county's County Clerk page. She was unopposed in the March 2026 Republican primary.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "County Clerk",
+       "publisher": "Wilson County, Texas",
+       "url": "https://www.wilsoncountytx.gov/page/wilson.County.Clerk",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Texas Judicial Directory, Wilson County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Summary Results Report, 2026 Primary Election, March 3, 2026 (official results)",
+       "publisher": "Wilson County Elections",
+       "url": "https://www.wilsoncountytx.gov/upload/page/2254/docs/Elections/03.03.26%20Primary/OFFICIAL%20SUMMARY.pdf",
+       "date": "2026-03"
+      }
+     ],
+     "research_gaps": "No published biography covering education or professional background was found on official county or court pages.",
+     "researched": true
     }
    ],
    "office": {
@@ -177707,19 +180132,41 @@
      "id": "christina-mutz",
      "name": "Christina Mutz",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Wilson County Treasurer",
+     "background": "Christina Mutz is the Wilson County Treasurer, according to the county's Treasurer page. She was unopposed in the March 2026 Republican primary.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "County Treasurer",
+       "publisher": "Wilson County, Texas",
+       "url": "https://www.wilsoncountytx.gov/page/wilson.County.Treasurer",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Summary Results Report, 2026 Primary Election, March 3, 2026 (official results)",
+       "publisher": "Wilson County Elections",
+       "url": "https://www.wilsoncountytx.gov/upload/page/2254/docs/Elections/03.03.26%20Primary/OFFICIAL%20SUMMARY.pdf",
+       "date": "2026-03"
+      }
+     ],
+     "research_gaps": "No published biography covering education or professional background was found on official county or court pages.",
+     "researched": true
     }
    ],
    "office": {
@@ -177744,19 +180191,41 @@
      "id": "russell-a-king",
      "name": "Russell A. King",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Wilson County Commissioner, Precinct 2",
+     "background": "Russell A. King is the Wilson County Commissioner for Precinct 2, based in Poth, according to the county's Commissioners Court page. He was unopposed in the March 2026 Republican primary.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Commissioners Court",
+       "publisher": "Wilson County, Texas",
+       "url": "https://www.wilsoncountytx.gov/page/wilson.Commissioners.Court",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Summary Results Report, 2026 Primary Election, March 3, 2026 (official results)",
+       "publisher": "Wilson County Elections",
+       "url": "https://www.wilsoncountytx.gov/upload/page/2254/docs/Elections/03.03.26%20Primary/OFFICIAL%20SUMMARY.pdf",
+       "date": "2026-03"
+      }
+     ],
+     "research_gaps": "No published biography covering education or professional background was found on official county or court pages.",
+     "researched": true
     }
    ],
    "office": {
@@ -177872,19 +180341,48 @@
      "id": "jared-shaw",
      "name": "Jared Shaw",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Justice of the Peace, Precinct 1, Wilson County",
+     "background": "Jared Evan Shaw is the Justice of the Peace for Precinct 1 in Floresville, according to Wilson County and the Texas Office of Court Administration. He was unopposed in the March 2026 Republican primary.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Justice of the Peace Precinct 1",
+       "publisher": "Wilson County, Texas",
+       "url": "https://www.wilsoncountytx.gov/page/wilson.JusticeofthePeacePrecinct1",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Texas Judicial Directory, Wilson County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Summary Results Report, 2026 Primary Election, March 3, 2026 (official results)",
+       "publisher": "Wilson County Elections",
+       "url": "https://www.wilsoncountytx.gov/upload/page/2254/docs/Elections/03.03.26%20Primary/OFFICIAL%20SUMMARY.pdf",
+       "date": "2026-03"
+      }
+     ],
+     "research_gaps": "No published biography covering education or professional background was found on official county or court pages.",
+     "researched": true
     }
    ],
    "office": {
@@ -177909,19 +180407,48 @@
      "id": "kenneth-buck-griffin",
      "name": "Kenneth Buck Griffin",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Justice of the Peace, Precinct 2, Wilson County",
+     "background": "Kenneth (Buck) Griffin is the Justice of the Peace for Precinct 2, based in Poth, according to Wilson County and the Texas Office of Court Administration. He was unopposed in the March 2026 Republican primary.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Justice of the Peace Precinct 2",
+       "publisher": "Wilson County, Texas",
+       "url": "https://www.wilsoncountytx.gov/page/wilson.JusticeofthePeacePrecinct2",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Texas Judicial Directory, Wilson County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Summary Results Report, 2026 Primary Election, March 3, 2026 (official results)",
+       "publisher": "Wilson County Elections",
+       "url": "https://www.wilsoncountytx.gov/upload/page/2254/docs/Elections/03.03.26%20Primary/OFFICIAL%20SUMMARY.pdf",
+       "date": "2026-03"
+      }
+     ],
+     "research_gaps": "No published biography covering education or professional background was found on official county or court pages.",
+     "researched": true
     }
    ],
    "office": {
@@ -177947,18 +180474,47 @@
      "name": "Joel Bellinger",
      "party": "Republican",
      "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "current_role": "Republican nominee for Justice of the Peace Precinct 3",
+     "background": "Joel Bellinger defeated incumbent Justice of the Peace Connie Terry in the March 2026 Republican primary, 1,012 votes to 898 (about 53 percent), according to the county's official results. Wilson County lists Terry as the current Precinct 3 justice of the peace, based in La Vernia.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Summary Results Report, 2026 Primary Election, March 3, 2026 (official results)",
+       "publisher": "Wilson County Elections",
+       "url": "https://www.wilsoncountytx.gov/upload/page/2254/docs/Elections/03.03.26%20Primary/OFFICIAL%20SUMMARY.pdf",
+       "date": "2026-03"
+      },
+      {
+       "id": "s2",
+       "title": "Justice of the Peace Precinct 3",
+       "publisher": "Wilson County, Texas",
+       "url": "https://www.wilsoncountytx.gov/page/wilson.JusticeofthePeacePrecinct3",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Texas Judicial Directory, Wilson County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      }
+     ],
+     "research_gaps": "No biography or profession was found.",
+     "researched": true
     }
    ],
    "office": {
@@ -177983,19 +180539,48 @@
      "id": "monica-lambeck-gutierrez",
      "name": "Monica Lambeck Gutierrez",
      "party": "Republican",
-     "incumbent": false,
-     "current_role": "",
-     "background": "",
+     "incumbent": true,
+     "current_role": "Justice of the Peace, Precinct 4, Wilson County",
+     "background": "Monica Lambeck Gutierrez is the Justice of the Peace for Precinct 4 in Floresville, according to Wilson County and the Texas Office of Court Administration. She was unopposed in the March 2026 Republican primary.",
      "website": null,
      "priorities": [],
      "promises": [],
      "record": [],
-     "notes": [],
+     "notes": [
+      {
+       "text": "Unopposed on the November 3, 2026 ballot.",
+       "sources": [
+        "s1"
+       ]
+      }
+     ],
      "stances": {},
      "issue_notes": [],
-     "sources": [],
-     "research_gaps": "",
-     "researched": false
+     "sources": [
+      {
+       "id": "s1",
+       "title": "Justice of the Peace Precinct 4",
+       "publisher": "Wilson County, Texas",
+       "url": "https://www.wilsoncountytx.gov/page/wilson.JusticeofthePeacePrecinct4",
+       "date": null
+      },
+      {
+       "id": "s2",
+       "title": "Texas Judicial Directory, Wilson County personnel search results",
+       "publisher": "Texas Office of Court Administration (Court Activity Reporting and Directory System)",
+       "url": "https://card.txcourts.gov/DirectorySearch.aspx",
+       "date": null
+      },
+      {
+       "id": "s3",
+       "title": "Summary Results Report, 2026 Primary Election, March 3, 2026 (official results)",
+       "publisher": "Wilson County Elections",
+       "url": "https://www.wilsoncountytx.gov/upload/page/2254/docs/Elections/03.03.26%20Primary/OFFICIAL%20SUMMARY.pdf",
+       "date": "2026-03"
+      }
+     ],
+     "research_gaps": "No published biography covering education or professional background was found on official county or court pages.",
+     "researched": true
     }
    ],
    "office": {
