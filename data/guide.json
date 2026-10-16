@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T20:44:29.095Z",
+ "generated_at": "2026-10-16T20:45:56.935Z",
  "election": {
   "name": "2026 November General Election",
   "county": "Collin County, Texas",
@@ -5393,7 +5393,11 @@
      "current_role": "U.S. Representative for Texas's 3rd Congressional District since 2023",
      "background": "Keith Self is a retired U.S. Army lieutenant colonel with a 25-year military career and a graduate of the U.S. Military Academy at West Point. He served as Collin County Judge from 2007 to 2018. In Congress he chairs the House Foreign Affairs Subcommittee on Europe.",
      "website": "https://keithself.com/",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/keith-self.jpg",
+      "credit": "Official portrait, U.S. House of Representatives",
+      "source_url": "https://keithself.house.gov/"
+     },
      "priorities": [
       {
        "text": "Campaigns on advancing President Trump's America First agenda.",
@@ -8909,7 +8913,11 @@
      "current_role": "Engineer and business owner; Libertarian nominee for governor",
      "background": "Pat Dixon is a process control engineer and president of DPAS Inc. who has worked for companies including Honeywell and Emerson. He holds an engineering degree from Miami University in Ohio. He served on the Lago Vista City Council from 2005 to 2009 and chaired the Libertarian Party of Texas for 10 years. He has previously run for the Texas Senate and Travis County commissioner.",
      "website": "https://patdixon.org",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/pat-dixon.jpg",
+      "credit": "Campaign website",
+      "source_url": "https://patdixon.org/about-pat/"
+     },
      "priorities": [
       {
        "text": "Campaigns on \"right sizing government,\" meaning people can do what they want as long as they do not harm others.",
@@ -11922,7 +11930,11 @@
      "current_role": "Texas Comptroller of Public Accounts (appointed) since August 1, 2026",
      "background": "Don Huffines is a Dallas real estate developer who co-founded Huffines Communities and holds a business degree from the University of Texas at Austin. He served one term in the Texas Senate (District 16, 2015 to 2019), lost reelection to Nathan Johnson in 2018, and challenged Gov. Greg Abbott in the 2022 Republican primary. He won the 2026 Republican comptroller primary with about 57 percent over acting Comptroller Kelly Hancock and others, and Abbott appointed him comptroller for the rest of 2026.",
      "website": "https://donhuffines.com/",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/don-huffines.jpg",
+      "credit": "Campaign website",
+      "source_url": "https://donhuffines.com/about/"
+     },
      "priorities": [
       {
        "text": "Campaigns on auditing government spending, which he calls \"DOGE-ing Texas,\" and returning savings to taxpayers as property tax relief.",
@@ -15530,7 +15542,11 @@
      "current_role": "Justice, Texas Third Court of Appeals (Austin), Place 3, since 2019",
      "background": "Kelly lives in Austin. She earned a bachelor's degree from the University of Florida and a law degree from the University of Texas, then served in the U.S. Army from 2003 to 2007 as a Judge Advocate General's Corps captain and paratrooper. She was a research attorney at the Texas Court of Criminal Appeals, an assistant attorney general in the Medicaid fraud unit, and a felony prosecutor in Comal and Travis counties before joining the Third Court of Appeals. She is board certified in judicial administration and criminal law and teaches trial advocacy at the University of Texas School of Law.",
      "website": "https://charikelly.com",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/chari-kelly.jpg",
+      "credit": "Official portrait, Third Court of Appeals of Texas",
+      "source_url": "https://www.txcourts.gov/3rdcoa/about-the-court/justices/"
+     },
      "priorities": [
       {
        "text": "Says Texans deserve a Supreme Court with judges who have \"real courtroom experience, appellate experience, independence, balance, and respect for the Constitution.\"",
@@ -17376,7 +17392,11 @@
      "current_role": "Judge, Texas Court of Criminal Appeals, Place 4, since 2015",
      "background": "Yeary is from Cotulla and earned his law degree from St. Mary's University School of Law. He clerked for Court of Criminal Appeals Judge Bill White in 1991 and 1992, practiced criminal defense, and then served as an appellate prosecutor in the Dallas, Harris and Bexar county district attorney's offices. He was elected to the court in 2014 and is seeking a third six-year term. He is the court's liaison to the State Bar's Criminal Pattern Jury Charge Committee and serves on the board of the Texas State Law Library.",
      "website": null,
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/kevin-patrick-yeary.jpg",
+      "credit": "Official portrait, Texas Court of Criminal Appeals",
+      "source_url": "https://www.txcourts.gov/cca/about-the-court/judges/"
+     },
      "priorities": [
       {
        "text": "Says judges should avoid policymaking from the bench and that the Legislature and governor should set policy.",
@@ -19621,7 +19641,11 @@
      "current_role": "State Representative, Texas House District 61, since January 2025",
      "background": "Richardson is CEO of The Lawton Group, a plumbing, HVAC, electrical, refrigeration and pest control business she founded with her husband about 40 years ago. She lives in McKinney and won the seat in 2024 after defeating incumbent Frederick Frazier in a Republican primary runoff. She describes herself as a cancer survivor and an advocate for women in business and the trades.",
      "website": "https://keresafortexas.com",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/keresa-richardson.jpg",
+      "credit": "Official portrait, Texas House of Representatives",
+      "source_url": "https://house.texas.gov/members/member-page?district=61"
+     },
      "priorities": [
       {
        "text": "Campaigns on lowering property taxes and the cost of living.",
@@ -22140,7 +22164,11 @@
      "current_role": "State Representative, Texas House District 70, since January 2023; vice chair of the House Democratic Caucus",
      "background": "Plesa owned a small fashion merchandising and design business and later worked as a legislative director for state Rep. Ray Lopez. She graduated from Newman Smith High School and holds degrees from the University of North Texas and SMU. She won the seat in 2022 by 859 votes and was reelected in 2024. She is vice chair of the Pensions, Investments and Financial Services Committee and serves on the Elections Committee.",
      "website": "https://www.plesafortexas.com",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/mihaela-elizabeth-plesa.jpg",
+      "credit": "Official portrait, Texas House of Representatives",
+      "source_url": "https://house.texas.gov/members/member-page?district=70"
+     },
      "priorities": [
       {
        "text": "Campaigns on fully funding public schools, reforming recapture and raising teacher pay.",
@@ -27020,7 +27048,11 @@
      "current_role": "Plano attorney in solo practice",
      "background": "John R. \"Buster\" Brown is a longtime Plano attorney in solo practice, with experience in the U.S. District Court for the Northern District of Texas. He earned his law degree from the University of Arkansas School of Law. He was unopposed in the March 2026 Democratic primary.",
      "website": "https://brownforcollin.com",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/john-r-buster-brown.jpg",
+      "credit": "Campaign website",
+      "source_url": "https://brownforcollin.com"
+     },
      "priorities": [
       {
        "text": "Campaigns on planning for growth, saying deferred investment in water, roads, and mental health services shifts costs to future taxpayers.",
@@ -28896,7 +28928,11 @@
      "current_role": "Senior pastor and hospice chaplain",
      "background": "Irvin Lynn Barrett is senior pastor of Shalom Community Fellowship Church, a hospice chaplain, a licensed insurance agent, and runs a small custom clothing business. He lives in Allen. He serves as pastoral liaison for Clergy in the Court for Kids with Child Protective Services.",
      "website": "https://irvinbarrett.com",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/irvin-lynn-barrett.jpg",
+      "credit": "Campaign website",
+      "source_url": "https://irvinbarrett.com"
+     },
      "priorities": [
       {
        "text": "Supports early intervention with teachers and school administrators to identify students at risk of truancy.",
@@ -29956,7 +29992,11 @@
      "current_role": "Bond election coordinator, Gallagher Construction Services",
      "background": "Bush is a former teacher and school administrator from Pflugerville. She holds degrees from Kilgore College and Stephen F. Austin State University in communication and special education, and she led the Pflugerville ISD education foundation from 2011 to 2019. She won the May 2026 Democratic runoff with 61 percent of the vote for this open seat.",
      "website": "https://www.allisonfortx.com",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/allison-bush.jpg",
+      "credit": "Campaign website",
+      "source_url": "https://www.allisonfortx.com"
+     },
      "priorities": [
       {
        "text": "Says the State Board of Education should focus on students and evidence rather than politics or ideology.",
@@ -34696,7 +34736,11 @@
      "current_role": "State Representative, Texas House District 55, since 2025",
      "background": "Hickland represents a Bell County district that includes Belton, Harker Heights and most of Temple. She was first elected in 2024 and ran unopposed in the 2026 Republican primary.",
      "website": null,
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/hillary-hickland.jpg",
+      "credit": "Official portrait, Texas House of Representatives",
+      "source_url": "https://house.texas.gov/members/member-page?district=55"
+     },
      "priorities": [],
      "promises": [],
      "record": [
@@ -36592,7 +36636,11 @@
      "current_role": "U.S. Representative for Texas' 14th District since 2013",
      "background": "Randy Weber founded Weber's Air and Heat, an air conditioning company, in 1981. He attended Alvin Community College and holds a bachelor's degree from the University of Houston at Clear Lake. He served four years in the Texas House before his election to Congress in 2012. He serves on the House Energy and Commerce Committee.",
      "website": "https://www.randyweber.org/",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/randy-weber.jpg",
+      "credit": "Official portrait, U.S. House of Representatives",
+      "source_url": "https://weber.house.gov/"
+     },
      "priorities": [
       {
        "text": "Supports lower taxes and opposes wasteful spending.",
@@ -37912,7 +37960,11 @@
      "current_role": "Texas State Representative, District 129, since 2015",
      "background": "Paul is a professional structural engineer from the Houston area with bachelor's and master's degrees in civil engineering. He was first elected to House District 129 in 2014 and has served on committees including Transportation, Insurance and Homeland Security, and as treasurer of the House Republican Caucus. He ran unopposed in the 2026 Republican primary for this open seat.",
      "website": "https://dennispaul.com",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/dennis-paul.jpg",
+      "credit": "Official portrait, Texas House of Representatives",
+      "source_url": "https://house.texas.gov/members/member-page?district=129"
+     },
      "priorities": [
       {
        "text": "Says he will fight for lasting property tax relief, cut waste and reduce regulations.",
@@ -41999,7 +42051,11 @@
      "current_role": "Army JROTC instructor; pastor",
      "background": "Grandison Porter is a U.S. Army veteran of more than 20 years and a combat veteran of Operation Enduring Freedom who now teaches as an Army JROTC instructor. He is from New Orleans and attended the University of New Orleans, the University of Phoenix, and Excelsior University. He is pastor of Intergenerational House of Prayer in Houston and lives with his family in Brazoria County.",
      "website": "https://gporter4brazoriadc.com",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/grandison-porter.jpg",
+      "credit": "Campaign website",
+      "source_url": "https://gporter4brazoriadc.com"
+     },
      "priorities": [
       {
        "text": "Commits to regular audits of the District Clerk's Office.",
@@ -42510,7 +42566,11 @@
      "current_role": "Business owner",
      "background": "Becky Singleton is a business owner who has lived in Manvel and Brazoria County for about 20 years. She attended Northeastern University and worked for Polaroid training law enforcement on documenting crime scenes, for Johnson & Johnson training surgeons on medical devices, and for seven years in NFL player development. She ran twice for the Alvin ISD school board and served as a PTO president.",
      "website": "https://www.beckysingletonforcommissioner.com",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/becky-singleton.jpg",
+      "credit": "Campaign website",
+      "source_url": "https://www.beckysingletonforcommissioner.com"
+     },
      "priorities": [
       {
        "text": "Says she will build a county mental health facility in partnership with a medical facility.",
@@ -43042,7 +43102,11 @@
      "current_role": "Nurse; U.S. Coast Guard veteran",
      "background": "Stephanie Baird is a U.S. Coast Guard veteran and a nurse of nearly 16 years who has worked in correctional, mental health, and substance use facilities. She was raised in Texas, Florida, and Saudi Arabia. She is president of the Southern Brazoria County Democrats, a member of the Brazoria County NAACP, and a volunteer deputy voter registrar. She ran for Justice of the Peace Precinct 4, Place 1 in 2024.",
      "website": "https://sbaird4jp.com",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/stephanie-baird.jpg",
+      "credit": "Campaign website",
+      "source_url": "https://sbaird4jp.com"
+     },
      "priorities": [
       {
        "text": "Campaigns on \"Ethics. Education. Empathy.\"",
@@ -55111,7 +55175,11 @@
      "current_role": "State Representative, Texas House District 73, since 2023",
      "background": "Isaac represents Comal County and western Hays County. She ran unsuccessfully for House District 45 in 2020, was first elected to District 73 in 2022 and ran unopposed in the 2026 Republican primary. She is married to former Rep. Jason Isaac.",
      "website": "https://www.isaacfortexas.com/",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/carrie-isaac.jpg",
+      "credit": "Official portrait, Texas House of Representatives",
+      "source_url": "https://house.texas.gov/members/member-page?district=73"
+     },
      "priorities": [
       {
        "text": "Says property taxes are the top issue she hears from voters.",
@@ -59590,7 +59658,11 @@
      "current_role": "U.S. Representative for Texas' 24th District since 2021",
      "background": "Beth Van Duyne served as mayor of Irving before her election to Congress in 2020. She describes herself as a single mother who first ran for office because of her children.",
      "website": "https://bethfortexas.com/",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/beth-van-duyne.jpg",
+      "credit": "Official portrait, U.S. House of Representatives",
+      "source_url": "https://vanduyne.house.gov/about"
+     },
      "priorities": [
       {
        "text": "Calls for restraining federal spending, returning it to pre-pandemic levels and balancing the budget within ten years.",
@@ -63873,7 +63945,11 @@
      "current_role": "State Representative, Texas House District 108, since 2015; chair, House Ways and Means Committee",
      "background": "Meyer was first elected in 2014 to represent parts of Dallas, University Park, and Highland Park. His House biography says he chairs the Ways and Means Committee and led passage of the 2023 property tax relief bill. He lives in University Park with his family.",
      "website": "http://www.MorganMeyerForTexas.com",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/morgan-meyer.jpg",
+      "credit": "Official portrait, Texas House of Representatives",
+      "source_url": "https://house.texas.gov/members/member-page?district=108"
+     },
      "priorities": [
       {
        "text": "His House biography lists fiscal responsibility, education, and community safety, and highlights his work on human trafficking laws.",
@@ -66854,7 +66930,11 @@
      "current_role": "Economist and professor at Southern Methodist University",
      "background": "McDonough describes himself as an economist and professor at SMU. He ran unopposed in the 2026 Republican primary for District 114.",
      "website": "https://timforhouse.com/",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/tim-mcdonough.jpg",
+      "credit": "Campaign website",
+      "source_url": "https://timforhouse.com/"
+     },
      "priorities": [
       {
        "text": "Says his highest priority is the economic wellbeing of Texans, beginning with abolishing property taxes.",
@@ -72447,7 +72527,11 @@
      "current_role": "Former paralegal and case manager; licensed minister",
      "background": "Lizbeth Diaz is from Dallas and holds a bachelor's degree from Dallas Baptist University. She attended Christ For The Nations Institute and is a licensed minister. She worked for more than 10 years as a paralegal and case manager. She ran for the U.S. House in Texas's 30th Congressional District in 2022.",
      "website": "https://diazforjp.com",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/lizbeth-diaz.jpg",
+      "credit": "Campaign website",
+      "source_url": "https://diazforjp.com"
+     },
      "priorities": [
       {
        "text": "Says she is committed to impartial justice and equal treatment for all community members.",
@@ -73046,7 +73130,11 @@
      "current_role": "Founder of ewater.com; former talk show host",
      "background": "Fred Van Liew founded ewater.com and formerly hosted the nationally syndicated Christian talk show \"Your Health Your Choice.\" He is the author of a book on adrenal exhaustion and chronic fatigue. No legal experience was listed in available sources.",
      "website": "https://vanliewforjp.com",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/fred-van-liew.jpg",
+      "credit": "Campaign website",
+      "source_url": "https://vanliewforjp.com"
+     },
      "priorities": [
       {
        "text": "Says he will run the court efficiently and transparently.",
@@ -76402,7 +76490,11 @@
      "current_role": "State Representative, Texas House District 65, since 2025",
      "background": "Little represents a Denton County district that includes Lewisville. He defeated then-Rep. Kronda Thimesch in the 2024 Republican primary and ran unopposed in the 2026 Republican primary.",
      "website": null,
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/mitch-little.jpg",
+      "credit": "Official portrait, Texas House of Representatives",
+      "source_url": "https://house.texas.gov/members/member-page?district=65"
+     },
      "priorities": [],
      "promises": [],
      "record": [
@@ -80433,7 +80525,11 @@
      "current_role": "Denton County Justice of the Peace, Precinct 6, since 2023",
      "background": "Blanca Oliver took office as Precinct 6 justice of the peace on January 1, 2023. Originally from Mexico, she previously worked as a court interpreter, a truancy court juvenile case manager and a paralegal, and is a certified mediator. She holds a psychology degree from Texas Woman's University and a master's in dispute resolution from SMU, and serves on the faculty of the Justice Court Training Center.",
      "website": "https://blancaoliver.org",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/blanca-oliver.jpg",
+      "credit": "Campaign website",
+      "source_url": "https://blancaoliver.org"
+     },
      "priorities": [
       {
        "text": "Says she runs a fair, compassionate and well-managed court.",
@@ -83668,7 +83764,11 @@
      "current_role": "State Representative, Texas House District 74, since 2021",
      "background": "Morales is a lifelong Eagle Pass resident, attorney and business owner, according to his campaign. He represents an 11-county border district stretching from Maverick County to El Paso County. He was first elected in 2020 and ran unopposed in the 2026 Democratic primary.",
      "website": "https://moralesfortexas.com/",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/eddie-morales-jr.jpg",
+      "credit": "Official portrait, Texas House of Representatives",
+      "source_url": "https://house.texas.gov/members/member-page?district=74"
+     },
      "priorities": [
       {
        "text": "Campaigns on protecting Big Bend, funding public schools and safeguarding freedoms.",
@@ -86331,7 +86431,11 @@
      "current_role": "Attorney, El Paso County Attorney's Office; Democratic nominee for the 168th District Court",
      "background": "Bernardo Cruz was born in El Paso, raised in Juarez, and worked as a banker before law school. He holds a business degree from UTEP and a 2016 law degree from Seattle University. He represented farmworkers at a nonprofit firm in Washington state, litigated civil rights cases for the ACLU of Texas in El Paso beginning in 2018, and now handles affirmative litigation for the El Paso County Attorney's Office.",
      "website": "https://www.bernardocruzforjudge.com/",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/bernardo-cruz.jpg",
+      "credit": "Campaign website",
+      "source_url": "https://www.bernardocruzforjudge.com/"
+     },
      "priorities": [
       {
        "text": "Says he will work for speedy resolution of civil and criminal cases.",
@@ -88906,7 +89010,11 @@
      "current_role": "U.S. Representative for Texas' 7th District since 2019",
      "background": "Lizzie Pannill Fletcher is a Houston native who graduated from Kenyon College and William and Mary Law School. She practiced law at Vinson and Elkins and became the first woman partner at the Houston firm AZA. She was elected to Congress in 2018 and serves on the Energy and Commerce Committee.",
      "website": "https://www.lizziefletcher.com/",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/lizzie-pannill-fletcher.jpg",
+      "credit": "Official portrait, U.S. House of Representatives",
+      "source_url": "https://fletcher.house.gov/about/"
+     },
      "priorities": [
       {
        "text": "Campaigns on restoring reproductive rights in Texas and nationally.",
@@ -90926,7 +91034,11 @@
      "current_role": "Texas State Representative, District 26, since 2025",
      "background": "Matt Morgan is a public adjuster who represents policyholders and a small business owner. He holds a business degree from Sam Houston State University, is an Eagle Scout and has been a Cub Scout leader.",
      "website": "https://www.morganfortexas.com",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/matt-morgan.jpg",
+      "credit": "Official portrait, Texas House of Representatives",
+      "source_url": "https://house.texas.gov/members/member-page?district=26"
+     },
      "priorities": [
       {
        "text": "Lists protecting children from predators and traffickers and holding Big Tech accountable for online child safety.",
@@ -93598,7 +93710,11 @@
      "current_role": "Judge, 458th District Court, Fort Bend County, by appointment of Gov. Greg Abbott (2025)",
      "background": "Maggie Jaramillo emigrated legally from Mexico with her parents at age 9, grew up in Los Angeles and married a U.S. Marine. She earned degrees from Arizona Western College and Northern Arizona University and graduated from Thurgood Marshall School of Law in 1997. She was an assistant county attorney in Starr County and a solo practitioner in Fort Bend County from 1998 to 2014. Gov. Rick Perry appointed her to the 400th District Court in 2014; she won election in 2016 and served through 2020, later serving as associate judge of the 268th District Court before Gov. Greg Abbott appointed her to the 458th District Court in 2025.",
      "website": "https://maggiejaramillo.com",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/maggie-jaramillo.jpg",
+      "credit": "Campaign website",
+      "source_url": "https://maggiejaramillo.com"
+     },
      "priorities": [],
      "promises": [],
      "record": [
@@ -94364,7 +94480,11 @@
      "current_role": "Interim Fort Bend County Judge since April 2026 (appointment disputed); president and CEO, Tolunay-Wong Engineers",
      "background": "Daniel Wong, originally from Macau, is a civil engineer who earned bachelor's, master's and doctoral degrees from the University of Houston and leads Tolunay-Wong Engineers, a firm he says employs more than 400 people. He served on the Sugar Land City Council from 2002 to 2008 and on the Texas Higher Education Coordinating Board. He won the March 2026 Republican primary with about 54 percent, defeating incumbent KP George, and was named interim county judge in April 2026 after a visiting judge suspended George in a civil case. He is an elder at Fort Bend Community Church and lives in Sugar Land.",
      "website": "https://danielowong.com",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/daniel-wong.jpg",
+      "credit": "Campaign website",
+      "source_url": "https://danielowong.com"
+     },
      "priorities": [
       {
        "text": "Says he is running to lower property taxes so tax bills go down, not just grow more slowly.",
@@ -95908,7 +96028,11 @@
      "current_role": "Fort Bend County Treasurer since 2019 (elected 2018)",
      "background": "Bill Rickert was elected Fort Bend County Treasurer in 2018. He is originally from New Orleans, studied computer information systems at Loyola University New Orleans and holds an MBA certificate from Tulane University's Freeman School of Business. He worked in business and information technology management, including heading a seismic imaging business at PGS, according to former colleagues quoted on his site. He moved to Sugar Land in 1992 and has served on a municipal utility district board and as president of the Rosenberg Railroad Museum.",
      "website": "https://rickert.com",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/bill-rickert.jpg",
+      "credit": "Official portrait, Fort Bend County",
+      "source_url": "https://www.fortbendcountytx.gov/government/departments/treasurer"
+     },
      "priorities": [
       {
        "text": "Campaigns on the theme 'The financial strength of the county is the future of the county.'",
@@ -96643,7 +96767,11 @@
      "current_role": "Fort Bend County Justice of the Peace, Precinct 1, Place 2, since January 2023",
      "background": "Tricia Krenek took the bench as Justice of the Peace for Precinct 1, Place 2 in January 2023. She earned a BBA and MBA in accounting from the University of St. Thomas and a law degree from the University of Houston Law Center, and clerked for a state district judge. She was managing partner of a Katy litigation firm with her husband, handling business, consumer and landlord-tenant cases, and is a certified mediator. She was elected to the Fulshear City Council in 2014 and served as mayor pro tem from 2017 to 2018.",
      "website": "https://triciakrenek.com",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/tricia-krenek.jpg",
+      "credit": "Official portrait, Fort Bend County",
+      "source_url": "https://www.fortbendcountytx.gov/government/departments/justice-of-the-peace/precinct-1-place-2"
+     },
      "priorities": [],
      "promises": [],
      "record": [],
@@ -100116,7 +100244,11 @@
      "current_role": "U.S. Representative for Texas' 1st District since 2023",
      "background": "Nathaniel Moran attended the U.S. Military Academy at West Point before completing degrees in Russian, an MBA and a law degree at Texas Tech University. He practiced law in Tyler, served on the Tyler City Council and was Smith County judge for six years. He was elected to Congress in 2022 and serves on the Ways and Means Committee and the Select Committee on the Chinese Communist Party.",
      "website": "https://www.nathanielmoran.com/",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/nathaniel-moran.jpg",
+      "credit": "Official portrait, U.S. House of Representatives",
+      "source_url": "https://moran.house.gov/"
+     },
      "priorities": [
       {
        "text": "Supports skills-based education that connects students with local jobs.",
@@ -102881,7 +103013,11 @@
      "current_role": "Owner, Vertex Concrete",
      "background": "Cardenas was born and raised on San Antonio's South Side and attended Palo Alto College before joining his family's plumbing business. He built Vertex Concrete, which he has run for over a decade. This is his first run for office; he won the May 2026 Republican runoff with 52 percent.",
      "website": "https://marcusfortexas.com",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/marcus-cardenas.jpg",
+      "credit": "Campaign website",
+      "source_url": "https://marcusfortexas.com"
+     },
      "priorities": [
       {
        "text": "Campaigns on economic development: attracting businesses, reducing regulation and lowering taxes.",
@@ -109392,7 +109528,11 @@
      "current_role": "Health care executive",
      "background": "McGee is a health care executive, community advocate and working mother who describes herself as a lifelong Texan. She ran unopposed in the 2026 Democratic primary.",
      "website": "https://mcgeefortx.com",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/sara-mcgee.jpg",
+      "credit": "Campaign website",
+      "source_url": "https://mcgeefortx.com"
+     },
      "priorities": [
       {
        "text": "Says her top priorities are fully funding public schools and lowering the cost of living and homeownership.",
@@ -110891,7 +111031,11 @@
      "current_role": "State Representative, Texas House District 137, since 2013; House Democratic Caucus leader",
      "background": "Wu is a former Harris County prosecutor and an attorney in private practice. He holds degrees from Texas A&M University, the LBJ School at the University of Texas and South Texas College of Law. He grew up in Sharpstown and is the Texas House Democratic minority leader.",
      "website": "https://genefortexas.com/",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/gene-wu.jpg",
+      "credit": "Official portrait, Texas House of Representatives",
+      "source_url": "https://house.texas.gov/members/member-page?district=137"
+     },
      "priorities": [
       {
        "text": "Lists affordability and an economy that works for working families as top priorities.",
@@ -112649,7 +112793,11 @@
      "current_role": "State Representative, Texas House District 141, since 1973; Dean of the Texas House",
      "background": "Thompson is a Houston attorney and the longest-serving woman and African American in Texas legislative history. She holds degrees from Texas Southern University, Prairie View A&M University, Thurgood Marshall School of Law and the University of Houston. She represents northeast Houston and Humble.",
      "website": "http://www.senfroniathompson.com/",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/senfronia-thompson.jpg",
+      "credit": "Official portrait, Texas House of Representatives",
+      "source_url": "https://house.texas.gov/members/member-page?district=141"
+     },
      "priorities": [
       {
        "text": "Says she continues a lifelong fight for equality, justice and opportunity.",
@@ -114584,7 +114732,11 @@
      "current_role": "State Representative, Texas House District 145, since 2019",
      "background": "Morales won a 2019 special election to succeed Carol Alvarado. She owns Morales Funeral Home, founded by her grandparents in 1931, and has run an annual school supply giveaway since 1997. The district covers the Heights, the East End and the Northside.",
      "website": "https://www.moralesfordistrict145.com/",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/christina-morales.jpg",
+      "credit": "Official portrait, Texas House of Representatives",
+      "source_url": "https://house.texas.gov/members/member-page?district=145"
+     },
      "priorities": [],
      "promises": [],
      "record": [
@@ -116474,7 +116626,11 @@
      "current_role": "Board president, Alief ISD",
      "background": "Breaux is an educator and board president of Alief ISD who has lived in District 149 for more than 30 years and has held leadership roles with the Texas Association of School Boards. She defeated Rep. Hubert Vo in the May 2026 Democratic primary runoff.",
      "website": "https://darlenebreaux.com/",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/darlene-breaux.jpg",
+      "credit": "Campaign website",
+      "source_url": "https://darlenebreaux.com/"
+     },
      "priorities": [
       {
        "text": "Lists fully funding public schools, affordable health care, affordable housing and economic development as top priorities.",
@@ -123187,7 +123343,11 @@
      "current_role": "Presiding Judge, Harris County Civil Court at Law No. 3 since 2019",
      "background": "LaShawn A. Williams has presided over Harris County Civil Court at Law No. 3 since 2019, after election in 2018, and was reelected in 2022. A Conroe native and daughter of a Vietnam War veteran, she earned her law degree at Thurgood Marshall School of Law in 1995. Before taking the bench she worked as a prosecutor, in-house counsel to a national restaurant chain and co-founder of a civil litigation firm.",
      "website": "https://lawforjudge.com",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/lashawn-a-williams.jpg",
+      "credit": "Official portrait, Harris County Civil Courts at Law",
+      "source_url": "https://www.ccl.hctx.net/civil/3/default.htm"
+     },
      "priorities": [
       {
        "text": "Says she will continue early case management, consistent scheduling and limits on unnecessary continuances.",
@@ -124044,7 +124204,11 @@
      "current_role": "Criminal defense attorney",
      "background": "Matthew Ruben Perez is a Harris County criminal defense attorney with more than a decade of courtroom experience. For the past four years he has mostly represented indigent clients through the county's Managed Assigned Counsel system, according to the Houston Chronicle.",
      "website": "https://www.mattperezforjudge.com",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/matthew-ruben-perez.jpg",
+      "credit": "Campaign website",
+      "source_url": "https://www.mattperezforjudge.com"
+     },
      "priorities": [
       {
        "text": "Says the court should require status updates when cases reach a certain age and use shorter resets and status conferences for stalled cases.",
@@ -125578,7 +125742,11 @@
      "current_role": "Judge, Harris County Criminal Court at Law No. 10 since 2023",
      "background": "Juanita A. Jackson was elected judge of Harris County Criminal Court at Law No. 10 in 2022. A James Madison High School graduate, she holds a criminal justice degree from the University of Alabama and a law degree from Thurgood Marshall School of Law. She worked as an assistant attorney general on consumer protection, in private practice and as a felony trial attorney with the Harris County Public Defender's Office, and appeared on the WEtv series Sisters in Law.",
      "website": "https://judgejuanitajackson.com",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/juanita-a-jackson.jpg",
+      "credit": "Campaign website",
+      "source_url": "https://judgejuanitajackson.com"
+     },
      "priorities": [
       {
        "text": "Says she will keep using scheduling orders, status hearings and early case reviews and hold parties accountable for deadlines.",
@@ -126390,7 +126558,11 @@
      "current_role": "Associate Judge, 246th Family District Court",
      "background": "Yahaira Quezada has served for seven years as associate judge of the 246th Family District Court in Harris County. Born in the Dominican Republic and raised in New York, she earned her law degree from Thurgood Marshall School of Law in 2007 and has worked as an assistant district attorney, juvenile public defender, criminal defense and immigration attorney, and City of Houston hearing officer. She defeated attorney James Hu in the March 2026 Democratic primary.",
      "website": "https://votejudgequezada.com",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/yahaira-quezada.jpg",
+      "credit": "Campaign website",
+      "source_url": "https://votejudgequezada.com"
+     },
      "priorities": [
       {
        "text": "Plans to implement scheduling orders, an early morning docket for pleas and uncontested matters, and designated weekly trial days.",
@@ -127097,7 +127269,11 @@
      "current_role": "Presiding Judge, Harris County Probate Court No. 3 since 2019",
      "background": "Jason Cox has presided over Harris County Probate Court No. 3 since 2019. He practiced probate law in Harris County for nearly 15 years before taking the bench. His court has primary responsibility for civil mental health commitments and competency restoration for jail inmates, and he told the Chronicle it handled over 20,000 mental health cases in the prior year.",
      "website": "https://reelectjudgejasoncox.com",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/jason-cox.jpg",
+      "credit": "Official portrait, Harris County Probate Courts",
+      "source_url": "https://probate.harriscountytx.gov/Probate-Court-No-3"
+     },
      "priorities": [
       {
        "text": "Says his court has standardized procedures, expanded remote participation and kept clearance rates above 100 percent.",
@@ -128074,7 +128250,11 @@
      "current_role": "Harris County Clerk",
      "background": "Teneshia Hudspeth has worked in the Harris County Clerk's Office for 21 years in six positions and won election as county clerk in 2020 and reelection in 2022. She is the first African American woman to hold the office and has overseen county elections since the Legislature returned election administration to the clerk in 2023. She is an Austin native.",
      "website": "https://www.teneshiahudspeth.com",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/teneshia-hudspeth.jpg",
+      "credit": "Campaign website",
+      "source_url": "https://www.teneshiahudspeth.com"
+     },
      "priorities": [
       {
        "text": "Says she will continue voter education, recruit bilingual election workers and provide translation in more languages than required by law.",
@@ -128917,7 +129097,11 @@
      "current_role": "Harris County Commissioner, Precinct 2, since 2019",
      "background": "Adrian Garcia is the youngest child of Mexican immigrants and grew up in Houston's Northside. He spent 23 years as a Houston police officer, served on Houston City Council and as mayor pro tem, and was Harris County sheriff. He was elected Precinct 2 commissioner in 2018, defeating Republican incumbent Jack Morman, and won a rematch in 2022.",
      "website": "https://www.adriangarcia.com",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/adrian-garcia.jpg",
+      "credit": "Campaign website",
+      "source_url": "https://www.adriangarcia.com"
+     },
      "priorities": [
       {
        "text": "Lists lowering costs for families, responsible stewardship of tax dollars, neighborhood safety and flood protection as priorities.",
@@ -130208,7 +130392,11 @@
      "current_role": "Chief clerk, Harris County justice of the peace court",
      "background": "Lisa Jefferson is a Houston native and Klein Forest High School graduate who studied criminal justice at Prairie View A&M University. She has worked in Harris County justice of the peace courts since 2012, starting as a court clerk and becoming chief clerk, and has worked with nine judges across five JP courts. She also has more than 15 years of human resources experience.",
      "website": "https://www.lisajefferson4jp.com",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/lisa-jefferson.jpg",
+      "credit": "Campaign website",
+      "source_url": "https://www.lisajefferson4jp.com"
+     },
      "priorities": [
       {
        "text": "Plans to have mediators available on the day of court for small claims, with trial the same day if no agreement is reached.",
@@ -131483,7 +131671,11 @@
      "current_role": "Founder and CEO, Institute to Combat Trafficking",
      "background": "Kirsta Melton is a career felony prosecutor running as an independent. She was an assistant prosecutor in the Bexar County Criminal District Attorney's Office from 2000 to 2014 and deputy criminal chief of the Texas Attorney General's Human Trafficking and Transnational Organized Crime Section from 2015 to 2019. She founded the Institute to Combat Trafficking, a Dripping Springs nonprofit, in 2020. She holds a bachelor's degree from Cornell University and a law degree and master of public affairs from the University of Texas.",
      "website": "https://www.kirstamelton.com/",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/kirsta-melton.jpg",
+      "credit": "Campaign website",
+      "source_url": "https://www.kirstamelton.com/"
+     },
      "priorities": [
       {
        "text": "Frames her campaign around professionalism, integrity and transparency, and says \"Justice should be independent.\"",
@@ -151629,7 +151821,11 @@
      "current_role": "Democratic nominee for Texas House District 15; attorney",
      "background": "Moniqua' S. Scott is a former assistant district attorney in Harris and Montgomery counties and a former public defender. She ran unopposed in the 2026 Democratic primary.",
      "website": "https://www.scottforhd15.com",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/moniqua-s-scott.jpg",
+      "credit": "Campaign website",
+      "source_url": "https://www.scottforhd15.com"
+     },
      "priorities": [
       {
        "text": "Lists education, health care access, cost of living and keeping data centers out of Montgomery County as priorities.",
@@ -155443,7 +155639,11 @@
      "current_role": "Trial attorney",
      "background": "Neely Balko is a trial attorney and lifelong Nueces County resident. He attended Calallen High School, Texas A&M University and St. Mary's University School of Law. His campaign says he has handled civil litigation for plaintiffs and defendants and criminal cases as both a prosecutor and a defense attorney.",
      "website": "https://neelybalko.com",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/neely-balko.jpg",
+      "credit": "Campaign website",
+      "source_url": "https://neelybalko.com"
+     },
      "priorities": [
       {
        "text": "Says he will \"be impartial while still upholding the rule of law.\"",
@@ -160651,7 +160851,11 @@
      "current_role": "Republican nominee, Texas House District 86; dean, West Texas A&M University College of Nursing and Health Sciences",
      "background": "Jeffreys is a nurse practitioner who opened rural clinics in the Panhandle and leads the College of Nursing and Health Sciences at West Texas A&M University. She served nine years as president of the Bushland ISD school board. She grew up in Amarillo.",
      "website": "https://hollyjeffreysfortexas.com",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/holly-jeffreys.jpg",
+      "credit": "Campaign website",
+      "source_url": "https://hollyjeffreysfortexas.com"
+     },
      "priorities": [
       {
        "text": "Says she will fight to keep Panhandle water in the Panhandle for farmers, ranchers, and families.",
@@ -163507,7 +163711,11 @@
      "current_role": "Texas State Representative, District 6, since 2025",
      "background": "Daniel Alders of Tyler was elected to House District 6 in 2024. He is a graduate of New Saint Andrews College, worked in real estate, served as East Texas regional director for U.S. Sen. Ted Cruz, and later was president of Drake Management Services.",
      "website": null,
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/daniel-alders.jpg",
+      "credit": "Official portrait, Texas House of Representatives",
+      "source_url": "https://house.texas.gov/members/member-page?district=6"
+     },
      "priorities": [],
      "promises": [],
      "record": [
@@ -168008,7 +168216,11 @@
      "current_role": "State Representative, Texas House District 97, since 2025",
      "background": "McQueeney is a Fort Worth businessman who has operated McDonald's franchises and a FedEx contracting and logistics operation. He graduated from TCU's Neeley School of Business. He was first elected in 2024 and serves on the State Affairs Committee.",
      "website": "https://mcqueeneyfortexas.com",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/john-w-mcqueeney.jpg",
+      "credit": "Official portrait, Texas House of Representatives",
+      "source_url": "https://house.texas.gov/members/member-page?district=97"
+     },
      "priorities": [
       {
        "text": "Campaigns on a zero-tolerance approach to homeless encampments in public spaces.",
@@ -169604,7 +169816,11 @@
      "current_role": "Family law attorney and founder of the Barrows Firm",
      "background": "Barrows founded the Barrows Firm in 2006 to focus on family law, including divorce, adoption, child protection, guardianship and probate, and is a certified mediator. She studied at Sam Houston State University and earned her law degree at Oklahoma City University School of Law. She won a four-way Republican primary in March 2026 with 53.6% of the vote. The 231st is a family district court with no incumbent on the ballot.",
      "website": "https://www.barrowsforjudge.com",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/leslie-barrows.jpg",
+      "credit": "Campaign website",
+      "source_url": "https://www.barrowsforjudge.com"
+     },
      "priorities": [
       {
        "text": "Campaigns on more than 20 years of litigation experience in and out of the courtroom.",
@@ -171169,7 +171385,11 @@
      "current_role": "Associate Judge, 323rd District Court since 2023",
      "background": "Wagner has been an associate judge for the 323rd District Court since 2023. Before that she was a Tarrant County prosecutor for more than 20 years, including in the Family Violence Unit, and says she has tried more than 120 jury trials. She graduated cum laude from Wayland Baptist University and worked in corporate publishing before law school.",
      "website": "https://wagnerforjudge.net/",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/sherri-wagner.jpg",
+      "credit": "Campaign website",
+      "source_url": "https://wagnerforjudge.net/"
+     },
      "priorities": [
       {
        "text": "Campaigns on protecting victims' rights and holding criminals accountable.",
@@ -172550,7 +172770,11 @@
      "current_role": "Judge, County Criminal Court No. 5 since 2023",
      "background": "Clark has been judge of County Criminal Court No. 5, a dedicated domestic violence court, since January 2023. Born in Fort Worth, he earned degrees from the University of Texas at Arlington and Baylor Law School. He began as a Tarrant County prosecutor on the county's first domestic violence prosecution team and entered private practice in 2000. He was a founding member of the Tarrant County Mental Health Court.",
      "website": "https://bradclarkforjudge.com",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/brad-clark.jpg",
+      "credit": "Campaign website",
+      "source_url": "https://bradclarkforjudge.com"
+     },
      "priorities": [
       {
        "text": "Says every decision should be rooted in the facts and the Constitution, free from partisan influence.",
@@ -173630,7 +173854,11 @@
      "current_role": "State Representative, Texas House District 94, since 2015",
      "background": "Tinderholt, of Arlington, has represented House District 94 since 2015 and did not seek re-election in 2026. He is a U.S. Air Force veteran and has worked as a Spanish professor at Columbia College in Fort Worth and an education executive. He announced his run for Precinct 2 in June 2025, after the court adopted new precinct lines.",
      "website": null,
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/tony-tinderholt.jpg",
+      "credit": "Official portrait, Texas House of Representatives",
+      "source_url": "https://house.texas.gov/members/member-page?district=94"
+     },
      "priorities": [
       {
        "text": "Lists lower property taxes, fully funded law enforcement, eliminating waste, fraud and abuse, economic growth and election integrity as campaign priorities.",
@@ -174768,7 +174996,11 @@
      "current_role": "Chief operating officer, Welch Law Firm",
      "background": "Payne-Neal, an Arlington resident, is chief operating officer of Welch Law Firm and says she has 20 years of experience in family law and commercial real estate. She earned BBA and MBA degrees from Northwood University while working two jobs as a single mother.",
      "website": "https://www.paigepayneneal.com/",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/paige-payne-neal.jpg",
+      "credit": "Campaign website",
+      "source_url": "https://www.paigepayneneal.com/"
+     },
      "priorities": [
       {
        "text": "Says truancy interventions should favor prevention over punishment, connecting families with resources and partnering with schools.",
@@ -176340,7 +176572,11 @@
      "current_role": "State Representative, Texas House District 81, since 2015",
      "background": "Landgraf is an Odessa attorney from a West Texas ranching family who represents Ector, Loving, Ward, and Winkler counties. He graduated from Texas A&M University and St. Mary's University School of Law. His House biography says he chairs the House Environmental Regulation Committee.",
      "website": "http://www.BrooksLandgraf.com",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/brooks-landgraf.jpg",
+      "credit": "Official portrait, Texas House of Representatives",
+      "source_url": "https://house.texas.gov/members/member-page?district=81"
+     },
      "priorities": [
       {
        "text": "His House biography lists protecting the Permian Basin energy economy, strengthening infrastructure, defending individual liberties, promoting life, and keeping Texas affordable.",
@@ -178689,7 +178925,11 @@
      "current_role": "Democratic nominee, Texas House District 49; former teacher and labor leader",
      "background": "Garibay is a former Austin ISD bilingual pre-K teacher who served as vice president of Education Austin, as secretary-treasurer of the Texas AFL-CIO and as an assistant deputy secretary at the U.S. Department of Education. She holds bachelor's and master's degrees from the University of Texas at Austin and describes herself as a formerly undocumented student. She won the May 2026 Democratic runoff.",
      "website": "https://www.montserratfortexas.com/",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/montserrat-garibay.jpg",
+      "credit": "Campaign website",
+      "source_url": "https://www.montserratfortexas.com/about"
+     },
      "priorities": [
       {
        "text": "Lists affordability, public schools and access to health care as top priorities.",
@@ -184381,7 +184621,11 @@
      "current_role": "State Representative, Texas House District 80, since 2025",
      "background": "McLaughlin served as mayor of Uvalde from 2014 until he resigned in 2023 to run for the House, and was mayor during the 2022 Robb Elementary School shooting. He won House District 80 in 2024. The district covers part of Webb County and several South Texas counties.",
      "website": null,
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/don-mclaughlin.jpg",
+      "credit": "Official portrait, Texas House of Representatives",
+      "source_url": "https://house.texas.gov/members/member-page?district=80"
+     },
      "priorities": [
       {
        "text": "Cited property tax relief, school choice, land ownership by noncitizens, and border control as issues when he entered the race.",
@@ -185733,7 +185977,11 @@
      "current_role": "State Representative, Texas House District 69, since 2013",
      "background": "Frank represents a Wichita Falls area district. He was first elected in 2012, serves on the House Public Education Committee and ran unopposed in the 2026 Republican primary. His campaign describes him as guided by his Christian principles and conservative beliefs.",
      "website": "http://www.votejamesfrank.com/",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/james-b-frank.jpg",
+      "credit": "Official portrait, Texas House of Representatives",
+      "source_url": "https://house.texas.gov/members/member-page?district=69"
+     },
      "priorities": [],
      "promises": [],
      "record": [
@@ -188849,7 +189097,11 @@
      "current_role": "Judge, 512th Judicial District Court, Williamson County, since March 2026 (appointed)",
      "background": "Sarah Moore of Liberty Hill was appointed by Gov. Greg Abbott in March 2026 as the first judge of the newly created 512th District Court. She was an assistant district attorney in the 26th Judicial District Attorney's Office and describes herself as a career prosecutor and board-certified attorney who has tried more than 100 felony jury cases. She holds a business degree from the University of Phoenix and a law degree from St. Mary's University School of Law.",
      "website": "https://mooreforwilco.com",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/sarah-moore.jpg",
+      "credit": "Campaign website",
+      "source_url": "https://mooreforwilco.com"
+     },
      "priorities": [
       {
        "text": "Describes herself as a leader in ethics and victim advocacy.",
@@ -190056,7 +190308,11 @@
      "current_role": "Williamson County Commissioner, Precinct 4, since 2019",
      "background": "Russ Boles grew up in Round Rock and was elected Precinct 4 commissioner in 2018 and re-elected in 2022. He is a commercial broker with his family's commercial real estate firm, Summit Commercial, and co-owns an events center. He earned a business degree from Texas State University and a law degree from St. Mary's University School of Law.",
      "website": "https://voterussboles.com",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/russ-boles.jpg",
+      "credit": "Campaign website",
+      "source_url": "https://voterussboles.com"
+     },
      "priorities": [
       {
        "text": "Says road planning protects taxpayers and gives families more time at home instead of in traffic.",

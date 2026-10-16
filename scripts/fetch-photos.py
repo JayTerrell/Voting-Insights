@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """Downloads candidate photos found by researchers, checks them, and crops them.
 
-    python3 -I scripts/fetch-photos.py [found.json ...]
+    python3 -I scripts/fetch-photos.py [--retry] [found.json ...]
+
+--retry tries again every photo that failed to download on an earlier run.
 
 Each input file has {"photos": [{candidate_id, image_url, source_url, credit, kind}]}.
 New entries are merged into data/photos/manifest.json (the permanent record of
@@ -58,7 +60,7 @@ def ssl_context():
 
 
 def download(url):
-    req = urllib.request.Request(url, headers={'User-Agent': 'VotingInsightsPhotoCheck/1.0', 'Accept': 'image/*'})
+    req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (compatible; VotingInsightsPhotoCheck/1.0)', 'Accept': 'image/*'})
     with urllib.request.urlopen(req, timeout=20, context=ssl_context()) as res:
         ctype = res.headers.get('Content-Type', '')
         if not ctype.startswith('image/'):
@@ -96,7 +98,9 @@ def process(data):
     return buf.getvalue()
 
 
-def main(inputs):
+def main(args):
+    retry = '--retry' in args
+    inputs = [a for a in args if a != '--retry']
     candidates = {c['id'] for r in json.loads(GUIDE.read_text())['races'] for c in r['candidates']}
     manifest = json.loads(MANIFEST.read_text()) if MANIFEST.exists() else {'photos': {}}
     added = 0
@@ -117,6 +121,10 @@ def main(inputs):
             if cid not in manifest['photos']:
                 added += 1
             manifest['photos'][cid] = {k: p[k] for k in ('image_url', 'source_url', 'credit', 'kind')}
+
+    if retry:
+        for p in manifest['photos'].values():
+            p.pop('failed', None)
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     saved, failed = 0, []
