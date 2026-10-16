@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-16T20:49:39.779Z",
+ "generated_at": "2026-10-16T20:53:33.183Z",
  "election": {
   "name": "2026 November General Election",
   "county": "Collin County, Texas",
@@ -128387,7 +128387,11 @@
      "current_role": "Harris County Attorney since June 2026 (appointed)",
      "background": "Abbie Kamin is a Houston native and civil rights attorney who focused on voting rights and later served as an associate regional director for the Anti-Defamation League. She represented District C on Houston City Council from 2020 until her candidacy for this office required her to leave the council under Texas's resign-to-run law. Commissioners Court appointed her county attorney in April 2026 on a 3-2 vote, effective June 15, after Christian Menefee left for Congress; she is the first woman to hold the office.",
      "website": "https://www.abbiekamin.com",
-     "photo": null,
+     "photo": {
+      "url": "/img/candidates/abbie-kamin.jpg",
+      "credit": "Campaign website",
+      "source_url": "https://www.abbiekamin.com"
+     },
      "priorities": [
       {
        "text": "Lists protecting vulnerable children and seniors, safe and healthy neighborhoods, disaster and flood response, voting rights and clean air and water as priorities.",

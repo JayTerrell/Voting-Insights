@@ -1,6 +1,14 @@
 {
  "candidates": [
   {
+   "id": "abbie-kamin",
+   "photo": {
+    "url": "/img/candidates/abbie-kamin.jpg",
+    "credit": "Campaign website",
+    "source_url": "https://www.abbiekamin.com"
+   }
+  },
+  {
    "id": "adam-bauman",
    "photo": {
     "url": "/img/candidates/adam-bauman.jpg",
