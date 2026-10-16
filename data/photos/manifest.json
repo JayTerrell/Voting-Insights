@@ -18,6 +18,18 @@
    "kind": "campaign",
    "source_url": "https://www.adriangarcia.com"
   },
+  "aicha-davis": {
+   "credit": "Official portrait, Texas House of Representatives",
+   "image_url": "https://www.house.texas.gov/images/members/4465.jpg",
+   "kind": "official",
+   "source_url": "https://www.house.texas.gov/members/4465"
+  },
+  "aidee-hernandez": {
+   "credit": "Campaign website",
+   "image_url": "https://static.wixstatic.com/media/b2b016_c138af31a8c442dba8233329ea96ac42~mv2.jpg",
+   "kind": "campaign",
+   "source_url": "https://www.aideefornuecescountyjudge.com/"
+  },
   "aj-louderback": {
    "credit": "Official portrait, Texas House of Representatives",
    "image_url": "https://www.house.texas.gov/images/members/4620.jpg",
@@ -80,6 +92,12 @@
    "kind": "campaign",
    "source_url": "https://amandalabrie.com/"
   },
+  "amandine-ngakoue": {
+   "credit": "Campaign website",
+   "image_url": "https://img1.wsimg.com/isteam/ip/74a59119-4e30-40c0-a63e-066bca331676/20241120_154325.jpg",
+   "kind": "campaign",
+   "source_url": "https://amandangakoue.com"
+  },
   "amy-guerra": {
    "credit": "Official portrait, Texas Judicial Branch (txcourts.gov)",
    "image_url": "https://www.txcourts.gov/media/1456714/guerra_monique_img_3098.jpg",
@@ -122,6 +140,13 @@
    "kind": "official",
    "source_url": "https://www.dentoncounty.gov/Directory.aspx?EID=8"
   },
+  "andy-griffin": {
+   "credit": "Campaign website",
+   "failed": "HTTP Error 403: Forbidden",
+   "image_url": "https://andygriffinforjudge.com/wp-content/uploads/2025/12/election-picture.png",
+   "kind": "campaign",
+   "source_url": "https://andygriffinforjudge.com/"
+  },
   "andy-hopper": {
    "credit": "Official portrait, Texas House of Representatives",
    "image_url": "https://www.house.texas.gov/images/members/4555.jpg",
@@ -163,6 +188,12 @@
    "image_url": "https://www.house.texas.gov/images/members/3985.jpg",
    "kind": "official",
    "source_url": "https://www.house.texas.gov/members/3985/biography"
+  },
+  "anna-emmons": {
+   "credit": "Campaign website",
+   "image_url": "https://static.wixstatic.com/media/130645_775f4efe865045688bcaa4e2499cafcc~mv2.png",
+   "kind": "campaign",
+   "source_url": "https://www.emmons4judge.com"
   },
   "antonia-toni-arteaga": {
    "credit": "Campaign website",
@@ -262,6 +293,12 @@
    "kind": "campaign",
    "source_url": "https://electjudgerichardson.com/"
   },
+  "beth-smith": {
+   "credit": "Campaign website",
+   "image_url": "https://www.judgebeth.com/images/Judge-Smith-at-desk.jpg",
+   "kind": "campaign",
+   "source_url": "https://www.judgebeth.com/"
+  },
   "beth-van-duyne": {
    "credit": "Official portrait, U.S. House of Representatives",
    "image_url": "https://vanduyne.house.gov/index.cfm?a=Files.Serve&File_id=15E268CB-4F09-4C86-9622-6A0950770256",
@@ -340,6 +377,12 @@
    "kind": "campaign",
    "source_url": "https://mcgeefordenton.com"
   },
+  "brett-busby": {
+   "credit": "Official portrait, Supreme Court of Texas",
+   "image_url": "https://www.txcourts.gov/media/1461169/brett-busby.png",
+   "kind": "official",
+   "source_url": "https://www.txcourts.gov/supreme/about-the-court/justices/justice-brett-busby/"
+  },
   "brett-robinson": {
    "credit": "Campaign website",
    "image_url": "https://images.squarespace-cdn.com/content/v1/6577a5080fcec941580408ea/cd259e19-ed34-4536-b5d9-29910bed69b9/Headshot.png",
@@ -400,6 +443,13 @@
    "kind": "campaign",
    "source_url": "https://www.caitlinrourk.com/"
   },
+  "candace-valenzuela": {
+   "credit": "Wikimedia Commons, U.S. Department of Housing and Urban Development (Jennifer E. Miller), public domain",
+   "failed": "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead us",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Candace_Valenzuela.jpg",
+   "kind": "commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Candace_Valenzuela.jpg"
+  },
   "candy-noble": {
    "credit": "Official portrait, Texas House of Representatives",
    "image_url": "https://house.texas.gov/images/members/3740.jpg",
@@ -436,12 +486,24 @@
    "kind": "official",
    "source_url": "https://house.texas.gov/members/member-page?district=73"
   },
+  "cassandra-hernandez": {
+   "credit": "Official portrait, Texas House of Representatives",
+   "image_url": "https://www.house.texas.gov/images/members/4495.jpg",
+   "kind": "official",
+   "source_url": "https://www.house.texas.gov/members/4495"
+  },
   "cassie-benoist-templeton": {
    "credit": "Campaign website",
    "failed": "HTTP Error 403: Forbidden",
    "image_url": "https://cassieforjudge.com/wp-content/uploads/2025/09/IMG_5970-copy-2.webp",
    "kind": "campaign",
    "source_url": "https://cassieforjudge.com/"
+  },
+  "cate-brennan": {
+   "credit": "Campaign website",
+   "image_url": "https://cdn.durable.co/blocks/2fK5122NPsoOYS9oQ0P7jbml8H4YLXAMK1isltmeBHQMi9CiTfHlQlAmzLbscTL7.png",
+   "kind": "campaign",
+   "source_url": "https://brennanforhd98.com"
   },
   "celina-vasquez": {
    "credit": "Campaign website",
@@ -527,6 +589,12 @@
    "kind": "campaign",
    "source_url": "https://www.oldham4texas.com/"
   },
+  "christian-dashaun-menefee": {
+   "credit": "Official portrait, U.S. House of Representatives",
+   "image_url": "https://menefee.house.gov/sites/evo-subsites/menefee.house.gov/files/evo-media-image/mene.jpg",
+   "kind": "official",
+   "source_url": "https://menefee.house.gov/about"
+  },
   "christina-morales": {
    "credit": "Official portrait, Texas House of Representatives",
    "image_url": "https://house.texas.gov/images/members/3910.jpg?v=1",
@@ -544,6 +612,12 @@
    "image_url": "https://www.tarrantcountytx.gov/content/main/en/justice-of-the-peace-courts/justice-4/_jcr_content/par/texttitleimage_81065/image.img.jpg/1778176420893.jpg",
    "kind": "official",
    "source_url": "https://www.tarrantcountytx.gov/en/justice-of-the-peace-courts/justice-4.html"
+  },
+  "claire-reynolds": {
+   "credit": "Campaign website",
+   "image_url": "https://run.imgix.net/50134015-8872-4ae0-aea3-c9052afbe0aa/47c97e0f-4811-4a64-92c7-af115f12f3d5/47c97e0f-4811-4a64-92c7-af115f12f3d5.jpg?w=1200",
+   "kind": "campaign",
+   "source_url": "https://www.clairereynoldsforcongress.org/"
   },
   "clarissa-silva": {
    "credit": "Official portrait, Thirteenth Court of Appeals (txcourts.gov)",
@@ -600,11 +674,23 @@
    "kind": "campaign",
    "source_url": "https://www.electemmons.com"
   },
+  "cyndi-hinojosa": {
+   "credit": "Official photo, Cameron County",
+   "image_url": "https://www.cameroncountytx.gov/wp-content/uploads/2025/02/Judge-Cindy-2025.jpg",
+   "kind": "official",
+   "source_url": "https://www.cameroncountytx.gov/cameron-county-justice-of-the-peace/"
+  },
   "dale-frey": {
    "credit": "Campaign website",
    "image_url": "https://freyfortexas.com/campaign/who-is-dale/dale-ireland.jpg",
    "kind": "campaign",
    "source_url": "https://freyfortexas.com"
+  },
+  "damarcus-l-offord": {
+   "credit": "Campaign website",
+   "image_url": "https://img1.wsimg.com/isteam/ip/1a972d5d-5ebf-4477-b1a5-8d038d0d728d/Offord-SquarePortrait.jpg",
+   "kind": "campaign",
+   "source_url": "https://damarcusoffordcampaign.com"
   },
   "dan-barrios": {
    "credit": "Campaign website",
@@ -647,6 +733,12 @@
    "image_url": "https://www.txcourts.gov/media/1460167/byrne1.jpg",
    "kind": "official",
    "source_url": "https://www.txcourts.gov/3rdcoa/about-the-court/justices/chief-justice-darlene-byrne/"
+  },
+  "darren-hamilton": {
+   "credit": "Campaign website",
+   "image_url": "https://www.hamiltonfortexas.com/images/89050/CandidateHeadshot.jpg",
+   "kind": "campaign",
+   "source_url": "https://www.HamiltonForTexas.com"
   },
   "david-cook": {
    "credit": "Official portrait, Texas House of Representatives",
@@ -695,6 +787,12 @@
    "image_url": "https://www.fortbendcountytx.gov/sites/default/files/document-central/image-library/court-law-6-images/dean-hrbacek-300.jpg",
    "kind": "official",
    "source_url": "https://www.fortbendcountytx.gov/government/departments/county-courts-at-law/county-court-at-law-6"
+  },
+  "deanna-hammond": {
+   "credit": "Campaign website",
+   "image_url": "https://hammondforconstable.com/images/constablehammond_1.webp",
+   "kind": "campaign",
+   "source_url": "https://hammondforconstable.com"
   },
   "dedra-davis": {
    "credit": "Official portrait, Harris County District Courts (justex.net)",
@@ -800,6 +898,12 @@
    "kind": "campaign",
    "source_url": "https://hankefortexas.com"
   },
+  "eric-norman": {
+   "credit": "Campaign website",
+   "image_url": "https://images.squarespace-cdn.com/content/v1/65b92e0117af005a6907acd1/78132d41-5957-4105-8efe-38452fa79e8a/Eric_for_Texas_44_Jacket.jpg",
+   "kind": "campaign",
+   "source_url": "https://www.ericfortx.com/"
+  },
   "erica-davis": {
    "credit": "Official portrait, Harris County Department of Education",
    "image_url": "https://www.hcde-texas.org/uploaded/photos/Trustees/erica-davis-lg-portrait.jpg",
@@ -885,6 +989,13 @@
    "kind": "campaign",
    "source_url": "https://vanliewforjp.com"
   },
+  "frederick-d-haynes-iii": {
+   "credit": "Wikimedia Commons, Calvary Baptist Church Jamaica NY, CC BY 3.0",
+   "failed": "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead us",
+   "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Frederick_Haynes_III_at_Calvary_Baptist_Church.png",
+   "kind": "commons",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Frederick_Haynes_III_at_Calvary_Baptist_Church.png"
+  },
   "gary-gates": {
    "credit": "Official portrait, Texas House of Representatives",
    "image_url": "https://www.house.texas.gov/images/members/3920.jpg",
@@ -915,6 +1026,12 @@
    "kind": "campaign",
    "source_url": "https://justicetriana.com"
   },
+  "grady-prestage": {
+   "credit": "Campaign website",
+   "image_url": "https://static.wixstatic.com/media/31369d_7ebd84349d1b4dd4a8c15aea814baa29~mv2.jpg",
+   "kind": "campaign",
+   "source_url": "https://www.gradyprestage.com"
+  },
   "grandison-porter": {
    "credit": "Campaign website",
    "image_url": "https://static.wixstatic.com/media/242b0c_86cc9060350c460680b69d2224fc96d3~mv2.jpg",
@@ -932,6 +1049,12 @@
    "image_url": "https://www.house.texas.gov/images/members/2875.jpg",
    "kind": "official",
    "source_url": "https://www.house.texas.gov/members/2875/biography"
+  },
+  "greg-casar": {
+   "credit": "Official portrait, U.S. House of Representatives",
+   "image_url": "https://casar.house.gov/sites/evo-subsites/casar.house.gov/files/evo-media-image/greg_casar_portrait.jpg",
+   "kind": "official",
+   "source_url": "https://casar.house.gov/about"
   },
   "gregory-klaus": {
    "credit": "Campaign website",
@@ -951,11 +1074,24 @@
    "kind": "official",
    "source_url": "https://www.house.texas.gov/members/2650/biography"
   },
+  "heather-jefts": {
+   "credit": "Campaign website",
+   "failed": "banner shape (6771x2813)",
+   "image_url": "https://static.wixstatic.com/media/179174_a24e9522df584c008d951711af7e42c5~mv2.jpg",
+   "kind": "campaign",
+   "source_url": "https://jeftsforjudge.com"
+  },
   "heidi-hall": {
    "credit": "Campaign website",
    "image_url": "https://images.squarespace-cdn.com/content/v1/69a7ba059c24e25b037632f6/4bd04d69-6dc4-48ce-9ffd-32224a6f73d4/heidi+hall+image.jpg",
    "kind": "campaign",
    "source_url": "https://www.heididhall.com"
+  },
+  "helen-kerwin": {
+   "credit": "Official portrait, Texas House of Representatives",
+   "image_url": "https://www.house.texas.gov/images/members/4575.jpg",
+   "kind": "official",
+   "source_url": "https://www.house.texas.gov/members/4575"
   },
   "helen-zhou": {
    "credit": "Campaign website",
@@ -981,6 +1117,12 @@
    "kind": "campaign",
    "source_url": "https://hollyjeffreysfortexas.com"
   },
+  "holly-taylor": {
+   "credit": "Campaign website",
+   "image_url": "https://images.squarespace-cdn.com/content/v1/656b914f3b6db119ed7e75b7/fe8d2470-7c1c-4746-abb8-6a20e9ce6c56/holly-taylor-2026-1527x2100.jpg",
+   "kind": "campaign",
+   "source_url": "https://hollytforjudge.com"
+  },
   "inocensia-moreno": {
    "credit": "Campaign website",
    "image_url": "https://morenofortxhd145.com/airo-assets/images/pages/home/hero",
@@ -992,6 +1134,19 @@
    "image_url": "https://static.wixstatic.com/media/b36169_364efbf6cbf249f6badace3941b86ea9~mv2.png",
    "kind": "campaign",
    "source_url": "https://irvinbarrett.com"
+  },
+  "jack-ezell": {
+   "credit": "Campaign website",
+   "failed": "HTTP Error 403: Forbidden",
+   "image_url": "https://ezellcampaign.com/wp-content/uploads/2025/08/Header_Ezell.png",
+   "kind": "campaign",
+   "source_url": "https://ezellcampaign.com"
+  },
+  "jacqueline-lucci-smith": {
+   "credit": "Campaign website",
+   "image_url": "https://smith4harriscounty.com/wp-content/uploads/2026/07/JLS-HEADSHOT2-scaled.png",
+   "kind": "campaign",
+   "source_url": "https://smith4harriscounty.com"
   },
   "jake-ellzey": {
    "credit": "Official portrait, U.S. House of Representatives",
@@ -1035,6 +1190,12 @@
    "kind": "official",
    "source_url": "https://www.house.texas.gov/members/4295"
   },
+  "janis-holt": {
+   "credit": "Official portrait, Texas House of Representatives",
+   "image_url": "https://www.house.texas.gov/images/members/4535.jpg",
+   "kind": "official",
+   "source_url": "https://www.house.texas.gov/members/4535"
+  },
   "jared-patterson": {
    "credit": "Official portrait, Texas House of Representatives",
    "image_url": "https://www.house.texas.gov/images/members/3655.jpg",
@@ -1077,6 +1238,12 @@
    "kind": "campaign",
    "source_url": "https://www.jeffreyboney.com"
   },
+  "jennifer-jj-dominguez": {
+   "credit": "Campaign website",
+   "image_url": "https://images.squarespace-cdn.com/content/v1/691a70dc279b972b0aa1a263/2a5e0888-0944-4487-9e78-541cac7583f9/JJ_Photo--1.jpg",
+   "kind": "campaign",
+   "source_url": "https://www.jjdominguez4tx.com"
+  },
   "jerri-glover": {
    "credit": "Campaign website",
    "image_url": "https://jerriforjudge.com/assets/images/image02.jpg",
@@ -1088,6 +1255,12 @@
    "image_url": "https://jerryzimmerer.com/img/portrait-robe.jpg",
    "kind": "campaign",
    "source_url": "https://jerryzimmerer.com"
+  },
+  "jessi-barrientos": {
+   "credit": "Campaign website",
+   "image_url": "https://static.wixstatic.com/media/eaa4ab_e1b31a84fe224006b705bc0f47c994f7~mv2.jpeg",
+   "kind": "campaign",
+   "source_url": "https://jessibarrientos.wixsite.com/askjessib"
   },
   "jessi-cowart": {
    "credit": "Campaign website",
@@ -1112,6 +1285,12 @@
    "image_url": "https://joeevans.net/assets/images/image19.jpg",
    "kind": "campaign",
    "source_url": "https://joeevans.net"
+  },
+  "joe-mayes": {
+   "credit": "Campaign website",
+   "image_url": "https://run.imgix.net/fa692dcd-c53c-4dd2-b425-fe699e7542fc/6e5ef4f5-d18e-4c23-9dcb-847c2b98ae9e/6e5ef4f5-d18e-4c23-9dcb-847c2b98ae9e.jpg?w=1200",
+   "kind": "campaign",
+   "source_url": "https://www.joemayesfortexas.com"
   },
   "john-bryant": {
    "credit": "Official portrait, Texas House of Representatives",
@@ -1173,6 +1352,12 @@
    "kind": "official",
    "source_url": "https://www.house.texas.gov/members/4105/biography"
   },
+  "jon-rosenthal": {
+   "credit": "Official portrait, Texas House of Representatives",
+   "image_url": "https://www.house.texas.gov/images/members/3635.jpg",
+   "kind": "official",
+   "source_url": "https://www.house.texas.gov/members/3635"
+  },
   "jonathan-gracia": {
    "credit": "Campaign website",
    "image_url": "https://jonathangracia.com/wp-content/uploads/2025/11/pic1-2.jpg",
@@ -1227,6 +1412,12 @@
    "image_url": "https://www.fortbendcountytx.gov/sites/default/files/document-central/image-library/court-law-3-images/juli-mathew.jpg",
    "kind": "official",
    "source_url": "https://www.fortbendcountytx.gov/government/departments/county-courts-at-law/county-court-at-law-3"
+  },
+  "julie-countiss": {
+   "credit": "Campaign website",
+   "image_url": "https://juliecountiss.com/wp-content/uploads/2026/09/JCIMAGE00001-scaled.webp",
+   "kind": "campaign",
+   "source_url": "https://juliecountiss.com"
   },
   "julie-evans": {
    "credit": "Campaign website",
@@ -1391,6 +1582,12 @@
    "kind": "official",
    "source_url": "https://txcourts.gov/supreme/about-the-court/justices/justice-kyle-d-hawkins/"
   },
+  "kyle-rable": {
+   "credit": "Campaign website",
+   "image_url": "https://images.squarespace-cdn.com/content/v1/67e49ed13b49916040319b06/fee69849-032f-4ce0-aa1d-b0e97666d2c8/Kyle_Rable_Headshot.jpeg",
+   "kind": "campaign",
+   "source_url": "https://www.rableforwesttexas.com/about"
+  },
   "lacey-hull": {
    "credit": "Official portrait, Texas House of Representatives",
    "image_url": "https://house.texas.gov/images/members/3975.jpg",
@@ -1414,6 +1611,18 @@
    "image_url": "https://www.ccl.hctx.net/civil/3/images/JudgeLaShawn2.jpg",
    "kind": "official",
    "source_url": "https://www.ccl.hctx.net/civil/3/default.htm"
+  },
+  "laticia-ambroz": {
+   "credit": "Campaign website",
+   "image_url": "https://images.squarespace-cdn.com/content/v1/6906559db4601804076e4650/512f4772-10f4-4ab5-943c-cf988f402dd4/Resized_20251102_153309.jpeg",
+   "kind": "campaign",
+   "source_url": "https://www.ambrozforstatesenate.com/meet-laticia"
+  },
+  "latosha-mcgill-clayton": {
+   "credit": "Campaign website",
+   "image_url": "https://voteclaytonforjudge.com/wp-content/uploads/2025/11/Latosha-cutout-faded2-web.png",
+   "kind": "campaign",
+   "source_url": "https://voteclaytonforjudge.com"
   },
   "lauren-ashley-simmons": {
    "credit": "Official portrait, Texas House of Representatives",
@@ -1456,6 +1665,12 @@
    "image_url": "https://booker4judge.com/wp-content/uploads/2025/10/Headshot_Leslie.png",
    "kind": "campaign",
    "source_url": "https://booker4judge.com"
+  },
+  "leticia-gutierrez": {
+   "credit": "Campaign website",
+   "image_url": "https://run.imgix.net/4d72b752-79c6-4861-b1de-7b514e4e8935/8c6b7259-cff4-45b1-a153-236a80f90fea/8c6b7259-cff4-45b1-a153-236a80f90fea.jpg?w=1600",
+   "kind": "campaign",
+   "source_url": "https://www.leticiaforcongress.com/"
   },
   "letitia-plummer": {
    "credit": "Campaign website",
@@ -1626,6 +1841,12 @@
    "kind": "campaign",
    "source_url": "https://marlonduran.com/"
   },
+  "marquette-greene-scott": {
+   "credit": "Campaign website",
+   "image_url": "https://marquettegreenescott.com/wp-content/uploads/2025/07/Main-image-1.jpg",
+   "kind": "campaign",
+   "source_url": "https://marquettegreenescott.com/"
+  },
   "mary-ann-perez": {
    "credit": "Official portrait, Texas House of Representatives",
    "image_url": "https://www.house.texas.gov/images/members/2535.jpg",
@@ -1655,6 +1876,12 @@
    "image_url": "https://house.texas.gov/images/members/4675.jpg?v=1",
    "kind": "official",
    "source_url": "https://house.texas.gov/members/member-page?district=26"
+  },
+  "matt-shaheen": {
+   "credit": "Official portrait, Texas House of Representatives",
+   "image_url": "https://www.house.texas.gov/images/members/2995.jpg",
+   "kind": "official",
+   "source_url": "https://www.house.texas.gov/members/2995"
   },
   "matthew-kolodoski": {
    "credit": "Campaign website",
@@ -1754,6 +1981,12 @@
    "kind": "campaign",
    "source_url": "https://judgemikejones.com"
   },
+  "mike-michna": {
+   "credit": "Campaign website",
+   "image_url": "https://static.wixstatic.com/media/3d8262_643994a8723f485884e4328de1018b9d~mv2.png",
+   "kind": "campaign",
+   "source_url": "https://www.votemichna.com"
+  },
   "mike-olcott": {
    "credit": "Official portrait, Texas House of Representatives",
    "image_url": "https://www.house.texas.gov/images/members/4705.jpg",
@@ -1845,6 +2078,18 @@
    "kind": "campaign",
    "source_url": "https://ninhtruongcampaign.carrd.co/"
   },
+  "nireasha-murray": {
+   "credit": "Campaign website",
+   "image_url": "https://votenmurrayforjudge.com/wp-content/uploads/2025/12/hero002.png",
+   "kind": "campaign",
+   "source_url": "https://votenmurrayforjudge.com"
+  },
+  "nydia-cardenas": {
+   "credit": "Campaign website",
+   "image_url": "https://images.solidarity.tech/fit-in/1200x0/filters:no_upscale()/kmdmvmlg19udcz7i03vzrlht2zmj",
+   "kind": "campaign",
+   "source_url": "https://www.vote4nydia.com/"
+  },
   "oscar-longoria": {
    "credit": "Official portrait, Texas House of Representatives",
    "image_url": "https://www.house.texas.gov/images/members/2485.jpg",
@@ -1857,6 +2102,12 @@
    "kind": "campaign",
    "source_url": "https://www.paigepayneneal.com/"
   },
+  "pat-curry": {
+   "credit": "Official portrait, Texas House of Representatives",
+   "image_url": "https://www.house.texas.gov/images/members/4415.jpg",
+   "kind": "official",
+   "source_url": "https://www.house.texas.gov/members/4415"
+  },
   "pat-dixon": {
    "credit": "Campaign website",
    "image_url": "https://patdixon.org/wp-content/uploads/2026/07/pjd_headshot_260618.jpg",
@@ -1868,6 +2119,12 @@
    "image_url": "https://clerk.house.gov/images/members/F000246.jpg",
    "kind": "official",
    "source_url": "https://clerk.house.gov/members/F000246"
+  },
+  "paul-dyson": {
+   "credit": "Official portrait, Texas House of Representatives",
+   "image_url": "https://www.house.texas.gov/images/members/4475.jpg",
+   "kind": "official",
+   "source_url": "https://www.house.texas.gov/members/4475"
   },
   "penny-morales-shaw": {
    "credit": "Official portrait, Texas House of Representatives",
@@ -1941,6 +2198,12 @@
    "kind": "campaign",
    "source_url": "https://www.raystithfortx57.com/"
   },
+  "rebecca-philips-aceto": {
+   "credit": "Campaign website",
+   "image_url": "https://content.campaignpartner.net/images/144680/1HKRCdRV3mg.jpeg",
+   "kind": "campaign",
+   "source_url": "https://rebeccaphilipsacetoforjudge.com"
+  },
   "rhetta-andrews-bowers": {
    "credit": "Official portrait, Texas House of Representatives",
    "image_url": "https://house.texas.gov/images/members/3565.jpg?v=1",
@@ -1984,6 +2247,12 @@
    "kind": "campaign",
    "source_url": "https://www.robgiesecke.com/"
   },
+  "roderick-c-garner-sr": {
+   "credit": "Official photo, Fort Bend County",
+   "image_url": "https://www.fortbendcountytx.gov/sites/default/files/document-central/image-library/justice-peace-pct-2-1-images/Judge-Roderick-Garner-300.jpg",
+   "kind": "official",
+   "source_url": "https://www.fortbendcountytx.gov/government/departments/justice-of-the-peace/precinct-2-place-1"
+  },
   "roger-williams": {
    "credit": "Official portrait, U.S. House of Representatives",
    "image_url": "https://williams.house.gov/sites/evo-subsites/williams.house.gov/files/evo-media-image/official-portrait-2022.jpeg",
@@ -1995,6 +2264,12 @@
    "image_url": "https://senate.texas.gov/members/d19/img/Gutierrez_87-0522D-016-Web.jpg",
    "kind": "official",
    "source_url": "https://senate.texas.gov/member.php?d=19"
+  },
+  "ron-reynolds": {
+   "credit": "Official portrait, Texas House of Representatives",
+   "image_url": "https://www.house.texas.gov/images/members/2040.jpg",
+   "kind": "official",
+   "source_url": "https://www.house.texas.gov/members/2040"
   },
   "ronny-jackson": {
    "credit": "Official portrait, U.S. House of Representatives (Office of the Clerk)",
@@ -2025,6 +2300,12 @@
    "image_url": "https://house.texas.gov/images/members/4115.jpg",
    "kind": "official",
    "source_url": "https://house.texas.gov/members/4115/biography"
+  },
+  "samantha-lopez-resendez": {
+   "credit": "Campaign website",
+   "image_url": "https://samanthafortexas.com/hero-image.jpeg",
+   "kind": "campaign",
+   "source_url": "https://samanthafortexas.com/"
   },
   "sandeep-srivastava": {
    "credit": "Campaign website",
@@ -2062,6 +2343,12 @@
    "kind": "campaign",
    "source_url": "https://bowenfortx.com/"
   },
+  "scott-brister": {
+   "credit": "Official portrait, Fifteenth Court of Appeals",
+   "image_url": "https://txcourts.gov/media/1459002/chief-justice-scott-brister-bio-photo.jpg",
+   "kind": "official",
+   "source_url": "https://txcourts.gov/15thcoa/about-the-court/justices/chief-justice-scott-brister/"
+  },
   "scott-k-field": {
    "credit": "Official portrait, Texas Judicial Branch (txcourts.gov)",
    "image_url": "https://txcourts.gov/media/1459003/justice-scott-field-bio-photo.jpg",
@@ -2097,6 +2384,12 @@
    "image_url": "https://www.mcdonaldforda.com/wp-content/uploads/2025/12/DSC04582-copy-scaled.jpeg",
    "kind": "campaign",
    "source_url": "https://www.mcdonaldforda.com"
+  },
+  "shehla-faizi": {
+   "credit": "Campaign website",
+   "image_url": "https://images.squarespace-cdn.com/content/v1/6940b3b801659d28f153ab75/1b3c9a4f-f2dd-4797-99a0-acfdb5249425/MomentsbyManar.Headshot-Shehla-2026-03.jpg",
+   "kind": "campaign",
+   "source_url": "https://www.faizifortexas.com"
   },
   "shelby-slawson": {
    "credit": "Official portrait, Texas House of Representatives",
@@ -2151,6 +2444,19 @@
    "image_url": "https://images.squarespace-cdn.com/content/v1/68d302944f2fe0433eb1197f/7e8f5d9a-e35d-4fde-9fd8-5b70593f4884/LANDING-NEW.png",
    "kind": "campaign",
    "source_url": "http://www.childsfortexas.com"
+  },
+  "stan-gerdes": {
+   "credit": "Official portrait, Texas House of Representatives",
+   "image_url": "https://www.house.texas.gov/images/members/4195.jpg",
+   "kind": "official",
+   "source_url": "https://www.house.texas.gov/members/4195"
+  },
+  "stan-stanart": {
+   "credit": "Campaign website",
+   "image_url": "https://hd126.stanstanart.com/wp-content/uploads/2025/10/TX-Capitol-Dome-Clipped-with-Stan-v3-2.png",
+   "kind": "campaign",
+   "rejected": true,
+   "source_url": "https://hd126.stanstanart.com/about/"
   },
   "stefanie-bord": {
    "credit": "Campaign website",
@@ -2212,6 +2518,12 @@
    "image_url": "https://house.texas.gov/images/members/4285.jpg?v=1",
    "kind": "official",
    "source_url": "https://house.texas.gov/members/4285"
+  },
+  "surendran-k-pattel": {
+   "credit": "Official photo, Fort Bend County",
+   "image_url": "https://www.fortbendcountytx.gov/sites/default/files/document-central/image-library/district-court-240th-images/Pattel-photo1-1.png",
+   "kind": "official",
+   "source_url": "https://www.fortbendcountytx.gov/government/departments/district-courts/240th-district-court"
   },
   "sylvia-garcia": {
    "credit": "Official portrait, U.S. House of Representatives",
@@ -2353,11 +2665,23 @@
    "kind": "campaign",
    "source_url": "https://www.clark4jp.com/"
   },
+  "tom-craddick": {
+   "credit": "Official portrait, Texas House of Representatives",
+   "image_url": "https://www.house.texas.gov/images/members/2610.jpg",
+   "kind": "official",
+   "source_url": "https://www.house.texas.gov/members/2610"
+  },
   "tom-luck": {
    "credit": "Campaign website",
    "image_url": "https://luckfortexashouse.sitesab.com/wp-content/uploads/2023/06/32F8230B-D6FA-47BE-AF22-CA8EF42440DD.jpeg",
    "kind": "campaign",
    "source_url": "https://luckfortexashouse.com"
+  },
+  "tom-oliverson": {
+   "credit": "Official portrait, Texas House of Representatives",
+   "image_url": "https://www.house.texas.gov/images/members/3535.jpg",
+   "kind": "official",
+   "source_url": "https://www.house.texas.gov/members/3535"
   },
   "tom-sell": {
    "credit": "Campaign website",
@@ -2408,6 +2732,12 @@
    "kind": "official",
    "source_url": "https://www.fortbendcountytx.gov/government/departments/justice-of-the-peace/precinct-1-place-2"
   },
+  "trista-willeford": {
+   "credit": "Campaign website",
+   "image_url": "https://tristaforjustice.com/assets/trista-home-DXyEs7ny.jpg",
+   "kind": "campaign",
+   "source_url": "https://tristaforjustice.com"
+  },
   "tyler-smith": {
    "credit": "Campaign website",
    "image_url": "https://tylerfortx.com/wp-content/uploads/2026/08/7WItaVqq.jpeg",
@@ -2431,6 +2761,18 @@
    "image_url": "https://images.squarespace-cdn.com/content/v1/68e990c36cca4e25b49cbbef/9669e231-9b84-4c28-9f60-abfbbcc195dd/IMG_9792+-+Valorie+Barton.jpeg",
    "kind": "campaign",
    "source_url": "https://www.valoriebarton.com"
+  },
+  "venton-jones": {
+   "credit": "Official portrait, Texas House of Representatives",
+   "image_url": "https://www.house.texas.gov/images/members/4275.jpg",
+   "kind": "official",
+   "source_url": "https://www.house.texas.gov/members/4275"
+  },
+  "veronica-escobar": {
+   "credit": "Official portrait, U.S. House of Representatives",
+   "image_url": "https://escobar.house.gov/images/escobar-headshot.jpg",
+   "kind": "official",
+   "source_url": "https://escobar.house.gov/"
   },
   "veronica-rivas-molloy": {
    "credit": "Official portrait, Texas Judicial Branch",
@@ -2511,6 +2853,12 @@
    "kind": "campaign",
    "rejected": true,
    "source_url": "https://zach4texas.com/"
+  },
+  "zachary-carter": {
+   "credit": "Official photo, Bastrop County",
+   "image_url": "https://www.co.bastrop.tx.us/upload/page/0269/PIC.jpg",
+   "kind": "official",
+   "source_url": "https://www.bastropcounty.gov/page/jp2"
   }
  }
 }
