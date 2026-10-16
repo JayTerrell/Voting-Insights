@@ -58,11 +58,13 @@ export const resultCache = {
 // voter's county, then to the first county with a loaded ballot.
 export const ballotCounty = {
   get(guide) {
+    const served = Object.keys(guide.ballots || {}).sort();
+    const isServed = (c) => c && served.includes(c);
     const saved = getJSON(KEYS.county, null);
-    if (saved) return saved;
+    if (isServed(saved)) return saved;
     const mine = session.user && session.user.county;
-    if (mine) return mine;
-    return Object.keys(guide.ballots || {})[0] || 'Collin';
+    if (isServed(mine)) return mine;
+    return served.includes('Collin') ? 'Collin' : served[0];
   },
   set(county) {
     setJSON(KEYS.county, county);

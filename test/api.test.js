@@ -78,11 +78,11 @@ test('registration creates an account and returns a token', async () => {
 });
 
 test('a reused email opens the same account without a code', async () => {
-  const r = await call('POST', '/api/register', { body: profile('ANA@example.com', { county: 'Travis' }) });
+  const r = await call('POST', '/api/register', { body: profile('ANA@example.com', { age_range: '45-54' }) });
   assert.equal(r.status, 200);
   assert.ok(r.json.token);
   assert.equal(r.json.user.email, 'ana@example.com');
-  assert.equal(r.json.user.county, 'Travis');
+  assert.equal(r.json.user.age_range, '45-54');
 });
 
 test('My Results opens by email and reports unknown emails', async () => {
@@ -97,6 +97,8 @@ test('My Results opens by email and reports unknown emails', async () => {
 test('input is validated and consent is required', async () => {
   assert.equal((await call('POST', '/api/register', { body: profile('bad') })).status, 400);
   assert.equal((await call('POST', '/api/register', { body: profile('x@example.com', { county: 'Atlantis' }) })).status, 400);
+  // Only counties with a loaded ballot can be chosen.
+  assert.equal((await call('POST', '/api/register', { body: profile('x@example.com', { county: 'Loving' }) })).status, 400);
   assert.equal((await call('POST', '/api/register', { body: profile('x@example.com', { agree_terms: false }) })).status, 400);
   const malformed = await fetch(base + '/api/register', {
     method: 'POST',

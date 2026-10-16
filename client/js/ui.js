@@ -108,17 +108,12 @@ export function countyLabel(county) {
   return /county$/i.test(county) || county === 'Outside Texas' ? county : `${county} County`;
 }
 
-// A county picker for the guide pages. Lists counties with a loaded ballot,
-// then every other Texas county (which shows statewide races only).
-export function countyPicker(guide, allCounties, selected, id = 'ballot-county') {
+// A county picker for the guide pages, listing every county with a loaded ballot.
+export function countyPicker(guide, _allCounties, selected, id = 'ballot-county') {
   const loaded = Object.keys(guide.ballots || {}).sort();
-  const others = (allCounties || []).filter((c) => !loaded.includes(c) && c !== 'Outside Texas');
   const opt = (c) => `<option value="${esc(c)}" ${c === selected ? 'selected' : ''}>${esc(countyLabel(c))}</option>`;
   return `<label for="${id}">Show the ballot for</label>
-    <select id="${id}">
-      <optgroup label="Full ballot available">${loaded.map(opt).join('')}</optgroup>
-      ${others.length ? `<optgroup label="Statewide races only">${others.map(opt).join('')}</optgroup>` : ''}
-    </select>`;
+    <select id="${id}">${loaded.map(opt).join('')}</select>`;
 }
 
 export function ballotNote(guide, county) {

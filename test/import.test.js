@@ -48,3 +48,32 @@ test('proper-cases names', () => {
   assert.equal(nameCase('V. ALONZO ECHAVARRIA-GARZA'), 'V. Alonzo Echavarria-Garza');
   assert.equal(nameCase('ARTHUR DIBIANCA', { 'ARTHUR DIBIANCA': 'Arthur DiBianca' }), 'Arthur DiBianca');
 });
+
+import { readFileSync } from 'node:fs';
+import { parseFlowedReport } from '../scripts/import-ballot.js';
+
+test('parses the flowed text rendering of a report', () => {
+  const r = parseFlowedReport(readFileSync(new URL('./fixtures/smith-excerpt.txt', import.meta.url), 'utf8'));
+  assert.equal(r.county, 'Smith');
+  assert.deepEqual(
+    r.races.map((x) => x.heading),
+    [
+      'U. S. SENATOR',
+      'U. S. REPRESENTATIVE DISTRICT 1',
+      'LIEUTENANT GOVERNOR',
+      'MEMBER, STATE BOARD OF EDUCATION, DISTRICT 9',
+      'JUSTICE, 12TH COURT OF APPEALS DISTRICT, PLACE 3 - UNEXPIRED TERM',
+      'COUNTY COMMISSIONER PRECINCT 4',
+    ]
+  );
+  assert.deepEqual(r.races[2].candidates.at(-1), { raw: 'KEVIN MCCORMICK', party: 'Green' });
+  assert.deepEqual(r.races[5].candidates, [{ raw: 'RALPH E CARAWAY, SR', party: 'Democratic' }]);
+});
+
+test('a candidate surnamed Green is not mistaken for a party', () => {
+  const text = 'County: TEST\n\nSTATE SENATOR, DISTRICT 9\n\nMARY GREEN REPUBLICAN JOHN GREEN GREEN\n';
+  assert.deepEqual(parseFlowedReport(text).races[0].candidates, [
+    { raw: 'MARY GREEN', party: 'Republican' },
+    { raw: 'JOHN GREEN', party: 'Green' },
+  ]);
+});

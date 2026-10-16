@@ -2,6 +2,9 @@
 //
 //   node scripts/import-ballot.js path/to/report.pdf [more.pdf ...]
 //
+// Plain-text renderings of the same report (.txt), such as Google Drive's text
+// view, are also accepted.
+//
 // For each report it:
 //   1. reads the county name and every race and candidate, in ballot order;
 //   2. adds new races and candidates to data/races.json (races shared across
@@ -196,6 +199,47 @@ export function parseReport(text) {
   return { county, election: electionMatch ? electionMatch[1] : null, races: races.filter((r) => r.candidates.length) };
 }
 
+// Parses the plain-text rendering of a report (for example, Google Drive's text
+// view), where each race heading is followed by one line listing every candidate
+// with their party: "KEN PAXTON REPUBLICAN JAMES TALARICO DEMOCRATIC".
+export function parseFlowedReport(text) {
+  const countyMatch = text.match(/County:\s*([A-Z][A-Z .'-]+?)\s*(?:\n|$)/);
+  if (!countyMatch) throw new Error('Could not find "County:" in the report');
+  const county = nameCase(countyMatch[1].trim());
+  const electionMatch = text.match(/(\d{4} [A-Z ]*ELECTION)/);
+  const isParty = (w) => Object.hasOwn(PARTIES, w);
+  const races = [];
+  let current = null;
+  for (const raw of text.split('\n')) {
+    const line = raw.trim();
+    if (!line || IGNORE.some((re) => re.test(line))) continue;
+    const words = line.split(/\s+/);
+    if (isParty(words.at(-1)) && current) {
+      let name = [];
+      words.forEach((w, i) => {
+        // A party word followed by another party word belongs to the name
+        // (for example a candidate surnamed Green).
+        if (isParty(w) && !isParty(words[i + 1] ?? '') && name.length) {
+          current.candidates.push({ raw: name.join(' '), party: PARTIES[w] });
+          name = [];
+        } else {
+          name.push(w);
+        }
+      });
+      if (name.length) throw new Error(`Could not parse candidates in "${line}"`);
+      continue;
+    }
+    current = { heading: line.replace(/^Party\s+/, ''), candidates: [] };
+    races.push(current);
+  }
+  return { county, election: electionMatch ? electionMatch[1] : null, races: races.filter((r) => r.candidates.length) };
+}
+
+function readReport(file) {
+  if (file.toLowerCase().endsWith('.txt')) return parseFlowedReport(readFileSync(file, 'utf8'));
+  return parseReport(execFileSync('pdftotext', ['-layout', file, '-'], { encoding: 'utf8' }));
+}
+
 function main(files) {
   const races = JSON.parse(readFileSync(racesPath, 'utf8'));
   const overrides = existsSync(overridesPath) ? JSON.parse(readFileSync(overridesPath, 'utf8')) : {};
@@ -205,8 +249,7 @@ function main(files) {
   mkdirSync(join(root, 'data/ballots'), { recursive: true });
 
   for (const file of files) {
-    const text = execFileSync('pdftotext', ['-layout', file, '-'], { encoding: 'utf8' });
-    const report = parseReport(text);
+    const report = readReport(file);
     const cslug = slug(report.county);
     const raceIds = [];
     const notes = [];

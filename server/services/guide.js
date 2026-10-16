@@ -9,7 +9,12 @@ const dataFile = (name) => fileURLToPath(new URL(`../../data/${name}`, import.me
 export const guideJson = readFileSync(dataFile('guide.json'), 'utf8');
 export const guide = JSON.parse(guideJson);
 export const dataVersion = createHash('sha256').update(guideJson).digest('hex').slice(0, 12);
-export const formOptions = JSON.parse(readFileSync(dataFile('form-options.json'), 'utf8'));
+// Visitors may only choose counties whose full ballot is loaded.
+export const servedCounties = Object.keys(guide.ballots || {}).sort();
+export const formOptions = {
+  age_ranges: JSON.parse(readFileSync(dataFile('form-options.json'), 'utf8')).age_ranges,
+  counties: servedCounties,
+};
 export const questionIds = new Set(guide.questions.map((q) => q.id));
 
 export function raceTitle(race) {

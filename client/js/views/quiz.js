@@ -33,8 +33,9 @@ export async function renderQuiz(view, _params, current) {
 
 function renderRegistration(view, guide, options) {
   const u = session.user || {};
+  const preferred = options.counties.includes(u.county) ? u.county : ballotCounty.get(guide);
   const countyOpts = options.counties
-    .map((c) => `<option ${c === (u.county || ballotCounty.get(guide)) ? 'selected' : ''}>${esc(c)}</option>`)
+    .map((c) => `<option value="${esc(c)}" ${c === preferred ? 'selected' : ''}>${esc(c)} County</option>`)
     .join('');
   const ageOpts = options.age_ranges.map((a) => `<option ${a === u.age_range ? 'selected' : ''}>${esc(a)}</option>`).join('');
 

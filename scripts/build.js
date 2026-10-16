@@ -4,7 +4,7 @@
 // deploy never changes the data version on its own.
 //   node scripts/build.js
 
-import { cpSync, mkdirSync, rmSync, existsSync } from 'node:fs';
+import { cpSync, mkdirSync, rmSync, existsSync, readFileSync, writeFileSync } from 'node:fs';
 import { join, resolve } from 'node:path';
 
 const root = resolve(import.meta.dirname, '..');
@@ -22,5 +22,12 @@ cpSync(join(root, 'shared'), target, { recursive: true });
 // file from the CDN. Guide pages then work even before the database is set up.
 const dataTarget = join(root, 'client/data');
 mkdirSync(dataTarget, { recursive: true });
-for (const f of ['guide.json', 'form-options.json']) cpSync(join(root, 'data', f), join(dataTarget, f));
+cpSync(join(root, 'data/guide.json'), join(dataTarget, 'guide.json'));
+// The county list offered to visitors is the set of counties with a loaded ballot.
+const guide = JSON.parse(readFileSync(join(root, 'data/guide.json'), 'utf8'));
+const { age_ranges } = JSON.parse(readFileSync(join(root, 'data/form-options.json'), 'utf8'));
+writeFileSync(
+  join(dataTarget, 'form-options.json'),
+  JSON.stringify({ age_ranges, counties: Object.keys(guide.ballots || {}).sort() })
+);
 console.log('Copied shared/ to client/js/shared/ and guide data to client/data/');
