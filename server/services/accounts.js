@@ -12,6 +12,8 @@ import { hashPassword, verifyPassword } from '../lib/password.js';
 import { sendPasswordResetEmail, sendWelcomeEmail } from './mailer.js';
 import { ticketFor, readTicket } from './oauth.js';
 import { config } from '../config.js';
+import { isAdmin } from '../middleware/auth.js';
+import { attributeSignUp } from './partners.js';
 
 export const publicUser = (u) => ({
   first_name: u.first_name,
@@ -22,6 +24,7 @@ export const publicUser = (u) => ({
   marketing_ok: Boolean(u.marketing_ok),
   has_password: Boolean(u.password_hash),
   avatar: u.avatar || null,
+  is_admin: isAdmin(u),
 });
 
 export class AccountError extends Error {
@@ -50,7 +53,7 @@ async function welcome(user, method) {
   }
 }
 
-export async function signUp(profile, password) {
+export async function signUp(profile, password, partnerSlug) {
   const existing = await users.findByEmail(profile.email);
   if (existing) {
     throw new AccountError(
@@ -60,6 +63,7 @@ export async function signUp(profile, password) {
     );
   }
   const user = await users.create({ ...profile, passwordHash: await hashPassword(password) });
+  await attributeSignUp(user.id, partnerSlug);
   await welcome(user, 'password');
   return session(user);
 }
@@ -88,7 +92,7 @@ export function pendingSignUp(ticket) {
   return identity;
 }
 
-export async function completeSignUp(ticket, profile) {
+export async function completeSignUp(ticket, profile, partnerSlug) {
   const identity = pendingSignUp(ticket);
   if (!identity.email) {
     throw new AccountError(
@@ -100,7 +104,10 @@ export async function completeSignUp(ticket, profile) {
   const existing = await users.findByEmail(identity.email);
   const user = existing || (await users.create({ ...profile, email: identity.email, passwordHash: null }));
   await identities.link(identity.provider, identity.subject, user.id, identity.email);
-  if (!existing) await welcome(user, identity.provider);
+  if (!existing) {
+    await attributeSignUp(user.id, partnerSlug);
+    await welcome(user, identity.provider);
+  }
   return session(user);
 }
 

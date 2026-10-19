@@ -22,6 +22,11 @@ export const config = {
   databaseCaCert: env.DATABASE_CA_CERT || '',
   sqlitePath: env.DATABASE_PATH || 'storage/votershub.db',
   adminToken: env.ADMIN_TOKEN || '',
+  // Accounts that are always admins. Others are made admins on the Admin page.
+  adminEmails: (env.ADMIN_EMAILS || 'sjayshun@gmail.com')
+    .split(',')
+    .map((e) => e.trim().toLowerCase())
+    .filter(Boolean),
   contactEmail: env.CONTACT_EMAIL || null,
   trustProxy: env.TRUST_PROXY ?? (env.VERCEL ? true : 1),
   // Signs short-lived Google and Apple sign-in state. Required for those buttons to appear.

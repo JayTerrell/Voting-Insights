@@ -7,6 +7,7 @@ process.env.ADMIN_TOKEN = 'test-admin-token-0123456789abcdef';
 process.env.AUTH_SECRET = 'test-auth-secret-0123456789abcdef-0123456789';
 process.env.GOOGLE_CLIENT_ID = 'test-google-client';
 process.env.GOOGLE_CLIENT_SECRET = 'test-google-secret';
+process.env.ADMIN_EMAILS = 'boss@example.com';
 delete process.env.APPLE_CLIENT_ID;
 // Set TEST_DATABASE_URL to run the same tests against a Postgres database.
 // Its tables are emptied first, so never point this at real data.
@@ -28,7 +29,7 @@ before(async () => {
   const db = await getDb();
   if (db.dialect === 'postgres') {
     await db.exec(
-      'TRUNCATE users, quiz_results, access_tokens, rate_limits, password_resets, ballot_plans, user_identities RESTART IDENTITY CASCADE'
+      'TRUNCATE users, quiz_results, access_tokens, rate_limits, password_resets, ballot_plans, user_identities, partner_links, partner_events RESTART IDENTITY CASCADE'
     );
   }
   server = createApp().listen(0);
@@ -217,6 +218,81 @@ test('a shared link shows only the summary, and top issues only when the owner a
 
   const page = await fetch(`${base}/results/${id}`).then((r) => r.text());
   assert.match(page, new RegExp(`og:image" content="[^"]*/api/share/${id}/card\\.png\\?v=2`));
+});
+
+test('partner links: request, approval, visits, attribution, and totals with a privacy floor', async () => {
+  const db = await getDb();
+  await db.run('DELETE FROM rate_limits');
+  const boss = await signUp('boss@example.com');
+  assert.equal(boss.json.user.is_admin, true, 'ADMIN_EMAILS accounts are admins');
+  const p = await signUp('partner@example.com');
+  assert.equal(p.json.user.is_admin, false);
+  const pt = p.json.token;
+  assert.equal((await call('GET', '/api/admin/partners', { token: pt })).status, 403);
+
+  const check = async (slug) => (await call('GET', `/api/partner/check?slug=${encodeURIComponent(slug)}`, { token: pt })).json;
+  assert.equal((await check('admin')).available, false);
+  assert.equal((await check('ab')).available, false);
+  assert.equal((await check('-bad-')).available, false);
+  assert.equal((await check('Good-Link')).available, true);
+
+  const mails = devOutbox.length;
+  const req = await call('POST', '/api/partner/request', { token: pt, body: { slug: 'Good-Link', reason: 'My church group' } });
+  assert.equal(req.status, 201);
+  assert.equal(req.json.link.slug, 'good-link');
+  assert.equal(req.json.link.status, 'pending');
+  const sent = devOutbox.slice(mails).map((m) => m.to);
+  assert.ok(sent.includes('partner@example.com') && sent.includes('boss@example.com'), 'requester and admin are emailed');
+  assert.equal((await call('POST', '/api/partner/request', { token: pt, body: { slug: 'other', reason: 'again' } })).status, 409);
+
+  const go = (ua = 'Mozilla/5.0 Test') => fetch(`${base}/go/good-link`, { redirect: 'manual', headers: { 'user-agent': ua } });
+  assert.equal((await go()).headers.get('location'), '/', 'a pending link does not track');
+
+  const pending = await call('GET', '/api/admin/partners?status=pending', { token: boss.json.token });
+  const id = pending.json.links.find((l) => l.slug === 'good-link').id;
+  const before2 = devOutbox.length;
+  const ok = await call('POST', `/api/admin/partners/${id}/approve`, { token: boss.json.token, body: {} });
+  assert.equal(ok.json.link.status, 'approved');
+  assert.equal(devOutbox.at(-1).to, 'partner@example.com');
+  assert.ok(devOutbox.length > before2);
+
+  for (let i = 0; i < 3; i++) assert.equal((await go()).headers.get('location'), '/?ref=good-link');
+  await go('Twitterbot/1.0');
+
+  for (let i = 0; i < 11; i++) {
+    const m = await signUp(`member${i}@example.com`, { partner: 'good-link' });
+    await call('POST', '/api/results', { body: { answers }, token: m.json.token });
+  }
+  const stray = await signUp('stray@example.com', { partner: 'no-such-link' });
+  assert.equal(stray.status, 201);
+
+  const st = await call('GET', '/api/partner/stats', { token: pt });
+  assert.equal(st.status, 200);
+  assert.equal(st.json.stats.traffic.visits, 3, 'crawlers are not counted');
+  assert.equal(st.json.stats.traffic.unique_visitors, 1);
+  assert.equal(st.json.stats.conversion.sign_ups, 11);
+  assert.equal(st.json.stats.conversion.quiz_completions, 11);
+  assert.equal(st.json.stats.audience.county.rows[0].count, 11);
+  assert.ok(st.json.stats.quiz.average_alignment.length > 0);
+  assert.equal(JSON.stringify(st.json).includes('member0@example.com'), false, 'no individual leaks');
+
+  // Below the floor, audience and quiz totals stay hidden.
+  const small = await call('GET', `/api/partner/stats?from=2000-01-01&to=2000-01-02`, { token: pt });
+  assert.equal(small.json.stats.audience, null);
+  assert.equal(small.json.stats.quiz, null);
+  assert.equal((await call('GET', '/api/partner/stats', { token: stray.json.token })).status, 404);
+
+  const summary = await call('GET', '/api/admin/partners/summary', { token: boss.json.token });
+  assert.equal(summary.json.links[0].sign_ups, 11);
+  const found = await call('GET', '/api/admin/users?q=partner', { token: boss.json.token });
+  const pid = found.json.users[0].id;
+  assert.equal(
+    (await call('PUT', `/api/admin/users/${pid}/admin`, { token: boss.json.token, body: { admin: true } })).json.user.is_admin,
+    true
+  );
+  const bossId = (await call('GET', '/api/admin/users?q=boss', { token: boss.json.token })).json.users[0].id;
+  assert.equal((await call('PUT', `/api/admin/users/${bossId}/admin`, { token: pt, body: { admin: false } })).status, 400);
+  await db.run('DELETE FROM rate_limits');
 });
 
 test('submitting needs a valid token and enough answers', async () => {

@@ -49,7 +49,36 @@ export async function remove(id) {
   await db.run('DELETE FROM password_resets WHERE user_id = ?', [id]);
   await db.run('DELETE FROM ballot_plans WHERE user_id = ?', [id]);
   await db.run('DELETE FROM user_identities WHERE user_id = ?', [id]);
+  // Their partner link goes too; people who came through it stay, unattributed.
+  const links = await db.all('SELECT id FROM partner_links WHERE user_id = ?', [id]);
+  for (const { id: linkId } of links) {
+    await db.run('DELETE FROM partner_events WHERE link_id = ?', [linkId]);
+    await db.run('UPDATE users SET partner_link_id = NULL WHERE partner_link_id = ?', [linkId]);
+  }
+  await db.run('DELETE FROM partner_links WHERE user_id = ?', [id]);
   await db.run('DELETE FROM users WHERE id = ?', [id]);
+}
+
+export async function setAdmin(id, on) {
+  const db = await getDb();
+  return db.get('UPDATE users SET is_admin = ?, updated_at = ? WHERE id = ? RETURNING *', [on ? 1 : 0, now(), id]);
+}
+
+export async function search(q) {
+  const db = await getDb();
+  const like = `%${String(q)
+    .toLowerCase()
+    .replace(/[%_\\]/g, '')}%`;
+  return db.all(
+    `SELECT id, first_name, last_name, email, county, is_admin, created_at FROM users
+     WHERE LOWER(email) LIKE ? OR LOWER(first_name || ' ' || last_name) LIKE ? ORDER BY created_at DESC LIMIT 25`,
+    [like, like]
+  );
+}
+
+export async function admins() {
+  const db = await getDb();
+  return db.all('SELECT id, first_name, last_name, email, is_admin FROM users WHERE is_admin = 1');
 }
 
 export async function exportAll() {

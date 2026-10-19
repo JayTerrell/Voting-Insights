@@ -160,3 +160,83 @@ export function welcomeEmail({ firstName, method, siteUrl, resetUrl }) {
   ].join('\n');
   return { subject: 'Welcome to VotersHub', html, text };
 }
+
+// ---------- Partner links ----------
+
+const para = (html) => `<p style="margin:0 0 12px 0">${html}</p>`;
+const button = (href, label) =>
+  `<p style="margin:0 0 16px 0"><a href="${esc(href)}" style="display:inline-block;background:${NAVY};color:#FFFDF8;padding:10px 18px;text-decoration:none;font-weight:bold">${esc(label)}</a></p>`;
+const body = (inner) =>
+  `<tr><td style="padding:8px 28px 16px 28px;font-family:${SANS};font-size:14px;line-height:1.6">${inner}</td></tr>`;
+
+export function partnerReceivedEmail({ firstName, url }) {
+  const html = shell(
+    'We received your partner link request',
+    body(
+      para(`${esc(firstName)}, thanks for asking to share VotersHub. We are reviewing your request for:`) +
+        para(`<b style="font-family:${SERIF};font-size:17px;color:${NAVY}">${esc(url)}</b>`) +
+        para(
+          'We will email you as soon as it is approved, usually within a day. You can check its status any time in Account Settings.'
+        ) +
+        `<p style="margin:0;color:${MUTED};font-size:13px">Partners see totals for the people their link brings in, such as visits, sign-ups, and combined quiz results, and never any one person's answers.</p>`
+    )
+  );
+  const text = [
+    `${firstName}, thanks for asking to share VotersHub. We are reviewing your request for ${url}.`,
+    '',
+    'We will email you as soon as it is approved. You can check its status in Account Settings.',
+  ].join('\n');
+  return { subject: 'We received your VotersHub partner link request', html, text };
+}
+
+export function partnerApprovedEmail({ firstName, url, profileUrl }) {
+  const html = shell(
+    'Your partner link is live',
+    body(
+      para(`${esc(firstName)}, your partner link is approved and ready to share:`) +
+        para(`<b style="font-family:${SERIF};font-size:17px;color:${NAVY}">${esc(url)}</b>`) +
+        para(
+          'Anyone who opens it lands on VotersHub, and your profile shows how many people visited, signed up, and took the quiz, plus combined totals of their results once at least 10 people have taken it.'
+        ) +
+        button(profileUrl, 'See your link stats')
+    )
+  );
+  const text = [
+    `${firstName}, your VotersHub partner link is live: ${url}`,
+    '',
+    `See your link stats on your profile: ${profileUrl}`,
+  ].join('\n');
+  return { subject: 'Your VotersHub partner link is live', html, text };
+}
+
+export function partnerRejectedEmail({ firstName, url, note }) {
+  const html = shell(
+    'About your partner link request',
+    body(
+      para(`${esc(firstName)}, we were not able to approve your request for ${esc(url)}.`) +
+        (note ? para(`Note from our team: ${esc(note)}`) : '') +
+        para('You are welcome to request a different link from Account Settings.')
+    )
+  );
+  const text = [
+    `${firstName}, we were not able to approve your request for ${url}.`,
+    note ? `Note from our team: ${note}` : '',
+    'You are welcome to request a different link from Account Settings.',
+  ]
+    .filter(Boolean)
+    .join('\n');
+  return { subject: 'About your VotersHub partner link request', html, text };
+}
+
+export function partnerAdminNoticeEmail({ name, email, url, reason, adminUrl }) {
+  const html = shell(
+    'New partner link request',
+    body(
+      para(`<b>${esc(name)}</b> (${esc(email)}) asked for <b>${esc(url)}</b>.`) +
+        para(`Who they will share it with: ${esc(reason)}`) +
+        button(adminUrl, 'Review on the Admin page')
+    )
+  );
+  const text = [`${name} (${email}) asked for ${url}.`, `Reason: ${reason}`, '', `Review: ${adminUrl}`].join('\n');
+  return { subject: `Partner link request: ${url}`, html, text };
+}

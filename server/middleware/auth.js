@@ -19,11 +19,14 @@ export async function requireUser(req, res, next) {
   next();
 }
 
-// Admin exports accept the token only in the Authorization header, never in the URL.
-export function requireAdmin(req, res, next) {
+export const isAdmin = (user) => Boolean(user && (user.is_admin || config.adminEmails.includes(user.email.toLowerCase())));
+
+// Admin pages: a signed-in admin, or the ADMIN_TOKEN (for scripts) in the
+// Authorization header. Neither is ever accepted in a URL.
+export async function requireAdmin(req, res, next) {
   const token = bearerToken(req);
-  if (!config.adminToken || !token || !safeEqual(token, config.adminToken)) {
-    return res.status(401).json({ error: 'Unauthorized' });
-  }
+  if (config.adminToken && token && safeEqual(token, config.adminToken)) return next();
+  req.user = await findUser(token);
+  if (!isAdmin(req.user)) return res.status(req.user ? 403 : 401).json({ error: 'Unauthorized' });
   next();
 }

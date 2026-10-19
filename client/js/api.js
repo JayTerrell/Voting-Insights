@@ -8,6 +8,7 @@ const KEYS = {
   progress: 'vi_progress',
   county: 'vi_county',
   plan: 'vi_plan',
+  partner: 'vi_partner',
 };
 
 function getJSON(key, fallback) {
@@ -153,6 +154,18 @@ export const api = {
   setShareIssues: (id, issues) => call('PUT', `/api/results/${encodeURIComponent(id)}/share`, { issues }),
   myResults: () => call('GET', '/api/my-results'),
   signOut: () => call('POST', '/api/sign-out'),
+  partnerCheck: (slug) => call('GET', `/api/partner/check?slug=${encodeURIComponent(slug)}`),
+  partnerMe: () => call('GET', '/api/partner/me'),
+  partnerRequest: (slug, reason) => call('POST', '/api/partner/request', { slug, reason }),
+  partnerStats: (q = {}) => call('GET', `/api/partner/stats?${new URLSearchParams(q)}`),
+  partnerReferrer: (slug) => call('GET', `/api/partner/referrer?slug=${encodeURIComponent(slug)}`),
+  admin: {
+    partners: (status) => call('GET', `/api/admin/partners${status ? `?status=${status}` : ''}`),
+    decide: (id, approve, note) => call('POST', `/api/admin/partners/${id}/${approve ? 'approve' : 'reject'}`, { note }),
+    summary: (q) => call('GET', `/api/admin/partners/summary?${new URLSearchParams(q)}`),
+    users: (q) => call('GET', `/api/admin/users?q=${encodeURIComponent(q || '')}`),
+    setAdmin: (id, admin) => call('PUT', `/api/admin/users/${id}/admin`, { admin }),
+  },
   deleteAccount: (confirm) => call('DELETE', '/api/me', confirm),
 };
 
@@ -255,3 +268,33 @@ export async function startSession(res) {
   session.set(res.token, res.user);
   await plan.sync().catch(() => {});
 }
+
+// ---------- Partner links ----------
+// The first partner link a visitor arrives through is remembered for 30 days
+// and credited if they sign up in that time.
+
+const PARTNER_DAYS = 30;
+
+export const partnerRef = {
+  get() {
+    const r = getJSON(KEYS.partner, null);
+    if (!r?.slug || Date.now() - r.at > PARTNER_DAYS * 864e5) return null;
+    return r.slug;
+  },
+  // Keeps the first link; a later one does not replace it while it is still valid.
+  capture(slug) {
+    if (!/^[a-z0-9-]{3,30}$/.test(slug || '') || this.get()) return;
+    setJSON(KEYS.partner, { slug, at: Date.now() });
+  },
+  // Anonymous activity credited to the link: sharing results, looking up where to vote.
+  event(kind) {
+    const slug = this.get();
+    if (slug)
+      fetch('/api/partner/event', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ slug, kind }),
+        keepalive: true,
+      }).catch(() => {});
+  },
+};

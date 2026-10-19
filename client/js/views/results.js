@@ -1,5 +1,5 @@
 import { $, esc, setTitle, formatDate, toast, partyTag, PARTY_CLASS, GROUPS, raceTitle, countyLabel } from '../ui.js';
-import { api, loadGuide, resultCache, session } from '../api.js';
+import { api, loadGuide, resultCache, session, partnerRef } from '../api.js';
 import { positionLabel, IMPORTANCE } from '../shared/scoring.js';
 import { openIssuesPicker } from './issues-picker.js';
 
@@ -135,6 +135,10 @@ function sharePanel(data, url) {
 
 function bindShare(view, data, url) {
   const text = shareText();
+  // A share by someone who arrived through a partner link counts toward that link.
+  $('#share-panel', view).addEventListener('click', (e) => {
+    if (e.target.closest('.share-row a, .share-row button')) partnerRef.event('share');
+  });
   let withIssues = Boolean(data.share_issues);
   $('#share-issues', view)?.addEventListener('change', async (e) => {
     const want = e.target.checked;

@@ -15,12 +15,14 @@ import {
 } from './views/account.js';
 import { renderBallot, renderBallotPrint } from './views/ballot.js';
 import { renderVote } from './views/vote.js';
-import { session, plan, api } from './api.js';
+import { session, plan, api, partnerRef } from './api.js';
 import { initMotion, routeProgress, afterRender } from './motion.js';
 import { renderScoring } from './views/scoring.js';
 import { renderMethodology, renderTerms, renderPrivacy, renderRegistered } from './views/pages.js';
 import { renderProfile } from './views/profile.js';
 import { renderParties } from './views/parties.js';
+import { renderAdmin } from './views/admin.js';
+import { renderPartnerProgram } from './views/partner-program.js';
 
 const routes = [
   [/^\/$/, renderHome, '/'],
@@ -34,6 +36,8 @@ const routes = [
   [/^\/where-to-vote$/, renderVote, '/where-to-vote'],
   [/^\/am-i-registered$/, renderRegistered, '/am-i-registered'],
   [/^\/parties$/, renderParties, '/parties'],
+  [/^\/partners$/, renderPartnerProgram, null],
+  [/^\/admin$/, renderAdmin, '/admin'],
   [/^\/my-ballot$/, renderBallot, '/my-ballot'],
   [/^\/my-ballot\/print$/, renderBallotPrint, '/my-ballot'],
   [/^\/profile$/, renderProfile, '/profile'],
@@ -100,6 +104,7 @@ export function updateAccountLink() {
         <a href="/profile" data-nav="/profile">My Profile</a>
         <a href="/my-ballot" data-nav="/my-ballot">My Ballot</a>
         <a href="/settings" data-nav="/settings">Account Settings</a>
+        ${u.is_admin ? '<a href="/admin" data-nav="/admin">Admin</a>' : ''}
         <button type="button" data-signout>Sign out</button>
       </div>`;
   } else {
@@ -219,6 +224,16 @@ document.addEventListener('click', (e) => {
   e.preventDefault();
   navigate(url.pathname + url.search + url.hash);
 });
+
+// A visit through a partner link arrives as /?ref=<slug>: remember it, then tidy the address.
+{
+  const qs = new URLSearchParams(location.search);
+  if (qs.has('ref')) {
+    partnerRef.capture(qs.get('ref'));
+    qs.delete('ref');
+    history.replaceState({}, '', `${location.pathname}${qs.size ? `?${qs}` : ''}${location.hash}`);
+  }
+}
 
 window.addEventListener('popstate', route);
 initMotion();

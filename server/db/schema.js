@@ -2,7 +2,17 @@
 // ISO strings set by the application, and expiry times are epoch milliseconds,
 // so the same queries work on both engines.
 
-const TABLES = ['users', 'quiz_results', 'access_tokens', 'rate_limits', 'password_resets', 'ballot_plans', 'user_identities'];
+const TABLES = [
+  'users',
+  'quiz_results',
+  'access_tokens',
+  'rate_limits',
+  'password_resets',
+  'ballot_plans',
+  'user_identities',
+  'partner_links',
+  'partner_events',
+];
 
 export function schema(dialect) {
   const id = dialect === 'postgres' ? 'BIGSERIAL PRIMARY KEY' : 'INTEGER PRIMARY KEY AUTOINCREMENT';
@@ -63,6 +73,31 @@ export function schema(dialect) {
       plan_json  TEXT NOT NULL,
       updated_at TEXT NOT NULL
     )`,
+    // Partner links: a person asks for votershub.info/go/<slug>, an admin approves it.
+    `CREATE TABLE IF NOT EXISTS partner_links (
+      id          ${id},
+      user_id     ${ref} NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+      slug        TEXT NOT NULL UNIQUE,
+      reason      TEXT NOT NULL,
+      status      TEXT NOT NULL,
+      note        TEXT,
+      created_at  TEXT NOT NULL,
+      decided_at  TEXT,
+      decided_by  ${ref}
+    )`,
+    'CREATE INDEX IF NOT EXISTS idx_partner_links_user ON partner_links(user_id)',
+    // Anonymous activity that came through a partner link: visits, shares, polling lookups.
+    // visitor is a hash that changes every day, so it counts daily unique visitors
+    // and cannot be traced back to a person.
+    `CREATE TABLE IF NOT EXISTS partner_events (
+      id         ${id},
+      link_id    ${ref} NOT NULL REFERENCES partner_links(id) ON DELETE CASCADE,
+      kind       TEXT NOT NULL,
+      day        TEXT NOT NULL,
+      visitor    TEXT NOT NULL,
+      created_at TEXT NOT NULL
+    )`,
+    'CREATE INDEX IF NOT EXISTS idx_partner_events_link ON partner_events(link_id, day)',
     `CREATE TABLE IF NOT EXISTS rate_limits (
       bucket   TEXT PRIMARY KEY,
       hits     INTEGER NOT NULL,
@@ -104,6 +139,17 @@ export async function migrate(db) {
   // Profile photos: a small cropped JPEG stored as a data URL.
   if (!(await hasColumn(db, 'users', 'avatar'))) {
     await db.exec(`ALTER TABLE users ADD COLUMN ${db.dialect === 'postgres' ? 'IF NOT EXISTS ' : ''}avatar TEXT`);
+  }
+  // Admins, and the partner link that brought someone to the site (set once, at sign-up).
+  if (!(await hasColumn(db, 'users', 'is_admin'))) {
+    await db.exec(
+      `ALTER TABLE users ADD COLUMN ${db.dialect === 'postgres' ? 'IF NOT EXISTS ' : ''}is_admin INTEGER NOT NULL DEFAULT 0`
+    );
+  }
+  if (!(await hasColumn(db, 'users', 'partner_link_id'))) {
+    await db.exec(
+      `ALTER TABLE users ADD COLUMN ${db.dialect === 'postgres' ? 'IF NOT EXISTS ' : ''}partner_link_id ${db.dialect === 'postgres' ? 'BIGINT' : 'INTEGER'}`
+    );
   }
   // Whether a shared result also shows the person's top three issues (off by default).
   if (!(await hasColumn(db, 'quiz_results', 'share_issues'))) {

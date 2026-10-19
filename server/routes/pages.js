@@ -8,6 +8,7 @@ import * as results from '../db/repositories/results.js';
 import { isShareId } from '../lib/validation.js';
 import { shareUrl, sharePreview } from '../services/quiz.js';
 import { config } from '../config.js';
+import { recordVisit } from '../services/partners.js';
 
 const indexHtml = readFileSync(fileURLToPath(new URL('../../client/index.html', import.meta.url)), 'utf8');
 
@@ -46,4 +47,17 @@ pageRoutes.get('/results/:id', async (req, res) => {
       image: `${config.publicUrl}/api/share/${row.share_id}/card.png?v=${row.share_issues ? 2 : 1}`,
     })
   );
+});
+
+// Partner links: count the visit, then land on the home page with the partner
+// remembered in the browser (the client keeps the first one for 30 days).
+pageRoutes.get('/go/:slug', async (req, res) => {
+  let slug = null;
+  try {
+    slug = await recordVisit(String(req.params.slug).slice(0, 40), req.ip, req.get('user-agent') || '');
+  } catch (err) {
+    console.error('[partners] visit not recorded', err.message);
+  }
+  res.set('Cache-Control', 'no-store');
+  res.redirect(302, slug ? `/?ref=${encodeURIComponent(slug)}` : '/');
 });

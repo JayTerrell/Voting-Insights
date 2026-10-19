@@ -2,7 +2,7 @@
 // results. Browsing the guide never needs an account; the quiz does.
 
 import { $, esc, setTitle, skeleton, toast, countyLabel, avatarHtml, openModal, closeModal } from '../ui.js';
-import { api, session, loadGuide, loadFormOptions, ballotCounty, startSession } from '../api.js';
+import { api, session, loadGuide, loadFormOptions, ballotCounty, startSession, partnerRef } from '../api.js';
 import { navigate, updateAccountLink } from '../app.js';
 
 const MIN_PASSWORD = 8;
@@ -88,14 +88,27 @@ export function signUpForm(guide, options, { next = '/profile', intro = '' } = {
           <label class="check"><input type="checkbox" name="marketing_ok"> <span>Email me when this guide is updated for future elections. (Optional)</span></label>
         </div>
       </div>
+      <p class="partner-note small" data-partner-note hidden></p>
       <p class="form-error" role="alert" hidden></p>
       <div class="btn-row" style="margin-top:18px"><button class="btn btn-red" type="submit">Create my account</button>
         <span class="small">Already have an account? <a href="${esc(withNext('/sign-in', next))}">Sign in</a></span></div>
     </form>`;
 }
 
+// Tells someone signing up which partner link brought them, and what the partner sees.
+async function showPartnerNote(form) {
+  const slug = partnerRef.get();
+  const el = form?.querySelector('[data-partner-note]');
+  if (!slug || !el) return;
+  const { partner } = await api.partnerReferrer(slug).catch(() => ({ partner: null }));
+  if (!partner) return;
+  el.textContent = `You are joining through ${partner.name}'s partner link. ${partner.name} sees combined totals, such as how many people signed up, and never your answers or personal details.`;
+  el.hidden = false;
+}
+
 export function bindSignUp(view, onDone) {
   const form = $('#signup', view);
+  showPartnerNote(form);
   form.addEventListener('submit', (e) => {
     e.preventDefault();
     submitting(form, async (err) => {
@@ -113,6 +126,7 @@ export function bindSignUp(view, onDone) {
           age_range: fd.get('age_range'),
           agree_terms: fd.get('agree_terms') === 'on',
           marketing_ok: fd.get('marketing_ok') === 'on',
+          partner: partnerRef.get(),
         });
         await startSession(res);
         ballotCounty.set(res.user.county);
@@ -259,6 +273,7 @@ export async function renderFinishSignUp(view, _params, current) {
           <label class="check"><input type="checkbox" name="marketing_ok"> <span>Email me when this guide is updated for future elections. (Optional)</span></label>
         </div>
       </div>
+      <p class="partner-note small" data-partner-note hidden></p>
       <p class="form-error" role="alert" hidden></p>
       <div class="btn-row" style="margin-top:18px"><button class="btn btn-red" type="submit">Create my account</button></div>
     </form>`
@@ -266,6 +281,7 @@ export async function renderFinishSignUp(view, _params, current) {
     }</div>`;
   const form = $('#finish', view);
   if (!form) return;
+  showPartnerNote(form);
   form.addEventListener('submit', (e) => {
     e.preventDefault();
     submitting(form, async () => {
@@ -278,6 +294,7 @@ export async function renderFinishSignUp(view, _params, current) {
         age_range: fd.get('age_range'),
         agree_terms: fd.get('agree_terms') === 'on',
         marketing_ok: fd.get('marketing_ok') === 'on',
+        partner: partnerRef.get(),
       });
       await startSession(res);
       ballotCounty.set(res.user.county);
@@ -385,7 +402,7 @@ function drawSettings(view, data, guide, options) {
     <h1>Account settings</h1>
     <p class="lede">Signed in as ${esc(u.email || '')}. Looking for your results, issues, and watchlist? They are on <a href="/profile">your profile</a>.</p>
     <nav class="settings-nav" aria-label="Settings sections">
-      <a href="#set-photo">Photo</a><a href="#prof-h">Your details</a><a href="#pw-h">Sign-in and security</a><a href="#priv-h">Privacy and data</a>
+      <a href="#set-photo">Photo</a><a href="#prof-h">Your details</a><a href="#partner-h">Partner link</a><a href="#pw-h">Sign-in and security</a><a href="#priv-h">Privacy and data</a>
     </nav>
 
     <section aria-labelledby="set-photo">
@@ -416,6 +433,11 @@ function drawSettings(view, data, guide, options) {
         <p class="form-error" role="alert" hidden></p>
         <div class="btn-row" style="margin-top:14px"><button class="btn btn-small" type="submit">Save details</button></div>
       </form>
+    </section>
+
+    <section aria-labelledby="partner-h">
+      <div class="section-head"><h2 id="partner-h">Partner link</h2><a href="/partners">How partner links work</a></div>
+      <div class="panel" id="partner-box"><span class="sk sk-line w60"></span></div>
     </section>
 
     <section aria-labelledby="pw-h">
@@ -464,6 +486,8 @@ function drawSettings(view, data, guide, options) {
       </form>
     </details>
     </div>`;
+
+  drawPartner($('#partner-box', view));
 
   $('#photo-file', view).addEventListener('change', async (e) => {
     const file = e.target.files?.[0];
@@ -702,6 +726,82 @@ async function photoEditor(file) {
         btn.disabled = false;
         btn.classList.remove('is-loading');
       }
+    });
+  });
+}
+
+// ---------- Partner link request ----------
+
+async function drawPartner(box) {
+  let link = null;
+  try {
+    ({ link } = await api.partnerMe());
+  } catch {
+    box.innerHTML = '<p class="muted">Partner links are unavailable right now.</p>';
+    return;
+  }
+  if (link?.status === 'approved') {
+    box.innerHTML = `<p style="margin-top:0">Your partner link is live:</p>
+      <p class="partner-url"><b>${esc(link.url)}</b> <button type="button" class="btn btn-ghost btn-small" id="partner-copy">Copy</button></p>
+      <p class="small">See its visits, sign-ups, and combined results on <a href="/profile#partner-stats">your profile</a>.</p>`;
+    $('#partner-copy', box).addEventListener('click', () =>
+      navigator.clipboard.writeText(link.url).then(
+        () => toast('Link copied'),
+        () => prompt('Copy your link:', link.url)
+      )
+    );
+    return;
+  }
+  if (link?.status === 'pending') {
+    box.innerHTML = `<p style="margin-top:0"><span class="tag">Under review</span> You asked for <b>${esc(link.url)}</b>. We will email you when it is approved.</p>`;
+    return;
+  }
+  const base = `${location.origin.replace(/^https?:\/\//, '')}/go/`;
+  box.innerHTML = `${link?.status === 'rejected' ? `<p class="callout small" style="margin-top:0">Your request for ${esc(link.slug)} was not approved.${link.note ? ` Note: ${esc(link.note)}` : ''} You can request a different link.</p>` : ''}
+    <p style="margin-top:0">Get your own link to share VotersHub and see how many people it brings in. You will see totals only, never anyone's answers.</p>
+    <form id="partner-form" novalidate>
+      <label for="pl-slug">Your link</label>
+      <div class="slug-field"><span class="slug-base">${esc(base)}</span><input id="pl-slug" name="slug" type="text" maxlength="30" autocomplete="off" spellcheck="false" placeholder="your-group" required></div>
+      <p class="form-note" id="pl-check">3 to 30 lowercase letters, numbers, or hyphens.</p>
+      <label for="pl-reason">Who will you share it with?</label>
+      <input id="pl-reason" name="reason" type="text" maxlength="300" placeholder="For example: my church's young adults group" required>
+      <p class="form-error" role="alert" hidden></p>
+      <div class="btn-row" style="margin-top:12px"><button class="btn btn-small" type="submit">Request my link</button></div>
+    </form>`;
+  const form = $('#partner-form', box);
+  const input = $('#pl-slug', box);
+  const note = $('#pl-check', box);
+  let timer = 0;
+  let last = '';
+  input.addEventListener('input', () => {
+    // Type freely; the link is shown the way it will be saved.
+    const clean = input.value
+      .toLowerCase()
+      .replace(/[\s_]+/g, '-')
+      .replace(/[^a-z0-9-]/g, '');
+    if (clean !== input.value) input.value = clean;
+    clearTimeout(timer);
+    note.className = 'form-note';
+    if (clean.length < 3) {
+      note.textContent = '3 to 30 lowercase letters, numbers, or hyphens.';
+      return;
+    }
+    note.textContent = 'Checking...';
+    timer = setTimeout(async () => {
+      last = clean;
+      const r = await api.partnerCheck(clean).catch(() => null);
+      if (!r || input.value !== last) return;
+      note.textContent = r.available ? `${base}${r.slug} is available.` : r.reason;
+      note.className = `form-note ${r.available ? 'ok' : 'bad'}`;
+    }, 300);
+  });
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    submitting(form, async () => {
+      const fd = new FormData(form);
+      await api.partnerRequest(fd.get('slug'), fd.get('reason'));
+      toast('Request sent. Check your email for confirmation.');
+      drawPartner(box);
     });
   });
 }

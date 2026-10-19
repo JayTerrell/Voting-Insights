@@ -7,6 +7,7 @@ import { api, session, plan, loadGuide, ballotCounty, resultCache } from '../api
 import { racesForCounty } from '../shared/scoring.js';
 import { officeGroup, rankOffices } from '../shared/issue-offices.js';
 import { openIssuesPicker } from './issues-picker.js';
+import { statsHtml, rangeBar, bindRange } from './partner-stats.js';
 import { navigate, updateAccountLink } from '../app.js';
 
 export async function renderProfile(view, _params, current) {
@@ -127,6 +128,11 @@ function drawProfile(view, guide, list, latest) {
       }
     </section>
 
+    <section aria-labelledby="partner-stats-h" id="partner-stats" hidden>
+      <div class="section-head"><h2 id="partner-stats-h">Your partner link</h2><span class="small" id="partner-link-url"></span></div>
+      <div id="partner-stats-body"></div>
+    </section>
+
     <section aria-labelledby="hist-h">
       <div class="section-head"><h2 id="hist-h">Quiz history</h2><a href="/quiz">${list.length ? 'Retake the quiz' : 'Take the quiz'}</a></div>
       ${
@@ -142,6 +148,32 @@ function drawProfile(view, guide, list, latest) {
     </section>
   </div>`;
 
+  drawPartnerStats(view);
+
   const open = () => openIssuesPicker({ guide, county, ranking });
   ['#edit-issues', '#edit-issues-2', '#edit-issues-3'].forEach((sel) => $(sel, view)?.addEventListener('click', open));
+}
+
+// The partner's own link totals, when they have an approved link.
+let partnerRange = { from: '', to: '' };
+async function drawPartnerStats(view) {
+  const section = $('#partner-stats', view);
+  if (!section) return;
+  let data;
+  try {
+    data = await api.partnerStats(partnerRange);
+  } catch {
+    return; // no approved link: the section stays hidden
+  }
+  if (!section.isConnected) return;
+  section.hidden = false;
+  $('#partner-link-url', view).innerHTML =
+    `<a href="${esc(data.link.url)}" target="_blank" rel="noopener">${esc(data.link.url)}</a>`;
+  const r = data.stats.range;
+  $('#partner-stats-body', view).innerHTML =
+    `${rangeBar('partner-range', partnerRange.from || r.from, partnerRange.to || r.to)}${statsHtml(data.stats)}`;
+  bindRange($('#partner-range', view), (next) => {
+    partnerRange = next;
+    drawPartnerStats(view);
+  });
 }

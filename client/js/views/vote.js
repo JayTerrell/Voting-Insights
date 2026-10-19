@@ -9,7 +9,7 @@
 // to look up an assigned polling place.
 
 import { $, $$, esc, setTitle, countyLabel, skeleton } from '../ui.js';
-import { loadGuide, loadFormOptions, ballotCounty, session } from '../api.js';
+import { loadGuide, loadFormOptions, ballotCounty, session, partnerRef } from '../api.js';
 
 const TZ = 'America/Chicago';
 const EARLY_START = '2026-10-19';
@@ -528,6 +528,7 @@ export async function renderVote(view, _params, current) {
         origin = { lat: geo.lat, lng: geo.lng, label: 'Your address', place: titleCase(geo.matched || withState) };
       }
       lookup = null;
+      partnerRef.event('vote_lookup');
       if (options.polling_lookup) {
         const r = await fetch(`/api/polling/lookup?address=${encodeURIComponent(withState)}`).catch(() => null);
         if (r?.ok) lookup = await r.json();

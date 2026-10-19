@@ -18,6 +18,10 @@
       "destination": "/api"
     },
     {
+      "source": "/go/:slug",
+      "destination": "/api"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     }

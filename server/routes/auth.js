@@ -85,5 +85,6 @@ authRoutes.post('/auth/complete', rateLimit('oauth-complete', 20, MINUTES_15), a
   const ticket = String(body.ticket || '');
   const identity = accounts.pendingSignUp(ticket);
   const profile = identity.email ? parseProfile({ ...body, email: identity.email }) : null;
-  res.status(201).json(await accounts.completeSignUp(ticket, profile));
+  const partner = typeof body.partner === 'string' ? body.partner.slice(0, 40) : null;
+  res.status(201).json(await accounts.completeSignUp(ticket, profile, partner));
 });

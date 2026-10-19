@@ -15,7 +15,8 @@ const perEmail = (name, max, windowMs) => rateLimitBy(name, max, windowMs, (req)
 accountRoutes.post('/sign-up', rateLimit('sign-up', 30, MINUTES_15), async (req, res) => {
   const body = req.body || {};
   const profile = parseProfile(body);
-  res.status(201).json(await accounts.signUp(profile, requirePassword(body.password)));
+  const partner = typeof body.partner === 'string' ? body.partner.slice(0, 40) : null;
+  res.status(201).json(await accounts.signUp(profile, requirePassword(body.password), partner));
 });
 
 accountRoutes.post(
