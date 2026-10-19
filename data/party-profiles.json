@@ -201,57 +201,69 @@
     },
     "green": {
       "overview": [
-        "According to VotersHub's existing summary, the Green Party of Texas maintains its own state platform, separate from the national Green Party platform, built on the Green movement's Ten Key Values. Those values include grassroots democracy, social justice, ecological wisdom, nonviolence, and decentralization.",
-        "VotersHub's records list the platform as the 2021 Green Party of Texas State Platform, posted as up to date through December 2023. The party's official platform and Ten Key Values pages could not be read for this guide because the website returned an automated bot check, so this profile uses only VotersHub's existing summary."
+        "The Green Party of Texas platform says it expresses the party's commitment to meaningful and enduring change in the political process, and it describes the party as an alternative to what it calls the corporately controlled political system. It says its positions stem from the Ten Key Values of the Green Party, including grassroots democracy, social justice, ecological wisdom, nonviolence, and decentralization.",
+        "The platform is titled the Green Party of Texas State Platform (2021) and is posted with a note that it is up to date as of December 2023. It describes itself as a living document drafted, amended, and adopted by the party membership through an open process, and it is organized into five sections: Grassroots Democracy, Social Justice and Equal Opportunity, Ecological Sustainability, Economic Sustainability, and Non-violence."
       ],
       "values": [
         {
           "value": "Grassroots democracy",
-          "text": "The party names grassroots democracy as one of its Ten Key Values; the party's own description could not be retrieved for this guide.",
-          "quote": "",
-          "where": "Ten Key Values page, txgreens.org (not retrieved)"
-        },
-        {
-          "value": "Social justice",
-          "text": "The party names social justice as one of its Ten Key Values; the party's own description could not be retrieved for this guide.",
-          "quote": "",
-          "where": "Ten Key Values page, txgreens.org (not retrieved)"
+          "text": "The party says all people should take part directly in the decisions that affect their lives.",
+          "quote": "We believe in direct participation by all people in the environmental, political, and economic decisions that affect their lives.",
+          "where": "Ten Key Values, Grassroots Democracy"
         },
         {
           "value": "Ecological wisdom",
-          "text": "The party names ecological wisdom as one of its Ten Key Values; the party's own description could not be retrieved for this guide.",
-          "quote": "",
-          "where": "Ten Key Values page, txgreens.org (not retrieved)"
+          "text": "The party says human well-being depends on the natural world and that harm to nature, animals, and people share common roots.",
+          "quote": "We recognize that the Earth sustains all life processes.",
+          "where": "Ten Key Values, Ecological Wisdom"
+        },
+        {
+          "value": "Social justice",
+          "text": "The party says it seeks to end poverty and oppression based on class, sex, race, citizenship, age, or sexual orientation.",
+          "quote": "We want to replace the worldwide system of poverty and injustice with a world free of all oppression based on class, sex, race, citizenship, age, or sexual orientation.",
+          "where": "Ten Key Values, Social Justice"
         },
         {
           "value": "Commitment to nonviolence",
-          "text": "The party names nonviolence as one of its Ten Key Values; the party's own description could not be retrieved for this guide.",
-          "quote": "",
-          "where": "Ten Key Values page, txgreens.org (not retrieved)"
+          "text": "The party says it rejects violence as a way to settle disputes and works toward a world without war.",
+          "quote": "We work to create a world where war is obsolete.",
+          "where": "Ten Key Values, Nonviolence"
         },
         {
           "value": "Value of decentralization",
-          "text": "The party names decentralization as one of its Ten Key Values; the party's own description could not be retrieved for this guide.",
-          "quote": "",
-          "where": "Ten Key Values page, txgreens.org (not retrieved)"
+          "text": "The party says power and responsibility should be returned to local communities.",
+          "quote": "Power and responsibility must be restored to local communities",
+          "where": "Ten Key Values, Decentralization"
+        },
+        {
+          "value": "Community-based economics",
+          "text": "The party says the economy should meet everyone's basic needs within the Earth's natural limits and under local, democratic control.",
+          "quote": "We seek a new economics based upon the natural limits of the Earth which meets the basic needs of everyone on the planet",
+          "where": "Ten Key Values, Community-based Economics"
+        },
+        {
+          "value": "Future focus",
+          "text": "The party says decisions should give the interests of future generations equal weight with those of people living today.",
+          "quote": "we seek a society where the interests of the seventh generation yet to come are considered equal to the interests of the present generation",
+          "where": "Ten Key Values, Future Focus"
         }
       ],
       "areas": {
-        "Abortion": "VotersHub could not retrieve the official platform text to summarize this area.",
-        "County Government": "VotersHub could not retrieve the official platform text to summarize this area.",
-        "Courts": "VotersHub could not retrieve the official platform text to summarize this area.",
-        "Education": "VotersHub could not retrieve the official platform text to summarize this area.",
-        "Elections and Ethics": "According to VotersHub's existing summary, the platform calls for public financing of campaigns and for proportional representation, a system in which parties win seats in proportion to their share of the vote.",
-        "Energy and Environment": "According to VotersHub's existing summary, the platform calls for a shift away from fossil fuels and nuclear power toward renewable energy and conservation.",
-        "Family and Social Policy": "VotersHub could not retrieve the official platform text to summarize this area.",
-        "Guns and Public Safety": "VotersHub could not retrieve the official platform text to summarize this area.",
-        "Health Care": "According to VotersHub's existing summary, the platform calls for a single-payer health system, in which one public program pays for health care.",
-        "Immigration and Border": "According to VotersHub's existing summary, the platform calls for legal status for undocumented residents.",
-        "Jobs and Wages": "According to VotersHub's existing summary, the platform calls for a living wage and a basic income.",
-        "Land and Agriculture": "VotersHub could not retrieve the official platform text to summarize this area.",
-        "Taxes and Spending": "VotersHub could not retrieve the official platform text to summarize this area."
+        "Abortion": "The platform supports the right of women to make their own decisions about all aspects of reproduction without government restriction, and it supports publicly funded, medically accurate sex education and family planning as a way to reduce the need for abortion (Section II.A). It also opposes coerced abortion, sterilization, or contraception (Section II.A).",
+        "County Government": "The platform calls for barring county office candidates from accepting donations from outside their counties and for independent civilian review boards with subpoena power at the city and county levels to oversee police misconduct cases (Sections I.A and II.C). In counties of fewer than 35,000 people, it supports requiring national chains to win a public referendum before getting business or building permits, and it calls for city and county input on new toll roads (Sections III.C and IV.C).",
+        "Courts": "The platform calls for abolishing the death penalty, trying juvenile offenders as juveniles, repealing mandatory sentencing laws such as three strikes, and setting uniform standards and public hearings for clemency (Section II.C). It also supports ending qualified immunity for police, independent prosecution of officers accused of misconduct, and grand jury reform (Section II.C).",
+        "Education": "The platform opposes school vouchers, calls for equitable state funding for all public schools, and opposes relying mainly on high-stakes standardized tests for promotion, graduation, or teacher pay (Section II.H). It supports teacher salaries comparable to similar professions, the right of teacher unions to strike, expanded bilingual education, and free tuition at Texas public colleges for Texas high school graduates (Section II.H).",
+        "Elections and Ethics": "The platform calls for full public financing of election campaigns, preferential voting methods such as approval voting, proportional representation, same-day and online voter registration, a binding none of the above option, and an end to gerrymandering (Sections I.A and I.B). It also supports hand-counted paper ballots, a citizen right of initiative and referendum, a ban on gifts from lobbyists to officials, and a ban on corporate contributions to political parties (Sections I.A and I.B).",
+        "Energy and Environment": "The platform calls for a state energy plan overseen by an elected energy commission, making renewable energy a priority, a planned phase-out of coal and petroleum, a ban on coal mining in Texas, and retiring the state's nuclear power reactors (Section III.F). It also calls for stronger clean air and water enforcement, capping abandoned oil and gas wells, and recycling services for all homes and businesses (Sections III.A, III.B, and III.G).",
+        "Family and Social Policy": "The platform supports legal recognition of same-sex civil marriage and protection for gay, lesbian, bisexual, and transgender people from discrimination in housing, jobs, child custody, and adoption (Section II.B). It also opposes corporal punishment of children, supports lowering the voting age to 16, and says government should play an active role in providing affordable housing (Sections II.B and II.E).",
+        "Guns and Public Safety": "The platform says the party does not oppose lawful gun ownership and supports background checks on all secondary gun sales, licensing and registration of newly bought handguns and assault weapons, a limit of one handgun purchase per month, and a required gun safety course (Section II.G). On policing, it supports body cameras that officers cannot turn off, demilitarizing police, shifting funds from policing and prisons to mental health and social services, and decriminalizing marijuana (Sections II.C and II.D).",
+        "Health Care": "The platform endorses a universal single-payer health care system, in which one public program pays for care, and says health care is a human right that should not depend on income, employment, health status, or place of birth (Section II.A). Until then, it calls for more funding for the Children's Health Insurance Program and expanding it to cover adult parents, and it supports access to medical cannabis (Section II.A).",
+        "Immigration and Border": "The platform calls for a comprehensive legalization program for all undocumented people living in the United States, a path to permanent residency and citizenship for immigrant workers, and an end to the militarization of the border with Mexico (Section II.I). It also says immigrants should have the same labor and civil rights as citizens and calls for removing limits on their access to legal and social service programs (Section II.I).",
+        "Jobs and Wages": "The platform supports a living wage high enough for a minimum-wage worker to afford a one-bedroom apartment where they work, along with a guaranteed minimum income or basic income for all (Sections IV.B and IV.G). It supports collective bargaining rights for any two or more workers, protection from firing without just cause, overtime pay after 40 hours, a long-term goal of a 32-hour work week with no loss of pay, and support for small businesses and cooperatives (Sections IV.A and IV.G).",
+        "Land and Agriculture": "The platform supports a shift from corporate agribusiness to sustainable farming, family-owned farms and ranches, an end to factory farming, and labeling of genetically engineered food along with a pause on such products (Sections III.D and III.E). It calls for ending the rule of capture for groundwater, keeping public lands in public hands, and curbing urban sprawl through measures such as urban growth boundaries (Sections III.B and III.H).",
+        "Taxes and Spending": "The platform supports a progressive tax system based on all income and calls for replacing the state sales tax with a graduated income tax, creating a corporate income tax in Texas, and raising corporate taxes (Section II.F). It also calls for ending tax subsidies and loopholes that favor powerful interests, eliminating the state lottery, taxing industrial pollution, and charging impact fees on new developments (Section II.F)."
       },
-      "notes": "The official sources (https://www.txgreens.org/platform and https://www.txgreens.org/green_party_ten_key_values) returned an automated bot check (HTTP 403, 'Just a moment...') on October 19, 2026, and were not accessed further. Nothing in this profile was verified against the platform text. Overview, values, and the five summarized areas come only from the existing guide.json summary; areas it does not cover are marked as not retrieved rather than 'not addressed'. Value quotes are left empty for the same reason."
+      "notes": "The text was read from Internet Archive snapshots of txgreens.org: the platform page dated October 17, 2026, and the Ten Key Values page dated September 22, 2026, because the live site returned a bot check. The platform is titled the Green Party of Texas State Platform (2021) and is marked as up to date as of December 2023. The web page has no page numbers, so section references follow the platform's own numbering."
     }
   }
 }
