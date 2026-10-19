@@ -3623,3 +3623,45 @@ html.modal-open {
 .leaflet-control-attribution {
   font-size: 10px;
 }
+
+/* Address suggestions on Where to Vote */
+.addr-box {
+  position: relative;
+  flex: 1 1 260px;
+}
+.addr-box input {
+  width: 100%;
+}
+.addr-suggest {
+  position: absolute;
+  z-index: 1200;
+  top: calc(100% + 2px);
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: var(--card);
+  border: 1px solid var(--navy);
+  box-shadow: 0 10px 24px rgba(19, 41, 75, 0.16);
+  max-height: 290px;
+  overflow-y: auto;
+}
+.addr-suggest li {
+  padding: 10px 14px;
+  cursor: pointer;
+  border-top: 1px solid var(--rule-soft);
+  font-size: 0.95rem;
+}
+.addr-suggest li:first-child {
+  border-top: 0;
+}
+.addr-suggest li.active,
+.addr-suggest li:hover {
+  background: var(--tan);
+  color: var(--navy);
+}
+.vote-origin {
+  margin: 0 0 10px;
+  color: var(--muted);
+}

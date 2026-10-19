@@ -4,7 +4,9 @@
 //
 // Locations come from each county's official election website and are checked
 // every 8 hours during early voting. The voter's location never leaves their
-// device; a typed address is sent to our server only to find it on the map.
+// device. While a voter types an address, Stadia Maps suggests full matching
+// addresses (limited to Texas); the chosen address is sent to our server only
+// to look up an assigned polling place.
 
 import { $, $$, esc, setTitle, countyLabel, skeleton } from '../ui.js';
 import { loadGuide, loadFormOptions, ballotCounty, session } from '../api.js';
@@ -13,6 +15,8 @@ const TZ = 'America/Chicago';
 const EARLY_START = '2026-10-19';
 const EARLY_END = '2026-10-30';
 const ELECTION_DAY = '2026-11-03';
+const SUGGEST_URL = 'https://api.stadiamaps.com/geocoding/v1/autocomplete';
+const TEXAS = { min_lat: 25.8, max_lat: 36.6, min_lon: -106.7, max_lon: -93.5 };
 const STADIA = 'https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png';
 const ATTRIBUTION =
   '&copy; <a href="https://stadiamaps.com/" target="_blank" rel="noopener">Stadia Maps</a> &copy; <a href="https://openmaptiles.org/" target="_blank" rel="noopener">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>';
@@ -87,6 +91,13 @@ function miles(a, b) {
   return 2 * R * Math.asin(Math.sqrt(h));
 }
 
+// The Census geocoder answers in capitals ("8100 GAYLORD PKWY, FRISCO, TX, 75034").
+const titleCase = (text) =>
+  text
+    .toLowerCase()
+    .replace(/\b([a-z])/g, (c) => c.toUpperCase())
+    .replace(/\bTx\b/, 'TX');
+
 const fullAddress = (s) => [s.address, s.city, 'TX', s.zip].filter(Boolean).join(', ');
 
 function mapLinks(site) {
@@ -151,6 +162,7 @@ export async function renderVote(view, _params, current) {
   let mode = qs.get('day') === 'election' || today > EARLY_END ? 'election' : 'early';
   let origin = null; // { lat, lng, label }
   let lookup = null; // Civic API result for a typed address
+  let center = null; // middle of the county's locations, to rank address suggestions
 
   view.innerHTML = `<div id="vote-root">
     <span class="eyebrow">Where to Vote</span>
@@ -171,7 +183,11 @@ export async function renderVote(view, _params, current) {
     </div>
     <form class="vote-locate" id="vote-locate" novalidate>
       <label for="vote-address" class="sr-only">Your address</label>
-      <input id="vote-address" type="text" autocomplete="street-address" maxlength="200" placeholder="Enter your address to sort by distance">
+      <div class="addr-box">
+        <input id="vote-address" type="text" autocomplete="off" maxlength="200" placeholder="Start typing your street address"
+          role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="vote-suggest">
+        <ul class="addr-suggest" id="vote-suggest" role="listbox" aria-label="Suggested addresses" hidden></ul>
+      </div>
       <button type="submit" class="btn btn-small">Find nearest</button>
       <button type="button" class="btn btn-small btn-ghost" id="vote-geo">Use my location</button>
     </form>
@@ -198,6 +214,7 @@ export async function renderVote(view, _params, current) {
 
     const entry = available.get(county);
     if (!entry) {
+      center = null;
       map?.remove();
       map = null;
       body.innerHTML = `<div class="panel empty-state"><h2>${esc(countyLabel(county))} locations are coming soon</h2>
@@ -205,6 +222,10 @@ export async function renderVote(view, _params, current) {
       return;
     }
     const data = await loadCounty(entry.file);
+    const pts = [...(data.early_voting?.sites || []), ...(data.election_day?.sites || [])].filter((s) => Number.isFinite(s.lat));
+    center = pts.length
+      ? { lat: pts.reduce((a, s) => a + s.lat, 0) / pts.length, lon: pts.reduce((a, s) => a + s.lng, 0) / pts.length }
+      : null;
     const section = mode === 'election' ? data.election_day : data.early_voting;
     let sites = (section?.sites || []).map((s, i) => ({ ...s, _id: `${mode}-${i}` }));
     if (origin) {
@@ -232,7 +253,8 @@ export async function renderVote(view, _params, current) {
             ? `<div class="callout">${esc(countyLabel(county))} uses countywide voting: on Election Day you may vote at any location below.</div>`
             : ''
       }
-      ${lookup ? lookupCard(lookup) : ''}
+      ${origin?.place ? `<p class="small vote-origin">Distances from <b>${esc(origin.place)}</b>.</p>` : ''}
+      ${lookup ? lookupCard(lookup, precinct) : ''}
       ${data.notes ? `<p class="small muted">${esc(data.notes)}</p>` : ''}
       ${
         dates.length
@@ -273,9 +295,13 @@ export async function renderVote(view, _params, current) {
     </li>`;
   }
 
-  function lookupCard(r) {
+  // Google only has assigned locations for some counties. In countywide
+  // counties no assignment is needed, so a miss is not worth mentioning.
+  function lookupCard(r, precinct) {
     if (!r.found || (!r.polling_locations.length && !r.early_vote_sites.length)) {
-      return `<div class="callout">We could not find an assigned polling place for that address. Check it with your county's lookup or <a href="https://www.votetexas.gov/" target="_blank" rel="noopener">VoteTexas.gov</a>.</div>`;
+      return precinct
+        ? `<div class="callout">We could not look up the Election Day location assigned to that address. Check it with your county's lookup or <a href="https://www.votetexas.gov/" target="_blank" rel="noopener">VoteTexas.gov</a>.</div>`
+        : '';
     }
     const list = r.polling_locations.length ? r.polling_locations : r.early_vote_sites;
     return `<div class="panel lookup-card"><h2>Your polling place</h2>
@@ -368,9 +394,121 @@ export async function renderVote(view, _params, current) {
     if (item && !e.target.closest('a, button')) focusSite(item.dataset.site);
   });
 
+  // ---------- Address suggestions ----------
+  // Suggestions come straight from Stadia Maps (the same service as the map),
+  // which recognizes this site by its domain. If Stadia cannot be reached the
+  // box quietly goes back to a plain text field.
+
+  const input = $('#vote-address', root);
+  const list = $('#vote-suggest', root);
+  let picked = null; // { label, lat, lng } chosen from the list
+  let suggestions = [];
+  let active = -1;
+  let timer = 0;
+  let pending = null;
+  let suggestOff = false;
+
+  function closeSuggest() {
+    suggestions = [];
+    active = -1;
+    list.hidden = true;
+    list.innerHTML = '';
+    input.setAttribute('aria-expanded', 'false');
+    input.removeAttribute('aria-activedescendant');
+  }
+
+  function renderSuggest() {
+    if (!suggestions.length) return closeSuggest();
+    list.innerHTML = suggestions
+      .map(
+        (s, i) =>
+          `<li role="option" id="addr-opt-${i}" data-i="${i}" aria-selected="${i === active}" class="${i === active ? 'active' : ''}">${esc(s.label)}</li>`
+      )
+      .join('');
+    list.hidden = false;
+    input.setAttribute('aria-expanded', 'true');
+    if (active >= 0) input.setAttribute('aria-activedescendant', `addr-opt-${active}`);
+    else input.removeAttribute('aria-activedescendant');
+  }
+
+  async function fetchSuggest(text) {
+    pending?.abort();
+    pending = new AbortController();
+    const q = new URLSearchParams({ text, 'boundary.country': 'US', layers: 'address', size: '6' });
+    for (const [k, v] of Object.entries(TEXAS)) q.set(`boundary.rect.${k}`, String(v));
+    if (center) {
+      q.set('focus.point.lat', center.lat.toFixed(4));
+      q.set('focus.point.lon', center.lon.toFixed(4));
+    }
+    try {
+      const res = await fetch(`${SUGGEST_URL}?${q}`, { signal: pending.signal, credentials: 'omit' });
+      if (!res.ok) {
+        if (res.status === 401 || res.status === 403) suggestOff = true;
+        return closeSuggest();
+      }
+      const data = await res.json();
+      suggestions = (data.features || [])
+        .filter((f) => f.geometry?.coordinates?.length === 2 && f.properties?.label)
+        .map((f) => ({
+          label: f.properties.label.replace(/, USA$|, United States$/, ''),
+          lng: f.geometry.coordinates[0],
+          lat: f.geometry.coordinates[1],
+        }));
+      active = -1;
+      if (document.activeElement === input) renderSuggest();
+    } catch (ex) {
+      if (ex.name !== 'AbortError') closeSuggest();
+    }
+  }
+
+  function choose(i) {
+    const s = suggestions[i];
+    if (!s) return;
+    picked = s;
+    input.value = s.label;
+    closeSuggest();
+    $('#vote-locate', root).requestSubmit();
+  }
+
+  input.addEventListener('input', () => {
+    picked = null;
+    clearTimeout(timer);
+    const text = input.value.trim();
+    if (suggestOff || text.length < 4 || !/\d/.test(text)) {
+      pending?.abort();
+      return closeSuggest();
+    }
+    timer = setTimeout(() => fetchSuggest(text), 250);
+  });
+
+  input.addEventListener('keydown', (e) => {
+    if (list.hidden) return;
+    if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+      e.preventDefault();
+      const n = suggestions.length;
+      active = e.key === 'ArrowDown' ? (active + 1) % n : (active - 1 + n) % n;
+      renderSuggest();
+    } else if (e.key === 'Enter' && active >= 0) {
+      e.preventDefault();
+      choose(active);
+    } else if (e.key === 'Escape') {
+      closeSuggest();
+    }
+  });
+
+  input.addEventListener('blur', () => setTimeout(closeSuggest, 150));
+  // mousedown, not click, so the choice lands before the input loses focus.
+  list.addEventListener('mousedown', (e) => {
+    const li = e.target.closest('[data-i]');
+    if (!li) return;
+    e.preventDefault();
+    choose(Number(li.dataset.i));
+  });
+
   $('#vote-locate', root).addEventListener('submit', async (e) => {
     e.preventDefault();
     showError('');
+    closeSuggest();
     const address = $('#vote-address', root).value.trim();
     if (address.length < 5) return showError('Please enter a street address, city, and ZIP code.');
     const btn = e.target.querySelector('button[type=submit]');
@@ -378,10 +516,17 @@ export async function renderVote(view, _params, current) {
     btn.classList.add('is-loading');
     try {
       const withState = /\btx\b|texas/i.test(address) ? address : `${address}, TX`;
-      const res = await fetch(`/api/geocode?address=${encodeURIComponent(withState)}`);
-      const geo = await res.json();
-      if (!res.ok) throw new Error(geo.error || 'We could not find that address.');
-      origin = { lat: geo.lat, lng: geo.lng, label: 'Your address' };
+      if (picked && picked.label === address) {
+        origin = { lat: picked.lat, lng: picked.lng, label: 'Your address', place: picked.label };
+      } else {
+        const res = await fetch(`/api/geocode?address=${encodeURIComponent(withState)}`);
+        const geo = await res.json();
+        if (!res.ok)
+          throw new Error(
+            geo.error || 'We could not find that address. Pick one of the suggestions, or include the city and ZIP code.'
+          );
+        origin = { lat: geo.lat, lng: geo.lng, label: 'Your address', place: titleCase(geo.matched || withState) };
+      }
       lookup = null;
       if (options.polling_lookup) {
         const r = await fetch(`/api/polling/lookup?address=${encodeURIComponent(withState)}`).catch(() => null);
@@ -404,7 +549,7 @@ export async function renderVote(view, _params, current) {
     navigator.geolocation.getCurrentPosition(
       async (pos) => {
         btn.classList.remove('is-loading');
-        origin = { lat: pos.coords.latitude, lng: pos.coords.longitude, label: 'You are here' };
+        origin = { lat: pos.coords.latitude, lng: pos.coords.longitude, label: 'You are here', place: 'your current location' };
         await draw();
       },
       () => {

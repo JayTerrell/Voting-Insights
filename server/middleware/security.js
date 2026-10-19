@@ -8,7 +8,7 @@ export const CONTENT_SECURITY_POLICY = [
   "font-src 'self' https://fonts.gstatic.com",
   // Map images come from Stadia Maps on the Where to Vote page.
   "img-src 'self' data: https://tiles.stadiamaps.com",
-  "connect-src 'self'",
+  "connect-src 'self' https://api.stadiamaps.com",
   "form-action 'self'",
   "base-uri 'self'",
   "object-src 'none'",
