@@ -117,7 +117,11 @@ function countUpWithin(root, instant = false) {
 
 function onScroll() {
   const y = window.scrollY;
-  document.body.classList.toggle('scrolled', y > 24);
+  // Compacting the masthead shortens the page above the fold, which moves the
+  // scroll position. Separate on and off points (a wider gap than the height
+  // change) stop it from flipping back and forth, which looked like shaking.
+  const compact = document.body.classList.contains('scrolled') ? y > 8 : y > 140;
+  document.body.classList.toggle('scrolled', compact);
   document.body.classList.toggle('far', y > window.innerHeight * 1.5);
   const bar = document.getElementById('read-progress');
   if (!bar) return;
