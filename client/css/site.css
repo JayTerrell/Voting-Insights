@@ -440,6 +440,9 @@ input[type='text'],
 input[type='email'],
 input[type='password'],
 input[type='search'],
+input[type='url'],
+input[type='date'],
+textarea,
 select {
   width: 100%;
   font: inherit;
@@ -450,6 +453,7 @@ select {
   border-radius: 0;
 }
 input:focus,
+textarea:focus,
 select:focus {
   outline: 3px solid var(--focus);
   outline-offset: 0;
@@ -2374,6 +2378,9 @@ input[type='text'],
 input[type='email'],
 input[type='password'],
 input[type='search'],
+input[type='url'],
+input[type='date'],
+textarea,
 select {
   transition:
     border-color var(--dur-short) var(--ease-in-out),
@@ -2384,6 +2391,9 @@ input[type='text']:hover,
 input[type='email']:hover,
 input[type='password']:hover,
 input[type='search']:hover,
+input[type='url']:hover,
+input[type='date']:hover,
+textarea:hover,
 select:hover {
   border-color: var(--navy-2);
 }
@@ -2391,6 +2401,9 @@ input[type='text']:focus,
 input[type='email']:focus,
 input[type='password']:focus,
 input[type='search']:focus,
+input[type='url']:focus,
+input[type='date']:focus,
+textarea:focus,
 select:focus {
   border-color: var(--navy);
   background: #fff;
@@ -4743,4 +4756,102 @@ html.modal-open {
   font-style: normal;
   color: var(--muted);
   white-space: nowrap;
+}
+
+/* Partner request window */
+.partner-action {
+  margin: 18px 0 8px;
+}
+.partner-status {
+  max-width: 640px;
+}
+.pp-form label {
+  display: block;
+  margin-top: 14px;
+}
+.pp-form label:first-child {
+  margin-top: 0;
+}
+.pp-form textarea {
+  width: 100%;
+}
+.pp-socials {
+  margin-top: 18px;
+  padding: 0;
+  border: 0;
+}
+.pp-socials legend {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+.social-row {
+  display: grid;
+  grid-template-columns: 130px 1fr 36px;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.social-name {
+  font-weight: 600;
+  color: var(--navy);
+}
+.social-row input[type='url'] {
+  grid-column: 2;
+}
+.social-remove {
+  position: relative;
+  width: 36px;
+  height: 36px;
+  background: transparent;
+  border: 1px solid var(--rule);
+  cursor: pointer;
+}
+.social-remove span::before,
+.social-remove span::after {
+  content: '';
+  position: absolute;
+  top: 17px;
+  left: 11px;
+  width: 13px;
+  height: 2px;
+  background: var(--muted);
+  transform: rotate(45deg);
+}
+.social-remove span::after {
+  transform: rotate(-45deg);
+}
+.pp-add {
+  margin-top: 4px;
+  font-weight: 600;
+}
+@media (max-width: 559px) {
+  .social-row {
+    grid-template-columns: 1fr 36px;
+  }
+  .social-row input[type='url'] {
+    grid-column: 1 / -1;
+  }
+  .social-name {
+    grid-column: 1 / -1;
+  }
+}
+.admin-socials {
+  margin: 0 0 8px;
+  padding: 0;
+  list-style: none;
+  font-size: 0.86rem;
+}
+.admin-socials li {
+  margin: 2px 0;
+  word-break: break-all;
+}
+textarea {
+  resize: vertical;
+  font-family: var(--sans);
+  line-height: 1.5;
+}
+.slug-field input[type='text'] {
+  border: 0;
+  box-shadow: none;
+  background: transparent;
 }

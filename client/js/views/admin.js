@@ -60,6 +60,16 @@ export async function renderAdmin(view, _params, current) {
                   <p class="admin-slug">${esc(l.url.replace(/^https?:\/\//, ''))}</p>
                   <p><b>${esc(l.owner.name)}</b> <span class="muted">${esc(l.owner.email)}</span></p>
                   <p class="small">Who they will share it with: ${esc(l.reason)}</p>
+                  ${
+                    l.socials?.length
+                      ? `<ul class="admin-socials">${l.socials
+                          .map(
+                            (s) =>
+                              `<li><b>${esc(s.site)}:</b> <a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer nofollow">${esc(s.url.replace(/^https?:\/\/(www\.)?/, ''))}</a></li>`
+                          )
+                          .join('')}</ul>`
+                      : ''
+                  }
                   <p class="small muted">Requested ${esc(formatDate(l.created_at))}</p>
                   <div class="btn-row"><button class="btn btn-small" data-approve="${l.id}">Approve</button><button class="btn btn-ghost btn-small" data-reject="${l.id}">Reject</button></div>
                 </article>`

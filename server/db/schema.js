@@ -79,6 +79,7 @@ export function schema(dialect) {
       user_id     ${ref} NOT NULL REFERENCES users(id) ON DELETE CASCADE,
       slug        TEXT NOT NULL UNIQUE,
       reason      TEXT NOT NULL,
+      socials_json TEXT,
       status      TEXT NOT NULL,
       note        TEXT,
       created_at  TEXT NOT NULL,
@@ -150,6 +151,10 @@ export async function migrate(db) {
     await db.exec(
       `ALTER TABLE users ADD COLUMN ${db.dialect === 'postgres' ? 'IF NOT EXISTS ' : ''}partner_link_id ${db.dialect === 'postgres' ? 'BIGINT' : 'INTEGER'}`
     );
+  }
+  // The social accounts a partner plans to share on, for the admin's review.
+  if (!(await hasColumn(db, 'partner_links', 'socials_json'))) {
+    await db.exec(`ALTER TABLE partner_links ADD COLUMN ${db.dialect === 'postgres' ? 'IF NOT EXISTS ' : ''}socials_json TEXT`);
   }
   // Whether a shared result also shows the person's top three issues (off by default).
   if (!(await hasColumn(db, 'quiz_results', 'share_issues'))) {

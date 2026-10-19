@@ -436,7 +436,7 @@ function drawSettings(view, data, guide, options) {
     </section>
 
     <section aria-labelledby="partner-h">
-      <div class="section-head"><h2 id="partner-h">Partner link</h2><a href="/partners">How partner links work</a></div>
+      <div class="section-head"><h2 id="partner-h">Partner link</h2></div>
       <div class="panel" id="partner-box"><span class="sk sk-line w60"></span></div>
     </section>
 
@@ -730,78 +730,25 @@ async function photoEditor(file) {
   });
 }
 
-// ---------- Partner link request ----------
+// ---------- Partner link ----------
+// A short summary here; requesting and details live on /partners.
 
 async function drawPartner(box) {
   let link = null;
   try {
     ({ link } = await api.partnerMe());
   } catch {
-    box.innerHTML = '<p class="muted">Partner links are unavailable right now.</p>';
-    return;
+    link = null;
   }
-  if (link?.status === 'approved') {
-    box.innerHTML = `<p style="margin-top:0">Your partner link is live:</p>
-      <p class="partner-url"><b>${esc(link.url)}</b> <button type="button" class="btn btn-ghost btn-small" id="partner-copy">Copy</button></p>
-      <p class="small">See its visits, sign-ups, and combined results on <a href="/profile#partner-stats">your profile</a>.</p>`;
-    $('#partner-copy', box).addEventListener('click', () =>
-      navigator.clipboard.writeText(link.url).then(
-        () => toast('Link copied'),
-        () => prompt('Copy your link:', link.url)
-      )
-    );
-    return;
-  }
-  if (link?.status === 'pending') {
-    box.innerHTML = `<p style="margin-top:0"><span class="tag">Under review</span> You asked for <b>${esc(link.url)}</b>. We will email you when it is approved.</p>`;
-    return;
-  }
-  const base = `${location.origin.replace(/^https?:\/\//, '')}/go/`;
-  box.innerHTML = `${link?.status === 'rejected' ? `<p class="callout small" style="margin-top:0">Your request for ${esc(link.slug)} was not approved.${link.note ? ` Note: ${esc(link.note)}` : ''} You can request a different link.</p>` : ''}
-    <p style="margin-top:0">Get your own link to share VotersHub and see how many people it brings in. You will see totals only, never anyone's answers.</p>
-    <form id="partner-form" novalidate>
-      <label for="pl-slug">Your link</label>
-      <div class="slug-field"><span class="slug-base">${esc(base)}</span><input id="pl-slug" name="slug" type="text" maxlength="30" autocomplete="off" spellcheck="false" placeholder="your-group" required></div>
-      <p class="form-note" id="pl-check">3 to 30 lowercase letters, numbers, or hyphens.</p>
-      <label for="pl-reason">Who will you share it with?</label>
-      <input id="pl-reason" name="reason" type="text" maxlength="300" placeholder="For example: my church's young adults group" required>
-      <p class="form-error" role="alert" hidden></p>
-      <div class="btn-row" style="margin-top:12px"><button class="btn btn-small" type="submit">Request my link</button></div>
-    </form>`;
-  const form = $('#partner-form', box);
-  const input = $('#pl-slug', box);
-  const note = $('#pl-check', box);
-  let timer = 0;
-  let last = '';
-  input.addEventListener('input', () => {
-    // Type freely; the link is shown the way it will be saved.
-    const clean = input.value
-      .toLowerCase()
-      .replace(/[\s_]+/g, '-')
-      .replace(/[^a-z0-9-]/g, '');
-    if (clean !== input.value) input.value = clean;
-    clearTimeout(timer);
-    note.className = 'form-note';
-    if (clean.length < 3) {
-      note.textContent = '3 to 30 lowercase letters, numbers, or hyphens.';
-      return;
-    }
-    note.textContent = 'Checking...';
-    timer = setTimeout(async () => {
-      last = clean;
-      const r = await api.partnerCheck(clean).catch(() => null);
-      if (!r || input.value !== last) return;
-      note.textContent = r.available ? `${base}${r.slug} is available.` : r.reason;
-      note.className = `form-note ${r.available ? 'ok' : 'bad'}`;
-    }, 300);
-  });
-  form.addEventListener('submit', (e) => {
-    e.preventDefault();
-    submitting(form, async () => {
-      const fd = new FormData(form);
-      await api.partnerRequest(fd.get('slug'), fd.get('reason'));
-      toast('Request sent. Check your email for confirmation.');
-      drawPartner(box);
-    });
-  });
+  const status =
+    link?.status === 'approved'
+      ? `<p class="partner-url"><b>${esc(link.url)}</b> <span class="tag tag-navy">Live</span></p><p class="small">See its visits, sign-ups, and combined results on <a href="/profile#partner-stats">your profile</a>.</p>`
+      : link?.status === 'pending'
+        ? `<p><span class="tag">Under review</span> You asked for <b>${esc(link.url)}</b>. We will email you when it is approved.</p>`
+        : link?.status === 'rejected'
+          ? `<p class="small">Your request for ${esc(link.slug)} was not approved.${link.note ? ` Note: ${esc(link.note)}` : ''} You can request a different link.</p>`
+          : '';
+  box.innerHTML = `<p style="margin-top:0">Share VotersHub with your community using your own link, like <b>votershub.info/go/your-group</b>. You will see how many people visit, sign up, and take the quiz, plus combined totals of their results, never anyone's answers.</p>
+    ${status}
+    <a class="btn btn-small" href="/partners">${link?.status === 'approved' || link?.status === 'pending' ? 'Partner link details' : 'Get a partner link'}</a>`;
 }

@@ -60,12 +60,52 @@ export async function checkSlug(raw) {
 
 const linkUrl = (slug) => `${config.publicUrl}/go/${slug}`;
 
+// Social accounts: up to 10 { site, url } pairs with http or https links.
+// At least one is required so an admin can see who is asking.
+const MAX_SOCIALS = 10;
+export function parseSocials(raw) {
+  const list = Array.isArray(raw) ? raw.slice(0, MAX_SOCIALS * 2) : [];
+  const out = [];
+  for (const item of list) {
+    const site = String(item?.site || '')
+      .replace(/[<>\p{Cc}]/gu, '')
+      .trim()
+      .slice(0, 40);
+    let url = String(item?.url || '').trim();
+    if (!url) continue;
+    if (!/^https?:\/\//i.test(url)) url = `https://${url}`;
+    let parsed;
+    try {
+      parsed = new URL(url);
+    } catch {
+      throw new PartnerError(`The link for ${site || 'one of your sites'} is not a valid web address.`);
+    }
+    if (!/^https?:$/.test(parsed.protocol) || !parsed.hostname.includes('.') || url.length > 300) {
+      throw new PartnerError(`The link for ${site || 'one of your sites'} is not a valid web address.`);
+    }
+    if (!site) throw new PartnerError('Please name each site you add.');
+    out.push({ site, url: parsed.href });
+    if (out.length >= MAX_SOCIALS) break;
+  }
+  if (!out.length)
+    throw new PartnerError('Add at least one social media page or website so we can see where you will share your link.');
+  return out;
+}
+const socialsOf = (l) => {
+  try {
+    return JSON.parse(l.socials_json || '[]');
+  } catch {
+    return [];
+  }
+};
+
 export const publicLink = (l) =>
   l && {
     id: l.id,
     slug: l.slug,
     url: linkUrl(l.slug),
     reason: l.reason,
+    socials: socialsOf(l),
     status: l.status,
     note: l.status === 'rejected' ? l.note || null : null,
     created_at: l.created_at,
@@ -79,7 +119,7 @@ const adminEmailList = async () => [
 // Mail never blocks the request or the decision.
 const quietly = (p) => p.catch((err) => console.error('[partners] email failed', err.message));
 
-export async function request(user, rawSlug, rawReason) {
+export async function request(user, rawSlug, rawReason, rawSocials) {
   const reason = String(rawReason || '')
     .replace(/[<>\p{Cc}]/gu, '')
     .trim()
@@ -92,10 +132,11 @@ export async function request(user, rawSlug, rawReason) {
       409
     );
   }
+  const socials = parseSocials(rawSocials);
   const check = await checkSlug(rawSlug);
   if (!check.available) throw new PartnerError(check.reason, 409);
   await partners.removeRejected(check.slug);
-  const link = await partners.create(user.id, check.slug, reason);
+  const link = await partners.create(user.id, check.slug, reason, socials);
   await quietly(sendPartnerReceived(user.email, { firstName: user.first_name, url: linkUrl(link.slug) }));
   const admins = await adminEmailList();
   await quietly(
@@ -106,6 +147,7 @@ export async function request(user, rawSlug, rawReason) {
           email: user.email,
           url: linkUrl(link.slug),
           reason,
+          socials,
           adminUrl: `${config.publicUrl}/admin`,
         })
       )

@@ -23,7 +23,9 @@ partnerRoutes.get('/partner/me', requireUser, async (req, res) => {
 });
 
 partnerRoutes.post('/partner/request', rateLimit('partner-request', 5, HOUR), requireUser, (req, res) =>
-  send(res, async () => res.status(201).json({ link: await partners.request(req.user, req.body?.slug, req.body?.reason) }))
+  send(res, async () =>
+    res.status(201).json({ link: await partners.request(req.user, req.body?.slug, req.body?.reason, req.body?.socials) })
+  )
 );
 
 // A partner's own totals. Admins may also open any link's totals here by id.

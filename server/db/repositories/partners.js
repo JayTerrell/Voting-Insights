@@ -21,11 +21,12 @@ export async function latestForUser(userId) {
   return db.get('SELECT * FROM partner_links WHERE user_id = ? ORDER BY id DESC LIMIT 1', [userId]);
 }
 
-export async function create(userId, slug, reason) {
+export async function create(userId, slug, reason, socials) {
   const db = await getDb();
   return db.get(
-    `INSERT INTO partner_links (user_id, slug, reason, status, created_at) VALUES (?, ?, ?, 'pending', ?) RETURNING *`,
-    [userId, slug, reason, now()]
+    `INSERT INTO partner_links (user_id, slug, reason, socials_json, status, created_at)
+     VALUES (?, ?, ?, ?, 'pending', ?) RETURNING *`,
+    [userId, slug, reason, JSON.stringify(socials), now()]
   );
 }
 

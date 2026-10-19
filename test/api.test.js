@@ -237,13 +237,42 @@ test('partner links: request, approval, visits, attribution, and totals with a p
   assert.equal((await check('Good-Link')).available, true);
 
   const mails = devOutbox.length;
-  const req = await call('POST', '/api/partner/request', { token: pt, body: { slug: 'Good-Link', reason: 'My church group' } });
+  const noSocial = await call('POST', '/api/partner/request', {
+    token: pt,
+    body: { slug: 'good-link', reason: 'My church group', socials: [] },
+  });
+  assert.equal(noSocial.status, 400, 'at least one social page is required');
+  const badUrl = await call('POST', '/api/partner/request', {
+    token: pt,
+    body: { slug: 'good-link', reason: 'x y z', socials: [{ site: 'X', url: 'javascript:alert(1)' }] },
+  });
+  assert.equal(badUrl.status, 400);
+  const req = await call('POST', '/api/partner/request', {
+    token: pt,
+    body: {
+      slug: 'Good-Link',
+      reason: 'My church group',
+      socials: [
+        { site: 'Instagram', url: 'instagram.com/goodlink' },
+        { site: 'X', url: '' },
+      ],
+    },
+  });
   assert.equal(req.status, 201);
   assert.equal(req.json.link.slug, 'good-link');
   assert.equal(req.json.link.status, 'pending');
+  assert.deepEqual(req.json.link.socials, [{ site: 'Instagram', url: 'https://instagram.com/goodlink' }]);
   const sent = devOutbox.slice(mails).map((m) => m.to);
   assert.ok(sent.includes('partner@example.com') && sent.includes('boss@example.com'), 'requester and admin are emailed');
-  assert.equal((await call('POST', '/api/partner/request', { token: pt, body: { slug: 'other', reason: 'again' } })).status, 409);
+  assert.equal(
+    (
+      await call('POST', '/api/partner/request', {
+        token: pt,
+        body: { slug: 'other', reason: 'again', socials: [{ site: 'X', url: 'x.com/a' }] },
+      })
+    ).status,
+    409
+  );
 
   const go = (ua = 'Mozilla/5.0 Test') => fetch(`${base}/go/good-link`, { redirect: 'manual', headers: { 'user-agent': ua } });
   assert.equal((await go()).headers.get('location'), '/', 'a pending link does not track');

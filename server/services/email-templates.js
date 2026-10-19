@@ -228,15 +228,27 @@ export function partnerRejectedEmail({ firstName, url, note }) {
   return { subject: 'About your VotersHub partner link request', html, text };
 }
 
-export function partnerAdminNoticeEmail({ name, email, url, reason, adminUrl }) {
+export function partnerAdminNoticeEmail({ name, email, url, reason, socials = [], adminUrl }) {
+  const list = socials
+    .map((s) => `<li>${esc(s.site)}: <a href="${esc(s.url)}" style="color:${NAVY}">${esc(s.url)}</a></li>`)
+    .join('');
   const html = shell(
     'New partner link request',
     body(
       para(`<b>${esc(name)}</b> (${esc(email)}) asked for <b>${esc(url)}</b>.`) +
         para(`Who they will share it with: ${esc(reason)}`) +
+        (list
+          ? `<p style="margin:0 0 6px 0">Where they will share it:</p><ul style="margin:0 0 14px 18px;padding:0">${list}</ul>`
+          : '') +
         button(adminUrl, 'Review on the Admin page')
     )
   );
-  const text = [`${name} (${email}) asked for ${url}.`, `Reason: ${reason}`, '', `Review: ${adminUrl}`].join('\n');
+  const text = [
+    `${name} (${email}) asked for ${url}.`,
+    `Reason: ${reason}`,
+    ...socials.map((s) => `${s.site}: ${s.url}`),
+    '',
+    `Review: ${adminUrl}`,
+  ].join('\n');
   return { subject: `Partner link request: ${url}`, html, text };
 }

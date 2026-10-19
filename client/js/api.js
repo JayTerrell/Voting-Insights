@@ -156,7 +156,7 @@ export const api = {
   signOut: () => call('POST', '/api/sign-out'),
   partnerCheck: (slug) => call('GET', `/api/partner/check?slug=${encodeURIComponent(slug)}`),
   partnerMe: () => call('GET', '/api/partner/me'),
-  partnerRequest: (slug, reason) => call('POST', '/api/partner/request', { slug, reason }),
+  partnerRequest: (slug, reason, socials) => call('POST', '/api/partner/request', { slug, reason, socials }),
   partnerStats: (q = {}) => call('GET', `/api/partner/stats?${new URLSearchParams(q)}`),
   partnerReferrer: (slug) => call('GET', `/api/partner/referrer?slug=${encodeURIComponent(slug)}`),
   admin: {
