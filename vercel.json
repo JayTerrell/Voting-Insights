@@ -4,7 +4,7 @@
   "outputDirectory": "client",
   "functions": {
     "api/index.js": {
-      "includeFiles": "{data/guide.json,data/form-options.json,client/index.html,shared/**}",
+      "includeFiles": "{data/guide.json,data/form-options.json,client/index.html,shared/**,server/assets/**}",
       "maxDuration": 20
     }
   },

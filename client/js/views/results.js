@@ -9,7 +9,7 @@ export async function renderResults(view, [shareId], current) {
   const isNew = new URLSearchParams(location.search).get('new') === '1';
 
   const cached = resultCache.get(shareId);
-  if (cached) draw(view, guide, cached, isNew);
+  if (cached?.owner) draw(view, guide, cached, isNew);
 
   let fresh;
   try {
@@ -20,14 +20,178 @@ export async function renderResults(view, [shareId], current) {
     return;
   }
   if (!current()) return;
-  if (fresh.owner) resultCache.put(fresh);
+  if (!fresh.owner) {
+    return drawPreview(view, fresh);
+  }
+  resultCache.put(fresh);
   // Redraw only when something visible changed, so the page does not jump.
-  if (!cached || cached.owner !== fresh.owner || cached.data_version !== fresh.data_version) draw(view, guide, fresh, isNew);
+  if (!cached?.owner || cached.data_version !== fresh.data_version || cached.share_issues !== fresh.share_issues)
+    draw(view, guide, fresh, isNew);
 }
 
 function bar(score, cls = '') {
   const w = score === null ? 0 : score;
   return `<div class="bar ${cls}" aria-hidden="true"><span style="width:${w}%"></span></div>`;
+}
+
+const PARTY_BAR = (name) => PARTY_CLASS[name] || '';
+const imageUrl = (id, format, v) => `/api/share/${encodeURIComponent(id)}/${format}.png?v=${v ? 2 : 1}`;
+
+function partyBars(parties) {
+  return `<div class="bars">${parties
+    .map(
+      (p) =>
+        `<div class="bar-row ${p.score === parties[0].score ? 'lead' : ''}"><div class="label">${esc(p.name)}${p.score === parties[0].score ? ' <span class="tag tag-red">Closest</span>' : ''}</div>${bar(p.score, PARTY_BAR(p.name))}<div class="pct" data-count="${p.score}" data-suffix="%">${p.score}%</div></div>`
+    )
+    .join('')}</div>`;
+}
+
+function issuesBlock(issues) {
+  return issues.length
+    ? `<div class="top-issues"><span class="eyebrow">Top issues</span><ol>${issues.map((x) => `<li>${esc(x)}</li>`).join('')}</ol></div>`
+    : '';
+}
+
+// What anyone else sees at a shared link: the same summary as the share image,
+// then an invitation to take the quiz. Race-by-race matches stay private.
+function drawPreview(view, data) {
+  const p = data.preview;
+  const name = p.first_name || 'Someone';
+  setTitle(`${name}'s ballot alignment`);
+  const quizHref = session.token ? '/quiz' : '/sign-up?next=/quiz';
+  view.innerHTML = `<div class="share-preview">
+    <span class="eyebrow">Shared quiz result</span>
+    <h1>${esc(name)}'s ballot alignment</h1>
+    <p class="muted">Agreement with each party's official Texas platform, from the VotersHub issue quiz.</p>
+    <div class="share-preview-grid ${p.issues.length ? '' : 'no-issues'}">
+      <div class="panel">${p.parties.length ? partyBars(p.parties) : '<p class="muted">Not enough answers to compare with party platforms.</p>'}
+        <p class="small muted" style="margin:14px 0 0">Each percentage is measured separately, so they do not add up to 100.</p></div>
+      ${issuesBlock(p.issues)}
+    </div>
+    <section class="share-cta">
+      <span class="share-cta-star" aria-hidden="true"></span>
+      <h2>Where do you stand?</h2>
+      <p>Answer ${esc(String(p.total || 31))} short questions and see how every candidate on your ballot lines up with your views, race by race. Free, nonpartisan, and every score links to its source.</p>
+      <div class="btn-row"><a class="btn btn-red btn-large" href="${quizHref}">Take the quiz yourself</a><a class="btn btn-ghost-light" href="/candidates">Browse the candidates</a></div>
+      ${session.token ? '' : '<p class="small">A free account saves your results privately. We never sell your information.</p>'}
+    </section>
+    ${session.token ? '' : `<p class="small muted" style="text-align:center;margin-top:18px">Is this yours? <a href="/sign-in?next=${encodeURIComponent(location.pathname)}">Sign in</a> to see your full results.</p>`}
+  </div>`;
+}
+
+function shareText() {
+  return "Here's how my views line up with each party's Texas platform. Take the nonpartisan VotersHub quiz and see where you stand:";
+}
+
+function sharePanel(data, url) {
+  const enc = encodeURIComponent;
+  const text = shareText();
+  const issues = data.top_issues || [];
+  return `<div class="panel share-panel" id="share-panel">
+    <div class="share-panel-grid">
+      <figure class="share-image"><img id="share-img" src="${imageUrl(data.share_id, 'card', data.share_issues)}" alt="Preview of your share image" width="1200" height="630"></figure>
+      <div>
+        <h2 class="share-title">Share your alignment</h2>
+        <p class="small muted">Your post shows this image: your first name and party percentages${issues.length ? ', plus your top issues if you choose' : ''}. People who open your link see the same summary and an invitation to take the quiz. They never see your answers, your race-by-race matches, or your last name or email.</p>
+        ${
+          issues.length
+            ? `<label class="check share-issues"><input type="checkbox" id="share-issues" ${data.share_issues ? 'checked' : ''}> <span>Include my top 3 issues: <b>${issues.map(esc).join(', ')}</b></span></label>`
+            : ''
+        }
+        <div class="share-row">
+          <button class="btn btn-small" id="share-native" hidden>Share</button>
+          <a class="btn btn-ghost btn-small" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=${enc(text)}&url=${enc(url)}">X</a>
+          <a class="btn btn-ghost btn-small" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=${enc(url)}">Facebook</a>
+          <a class="btn btn-ghost btn-small" target="_blank" rel="noopener" href="https://www.threads.net/intent/post?text=${enc(`${text} ${url}`)}">Threads</a>
+          <button class="btn btn-ghost btn-small" id="share-instagram">Instagram Story</button>
+          <a class="btn btn-ghost btn-small" target="_blank" rel="noopener" href="https://www.linkedin.com/sharing/share-offsite/?url=${enc(url)}">LinkedIn</a>
+          <a class="btn btn-ghost btn-small" href="mailto:?subject=${enc('Where do you stand? The 2026 Texas ballot quiz')}&body=${enc(`${text}\n\n${url}`)}">Email</a>
+          <button class="btn btn-ghost btn-small" id="copy">Copy link</button>
+        </div>
+        <p class="small muted share-downloads">Download the image: <a id="dl-card" href="${imageUrl(data.share_id, 'card', data.share_issues)}&download=1">post (wide)</a> or <a id="dl-story" href="${imageUrl(data.share_id, 'story', data.share_issues)}&download=1">story (tall)</a></p>
+      </div>
+    </div>
+  </div>`;
+}
+
+function bindShare(view, data, url) {
+  const text = shareText();
+  let withIssues = Boolean(data.share_issues);
+  const refresh = () => {
+    $('#share-img', view).src = imageUrl(data.share_id, 'card', withIssues);
+    $('#dl-card', view).href = `${imageUrl(data.share_id, 'card', withIssues)}&download=1`;
+    $('#dl-story', view).href = `${imageUrl(data.share_id, 'story', withIssues)}&download=1`;
+  };
+  $('#share-issues', view)?.addEventListener('change', async (e) => {
+    const want = e.target.checked;
+    e.target.disabled = true;
+    try {
+      await api.setShareIssues(data.share_id, want);
+      withIssues = want;
+      data.share_issues = want;
+      resultCache.put(data);
+      refresh();
+      toast(want ? 'Your top issues will show when you share.' : 'Your top issues are hidden from your share.');
+    } catch (ex) {
+      e.target.checked = !want;
+      toast(ex.message);
+    } finally {
+      e.target.disabled = false;
+    }
+  });
+
+  const storyFile = async () => {
+    const res = await fetch(imageUrl(data.share_id, 'story', withIssues));
+    if (!res.ok) throw new Error('We could not make your image. Please try again.');
+    return new File([await res.blob()], 'votershub-story.png', { type: 'image/png' });
+  };
+
+  // Phones can hand the image straight to Instagram (choose Stories); elsewhere
+  // the story image downloads so it can be posted from the Instagram app.
+  $('#share-instagram', view).addEventListener('click', async (e) => {
+    const btn = e.currentTarget;
+    btn.classList.add('is-loading');
+    try {
+      const file = await storyFile();
+      if (navigator.canShare?.({ files: [file] })) {
+        await navigator.share({ files: [file] }).catch(() => {});
+      } else {
+        const a = document.createElement('a');
+        a.href = URL.createObjectURL(file);
+        a.download = file.name;
+        a.click();
+        setTimeout(() => URL.revokeObjectURL(a.href), 4000);
+        toast('Story image saved. In Instagram, add a story and choose this image. Add a link sticker with your results link.');
+      }
+    } catch (ex) {
+      toast(ex.message);
+    } finally {
+      btn.classList.remove('is-loading');
+    }
+  });
+
+  const nativeBtn = $('#share-native', view);
+  if (navigator.share) {
+    nativeBtn.hidden = false;
+    nativeBtn.addEventListener('click', async () => {
+      try {
+        const res = await fetch(imageUrl(data.share_id, 'card', withIssues));
+        const file = new File([await res.blob()], 'votershub.png', { type: 'image/png' });
+        const payload = { title: 'My ballot alignment', text, url };
+        await navigator.share(navigator.canShare?.({ ...payload, files: [file] }) ? { ...payload, files: [file] } : payload);
+      } catch {
+        // The person closed the share sheet.
+      }
+    });
+  }
+  $('#copy', view).addEventListener('click', async () => {
+    try {
+      await navigator.clipboard.writeText(url);
+      toast('Link copied');
+    } catch {
+      prompt('Copy this link:', url);
+    }
+  });
 }
 
 function draw(view, guide, data, isNew) {
@@ -39,10 +203,6 @@ function draw(view, guide, data, isNew) {
   const raceById = Object.fromEntries(guide.races.map((r) => [r.id, r]));
   const contested = results.races.filter((r) => !r.uncontested);
   const uncontested = results.races.filter((r) => r.uncontested);
-  const shareText = best
-    ? `I took the nonpartisan 2026 Texas ballot quiz. My closest party platform match was ${best.name} at ${best.score}%. See how your views line up with the candidates:`
-    : 'I took the nonpartisan 2026 Texas ballot quiz. See how your views line up with the candidates:';
-  const enc = encodeURIComponent;
 
   const summaryRows = contested
     .map((r) => {
@@ -116,19 +276,7 @@ function draw(view, guide, data, isNew) {
     </div>
   </div>
 
-  <div class="panel" style="margin-top:20px">
-    <div class="share-row">
-      <b style="margin-right:6px">Share these results:</b>
-      <button class="btn btn-small" id="share-native" hidden>Share</button>
-      <button class="btn btn-ghost btn-small" id="copy">Copy link</button>
-      <a class="btn btn-ghost btn-small" target="_blank" rel="noopener" href="https://twitter.com/intent/tweet?text=${enc(shareText)}&url=${enc(url)}">X</a>
-      <a class="btn btn-ghost btn-small" target="_blank" rel="noopener" href="https://www.facebook.com/sharer/sharer.php?u=${enc(url)}">Facebook</a>
-      <a class="btn btn-ghost btn-small" target="_blank" rel="noopener" href="https://www.linkedin.com/sharing/share-offsite/?url=${enc(url)}">LinkedIn</a>
-      <a class="btn btn-ghost btn-small" target="_blank" rel="noopener" href="https://wa.me/?text=${enc(shareText + ' ' + url)}">WhatsApp</a>
-      <a class="btn btn-ghost btn-small" href="mailto:?subject=${enc('My 2026 Texas ballot quiz results')}&body=${enc(shareText + '\n\n' + url)}">Email a friend</a>
-    </div>
-    <p class="small muted" style="margin:10px 0 0">The shared page shows your first name and match percentages. It never shows your email, last name, or individual answers.</p>
-  </div>
+  ${sharePanel(data, url)}
 
   <section aria-labelledby="party-h">
     <div class="section-head"><h2 id="party-h">Party platform alignment</h2></div>
@@ -169,21 +317,7 @@ function draw(view, guide, data, isNew) {
   </section>
   ${answersBlock}`;
 
-  const nativeBtn = $('#share-native', view);
-  if (navigator.share) {
-    nativeBtn.hidden = false;
-    nativeBtn.addEventListener('click', () =>
-      navigator.share({ title: 'My ballot alignment', text: shareText, url }).catch(() => {})
-    );
-  }
-  $('#copy', view).addEventListener('click', async () => {
-    try {
-      await navigator.clipboard.writeText(url);
-      toast('Link copied');
-    } catch {
-      prompt('Copy this link:', url);
-    }
-  });
+  bindShare(view, data, url);
   $('#email-me', view)?.addEventListener('click', async (e) => {
     e.target.disabled = true;
     try {

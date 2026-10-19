@@ -183,6 +183,42 @@ test('results are saved, emailed, and only the owner sees answers', async () => 
   assert.match(page, /Ana&#39;s 2026 Texas ballot alignment/);
 });
 
+test('a shared link shows only the summary, and top issues only when the owner allows', async () => {
+  const reg = await signUp('sharer@example.com');
+  const token = reg.json.token;
+  const sub = await call('POST', '/api/results', { body: { answers }, token });
+  const id = sub.json.share_id;
+
+  const pub = await call('GET', `/api/results/${id}`);
+  assert.equal(pub.json.owner, false);
+  assert.equal(pub.json.results, undefined, 'race-by-race matches stay private');
+  assert.equal(pub.json.answers, undefined);
+  assert.equal(pub.json.preview.first_name, 'Ana');
+  assert.ok(pub.json.preview.parties.length > 0);
+  assert.deepEqual(pub.json.preview.issues, []);
+
+  const other = await signUp('nosy@example.com');
+  assert.equal((await call('PUT', `/api/results/${id}/share`, { body: { issues: true }, token: other.json.token })).status, 403);
+  assert.equal((await call('PUT', `/api/results/${id}/share`, { body: { issues: 'yes' }, token })).status, 400);
+  const on = await call('PUT', `/api/results/${id}/share`, { body: { issues: true }, token });
+  assert.equal(on.status, 200);
+  assert.equal(on.json.issues.length, 3);
+  assert.equal((await call('GET', `/api/results/${id}`)).json.preview.issues.length, 3);
+
+  for (const format of ['card', 'story']) {
+    const img = await fetch(`${base}/api/share/${id}/${format}.png`);
+    assert.equal(img.status, 200);
+    assert.equal(img.headers.get('content-type'), 'image/png');
+    const bytes = new Uint8Array(await img.arrayBuffer());
+    assert.deepEqual([...bytes.slice(1, 4)], [0x50, 0x4e, 0x47]);
+  }
+  assert.equal((await fetch(`${base}/api/share/${id}/huge.png`)).status, 404);
+  assert.equal((await fetch(`${base}/api/share/nope/card.png`)).status, 404);
+
+  const page = await fetch(`${base}/results/${id}`).then((r) => r.text());
+  assert.match(page, new RegExp(`og:image" content="[^"]*/api/share/${id}/card\\.png\\?v=2`));
+});
+
 test('submitting needs a valid token and enough answers', async () => {
   assert.equal((await call('POST', '/api/results', { body: { answers } })).status, 401);
   assert.equal((await call('POST', '/api/results', { body: { answers }, token: 'x'.repeat(43) })).status, 401);

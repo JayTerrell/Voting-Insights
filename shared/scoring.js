@@ -87,6 +87,28 @@ export function hasFullBallot(guide, county) {
   return Boolean(guide.ballots && Object.hasOwn(guide.ballots, county) && Array.isArray(guide.ballots[county]));
 }
 
+// The three issue areas a voter cares most about, for the optional line on a
+// shared result. Each answered question scores 60 percent on how important the
+// voter said it is and 40 percent on how strongly they agreed or disagreed.
+// Questions roll up to their issue area (Education, Health Care, and so on),
+// so a share names topics only and never reveals how anyone answered.
+export function topIssues(answers, guide, n = 3) {
+  const areas = new Map();
+  for (const q of guide.questions) {
+    const a = answers[q.id];
+    if (!validAnswer(a)) continue;
+    const score = 0.6 * ((a.weight ?? 1) / 2) + 0.4 * (Math.abs(a.value) / 2);
+    const area = areas.get(q.category) || { name: q.category, best: 0, total: 0 };
+    area.best = Math.max(area.best, score);
+    area.total += score;
+    areas.set(q.category, area);
+  }
+  return [...areas.values()]
+    .sort((x, y) => y.best - x.best || y.total - x.total || x.name.localeCompare(y.name))
+    .slice(0, n)
+    .map((x) => x.name);
+}
+
 // Builds the full result object from answers and the guide dataset.
 export function scoreAll(answers, guide, county) {
   const answered = Object.keys(answers).filter((q) => validAnswer(answers[q]));

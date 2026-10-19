@@ -10,6 +10,7 @@ import { accountRoutes } from './routes/account.js';
 import { authRoutes } from './routes/auth.js';
 import { pollingRoutes } from './routes/polling.js';
 import { resultRoutes } from './routes/results.js';
+import { shareRoutes } from './routes/share.js';
 import { adminRoutes } from './routes/admin.js';
 import { pageRoutes } from './routes/pages.js';
 import { healthRoutes } from './routes/health.js';
@@ -27,6 +28,7 @@ export function createApp() {
   api.use((req, res, next) => (req.path === '/me/avatar' ? avatarJson : smallJson)(req, res, next));
   api.use(guideRoutes);
   api.use(healthRoutes);
+  api.use(shareRoutes);
   api.use(noStore, accountRoutes);
   api.use(noStore, authRoutes);
   api.use(noStore, pollingRoutes);

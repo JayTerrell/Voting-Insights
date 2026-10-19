@@ -29,6 +29,7 @@ export function schema(dialect) {
       results_json TEXT NOT NULL,
       data_version TEXT NOT NULL,
       emailed_at   TEXT,
+      share_issues INTEGER NOT NULL DEFAULT 0,
       created_at   TEXT NOT NULL
     )`,
     'CREATE INDEX IF NOT EXISTS idx_results_user ON quiz_results(user_id, created_at)',
@@ -103,5 +104,11 @@ export async function migrate(db) {
   // Profile photos: a small cropped JPEG stored as a data URL.
   if (!(await hasColumn(db, 'users', 'avatar'))) {
     await db.exec(`ALTER TABLE users ADD COLUMN ${db.dialect === 'postgres' ? 'IF NOT EXISTS ' : ''}avatar TEXT`);
+  }
+  // Whether a shared result also shows the person's top three issues (off by default).
+  if (!(await hasColumn(db, 'quiz_results', 'share_issues'))) {
+    await db.exec(
+      `ALTER TABLE quiz_results ADD COLUMN ${db.dialect === 'postgres' ? 'IF NOT EXISTS ' : ''}share_issues INTEGER NOT NULL DEFAULT 0`
+    );
   }
 }

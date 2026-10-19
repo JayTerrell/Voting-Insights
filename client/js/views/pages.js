@@ -143,7 +143,7 @@ export async function renderPrivacy(view, _p, current) {
       <li>We do not share your information with any candidate, campaign, political party, or political committee.</li>
     </ul>
     <h2>Sharing</h2>
-    <p>We use service providers to host the Site and send email, and Google and Apple when you choose to sign in with them, and they process data only to provide those services. We may disclose information if required by law. If you share a results link, anyone with the link can see your first name and match percentages, but never your email address, last name, or individual answers.</p>
+    <p>We use service providers to host the Site and send email, and Google and Apple when you choose to sign in with them, and they process data only to provide those services. We may disclose information if required by law. If you share a results link, anyone with the link, and the image that goes with it, can see your first name and party platform percentages, plus your top three issue areas if you choose to include them. They never see your email address, last name, individual answers, or race-by-race matches.</p>
     <h2>Viewing your results</h2>
     <p>Your saved results, individual answers, watchlist, picks, and profile photo can be opened only by signing in with your email address and password. Shared results links show only what is described above.</p>
     <h2>Retention and deletion</h2>

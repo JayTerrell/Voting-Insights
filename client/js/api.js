@@ -150,6 +150,7 @@ export const api = {
   submit: (answers) => call('POST', '/api/results', { answers }),
   result: (id) => call('GET', `/api/results/${encodeURIComponent(id)}`),
   emailResult: (id) => call('POST', `/api/results/${encodeURIComponent(id)}/email`),
+  setShareIssues: (id, issues) => call('PUT', `/api/results/${encodeURIComponent(id)}/share`, { issues }),
   myResults: () => call('GET', '/api/my-results'),
   signOut: () => call('POST', '/api/sign-out'),
   deleteAccount: (confirm) => call('DELETE', '/api/me', confirm),

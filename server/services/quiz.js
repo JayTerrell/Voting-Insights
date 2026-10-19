@@ -1,7 +1,7 @@
 // Scores quiz answers, saves the result, and emails it.
 
 import * as results from '../db/repositories/results.js';
-import { scoreAll } from '../../shared/scoring.js';
+import { scoreAll, topIssues } from '../../shared/scoring.js';
 import { guide, dataVersion } from './guide.js';
 import { sendResultsEmail } from './mailer.js';
 import { config } from '../config.js';
@@ -47,15 +47,38 @@ export async function submit(user, answers) {
   return { share_id: row.share_id, created_at: row.created_at, results: scored, answers, emailed };
 }
 
+// What a shared link shows: first name, party percentages, and, only when the
+// owner turns it on, their top three issue areas. Race-by-race matches and
+// answers are returned to the signed-in owner alone.
+export function sharePreview(row) {
+  const parsed = JSON.parse(row.results_json);
+  return {
+    first_name: row.first_name,
+    created_at: row.created_at,
+    answered: parsed.answered,
+    total: parsed.total,
+    parties: parsed.parties
+      .filter((p) => p.score !== null)
+      .sort((a, b) => b.score - a.score)
+      .map((p) => ({ name: p.name, score: p.score })),
+    issues: row.share_issues ? topIssues(JSON.parse(row.answers_json), guide) : [],
+  };
+}
+
 export function publicView(row, viewer) {
   const owner = Boolean(viewer && viewer.id === row.user_id);
+  const preview = sharePreview(row);
+  if (!owner) return { share_id: row.share_id, owner: false, preview };
   return {
     share_id: row.share_id,
     created_at: row.created_at,
     first_name: row.first_name,
     owner,
     results: JSON.parse(row.results_json),
-    answers: owner ? JSON.parse(row.answers_json) : undefined,
+    answers: JSON.parse(row.answers_json),
+    share_issues: Boolean(row.share_issues),
+    top_issues: topIssues(JSON.parse(row.answers_json), guide),
+    preview,
     data_version: row.data_version,
     current_version: dataVersion,
   };

@@ -26,6 +26,11 @@ export async function listForUser(userId) {
   ]);
 }
 
+export async function setShareIssues(shareId, on) {
+  const db = await getDb();
+  await db.run('UPDATE quiz_results SET share_issues = ? WHERE share_id = ?', [on ? 1 : 0, shareId]);
+}
+
 export async function markEmailed(shareId) {
   const db = await getDb();
   await db.run('UPDATE quiz_results SET emailed_at = ? WHERE share_id = ?', [new Date().toISOString(), shareId]);
