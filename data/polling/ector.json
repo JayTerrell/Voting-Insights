@@ -1,0 +1,376 @@
+{
+  "county": "Ector",
+  "model": "countywide",
+  "checked_at": "2026-10-19T02:50:00Z",
+  "sources": [
+    {
+      "title": "Ector County Elections",
+      "url": "https://www.ectorcountytx.gov/271/Elections"
+    },
+    {
+      "title": "Ector County: Early Voting Schedule and Vote Centers (PDF)",
+      "url": "https://www.ectorcountytx.gov/DocumentCenter/View/3184"
+    },
+    {
+      "title": "Ector County: Election Day Schedule and Vote Centers (PDF)",
+      "url": "https://www.ectorcountytx.gov/DocumentCenter/View/3185"
+    }
+  ],
+  "lookup_url": null,
+  "wait_times_url": null,
+  "early_voting": {
+    "schedule": [
+      {
+        "date": "2026-10-19",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-20",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-21",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-22",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-23",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-24",
+        "open": "08:00",
+        "close": "18:00"
+      },
+      {
+        "date": "2026-10-25",
+        "open": "12:00",
+        "close": "18:00"
+      },
+      {
+        "date": "2026-10-26",
+        "open": "07:00",
+        "close": "18:00"
+      },
+      {
+        "date": "2026-10-27",
+        "open": "07:00",
+        "close": "18:00"
+      },
+      {
+        "date": "2026-10-28",
+        "open": "07:00",
+        "close": "18:00"
+      },
+      {
+        "date": "2026-10-29",
+        "open": "07:00",
+        "close": "18:00"
+      },
+      {
+        "date": "2026-10-30",
+        "open": "07:00",
+        "close": "18:00"
+      }
+    ],
+    "sites": [
+      {
+        "name": "Ector County Courthouse Annex",
+        "address": "1010 E. 8th St.",
+        "city": "Odessa",
+        "zip": "",
+        "room": "Room 104",
+        "schedule": [
+          {
+            "date": "2026-10-19",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-20",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-21",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-22",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-23",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-24",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-25",
+            "open": "12:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-26",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-27",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-28",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-29",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-30",
+            "open": "07:00",
+            "close": "19:00"
+          }
+        ],
+        "notes": "Main early voting location."
+      },
+      {
+        "name": "Kellus Turner Community Building",
+        "address": "2230 Sycamore Dr.",
+        "city": "Odessa",
+        "zip": "79763",
+        "room": "",
+        "schedule": null,
+        "notes": "ZIP taken from the county Election Day vote center list for the same address."
+      },
+      {
+        "name": "MCM Eleganté Hotel",
+        "address": "5200 East University Blvd.",
+        "city": "Odessa",
+        "zip": "79762",
+        "room": "Bermuda Ballroom",
+        "schedule": null,
+        "notes": "ZIP taken from the county Election Day vote center list for the same address."
+      },
+      {
+        "name": "The Globe Theater at Odessa College",
+        "address": "2308 Shakespeare Rd.",
+        "city": "Odessa",
+        "zip": "79764",
+        "room": "",
+        "schedule": null,
+        "notes": "ZIP taken from the county Election Day vote center list for the same address."
+      },
+      {
+        "name": "Salinas Community Building",
+        "address": "600 W. Clements St.",
+        "city": "Odessa",
+        "zip": "79761",
+        "room": "",
+        "schedule": null,
+        "notes": "ZIP taken from the county Election Day vote center list for the same address."
+      }
+    ]
+  },
+  "election_day": {
+    "open": "07:00",
+    "close": "19:00",
+    "sites": [
+      {
+        "name": "Asbury Methodist Church",
+        "address": "4001 E. University Blvd.",
+        "city": "Odessa",
+        "zip": "79762",
+        "room": "Room 212",
+        "notes": ""
+      },
+      {
+        "name": "Chapel Hill Baptist Church",
+        "address": "1820 E. 52nd St.",
+        "city": "Odessa",
+        "zip": "79762",
+        "room": "Fellowship Hall",
+        "notes": ""
+      },
+      {
+        "name": "ECISD Facilities & Custodial Operations",
+        "address": "2225 W. 8th St.",
+        "city": "Odessa",
+        "zip": "79761",
+        "room": "Foyer",
+        "notes": ""
+      },
+      {
+        "name": "Ector County Coliseum",
+        "address": "4201 Andrews Hwy.",
+        "city": "Odessa",
+        "zip": "79762",
+        "room": "West end of Southwest Hallway",
+        "notes": ""
+      },
+      {
+        "name": "Faith Fellowship Lutheran Church",
+        "address": "1603 N. Grandview Ave.",
+        "city": "Odessa",
+        "zip": "79761",
+        "room": "Foyer",
+        "notes": ""
+      },
+      {
+        "name": "Gardendale Community Bldg.",
+        "address": "4226 E. Larkspur",
+        "city": "Gardendale",
+        "zip": "79758",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Getsemani Church",
+        "address": "8431 S. Hwy. 385",
+        "city": "Odessa",
+        "zip": "79766",
+        "room": "Fellowship Hall",
+        "notes": ""
+      },
+      {
+        "name": "Goldsmith Community Bldg.",
+        "address": "301 Ave. H",
+        "city": "Goldsmith",
+        "zip": "79741",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Holy Redeemer Catholic Church",
+        "address": "2633 Conover Ave.",
+        "city": "Odessa",
+        "zip": "79763",
+        "room": "Parish Hall",
+        "notes": ""
+      },
+      {
+        "name": "Kellus Turner Community Bldg.",
+        "address": "2230 Sycamore Dr.",
+        "city": "Odessa",
+        "zip": "79763",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Lawndale Community Center",
+        "address": "9201 Rainbow Dr.",
+        "city": "Odessa",
+        "zip": "79765",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Market Street",
+        "address": "4950 E. 42nd St.",
+        "city": "Odessa",
+        "zip": "79762",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "MCM Eleganté Hotel",
+        "address": "5200 E. University Blvd.",
+        "city": "Odessa",
+        "zip": "79762",
+        "room": "Bermuda Ballroom",
+        "notes": ""
+      },
+      {
+        "name": "Murry Fly Elementary",
+        "address": "11688 W. Westview Dr.",
+        "city": "Odessa",
+        "zip": "79764",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Northside Senior Center",
+        "address": "1225 N. Adams Ave.",
+        "city": "Odessa",
+        "zip": "79761",
+        "room": "Multi-purpose Room",
+        "notes": ""
+      },
+      {
+        "name": "Salinas Community Bldg.",
+        "address": "600 W. Clements St.",
+        "city": "Odessa",
+        "zip": "79761",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Sherwood Community Bldg.",
+        "address": "4819 N. Everglade Ave.",
+        "city": "Odessa",
+        "zip": "79762",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Slator Community Bldg.",
+        "address": "1001 W. 38th St.",
+        "city": "Odessa",
+        "zip": "79764",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "The Globe Theater at Odessa College",
+        "address": "2308 Shakespeare Rd.",
+        "city": "Odessa",
+        "zip": "79764",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "VFW Bingo Hall",
+        "address": "208 E. VFW Ln.",
+        "city": "Odessa",
+        "zip": "79762",
+        "room": "Non-Smoking Room",
+        "notes": ""
+      },
+      {
+        "name": "Wilson's Corner",
+        "address": "16514 S. U.S. Hwy. 385",
+        "city": "Odessa",
+        "zip": "79763",
+        "room": "Dining Room",
+        "notes": ""
+      },
+      {
+        "name": "Woodson Community Bldg.",
+        "address": "1010 E. Murphy St.",
+        "city": "Odessa",
+        "zip": "79761",
+        "room": "",
+        "notes": ""
+      }
+    ]
+  },
+  "notes": "Voters may vote at any of the 22 vote centers on Election Day. The Courthouse Annex has longer early voting hours (7 a.m. to 7 p.m. Saturday and the second week) than the four branch sites; the branch hours are printed once for all four branch sites on the county schedule."
+}
