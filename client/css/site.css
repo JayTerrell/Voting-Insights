@@ -3665,3 +3665,55 @@ html.modal-open {
   margin: 0 0 10px;
   color: var(--muted);
 }
+
+/* Candidate jump row in the race menu: only when the cards stack in one column */
+.cand-jump {
+  display: none;
+}
+@media (max-width: 819px) {
+  .race-nav {
+    flex-wrap: wrap;
+  }
+  .cand-jump {
+    display: flex;
+    flex-basis: 100%;
+    gap: 6px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    padding-top: 6px;
+    border-top: 1px solid var(--rule-soft);
+  }
+  .cand-jump::-webkit-scrollbar {
+    display: none;
+  }
+  .cand-jump a {
+    flex: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 10px 4px 4px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--navy);
+    text-decoration: none;
+    background: var(--card);
+    border: 1px solid var(--rule);
+    white-space: nowrap;
+    transition:
+      background-color var(--dur-short) var(--ease-in-out),
+      color var(--dur-short) var(--ease-in-out);
+  }
+  .cand-jump a.current {
+    background: var(--navy);
+    border-color: var(--navy);
+    color: var(--card);
+  }
+  .cand-jump .cand-photo {
+    width: 26px;
+    height: 26px;
+    font-size: 0.68rem;
+  }
+  .cand-card {
+    scroll-margin-top: calc(var(--masthead-h) + 120px);
+  }
+}

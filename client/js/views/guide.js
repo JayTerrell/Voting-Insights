@@ -145,7 +145,7 @@ function officeBox(guide, race, num = null) {
 }
 
 function candidateCard(c, prefix, { full = false, race = c.race } = {}) {
-  return `<article class="cand-card">
+  return `<article class="cand-card" id="cand-${esc(c.id)}">
     <div class="cand-card-head">${candidatePhoto(c, 'lg')}<h3><a href="/candidate/${esc(c.id)}">${esc(c.name)}</a></h3></div>
     <div>${partyTag(c.party)} ${c.incumbent ? '<span class="tag tag-navy">Incumbent</span>' : ''}</div>
     ${race ? `<div class="pick-row">${pickButton(race, c)}</div>` : ''}
@@ -237,6 +237,16 @@ export async function renderRace(view, [raceId], current) {
             `<a href="#${x.id}" data-jump="${x.id}"><span class="long-label">${esc(x.label)}</span><span class="short-label">${esc(x.short)}</span></a>`
         )
         .join('')}</div>
+      ${
+        cands.length > 1
+          ? `<div class="cand-jump" aria-label="Jump to a candidate">${cands
+              .map(
+                (c) =>
+                  `<a href="#cand-${esc(c.id)}" data-jump="cand-${esc(c.id)}">${candidatePhoto(c)}<span>${esc(c.name.split(' ').slice(-1)[0])}</span></a>`
+              )
+              .join('')}</div>`
+          : ''
+      }
     </nav>
 
     ${guide.offices?.[race.office_key] ? `<div id="race-office" class="race-anchor">${officeBox(guide, race, 1)}</div>` : ''}
@@ -305,8 +315,20 @@ export async function renderRace(view, [raceId], current) {
 
 // Jump links, the menu highlight, and one switch that opens or closes every
 // candidate's priorities and record together so the columns stay aligned.
+// When the cards stack in one column (phones and small tablets), each card's
+// priorities and record start closed and open on their own, and a row of
+// candidate links in the menu jumps straight to each card.
+const STACKED = '(max-width: 819px)';
+
 function bindRacePage(root) {
   const inModal = Boolean(root.closest('.modal'));
+  const stacked = window.matchMedia(STACKED).matches;
+  const foldLabel = (open) => (open ? 'Hide priorities and record' : 'Show priorities and record');
+  if (stacked) {
+    root.querySelectorAll('.card-fold').forEach((f) => (f.open = false));
+    const btn = root.querySelector('[data-fold-all]');
+    if (btn) btn.textContent = foldLabel(false);
+  }
   root.addEventListener('click', (e) => {
     const jump = e.target.closest('[data-jump]');
     if (jump) {
@@ -316,7 +338,9 @@ function bindRacePage(root) {
       if (jump.dataset.jump === 'race-sources') root.querySelector('.sources-toggle').open = true;
       const nav = root.querySelector('.race-nav');
       const scroller = inModal ? root.closest('.modal-body') : null;
-      const offset = (inModal ? 0 : document.querySelector('.masthead').offsetHeight) + nav.offsetHeight + 12;
+      // Candidate cards get a little more room so their top rule clears the menu.
+      const gap = jump.dataset.jump.startsWith('cand-') ? 24 : 12;
+      const offset = (inModal ? 0 : document.querySelector('.masthead').offsetHeight) + nav.offsetHeight + gap;
       const smooth = window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth';
       if (scroller) {
         const top = target.getBoundingClientRect().top - scroller.getBoundingClientRect().top + scroller.scrollTop - offset;
@@ -333,18 +357,22 @@ function bindRacePage(root) {
       syncing = true;
       folds.forEach((f) => (f.open = open));
       syncing = false;
-      all.textContent = open ? 'Hide priorities and record' : 'Show priorities and record';
+      all.textContent = foldLabel(open);
     }
   });
   let syncing = false;
   root.querySelectorAll('.card-fold').forEach((fold) =>
     fold.addEventListener('toggle', () => {
       if (syncing) return;
+      const btn = root.querySelector('[data-fold-all]');
+      if (window.matchMedia(STACKED).matches) {
+        if (btn) btn.textContent = foldLabel([...root.querySelectorAll('.card-fold')].every((f) => f.open));
+        return;
+      }
       syncing = true;
       root.querySelectorAll('.card-fold').forEach((f) => (f.open = fold.open));
       syncing = false;
-      const btn = root.querySelector('[data-fold-all]');
-      if (btn) btn.textContent = fold.open ? 'Hide priorities and record' : 'Show priorities and record';
+      if (btn) btn.textContent = foldLabel(fold.open);
     })
   );
   // Highlight the section on screen in the menu.
@@ -352,7 +380,11 @@ function bindRacePage(root) {
   const spy = new IntersectionObserver(
     (entries) => {
       for (const entry of entries) {
-        if (entry.isIntersecting) links.forEach((a) => a.classList.toggle('current', a.dataset.jump === entry.target.id));
+        if (!entry.isIntersecting) continue;
+        const group = entry.target.classList.contains('cand-card') ? '.cand-jump a' : '.subnav-links a';
+        root
+          .querySelectorAll(`.race-nav ${group}`)
+          .forEach((a) => a.classList.toggle('current', a.dataset.jump === entry.target.id));
       }
     },
     { root: inModal ? root.closest('.modal-body') : null, rootMargin: '-30% 0px -60% 0px' }
