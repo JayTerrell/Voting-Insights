@@ -286,8 +286,9 @@ test('ballot plans save only known races and candidates', async () => {
     },
   });
   assert.equal(saved.status, 200);
+  // A starred candidate from an earlier version becomes a watched office.
   assert.deepEqual(saved.json.plan.starred_races, [race.id]);
-  assert.deepEqual(saved.json.plan.starred_candidates, [race.candidates[0].id]);
+  assert.deepEqual(saved.json.plan.starred_candidates, []);
   assert.deepEqual(saved.json.plan.picks, { [race.id]: race.candidates[1].id });
   const back = await call('GET', '/api/me/plan', { token });
   assert.deepEqual(back.json.plan.picks, { [race.id]: race.candidates[1].id });
@@ -413,4 +414,23 @@ test('Google sign-in rejects a mismatched state or an unverified email link', as
   assert.equal(done.status, 400);
   const forged = await call('POST', '/api/auth/pending', { body: { ticket: ticket.slice(0, -2) + 'xx' } });
   assert.equal(forged.status, 400);
+});
+
+test('profile photos must be small, real images', async () => {
+  const reg = await signUp('photo@example.com');
+  const token = reg.json.token;
+  const tinyJpeg = 'data:image/jpeg;base64,' + Buffer.from([0xff, 0xd8, 0xff, 0xe0, 0, 16, 74, 70, 73, 70]).toString('base64');
+  const ok = await call('PUT', '/api/me/avatar', { token, body: { image: tinyJpeg } });
+  assert.equal(ok.status, 200);
+  assert.equal(ok.json.user.avatar, tinyJpeg);
+  const fake = 'data:image/png;base64,' + Buffer.from('<script>alert(1)</script>').toString('base64');
+  assert.equal((await call('PUT', '/api/me/avatar', { token, body: { image: fake } })).status, 400);
+  const svg = 'data:image/svg+xml;base64,' + Buffer.from('<svg/>').toString('base64');
+  assert.equal((await call('PUT', '/api/me/avatar', { token, body: { image: svg } })).status, 400);
+  const huge =
+    'data:image/jpeg;base64,' + Buffer.concat([Buffer.from([0xff, 0xd8, 0xff]), Buffer.alloc(200 * 1024)]).toString('base64');
+  assert.ok([400, 413].includes((await call('PUT', '/api/me/avatar', { token, body: { image: huge } })).status));
+  assert.equal((await call('PUT', '/api/me/avatar', { body: { image: tinyJpeg } })).status, 401);
+  const removed = await call('DELETE', '/api/me/avatar', { token });
+  assert.equal(removed.json.user.avatar, null);
 });

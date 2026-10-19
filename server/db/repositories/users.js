@@ -31,6 +31,11 @@ export async function updateProfile(id, p) {
   );
 }
 
+export async function setAvatar(id, avatar) {
+  const db = await getDb();
+  return db.get('UPDATE users SET avatar = ?, updated_at = ? WHERE id = ? RETURNING *', [avatar, now(), id]);
+}
+
 export async function setPassword(id, passwordHash) {
   const db = await getDb();
   await db.run('UPDATE users SET password_hash = ?, updated_at = ? WHERE id = ?', [passwordHash, now(), id]);

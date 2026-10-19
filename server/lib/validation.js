@@ -1,7 +1,7 @@
 // Input validation. Every value from a request passes through here before it
 // reaches the database or an email.
 
-import { formOptions, questionIds, raceCandidates, candidateIds } from '../services/guide.js';
+import { formOptions, questionIds, raceCandidates, candidateIds, candidateRace } from '../services/guide.js';
 import { PASSWORD_MIN, PASSWORD_MAX } from './password.js';
 import { COMMON_PASSWORDS } from './common-passwords.js';
 
@@ -79,9 +79,12 @@ export function parsePlan(raw) {
   const starredRaces = [...new Set(Array.isArray(body.starred_races) ? body.starred_races : [])]
     .filter((id) => typeof id === 'string' && raceCandidates.has(id))
     .slice(0, 2000);
-  const starredCandidates = [...new Set(Array.isArray(body.starred_candidates) ? body.starred_candidates : [])]
-    .filter((id) => typeof id === 'string' && candidateIds.has(id))
-    .slice(0, 4000);
+  // Starring individual candidates was replaced by watching offices; old stars become watched offices.
+  for (const id of Array.isArray(body.starred_candidates) ? body.starred_candidates.slice(0, 4000) : []) {
+    const race = typeof id === 'string' && candidateIds.has(id) ? candidateRace.get(id) : null;
+    if (race && !starredRaces.includes(race)) starredRaces.push(race);
+  }
+  const starredCandidates = [];
   const picks = {};
   if (body.picks && typeof body.picks === 'object' && !Array.isArray(body.picks)) {
     for (const [raceId, candId] of Object.entries(body.picks).slice(0, 2000)) {
@@ -89,6 +92,25 @@ export function parsePlan(raw) {
     }
   }
   return { starred_races: starredRaces, starred_candidates: starredCandidates, picks };
+}
+
+// A profile photo: a cropped image from the browser, as a data URL. Only small
+// JPEG, PNG, or WebP files whose bytes match their declared type are accepted.
+const AVATAR_RE = /^data:image\/(jpeg|png|webp);base64,([A-Za-z0-9+/]+={0,2})$/;
+const AVATAR_MAX_BYTES = 150 * 1024;
+const MAGIC = {
+  jpeg: (b) => b[0] === 0xff && b[1] === 0xd8 && b[2] === 0xff,
+  png: (b) => b[0] === 0x89 && b[1] === 0x50 && b[2] === 0x4e && b[3] === 0x47,
+  webp: (b) => b.subarray(0, 4).toString('latin1') === 'RIFF' && b.subarray(8, 12).toString('latin1') === 'WEBP',
+};
+
+export function parseAvatar(raw) {
+  const m = AVATAR_RE.exec(typeof raw === 'string' ? raw : '');
+  if (!m) throw new ValidationError('Please choose a JPEG, PNG, or WebP photo.');
+  const bytes = Buffer.from(m[2], 'base64');
+  if (bytes.length > AVATAR_MAX_BYTES) throw new ValidationError('That photo is too large. Please try a smaller one.');
+  if (!MAGIC[m[1]](bytes)) throw new ValidationError('That file is not a valid image.');
+  return `data:image/${m[1]};base64,${bytes.toString('base64')}`;
 }
 
 export const isShareId = (id) => SHARE_ID_RE.test(String(id));

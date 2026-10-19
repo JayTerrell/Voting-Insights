@@ -1,9 +1,9 @@
 // Accounts: sign up, sign in, password reset, and the account page with saved
 // results. Browsing the guide never needs an account; the quiz does.
 
-import { $, esc, setTitle, formatDate, skeleton, toast, countyLabel } from '../ui.js';
+import { $, esc, setTitle, formatDate, skeleton, toast, countyLabel, avatarHtml, openModal, closeModal } from '../ui.js';
 import { api, session, resultCache, loadGuide, loadFormOptions, ballotCounty, startSession, plan } from '../api.js';
-import { navigate } from '../app.js';
+import { navigate, updateAccountLink } from '../app.js';
 
 const MIN_PASSWORD = 8;
 
@@ -355,6 +355,7 @@ export async function renderAccount(view, _params, current) {
     const [results, me] = await Promise.all([api.myResults(), api.me()]);
     data = { ...results, providers: me.providers };
     session.set(session.token, me.user);
+    updateAccountLink();
   } catch (e) {
     if (e.status === 401) {
       session.clear();
@@ -393,7 +394,7 @@ function drawAccount(view, data, guide, options) {
   const providers = data.providers || [];
   const hasPassword = u.has_password !== false;
   const p = plan.get();
-  const starredCount = p.starred_races.length + p.starred_candidates.length;
+  const watchCount = p.starred_races.length;
   const pickCount = Object.keys(p.picks).length;
   const countyOpts = options.counties
     .map((c) => `<option value="${esc(c)}" ${c === u.county ? 'selected' : ''}>${esc(countyLabel(c))}</option>`)
@@ -402,13 +403,22 @@ function drawAccount(view, data, guide, options) {
 
   view.innerHTML = `
     <span class="eyebrow">My Account</span>
-    <h1>${esc(u.first_name ? `Welcome, ${u.first_name}` : 'Your account')}</h1>
-    <p class="lede">Signed in as ${esc(u.email || '')}. Your ballot: ${esc(countyLabel(u.county || ballotCounty.get(guide)))}.</p>
+    <div class="profile-head">
+      <div class="profile-photo" id="profile-photo">${avatarHtml(u, 'lg')}</div>
+      <div>
+        <h1>${esc(u.first_name ? `Welcome, ${u.first_name}` : 'Your account')}</h1>
+        <p class="lede" style="margin-bottom:10px">Signed in as ${esc(u.email || '')}. Your ballot: ${esc(countyLabel(u.county || ballotCounty.get(guide)))}.</p>
+        <div class="btn-row">
+          <label class="btn btn-ghost btn-small file-btn">${u.avatar ? 'Change photo' : 'Add a profile photo'}<input type="file" id="photo-file" accept="image/jpeg,image/png,image/webp,image/heic,image/heif" hidden></label>
+          ${u.avatar ? '<button type="button" class="linkish" id="photo-remove">Remove photo</button>' : ''}
+        </div>
+      </div>
+    </div>
     ${data.offline ? '<div class="callout" style="margin-bottom:16px">We could not reach the server, so this page shows results saved on this device.</div>' : ''}
 
     <div class="account-grid">
-      <a class="account-tile" href="/my-ballot"><span class="label">My Ballot</span><b data-count="${pickCount}">${pickCount}</b><span>choices marked</span></a>
-      <a class="account-tile" href="/my-ballot?show=starred"><span class="label">My Shortlist</span><b data-count="${starredCount}">${starredCount}</b><span>races and candidates starred</span></a>
+      <a class="account-tile" href="/my-ballot?show=picks"><span class="label">My Picks</span><b data-count="${pickCount}">${pickCount}</b><span>${pickCount === 1 ? 'candidate' : 'candidates'} chosen</span></a>
+      <a class="account-tile" href="/my-ballot?show=watch"><span class="label">Watchlist</span><b data-count="${watchCount}">${watchCount}</b><span>${watchCount === 1 ? 'office' : 'offices'} watched</span></a>
       <a class="account-tile" href="/quiz"><span class="label">Issue Quiz</span><b data-count="${data.results.length}">${data.results.length}</b><span>${data.results.length === 1 ? 'result' : 'results'} saved</span></a>
     </div>
 
@@ -461,7 +471,7 @@ function drawAccount(view, data, guide, options) {
 
     <details class="panel" style="margin-top:32px">
       <summary><b>Delete my account and data</b></summary>
-      <p style="margin-top:12px">This permanently deletes your name, email, county, age range, every saved result, your starred races, and your mock ballot. Shared links to your results will stop working. This cannot be undone.</p>
+      <p style="margin-top:12px">This permanently deletes your name, email, county, age range, every saved result, your watchlist, and your picks. Shared links to your results will stop working. This cannot be undone.</p>
       <form id="del" novalidate>
         ${
           hasPassword
@@ -474,6 +484,25 @@ function drawAccount(view, data, guide, options) {
         <div class="btn-row" style="margin-top:12px"><button class="btn btn-red btn-small" type="submit">Delete everything</button></div>
       </form>
     </details>`;
+
+  $('#photo-file', view).addEventListener('change', async (e) => {
+    const file = e.target.files?.[0];
+    e.target.value = '';
+    if (!file) return;
+    try {
+      const saved = await photoEditor(file);
+      if (saved) drawAccount(view, data, guide, options);
+    } catch (ex) {
+      toast(ex.message);
+    }
+  });
+  $('#photo-remove', view)?.addEventListener('click', async () => {
+    if (!confirm('Remove your profile photo?')) return;
+    const res = await api.removeAvatar();
+    session.set(session.token, res.user);
+    updateAccountLink();
+    drawAccount(view, data, guide, options);
+  });
 
   const profile = $('#profile', view);
   profile.addEventListener('submit', (e) => {
@@ -523,7 +552,175 @@ function drawAccount(view, data, guide, options) {
       await api.deleteAccount({ password: fd.get('password') || '', confirm_email: fd.get('confirm_email') || '' });
       session.clear();
       view.innerHTML =
-        '<h1>Your data has been deleted</h1><p>Your account, saved results, starred races, and mock ballot have been removed. <a href="/">Return to the home page</a>.</p>';
+        '<h1>Your data has been deleted</h1><p>Your account, saved results, watchlist, and picks have been removed. <a href="/">Return to the home page</a>.</p>';
+    });
+  });
+}
+
+// ---------- Profile photo editor ----------
+// The photo is shown in a round frame. Drag to position it and zoom with the
+// slider, mouse wheel, or a two-finger pinch. Saving draws exactly what is in
+// the frame onto a 320 px square and uploads it as a JPEG.
+
+const STAGE = 280;
+const OUTPUT = 320;
+
+function readImage(file) {
+  return new Promise((resolve, reject) => {
+    if (!/^image\//.test(file.type) && !/\.(heic|heif)$/i.test(file.name)) return reject(new Error('Please choose a photo.'));
+    if (file.size > 25 * 1024 * 1024) return reject(new Error('That photo is too large. Please choose one under 25 MB.'));
+    const reader = new FileReader();
+    reader.onerror = () => reject(new Error('We could not read that photo.'));
+    reader.onload = () => {
+      const img = new Image();
+      img.onerror = () => reject(new Error('This photo format is not supported here. Please try a JPEG or PNG.'));
+      img.onload = () => {
+        // Large camera photos are scaled down first so dragging stays smooth.
+        const max = 1600;
+        const k = Math.min(1, max / Math.max(img.naturalWidth, img.naturalHeight));
+        if (k === 1) return resolve(img);
+        const c = document.createElement('canvas');
+        c.width = Math.round(img.naturalWidth * k);
+        c.height = Math.round(img.naturalHeight * k);
+        c.getContext('2d').drawImage(img, 0, 0, c.width, c.height);
+        const small = new Image();
+        small.onload = () => resolve(small);
+        small.src = c.toDataURL('image/jpeg', 0.92);
+      };
+      img.src = reader.result;
+    };
+    reader.readAsDataURL(file);
+  });
+}
+
+async function photoEditor(file) {
+  const img = await readImage(file);
+  const w = img.naturalWidth;
+  const h = img.naturalHeight;
+  const base = STAGE / Math.min(w, h);
+  const state = { zoom: 1, x: 0, y: 0 };
+
+  return new Promise((resolve) => {
+    let saved = false;
+    const modal = openModal({ title: 'Position your photo', onClose: () => resolve(saved) });
+    modal.body.innerHTML = `
+      <p class="small muted" style="margin-top:0">Drag the photo to move it. Use the slider to zoom.</p>
+      <div class="crop-stage" style="width:${STAGE}px;height:${STAGE}px" aria-label="Photo position. Use arrow keys to move and plus or minus to zoom." tabindex="0">
+        <img class="crop-img" alt="" draggable="false" style="width:${w}px;height:${h}px">
+        <div class="crop-ring" aria-hidden="true"></div>
+      </div>
+      <div class="crop-zoom">
+        <span aria-hidden="true">-</span>
+        <input type="range" id="crop-zoom" min="1" max="4" step="0.01" value="1" aria-label="Zoom">
+        <span aria-hidden="true">+</span>
+      </div>
+      <p class="form-error" role="alert" hidden></p>
+      <div class="btn-row" style="justify-content:flex-end;margin-top:12px">
+        <button type="button" class="btn btn-ghost" data-close>Cancel</button>
+        <button type="button" class="btn" id="crop-save">Save photo</button>
+      </div>`;
+    const stage = modal.body.querySelector('.crop-stage');
+    const pic = modal.body.querySelector('.crop-img');
+    const slider = modal.body.querySelector('#crop-zoom');
+    pic.src = img.src;
+
+    // Keep the photo covering the whole frame.
+    const clamp = () => {
+      const s = base * state.zoom;
+      const mx = Math.max(0, (w * s - STAGE) / 2);
+      const my = Math.max(0, (h * s - STAGE) / 2);
+      state.x = Math.max(-mx, Math.min(mx, state.x));
+      state.y = Math.max(-my, Math.min(my, state.y));
+    };
+    const paint = () => {
+      clamp();
+      pic.style.transform = `translate(-50%, -50%) translate(${state.x}px, ${state.y}px) scale(${base * state.zoom})`;
+      slider.value = String(state.zoom);
+    };
+    const setZoom = (z) => {
+      state.zoom = Math.max(1, Math.min(4, z));
+      paint();
+    };
+    paint();
+
+    const pointers = new Map();
+    let pinchStart = null;
+    stage.addEventListener('pointerdown', (e) => {
+      stage.setPointerCapture(e.pointerId);
+      pointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
+      if (pointers.size === 2) {
+        const [a, b] = [...pointers.values()];
+        pinchStart = { d: Math.hypot(a.x - b.x, a.y - b.y), zoom: state.zoom };
+      }
+    });
+    stage.addEventListener('pointermove', (e) => {
+      const prev = pointers.get(e.pointerId);
+      if (!prev) return;
+      pointers.set(e.pointerId, { x: e.clientX, y: e.clientY });
+      if (pointers.size === 2 && pinchStart) {
+        const [a, b] = [...pointers.values()];
+        setZoom((pinchStart.zoom * Math.hypot(a.x - b.x, a.y - b.y)) / pinchStart.d);
+        return;
+      }
+      state.x += e.clientX - prev.x;
+      state.y += e.clientY - prev.y;
+      paint();
+    });
+    const release = (e) => {
+      pointers.delete(e.pointerId);
+      if (pointers.size < 2) pinchStart = null;
+    };
+    stage.addEventListener('pointerup', release);
+    stage.addEventListener('pointercancel', release);
+    stage.addEventListener(
+      'wheel',
+      (e) => {
+        e.preventDefault();
+        setZoom(state.zoom * (e.deltaY < 0 ? 1.08 : 1 / 1.08));
+      },
+      { passive: false }
+    );
+    stage.addEventListener('keydown', (e) => {
+      const step = 10;
+      const moves = { ArrowLeft: [step, 0], ArrowRight: [-step, 0], ArrowUp: [0, step], ArrowDown: [0, -step] };
+      if (moves[e.key]) {
+        e.preventDefault();
+        state.x += moves[e.key][0];
+        state.y += moves[e.key][1];
+        paint();
+      } else if (e.key === '+' || e.key === '=') setZoom(state.zoom * 1.1);
+      else if (e.key === '-') setZoom(state.zoom / 1.1);
+    });
+    slider.addEventListener('input', () => setZoom(Number(slider.value)));
+
+    modal.body.querySelector('#crop-save').addEventListener('click', async (e) => {
+      const btn = e.currentTarget;
+      const err = modal.body.querySelector('.form-error');
+      btn.disabled = true;
+      btn.classList.add('is-loading');
+      try {
+        const canvas = document.createElement('canvas');
+        canvas.width = OUTPUT;
+        canvas.height = OUTPUT;
+        const ctx = canvas.getContext('2d');
+        const k = OUTPUT / STAGE;
+        ctx.fillStyle = '#ffffff';
+        ctx.fillRect(0, 0, OUTPUT, OUTPUT);
+        ctx.translate(OUTPUT / 2 + state.x * k, OUTPUT / 2 + state.y * k);
+        ctx.scale(base * state.zoom * k, base * state.zoom * k);
+        ctx.drawImage(img, -w / 2, -h / 2);
+        const res = await api.setAvatar(canvas.toDataURL('image/jpeg', 0.86));
+        session.set(session.token, res.user);
+        updateAccountLink();
+        saved = true;
+        toast('Profile photo saved.');
+        closeModal();
+      } catch (ex) {
+        err.textContent = ex.message;
+        err.hidden = false;
+        btn.disabled = false;
+        btn.classList.remove('is-loading');
+      }
     });
   });
 }

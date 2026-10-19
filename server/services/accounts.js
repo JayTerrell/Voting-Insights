@@ -21,6 +21,7 @@ export const publicUser = (u) => ({
   age_range: u.age_range,
   marketing_ok: Boolean(u.marketing_ok),
   has_password: Boolean(u.password_hash),
+  avatar: u.avatar || null,
 });
 
 export class AccountError extends Error {
@@ -155,6 +156,10 @@ export async function changePassword(user, current, next) {
 
 export async function updateProfile(user, profile) {
   return publicUser(await users.updateProfile(user.id, profile));
+}
+
+export async function setAvatar(user, avatar) {
+  return publicUser(await users.setAvatar(user.id, avatar));
 }
 
 export const signOut = (token) => tokens.revoke(token);

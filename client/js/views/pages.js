@@ -124,13 +124,14 @@ export async function renderPrivacy(view, _p, current) {
       <li><b>Information you give us when you create an account:</b> first name, last name, email address, password, county, age range, and whether you want update emails. Passwords are stored only as a salted one-way hash (scrypt) and can never be read back, even by us.</li>
       <li><b>If you sign in with Google or Apple:</b> we receive your name, your email address (or an Apple relay address if you choose to hide yours), and an account identifier from that provider. We do not receive your Google or Apple password, contacts, or any other data, and we do not post anything to those accounts.</li>
       <li><b>Your quiz answers and results,</b> each saved with the date and time you completed the quiz.</li>
-      <li><b>Your ballot plan:</b> the races and candidates you star and the choices you mark on My Ballot, if you are signed in. Without an account these stay only in your browser.</li>
+      <li><b>Your ballot plan:</b> the offices on your watchlist and the candidates you pick on My Ballot, if you are signed in. Without an account these stay only in your browser.</li>
+      <li><b>Your profile photo,</b> if you add one: a small cropped image stored with your account. You can remove it at any time.</li>
       <li><b>Technical information:</b> to prevent abuse, we keep a one-way hash of your IP address in a request counter that resets within 15 minutes. It is never stored with your account. We do not use advertising trackers, analytics cookies, or third-party ad networks.</li>
-      <li><b>On your device:</b> the Site stores a sign-in token, your cached results, your starred races and mock ballot choices, and any unfinished quiz in your browser's local storage so they load quickly when you return. You can clear this at any time with "Sign out on this device" on the My Account page or through your browser settings.</li>
+      <li><b>On your device:</b> the Site stores a sign-in token, your cached results, your watchlist and picks, and any unfinished quiz in your browser's local storage so they load quickly when you return. You can clear this at any time with "Sign out on this device" on the My Account page or through your browser settings.</li>
     </ul>
     <h2>How we use it</h2>
     <ul>
-      <li>To save your results, starred races, and mock ballot to your account so you can return to them on any device.</li>
+      <li>To save your results, watchlist, and picks to your account so you can return to them on any device.</li>
       <li>To email you a welcome note when you create an account, a copy of your results, and password reset links when you ask for them. We never email passwords.</li>
       <li>To produce anonymous, aggregate statistics about quiz participation, such as totals by county or age range. We do not publish information that identifies you.</li>
       <li>If you opted in, to tell you when the guide is updated for future elections. You can opt out at any time.</li>
@@ -143,7 +144,7 @@ export async function renderPrivacy(view, _p, current) {
     <h2>Sharing</h2>
     <p>We use service providers to host the Site and send email, and Google and Apple when you choose to sign in with them, and they process data only to provide those services. We may disclose information if required by law. If you share a results link, anyone with the link can see your first name and match percentages, but never your email address, last name, or individual answers.</p>
     <h2>Viewing your results</h2>
-    <p>Your saved results, individual answers, starred races, and mock ballot can be opened only by signing in with your email address and password. Shared results links show only what is described above.</p>
+    <p>Your saved results, individual answers, watchlist, picks, and profile photo can be opened only by signing in with your email address and password. Shared results links show only what is described above.</p>
     <h2>Retention and deletion</h2>
     <p>We keep your account and results until you ask us to delete them, or until we retire the Site. You can delete your account, all saved results, and your ballot plan at any time from the My Account page. To correct your information, contact ${contact} from the email address on your account.</p>
     <h2>Security</h2>

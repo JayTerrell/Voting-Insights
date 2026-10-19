@@ -118,6 +118,7 @@ export function loadGuide() {
       g.candidateIndex = {};
       for (const race of g.races) for (const c of race.candidates) g.candidateIndex[c.id] = { ...c, race };
       g.questionIndex = Object.fromEntries(g.questions.map((q) => [q.id, q]));
+      plan.useGuide(g);
       return g;
     });
     guidePromise.catch(() => {
@@ -140,6 +141,8 @@ export const api = {
   changePassword: (current, next) => call('POST', '/api/password/change', { current_password: current, new_password: next }),
   updateProfile: (profile) => call('PATCH', '/api/me', profile),
   me: () => call('GET', '/api/me'),
+  setAvatar: (image) => call('PUT', '/api/me/avatar', { image }),
+  removeAvatar: () => call('DELETE', '/api/me/avatar'),
   authPending: (ticket) => call('POST', '/api/auth/pending', { ticket }),
   authComplete: (body) => call('POST', '/api/auth/complete', body),
   getPlan: () => call('GET', '/api/me/plan'),
@@ -152,17 +155,26 @@ export const api = {
   deleteAccount: (confirm) => call('DELETE', '/api/me', confirm),
 };
 
-// ---------- Ballot plan: starred races and candidates, and mock ballot choices ----------
-// Saved in this browser for everyone, and to the account when signed in, so the
-// list follows the voter to another device.
+// ---------- Ballot plan: watched offices and picks ----------
+// Picks are the candidates the voter chose (filling in an oval or "Choose for my
+// ballot"). The watchlist is the offices they starred to follow. Saved in this
+// browser for everyone, and to the account when signed in.
 
 const EMPTY_PLAN = () => ({ starred_races: [], starred_candidates: [], picks: {} });
 const listeners = new Set();
 let saveTimer;
+let candidateRace = null; // candidate id to race id, set once the guide loads
+
+// Earlier versions starred individual candidates. Each becomes a watched office.
+function upgrade(p) {
+  if (!candidateRace || !p.starred_candidates?.length) return p;
+  const races = p.starred_candidates.map((id) => candidateRace[id]).filter(Boolean);
+  return { ...p, starred_races: [...new Set([...p.starred_races, ...races])], starred_candidates: [] };
+}
 
 function readPlan() {
-  const p = getJSON(KEYS.plan, null);
-  return p && typeof p === 'object' ? { ...EMPTY_PLAN(), ...p } : EMPTY_PLAN();
+  const raw = getJSON(KEYS.plan, null);
+  return upgrade(raw && typeof raw === 'object' ? { ...EMPTY_PLAN(), ...raw } : EMPTY_PLAN());
 }
 
 function writePlan(p) {
@@ -175,26 +187,36 @@ function writePlan(p) {
 
 export const plan = {
   get: readPlan,
+  useGuide(guide) {
+    candidateRace = {};
+    for (const r of guide.races) for (const c of r.candidates) candidateRace[c.id] = r.id;
+    const raw = getJSON(KEYS.plan, null);
+    if (raw?.starred_candidates?.length) writePlan(readPlan());
+  },
   onChange(fn) {
     listeners.add(fn);
     return () => listeners.delete(fn);
   },
-  isStarred(kind, id) {
+  isWatched: (raceId) => readPlan().starred_races.includes(raceId),
+  toggleWatch(raceId) {
     const p = readPlan();
-    return (kind === 'race' ? p.starred_races : p.starred_candidates).includes(id);
-  },
-  toggleStar(kind, id) {
-    const p = readPlan();
-    const key = kind === 'race' ? 'starred_races' : 'starred_candidates';
-    p[key] = p[key].includes(id) ? p[key].filter((x) => x !== id) : [...p[key], id];
+    const on = !p.starred_races.includes(raceId);
+    p.starred_races = on ? [...p.starred_races, raceId] : p.starred_races.filter((x) => x !== raceId);
     writePlan(p);
-    return p[key].includes(id);
+    return on;
   },
+  pickFor: (raceId) => readPlan().picks[raceId] || null,
   pick(raceId, candidateId) {
     const p = readPlan();
     if (candidateId) p.picks[raceId] = candidateId;
     else delete p.picks[raceId];
     writePlan(p);
+  },
+  // Choosing the current pick again removes it.
+  togglePick(raceId, candidateId) {
+    const on = readPlan().picks[raceId] !== candidateId;
+    this.pick(raceId, on ? candidateId : null);
+    return on;
   },
   clearPicks() {
     const p = readPlan();
@@ -206,11 +228,11 @@ export const plan = {
     if (!session.token) return;
     const local = readPlan();
     const { plan: remote } = await api.getPlan();
-    const merged = {
+    const merged = upgrade({
       starred_races: [...new Set([...remote.starred_races, ...local.starred_races])],
-      starred_candidates: [...new Set([...remote.starred_candidates, ...local.starred_candidates])],
+      starred_candidates: [...new Set([...(remote.starred_candidates || []), ...local.starred_candidates])],
       picks: { ...remote.picks, ...local.picks },
-    };
+    });
     setJSON(KEYS.plan, merged);
     listeners.forEach((fn) => fn(merged));
     const changed = JSON.stringify(merged) !== JSON.stringify({ ...EMPTY_PLAN(), ...remote, updated_at: undefined });

@@ -17,6 +17,7 @@ export function schema(dialect) {
       age_range    TEXT NOT NULL,
       marketing_ok INTEGER NOT NULL DEFAULT 0,
       password_hash TEXT,
+      avatar        TEXT,
       created_at   TEXT NOT NULL,
       updated_at   TEXT NOT NULL
     )`,
@@ -75,6 +76,16 @@ export function schema(dialect) {
 
 // Changes to tables created by earlier versions. Each step checks before it acts,
 // so running them on every start is safe.
+async function hasColumn(db, table, column) {
+  return db.dialect === 'postgres'
+    ? db.get(
+        `SELECT 1 AS x FROM information_schema.columns
+         WHERE table_schema = current_schema() AND table_name = ? AND column_name = ?`,
+        [table, column]
+      )
+    : db.get(`SELECT 1 AS x FROM pragma_table_info('${table}') WHERE name = ?`, [column]);
+}
+
 export async function migrate(db) {
   const hasPassword =
     db.dialect === 'postgres'
@@ -88,5 +99,9 @@ export async function migrate(db) {
     // Sign-in tokens issued before passwords existed were handed out for an
     // email address alone, so every one of them is revoked.
     await db.exec('DELETE FROM access_tokens');
+  }
+  // Profile photos: a small cropped JPEG stored as a data URL.
+  if (!(await hasColumn(db, 'users', 'avatar'))) {
+    await db.exec(`ALTER TABLE users ADD COLUMN ${db.dialect === 'postgres' ? 'IF NOT EXISTS ' : ''}avatar TEXT`);
   }
 }

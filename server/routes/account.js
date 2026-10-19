@@ -1,6 +1,6 @@
 import { Router } from 'express';
 import * as accounts from '../services/accounts.js';
-import { parseProfile, requireEmail, requirePassword, parsePlan, normalizeEmail } from '../lib/validation.js';
+import { parseProfile, requireEmail, requirePassword, parsePlan, parseAvatar, normalizeEmail } from '../lib/validation.js';
 import { requireUser, bearerToken } from '../middleware/auth.js';
 import { rateLimit, rateLimitBy } from '../middleware/rate-limit.js';
 
@@ -53,6 +53,14 @@ accountRoutes.get('/me', requireUser, async (req, res) => {
 accountRoutes.patch('/me', rateLimit('profile', 20, MINUTES_15), requireUser, async (req, res) => {
   const profile = parseProfile({ ...req.body, email: req.user.email }, { requireConsent: false });
   res.json({ user: await accounts.updateProfile(req.user, profile) });
+});
+
+accountRoutes.put('/me/avatar', rateLimit('avatar', 20, MINUTES_15), requireUser, async (req, res) => {
+  res.json({ user: await accounts.setAvatar(req.user, parseAvatar(req.body?.image)) });
+});
+
+accountRoutes.delete('/me/avatar', rateLimit('avatar', 20, MINUTES_15), requireUser, async (req, res) => {
+  res.json({ user: await accounts.setAvatar(req.user, null) });
 });
 
 accountRoutes.get('/me/plan', requireUser, async (req, res) => {

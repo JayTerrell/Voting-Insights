@@ -37,6 +37,7 @@ export function formatDate(iso, withTime = true) {
 }
 
 export function toast(msg) {
+  document.querySelectorAll('.toast').forEach((t) => t.remove());
   const el = document.createElement('div');
   el.className = 'toast';
   el.setAttribute('role', 'status');
@@ -126,14 +127,22 @@ export function ballotNote(guide, county) {
   return `<div class="callout" style="margin-bottom:16px">We have not loaded the full ${esc(countyLabel(county))} ballot yet, so only statewide races are shown. Full ballots are available for: ${esc(loaded)}.</div>`;
 }
 
-// A star button that adds a race or candidate to the voter's shortlist. Clicks are
+// The star next to an office adds it to the voter's watchlist. Clicks are
 // handled once for the whole page in app.js.
-export const starLabel = (on, label) => `${on ? 'Remove' : 'Add'} ${label} ${on ? 'from' : 'to'} your shortlist`;
+export const watchLabel = (on, label) => `${on ? 'Stop watching' : 'Watch'} ${label}`;
 
-export function starButton(kind, id, label) {
-  const on = plan.isStarred(kind, id);
-  return `<button type="button" class="star-btn" data-star="${kind}" data-id="${esc(id)}" data-label="${esc(label)}" aria-pressed="${on}"
-    aria-label="${esc(starLabel(on, label))}" title="${on ? 'On your shortlist' : 'Add to your shortlist'}"><svg viewBox="0 0 64 64" aria-hidden="true"><polygon points="32,6 39.1,25.7 60,25.7 43.4,38.1 49.6,58 32,46 14.4,58 20.6,38.1 4,25.7 24.9,25.7"/></svg></button>`;
+export function watchButton(raceId, label) {
+  const on = plan.isWatched(raceId);
+  return `<button type="button" class="star-btn" data-watch="${esc(raceId)}" data-label="${esc(label)}" aria-pressed="${on}"
+    aria-label="${esc(watchLabel(on, label))}" title="${on ? 'On your watchlist' : 'Watch this office'}"><svg viewBox="0 0 64 64" aria-hidden="true"><polygon points="32,6 39.1,25.7 60,25.7 43.4,38.1 49.6,58 32,46 14.4,58 20.6,38.1 4,25.7 24.9,25.7"/></svg></button>`;
+}
+
+// "Choose for my ballot" picks a candidate, the same as filling in their oval on My Ballot.
+export function pickButton(race, c) {
+  const on = plan.pickFor(race.id) === c.id;
+  return `<button type="button" class="pick-btn" data-pick-race="${esc(race.id)}" data-pick-cand="${esc(c.id)}" aria-pressed="${on}">${
+    on ? 'Your pick' : 'Choose for my ballot'
+  }</button>`;
 }
 
 const initials = (name) =>
@@ -154,7 +163,7 @@ export function candidatePhoto(c, size = 'md') {
 }
 
 // A small candidate card: photo, name, party, incumbency, and an optional quiz match.
-export function miniCard(c, { match = null, star = true } = {}) {
+export function miniCard(c, { match = null } = {}) {
   const matchChip =
     match && match.score !== null
       ? `<span class="match-chip" title="Your quiz match${match.limited ? ', based on limited data' : ''}">${match.score}% match</span>`
@@ -165,7 +174,6 @@ export function miniCard(c, { match = null, star = true } = {}) {
       <a class="mini-name" href="/candidate/${esc(c.id)}">${esc(c.name)}</a>
       <div class="mini-tags">${partyTag(c.party)}${c.incumbent ? '<span class="tag tag-navy">Incumbent</span>' : ''}${matchChip}</div>
     </div>
-    ${star ? starButton('candidate', c.id, c.name) : ''}
   </div>`;
 }
 
@@ -173,4 +181,73 @@ export function miniCard(c, { match = null, star = true } = {}) {
 export function photoCredit(c) {
   if (!c.photo) return '';
   return `<p class="photo-credit">Photo: <a href="${esc(c.photo.source_url)}" target="_blank" rel="noopener">${esc(c.photo.credit)}</a></p>`;
+}
+
+// A user's profile photo, or their initials when there is none.
+export function avatarHtml(user, size = 'sm') {
+  if (user?.avatar) return `<img class="avatar avatar-${size}" src="${esc(user.avatar)}" alt="">`;
+  const letters = `${(user?.first_name || '?')[0]}${(user?.last_name || '')[0] || ''}`.toUpperCase();
+  return `<span class="avatar avatar-${size} avatar-initials" aria-hidden="true">${esc(letters)}</span>`;
+}
+
+// ---------- Modal window ----------
+// Closes with the X button, a click on the dimmed background, or Escape, and
+// returns focus to whatever opened it. Only one modal is open at a time.
+
+let openModalState = null;
+
+export function closeModal() {
+  if (!openModalState) return;
+  const { root, opener, onClose, keyHandler } = openModalState;
+  openModalState = null;
+  document.removeEventListener('keydown', keyHandler, true);
+  root.classList.add('closing');
+  document.documentElement.classList.remove('modal-open');
+  setTimeout(() => root.remove(), 180);
+  onClose?.();
+  opener?.focus?.({ preventScroll: true });
+}
+
+export function openModal({ title = '', label = '', wide = false, onClose } = {}) {
+  closeModal();
+  const root = document.createElement('div');
+  root.className = 'modal-root';
+  root.innerHTML = `<div class="modal-backdrop" data-close></div>
+    <div class="modal ${wide ? 'modal-wide' : ''}" role="dialog" aria-modal="true" aria-label="${esc(label || title)}" tabindex="-1">
+      <div class="modal-head">${title ? `<h2 class="modal-title">${esc(title)}</h2>` : '<span></span>'}
+        <button type="button" class="modal-x" data-close aria-label="Close"><span aria-hidden="true"></span></button></div>
+      <div class="modal-body"></div>
+    </div>`;
+  document.body.appendChild(root);
+  document.documentElement.classList.add('modal-open');
+  const dialog = root.querySelector('.modal');
+  root.addEventListener('click', (e) => {
+    if (e.target.closest('[data-close]')) closeModal();
+  });
+  const keyHandler = (e) => {
+    if (e.key === 'Escape') {
+      e.preventDefault();
+      closeModal();
+      return;
+    }
+    // Keep Tab inside the dialog.
+    if (e.key !== 'Tab') return;
+    const items = [
+      ...dialog.querySelectorAll('a[href], button:not([disabled]), input, select, textarea, [tabindex]:not([tabindex="-1"])'),
+    ];
+    if (!items.length) return;
+    const first = items[0];
+    const last = items[items.length - 1];
+    if (e.shiftKey && document.activeElement === first) {
+      e.preventDefault();
+      last.focus();
+    } else if (!e.shiftKey && document.activeElement === last) {
+      e.preventDefault();
+      first.focus();
+    }
+  };
+  document.addEventListener('keydown', keyHandler, true);
+  openModalState = { root, opener: document.activeElement, onClose, keyHandler };
+  dialog.focus({ preventScroll: true });
+  return { root, body: root.querySelector('.modal-body'), dialog, isOpen: () => openModalState?.root === root };
 }

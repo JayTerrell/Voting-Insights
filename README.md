@@ -8,7 +8,8 @@ A nonpartisan candidate guide and issue alignment quiz for the November 3, 2026 
 - **Issue Quiz.** Signed-in visitors answer 31 issue statements and rate how important each one is. Results show a match percentage for every candidate on their county ballot and an alignment score with each party's official Texas platform. Results are saved with a timestamp, emailed, cached on the device, and shareable.
 - **Candidates.** Every race, grouped by level and filtered by county. Each race page compares its candidates side by side (office duties, priorities, promises, record, documented positions, numbered sources). Each candidate also has a profile page.
 - **Compare by Issue.** Choose an issue from a dropdown or type any word to see every candidate's documented position.
-- **My Ballot.** A mock ballot in official ballot order. Voters star the races and candidates they care about to build a shortlist, mark a choice in each race, and print either the shortlist or every choice. Saved in the browser, and to the account when signed in.
+- **My Ballot.** A mock ballot in official ballot order with three views: all races, the Watchlist (offices the voter starred, marked decided or undecided), and My Picks (candidates chosen by filling in an oval or with "Choose for my ballot" on candidate pages). Comparisons open in a window over the ballot. The printout lists every pick, plus undecided watched offices as blank lines with their candidates. Saved in the browser, and to the account when signed in.
+- **Profiles.** A profile photo in the header links to the account page, where voters can upload a photo and drag and zoom it in a round frame before saving.
 - **My Account.** Every saved quiz attempt with timestamps, profile and password settings, sign out, and deleting the account and all of its data.
 - **Methodology, Terms of Use, and Privacy Policy** pages.
 

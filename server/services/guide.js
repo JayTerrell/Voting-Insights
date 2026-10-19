@@ -19,6 +19,7 @@ export const questionIds = new Set(guide.questions.map((q) => q.id));
 // Race id to the set of its candidate ids, for validating saved ballot plans.
 export const raceCandidates = new Map(guide.races.map((r) => [r.id, new Set(r.candidates.map((c) => c.id))]));
 export const candidateIds = new Set(guide.races.flatMap((r) => r.candidates.map((c) => c.id)));
+export const candidateRace = new Map(guide.races.flatMap((r) => r.candidates.map((c) => [c.id, r.id])));
 
 export function raceTitle(race) {
   if (!race.county || race.title.includes(race.county)) return race.title;

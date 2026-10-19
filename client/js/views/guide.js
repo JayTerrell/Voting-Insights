@@ -11,7 +11,8 @@ import {
   countyPicker,
   ballotNote,
   countyLabel,
-  starButton,
+  watchButton,
+  pickButton,
   candidatePhoto,
   photoCredit,
 } from '../ui.js';
@@ -68,9 +69,7 @@ export async function renderGuide(view, _params, current) {
         if (!races.length) return '';
         return `<h2 class="group-title">${esc(g.label)}</h2><div class="race-list">${races
           .map(
-            (
-              r
-            ) => `<div class="race-row">${starButton('race', r.id, raceTitle(r))}<a class="race-item" href="/candidates/${esc(r.id)}">
+            (r) => `<div class="race-row">${watchButton(r.id, raceTitle(r))}<a class="race-item" href="/candidates/${esc(r.id)}">
               <span class="office">${esc(raceTitle(r))}</span>
               <span class="names">${r.candidates.map((c) => `<span>${esc(c.name)} ${partyTag(c.party)}</span>`).join('')}</span>
               <span class="go">${r.candidates.length > 1 ? 'Compare' : 'View profile'}</span></a></div>`
@@ -129,10 +128,11 @@ function officeBox(race) {
   </div>`;
 }
 
-function candidateCard(c, prefix, { full = false } = {}) {
+function candidateCard(c, prefix, { full = false, race = c.race } = {}) {
   return `<article class="cand-card">
-    <div class="cand-card-head">${candidatePhoto(c, 'lg')}<h3><a href="/candidate/${esc(c.id)}">${esc(c.name)}</a></h3>${starButton('candidate', c.id, c.name)}</div>
+    <div class="cand-card-head">${candidatePhoto(c, 'lg')}<h3><a href="/candidate/${esc(c.id)}">${esc(c.name)}</a></h3></div>
     <div>${partyTag(c.party)} ${c.incumbent ? '<span class="tag tag-navy">Incumbent</span>' : ''}</div>
+    ${race ? `<div class="pick-row">${pickButton(race, c)}</div>` : ''}
     ${c.current_role ? `<p class="role">${esc(c.current_role)}</p>` : ''}
     ${c.background ? `<p class="small">${esc(c.background)}</p>` : ''}
     ${c.website ? `<p class="small"><a href="${esc(c.website)}" target="_blank" rel="noopener">Campaign website</a></p>` : ''}
@@ -189,12 +189,12 @@ export async function renderRace(view, [raceId], current) {
   view.innerHTML = `
     <p class="small"><a href="/candidates">All races</a></p>
     <span class="eyebrow">${cands.length > 1 ? 'Compare candidates' : 'Uncontested race'}</span>
-    <div class="title-row"><h1>${esc(raceTitle(race))}</h1>${starButton('race', race.id, raceTitle(race))}</div>
+    <div class="title-row"><h1>${esc(raceTitle(race))}</h1>${watchButton(race.id, raceTitle(race))}</div>
     ${race.statewide ? '<p class="small muted">On the ballot for every Texas voter.</p>' : race.county ? '' : '<p class="small muted">On the ballot only for voters who live in this district.</p>'}
     ${officeBox(race)}
 
     <div class="section-head"><h2>The candidates</h2><span class="small muted">Listed in ballot order</span></div>
-    <div class="compare n${Math.min(cands.length, 4)}">${cands.map((c) => candidateCard(c, prefix(c))).join('')}</div>
+    <div class="compare n${Math.min(cands.length, 4)}">${cands.map((c) => candidateCard(c, prefix(c), { race })).join('')}</div>
 
     ${
       officeQs.length || extraQs.length

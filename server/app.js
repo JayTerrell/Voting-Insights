@@ -20,7 +20,10 @@ export function createApp() {
   app.use(securityHeaders);
 
   const api = express.Router();
-  api.use(express.json({ limit: '32kb', strict: true }));
+  // Profile photos are the only large request bodies; everything else stays small.
+  const smallJson = express.json({ limit: '32kb', strict: true });
+  const avatarJson = express.json({ limit: '256kb', strict: true });
+  api.use((req, res, next) => (req.path === '/me/avatar' ? avatarJson : smallJson)(req, res, next));
   api.use(guideRoutes);
   api.use(healthRoutes);
   api.use(noStore, accountRoutes);

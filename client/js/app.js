@@ -1,4 +1,4 @@
-import { $, $$, esc, skeleton, toast, starLabel } from './ui.js';
+import { $, $$, esc, skeleton, toast, watchLabel, avatarHtml, closeModal } from './ui.js';
 import { renderHome } from './views/home.js';
 import { renderQuiz } from './views/quiz.js';
 import { renderResults } from './views/results.js';
@@ -51,9 +51,11 @@ async function route() {
   const match = routes.find(([re]) => re.test(path));
   const token = ++renderToken;
 
+  closeModal();
   updateAccountLink();
-  $$('.nav a').forEach((a) => a.removeAttribute('aria-current'));
+  $$('.nav a, #nav-avatar').forEach((a) => a.removeAttribute('aria-current'));
   if (match && match[2]) $(`.nav a[href="${match[2]}"]`)?.setAttribute('aria-current', 'page');
+  if (match && match[2] === '/account') $('#nav-avatar')?.setAttribute('aria-current', 'page');
 
   if (!match) {
     view.innerHTML = `<h1>Page not found</h1><p>The page <code>${esc(path)}</code> does not exist. <a href="/">Return to the home page</a>.</p>`;
@@ -78,30 +80,62 @@ async function route() {
   }
 }
 
-// The last nav link reads "Sign In" or "Account" depending on the session.
-function updateAccountLink() {
-  const link = $('#nav-account');
-  if (link) link.textContent = session.token ? 'Account' : 'Sign In';
+// Top right: the profile photo (or initials) links to the account page; signed-out visitors see Sign in.
+export function updateAccountLink() {
+  const link = $('#nav-avatar');
+  if (!link) return;
+  if (session.token && session.user) {
+    link.href = '/account';
+    link.classList.add('signed-in');
+    link.setAttribute('aria-label', `My account, ${session.user.first_name || ''}`.trim());
+    link.title = 'My account';
+    link.innerHTML = avatarHtml(session.user, 'sm');
+  } else {
+    link.href = '/sign-in';
+    link.classList.remove('signed-in');
+    link.removeAttribute('aria-label');
+    link.title = '';
+    link.textContent = 'Sign in';
+  }
 }
 
-// Star buttons anywhere on the page toggle a race or candidate on the shortlist.
+// Watch stars and "Choose for my ballot" buttons anywhere on the page.
 document.addEventListener(
   'click',
   (e) => {
-    const btn = e.target.closest('[data-star]');
-    if (!btn) return;
-    e.preventDefault();
-    e.stopPropagation();
-    const on = plan.toggleStar(btn.dataset.star, btn.dataset.id);
-    $$(`[data-star="${btn.dataset.star}"][data-id="${CSS.escape(btn.dataset.id)}"]`).forEach((b) => {
-      b.setAttribute('aria-pressed', String(on));
-      b.title = on ? 'On your shortlist' : 'Add to your shortlist';
-      b.setAttribute('aria-label', starLabel(on, b.dataset.label || ''));
-    });
-    toast(on ? 'Added to your shortlist on My Ballot.' : 'Removed from your shortlist.');
+    const watch = e.target.closest('[data-watch]');
+    if (watch) {
+      e.preventDefault();
+      e.stopPropagation();
+      const on = plan.toggleWatch(watch.dataset.watch);
+      $$(`[data-watch="${CSS.escape(watch.dataset.watch)}"]`).forEach((b) => {
+        b.setAttribute('aria-pressed', String(on));
+        b.title = on ? 'On your watchlist' : 'Watch this office';
+        b.setAttribute('aria-label', watchLabel(on, b.dataset.label || ''));
+      });
+      toast(on ? 'Office added to your watchlist on My Ballot.' : 'Office removed from your watchlist.');
+      return;
+    }
+    const pick = e.target.closest('[data-pick-race]');
+    if (pick) {
+      e.preventDefault();
+      const { pickRace, pickCand } = pick.dataset;
+      const on = plan.togglePick(pickRace, pickCand);
+      syncPickButtons(pickRace);
+      toast(on ? 'Added to My Picks on My Ballot.' : 'Removed from My Picks.');
+    }
   },
   true
 );
+
+export function syncPickButtons(raceId) {
+  const chosen = plan.pickFor(raceId);
+  $$(`[data-pick-race="${CSS.escape(raceId)}"]`).forEach((b) => {
+    const on = b.dataset.pickCand === chosen;
+    b.setAttribute('aria-pressed', String(on));
+    b.textContent = on ? 'Your pick' : 'Choose for my ballot';
+  });
+}
 
 export function navigate(href, { replace = false } = {}) {
   if (replace) history.replaceState({}, '', href);
