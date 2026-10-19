@@ -1,0 +1,532 @@
+{
+  "county": "Webb",
+  "model": "countywide",
+  "checked_at": "2026-10-19T02:30:00Z",
+  "sources": [
+    {
+      "title": "Webb County Elections",
+      "url": "https://www.webbcountytx.gov/291/Elections"
+    },
+    {
+      "title": "Webb County: November 3, 2026 Early Voting Sites (PDF)",
+      "url": "https://www.webbcountytx.gov/DocumentCenter/View/11515/11032026---EARLY-VOTING-SITES"
+    },
+    {
+      "title": "Webb County: November 3, 2026 Election Day Sites (PDF)",
+      "url": "https://www.webbcountytx.gov/DocumentCenter/View/11534/11032026---ELECTION-DAY-SITES"
+    }
+  ],
+  "lookup_url": null,
+  "wait_times_url": null,
+  "early_voting": {
+    "schedule": [
+      {
+        "date": "2026-10-19",
+        "open": "08:00",
+        "close": "18:00"
+      },
+      {
+        "date": "2026-10-20",
+        "open": "08:00",
+        "close": "18:00"
+      },
+      {
+        "date": "2026-10-21",
+        "open": "08:00",
+        "close": "18:00"
+      },
+      {
+        "date": "2026-10-22",
+        "open": "08:00",
+        "close": "18:00"
+      },
+      {
+        "date": "2026-10-23",
+        "open": "08:00",
+        "close": "18:00"
+      },
+      {
+        "date": "2026-10-24",
+        "open": "08:00",
+        "close": "20:00"
+      },
+      {
+        "date": "2026-10-25",
+        "open": "12:00",
+        "close": "18:00"
+      },
+      {
+        "date": "2026-10-26",
+        "open": "08:00",
+        "close": "20:00"
+      },
+      {
+        "date": "2026-10-27",
+        "open": "08:00",
+        "close": "20:00"
+      },
+      {
+        "date": "2026-10-28",
+        "open": "08:00",
+        "close": "20:00"
+      },
+      {
+        "date": "2026-10-29",
+        "open": "08:00",
+        "close": "20:00"
+      },
+      {
+        "date": "2026-10-30",
+        "open": "08:00",
+        "close": "20:00"
+      }
+    ],
+    "sites": [
+      {
+        "name": "Webb County Elections Office",
+        "address": "720 Convent Ave.",
+        "city": "Laredo",
+        "zip": "",
+        "room": "",
+        "schedule": null,
+        "notes": "Main early voting site."
+      },
+      {
+        "name": "Barbara Fasken Recreation Center",
+        "address": "15201 Cerralvo Dr.",
+        "city": "Laredo",
+        "zip": "",
+        "room": "",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Laredo Fire Dept. Administrative Ctr",
+        "address": "616 E. Del Mar Blvd.",
+        "city": "Laredo",
+        "zip": "",
+        "room": "",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "City Hall Annex Building",
+        "address": "1102 Bob Bullock Loop",
+        "city": "Laredo",
+        "zip": "",
+        "room": "",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "McKendrick, Ochoa, Salinas Library",
+        "address": "1920 Palo Blanco St.",
+        "city": "Laredo",
+        "zip": "",
+        "room": "",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Laredo Rehabilitation Hospital",
+        "address": "2005 Bustamante St.",
+        "city": "Laredo",
+        "zip": "",
+        "room": "",
+        "schedule": null,
+        "notes": "Temporary branch site."
+      },
+      {
+        "name": "Doctors Hospital",
+        "address": "10700 McPherson Rd.",
+        "city": "Laredo",
+        "zip": "",
+        "room": "",
+        "schedule": null,
+        "notes": "Temporary branch site."
+      },
+      {
+        "name": "Rio Bravo Community Center",
+        "address": "1600 Orquidia Ln.",
+        "city": "Rio Bravo",
+        "zip": "",
+        "room": "",
+        "schedule": null,
+        "notes": "Temporary branch site."
+      },
+      {
+        "name": "El Cenizo Community Center",
+        "address": "3519 Cecilia Ln.",
+        "city": "El Cenizo",
+        "zip": "",
+        "room": "",
+        "schedule": null,
+        "notes": "Temporary branch site."
+      },
+      {
+        "name": "E. Salinas Community Center",
+        "address": "917 N. Main",
+        "city": "Mirando",
+        "zip": "",
+        "room": "",
+        "schedule": null,
+        "notes": "Temporary branch site."
+      },
+      {
+        "name": "Bruni Community Center",
+        "address": "303 E. 12th St.",
+        "city": "Bruni",
+        "zip": "",
+        "room": "",
+        "schedule": null,
+        "notes": "Temporary branch site."
+      },
+      {
+        "name": "Marcos Aranda Recreation and Boxing Gym",
+        "address": "4418 Old Sta. Maria Rd.",
+        "city": "",
+        "zip": "",
+        "room": "",
+        "schedule": null,
+        "notes": "Temporary branch site."
+      },
+      {
+        "name": "Joe A. Guerra Laredo Public Library",
+        "address": "1120 E. Calton Rd.",
+        "city": "",
+        "zip": "",
+        "room": "",
+        "schedule": null,
+        "notes": "Temporary branch site."
+      },
+      {
+        "name": "Dean Senator Judith Zaffirini Justice Center",
+        "address": "1110 Victoria St.",
+        "city": "",
+        "zip": "",
+        "room": "",
+        "schedule": null,
+        "notes": "Temporary branch site."
+      }
+    ]
+  },
+  "election_day": {
+    "open": "07:00",
+    "close": "19:00",
+    "sites": [
+      {
+        "name": "Webb County Elections Office",
+        "address": "720 Convent Ave",
+        "city": "Laredo",
+        "zip": "",
+        "room": "",
+        "notes": "Listed as Pct. 401."
+      },
+      {
+        "name": "Performance Arts Center (PAC)",
+        "address": "2400 San Bernardo Ave.",
+        "city": "Laredo",
+        "zip": "",
+        "room": "",
+        "notes": "Listed as Pct. 403."
+      },
+      {
+        "name": "St. Frances Cabrini Church",
+        "address": "3018 Davis Ave.",
+        "city": "Laredo",
+        "zip": "",
+        "room": "",
+        "notes": "Listed as Pct. 404."
+      },
+      {
+        "name": "Piedra Angular Templo Cristiano",
+        "address": "4020 Santa Maria Ave.",
+        "city": "Laredo",
+        "zip": "",
+        "room": "",
+        "notes": "Listed as Pct. 405."
+      },
+      {
+        "name": "35 Plaza LLC.",
+        "address": "5810 San Bernardo Ave.",
+        "city": "Laredo",
+        "zip": "",
+        "room": "",
+        "notes": "Listed as Pct. 407."
+      },
+      {
+        "name": "Hillside Recreation Center",
+        "address": "320 Wyoming St.",
+        "city": "Laredo",
+        "zip": "",
+        "room": "",
+        "notes": "Listed as Pct. 309."
+      },
+      {
+        "name": "Christ Miracle Center",
+        "address": "4400 Sanders Ave.",
+        "city": "Laredo",
+        "zip": "",
+        "room": "",
+        "notes": "Listed as Pct. 310."
+      },
+      {
+        "name": "LISD Transportation",
+        "address": "3302 Springfield Ave.",
+        "city": "Laredo",
+        "zip": "",
+        "room": "",
+        "notes": "Listed as Pct. 312."
+      },
+      {
+        "name": "Margarito Benavides Rec. Center",
+        "address": "2902 Tilden Ave.",
+        "city": "Laredo",
+        "zip": "",
+        "room": "",
+        "notes": "Listed as Pct. 413."
+      },
+      {
+        "name": "LISD Technology Center",
+        "address": "2001 Cedar Ave.",
+        "city": "Laredo",
+        "zip": "",
+        "room": "",
+        "notes": "Listed as Pct. 415."
+      },
+      {
+        "name": "First United Methodist Church",
+        "address": "1220 McClelland Ave.",
+        "city": "Laredo",
+        "zip": "",
+        "room": "",
+        "notes": "Listed as Pct. 417."
+      },
+      {
+        "name": "Canizales Boxing Gym",
+        "address": "1610 Guadalupe St.",
+        "city": "Laredo",
+        "zip": "",
+        "room": "",
+        "notes": "Listed as Pct. 221."
+      },
+      {
+        "name": "St. Joseph Church Hall",
+        "address": "109 N. Meadow Ave.",
+        "city": "Laredo",
+        "zip": "",
+        "room": "",
+        "notes": "Listed as Pct. 124."
+      },
+      {
+        "name": "UISD Service Center",
+        "address": "3501 E. Saunders St.",
+        "city": "Laredo",
+        "zip": "",
+        "room": "",
+        "notes": "Listed as Pct. 226."
+      },
+      {
+        "name": "Iglesia Senda de Gloria",
+        "address": "125 Mendoza St.",
+        "city": "Laredo",
+        "zip": "",
+        "room": "",
+        "notes": "Listed as Pct. 227."
+      },
+      {
+        "name": "Templo Revelacion",
+        "address": "1102 S. Meadow Ave.",
+        "city": "Laredo",
+        "zip": "",
+        "room": "",
+        "notes": "Listed as Pct. 128."
+      },
+      {
+        "name": "McKendrick Ochoa Salinas Library",
+        "address": "1920 Palo Blanco St.",
+        "city": "Laredo",
+        "zip": "",
+        "room": "",
+        "notes": "Listed as Pct. 130."
+      },
+      {
+        "name": "UISD Family Matters Resource Center",
+        "address": "4906 Highway 83",
+        "city": "Laredo",
+        "zip": "",
+        "room": "",
+        "notes": "Listed as Pct. 132."
+      },
+      {
+        "name": "Rio Bravo Community Center",
+        "address": "1600 Orquidia Ln.",
+        "city": "Rio Bravo",
+        "zip": "",
+        "room": "",
+        "notes": "Listed as Pct. 134."
+      },
+      {
+        "name": "El Cenizo Community Center",
+        "address": "3519 Cecilia Ln.",
+        "city": "El Cenizo",
+        "zip": "",
+        "room": "",
+        "notes": "Listed as Pct. 135."
+      },
+      {
+        "name": "E. Salinas Community Center",
+        "address": "917 N. Main",
+        "city": "Mirando",
+        "zip": "",
+        "room": "",
+        "notes": "Listed as Pct. 136."
+      },
+      {
+        "name": "Bruni Community Center",
+        "address": "303 E. 12th St.",
+        "city": "Bruni",
+        "zip": "",
+        "room": "",
+        "notes": "Listed as Pct. 237."
+      },
+      {
+        "name": "Laredo First Assembly of God",
+        "address": "6103 McPherson Rd.",
+        "city": "Laredo",
+        "zip": "",
+        "room": "",
+        "notes": "Listed as Pct. 239."
+      },
+      {
+        "name": "JP Precinct 4 Building",
+        "address": "8501 San Dario Ave.",
+        "city": "Laredo",
+        "zip": "",
+        "room": "",
+        "notes": "Listed as Pct. 342."
+      },
+      {
+        "name": "Laredo Fire Department",
+        "address": "616 E. Del Mar Blvd.",
+        "city": "Laredo",
+        "zip": "",
+        "room": "",
+        "notes": "Listed as Pct. 343."
+      },
+      {
+        "name": "Church of the Crossroads",
+        "address": "1301 International Blvd.",
+        "city": "Laredo",
+        "zip": "",
+        "room": "",
+        "notes": "Listed as Pct. 344."
+      },
+      {
+        "name": "F&A Bruni Community Center",
+        "address": "452 Rancho Penitas Rd.",
+        "city": "Laredo",
+        "zip": "",
+        "room": "",
+        "notes": "Listed as Pct. 448."
+      },
+      {
+        "name": "TX Fine Furniture",
+        "address": "2455 Monarch Dr.",
+        "city": "Laredo",
+        "zip": "",
+        "room": "",
+        "notes": "Listed as Pct. 349."
+      },
+      {
+        "name": "UISD SAC",
+        "address": "5208 Santa Claudia Ln.",
+        "city": "Laredo",
+        "zip": "",
+        "room": "",
+        "notes": "Listed as Pct. 250."
+      },
+      {
+        "name": "Laredo Rehabilitation Hospital",
+        "address": "2005 Bustamante St",
+        "city": "Laredo",
+        "zip": "",
+        "room": "",
+        "notes": "Listed as Pct. 251."
+      },
+      {
+        "name": "Boys & Girls Club Lamar",
+        "address": "3900 Los Presidentes Ave.",
+        "city": "Laredo",
+        "zip": "",
+        "room": "",
+        "notes": "Listed as Pct. 252."
+      },
+      {
+        "name": "Lamar Bruni Vergara Park",
+        "address": "202 W. Plum St.",
+        "city": "Laredo",
+        "zip": "",
+        "room": "",
+        "notes": "Listed as Pct. 453."
+      },
+      {
+        "name": "El Eden Recreation Center",
+        "address": "4735 Loma Vista Dr.",
+        "city": "Laredo",
+        "zip": "",
+        "room": "",
+        "notes": "Listed as Pct. 154."
+      },
+      {
+        "name": "Texas A&M Int'l University Village",
+        "address": "4907 University Blvd.",
+        "city": "Laredo",
+        "zip": "",
+        "room": "",
+        "notes": "Listed as Pct. 255."
+      },
+      {
+        "name": "Barbara Fasken Recreation Center",
+        "address": "15201 Cerralvo Dr.",
+        "city": "Laredo",
+        "zip": "",
+        "room": "",
+        "notes": "Listed as Pct. 458."
+      },
+      {
+        "name": "Doctors Hospital",
+        "address": "10700 McPherson Rd.",
+        "city": "Laredo",
+        "zip": "",
+        "room": "",
+        "notes": "Listed as Pct. 359."
+      },
+      {
+        "name": "Gallagher Garden Apts.",
+        "address": "5118 Gallagher Ave.",
+        "city": "Laredo",
+        "zip": "",
+        "room": "",
+        "notes": "Listed as Pct. 460."
+      },
+      {
+        "name": "City Hall Annex Bldg.",
+        "address": "1102 Bob Bullock Loop",
+        "city": "Laredo",
+        "zip": "",
+        "room": "",
+        "notes": "Listed as Pct. 266."
+      },
+      {
+        "name": "Guerra Building",
+        "address": "6402 N. Bartlett",
+        "city": "Laredo",
+        "zip": "",
+        "room": "",
+        "notes": "Listed as Pct. 272."
+      }
+    ]
+  },
+  "notes": "Voters can vote at any Election Day center in Webb County. Early voting runs 8 a.m. to 6 p.m. the first week, 8 a.m. to 8 p.m. Saturday and the second week, and noon to 6 p.m. Sunday."
+}

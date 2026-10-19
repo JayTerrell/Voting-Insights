@@ -1,0 +1,502 @@
+{
+  "county": "Bell",
+  "model": "countywide",
+  "checked_at": "2026-10-19T02:10:00Z",
+  "sources": [
+    {
+      "title": "Bell County Elections: Early Voting Information",
+      "url": "https://www.bellcountytx.com/departments/elections/early_voting_information.php"
+    },
+    {
+      "title": "Bell County Elections: Election Day Polling Locations",
+      "url": "https://www.bellcountytx.com/departments/elections/election_day_locations.php"
+    },
+    {
+      "title": "Bell County Office of Elections Administration",
+      "url": "https://www.bellcountytx.com/departments/elections/index.php"
+    }
+  ],
+  "lookup_url": null,
+  "wait_times_url": "https://updates.electionlink.net/widgets/belltx/2026-11-03/Early%20Voting%20Dashboard.html",
+  "early_voting": {
+    "schedule": [
+      {
+        "date": "2026-10-19",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-20",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-21",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-22",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-23",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-24",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-25",
+        "open": "12:00",
+        "close": "18:00"
+      },
+      {
+        "date": "2026-10-26",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-27",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-28",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-29",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-30",
+        "open": "07:00",
+        "close": "19:00"
+      }
+    ],
+    "sites": [
+      {
+        "name": "Morgan's Point Event Center",
+        "address": "60 Morgan's Point Blvd",
+        "city": "Morgan's Point Resort",
+        "zip": "76513",
+        "room": "",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Belton Annex",
+        "address": "550 E. 2nd Avenue",
+        "city": "Belton",
+        "zip": "76513",
+        "room": "",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Harker Heights Parks & Recreation Center",
+        "address": "307 Millers Crossing",
+        "city": "Harker Heights",
+        "zip": "76548",
+        "room": "",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Thomas Arnold Elementary School Gym T3",
+        "address": "620 Thomas Arnold Road",
+        "city": "Salado",
+        "zip": "76571",
+        "room": "",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Jackson Professional Learning Center",
+        "address": "902 Rev R A Ambercrombie Drive",
+        "city": "Killeen",
+        "zip": "76543",
+        "room": "",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Killeen Senior Center @ Lions Club Park",
+        "address": "1700 E. Stan Schleuter Loop",
+        "city": "Killeen",
+        "zip": "76542",
+        "room": "",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Temple ISD Admin Building",
+        "address": "401 Santa Fe Way",
+        "city": "Temple",
+        "zip": "76501",
+        "room": "",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "True Deliverance Ministries",
+        "address": "709 W Dean Ave",
+        "city": "Killeen",
+        "zip": "76541",
+        "room": "",
+        "schedule": null,
+        "notes": ""
+      }
+    ]
+  },
+  "election_day": {
+    "open": "07:00",
+    "close": "19:00",
+    "sites": [
+      {
+        "name": "Belton Nazarene Church",
+        "address": "1701 Sparta Road",
+        "city": "Belton",
+        "zip": "76513",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "North Belton Annex",
+        "address": "1605 N. Main Street",
+        "city": "Belton",
+        "zip": "76513",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Belton Senior Center",
+        "address": "842 S. Mitchell Street",
+        "city": "Belton",
+        "zip": "76513",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Morgan's Point Event Center",
+        "address": "60 Morgan's Point Blvd",
+        "city": "Morgan's Point Resort",
+        "zip": "76513",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Little River's Freedom Road Fellowship",
+        "address": "1406 W. Church Street",
+        "city": "Little River Academy",
+        "zip": "76554",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Liberty Christian Center",
+        "address": "4107 Westcliff Road",
+        "city": "Killeen",
+        "zip": "76543",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Bartlett City Hall",
+        "address": "140 W. Clark Street",
+        "city": "Bartlett",
+        "zip": "76511",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Holland Community Center",
+        "address": "107 W. Travis Street",
+        "city": "Holland",
+        "zip": "76534",
+        "room": "",
+        "notes": "New site"
+      },
+      {
+        "name": "Christian House of Prayer",
+        "address": "3300 E. Stan Schlueter Loop",
+        "city": "Killeen",
+        "zip": "76542",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Nolanville City Hall",
+        "address": "101 N. 5th Street",
+        "city": "Nolanville",
+        "zip": "76559",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Belton Annex",
+        "address": "550 E. 2nd Avenue",
+        "city": "Belton",
+        "zip": "76513",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "VFW Post 3892",
+        "address": "201 VFW Drive",
+        "city": "Harker Heights",
+        "zip": "76548",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Harker Heights Parks & Recreation Center",
+        "address": "307 Millers Crossing",
+        "city": "Harker Heights",
+        "zip": "76548",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Thomas Arnold Elementary School Gym T3",
+        "address": "620 Thomas Arnold Road",
+        "city": "Salado",
+        "zip": "76571",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Lakeview Baptist Church",
+        "address": "7717 HWY 317",
+        "city": "Belton",
+        "zip": "76513",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Jackson Professional Learning Center",
+        "address": "902 Rev R A Ambercrombie Drive",
+        "city": "Killeen",
+        "zip": "76543",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Killeen Senior Center @ Lions Club Park",
+        "address": "1700 E. Stan Schleuter Loop",
+        "city": "Killeen",
+        "zip": "76542",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Charis Church",
+        "address": "1401 E. Elms Road",
+        "city": "Killeen",
+        "zip": "76542",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "St. Paul Chong Hasang Catholic Church",
+        "address": "1000 E. FM 2410",
+        "city": "Harker Heights",
+        "zip": "76548",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "First Baptist Church of Trimmier",
+        "address": "6405 Chaparral Road",
+        "city": "Killeen",
+        "zip": "76542",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Troy Community Center",
+        "address": "201 E. Main Street",
+        "city": "Troy",
+        "zip": "76579",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "VFW Post 1820",
+        "address": "3302 Airport Road",
+        "city": "Temple",
+        "zip": "76504",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Northside Church of Christ",
+        "address": "3401 N. 3rd Street",
+        "city": "Temple",
+        "zip": "76501",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Memorial Baptist Church",
+        "address": "6161 S 5th Street",
+        "city": "Temple",
+        "zip": "76502",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Cross Church on Birdcreek",
+        "address": "2202 Birdcreek Drive",
+        "city": "Temple",
+        "zip": "76502",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Immanuel Baptist Church",
+        "address": "1401 W. Central Avenue",
+        "city": "Temple",
+        "zip": "76504",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Temple ISD Admin Building",
+        "address": "401 Santa Fe Way",
+        "city": "Temple",
+        "zip": "76501",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Temple College",
+        "address": "130 E Marvin R Felder Drive",
+        "city": "Temple",
+        "zip": "76501",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Meredith-Dunbar Early Childhood Academy",
+        "address": "1717 E. Avenue J",
+        "city": "Temple",
+        "zip": "76504",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "St. Joseph Catholic Church Fellowship Hall",
+        "address": "20220 FM 485",
+        "city": "Burlington",
+        "zip": "76519",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Vintage Church Harker Heights",
+        "address": "171 FM 3219",
+        "city": "Harker Heights",
+        "zip": "76548",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "St. Matthews Catholic Church",
+        "address": "14051 E US Highway 190",
+        "city": "Rogers",
+        "zip": "76569",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "First Church of the Nazarene",
+        "address": "5000 S 31st Street",
+        "city": "Temple",
+        "zip": "76502",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Boys Ranch Road",
+        "address": "3275 Boys Ranch Road",
+        "city": "Kempner",
+        "zip": "76539",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Triple 7 Fire Station",
+        "address": "258 Triple 7 Trial",
+        "city": "Killeen",
+        "zip": "76542",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "True Deliverance Ministries",
+        "address": "709 W Dean Ave",
+        "city": "Killeen",
+        "zip": "76541",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Central Texas College - Clear Creek Building 559",
+        "address": "1901 S. Clear Creek Road",
+        "city": "Killeen",
+        "zip": "76549",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Anderson Chapel A. M. E. Church",
+        "address": "1002 Jefferis Avenue",
+        "city": "Killeen",
+        "zip": "76543",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Westside Baptist Church",
+        "address": "711 Stagecoach Road",
+        "city": "Killeen",
+        "zip": "76542",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Killeen Utilities Department",
+        "address": "210 W. Avenue C",
+        "city": "Killeen",
+        "zip": "76541",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "The Journey Church",
+        "address": "5300 Bunny Trail",
+        "city": "Killeen",
+        "zip": "76549",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Pershing Park Baptist Church",
+        "address": "1200 FM Old 440 Road",
+        "city": "Killeen",
+        "zip": "76549",
+        "room": "",
+        "notes": ""
+      }
+    ]
+  },
+  "notes": "Bell County uses vote centers, so registered voters may vote at any listed site on Election Day. Early voting hours are shorter in the first week (8 a.m. to 5 p.m. Oct 19 to 23); the county says Election Day sites are subject to change."
+}

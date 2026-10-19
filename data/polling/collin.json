@@ -1,0 +1,1456 @@
+{
+ "county": "Collin",
+ "model": "countywide",
+ "checked_at": "2026-10-19T02:09:58Z",
+ "sources": [
+  {
+   "title": "Collin County Elections: Polling Locations",
+   "url": "https://www.collincountytx.gov/elections/polling-locations"
+  },
+  {
+   "title": "Collin County Elections: Polling locations data (November 3, 2026 Uniform Election, early voting schedule)",
+   "url": "https://api.collincountytx.gov/Elections2APIProxy/elections/public"
+  },
+  {
+   "title": "Collin County Elections: Frequently Asked Questions (vote centers)",
+   "url": "https://www.collincountytx.gov/elections/FAQ"
+  }
+ ],
+ "lookup_url": "https://www.collincountytx.gov/elections/polling-locations?electionId=75&scheduleType=ev",
+ "wait_times_url": "https://www.collincountytx.gov/elections/polling-locations?electionId=75&scheduleType=ev",
+ "early_voting": {
+  "schedule": [
+   {
+    "date": "2026-10-19",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-20",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-21",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-22",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-23",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-24",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-25",
+    "open": "11:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-26",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-27",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-28",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-29",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-30",
+    "open": "07:00",
+    "close": "19:00"
+   }
+  ],
+  "sites": [
+   {
+    "name": "Lavon City Hall",
+    "address": "120 School Road",
+    "city": "Lavon",
+    "zip": "75166",
+    "room": "Gymnasium",
+    "schedule": null,
+    "notes": "",
+    "lat": 33.027371,
+    "lng": -96.433434
+   },
+   {
+    "name": "St. Paul Town Hall",
+    "address": "2505 Butcher's Block",
+    "city": "St. Paul",
+    "zip": "75098",
+    "room": "Council Chambers",
+    "schedule": null,
+    "notes": "",
+    "lat": 33.050817,
+    "lng": -96.549612
+   },
+   {
+    "name": "McKinney Fire Station #7",
+    "address": "861 Independence Parkway",
+    "city": "McKinney",
+    "zip": "75072",
+    "room": "Community Room",
+    "schedule": null,
+    "notes": "Directions: S of Virginia .5 mile / E.Side",
+    "lat": 33.195162,
+    "lng": -96.750318
+   },
+   {
+    "name": "Frisco Fire Station #5",
+    "address": "14300 Eldorado Pkwy",
+    "city": "Frisco",
+    "zip": "75035",
+    "room": "Training Room",
+    "schedule": null,
+    "notes": "",
+    "lat": 33.174536,
+    "lng": -96.752586
+   },
+   {
+    "name": "Lovejoy ISD Administration Building",
+    "address": "259 Country Club Road",
+    "city": "Allen",
+    "zip": "75002",
+    "room": "Portable #1 Training Room",
+    "schedule": null,
+    "notes": "",
+    "lat": 33.087523,
+    "lng": -96.590941
+   },
+   {
+    "name": "Allen Public Library",
+    "address": "300 N Allen Drive",
+    "city": "Allen",
+    "zip": "75013",
+    "room": "Meeting Room A&B",
+    "schedule": null,
+    "notes": "",
+    "lat": 33.105136,
+    "lng": -96.671455
+   },
+   {
+    "name": "Tom Muehlenbeck Recreation Center",
+    "address": "5801 W Parker Road",
+    "city": "Plano",
+    "zip": "75093",
+    "room": "Meeting Room B&C",
+    "schedule": null,
+    "notes": "Directions: NE Corner - DNT and Parker",
+    "lat": 33.039984,
+    "lng": -96.820421
+   },
+   {
+    "name": "Davis Library",
+    "address": "7501 Independence Parkway A",
+    "city": "Plano",
+    "zip": "75025",
+    "room": "Program Room 1 & 2",
+    "schedule": null,
+    "notes": "",
+    "lat": 33.080362,
+    "lng": -96.750231
+   },
+   {
+    "name": "Haggard Library",
+    "address": "2501 Coit Road",
+    "city": "Plano",
+    "zip": "75075",
+    "room": "Program Room",
+    "schedule": null,
+    "notes": "",
+    "lat": 33.031909,
+    "lng": -96.770211
+   },
+   {
+    "name": "Melissa City Hall",
+    "address": "3411 Barker Avenue",
+    "city": "Melissa",
+    "zip": "75454",
+    "room": "Multi-Purpose Room",
+    "schedule": null,
+    "notes": "Directions: N of Melissa Rd. and E of Hwy 5",
+    "lat": 33.292992,
+    "lng": -96.572754
+   },
+   {
+    "name": "Parker City Hall",
+    "address": "5700 E Parker Road",
+    "city": "Parker",
+    "zip": "75002",
+    "room": "Council Chambers",
+    "schedule": null,
+    "notes": "",
+    "lat": 33.05528,
+    "lng": -96.621835
+   },
+   {
+    "name": "Frisco Fire Station #8",
+    "address": "14700 Rolater Road",
+    "city": "Frisco",
+    "zip": "75035",
+    "room": "Training Room",
+    "schedule": null,
+    "notes": "",
+    "lat": 33.137929,
+    "lng": -96.749419
+   },
+   {
+    "name": "Carpenter Park Recreation Center",
+    "address": "6701 Coit Road",
+    "city": "Plano",
+    "zip": "75024",
+    "room": "South Lobby",
+    "schedule": null,
+    "notes": "",
+    "lat": 33.064345,
+    "lng": -96.77063
+   },
+   {
+    "name": "Harrington Library",
+    "address": "1501 18th Street",
+    "city": "Plano",
+    "zip": "75074",
+    "room": "Program Room",
+    "schedule": null,
+    "notes": "",
+    "lat": 33.023934,
+    "lng": -96.693196
+   },
+   {
+    "name": "Blue Ridge ISD Administration Building",
+    "address": "318 W School Street",
+    "city": "Blue Ridge",
+    "zip": "75424",
+    "room": "Board of Trustees Board Room",
+    "schedule": null,
+    "notes": "Directions: N of Blue Ridge ES",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Collin College McKinney Campus",
+    "address": "2200 University Drive",
+    "city": "McKinney",
+    "zip": "75071",
+    "room": "Atrium 4, C-Square",
+    "schedule": null,
+    "notes": "Directions: W of Hwy 75/A117 Board Rm",
+    "lat": 33.216977,
+    "lng": -96.64114
+   },
+   {
+    "name": "Collin College Frisco Campus",
+    "address": "9700 Wade Boulevard",
+    "city": "Frisco",
+    "zip": "75035",
+    "room": "Building J, Room 113",
+    "schedule": null,
+    "notes": "Directions: N of Hwy 121/E of Preston",
+    "lat": 33.129868,
+    "lng": -96.798819
+   },
+   {
+    "name": "Collin College Plano Campus",
+    "address": "2800 E. Spring Creek Pkwy",
+    "city": "Plano",
+    "zip": "75074",
+    "room": "Main Building in Atrium 3",
+    "schedule": null,
+    "notes": "",
+    "lat": 33.049021,
+    "lng": -96.672341
+   },
+   {
+    "name": "Collin College Higher Education Center",
+    "address": "3452 Spur 399",
+    "city": "McKinney",
+    "zip": "75069",
+    "room": "Atrium 1",
+    "schedule": null,
+    "notes": "Directions: NE Hwy 121 @ Spur 399",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Gay Library",
+    "address": "6861 W Eldorado Parkway",
+    "city": "McKinney",
+    "zip": "75070",
+    "room": "Meeting Room",
+    "schedule": null,
+    "notes": "",
+    "lat": 33.174052,
+    "lng": -96.706047
+   },
+   {
+    "name": "McKinney Fire Station #5",
+    "address": "6600 Virginia Parkway",
+    "city": "McKinney",
+    "zip": "75071",
+    "room": "Community Room",
+    "schedule": null,
+    "notes": "",
+    "lat": 33.199353,
+    "lng": -96.704279
+   },
+   {
+    "name": "Parr Library",
+    "address": "6200 Windhaven Parkway",
+    "city": "Plano",
+    "zip": "75093",
+    "room": "Program Room",
+    "schedule": null,
+    "notes": "",
+    "lat": 33.055699,
+    "lng": -96.833788
+   },
+   {
+    "name": "Renner-Frankford Library",
+    "address": "6400 Frankford Road",
+    "city": "Dallas",
+    "zip": "75252",
+    "room": "Auditorium",
+    "schedule": null,
+    "notes": "Directions: E of Preston",
+    "lat": 32.998108,
+    "lng": -96.795109
+   },
+   {
+    "name": "Murphy Community Center",
+    "address": "205 N Murphy Road",
+    "city": "Murphy",
+    "zip": "75094",
+    "room": "Homer and Marie Adams Room",
+    "schedule": null,
+    "notes": "",
+    "lat": 33.017655,
+    "lng": -96.612827
+   },
+   {
+    "name": "Allen ISD Service Center",
+    "address": "1451 N Watters Road",
+    "city": "Allen",
+    "zip": "75013",
+    "room": "Front Lobby",
+    "schedule": null,
+    "notes": "",
+    "lat": 33.122023,
+    "lng": -96.681075
+   },
+   {
+    "name": "Collin County Elections",
+    "address": "2010 Redbud Boulevard",
+    "city": "McKinney",
+    "zip": "75069",
+    "room": "Voting Room",
+    "schedule": null,
+    "notes": "",
+    "lat": 33.220332,
+    "lng": -96.628894
+   },
+   {
+    "name": "Prosper Town Hall",
+    "address": "250 W First Street",
+    "city": "Prosper",
+    "zip": "75078",
+    "room": "Community Room",
+    "schedule": null,
+    "notes": "",
+    "lat": 33.23373,
+    "lng": -96.803776
+   },
+   {
+    "name": "The Grove at Frisco Commons",
+    "address": "8300 McKinney Road",
+    "city": "Frisco",
+    "zip": "75034",
+    "room": "Game Room C",
+    "schedule": null,
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Collin College Wylie Campus",
+    "address": "391 Country Club Road",
+    "city": "Wylie",
+    "zip": "75098",
+    "room": "WSC Atrium 1",
+    "schedule": null,
+    "notes": "",
+    "lat": 33.018723,
+    "lng": -96.56898
+   },
+   {
+    "name": "Wylie Community Park Center",
+    "address": "800 Thomas Street #100",
+    "city": "Wylie",
+    "zip": "75098",
+    "room": "Dining Room",
+    "schedule": null,
+    "notes": "",
+    "lat": 33.006023,
+    "lng": -96.532372
+   },
+   {
+    "name": "Collin College Farmersville Campus",
+    "address": "501 S Collin Parkway",
+    "city": "Farmersville",
+    "zip": "75442",
+    "room": "FVC Atrium 2",
+    "schedule": null,
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Collin College Celina Campus",
+    "address": "2505 Kinship Parkway",
+    "city": "Celina",
+    "zip": "75009",
+    "room": "Classroom CEC110",
+    "schedule": null,
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "McKinney Fire Station #9",
+    "address": "4900 Summit View Drive",
+    "city": "McKinney",
+    "zip": "75071",
+    "room": "Community Room",
+    "schedule": null,
+    "notes": "",
+    "lat": 33.227666,
+    "lng": -96.678859
+   },
+   {
+    "name": "Michael J Felix Community Center",
+    "address": "3815-E Sachse Road",
+    "city": "Sachse",
+    "zip": "75048",
+    "room": "Rooms A and B",
+    "schedule": null,
+    "notes": "",
+    "lat": 32.973327,
+    "lng": -96.584662
+   },
+   {
+    "name": "McKinney Fire Station #10",
+    "address": "1150 Olympic Crossing",
+    "city": "McKinney",
+    "zip": "75071",
+    "room": "Community Room",
+    "schedule": null,
+    "notes": "",
+    "lat": 33.282607,
+    "lng": -96.625318
+   },
+   {
+    "name": "Steven and Judy Deffibaugh Community Center",
+    "address": "416 N 4th Street",
+    "city": "Princeton",
+    "zip": "75407",
+    "room": "Main Lobby",
+    "schedule": null,
+    "notes": "",
+    "lat": 33.178116,
+    "lng": -96.496725
+   },
+   {
+    "name": "Terry Pope Administration Building",
+    "address": "611 N FM 1138",
+    "city": "Nevada",
+    "zip": "75173",
+    "room": "LaCoNe Jo Room (Door 1&2)",
+    "schedule": null,
+    "notes": "",
+    "lat": 33.062576,
+    "lng": -96.365202
+   },
+   {
+    "name": "Liberty Recreation Center",
+    "address": "2601 Glencliff Drive",
+    "city": "Plano",
+    "zip": "75075",
+    "room": "Meeting Room A",
+    "schedule": null,
+    "notes": "",
+    "lat": 33.013858,
+    "lng": -96.74316
+   },
+   {
+    "name": "McKinney City Hall",
+    "address": "401 E Virginia Street",
+    "city": "McKinney",
+    "zip": "75069",
+    "room": "2nd Floor Lobby",
+    "schedule": null,
+    "notes": "",
+    "lat": 33.198032,
+    "lng": -96.610674
+   },
+   {
+    "name": "Josephine Community Center",
+    "address": "404 Main Street",
+    "city": "Josephine",
+    "zip": "75173",
+    "room": "Community Room",
+    "schedule": null,
+    "notes": "",
+    "lat": 33.064544,
+    "lng": -96.310036
+   },
+   {
+    "name": "Anna Community Library",
+    "address": "111 W 5th Street",
+    "city": "Anna",
+    "zip": "75409",
+    "room": "Multipurpose Room",
+    "schedule": null,
+    "notes": "",
+    "lat": 33.348152,
+    "lng": -96.549328
+   },
+   {
+    "name": "Lucas Fire Department",
+    "address": "165 Country Club Road",
+    "city": "Lucas",
+    "zip": "75002",
+    "room": "Training Room",
+    "schedule": null,
+    "notes": "",
+    "lat": 33.086261,
+    "lng": -96.590947
+   }
+  ]
+ },
+ "election_day": {
+  "open": "07:00",
+  "close": "19:00",
+  "sites": [
+   {
+    "name": "Clark High School",
+    "address": "523 Spring Creek Parkway",
+    "city": "Plano",
+    "zip": "75023",
+    "room": "Conference Room 100W",
+    "notes": "Directions: W of Hwy 75",
+    "lat": 33.057755,
+    "lng": -96.70238
+   },
+   {
+    "name": "Saigling Elementary School",
+    "address": "3600 Matterhorn Dr",
+    "city": "Plano",
+    "zip": "75075",
+    "room": "Gymnasium Room M102",
+    "notes": "Directions: W of Mission Ridge",
+    "lat": 33.035449,
+    "lng": -96.764939
+   },
+   {
+    "name": "Christie Elementary School",
+    "address": "3801 Rainier Road",
+    "city": "Plano",
+    "zip": "75023",
+    "room": "Gym",
+    "notes": "",
+    "lat": 33.04662,
+    "lng": -96.72265
+   },
+   {
+    "name": "Dowell Middle School",
+    "address": "301 S Ridge Road",
+    "city": "McKinney",
+    "zip": "75072",
+    "room": "Gym Hallway",
+    "notes": "Directions: S of Virginia Pkwy",
+    "lat": 33.197591,
+    "lng": -96.697962
+   },
+   {
+    "name": "Daffron Elementary School",
+    "address": "3900 Preston Meadow Drive",
+    "city": "Plano",
+    "zip": "75093",
+    "room": "PTA Room (A118)",
+    "notes": "Directions: W of Coit, N of Parker",
+    "lat": 33.049789,
+    "lng": -96.7799
+   },
+   {
+    "name": "Haggar Elementary School",
+    "address": "17820 Campbell Road",
+    "city": "Dallas",
+    "zip": "75252",
+    "room": "Gymnasium",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Lavon City Hall",
+    "address": "120 School Road",
+    "city": "Lavon",
+    "zip": "75166",
+    "room": "Gymnasium",
+    "notes": "",
+    "lat": 33.027371,
+    "lng": -96.433434
+   },
+   {
+    "name": "Sigler Elementary School",
+    "address": "1400 Janwood Drive",
+    "city": "Plano",
+    "zip": "75075",
+    "room": "Gymnasium",
+    "notes": "Directions: W of Alma/Btwn 15th and Plano Pkwy",
+    "lat": 33.015129,
+    "lng": -96.719706
+   },
+   {
+    "name": "Verona Baptist Church",
+    "address": "7204 FM 1377",
+    "city": "Blue Ridge",
+    "zip": "75454",
+    "room": "Fellowship Hall",
+    "notes": "Directions: County Rd 1377",
+    "lat": 33.246274,
+    "lng": -96.437728
+   },
+   {
+    "name": "Stinson Elementary School",
+    "address": "4201 Greenfield Drive",
+    "city": "Richardson",
+    "zip": "75082",
+    "room": "Gymnasium",
+    "notes": "",
+    "lat": 32.989067,
+    "lng": -96.641575
+   },
+   {
+    "name": "Barksdale Elementary School",
+    "address": "2424 Midway Road",
+    "city": "Plano",
+    "zip": "75093",
+    "room": "Gymnasium",
+    "notes": "",
+    "lat": 33.032871,
+    "lng": -96.839901
+   },
+   {
+    "name": "Rice Middle School",
+    "address": "8500 Gifford",
+    "city": "Plano",
+    "zip": "75025",
+    "room": "Small Gymnasium",
+    "notes": "",
+    "lat": 33.093621,
+    "lng": -96.760963
+   },
+   {
+    "name": "Renner Middle School",
+    "address": "5701 W Parker Rd",
+    "city": "Plano",
+    "zip": "75093",
+    "room": "Gymnasium",
+    "notes": "",
+    "lat": 33.044826,
+    "lng": -96.816934
+   },
+   {
+    "name": "St. Paul Town Hall",
+    "address": "2505 Butcher's Block",
+    "city": "St. Paul",
+    "zip": "75098",
+    "room": "Council Chambers",
+    "notes": "",
+    "lat": 33.050817,
+    "lng": -96.549612
+   },
+   {
+    "name": "McKinney Senior Recreation Center",
+    "address": "1400 S College Street",
+    "city": "McKinney",
+    "zip": "75069",
+    "room": "Meeting Room",
+    "notes": "",
+    "lat": 33.185208,
+    "lng": -96.620973
+   },
+   {
+    "name": "Haun Elementary School",
+    "address": "4500 Quincy Lane",
+    "city": "Plano",
+    "zip": "75024",
+    "room": "Gymnasium",
+    "notes": "Directions: Legacy and Preston Meadow",
+    "lat": 33.079075,
+    "lng": -96.786164
+   },
+   {
+    "name": "Seis Lagos Community Services Association",
+    "address": "222 Seis Lagos Trail",
+    "city": "Wylie",
+    "zip": "75098",
+    "room": "Clubhouse",
+    "notes": "",
+    "lat": 33.070437,
+    "lng": -96.563369
+   },
+   {
+    "name": "Woodcreek Church",
+    "address": "3400 E Renner Road",
+    "city": "Richardson",
+    "zip": "75082",
+    "room": "Atrium - North Entrance",
+    "notes": "Directions: SW Corner- Renner and Telecom",
+    "lat": 32.996881,
+    "lng": -96.65758
+   },
+   {
+    "name": "McKinney Fire Station #7",
+    "address": "861 Independence Parkway",
+    "city": "McKinney",
+    "zip": "75072",
+    "room": "Community Room",
+    "notes": "Directions: S of Virginia .5 mile / E.Side",
+    "lat": 33.195162,
+    "lng": -96.750318
+   },
+   {
+    "name": "Stonebridge United Methodist Church",
+    "address": "1800 S Stonebridge Drive",
+    "city": "McKinney",
+    "zip": "75072",
+    "room": "Gymnasium",
+    "notes": "Directions: S",
+    "lat": 33.185482,
+    "lng": -96.713078
+   },
+   {
+    "name": "Weston First Baptist Church",
+    "address": "300 Main St",
+    "city": "Weston",
+    "zip": "75009",
+    "room": "Fellowship Hall",
+    "notes": "",
+    "lat": 33.346541,
+    "lng": -96.666431
+   },
+   {
+    "name": "Frisco Fire Station #5",
+    "address": "14300 Eldorado Pkwy",
+    "city": "Frisco",
+    "zip": "75035",
+    "room": "Training Room",
+    "notes": "",
+    "lat": 33.174536,
+    "lng": -96.752586
+   },
+   {
+    "name": "McKinney Boyd High School",
+    "address": "600 N Lake Forest Dr",
+    "city": "McKinney",
+    "zip": "75071",
+    "room": "Library",
+    "notes": "",
+    "lat": 33.200208,
+    "lng": -96.680139
+   },
+   {
+    "name": "Princeton ISD Administration Building",
+    "address": "804 Mabel Avenue",
+    "city": "Princeton",
+    "zip": "75407",
+    "room": "Board Room",
+    "notes": "",
+    "lat": 33.178154,
+    "lng": -96.495291
+   },
+   {
+    "name": "Christ the Servant Lutheran Church",
+    "address": "821 S Greenville Avenue",
+    "city": "Allen",
+    "zip": "75002",
+    "room": "Fellowship Hall",
+    "notes": "",
+    "lat": 33.086883,
+    "lng": -96.671505
+   },
+   {
+    "name": "Lovejoy ISD Administration Building",
+    "address": "259 Country Club Road",
+    "city": "Allen",
+    "zip": "75002",
+    "room": "Portable #1 Training Room",
+    "notes": "",
+    "lat": 33.087523,
+    "lng": -96.590941
+   },
+   {
+    "name": "Allen Public Library",
+    "address": "300 N Allen Drive",
+    "city": "Allen",
+    "zip": "75013",
+    "room": "Meeting Room A&B",
+    "notes": "",
+    "lat": 33.105136,
+    "lng": -96.671455
+   },
+   {
+    "name": "Hendrick Middle School",
+    "address": "7400 Red River Dr",
+    "city": "Plano",
+    "zip": "75025",
+    "room": "Gym",
+    "notes": "Directions: N off Legacy",
+    "lat": 33.077173,
+    "lng": -96.72492
+   },
+   {
+    "name": "Miller Elementary School",
+    "address": "5651 Coventry Drive",
+    "city": "Richardson",
+    "zip": "75082",
+    "room": "Gymnasium",
+    "notes": "Directions: E on Hartford off Brand",
+    "lat": 32.992301,
+    "lng": -96.616506
+   },
+   {
+    "name": "Mitchell Elementary School",
+    "address": "4223 Briargrove Ln",
+    "city": "Dallas",
+    "zip": "75287",
+    "room": "Gym",
+    "notes": "Directions: Btwn Midway and Dallas Pkwy",
+    "lat": 32.992768,
+    "lng": -96.838125
+   },
+   {
+    "name": "Shepton High School",
+    "address": "5505 Plano Parkway",
+    "city": "Plano",
+    "zip": "75093",
+    "room": "Small Gym F202",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Tom Muehlenbeck Recreation Center",
+    "address": "5801 W Parker Road",
+    "city": "Plano",
+    "zip": "75093",
+    "room": "Meeting Room B&C",
+    "notes": "Directions: NE Corner - DNT and Parker",
+    "lat": 33.039984,
+    "lng": -96.820421
+   },
+   {
+    "name": "Davis Library",
+    "address": "7501 Independence Parkway A",
+    "city": "Plano",
+    "zip": "75025",
+    "room": "Program Room 1 & 2",
+    "notes": "",
+    "lat": 33.080362,
+    "lng": -96.750231
+   },
+   {
+    "name": "Haggard Library",
+    "address": "2501 Coit Road",
+    "city": "Plano",
+    "zip": "75075",
+    "room": "Program Room",
+    "notes": "",
+    "lat": 33.031909,
+    "lng": -96.770211
+   },
+   {
+    "name": "Melissa City Hall",
+    "address": "3411 Barker Avenue",
+    "city": "Melissa",
+    "zip": "75454",
+    "room": "Multi-Purpose Room",
+    "notes": "Directions: N of Melissa Rd. and E of Hwy 5",
+    "lat": 33.292992,
+    "lng": -96.572754
+   },
+   {
+    "name": "Parker City Hall",
+    "address": "5700 E Parker Road",
+    "city": "Parker",
+    "zip": "75002",
+    "room": "Council Chambers",
+    "notes": "",
+    "lat": 33.05528,
+    "lng": -96.621835
+   },
+   {
+    "name": "Frisco Fire Station #8",
+    "address": "14700 Rolater Road",
+    "city": "Frisco",
+    "zip": "75035",
+    "room": "Training Room",
+    "notes": "",
+    "lat": 33.137929,
+    "lng": -96.749419
+   },
+   {
+    "name": "Aldridge Elementary School",
+    "address": "720 Pleasant Valley Lane",
+    "city": "Richardson",
+    "zip": "75080",
+    "room": "Gym",
+    "notes": "Directions: Pleasant Valley and Custer",
+    "lat": 32.993951,
+    "lng": -96.73112
+   },
+   {
+    "name": "Carpenter Park Recreation Center",
+    "address": "6701 Coit Road",
+    "city": "Plano",
+    "zip": "75024",
+    "room": "South Lobby",
+    "notes": "",
+    "lat": 33.064345,
+    "lng": -96.77063
+   },
+   {
+    "name": "Harrington Library",
+    "address": "1501 18th Street",
+    "city": "Plano",
+    "zip": "75074",
+    "room": "Program Room",
+    "notes": "",
+    "lat": 33.023934,
+    "lng": -96.693196
+   },
+   {
+    "name": "Blue Ridge ISD Administration Building",
+    "address": "318 W School Street",
+    "city": "Blue Ridge",
+    "zip": "75424",
+    "room": "Board of Trustees Board Room",
+    "notes": "Directions: N of Blue Ridge ES",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Collin College McKinney Campus",
+    "address": "2200 University Drive",
+    "city": "McKinney",
+    "zip": "75071",
+    "room": "Atrium 4, C-Square",
+    "notes": "Directions: W of Hwy 75/A117 Board Rm",
+    "lat": 33.216977,
+    "lng": -96.64114
+   },
+   {
+    "name": "Collin College Frisco Campus",
+    "address": "9700 Wade Boulevard",
+    "city": "Frisco",
+    "zip": "75035",
+    "room": "Building J, Room 113",
+    "notes": "Directions: N of Hwy 121/E of Preston",
+    "lat": 33.129868,
+    "lng": -96.798819
+   },
+   {
+    "name": "Collin College Plano Campus",
+    "address": "2800 E. Spring Creek Pkwy",
+    "city": "Plano",
+    "zip": "75074",
+    "room": "Main Building in Atrium 3",
+    "notes": "",
+    "lat": 33.049021,
+    "lng": -96.672341
+   },
+   {
+    "name": "Collin College Higher Education Center",
+    "address": "3452 Spur 399",
+    "city": "McKinney",
+    "zip": "75069",
+    "room": "Atrium 1",
+    "notes": "Directions: NE Hwy 121 @ Spur 399",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Gay Library",
+    "address": "6861 W Eldorado Parkway",
+    "city": "McKinney",
+    "zip": "75070",
+    "room": "Meeting Room",
+    "notes": "",
+    "lat": 33.174052,
+    "lng": -96.706047
+   },
+   {
+    "name": "McKinney Fire Station #5",
+    "address": "6600 Virginia Parkway",
+    "city": "McKinney",
+    "zip": "75071",
+    "room": "Community Room",
+    "notes": "",
+    "lat": 33.199353,
+    "lng": -96.704279
+   },
+   {
+    "name": "Parr Library",
+    "address": "6200 Windhaven Parkway",
+    "city": "Plano",
+    "zip": "75093",
+    "room": "Program Room",
+    "notes": "",
+    "lat": 33.055699,
+    "lng": -96.833788
+   },
+   {
+    "name": "Renner-Frankford Library",
+    "address": "6400 Frankford Road",
+    "city": "Dallas",
+    "zip": "75252",
+    "room": "Auditorium",
+    "notes": "Directions: E of Preston",
+    "lat": 32.998108,
+    "lng": -96.795109
+   },
+   {
+    "name": "Shiloh Missionary Baptist Church",
+    "address": "920 14th Street",
+    "city": "Plano",
+    "zip": "75074",
+    "room": "Youth Church",
+    "notes": "",
+    "lat": 33.017825,
+    "lng": -96.701955
+   },
+   {
+    "name": "Murphy Community Center",
+    "address": "205 N Murphy Road",
+    "city": "Murphy",
+    "zip": "75094",
+    "room": "Homer and Marie Adams Room",
+    "notes": "",
+    "lat": 33.017655,
+    "lng": -96.612827
+   },
+   {
+    "name": "Royse City ISD Mike McKinney Maintenance Facility",
+    "address": "1420 FM 1777",
+    "city": "Royse City",
+    "zip": "75189",
+    "room": "Training Room",
+    "notes": "",
+    "lat": 33.046315,
+    "lng": -96.308718
+   },
+   {
+    "name": "Evans Middle School",
+    "address": "6998 W Eldorado Parkway",
+    "city": "McKinney",
+    "zip": "75070",
+    "room": "Library (A114)",
+    "notes": "",
+    "lat": 33.174382,
+    "lng": -96.708024
+   },
+   {
+    "name": "Bowman Middle School",
+    "address": "2501 Jupiter Road",
+    "city": "Plano",
+    "zip": "75074",
+    "room": "North Entrance, H - Hallway",
+    "notes": "Directions: Jupiter and Park",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Allen ISD Service Center",
+    "address": "1451 N Watters Road",
+    "city": "Allen",
+    "zip": "75013",
+    "room": "Front Lobby",
+    "notes": "",
+    "lat": 33.122023,
+    "lng": -96.681075
+   },
+   {
+    "name": "Collin County Elections",
+    "address": "2010 Redbud Boulevard",
+    "city": "McKinney",
+    "zip": "75069",
+    "room": "Voting Room",
+    "notes": "",
+    "lat": 33.220332,
+    "lng": -96.628894
+   },
+   {
+    "name": "Prosper Town Hall",
+    "address": "250 W First Street",
+    "city": "Prosper",
+    "zip": "75078",
+    "room": "Community Room",
+    "notes": "",
+    "lat": 33.23373,
+    "lng": -96.803776
+   },
+   {
+    "name": "UTD Campus - Callier Clinical Research Center",
+    "address": "811 Synergy Park Boulevard",
+    "city": "Richardson",
+    "zip": "75080",
+    "room": "Lobby",
+    "notes": "",
+    "lat": 32.992891,
+    "lng": -96.749227
+   },
+   {
+    "name": "The Grove at Frisco Commons",
+    "address": "8300 McKinney Road",
+    "city": "Frisco",
+    "zip": "75034",
+    "room": "Game Room C",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Otto Middle School",
+    "address": "504 North Star Road",
+    "city": "Plano",
+    "zip": "75074",
+    "room": "Fine Arts Hallway M-001",
+    "notes": "",
+    "lat": 33.00626,
+    "lng": -96.654248
+   },
+   {
+    "name": "Children's Health StarCenter",
+    "address": "6993 Stars Avenue",
+    "city": "Mckinney",
+    "zip": "75070",
+    "room": "Party Room A & B",
+    "notes": "",
+    "lat": 33.143686,
+    "lng": -96.705121
+   },
+   {
+    "name": "Wylie Community Park Center",
+    "address": "800 Thomas Street #100",
+    "city": "Wylie",
+    "zip": "75098",
+    "room": "Dining Room",
+    "notes": "",
+    "lat": 33.006023,
+    "lng": -96.532372
+   },
+   {
+    "name": "Anna ISD Special Programs Building",
+    "address": "201 E 7th Street",
+    "city": "Anna",
+    "zip": "75409",
+    "room": "Training Room 400",
+    "notes": "",
+    "lat": 33.346245,
+    "lng": -96.547483
+   },
+   {
+    "name": "Collin College Farmersville Campus",
+    "address": "501 S Collin Parkway",
+    "city": "Farmersville",
+    "zip": "75442",
+    "room": "FVC Atrium 2",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Collin College Celina Campus",
+    "address": "2505 Kinship Parkway",
+    "city": "Celina",
+    "zip": "75009",
+    "room": "Classroom CEC110",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "McKinney Fire Station #9",
+    "address": "4900 Summit View Drive",
+    "city": "McKinney",
+    "zip": "75071",
+    "room": "Community Room",
+    "notes": "",
+    "lat": 33.227666,
+    "lng": -96.678859
+   },
+   {
+    "name": "Sam Carter Service Center",
+    "address": "12025 Rolater Road",
+    "city": "Frisco",
+    "zip": "75035",
+    "room": "Foyer/Entry",
+    "notes": "",
+    "lat": 33.137935,
+    "lng": -96.775832
+   },
+   {
+    "name": "Comerica Center",
+    "address": "2601 Avenue of the Stars",
+    "city": "Frisco",
+    "zip": "75034",
+    "room": "Lobby",
+    "notes": "",
+    "lat": 33.10124,
+    "lng": -96.818621
+   },
+   {
+    "name": "McKinney North High School",
+    "address": "2550 Wilmeth Road",
+    "city": "McKinney",
+    "zip": "75071",
+    "room": "Auditorium Lobby",
+    "notes": "",
+    "lat": 33.23112,
+    "lng": -96.643951
+   },
+   {
+    "name": "Michael J Felix Community Center",
+    "address": "3815-E Sachse Road",
+    "city": "Sachse",
+    "zip": "75048",
+    "room": "Rooms A and B",
+    "notes": "",
+    "lat": 32.973327,
+    "lng": -96.584662
+   },
+   {
+    "name": "McKinney Fire Station #10",
+    "address": "1150 Olympic Crossing",
+    "city": "McKinney",
+    "zip": "75071",
+    "room": "Community Room",
+    "notes": "",
+    "lat": 33.282607,
+    "lng": -96.625318
+   },
+   {
+    "name": "Steven and Judy Deffibaugh Community Center",
+    "address": "416 N 4th Street",
+    "city": "Princeton",
+    "zip": "75407",
+    "room": "Main Lobby",
+    "notes": "",
+    "lat": 33.178116,
+    "lng": -96.496725
+   },
+   {
+    "name": "Terry Pope Administration Building",
+    "address": "611 N FM 1138",
+    "city": "Nevada",
+    "zip": "75173",
+    "room": "LaCoNe Jo Room (Door 1&2)",
+    "notes": "",
+    "lat": 33.062576,
+    "lng": -96.365202
+   },
+   {
+    "name": "Frisco ISD Athletic Office",
+    "address": "7210 Stadium Lane",
+    "city": "Frisco",
+    "zip": "75033",
+    "room": "Foyer",
+    "notes": "",
+    "lat": 33.157588,
+    "lng": -96.822098
+   },
+   {
+    "name": "Liberty Recreation Center",
+    "address": "2601 Glencliff Drive",
+    "city": "Plano",
+    "zip": "75075",
+    "room": "Meeting Room A",
+    "notes": "",
+    "lat": 33.013858,
+    "lng": -96.74316
+   },
+   {
+    "name": "Melissa Public Safety Building",
+    "address": "2402 McKinney Street",
+    "city": "Melissa",
+    "zip": "75454",
+    "room": "Court Room",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Your Community Church - Branch",
+    "address": "7011 FM 546",
+    "city": "Princeton",
+    "zip": "75407",
+    "room": "Fellowship Hall",
+    "notes": "",
+    "lat": 33.101793,
+    "lng": -96.514749
+   },
+   {
+    "name": "Melissa United Methodist Church",
+    "address": "3851 McKinney Street",
+    "city": "Melissa",
+    "zip": "75454",
+    "room": "Sanctuary",
+    "notes": "",
+    "lat": 33.297946,
+    "lng": -96.567187
+   },
+   {
+    "name": "Children's Health Stadium at Prosper ISD",
+    "address": "2000 Stadium Drive",
+    "city": "Prosper",
+    "zip": "75078",
+    "room": "Community Room",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "McKinney City Hall",
+    "address": "401 E Virginia Street",
+    "city": "McKinney",
+    "zip": "75069",
+    "room": "2nd Floor Lobby",
+    "notes": "",
+    "lat": 33.198032,
+    "lng": -96.610674
+   },
+   {
+    "name": "Josephine Community Center",
+    "address": "404 Main Street",
+    "city": "Josephine",
+    "zip": "75173",
+    "room": "Community Room",
+    "notes": "",
+    "lat": 33.064544,
+    "lng": -96.310036
+   },
+   {
+    "name": "Allen ISD Professional Learning and Auxiliary Services",
+    "address": "610 E Bethany Drive",
+    "city": "Allen",
+    "zip": "75002",
+    "room": "Lobby",
+    "notes": "",
+    "lat": 33.085728,
+    "lng": -96.664757
+   },
+   {
+    "name": "Anna ISD Administration Building",
+    "address": "151 Rosamond Parkway",
+    "city": "Anna",
+    "zip": "75409",
+    "room": "Coyote Room",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Heritage Ranch Country Club",
+    "address": "465 Scenic Ranch Circle",
+    "city": "Fairview",
+    "zip": "75069",
+    "room": "Ballroom",
+    "notes": "",
+    "lat": 33.138059,
+    "lng": -96.59282
+   },
+   {
+    "name": "Timberglen Branch Library",
+    "address": "18505 Midway Road",
+    "city": "Dallas",
+    "zip": "75287",
+    "room": "Auditorium",
+    "notes": "",
+    "lat": 33.00327,
+    "lng": -96.843901
+   },
+   {
+    "name": "Anna Community Library",
+    "address": "111 W 5th Street",
+    "city": "Anna",
+    "zip": "75409",
+    "room": "Multipurpose Room",
+    "notes": "",
+    "lat": 33.348152,
+    "lng": -96.549328
+   },
+   {
+    "name": "Lucas Fire Department",
+    "address": "165 Country Club Road",
+    "city": "Lucas",
+    "zip": "75002",
+    "room": "Training Room",
+    "notes": "",
+    "lat": 33.086261,
+    "lng": -96.590947
+   },
+   {
+    "name": "Bethany Worship Center",
+    "address": "12160 Country Road 132",
+    "city": "Celina",
+    "zip": "75009",
+    "room": "Sanctuary",
+    "notes": "",
+    "lat": 33.39593,
+    "lng": -96.740747
+   },
+   {
+    "name": "Village on the Park McKinney",
+    "address": "265 Plateau Drive",
+    "city": "McKinney",
+    "zip": "75069",
+    "room": "Living Room/Main Area",
+    "notes": "",
+    "lat": 33.163072,
+    "lng": -96.627506
+   },
+   {
+    "name": "Collin College Wylie Campus",
+    "address": "391 Country Club Road",
+    "city": "Wylie",
+    "zip": "75098",
+    "room": "WCO 103 Conference Center",
+    "notes": "",
+    "lat": 33.018723,
+    "lng": -96.56898
+   }
+  ]
+ },
+ "notes": "Collin County uses countywide vote centers, so any registered Collin County voter may vote at any vote center. Early voting hours change during the period: Oct 19 to 23 are 8 a.m. to 5 p.m., Saturday Oct 24 is 7 a.m. to 7 p.m., Sunday Oct 25 is 11 a.m. to 5 p.m., and Oct 26 to 30 are 7 a.m. to 7 p.m."
+}

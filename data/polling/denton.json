@@ -1,0 +1,2307 @@
+{
+  "county": "Denton",
+  "model": "precinct",
+  "checked_at": "2026-10-19T02:10:00Z",
+  "sources": [
+    {
+      "title": "Denton County Elections: Current and Upcoming Election Information",
+      "url": "https://www.votedenton.gov/current-and-upcoming-election-information/"
+    },
+    {
+      "title": "Denton County Early Voting locations, dates and times, November 3, 2026 (PDF v2)",
+      "url": "https://www.votedenton.gov/wp-content/uploads/2026/09/1126_EV_Locations_v2.pdf"
+    },
+    {
+      "title": "Denton County General Election Day locations by precinct, November 3, 2026 (PDF v2)",
+      "url": "https://www.votedenton.gov/wp-content/uploads/2026/09/1126-Unconsolidated-ED-Locations-v2.pdf"
+    },
+    {
+      "title": "Denton County map of Election Day locations",
+      "url": "https://dentoncounty.maps.arcgis.com/apps/instant/lookup/index.html?appid=f97faa23ea8f499683f20fe591642206"
+    },
+    {
+      "title": "Denton County map of Early Voting locations",
+      "url": "https://dentoncounty.maps.arcgis.com/apps/instant/nearby/index.html?appid=c65b7f7366db440692c3b2764dd1cac1"
+    }
+  ],
+  "lookup_url": "https://www.votedenton.gov/voter-information/voter-lookup/",
+  "wait_times_url": null,
+  "early_voting": {
+    "schedule": [
+      {
+        "date": "2026-10-19",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-20",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-21",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-22",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-23",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-24",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-25",
+        "open": "11:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-26",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-27",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-28",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-29",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-30",
+        "open": "07:00",
+        "close": "19:00"
+      }
+    ],
+    "sites": [
+      {
+        "name": "Argyle Town Hall",
+        "address": "308 Denton St. E.",
+        "city": "Argyle",
+        "zip": "76226",
+        "room": "Community Room",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Aubrey First Rock Fellowship",
+        "address": "201 N. Cherry St.",
+        "city": "Aubrey",
+        "zip": "76227",
+        "room": "Building C, Room 5",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Celina Fire Station #3",
+        "address": "4400 FM 1385",
+        "city": "Aubrey",
+        "zip": "76227",
+        "room": "Community Room",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Bartonville Town Hall",
+        "address": "1941 E. Jeter Rd.",
+        "city": "Bartonville",
+        "zip": "76226",
+        "room": "Council Chambers",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Carrollton Public Library at Hebron & Josey",
+        "address": "4220 N. Josey Ln.",
+        "city": "Carrollton",
+        "zip": "75010",
+        "room": "Large Meeting Room",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Horizon Unitarian Universalist Church",
+        "address": "1641 W. Hebron Pkwy.",
+        "city": "Carrollton",
+        "zip": "75010",
+        "room": "Large Portable Room",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Rosemeade Recreation Center",
+        "address": "1330 E. Rosemeade Pkwy.",
+        "city": "Carrollton",
+        "zip": "75007",
+        "room": "Front Lobby",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Briarwood Retreat Center",
+        "address": "670 Copper Canyon Rd.",
+        "city": "Copper Canyon",
+        "zip": "76226",
+        "room": "Chapel",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Corinth City Hall",
+        "address": "3300 Corinth Pkwy.",
+        "city": "Corinth",
+        "zip": "76208",
+        "room": "Lobby",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Steven E. Copeland Government Center",
+        "address": "1400 FM 424",
+        "city": "Cross Roads",
+        "zip": "76227",
+        "room": "Community Room",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Timberglen Recreation Center",
+        "address": "3810 Timberglen Rd.",
+        "city": "Dallas",
+        "zip": "75287",
+        "room": "Large Activity Room",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Denton Civic Center",
+        "address": "321 E. McKinney St.",
+        "city": "Denton",
+        "zip": "76201",
+        "room": "Community Room",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Denton County Elections Administration",
+        "address": "701 Kimberly Dr.",
+        "city": "Denton",
+        "zip": "76208",
+        "room": "A111",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Denton Fire Station #7",
+        "address": "4201 Vintage Blvd.",
+        "city": "Argyle",
+        "zip": "76226",
+        "room": "Meeting Space",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "North Branch Library",
+        "address": "3020 N. Locust St.",
+        "city": "Denton",
+        "zip": "76209",
+        "room": "Meeting Room",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "North Lakes Recreation Center",
+        "address": "2001 W. Windsor Dr.",
+        "city": "Denton",
+        "zip": "76207",
+        "room": "Room B",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Robson Ranch Clubhouse",
+        "address": "9428 Ed Robson Cir.",
+        "city": "Denton",
+        "zip": "76207",
+        "room": "Bandera/Medina Room",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "South Branch Library",
+        "address": "3228 Teasley Ln.",
+        "city": "Denton",
+        "zip": "76210",
+        "room": "Program Room 120",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Texas Woman’s University",
+        "address": "303 Administration Dr.",
+        "city": "Denton",
+        "zip": "76201",
+        "room": "Hubbard Hall - Room 1200",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "University of North Texas - Gateway Center",
+        "address": "801 North Texas Blvd.",
+        "city": "Denton",
+        "zip": "76201",
+        "room": "Room 52",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Double Oak Town Hall",
+        "address": "320 Waketon Rd.",
+        "city": "Double Oak",
+        "zip": "75077",
+        "room": "Council Chambers",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Denton County Southwest Courthouse",
+        "address": "6200 Canyon Falls Dr.",
+        "city": "Flower Mound",
+        "zip": "76226",
+        "room": "Community Room",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Flower Mound Community Activity Center",
+        "address": "1200 Gerault Rd.",
+        "city": "Flower Mound",
+        "zip": "75028",
+        "room": "Chill Zone",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Flower Mound Municipal Court",
+        "address": "4150 Kirkpatrick Ln.",
+        "city": "Flower Mound",
+        "zip": "75028",
+        "room": "Training Room B",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Flower Mound Public Library",
+        "address": "3030 Broadmoor Ln.",
+        "city": "Flower Mound",
+        "zip": "75022",
+        "room": "Program Room",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Flower Mound Senior Center",
+        "address": "2701 W. Windsor Dr.",
+        "city": "Flower Mound",
+        "zip": "75028",
+        "room": "Ballroom C",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Frisco Fire Station #4",
+        "address": "4485 Cotton Gin Rd.",
+        "city": "Frisco",
+        "zip": "75034",
+        "room": "Training Room",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Frisco Fire Station #6",
+        "address": "3535 Eldorado Pkwy.",
+        "city": "Frisco",
+        "zip": "75033",
+        "room": "Training Room",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Frisco Fire Station #7",
+        "address": "330 W. Stonebrook Pkwy.",
+        "city": "Frisco",
+        "zip": "75036",
+        "room": "Training Room",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Frisco Fire Station #10",
+        "address": "2151 Fields Pkwy.",
+        "city": "Frisco",
+        "zip": "75034",
+        "room": "Training Room",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Frisco Government Center",
+        "address": "5533 FM 423",
+        "city": "Frisco",
+        "zip": "75036",
+        "room": "Community Room",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Town of Hickory Creek Stables",
+        "address": "1930 Turbeville Rd.",
+        "city": "Hickory Creek",
+        "zip": "75065",
+        "room": "Hickory Creek Stables Office",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Highland Village Municipal Complex",
+        "address": "1000 Highland Village Rd.",
+        "city": "Highland Village",
+        "zip": "75077",
+        "room": "Police Training Room",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Dennis McCreary Multipurpose Facility",
+        "address": "2200 Texan Dr.",
+        "city": "Justin",
+        "zip": "76247",
+        "room": "Room 104",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Justin Municipal Complex",
+        "address": "415 N. College Ave.",
+        "city": "Justin",
+        "zip": "76247",
+        "room": "Gymnasium",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Krum ISD Administration Building",
+        "address": "1200 Bobcat Blvd.",
+        "city": "Krum",
+        "zip": "76249",
+        "room": "Boardroom",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Lake Dallas City Hall",
+        "address": "212 Main St.",
+        "city": "Lake Dallas",
+        "zip": "75065",
+        "room": "Community Room",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Lakewood Village Town Hall",
+        "address": "100 Highridge Dr.",
+        "city": "Lakewood Village",
+        "zip": "75068",
+        "room": "Council Chambers",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Castle Hills Community Center",
+        "address": "2501 Queen Margaret Dr.",
+        "city": "Lewisville",
+        "zip": "75056",
+        "room": "Banquet Room",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Castle Hills North Community Center",
+        "address": "901 Anna Ave.",
+        "city": "Lewisville",
+        "zip": "75056",
+        "room": "Banquet Room",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Frederick P. Herring Recreation Center",
+        "address": "191 Civic Cir.",
+        "city": "Lewisville",
+        "zip": "75067",
+        "room": "Multipurpose Room",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "The Vista",
+        "address": "2401 S. Stemmons Fwy.",
+        "city": "Lewisville",
+        "zip": "75067",
+        "room": "Grand Stage, Suite 2106",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Thrive Recreation Center",
+        "address": "1950 S. Valley Pkwy.",
+        "city": "Lewisville",
+        "zip": "75067",
+        "room": "Sage Meeting Room",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Little Elm Town Hall",
+        "address": "100 W. Eldorado Pkwy.",
+        "city": "Little Elm",
+        "zip": "75068",
+        "room": "Council Conference",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Northlake Town Hall",
+        "address": "1500 Commons Cir. Ste. 300",
+        "city": "Northlake",
+        "zip": "76226",
+        "room": "Council Chambers",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Oak Point City Hall",
+        "address": "100-B Naylor Rd.",
+        "city": "Oak Point",
+        "zip": "75068",
+        "room": "Community Room",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Pilot Point Senior Center",
+        "address": "310 S. Washington St.",
+        "city": "Pilot Point",
+        "zip": "76258",
+        "room": "Room 1",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Ponder Town Hall",
+        "address": "102 W. Bailey St.",
+        "city": "Ponder",
+        "zip": "76259",
+        "room": "Council Chambers",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Artesia Community Center",
+        "address": "1550 Artesia Blvd.",
+        "city": "Prosper",
+        "zip": "75078",
+        "room": "The Clubhouse",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Roanoke Public Library",
+        "address": "308 S. Walnut St.",
+        "city": "Roanoke",
+        "zip": "76262",
+        "room": "Meeting Room A &B",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Sanger Community Center",
+        "address": "101 Freese Dr.",
+        "city": "Sanger",
+        "zip": "76266",
+        "room": "Meeting Room",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Shady Shores Community Center",
+        "address": "101 S. Shady Shores Rd.",
+        "city": "Shady Shores",
+        "zip": "76208",
+        "room": "Community Room",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "The Colony Annex Building",
+        "address": "6804 Main St.",
+        "city": "The Colony",
+        "zip": "75056",
+        "room": "Annex Building",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Trophy Club MUD No. 1 Building",
+        "address": "100 Municipal Dr.",
+        "city": "Trophy Club",
+        "zip": "76262",
+        "room": "Boardroom",
+        "schedule": null,
+        "notes": ""
+      }
+    ]
+  },
+  "election_day": {
+    "open": "07:00",
+    "close": "19:00",
+    "sites": [
+      {
+        "name": "Bolivar Baptist Church",
+        "address": "6690 FM 455 W.",
+        "city": "Sanger",
+        "zip": "",
+        "room": "Foyer",
+        "precincts": [
+          "1000"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Sanger Indian Gymnasium",
+        "address": "207 Acker St.",
+        "city": "Sanger",
+        "zip": "",
+        "room": "Gymnasium",
+        "precincts": [
+          "1001",
+          "1002"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Sanger Sixth Grade Campus",
+        "address": "508 N. 7th. St.",
+        "city": "Sanger",
+        "zip": "",
+        "room": "Cafeteria",
+        "precincts": [
+          "1003",
+          "1004",
+          "1005",
+          "1006"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Green Valley Baptist Church",
+        "address": "9901 FM 428",
+        "city": "Aubrey",
+        "zip": "",
+        "room": "Fellowship Hall",
+        "precincts": [
+          "1007"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Pilot Point Senior Center",
+        "address": "310 S. Washington St.",
+        "city": "Pilot Point",
+        "zip": "",
+        "room": "Room #1",
+        "precincts": [
+          "1008"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Celina Fire Station #3",
+        "address": "4400 FM 1385",
+        "city": "Aubrey",
+        "zip": "",
+        "room": "Community Room",
+        "precincts": [
+          "1009",
+          "1015"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Aubrey First Rock Fellowship",
+        "address": "201 N. Cherry St.",
+        "city": "Aubrey",
+        "zip": "",
+        "room": "Building C, Room 5",
+        "precincts": [
+          "1010",
+          "1011"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Silverado HOA Amenity Center",
+        "address": "2867 Silverado Pkwy.",
+        "city": "Aubrey",
+        "zip": "",
+        "room": "Silverado HOA Facility",
+        "precincts": [
+          "1012"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Providence Village Elementary School",
+        "address": "1000 FM 2931",
+        "city": "Providence",
+        "zip": "",
+        "room": "Library",
+        "precincts": [
+          "1013"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Sandbrock Ranch Elementary School",
+        "address": "3690 Hunter St.",
+        "city": "Aubrey",
+        "zip": "",
+        "room": "Gymnasium",
+        "precincts": [
+          "1014",
+          "1225"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Cheek Middle School",
+        "address": "200 Denton Way",
+        "city": "Aubrey",
+        "zip": "",
+        "room": "Small Gymnasium",
+        "precincts": [
+          "1016",
+          "1234"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Richland High School",
+        "address": "3450 Prairie Dr.",
+        "city": "Prosper",
+        "zip": "",
+        "room": "Auditorium Lobby",
+        "precincts": [
+          "1017",
+          "1235"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Panther Creek High School",
+        "address": "1875 PGA Pkwy.",
+        "city": "Frisco",
+        "zip": "",
+        "room": "Auditorium Foyer",
+        "precincts": [
+          "1018",
+          "1039"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Newman Elementary School",
+        "address": "12333 Briar Ridge Rd.",
+        "city": "Frisco",
+        "zip": "",
+        "room": "Gymnasium",
+        "precincts": [
+          "1019"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Frisco Fire Station #6",
+        "address": "3535 Eldorado Pkwy.",
+        "city": "Frisco",
+        "zip": "",
+        "room": "Training Room",
+        "precincts": [
+          "1020"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Frisco ISD Transportation West Facility",
+        "address": "10701 Dallas Pkwy.",
+        "city": "Frisco",
+        "zip": "",
+        "room": "Lobby/Atrium",
+        "precincts": [
+          "1021"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Frisco Fire Station #4",
+        "address": "4485 Cotton Gin Rd.",
+        "city": "Frisco",
+        "zip": "",
+        "room": "Training Room",
+        "precincts": [
+          "1022"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Allen Elementary School",
+        "address": "5800 Legacy Dr.",
+        "city": "Frisco",
+        "zip": "",
+        "room": "Library",
+        "precincts": [
+          "1023"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Pioneer Heritage Middle School",
+        "address": "1649 High Shoals Dr.",
+        "city": "Frisco",
+        "zip": "",
+        "room": "Auxiliary Gym",
+        "precincts": [
+          "1024",
+          "1025"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Frisco Fire Station #7",
+        "address": "330 W. Stonebrook Pkwy.",
+        "city": "Frisco",
+        "zip": "",
+        "room": "Training Room",
+        "precincts": [
+          "1026",
+          "1172",
+          "1238"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Hackberry City Hall",
+        "address": "119 Maxwell Rd.",
+        "city": "Frisco",
+        "zip": "",
+        "room": "Lobby",
+        "precincts": [
+          "1027",
+          "1028",
+          "1029"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Torii & Katrina Hunter Event Center",
+        "address": "25631 Smotherman Rd.",
+        "city": "Frisco",
+        "zip": "",
+        "room": "Grice Room",
+        "precincts": [
+          "1030",
+          "1031",
+          "1034",
+          "1237"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Fisher Elementary School",
+        "address": "2500 Old Orchard Dr.",
+        "city": "Frisco",
+        "zip": "",
+        "room": "Library",
+        "precincts": [
+          "1032"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Purefoy Elementary School",
+        "address": "11880 Teel Pkwy.",
+        "city": "Frisco",
+        "zip": "",
+        "room": "Library",
+        "precincts": [
+          "1033"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Little Elm Elementary",
+        "address": "2600 Hart Rd.",
+        "city": "Little Elm",
+        "zip": "",
+        "room": "Gymnasium",
+        "precincts": [
+          "1035"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Boals Elementary School",
+        "address": "2035 Jaguar Dr.",
+        "city": "Frisco",
+        "zip": "",
+        "room": "Library",
+        "precincts": [
+          "1036"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Frisco Fire Station #10",
+        "address": "2151 Fields Pkwy.",
+        "city": "Frisco",
+        "zip": "",
+        "room": "Training Room",
+        "precincts": [
+          "1037"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Robertson Elementary School",
+        "address": "2501 Woodlake Pkwy.",
+        "city": "Little Elm",
+        "zip": "",
+        "room": "Gymnasium",
+        "precincts": [
+          "1038",
+          "1041"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Miller Elementary School",
+        "address": "300 Cypress Hill Dr.",
+        "city": "Little Elm",
+        "zip": "",
+        "room": "Gymnasium",
+        "precincts": [
+          "1040",
+          "1229",
+          "1236"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Little Elm High School",
+        "address": "1900 Walker Ln.",
+        "city": "Little Elm",
+        "zip": "",
+        "room": "Library",
+        "precincts": [
+          "1042"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Oak Grove Global Methodist Church",
+        "address": "4725 FM 720 W.",
+        "city": "Aubrey",
+        "zip": "",
+        "room": "Fellowship Hall",
+        "precincts": [
+          "1044"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Oak Point City Hall",
+        "address": "100-B Naylor Rd.",
+        "city": "Oak Point",
+        "zip": "",
+        "room": "Community Services Room",
+        "precincts": [
+          "1045"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Lakewood Village Town Hall",
+        "address": "100 Highridge Dr.",
+        "city": "Lakewood",
+        "zip": "",
+        "room": "Council Chambers",
+        "precincts": [
+          "1046"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Braswell High School",
+        "address": "26750 E. University Dr.",
+        "city": "Aubrey",
+        "zip": "",
+        "room": "East Field House",
+        "precincts": [
+          "1047",
+          "1228"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Paloma Creekside Clubhouse",
+        "address": "900 Villa Paloma Blvd.",
+        "city": "Little Elm",
+        "zip": "",
+        "room": "Clubhouse",
+        "precincts": [
+          "1048"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Savannah Clubhouse",
+        "address": "701 Savannah Blvd.",
+        "city": "Savannah",
+        "zip": "",
+        "room": "Ballroom/Theater/Café",
+        "precincts": [
+          "1049",
+          "1050"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Union Park Elementary School",
+        "address": "7301 Fieldwood Way",
+        "city": "Aubrey",
+        "zip": "",
+        "room": "Gymnasium",
+        "precincts": [
+          "1051",
+          "1224"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Paloma Creek Elementary School",
+        "address": "1600 Navo Rd.",
+        "city": "Aubrey",
+        "zip": "",
+        "room": "Gymnasium",
+        "precincts": [
+          "1052"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Steven E. Copeland Government Center",
+        "address": "1400 FM 424",
+        "city": "Cross Roads",
+        "zip": "",
+        "room": "Community Room",
+        "precincts": [
+          "1053",
+          "1054",
+          "1055"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "The Bridge Church",
+        "address": "4582 Fishtrap Rd.",
+        "city": "Denton",
+        "zip": "",
+        "room": "Life Center Building",
+        "precincts": [
+          "1056",
+          "1063"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "C. H. Collins Athletic Complex",
+        "address": "1500 Long Rd.",
+        "city": "Denton",
+        "zip": "",
+        "room": "Banquet Room",
+        "precincts": [
+          "1057",
+          "1058",
+          "1061"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "North Lakes Recreation Center",
+        "address": "2001 W. Windsor Dr.",
+        "city": "Denton",
+        "zip": "",
+        "room": "Multipurpose Room B",
+        "precincts": [
+          "1059",
+          "1060"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "North Branch Library",
+        "address": "3020 N. Locust St.",
+        "city": "Denton",
+        "zip": "",
+        "room": "Meeting Room 104",
+        "precincts": [
+          "1062",
+          "1064"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Serve Denton",
+        "address": "306 N Loop 288, Ste. 100",
+        "city": "Denton",
+        "zip": "",
+        "room": "Conference Room",
+        "precincts": [
+          "1065",
+          "1066"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Artesia Community Center",
+        "address": "1550 Artesia Blvd.",
+        "city": "Prosper",
+        "zip": "",
+        "room": "Clubhouse",
+        "precincts": [
+          "1227"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Denton ISD Sisk Service Center",
+        "address": "230 N. Mayhill Rd.",
+        "city": "Denton",
+        "zip": "",
+        "room": "Assembly Room",
+        "precincts": [
+          "2067",
+          "2069",
+          "2070"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Denton ISD East Annex",
+        "address": "3201 US Highway 380",
+        "city": "Cross Roads",
+        "zip": "",
+        "room": "Foyer",
+        "precincts": [
+          "2068"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Antioch Christian Fellowship",
+        "address": "2020 Post Oak Dr.",
+        "city": "Corinth",
+        "zip": "",
+        "room": "Fellowship Hall",
+        "precincts": [
+          "2071"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "American Eagle Harley Davidson",
+        "address": "5920 S. I35 E.",
+        "city": "Corinth",
+        "zip": "",
+        "room": "Showroom Floor",
+        "precincts": [
+          "2072"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Corinth City Hall",
+        "address": "3300 Corinth Pkwy.",
+        "city": "Corinth",
+        "zip": "",
+        "room": "Lobby",
+        "precincts": [
+          "2073"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Shady Shores Community Center",
+        "address": "101 S. Shady Shores Rd.",
+        "city": "Shady Shores",
+        "zip": "",
+        "room": "Conference/Community Room",
+        "precincts": [
+          "2074"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Living Word Baptist Church",
+        "address": "2315 Oak Grove Pkwy.",
+        "city": "Little Elm",
+        "zip": "",
+        "room": "Fellowship Hall",
+        "precincts": [
+          "2075"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Little Elm Town Hall",
+        "address": "100 W. Eldorado Pkwy.",
+        "city": "Little Elm",
+        "zip": "",
+        "room": "Council Conference Room",
+        "precincts": [
+          "2076"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Hackberry Elementary School",
+        "address": "7200 Snug Harbor Cir.",
+        "city": "Frisco",
+        "zip": "",
+        "room": "Gymnasium",
+        "precincts": [
+          "2077",
+          "2078"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Strike Middle School",
+        "address": "8798 Scotty's Lake Ln.",
+        "city": "The Colony",
+        "zip": "",
+        "room": "Room 2018",
+        "precincts": [
+          "2079"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Frisco Government Center",
+        "address": "5533 FM 423",
+        "city": "Frisco",
+        "zip": "",
+        "room": "Community Room",
+        "precincts": [
+          "2080",
+          "2083"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Pearson Middle School",
+        "address": "2323 Stonebrook Pkwy.",
+        "city": "Frisco",
+        "zip": "",
+        "room": "Auxiliary Gym",
+        "precincts": [
+          "2081"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Reedy High School",
+        "address": "3003 Stonebrook Pkwy.",
+        "city": "Frisco",
+        "zip": "",
+        "room": "Auditorium Foyer",
+        "precincts": [
+          "2082"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "The Colony Annex Building",
+        "address": "6804 Main St.",
+        "city": "The Colony",
+        "zip": "",
+        "room": "Annex Building",
+        "precincts": [
+          "2084"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Ethridge Elementary School",
+        "address": "6001 Ethridge Dr.",
+        "city": "The Colony",
+        "zip": "",
+        "room": "Gymnasium",
+        "precincts": [
+          "2085"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "First Baptist Church of The Colony",
+        "address": "4800 S. Colony Blvd.",
+        "city": "The Colony",
+        "zip": "",
+        "room": "Foyer",
+        "precincts": [
+          "2086"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Morningside Elementary School",
+        "address": "6350 Paige Rd.",
+        "city": "The Colony",
+        "zip": "",
+        "room": "Gymnasium",
+        "precincts": [
+          "2087"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Hicks Elementary School",
+        "address": "3651 Compass Dr.",
+        "city": "Frisco",
+        "zip": "",
+        "room": "Gymnasium",
+        "precincts": [
+          "2088",
+          "2089"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "The Colony High School",
+        "address": "4301 Blair Oaks Dr.",
+        "city": "The Colony",
+        "zip": "",
+        "room": "Gymnasium",
+        "precincts": [
+          "2090"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Prestonwood Baptist Church",
+        "address": "6801 W. Park Blvd.",
+        "city": "Plano",
+        "zip": "",
+        "room": "Atrium",
+        "precincts": [
+          "2091"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Memorial Elementary School",
+        "address": "1001 N. Josey Ln.",
+        "city": "Carrollton",
+        "zip": "",
+        "room": "Gymnasium",
+        "precincts": [
+          "2092",
+          "2093"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Castle Hills North Community Center",
+        "address": "201 Anna Ave.",
+        "city": "Lewisville",
+        "zip": "",
+        "room": "Banquet Room",
+        "precincts": [
+          "2094"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Killian Middle School",
+        "address": "2561 FM 544",
+        "city": "Lewisville",
+        "zip": "",
+        "room": "Gymnasium",
+        "precincts": [
+          "2095"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Castle Hills Community Center",
+        "address": "2501 Queen Margaret Dr.",
+        "city": "Lewisville",
+        "zip": "",
+        "room": "Banquet Room",
+        "precincts": [
+          "2096"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Arbor Creek Middle School",
+        "address": "2109 Arbor Creek Dr.",
+        "city": "Carrollton",
+        "zip": "",
+        "room": "Large Gymnasium",
+        "precincts": [
+          "2097"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "First Baptist of Hebron",
+        "address": "3000 E. Hebron Pkwy.",
+        "city": "Carrollton",
+        "zip": "",
+        "room": "Fellowship Room",
+        "precincts": [
+          "2098",
+          "2099"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Timberglen Recreation Center",
+        "address": "3810 Timberglen Rd.",
+        "city": "Dallas",
+        "zip": "",
+        "room": "Large Activity Room",
+        "precincts": [
+          "2100"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "McWhorter Elementary School",
+        "address": "3678 Timberglen Rd.",
+        "city": "Dallas",
+        "zip": "",
+        "room": "Cafeteria",
+        "precincts": [
+          "2101"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Sheffield Elementary School",
+        "address": "18111 Kelly Blvd.",
+        "city": "Dallas",
+        "zip": "",
+        "room": "Cafeteria",
+        "precincts": [
+          "2102"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Thompson Elementary School",
+        "address": "2915 Scott Mill Rd.",
+        "city": "Carrollton",
+        "zip": "",
+        "room": "Gymnasium",
+        "precincts": [
+          "2103"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Holy Covenant United Methodist Church",
+        "address": "1901 E. Peters Colony Rd.",
+        "city": "Carrollton",
+        "zip": "",
+        "room": "Covenant Center",
+        "precincts": [
+          "2104"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Carrollton Public Library",
+        "address": "4220 N. Josey Ln.",
+        "city": "Carrollton",
+        "zip": "",
+        "room": "Meeting Room",
+        "precincts": [
+          "2105",
+          "2106"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Homestead Elementary School",
+        "address": "1830 E. Branch Hollow",
+        "city": "Carrollton",
+        "zip": "",
+        "room": "Gymnasium",
+        "precincts": [
+          "2107",
+          "2111"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Rosemeade Recreation Center",
+        "address": "1330 E. Rosemeade Pkwy.",
+        "city": "Carrollton",
+        "zip": "",
+        "room": "Lobby",
+        "precincts": [
+          "2108",
+          "2110"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Redeemer Evangelical Covenant Church",
+        "address": "1518 E. Frankford Rd.",
+        "city": "Carrollton",
+        "zip": "",
+        "room": "Fellowship Hall",
+        "precincts": [
+          "2109"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Creekview High School",
+        "address": "3201 Old Denton Rd.",
+        "city": "Carrollton",
+        "zip": "",
+        "room": "Gymnasium",
+        "precincts": [
+          "2112",
+          "2113",
+          "2114"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Horizon Unitarian Universalist Church",
+        "address": "1641 W. Hebron Pkwy.",
+        "city": "Carrollton",
+        "zip": "",
+        "room": "Large Portable Room",
+        "precincts": [
+          "3115"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Creek Valley Middle School",
+        "address": "4109 Creek Valley Blvd.",
+        "city": "Carrollton",
+        "zip": "",
+        "room": "Small Gymnasium",
+        "precincts": [
+          "3116"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "ResponsiveEd Texas",
+        "address": "1301 Waters Ridge Dr.",
+        "city": "Lewisville",
+        "zip": "",
+        "room": "Training Room A",
+        "precincts": [
+          "3117",
+          "3122"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "DeLay Middle School",
+        "address": "2103 Savage Ln.",
+        "city": "Lewisville",
+        "zip": "",
+        "room": "Gymnasium",
+        "precincts": [
+          "3118",
+          "3119",
+          "3120"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Macedonia Ministries",
+        "address": "702 S. Mill St.",
+        "city": "Lewisville",
+        "zip": "",
+        "room": "Fellowship Hall",
+        "precincts": [
+          "3121"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "The Vista",
+        "address": "2401 S Stemmons Fwy.",
+        "city": "Lewisville",
+        "zip": "",
+        "room": "Grand Stage, Suite #2106",
+        "precincts": [
+          "3123",
+          "3124",
+          "3125",
+          "3127"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Durham Middle School",
+        "address": "2075 S. Edmonds Ln.",
+        "city": "Lewisville",
+        "zip": "",
+        "room": "Gymnasium",
+        "precincts": [
+          "3126",
+          "3128"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Hedrick Middle School",
+        "address": "1526 Bellaire Blvd.",
+        "city": "Lewisville",
+        "zip": "",
+        "room": "Barbara Hamric Community Room",
+        "precincts": [
+          "3129",
+          "3135"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Lewisville High School",
+        "address": "1098 W. Main St.",
+        "city": "Lewisville",
+        "zip": "",
+        "room": "Auditorium Foyer",
+        "precincts": [
+          "3130"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Frederick P. Herring Recreation Center",
+        "address": "191 Civic Cir.",
+        "city": "Lewisville",
+        "zip": "",
+        "room": "Gymnasium A",
+        "precincts": [
+          "3131",
+          "3134",
+          "3230"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Valley Ridge Elementary School",
+        "address": "1604 N. Garden Ridge",
+        "city": "Lewisville",
+        "zip": "",
+        "room": "Gymnasium",
+        "precincts": [
+          "3132",
+          "3133"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Thrive Recreation Center",
+        "address": "1950 S. Valley Pkwy.",
+        "city": "Lewisville",
+        "zip": "",
+        "room": "Dogwood 3",
+        "precincts": [
+          "3136",
+          "3137"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Flower Mound Community Activity Center",
+        "address": "1200 Gerault Rd.",
+        "city": "Flower Mound",
+        "zip": "",
+        "room": "Chill Zone",
+        "precincts": [
+          "3138"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Live Oak Church",
+        "address": "101 Surrey Ln.",
+        "city": "Flower Mound",
+        "zip": "",
+        "room": "Worship Center",
+        "precincts": [
+          "3139"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Liberty Elementary School",
+        "address": "4600 Quail Run Rd.",
+        "city": "Flower Mound",
+        "zip": "",
+        "room": "Gymnasium",
+        "precincts": [
+          "3140",
+          "3141",
+          "3142"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "McKamy Middle School",
+        "address": "2401 Old Settlers Rd.",
+        "city": "Flower Mound",
+        "zip": "",
+        "room": "Small Gymnasium",
+        "precincts": [
+          "3143"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Flower Mound Public Library",
+        "address": "3030 Broadmoor Ln.",
+        "city": "Flower Mound",
+        "zip": "",
+        "room": "Program Room",
+        "precincts": [
+          "3144"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Creekwood Christian Church",
+        "address": "2660 Forest Vista Dr.",
+        "city": "Flower Mound",
+        "zip": "",
+        "room": "Great Room",
+        "precincts": [
+          "3145"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Garden Ridge Elementary School",
+        "address": "2220 S. Garden Ridge",
+        "city": "Flower Mound",
+        "zip": "",
+        "room": "Café",
+        "precincts": [
+          "3146"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Flower Mound Municipal Court",
+        "address": "4150 Kirkpatrick Ln.",
+        "city": "Flower Mound",
+        "zip": "",
+        "room": "Training Room B",
+        "precincts": [
+          "3147"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Flower Mound Central Fire Station",
+        "address": "3911 S. Broadway Ave.",
+        "city": "Flower Mound",
+        "zip": "",
+        "room": "Training Room (EOC)",
+        "precincts": [
+          "3148",
+          "3149"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Prairie Trail Elementary School",
+        "address": "5555 Timber Creek Rd.",
+        "city": "Flower Mound",
+        "zip": "",
+        "room": "Gymnasium",
+        "precincts": [
+          "3150",
+          "3151"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Briarhill Middle School",
+        "address": "2100 Briarhill Blvd.",
+        "city": "Highland Village",
+        "zip": "",
+        "room": "Café",
+        "precincts": [
+          "3152"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Highland Village Municipal Complex",
+        "address": "1000 Highland Village Rd.",
+        "city": "Highland Village",
+        "zip": "",
+        "room": "Police Training Room",
+        "precincts": [
+          "3153",
+          "3154"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Heritage Elementary School",
+        "address": "100 Barnett Blvd.",
+        "city": "Highland Village",
+        "zip": "",
+        "room": "Gymnasium",
+        "precincts": [
+          "3155"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Briarwood Retreat Center",
+        "address": "670 Copper Canyon Rd.",
+        "city": "Copper Canyon",
+        "zip": "",
+        "room": "Chapel",
+        "precincts": [
+          "3156",
+          "3157"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Town of Hickory Creek Stables",
+        "address": "1930 Turbeville Rd.",
+        "city": "Hickory Creek",
+        "zip": "",
+        "room": "Hickory Creek Stables Office",
+        "precincts": [
+          "3158"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Lake Dallas City Hall",
+        "address": "212 Main St.",
+        "city": "Lake Dallas",
+        "zip": "",
+        "room": "Community Room",
+        "precincts": [
+          "3159"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Lake Sharon Community Church",
+        "address": "2650 Oakmont Dr.",
+        "city": "Corinth",
+        "zip": "",
+        "room": "Fire Place Room",
+        "precincts": [
+          "3160"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Martin Luther King Jr. Recreation Center",
+        "address": "1300 Wilson St.",
+        "city": "Denton",
+        "zip": "",
+        "room": "Computer Room",
+        "precincts": [
+          "4043",
+          "4165"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Guyer High School",
+        "address": "7501 Teasley Ln.",
+        "city": "Denton",
+        "zip": "",
+        "room": "West Field House",
+        "precincts": [
+          "4161",
+          "4182"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "South Branch Library",
+        "address": "3228 Teasley Ln.",
+        "city": "Denton",
+        "zip": "",
+        "room": "Program Room",
+        "precincts": [
+          "4162",
+          "4164"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Pecan Creek Elementary School",
+        "address": "4400 Lakeview Blvd.",
+        "city": "Denton",
+        "zip": "",
+        "room": "Library",
+        "precincts": [
+          "4163"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Denton Civic Center",
+        "address": "321 E. McKinney St.",
+        "city": "Denton",
+        "zip": "",
+        "room": "Community Room",
+        "precincts": [
+          "4166",
+          "4167"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Denton ISD Stephens Central Administration B",
+        "address": "1307 N. Locust St.",
+        "city": "Denton",
+        "zip": "",
+        "room": "Board Room",
+        "precincts": [
+          "4168",
+          "4169"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Denton Wesley Foundation",
+        "address": "1501 Maple St.",
+        "city": "Denton",
+        "zip": "",
+        "room": "Chapel",
+        "precincts": [
+          "4170",
+          "4171"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Denia Recreation Center",
+        "address": "1001 Parvin St.",
+        "city": "Denton",
+        "zip": "",
+        "room": "Room A",
+        "precincts": [
+          "4173",
+          "4174",
+          "4177",
+          "4178"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Houston Elementary School",
+        "address": "3100 Teasley Ln.",
+        "city": "Denton",
+        "zip": "",
+        "room": "Gymnasium",
+        "precincts": [
+          "4175",
+          "4176",
+          "4180"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "WS Ryan Elementary School",
+        "address": "201 W. Ryan Rd.",
+        "city": "Denton",
+        "zip": "",
+        "room": "A100",
+        "precincts": [
+          "4179",
+          "4183"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "McNair Elementary School",
+        "address": "1212 Hickory Creek Rd.",
+        "city": "Denton",
+        "zip": "",
+        "room": "Gymnasium",
+        "precincts": [
+          "4181"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Denton Fire Station #7",
+        "address": "4201 Vintage Blvd.",
+        "city": "Argyle",
+        "zip": "",
+        "room": "Training Room",
+        "precincts": [
+          "4184"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Robson Ranch Clubhouse",
+        "address": "9428 Ed Robson Cir.",
+        "city": "Denton",
+        "zip": "",
+        "room": "Bandera/Medina",
+        "precincts": [
+          "4185",
+          "4186"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "University of North Texas - Gateway Center",
+        "address": "801 North Texas Blvd.",
+        "city": "Denton",
+        "zip": "",
+        "room": "Room 52",
+        "precincts": [
+          "4187"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Krum ISD Administration Building",
+        "address": "1200 Bobcat Blvd.",
+        "city": "Krum",
+        "zip": "",
+        "room": "Board Room",
+        "precincts": [
+          "4188",
+          "4189",
+          "4190"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "New Life First Baptist Church - Krum",
+        "address": "12 Gregg Rd.",
+        "city": "Krum",
+        "zip": "",
+        "room": "Fellowship Hall",
+        "precincts": [
+          "4191",
+          "4192"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Ponder Town Hall",
+        "address": "102 W. Bailey St.",
+        "city": "Ponder",
+        "zip": "",
+        "room": "Council Chambers",
+        "precincts": [
+          "4193"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Justin Municipal Complex",
+        "address": "415 N. College Ave.",
+        "city": "Justin",
+        "zip": "",
+        "room": "Gymnasium",
+        "precincts": [
+          "4194",
+          "4219"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Lance Thompson Elementary School",
+        "address": "821 Hawks Way",
+        "city": "Argyle",
+        "zip": "",
+        "room": "Gymnasium",
+        "precincts": [
+          "4195",
+          "4231"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Northlake Town Hall",
+        "address": "1500 Commons Cir. Ste.",
+        "city": "Northlake",
+        "zip": "",
+        "room": "Chamber/Conference Room",
+        "precincts": [
+          "4196"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Argyle ISD Maintenance Building",
+        "address": "800 Eagle Dr.",
+        "city": "Argyle",
+        "zip": "",
+        "room": "Maintenance Meeting Room",
+        "precincts": [
+          "4197"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Argyle Town Hall",
+        "address": "308 Denton St. E",
+        "city": "Argyle",
+        "zip": "",
+        "room": "Community Room",
+        "precincts": [
+          "4198"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Harpool Middle School",
+        "address": "9601 Stacee Ln.",
+        "city": "Lantana",
+        "zip": "",
+        "room": "Gymnasium",
+        "precincts": [
+          "4199",
+          "4200",
+          "4201"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Lantana Community Event Center",
+        "address": "1301 Haverford Ln.",
+        "city": "Lantana",
+        "zip": "",
+        "room": "Event Center",
+        "precincts": [
+          "4202"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Adkins Elementary School",
+        "address": "1701 Monahan Dr.",
+        "city": "Lantana",
+        "zip": "",
+        "room": "Gymnasium",
+        "precincts": [
+          "4203"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Flower Mound Senior Center",
+        "address": "2701 W. Windsor Dr.",
+        "city": "Flower Mound",
+        "zip": "",
+        "room": "Ballroom C",
+        "precincts": [
+          "4204"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Downing Middle School",
+        "address": "5555 Bridlewood Blvd.",
+        "city": "Flower Mound",
+        "zip": "",
+        "room": "Large Gymnasium",
+        "precincts": [
+          "4205"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Double Oak Town Hall",
+        "address": "320 Waketon Rd.",
+        "city": "Double Oak",
+        "zip": "",
+        "room": "Council Chambers",
+        "precincts": [
+          "4206"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Bartonville Town Hall",
+        "address": "1941 Jeter Rd. E.",
+        "city": "Bartonville",
+        "zip": "",
+        "room": "Council Chambers",
+        "precincts": [
+          "4207"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Denton County Southwest Courthouse",
+        "address": "6200 Canyon Falls Dr.",
+        "city": "Flower Mound",
+        "zip": "",
+        "room": "Community Room",
+        "precincts": [
+          "4208",
+          "4217"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Roanoke Public Library",
+        "address": "308 S. Walnut St.",
+        "city": "Roanoke",
+        "zip": "",
+        "room": "Meeting Rooms A & B",
+        "precincts": [
+          "4209"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Medlin Middle School",
+        "address": "607 Parkview Dr.",
+        "city": "Trophy Club",
+        "zip": "",
+        "room": "Practice Gymnasium",
+        "precincts": [
+          "4210",
+          "4226"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Trophy Club MUD No. 1 Building",
+        "address": "100 Municipal Dr.",
+        "city": "Trophy Club",
+        "zip": "",
+        "room": "Boardroom",
+        "precincts": [
+          "4211",
+          "4212"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Cox Elementary School",
+        "address": "1100 Litsey Rd.",
+        "city": "Roanoke",
+        "zip": "",
+        "room": "Cafateria",
+        "precincts": [
+          "4213",
+          "4214"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Home2 by Hilton",
+        "address": "13351 Raceway Dr.",
+        "city": "Northlake",
+        "zip": "",
+        "room": "Northlake Meeting Room",
+        "precincts": [
+          "4215",
+          "4216"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Daniel Elementary School",
+        "address": "1901 Tye St.",
+        "city": "Northlake",
+        "zip": "",
+        "room": "Gymnasium",
+        "precincts": [
+          "4218",
+          "4223"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "NWISD Justin Annex",
+        "address": "425 Boss Range Rd.",
+        "city": "Justin",
+        "zip": "",
+        "room": "Library",
+        "precincts": [
+          "4220",
+          "4232"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Dennis McCreary Multipurpose Facility",
+        "address": "2200 Texan Dr.",
+        "city": "Justin",
+        "zip": "",
+        "room": "Room 104 Competition Gymnasium",
+        "precincts": [
+          "4221",
+          "4222",
+          "4233"
+        ],
+        "notes": ""
+      }
+    ]
+  },
+  "notes": "During early voting any Denton County voter may use any early voting site; note the shorter 8 a.m. to 5 p.m. hours on October 19 to 23. On Election Day Denton County voters must vote at the location assigned to their precinct, so check your precinct with the county voter lookup."
+}

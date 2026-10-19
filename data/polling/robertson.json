@@ -1,0 +1,309 @@
+{
+  "county": "Robertson",
+  "model": "precinct",
+  "checked_at": "2026-10-19T02:18:00Z",
+  "sources": [
+    {
+      "title": "Robertson County Elections",
+      "url": "https://www.co.robertson.tx.us/page/robertson.Elections"
+    },
+    {
+      "title": "Robertson County Notice of General Election, November 3, 2026 (PDF)",
+      "url": "https://www.co.robertson.tx.us/upload/page/5882/Notice%20of%20General%20Election%202026.pdf"
+    },
+    {
+      "title": "Robertson County Amended Order of General Election (PDF)",
+      "url": "https://www.co.robertson.tx.us/upload/page/5882/Amended%20Order%2011-2026.pdf"
+    }
+  ],
+  "lookup_url": null,
+  "wait_times_url": null,
+  "early_voting": {
+    "schedule": [
+      {
+        "date": "2026-10-19",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-20",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-21",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-22",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-23",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-24",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-25",
+        "open": "10:00",
+        "close": "16:00"
+      },
+      {
+        "date": "2026-10-26",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-27",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-28",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-29",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-30",
+        "open": "07:00",
+        "close": "19:00"
+      }
+    ],
+    "sites": [
+      {
+        "name": "Robertson County Election Center",
+        "address": "601 N. Hearne Street",
+        "city": "Franklin",
+        "zip": "77856",
+        "room": "",
+        "schedule": null,
+        "notes": "Main early voting location"
+      },
+      {
+        "name": "Public Safety Building",
+        "address": "306 West 3rd Street",
+        "city": "Hearne",
+        "zip": "77859",
+        "room": "",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Calvert Fire Department",
+        "address": "700 Railroad Street",
+        "city": "Calvert",
+        "zip": "77837",
+        "room": "",
+        "schedule": [
+          {
+            "date": "2026-10-19",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-20",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-21",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-22",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-23",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-24",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-26",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-27",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-28",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-29",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-30",
+            "open": "07:00",
+            "close": "19:00"
+          }
+        ],
+        "notes": "Closed Sunday, Oct 25"
+      },
+      {
+        "name": "JP #4 Office",
+        "address": "113 Jack Street",
+        "city": "Bremond",
+        "zip": "76629",
+        "room": "",
+        "schedule": null,
+        "notes": ""
+      }
+    ]
+  },
+  "election_day": {
+    "open": "07:00",
+    "close": "19:00",
+    "sites": [
+      {
+        "name": "Calvert Fire Station",
+        "address": "",
+        "city": "Calvert",
+        "zip": "",
+        "room": "",
+        "precincts": [
+          "1"
+        ],
+        "notes": "Street address not listed in the county notice."
+      },
+      {
+        "name": "New Elam Church",
+        "address": "",
+        "city": "Hearne",
+        "zip": "",
+        "room": "",
+        "precincts": [
+          "2",
+          "13"
+        ],
+        "notes": "Street address not listed in the county notice."
+      },
+      {
+        "name": "Wheelock Methodist Church",
+        "address": "",
+        "city": "Wheelock",
+        "zip": "",
+        "room": "",
+        "precincts": [
+          "3"
+        ],
+        "notes": "Street address not listed in the county notice."
+      },
+      {
+        "name": "Pridgeon Com. Center",
+        "address": "",
+        "city": "Franklin",
+        "zip": "",
+        "room": "",
+        "precincts": [
+          "4",
+          "6"
+        ],
+        "notes": "Street address not listed in the county notice."
+      },
+      {
+        "name": "J. P. Office #4",
+        "address": "113 Jack Street",
+        "city": "Bremond",
+        "zip": "76629",
+        "room": "",
+        "precincts": [
+          "5"
+        ],
+        "notes": "Address taken from the same notice's early voting list (JP #4 Office)."
+      },
+      {
+        "name": "Seale Fire Station",
+        "address": "",
+        "city": "Seale",
+        "zip": "",
+        "room": "",
+        "precincts": [
+          "8"
+        ],
+        "notes": "Street address not listed in the county notice."
+      },
+      {
+        "name": "Five Points Church",
+        "address": "",
+        "city": "Bryan",
+        "zip": "",
+        "room": "",
+        "precincts": [
+          "11"
+        ],
+        "notes": "Street address not listed in the county notice."
+      },
+      {
+        "name": "Easterly Fire Station",
+        "address": "",
+        "city": "Easterly",
+        "zip": "",
+        "room": "",
+        "precincts": [
+          "16"
+        ],
+        "notes": "Street address not listed in the county notice."
+      },
+      {
+        "name": "New Baden Community Center",
+        "address": "",
+        "city": "New Baden",
+        "zip": "",
+        "room": "",
+        "precincts": [
+          "19"
+        ],
+        "notes": "Street address not listed in the county notice."
+      },
+      {
+        "name": "Teal Center",
+        "address": "",
+        "city": "Hearne",
+        "zip": "",
+        "room": "",
+        "precincts": [
+          "22"
+        ],
+        "notes": "Street address not listed in the county notice."
+      },
+      {
+        "name": "Hearne VFW",
+        "address": "",
+        "city": "Hearne",
+        "zip": "",
+        "room": "",
+        "precincts": [
+          "23"
+        ],
+        "notes": "Street address not listed in the county notice."
+      }
+    ]
+  },
+  "notes": "Robertson County votes by precinct on Election Day, so use your own precinct's polling place; the county notice gives place names and towns but not most street addresses. On Sunday Oct 25 early voting is open 10 a.m. to 4 p.m. in Franklin, Bremond and Hearne only."
+}

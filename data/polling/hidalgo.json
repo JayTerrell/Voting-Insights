@@ -1,0 +1,934 @@
+{
+  "county": "Hidalgo",
+  "model": "countywide",
+  "checked_at": "2026-10-19T02:20:00Z",
+  "sources": [
+    {
+      "title": "Hidalgo County Elections: November 3, 2026 General Elections",
+      "url": "https://www.hidalgocounty.us/3500/November-3-2026-General-Elections"
+    },
+    {
+      "title": "Hidalgo County: Early Voting Polling Locations Dates and Times (PDF)",
+      "url": "https://www.hidalgocounty.us/DocumentCenter/View/73176"
+    },
+    {
+      "title": "Hidalgo County: Countywide Election Day Polling Locations (PDF)",
+      "url": "https://www.hidalgocounty.us/DocumentCenter/View/73177"
+    }
+  ],
+  "lookup_url": null,
+  "wait_times_url": null,
+  "early_voting": {
+    "schedule": [
+      {
+        "date": "2026-10-19",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-20",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-21",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-22",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-23",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-24",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-25",
+        "open": "10:00",
+        "close": "16:00"
+      },
+      {
+        "date": "2026-10-26",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-27",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-28",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-29",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-30",
+        "open": "07:00",
+        "close": "19:00"
+      }
+    ],
+    "sites": [
+      {
+        "name": "SGT. Fernando De La Rosa Memorial Library",
+        "address": "416 N. Tower Rd.",
+        "city": "Alamo",
+        "zip": "",
+        "room": "Meeting Room",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Alton Recreation Center",
+        "address": "349 Dawes Ave.",
+        "city": "Alton",
+        "zip": "",
+        "room": "Classroom 1",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Amigos Del Valle",
+        "address": "1408 Silver Ave.",
+        "city": "Donna",
+        "zip": "",
+        "room": "Main Entrance",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Sergeant Juan Rodriguez Community Center",
+        "address": "320 W. Santa Rosa Ave.",
+        "city": "Edcouch",
+        "zip": "",
+        "room": "Meeting Room",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Elections Annex Building",
+        "address": "317 N. Closner Blvd. (Rear)",
+        "city": "Edinburg",
+        "zip": "",
+        "room": "Annex Room",
+        "schedule": null,
+        "notes": "Main early voting location. Enter at the rear of the building."
+      },
+      {
+        "name": "San Carlos Endowment Center",
+        "address": "107 N. Sunflower Rd.",
+        "city": "Edinburg",
+        "zip": "",
+        "room": "Culture Room",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "UTRGV",
+        "address": "1201 W. University Dr.",
+        "city": "Edinburg",
+        "zip": "",
+        "room": "Student Academic Center (ESTAC)",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Elsa Municipal Court",
+        "address": "216 E. 4th St.",
+        "city": "Elsa",
+        "zip": "",
+        "room": "Court Chambers",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Granjeno Public Facility",
+        "address": "6553 S. FM 494",
+        "city": "Mission",
+        "zip": "",
+        "room": "Computer Lab/Library",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Hidalgo City Hall",
+        "address": "704 E. Ramón Ayala Dr.",
+        "city": "Hidalgo",
+        "zip": "",
+        "room": "Board Room",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "La Joya Youth Center",
+        "address": "604 Salomon Chapa Dr.",
+        "city": "La Joya",
+        "zip": "",
+        "room": "Gymnasium",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "La Villa ISD Multi-Purpose Service Center",
+        "address": "500 E. 9th St.",
+        "city": "La Villa",
+        "zip": "",
+        "room": "Meeting Room A",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Fireman's Pumphouse",
+        "address": "201 N. 1st St.",
+        "city": "McAllen",
+        "zip": "",
+        "room": "Main Entrance",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Lark Community Center",
+        "address": "2601 Lark Ave.",
+        "city": "McAllen",
+        "zip": "",
+        "room": "Exercise Room",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Palm View Community Center",
+        "address": "3401 Jordan Rd.",
+        "city": "McAllen",
+        "zip": "",
+        "room": "Exercise Room",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "STC Nursing Campus Bldg. B",
+        "address": "1901 S. McColl Rd.",
+        "city": "McAllen",
+        "zip": "",
+        "room": "Community Room",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "STC Pecan Campus Bldg. U",
+        "address": "3201 Pecan Blvd.",
+        "city": "McAllen",
+        "zip": "",
+        "room": "Internet Cafe",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Mercedes Civic Center",
+        "address": "520 E. 2nd St.",
+        "city": "Mercedes",
+        "zip": "",
+        "room": "Main Entrance",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Bannworth Gym",
+        "address": "1822 N. Shary Rd.",
+        "city": "Mission",
+        "zip": "",
+        "room": "Gymnasium",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Mission Parks and Recreation Center",
+        "address": "721 Bryan Rd.",
+        "city": "Mission",
+        "zip": "",
+        "room": "Gymnasium",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Pct. 3 Field Operations Office",
+        "address": "8320 W. Mile 7 Rd.",
+        "city": "Mission",
+        "zip": "",
+        "room": "Old Workshop Training Room",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Veterans Memorial Pavilion",
+        "address": "300 S. Inspiration Rd.",
+        "city": "Mission",
+        "zip": "",
+        "room": "Main Area",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Monte Alto ISD Teaching and Learning Center",
+        "address": "25149 1st St.",
+        "city": "Monte Alto",
+        "zip": "",
+        "room": "Meeting Room",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Palmview Recreation Center",
+        "address": "406 W. Veterans Blvd.",
+        "city": "Palmview",
+        "zip": "",
+        "room": "Gymnasium",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Peñitas Public Library",
+        "address": "1111 S. Main St.",
+        "city": "Peñitas",
+        "zip": "",
+        "room": "Conference Room",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Development and Research Center",
+        "address": "850 W. Dicker Rd.",
+        "city": "Pharr",
+        "zip": "",
+        "room": "Multi-Purpose Room",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Jose \"Pepe\" Salinas Center",
+        "address": "1011 W. Kelly Ave.",
+        "city": "Pharr",
+        "zip": "",
+        "room": "Small Hall",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Progreso Family Community Center",
+        "address": "510 N. FM 1015",
+        "city": "Weslaco",
+        "zip": "",
+        "room": "Double Doors",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "San Juan Memorial Library",
+        "address": "1010 S. Standard St.",
+        "city": "San Juan",
+        "zip": "",
+        "room": "Multi-Purpose Room",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Sullivan City WIC Clinic",
+        "address": "371 W. Expressway 83",
+        "city": "Sullivan City",
+        "zip": "",
+        "room": "Lobby",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Business, Visitor, and Event Center",
+        "address": "275 S. Kansas Ave.",
+        "city": "Weslaco",
+        "zip": "",
+        "room": "Conference Room B",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Pct. 1 Conference Center",
+        "address": "1902 Joe Stephens Ave #101",
+        "city": "Weslaco",
+        "zip": "",
+        "room": "Conference Room",
+        "schedule": null,
+        "notes": ""
+      }
+    ]
+  },
+  "election_day": {
+    "open": "07:00",
+    "close": "19:00",
+    "sites": [
+      {
+        "name": "Alamo Community Center",
+        "address": "1429 S. Tower Rd.",
+        "city": "Alamo",
+        "zip": "",
+        "room": "Meeting Room 1 & 2",
+        "notes": ""
+      },
+      {
+        "name": "Santos Livas Elementary School",
+        "address": "733 N. Alamo Rd.",
+        "city": "Alamo",
+        "zip": "",
+        "room": "Computer Lab",
+        "notes": ""
+      },
+      {
+        "name": "SGT. Fernando De La Rosa Memorial Library",
+        "address": "416 N. Tower Rd.",
+        "city": "Alamo",
+        "zip": "",
+        "room": "Meeting Room",
+        "notes": ""
+      },
+      {
+        "name": "Alton Recreation Center",
+        "address": "349 Dawes Ave.",
+        "city": "Alton",
+        "zip": "",
+        "room": "Classroom 1",
+        "notes": ""
+      },
+      {
+        "name": "Amigos Del Valle",
+        "address": "1408 Silver Ave.",
+        "city": "Donna",
+        "zip": "",
+        "room": "Main Entrance",
+        "notes": ""
+      },
+      {
+        "name": "W.A. Todd Middle School",
+        "address": "400 N. Salinas Blvd.",
+        "city": "Donna",
+        "zip": "",
+        "room": "Gymnasium",
+        "notes": ""
+      },
+      {
+        "name": "Sergeant Juan Rodriguez Community Center",
+        "address": "320 W. Santa Rosa Ave.",
+        "city": "Edcouch",
+        "zip": "",
+        "room": "Meeting Room",
+        "notes": ""
+      },
+      {
+        "name": "Avila Elementary School",
+        "address": "9205 N. Alamo Rd.",
+        "city": "Edinburg",
+        "zip": "",
+        "room": "Library",
+        "notes": ""
+      },
+      {
+        "name": "B.L. Garza Middle School",
+        "address": "1202 N. Mon Mack Rd.",
+        "city": "Edinburg",
+        "zip": "",
+        "room": "Health Room",
+        "notes": ""
+      },
+      {
+        "name": "Canterbury Elementary School",
+        "address": "2821 W. Canton Rd.",
+        "city": "Edinburg",
+        "zip": "",
+        "room": "Gymnasium",
+        "notes": ""
+      },
+      {
+        "name": "Edinburg Conference Center at Renaissance",
+        "address": "118 Paseo Del Prado",
+        "city": "Edinburg",
+        "zip": "",
+        "room": "Conference Room",
+        "notes": ""
+      },
+      {
+        "name": "Edinburg North High School",
+        "address": "3101 N. Closner Blvd.",
+        "city": "Edinburg",
+        "zip": "",
+        "room": "Performing Arts Center (PAC)",
+        "notes": ""
+      },
+      {
+        "name": "Edinburg Parks & Recreation Wellness Center",
+        "address": "315 E. Mark S. Peña Dr.",
+        "city": "Edinburg",
+        "zip": "",
+        "room": "Gaming Room",
+        "notes": ""
+      },
+      {
+        "name": "Elections Annex Building",
+        "address": "317 N. Closner Blvd. (Rear)",
+        "city": "Edinburg",
+        "zip": "",
+        "room": "Annex Room",
+        "notes": "Enter at the rear of the building."
+      },
+      {
+        "name": "Guerra Elementary School",
+        "address": "10010 N. Via Fernandez",
+        "city": "Edinburg",
+        "zip": "",
+        "room": "Teacher's Lounge",
+        "notes": ""
+      },
+      {
+        "name": "Magee Elementary School",
+        "address": "3420 W. Rogers Rd.",
+        "city": "Edinburg",
+        "zip": "",
+        "room": "Gymnasium",
+        "notes": ""
+      },
+      {
+        "name": "Monte Cristo Elementary School",
+        "address": "4010 N. Doolittle Rd.",
+        "city": "Edinburg",
+        "zip": "",
+        "room": "Front Entrance",
+        "notes": ""
+      },
+      {
+        "name": "San Carlos Endowment Center",
+        "address": "107 N. Sunflower Rd.",
+        "city": "Edinburg",
+        "zip": "",
+        "room": "Culture Room",
+        "notes": ""
+      },
+      {
+        "name": "South Middle School",
+        "address": "601 W. Freddy Gonzalez Dr.",
+        "city": "Edinburg",
+        "zip": "",
+        "room": "West Entrance",
+        "notes": ""
+      },
+      {
+        "name": "UTRGV",
+        "address": "1201 W. University Dr.",
+        "city": "Edinburg",
+        "zip": "",
+        "room": "Student Academic Center (ESTAC)",
+        "notes": ""
+      },
+      {
+        "name": "Elsa Municipal Court",
+        "address": "216 E. 4th St.",
+        "city": "Elsa",
+        "zip": "",
+        "room": "Court Chambers",
+        "notes": ""
+      },
+      {
+        "name": "Granjeno Public Facility",
+        "address": "6553 S. FM 494",
+        "city": "Mission",
+        "zip": "",
+        "room": "Computer Lab/Library",
+        "notes": ""
+      },
+      {
+        "name": "Hargill Elementary School",
+        "address": "13394 4th St.",
+        "city": "Hargill",
+        "zip": "",
+        "room": "Gymnasium",
+        "notes": ""
+      },
+      {
+        "name": "Hidalgo City Hall",
+        "address": "704 E. Ramón Ayala Dr.",
+        "city": "Hidalgo",
+        "zip": "",
+        "room": "Board Room",
+        "notes": ""
+      },
+      {
+        "name": "La Joya Youth Center",
+        "address": "604 Salomón Chapa Dr.",
+        "city": "La Joya",
+        "zip": "",
+        "room": "Gymnasium",
+        "notes": ""
+      },
+      {
+        "name": "La Villa ISD Multi-Purpose Service Center",
+        "address": "500 E. 9th St.",
+        "city": "La Villa",
+        "zip": "",
+        "room": "Meeting Room A",
+        "notes": ""
+      },
+      {
+        "name": "Linn-San Manuel Fire Department",
+        "address": "21661 TX 186",
+        "city": "Edinburg",
+        "zip": "",
+        "room": "Meeting Room",
+        "notes": ""
+      },
+      {
+        "name": "Cayetano Cavazos Elementary School",
+        "address": "1501 W. Freddy Gonzalez",
+        "city": "McAllen",
+        "zip": "",
+        "room": "Teacher's Lounge",
+        "notes": ""
+      },
+      {
+        "name": "Crockett Administration Annex",
+        "address": "2112 N. Main St.",
+        "city": "McAllen",
+        "zip": "",
+        "room": "EOC Training Room",
+        "notes": ""
+      },
+      {
+        "name": "Fireman's Pumphouse",
+        "address": "201 N. 1st St.",
+        "city": "McAllen",
+        "zip": "",
+        "room": "Main Entrance",
+        "notes": ""
+      },
+      {
+        "name": "Fossum Middle School",
+        "address": "7800 N. Ware Rd.",
+        "city": "McAllen",
+        "zip": "",
+        "room": "Front Entrance",
+        "notes": ""
+      },
+      {
+        "name": "Gonzalez Elementary School",
+        "address": "201 E. Martin Ave.",
+        "city": "McAllen",
+        "zip": "",
+        "room": "Cafeteria",
+        "notes": ""
+      },
+      {
+        "name": "Lark Community Center",
+        "address": "2601 Lark Ave.",
+        "city": "McAllen",
+        "zip": "",
+        "room": "Exercise Room",
+        "notes": ""
+      },
+      {
+        "name": "Las Palmas Community Center",
+        "address": "1921 N. 25th St.",
+        "city": "McAllen",
+        "zip": "",
+        "room": "Mesquite Room",
+        "notes": ""
+      },
+      {
+        "name": "McAllen Public Library",
+        "address": "4001 N. 23rd St.",
+        "city": "McAllen",
+        "zip": "",
+        "room": "Meeting Room A",
+        "notes": ""
+      },
+      {
+        "name": "Milam Elementary School",
+        "address": "3800 N. Main St.",
+        "city": "McAllen",
+        "zip": "",
+        "room": "South Entrance",
+        "notes": ""
+      },
+      {
+        "name": "Palm View Community Center",
+        "address": "3401 Jordan Rd.",
+        "city": "McAllen",
+        "zip": "",
+        "room": "Exercise Room",
+        "notes": ""
+      },
+      {
+        "name": "Rayburn Elementary School",
+        "address": "7000 N. Main St.",
+        "city": "McAllen",
+        "zip": "",
+        "room": "New Wing",
+        "notes": ""
+      },
+      {
+        "name": "STC Nursing Campus Bldg. B",
+        "address": "1901 S. McColl Rd.",
+        "city": "McAllen",
+        "zip": "",
+        "room": "Community Room",
+        "notes": ""
+      },
+      {
+        "name": "STC Pecan Campus Bldg. U",
+        "address": "3201 Pecan Blvd.",
+        "city": "McAllen",
+        "zip": "",
+        "room": "Internet Cafe",
+        "notes": ""
+      },
+      {
+        "name": "Texas A&M Higher Education Center at McAllen",
+        "address": "6200 Tres Lagos Blvd.",
+        "city": "McAllen",
+        "zip": "",
+        "room": "Auditorium Lobby",
+        "notes": ""
+      },
+      {
+        "name": "Immaculate Conception Parish Hall",
+        "address": "28212 FM 2058",
+        "city": "Edinburg",
+        "zip": "",
+        "room": "Parish Hall",
+        "notes": ""
+      },
+      {
+        "name": "Mercedes Civic Center",
+        "address": "520 E. 2nd St.",
+        "city": "Mercedes",
+        "zip": "",
+        "room": "Main Entrance",
+        "notes": ""
+      },
+      {
+        "name": "Bannworth Gym",
+        "address": "1822 N. Shary Rd.",
+        "city": "Mission",
+        "zip": "",
+        "room": "Gymnasium",
+        "notes": ""
+      },
+      {
+        "name": "Jose \"Joe\" Correa Jr. Mission CISD Agriculture Science Lab",
+        "address": "1205 W. Griffin Parkway",
+        "city": "Mission",
+        "zip": "",
+        "room": "Classroom",
+        "notes": ""
+      },
+      {
+        "name": "Mission Parks and Recreation Center",
+        "address": "721 Bryan Rd.",
+        "city": "Mission",
+        "zip": "",
+        "room": "Gymnasium",
+        "notes": ""
+      },
+      {
+        "name": "Pct. 3 Field Operations Office",
+        "address": "8320 W. Mile 7 Rd.",
+        "city": "Mission",
+        "zip": "",
+        "room": "Old Workshop Training Room",
+        "notes": ""
+      },
+      {
+        "name": "Upper Valley Art League",
+        "address": "921 E. 12th St.",
+        "city": "Mission",
+        "zip": "",
+        "room": "Main Entrance",
+        "notes": ""
+      },
+      {
+        "name": "Veterans Memorial Pavilion",
+        "address": "300 S. Inspiration Rd.",
+        "city": "Mission",
+        "zip": "",
+        "room": "Main Area",
+        "notes": ""
+      },
+      {
+        "name": "Monte Alto ISD Teaching and Learning Center",
+        "address": "25149 1st St.",
+        "city": "Monte Alto",
+        "zip": "",
+        "room": "Meeting Room",
+        "notes": ""
+      },
+      {
+        "name": "Palmview Recreation Center",
+        "address": "406 W. Veterans Blvd.",
+        "city": "Palmview",
+        "zip": "",
+        "room": "Gymnasium",
+        "notes": ""
+      },
+      {
+        "name": "Peñitas Public Library",
+        "address": "1111 S. Main St.",
+        "city": "Peñitas",
+        "zip": "",
+        "room": "Conference Room",
+        "notes": ""
+      },
+      {
+        "name": "Development and Research Center",
+        "address": "850 W. Dicker Rd.",
+        "city": "Pharr",
+        "zip": "",
+        "room": "Multi-Purpose Room",
+        "notes": ""
+      },
+      {
+        "name": "Jose \"Pepe\" Salinas Center",
+        "address": "1011 W. Kelly Ave.",
+        "city": "Pharr",
+        "zip": "",
+        "room": "Small Hall",
+        "notes": ""
+      },
+      {
+        "name": "Pharr ONE",
+        "address": "1121 E. Nolana Loop",
+        "city": "Pharr",
+        "zip": "",
+        "room": "Conference Room",
+        "notes": ""
+      },
+      {
+        "name": "STC Regional Center for Public Safety Excellence",
+        "address": "3901 S. Cage Blvd.",
+        "city": "Pharr",
+        "zip": "",
+        "room": "Classroom 1.111",
+        "notes": ""
+      },
+      {
+        "name": "Valley View ISD Staff Development Center",
+        "address": "9701 S. Jackson Rd.",
+        "city": "Pharr",
+        "zip": "",
+        "room": "North Entrance",
+        "notes": ""
+      },
+      {
+        "name": "Progreso Family Community Center",
+        "address": "510 N. FM 1015",
+        "city": "Weslaco",
+        "zip": "",
+        "room": "Double Doors",
+        "notes": ""
+      },
+      {
+        "name": "Doedyns Elementary School",
+        "address": "1401 N. Raul Longoria",
+        "city": "San Juan",
+        "zip": "",
+        "room": "Classroom B-35",
+        "notes": ""
+      },
+      {
+        "name": "San Juan Fire Station #2",
+        "address": "2301 N. Raul Longoria Rd.",
+        "city": "San Juan",
+        "zip": "",
+        "room": "Multi-Purpose Room",
+        "notes": ""
+      },
+      {
+        "name": "San Juan Memorial Library",
+        "address": "1010 S. Standard St.",
+        "city": "San Juan",
+        "zip": "",
+        "room": "Multi-Purpose Room",
+        "notes": ""
+      },
+      {
+        "name": "Sorensen Elementary School",
+        "address": "701 E. Sam Houston St.",
+        "city": "San Juan",
+        "zip": "",
+        "room": "Gymnasium",
+        "notes": ""
+      },
+      {
+        "name": "Sullivan City WIC Clinic",
+        "address": "371 W. Expressway 83",
+        "city": "Sullivan City",
+        "zip": "",
+        "room": "Lobby",
+        "notes": ""
+      },
+      {
+        "name": "Business, Visitor, and Event Center",
+        "address": "275 S. Kansas Ave.",
+        "city": "Weslaco",
+        "zip": "",
+        "room": "Conference Room B",
+        "notes": ""
+      },
+      {
+        "name": "Louise Black Building",
+        "address": "700 S. Bridge Ave.",
+        "city": "Weslaco",
+        "zip": "",
+        "room": "Room 1",
+        "notes": ""
+      },
+      {
+        "name": "Pct. 1 Conference Center",
+        "address": "1902 Joe Stephens Ave. #101",
+        "city": "Weslaco",
+        "zip": "",
+        "room": "Conference Room",
+        "notes": ""
+      },
+      {
+        "name": "Pct. 1 Wellness, Activity and Community Center",
+        "address": "1901 N. Bridge Ave.",
+        "city": "Weslaco",
+        "zip": "",
+        "room": "Main Entrance",
+        "notes": ""
+      },
+      {
+        "name": "STC Mid-Valley Campus Bldg. E",
+        "address": "400 N. Border Ave.",
+        "city": "Weslaco",
+        "zip": "",
+        "room": "Library Conference Room",
+        "notes": ""
+      },
+      {
+        "name": "Stephen F. Austin Complex",
+        "address": "599 W. 4th St.",
+        "city": "Weslaco",
+        "zip": "",
+        "room": "Migrant Department",
+        "notes": ""
+      }
+    ]
+  },
+  "notes": "Voters may use any early voting site and, on Election Day, any of the countywide polling locations. The county lists city names but not ZIP codes."
+}

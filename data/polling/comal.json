@@ -1,0 +1,356 @@
+{
+  "county": "Comal",
+  "model": "countywide",
+  "checked_at": "2026-10-19T02:12:00Z",
+  "sources": [
+    {
+      "title": "Comal County Elections & Voter Registration",
+      "url": "https://www.comalcounty.gov/193/Elections-Voter-Registration"
+    },
+    {
+      "title": "Early Voting Locations for November 3, 2026 General Election (PDF)",
+      "url": "https://www.comalcounty.gov/DocumentCenter/View/7960"
+    },
+    {
+      "title": "Election Day Polling Locations for November 3, 2026 General Election (PDF)",
+      "url": "https://www.comalcounty.gov/DocumentCenter/View/7961"
+    }
+  ],
+  "lookup_url": null,
+  "wait_times_url": null,
+  "early_voting": {
+    "schedule": [
+      {
+        "date": "2026-10-19",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-20",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-21",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-22",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-23",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-24",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-25",
+        "open": "12:00",
+        "close": "18:00"
+      },
+      {
+        "date": "2026-10-26",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-27",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-28",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-29",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-30",
+        "open": "07:00",
+        "close": "19:00"
+      }
+    ],
+    "sites": [
+      {
+        "name": "Comal County Elections Office",
+        "address": "396 N. Seguin Ave.",
+        "city": "New Braunfels",
+        "zip": "78130",
+        "room": "",
+        "schedule": null,
+        "notes": "Main early voting location. Emergency and limited ballots are available only here."
+      },
+      {
+        "name": "Mammen Family Public Library",
+        "address": "131 Bulverde Crossing",
+        "city": "Bulverde",
+        "zip": "78163",
+        "room": "Room A",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Comal County Offices, Bulverde Annex",
+        "address": "30470 Cougar Bend",
+        "city": "Bulverde",
+        "zip": "78163",
+        "room": "JP #2 Courtroom",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Comal County Offices, Church Hill Annex",
+        "address": "1345 Church Hill Drive",
+        "city": "New Braunfels",
+        "zip": "78130",
+        "room": "Training Room, Suite 1400",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "St Francis by the Lake Episcopal Church",
+        "address": "121 Spring Mountain Dr.",
+        "city": "Canyon Lake",
+        "zip": "78133",
+        "room": "Large Room",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Garden Ridge City Hall",
+        "address": "9400 Municipal Parkway",
+        "city": "Garden Ridge",
+        "zip": "78266",
+        "room": "Municipal Court Room",
+        "schedule": null,
+        "notes": ""
+      }
+    ]
+  },
+  "election_day": {
+    "open": "07:00",
+    "close": "19:00",
+    "sites": [
+      {
+        "name": "Comal County Senior Citizens Center",
+        "address": "710 Landa",
+        "city": "New Braunfels",
+        "zip": "78130",
+        "room": "",
+        "notes": "Vote Center #1"
+      },
+      {
+        "name": "Mammen Family Public Library, Meeting Room A",
+        "address": "131 Bulverde Crossing",
+        "city": "Bulverde",
+        "zip": "78163",
+        "room": "",
+        "notes": "Vote Center #2"
+      },
+      {
+        "name": "Freedom Fellowship Church, Foyer",
+        "address": "410 Oak Run Point",
+        "city": "New Braunfels",
+        "zip": "78130",
+        "room": "",
+        "notes": "Vote Center #3"
+      },
+      {
+        "name": "Tye Preston Memorial Library",
+        "address": "16311 South Access Rd.",
+        "city": "Canyon Lake",
+        "zip": "78133",
+        "room": "",
+        "notes": "Vote Center #4"
+      },
+      {
+        "name": "Canyon Springs Resort Clubhouse",
+        "address": "691 Canyon Springs Dr.",
+        "city": "Canyon Lake",
+        "zip": "78133",
+        "room": "",
+        "notes": "Vote Center #5"
+      },
+      {
+        "name": "Emergency Services District No. 4 Fire Station No. 4",
+        "address": "215 Rebecca Creek Road",
+        "city": "Canyon Lake",
+        "zip": "78133",
+        "room": "",
+        "notes": "Vote Center #6"
+      },
+      {
+        "name": "Vintage Oaks Amenity Center",
+        "address": "1250 Via Principale",
+        "city": "New Braunfels",
+        "zip": "78132",
+        "room": "",
+        "notes": "Vote Center #7"
+      },
+      {
+        "name": "VFW #8800",
+        "address": "7755 FM2673",
+        "city": "Canyon Lake",
+        "zip": "78133",
+        "room": "",
+        "notes": "Vote Center #8"
+      },
+      {
+        "name": "Cibolo Creek Community Church",
+        "address": "30395 Ralph Fair Rd.",
+        "city": "Boerne",
+        "zip": "78015",
+        "room": "",
+        "notes": "Vote Center #9"
+      },
+      {
+        "name": "Real Life Community Church",
+        "address": "1615 FM 1044",
+        "city": "New Braunfels",
+        "zip": "78130",
+        "room": "",
+        "notes": "Vote Center #10"
+      },
+      {
+        "name": "Christ Our King Anglican Church",
+        "address": "115 Kings Way",
+        "city": "New Braunfels",
+        "zip": "78132",
+        "room": "",
+        "notes": "Vote Center #11"
+      },
+      {
+        "name": "Comal County Offices, Bulverde Annex, JP 2 Courtroom",
+        "address": "30470 Cougar Bend",
+        "city": "Bulverde",
+        "zip": "78163",
+        "room": "",
+        "notes": "Vote Center #12"
+      },
+      {
+        "name": "Garden Ridge City Hall, Municipal Court Room",
+        "address": "9400 Municipal Parkway",
+        "city": "Garden Ridge",
+        "zip": "78266",
+        "room": "",
+        "notes": "Vote Center #13"
+      },
+      {
+        "name": "Bulverde/Spring Branch Fire & EMS @ Johnson Ranch",
+        "address": "30475 Johnson Way",
+        "city": "Bulverde",
+        "zip": "78163",
+        "room": "",
+        "notes": "Vote Center #14"
+      },
+      {
+        "name": "Westside Public Library",
+        "address": "2910 S. IH 35",
+        "city": "New Braunfels",
+        "zip": "78130",
+        "room": "",
+        "notes": "Vote Center #15"
+      },
+      {
+        "name": "City of New Braunfels, Public Works Building",
+        "address": "424 S. Castell Ave.",
+        "city": "New Braunfels",
+        "zip": "78130",
+        "room": "",
+        "notes": "Vote Center #16"
+      },
+      {
+        "name": "New Braunfels Library, Large Meeting Room",
+        "address": "700 E. Common",
+        "city": "New Braunfels",
+        "zip": "78130",
+        "room": "",
+        "notes": "Vote Center #17"
+      },
+      {
+        "name": "Comal County Offices, Church Hill, Training Room, Suite 1400",
+        "address": "1345 Church Hill Dr.",
+        "city": "New Braunfels",
+        "zip": "78130",
+        "room": "",
+        "notes": "Vote Center #18"
+      },
+      {
+        "name": "Comal ISD Support Services Building",
+        "address": "1404 IH 35 N",
+        "city": "New Braunfels",
+        "zip": "78130",
+        "room": "",
+        "notes": "Vote Center #19"
+      },
+      {
+        "name": "New Braunfels Christian Church, Fellowship Hall",
+        "address": "734 N. Loop 337",
+        "city": "New Braunfels",
+        "zip": "78130",
+        "room": "",
+        "notes": "Vote Center #20"
+      },
+      {
+        "name": "Eden Hill, Town Hall",
+        "address": "631 Lakeview Blvd",
+        "city": "New Braunfels",
+        "zip": "78130",
+        "room": "",
+        "notes": "Vote Center #21"
+      },
+      {
+        "name": "St. Francis by the Lake Episcopal Church, Small Room",
+        "address": "121 Spring Mountain Dr.",
+        "city": "Canyon Lake",
+        "zip": "78133",
+        "room": "",
+        "notes": "Vote Center #22"
+      },
+      {
+        "name": "North Shore United Methodist Church",
+        "address": "23880 N. Cranes Mill Rd",
+        "city": "Canyon Lake",
+        "zip": "78133",
+        "room": "",
+        "notes": "Vote Center #23"
+      },
+      {
+        "name": "Gruene Methodist Church, Mission and Outreach Building",
+        "address": "2629 E. Common St.",
+        "city": "New Braunfels",
+        "zip": "78130",
+        "room": "",
+        "notes": "Vote Center #24"
+      },
+      {
+        "name": "Rebecca Creek Baptist Church",
+        "address": "11755 Hwy 281 N.",
+        "city": "Spring Branch",
+        "zip": "78070",
+        "room": "",
+        "notes": "Vote Center #25"
+      },
+      {
+        "name": "River Chase Clubhouse",
+        "address": "436 River Chase Way",
+        "city": "New Braunfels",
+        "zip": "78132",
+        "room": "",
+        "notes": "Vote Center #26"
+      }
+    ]
+  },
+  "notes": "Comal County uses vote centers, so on Election Day any eligible Comal County voter may vote at any of the 26 listed locations. Early voting hours are 8 a.m. to 5 p.m. on October 19 to 23, 7 a.m. to 7 p.m. on October 24, noon to 6 p.m. on October 25, and 7 a.m. to 7 p.m. on October 26 to 30."
+}

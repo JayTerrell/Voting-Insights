@@ -1,0 +1,635 @@
+{
+  "county": "Galveston",
+  "model": "countywide",
+  "checked_at": "2026-10-19T02:10:58Z",
+  "sources": [
+    {
+      "title": "Galveston County Elections: Current and Upcoming Elections",
+      "url": "https://galvestonvotes.org/election-information/current-and-upcoming-elections/"
+    },
+    {
+      "title": "Galveston County: Notice of General Election, November 3, 2026 (PDF)",
+      "url": "https://galvestonvotes.org/wp-content/uploads/2026/10/NOTICE-OF-GENERAL-ELECTION-FOR-GALVESTON-CTY.pdf"
+    },
+    {
+      "title": "Galveston County: November General Election Early Voting Locations (PDF)",
+      "url": "https://galvestonvotes.org/wp-content/uploads/2026/10/Early-Voting-Locations-1.pdf"
+    },
+    {
+      "title": "Galveston County: November 3rd 2026 Election Day Locations (PDF)",
+      "url": "https://galvestonvotes.org/wp-content/uploads/2026/10/Election-Day-Locations.pdf"
+    }
+  ],
+  "lookup_url": null,
+  "wait_times_url": null,
+  "early_voting": {
+    "schedule": [
+      {
+        "date": "2026-10-19",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-20",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-21",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-22",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-23",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-24",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-25",
+        "open": "13:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-26",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-27",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-28",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-29",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-30",
+        "open": "07:00",
+        "close": "19:00"
+      }
+    ],
+    "sites": [
+      {
+        "name": "Galveston County Records and Election Center",
+        "address": "10000 Emmett F. Lowry Expwy #1132",
+        "city": "Texas City",
+        "zip": "77591",
+        "room": "",
+        "schedule": null,
+        "notes": "Main early voting location."
+      },
+      {
+        "name": "Joe Faggard Community Center",
+        "address": "1750 Highway 87",
+        "city": "Crystal Beach",
+        "zip": "77650",
+        "room": "",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "La Marque Community Room",
+        "address": "1109-B Bayou Rd.",
+        "city": "La Marque",
+        "zip": "77568",
+        "room": "",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Hometown Heroes Park",
+        "address": "1001 E. League City Parkway",
+        "city": "League City",
+        "zip": "77573",
+        "room": "",
+        "schedule": null,
+        "notes": "The county's separate early voting list shows 1011 E. League City Pkwy."
+      },
+      {
+        "name": "Galveston County Courthouse",
+        "address": "722 Moody Ave.",
+        "city": "Galveston",
+        "zip": "77550",
+        "room": "2nd Floor",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Carver Park Comm Center",
+        "address": "6415 Park Ave.",
+        "city": "Texas City",
+        "zip": "77591",
+        "room": "Thomas Carter Room",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Bayshore Annex",
+        "address": "4500 10th St.",
+        "city": "Bacliff",
+        "zip": "77518",
+        "room": "Breakroom",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Galveston County Justice Center",
+        "address": "600 59th St.",
+        "city": "Galveston",
+        "zip": "77551",
+        "room": "1st floor Breakroom",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Nessler Center",
+        "address": "2010 5th Ave. N.",
+        "city": "Texas City",
+        "zip": "77590",
+        "room": "Surf Room",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Kemah Community Center",
+        "address": "800 Harris Ave.",
+        "city": "Kemah",
+        "zip": "77565",
+        "room": "Sm Room",
+        "schedule": null,
+        "notes": "The county's separate early voting list shows 8010 Harris."
+      },
+      {
+        "name": "Moody Methodist Church",
+        "address": "2803 53rd St.",
+        "city": "Galveston",
+        "zip": "77551",
+        "room": "",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Bay Colony West HOA",
+        "address": "6621 Calder Rd.",
+        "city": "Dickinson",
+        "zip": "77539",
+        "room": "",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "The Crossings",
+        "address": "255 Egret Bay Blvd.",
+        "city": "League City",
+        "zip": "77573",
+        "room": "",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Seaside Church",
+        "address": "16523 Termini-San Luis Pass",
+        "city": "Jamaica Beach",
+        "zip": "77554",
+        "room": "",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Santa Fe ISD Museum",
+        "address": "13304 Highway 6",
+        "city": "Santa Fe",
+        "zip": "77510",
+        "room": "",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "La Marque Admin Fire Station",
+        "address": "5715 Texas Ave",
+        "city": "La Marque",
+        "zip": "77568",
+        "room": "",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Galveston County MUD 12",
+        "address": "2929 Highway 6",
+        "city": "Bayou Vista",
+        "zip": "77563",
+        "room": "2nd Floor",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "West County Bldg.",
+        "address": "11730 Highway 6",
+        "city": "Santa Fe",
+        "zip": "77510",
+        "room": "",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "League City Annex",
+        "address": "174 Calder Dr.",
+        "city": "League City",
+        "zip": "77573",
+        "room": "",
+        "schedule": null,
+        "notes": "The county's separate early voting list shows 174 Calder Rd (Comm Rm)."
+      },
+      {
+        "name": "Greater St. Matthews",
+        "address": "6333 Highway 6",
+        "city": "Hitchcock",
+        "zip": "77563",
+        "room": "",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Dickinson Community Center",
+        "address": "2714 Highway 3",
+        "city": "Dickinson",
+        "zip": "77539",
+        "room": "",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Public Works Operation Center",
+        "address": "1701 W. League City Parkway",
+        "city": "League City",
+        "zip": "77573",
+        "room": "",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "First Baptist Friendswood",
+        "address": "209 S Friendswood Dr.",
+        "city": "Friendswood",
+        "zip": "77546",
+        "room": "",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Village on the Park",
+        "address": "400 E. Parkwood",
+        "city": "Friendswood",
+        "zip": "77546",
+        "room": "Town Hall",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "College of the Mainland",
+        "address": "1200 N Amburn Rd.",
+        "city": "Texas City",
+        "zip": "77591",
+        "room": "",
+        "schedule": null,
+        "notes": "The county's separate early voting list shows 7825 Monticello Dr."
+      }
+    ]
+  },
+  "election_day": {
+    "open": "07:00",
+    "close": "19:00",
+    "sites": [
+      {
+        "name": "High Island ISD",
+        "address": "2113 6th St.",
+        "city": "High Island",
+        "zip": "77623",
+        "room": "Gym",
+        "notes": ""
+      },
+      {
+        "name": "Carver Park Community Center",
+        "address": "6415 Park Ave.",
+        "city": "Texas City",
+        "zip": "77591",
+        "room": "Thomas Carter Room",
+        "notes": ""
+      },
+      {
+        "name": "Leavesley Park, Jones Hangar",
+        "address": "901 Buckingham Dr.",
+        "city": "Friendswood",
+        "zip": "77546",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Joe Faggard Community Center",
+        "address": "1750 Highway 87",
+        "city": "Crystal Beach",
+        "zip": "77650",
+        "room": "",
+        "notes": "The county's Election Day list shows 1750 TX-87, Port Bolivar."
+      },
+      {
+        "name": "Galveston County Records and Election Center",
+        "address": "10000 Emmett F. Lowry Expwy #1132",
+        "city": "Texas City",
+        "zip": "77591",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Hometown Heroes Park",
+        "address": "1001 E. League City Parkway",
+        "city": "League City",
+        "zip": "77573",
+        "room": "",
+        "notes": "The county's Election Day list shows 1011 E League City Pkwy."
+      },
+      {
+        "name": "Rebecca Sealy Hospital",
+        "address": "404 8th St.",
+        "city": "Galveston",
+        "zip": "77550",
+        "room": "",
+        "notes": "Listed as UTMB Rebecca Sealy, Galveston 77555, on the county's Election Day list."
+      },
+      {
+        "name": "Texas City Fire Station",
+        "address": "1725 N. Logan St.",
+        "city": "Texas City",
+        "zip": "77590",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Galveston County MUD 12",
+        "address": "2929 Highway 6",
+        "city": "Bayou Vista",
+        "zip": "77563",
+        "room": "2nd Floor",
+        "notes": ""
+      },
+      {
+        "name": "Galveston County Courthouse",
+        "address": "722 Moody Ave.",
+        "city": "Galveston",
+        "zip": "77550",
+        "room": "2nd Floor",
+        "notes": ""
+      },
+      {
+        "name": "Bay Colony West HOA",
+        "address": "6621 Calder Rd.",
+        "city": "Dickinson",
+        "zip": "77539",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "The Crossings",
+        "address": "255 Egret Bay Blvd.",
+        "city": "League City",
+        "zip": "77573",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "GISD Administration Building",
+        "address": "3904 Ave. T",
+        "city": "Galveston",
+        "zip": "77550",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Saunders Community Center",
+        "address": "501 4th Ave. N.",
+        "city": "Texas City",
+        "zip": "77590",
+        "room": "",
+        "notes": "Spelled Sanders Community Center on the county's Election Day list."
+      },
+      {
+        "name": "CCISD Education Support Center",
+        "address": "2425 E Main St.",
+        "city": "League City",
+        "zip": "77573",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Galveston County Justice Center",
+        "address": "600 59th St.",
+        "city": "Galveston",
+        "zip": "77551",
+        "room": "1st floor Breakroom",
+        "notes": ""
+      },
+      {
+        "name": "Greater St. Matthews",
+        "address": "6333 Highway 6",
+        "city": "Hitchcock",
+        "zip": "77563",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "League City Annex",
+        "address": "174 Calder Dr.",
+        "city": "League City",
+        "zip": "77573",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Texas A&M Pelican Island",
+        "address": "200 Seawolf Parkway",
+        "city": "Galveston",
+        "zip": "77554",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Santa Fe ISD Museum",
+        "address": "13304 Highway 6",
+        "city": "Santa Fe",
+        "zip": "77510",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "League City Civic Center",
+        "address": "400 W. Walker",
+        "city": "League City",
+        "zip": "77573",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Moody Methodist Church",
+        "address": "2803 53rd St.",
+        "city": "Galveston",
+        "zip": "77551",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "West County Bldg.",
+        "address": "11730 Highway 6",
+        "city": "Santa Fe",
+        "zip": "77510",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Dickinson City Hall",
+        "address": "4403 Highway 3",
+        "city": "Dickinson",
+        "zip": "77539",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "First Baptist Friendswood",
+        "address": "209 S. Friendswood Dr.",
+        "city": "Friendswood",
+        "zip": "77546",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Dickinson Community Center",
+        "address": "2714 Highway 3",
+        "city": "Dickinson",
+        "zip": "77539",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Public Works Operation Center",
+        "address": "1701 W. League City Parkway",
+        "city": "League City",
+        "zip": "77573",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Seaside Church",
+        "address": "16523 Termini-San Luis Pass",
+        "city": "Galveston",
+        "zip": "77554",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Lighthouse Baptist Church",
+        "address": "4105 Gulf Freeway",
+        "city": "Dickinson",
+        "zip": "77539",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Magnolia Creek",
+        "address": "4751 W. League City Parkway",
+        "city": "League City",
+        "zip": "77573",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "La Marque Community Room",
+        "address": "1109-B Bayou Rd.",
+        "city": "La Marque",
+        "zip": "77568",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "San Leon Fire Department",
+        "address": "337 12th St.",
+        "city": "San Leon",
+        "zip": "77539",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Village on the Park",
+        "address": "400 E. Parkwood",
+        "city": "Friendswood",
+        "zip": "77546",
+        "room": "Town Hall",
+        "notes": ""
+      },
+      {
+        "name": "La Marque Admin Fire Station",
+        "address": "5715 Texas Ave.",
+        "city": "La Marque",
+        "zip": "77568",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Bayshore Annex",
+        "address": "4500 10th St.",
+        "city": "Bacliff",
+        "zip": "77518",
+        "room": "Breakroom",
+        "notes": ""
+      },
+      {
+        "name": "Hope Lutheran Church",
+        "address": "1804 S. Friendswood Dr.",
+        "city": "Friendswood",
+        "zip": "77546",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Nessler Center",
+        "address": "2010 5th Ave. N.",
+        "city": "Texas City",
+        "zip": "77590",
+        "room": "Surf Room",
+        "notes": ""
+      },
+      {
+        "name": "Kemah Community Center",
+        "address": "800 Harris Ave.",
+        "city": "Kemah",
+        "zip": "77565",
+        "room": "Sm Room",
+        "notes": ""
+      },
+      {
+        "name": "College of the Mainland",
+        "address": "1200 Amburn Rd.",
+        "city": "Texas City",
+        "zip": "77591",
+        "room": "",
+        "notes": "The county's Election Day list shows 7825 Monticello Dr."
+      }
+    ]
+  },
+  "notes": "Galveston County voters may vote at any listed location during early voting and on Election Day. Addresses follow the county's signed Notice of General Election; a few differ on the county's separate location lists, as noted for each site."
+}

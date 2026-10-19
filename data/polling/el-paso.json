@@ -1,0 +1,2771 @@
+{
+  "county": "El Paso",
+  "model": "countywide",
+  "checked_at": "2026-10-19T02:10:00Z",
+  "sources": [
+    {
+      "title": "El Paso County Elections: Early Voting Locations",
+      "url": "https://epcountyvotestx.gov/voter-information/early-voting-locations"
+    },
+    {
+      "title": "El Paso County Elections: Election Day Vote Centers",
+      "url": "https://epcountyvotestx.gov/voter-information/election-day-vote-centers"
+    },
+    {
+      "title": "El Paso County Elections: Early voting begins October 19, 2026 (press release)",
+      "url": "https://epcountyvotestx.gov/see-more/news-and-press-releases/early-voting-for-the-november-2026-general-and-special-election-begins-monday-october-19-2026"
+    }
+  ],
+  "lookup_url": "https://epcountyvotestx.gov/voter-information/dashboard",
+  "wait_times_url": "https://epcountyvotestx.gov/voter-information/early-voting-locations",
+  "early_voting": {
+    "schedule": [
+      {
+        "date": "2026-10-19",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-20",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-21",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-22",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-23",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-24",
+        "open": "12:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-25",
+        "open": "12:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-26",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-27",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-28",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-29",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-30",
+        "open": "08:00",
+        "close": "17:00"
+      }
+    ],
+    "sites": [
+      {
+        "name": "Agua Dulce Community Center",
+        "address": "15371 Kentwood Ave.",
+        "city": "",
+        "zip": "79928",
+        "room": "Classroom B",
+        "schedule": [
+          {
+            "date": "2026-10-19",
+            "open": "10:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-20",
+            "open": "10:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-21",
+            "open": "10:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-22",
+            "open": "10:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-23",
+            "open": "10:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-24",
+            "open": "12:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-25",
+            "open": "12:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-26",
+            "open": "10:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-27",
+            "open": "10:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-28",
+            "open": "10:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-29",
+            "open": "10:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-30",
+            "open": "10:00",
+            "close": "19:00"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Arlington Park Shelter",
+        "address": "10350 Pasadena Cir.",
+        "city": "",
+        "zip": "79924",
+        "room": "Main Room",
+        "schedule": [
+          {
+            "date": "2026-10-19",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-20",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-21",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-22",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-23",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-24",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-25",
+            "open": "11:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-26",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-27",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-28",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-29",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-30",
+            "open": "09:00",
+            "close": "18:00"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Bassett Place",
+        "address": "6101 Gateway West",
+        "city": "",
+        "zip": "79925",
+        "room": "Next to Claire's",
+        "schedule": [
+          {
+            "date": "2026-10-19",
+            "open": "10:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-20",
+            "open": "10:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-21",
+            "open": "10:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-22",
+            "open": "10:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-23",
+            "open": "10:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-24",
+            "open": "12:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-25",
+            "open": "12:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-26",
+            "open": "10:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-27",
+            "open": "10:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-28",
+            "open": "10:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-29",
+            "open": "10:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-30",
+            "open": "10:00",
+            "close": "19:00"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Canutillo Nutrition Center",
+        "address": "7351 Bosque Rd.",
+        "city": "",
+        "zip": "79835",
+        "room": "Exercise Room",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Carl L. Robinson Heat Retreat",
+        "address": "5509 Will Ruth Ave.",
+        "city": "",
+        "zip": "79924",
+        "room": "The People's Place",
+        "schedule": [
+          {
+            "date": "2026-10-19",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-20",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-21",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-22",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-23",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-24",
+            "open": "12:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-25",
+            "open": "12:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-26",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-27",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-28",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-29",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-30",
+            "open": "09:00",
+            "close": "18:00"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Chayo Apodaca Community Center",
+        "address": "341 N. Moon Rd.",
+        "city": "",
+        "zip": "79927",
+        "room": "Community Center",
+        "schedule": [
+          {
+            "date": "2026-10-19",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-20",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-21",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-22",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-23",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-24",
+            "open": "12:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-25",
+            "open": "12:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-26",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-27",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-28",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-29",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-30",
+            "open": "09:00",
+            "close": "18:00"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "name": "City of San Elizario Municipal Court",
+        "address": "12004 Socorro Rd. Suite B",
+        "city": "",
+        "zip": "79849",
+        "room": "Council Chambers",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Clint Junior High School",
+        "address": "12625 Alameda Ave.",
+        "city": "",
+        "zip": "79836",
+        "room": "Library Conference Room",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Commissioner's Corner",
+        "address": "10700 Montana Ave.",
+        "city": "",
+        "zip": "79936",
+        "room": "Community Room",
+        "schedule": [
+          {
+            "date": "2026-10-19",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-20",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-21",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-22",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-23",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-24",
+            "open": "12:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-25",
+            "open": "12:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-26",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-27",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-28",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-29",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-30",
+            "open": "09:00",
+            "close": "18:00"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Dorris Van Doren Library",
+        "address": "551 Redd Rd.",
+        "city": "",
+        "zip": "79912",
+        "room": "Multipurpose Room",
+        "schedule": [
+          {
+            "date": "2026-10-19",
+            "open": "10:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-20",
+            "open": "10:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-21",
+            "open": "10:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-22",
+            "open": "10:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-23",
+            "open": "10:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-24",
+            "open": "12:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-25",
+            "open": "12:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-26",
+            "open": "10:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-27",
+            "open": "10:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-28",
+            "open": "10:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-29",
+            "open": "10:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-30",
+            "open": "10:00",
+            "close": "19:00"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "name": "EPCC Administrative Services Center",
+        "address": "9050 Viscount Blvd.",
+        "city": "",
+        "zip": "79925",
+        "room": "A-Building Foyer",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "EPCC Transmountain Campus",
+        "address": "9570 Gateway North Blvd.",
+        "city": "",
+        "zip": "79924",
+        "room": "Pit, Next to the Union",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "El Paso County Eastside Annex",
+        "address": "2350 George Dieter Dr.",
+        "city": "",
+        "zip": "79936",
+        "room": "Community Room",
+        "schedule": [
+          {
+            "date": "2026-10-19",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-20",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-21",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-22",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-23",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-24",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-25",
+            "open": "11:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-26",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-27",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-28",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-29",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-30",
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "name": "El Paso County Northwest Annex",
+        "address": "435 E. Vinton Rd.",
+        "city": "",
+        "zip": "79821",
+        "room": "Community Room",
+        "schedule": [
+          {
+            "date": "2026-10-19",
+            "open": "08:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-20",
+            "open": "08:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-21",
+            "open": "08:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-22",
+            "open": "08:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-23",
+            "open": "08:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-24",
+            "open": "12:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-25",
+            "open": "12:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-26",
+            "open": "08:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-27",
+            "open": "08:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-28",
+            "open": "08:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-29",
+            "open": "08:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-30",
+            "open": "08:00",
+            "close": "18:00"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Enrique Moreno County Courthouse - Main Early Voting Location",
+        "address": "500 E. San Antonio Ave.",
+        "city": "",
+        "zip": "79901",
+        "room": "Third Floor, Back Lobby",
+        "schedule": [
+          {
+            "date": "2026-10-19",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-20",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-21",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-22",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-23",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-25",
+            "open": "11:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-26",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-27",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-28",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-29",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-30",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-24",
+            "open": "07:00",
+            "close": "19:00"
+          }
+        ],
+        "notes": "Main early voting location."
+      },
+      {
+        "name": "Esperanza Acosta Moreno Library",
+        "address": "12480 Pebble Hills Blvd.",
+        "city": "",
+        "zip": "79938",
+        "room": "Meeting Room",
+        "schedule": [
+          {
+            "date": "2026-10-19",
+            "open": "10:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-20",
+            "open": "10:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-21",
+            "open": "10:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-22",
+            "open": "10:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-23",
+            "open": "10:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-24",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-25",
+            "open": "11:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-26",
+            "open": "10:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-27",
+            "open": "10:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-28",
+            "open": "10:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-29",
+            "open": "10:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-30",
+            "open": "10:00",
+            "close": "19:00"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Fabens Community Center",
+        "address": "201 NW Camp St.",
+        "city": "",
+        "zip": "79838",
+        "room": "Pool Room",
+        "schedule": [
+          {
+            "date": "2026-10-19",
+            "open": "08:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-20",
+            "open": "08:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-21",
+            "open": "08:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-22",
+            "open": "08:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-23",
+            "open": "08:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-24",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-25",
+            "open": "11:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-26",
+            "open": "08:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-27",
+            "open": "08:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-28",
+            "open": "08:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-29",
+            "open": "08:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-30",
+            "open": "08:00",
+            "close": "18:00"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Gary del Palacio Recreation Center",
+        "address": "3001 Parkwood St.",
+        "city": "",
+        "zip": "79925",
+        "room": "Multipurpose Room",
+        "schedule": [
+          {
+            "date": "2026-10-19",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-20",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-21",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-22",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-23",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-24",
+            "open": "12:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-25",
+            "open": "12:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-26",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-27",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-28",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-29",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-30",
+            "open": "09:00",
+            "close": "18:00"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Gonzalez Place",
+        "address": "4101 Rich Beem Blvd.",
+        "city": "",
+        "zip": "79938",
+        "room": "Community Room",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Hilos de Plata Senior Center",
+        "address": "4451 Delta Dr.",
+        "city": "",
+        "zip": "79905",
+        "room": "Classroom",
+        "schedule": [
+          {
+            "date": "2026-10-19",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-20",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-21",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-22",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-23",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-24",
+            "open": "12:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-25",
+            "open": "12:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-26",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-27",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-28",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-29",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-30",
+            "open": "09:00",
+            "close": "18:00"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Kennedy Brothers Memorial Recreation Center",
+        "address": "400 S Zaragoza Rd.",
+        "city": "",
+        "zip": "79907",
+        "room": "Kennedy Gym",
+        "schedule": [
+          {
+            "date": "2026-10-19",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-20",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-21",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-22",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-23",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-24",
+            "open": "12:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-25",
+            "open": "12:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-26",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-27",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-28",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-29",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-30",
+            "open": "09:00",
+            "close": "18:00"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "name": "La Fe Montana Vista Community Center",
+        "address": "14618 Greg Dr.",
+        "city": "",
+        "zip": "79938",
+        "room": "Auditorium",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Marty Robbins Recreation Center",
+        "address": "11620 Vista Del Sol Dr.",
+        "city": "",
+        "zip": "79936",
+        "room": "Lobby",
+        "schedule": [
+          {
+            "date": "2026-10-19",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-20",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-21",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-22",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-23",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-24",
+            "open": "12:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-25",
+            "open": "12:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-26",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-27",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-28",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-29",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-30",
+            "open": "09:00",
+            "close": "18:00"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Memorial Park Senior Citizen Center",
+        "address": "1800 Byron St.",
+        "city": "",
+        "zip": "79930",
+        "room": "Classroom",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Mountain View-Rae Gilmore Recreation Center",
+        "address": "8501 Diana Dr.",
+        "city": "",
+        "zip": "79904",
+        "room": "Classroom",
+        "schedule": [
+          {
+            "date": "2026-10-19",
+            "open": "10:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-20",
+            "open": "10:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-21",
+            "open": "10:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-22",
+            "open": "10:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-23",
+            "open": "10:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-24",
+            "open": "12:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-25",
+            "open": "12:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-26",
+            "open": "10:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-27",
+            "open": "10:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-28",
+            "open": "10:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-29",
+            "open": "10:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-30",
+            "open": "10:00",
+            "close": "18:00"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Nations Tobin Sports Center",
+        "address": "8831 Railroad Dr.",
+        "city": "",
+        "zip": "79904",
+        "room": "Small Rink",
+        "schedule": [
+          {
+            "date": "2026-10-19",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-20",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-21",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-22",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-23",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-24",
+            "open": "12:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-25",
+            "open": "12:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-26",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-27",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-28",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-29",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-30",
+            "open": "09:00",
+            "close": "18:00"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Officer David Ortiz Recreation Center",
+        "address": "563 N. Carolina Dr.",
+        "city": "",
+        "zip": "79915",
+        "room": "Classroom A",
+        "schedule": [
+          {
+            "date": "2026-10-19",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-20",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-21",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-22",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-23",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-24",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-25",
+            "open": "11:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-26",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-27",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-28",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-29",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-30",
+            "open": "09:00",
+            "close": "18:00"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Oz Glaze Senior Center",
+        "address": "13969 Veny Webb St.",
+        "city": "",
+        "zip": "79928",
+        "room": "Main Dining Area",
+        "schedule": [
+          {
+            "date": "2026-10-19",
+            "open": "10:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-20",
+            "open": "10:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-21",
+            "open": "10:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-22",
+            "open": "10:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-23",
+            "open": "10:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-24",
+            "open": "12:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-25",
+            "open": "12:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-26",
+            "open": "10:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-27",
+            "open": "10:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-28",
+            "open": "10:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-29",
+            "open": "10:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-30",
+            "open": "10:00",
+            "close": "19:00"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Pebble Hills High School",
+        "address": "14400 Pebble Hills Blvd.",
+        "city": "",
+        "zip": "79938",
+        "room": "Auditorium Foyer",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "SISD District Service Center",
+        "address": "12440 Rojas Dr.",
+        "city": "",
+        "zip": "79928",
+        "room": "TSC Library",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "South El Paso Senior Center",
+        "address": "600 S. Ochoa St.",
+        "city": "",
+        "zip": "79901",
+        "room": "Classroom",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "The Shoppes at Solana",
+        "address": "750 Sunland Park Dr.",
+        "city": "",
+        "zip": "79912",
+        "room": "By the Food Court, Next to Book Nook",
+        "schedule": [
+          {
+            "date": "2026-10-19",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-20",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-21",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-22",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-23",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-24",
+            "open": "12:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-25",
+            "open": "12:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-26",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-27",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-28",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-29",
+            "open": "09:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-30",
+            "open": "09:00",
+            "close": "18:00"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "name": "UTEP-Union Building East",
+        "address": "351 W. University Ave.",
+        "city": "",
+        "zip": "79968",
+        "room": "River View Room 102H",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "W.E. Neill Community Center",
+        "address": "19210 Cobb Ave.",
+        "city": "",
+        "zip": "79853",
+        "room": "Library",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Wayne Thornton Community Center at Grandview",
+        "address": "3134 Jefferson Ave.",
+        "city": "",
+        "zip": "79930",
+        "room": "Classroom",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Wellington Chew Senior Center",
+        "address": "4430 Maxwell Ave.",
+        "city": "",
+        "zip": "79904",
+        "room": "Classroom",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Western Technical College-Northeast",
+        "address": "9451 Diana Dr.",
+        "city": "",
+        "zip": "79924",
+        "room": "Classroom 400",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "YWCA-Central",
+        "address": "1600 Brown St. Bldg. A",
+        "city": "",
+        "zip": "79902",
+        "room": "Program Offices",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "YWCA-West",
+        "address": "313 Bartlett Dr.",
+        "city": "",
+        "zip": "79912",
+        "room": "Program Offices",
+        "schedule": [
+          {
+            "date": "2026-10-19",
+            "open": "08:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-20",
+            "open": "08:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-21",
+            "open": "08:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-22",
+            "open": "08:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-23",
+            "open": "08:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-24",
+            "open": "12:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-25",
+            "open": "12:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-26",
+            "open": "08:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-27",
+            "open": "08:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-28",
+            "open": "08:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-29",
+            "open": "08:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-30",
+            "open": "08:00",
+            "close": "18:00"
+          }
+        ],
+        "notes": ""
+      }
+    ]
+  },
+  "election_day": {
+    "open": "07:00",
+    "close": "19:00",
+    "sites": [
+      {
+        "name": "Agua Dulce Community Center",
+        "address": "15371 Kentwood Ave.",
+        "city": "",
+        "zip": "79928",
+        "room": "Classroom B",
+        "notes": ""
+      },
+      {
+        "name": "Andress High School",
+        "address": "5400 Sun Valley Dr.",
+        "city": "",
+        "zip": "79924",
+        "room": "Fine Arts Lobby",
+        "notes": ""
+      },
+      {
+        "name": "Anthony Town Hall",
+        "address": "401 Wildcat Dr.",
+        "city": "",
+        "zip": "79821",
+        "room": "Court Room",
+        "notes": ""
+      },
+      {
+        "name": "Arlington Park Shelter",
+        "address": "10350 Pasadena Cir.",
+        "city": "",
+        "zip": "79924",
+        "room": "Main Room",
+        "notes": ""
+      },
+      {
+        "name": "Austin High School",
+        "address": "3500 Memphis Ave.",
+        "city": "",
+        "zip": "79930",
+        "room": "Fine Arts Lobby",
+        "notes": ""
+      },
+      {
+        "name": "Bassett Place",
+        "address": "6101 Gateway West",
+        "city": "",
+        "zip": "79925",
+        "room": "Next to Claire's",
+        "notes": ""
+      },
+      {
+        "name": "Benito Martinez Elementary School",
+        "address": "2640 Robert Wynn St.",
+        "city": "",
+        "zip": "79936",
+        "room": "Library",
+        "notes": ""
+      },
+      {
+        "name": "Bill Sybert K-8 School",
+        "address": "11530 Edgemere Blvd.",
+        "city": "",
+        "zip": "79936",
+        "room": "Library",
+        "notes": ""
+      },
+      {
+        "name": "Bowie High School",
+        "address": "801 S. San Marcial St.",
+        "city": "",
+        "zip": "79905",
+        "room": "Fine Arts Lobby",
+        "notes": ""
+      },
+      {
+        "name": "Brown Middle School",
+        "address": "7820 Helen of Troy Dr.",
+        "city": "",
+        "zip": "79912",
+        "room": "Parent Center, Room 135-137",
+        "notes": ""
+      },
+      {
+        "name": "Campestre Elementary School",
+        "address": "11399 Socorro Rd.",
+        "city": "",
+        "zip": "79927",
+        "room": "Lobby",
+        "notes": ""
+      },
+      {
+        "name": "Canutillo Middle School",
+        "address": "7311 Bosque Rd.",
+        "city": "",
+        "zip": "79835",
+        "room": "Entry Foyer",
+        "notes": ""
+      },
+      {
+        "name": "Canutillo Nutrition Center",
+        "address": "7351 Bosque Rd.",
+        "city": "",
+        "zip": "79835",
+        "room": "Exercise Room",
+        "notes": ""
+      },
+      {
+        "name": "Captain Gabriel Navarrete Middle School",
+        "address": "3501 Hayes Ave.",
+        "city": "",
+        "zip": "79930",
+        "room": "Gymnasium",
+        "notes": ""
+      },
+      {
+        "name": "Carl L. Robinson Heat Retreat",
+        "address": "5509 Will Ruth Ave.",
+        "city": "",
+        "zip": "79924",
+        "room": "The People's Place",
+        "notes": ""
+      },
+      {
+        "name": "Carroll T. Welch Elementary School",
+        "address": "14510 McMahon Ave.",
+        "city": "",
+        "zip": "79928",
+        "room": "Portable #3",
+        "notes": ""
+      },
+      {
+        "name": "Center for Career and Technology Education",
+        "address": "1170 N. Walnut St.",
+        "city": "",
+        "zip": "79930",
+        "room": "Custodial Lounge",
+        "notes": ""
+      },
+      {
+        "name": "Chayo Apodaca Community Center",
+        "address": "341 N. Moon Rd.",
+        "city": "",
+        "zip": "79927",
+        "room": "Community Center",
+        "notes": ""
+      },
+      {
+        "name": "Cielo Vista Elementary School",
+        "address": "9000 Basil Ct.",
+        "city": "",
+        "zip": "79925",
+        "room": "Community Room",
+        "notes": ""
+      },
+      {
+        "name": "City of San Elizario Municipal Court",
+        "address": "12004 Socorro Rd. Suite B",
+        "city": "",
+        "zip": "79849",
+        "room": "Council Chambers",
+        "notes": ""
+      },
+      {
+        "name": "Clint Junior High School",
+        "address": "12625 Alameda Ave.",
+        "city": "",
+        "zip": "79836",
+        "room": "Library Conference Room",
+        "notes": ""
+      },
+      {
+        "name": "Coach Archie Duran Elementary School",
+        "address": "5249 Bastille Ave.",
+        "city": "",
+        "zip": "79924",
+        "room": "Multipurpose Room",
+        "notes": ""
+      },
+      {
+        "name": "Coach Wally Hartley PK-8 School",
+        "address": "6201 Hughey Cir.",
+        "city": "",
+        "zip": "79925",
+        "room": "Multipurpose Room",
+        "notes": ""
+      },
+      {
+        "name": "Commissioner's Corner",
+        "address": "10700 Montana Ave.",
+        "city": "",
+        "zip": "79936",
+        "room": "Community Room",
+        "notes": ""
+      },
+      {
+        "name": "Community Connections Center",
+        "address": "5300 Warriors Dr.",
+        "city": "",
+        "zip": "79932",
+        "room": "Meeting Room",
+        "notes": ""
+      },
+      {
+        "name": "Congressman Silvestre & Carolina Reyes School",
+        "address": "7440 Northern Pass Dr.",
+        "city": "",
+        "zip": "79911",
+        "room": "Lower Level, East Corridor",
+        "notes": ""
+      },
+      {
+        "name": "Coronado High School",
+        "address": "100 Champions Pl.",
+        "city": "",
+        "zip": "79912",
+        "room": "Cafeteria",
+        "notes": ""
+      },
+      {
+        "name": "Del Valle Elementary School",
+        "address": "9251 Escobar Dr.",
+        "city": "",
+        "zip": "79907",
+        "room": "Gymnasium",
+        "notes": ""
+      },
+      {
+        "name": "Desert Hills Elementary School",
+        "address": "300 N. Kenazo Dr.",
+        "city": "",
+        "zip": "79928",
+        "room": "Main Hallway",
+        "notes": ""
+      },
+      {
+        "name": "Desert Wind K-8 School",
+        "address": "1100 Colina De Paz Dr.",
+        "city": "",
+        "zip": "79928",
+        "room": "Foyer",
+        "notes": ""
+      },
+      {
+        "name": "Dorris Van Doren Library",
+        "address": "551 Redd Rd.",
+        "city": "",
+        "zip": "79912",
+        "room": "Multipurpose Room",
+        "notes": ""
+      },
+      {
+        "name": "Dr. Green Elementary School",
+        "address": "5430 Buckley Dr.",
+        "city": "",
+        "zip": "79912",
+        "room": "Multipurpose Room",
+        "notes": ""
+      },
+      {
+        "name": "Dr. Josefina Villamil Tinajero PK-8 School",
+        "address": "301 Lisbon St.",
+        "city": "",
+        "zip": "79905",
+        "room": "Old Gym",
+        "notes": ""
+      },
+      {
+        "name": "Dr. Joseph E. Torres Elementary School",
+        "address": "10700 Rushing Rd.",
+        "city": "",
+        "zip": "79924",
+        "room": "Multipurpose Room",
+        "notes": ""
+      },
+      {
+        "name": "Dr. Nixon Elementary School",
+        "address": "11141 Loma Roja Dr.",
+        "city": "",
+        "zip": "79934",
+        "room": "Library",
+        "notes": ""
+      },
+      {
+        "name": "Dr. Sue A. Shook Elementary School",
+        "address": "13777 Paseo Del Este Blvd.",
+        "city": "",
+        "zip": "79928",
+        "room": "Library",
+        "notes": ""
+      },
+      {
+        "name": "EPCC Administrative Services Center",
+        "address": "9050 Viscount Blvd.",
+        "city": "",
+        "zip": "79925",
+        "room": "A-Building Foyer",
+        "notes": ""
+      },
+      {
+        "name": "ESC Region 19 Head Start Multipurpose Center",
+        "address": "11670 Chito Samaniego Dr.",
+        "city": "",
+        "zip": "79936",
+        "room": "Clint Room",
+        "notes": ""
+      },
+      {
+        "name": "Eastside Senior Citizen Center",
+        "address": "3200 Fierro Dr.",
+        "city": "",
+        "zip": "79935",
+        "room": "Lobby",
+        "notes": ""
+      },
+      {
+        "name": "Eastwood Heights Elementary School",
+        "address": "10530 Janway Dr.",
+        "city": "",
+        "zip": "79925",
+        "room": "Gymnasium",
+        "notes": ""
+      },
+      {
+        "name": "El Paso Community College-Mission Del Paso",
+        "address": "10700 Gateway Blvd E.",
+        "city": "",
+        "zip": "79927",
+        "room": "Flexitorium R-124",
+        "notes": ""
+      },
+      {
+        "name": "El Paso Community College-Rio Grande Campus",
+        "address": "906 El Paso St.",
+        "city": "",
+        "zip": "79902",
+        "room": "The Little Temple",
+        "notes": ""
+      },
+      {
+        "name": "El Paso Community College-Transmountain Campus",
+        "address": "9570 Gateway North Blvd.",
+        "city": "",
+        "zip": "79924",
+        "room": "Room 1704",
+        "notes": ""
+      },
+      {
+        "name": "El Paso Community College-Valle Verde",
+        "address": "919 Hunter Dr.",
+        "city": "",
+        "zip": "79915",
+        "room": "Cafeteria",
+        "notes": ""
+      },
+      {
+        "name": "El Paso County Eastside Annex",
+        "address": "2350 George Dieter Dr.",
+        "city": "",
+        "zip": "79936",
+        "room": "Community Room",
+        "notes": ""
+      },
+      {
+        "name": "El Paso County Northwest Annex",
+        "address": "435 E. Vinton Rd.",
+        "city": "",
+        "zip": "79821",
+        "room": "Community Room",
+        "notes": ""
+      },
+      {
+        "name": "El Paso Tennis Club",
+        "address": "2510 N. St. Vrain St.",
+        "city": "",
+        "zip": "79902",
+        "room": "Club House",
+        "notes": ""
+      },
+      {
+        "name": "Enrique Moreno County Courthouse",
+        "address": "500 E. San Antonio Ave.",
+        "city": "",
+        "zip": "79901",
+        "room": "Third Floor, Back Lobby",
+        "notes": ""
+      },
+      {
+        "name": "Escontrias STEAM Academy",
+        "address": "205 Buford Rd.",
+        "city": "",
+        "zip": "79927",
+        "room": "Lobby",
+        "notes": ""
+      },
+      {
+        "name": "Esperanza Acosta Moreno Library",
+        "address": "12480 Pebble Hills Blvd.",
+        "city": "",
+        "zip": "79938",
+        "room": "Meeting Room",
+        "notes": ""
+      },
+      {
+        "name": "Fabens Community Center",
+        "address": "201 NW Camp St.",
+        "city": "",
+        "zip": "79838",
+        "room": "Pool Room",
+        "notes": ""
+      },
+      {
+        "name": "Family Youth Services Center",
+        "address": "6314 Delta Dr.",
+        "city": "",
+        "zip": "79905",
+        "room": "Lobby",
+        "notes": ""
+      },
+      {
+        "name": "Fire Station #15",
+        "address": "115 Shorty Ln.",
+        "city": "",
+        "zip": "79922",
+        "room": "Apparatus Bay",
+        "notes": ""
+      },
+      {
+        "name": "Fire Station #19",
+        "address": "2405 McRae Blvd.",
+        "city": "",
+        "zip": "79925",
+        "room": "Apparatus Bay",
+        "notes": ""
+      },
+      {
+        "name": "Fire Station #2",
+        "address": "111 E. Borderland Rd.",
+        "city": "",
+        "zip": "79932",
+        "room": "Apparatus Bay",
+        "notes": ""
+      },
+      {
+        "name": "Flora Garcia-Villalva Community Center",
+        "address": "10239 Hedgerow Ct.",
+        "city": "",
+        "zip": "79925",
+        "room": "Community Room",
+        "notes": ""
+      },
+      {
+        "name": "Fred & Maria Loya Family YMCA",
+        "address": "2044 Trawood Dr.",
+        "city": "",
+        "zip": "79935",
+        "room": "System Integration Room",
+        "notes": ""
+      },
+      {
+        "name": "Gary del Palacio Recreation Center",
+        "address": "3001 Parkwood St.",
+        "city": "",
+        "zip": "79925",
+        "room": "Multipurpose Room",
+        "notes": ""
+      },
+      {
+        "name": "Gonzalez Place",
+        "address": "4101 Rich Beem Blvd.",
+        "city": "",
+        "zip": "79938",
+        "room": "Community Room",
+        "notes": ""
+      },
+      {
+        "name": "H.D. Hilley Elementary School",
+        "address": "693 N. Rio. Vista Rd.",
+        "city": "",
+        "zip": "79927",
+        "room": "Gymnasium",
+        "notes": ""
+      },
+      {
+        "name": "H.E. Charles Middle School",
+        "address": "4909 Trojan Dr.",
+        "city": "",
+        "zip": "79924",
+        "room": "Portable #1",
+        "notes": ""
+      },
+      {
+        "name": "H.R. Moye Elementary School",
+        "address": "4825 Alps Dr.",
+        "city": "",
+        "zip": "79904",
+        "room": "Multipurpose Room",
+        "notes": ""
+      },
+      {
+        "name": "Hanks High School",
+        "address": "2001 N. Lee Trevino Dr.",
+        "city": "",
+        "zip": "79936",
+        "room": "Library",
+        "notes": ""
+      },
+      {
+        "name": "Helen Ball Elementary School",
+        "address": "1950 Firehouse Dr.",
+        "city": "",
+        "zip": "79936",
+        "room": "Library",
+        "notes": ""
+      },
+      {
+        "name": "Hilos de Plata Senior Center",
+        "address": "4451 Delta Dr.",
+        "city": "",
+        "zip": "79905",
+        "room": "Classroom",
+        "notes": ""
+      },
+      {
+        "name": "Horizon Fire Department Station #2",
+        "address": "12361 Paseo Del Este Blvd.",
+        "city": "",
+        "zip": "79928",
+        "room": "Apparatus Bay",
+        "notes": ""
+      },
+      {
+        "name": "Horizon Heights Elementary School",
+        "address": "13601 Ryderwood Ave.",
+        "city": "",
+        "zip": "79928",
+        "room": "Foyer",
+        "notes": ""
+      },
+      {
+        "name": "Hurshel Antwine Middle School",
+        "address": "3830 Rich Beem Blvd.",
+        "city": "",
+        "zip": "79938",
+        "room": "Gymnasium",
+        "notes": ""
+      },
+      {
+        "name": "Jane Hambric K-8 School",
+        "address": "3535 Nolan Richardson Dr.",
+        "city": "",
+        "zip": "79936",
+        "room": "Teacher’s Lounge",
+        "notes": ""
+      },
+      {
+        "name": "Jose J. Alderete Middle School",
+        "address": "801 Talbot Ave.",
+        "city": "",
+        "zip": "79835",
+        "room": "Entry Foyer",
+        "notes": ""
+      },
+      {
+        "name": "Judge Edward S. Marquez Library",
+        "address": "610 N Yarbrough Dr.",
+        "city": "",
+        "zip": "79915",
+        "room": "Study Room",
+        "notes": ""
+      },
+      {
+        "name": "KEYS Academy",
+        "address": "12380 Pine Springs Dr.",
+        "city": "",
+        "zip": "79928",
+        "room": "Parent Center",
+        "notes": ""
+      },
+      {
+        "name": "Kennedy Brothers Memorial Recreation Center",
+        "address": "400 S Zaragoza Rd.",
+        "city": "",
+        "zip": "79907",
+        "room": "Kennedy Gym",
+        "notes": ""
+      },
+      {
+        "name": "La Fe Montana Vista Community Center",
+        "address": "14618 Greg Dr.",
+        "city": "",
+        "zip": "79938",
+        "room": "Auditorium",
+        "notes": ""
+      },
+      {
+        "name": "Logan Elementary School",
+        "address": "3200 Ellerthorpe Ave.",
+        "city": "",
+        "zip": "79904",
+        "room": "Foyer",
+        "notes": ""
+      },
+      {
+        "name": "Loma Terrace Elementary School",
+        "address": "8200 Ryland Dr.",
+        "city": "",
+        "zip": "79907",
+        "room": "Cottage in Parking Lot",
+        "notes": ""
+      },
+      {
+        "name": "Lujan Chavez Elementary School",
+        "address": "2200 Sun Country Dr.",
+        "city": "",
+        "zip": "79938",
+        "room": "Library",
+        "notes": ""
+      },
+      {
+        "name": "Martin Luther King Memorial Apartments",
+        "address": "9101 Butternut St.",
+        "city": "",
+        "zip": "79907",
+        "room": "Community Room",
+        "notes": ""
+      },
+      {
+        "name": "Marty Robbins Recreation Center",
+        "address": "11620 Vista Del Sol Dr.",
+        "city": "",
+        "zip": "79936",
+        "room": "Lobby",
+        "notes": ""
+      },
+      {
+        "name": "Memorial Park Senior Citizen Center",
+        "address": "1800 Byron St.",
+        "city": "",
+        "zip": "79930",
+        "room": "Classroom",
+        "notes": ""
+      },
+      {
+        "name": "Mesita Elementary School",
+        "address": "3307 N. Stanton St.",
+        "city": "",
+        "zip": "79902",
+        "room": "Library",
+        "notes": ""
+      },
+      {
+        "name": "Montana Vista Elementary School",
+        "address": "3550 Mark Jason Dr.",
+        "city": "",
+        "zip": "79938",
+        "room": "Portable 613",
+        "notes": ""
+      },
+      {
+        "name": "Mountain View-Rae Gilmore Recreation Center",
+        "address": "8501 Diana Dr.",
+        "city": "",
+        "zip": "79904",
+        "room": "Classroom",
+        "notes": ""
+      },
+      {
+        "name": "Nations Tobin Sports Center",
+        "address": "8831 Railroad Dr.",
+        "city": "",
+        "zip": "79904",
+        "room": "Small Rink",
+        "notes": ""
+      },
+      {
+        "name": "O'Shea Keleher Whole Child Academy",
+        "address": "1800 Leroy Bonse Dr.",
+        "city": "",
+        "zip": "79936",
+        "room": "Counseling Suite 503",
+        "notes": ""
+      },
+      {
+        "name": "Officer David Ortiz Recreation Center",
+        "address": "563 N. Carolina Dr.",
+        "city": "",
+        "zip": "79915",
+        "room": "Classroom A",
+        "notes": ""
+      },
+      {
+        "name": "Oz Glaze Senior Center",
+        "address": "13969 Veny Webb St.",
+        "city": "",
+        "zip": "79928",
+        "room": "Main Dining Area",
+        "notes": ""
+      },
+      {
+        "name": "Park Elementary School",
+        "address": "3601 Edgar Park Ave.",
+        "city": "",
+        "zip": "79904",
+        "room": "Foyer",
+        "notes": ""
+      },
+      {
+        "name": "Parkland High School",
+        "address": "5932 Quail Ave.",
+        "city": "",
+        "zip": "79924",
+        "room": "Portable",
+        "notes": ""
+      },
+      {
+        "name": "Paul C. Moreno Elementary School",
+        "address": "2300 San Diego Ave.",
+        "city": "",
+        "zip": "79930",
+        "room": "Multipurpose Room",
+        "notes": ""
+      },
+      {
+        "name": "Pebble Hills Elementary School",
+        "address": "11145 Edgemere Blvd.",
+        "city": "",
+        "zip": "79936",
+        "room": "Gymnasium",
+        "notes": ""
+      },
+      {
+        "name": "Pebble Hills High School",
+        "address": "14400 Pebble Hills Blvd.",
+        "city": "",
+        "zip": "79938",
+        "room": "Auditorium",
+        "notes": ""
+      },
+      {
+        "name": "Polk Elementary School",
+        "address": "940 Belvidere St.",
+        "city": "",
+        "zip": "79912",
+        "room": "Library",
+        "notes": ""
+      },
+      {
+        "name": "Red Sands Elementary School",
+        "address": "4250 O'Shea Rd.",
+        "city": "",
+        "zip": "79938",
+        "room": "Outside Gymnasium",
+        "notes": ""
+      },
+      {
+        "name": "Rio Valle Woman's Club",
+        "address": "521 Mike Maros St.",
+        "city": "",
+        "zip": "79838",
+        "room": "Front Conference Area",
+        "notes": ""
+      },
+      {
+        "name": "Riverside High School",
+        "address": "301 Midway Dr.",
+        "city": "",
+        "zip": "79915",
+        "room": "Portable",
+        "notes": ""
+      },
+      {
+        "name": "Robert R. Rojas Elementary School",
+        "address": "500 Bauman Rd.",
+        "city": "",
+        "zip": "79927",
+        "room": "Lobby",
+        "notes": ""
+      },
+      {
+        "name": "Rosa Guerrero Elementary School",
+        "address": "7530 Lakehurst Rd.",
+        "city": "",
+        "zip": "79912",
+        "room": "Community Room",
+        "notes": ""
+      },
+      {
+        "name": "SISD District Service Center",
+        "address": "12440 Rojas Dr.",
+        "city": "",
+        "zip": "79928",
+        "room": "TSC Library",
+        "notes": ""
+      },
+      {
+        "name": "San Juan Senior Center",
+        "address": "5701 Tamburo Ct.",
+        "city": "",
+        "zip": "79905",
+        "room": "Classroom",
+        "notes": ""
+      },
+      {
+        "name": "Sergio Troncoso Branch Library",
+        "address": "9321 Alameda Ave.",
+        "city": "",
+        "zip": "79907",
+        "room": "Meeting Room",
+        "notes": ""
+      },
+      {
+        "name": "Sierra Vista Elementary School",
+        "address": "1501 Bob Hope Dr.",
+        "city": "",
+        "zip": "79936",
+        "room": "Foyer",
+        "notes": ""
+      },
+      {
+        "name": "South El Paso Senior Citizens Center",
+        "address": "600 S. Ochoa St.",
+        "city": "",
+        "zip": "79901",
+        "room": "Multipurpose Room",
+        "notes": ""
+      },
+      {
+        "name": "Sunrise Mountain Elementary School",
+        "address": "7710 Pandora St.",
+        "city": "",
+        "zip": "79904",
+        "room": "Multipurpose Room",
+        "notes": ""
+      },
+      {
+        "name": "Texas Tech University Health Sciences Center El Paso",
+        "address": "130 Rick Francis St.",
+        "city": "",
+        "zip": "79905",
+        "room": "Mezzanine Lobby",
+        "notes": ""
+      },
+      {
+        "name": "The Monte Vista at Coronado",
+        "address": "1575 Belvidere St.",
+        "city": "",
+        "zip": "79912",
+        "room": "Activity Room",
+        "notes": ""
+      },
+      {
+        "name": "The Shoppes at Solana",
+        "address": "750 Sunland Park Dr.",
+        "city": "",
+        "zip": "79912",
+        "room": "By the Food Court, Next to Book Nook",
+        "notes": ""
+      },
+      {
+        "name": "Tippin Elementary School",
+        "address": "6541 Bear Ridge Dr.",
+        "city": "",
+        "zip": "79912",
+        "room": "Community Room",
+        "notes": ""
+      },
+      {
+        "name": "UTEP-Union Building East",
+        "address": "351 W. University Ave.",
+        "city": "",
+        "zip": "79968",
+        "room": "Acacia Room 120A",
+        "notes": ""
+      },
+      {
+        "name": "W.E. Neill Community Center",
+        "address": "19210 Cobb Ave.",
+        "city": "",
+        "zip": "79853",
+        "room": "Library",
+        "notes": ""
+      },
+      {
+        "name": "Wayne Thornton Community Center at Grandview",
+        "address": "3134 Jefferson Ave.",
+        "city": "",
+        "zip": "79930",
+        "room": "Classroom",
+        "notes": ""
+      },
+      {
+        "name": "Wellington Chew Senior Center",
+        "address": "4430 Maxwell Ave.",
+        "city": "",
+        "zip": "79904",
+        "room": "Classroom",
+        "notes": ""
+      },
+      {
+        "name": "Western Hills U.M.C.-Stewart Family Life Center A",
+        "address": "524 Thunderbird Dr.",
+        "city": "",
+        "zip": "79912",
+        "room": "SFLC Foyer",
+        "notes": ""
+      },
+      {
+        "name": "Western Technical College-East",
+        "address": "9624 Plaza Cir.",
+        "city": "",
+        "zip": "79927",
+        "room": "Penske Room",
+        "notes": ""
+      },
+      {
+        "name": "Western Technical College-Northeast",
+        "address": "9451 Diana Dr.",
+        "city": "",
+        "zip": "79924",
+        "room": "Classroom 400",
+        "notes": ""
+      },
+      {
+        "name": "William H. Burges High School",
+        "address": "7800 Edgemere Blvd.",
+        "city": "",
+        "zip": "79925",
+        "room": "Library",
+        "notes": ""
+      },
+      {
+        "name": "YISD Central Office",
+        "address": "9600 Sims Dr.",
+        "city": "",
+        "zip": "79925",
+        "room": "Tigua Room",
+        "notes": ""
+      },
+      {
+        "name": "YWCA-Central",
+        "address": "1600 Brown St.",
+        "city": "",
+        "zip": "79902",
+        "room": "Program Offices Room",
+        "notes": ""
+      },
+      {
+        "name": "YWCA-East",
+        "address": "10712 Sam Snead Dr.",
+        "city": "",
+        "zip": "79935",
+        "room": "Program Offices Room",
+        "notes": ""
+      },
+      {
+        "name": "YWCA-Lower Valley",
+        "address": "115 Davis Dr.",
+        "city": "",
+        "zip": "79907",
+        "room": "Program Offices Room",
+        "notes": ""
+      },
+      {
+        "name": "YWCA-West",
+        "address": "313 Bartlett Dr.",
+        "city": "",
+        "zip": "79912",
+        "room": "Program Offices Room",
+        "notes": ""
+      },
+      {
+        "name": "Ysleta ISD Fine Arts",
+        "address": "8455 Alameda Ave.",
+        "city": "",
+        "zip": "79907",
+        "room": "Gallery",
+        "notes": ""
+      },
+      {
+        "name": "Zach White Elementary School",
+        "address": "4256 Roxbury Dr.",
+        "city": "",
+        "zip": "79922",
+        "room": "Multipurpose Room",
+        "notes": ""
+      }
+    ]
+  },
+  "notes": "Hours vary by early voting site, so check each site's schedule; the default shown is the most common schedule (8 a.m. to 5 p.m. weekdays, noon to 5 p.m. weekend). Any registered voter may vote at any early voting location or any Election Day vote center; the county lists addresses with ZIP only, without city names."
+}

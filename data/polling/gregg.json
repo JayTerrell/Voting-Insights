@@ -1,0 +1,651 @@
+{
+  "county": "Gregg",
+  "model": "countywide",
+  "checked_at": "2026-10-19T02:23:00Z",
+  "sources": [
+    {
+      "title": "Gregg County Elections: Early Voting",
+      "url": "https://greggcountyvotes.gov/early-voting/"
+    },
+    {
+      "title": "Gregg County Elections: Election Day Voting",
+      "url": "https://greggcountyvotes.gov/election-day-voting/"
+    },
+    {
+      "title": "Gregg County Elections: 2026 November General",
+      "url": "https://greggcountyvotes.gov/upcoming-elections/2026-november-general/"
+    }
+  ],
+  "lookup_url": null,
+  "wait_times_url": null,
+  "early_voting": {
+    "schedule": [
+      {
+        "date": "2026-10-19",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-20",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-21",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-22",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-23",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-24",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-25",
+        "open": "10:00",
+        "close": "16:00"
+      },
+      {
+        "date": "2026-10-26",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-27",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-28",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-29",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-30",
+        "open": "07:00",
+        "close": "19:00"
+      }
+    ],
+    "sites": [
+      {
+        "name": "Gregg County Election Center",
+        "address": "100 E. Methvin St",
+        "city": "Longview",
+        "zip": "",
+        "room": "",
+        "schedule": null,
+        "notes": "Main early voting location"
+      },
+      {
+        "name": "Judson Community Center",
+        "address": "1129 FM 1844",
+        "city": "Longview",
+        "zip": "75605",
+        "room": "",
+        "schedule": [
+          {
+            "date": "2026-10-19",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-20",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-21",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-22",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-23",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-24",
+            "open": "10:00",
+            "close": "16:00"
+          },
+          {
+            "date": "2026-10-25",
+            "open": "10:00",
+            "close": "16:00"
+          },
+          {
+            "date": "2026-10-26",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-27",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-28",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-29",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-30",
+            "open": "07:00",
+            "close": "19:00"
+          }
+        ],
+        "notes": "Branch location with shorter hours"
+      },
+      {
+        "name": "Pine Tree Community Center",
+        "address": "1701 Pine Tree Rd",
+        "city": "Longview",
+        "zip": "75604",
+        "room": "",
+        "schedule": [
+          {
+            "date": "2026-10-19",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-20",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-21",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-22",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-23",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-24",
+            "open": "10:00",
+            "close": "16:00"
+          },
+          {
+            "date": "2026-10-25",
+            "open": "10:00",
+            "close": "16:00"
+          },
+          {
+            "date": "2026-10-26",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-27",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-28",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-29",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-30",
+            "open": "07:00",
+            "close": "19:00"
+          }
+        ],
+        "notes": "Branch location with shorter hours"
+      },
+      {
+        "name": "Elderville Community Center",
+        "address": "10450 Hwy 349",
+        "city": "Longview",
+        "zip": "75603",
+        "room": "",
+        "schedule": [
+          {
+            "date": "2026-10-19",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-20",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-21",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-22",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-23",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-24",
+            "open": "10:00",
+            "close": "16:00"
+          },
+          {
+            "date": "2026-10-25",
+            "open": "10:00",
+            "close": "16:00"
+          },
+          {
+            "date": "2026-10-26",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-27",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-28",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-29",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-30",
+            "open": "07:00",
+            "close": "19:00"
+          }
+        ],
+        "notes": "Branch location with shorter hours"
+      },
+      {
+        "name": "White Oak Community Center",
+        "address": "1103 S White Oak Rd",
+        "city": "White Oak",
+        "zip": "75693",
+        "room": "",
+        "schedule": [
+          {
+            "date": "2026-10-19",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-20",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-21",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-22",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-23",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-24",
+            "open": "10:00",
+            "close": "16:00"
+          },
+          {
+            "date": "2026-10-25",
+            "open": "10:00",
+            "close": "16:00"
+          },
+          {
+            "date": "2026-10-26",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-27",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-28",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-29",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-30",
+            "open": "07:00",
+            "close": "19:00"
+          }
+        ],
+        "notes": "Branch location with shorter hours"
+      },
+      {
+        "name": "Meadowbrook Event Center",
+        "address": "1306 Houston St",
+        "city": "Kilgore",
+        "zip": "75662",
+        "room": "",
+        "schedule": [
+          {
+            "date": "2026-10-19",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-20",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-21",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-22",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-23",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-24",
+            "open": "10:00",
+            "close": "16:00"
+          },
+          {
+            "date": "2026-10-25",
+            "open": "10:00",
+            "close": "16:00"
+          },
+          {
+            "date": "2026-10-26",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-27",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-28",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-29",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-30",
+            "open": "07:00",
+            "close": "19:00"
+          }
+        ],
+        "notes": "Branch location with shorter hours"
+      },
+      {
+        "name": "Broughton Recreation Center",
+        "address": "801 S MLK Jr Blvd",
+        "city": "Longview",
+        "zip": "75602",
+        "room": "",
+        "schedule": [
+          {
+            "date": "2026-10-19",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-20",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-21",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-22",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-23",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-24",
+            "open": "10:00",
+            "close": "16:00"
+          },
+          {
+            "date": "2026-10-25",
+            "open": "10:00",
+            "close": "16:00"
+          },
+          {
+            "date": "2026-10-26",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-27",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-28",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-29",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-30",
+            "open": "07:00",
+            "close": "19:00"
+          }
+        ],
+        "notes": "Branch location with shorter hours"
+      }
+    ]
+  },
+  "election_day": {
+    "open": "07:00",
+    "close": "19:00",
+    "sites": [
+      {
+        "name": "Longview Community Center",
+        "address": "500 E Whaley St",
+        "city": "Longview",
+        "zip": "75601",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Saint Andrew Presbyterian Church",
+        "address": "2500 McCann Rd",
+        "city": "Longview",
+        "zip": "75605",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Alpine Presbyterian Church",
+        "address": "4102 Tryon Rd",
+        "city": "Longview",
+        "zip": "75605",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Judson Community Center",
+        "address": "1129 FM 1844",
+        "city": "Longview",
+        "zip": "75605",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Spring Hill First Baptist Church",
+        "address": "4000 Gilmer Rd",
+        "city": "Longview",
+        "zip": "75605",
+        "room": "Gym",
+        "notes": ""
+      },
+      {
+        "name": "Pine Tree Community Center",
+        "address": "1701 Pine Tree Rd",
+        "city": "Longview",
+        "zip": "75604",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Greggton Global Methodist Church",
+        "address": "803 Gilmer Rd",
+        "city": "Longview",
+        "zip": "75604",
+        "room": "",
+        "notes": "New location, Election Day only"
+      },
+      {
+        "name": "Calvary Baptist Church",
+        "address": "4715 Tenneryville Rd",
+        "city": "Longview",
+        "zip": "75604",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "White Oak Community Center",
+        "address": "1103 S White Oak Rd",
+        "city": "White Oak",
+        "zip": "75693",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Gladewater First Methodist Church",
+        "address": "217 W Quitman Ave",
+        "city": "Gladewater",
+        "zip": "75647",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Hugh Camp Memorial Park",
+        "address": "5761 Old Hwy 135 N",
+        "city": "Kilgore",
+        "zip": "75662",
+        "room": "Boy Scout Hut",
+        "notes": ""
+      },
+      {
+        "name": "Meadowbrook Event Center",
+        "address": "1306 Houston St",
+        "city": "Kilgore",
+        "zip": "75662",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Elderville Community Center",
+        "address": "10450 Hwy 349",
+        "city": "Longview",
+        "zip": "75603",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Saint Mark CME Church",
+        "address": "1100 Sapphire St",
+        "city": "Longview",
+        "zip": "75602",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Stamper Park Resource Center",
+        "address": "502 S Center St",
+        "city": "Longview",
+        "zip": "75601",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Broughton Recreation Center",
+        "address": "801 S MLK Jr Blvd",
+        "city": "Longview",
+        "zip": "75602",
+        "room": "",
+        "notes": ""
+      }
+    ]
+  },
+  "notes": "Gregg County voters may vote at any listed location during early voting and on Election Day. Branch early voting sites keep shorter hours than the main Election Center (10 a.m. to 4 p.m. on Oct 24 and 8 a.m. to 5 p.m. Oct 26 to 28)."
+}

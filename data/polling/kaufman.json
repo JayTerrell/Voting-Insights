@@ -1,0 +1,332 @@
+{
+  "county": "Kaufman",
+  "model": "countywide",
+  "checked_at": "2026-10-19T02:13:00Z",
+  "sources": [
+    {
+      "title": "Kaufman County Elections: Current Election Information",
+      "url": "https://www.kaufmancounty.net/434/Current-Election-Information"
+    },
+    {
+      "title": "Kaufman County Exhibit A: Early Voting Dates and Times for the Joint Election (PDF, revised 9/3/26)",
+      "url": "https://www.kaufmancounty.net/DocumentCenter/View/11955/EARLY-VOTING"
+    },
+    {
+      "title": "Kaufman County Exhibit B: Election Day Vote Centers (PDF, revised 9/3/26)",
+      "url": "https://www.kaufmancounty.net/DocumentCenter/View/11956/ELECTION-DAY"
+    }
+  ],
+  "lookup_url": null,
+  "wait_times_url": null,
+  "early_voting": {
+    "schedule": [
+      {
+        "date": "2026-10-19",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-20",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-21",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-22",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-23",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-24",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-25",
+        "open": "12:00",
+        "close": "18:00"
+      },
+      {
+        "date": "2026-10-26",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-27",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-28",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-29",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-30",
+        "open": "07:00",
+        "close": "19:00"
+      }
+    ],
+    "sites": [
+      {
+        "name": "KAUFMAN COUNTY LIBRARY",
+        "address": "3790 S. Houston Street",
+        "city": "Kaufman",
+        "zip": "75142",
+        "room": "Community Room",
+        "schedule": null,
+        "notes": "Main early voting location"
+      },
+      {
+        "name": "FORNEY SUB COURTHOUSE",
+        "address": "200 E. Main Street",
+        "city": "Forney",
+        "zip": "75126",
+        "room": "Court Room",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "TERRELL SUB COURTHOUSE",
+        "address": "408 E. College Street",
+        "city": "Terrell",
+        "zip": "75160",
+        "room": "Training Center",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "KEMP SUB COURTHOUSE",
+        "address": "103 N. Main Street",
+        "city": "Kemp",
+        "zip": "75143",
+        "room": "Court Room",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "CRANDALL/COMBINE COMMUNITY CENTER",
+        "address": "500 W. Lewis",
+        "city": "Crandall",
+        "zip": "75114",
+        "room": "Community Room",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "KEITH BELL OPPORTUNITY CENT.",
+        "address": "680 Innovation Blvd.",
+        "city": "Forney",
+        "zip": "75126",
+        "room": "Vestibule/Rm. 1302",
+        "schedule": null,
+        "notes": ""
+      }
+    ]
+  },
+  "election_day": {
+    "open": "07:00",
+    "close": "19:00",
+    "sites": [
+      {
+        "name": "Crandall/Combine Community Ctr.",
+        "address": "500 W Lewis/FM3039",
+        "city": "Crandall",
+        "zip": "75114",
+        "room": "Community Center",
+        "notes": ""
+      },
+      {
+        "name": "Talty Baptist Church",
+        "address": "5210 N FM 148",
+        "city": "Crandall",
+        "zip": "75114",
+        "room": "Fellowship Hall",
+        "notes": ""
+      },
+      {
+        "name": "Keith Bell Opportunity Central",
+        "address": "680 Innovation Blvd.",
+        "city": "Forney",
+        "zip": "75126",
+        "room": "Vestibule/Rm. 1302",
+        "notes": ""
+      },
+      {
+        "name": "East Side Church of Christ",
+        "address": "627 S. FM 548",
+        "city": "Forney",
+        "zip": "75126",
+        "room": "Foyer",
+        "notes": ""
+      },
+      {
+        "name": "First Baptist Church, Forney",
+        "address": "1003 FM 741",
+        "city": "Forney",
+        "zip": "75126",
+        "room": "Chapel",
+        "notes": ""
+      },
+      {
+        "name": "Forney Sub Courthouse",
+        "address": "200 E Main St.",
+        "city": "Forney",
+        "zip": "75126",
+        "room": "Court Room",
+        "notes": ""
+      },
+      {
+        "name": "Mustang Creek Church",
+        "address": "13851 FM 548",
+        "city": "Forney",
+        "zip": "75126",
+        "room": "Foyer",
+        "notes": ""
+      },
+      {
+        "name": "The Oasis @ Heartland",
+        "address": "3558 Kirby Ln.",
+        "city": "Heartland",
+        "zip": "75126",
+        "room": "Lobby",
+        "notes": ""
+      },
+      {
+        "name": "Abner Baptist Church",
+        "address": "6877 FM 2727",
+        "city": "Kaufman",
+        "zip": "75142",
+        "room": "Fellowship Hall",
+        "notes": ""
+      },
+      {
+        "name": "Kaufman County Library",
+        "address": "3790 S. Houston St.",
+        "city": "Kaufman",
+        "zip": "75142",
+        "room": "Community Rm",
+        "notes": ""
+      },
+      {
+        "name": "Post Oak Bend Community Center",
+        "address": "1175 CR 278",
+        "city": "Kaufman",
+        "zip": "75142",
+        "room": "Community Ctr",
+        "notes": ""
+      },
+      {
+        "name": "St. Ann Catholic Church",
+        "address": "806 N Washington St",
+        "city": "Kaufman",
+        "zip": "75142",
+        "room": "Fellowship Hall",
+        "notes": ""
+      },
+      {
+        "name": "Warsaw Community Center",
+        "address": "6430 FM 148",
+        "city": "Kaufman",
+        "zip": "75142",
+        "room": "Lobby",
+        "notes": ""
+      },
+      {
+        "name": "First Baptist Church, Kemp",
+        "address": "1320 S. Elm",
+        "city": "Kemp",
+        "zip": "75143",
+        "room": "Great Room",
+        "notes": ""
+      },
+      {
+        "name": "Mabank City Hall",
+        "address": "129 E Market St",
+        "city": "Mabank",
+        "zip": "75147",
+        "room": "Council Chambers",
+        "notes": ""
+      },
+      {
+        "name": "Scurry Admin. Bldg.",
+        "address": "10705 State Hwy 34",
+        "city": "Scurry",
+        "zip": "75158",
+        "room": "Admin Bldg.",
+        "notes": ""
+      },
+      {
+        "name": "Pointview Baptist Church",
+        "address": "110 HWY 3039",
+        "city": "Combine",
+        "zip": "75159",
+        "room": "Adult 1",
+        "notes": ""
+      },
+      {
+        "name": "Bethlehem Baptist Church",
+        "address": "500 S Frances St.",
+        "city": "Terrell",
+        "zip": "75160",
+        "room": "Gym",
+        "notes": ""
+      },
+      {
+        "name": "Bingo Hall -Terrell",
+        "address": "14701 Hwy 205",
+        "city": "Terrell",
+        "zip": "75160",
+        "room": "Storeroom",
+        "notes": ""
+      },
+      {
+        "name": "Terrell Service Ctr.",
+        "address": "400 Industrial Blvd",
+        "city": "Terrell",
+        "zip": "75160",
+        "room": "Training Room",
+        "notes": ""
+      },
+      {
+        "name": "Terrell Sub Courthouse",
+        "address": "408 E. College Street",
+        "city": "Terrell",
+        "zip": "75160",
+        "room": "Training Room",
+        "notes": ""
+      },
+      {
+        "name": "Ables Springs Fire Station",
+        "address": "30000 FM 429 N",
+        "city": "Terrell",
+        "zip": "75161",
+        "room": "Lobby",
+        "notes": ""
+      },
+      {
+        "name": "The Elmo Fire Station",
+        "address": "12777 FM 2728",
+        "city": "Terrell",
+        "zip": "75161",
+        "room": "Lobby",
+        "notes": ""
+      }
+    ]
+  },
+  "notes": "Kaufman County uses countywide vote centers, so registered Kaufman County voters may vote at any listed location. Early voting runs 8 a.m. to 5 p.m. on October 19 to 23 and 7 a.m. to 7 p.m. on October 26 to 30; the county says locations are subject to change."
+}

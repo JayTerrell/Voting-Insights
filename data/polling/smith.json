@@ -1,0 +1,411 @@
+{
+  "county": "Smith",
+  "model": "countywide",
+  "checked_at": "2026-10-19T02:20:00Z",
+  "sources": [
+    {
+      "title": "Smith County: Current Election Information",
+      "url": "https://www.smith-county.com/233/Current-Election-Information"
+    }
+  ],
+  "lookup_url": "https://www.arcgis.com/apps/dashboards/0d307973630e40d28fc25468814fb44b",
+  "wait_times_url": null,
+  "early_voting": {
+    "schedule": [
+      {
+        "date": "2026-10-19",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-20",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-21",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-22",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-23",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-24",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-25",
+        "open": "09:00",
+        "close": "15:00"
+      },
+      {
+        "date": "2026-10-26",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-27",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-28",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-29",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-30",
+        "open": "07:00",
+        "close": "19:00"
+      }
+    ],
+    "sites": [
+      {
+        "name": "Heritage Building",
+        "address": "1900 Bellwood Road",
+        "city": "Tyler",
+        "zip": "75701",
+        "room": "",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "The HUB",
+        "address": "304 E. Ferguson Street",
+        "city": "Tyler",
+        "zip": "75702",
+        "room": "",
+        "schedule": null,
+        "notes": "Main early voting location"
+      },
+      {
+        "name": "Lindale Kinzie Community Center",
+        "address": "912 Mt. Sylvan St.",
+        "city": "Lindale",
+        "zip": "75771",
+        "room": "",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Noonday Community Center",
+        "address": "16662 CR 196",
+        "city": "Tyler",
+        "zip": "75703",
+        "room": "",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Whitehouse City Center",
+        "address": "109 E. Main Street",
+        "city": "Whitehouse",
+        "zip": "75791",
+        "room": "",
+        "schedule": null,
+        "notes": ""
+      }
+    ]
+  },
+  "election_day": {
+    "open": "07:00",
+    "close": "19:00",
+    "sites": [
+      {
+        "name": "Arp Community Center",
+        "address": "108 E. Longview St.",
+        "city": "Arp",
+        "zip": "75750",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Bell Elementary School",
+        "address": "1409 E. Hankerson St.",
+        "city": "Tyler",
+        "zip": "75701",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Bethel Bible Church",
+        "address": "17121 Hwy 69 S",
+        "city": "Tyler",
+        "zip": "75703",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Cameron J Jarvis Library",
+        "address": "102 S. Georgia St.",
+        "city": "Troup",
+        "zip": "75789",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Chapel Hill Fire Department",
+        "address": "13801 CR 220",
+        "city": "Tyler",
+        "zip": "75707",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Clarkston Elementary School",
+        "address": "2915 Williamsburg Dr.",
+        "city": "Tyler",
+        "zip": "75701",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Cross Brand Cowboy Church",
+        "address": "11915 FM 2015",
+        "city": "Tyler",
+        "zip": "75708",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "First Christian Church",
+        "address": "4202 S Broadway Ave",
+        "city": "Tyler",
+        "zip": "75701",
+        "room": "Christian Life Center",
+        "notes": ""
+      },
+      {
+        "name": "Flint Baptist Church",
+        "address": "11131 FM 2868 W",
+        "city": "Flint",
+        "zip": "75762",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Garden Valley Baptist Church",
+        "address": "17816 CR 442",
+        "city": "Lindale",
+        "zip": "75771",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Glass Recreation Center",
+        "address": "501 W. 32nd St.",
+        "city": "Tyler",
+        "zip": "75702",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Greater Life Church",
+        "address": "2751 FM 344 E.",
+        "city": "Bullard",
+        "zip": "75757",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Gresham Redemption Church",
+        "address": "16844 CR 165",
+        "city": "Tyler",
+        "zip": "75703",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Heritage Building",
+        "address": "1900 Bellwood Rd.",
+        "city": "Tyler",
+        "zip": "75701",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Hideaway Members Svcs Building",
+        "address": "101 Hide-A-Way Ln",
+        "city": "Hideaway",
+        "zip": "75771",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Hill Creek Baptist Church",
+        "address": "14749 Hwy 110 S",
+        "city": "Whitehouse",
+        "zip": "75791",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "The HUB",
+        "address": "304 E. Ferguson St.",
+        "city": "Tyler",
+        "zip": "75702",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Jones-Boshears Elementary School",
+        "address": "3450 Chandler Hwy",
+        "city": "Tyler",
+        "zip": "75702",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Lanes Chapel Methodist Church",
+        "address": "8720 Old Jacksonville Hwy",
+        "city": "Tyler",
+        "zip": "75703",
+        "room": "Family Center",
+        "notes": ""
+      },
+      {
+        "name": "Lindale Kinzie Community Center",
+        "address": "912 Mt. Sylvan St.",
+        "city": "Lindale",
+        "zip": "75771",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "New Harmony Baptist Church",
+        "address": "10251 FM 724",
+        "city": "Tyler",
+        "zip": "75704",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Noonday Community Center",
+        "address": "16662 CR 196",
+        "city": "Tyler",
+        "zip": "75703",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Old Tyler Airport",
+        "address": "150 Airport Dr.",
+        "city": "Tyler",
+        "zip": "75704",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Red Springs Fire Department",
+        "address": "16759 FM 14",
+        "city": "Tyler",
+        "zip": "75706",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Rose Heights-Lindale",
+        "address": "12465 FM 16",
+        "city": "Lindale",
+        "zip": "75771",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Shiloh Road Church of Christ",
+        "address": "1801 Shiloh Rd.",
+        "city": "Tyler",
+        "zip": "75703",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "St. Louis Baptist Church",
+        "address": "4000 Frankston Hwy.",
+        "city": "Tyler",
+        "zip": "75701",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "St. Violet Baptist Church",
+        "address": "14129 FM 2767",
+        "city": "Tyler",
+        "zip": "75708",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Starrville Church of the Living God",
+        "address": "18396 Hwy 271",
+        "city": "Winona",
+        "zip": "75792",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Swan Wood Springs Methodist Church",
+        "address": "12005 US Hwy 69 N",
+        "city": "Tyler",
+        "zip": "75706",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Three Lakes Middle School",
+        "address": "2445 Three Lakes Pkwy.",
+        "city": "Tyler",
+        "zip": "75703",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Tyler Junior College West Campus-RTDC",
+        "address": "1530 SSW Loop 323",
+        "city": "Tyler",
+        "zip": "75701",
+        "room": "Room 122",
+        "notes": ""
+      },
+      {
+        "name": "Tyler Senior Center",
+        "address": "1915 Garden Valley Rd.",
+        "city": "Tyler",
+        "zip": "75702",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Whitehouse City Center",
+        "address": "109 E. Main Street",
+        "city": "Whitehouse",
+        "zip": "75791",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Winona Community Center",
+        "address": "520 Dallas St.",
+        "city": "Winona",
+        "zip": "75792",
+        "room": "",
+        "notes": ""
+      }
+    ]
+  },
+  "notes": "Smith County uses Election Day vote centers, so you may vote at any listed location. Early voting runs 8 a.m. to 5 p.m. Oct 19 to 23 and 9 a.m. to 3 p.m. on Sunday Oct 25."
+}

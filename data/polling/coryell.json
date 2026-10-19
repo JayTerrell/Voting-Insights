@@ -1,0 +1,168 @@
+{
+  "county": "Coryell",
+  "model": "countywide",
+  "checked_at": "2026-10-19T02:14:00Z",
+  "sources": [
+    {
+      "title": "Coryell County Tax Office: Elections",
+      "url": "https://coryellcountytax.com/elections/"
+    }
+  ],
+  "lookup_url": "https://teamrv-mvp.sos.texas.gov/MVP/mvp.do",
+  "wait_times_url": null,
+  "early_voting": {
+    "schedule": [
+      {
+        "date": "2026-10-19",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-20",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-21",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-22",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-23",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-24",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-25",
+        "open": "11:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-26",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-27",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-28",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-29",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-30",
+        "open": "07:00",
+        "close": "19:00"
+      }
+    ],
+    "sites": [
+      {
+        "name": "Copperas Cove Early Voting Center",
+        "address": "809 S. Main St.",
+        "city": "Copperas Cove",
+        "zip": "76522",
+        "room": "",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Gatesville Annex",
+        "address": "800 E. Main St.",
+        "city": "Gatesville",
+        "zip": "76528",
+        "room": "Ste B",
+        "schedule": null,
+        "notes": ""
+      }
+    ]
+  },
+  "election_day": {
+    "open": "07:00",
+    "close": "19:00",
+    "sites": [
+      {
+        "name": "Copperas Cove Civic Center",
+        "address": "1206 W. Ave. B",
+        "city": "Copperas Cove",
+        "zip": "",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Holy Family Catholic Church",
+        "address": "1001 Georgetown Rd",
+        "city": "Copperas Cove",
+        "zip": "",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Eastside Baptist Church",
+        "address": "1202 ML King Jr BLVD",
+        "city": "Copperas Cove",
+        "zip": "",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Gatesville Civic Center",
+        "address": "303 Veterans Memorial Loop",
+        "city": "Gatesville",
+        "zip": "",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Evant City Hall",
+        "address": "598 E Hwy 84",
+        "city": "Evant",
+        "zip": "",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Flat Community Center",
+        "address": "159 CR 334",
+        "city": "Flat",
+        "zip": "",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Oglesby Community Center",
+        "address": "118 Main St",
+        "city": "Oglesby",
+        "zip": "",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Turnersville Community Center",
+        "address": "8115 FM 182",
+        "city": "Gatesville",
+        "zip": "",
+        "room": "",
+        "notes": ""
+      }
+    ]
+  },
+  "notes": "Coryell County uses countywide vote centers on Election Day, so you may vote at any listed location. Early voting is at only two sites, with 8 a.m. to 5 p.m. hours Oct 19 to 23."
+}

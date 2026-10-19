@@ -1,0 +1,2540 @@
+{
+  "county": "Travis",
+  "model": "countywide",
+  "checked_at": "2026-10-19T02:08:00Z",
+  "sources": [
+    {
+      "title": "Travis County Clerk: Current Election",
+      "url": "https://votetravis.gov/current-election-information/current-election/"
+    },
+    {
+      "title": "Travis County Early Voting Locations (PDF)",
+      "url": "https://votetravis.gov/wp-content/uploads/G26-Early-Voting-Flyer-9.21.pdf"
+    },
+    {
+      "title": "Travis County Election Day Locations (PDF)",
+      "url": "https://votetravis.gov/wp-content/uploads/G26-Election-Day-Flyer-FINAL-Website-wNotice.pdf"
+    }
+  ],
+  "lookup_url": "https://votetravis.gov/voter-lookup/",
+  "wait_times_url": "https://votetravis.gov/current-election-information/current-election/#polling-locations",
+  "early_voting": {
+    "schedule": [
+      {
+        "date": "2026-10-19",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-20",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-21",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-22",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-23",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-24",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-25",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-26",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-27",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-28",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-29",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-30",
+        "open": "07:00",
+        "close": "19:00"
+      }
+    ],
+    "sites": [
+      {
+        "name": "Ben Hur Shrine Center",
+        "address": "7811 Rockwood Ln",
+        "city": "Austin",
+        "zip": "78757",
+        "room": "Ballroom",
+        "schedule": [
+          {
+            "date": "2026-10-19",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-20",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-21",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-22",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-23",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-24",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-25",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-26",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-27",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-28",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-29",
+            "open": "07:00",
+            "close": "22:00"
+          },
+          {
+            "date": "2026-10-30",
+            "open": "07:00",
+            "close": "22:00"
+          }
+        ],
+        "notes": "Extended hours 7 a.m. to 10 p.m. on Thursday, October 29 and Friday, October 30."
+      },
+      {
+        "name": "Lakeway Activity Center",
+        "address": "105 Cross Creek",
+        "city": "Lakeway",
+        "zip": "78734",
+        "room": "Room F",
+        "schedule": [
+          {
+            "date": "2026-10-19",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-20",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-21",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-22",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-23",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-24",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-25",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-26",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-27",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-28",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-29",
+            "open": "07:00",
+            "close": "22:00"
+          },
+          {
+            "date": "2026-10-30",
+            "open": "07:00",
+            "close": "22:00"
+          }
+        ],
+        "notes": "Extended hours 7 a.m. to 10 p.m. on Thursday, October 29 and Friday, October 30."
+      },
+      {
+        "name": "Millennium Youth Entertainment Complex",
+        "address": "1156 Hargrave St",
+        "city": "Austin",
+        "zip": "78702",
+        "room": "East Media and Confrence Room",
+        "schedule": [
+          {
+            "date": "2026-10-19",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-20",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-21",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-22",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-23",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-24",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-25",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-26",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-27",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-28",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-29",
+            "open": "07:00",
+            "close": "22:00"
+          },
+          {
+            "date": "2026-10-30",
+            "open": "07:00",
+            "close": "22:00"
+          }
+        ],
+        "notes": "Extended hours 7 a.m. to 10 p.m. on Thursday, October 29 and Friday, October 30."
+      },
+      {
+        "name": "PfISD Rock Gym",
+        "address": "702 W Pecan St",
+        "city": "Pflugerville",
+        "zip": "78660",
+        "room": "Gymnasium",
+        "schedule": [
+          {
+            "date": "2026-10-19",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-20",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-21",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-22",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-23",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-24",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-25",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-26",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-27",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-28",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-29",
+            "open": "07:00",
+            "close": "22:00"
+          },
+          {
+            "date": "2026-10-30",
+            "open": "07:00",
+            "close": "22:00"
+          }
+        ],
+        "notes": "Extended hours 7 a.m. to 10 p.m. on Thursday, October 29 and Friday, October 30."
+      },
+      {
+        "name": "Randalls Brodie",
+        "address": "9911 Brodie Ln",
+        "city": "Austin",
+        "zip": "78748",
+        "room": "Café",
+        "schedule": [
+          {
+            "date": "2026-10-19",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-20",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-21",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-22",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-23",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-24",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-25",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-26",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-27",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-28",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-29",
+            "open": "07:00",
+            "close": "22:00"
+          },
+          {
+            "date": "2026-10-30",
+            "open": "07:00",
+            "close": "22:00"
+          }
+        ],
+        "notes": "Extended hours 7 a.m. to 10 p.m. on Thursday, October 29 and Friday, October 30."
+      },
+      {
+        "name": "Travis County Clerk",
+        "address": "5501 Airport Blvd",
+        "city": "Austin",
+        "zip": "78751",
+        "room": "Early Voting Room",
+        "schedule": [
+          {
+            "date": "2026-10-19",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-20",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-21",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-22",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-23",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-24",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-25",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-26",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-27",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-28",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-29",
+            "open": "07:00",
+            "close": "22:00"
+          },
+          {
+            "date": "2026-10-30",
+            "open": "07:00",
+            "close": "22:00"
+          }
+        ],
+        "notes": "Extended hours 7 a.m. to 10 p.m. on Thursday, October 29 and Friday, October 30."
+      },
+      {
+        "name": "UT Texas Union",
+        "address": "2308 Whitis Ave",
+        "city": "Austin",
+        "zip": "78712",
+        "room": "Room 2.214",
+        "schedule": [
+          {
+            "date": "2026-10-19",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-20",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-21",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-22",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-23",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-24",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-25",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-26",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-27",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-28",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-29",
+            "open": "07:00",
+            "close": "22:00"
+          },
+          {
+            "date": "2026-10-30",
+            "open": "07:00",
+            "close": "22:00"
+          }
+        ],
+        "notes": "Extended hours 7 a.m. to 10 p.m. on Thursday, October 29 and Friday, October 30."
+      },
+      {
+        "name": "Austin City Hall",
+        "address": "301 W 2nd St",
+        "city": "Austin",
+        "zip": "78701",
+        "room": "Media Room 1034",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Austin Energy Headquarters",
+        "address": "4815 Mueller Blvd",
+        "city": "Austin",
+        "zip": "78723",
+        "room": "Capital Training Room",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Austin Oaks Church",
+        "address": "4220 Monterey Oaks Blvd",
+        "city": "Austin",
+        "zip": "78749",
+        "room": "Family Life Foyer",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Austin Permitting and Development Center",
+        "address": "6310 Wilhelmina Delco Dr",
+        "city": "Austin",
+        "zip": "78752",
+        "room": "Room 1407",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Austin Recreation Center",
+        "address": "1301 Shoal Creek Blvd",
+        "city": "Austin",
+        "zip": "78701",
+        "room": "Dance Studio",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Balcones Bingo",
+        "address": "13096 US 183",
+        "city": "Austin",
+        "zip": "78750",
+        "room": "Main Hall",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Bedichek Middle School",
+        "address": "6800 Bill Hughes Rd",
+        "city": "Austin",
+        "zip": "78745",
+        "room": "Small Gymnasium",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Bee Cave City Hall",
+        "address": "4000 Galleria Pkwy",
+        "city": "Bee Cave",
+        "zip": "78738",
+        "room": "Community Room A and B",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Carver Branch Library",
+        "address": "1161 Angelina St",
+        "city": "Austin",
+        "zip": "78702",
+        "room": "Meeting Room 2",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Cepeda Branch Library",
+        "address": "651 N Pleasant Valley Rd",
+        "city": "Austin",
+        "zip": "78702",
+        "room": "Meeting Room 1",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Chinatown Center",
+        "address": "10901 N Lamar Blvd",
+        "city": "Austin",
+        "zip": "78753",
+        "room": "Building B-1 former bank",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Christ Episcopal Church",
+        "address": "3520 W Whitestone Blvd",
+        "city": "Cedar Park",
+        "zip": "78613",
+        "room": "Outreach Center",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Circle C Community Center",
+        "address": "7817 La Crosse Ave",
+        "city": "Austin",
+        "zip": "78739",
+        "room": "Meeting Room 2",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Community Center At Del Valle",
+        "address": "3518 S FM 973",
+        "city": "Del Valle",
+        "zip": "78617",
+        "room": "Activity Room Bldg D",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Community Center at Oak Hill",
+        "address": "8656 W State Hwy 71",
+        "city": "Austin",
+        "zip": "78735",
+        "room": "Community Room",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Dan Ruiz Branch Library",
+        "address": "1600 Grove Blvd",
+        "city": "Austin",
+        "zip": "78741",
+        "room": "Meeting Rooms 1 and 2",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Disability Rights Texas",
+        "address": "2222 W Braker Ln",
+        "city": "Austin",
+        "zip": "78758",
+        "room": "Board Rooms",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Former Verizon",
+        "address": "9705 Research Blvd",
+        "city": "Austin",
+        "zip": "78759",
+        "room": "Suite 9705D",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "George Morales Dove Springs Recreation Center",
+        "address": "5801 Ainez Dr",
+        "city": "Austin",
+        "zip": "78744",
+        "room": "Dance Studio",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Gus Garcia Recreation Center",
+        "address": "1201 E Runberg Ln",
+        "city": "Austin",
+        "zip": "78753",
+        "room": "Senior Room",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Lago Vista Public Library",
+        "address": "5803 Thunderbird St Ste 40",
+        "city": "Lago Vista",
+        "zip": "78645",
+        "room": "Meeting Room",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "LBJ School Of Public Affairs",
+        "address": "2315 Red River St",
+        "city": "Austin",
+        "zip": "78712",
+        "room": "Lobby",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Manor ISD Admin Building",
+        "address": "10335 Hwy 290",
+        "city": "Manor",
+        "zip": "78653",
+        "room": "Technology Room",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Menchaca Road Branch Public Library",
+        "address": "5500 Menchaca Rd",
+        "city": "Austin",
+        "zip": "78745",
+        "room": "Meeting Room",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Northwest Recreation Center",
+        "address": "2913 Northland Dr",
+        "city": "Austin",
+        "zip": "78757",
+        "room": "Classroom 2",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Pfluger Hall and Conference Center",
+        "address": "203 E Pecan St",
+        "city": "Pflugerville",
+        "zip": "78660",
+        "room": "Great Hall",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Randalls Flagship West Lake Hills",
+        "address": "3300 Bee Caves Rd",
+        "city": "West Lake Hills",
+        "zip": "78746",
+        "room": "Café",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Randalls Steiner Ranch",
+        "address": "5145 N FM 620",
+        "city": "Austin",
+        "zip": "78732",
+        "room": "Café",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Riata Trace",
+        "address": "12221 Riata Trace Pkwy",
+        "city": "Austin",
+        "zip": "78727",
+        "room": "Suite 120",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Riverbend Centre",
+        "address": "4214 N Capital of Texas Hwy",
+        "city": "Austin",
+        "zip": "78746",
+        "room": "Quad3ABCD",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "RRISD Hartfield Performing Arts Center",
+        "address": "5800 McNeil Dr",
+        "city": "Austin",
+        "zip": "78729",
+        "room": "Lobby",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Shops at Arbor Walk",
+        "address": "10515 N Mopac Expy",
+        "city": "Austin",
+        "zip": "78759",
+        "room": "Suite L",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "South Austin Recreation Center",
+        "address": "1100 Cumberland Rd",
+        "city": "Austin",
+        "zip": "78704",
+        "room": "Lobby",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Travis County Civil and Family Courts Facility",
+        "address": "1700 Guadalupe St",
+        "city": "Austin",
+        "zip": "78701",
+        "room": "Conference Room",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Typhoon Texas Waterpark",
+        "address": "18500 TX 130 Service Rd",
+        "city": "Pflugerville",
+        "zip": "78660",
+        "room": "Main Lobby",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Westoak Woods Baptist Church",
+        "address": "2900 W Slaughter Ln",
+        "city": "Austin",
+        "zip": "78748",
+        "room": "CMB Room 104",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Wheatsville Food Coop South Lamar",
+        "address": "4001 S Lamar Blvd",
+        "city": "Austin",
+        "zip": "78704",
+        "room": "Community Kitchen",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "TCC Complex",
+        "address": "3614 Bill Price Rd",
+        "city": "Del Valle",
+        "zip": "78617",
+        "room": "Lobby",
+        "schedule": [
+          {
+            "date": "2026-10-30",
+            "open": "07:00",
+            "close": "19:00"
+          }
+        ],
+        "notes": "Early voting on Friday, October 30 only. The county lists only the general 7 a.m. to 7 p.m. hours for this site."
+      }
+    ]
+  },
+  "election_day": {
+    "open": "07:00",
+    "close": "19:00",
+    "sites": [
+      {
+        "name": "Creedmoor Community Center",
+        "address": "12513 FM 1625",
+        "city": "Creedmoor",
+        "zip": "78610",
+        "room": "Meeting Room",
+        "notes": ""
+      },
+      {
+        "name": "Christ Episcopal Church",
+        "address": "3520 W Whitestone Blvd",
+        "city": "Cedar Park",
+        "zip": "78613",
+        "room": "Outreach Center",
+        "notes": ""
+      },
+      {
+        "name": "Deer Creek Elementary School",
+        "address": "2420 Zeppelin Dr",
+        "city": "Cedar Park",
+        "zip": "78613",
+        "room": "MPR",
+        "notes": ""
+      },
+      {
+        "name": "Community Center At Del Valle",
+        "address": "3518 S FM 973",
+        "city": "Del Valle",
+        "zip": "78617",
+        "room": "Activity Room Bldg D",
+        "notes": ""
+      },
+      {
+        "name": "Del Valle ISD Admin Building",
+        "address": "5301 Ross Rd",
+        "city": "Del Valle",
+        "zip": "78617",
+        "room": "Board Meeting Room",
+        "notes": ""
+      },
+      {
+        "name": "Elroy Community Library",
+        "address": "13512 FM 812",
+        "city": "Del Valle",
+        "zip": "78617",
+        "room": "The Learning Center",
+        "notes": ""
+      },
+      {
+        "name": "TCC Complex",
+        "address": "3614 Bill Price Rd",
+        "city": "Del Valle",
+        "zip": "78617",
+        "room": "Lobby",
+        "notes": ""
+      },
+      {
+        "name": "Ministerios Filadelfia Iglesia Cristiana",
+        "address": "13704 County Line Rd",
+        "city": "Elgin",
+        "zip": "78621",
+        "room": "Sanctuary",
+        "notes": ""
+      },
+      {
+        "name": "Round Mountain Baptist Church",
+        "address": "14500 Round Mountain Rd",
+        "city": "Leander",
+        "zip": "78641",
+        "room": "Sunday School Classroom",
+        "notes": ""
+      },
+      {
+        "name": "Volente Fire Department",
+        "address": "15406 FM 2769",
+        "city": "Leander",
+        "zip": "78641",
+        "room": "Meeting Space",
+        "notes": ""
+      },
+      {
+        "name": "Christ Our Savior Lutheran Church",
+        "address": "21900 RM 1431",
+        "city": "Lago Vista",
+        "zip": "78645",
+        "room": "Fellowship Hall",
+        "notes": ""
+      },
+      {
+        "name": "Community Center at Jonestown",
+        "address": "18649 RM 1431 Ste 6A",
+        "city": "Jonestown",
+        "zip": "78645",
+        "room": "Community Room",
+        "notes": ""
+      },
+      {
+        "name": "K Oaks Clubhouse",
+        "address": "7000 Bar K Ranch Rd",
+        "city": "Lago Vista",
+        "zip": "78645",
+        "room": "Meeting Room",
+        "notes": ""
+      },
+      {
+        "name": "Lago Vista Public Library",
+        "address": "5803 Thunderbird St Ste 40",
+        "city": "Lago Vista",
+        "zip": "78645",
+        "room": "Meeting Room",
+        "notes": ""
+      },
+      {
+        "name": "Northlake Church",
+        "address": "3610 Lohman Ford Rd",
+        "city": "Lago Vista",
+        "zip": "78645",
+        "room": "The Oak Room",
+        "notes": ""
+      },
+      {
+        "name": "Manchaca United Methodist Church",
+        "address": "1011 FM 1626",
+        "city": "Manchaca",
+        "zip": "78652",
+        "room": "Family Life Center",
+        "notes": ""
+      },
+      {
+        "name": "Eternal Faith Baptist Church",
+        "address": "12720 FM 973",
+        "city": "Manor",
+        "zip": "78653",
+        "room": "Fellowship Hall",
+        "notes": ""
+      },
+      {
+        "name": "Manor High School Ninth Grade Center",
+        "address": "12700 Gregg Manor Rd",
+        "city": "Manor",
+        "zip": "78653",
+        "room": "Room G114",
+        "notes": ""
+      },
+      {
+        "name": "Manor ISD Admin Building",
+        "address": "10335 Hwy 290",
+        "city": "Manor",
+        "zip": "78653",
+        "room": "Technology Room",
+        "notes": ""
+      },
+      {
+        "name": "New Sweden Lutheran Church",
+        "address": "12809 New Sweden Church Rd",
+        "city": "Manor",
+        "zip": "78653",
+        "room": "Foundation Center Room",
+        "notes": ""
+      },
+      {
+        "name": "Travis County Sheriff East Command",
+        "address": "7811 Burleson Manor Rd",
+        "city": "Manor",
+        "zip": "78653",
+        "room": "Lobby",
+        "notes": ""
+      },
+      {
+        "name": "Whisper Valley Discovery and Amenity Center",
+        "address": "9400 Petrichor Blvd",
+        "city": "Manor",
+        "zip": "78653",
+        "room": "Media Room",
+        "notes": ""
+      },
+      {
+        "name": "Bible Baptist Church of Pflugerville",
+        "address": "14400 Immanuel Rd",
+        "city": "Pflugerville",
+        "zip": "78660",
+        "room": "Auditorium",
+        "notes": ""
+      },
+      {
+        "name": "Boulder Ridge Clubhouse",
+        "address": "3300 Killingsworth Ln",
+        "city": "Pflugerville",
+        "zip": "78660",
+        "room": "Clubhouse",
+        "notes": ""
+      },
+      {
+        "name": "Cambridge Villas",
+        "address": "15711 Dessau Rd",
+        "city": "Pflugerville",
+        "zip": "78660",
+        "room": "Dining Room",
+        "notes": ""
+      },
+      {
+        "name": "New Life Baptist Church",
+        "address": "19715 Hodde Ln",
+        "city": "Pflugerville",
+        "zip": "78660",
+        "room": "Foyer",
+        "notes": ""
+      },
+      {
+        "name": "Northtown MUD",
+        "address": "700 E Wells Branch Pkwy",
+        "city": "Pflugerville",
+        "zip": "78660",
+        "room": "Meeting Room",
+        "notes": ""
+      },
+      {
+        "name": "PfISD Rock Gym",
+        "address": "702 W Pecan St",
+        "city": "Pflugerville",
+        "zip": "78660",
+        "room": "Gymnasium",
+        "notes": ""
+      },
+      {
+        "name": "Pfluger Hall and Conference Center",
+        "address": "203 E Pecan St",
+        "city": "Pflugerville",
+        "zip": "78660",
+        "room": "Great Hall",
+        "notes": ""
+      },
+      {
+        "name": "Pflugerville Fire Station No 6",
+        "address": "17401 Weiss Ln",
+        "city": "Pflugerville",
+        "zip": "78660",
+        "room": "Meeting Room",
+        "notes": ""
+      },
+      {
+        "name": "Pflugerville Lions Club",
+        "address": "500 N Railroad Ave",
+        "city": "Pflugerville",
+        "zip": "78660",
+        "room": "Main Hall",
+        "notes": ""
+      },
+      {
+        "name": "Pflugerville Public Library",
+        "address": "1008 W Pfluger St",
+        "city": "Pflugerville",
+        "zip": "78660",
+        "room": "Large Conference Room",
+        "notes": ""
+      },
+      {
+        "name": "Stone Hill Apartments",
+        "address": "17900 Pfluger Farm Ln",
+        "city": "Pflugerville",
+        "zip": "78660",
+        "room": "Community Room",
+        "notes": ""
+      },
+      {
+        "name": "Travis County HHS Pflugerville Community Center",
+        "address": "15822 Foothill Farms Loop",
+        "city": "Pflugerville",
+        "zip": "78660",
+        "room": "Activity Room",
+        "notes": ""
+      },
+      {
+        "name": "Typhoon Texas Waterpark",
+        "address": "18500 TX 130 Service Rd",
+        "city": "Pflugerville",
+        "zip": "78660",
+        "room": "Main Lobby",
+        "notes": ""
+      },
+      {
+        "name": "All Nations Church",
+        "address": "16804 Radholme Ct",
+        "city": "Round Rock",
+        "zip": "78664",
+        "room": "Family Room",
+        "notes": ""
+      },
+      {
+        "name": "Briarcliff POA Community Center",
+        "address": "22801 Briarcliff Dr",
+        "city": "Briarcliff",
+        "zip": "78669",
+        "room": "Community Room",
+        "notes": ""
+      },
+      {
+        "name": "Lake Travis Community Library",
+        "address": "21209 State Hwy 71 W",
+        "city": "Spicewood",
+        "zip": "78669",
+        "room": "Meeting Room",
+        "notes": ""
+      },
+      {
+        "name": "Austin City Hall",
+        "address": "301 W 2nd St",
+        "city": "Austin",
+        "zip": "78701",
+        "room": "Media Room 1034",
+        "notes": ""
+      },
+      {
+        "name": "Austin Recreation Center",
+        "address": "1301 Shoal Creek Blvd",
+        "city": "Austin",
+        "zip": "78701",
+        "room": "Dance Studio",
+        "notes": ""
+      },
+      {
+        "name": "Emma S Barrientos Mexican American Cultural Center",
+        "address": "600 River St",
+        "city": "Austin",
+        "zip": "78701",
+        "room": "Raul Salinas Room",
+        "notes": ""
+      },
+      {
+        "name": "Sam Houston Building",
+        "address": "201 E 14th St",
+        "city": "Austin",
+        "zip": "78701",
+        "room": "Break Room And Library",
+        "notes": ""
+      },
+      {
+        "name": "Travis County Civil and Family Courts Facility",
+        "address": "1700 Guadalupe St",
+        "city": "Austin",
+        "zip": "78701",
+        "room": "Conference Room",
+        "notes": ""
+      },
+      {
+        "name": "Cantu Pan Am Recreation Center",
+        "address": "2100 E 3rd St",
+        "city": "Austin",
+        "zip": "78702",
+        "room": "Gym",
+        "notes": ""
+      },
+      {
+        "name": "Carver Branch Library",
+        "address": "1161 Angelina St",
+        "city": "Austin",
+        "zip": "78702",
+        "room": "Meeting Room 2",
+        "notes": ""
+      },
+      {
+        "name": "Cepeda Branch Library",
+        "address": "651 N Pleasant Valley Rd",
+        "city": "Austin",
+        "zip": "78702",
+        "room": "Meeting Room 1",
+        "notes": ""
+      },
+      {
+        "name": "Conley Guerrero Senior Activity Center",
+        "address": "808 Nile St",
+        "city": "Austin",
+        "zip": "78702",
+        "room": "Language Room",
+        "notes": ""
+      },
+      {
+        "name": "Huston-Tillotson University",
+        "address": "900 Chicon St",
+        "city": "Austin",
+        "zip": "78702",
+        "room": "Davage-Durden Student Union",
+        "notes": ""
+      },
+      {
+        "name": "Millennium Youth Entertainment Complex",
+        "address": "1156 Hargrave St",
+        "city": "Austin",
+        "zip": "78702",
+        "room": "East Media and Conference Room",
+        "notes": ""
+      },
+      {
+        "name": "Mt Zion Baptist Church",
+        "address": "2938 E 13th St",
+        "city": "Austin",
+        "zip": "78702",
+        "room": "Family Life Center Room 119",
+        "notes": ""
+      },
+      {
+        "name": "Terrazas Branch Library",
+        "address": "1105 E Cesar Chavez St",
+        "city": "Austin",
+        "zip": "78702",
+        "room": "Meeting Rooms 1 and 2",
+        "notes": ""
+      },
+      {
+        "name": "Howson Branch Library",
+        "address": "2500 Exposition Blvd",
+        "city": "Austin",
+        "zip": "78703",
+        "room": "Meeting Room",
+        "notes": ""
+      },
+      {
+        "name": "O Henry Middle School",
+        "address": "2610 W 10th St",
+        "city": "Austin",
+        "zip": "78703",
+        "room": "Gym",
+        "notes": ""
+      },
+      {
+        "name": "Westminster Presbyterian Church",
+        "address": "3208 Exposition Blvd",
+        "city": "Austin",
+        "zip": "78703",
+        "room": "Fellowship Hall",
+        "notes": ""
+      },
+      {
+        "name": "Church on Congress Avenue",
+        "address": "1511 S Congress Ave",
+        "city": "Austin",
+        "zip": "78704",
+        "room": "Sanctuary",
+        "notes": ""
+      },
+      {
+        "name": "Mary Lee Foundation",
+        "address": "1339 Lamar Square Dr",
+        "city": "Austin",
+        "zip": "78704",
+        "room": "Lobby",
+        "notes": ""
+      },
+      {
+        "name": "South Austin Recreation Center",
+        "address": "1100 Cumberland Rd",
+        "city": "Austin",
+        "zip": "78704",
+        "room": "Lobby",
+        "notes": ""
+      },
+      {
+        "name": "South Austin Senior Activity Center",
+        "address": "3911 Menchaca Rd",
+        "city": "Austin",
+        "zip": "78704",
+        "room": "Club Room",
+        "notes": ""
+      },
+      {
+        "name": "St Edwards University",
+        "address": "3001 S Congress Ave",
+        "city": "Austin",
+        "zip": "78704",
+        "room": "UFCU Alumni Gym",
+        "notes": ""
+      },
+      {
+        "name": "St Marks Episcopal Church",
+        "address": "2128 Barton Hills Dr #4651",
+        "city": "Austin",
+        "zip": "78704",
+        "room": "Parish Hall",
+        "notes": ""
+      },
+      {
+        "name": "Travis County Services For The Deaf and Hard of Hearing",
+        "address": "2201 Post Rd",
+        "city": "Austin",
+        "zip": "78704",
+        "room": "Lobby",
+        "notes": ""
+      },
+      {
+        "name": "Travis Early College High School",
+        "address": "1211 E Oltorf St",
+        "city": "Austin",
+        "zip": "78704",
+        "room": "Cafeteria",
+        "notes": ""
+      },
+      {
+        "name": "Twin Oaks Branch Library",
+        "address": "1800 S 5th St",
+        "city": "Austin",
+        "zip": "78704",
+        "room": "Meeting Room",
+        "notes": ""
+      },
+      {
+        "name": "Wheatsville Food Coop South Lamar",
+        "address": "4001 S Lamar Blvd",
+        "city": "Austin",
+        "zip": "78704",
+        "room": "Community Kitchen",
+        "notes": ""
+      },
+      {
+        "name": "Zilker Elementary School",
+        "address": "1900 Bluebonnet Ln",
+        "city": "Austin",
+        "zip": "78704",
+        "room": "Office Hallway",
+        "notes": ""
+      },
+      {
+        "name": "Austin Presbyterian Theological Seminary",
+        "address": "100 E 27th St",
+        "city": "Austin",
+        "zip": "78705",
+        "room": "Room 211",
+        "notes": ""
+      },
+      {
+        "name": "Lamar Senior Activity Center",
+        "address": "2874 Shoal Crest Ave",
+        "city": "Austin",
+        "zip": "78705",
+        "room": "MPR",
+        "notes": ""
+      },
+      {
+        "name": "University Presbyterian Church",
+        "address": "2203 San Antonio St",
+        "city": "Austin",
+        "zip": "78705",
+        "room": "Fellowship Hall",
+        "notes": ""
+      },
+      {
+        "name": "LBJ School Of Public Affairs",
+        "address": "2315 Red River St",
+        "city": "Austin",
+        "zip": "78712",
+        "room": "Lobby",
+        "notes": ""
+      },
+      {
+        "name": "UT Texas Union",
+        "address": "2308 Whitis Ave",
+        "city": "Austin",
+        "zip": "78712",
+        "room": "Room 2.214",
+        "notes": ""
+      },
+      {
+        "name": "Alternative Learning Center at Sims Elementary School",
+        "address": "1203 Springdale Rd",
+        "city": "Austin",
+        "zip": "78721",
+        "room": "Cafeteria",
+        "notes": ""
+      },
+      {
+        "name": "Greater Mt Zion Baptist Church",
+        "address": "4301 Tannehill Ln",
+        "city": "Austin",
+        "zip": "78721",
+        "room": "Assembly Room",
+        "notes": ""
+      },
+      {
+        "name": "Liberal Arts and Science Academy",
+        "address": "1012 Arthur Stiles Rd",
+        "city": "Austin",
+        "zip": "78721",
+        "room": "Lobby of Performing Arts Center",
+        "notes": ""
+      },
+      {
+        "name": "Campbell Elementary School",
+        "address": "2613 Rogers Ave",
+        "city": "Austin",
+        "zip": "78722",
+        "room": "Entrance Hallway",
+        "notes": ""
+      },
+      {
+        "name": "Genesis Presbyterian Church",
+        "address": "1507 Wilshire Blvd",
+        "city": "Austin",
+        "zip": "78722",
+        "room": "Fellowship Hall",
+        "notes": ""
+      },
+      {
+        "name": "Austin Achieve Northeast Campus",
+        "address": "7424 E Hwy 290",
+        "city": "Austin",
+        "zip": "78723",
+        "room": "High School Gym",
+        "notes": ""
+      },
+      {
+        "name": "Austin Energy Headquarters",
+        "address": "4815 Mueller Blvd",
+        "city": "Austin",
+        "zip": "78723",
+        "room": "Capital Training Room",
+        "notes": ""
+      },
+      {
+        "name": "East Nineteenth St Baptist Church",
+        "address": "3401 Rogge Ln",
+        "city": "Austin",
+        "zip": "78723",
+        "room": "Fellowship Hall",
+        "notes": ""
+      },
+      {
+        "name": "General Marshall Middle School",
+        "address": "4401 Tilley St",
+        "city": "Austin",
+        "zip": "78723",
+        "room": "Community Room",
+        "notes": ""
+      },
+      {
+        "name": "Harris Elementary School",
+        "address": "6105 Berkman Dr",
+        "city": "Austin",
+        "zip": "78723",
+        "room": "Community Room",
+        "notes": ""
+      },
+      {
+        "name": "Hope Lutheran Church",
+        "address": "6414 N Hampton Dr",
+        "city": "Austin",
+        "zip": "78723",
+        "room": "Parish Hall",
+        "notes": ""
+      },
+      {
+        "name": "Region 13 Education Service Center",
+        "address": "5701 Springdale Rd",
+        "city": "Austin",
+        "zip": "78723",
+        "room": "Canyon of the Eagles Room",
+        "notes": ""
+      },
+      {
+        "name": "Sawyer Hall Event Center",
+        "address": "1320 E 51st St",
+        "city": "Austin",
+        "zip": "78723",
+        "room": "Event Center",
+        "notes": ""
+      },
+      {
+        "name": "University Hills Branch Library",
+        "address": "4721 Loyola Ln",
+        "city": "Austin",
+        "zip": "78723",
+        "room": "Meeting Room",
+        "notes": ""
+      },
+      {
+        "name": "Windsor Park Branch Library",
+        "address": "5833 Westminster Dr",
+        "city": "Austin",
+        "zip": "78723",
+        "room": "Meeting Room",
+        "notes": ""
+      },
+      {
+        "name": "YMCA East Communities Y",
+        "address": "5315 Ed Bluestein Blvd",
+        "city": "Austin",
+        "zip": "78723",
+        "room": "Lobby",
+        "notes": ""
+      },
+      {
+        "name": "Community First! Village",
+        "address": "9301 Hog Eye Rd",
+        "city": "Austin",
+        "zip": "78724",
+        "room": "Unity Hall",
+        "notes": ""
+      },
+      {
+        "name": "LBJ Early College High School",
+        "address": "7309 Lazy Creek Dr",
+        "city": "Austin",
+        "zip": "78724",
+        "room": "Community Room",
+        "notes": ""
+      },
+      {
+        "name": "New Hope Missionary Baptist Church",
+        "address": "9300 Decker Ln",
+        "city": "Austin",
+        "zip": "78724",
+        "room": "The Vestibule",
+        "notes": ""
+      },
+      {
+        "name": "Turner Roberts Recreation Center",
+        "address": "7201 Colony Loop Dr",
+        "city": "Austin",
+        "zip": "78724",
+        "room": "Arts and Crafts Room",
+        "notes": ""
+      },
+      {
+        "name": "Dailey Middle School",
+        "address": "14000 Westall St",
+        "city": "Austin",
+        "zip": "78725",
+        "room": "Lobby of the Gym",
+        "notes": ""
+      },
+      {
+        "name": "Grandview Hills Elementary School",
+        "address": "12024 Vista Parke Dr",
+        "city": "Austin",
+        "zip": "78726",
+        "room": "MPR",
+        "notes": ""
+      },
+      {
+        "name": "Peace Lutheran Church",
+        "address": "10625 N FM 620 Rd",
+        "city": "Austin",
+        "zip": "78726",
+        "room": "Narthex",
+        "notes": ""
+      },
+      {
+        "name": "Davis Elementary School",
+        "address": "5214 Duval Rd",
+        "city": "Austin",
+        "zip": "78727",
+        "room": "Main Lobby",
+        "notes": ""
+      },
+      {
+        "name": "Milwood Branch Library",
+        "address": "12500 Amherst Dr",
+        "city": "Austin",
+        "zip": "78727",
+        "room": "Meeting Room",
+        "notes": ""
+      },
+      {
+        "name": "Riata Trace",
+        "address": "12221 Riata Trace Pkwy",
+        "city": "Austin",
+        "zip": "78727",
+        "room": "Suite 120",
+        "notes": ""
+      },
+      {
+        "name": "United Christian Church",
+        "address": "3500 W Parmer Ln",
+        "city": "Austin",
+        "zip": "78727",
+        "room": "Fellowship Hall",
+        "notes": ""
+      },
+      {
+        "name": "Affinity at Wells Branch",
+        "address": "14508 Owen Tech Blvd",
+        "city": "Austin",
+        "zip": "78728",
+        "room": "Main Lobby",
+        "notes": ""
+      },
+      {
+        "name": "Wells Branch Community Center",
+        "address": "2106 Klattenhoff Dr",
+        "city": "Austin",
+        "zip": "78728",
+        "room": "Meeting Room",
+        "notes": ""
+      },
+      {
+        "name": "Wells Branch MUD Recreation Center",
+        "address": "3000 Shoreline Dr",
+        "city": "Austin",
+        "zip": "78728",
+        "room": "Arts and Crafts Room",
+        "notes": ""
+      },
+      {
+        "name": "RRISD Hartfield Performing Arts Center",
+        "address": "5800 Mcneil Dr",
+        "city": "Austin",
+        "zip": "78729",
+        "room": "Lobby",
+        "notes": ""
+      },
+      {
+        "name": "River Place Elementary School",
+        "address": "6500 Sitio Del Rio Blvd",
+        "city": "Austin",
+        "zip": "78730",
+        "room": "MPR",
+        "notes": ""
+      },
+      {
+        "name": "Church at Highland Park",
+        "address": "5206 Balcones Dr",
+        "city": "Austin",
+        "zip": "78731",
+        "room": "Atrium",
+        "notes": ""
+      },
+      {
+        "name": "Northwest Hills United Methodist Church Youth Center",
+        "address": "7027 Hart Ln",
+        "city": "Austin",
+        "zip": "78731",
+        "room": "Youth Center",
+        "notes": ""
+      },
+      {
+        "name": "Canyon Ridge Middle School",
+        "address": "12601 Country Trails Ln",
+        "city": "Austin",
+        "zip": "78732",
+        "room": "Gym",
+        "notes": ""
+      },
+      {
+        "name": "Randalls Steiner Ranch",
+        "address": "5145 N FM 620",
+        "city": "Austin",
+        "zip": "78732",
+        "room": "Café",
+        "notes": ""
+      },
+      {
+        "name": "Ce Bar Fire Department",
+        "address": "353 S Commons Ford Rd",
+        "city": "Austin",
+        "zip": "78733",
+        "room": "Training Room",
+        "notes": ""
+      },
+      {
+        "name": "Laura Bush Community Library",
+        "address": "9411 Bee Caves Rd",
+        "city": "Austin",
+        "zip": "78733",
+        "room": "Commons",
+        "notes": ""
+      },
+      {
+        "name": "Lake Travis ISD Educational Development Center",
+        "address": "607 Ranch Road 620 N",
+        "city": "Austin",
+        "zip": "78734",
+        "room": "Sage Room",
+        "notes": ""
+      },
+      {
+        "name": "Lakeway Activity Center",
+        "address": "105 Cross Creek",
+        "city": "Lakeway",
+        "zip": "78734",
+        "room": "Room F",
+        "notes": ""
+      },
+      {
+        "name": "Travis County Sheriff West Command",
+        "address": "3800 Hudson Bend Rd",
+        "city": "Austin",
+        "zip": "78734",
+        "room": "Show Up Room",
+        "notes": ""
+      },
+      {
+        "name": "Austin Hills Church",
+        "address": "8203 W State Hwy 71",
+        "city": "Austin",
+        "zip": "78735",
+        "room": "Sanctuary",
+        "notes": ""
+      },
+      {
+        "name": "Community Center at Oak Hill",
+        "address": "8656 W State Hwy 71",
+        "city": "Austin",
+        "zip": "78735",
+        "room": "Community Room",
+        "notes": ""
+      },
+      {
+        "name": "Oak Hill Fire Dept No 302",
+        "address": "4111 Barton Creek Blvd",
+        "city": "Austin",
+        "zip": "78735",
+        "room": "Community Room",
+        "notes": ""
+      },
+      {
+        "name": "Western Hills Church Of Christ",
+        "address": "6211 Parkwood Dr",
+        "city": "Austin",
+        "zip": "78735",
+        "room": "Foyer",
+        "notes": ""
+      },
+      {
+        "name": "Oak Hill Fire Dept No 301",
+        "address": "9211 Circle Dr",
+        "city": "Austin",
+        "zip": "78736",
+        "room": "Training Room 1",
+        "notes": ""
+      },
+      {
+        "name": "Bee Cave City Hall",
+        "address": "4000 Galleria Pkwy",
+        "city": "Bee Cave",
+        "zip": "78738",
+        "room": "Community Room A and B",
+        "notes": ""
+      },
+      {
+        "name": "Presbyterian Church of Lake Travis",
+        "address": "14820 Hamilton Pool Rd",
+        "city": "Austin",
+        "zip": "78738",
+        "room": "Fellowship Hall",
+        "notes": ""
+      },
+      {
+        "name": "Bailey Middle School",
+        "address": "4020 Lost Oasis Hollow",
+        "city": "Austin",
+        "zip": "78739",
+        "room": "Main Hallway",
+        "notes": ""
+      },
+      {
+        "name": "Bear Creek Elementary School",
+        "address": "12801 Escarpment Blvd",
+        "city": "Austin",
+        "zip": "78739",
+        "room": "Art Room",
+        "notes": ""
+      },
+      {
+        "name": "Circle C Community Center",
+        "address": "7817 La Crosse Ave",
+        "city": "Austin",
+        "zip": "78739",
+        "room": "Meeting Room 2",
+        "notes": ""
+      },
+      {
+        "name": "Dan Ruiz Branch Library",
+        "address": "1600 Grove Blvd",
+        "city": "Austin",
+        "zip": "78741",
+        "room": "Meeting Rooms 1 and 2",
+        "notes": ""
+      },
+      {
+        "name": "Good Shepherd on the Hill",
+        "address": "1700 Woodland Ave",
+        "city": "Austin",
+        "zip": "78741",
+        "room": "Parish Hall",
+        "notes": ""
+      },
+      {
+        "name": "Montopolis Recreation Center",
+        "address": "1200 Montopolis Dr",
+        "city": "Austin",
+        "zip": "78741",
+        "room": "Gymnasium",
+        "notes": ""
+      },
+      {
+        "name": "Primera Iglesia Bautista De Austin",
+        "address": "2100 E Ben White Blvd",
+        "city": "Austin",
+        "zip": "78741",
+        "room": "Fellowship Hall",
+        "notes": ""
+      },
+      {
+        "name": "Communities in Schools Central Texas",
+        "address": "2521 E St Elmo Rd",
+        "city": "Austin",
+        "zip": "78744",
+        "room": "Tejemos",
+        "notes": ""
+      },
+      {
+        "name": "George Morales Dove Springs Recreation Center",
+        "address": "5801 Ainez Dr",
+        "city": "Austin",
+        "zip": "78744",
+        "room": "Dance Studio",
+        "notes": ""
+      },
+      {
+        "name": "Josephine Houston Elementary School",
+        "address": "5409 Ponciana Dr",
+        "city": "Austin",
+        "zip": "78744",
+        "room": "Cafetorium",
+        "notes": ""
+      },
+      {
+        "name": "Ojeda Middle School",
+        "address": "4900 Mckinney Falls Pky",
+        "city": "Austin",
+        "zip": "78744",
+        "room": "Small Gym",
+        "notes": ""
+      },
+      {
+        "name": "Palm Elementary School",
+        "address": "7601 Dixie Dr",
+        "city": "Austin",
+        "zip": "78744",
+        "room": "Associate Classroom 131",
+        "notes": ""
+      },
+      {
+        "name": "Perez Elementary School",
+        "address": "7500 S Pleasant Valley Rd",
+        "city": "Austin",
+        "zip": "78744",
+        "room": "Gymnasium",
+        "notes": ""
+      },
+      {
+        "name": "The Union At Easton Park",
+        "address": "7604 Solari Dr",
+        "city": "Austin",
+        "zip": "78744",
+        "room": "The Vaughn",
+        "notes": ""
+      },
+      {
+        "name": "Woodway Village",
+        "address": "4600 Nuckols Crossing Rd",
+        "city": "Austin",
+        "zip": "78744",
+        "room": "Activity Room",
+        "notes": ""
+      },
+      {
+        "name": "Bedichek Middle School",
+        "address": "6800 Bill Hughes Rd",
+        "city": "Austin",
+        "zip": "78745",
+        "room": "Small Gymnasium",
+        "notes": ""
+      },
+      {
+        "name": "Berkeley United Methodist Church",
+        "address": "2407 Berkeley Ave",
+        "city": "Austin",
+        "zip": "78745",
+        "room": "Christian Life Center",
+        "notes": ""
+      },
+      {
+        "name": "Dittmar Recreation Center",
+        "address": "1009 W Dittmar Rd",
+        "city": "Austin",
+        "zip": "78745",
+        "room": "AB Room Main Building",
+        "notes": ""
+      },
+      {
+        "name": "Menchaca Road Branch Public Library",
+        "address": "5500 Menchaca Rd",
+        "city": "Austin",
+        "zip": "78745",
+        "room": "Meeting Room",
+        "notes": ""
+      },
+      {
+        "name": "Odom Elementary School",
+        "address": "1010 Turtle Creek Blvd",
+        "city": "Austin",
+        "zip": "78745",
+        "room": "Front Foyer",
+        "notes": ""
+      },
+      {
+        "name": "Pleasant Hill Branch Library",
+        "address": "211 E William Cannon Dr",
+        "city": "Austin",
+        "zip": "78745",
+        "room": "Meeting Room",
+        "notes": ""
+      },
+      {
+        "name": "St Elmo Elementary School",
+        "address": "600 W St Elmo Rd",
+        "city": "Austin",
+        "zip": "78745",
+        "room": "Lobby",
+        "notes": ""
+      },
+      {
+        "name": "Sunset Valley City Hall",
+        "address": "3205 Jones Rd",
+        "city": "Austin",
+        "zip": "78745",
+        "room": "Council Chambers",
+        "notes": ""
+      },
+      {
+        "name": "Lost Creek Limited District",
+        "address": "1305 Quaker Ridge Dr",
+        "city": "Austin",
+        "zip": "78746",
+        "room": "Board Room",
+        "notes": ""
+      },
+      {
+        "name": "Randalls Flagship West Lake Hills",
+        "address": "3300 Bee Caves Rd",
+        "city": "West Lake Hills",
+        "zip": "78746",
+        "room": "Café",
+        "notes": ""
+      },
+      {
+        "name": "Riverbend Centre",
+        "address": "4214 N Capital of Texas Hwy",
+        "city": "Austin",
+        "zip": "78746",
+        "room": "Quad3ABCD",
+        "notes": ""
+      },
+      {
+        "name": "Valley View Elementary",
+        "address": "1201 S Capital of Texas Hwy",
+        "city": "Austin",
+        "zip": "78746",
+        "room": "Library",
+        "notes": ""
+      },
+      {
+        "name": "Westlake United Methodist Church",
+        "address": "1460 Redbud Trl",
+        "city": "Austin",
+        "zip": "78746",
+        "room": "Gym",
+        "notes": ""
+      },
+      {
+        "name": "Blazier Intermediate",
+        "address": "8801 Vertex Blvd",
+        "city": "Austin",
+        "zip": "78747",
+        "room": "Community Room",
+        "notes": ""
+      },
+      {
+        "name": "St Albans Episcopal Church",
+        "address": "11819 IH 35 S",
+        "city": "Austin",
+        "zip": "78747",
+        "room": "Assembly Room",
+        "notes": ""
+      },
+      {
+        "name": "Akins High School",
+        "address": "10701 S 1st St",
+        "city": "Austin",
+        "zip": "78748",
+        "room": "Gym Foyer",
+        "notes": ""
+      },
+      {
+        "name": "Paredes Middle School",
+        "address": "10100 S Mary Moore Searight Dr",
+        "city": "Austin",
+        "zip": "78748",
+        "room": "Library",
+        "notes": ""
+      },
+      {
+        "name": "Randalls Brodie",
+        "address": "9911 Brodie Ln",
+        "city": "Austin",
+        "zip": "78748",
+        "room": "Café",
+        "notes": ""
+      },
+      {
+        "name": "Uprising Austin",
+        "address": "8601 S 1st St",
+        "city": "Austin",
+        "zip": "78748",
+        "room": "Worship Center",
+        "notes": ""
+      },
+      {
+        "name": "Villages of Shady Hollow Amenity Center",
+        "address": "12006 Gatling Gun Ln",
+        "city": "Austin",
+        "zip": "78748",
+        "room": "Amenity Center",
+        "notes": ""
+      },
+      {
+        "name": "Westoak Woods Baptist Church",
+        "address": "2900 W Slaughter Ln",
+        "city": "Austin",
+        "zip": "78748",
+        "room": "CMB Room 104",
+        "notes": ""
+      },
+      {
+        "name": "Austin Oaks Church",
+        "address": "4220 Monterey Oaks Blvd",
+        "city": "Austin",
+        "zip": "78749",
+        "room": "Family Life Foyer",
+        "notes": ""
+      },
+      {
+        "name": "Boone Elementary School",
+        "address": "8101 Croftwood Dr",
+        "city": "Austin",
+        "zip": "78749",
+        "room": "Cafetorium",
+        "notes": ""
+      },
+      {
+        "name": "Bowie High School",
+        "address": "4103 W Slaughter Ln",
+        "city": "Austin",
+        "zip": "78749",
+        "room": "VC Room",
+        "notes": ""
+      },
+      {
+        "name": "Gorzycki Middle School",
+        "address": "7412 W Slaughter Ln",
+        "city": "Austin",
+        "zip": "78749",
+        "room": "Portable C2",
+        "notes": ""
+      },
+      {
+        "name": "Mills Elementary School",
+        "address": "6201 Davis Ln",
+        "city": "Austin",
+        "zip": "78749",
+        "room": "Multi Purpose Room",
+        "notes": ""
+      },
+      {
+        "name": "Shepherd of the Hills Presbyterian Church",
+        "address": "5226 W William Cannon Dr",
+        "city": "Austin",
+        "zip": "78749",
+        "room": "Narthex",
+        "notes": ""
+      },
+      {
+        "name": "Will Hampton Branch Library",
+        "address": "5125 Convict Hill Rd",
+        "city": "Austin",
+        "zip": "78749",
+        "room": "Meeting Room",
+        "notes": ""
+      },
+      {
+        "name": "Balcones Bingo",
+        "address": "13096 US 183",
+        "city": "Austin",
+        "zip": "78750",
+        "room": "Main Hall",
+        "notes": ""
+      },
+      {
+        "name": "Central City Austin",
+        "address": "9023 Old Lampasas Trl",
+        "city": "Austin",
+        "zip": "78750",
+        "room": "Sanctuary",
+        "notes": ""
+      },
+      {
+        "name": "Lakewood HOA",
+        "address": "7317 Lakewood Dr",
+        "city": "Austin",
+        "zip": "78750",
+        "room": "Community Room",
+        "notes": ""
+      },
+      {
+        "name": "Baker Center",
+        "address": "3908 Avenue B",
+        "city": "Austin",
+        "zip": "78751",
+        "room": "Cafetorium",
+        "notes": ""
+      },
+      {
+        "name": "Travis County Clerk",
+        "address": "5501 Airport Blvd",
+        "city": "Austin",
+        "zip": "78751",
+        "room": "Early Voting Room",
+        "notes": ""
+      },
+      {
+        "name": "Winters Building",
+        "address": "701 W 51st St",
+        "city": "Austin",
+        "zip": "78751",
+        "room": "Main Lobby",
+        "notes": ""
+      },
+      {
+        "name": "Austin Permitting and Development Center",
+        "address": "6310 Wilhelmina Delco Dr",
+        "city": "Austin",
+        "zip": "78752",
+        "room": "Room 1407",
+        "notes": ""
+      },
+      {
+        "name": "TA Brown Elementary School",
+        "address": "7801 Guadalupe St",
+        "city": "Austin",
+        "zip": "78752",
+        "room": "Community Room",
+        "notes": ""
+      },
+      {
+        "name": "Virginia L Brown Recreation Center",
+        "address": "7500 Blessing Ave",
+        "city": "Austin",
+        "zip": "78752",
+        "room": "Meeting Room B",
+        "notes": ""
+      },
+      {
+        "name": "Chinatown Center",
+        "address": "10901 N Lamar Blvd",
+        "city": "Austin",
+        "zip": "78753",
+        "room": "Building B-1 former bank",
+        "notes": ""
+      },
+      {
+        "name": "Connally High School",
+        "address": "13212 N Lamar Blvd",
+        "city": "Austin",
+        "zip": "78753",
+        "room": "Large Gym Foyer",
+        "notes": ""
+      },
+      {
+        "name": "Gus Garcia Recreation Center",
+        "address": "1201 E Rundberg Ln",
+        "city": "Austin",
+        "zip": "78753",
+        "room": "Senior Room",
+        "notes": ""
+      },
+      {
+        "name": "North Austin Muslim Community Center",
+        "address": "11900 N Lamar Blvd",
+        "city": "Austin",
+        "zip": "78753",
+        "room": "Building 106",
+        "notes": ""
+      },
+      {
+        "name": "Our Savior Lutheran Church",
+        "address": "1513 E Yager Ln",
+        "city": "Austin",
+        "zip": "78753",
+        "room": "Narthex",
+        "notes": ""
+      },
+      {
+        "name": "Village at Collinwood",
+        "address": "1001 Collinwood West Dr",
+        "city": "Austin",
+        "zip": "78753",
+        "room": "Clubhouse",
+        "notes": ""
+      },
+      {
+        "name": "Austin Fire Station No 41",
+        "address": "11205 Harris Branch Pkwy",
+        "city": "Austin",
+        "zip": "78754",
+        "room": "Bay",
+        "notes": ""
+      },
+      {
+        "name": "Trinity Baptist Church",
+        "address": "2305 Forbes Dr",
+        "city": "Austin",
+        "zip": "78754",
+        "room": "Fellowship Hall",
+        "notes": ""
+      },
+      {
+        "name": "Congregation Beth Israel",
+        "address": "3901 Shoal Creek Blvd",
+        "city": "Austin",
+        "zip": "78756",
+        "room": "Smith Auditorium",
+        "notes": ""
+      },
+      {
+        "name": "McCallum High School",
+        "address": "5600 Sunshine Dr",
+        "city": "Austin",
+        "zip": "78756",
+        "room": "Performing Arts Center Foyer",
+        "notes": ""
+      },
+      {
+        "name": "St Johns United Methodist Church",
+        "address": "2140 Allandale Rd",
+        "city": "Austin",
+        "zip": "78756",
+        "room": "Fellowship Hall",
+        "notes": ""
+      },
+      {
+        "name": "Yarborough Branch Library",
+        "address": "2200 Hancock Dr",
+        "city": "Austin",
+        "zip": "78756",
+        "room": "Meeting Room",
+        "notes": ""
+      },
+      {
+        "name": "Ben Hur Shrine Center",
+        "address": "7811 Rockwood Ln",
+        "city": "Austin",
+        "zip": "78757",
+        "room": "Ballroom",
+        "notes": ""
+      },
+      {
+        "name": "Grace + Peace Austin",
+        "address": "6301 Woodrow Ave",
+        "city": "Austin",
+        "zip": "78757",
+        "room": "Gym",
+        "notes": ""
+      },
+      {
+        "name": "John Gillum Branch Library",
+        "address": "2505 Steck Ave",
+        "city": "Austin",
+        "zip": "78757",
+        "room": "Meeting Room",
+        "notes": ""
+      },
+      {
+        "name": "Northwest Recreation Center",
+        "address": "2913 Northland Dr",
+        "city": "Austin",
+        "zip": "78757",
+        "room": "Classroom 2",
+        "notes": ""
+      },
+      {
+        "name": "Rosedale School",
+        "address": "7505 Silvercrest Dr",
+        "city": "Austin",
+        "zip": "78757",
+        "room": "Community Room",
+        "notes": ""
+      },
+      {
+        "name": "Wooten Elementary School",
+        "address": "1405 Wooten Dr",
+        "city": "Austin",
+        "zip": "78757",
+        "room": "Community Room",
+        "notes": ""
+      },
+      {
+        "name": "Cook Elementary School",
+        "address": "1511 Cripple Creek Dr",
+        "city": "Austin",
+        "zip": "78758",
+        "room": "Cafetorium",
+        "notes": ""
+      },
+      {
+        "name": "Disability Rights Texas",
+        "address": "2222 W Braker Ln",
+        "city": "Austin",
+        "zip": "78758",
+        "room": "Board Rooms",
+        "notes": ""
+      },
+      {
+        "name": "Grant Worship Center",
+        "address": "1701 Kramer Ln",
+        "city": "Austin",
+        "zip": "78758",
+        "room": "Leon Thomas Annex",
+        "notes": ""
+      },
+      {
+        "name": "Jaime Padron Elementary School",
+        "address": "2011 W Rundberg Ln",
+        "city": "Austin",
+        "zip": "78758",
+        "room": "Music Room",
+        "notes": ""
+      },
+      {
+        "name": "Juan P Navarro Early College High School",
+        "address": "1201 Payton Gin Rd",
+        "city": "Austin",
+        "zip": "78758",
+        "room": "Main Hallway",
+        "notes": ""
+      },
+      {
+        "name": "YMCA North Austin",
+        "address": "1000 W Rundberg Ln",
+        "city": "Austin",
+        "zip": "78758",
+        "room": "Community Room",
+        "notes": ""
+      },
+      {
+        "name": "Anderson High School",
+        "address": "8403 Mesa Dr",
+        "city": "Austin",
+        "zip": "78759",
+        "room": "Library",
+        "notes": ""
+      },
+      {
+        "name": "Atria at The Arboretum",
+        "address": "9306 Great Hills Trl",
+        "city": "Austin",
+        "zip": "78759",
+        "room": "Meeting Room",
+        "notes": ""
+      },
+      {
+        "name": "Former Verizon",
+        "address": "9705 Research Blvd",
+        "city": "Austin",
+        "zip": "78759",
+        "room": "Suite 9705D",
+        "notes": ""
+      },
+      {
+        "name": "Junior League of Austin",
+        "address": "5330 Bluffstone Ln",
+        "city": "Austin",
+        "zip": "78759",
+        "room": "Community Room",
+        "notes": ""
+      },
+      {
+        "name": "Sage Park Austin",
+        "address": "4401 Spicewood Springs Rd",
+        "city": "Austin",
+        "zip": "78759",
+        "room": "Common Room",
+        "notes": ""
+      },
+      {
+        "name": "Shops at Arbor Walk",
+        "address": "10515 N Mopac Expy",
+        "city": "Austin",
+        "zip": "78759",
+        "room": "Suite L",
+        "notes": ""
+      },
+      {
+        "name": "St Matthews Episcopal Church",
+        "address": "4121 Steck Ave",
+        "city": "Austin",
+        "zip": "78759",
+        "room": "Lobby of Sanctuary",
+        "notes": ""
+      }
+    ]
+  },
+  "notes": "Travis County voters may vote at any polling site in the county during early voting and on Election Day. Early voting runs 7 a.m. to 7 p.m. every day including weekends, and seven sites stay open until 10 p.m. on October 29 and 30; the TCC Complex opens for early voting only on October 30."
+}
