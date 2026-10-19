@@ -29,7 +29,7 @@ before(async () => {
   const db = await getDb();
   if (db.dialect === 'postgres') {
     await db.exec(
-      'TRUNCATE users, quiz_results, access_tokens, rate_limits, password_resets, ballot_plans, user_identities, partner_links, partner_events RESTART IDENTITY CASCADE'
+      'TRUNCATE users, quiz_results, access_tokens, rate_limits, password_resets, ballot_plans, user_identities, partner_links, partner_events, site_events RESTART IDENTITY CASCADE'
     );
   }
   server = createApp().listen(0);
@@ -321,6 +321,39 @@ test('partner links: request, approval, visits, attribution, and totals with a p
   );
   const bossId = (await call('GET', '/api/admin/users?q=boss', { token: boss.json.token })).json.users[0].id;
   assert.equal((await call('PUT', `/api/admin/users/${bossId}/admin`, { token: pt, body: { admin: false } })).status, 400);
+  await db.run('DELETE FROM rate_limits');
+});
+
+test('site analytics: anonymous page views and the admin overview', async () => {
+  const db = await getDb();
+  await db.run('DELETE FROM rate_limits');
+  const ua = { 'user-agent': 'Mozilla/5.0 (iPhone) Safari' };
+  const track = (body, headers = ua) => call('POST', '/api/track', { body, headers });
+  assert.equal((await track({ kind: 'pageview', path: '/results/AbCdEfGhIjKl?x=1', source: 'https://t.co/abc' })).status, 204);
+  await track({ kind: 'pageview', path: '/candidates' });
+  await track({ kind: 'quiz_start', path: '/quiz' });
+  await track({ kind: 'pageview', path: '/' }, { 'user-agent': 'Googlebot/2.1' });
+  await track({ kind: 'nonsense', path: '/' });
+  const rows = await db.all('SELECT kind, path, source, device FROM site_events ORDER BY id');
+  assert.equal(rows.length, 3, 'bots and unknown kinds are not stored');
+  assert.equal(rows[0].path, '/results/:id', 'result links are not stored');
+  assert.equal(rows[0].source, 'X');
+  assert.equal(rows[0].device, 'Phone');
+
+  const boss = await call('POST', '/api/sign-in', { body: { email: 'boss@example.com', password: 'correct horse battery' } });
+  const plain = await signUp('viewer@example.com');
+  assert.equal((await call('GET', '/api/admin/overview', { token: plain.json.token })).status, 403);
+  const o = await call('GET', '/api/admin/overview?group=week', { token: boss.json.token });
+  assert.equal(o.status, 200);
+  assert.equal(o.json.kpis.page_views, 2);
+  assert.equal(o.json.kpis.visitors, 1);
+  assert.equal(o.json.kpis.quiz_starts, 1);
+  assert.ok(o.json.kpis.sign_ups > 0 && o.json.kpis.quizzes_taken > 0);
+  assert.equal(o.json.range.group, 'week');
+  assert.ok(o.json.series.length > 0 && o.json.funnel.length === 4);
+  assert.ok(o.json.traffic.pages.some((p) => p.name === '/candidates'));
+  const csv = await fetch(`${base}/api/admin/overview.csv`, { headers: { Authorization: `Bearer ${boss.json.token}` } });
+  assert.match(await csv.text(), /^day,visitors,page_views/);
   await db.run('DELETE FROM rate_limits');
 });
 

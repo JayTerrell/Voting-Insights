@@ -6,8 +6,10 @@ import { $, $$, esc, setTitle, toast, formatDate, skeleton, openModal, closeModa
 import { api, session } from '../api.js';
 import { navigate } from '../app.js';
 import { statsHtml, rangeBar, bindRange } from './partner-stats.js';
+import { renderOverview } from './admin-overview.js';
 
 const TABS = [
+  ['overview', 'Overview'],
   ['requests', 'Requests'],
   ['links', 'Partner links'],
   ['admins', 'Admins'],
@@ -20,7 +22,7 @@ export async function renderAdmin(view, _params, current) {
     view.innerHTML = '<h1>Admins only</h1><p>This page is for VotersHub admins. <a href="/">Return to the home page</a>.</p>';
     return;
   }
-  let tab = new URLSearchParams(location.search).get('tab') || 'requests';
+  let tab = new URLSearchParams(location.search).get('tab') || 'overview';
   let range = { from: '', to: '' };
 
   view.innerHTML = `<div class="admin-page">
@@ -36,7 +38,8 @@ export async function renderAdmin(view, _params, current) {
     history.replaceState({}, '', `/admin?tab=${tab}`);
     body.innerHTML = skeleton('list');
     try {
-      if (tab === 'requests') await drawRequests();
+      if (tab === 'overview') renderOverview(body, current);
+      else if (tab === 'requests') await drawRequests();
       else if (tab === 'links') await drawLinks();
       else await drawAdmins();
     } catch (e) {

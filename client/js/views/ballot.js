@@ -27,7 +27,7 @@ import {
   accountGate,
   candidatePhoto,
 } from '../ui.js';
-import { loadGuide, loadFormOptions, ballotCounty, plan, session, resultCache } from '../api.js';
+import { loadGuide, loadFormOptions, ballotCounty, plan, session, resultCache, track } from '../api.js';
 import { racesForCounty } from '../shared/scoring.js';
 import { renderRace } from './guide.js';
 import { openIssuesPicker } from './issues-picker.js';
@@ -379,5 +379,8 @@ export async function renderBallotPrint(view, _params, current) {
       }
       <p class="small print-foot">Personal notes for use while voting. This list was made by the voter and is not an endorsement by VotersHub. Your actual ballot depends on your address, so some districts listed here may not appear on yours. Phones and other wireless devices may not be used within 100 feet of voting stations in Texas. Early voting runs October 19 to October 30. Election Day is Tuesday, November 3, 7 a.m. to 7 p.m.</p>
     </div>`;
-  $('#do-print', view).addEventListener('click', () => window.print());
+  $('#do-print', view).addEventListener('click', () => {
+    track('print_ballot');
+    window.print();
+  });
 }

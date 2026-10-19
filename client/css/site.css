@@ -4855,3 +4855,230 @@ textarea {
   box-shadow: none;
   background: transparent;
 }
+
+/* =====================================================================
+   Admin overview
+   ===================================================================== */
+.chip-btn {
+  padding: 6px 12px;
+  font: inherit;
+  font-size: 0.86rem;
+  font-weight: 600;
+  color: var(--navy);
+  background: var(--card);
+  border: 1px solid var(--rule);
+  cursor: pointer;
+}
+.chip-btn:hover {
+  border-color: var(--navy);
+}
+.chip-btn[aria-pressed='true'] {
+  background: var(--navy);
+  border-color: var(--navy);
+  color: var(--card);
+}
+.ov-controls {
+  display: grid;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+.ov-presets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.ov-custom {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 10px 14px;
+}
+.ov-custom label {
+  display: grid;
+  gap: 4px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+.ov-range {
+  margin: 4px 0 14px;
+}
+.ov-kpis {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  margin-bottom: 18px;
+}
+.ov-kpi {
+  display: grid;
+  gap: 2px;
+  padding: 12px 14px;
+  background: var(--card);
+  border: 1px solid var(--rule);
+}
+.ov-kpi .label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--red);
+}
+.ov-kpi b {
+  font-family: var(--serif);
+  font-size: 1.9rem;
+  font-weight: 400;
+  color: var(--navy);
+  line-height: 1.15;
+}
+.ov-delta {
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+.ov-delta.up {
+  color: var(--grn);
+  font-weight: 600;
+}
+.ov-delta.down {
+  color: var(--red);
+  font-weight: 600;
+}
+.ov-sub {
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+.ov-card {
+  background: var(--card);
+  border: 1px solid var(--rule);
+  padding: 14px 16px;
+  margin-bottom: 16px;
+  min-width: 0;
+}
+.ov-card h3 {
+  margin: 0 0 10px;
+  font-size: 1.02rem;
+}
+.ov-trend-head {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+.ov-trend-head h3 {
+  margin: 0;
+}
+.ov-metrics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.ov-chart {
+  position: relative;
+  padding-left: 0;
+}
+.ov-ymax {
+  font-size: 0.72rem;
+  color: var(--muted);
+  margin-bottom: 4px;
+}
+.ov-bars {
+  display: flex;
+  align-items: flex-end;
+  gap: 3px;
+  height: 220px;
+  padding-bottom: 26px;
+  border-bottom: 1px solid var(--rule);
+  overflow-x: auto;
+}
+.ov-col {
+  position: relative;
+  flex: 1 0 14px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.ov-bar {
+  display: block;
+  width: 100%;
+  min-height: 1px;
+  background: var(--navy);
+  transition: background-color var(--dur-short) var(--ease-in-out);
+}
+.ov-col:hover .ov-bar {
+  background: var(--red);
+}
+.ov-val {
+  font-size: 0.64rem;
+  color: var(--muted);
+  margin-bottom: 2px;
+  white-space: nowrap;
+}
+.ov-col em {
+  position: absolute;
+  bottom: -22px;
+  font-size: 0.64rem;
+  font-style: normal;
+  color: var(--muted);
+  white-space: nowrap;
+}
+.ov-funnel {
+  display: grid;
+  gap: 10px;
+}
+.ov-step-label {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 0.9rem;
+  margin-bottom: 4px;
+}
+.ov-step-label span {
+  color: var(--muted);
+}
+.ov-step-bar {
+  height: 14px;
+  background: var(--paper);
+  border: 1px solid var(--rule-soft);
+}
+.ov-step-bar span {
+  display: block;
+  height: 100%;
+  background: var(--navy);
+}
+.ov-h {
+  margin: 26px 0 10px;
+  font-size: 1.25rem;
+}
+.ov-grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+.ov-grid .ov-card {
+  margin-bottom: 0;
+}
+.ov-table td,
+.ov-table th {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+.ov-table {
+  width: 100%;
+  table-layout: fixed;
+}
+.ov-table th:first-child,
+.ov-table td:first-child {
+  width: auto;
+  overflow-wrap: anywhere;
+}
+.ov-table th.num,
+.ov-table td.num {
+  width: 76px;
+  padding-left: 6px;
+  padding-right: 8px;
+}
+.ov-foot {
+  margin-top: 20px;
+}

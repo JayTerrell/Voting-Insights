@@ -12,6 +12,7 @@ const TABLES = [
   'user_identities',
   'partner_links',
   'partner_events',
+  'site_events',
 ];
 
 export function schema(dialect) {
@@ -99,6 +100,19 @@ export function schema(dialect) {
       created_at TEXT NOT NULL
     )`,
     'CREATE INDEX IF NOT EXISTS idx_partner_events_link ON partner_events(link_id, day)',
+    // Anonymous site activity for the admin overview: page views and a few actions.
+    // visitor is a hash that changes daily (see services/analytics.js); no cookies.
+    `CREATE TABLE IF NOT EXISTS site_events (
+      id         ${id},
+      kind       TEXT NOT NULL,
+      day        TEXT NOT NULL,
+      path       TEXT,
+      source     TEXT,
+      device     TEXT,
+      visitor    TEXT NOT NULL,
+      created_at TEXT NOT NULL
+    )`,
+    'CREATE INDEX IF NOT EXISTS idx_site_events_day ON site_events(day, kind)',
     `CREATE TABLE IF NOT EXISTS rate_limits (
       bucket   TEXT PRIMARY KEY,
       hits     INTEGER NOT NULL,

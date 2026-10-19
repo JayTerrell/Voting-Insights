@@ -1,5 +1,6 @@
 import { Router } from 'express';
 import * as partners from '../services/partners.js';
+import { track } from '../services/analytics.js';
 import * as links from '../db/repositories/partners.js';
 import { requireUser, isAdmin } from '../middleware/auth.js';
 import { rateLimit } from '../middleware/rate-limit.js';
@@ -48,4 +49,10 @@ partnerRoutes.post('/partner/event', rateLimit('partner-event', 60, MINUTES_15),
 // Who referred the person filling in the sign-up form, for the note shown there.
 partnerRoutes.get('/partner/referrer', rateLimit('partner-referrer', 60, MINUTES_15), async (req, res) => {
   res.json({ partner: await partners.signUpNote(String(req.query.slug || '').slice(0, 40)) });
+});
+
+// Anonymous page views and actions for the admin overview (no cookies; see services/analytics.js).
+partnerRoutes.post('/track', rateLimit('track', 600, MINUTES_15), async (req, res) => {
+  await track(req.body || {}, req.ip, req.get('user-agent') || '');
+  res.status(204).end();
 });

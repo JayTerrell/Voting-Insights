@@ -15,7 +15,7 @@ import {
 } from './views/account.js';
 import { renderBallot, renderBallotPrint } from './views/ballot.js';
 import { renderVote } from './views/vote.js';
-import { session, plan, api, partnerRef } from './api.js';
+import { session, plan, api, partnerRef, track, markPartnerArrival } from './api.js';
 import { initMotion, routeProgress, afterRender } from './motion.js';
 import { renderScoring } from './views/scoring.js';
 import { renderMethodology, renderTerms, renderPrivacy, renderRegistered } from './views/pages.js';
@@ -88,6 +88,7 @@ async function route() {
   if (token === renderToken) {
     afterRender(view);
     routeProgress.done();
+    track('pageview');
   }
 }
 
@@ -230,6 +231,7 @@ document.addEventListener('click', (e) => {
   const qs = new URLSearchParams(location.search);
   if (qs.has('ref')) {
     partnerRef.capture(qs.get('ref'));
+    markPartnerArrival();
     qs.delete('ref');
     history.replaceState({}, '', `${location.pathname}${qs.size ? `?${qs}` : ''}${location.hash}`);
   }

@@ -1,5 +1,5 @@
 import { $, $$, esc, setTitle, skeleton, countyLabel } from '../ui.js';
-import { api, loadGuide, loadFormOptions, session, progress, resultCache, ballotCounty } from '../api.js';
+import { api, loadGuide, loadFormOptions, session, progress, resultCache, ballotCounty, track } from '../api.js';
 import { signUpForm, bindSignUp, signInForm, bindSignIn } from './account.js';
 import { SCALE, IMPORTANCE } from '../shared/scoring.js';
 import { navigate } from '../app.js';
@@ -63,7 +63,10 @@ function renderStart(view, guide) {
       <span class="small muted">${guide.questions.length} questions, about 6 minutes</span></div>
     </div>
   </div>`;
-  $('#begin', view).addEventListener('click', () => start(view, guide));
+  $('#begin', view).addEventListener('click', () => {
+    track('quiz_start');
+    start(view, guide);
+  });
 }
 
 function start(view, guide) {

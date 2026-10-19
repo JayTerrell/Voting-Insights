@@ -163,6 +163,7 @@ export const api = {
     partners: (status) => call('GET', `/api/admin/partners${status ? `?status=${status}` : ''}`),
     decide: (id, approve, note) => call('POST', `/api/admin/partners/${id}/${approve ? 'approve' : 'reject'}`, { note }),
     summary: (q) => call('GET', `/api/admin/partners/summary?${new URLSearchParams(q)}`),
+    overview: (q) => call('GET', `/api/admin/overview?${new URLSearchParams(q)}`),
     users: (q) => call('GET', `/api/admin/users?q=${encodeURIComponent(q || '')}`),
     setAdmin: (id, admin) => call('PUT', `/api/admin/users/${id}/admin`, { admin }),
   },
@@ -288,6 +289,7 @@ export const partnerRef = {
   },
   // Anonymous activity credited to the link: sharing results, looking up where to vote.
   event(kind) {
+    track(kind);
     const slug = this.get();
     if (slug)
       fetch('/api/partner/event', {
@@ -298,3 +300,40 @@ export const partnerRef = {
       }).catch(() => {});
   },
 };
+
+// ---------- Anonymous site analytics ----------
+// Page views and a few actions for the admin overview. No cookies; the server
+// keeps only a daily, one-way visitor code. Failures are ignored.
+
+let arrivedVia = null; // 'partner' when this visit came through a partner link
+export const markPartnerArrival = () => (arrivedVia = 'partner');
+
+function firstViewSource() {
+  try {
+    if (sessionStorage.getItem('vi_seen')) return undefined;
+    sessionStorage.setItem('vi_seen', '1');
+  } catch {
+    return undefined;
+  }
+  if (arrivedVia) return arrivedVia;
+  try {
+    const host = document.referrer ? new URL(document.referrer).hostname : '';
+    return host && host !== location.hostname ? host : 'direct';
+  } catch {
+    return 'direct';
+  }
+}
+
+export function track(kind, path = location.pathname) {
+  const body = { kind, path };
+  if (kind === 'pageview') {
+    const source = firstViewSource();
+    if (source !== undefined) body.source = source;
+  }
+  fetch('/api/track', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(body),
+    keepalive: true,
+  }).catch(() => {});
+}

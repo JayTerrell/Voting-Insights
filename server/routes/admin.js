@@ -5,6 +5,7 @@ import { requireAdmin, isAdmin } from '../middleware/auth.js';
 import { rateLimit } from '../middleware/rate-limit.js';
 import { toCsv } from '../lib/csv.js';
 import * as partners from '../services/partners.js';
+import * as analytics from '../services/analytics.js';
 import { config } from '../config.js';
 
 export const adminRoutes = Router();
@@ -104,4 +105,19 @@ adminRoutes.put('/users/:id/admin', async (req, res) => {
     return res.status(400).json({ error: 'You cannot remove your own admin access.' });
   }
   res.json({ user: adminView(await users.setAdmin(target.id, req.body.admin)) });
+});
+
+// ---------- Site overview ----------
+
+adminRoutes.get('/overview', async (req, res) => {
+  const range = rangeOf(req);
+  res.json(await analytics.overview({ ...range, group: req.query.group }));
+});
+
+adminRoutes.get('/overview.csv', async (req, res) => {
+  const o = await analytics.overview({ ...rangeOf(req), group: req.query.group });
+  res
+    .type('text/csv')
+    .attachment(`votershub-overview-${o.range.from}-to-${o.range.to}.csv`)
+    .send(toCsv(o.series.map(({ bucket, ...rest }) => ({ [o.range.group]: bucket, ...rest }))));
 });
