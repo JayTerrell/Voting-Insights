@@ -115,7 +115,7 @@ function downloadCsv(rows) {
   const blob = new Blob([[header.join(','), ...lines].join('\n')], { type: 'text/csv' });
   const a = document.createElement('a');
   a.href = URL.createObjectURL(blob);
-  a.download = 'voting-insights-score-sheet.csv';
+  a.download = 'votershub-score-sheet.csv';
   document.body.appendChild(a);
   a.click();
   setTimeout(() => {

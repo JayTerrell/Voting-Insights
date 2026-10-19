@@ -36,7 +36,7 @@ function check(url) {
         '--max-time',
         '25',
         '-A',
-        'Mozilla/5.0 (compatible; VotingInsightsLinkCheck/1.0)',
+        'Mozilla/5.0 (compatible; VotersHubLinkCheck/1.0)',
         '-w',
         '%{http_code}',
         url,

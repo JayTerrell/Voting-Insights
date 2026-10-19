@@ -32,12 +32,12 @@ function shell(title, inner) {
 <tr><td style="height:4px;background:#FFFDF8;font-size:0">&nbsp;</td></tr>
 <tr><td style="height:4px;background:${RED};font-size:0">&nbsp;</td></tr>
 <tr><td style="padding:24px 28px 8px 28px;font-family:${SERIF}">
-  <div style="font-family:${SANS};font-size:11px;letter-spacing:2px;text-transform:uppercase;color:${MUTED}">Voting Insights &middot; Texas General Election 2026</div>
+  <div style="font-family:${SANS};font-size:11px;letter-spacing:2px;text-transform:uppercase;color:${MUTED}">VotersHub &middot; Texas General Election 2026</div>
   <h1 style="margin:8px 0 0 0;font-size:24px;font-weight:normal;color:${NAVY}">${esc(title)}</h1>
 </td></tr>
 ${inner}
 <tr><td style="padding:20px 28px 28px 28px;border-top:1px solid ${RULE};font-family:${SANS};font-size:12px;color:${MUTED};line-height:1.6">
-  Voting Insights is an independent, nonpartisan guide. Match percentages compare your answers with documented public positions and do not endorse any candidate or party.
+  VotersHub is an independent, nonpartisan guide. Match percentages compare your answers with documented public positions and do not endorse any candidate or party.
   General Election Day is Tuesday, November 3, 2026. Early voting runs October 19 through October 30.
 </td></tr>
 </table></td></tr></table></body></html>`;
@@ -116,19 +116,19 @@ export function passwordResetEmail({ firstName, resetUrl }) {
   const html = shell(
     'Reset your password',
     `<tr><td style="padding:8px 28px 16px 28px;font-family:${SANS};font-size:14px;line-height:1.6">
-      <p style="margin:0 0 12px 0">${esc(firstName)}, we received a request to set a new password for your Voting Insights account.</p>
+      <p style="margin:0 0 12px 0">${esc(firstName)}, we received a request to set a new password for your VotersHub account.</p>
       <p style="margin:0 0 16px 0"><a href="${esc(resetUrl)}" style="display:inline-block;background:${NAVY};color:#FFFDF8;padding:10px 18px;text-decoration:none;font-weight:bold">Choose a new password</a></p>
       <p style="margin:0 0 12px 0">This link works once and expires in one hour. If you did not ask to reset your password, you can ignore this email and your password will not change.</p>
     </td></tr>`
   );
   const text = [
-    `${firstName}, we received a request to set a new password for your Voting Insights account.`,
+    `${firstName}, we received a request to set a new password for your VotersHub account.`,
     '',
     `Choose a new password: ${resetUrl}`,
     '',
     'This link works once and expires in one hour. If you did not ask for this, ignore this email.',
   ].join('\n');
-  return { subject: 'Reset your Voting Insights password', html, text };
+  return { subject: 'Reset your VotersHub password', html, text };
 }
 
 const METHOD_LABEL = { password: 'your email address and password', google: 'your Google account', apple: 'your Apple account' };
@@ -136,7 +136,7 @@ const METHOD_LABEL = { password: 'your email address and password', google: 'you
 export function welcomeEmail({ firstName, method, siteUrl, resetUrl }) {
   const how = METHOD_LABEL[method] || METHOD_LABEL.password;
   const html = shell(
-    'Welcome to Voting Insights',
+    'Welcome to VotersHub',
     `<tr><td style="padding:8px 28px 16px 28px;font-family:${SANS};font-size:14px;line-height:1.6">
       <p style="margin:0 0 12px 0">${esc(firstName)}, your account is ready. You signed up with ${esc(how)}.</p>
       <p style="margin:0 0 8px 0">With your account you can:</p>
@@ -151,12 +151,12 @@ export function welcomeEmail({ firstName, method, siteUrl, resetUrl }) {
     </td></tr>`
   );
   const text = [
-    `${firstName}, your Voting Insights account is ready. You signed up with ${how}.`,
+    `${firstName}, your VotersHub account is ready. You signed up with ${how}.`,
     '',
     `Take the quiz: ${siteUrl}/quiz`,
     `Open My Ballot: ${siteUrl}/my-ballot`,
     '',
     `We will never email you a password. If you did not create this account, reset the password at ${resetUrl}.`,
   ].join('\n');
-  return { subject: 'Welcome to Voting Insights', html, text };
+  return { subject: 'Welcome to VotersHub', html, text };
 }

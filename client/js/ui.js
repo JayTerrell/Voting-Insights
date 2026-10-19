@@ -46,7 +46,7 @@ export function toast(msg) {
 }
 
 export function setTitle(t) {
-  document.title = t ? `${t} | Voting Insights` : 'Voting Insights: 2026 Texas Candidate Guide and Issue Quiz';
+  document.title = t ? `${t} | VotersHub` : 'VotersHub: 2026 Texas Candidate Guide and Issue Quiz';
 }
 
 export function sourceLabel(src) {

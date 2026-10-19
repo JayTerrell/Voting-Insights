@@ -96,4 +96,6 @@ export const COMMON_PASSWORDS = new Set([
   'mypassword',
   'yourpassword',
   'votinginsights',
+  'votershub',
+  'votershub1',
 ]);

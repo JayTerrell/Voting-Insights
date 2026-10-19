@@ -62,7 +62,7 @@ def ssl_context():
 
 
 def download(url):
-    req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (compatible; VotingInsightsPhotoCheck/1.0)', 'Accept': 'image/*'})
+    req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (compatible; VotersHubPhotoCheck/1.0)', 'Accept': 'image/*'})
     with urllib.request.urlopen(req, timeout=20, context=ssl_context()) as res:
         ctype = res.headers.get('Content-Type', '')
         if not ctype.startswith('image/'):

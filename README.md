@@ -1,4 +1,4 @@
-# Voting Insights: Texas 2026
+# VotersHub: Texas 2026
 
 A nonpartisan candidate guide and issue alignment quiz for the November 3, 2026 Texas general election. Ballot rosters come from Texas Secretary of State Ballot Certification Reports. Collin County is fully loaded. Other counties can be added from their own reports (see [docs/ADDING_A_COUNTY.md](docs/ADDING_A_COUNTY.md)), and voters in counties not yet loaded see the statewide races.
 
@@ -53,7 +53,7 @@ npm test                  # scoring, import, and API security tests
 npm run lint
 ```
 
-Locally, data is stored in a SQLite file (`storage/voting-insights.db`) using Node's built-in `node:sqlite`, so there are no native modules to compile. Without SMTP settings, emails are saved to `./outbox/` as HTML files.
+Locally, data is stored in a SQLite file (`storage/votershub.db`) using Node's built-in `node:sqlite`, so there are no native modules to compile. Without SMTP settings, emails are saved to `./outbox/` as HTML files.
 
 ## Deploying to Vercel
 
@@ -71,7 +71,7 @@ A click-by-click guide for Supabase, Resend, and Vercel is in [docs/DEPLOYING.md
    | `PUBLIC_URL`                                       | Yes          | Your site URL, for example `https://vote.example.org`, used in share links and emails |
    | `SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASS` | Yes          | Outgoing email                                                                        |
    | `SMTP_SECURE`                                      | No           | `true` for port 465                                                                   |
-   | `MAIL_FROM`                                        | Yes          | For example `Voting Insights <results@vote.example.org>`                              |
+   | `MAIL_FROM`                                        | Yes          | For example `VotersHub <results@vote.example.org>`                                    |
    | `ADMIN_TOKEN`                                      | Yes          | At least 24 random characters. Unlocks the CSV exports.                               |
    | `CONTACT_EMAIL`                                    | Yes          | Corrections and privacy contact shown in the Terms and Privacy Policy                 |
    | `AUTH_SECRET`, `GOOGLE_*`, `APPLE_*`               | No           | Sign in with Google and Apple (see docs/DEPLOYING.md, Part 4)                         |

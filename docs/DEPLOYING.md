@@ -71,14 +71,14 @@ Resend sends the results emails over SMTP.
 2. **Create an API key.** Open **API Keys**, select **Create API Key**, give it **Sending access**, and limit it to your verified domain. Copy the key when it is shown. Resend shows it only once.
 3. **SMTP settings for this app:**
 
-   | Variable      | Value                                                |
-   | ------------- | ---------------------------------------------------- |
-   | `SMTP_HOST`   | `smtp.resend.com`                                    |
-   | `SMTP_PORT`   | `465`                                                |
-   | `SMTP_SECURE` | `true`                                               |
-   | `SMTP_USER`   | `resend`                                             |
-   | `SMTP_PASS`   | your Resend API key                                  |
-   | `MAIL_FROM`   | `Voting Insights <results@your-verified-domain.com>` |
+   | Variable      | Value                                          |
+   | ------------- | ---------------------------------------------- |
+   | `SMTP_HOST`   | `smtp.resend.com`                              |
+   | `SMTP_PORT`   | `465`                                          |
+   | `SMTP_SECURE` | `true`                                         |
+   | `SMTP_USER`   | `resend`                                       |
+   | `SMTP_PASS`   | your Resend API key                            |
+   | `MAIL_FROM`   | `VotersHub <results@your-verified-domain.com>` |
 
    The address in `MAIL_FROM` must be on the domain you verified.
 
@@ -115,7 +115,7 @@ Add `AUTH_SECRET` in Vercel: a random string of at least 32 characters. Generate
 
 ### Google (free)
 
-1. Go to [console.cloud.google.com](https://console.cloud.google.com), create a project (for example "Voting Insights"), and open **APIs and Services**.
+1. Go to [console.cloud.google.com](https://console.cloud.google.com), create a project (for example "VotersHub"), and open **APIs and Services**.
 2. **OAuth consent screen:** choose **External**, enter the app name, your support email, and your site's home page, privacy policy (`https://your-site/privacy`), and terms (`https://your-site/terms`) links. Add the scopes `openid`, `email`, and `profile`. Publish the app (move it from Testing to In production) so anyone can sign in.
 3. **Credentials, Create credentials, OAuth client ID:** application type **Web application**.
    - Authorized JavaScript origins: `https://your-site`
@@ -125,8 +125,8 @@ Add `AUTH_SECRET` in Vercel: a random string of at least 32 characters. Generate
 ### Apple (requires the Apple Developer Program, $99 per year)
 
 1. At [developer.apple.com](https://developer.apple.com/account), open **Certificates, Identifiers and Profiles**.
-2. **Identifiers, App IDs:** create an App ID (for example `org.yourdomain.votinginsights`) with **Sign in with Apple** enabled.
-3. **Identifiers, Services IDs:** create a Services ID (for example `org.yourdomain.votinginsights.web`). Enable **Sign in with Apple**, select **Configure**, choose the App ID from step 2, and add:
+2. **Identifiers, App IDs:** create an App ID (for example `org.yourdomain.votershub`) with **Sign in with Apple** enabled.
+3. **Identifiers, Services IDs:** create a Services ID (for example `org.yourdomain.votershub.web`). Enable **Sign in with Apple**, select **Configure**, choose the App ID from step 2, and add:
    - Domains: `your-site` (no https://)
    - Return URLs: `https://your-site/api/auth/apple/callback`
 4. **Keys:** create a key with **Sign in with Apple** enabled and linked to the App ID. Download the `.p8` file (Apple lets you download it once) and note the **Key ID**.

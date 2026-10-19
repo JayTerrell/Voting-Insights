@@ -20,7 +20,7 @@ export const config = {
   isProduction: env.NODE_ENV === 'production' || Boolean(env.VERCEL),
   databaseUrl: clean(env.DATABASE_URL || env.POSTGRES_URL),
   databaseCaCert: env.DATABASE_CA_CERT || '',
-  sqlitePath: env.DATABASE_PATH || 'storage/voting-insights.db',
+  sqlitePath: env.DATABASE_PATH || 'storage/votershub.db',
   adminToken: env.ADMIN_TOKEN || '',
   contactEmail: env.CONTACT_EMAIL || null,
   trustProxy: env.TRUST_PROXY ?? (env.VERCEL ? true : 1),
@@ -42,7 +42,7 @@ export const config = {
     user: env.SMTP_USER || '',
     pass: env.SMTP_PASS || '',
     secure: env.SMTP_SECURE ? env.SMTP_SECURE === 'true' : Number(env.SMTP_PORT) === 465,
-    from: env.MAIL_FROM || 'Voting Insights <no-reply@localhost>',
+    from: env.MAIL_FROM || 'VotersHub <no-reply@localhost>',
   },
 };
 

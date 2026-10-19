@@ -247,7 +247,7 @@ export async function renderBallotPrint(view, _params, current) {
         <button type="button" class="btn btn-small" id="do-print">Print this page</button>
       </div>
       <div class="print-head">
-        <span class="eyebrow">Voting Insights &middot; Texas General Election, November 3, 2026</span>
+        <span class="eyebrow">VotersHub &middot; Texas General Election, November 3, 2026</span>
         <h1>${starredOnly ? 'My shortlist' : 'My ballot choices'}</h1>
         <p>${esc(countyLabel(county))}${session.user ? `, prepared for ${esc(session.user.first_name)}` : ''}. Printed ${esc(formatDate(new Date().toISOString(), false))}.</p>
       </div>
@@ -256,7 +256,7 @@ export async function renderBallotPrint(view, _params, current) {
           ? `<table class="ballot print-table"><thead><tr><th>Office</th><th>My choice</th></tr></thead><tbody>${rows}</tbody></table>`
           : `<p>${starredOnly ? 'Your shortlist is empty. Star races or candidates on My Ballot first.' : 'No races found.'}</p>`
       }
-      <p class="small print-foot">Personal notes for use while voting. This list was made by the voter and is not an endorsement by Voting Insights. Your actual ballot depends on your address, so some districts listed here may not appear on yours. Phones and other wireless devices may not be used within 100 feet of voting stations in Texas. Early voting runs October 19 to October 30. Election Day is Tuesday, November 3, 7 a.m. to 7 p.m.</p>
+      <p class="small print-foot">Personal notes for use while voting. This list was made by the voter and is not an endorsement by VotersHub. Your actual ballot depends on your address, so some districts listed here may not appear on yours. Phones and other wireless devices may not be used within 100 feet of voting stations in Texas. Early voting runs October 19 to October 30. Election Day is Tuesday, November 3, 7 a.m. to 7 p.m.</p>
     </div>`;
   $('#do-print', view).addEventListener('click', () => window.print());
 }

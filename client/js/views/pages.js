@@ -86,7 +86,7 @@ export async function renderTerms(view, _p, current) {
     <span class="eyebrow">Legal</span>
     <h1>Terms of Use</h1>
     <p class="muted">Effective October 16, 2026</p>
-    <p>These terms govern your use of Voting Insights (the "Site"). By using the Site you agree to them. If you do not agree, please do not use the Site.</p>
+    <p>These terms govern your use of VotersHub (the "Site"). By using the Site you agree to them. If you do not agree, please do not use the Site.</p>
     <h2>1. Purpose of the Site</h2>
     <p>The Site is an independent, nonpartisan educational resource about candidates on Texas ballots for the November 3, 2026 general election. It is not affiliated with, endorsed by, or paid for by any candidate, campaign, political party, political action committee, or government office. Nothing on the Site is an endorsement of any candidate or party or a recommendation on how to vote.</p>
     <h2>2. Accuracy of information</h2>

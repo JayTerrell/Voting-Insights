@@ -17,7 +17,7 @@ app.get(/^\/(?!api\/).*/, (req, res) => res.sendFile('index.html', { root: clien
 
 app.listen(config.port, () => {
   console.log(
-    `Voting Insights at ${config.publicUrl} | data ${dataVersion} | ` +
+    `VotersHub at ${config.publicUrl} | data ${dataVersion} | ` +
       `database ${config.databaseUrl ? 'Postgres' : config.sqlitePath} | email ${emailConfigured ? 'SMTP' : 'outbox folder'}`
   );
 });
