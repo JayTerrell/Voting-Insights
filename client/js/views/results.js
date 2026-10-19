@@ -1,6 +1,7 @@
 import { $, esc, setTitle, formatDate, toast, partyTag, PARTY_CLASS, GROUPS, raceTitle, countyLabel } from '../ui.js';
 import { api, loadGuide, resultCache, session } from '../api.js';
 import { positionLabel, IMPORTANCE } from '../shared/scoring.js';
+import { openIssuesPicker } from './issues-picker.js';
 
 export async function renderResults(view, [shareId], current) {
   setTitle('Your Results');
@@ -24,6 +25,17 @@ export async function renderResults(view, [shareId], current) {
     return drawPreview(view, fresh);
   }
   resultCache.put(fresh);
+  // Right after the quiz: offer the voter's top issues and the offices that control them.
+  if (isNew && fresh.issue_ranking?.length && !offered.has(shareId)) {
+    offered.add(shareId);
+    history.replaceState({}, '', location.pathname);
+    openIssuesPicker({
+      guide,
+      county: fresh.results.county || session.user?.county,
+      ranking: fresh.issue_ranking,
+      firstTime: true,
+    });
+  }
   // Redraw only when something visible changed, so the page does not jump.
   if (!cached?.owner || cached.data_version !== fresh.data_version || cached.share_issues !== fresh.share_issues)
     draw(view, guide, fresh, isNew);
@@ -34,6 +46,7 @@ function bar(score, cls = '') {
   return `<div class="bar ${cls}" aria-hidden="true"><span style="width:${w}%"></span></div>`;
 }
 
+const offered = new Set();
 const PARTY_BAR = (name) => PARTY_CLASS[name] || '';
 const imageUrl = (id, format, v) => `/api/share/${encodeURIComponent(id)}/${format}.png?v=${v ? 2 : 1}`;
 
@@ -258,7 +271,7 @@ function draw(view, guide, data, isNew) {
       : '';
 
   view.innerHTML = `
-  ${isNew && owner ? `<div class="callout" role="status" style="margin-bottom:20px">Your results are saved${session.user ? ` to ${esc(session.user.email)}` : ''} and a copy is on its way to your inbox. Find them any time in <a href="/account">your account</a>, and mark your choices on <a href="/my-ballot">My Ballot</a>.</div>` : ''}
+  ${isNew && owner ? `<div class="callout" role="status" style="margin-bottom:20px">Your results are saved${session.user ? ` to ${esc(session.user.email)}` : ''} and a copy is on its way to your inbox. Find them any time on <a href="/profile">your profile</a>, and mark your choices on <a href="/my-ballot">My Ballot</a>.</div>` : ''}
   ${data.current_version && data.data_version !== data.current_version ? `<div class="callout" style="margin-bottom:20px">Candidate research has been updated since these results were calculated. <a href="/quiz">Retake the quiz</a> to use the latest information.</div>` : ''}
   <div class="result-head">
     <div>

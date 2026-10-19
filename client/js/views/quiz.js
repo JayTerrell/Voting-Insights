@@ -58,7 +58,7 @@ function renderStart(view, guide) {
     <h1>${esc(u.first_name ? `Ready when you are, ${u.first_name}` : 'Ready when you are')}</h1>
     <p class="lede">Answer each statement and say how much it matters to you. We compare your answers with the documented positions of every candidate on the ${esc(countyLabel(county))} ballot and with each party's official platform.</p>
     <div class="panel">
-      <p style="margin-top:0">Your results are saved to your account (${esc(u.email || '')}) and a copy is emailed to you. Voting somewhere else? <a href="/account">Change your county</a> first.</p>
+      <p style="margin-top:0">Your results are saved to your account (${esc(u.email || '')}) and a copy is emailed to you. Voting somewhere else? <a href="/settings">Change your county</a> first.</p>
       <div class="btn-row"><button class="btn btn-red" id="begin">Begin the quiz</button>
       <span class="small muted">${guide.questions.length} questions, about 6 minutes</span></div>
     </div>

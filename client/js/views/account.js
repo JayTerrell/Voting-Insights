@@ -1,19 +1,19 @@
 // Accounts: sign up, sign in, password reset, and the account page with saved
 // results. Browsing the guide never needs an account; the quiz does.
 
-import { $, esc, setTitle, formatDate, skeleton, toast, countyLabel, avatarHtml, openModal, closeModal } from '../ui.js';
-import { api, session, resultCache, loadGuide, loadFormOptions, ballotCounty, startSession, plan } from '../api.js';
+import { $, esc, setTitle, skeleton, toast, countyLabel, avatarHtml, openModal, closeModal } from '../ui.js';
+import { api, session, loadGuide, loadFormOptions, ballotCounty, startSession } from '../api.js';
 import { navigate, updateAccountLink } from '../app.js';
 
 const MIN_PASSWORD = 8;
 
 // Only same-site paths are accepted as a destination after signing in.
-export function nextPath(fallback = '/account') {
+export function nextPath(fallback = '/profile') {
   const next = new URLSearchParams(location.search).get('next') || '';
   return /^\/[\w\-/]*$/.test(next) && !next.startsWith('//') ? next : fallback;
 }
 
-const withNext = (path, next) => (next && next !== '/account' ? `${path}?next=${encodeURIComponent(next)}` : path);
+const withNext = (path, next) => (next && next !== '/profile' ? `${path}?next=${encodeURIComponent(next)}` : path);
 
 function showError(el, message) {
   el.textContent = message;
@@ -47,7 +47,7 @@ const APPLE_MARK = `<svg viewBox="0 0 384 512" aria-hidden="true"><path fill="cu
 
 export function providerButtons(providers, next) {
   if (!providers || !providers.length) return '';
-  const q = `?next=${encodeURIComponent(next || '/account')}`;
+  const q = `?next=${encodeURIComponent(next || '/profile')}`;
   const btn = {
     google: `<a class="btn-provider" href="/api/auth/google/start${q}">${GOOGLE_MARK}<span>Continue with Google</span></a>`,
     apple: `<a class="btn-provider" href="/api/auth/apple/start${q}">${APPLE_MARK}<span>Continue with Apple</span></a>`,
@@ -64,7 +64,7 @@ const AUTH_ERRORS = {
 
 // ---------- Sign up ----------
 
-export function signUpForm(guide, options, { next = '/account', intro = '' } = {}) {
+export function signUpForm(guide, options, { next = '/profile', intro = '' } = {}) {
   const preferred = ballotCounty.get(guide);
   const countyOpts = options.counties
     .map((c) => `<option value="${esc(c)}" ${c === preferred ? 'selected' : ''}>${esc(countyLabel(c))}</option>`)
@@ -145,7 +145,7 @@ export async function renderSignUp(view, _params, current) {
 
 // ---------- Sign in ----------
 
-export function signInForm(next = '/account', providers = []) {
+export function signInForm(next = '/profile', providers = []) {
   return `<form class="panel" id="signin" novalidate>
       ${providerButtons(providers, next)}
       <label for="si-em">Email address</label>
@@ -204,7 +204,7 @@ export async function renderAuthComplete(view) {
   setTitle('Signing in');
   const params = new URLSearchParams(location.hash.slice(1));
   const token = params.get('token') || '';
-  const next = /^\/[\w\-/]*$/.test(params.get('next') || '') ? params.get('next') : '/account';
+  const next = /^\/[\w\-/]*$/.test(params.get('next') || '') ? params.get('next') : '/profile';
   history.replaceState({}, '', '/auth/complete');
   if (!token) return navigate('/sign-in?error=failed', { replace: true });
   view.innerHTML = `<h1>Signing you in</h1>${skeleton('list')}`;
@@ -225,7 +225,7 @@ export async function renderFinishSignUp(view, _params, current) {
   setTitle('Finish creating your account');
   const params = new URLSearchParams(location.hash.slice(1));
   const ticket = params.get('ticket') || '';
-  const next = /^\/[\w\-/]*$/.test(params.get('next') || '') ? params.get('next') : '/account';
+  const next = /^\/[\w\-/]*$/.test(params.get('next') || '') ? params.get('next') : '/profile';
   history.replaceState({}, '', '/finish-sign-up');
   const [guide, options] = await Promise.all([loadGuide(), loadFormOptions()]);
   if (!current()) return;
@@ -339,115 +339,87 @@ export function renderReset(view) {
       const res = await api.resetPassword(token, password);
       await startSession(res);
       toast('Your new password is saved.');
-      navigate('/account', { replace: true });
+      navigate('/profile', { replace: true });
     });
   });
 }
 
-// ---------- Account page ----------
+// ---------- Account settings ----------
+// Profile details, photo, password, email preference, and account deletion.
+// What a voter cares about day to day (results, issues, watchlist) is on /profile.
 
-export async function renderAccount(view, _params, current) {
-  setTitle('My Account');
-  if (!session.token) return navigate('/sign-in?next=/account', { replace: true });
-  view.innerHTML = `<span class="eyebrow">My Account</span><h1>Your account</h1>${skeleton('list')}`;
+export async function renderSettings(view, _params, current) {
+  setTitle('Account Settings');
+  if (!session.token) return navigate('/sign-in?next=/settings', { replace: true });
+  view.innerHTML = `<span class="eyebrow">Account Settings</span><h1>Account settings</h1>${skeleton('list')}`;
   let data;
   try {
-    const [results, me] = await Promise.all([api.myResults(), api.me()]);
-    data = { ...results, providers: me.providers };
+    const me = await api.me();
+    data = { providers: me.providers };
     session.set(session.token, me.user);
     updateAccountLink();
   } catch (e) {
     if (e.status === 401) {
       session.clear();
-      return navigate('/sign-in?next=/account', { replace: true });
+      return navigate('/sign-in?next=/settings', { replace: true });
     }
-    // Offline or server trouble: fall back to results cached on this device.
-    const cached = Object.values(resultCache.all());
-    if (!cached.length) throw e;
-    data = {
-      offline: true,
-      results: cached.map((r) => ({
-        share_id: r.share_id,
-        created_at: r.created_at,
-        answered: r.results.answered,
-        parties: r.results.parties,
-      })),
-    };
+    data = { offline: true, providers: [] };
   }
   const [guide, options] = await Promise.all([loadGuide(), loadFormOptions()]);
   if (!current()) return;
-  drawAccount(view, data, guide, options);
+  drawSettings(view, data, guide, options);
 }
 
-function resultRows(results) {
-  return results
-    .map((r) => {
-      const best = [...r.parties].filter((p) => p.score !== null).sort((a, b) => b.score - a.score)[0];
-      return `<tr><td>${esc(formatDate(r.created_at))}</td><td class="num">${r.answered}</td>
-        <td>${best ? `${esc(best.name)} (${best.score}%)` : ''}</td><td><a href="/results/${esc(r.share_id)}">View results</a></td></tr>`;
-    })
-    .join('');
-}
-
-function drawAccount(view, data, guide, options) {
+function drawSettings(view, data, guide, options) {
   const u = session.user || {};
   const providers = data.providers || [];
   const hasPassword = u.has_password !== false;
-  const p = plan.get();
-  const watchCount = p.starred_races.length;
-  const pickCount = Object.keys(p.picks).length;
   const countyOpts = options.counties
     .map((c) => `<option value="${esc(c)}" ${c === u.county ? 'selected' : ''}>${esc(countyLabel(c))}</option>`)
     .join('');
   const ageOpts = options.age_ranges.map((a) => `<option ${a === u.age_range ? 'selected' : ''}>${esc(a)}</option>`).join('');
 
   view.innerHTML = `
-    <span class="eyebrow">My Account</span>
-    <div class="profile-head">
-      <div class="profile-photo" id="profile-photo">${avatarHtml(u, 'lg')}</div>
-      <div>
-        <h1>${esc(u.first_name ? `Welcome, ${u.first_name}` : 'Your account')}</h1>
-        <p class="lede" style="margin-bottom:10px">Signed in as ${esc(u.email || '')}. Your ballot: ${esc(countyLabel(u.county || ballotCounty.get(guide)))}.</p>
-        <div class="btn-row">
-          <label class="btn btn-ghost btn-small file-btn">${u.avatar ? 'Change photo' : 'Add a profile photo'}<input type="file" id="photo-file" accept="image/jpeg,image/png,image/webp,image/heic,image/heif" hidden></label>
-          ${u.avatar ? '<button type="button" class="linkish" id="photo-remove">Remove photo</button>' : ''}
+    <div class="settings-page">
+    <span class="eyebrow">Account Settings</span>
+    <h1>Account settings</h1>
+    <p class="lede">Signed in as ${esc(u.email || '')}. Looking for your results, issues, and watchlist? They are on <a href="/profile">your profile</a>.</p>
+    <nav class="settings-nav" aria-label="Settings sections">
+      <a href="#set-photo">Photo</a><a href="#prof-h">Your details</a><a href="#pw-h">Sign-in and security</a><a href="#priv-h">Privacy and data</a>
+    </nav>
+
+    <section aria-labelledby="set-photo">
+      <div class="section-head"><h2 id="set-photo">Profile photo</h2></div>
+      <div class="panel profile-head settings-photo">
+        <div class="profile-photo" id="profile-photo">${avatarHtml(u, 'lg')}</div>
+        <div>
+          <p style="margin-top:0">Your photo appears only to you, in the menu and on your profile.</p>
+          <div class="btn-row">
+            <label class="btn btn-ghost btn-small file-btn">${u.avatar ? 'Change photo' : 'Add a profile photo'}<input type="file" id="photo-file" accept="image/jpeg,image/png,image/webp,image/heic,image/heif" hidden></label>
+            ${u.avatar ? '<button type="button" class="linkish" id="photo-remove">Remove photo</button>' : ''}
+          </div>
         </div>
       </div>
-    </div>
-    ${data.offline ? '<div class="callout" style="margin-bottom:16px">We could not reach the server, so this page shows results saved on this device.</div>' : ''}
-
-    <div class="account-grid">
-      <a class="account-tile" href="/my-ballot?show=picks"><span class="label">My Picks</span><b data-count="${pickCount}">${pickCount}</b><span>${pickCount === 1 ? 'candidate' : 'candidates'} chosen</span></a>
-      <a class="account-tile" href="/my-ballot?show=watch"><span class="label">Watchlist</span><b data-count="${watchCount}">${watchCount}</b><span>${watchCount === 1 ? 'office' : 'offices'} watched</span></a>
-      <a class="account-tile" href="/quiz"><span class="label">Issue Quiz</span><b data-count="${data.results.length}">${data.results.length}</b><span>${data.results.length === 1 ? 'result' : 'results'} saved</span></a>
-    </div>
-
-    <section aria-labelledby="hist-h">
-      <div class="section-head"><h2 id="hist-h">Your quiz results</h2><a href="/quiz">${data.results.length ? 'Retake the quiz' : 'Take the quiz'}</a></div>
-      ${
-        data.results.length
-          ? `<table class="ballot"><thead><tr><th>Taken (Central Time)</th><th class="num">Questions answered</th><th>Closest party platform</th><th></th></tr></thead><tbody>${resultRows(data.results)}</tbody></table>`
-          : '<p>You have not completed the quiz yet.</p>'
-      }
     </section>
+    ${data.offline ? '<div class="callout" style="margin:16px 0">We could not reach the server. Changes cannot be saved until you are back online.</div>' : ''}
 
     <section aria-labelledby="prof-h">
-      <div class="section-head"><h2 id="prof-h">Profile</h2></div>
+      <div class="section-head"><h2 id="prof-h">Your details</h2></div>
       <form class="panel" id="profile" novalidate>
         <div class="form-grid">
-          <div><label for="pf-fn">First name</label><input id="pf-fn" name="first_name" maxlength="60" autocomplete="given-name" value="${esc(u.first_name || '')}"></div>
-          <div><label for="pf-ln">Last name</label><input id="pf-ln" name="last_name" maxlength="60" autocomplete="family-name" value="${esc(u.last_name || '')}"></div>
+          <div><label for="pf-fn">First name</label><input id="pf-fn" type="text" name="first_name" maxlength="60" autocomplete="given-name" value="${esc(u.first_name || '')}"></div>
+          <div><label for="pf-ln">Last name</label><input id="pf-ln" type="text" name="last_name" maxlength="60" autocomplete="family-name" value="${esc(u.last_name || '')}"></div>
           <div><label for="pf-co">County where you vote</label><select id="pf-co" name="county">${countyOpts}</select></div>
           <div><label for="pf-ag">Age range</label><select id="pf-ag" name="age_range">${ageOpts}</select></div>
           <div class="full"><label class="check"><input type="checkbox" name="marketing_ok" ${u.marketing_ok ? 'checked' : ''}> <span>Email me when this guide is updated for future elections.</span></label></div>
         </div>
         <p class="form-error" role="alert" hidden></p>
-        <div class="btn-row" style="margin-top:14px"><button class="btn btn-small" type="submit">Save profile</button></div>
+        <div class="btn-row" style="margin-top:14px"><button class="btn btn-small" type="submit">Save details</button></div>
       </form>
     </section>
 
     <section aria-labelledby="pw-h">
-      <div class="section-head"><h2 id="pw-h">Password and sign out</h2></div>
+      <div class="section-head"><h2 id="pw-h">Sign-in and security</h2></div>
       <form class="panel" id="chpw" novalidate>
         ${
           providers.length
@@ -462,14 +434,21 @@ function drawAccount(view, data, guide, options) {
           }
           <div><label for="cp-new">${hasPassword ? 'New password' : 'Add a password (optional)'}</label><input id="cp-new" name="next" type="password" autocomplete="new-password" minlength="${MIN_PASSWORD}" maxlength="200"></div>
         </div>
-        <p class="form-note">${hasPassword ? 'Changing your password signs you out on every other device.' : 'A password lets you sign in with your email address as well.'}</p>
+        <p class="form-note">${hasPassword ? 'Changing your password signs you out on every other device. Forgot it? <a href="/forgot-password">Reset it by email</a>.' : 'A password lets you sign in with your email address as well.'}</p>
         <p class="form-error" role="alert" hidden></p>
         <div class="btn-row" style="margin-top:14px"><button class="btn btn-small" type="submit">${hasPassword ? 'Change password' : 'Save password'}</button>
           <button class="btn btn-ghost btn-small" type="button" id="signout">Sign out on this device</button></div>
       </form>
     </section>
 
-    <details class="panel" style="margin-top:32px">
+    <section aria-labelledby="priv-h">
+      <div class="section-head"><h2 id="priv-h">Privacy and data</h2><a href="/privacy">Privacy Policy</a></div>
+      <div class="panel">
+        <p style="margin-top:0">We store your name, email, county, age range, quiz results and answers, watchlist, picks, issues, and photo. Your answers are visible only to you. Shared links show only your first name, party percentages, and, if you choose, your top issues. We never sell your information or share it with any campaign or party.</p>
+      </div>
+    </section>
+
+    <details class="panel danger-zone" style="margin-top:20px">
       <summary><b>Delete my account and data</b></summary>
       <p style="margin-top:12px">This permanently deletes your name, email, county, age range, every saved result, your watchlist, and your picks. Shared links to your results will stop working. This cannot be undone.</p>
       <form id="del" novalidate>
@@ -483,7 +462,8 @@ function drawAccount(view, data, guide, options) {
         <p class="form-error" role="alert" hidden></p>
         <div class="btn-row" style="margin-top:12px"><button class="btn btn-red btn-small" type="submit">Delete everything</button></div>
       </form>
-    </details>`;
+    </details>
+    </div>`;
 
   $('#photo-file', view).addEventListener('change', async (e) => {
     const file = e.target.files?.[0];
@@ -491,7 +471,7 @@ function drawAccount(view, data, guide, options) {
     if (!file) return;
     try {
       const saved = await photoEditor(file);
-      if (saved) drawAccount(view, data, guide, options);
+      if (saved) drawSettings(view, data, guide, options);
     } catch (ex) {
       toast(ex.message);
     }
@@ -501,7 +481,7 @@ function drawAccount(view, data, guide, options) {
     const res = await api.removeAvatar();
     session.set(session.token, res.user);
     updateAccountLink();
-    drawAccount(view, data, guide, options);
+    drawSettings(view, data, guide, options);
   });
 
   const profile = $('#profile', view);
@@ -518,7 +498,8 @@ function drawAccount(view, data, guide, options) {
       });
       session.set(session.token, res.user);
       ballotCounty.set(res.user.county);
-      toast('Profile saved.');
+      updateAccountLink();
+      toast('Details saved.');
     });
   });
 

@@ -320,6 +320,7 @@ test('ballot plans save only known races and candidates', async () => {
       starred_races: [race.id, 'not-a-race', race.id],
       starred_candidates: [race.candidates[0].id, '<script>'],
       picks: { [race.id]: race.candidates[1].id, [other.id]: race.candidates[0].id, bogus: 'x' },
+      issues: ['Education', 'Not an issue', 'Health Care', 'Education', 42],
     },
   });
   assert.equal(saved.status, 200);
@@ -329,6 +330,8 @@ test('ballot plans save only known races and candidates', async () => {
   assert.deepEqual(saved.json.plan.picks, { [race.id]: race.candidates[1].id });
   const back = await call('GET', '/api/me/plan', { token });
   assert.deepEqual(back.json.plan.picks, { [race.id]: race.candidates[1].id });
+  // Issues keep their order, drop unknown areas and repeats.
+  assert.deepEqual(back.json.plan.issues, ['Education', 'Health Care']);
 });
 
 test('sign out revokes the token and deletion removes the account', async () => {

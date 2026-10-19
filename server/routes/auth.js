@@ -12,7 +12,7 @@ const COOKIE = 'vi_oauth';
 export const authRoutes = Router();
 
 // Only same-site paths are accepted as the page to return to.
-const safeNext = (next) => (/^\/[\w\-/]*$/.test(String(next || '')) && !String(next).startsWith('//') ? next : '/account');
+const safeNext = (next) => (/^\/[\w\-/]*$/.test(String(next || '')) && !String(next).startsWith('//') ? next : '/profile');
 
 // SameSite=None lets the cookie return on Apple's cross-site form post. It is
 // HttpOnly, scoped to /api/auth, signed, and expires in ten minutes.

@@ -3,6 +3,7 @@
 
 import { formOptions, questionIds, raceCandidates, candidateIds, candidateRace } from '../services/guide.js';
 import { PASSWORD_MIN, PASSWORD_MAX } from './password.js';
+import { ISSUE_AREAS } from '../../shared/issue-offices.js';
 import { COMMON_PASSWORDS } from './common-passwords.js';
 
 const EMAIL_RE = /^[^\s@<>()[\]\\,;:"]{1,64}@[a-z0-9.-]{1,190}\.[a-z]{2,24}$/i;
@@ -91,7 +92,11 @@ export function parsePlan(raw) {
       if (raceCandidates.get(raceId)?.has(candId)) picks[raceId] = candId;
     }
   }
-  return { starred_races: starredRaces, starred_candidates: starredCandidates, picks };
+  // The voter's issue areas, most important first. null means not chosen yet.
+  const issues = Array.isArray(body.issues)
+    ? [...new Set(body.issues.filter((x) => typeof x === 'string' && ISSUE_AREAS.includes(x)))].slice(0, ISSUE_AREAS.length)
+    : null;
+  return { starred_races: starredRaces, starred_candidates: starredCandidates, picks, issues };
 }
 
 // A profile photo: a cropped image from the browser, as a data URL. Only small

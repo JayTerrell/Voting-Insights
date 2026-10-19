@@ -161,7 +161,7 @@ export const api = {
 // ballot"). The watchlist is the offices they starred to follow. Saved in this
 // browser for everyone, and to the account when signed in.
 
-const EMPTY_PLAN = () => ({ starred_races: [], starred_candidates: [], picks: {} });
+const EMPTY_PLAN = () => ({ starred_races: [], starred_candidates: [], picks: {}, issues: null });
 const listeners = new Set();
 let saveTimer;
 let candidateRace = null; // candidate id to race id, set once the guide loads
@@ -224,6 +224,13 @@ export const plan = {
     p.picks = {};
     writePlan(p);
   },
+  // Saves the voter's issues and sets the watchlist offices in one change.
+  saveIssues(issues, add = [], remove = []) {
+    const p = readPlan();
+    p.issues = issues;
+    p.starred_races = [...new Set([...p.starred_races.filter((id) => !remove.includes(id)), ...add])];
+    writePlan(p);
+  },
   // After signing in, combine what was saved on this device with the account copy.
   async sync() {
     if (!session.token) return;
@@ -233,6 +240,7 @@ export const plan = {
       starred_races: [...new Set([...remote.starred_races, ...local.starred_races])],
       starred_candidates: [...new Set([...(remote.starred_candidates || []), ...local.starred_candidates])],
       picks: { ...remote.picks, ...local.picks },
+      issues: local.issues || remote.issues || null,
     });
     setJSON(KEYS.plan, merged);
     listeners.forEach((fn) => fn(merged));

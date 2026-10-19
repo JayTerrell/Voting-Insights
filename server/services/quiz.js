@@ -78,6 +78,8 @@ export function publicView(row, viewer) {
     answers: JSON.parse(row.answers_json),
     share_issues: Boolean(row.share_issues),
     top_issues: topIssues(JSON.parse(row.answers_json), guide),
+    // Every issue area the voter answered, most important first, for choosing offices to watch.
+    issue_ranking: topIssues(JSON.parse(row.answers_json), guide, 20),
     preview,
     data_version: row.data_version,
     current_version: dataVersion,

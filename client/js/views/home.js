@@ -40,7 +40,7 @@ export async function renderHome(view, _params, current) {
       </div>
       ${
         user && cached.length
-          ? `<p class="small" style="margin-top:14px">Welcome back, ${esc(user.first_name)}. <a href="/results/${esc(cached[0].share_id)}">Open your most recent results</a> or open <a href="/account">your account</a> and <a href="/my-ballot">your ballot</a>.</p>`
+          ? `<p class="small" style="margin-top:14px">Welcome back, ${esc(user.first_name)}. <a href="/results/${esc(cached[0].share_id)}">Open your most recent results</a> or open <a href="/profile">your profile</a> and <a href="/my-ballot">your ballot</a>.</p>`
           : `<p class="small muted" style="margin-top:14px">Takes about 6 minutes. You can skip any question and retake the quiz as often as you like.</p>`
       }
     </div>

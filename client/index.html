@@ -53,13 +53,56 @@
           >
         </a>
         <nav class="nav" aria-label="Main">
-          <a href="/"><span class="long-label">Issue Quiz</span><span class="short-label">Quiz</span></a>
-          <a href="/candidates">Candidates</a>
-          <a href="/issues"><span class="long-label">Compare by Issue</span><span class="short-label">Issues</span></a>
-          <a href="/scoring"><span class="long-label">Scoring Logic</span><span class="short-label">Scoring</span></a>
-          <a href="/my-ballot"><span class="long-label">My Ballot</span><span class="short-label">Ballot</span></a>
+          <a href="/" data-nav="/">Quiz</a>
+          <div class="nav-menu">
+            <button
+              type="button"
+              class="nav-trigger"
+              data-menu="explore-panel"
+              aria-expanded="false"
+              aria-controls="explore-panel"
+            >
+              Explore<span class="caret" aria-hidden="true"></span>
+            </button>
+            <div class="nav-panel" id="explore-panel" hidden>
+              <a href="/candidates" data-nav="/candidates"
+                ><b>Candidates</b><span>Every race and candidate on your ballot</span></a
+              >
+              <a href="/issues" data-nav="/issues"><b>Issues</b><span>Compare candidates issue by issue</span></a>
+              <a href="/parties" data-nav="/parties"><b>Parties</b><span>What each party stands for</span></a>
+              <a href="/scoring" data-nav="/scoring"><b>Scoring</b><span>How quiz matches are calculated</span></a>
+            </div>
+          </div>
+          <a href="/where-to-vote" data-nav="/where-to-vote">Where to Vote</a>
+          <a href="/my-ballot" data-nav="/my-ballot">My Ballot</a>
         </nav>
-        <a class="avatar-link" id="nav-avatar" href="/sign-in">Sign in</a>
+        <div class="masthead-end">
+          <div class="nav-menu acct-menu" id="acct">
+            <a class="avatar-link" id="nav-avatar" href="/sign-in">Sign in</a>
+          </div>
+          <button
+            type="button"
+            class="nav-burger"
+            data-menu="mobile-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+            aria-label="Menu"
+          >
+            <span aria-hidden="true"></span>
+          </button>
+        </div>
+        <div class="mobile-menu" id="mobile-menu" hidden>
+          <a href="/" data-nav="/">Issue Quiz</a>
+          <p class="mobile-menu-head">Explore</p>
+          <a href="/candidates" data-nav="/candidates">Candidates</a>
+          <a href="/issues" data-nav="/issues">Issues</a>
+          <a href="/parties" data-nav="/parties">Parties</a>
+          <a href="/scoring" data-nav="/scoring">Scoring</a>
+          <p class="mobile-menu-head">Voting</p>
+          <a href="/where-to-vote" data-nav="/where-to-vote">Where to Vote</a>
+          <a href="/am-i-registered" data-nav="/am-i-registered">Am I Registered?</a>
+          <a href="/my-ballot" data-nav="/my-ballot">My Ballot</a>
+        </div>
       </div>
     </header>
     <div class="notice-bar">
@@ -92,11 +135,13 @@
             <li><a href="/">Issue Quiz</a></li>
             <li><a href="/candidates">Candidates</a></li>
             <li><a href="/issues">Compare by Issue</a></li>
+            <li><a href="/parties">The Parties</a></li>
             <li><a href="/scoring">Scoring Logic</a></li>
             <li><a href="/where-to-vote">Where to Vote</a></li>
             <li><a href="/am-i-registered">Am I Registered?</a></li>
             <li><a href="/my-ballot">My Ballot</a></li>
-            <li><a href="/account">My Account</a></li>
+            <li><a href="/profile">My Profile</a></li>
+            <li><a href="/settings">Account Settings</a></li>
           </ul>
         </div>
         <div>

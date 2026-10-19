@@ -31,6 +31,13 @@ writeFileSync(
   join(dataTarget, 'form-options.json'),
   JSON.stringify({ age_ranges, counties: Object.keys(guide.ballots || {}).sort() })
 );
+// Party profiles for the Parties page, written from each party's official platform.
+if (existsSync(join(root, 'data/party-profiles.json'))) {
+  writeFileSync(
+    join(dataTarget, 'party-profiles.json'),
+    JSON.stringify(JSON.parse(readFileSync(join(root, 'data/party-profiles.json'), 'utf8')))
+  );
+}
 console.log('Copied shared/ to client/js/shared/ and guide data to client/data/');
 
 // Polling places: one file per county plus a small index, published as static
