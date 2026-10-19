@@ -4463,19 +4463,9 @@ html.modal-open {
   color: var(--navy);
   background: var(--card);
   border: 1px solid var(--rule);
-  border-left: 4px solid var(--navy);
 }
-.party-chip.rep {
-  border-left-color: var(--rep);
-}
-.party-chip.dem {
-  border-left-color: var(--dem);
-}
-.party-chip.lib {
-  border-left-color: var(--lib);
-}
-.party-chip.grn {
-  border-left-color: var(--grn);
+.party-chip:hover {
+  border-color: var(--navy);
 }
 .ideology h2 {
   margin-top: 0;
