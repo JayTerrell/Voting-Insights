@@ -24,6 +24,8 @@ import {
   formatDate,
   openModal,
   closeModal,
+  accountGate,
+  candidatePhoto,
 } from '../ui.js';
 import { loadGuide, loadFormOptions, ballotCounty, plan, session, resultCache } from '../api.js';
 import { racesForCounty } from '../shared/scoring.js';
@@ -58,7 +60,14 @@ function voteFor(race) {
   return race.candidates.length > 1 ? 'Vote for none or one' : 'Unopposed. Vote for none or one';
 }
 
+// Visitors without an account see the ballot read only: no ovals to fill,
+// no watchlist, no printing.
+const EMPTY_PLAN = { starred_races: [], starred_candidates: [], picks: {} };
+const isGuest = () => !session.token;
+const currentPlan = () => (isGuest() ? EMPTY_PLAN : plan.get());
+
 function raceBlock(race, p, matches) {
+  const guest = isGuest();
   const chosen = p.picks[race.id];
   const watched = p.starred_races.includes(race.id);
   const options = race.candidates
@@ -66,7 +75,7 @@ function raceBlock(race, p, matches) {
       const id = `pick-${race.id}-${c.id}`;
       return `<div class="ballot-opt ${chosen === c.id ? 'chosen' : ''}" data-race="${esc(race.id)}" data-cand="${esc(c.id)}">
         <label class="oval-label" for="${esc(id)}">
-          <input type="radio" id="${esc(id)}" name="pick-${esc(race.id)}" value="${esc(c.id)}" ${chosen === c.id ? 'checked' : ''}>
+          <input type="radio" id="${esc(id)}" name="pick-${esc(race.id)}" value="${esc(c.id)}" ${chosen === c.id ? 'checked' : ''} ${guest ? 'disabled' : ''}>
           <span class="oval" aria-hidden="true"></span><span class="sr-only">Choose ${esc(c.name)}</span>
         </label>
         ${miniCard(c, { match: matches && race.candidates.length > 1 ? matches[c.id] : null })}
@@ -74,11 +83,11 @@ function raceBlock(race, p, matches) {
     })
     .join('');
   const status = watched ? `<span class="tag ${chosen ? 'tag-navy' : 'tag-red'}">${chosen ? 'Decided' : 'Undecided'}</span>` : '';
-  return `<fieldset class="ballot-race" id="race-${esc(race.id)}">
+  return `<fieldset class="ballot-race ${guest ? 'read-only' : ''}" id="race-${esc(race.id)}">
     <legend class="sr-only">${esc(raceTitle(race))}</legend>
     <div class="ballot-race-head">
       <div><h3>${esc(raceTitle(race))}</h3><p class="vote-for">${voteFor(race)} ${status}</p></div>
-      ${watchButton(race.id, raceTitle(race))}
+      ${guest ? '' : watchButton(race.id, raceTitle(race))}
     </div>
     <div class="ballot-opts">${options}</div>
     <div class="ballot-race-foot">
@@ -113,13 +122,15 @@ export async function renderBallot(view, _params, current) {
     <h1>Your mock ballot</h1>
     <p class="lede">Fill in an oval to pick a candidate, in the order the races appear on the official ballot. Star an office to add it to your watchlist while you decide. Then print your picks to take with you: Texas law does not allow phones or other wireless devices to be used within 100 feet of voting stations.</p>
     ${
-      session.token
-        ? ''
-        : '<div class="callout" style="margin-bottom:16px">Your picks are saved in this browser. <a href="/sign-up?next=/my-ballot">Create a free account</a> or <a href="/sign-in?next=/my-ballot">sign in</a> to keep them on every device.</div>'
+      isGuest()
+        ? `<div class="panel guest-gate"><h2>You are viewing a read-only ballot</h2>
+        <p>Browse every race on your county's ballot below. To pick candidates, keep a watchlist, and print your ballot, create a free account.</p>
+        <div class="btn-row"><a class="btn" href="/sign-up?next=/my-ballot">Create a free account</a><a class="btn btn-ghost" href="/sign-in?next=/my-ballot">Sign in</a></div></div>`
+        : ''
     }
     <div class="ballot-toolbar">
       <div class="ballot-county">${countyPicker(guide, options.counties, county, 'mb-county')}</div>
-      <div class="seg" role="tablist" aria-label="Which races to show">
+      <div class="seg" role="tablist" aria-label="Which races to show" ${isGuest() ? 'hidden' : ''}>
         <button type="button" role="tab" data-show="all"></button>
         <button type="button" role="tab" data-show="watch"></button>
         <button type="button" role="tab" data-show="picks"></button>
@@ -133,6 +144,10 @@ export async function renderBallot(view, _params, current) {
   const races = () => racesForCounty(guide, county);
 
   function drawSummary() {
+    if (isGuest()) {
+      $('#mb-summary', root).innerHTML = '';
+      return;
+    }
     const p = plan.get();
     const all = races();
     const t = tally(all, p);
@@ -160,7 +175,8 @@ export async function renderBallot(view, _params, current) {
   }
 
   function draw() {
-    const p = plan.get();
+    if (isGuest()) show = 'all';
+    const p = currentPlan();
     const all = races();
     const t = tally(all, p);
     const shown = show === 'watch' ? t.watched : show === 'picks' ? t.picks : all;
@@ -240,6 +256,7 @@ export async function renderBallot(view, _params, current) {
       return draw();
     }
     if (e.target.matches('.ballot-opt input[type=radio]')) {
+      if (isGuest()) return;
       // The plan listener below redraws the race and the summary.
       const opt = e.target.closest('.ballot-opt');
       plan.pick(opt.dataset.race, opt.dataset.cand);
@@ -276,6 +293,7 @@ export async function renderBallot(view, _params, current) {
     }
     // Tapping anywhere on a candidate row picks it, except on its links and buttons.
     const opt = e.target.closest('.ballot-opt');
+    if (opt && isGuest() && !e.target.closest('a, button')) return void accountGate('choose candidates for your ballot');
     if (opt && !e.target.closest('a, button, label, input')) {
       const radio = opt.querySelector('input[type=radio]');
       if (!radio.checked) {
@@ -290,7 +308,7 @@ export async function renderBallot(view, _params, current) {
   const stop = plan.onChange(() => {
     if (!root.isConnected) return stop();
     if (show === 'all') {
-      const p = plan.get();
+      const p = currentPlan();
       const matches = latestMatches(county);
       for (const race of races()) {
         const block = $(`#race-${CSS.escape(race.id)}`, root);
@@ -310,6 +328,7 @@ export async function renderBallot(view, _params, current) {
 // with its candidates listed.
 
 export async function renderBallotPrint(view, _params, current) {
+  if (isGuest()) return navigate(`/sign-in?next=${encodeURIComponent('/my-ballot')}`, { replace: true });
   const guide = await loadGuide();
   if (!current()) return;
   setTitle('My Ballot');
@@ -325,7 +344,7 @@ export async function renderBallotPrint(view, _params, current) {
       const choice = p.picks[r.id] ? byId[p.picks[r.id]] : null;
       if (choice) {
         return `<tr><td><b>${esc(raceTitle(r))}</b></td>
-          <td><span class="print-choice">${esc(choice.name)}</span> ${partyTag(choice.party)}</td></tr>`;
+          <td><div class="print-pick">${candidatePhoto(choice).replace('loading="lazy"', 'loading="eager"')}<div><span class="print-choice">${esc(choice.name)}</span> ${partyTag(choice.party)}</div></div></td></tr>`;
       }
       return `<tr class="print-undecided"><td><b>${esc(raceTitle(r))}</b><ul class="print-cands">${r.candidates
         .map((c) => `<li>${esc(c.name)} (${esc(c.party)})</li>`)

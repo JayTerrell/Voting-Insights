@@ -251,3 +251,16 @@ export function openModal({ title = '', label = '', wide = false, onClose } = {}
   dialog.focus({ preventScroll: true });
   return { root, body: root.querySelector('.modal-body'), dialog, isOpen: () => openModalState?.root === root };
 }
+
+// Shown when a visitor without an account tries to pick, watch, or print.
+// Browsing stays open; building a ballot needs a free account.
+export function accountGate(action = 'build your ballot') {
+  const next = encodeURIComponent(location.pathname + location.search);
+  const modal = openModal({ title: 'Create a free account' });
+  modal.body.innerHTML = `<p style="margin-top:0">Sign up to ${esc(action)}. Your picks and watchlist are saved to your account, so they follow you to any device, and you can print your ballot to take with you.</p>
+    <div class="btn-row" style="margin-top:16px">
+      <a class="btn" href="/sign-up?next=${next}">Create a free account</a>
+      <a class="btn btn-ghost" href="/sign-in?next=${next}">Sign in</a>
+    </div>`;
+  return modal;
+}

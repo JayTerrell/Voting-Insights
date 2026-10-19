@@ -1,4 +1,4 @@
-import { $, $$, esc, skeleton, toast, watchLabel, avatarHtml, closeModal } from './ui.js';
+import { $, $$, esc, skeleton, toast, watchLabel, avatarHtml, closeModal, accountGate } from './ui.js';
 import { renderHome } from './views/home.js';
 import { renderQuiz } from './views/quiz.js';
 import { renderResults } from './views/results.js';
@@ -110,6 +110,7 @@ document.addEventListener(
     if (watch) {
       e.preventDefault();
       e.stopPropagation();
+      if (!session.token) return void accountGate('add offices to your watchlist');
       const on = plan.toggleWatch(watch.dataset.watch);
       $$(`[data-watch="${CSS.escape(watch.dataset.watch)}"]`).forEach((b) => {
         b.setAttribute('aria-pressed', String(on));
@@ -122,6 +123,7 @@ document.addEventListener(
     const pick = e.target.closest('[data-pick-race]');
     if (pick) {
       e.preventDefault();
+      if (!session.token) return void accountGate('choose candidates for your ballot');
       const { pickRace, pickCand } = pick.dataset;
       const on = plan.togglePick(pickRace, pickCand);
       syncPickButtons(pickRace);

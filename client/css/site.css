@@ -488,20 +488,39 @@ fieldset {
 .hero {
   display: grid;
   gap: 32px;
-  grid-template-columns: 1fr;
-  align-items: start;
+  justify-items: center;
 }
-@media (min-width: 900px) {
-  .hero {
-    grid-template-columns: 1.6fr 1fr;
-  }
+.hero-intro {
+  max-width: 760px;
+  text-align: center;
+}
+.hero-intro .lede {
+  margin-left: auto;
+  margin-right: auto;
+}
+.hero-intro .btn-row {
+  justify-content: center;
 }
 .hero h1 {
   margin-bottom: 16px;
 }
 .dates {
+  width: 100%;
+  max-width: 920px;
   background: var(--card);
   border: 1px solid var(--rule);
+}
+.dates-cols {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 720px) {
+  .dates-cols {
+    grid-template-columns: 1fr 1fr;
+  }
+  .dates-cols dl + dl {
+    border-left: 1px solid var(--rule-soft);
+  }
 }
 .dates h2 {
   font-size: 1.1rem;
@@ -3715,5 +3734,48 @@ html.modal-open {
   }
   .cand-card {
     scroll-margin-top: calc(var(--masthead-h) + 120px);
+  }
+}
+
+/* My Ballot: read only for visitors without an account */
+.guest-gate {
+  margin-bottom: 18px;
+  border-top: 3px solid var(--red);
+}
+.guest-gate h2 {
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+.ballot-race.read-only .oval-label {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+.ballot-race.read-only .ballot-opt {
+  cursor: default;
+}
+
+/* Printed ballot: the picked candidate's photo beside the name */
+.print-pick {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.print-pick .cand-photo {
+  width: 40px;
+  height: 40px;
+  flex: none;
+  font-size: 0.8rem;
+}
+@media print {
+  .print-pick .cand-photo {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}
+@media (max-width: 479px) {
+  .glance-table th,
+  .glance-table td {
+    padding-left: 8px;
+    padding-right: 8px;
   }
 }

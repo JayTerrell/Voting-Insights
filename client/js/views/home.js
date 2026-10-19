@@ -7,11 +7,6 @@ export async function renderHome(view, _params, current) {
   const [guide, options] = await Promise.all([loadGuide(), loadFormOptions()]);
   if (!current()) return;
   let county = ballotCounty.get(guide);
-  const loaded = Object.keys(guide.ballots || {}).sort();
-
-  const cands = guide.races.flatMap((r) => r.candidates);
-  const stanceCount = cands.reduce((n, c) => n + Object.keys(c.stances).length, 0);
-  const sourceCount = cands.reduce((n, c) => n + c.sources.length, 0);
   const user = session.user;
   const cached = Object.values(resultCache.all()).sort((a, b) => b.created_at.localeCompare(a.created_at));
 
@@ -26,16 +21,16 @@ export async function renderHome(view, _params, current) {
     }).join('');
     const total = onBallot.reduce((n, r) => n + r.candidates.length, 0);
     const contestedN = onBallot.filter((r) => r.candidates.length > 1).length;
-    return `<table class="ballot">
+    return `<div class="table-scroll"><table class="ballot glance-table">
       <thead><tr><th>Level</th><th class="num">Races</th><th class="num">Contested</th><th class="num">Candidates</th></tr></thead>
       <tbody>${rows}<tr><td><b>Total</b></td><td class="num"><b>${onBallot.length}</b></td><td class="num"><b>${contestedN}</b></td><td class="num"><b>${total}</b></td></tr></tbody>
-    </table>
+    </table></div>
     ${guide.ballots && Object.hasOwn(guide.ballots, county) ? '' : `<p class="small" style="margin-top:10px">The full ${esc(countyLabel(county))} ballot has not been loaded yet, so only statewide races are counted.</p>`}`;
   }
 
   view.innerHTML = `
   <section class="hero">
-    <div>
+    <div class="hero-intro">
       <span class="eyebrow">Issue Alignment Quiz</span>
       <h1>See which candidates on your ballot share your views.</h1>
       <p class="lede">Answer ${guide.questions.length} questions on the issues these offices actually handle. We compare your answers with each candidate's documented public record and show how closely you align, race by race, with links to every source.</p>
@@ -51,15 +46,16 @@ export async function renderHome(view, _params, current) {
     </div>
     <aside class="dates" aria-labelledby="dates-h">
       <h2 id="dates-h">Key dates and information</h2>
-      <dl>
+      <div class="dates-cols"><dl>
         <dt>Early voting</dt><dd>Monday, October 19 to Friday, October 30, 2026</dd>
         <dt>Last day to apply for a mail ballot</dt><dd>Received by Friday, October 23, 2026</dd>
         <dt>Election Day</dt><dd>Tuesday, November 3, 2026, 7 a.m. to 7 p.m.</dd>
         <dt>Bring</dt><dd>An acceptable photo ID. <a href="https://www.votetexas.gov/mobile/id-faqs.htm" rel="noopener" target="_blank">See the ID list</a></dd>
+      </dl><dl>
         <dt>Registration</dt><dd><a href="/am-i-registered">Check that you are registered</a> on the official Texas lookup.</dd>
         <dt>Polling places</dt><dd><a href="/where-to-vote">Find your polling place</a>: every early voting and Election Day location in your county on a map, with today's hours, distance, and directions.</dd>
         <dt>Sample ballot</dt><dd><a href="/my-ballot">Build your ballot here</a> and print it, or see your county's official sample ballot through <a href="https://www.votetexas.gov/" rel="noopener" target="_blank">VoteTexas.gov</a>.</dd>
-      </dl>
+      </dl></div>
     </aside>
   </section>
 
@@ -79,7 +75,6 @@ export async function renderHome(view, _params, current) {
     <div class="section-head"><h2 id="ballot-h">Your ballot at a glance</h2><a href="/candidates">Browse all races</a></div>
     <div style="max-width:420px;margin-bottom:14px">${countyPicker(guide, options.counties, county, 'home-county')}</div>
     <div id="glance">${glance()}</div>
-    <p class="small muted" style="margin-top:10px">Full ballots are loaded for: ${esc(loaded.map(countyLabel).join(', '))}. This guide documents ${stanceCount} issue positions from ${sourceCount} cited sources across ${cands.length} candidates. Districts for Congress, the Texas Senate, the Texas House, commissioners, and justices of the peace depend on your address, so check your sample ballot to see which races appear on yours.</p>
   </section>
 
   <section aria-labelledby="neutral-h">
