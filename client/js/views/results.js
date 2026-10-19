@@ -48,6 +48,12 @@ function bar(score, cls = '') {
 
 const offered = new Set();
 const PARTY_BAR = (name) => PARTY_CLASS[name] || '';
+// Social networks save a link's preview the first time it is posted. The share
+// link carries a version, so a new design or a change to the top issues setting
+// gives a fresh link that networks fetch again. Bump IMAGE_REV when the image changes.
+const IMAGE_REV = 2;
+const shareLink = (data) =>
+  `${location.origin}/results/${encodeURIComponent(data.share_id)}?v=${IMAGE_REV}${data.share_issues ? 'i' : ''}`;
 const imageUrl = (id, format, v) => `/api/share/${encodeURIComponent(id)}/${format}.png?v=${v ? 2 : 1}`;
 
 function partyBars(parties) {
@@ -130,11 +136,6 @@ function sharePanel(data, url) {
 function bindShare(view, data, url) {
   const text = shareText();
   let withIssues = Boolean(data.share_issues);
-  const refresh = () => {
-    $('#share-img', view).src = imageUrl(data.share_id, 'card', withIssues);
-    $('#dl-card', view).href = `${imageUrl(data.share_id, 'card', withIssues)}&download=1`;
-    $('#dl-story', view).href = `${imageUrl(data.share_id, 'story', withIssues)}&download=1`;
-  };
   $('#share-issues', view)?.addEventListener('change', async (e) => {
     const want = e.target.checked;
     e.target.disabled = true;
@@ -143,7 +144,10 @@ function bindShare(view, data, url) {
       withIssues = want;
       data.share_issues = want;
       resultCache.put(data);
-      refresh();
+      // The share buttons need the new link, so the panel is drawn again.
+      const panel = $('#share-panel', view);
+      panel.outerHTML = sharePanel(data, shareLink(data));
+      bindShare(view, data, shareLink(data));
       toast(want ? 'Your top issues will show when you share.' : 'Your top issues are hidden from your share.');
     } catch (ex) {
       e.target.checked = !want;
@@ -210,7 +214,7 @@ function bindShare(view, data, url) {
 function draw(view, guide, data, isNew) {
   const { results } = data;
   const owner = Boolean(data.owner);
-  const url = `${location.origin}/results/${data.share_id}`;
+  const url = shareLink(data);
   const parties = [...results.parties].filter((p) => p.score !== null).sort((a, b) => b.score - a.score);
   const best = parties[0];
   const raceById = Object.fromEntries(guide.races.map((r) => [r.id, r]));
