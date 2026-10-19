@@ -56,6 +56,7 @@ export async function renderHome(view, _params, current) {
         <dt>Last day to apply for a mail ballot</dt><dd>Received by Friday, October 23, 2026</dd>
         <dt>Election Day</dt><dd>Tuesday, November 3, 2026, 7 a.m. to 7 p.m.</dd>
         <dt>Bring</dt><dd>An acceptable photo ID. <a href="https://www.votetexas.gov/mobile/id-faqs.htm" rel="noopener" target="_blank">See the ID list</a></dd>
+        <dt>Registration</dt><dd><a href="/am-i-registered">Check that you are registered</a> on the official Texas lookup.</dd>
         <dt>Polling places</dt><dd><a href="/where-to-vote">Find your polling place</a>: every early voting and Election Day location in your county on a map, with today's hours, distance, and directions.</dd>
         <dt>Sample ballot</dt><dd><a href="/my-ballot">Build your ballot here</a> and print it, or see your county's official sample ballot through <a href="https://www.votetexas.gov/" rel="noopener" target="_blank">VoteTexas.gov</a>.</dd>
       </dl>

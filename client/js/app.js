@@ -18,7 +18,7 @@ import { renderVote } from './views/vote.js';
 import { session, plan } from './api.js';
 import { initMotion, routeProgress, afterRender } from './motion.js';
 import { renderScoring } from './views/scoring.js';
-import { renderMethodology, renderTerms, renderPrivacy } from './views/pages.js';
+import { renderMethodology, renderTerms, renderPrivacy, renderRegistered } from './views/pages.js';
 
 const routes = [
   [/^\/$/, renderHome, '/'],
@@ -30,6 +30,7 @@ const routes = [
   [/^\/issues$/, renderIssues, '/issues'],
   [/^\/scoring$/, renderScoring, '/scoring'],
   [/^\/where-to-vote$/, renderVote, null],
+  [/^\/am-i-registered$/, renderRegistered, null],
   [/^\/my-ballot$/, renderBallot, '/my-ballot'],
   [/^\/my-ballot\/print$/, renderBallotPrint, '/my-ballot'],
   [/^\/account$/, renderAccount, '/account'],

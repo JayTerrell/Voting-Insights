@@ -158,3 +158,50 @@ export async function renderPrivacy(view, _p, current) {
     <p>Privacy questions and requests: ${contact}.</p>
   </div>`;
 }
+
+const SOS_LOOKUP = 'https://teamrv-mvp.sos.texas.gov/MVP/mvp.do';
+
+export function renderRegistered(view) {
+  setTitle('Am I Registered?');
+  view.innerHTML = `<div class="prose reg-page">
+    <span class="eyebrow">Voter Registration</span>
+    <h1>Am I registered to vote?</h1>
+    <p class="lede">The Texas Secretary of State keeps the official list of registered voters. Check your status there in about a minute. VotersHub does not see or store anything you enter on the state's site.</p>
+    <p><a class="btn" href="${SOS_LOOKUP}" target="_blank" rel="noopener">Check my registration on the official Texas site</a></p>
+
+    <h2>What you will need</h2>
+    <p>The state's lookup asks for one of these combinations:</p>
+    <ul>
+      <li>Your first and last name, your county, and your date of birth</li>
+      <li>Your Texas driver's license number and your date of birth</li>
+      <li>Your voter ID number (VUID, printed on your voter registration card) and your date of birth</li>
+    </ul>
+    <p>Enter your name exactly as you registered. If nothing comes up, try the driver's license option, or a former last name.</p>
+
+    <h2>Who can register in Texas</h2>
+    <p>To register, you must:</p>
+    <ul>
+      <li>Be a United States citizen</li>
+      <li>Be a resident of the county where you register</li>
+      <li>Be at least 18 years old on Election Day (you may register at 17 years and 10 months)</li>
+      <li>Not be a convicted felon, unless your sentence is complete, including any probation or parole</li>
+      <li>Not have been declared mentally incapacitated by a court</li>
+    </ul>
+
+    <h2>Deadline for this election</h2>
+    <p>Texas requires you to register at least 30 days before an election. For the November 3, 2026 general election, the deadline was Monday, October 5, 2026. If you register now, you will be ready for future elections.</p>
+
+    <h2>What the result means</h2>
+    <ul>
+      <li><b>You are listed as active.</b> You are ready to vote. <a href="/where-to-vote">Find where to vote</a> and bring an <a href="https://www.votetexas.gov/mobile/id-faqs.htm" target="_blank" rel="noopener">acceptable photo ID</a>. You do not need your registration card.</li>
+      <li><b>Your address is out of date.</b> If you moved within the same county, you can update your address when you vote by filling out a Statement of Residence at the polls.</li>
+      <li><b>You are listed as "suspense."</b> You can usually still vote. You will be asked to confirm your address at the polls.</li>
+      <li><b>You are not found.</b> Contact your county elections office or call the Secretary of State at 1-800-252-VOTE (8683). If you believe you are registered, you can still cast a provisional ballot at the polls.</li>
+    </ul>
+
+    <h2>Register or update your registration</h2>
+    <p>Texas does not offer full online registration. You can request a postage-paid application, print one, or pick one up at your county elections office, a post office, or a public library. Learn how at <a href="https://www.votetexas.gov/register-to-vote/" target="_blank" rel="noopener">VoteTexas.gov</a>.</p>
+
+    <p class="small muted">Requirements are from the <a href="https://www.sos.texas.gov/elections/voter/reqvr.shtml" target="_blank" rel="noopener">Texas Secretary of State</a>. Please confirm anything important with your county elections office.</p>
+  </div>`;
+}
