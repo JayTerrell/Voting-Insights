@@ -1,0 +1,430 @@
+{
+  "county": "Burnet",
+  "model": "countywide",
+  "checked_at": "2026-10-19T02:28:00Z",
+  "sources": [
+    {
+      "title": "Burnet County: Early Voting Schedule",
+      "url": "https://www.burnetcountytexas.org/1564/Early-Voting-Schedule"
+    },
+    {
+      "title": "Burnet County: Polling Locations",
+      "url": "https://www.burnetcountytexas.org/1331/Polling-Locations"
+    },
+    {
+      "title": "November 3, 2026 Early Voting Hours (PDF)",
+      "url": "https://www.burnetcountytexas.org/DocumentCenter/View/3221"
+    },
+    {
+      "title": "November 3, 2026 General Election Vote Centers (PDF)",
+      "url": "https://www.burnetcountytexas.org/DocumentCenter/View/3352"
+    }
+  ],
+  "lookup_url": null,
+  "wait_times_url": null,
+  "early_voting": {
+    "schedule": [
+      {
+        "date": "2026-10-19",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-20",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-21",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-22",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-23",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-24",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-25",
+        "open": "10:00",
+        "close": "16:00"
+      },
+      {
+        "date": "2026-10-26",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-27",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-28",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-29",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-30",
+        "open": "07:00",
+        "close": "19:00"
+      }
+    ],
+    "sites": [
+      {
+        "name": "AgriLife Auditorium",
+        "address": "607 N. Vandeveer",
+        "city": "Burnet",
+        "zip": "78611",
+        "room": "",
+        "schedule": null,
+        "notes": "Main early voting location."
+      },
+      {
+        "name": "Bertram Community Center",
+        "address": "340 S. Gabriel St.",
+        "city": "Bertram",
+        "zip": "78605",
+        "room": "",
+        "schedule": [
+          {
+            "date": "2026-10-19",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-20",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-21",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-22",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-23",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-24",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-26",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-27",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-28",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-29",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-30",
+            "open": "07:00",
+            "close": "19:00"
+          }
+        ],
+        "notes": "Branch location: closed Sunday, October 25, with shorter hours than the main site."
+      },
+      {
+        "name": "Granite Shoals Community Center",
+        "address": "1208 N. Phillips Ranch Rd.",
+        "city": "Granite Shoals",
+        "zip": "78654",
+        "room": "",
+        "schedule": [
+          {
+            "date": "2026-10-19",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-20",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-21",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-22",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-23",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-24",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-26",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-27",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-28",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-29",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-30",
+            "open": "07:00",
+            "close": "19:00"
+          }
+        ],
+        "notes": "Branch location: closed Sunday, October 25, with shorter hours than the main site."
+      },
+      {
+        "name": "Texas Tech at Marble Falls",
+        "address": "806 Steve Hawkins Pkwy.",
+        "city": "Marble Falls",
+        "zip": "78654",
+        "room": "",
+        "schedule": [
+          {
+            "date": "2026-10-19",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-20",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-21",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-22",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-23",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-24",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-26",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-27",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-28",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-29",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-30",
+            "open": "07:00",
+            "close": "19:00"
+          }
+        ],
+        "notes": "Branch location: closed Sunday, October 25, with shorter hours than the main site."
+      }
+    ]
+  },
+  "election_day": {
+    "open": "07:00",
+    "close": "19:00",
+    "sites": [
+      {
+        "name": "Burnet County Agrilife",
+        "address": "607 N. Vandeveer St.",
+        "city": "Burnet",
+        "zip": "78611",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Bertram Community Center",
+        "address": "340 S. Gabriel St.",
+        "city": "Bertram",
+        "zip": "78605",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Briggs Firehouse",
+        "address": "2285 Hwy 183",
+        "city": "Briggs",
+        "zip": "78605",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Church of Christ",
+        "address": "711 Broadway",
+        "city": "Marble Falls",
+        "zip": "78654",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Grace United Methodist Church",
+        "address": "4007 Valley View",
+        "city": "Granite Shoals",
+        "zip": "78654",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Granite Shoals Community Center",
+        "address": "1208 N. Phillips Ranch Rd.",
+        "city": "Granite Shoals",
+        "zip": "78654",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Highland Haven Community Center",
+        "address": "118 Blackbird Dr.",
+        "city": "Highland Haven",
+        "zip": "78654",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Hoover Valley Volunteer Fire Dept.",
+        "address": "303 County Road 118B",
+        "city": "Burnet",
+        "zip": "78611",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Lake Victor Community Center",
+        "address": "200 Lake Avenue",
+        "city": "Lake Victor",
+        "zip": "78611",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Meadowlakes City Hall",
+        "address": "177 Broadmoor St., #B",
+        "city": "Meadowlakes",
+        "zip": "78654",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Naruna Church",
+        "address": "9170 FM 1478",
+        "city": "Lampasas",
+        "zip": "76550",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Oakalla Community Center",
+        "address": "29011 FM 963",
+        "city": "Oakalla",
+        "zip": "78608",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Silver Creek Community Center",
+        "address": "101 County Road 128",
+        "city": "Burnet",
+        "zip": "78611",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Smithwick Community Center",
+        "address": "10800 E. FM 1431",
+        "city": "Marble Falls",
+        "zip": "78654",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Spicewood Community Center",
+        "address": "7901 County Road 404",
+        "city": "Spicewood",
+        "zip": "78669",
+        "room": "",
+        "notes": ""
+      },
+      {
+        "name": "Texas Tech at Highland Lakes",
+        "address": "806 Steve Hawkins Pkwy.",
+        "city": "Marble Falls",
+        "zip": "78654",
+        "room": "",
+        "notes": ""
+      }
+    ]
+  },
+  "notes": "Burnet County uses vote centers, so registered voters may vote at any open location during early voting and on Election Day. Hours differ by early voting site: only the AgriLife Auditorium in Burnet is open Sunday, October 25, and the three branch sites close at 5 p.m. except on October 29 and 30."
+}

@@ -1,0 +1,613 @@
+{
+  "county": "Taylor",
+  "model": "countywide",
+  "checked_at": "2026-10-19T02:27:00Z",
+  "sources": [
+    {
+      "title": "Taylor County Elections: Current Election",
+      "url": "https://www.taylorcounty.texas.gov/214/Current-Election"
+    },
+    {
+      "title": "Taylor County Early Voting Schedule, November 3, 2026 (PDF)",
+      "url": "https://www.taylorcounty.texas.gov/DocumentCenter/View/5259"
+    },
+    {
+      "title": "Taylor County Countywide Election Day Vote Center Locations (PDF)",
+      "url": "https://www.taylorcounty.texas.gov/DocumentCenter/View/5260"
+    }
+  ],
+  "lookup_url": null,
+  "wait_times_url": null,
+  "early_voting": {
+    "schedule": [
+      {
+        "date": "2026-10-19",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-20",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-21",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-22",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-23",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-24",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-25",
+        "open": "12:00",
+        "close": "18:00"
+      },
+      {
+        "date": "2026-10-26",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-27",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-28",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-29",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-30",
+        "open": "07:00",
+        "close": "19:00"
+      }
+    ],
+    "sites": [
+      {
+        "name": "Taylor County Plaza",
+        "address": "400 Oak Street, Suite 101A",
+        "city": "Abilene",
+        "zip": "",
+        "room": "",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Abilene City Hall",
+        "address": "555 Walnut Street",
+        "city": "Abilene",
+        "zip": "",
+        "room": "East entrance, main foyer",
+        "schedule": [
+          {
+            "date": "2026-10-19",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-20",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-21",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-22",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-23",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-24",
+            "open": "08:00",
+            "close": "20:00"
+          },
+          {
+            "date": "2026-10-25",
+            "open": "12:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-26",
+            "open": "08:00",
+            "close": "20:00"
+          },
+          {
+            "date": "2026-10-27",
+            "open": "08:00",
+            "close": "20:00"
+          },
+          {
+            "date": "2026-10-28",
+            "open": "08:00",
+            "close": "20:00"
+          },
+          {
+            "date": "2026-10-29",
+            "open": "08:00",
+            "close": "20:00"
+          },
+          {
+            "date": "2026-10-30",
+            "open": "08:00",
+            "close": "20:00"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Mall of Abilene",
+        "address": "4310 Buffalo Gap Road",
+        "city": "Abilene",
+        "zip": "",
+        "room": "Main corridor by Hendrick",
+        "schedule": [
+          {
+            "date": "2026-10-19",
+            "open": "10:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-20",
+            "open": "10:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-21",
+            "open": "10:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-22",
+            "open": "10:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-23",
+            "open": "10:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-24",
+            "open": "08:00",
+            "close": "20:00"
+          },
+          {
+            "date": "2026-10-25",
+            "open": "12:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-26",
+            "open": "08:00",
+            "close": "20:00"
+          },
+          {
+            "date": "2026-10-27",
+            "open": "08:00",
+            "close": "20:00"
+          },
+          {
+            "date": "2026-10-28",
+            "open": "08:00",
+            "close": "20:00"
+          },
+          {
+            "date": "2026-10-29",
+            "open": "08:00",
+            "close": "20:00"
+          },
+          {
+            "date": "2026-10-30",
+            "open": "08:00",
+            "close": "20:00"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "name": "United Supermarket S. 14th",
+        "address": "3301 S. 14th Street",
+        "city": "Abilene",
+        "zip": "",
+        "room": "",
+        "schedule": [
+          {
+            "date": "2026-10-19",
+            "open": "10:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-20",
+            "open": "10:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-21",
+            "open": "10:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-22",
+            "open": "10:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-23",
+            "open": "10:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-24",
+            "open": "08:00",
+            "close": "20:00"
+          },
+          {
+            "date": "2026-10-25",
+            "open": "12:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-26",
+            "open": "08:00",
+            "close": "20:00"
+          },
+          {
+            "date": "2026-10-27",
+            "open": "08:00",
+            "close": "20:00"
+          },
+          {
+            "date": "2026-10-28",
+            "open": "08:00",
+            "close": "20:00"
+          },
+          {
+            "date": "2026-10-29",
+            "open": "08:00",
+            "close": "20:00"
+          },
+          {
+            "date": "2026-10-30",
+            "open": "08:00",
+            "close": "20:00"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "name": "United Supermarket N.10th",
+        "address": "920 N. Willis Street",
+        "city": "Abilene",
+        "zip": "",
+        "room": "",
+        "schedule": [
+          {
+            "date": "2026-10-19",
+            "open": "10:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-20",
+            "open": "10:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-21",
+            "open": "10:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-22",
+            "open": "10:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-23",
+            "open": "10:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-24",
+            "open": "08:00",
+            "close": "20:00"
+          },
+          {
+            "date": "2026-10-25",
+            "open": "12:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-26",
+            "open": "08:00",
+            "close": "20:00"
+          },
+          {
+            "date": "2026-10-27",
+            "open": "08:00",
+            "close": "20:00"
+          },
+          {
+            "date": "2026-10-28",
+            "open": "08:00",
+            "close": "20:00"
+          },
+          {
+            "date": "2026-10-29",
+            "open": "08:00",
+            "close": "20:00"
+          },
+          {
+            "date": "2026-10-30",
+            "open": "08:00",
+            "close": "20:00"
+          }
+        ],
+        "notes": ""
+      },
+      {
+        "name": "United Supermarket Judge Ely",
+        "address": "1095 N. Judge Ely Boulevard",
+        "city": "Abilene",
+        "zip": "",
+        "room": "",
+        "schedule": [
+          {
+            "date": "2026-10-19",
+            "open": "10:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-20",
+            "open": "10:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-21",
+            "open": "10:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-22",
+            "open": "10:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-23",
+            "open": "10:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-24",
+            "open": "08:00",
+            "close": "20:00"
+          },
+          {
+            "date": "2026-10-25",
+            "open": "12:00",
+            "close": "18:00"
+          },
+          {
+            "date": "2026-10-26",
+            "open": "08:00",
+            "close": "20:00"
+          },
+          {
+            "date": "2026-10-27",
+            "open": "08:00",
+            "close": "20:00"
+          },
+          {
+            "date": "2026-10-28",
+            "open": "08:00",
+            "close": "20:00"
+          },
+          {
+            "date": "2026-10-29",
+            "open": "08:00",
+            "close": "20:00"
+          },
+          {
+            "date": "2026-10-30",
+            "open": "08:00",
+            "close": "20:00"
+          }
+        ],
+        "notes": ""
+      }
+    ]
+  },
+  "election_day": {
+    "open": "07:00",
+    "close": "19:00",
+    "sites": [
+      {
+        "name": "Abilene City Hall",
+        "address": "555 Walnut Street",
+        "city": "Abilene",
+        "zip": "79601",
+        "room": "Main Foyer",
+        "notes": ""
+      },
+      {
+        "name": "Buffalo Gap Church of Christ",
+        "address": "741 Litel Street",
+        "city": "Buffalo Gap",
+        "zip": "79508",
+        "room": "Fellowship Hall",
+        "notes": ""
+      },
+      {
+        "name": "Christian Service Center",
+        "address": "922 Woodlawn Drive",
+        "city": "Abilene",
+        "zip": "79603",
+        "room": "Multi-Purpose Room, East Wing",
+        "notes": ""
+      },
+      {
+        "name": "ECCA Volunteer Fire Department",
+        "address": "6870 FM 89",
+        "city": "Tuscola",
+        "zip": "79562",
+        "room": "Main Room",
+        "notes": ""
+      },
+      {
+        "name": "First Baptist Church - Merkel",
+        "address": "307 Locust Street",
+        "city": "Merkel",
+        "zip": "79536",
+        "room": "Family Life Center",
+        "notes": ""
+      },
+      {
+        "name": "First Baptist Church - Tuscola",
+        "address": "702 Kent Street",
+        "city": "Tuscola",
+        "zip": "79562",
+        "room": "Sanctuary",
+        "notes": ""
+      },
+      {
+        "name": "First Church of the Nazarene",
+        "address": "2849 Beltway South",
+        "city": "Abilene",
+        "zip": "79606",
+        "room": "Main Foyer",
+        "notes": ""
+      },
+      {
+        "name": "Hillcrest Church of Christ",
+        "address": "650 E. Ambler Avenue",
+        "city": "Abilene",
+        "zip": "79601",
+        "room": "Multi-Purpose Room - Gym",
+        "notes": ""
+      },
+      {
+        "name": "Lawn Baptist Church",
+        "address": "518 Avenue D",
+        "city": "Lawn",
+        "zip": "79530",
+        "room": "Family Life Center",
+        "notes": ""
+      },
+      {
+        "name": "Minda Street Church of Christ",
+        "address": "701 Minda Street",
+        "city": "Abilene",
+        "zip": "79602",
+        "room": "Multi-Purpose Room",
+        "notes": ""
+      },
+      {
+        "name": "New Beginnings United Pentecostal",
+        "address": "5535 Buffalo Gap Road",
+        "city": "Abilene",
+        "zip": "79606",
+        "room": "Sanctuary",
+        "notes": ""
+      },
+      {
+        "name": "Recreation Center @ Sears Park",
+        "address": "2250 Ambler Avenue",
+        "city": "Abilene",
+        "zip": "79603",
+        "room": "Multi-Purpose Room",
+        "notes": ""
+      },
+      {
+        "name": "River of Life Church",
+        "address": "539 Hwy 83/84",
+        "city": "Abilene",
+        "zip": "79606",
+        "room": "Main Foyer",
+        "notes": ""
+      },
+      {
+        "name": "Southern Hills Church of Christ",
+        "address": "3666 Buffalo Gap Road",
+        "city": "Abilene",
+        "zip": "79605",
+        "room": "Foyer at Main Sanctuary",
+        "notes": ""
+      },
+      {
+        "name": "Taylor County Plaza",
+        "address": "400 Oak Street",
+        "city": "Abilene",
+        "zip": "79602",
+        "room": "Suite 101-A",
+        "notes": ""
+      },
+      {
+        "name": "Tye Community Center",
+        "address": "103 Scott Street",
+        "city": "Tye",
+        "zip": "79563",
+        "room": "Main Room",
+        "notes": ""
+      },
+      {
+        "name": "Victory Free Methodist Church",
+        "address": "3333 S. 11th Street",
+        "city": "Abilene",
+        "zip": "79605",
+        "room": "West Building Multi-Purpose Room",
+        "notes": ""
+      },
+      {
+        "name": "View Baptist Church",
+        "address": "250 Boynton Road",
+        "city": "Abilene",
+        "zip": "79606",
+        "room": "Fellowship Hall",
+        "notes": ""
+      },
+      {
+        "name": "Westminster Presbyterian Church",
+        "address": "4515 South 14th Street",
+        "city": "Abilene",
+        "zip": "79605",
+        "room": "Gym",
+        "notes": ""
+      },
+      {
+        "name": "Zion Lutheran Church",
+        "address": "2801 Antilley Road",
+        "city": "Abilene",
+        "zip": "79606",
+        "room": "Large Fellowship Hall",
+        "notes": ""
+      }
+    ]
+  },
+  "notes": "Taylor County uses countywide vote centers, so you may vote at any listed location on Election Day. Early voting hours differ by site: the supermarket and mall sites open 10 a.m. to 6 p.m. in the first week, and most sites other than Taylor County Plaza stay open until 8 p.m. on Oct 24 and Oct 26 to 30."
+}

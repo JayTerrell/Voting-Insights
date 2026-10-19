@@ -1,0 +1,306 @@
+{
+  "county": "Wilson",
+  "model": "precinct",
+  "checked_at": "2026-10-19T02:30:00Z",
+  "sources": [
+    {
+      "title": "Wilson County Elections",
+      "url": "https://www.co.wilson.tx.us/page/wilson.Elections"
+    },
+    {
+      "title": "Wilson County Early Voting Locations, Dates & Time (PDF)",
+      "url": "https://www.co.wilson.tx.us/upload/page/2254/docs/Elections/11.03.2026%20General/NOVEMBER%203%20EV%20DATES%20AND%20TIME.pdf"
+    },
+    {
+      "title": "Wilson County Election Day Polling Locations (PDF)",
+      "url": "https://www.co.wilson.tx.us/upload/page/2254/docs/Elections/11.03.2026%20General/2026%20NOVEMBER%203%20Polling%20Locations.pdf"
+    }
+  ],
+  "lookup_url": null,
+  "wait_times_url": null,
+  "early_voting": {
+    "schedule": [
+      {
+        "date": "2026-10-19",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-20",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-21",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-22",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-23",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-24",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-25",
+        "open": "13:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-26",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-27",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-28",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-29",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-30",
+        "open": "07:00",
+        "close": "19:00"
+      }
+    ],
+    "sites": [
+      {
+        "name": "Wilson County Elections Office",
+        "address": "1103 4th St",
+        "city": "Floresville",
+        "zip": "78114",
+        "room": "Bldg. B, Ste. 101",
+        "schedule": null,
+        "notes": "Main early voting location"
+      },
+      {
+        "name": "La Vernia Church of Christ",
+        "address": "131 Industrial Dr.",
+        "city": "La Vernia",
+        "zip": "78121",
+        "room": "",
+        "schedule": [
+          {
+            "date": "2026-10-19",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-20",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-21",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-22",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-23",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-24",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-25",
+            "open": "13:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-26",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-27",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-28",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-29",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-30",
+            "open": "08:00",
+            "close": "17:00"
+          }
+        ],
+        "notes": "Branch location, 8 a.m. to 5 p.m. except Sunday"
+      }
+    ]
+  },
+  "election_day": {
+    "open": "07:00",
+    "close": "19:00",
+    "sites": [
+      {
+        "name": "WILSON COUNTY ESD #2 (WILLIAM D. “BILL” KINNEY STATION)",
+        "address": "191 Cimarron Dr.",
+        "city": "Floresville",
+        "zip": "",
+        "room": "",
+        "precincts": [
+          "101"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "FLORESVILLE SACRED HEART PARISH HALL",
+        "address": "921 3rd Street",
+        "city": "Floresville",
+        "zip": "",
+        "room": "",
+        "precincts": [
+          "102"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "SPJST HALL",
+        "address": "1156 FM 1303",
+        "city": "Floresville",
+        "zip": "",
+        "room": "",
+        "precincts": [
+          "103",
+          "104"
+        ],
+        "notes": "1 Mile N of Intersection FM 536 & 1303"
+      },
+      {
+        "name": "ST. JOHN EDUCATION BUILDING",
+        "address": "112 Titcomb",
+        "city": "Poth",
+        "zip": "",
+        "room": "",
+        "precincts": [
+          "205"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "AMERICAN LEGION HALL POST 38",
+        "address": "1412 Fourth Street",
+        "city": "Floresville",
+        "zip": "",
+        "room": "",
+        "precincts": [
+          "206"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "WILSON COUNTY EXPO (FORMERLY SHOWBARN)",
+        "address": "435 ST. Hwy 97 E",
+        "city": "Floresville",
+        "zip": "",
+        "room": "",
+        "precincts": [
+          "207"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "LA VERNIA CHURCH OF CHRIST",
+        "address": "131 Industrial Dr.",
+        "city": "La Vernia",
+        "zip": "",
+        "room": "",
+        "precincts": [
+          "311"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "S.S. WATER SUPPLY CORP.",
+        "address": "10393 US Hwy 87 W.",
+        "city": "La Vernia",
+        "zip": "",
+        "room": "",
+        "precincts": [
+          "312"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "SUTHERLAND SPGS. COMMUNITY BLDG.",
+        "address": "411 4TH St.",
+        "city": "Sutherland Springs",
+        "zip": "",
+        "room": "",
+        "precincts": [
+          "313"
+        ],
+        "notes": "1 block S. of US Hwy 87 @ corner of 4th & 14th"
+      },
+      {
+        "name": "STOCKDALE COMMUNITY BUILDING",
+        "address": "700 W. Main",
+        "city": "Stockdale",
+        "zip": "",
+        "room": "",
+        "precincts": [
+          "414"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "LIFE CHURCH",
+        "address": "7079 FM 775",
+        "city": "La Vernia",
+        "zip": "",
+        "room": "",
+        "precincts": [
+          "415"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "WOOD VALLEY COMMUNITY CENTER",
+        "address": "715 Fuller Lane",
+        "city": "Adkins",
+        "zip": "",
+        "room": "",
+        "precincts": [
+          "416"
+        ],
+        "notes": ""
+      }
+    ]
+  },
+  "notes": "Wilson County votes by precinct (box) on Election Day, so go to the location for your precinct. During early voting you may use either site; the La Vernia branch keeps 8 a.m. to 5 p.m. hours except Sunday Oct 25 (1 p.m. to 7 p.m.)."
+}

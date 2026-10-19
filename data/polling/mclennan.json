@@ -1,0 +1,23 @@
+{
+  "county": "McLennan",
+  "model": "countywide",
+  "checked_at": "2026-10-19T02:31:00Z",
+  "sources": [
+    {
+      "title": "McLennan County: November 3, 2026 Joint General Election",
+      "url": "https://www.mclennan.gov/1350/November-3-2026-Joint-General-Election"
+    }
+  ],
+  "lookup_url": null,
+  "wait_times_url": null,
+  "early_voting": {
+    "schedule": [],
+    "sites": []
+  },
+  "election_day": {
+    "open": "07:00",
+    "close": "19:00",
+    "sites": []
+  },
+  "notes": "Locations not yet recorded: the McLennan County website blocked our automated check, so check the county election page directly. A search listing of that page says Election Day uses vote centers open 7 a.m. to 7 p.m."
+}

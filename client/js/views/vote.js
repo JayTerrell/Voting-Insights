@@ -249,7 +249,7 @@ export async function renderVote(view, _params, current) {
         <div class="vote-map" id="vote-map" role="region" aria-label="Map of voting locations"></div>
         <ol class="vote-list" id="vote-list">${sites.map((s) => siteItem(s, data)).join('')}</ol>
       </div>`
-          : `<div class="panel empty-state"><h2>No ${mode === 'election' ? 'Election Day' : 'early voting'} locations published yet</h2><p>${esc(countyLabel(county))} has not posted this list yet. Check the county source linked above.</p></div>`
+          : `<div class="panel empty-state"><h2>No ${mode === 'election' ? 'Election Day' : 'early voting'} locations published yet</h2><p>We do not have this list for ${esc(countyLabel(county))} yet. Please use the county election website linked above, or <a href="https://www.votetexas.gov/" target="_blank" rel="noopener">VoteTexas.gov</a>.</p></div>`
       }`;
 
     if (sites.length) await drawMap(sites, data);

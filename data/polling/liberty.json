@@ -1,0 +1,311 @@
+{
+  "county": "Liberty",
+  "model": "precinct",
+  "checked_at": "2026-10-19T02:14:10Z",
+  "sources": [
+    {
+      "title": "Liberty County Elections: Nov 3, 2026 General Election",
+      "url": "https://www.co.liberty.tx.us/page/liberty.elections.2026-11-03"
+    },
+    {
+      "title": "Liberty County: Notice of General Election and Voting Locations (PDF)",
+      "url": "https://www.co.liberty.tx.us/upload/page/12682/Notice%20of%20General%20Election.pdf"
+    },
+    {
+      "title": "Liberty County: Notice of Consolidated Precincts (PDF)",
+      "url": "https://www.co.liberty.tx.us/upload/page/12682/Notice%20of%20Consolidated%20Precincts.pdf"
+    }
+  ],
+  "lookup_url": null,
+  "wait_times_url": null,
+  "early_voting": {
+    "schedule": [
+      {
+        "date": "2026-10-19",
+        "open": "09:00",
+        "close": "18:00"
+      },
+      {
+        "date": "2026-10-20",
+        "open": "09:00",
+        "close": "18:00"
+      },
+      {
+        "date": "2026-10-21",
+        "open": "09:00",
+        "close": "18:00"
+      },
+      {
+        "date": "2026-10-22",
+        "open": "09:00",
+        "close": "18:00"
+      },
+      {
+        "date": "2026-10-23",
+        "open": "09:00",
+        "close": "18:00"
+      },
+      {
+        "date": "2026-10-24",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-25",
+        "open": "13:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-26",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-27",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-28",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-29",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-30",
+        "open": "07:00",
+        "close": "19:00"
+      }
+    ],
+    "sites": [
+      {
+        "name": "Cleveland Civic Center",
+        "address": "210 Peach Avenue",
+        "city": "Cleveland",
+        "zip": "",
+        "room": "",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Santa Fe Administration Building",
+        "address": "1680 C.R. 3549",
+        "city": "Cleveland",
+        "zip": "",
+        "room": "",
+        "schedule": null,
+        "notes": "The county's early voting list spells this Sante Fe Administration Building, 1680 Rd. 3549; the Election Day list gives 1680 C.R. 3549."
+      },
+      {
+        "name": "Hardin Community Center",
+        "address": "414 C.R. 2010",
+        "city": "Hardin",
+        "zip": "",
+        "room": "",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Dayton Community Center",
+        "address": "801 S. Cleveland St.",
+        "city": "Dayton",
+        "zip": "",
+        "room": "",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Jack Hartel Community Building",
+        "address": "318 San Jacinto St.",
+        "city": "Liberty",
+        "zip": "",
+        "room": "",
+        "schedule": null,
+        "notes": ""
+      }
+    ]
+  },
+  "election_day": {
+    "open": "07:00",
+    "close": "19:00",
+    "sites": [
+      {
+        "name": "Moss Hill United Pentecostal Church",
+        "address": "127 Highway 105 East",
+        "city": "Moss Hill",
+        "zip": "",
+        "room": "",
+        "precincts": [
+          "1",
+          "2"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Hardin Community Center",
+        "address": "414 C.R. 2010",
+        "city": "Hardin",
+        "zip": "",
+        "room": "",
+        "precincts": [
+          "3"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "First Baptist Church of Devers",
+        "address": "106 Avenue A",
+        "city": "Devers",
+        "zip": "",
+        "room": "",
+        "precincts": [
+          "4"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Dolen Baptist Church Gym",
+        "address": "10078 F.M. 787",
+        "city": "Dolen (Cleveland)",
+        "zip": "",
+        "room": "",
+        "precincts": [
+          "8"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Hi-Way Tabernacle",
+        "address": "108 C.R. 2250",
+        "city": "Cleveland",
+        "zip": "",
+        "room": "",
+        "precincts": [
+          "9",
+          "25"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "St. Anne's Catholic Church Hall",
+        "address": "C.R. 622 & F.M. 686",
+        "city": "Eastgate (Dayton)",
+        "zip": "",
+        "room": "",
+        "precincts": [
+          "10"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Sacred Heart Catholic Church",
+        "address": "3730 F.M. 160",
+        "city": "Raywood",
+        "zip": "",
+        "room": "",
+        "precincts": [
+          "11",
+          "6"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Hull-Daisetta Community Center",
+        "address": "410B Main St.",
+        "city": "Daisetta",
+        "zip": "",
+        "room": "",
+        "precincts": [
+          "13"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Jack Hartel Admin. Building",
+        "address": "318 San Jacinto St.",
+        "city": "Liberty",
+        "zip": "",
+        "room": "",
+        "precincts": [
+          "19",
+          "18"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Cleveland Civic Center",
+        "address": "210 Peach Ave.",
+        "city": "Cleveland",
+        "zip": "",
+        "room": "",
+        "precincts": [
+          "20",
+          "7",
+          "26"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Kenefick Southern Baptist Church",
+        "address": "3536 F.M. 1008",
+        "city": "Kenefick",
+        "zip": "",
+        "room": "",
+        "precincts": [
+          "21"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Dayton Community Center",
+        "address": "801 S. Cleveland St.",
+        "city": "Dayton",
+        "zip": "",
+        "room": "",
+        "precincts": [
+          "22",
+          "30"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Santa Fe Administration Building",
+        "address": "1680 C.R. 3549",
+        "city": "Cleveland",
+        "zip": "",
+        "room": "",
+        "precincts": [
+          "23"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Westlake Fire Department",
+        "address": "8704 F.M. 1409",
+        "city": "Westlake (Dayton)",
+        "zip": "",
+        "room": "",
+        "precincts": [
+          "24"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Plum Grove City Hall",
+        "address": "9485 Plum Grove Rd.",
+        "city": "Plum Grove (Cleveland)",
+        "zip": "",
+        "room": "",
+        "precincts": [
+          "31"
+        ],
+        "notes": ""
+      }
+    ]
+  },
+  "notes": "Liberty County's election notice assigns each precinct to an Election Day location, so voters should use the location for their precinct; the county's consolidated precinct notice also mentions county-wide locations, so call the elections office at 936-253-8050 if unsure. Early voting is 9 a.m. to 6 p.m. Oct 19 to 23, 7 a.m. to 7 p.m. Saturday Oct 24, 1 p.m. to 7 p.m. Sunday Oct 25, and 7 a.m. to 7 p.m. Oct 26 to 30."
+}
