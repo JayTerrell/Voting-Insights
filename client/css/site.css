@@ -3438,3 +3438,188 @@ html.modal-open {
   align-items: center;
   gap: 12px;
 }
+
+/* =====================================================================
+   Where to Vote
+   ===================================================================== */
+.notice-cta {
+  font-weight: 700;
+  padding: 2px 10px;
+  border: 1px solid rgba(255, 253, 248, 0.6);
+  text-decoration: none;
+}
+.notice-cta:hover {
+  background: var(--card);
+  color: var(--navy);
+}
+.vote-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 12px 24px;
+  margin: 8px 0 12px;
+}
+.vote-county {
+  flex: 1 1 260px;
+  max-width: 360px;
+}
+.vote-locate {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+.vote-locate input {
+  flex: 1 1 260px;
+}
+.freshness {
+  margin: 14px 0 12px;
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+.fresh-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #2e6b3f;
+  margin-right: 6px;
+  transform: translateY(-1px);
+}
+@media (prefers-reduced-motion: no-preference) {
+  .fresh-dot {
+    animation: fresh-pulse 2.4s ease-in-out infinite;
+  }
+  @keyframes fresh-pulse {
+    50% {
+      opacity: 0.35;
+    }
+  }
+}
+.vote-schedule {
+  margin: 10px 0 16px;
+}
+.vote-schedule summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--navy);
+}
+.vote-schedule table {
+  max-width: 420px;
+  margin-top: 8px;
+}
+.vote-layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0;
+  border: 1px solid var(--rule);
+  background: var(--card);
+  margin-top: 8px;
+}
+@media (min-width: 900px) {
+  .vote-layout {
+    grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
+    height: 640px;
+  }
+}
+.vote-map {
+  height: 340px;
+  background: var(--tan);
+}
+@media (min-width: 900px) {
+  .vote-map {
+    height: 100%;
+  }
+}
+.vote-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+  border-top: 1px solid var(--rule);
+}
+@media (min-width: 900px) {
+  .vote-list {
+    border-top: 0;
+    border-left: 1px solid var(--rule);
+  }
+}
+@media (max-width: 899px) {
+  .vote-list {
+    max-height: 70vh;
+  }
+}
+.vote-site {
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--rule-soft);
+  cursor: pointer;
+  transition: background-color var(--dur-short) var(--ease-in-out);
+}
+.vote-site:hover {
+  background: var(--paper);
+}
+.vote-site.active {
+  background: #eef1f6;
+  box-shadow: inset 4px 0 0 var(--navy);
+}
+.vote-site-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: baseline;
+}
+.vote-site h3 {
+  margin: 0;
+  font-size: 1.02rem;
+}
+.distance {
+  flex: none;
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: var(--navy);
+}
+.vote-address {
+  margin: 2px 0 6px;
+  font-size: 0.92rem;
+}
+.vote-hours {
+  margin: 0 0 8px;
+}
+.open-badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 2px 8px;
+  border: 1px solid var(--rule);
+  color: var(--muted);
+  background: var(--paper);
+}
+.open-badge.is-open {
+  border-color: #2e6b3f;
+  color: #2e6b3f;
+  background: #eef6f0;
+}
+.map-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.lookup-card {
+  margin: 12px 0;
+  border-top: 3px solid var(--red);
+}
+.lookup-card h2 {
+  font-size: 1.2rem;
+  margin: 0 0 4px;
+}
+.lookup-place {
+  padding: 10px 0;
+  border-top: 1px solid var(--rule-soft);
+}
+.leaflet-container {
+  font-family: var(--sans);
+}
+.leaflet-control-attribution {
+  font-size: 10px;
+}

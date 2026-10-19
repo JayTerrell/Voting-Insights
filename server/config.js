@@ -36,6 +36,8 @@ export const config = {
     keyId: clean(env.APPLE_KEY_ID),
     privateKey: env.APPLE_PRIVATE_KEY || '',
   },
+  // Optional: Google Civic Information API, for address-based polling place lookups.
+  civicApiKey: clean(env.GOOGLE_CIVIC_API_KEY),
   smtp: {
     host: env.SMTP_HOST || '',
     port: Number(env.SMTP_PORT || 587),

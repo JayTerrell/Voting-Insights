@@ -6,7 +6,8 @@ export const CONTENT_SECURITY_POLICY = [
   "script-src 'self'",
   "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
   "font-src 'self' https://fonts.gstatic.com",
-  "img-src 'self' data:",
+  // Map images come from Stadia Maps on the Where to Vote page.
+  "img-src 'self' data: https://tiles.stadiamaps.com",
   "connect-src 'self'",
   "form-action 'self'",
   "base-uri 'self'",
@@ -20,7 +21,8 @@ export const SECURITY_HEADERS = {
   'X-Content-Type-Options': 'nosniff',
   'X-Frame-Options': 'DENY',
   'Referrer-Policy': 'strict-origin-when-cross-origin',
-  'Permissions-Policy': 'camera=(), microphone=(), geolocation=(), interest-cohort=()',
+  // Location is allowed on this site only, for sorting polling places by distance.
+  'Permissions-Policy': 'camera=(), microphone=(), geolocation=(self), interest-cohort=()',
   'Cross-Origin-Opener-Policy': 'same-origin',
 };
 

@@ -8,6 +8,7 @@ import { notFound, errorHandler } from './middleware/errors.js';
 import { guideRoutes } from './routes/guide.js';
 import { accountRoutes } from './routes/account.js';
 import { authRoutes } from './routes/auth.js';
+import { pollingRoutes } from './routes/polling.js';
 import { resultRoutes } from './routes/results.js';
 import { adminRoutes } from './routes/admin.js';
 import { pageRoutes } from './routes/pages.js';
@@ -28,6 +29,7 @@ export function createApp() {
   api.use(healthRoutes);
   api.use(noStore, accountRoutes);
   api.use(noStore, authRoutes);
+  api.use(noStore, pollingRoutes);
   api.use(noStore, resultRoutes);
   api.use('/admin', noStore, adminRoutes);
   api.use(notFound);

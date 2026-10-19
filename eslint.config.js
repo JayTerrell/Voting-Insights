@@ -2,7 +2,7 @@ import js from '@eslint/js';
 import globals from 'globals';
 
 export default [
-  { ignores: ['node_modules/', 'client/js/shared/', 'storage/', 'outbox/', '.vercel/'] },
+  { ignores: ['node_modules/', 'client/js/shared/', 'client/vendor/', 'storage/', 'outbox/', '.vercel/'] },
   js.configs.recommended,
   {
     languageOptions: { ecmaVersion: 2024, sourceType: 'module' },

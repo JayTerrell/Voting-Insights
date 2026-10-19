@@ -18,6 +18,7 @@ const { createApp } = await import('../server/app.js');
 const { devOutbox } = await import('../server/services/mailer.js');
 const { getDb, resetDb } = await import('../server/db/index.js');
 const { oauthHttp } = await import('../server/services/oauth.js');
+const { pollingHttp } = await import('../server/services/polling.js');
 const { generateKeyPairSync, sign: rsaSign } = await import('node:crypto');
 
 let server;
@@ -433,4 +434,35 @@ test('profile photos must be small, real images', async () => {
   assert.equal((await call('PUT', '/api/me/avatar', { body: { image: tinyJpeg } })).status, 401);
   const removed = await call('DELETE', '/api/me/avatar', { token });
   assert.equal(removed.json.user.avatar, null);
+});
+
+test('address lookups go to the Census geocoder and report misses', async () => {
+  pollingHttp.fetch = async (url) => {
+    const u = new URL(url);
+    assert.equal(u.host, 'geocoding.geo.census.gov');
+    const hit = u.searchParams.get('address').includes('Redbud');
+    return new Response(
+      JSON.stringify({
+        result: { addressMatches: hit ? [{ coordinates: { x: -96.6, y: 33.2 }, matchedAddress: '2010 REDBUD BLVD' }] : [] },
+      })
+    );
+  };
+  const ok = await call('GET', '/api/geocode?address=' + encodeURIComponent('2010 Redbud Blvd, McKinney, TX'));
+  assert.equal(ok.status, 200);
+  assert.equal(ok.json.lat, 33.2);
+  assert.equal((await call('GET', '/api/geocode?address=' + encodeURIComponent('nowhere at all'))).status, 404);
+  assert.equal((await call('GET', '/api/geocode?address=ab')).status, 400);
+});
+
+test('the polling place lookup is off until a Civic API key is set', async () => {
+  const r = await call('GET', '/api/polling/lookup?address=' + encodeURIComponent('2010 Redbud Blvd, McKinney, TX'));
+  assert.equal(r.status, 503);
+  const opts = await call('GET', '/api/form-options');
+  assert.equal(opts.json.polling_lookup, false);
+});
+
+test('location is allowed only for this site and map tiles only from Stadia', async () => {
+  const r = await call('GET', '/api/health');
+  assert.match(r.headers.get('permissions-policy'), /geolocation=\(self\)/);
+  assert.match(r.headers.get('content-security-policy'), /img-src 'self' data: https:\/\/tiles\.stadiamaps\.com/);
 });

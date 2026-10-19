@@ -1,3 +1,4 @@
 data/
 client/js/shared/
 package-lock.json
+client/vendor/

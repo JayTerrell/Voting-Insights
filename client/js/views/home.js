@@ -56,7 +56,7 @@ export async function renderHome(view, _params, current) {
         <dt>Last day to apply for a mail ballot</dt><dd>Received by Friday, October 23, 2026</dd>
         <dt>Election Day</dt><dd>Tuesday, November 3, 2026, 7 a.m. to 7 p.m.</dd>
         <dt>Bring</dt><dd>An acceptable photo ID. <a href="https://www.votetexas.gov/mobile/id-faqs.htm" rel="noopener" target="_blank">See the ID list</a></dd>
-        <dt>Polling places and sample ballots</dt><dd><a href="https://www.votetexas.gov/" rel="noopener" target="_blank">VoteTexas.gov</a> or your county elections office${loaded.includes('Collin') ? ` (<a href="https://www.collincountytx.gov/Elections" rel="noopener" target="_blank">Collin County Elections</a>)` : ''}</dd>
+        <dt>Polling places</dt><dd><a href="/where-to-vote">Find where to vote</a>, with hours and directions. Sample ballots: <a href="https://www.votetexas.gov/" rel="noopener" target="_blank">VoteTexas.gov</a> or your county elections office${loaded.includes('Collin') ? ` (<a href="https://www.collincountytx.gov/Elections" rel="noopener" target="_blank">Collin County Elections</a>)` : ''}</dd>
       </dl>
     </aside>
   </section>
