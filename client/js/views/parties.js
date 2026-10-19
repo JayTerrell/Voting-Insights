@@ -95,7 +95,9 @@ function partySection(p, prof, guide) {
 
     <h3 class="party-sub">Where the platform stands, by issue</h3>
     <div class="party-areas">${ISSUE_AREAS.map((area) => {
-      const text = prof?.areas?.[area];
+      // Placeholder text from a source we could not read is not shown.
+      const raw = prof?.areas?.[area];
+      const text = raw && !/could not retrieve/i.test(raw) ? raw : '';
       const stances = byArea.get(area);
       if (!text && !stances.length) return '';
       return `<details class="party-area">
