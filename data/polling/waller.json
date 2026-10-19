@@ -1,0 +1,314 @@
+{
+  "county": "Waller",
+  "model": "precinct",
+  "checked_at": "2026-10-19T02:15:20Z",
+  "sources": [
+    {
+      "title": "Waller County Elections: 2026 County and Entity Elections",
+      "url": "https://www.co.waller.tx.us/page/2026%20County%20and%20Entity%20Elections"
+    },
+    {
+      "title": "Waller County: Notice of Joint General Election, November 3, 2026 (PDF)",
+      "url": "https://www.co.waller.tx.us/upload/page/0286/NOTICE%20OF%20JOINT%20GENERAL%2026.pdf"
+    },
+    {
+      "title": "Waller County Elections: 2026 General Election Early Voting Locations (graphic)",
+      "url": "https://www.co.waller.tx.us/upload/page/0286/EV.png"
+    },
+    {
+      "title": "Waller County Elections: Election Day Locations (graphic)",
+      "url": "https://www.co.waller.tx.us/upload/page/0286/IMG_3962.jpeg"
+    }
+  ],
+  "lookup_url": null,
+  "wait_times_url": null,
+  "early_voting": {
+    "schedule": [
+      {
+        "date": "2026-10-19",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-20",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-21",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-22",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-23",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-24",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-25",
+        "open": "10:00",
+        "close": "16:00"
+      },
+      {
+        "date": "2026-10-26",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-27",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-28",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-29",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-30",
+        "open": "07:00",
+        "close": "19:00"
+      }
+    ],
+    "sites": [
+      {
+        "name": "Joe Kuciemba Annex",
+        "address": "425 FM 1488",
+        "city": "Hempstead",
+        "zip": "",
+        "room": "",
+        "schedule": null,
+        "notes": "Main early voting location."
+      },
+      {
+        "name": "Waller Co Community Center",
+        "address": "21274 FM 1098",
+        "city": "Prairie View",
+        "zip": "",
+        "room": "",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Waller Civic Center",
+        "address": "3007 Waller St.",
+        "city": "Waller",
+        "zip": "",
+        "room": "",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Brookshire Convention Center",
+        "address": "4027 5th St.",
+        "city": "Brookshire",
+        "zip": "",
+        "room": "",
+        "schedule": null,
+        "notes": ""
+      }
+    ]
+  },
+  "election_day": {
+    "open": "07:00",
+    "close": "19:00",
+    "sites": [
+      {
+        "name": "St. Bartholomew's Episcopal Church",
+        "address": "811 14th St",
+        "city": "Hempstead",
+        "zip": "",
+        "room": "",
+        "precincts": [
+          "101"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Joe Kuciemba Annex",
+        "address": "425 FM 1488",
+        "city": "Hempstead",
+        "zip": "",
+        "room": "",
+        "precincts": [
+          "102"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Waller County Fairgrounds",
+        "address": "21988 FM 359",
+        "city": "Hempstead",
+        "zip": "",
+        "room": "",
+        "precincts": [
+          "103",
+          "104"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Rolling Hills Volunteer Fire Dept",
+        "address": "31601 FM 1736",
+        "city": "Hempstead",
+        "zip": "",
+        "room": "",
+        "precincts": [
+          "105"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Mt Zion Methodist Church",
+        "address": "40998 Mt Zion Rd",
+        "city": "Brookshire",
+        "zip": "",
+        "room": "",
+        "precincts": [
+          "106"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Champion Cowboy Church",
+        "address": "27633 FM 1488",
+        "city": "Hockley",
+        "zip": "",
+        "room": "",
+        "precincts": [
+          "207"
+        ],
+        "notes": "The county's Election Day graphic shows 27638 FM 1488."
+      },
+      {
+        "name": "Waller Civic Center",
+        "address": "3007 Waller St",
+        "city": "Waller",
+        "zip": "",
+        "room": "",
+        "precincts": [
+          "208",
+          "210"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Justice of the Peace Pct 2 Office",
+        "address": "27388 Field Store Rd",
+        "city": "Waller",
+        "zip": "",
+        "room": "",
+        "precincts": [
+          "209"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Memorial Student Center, PVAMU",
+        "address": "1551 W Minor Street",
+        "city": "Prairie View",
+        "zip": "",
+        "room": "Student Lounge",
+        "precincts": [
+          "311"
+        ],
+        "notes": "The election notice gives no street address; 1551 W Minor Street is from the county's Election Day graphic."
+      },
+      {
+        "name": "Prairie View City Hall",
+        "address": "44500 Bus. Hwy 290 East",
+        "city": "Prairie View",
+        "zip": "",
+        "room": "",
+        "precincts": [
+          "312"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Monaville Fire Dept",
+        "address": "13631 Cochran Rd",
+        "city": "Waller",
+        "zip": "",
+        "room": "",
+        "precincts": [
+          "313"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Waller-Harris ESD Building",
+        "address": "5411 FM 2855",
+        "city": "Brookshire",
+        "zip": "",
+        "room": "",
+        "precincts": [
+          "314",
+          "315"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Pattison Volunteer Fire Dept",
+        "address": "2950 FM 359 N",
+        "city": "Pattison",
+        "zip": "",
+        "room": "",
+        "precincts": [
+          "416"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Justice of the Peace Pct 4 Office",
+        "address": "32225 US Highway 90 Bus",
+        "city": "Brookshire",
+        "zip": "",
+        "room": "",
+        "precincts": [
+          "417",
+          "418"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Brookshire Convention Center",
+        "address": "4027 5th St",
+        "city": "Brookshire",
+        "zip": "",
+        "room": "",
+        "precincts": [
+          "419"
+        ],
+        "notes": ""
+      },
+      {
+        "name": "Katy VFW",
+        "address": "6206 George Bush Dr",
+        "city": "Katy",
+        "zip": "",
+        "room": "",
+        "precincts": [
+          "420"
+        ],
+        "notes": ""
+      }
+    ]
+  },
+  "notes": "Waller County voters may vote at any early voting location, but on Election Day they must vote at the location for their assigned voting precinct. Early voting is 8 a.m. to 5 p.m. Oct 19 to 23, 7 a.m. to 7 p.m. Saturday Oct 24, 10 a.m. to 4 p.m. Sunday Oct 25, and 7 a.m. to 7 p.m. Oct 26 to 30."
+}

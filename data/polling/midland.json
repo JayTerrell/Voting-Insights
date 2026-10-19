@@ -1,0 +1,360 @@
+{
+  "county": "Midland",
+  "model": "countywide",
+  "checked_at": "2026-10-19T02:45:00Z",
+  "sources": [
+    {
+      "title": "Midland County Elections: Voting Locations",
+      "url": "https://votemidlandtx.gov/election-information/voting-locations/"
+    },
+    {
+      "title": "Midland County: Early Voting Hours and Locations (PDF)",
+      "url": "https://www.co.midland.tx.us/DocumentCenter/View/13324/Early-Voting-Hours-and-Locations"
+    },
+    {
+      "title": "Midland County: Election Day Voting Locations (PDF)",
+      "url": "https://www.co.midland.tx.us/DocumentCenter/View/13323/Election-Day-Voting-Locations"
+    }
+  ],
+  "lookup_url": null,
+  "wait_times_url": null,
+  "early_voting": {
+    "schedule": [
+      {
+        "date": "2026-10-19",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-20",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-21",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-22",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-23",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-24",
+        "open": "07:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-25",
+        "open": "13:00",
+        "close": "19:00"
+      },
+      {
+        "date": "2026-10-26",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-27",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-28",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-29",
+        "open": "08:00",
+        "close": "17:00"
+      },
+      {
+        "date": "2026-10-30",
+        "open": "08:00",
+        "close": "17:00"
+      }
+    ],
+    "sites": [
+      {
+        "name": "Elections Office, County Annex Building",
+        "address": "2110 North A Street",
+        "city": "",
+        "zip": "79705",
+        "room": "Room 103",
+        "schedule": [
+          {
+            "date": "2026-10-19",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-20",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-21",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-22",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-23",
+            "open": "08:00",
+            "close": "17:00"
+          },
+          {
+            "date": "2026-10-24",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-25",
+            "open": "13:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-26",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-27",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-28",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-29",
+            "open": "07:00",
+            "close": "19:00"
+          },
+          {
+            "date": "2026-10-30",
+            "open": "07:00",
+            "close": "19:00"
+          }
+        ],
+        "notes": "Main early voting location."
+      },
+      {
+        "name": "Centennial Library",
+        "address": "2503 W Loop 250 N",
+        "city": "",
+        "zip": "79705",
+        "room": "Meeting Room 113",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Cogdell Learning Center",
+        "address": "201 W Florida Ave",
+        "city": "",
+        "zip": "79701",
+        "room": "Classroom # 4",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "Fellowship Community Church",
+        "address": "5206 N Midland Dr",
+        "city": "",
+        "zip": "79707",
+        "room": "Multipurpose Building",
+        "schedule": null,
+        "notes": ""
+      },
+      {
+        "name": "The Village at Manor Park, Alan Hale Community Center",
+        "address": "5212 Sinclair Ave",
+        "city": "",
+        "zip": "79707",
+        "room": "Art Room",
+        "schedule": null,
+        "notes": "The English early voting notice lists 5323 Sinclair Ave; the Spanish notice and the Election Day list show 5212 Sinclair Ave."
+      }
+    ]
+  },
+  "election_day": {
+    "open": "07:00",
+    "close": "19:00",
+    "sites": [
+      {
+        "name": "Annex Building",
+        "address": "2110 N A Street",
+        "city": "",
+        "zip": "79705",
+        "room": "Auxiliary Courtroom",
+        "notes": "Served by EZ-Rider per county list."
+      },
+      {
+        "name": "Beit Haderekh",
+        "address": "13370 TX 191",
+        "city": "",
+        "zip": "79705",
+        "room": "Fellowship Hall",
+        "notes": ""
+      },
+      {
+        "name": "Centennial Library",
+        "address": "2503 W Loop 250 N",
+        "city": "",
+        "zip": "79705",
+        "room": "Meeting Room 113",
+        "notes": "Served by EZ-Rider per county list."
+      },
+      {
+        "name": "Cogdell Learning Center",
+        "address": "201 W Florida Ave",
+        "city": "",
+        "zip": "79701",
+        "room": "Annex/Classroom # 4",
+        "notes": "Served by EZ-Rider per county list."
+      },
+      {
+        "name": "Cotton Flat Baptist Church",
+        "address": "6409 S Highway 349",
+        "city": "",
+        "zip": "79706",
+        "room": "Rose Payne Activity Building",
+        "notes": ""
+      },
+      {
+        "name": "Downtown Library at the Plaza",
+        "address": "301 W. Missouri",
+        "city": "",
+        "zip": "79701",
+        "room": "Community Room",
+        "notes": "Served by EZ-Rider per county list."
+      },
+      {
+        "name": "Fairmont Park Church of Christ",
+        "address": "3813 N Midland Dr",
+        "city": "",
+        "zip": "79707",
+        "room": "Classroom # 2",
+        "notes": "Served by EZ-Rider per county list."
+      },
+      {
+        "name": "Fellowship Community Church",
+        "address": "5206 N. Midland Dr.",
+        "city": "",
+        "zip": "79707",
+        "room": "Multi-Purpose Building",
+        "notes": ""
+      },
+      {
+        "name": "The Gathering Church",
+        "address": "3303 W Illinois",
+        "city": "",
+        "zip": "79703",
+        "room": "Fellowship Hall",
+        "notes": "Served by EZ-Rider per county list."
+      },
+      {
+        "name": "Golf Course Rd Church",
+        "address": "3500 W Golf Course Rd",
+        "city": "",
+        "zip": "79707",
+        "room": "Room 301 & 302",
+        "notes": "Served by EZ-Rider per county list."
+      },
+      {
+        "name": "Greater Ideal Life Center",
+        "address": "301 S Tyler St",
+        "city": "",
+        "zip": "79701",
+        "room": "Samual Evans Chapel",
+        "notes": ""
+      },
+      {
+        "name": "Greenwood Baptist Church",
+        "address": "10908 FM 307",
+        "city": "",
+        "zip": "79706",
+        "room": "Sanctuary",
+        "notes": ""
+      },
+      {
+        "name": "Horseshoe Arena",
+        "address": "2514 Arena Trail",
+        "city": "",
+        "zip": "79701",
+        "room": "Education Room",
+        "notes": ""
+      },
+      {
+        "name": "MLK, Jr. Community Center",
+        "address": "2300 Butternut Ln",
+        "city": "",
+        "zip": "79705",
+        "room": "Activity Room",
+        "notes": "Served by EZ-Rider per county list."
+      },
+      {
+        "name": "NE Volunteer Fire Dept",
+        "address": "5310 E County Road 60",
+        "city": "",
+        "zip": "79705",
+        "room": "Training Room",
+        "notes": ""
+      },
+      {
+        "name": "Odessa Country Club",
+        "address": "# 1 Fairway Dr",
+        "city": "",
+        "zip": "79765",
+        "room": "Pool House",
+        "notes": ""
+      },
+      {
+        "name": "The Orchard Church",
+        "address": "6112 TX 349",
+        "city": "",
+        "zip": "79705",
+        "room": "Sanctuary",
+        "notes": ""
+      },
+      {
+        "name": "Presence Church",
+        "address": "901 Midland Dr",
+        "city": "",
+        "zip": "79703",
+        "room": "Sanctuary",
+        "notes": "Served by EZ-Rider per county list."
+      },
+      {
+        "name": "Stonegate Fellowship",
+        "address": "6000 W. Wadley Ave.",
+        "city": "",
+        "zip": "79707",
+        "room": "Foyer of Building C",
+        "notes": ""
+      },
+      {
+        "name": "The Village at Manor Park, Alan Hale Community Center",
+        "address": "5212 Sinclair Ave",
+        "city": "",
+        "zip": "79707",
+        "room": "Art Room",
+        "notes": "Served by EZ-Rider per county list."
+      }
+    ]
+  },
+  "notes": "On Election Day voters may use any of the 20 vote centers. During the second week of early voting only the Elections Office at the County Annex stays open 7 a.m. to 7 p.m.; other sites keep 8 a.m. to 5 p.m. The county lists ZIP codes but not city names."
+}
