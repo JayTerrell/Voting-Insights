@@ -228,7 +228,6 @@ const builtRaces = races.map((race) => {
   if (!office) warn(`no office description for ${race.id}`);
   return {
     ...race,
-    office: office || null,
     candidates: race.candidates.map((base) => {
       allCandidateIds.add(base.id);
       const r = research.get(base.id) || {};
@@ -290,6 +289,8 @@ const guide = scrub({
     },
   },
   ballots,
+  // Office descriptions are stored once; each race refers to its office_key.
+  offices,
   questions,
   parties: builtParties,
   races: builtRaces,

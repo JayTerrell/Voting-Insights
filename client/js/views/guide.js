@@ -119,13 +119,29 @@ function stanceCell(c, qid, prefix) {
     <span class="basis">${esc(BASIS_LABEL[s.basis] || s.basis)}</span>`;
 }
 
-function officeBox(race) {
-  if (!race.office) return '';
-  return `<div class="panel office-box">
-    <div><h2 style="font-size:1.15rem">What this office does</h2><p style="margin:0">${esc(race.office.summary)}</p></div>
-    <div><p class="sub" style="margin-top:0">Term</p><p style="margin:0">${esc(race.office.term)}</p>
-    <p class="sub">Source</p><p class="small" style="margin:0"><a href="${esc(race.office.source.url)}" target="_blank" rel="noopener">${esc(race.office.source.title)}</a></p></div>
-  </div>`;
+// What the office does: a short summary, two or three plain-language paragraphs,
+// the main things it controls, the term, and an official source.
+function officeBox(guide, race, num = null) {
+  const office = guide.offices?.[race.office_key];
+  if (!office) return '';
+  return `<section class="office-box" aria-labelledby="office-h">
+    <div class="office-main">
+      <h2 id="office-h">${num ? `<span class="section-num" aria-hidden="true">${num}</span>` : ''}What this office does</h2>
+      <p class="office-summary">${esc(office.summary)}</p>
+      ${(office.about || []).map((t) => `<p>${esc(t)}</p>`).join('')}
+    </div>
+    <aside class="office-side">
+      ${
+        office.powers?.length
+          ? `<h3>What it controls</h3><ul class="powers">${office.powers.map((t) => `<li>${esc(t)}</li>`).join('')}</ul>`
+          : ''
+      }
+      <dl class="office-facts">
+        <dt>Term</dt><dd>${esc(office.term)}</dd>
+        <dt>Source</dt><dd><a href="${esc(office.source.url)}" target="_blank" rel="noopener">${esc(office.source.title)}</a></dd>
+      </dl>
+    </aside>
+  </section>`;
 }
 
 function candidateCard(c, prefix, { full = false, race = c.race } = {}) {
@@ -139,19 +155,24 @@ function candidateCard(c, prefix, { full = false, race = c.race } = {}) {
     ${
       c.researched === false
         ? '<p class="callout small" style="margin-top:12px">Research on this candidate is in progress. Their profile, positions, and sources will appear here soon.</p>'
-        : `<p class="sub">Priorities</p>${list(c.priorities, c, prefix, 'No stated priorities found.')}
-    <p class="sub">Promises</p>${list(c.promises, c, prefix, 'No specific promises found.')}
-    <p class="sub">Record</p>${list(c.record, c, prefix, 'No public record in office found.')}`
+        : `<details class="card-fold" open>
+      <summary><span>Priorities, promises, and record</span><span class="fold-hint" aria-hidden="true"></span></summary>
+      <div class="card-fold-body">
+        <p class="sub">Priorities</p>${list(c.priorities, c, prefix, 'No stated priorities found.')}
+        <p class="sub">Promises</p>${list(c.promises, c, prefix, 'No specific promises found.')}
+        <p class="sub">Record</p>${list(c.record, c, prefix, 'No public record in office found.')}
+        ${c.notes.length ? `<p class="sub">Notes</p>${list(c.notes, c, prefix, '')}` : ''}
+        ${
+          full && c.issue_notes.length
+            ? `<p class="sub">Other positions</p><ul>${c.issue_notes
+                .map((n) => `<li><b>${esc(n.topic)}:</b> ${esc(n.summary)}${cites(n.sources, c, prefix)}</li>`)
+                .join('')}</ul>`
+            : ''
+        }
+        ${c.research_gaps ? `<p class="small muted" style="margin-top:12px">Research gaps: ${esc(c.research_gaps)}</p>` : ''}
+      </div>
+    </details>`
     }
-    ${c.notes.length ? `<p class="sub">Notes</p>${list(c.notes, c, prefix, '')}` : ''}
-    ${
-      full && c.issue_notes.length
-        ? `<p class="sub">Other positions</p><ul>${c.issue_notes
-            .map((n) => `<li><b>${esc(n.topic)}:</b> ${esc(n.summary)}${cites(n.sources, c, prefix)}</li>`)
-            .join('')}</ul>`
-        : ''
-    }
-    ${c.research_gaps ? `<p class="small muted" style="margin-top:12px">Research gaps: ${esc(c.research_gaps)}</p>` : ''}
     ${photoCredit(c)}
   </article>`;
 }
@@ -186,21 +207,60 @@ export async function renderRace(view, [raceId], current) {
 
   const documented = (c) => officeQs.filter((q) => c.stances[q.id]).length;
 
-  view.innerHTML = `
-    <p class="small"><a href="/candidates">All races</a></p>
+  const sections = [
+    { id: 'race-office', label: 'What this office does', short: 'The office', show: Boolean(guide.offices?.[race.office_key]) },
+    { id: 'race-candidates', label: 'The candidates', short: 'Candidates', show: true },
+    {
+      id: 'race-positions',
+      label: 'Positions on the issues',
+      short: 'Positions',
+      show: Boolean(officeQs.length || extraQs.length),
+    },
+    { id: 'race-other', label: 'Other issues', short: 'Other issues', show: topics.length > 0 },
+    { id: 'race-sources', label: 'Sources', short: 'Sources', show: true },
+  ].filter((x) => x.show);
+  const head = (id, title, extra = '') => {
+    const n = sections.findIndex((x) => x.id === id) + 1;
+    return `<div class="section-head section-major" id="${id}"><h2><span class="section-num" aria-hidden="true">${n}</span>${esc(title)}</h2>${extra}</div>`;
+  };
+
+  view.innerHTML = `<div class="race-page">
+    <p class="small race-back"><a href="/candidates">All races</a></p>
     <span class="eyebrow">${cands.length > 1 ? 'Compare candidates' : 'Uncontested race'}</span>
     <div class="title-row"><h1>${esc(raceTitle(race))}</h1>${watchButton(race.id, raceTitle(race))}</div>
     ${race.statewide ? '<p class="small muted">On the ballot for every Texas voter.</p>' : race.county ? '' : '<p class="small muted">On the ballot only for voters who live in this district.</p>'}
-    ${officeBox(race)}
 
-    <div class="section-head"><h2>The candidates</h2><span class="small muted">Listed in ballot order</span></div>
+    <nav class="subnav race-nav" aria-label="On this page">
+      <div class="subnav-links">${sections
+        .map(
+          (x) =>
+            `<a href="#${x.id}" data-jump="${x.id}"><span class="long-label">${esc(x.label)}</span><span class="short-label">${esc(x.short)}</span></a>`
+        )
+        .join('')}</div>
+    </nav>
+
+    ${guide.offices?.[race.office_key] ? `<div id="race-office" class="race-anchor">${officeBox(guide, race, 1)}</div>` : ''}
+
+    ${head(
+      'race-candidates',
+      cands.length > 1 ? 'The candidates' : 'The candidate',
+      `<span class="section-tools"><span class="small muted">Listed in ballot order</span>${
+        cands.some((c) => c.researched !== false)
+          ? '<button type="button" class="linkish" data-fold-all>Hide priorities and record</button>'
+          : ''
+      }</span>`
+    )}
     <div class="compare n${Math.min(cands.length, 4)}">${cands.map((c) => candidateCard(c, prefix(c), { race })).join('')}</div>
 
     ${
       officeQs.length || extraQs.length
-        ? `<div class="section-head"><h2>Positions on the issues</h2><span class="small muted">${cands
-            .map((c) => `${esc(c.name)}: ${documented(c)} of ${officeQs.length}`)
-            .join(' &middot; ')} documented. <a href="/scoring">How scores work</a></span></div>
+        ? `${head(
+            'race-positions',
+            'Positions on the issues',
+            `<span class="small muted">${cands
+              .map((c) => `${esc(c.name)}: ${documented(c)} of ${officeQs.length}`)
+              .join(' &middot; ')} documented. <a href="/scoring">How scores work</a></span>`
+          )}
       <div class="table-scroll"><table class="stance-table stack">
         <thead><tr><th>Statement</th>${cands.map((c) => `<th>${esc(c.name)}<br>${partyTag(c.party)}</th>`).join('')}</tr></thead>
         <tbody>${stanceRows(officeQs)}${
@@ -213,7 +273,7 @@ export async function renderRace(view, [raceId], current) {
 
     ${
       topics.length
-        ? `<div class="section-head"><h2>Other issues</h2></div>
+        ? `${head('race-other', 'Other issues')}
       <div class="table-scroll"><table class="stance-table stack"><thead><tr><th>Topic</th>${cands.map((c) => `<th>${esc(c.name)}</th>`).join('')}</tr></thead><tbody>
       ${topics
         .map(
@@ -229,13 +289,78 @@ export async function renderRace(view, [raceId], current) {
         : ''
     }
 
-    <details class="sources-toggle" style="margin-top:36px">
-      <summary>Sources (${cands.reduce((n, c) => n + c.sources.length, 0)})</summary>
+    ${head('race-sources', 'Sources')}
+    <details class="sources-toggle">
+      <summary>Show all ${cands.reduce((n, c) => n + c.sources.length, 0)} sources</summary>
       <div class="compare n${Math.min(cands.length, 4)}" style="margin-top:12px">${cands
         .map((c) => `<div class="panel sources"><h3 style="font-size:1rem">${esc(c.name)}</h3>${sourceList(c, prefix(c))}</div>`)
         .join('')}</div>
     </details>
-    <p class="small muted" style="margin-top:16px">Position labels describe agreement with each statement as written. "No documented position" means we did not find a public vote, statement, questionnaire answer, or credible report. It does not mean the candidate has no view.</p>`;
+    <p class="small muted" style="margin-top:16px">Position labels describe agreement with each statement as written. "No documented position" means we did not find a public vote, statement, questionnaire answer, or credible report. It does not mean the candidate has no view.</p>
+  </div>`;
+
+  const root = view.querySelector('.race-page');
+  bindRacePage(root);
+}
+
+// Jump links, the menu highlight, and one switch that opens or closes every
+// candidate's priorities and record together so the columns stay aligned.
+function bindRacePage(root) {
+  const inModal = Boolean(root.closest('.modal'));
+  root.addEventListener('click', (e) => {
+    const jump = e.target.closest('[data-jump]');
+    if (jump) {
+      e.preventDefault();
+      const target = root.querySelector(`#${CSS.escape(jump.dataset.jump)}`);
+      if (!target) return;
+      if (jump.dataset.jump === 'race-sources') root.querySelector('.sources-toggle').open = true;
+      const nav = root.querySelector('.race-nav');
+      const scroller = inModal ? root.closest('.modal-body') : null;
+      const offset = (inModal ? 0 : document.querySelector('.masthead').offsetHeight) + nav.offsetHeight + 12;
+      const smooth = window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth';
+      if (scroller) {
+        const top = target.getBoundingClientRect().top - scroller.getBoundingClientRect().top + scroller.scrollTop - offset;
+        scroller.scrollTo({ top, behavior: smooth });
+      } else {
+        window.scrollTo({ top: target.getBoundingClientRect().top + window.scrollY - offset, behavior: smooth });
+      }
+      return;
+    }
+    const all = e.target.closest('[data-fold-all]');
+    if (all) {
+      const folds = [...root.querySelectorAll('.card-fold')];
+      const open = !folds.every((f) => f.open);
+      syncing = true;
+      folds.forEach((f) => (f.open = open));
+      syncing = false;
+      all.textContent = open ? 'Hide priorities and record' : 'Show priorities and record';
+    }
+  });
+  let syncing = false;
+  root.querySelectorAll('.card-fold').forEach((fold) =>
+    fold.addEventListener('toggle', () => {
+      if (syncing) return;
+      syncing = true;
+      root.querySelectorAll('.card-fold').forEach((f) => (f.open = fold.open));
+      syncing = false;
+      const btn = root.querySelector('[data-fold-all]');
+      if (btn) btn.textContent = fold.open ? 'Hide priorities and record' : 'Show priorities and record';
+    })
+  );
+  // Highlight the section on screen in the menu.
+  const links = [...root.querySelectorAll('.race-nav a')];
+  const spy = new IntersectionObserver(
+    (entries) => {
+      for (const entry of entries) {
+        if (entry.isIntersecting) links.forEach((a) => a.classList.toggle('current', a.dataset.jump === entry.target.id));
+      }
+    },
+    { root: inModal ? root.closest('.modal-body') : null, rootMargin: '-30% 0px -60% 0px' }
+  );
+  links.forEach((a) => {
+    const t = root.querySelector(`#${CSS.escape(a.dataset.jump)}`);
+    if (t) spy.observe(t);
+  });
 }
 
 // ---------- Single candidate ----------
@@ -263,7 +388,7 @@ export async function renderCandidate(view, [id], current) {
         ? `<span class="small muted">Running against ${opponents.map((o) => `<a href="/candidate/${esc(o.id)}">${esc(o.name)}</a> (${esc(o.party)})`).join(', ')}</span>`
         : '<span class="small muted">Unopposed on the November ballot</span>'
     }</p>
-    ${officeBox(race)}
+    ${officeBox(guide, race)}
     <div style="margin-top:20px">${candidateCard(c, prefix, { full: true })}</div>
 
     <div class="section-head"><h2>Documented positions</h2><span class="small muted">${stances.length} of ${guide.questions.length} quiz questions. <a href="/scoring">How scores work</a></span></div>

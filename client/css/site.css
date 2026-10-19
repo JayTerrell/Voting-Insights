@@ -1040,16 +1040,6 @@ sup.cite a {
   font-weight: 700;
   padding: 0 1px;
 }
-.office-box {
-  display: grid;
-  gap: 4px 24px;
-  grid-template-columns: 1fr;
-}
-@media (min-width: 720px) {
-  .office-box {
-    grid-template-columns: 3fr 1fr;
-  }
-}
 
 .table-scroll {
   overflow-x: auto;
@@ -3237,4 +3227,214 @@ html.modal-open {
     font-size: 0.64rem;
     letter-spacing: 0.1em;
   }
+}
+
+/* =====================================================================
+   Race comparison page
+   ===================================================================== */
+
+/* What this office does */
+.office-box {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0;
+  margin: 20px 0 8px;
+  background: var(--card);
+  border: 1px solid var(--rule);
+  border-top: 4px solid var(--navy);
+  padding: 0;
+}
+@media (min-width: 900px) {
+  .office-box {
+    grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr);
+  }
+}
+.office-main {
+  padding: 22px 24px 18px;
+}
+.office-main h2 {
+  font-size: 1.35rem;
+  margin: 0 0 10px;
+}
+.office-main p {
+  margin: 0 0 12px;
+  max-width: 68ch;
+}
+.office-summary {
+  font-size: 1.08rem;
+  color: var(--navy);
+  font-weight: 600;
+}
+.office-side {
+  padding: 22px 24px 18px;
+  background: var(--paper);
+  border-top: 1px solid var(--rule);
+}
+@media (min-width: 900px) {
+  .office-side {
+    border-top: 0;
+    border-left: 1px solid var(--rule);
+  }
+}
+.office-side h3 {
+  margin: 0 0 8px;
+  font-size: 1.05rem;
+}
+.powers {
+  list-style: none;
+  margin: 0 0 16px;
+  padding: 0;
+}
+.powers li {
+  position: relative;
+  padding: 7px 0 7px 22px;
+  border-bottom: 1px solid var(--rule-soft);
+  font-size: 0.95rem;
+  line-height: 1.45;
+}
+.powers li:last-child {
+  border-bottom: 0;
+}
+/* A small navy square, not a checkmark. */
+.powers li::before {
+  content: '';
+  position: absolute;
+  left: 2px;
+  top: 14px;
+  width: 8px;
+  height: 8px;
+  background: var(--navy);
+}
+.office-facts {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 4px 14px;
+  margin: 0;
+  font-size: 0.88rem;
+}
+.office-facts dt {
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.72rem;
+  color: var(--muted);
+  padding-top: 3px;
+}
+.office-facts dd {
+  margin: 0;
+}
+
+/* Major sections: numbered, with a heavy rule, so the page reads as chapters. */
+.section-major {
+  margin-top: 44px;
+  padding-top: 14px;
+  border-top: 3px solid var(--navy);
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px 16px;
+}
+.section-major h2 {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: clamp(1.35rem, 2.6vw, 1.75rem);
+}
+.section-num {
+  display: inline-grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  flex: none;
+  background: var(--red);
+  color: var(--card);
+  font-family: var(--sans);
+  font-size: 1rem;
+  font-weight: 700;
+}
+.section-tools {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.race-nav {
+  margin-top: 16px;
+}
+.modal .subnav {
+  top: 0;
+  margin-left: -20px;
+  margin-right: -20px;
+  border-left: 0;
+  border-right: 0;
+}
+@media (max-width: 639px) {
+  .modal .subnav {
+    margin-left: -16px;
+    margin-right: -16px;
+  }
+}
+.modal-race .race-back {
+  display: none;
+}
+
+/* Priorities, promises, and record: one collapsible block per candidate. */
+.card-fold {
+  margin-top: 14px;
+  border-top: 1px solid var(--rule);
+}
+.card-fold > summary {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px 0;
+  cursor: pointer;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--navy);
+}
+.card-fold > summary::-webkit-details-marker {
+  display: none;
+}
+.card-fold > summary .fold-hint {
+  width: 24px;
+  height: 24px;
+}
+.card-fold > summary .fold-hint::before,
+.card-fold > summary .fold-hint::after {
+  width: 10px;
+  margin-left: -5px;
+}
+.card-fold[open] > summary .fold-hint {
+  background: var(--navy);
+}
+.card-fold[open] > summary .fold-hint::before,
+.card-fold[open] > summary .fold-hint::after {
+  background: var(--card);
+}
+.card-fold[open] > summary .fold-hint::after {
+  transform: rotate(0deg);
+}
+.card-fold-body > .sub:first-child {
+  margin-top: 4px;
+}
+.card-fold[open] > .card-fold-body {
+  animation: fold-open var(--dur-std) var(--ease-smooth);
+}
+@media print {
+  .card-fold > .card-fold-body {
+    display: block;
+  }
+  .race-nav {
+    display: none !important;
+  }
+}
+
+.office-main h2 {
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
