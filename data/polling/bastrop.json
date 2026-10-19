@@ -1,246 +1,284 @@
 {
-  "county": "Bastrop",
-  "model": "countywide",
-  "checked_at": "2026-10-19T02:20:00Z",
-  "sources": [
-    {
-      "title": "Bastrop County Elections: Voting Locations, Dates and Times",
-      "url": "https://www.bastropvotes.org/voting-schedule/"
-    },
-    {
-      "title": "Bastrop County Elections: Election Day Information",
-      "url": "https://www.bastropvotes.org/election-information-2/poll-watcher-information/"
-    }
-  ],
-  "lookup_url": "https://www.bastropvotes.org/voter-information-2/precinct-finder/",
-  "wait_times_url": null,
-  "early_voting": {
-    "schedule": [
-      {
-        "date": "2026-10-19",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
-        "date": "2026-10-20",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
-        "date": "2026-10-21",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
-        "date": "2026-10-22",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
-        "date": "2026-10-23",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
-        "date": "2026-10-24",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-25",
-        "open": "09:00",
-        "close": "15:00"
-      },
-      {
-        "date": "2026-10-26",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-27",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-28",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-29",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-30",
-        "open": "07:00",
-        "close": "19:00"
-      }
-    ],
-    "sites": [
-      {
-        "name": "Bastrop County Courthouse Annex",
-        "address": "804 Pecan St.",
-        "city": "Bastrop",
-        "zip": "78602",
-        "room": "Lower Level, Conference Room",
-        "schedule": null,
-        "notes": "Main early voting location. Limited ballots are available only here."
-      },
-      {
-        "name": "Smithville Recreation Center",
-        "address": "106 Royston St.",
-        "city": "Smithville",
-        "zip": "78957",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Bastrop County Cedar Creek Annex",
-        "address": "5785 FM 535",
-        "city": "Cedar Creek",
-        "zip": "78612",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "North Bastrop County Community Annex",
-        "address": "702 Bull Run",
-        "city": "Elgin",
-        "zip": "78621",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      }
-    ]
+ "county": "Bastrop",
+ "model": "countywide",
+ "checked_at": "2026-10-19T02:20:00Z",
+ "sources": [
+  {
+   "title": "Bastrop County Elections: Voting Locations, Dates and Times",
+   "url": "https://www.bastropvotes.org/voting-schedule/"
   },
-  "election_day": {
+  {
+   "title": "Bastrop County Elections: Election Day Information",
+   "url": "https://www.bastropvotes.org/election-information-2/poll-watcher-information/"
+  }
+ ],
+ "lookup_url": "https://www.bastropvotes.org/voter-information-2/precinct-finder/",
+ "wait_times_url": null,
+ "early_voting": {
+  "schedule": [
+   {
+    "date": "2026-10-19",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-20",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-21",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-22",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-23",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-24",
     "open": "07:00",
-    "close": "19:00",
-    "sites": [
-      {
-        "name": "Aqua Water Supply",
-        "address": "401 Old Austin Hwy.",
-        "city": "Bastrop",
-        "zip": "78602",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "River Valley Christian Fellowship",
-        "address": "1224 W. Hwy 71",
-        "city": "Bastrop",
-        "zip": "78602",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Bastrop County Courthouse Annex",
-        "address": "804 Pecan St.",
-        "city": "Bastrop",
-        "zip": "78602",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Paige Community Center",
-        "address": "107 S. Main St.",
-        "city": "Paige",
-        "zip": "78659",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Bastrop County Community Center",
-        "address": "15 American Legion Dr.",
-        "city": "Bastrop",
-        "zip": "78602",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Smithville Rec Center",
-        "address": "106 Royston St.",
-        "city": "Smithville",
-        "zip": "78957",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Rosanky Community Center",
-        "address": "135 Main St.",
-        "city": "Rosanky",
-        "zip": "78953",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Bastrop County Cedar Creek Annex",
-        "address": "5785 FM 535",
-        "city": "Cedar Creek",
-        "zip": "78612",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Cedar Creek United Methodist Church",
-        "address": "5630 FM 535",
-        "city": "Cedar Creek",
-        "zip": "78612",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Red Rock Community Center",
-        "address": "114 Red Rock Rd.",
-        "city": "Red Rock",
-        "zip": "78662",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "North Bastrop County Community Annex",
-        "address": "702 Bull Run",
-        "city": "Elgin",
-        "zip": "78621",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Elgin Recreation Center",
-        "address": "361 SH 95",
-        "city": "Elgin",
-        "zip": "78621",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Faith Lutheran Church",
-        "address": "230 Waco St.",
-        "city": "McDade",
-        "zip": "78650",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Family Worship Center",
-        "address": "2425 FM 1704",
-        "city": "Elgin",
-        "zip": "78621",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Bastrop County ESD#2 Station 4",
-        "address": "1432 N. Hwy 95",
-        "city": "Bastrop",
-        "zip": "78602",
-        "room": "",
-        "notes": ""
-      }
-    ]
-  },
-  "notes": "Bastrop County is in the countywide polling place program, so voters may vote at any listed location during early voting and on Election Day. Early voting is 8 a.m. to 5 p.m. on October 19 to 23, 7 a.m. to 7 p.m. on Saturday October 24, 9 a.m. to 3 p.m. on Sunday October 25, and 7 a.m. to 7 p.m. on October 26 to 30."
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-25",
+    "open": "09:00",
+    "close": "15:00"
+   },
+   {
+    "date": "2026-10-26",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-27",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-28",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-29",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-30",
+    "open": "07:00",
+    "close": "19:00"
+   }
+  ],
+  "sites": [
+   {
+    "name": "Bastrop County Courthouse Annex",
+    "address": "804 Pecan St.",
+    "city": "Bastrop",
+    "zip": "78602",
+    "room": "Lower Level, Conference Room",
+    "schedule": null,
+    "notes": "Main early voting location. Limited ballots are available only here.",
+    "lat": 30.108533,
+    "lng": -97.317557
+   },
+   {
+    "name": "Smithville Recreation Center",
+    "address": "106 Royston St.",
+    "city": "Smithville",
+    "zip": "78957",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Bastrop County Cedar Creek Annex",
+    "address": "5785 FM 535",
+    "city": "Cedar Creek",
+    "zip": "78612",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "North Bastrop County Community Annex",
+    "address": "702 Bull Run",
+    "city": "Elgin",
+    "zip": "78621",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 30.343501,
+    "lng": -97.379736
+   }
+  ]
+ },
+ "election_day": {
+  "open": "07:00",
+  "close": "19:00",
+  "sites": [
+   {
+    "name": "Aqua Water Supply",
+    "address": "401 Old Austin Hwy.",
+    "city": "Bastrop",
+    "zip": "78602",
+    "room": "",
+    "notes": "",
+    "lat": 30.108839,
+    "lng": -97.329178
+   },
+   {
+    "name": "River Valley Christian Fellowship",
+    "address": "1224 W. Hwy 71",
+    "city": "Bastrop",
+    "zip": "78602",
+    "room": "",
+    "notes": "",
+    "lat": 30.113191,
+    "lng": -97.416255
+   },
+   {
+    "name": "Bastrop County Courthouse Annex",
+    "address": "804 Pecan St.",
+    "city": "Bastrop",
+    "zip": "78602",
+    "room": "",
+    "notes": "",
+    "lat": 30.108533,
+    "lng": -97.317557
+   },
+   {
+    "name": "Paige Community Center",
+    "address": "107 S. Main St.",
+    "city": "Paige",
+    "zip": "78659",
+    "room": "",
+    "notes": "",
+    "lat": 30.210625,
+    "lng": -97.112774
+   },
+   {
+    "name": "Bastrop County Community Center",
+    "address": "15 American Legion Dr.",
+    "city": "Bastrop",
+    "zip": "78602",
+    "room": "",
+    "notes": "",
+    "lat": 30.107302,
+    "lng": -97.295499
+   },
+   {
+    "name": "Smithville Rec Center",
+    "address": "106 Royston St.",
+    "city": "Smithville",
+    "zip": "78957",
+    "room": "",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Rosanky Community Center",
+    "address": "135 Main St.",
+    "city": "Rosanky",
+    "zip": "78953",
+    "room": "",
+    "notes": "",
+    "lat": 29.929673,
+    "lng": -97.294332
+   },
+   {
+    "name": "Bastrop County Cedar Creek Annex",
+    "address": "5785 FM 535",
+    "city": "Cedar Creek",
+    "zip": "78612",
+    "room": "",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Cedar Creek United Methodist Church",
+    "address": "5630 FM 535",
+    "city": "Cedar Creek",
+    "zip": "78612",
+    "room": "",
+    "notes": "",
+    "lat": 30.083888,
+    "lng": -97.500854
+   },
+   {
+    "name": "Red Rock Community Center",
+    "address": "114 Red Rock Rd.",
+    "city": "Red Rock",
+    "zip": "78662",
+    "room": "",
+    "notes": "",
+    "lat": 29.96124,
+    "lng": -97.444586
+   },
+   {
+    "name": "North Bastrop County Community Annex",
+    "address": "702 Bull Run",
+    "city": "Elgin",
+    "zip": "78621",
+    "room": "",
+    "notes": "",
+    "lat": 30.343501,
+    "lng": -97.379736
+   },
+   {
+    "name": "Elgin Recreation Center",
+    "address": "361 SH 95",
+    "city": "Elgin",
+    "zip": "78621",
+    "room": "",
+    "notes": "",
+    "lat": 30.315836,
+    "lng": -97.35455
+   },
+   {
+    "name": "Faith Lutheran Church",
+    "address": "230 Waco St.",
+    "city": "McDade",
+    "zip": "78650",
+    "room": "",
+    "notes": "",
+    "lat": 30.288972,
+    "lng": -97.236488
+   },
+   {
+    "name": "Family Worship Center",
+    "address": "2425 FM 1704",
+    "city": "Elgin",
+    "zip": "78621",
+    "room": "",
+    "notes": "",
+    "lat": 30.255849,
+    "lng": -97.416882
+   },
+   {
+    "name": "Bastrop County ESD#2 Station 4",
+    "address": "1432 N. Hwy 95",
+    "city": "Bastrop",
+    "zip": "78602",
+    "room": "",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   }
+  ]
+ },
+ "notes": "Bastrop County is in the countywide polling place program, so voters may vote at any listed location during early voting and on Election Day. Early voting is 8 a.m. to 5 p.m. on October 19 to 23, 7 a.m. to 7 p.m. on Saturday October 24, 9 a.m. to 3 p.m. on Sunday October 25, and 7 a.m. to 7 p.m. on October 26 to 30."
 }

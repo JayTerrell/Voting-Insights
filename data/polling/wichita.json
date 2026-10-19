@@ -1,23 +1,23 @@
 {
-  "county": "Wichita",
-  "model": "countywide",
-  "checked_at": "2026-10-19T02:31:00Z",
-  "sources": [
-    {
-      "title": "Wichita County: Current Election Information",
-      "url": "https://wichitacountytx.com/election_info/current-election-information/"
-    }
-  ],
-  "lookup_url": null,
-  "wait_times_url": null,
-  "early_voting": {
-    "schedule": [],
-    "sites": []
-  },
-  "election_day": {
-    "open": "07:00",
-    "close": "19:00",
-    "sites": []
-  },
-  "notes": "Locations not yet recorded: the Wichita County website blocked our automated check, so check the county election page directly. A search listing of that page says the county uses countywide polling places."
+ "county": "Wichita",
+ "model": "countywide",
+ "checked_at": "2026-10-19T02:31:00Z",
+ "sources": [
+  {
+   "title": "Wichita County: Current Election Information",
+   "url": "https://wichitacountytx.com/election_info/current-election-information/"
+  }
+ ],
+ "lookup_url": null,
+ "wait_times_url": null,
+ "early_voting": {
+  "schedule": [],
+  "sites": []
+ },
+ "election_day": {
+  "open": "07:00",
+  "close": "19:00",
+  "sites": []
+ },
+ "notes": "Locations not yet recorded: the Wichita County website blocked our automated check, so check the county election page directly. A search listing of that page says the county uses countywide polling places."
 }

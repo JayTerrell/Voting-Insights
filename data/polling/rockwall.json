@@ -1,307 +1,345 @@
 {
-  "county": "Rockwall",
-  "model": "countywide",
-  "checked_at": "2026-10-19T02:14:00Z",
-  "sources": [
-    {
-      "title": "Rockwall County Elections (rockwallvotes.com, linked from rockwallcountytexas.com)",
-      "url": "https://www.rockwallvotes.com/"
-    },
-    {
-      "title": "Rockwall County Early Voting Schedule, November 3, 2026 (PDF)",
-      "url": "https://www.rockwallvotes.com/wp-content/uploads/2026/08/EV-Schedule-11.03.2026.pdf"
-    },
-    {
-      "title": "Rockwall County Election Day Locations, November 3, 2026 (PDF)",
-      "url": "https://www.rockwallvotes.com/wp-content/uploads/2026/08/ED-Locations-11.03.2026-1.pdf"
-    }
-  ],
-  "lookup_url": null,
-  "wait_times_url": null,
-  "early_voting": {
-    "schedule": [
-      {
-        "date": "2026-10-19",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
-        "date": "2026-10-20",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
-        "date": "2026-10-21",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
-        "date": "2026-10-22",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
-        "date": "2026-10-23",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
-        "date": "2026-10-24",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-26",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-27",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-28",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-29",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-30",
-        "open": "07:00",
-        "close": "19:00"
-      }
-    ],
-    "sites": [
-      {
-        "name": "Rockwall County Courthouse Annex",
-        "address": "1101 E. Yellowjacket Ln.",
-        "city": "Rockwall",
-        "zip": "75087",
-        "room": "Multi-Purpose Room, Suite 160",
-        "schedule": [
-          {
-            "date": "2026-10-19",
-            "open": "08:00",
-            "close": "17:00"
-          },
-          {
-            "date": "2026-10-20",
-            "open": "08:00",
-            "close": "17:00"
-          },
-          {
-            "date": "2026-10-21",
-            "open": "08:00",
-            "close": "17:00"
-          },
-          {
-            "date": "2026-10-22",
-            "open": "08:00",
-            "close": "17:00"
-          },
-          {
-            "date": "2026-10-23",
-            "open": "08:00",
-            "close": "17:00"
-          },
-          {
-            "date": "2026-10-24",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-25",
-            "open": "10:00",
-            "close": "16:00"
-          },
-          {
-            "date": "2026-10-26",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-27",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-28",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-29",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-30",
-            "open": "07:00",
-            "close": "19:00"
-          }
-        ],
-        "notes": "Main early voting polling place; the only early voting location open Sunday, October 25."
-      },
-      {
-        "name": "Ernest Epps Education Center",
-        "address": "810 E. Old Greenville",
-        "city": "Royse City",
-        "zip": "75189",
-        "room": "Board Room",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Fate City Hall",
-        "address": "1900 CD Boren Pkwy.",
-        "city": "Fate",
-        "zip": "75087",
-        "room": "Council Chambers",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Heath City Hall",
-        "address": "200 Laurence Dr.",
-        "city": "Heath",
-        "zip": "75032",
-        "room": "Community Room",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Rowlett Utility Customer Service Center",
-        "address": "6602 Dalrock Rd.",
-        "city": "Rowlett",
-        "zip": "75089",
-        "room": "Conference Room",
-        "schedule": null,
-        "notes": ""
-      }
-    ]
+ "county": "Rockwall",
+ "model": "countywide",
+ "checked_at": "2026-10-19T02:14:00Z",
+ "sources": [
+  {
+   "title": "Rockwall County Elections (rockwallvotes.com, linked from rockwallcountytexas.com)",
+   "url": "https://www.rockwallvotes.com/"
   },
-  "election_day": {
+  {
+   "title": "Rockwall County Early Voting Schedule, November 3, 2026 (PDF)",
+   "url": "https://www.rockwallvotes.com/wp-content/uploads/2026/08/EV-Schedule-11.03.2026.pdf"
+  },
+  {
+   "title": "Rockwall County Election Day Locations, November 3, 2026 (PDF)",
+   "url": "https://www.rockwallvotes.com/wp-content/uploads/2026/08/ED-Locations-11.03.2026-1.pdf"
+  }
+ ],
+ "lookup_url": null,
+ "wait_times_url": null,
+ "early_voting": {
+  "schedule": [
+   {
+    "date": "2026-10-19",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-20",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-21",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-22",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-23",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-24",
     "open": "07:00",
-    "close": "19:00",
-    "sites": [
-      {
-        "name": "The Center at Rockwall City Place",
-        "address": "108 E. Washington St",
-        "city": "Rockwall",
-        "zip": "75087",
-        "room": "Lone Star Room",
-        "notes": ""
-      },
-      {
-        "name": "Chamberlain Crossing Amenity Center",
-        "address": "160 Chamberlain Dr",
-        "city": "Fate",
-        "zip": "75189",
-        "room": "Amenity Center",
-        "notes": ""
-      },
-      {
-        "name": "Ernest Epps Education Center",
-        "address": "810 E. Old Greenville",
-        "city": "Royse City",
-        "zip": "75189",
-        "room": "Community Room",
-        "notes": ""
-      },
-      {
-        "name": "Fate City Hall",
-        "address": "1900 CD Boren Pkwy",
-        "city": "Fate",
-        "zip": "75087",
-        "room": "Council Chambers",
-        "notes": ""
-      },
-      {
-        "name": "Gene Burton College and Career Academy",
-        "address": "2301 John King Blvd",
-        "city": "Rockwall",
-        "zip": "75032",
-        "room": "Lecture Hall",
-        "notes": ""
-      },
-      {
-        "name": "Heath City Hall",
-        "address": "200 Laurence Dr",
-        "city": "Heath",
-        "zip": "75032",
-        "room": "Community Room",
-        "notes": ""
-      },
-      {
-        "name": "McLendon-Chisholm City Hall",
-        "address": "1371 W. FM 550",
-        "city": "McLendon-Chisholm",
-        "zip": "75032",
-        "room": "Council Chambers",
-        "notes": ""
-      },
-      {
-        "name": "Our Savior Lutheran Church",
-        "address": "3003 Horizon Rd",
-        "city": "Rockwall",
-        "zip": "75032",
-        "room": "Fellowship Hall",
-        "notes": ""
-      },
-      {
-        "name": "Ridgeview Church",
-        "address": "1362 E. FM 552",
-        "city": "Rockwall",
-        "zip": "75087",
-        "room": "Fellowship Hall",
-        "notes": ""
-      },
-      {
-        "name": "Rockwall Area Chamber of Commerce",
-        "address": "697 E Interstate 30",
-        "city": "Rockwall",
-        "zip": "75087",
-        "room": "Innovation Room",
-        "notes": ""
-      },
-      {
-        "name": "Rockwall County Courthouse Annex",
-        "address": "1101 E. Yellowjacket Ln",
-        "city": "Rockwall",
-        "zip": "75087",
-        "room": "Multi-Purpose Room, Suite 160",
-        "notes": ""
-      },
-      {
-        "name": "Rockwall County Historic Courthouse",
-        "address": "101 E. Rusk St",
-        "city": "Rockwall",
-        "zip": "75087",
-        "room": "First Floor",
-        "notes": ""
-      },
-      {
-        "name": "Rockwall ISD Administration Building",
-        "address": "1050 Williams St",
-        "city": "Rockwall",
-        "zip": "75087",
-        "room": "Gym",
-        "notes": ""
-      },
-      {
-        "name": "Rowlett Utility Customer Service Center",
-        "address": "6602 Dalrock Rd",
-        "city": "Rowlett",
-        "zip": "75089",
-        "room": "Conference Room",
-        "notes": ""
-      }
-    ]
-  },
-  "notes": "Rockwall County voters may vote at any listed location during early voting and on Election Day. On Sunday, October 25 only the Courthouse Annex is open (10 a.m. to 4 p.m.), and Rockwall Golf and Athletic Club is not a vote center this election due to construction."
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-26",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-27",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-28",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-29",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-30",
+    "open": "07:00",
+    "close": "19:00"
+   }
+  ],
+  "sites": [
+   {
+    "name": "Rockwall County Courthouse Annex",
+    "address": "1101 E. Yellowjacket Ln.",
+    "city": "Rockwall",
+    "zip": "75087",
+    "room": "Multi-Purpose Room, Suite 160",
+    "schedule": [
+     {
+      "date": "2026-10-19",
+      "open": "08:00",
+      "close": "17:00"
+     },
+     {
+      "date": "2026-10-20",
+      "open": "08:00",
+      "close": "17:00"
+     },
+     {
+      "date": "2026-10-21",
+      "open": "08:00",
+      "close": "17:00"
+     },
+     {
+      "date": "2026-10-22",
+      "open": "08:00",
+      "close": "17:00"
+     },
+     {
+      "date": "2026-10-23",
+      "open": "08:00",
+      "close": "17:00"
+     },
+     {
+      "date": "2026-10-24",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-25",
+      "open": "10:00",
+      "close": "16:00"
+     },
+     {
+      "date": "2026-10-26",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-27",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-28",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-29",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-30",
+      "open": "07:00",
+      "close": "19:00"
+     }
+    ],
+    "notes": "Main early voting polling place; the only early voting location open Sunday, October 25.",
+    "lat": 32.911157,
+    "lng": -96.454146
+   },
+   {
+    "name": "Ernest Epps Education Center",
+    "address": "810 E. Old Greenville",
+    "city": "Royse City",
+    "zip": "75189",
+    "room": "Board Room",
+    "schedule": null,
+    "notes": "",
+    "lat": 32.971158,
+    "lng": -96.323457
+   },
+   {
+    "name": "Fate City Hall",
+    "address": "1900 CD Boren Pkwy.",
+    "city": "Fate",
+    "zip": "75087",
+    "room": "Council Chambers",
+    "schedule": null,
+    "notes": "",
+    "lat": 32.95524,
+    "lng": -96.380121
+   },
+   {
+    "name": "Heath City Hall",
+    "address": "200 Laurence Dr.",
+    "city": "Heath",
+    "zip": "75032",
+    "room": "Community Room",
+    "schedule": null,
+    "notes": "",
+    "lat": 32.836505,
+    "lng": -96.475166
+   },
+   {
+    "name": "Rowlett Utility Customer Service Center",
+    "address": "6602 Dalrock Rd.",
+    "city": "Rowlett",
+    "zip": "75089",
+    "room": "Conference Room",
+    "schedule": null,
+    "notes": "",
+    "lat": 32.917534,
+    "lng": -96.517833
+   }
+  ]
+ },
+ "election_day": {
+  "open": "07:00",
+  "close": "19:00",
+  "sites": [
+   {
+    "name": "The Center at Rockwall City Place",
+    "address": "108 E. Washington St",
+    "city": "Rockwall",
+    "zip": "75087",
+    "room": "Lone Star Room",
+    "notes": "",
+    "lat": 32.930299,
+    "lng": -96.460204
+   },
+   {
+    "name": "Chamberlain Crossing Amenity Center",
+    "address": "160 Chamberlain Dr",
+    "city": "Fate",
+    "zip": "75189",
+    "room": "Amenity Center",
+    "notes": "",
+    "lat": 32.929089,
+    "lng": -96.373134
+   },
+   {
+    "name": "Ernest Epps Education Center",
+    "address": "810 E. Old Greenville",
+    "city": "Royse City",
+    "zip": "75189",
+    "room": "Community Room",
+    "notes": "",
+    "lat": 32.971158,
+    "lng": -96.323457
+   },
+   {
+    "name": "Fate City Hall",
+    "address": "1900 CD Boren Pkwy",
+    "city": "Fate",
+    "zip": "75087",
+    "room": "Council Chambers",
+    "notes": "",
+    "lat": 32.95524,
+    "lng": -96.380121
+   },
+   {
+    "name": "Gene Burton College and Career Academy",
+    "address": "2301 John King Blvd",
+    "city": "Rockwall",
+    "zip": "75032",
+    "room": "Lecture Hall",
+    "notes": "",
+    "lat": 32.902431,
+    "lng": -96.430931
+   },
+   {
+    "name": "Heath City Hall",
+    "address": "200 Laurence Dr",
+    "city": "Heath",
+    "zip": "75032",
+    "room": "Community Room",
+    "notes": "",
+    "lat": 32.836505,
+    "lng": -96.475166
+   },
+   {
+    "name": "McLendon-Chisholm City Hall",
+    "address": "1371 W. FM 550",
+    "city": "McLendon-Chisholm",
+    "zip": "75032",
+    "room": "Council Chambers",
+    "notes": "",
+    "lat": 32.834544,
+    "lng": -96.403363
+   },
+   {
+    "name": "Our Savior Lutheran Church",
+    "address": "3003 Horizon Rd",
+    "city": "Rockwall",
+    "zip": "75032",
+    "room": "Fellowship Hall",
+    "notes": "",
+    "lat": 32.889263,
+    "lng": -96.46835
+   },
+   {
+    "name": "Ridgeview Church",
+    "address": "1362 E. FM 552",
+    "city": "Rockwall",
+    "zip": "75087",
+    "room": "Fellowship Hall",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Rockwall Area Chamber of Commerce",
+    "address": "697 E Interstate 30",
+    "city": "Rockwall",
+    "zip": "75087",
+    "room": "Innovation Room",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Rockwall County Courthouse Annex",
+    "address": "1101 E. Yellowjacket Ln",
+    "city": "Rockwall",
+    "zip": "75087",
+    "room": "Multi-Purpose Room, Suite 160",
+    "notes": "",
+    "lat": 32.911157,
+    "lng": -96.454146
+   },
+   {
+    "name": "Rockwall County Historic Courthouse",
+    "address": "101 E. Rusk St",
+    "city": "Rockwall",
+    "zip": "75087",
+    "room": "First Floor",
+    "notes": "",
+    "lat": 32.931128,
+    "lng": -96.46026
+   },
+   {
+    "name": "Rockwall ISD Administration Building",
+    "address": "1050 Williams St",
+    "city": "Rockwall",
+    "zip": "75087",
+    "room": "Gym",
+    "notes": "",
+    "lat": 32.936378,
+    "lng": -96.445121
+   },
+   {
+    "name": "Rowlett Utility Customer Service Center",
+    "address": "6602 Dalrock Rd",
+    "city": "Rowlett",
+    "zip": "75089",
+    "room": "Conference Room",
+    "notes": "",
+    "lat": 32.917534,
+    "lng": -96.517833
+   }
+  ]
+ },
+ "notes": "Rockwall County voters may vote at any listed location during early voting and on Election Day. On Sunday, October 25 only the Courthouse Annex is open (10 a.m. to 4 p.m.), and Rockwall Golf and Athletic Club is not a vote center this election due to construction."
 }

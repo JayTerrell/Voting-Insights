@@ -1,0 +1,390 @@
+{
+ "county": "Tom Green",
+ "model": "countywide",
+ "checked_at": "2026-10-19T03:00:00Z",
+ "sources": [
+  {
+   "title": "Tom Green County Elections: Election Dates and Polling Information",
+   "url": "https://www.tomgreencountytx.gov/page/ele.PollingInfo"
+  },
+  {
+   "title": "Tom Green County: November 3, 2026 Voting Hours and Polling Places (PDF, marked tentative/updated)",
+   "url": "https://www.tomgreencountytx.gov/upload/page/0097/docs/2026/110326pollingplacesandhourstentative_updated.pdf"
+  },
+  {
+   "title": "Tom Green County: Notice of General Election, November 3, 2026 (PDF)",
+   "url": "https://www.tomgreencountytx.gov/upload/page/0152/docs/2026/November%202026/NoticeOfGeneralElection.pdf"
+  }
+ ],
+ "lookup_url": null,
+ "wait_times_url": null,
+ "early_voting": {
+  "schedule": [
+   {
+    "date": "2026-10-19",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-20",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-21",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-22",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-23",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-24",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-25",
+    "open": "12:00",
+    "close": "18:00"
+   },
+   {
+    "date": "2026-10-26",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-27",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-28",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-29",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-30",
+    "open": "08:00",
+    "close": "17:00"
+   }
+  ],
+  "sites": [
+   {
+    "name": "Edd B. and Frances Frink Keyes Building",
+    "address": "113 W. Beauregard Ave.",
+    "city": "",
+    "zip": "",
+    "room": "Election Office",
+    "schedule": [
+     {
+      "date": "2026-10-19",
+      "open": "08:00",
+      "close": "17:00"
+     },
+     {
+      "date": "2026-10-20",
+      "open": "08:00",
+      "close": "17:00"
+     },
+     {
+      "date": "2026-10-21",
+      "open": "08:00",
+      "close": "17:00"
+     },
+     {
+      "date": "2026-10-22",
+      "open": "08:00",
+      "close": "17:00"
+     },
+     {
+      "date": "2026-10-23",
+      "open": "08:00",
+      "close": "17:00"
+     },
+     {
+      "date": "2026-10-24",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-25",
+      "open": "12:00",
+      "close": "18:00"
+     },
+     {
+      "date": "2026-10-26",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-27",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-28",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-29",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-30",
+      "open": "07:00",
+      "close": "19:00"
+     }
+    ],
+    "notes": "Main early voting location.",
+    "lat": 31.46166,
+    "lng": -100.439338
+   },
+   {
+    "name": "Concho Valley Transit District (Bus Depot)",
+    "address": "506 N. Chadbourne",
+    "city": "",
+    "zip": "",
+    "room": "Annex Building",
+    "schedule": null,
+    "notes": "",
+    "lat": 31.468711,
+    "lng": -100.440688
+   },
+   {
+    "name": "Westlake Ace Hardware",
+    "address": "1821 Knickerbocker Rd.",
+    "city": "",
+    "zip": "",
+    "room": "Sales Floor",
+    "schedule": null,
+    "notes": "",
+    "lat": 31.428571,
+    "lng": -100.45886
+   },
+   {
+    "name": "Tom Green Polling Place",
+    "address": "3020 N. Bryant",
+    "city": "",
+    "zip": "",
+    "room": "Rear, Training Room",
+    "schedule": null,
+    "notes": "",
+    "lat": 31.486262,
+    "lng": -100.464816
+   },
+   {
+    "name": "MHMR Services for the Concho Valley",
+    "address": "1501 W. Beauregard Ave.",
+    "city": "",
+    "zip": "",
+    "room": "Jack Ray Room",
+    "schedule": null,
+    "notes": "",
+    "lat": 31.455382,
+    "lng": -100.456096
+   }
+  ]
+ },
+ "election_day": {
+  "open": "07:00",
+  "close": "19:00",
+  "sites": [
+   {
+    "name": "Angelo Bible Church",
+    "address": "3506 Sherwood Way",
+    "city": "",
+    "zip": "",
+    "room": "Lobby",
+    "notes": "",
+    "lat": 31.44408,
+    "lng": -100.482195
+   },
+   {
+    "name": "Belmore Baptist Church",
+    "address": "1214 S. Bell St.",
+    "city": "",
+    "zip": "",
+    "room": "Fellowship Hall",
+    "notes": "",
+    "lat": 35.201384,
+    "lng": -101.902552
+   },
+   {
+    "name": "Calvary Baptist Church",
+    "address": "2401 Armstrong St.",
+    "city": "",
+    "zip": "",
+    "room": "Fellowship Center",
+    "notes": "",
+    "lat": 31.48766,
+    "lng": -100.437149
+   },
+   {
+    "name": "Christoval Community Center",
+    "address": "20022 Main",
+    "city": "Christoval",
+    "zip": "",
+    "room": "Multi-purpose room",
+    "notes": "",
+    "lat": 31.191237,
+    "lng": -100.498569
+   },
+   {
+    "name": "Concho Valley Transit District (Bus Depot)",
+    "address": "506 N. Chadbourne St.",
+    "city": "",
+    "zip": "",
+    "room": "Annex Building",
+    "notes": "",
+    "lat": 31.468711,
+    "lng": -100.440688
+   },
+   {
+    "name": "SAF San Angelo First",
+    "address": "1442 Edmund Blvd.",
+    "city": "",
+    "zip": "",
+    "room": "Fellowship Hall",
+    "notes": "",
+    "lat": 31.480254,
+    "lng": -100.468364
+   },
+   {
+    "name": "Grape Creek Community Center",
+    "address": "8207 US Hwy 87N",
+    "city": "",
+    "zip": "",
+    "room": "Gene Marsh Board Room",
+    "notes": "",
+    "lat": 28.747119,
+    "lng": -96.916275
+   },
+   {
+    "name": "Tom Green Polling Place",
+    "address": "3020 N. Bryant",
+    "city": "",
+    "zip": "",
+    "room": "Rear, Training Room",
+    "notes": "",
+    "lat": 31.486262,
+    "lng": -100.464816
+   },
+   {
+    "name": "Paulann Baptist Church",
+    "address": "2531 Smith Blvd.",
+    "city": "",
+    "zip": "",
+    "room": "The Chapel",
+    "notes": "",
+    "lat": 31.478882,
+    "lng": -100.396998
+   },
+   {
+    "name": "Oak Grove Senior Apartments",
+    "address": "4375 Oak Grove Blvd.",
+    "city": "",
+    "zip": "",
+    "room": "Multi-purpose Room",
+    "notes": "",
+    "lat": 31.423024,
+    "lng": -100.500262
+   },
+   {
+    "name": "Southgate Church of Christ",
+    "address": "528 Country Club Rd.",
+    "city": "",
+    "zip": "",
+    "room": "Fellowship Hall",
+    "notes": "",
+    "lat": 33.131666,
+    "lng": -97.173222
+   },
+   {
+    "name": "Southside Recreation Center",
+    "address": "2750 Ben Ficklin Rd.",
+    "city": "",
+    "zip": "",
+    "room": "Multi-purpose Room",
+    "notes": "",
+    "lat": 31.433501,
+    "lng": -100.440321
+   },
+   {
+    "name": "St. Ambrose Catholic Church",
+    "address": "8602 Loop 570",
+    "city": "Wall",
+    "zip": "76957",
+    "room": "Fellowship Hall",
+    "notes": "",
+    "lat": 31.374064,
+    "lng": -100.298659
+   },
+   {
+    "name": "MHMR Concho Valley, Admin. Bldg.",
+    "address": "1501 W. Beauregard Ave.",
+    "city": "",
+    "zip": "",
+    "room": "Jack Ray Room",
+    "notes": "",
+    "lat": 31.455382,
+    "lng": -100.456096
+   },
+   {
+    "name": "Veribest Baptist Church",
+    "address": "50 FM 2334",
+    "city": "Veribest",
+    "zip": "76886",
+    "room": "Fellowship Hall",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Wesley Trinity United Methodist Church",
+    "address": "301 West 18th St.",
+    "city": "",
+    "zip": "",
+    "room": "Fellowship Hall",
+    "notes": "",
+    "lat": 30.280302,
+    "lng": -97.74095
+   },
+   {
+    "name": "TXDOT",
+    "address": "4502 Knickerbocker Rd.",
+    "city": "",
+    "zip": "",
+    "room": "Bldg. E, Training Room",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Westlake Ace Hardware",
+    "address": "1821 Knickerbocker Rd.",
+    "city": "",
+    "zip": "",
+    "room": "Sales Floor",
+    "notes": "",
+    "lat": 31.428571,
+    "lng": -100.45886
+   }
+  ]
+ },
+ "notes": "Tom Green County lists 18 Election Day polling places with no precinct assignments and has used countywide polling in past elections, but the November 2026 documents do not say so explicitly, so confirm with the Elections Office (325-659-6541). Only the main branch at the Keyes Building stays open 7 a.m. to 7 p.m. in the second week of early voting; most addresses are in San Angelo but the county does not print the city for them."
+}

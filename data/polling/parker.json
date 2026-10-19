@@ -1,441 +1,525 @@
 {
-  "county": "Parker",
-  "model": "countywide",
-  "checked_at": "2026-10-19T02:15:02Z",
-  "sources": [
-    {
-      "title": "Parker County Elections: Early Vote and Election Day Locations",
-      "url": "https://www.parkercountytx.gov/530/Early-Vote-and-Election-Day-Locations"
-    },
-    {
-      "title": "Parker County Early Voting Sites and Hours, November 3, 2026 (PDF)",
-      "url": "https://www.parkercountytx.gov/DocumentCenter/View/14066"
-    },
-    {
-      "title": "Parker County Election Day Sites, November 3, 2026 (PDF)",
-      "url": "https://www.parkercountytx.gov/DocumentCenter/View/14214"
-    },
-    {
-      "title": "Parker County Elections",
-      "url": "https://www.parkercountytx.gov/118/Elections"
-    }
-  ],
-  "lookup_url": null,
-  "wait_times_url": null,
-  "early_voting": {
-    "schedule": [
-      {
-        "date": "2026-10-19",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
-        "date": "2026-10-20",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
-        "date": "2026-10-21",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
-        "date": "2026-10-22",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
-        "date": "2026-10-23",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
-        "date": "2026-10-24",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-25",
-        "open": "10:00",
-        "close": "16:00"
-      },
-      {
-        "date": "2026-10-26",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-27",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-28",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-29",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-30",
-        "open": "07:00",
-        "close": "19:00"
-      }
-    ],
-    "sites": [
-      {
-        "name": "Parker County Election Building",
-        "address": "801 Santa Fe Dr",
-        "city": "Weatherford",
-        "zip": "76086",
-        "room": "",
-        "schedule": null,
-        "notes": "Main early voting polling place."
-      },
-      {
-        "name": "Springtown Senior Center",
-        "address": "1070 N Main St",
-        "city": "Springtown",
-        "zip": "76082",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Peaster ISD Rock Gym",
-        "address": "8512 FM RD 920",
-        "city": "Peaster",
-        "zip": "76088",
-        "room": "",
-        "schedule": null,
-        "notes": "The county Election Day list gives this address as 8498 FM RD 920."
-      },
-      {
-        "name": "Aledo ISD Admin Building",
-        "address": "1008 Bailey Ranch Rd",
-        "city": "Aledo",
-        "zip": "76008",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Hudson Oaks Public Safety Building",
-        "address": "150 N Oakridge Dr",
-        "city": "Hudson Oaks",
-        "zip": "76087",
-        "room": "",
-        "schedule": null,
-        "notes": "The county notes construction on North Oakridge Dr in front of the building; westbound drivers on Fort Worth Hwy should turn into the Walgreens lot and go around it to the Public Safety Building."
-      },
-      {
-        "name": "Azle City Hall",
-        "address": "505 W Main St",
-        "city": "Azle",
-        "zip": "76020",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Olive Branch Masonic Lodge #792",
-        "address": "201 Grindstone Rd",
-        "city": "Brock",
-        "zip": "76087",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      }
-    ]
+ "county": "Parker",
+ "model": "countywide",
+ "checked_at": "2026-10-19T02:15:02Z",
+ "sources": [
+  {
+   "title": "Parker County Elections: Early Vote and Election Day Locations",
+   "url": "https://www.parkercountytx.gov/530/Early-Vote-and-Election-Day-Locations"
   },
-  "election_day": {
+  {
+   "title": "Parker County Early Voting Sites and Hours, November 3, 2026 (PDF)",
+   "url": "https://www.parkercountytx.gov/DocumentCenter/View/14066"
+  },
+  {
+   "title": "Parker County Election Day Sites, November 3, 2026 (PDF)",
+   "url": "https://www.parkercountytx.gov/DocumentCenter/View/14214"
+  },
+  {
+   "title": "Parker County Elections",
+   "url": "https://www.parkercountytx.gov/118/Elections"
+  }
+ ],
+ "lookup_url": null,
+ "wait_times_url": null,
+ "early_voting": {
+  "schedule": [
+   {
+    "date": "2026-10-19",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-20",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-21",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-22",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-23",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-24",
     "open": "07:00",
-    "close": "19:00",
-    "sites": [
-      {
-        "name": "Silver Creek Methodist Church",
-        "address": "2200 Church Rd",
-        "city": "Azle",
-        "zip": "76020",
-        "room": "Activities Center",
-        "notes": ""
-      },
-      {
-        "name": "Azle City Hall",
-        "address": "505 W Main St",
-        "city": "Azle",
-        "zip": "76020",
-        "room": "Community Room",
-        "notes": ""
-      },
-      {
-        "name": "Reno City Hall",
-        "address": "195 W Reno Rd",
-        "city": "Azle",
-        "zip": "76020",
-        "room": "Council Room",
-        "notes": ""
-      },
-      {
-        "name": "Springtown Senior Center",
-        "address": "1070 N Main St",
-        "city": "Springtown",
-        "zip": "76082",
-        "room": "Community Room",
-        "notes": ""
-      },
-      {
-        "name": "Legacy Church",
-        "address": "3591 E Highway 199",
-        "city": "Springtown",
-        "zip": "76082",
-        "room": "Foyer",
-        "notes": ""
-      },
-      {
-        "name": "Friendship Baptist Church",
-        "address": "801 Friendship Rd",
-        "city": "Weatherford",
-        "zip": "76085",
-        "room": "Gym",
-        "notes": ""
-      },
-      {
-        "name": "Harberger Hill Community Center",
-        "address": "701 Narrow St",
-        "city": "Weatherford",
-        "zip": "76086",
-        "room": "Large Room",
-        "notes": ""
-      },
-      {
-        "name": "Trinity Lutheran Church",
-        "address": "1500 W Ball St",
-        "city": "Weatherford",
-        "zip": "76086",
-        "room": "Fellowship Hall",
-        "notes": ""
-      },
-      {
-        "name": "Poolville Global Methodist Church",
-        "address": "230 North Church",
-        "city": "Poolville",
-        "zip": "76487",
-        "room": "Fellowship Hall",
-        "notes": ""
-      },
-      {
-        "name": "Peaster ISD Rock Gym",
-        "address": "8498 FM RD 920",
-        "city": "Peaster",
-        "zip": "76088",
-        "room": "Back Room of Gym",
-        "notes": "The county early voting list gives this address as 8512 FM RD 920."
-      },
-      {
-        "name": "Whitt Fire Department",
-        "address": "4312 N FM RD 52",
-        "city": "Whitt",
-        "zip": "76490",
-        "room": "Training Room",
-        "notes": ""
-      },
-      {
-        "name": "Bethesda United Methodist Church",
-        "address": "6657 FM RD 113 N",
-        "city": "Weatherford",
-        "zip": "76088",
-        "room": "Johnson Hall",
-        "notes": ""
-      },
-      {
-        "name": "Calvary Baptist Church",
-        "address": "2000 Lucas St",
-        "city": "Weatherford",
-        "zip": "76085",
-        "room": "Youth Building",
-        "notes": ""
-      },
-      {
-        "name": "Shady Grove Baptist Church",
-        "address": "2470 W Lambert Rd",
-        "city": "Weatherford",
-        "zip": "76088",
-        "room": "Sunday School",
-        "notes": ""
-      },
-      {
-        "name": "Union Baptist Church",
-        "address": "3451 Sarra Ln",
-        "city": "Springtown",
-        "zip": "76082",
-        "room": "Fellowship Hall",
-        "notes": ""
-      },
-      {
-        "name": "Victory Baptist Church",
-        "address": "1304 Fort Worth Hwy",
-        "city": "Weatherford",
-        "zip": "76086",
-        "room": "Youth Building",
-        "notes": ""
-      },
-      {
-        "name": "Cherry Park Community Center",
-        "address": "300 S Alamo St",
-        "city": "Weatherford",
-        "zip": "76086",
-        "room": "Main Room",
-        "notes": ""
-      },
-      {
-        "name": "Grace First Presbyterian Church",
-        "address": "606 Mockingbird Ln",
-        "city": "Weatherford",
-        "zip": "76086",
-        "room": "Great Hall",
-        "notes": ""
-      },
-      {
-        "name": "Parker County Elections Office",
-        "address": "801 Santa Fe Dr",
-        "city": "Weatherford",
-        "zip": "76086",
-        "room": "Main Room",
-        "notes": ""
-      },
-      {
-        "name": "Film Alley",
-        "address": "825 E I-20",
-        "city": "Weatherford",
-        "zip": "76086",
-        "room": "Family Side Party Rm",
-        "notes": ""
-      },
-      {
-        "name": "Millsap Community Center",
-        "address": "104 Fannin St",
-        "city": "Millsap",
-        "zip": "76066",
-        "room": "Building",
-        "notes": ""
-      },
-      {
-        "name": "Harmony Baptist Church",
-        "address": "242 Harmony Rd",
-        "city": "Weatherford",
-        "zip": "76087",
-        "room": "Fellowship Hall",
-        "notes": ""
-      },
-      {
-        "name": "Tin Top Community Center",
-        "address": "101 Old Tin Top Rd",
-        "city": "Weatherford",
-        "zip": "76087",
-        "room": "Building",
-        "notes": ""
-      },
-      {
-        "name": "Olive Branch Masonic Lodge #792",
-        "address": "201 Grindstone Rd",
-        "city": "Brock",
-        "zip": "76087",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "First Baptist Church-Dennis",
-        "address": "7600 FM RD 1189",
-        "city": "Dennis",
-        "zip": "76087",
-        "room": "Fellowship Hall",
-        "notes": ""
-      },
-      {
-        "name": "NorthSide Baptist Church-Spring Creek",
-        "address": "100 Spring Creek Rd",
-        "city": "Weatherford",
-        "zip": "76087",
-        "room": "Gym",
-        "notes": ""
-      },
-      {
-        "name": "Greenwood Fire Department",
-        "address": "1418 Greenwood Cut-Off Rd",
-        "city": "Weatherford",
-        "zip": "76088",
-        "room": "Training Room",
-        "notes": ""
-      },
-      {
-        "name": "Morningstar Amenity Center",
-        "address": "128 Heather Wind Ln",
-        "city": "Aledo",
-        "zip": "76008",
-        "room": "Amenity Center",
-        "notes": ""
-      },
-      {
-        "name": "Hudson Oaks Public Safety Bldg.",
-        "address": "150 N Oakridge Dr",
-        "city": "Hudson Oaks",
-        "zip": "76087",
-        "room": "Training Room",
-        "notes": ""
-      },
-      {
-        "name": "Cross Timbers Church - Willow Park",
-        "address": "601 Ranch House Rd",
-        "city": "Willow Park",
-        "zip": "76087",
-        "room": "Welcome Center",
-        "notes": ""
-      },
-      {
-        "name": "Bear Creek Community Church",
-        "address": "18600 Hwy 377 S",
-        "city": "Cresson",
-        "zip": "76035",
-        "room": "Room 5",
-        "notes": ""
-      },
-      {
-        "name": "City of Aledo Community Center",
-        "address": "104 Robinson Ct",
-        "city": "Aledo",
-        "zip": "76008",
-        "room": "Large Room",
-        "notes": ""
-      },
-      {
-        "name": "Aledo ISD Admin Building",
-        "address": "1008 Bailey Ranch Rd",
-        "city": "Aledo",
-        "zip": "76008",
-        "room": "Louden Room",
-        "notes": ""
-      },
-      {
-        "name": "New Faith Baptist",
-        "address": "3303 West FM RD 5",
-        "city": "Aledo",
-        "zip": "76008",
-        "room": "Fellowship Hall",
-        "notes": ""
-      },
-      {
-        "name": "Lakeshore Drive Baptist Church",
-        "address": "200 S Lakeshore Dr",
-        "city": "Hudson Oaks",
-        "zip": "76087",
-        "room": "Foyer & Worship Center",
-        "notes": ""
-      }
-    ]
-  },
-  "notes": "Parker County uses countywide polling places, so registered voters may vote at any listed site. The main early voting site is the Parker County Elections building at 801 Santa Fe Dr in Weatherford."
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-25",
+    "open": "10:00",
+    "close": "16:00"
+   },
+   {
+    "date": "2026-10-26",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-27",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-28",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-29",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-30",
+    "open": "07:00",
+    "close": "19:00"
+   }
+  ],
+  "sites": [
+   {
+    "name": "Parker County Election Building",
+    "address": "801 Santa Fe Dr",
+    "city": "Weatherford",
+    "zip": "76086",
+    "room": "",
+    "schedule": null,
+    "notes": "Main early voting polling place.",
+    "lat": 32.75082,
+    "lng": -97.785939
+   },
+   {
+    "name": "Springtown Senior Center",
+    "address": "1070 N Main St",
+    "city": "Springtown",
+    "zip": "76082",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 32.980862,
+    "lng": -97.686241
+   },
+   {
+    "name": "Peaster ISD Rock Gym",
+    "address": "8512 FM RD 920",
+    "city": "Peaster",
+    "zip": "76088",
+    "room": "",
+    "schedule": null,
+    "notes": "The county Election Day list gives this address as 8498 FM RD 920.",
+    "lat": 32.868998,
+    "lng": -97.867326
+   },
+   {
+    "name": "Aledo ISD Admin Building",
+    "address": "1008 Bailey Ranch Rd",
+    "city": "Aledo",
+    "zip": "76008",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 32.711092,
+    "lng": -97.616367
+   },
+   {
+    "name": "Hudson Oaks Public Safety Building",
+    "address": "150 N Oakridge Dr",
+    "city": "Hudson Oaks",
+    "zip": "76087",
+    "room": "",
+    "schedule": null,
+    "notes": "The county notes construction on North Oakridge Dr in front of the building; westbound drivers on Fort Worth Hwy should turn into the Walgreens lot and go around it to the Public Safety Building.",
+    "lat": 32.770365,
+    "lng": -97.712466
+   },
+   {
+    "name": "Azle City Hall",
+    "address": "505 W Main St",
+    "city": "Azle",
+    "zip": "76020",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 32.898504,
+    "lng": -97.548188
+   },
+   {
+    "name": "Olive Branch Masonic Lodge #792",
+    "address": "201 Grindstone Rd",
+    "city": "Brock",
+    "zip": "76087",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 32.675013,
+    "lng": -97.943193
+   }
+  ]
+ },
+ "election_day": {
+  "open": "07:00",
+  "close": "19:00",
+  "sites": [
+   {
+    "name": "Silver Creek Methodist Church",
+    "address": "2200 Church Rd",
+    "city": "Azle",
+    "zip": "76020",
+    "room": "Activities Center",
+    "notes": "",
+    "lat": 32.841953,
+    "lng": -97.597237
+   },
+   {
+    "name": "Azle City Hall",
+    "address": "505 W Main St",
+    "city": "Azle",
+    "zip": "76020",
+    "room": "Community Room",
+    "notes": "",
+    "lat": 32.898504,
+    "lng": -97.548188
+   },
+   {
+    "name": "Reno City Hall",
+    "address": "195 W Reno Rd",
+    "city": "Azle",
+    "zip": "76020",
+    "room": "Council Room",
+    "notes": "",
+    "lat": 32.944165,
+    "lng": -97.580193
+   },
+   {
+    "name": "Springtown Senior Center",
+    "address": "1070 N Main St",
+    "city": "Springtown",
+    "zip": "76082",
+    "room": "Community Room",
+    "notes": "",
+    "lat": 32.980862,
+    "lng": -97.686241
+   },
+   {
+    "name": "Legacy Church",
+    "address": "3591 E Highway 199",
+    "city": "Springtown",
+    "zip": "76082",
+    "room": "Foyer",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Friendship Baptist Church",
+    "address": "801 Friendship Rd",
+    "city": "Weatherford",
+    "zip": "76085",
+    "room": "Gym",
+    "notes": "",
+    "lat": 32.852524,
+    "lng": -97.729646
+   },
+   {
+    "name": "Harberger Hill Community Center",
+    "address": "701 Narrow St",
+    "city": "Weatherford",
+    "zip": "76086",
+    "room": "Large Room",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Trinity Lutheran Church",
+    "address": "1500 W Ball St",
+    "city": "Weatherford",
+    "zip": "76086",
+    "room": "Fellowship Hall",
+    "notes": "",
+    "lat": 32.76417,
+    "lng": -97.82548
+   },
+   {
+    "name": "Poolville Global Methodist Church",
+    "address": "230 North Church",
+    "city": "Poolville",
+    "zip": "76487",
+    "room": "Fellowship Hall",
+    "notes": "",
+    "lat": 32.976026,
+    "lng": -97.859178
+   },
+   {
+    "name": "Peaster ISD Rock Gym",
+    "address": "8498 FM RD 920",
+    "city": "Peaster",
+    "zip": "76088",
+    "room": "Back Room of Gym",
+    "notes": "The county early voting list gives this address as 8512 FM RD 920.",
+    "lat": 32.868711,
+    "lng": -97.867328
+   },
+   {
+    "name": "Whitt Fire Department",
+    "address": "4312 N FM RD 52",
+    "city": "Whitt",
+    "zip": "76490",
+    "room": "Training Room",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Bethesda United Methodist Church",
+    "address": "6657 FM RD 113 N",
+    "city": "Weatherford",
+    "zip": "76088",
+    "room": "Johnson Hall",
+    "notes": "",
+    "lat": 32.892809,
+    "lng": -97.979331
+   },
+   {
+    "name": "Calvary Baptist Church",
+    "address": "2000 Lucas St",
+    "city": "Weatherford",
+    "zip": "76085",
+    "room": "Youth Building",
+    "notes": "",
+    "lat": 32.785624,
+    "lng": -97.796064
+   },
+   {
+    "name": "Shady Grove Baptist Church",
+    "address": "2470 W Lambert Rd",
+    "city": "Weatherford",
+    "zip": "76088",
+    "room": "Sunday School",
+    "notes": "",
+    "lat": 32.790422,
+    "lng": -97.863795
+   },
+   {
+    "name": "Union Baptist Church",
+    "address": "3451 Sarra Ln",
+    "city": "Springtown",
+    "zip": "76082",
+    "room": "Fellowship Hall",
+    "notes": "",
+    "lat": 32.926038,
+    "lng": -97.768934
+   },
+   {
+    "name": "Victory Baptist Church",
+    "address": "1304 Fort Worth Hwy",
+    "city": "Weatherford",
+    "zip": "76086",
+    "room": "Youth Building",
+    "notes": "",
+    "lat": 32.758034,
+    "lng": -97.772536
+   },
+   {
+    "name": "Cherry Park Community Center",
+    "address": "300 S Alamo St",
+    "city": "Weatherford",
+    "zip": "76086",
+    "room": "Main Room",
+    "notes": "",
+    "lat": 32.756377,
+    "lng": -97.800484
+   },
+   {
+    "name": "Grace First Presbyterian Church",
+    "address": "606 Mockingbird Ln",
+    "city": "Weatherford",
+    "zip": "76086",
+    "room": "Great Hall",
+    "notes": "",
+    "lat": 32.743395,
+    "lng": -97.813309
+   },
+   {
+    "name": "Parker County Elections Office",
+    "address": "801 Santa Fe Dr",
+    "city": "Weatherford",
+    "zip": "76086",
+    "room": "Main Room",
+    "notes": "",
+    "lat": 32.75082,
+    "lng": -97.785939
+   },
+   {
+    "name": "Film Alley",
+    "address": "825 E I-20",
+    "city": "Weatherford",
+    "zip": "76086",
+    "room": "Family Side Party Rm",
+    "notes": "",
+    "lat": 32.727591,
+    "lng": -97.812366
+   },
+   {
+    "name": "Millsap Community Center",
+    "address": "104 Fannin St",
+    "city": "Millsap",
+    "zip": "76066",
+    "room": "Building",
+    "notes": "",
+    "lat": 32.747171,
+    "lng": -98.009499
+   },
+   {
+    "name": "Harmony Baptist Church",
+    "address": "242 Harmony Rd",
+    "city": "Weatherford",
+    "zip": "76087",
+    "room": "Fellowship Hall",
+    "notes": "",
+    "lat": 32.695435,
+    "lng": -97.798423
+   },
+   {
+    "name": "Tin Top Community Center",
+    "address": "101 Old Tin Top Rd",
+    "city": "Weatherford",
+    "zip": "76087",
+    "room": "Building",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Olive Branch Masonic Lodge #792",
+    "address": "201 Grindstone Rd",
+    "city": "Brock",
+    "zip": "76087",
+    "room": "",
+    "notes": "",
+    "lat": 32.675013,
+    "lng": -97.943193
+   },
+   {
+    "name": "First Baptist Church-Dennis",
+    "address": "7600 FM RD 1189",
+    "city": "Dennis",
+    "zip": "76087",
+    "room": "Fellowship Hall",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "NorthSide Baptist Church-Spring Creek",
+    "address": "100 Spring Creek Rd",
+    "city": "Weatherford",
+    "zip": "76087",
+    "room": "Gym",
+    "notes": "",
+    "lat": 32.651787,
+    "lng": -97.777492
+   },
+   {
+    "name": "Greenwood Fire Department",
+    "address": "1418 Greenwood Cut-Off Rd",
+    "city": "Weatherford",
+    "zip": "76088",
+    "room": "Training Room",
+    "notes": "",
+    "lat": 32.750728,
+    "lng": -97.861192
+   },
+   {
+    "name": "Morningstar Amenity Center",
+    "address": "128 Heather Wind Ln",
+    "city": "Aledo",
+    "zip": "76008",
+    "room": "Amenity Center",
+    "notes": "",
+    "lat": 32.74998,
+    "lng": -97.595624
+   },
+   {
+    "name": "Hudson Oaks Public Safety Bldg.",
+    "address": "150 N Oakridge Dr",
+    "city": "Hudson Oaks",
+    "zip": "76087",
+    "room": "Training Room",
+    "notes": "",
+    "lat": 32.770365,
+    "lng": -97.712466
+   },
+   {
+    "name": "Cross Timbers Church - Willow Park",
+    "address": "601 Ranch House Rd",
+    "city": "Willow Park",
+    "zip": "76087",
+    "room": "Welcome Center",
+    "notes": "",
+    "lat": 32.745403,
+    "lng": -97.636618
+   },
+   {
+    "name": "Bear Creek Community Church",
+    "address": "18600 Hwy 377 S",
+    "city": "Cresson",
+    "zip": "76035",
+    "room": "Room 5",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "City of Aledo Community Center",
+    "address": "104 Robinson Ct",
+    "city": "Aledo",
+    "zip": "76008",
+    "room": "Large Room",
+    "notes": "",
+    "lat": 32.696072,
+    "lng": -97.605301
+   },
+   {
+    "name": "Aledo ISD Admin Building",
+    "address": "1008 Bailey Ranch Rd",
+    "city": "Aledo",
+    "zip": "76008",
+    "room": "Louden Room",
+    "notes": "",
+    "lat": 32.711092,
+    "lng": -97.616367
+   },
+   {
+    "name": "New Faith Baptist",
+    "address": "3303 West FM RD 5",
+    "city": "Aledo",
+    "zip": "76008",
+    "room": "Fellowship Hall",
+    "notes": "",
+    "lat": 32.702406,
+    "lng": -97.675359
+   },
+   {
+    "name": "Lakeshore Drive Baptist Church",
+    "address": "200 S Lakeshore Dr",
+    "city": "Hudson Oaks",
+    "zip": "76087",
+    "room": "Foyer & Worship Center",
+    "notes": "",
+    "lat": 32.751651,
+    "lng": -97.699304
+   }
+  ]
+ },
+ "notes": "Parker County uses countywide polling places, so registered voters may vote at any listed site. The main early voting site is the Parker County Elections building at 801 Santa Fe Dr in Weatherford."
 }

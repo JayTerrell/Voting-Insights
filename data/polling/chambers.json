@@ -1,212 +1,240 @@
 {
-  "county": "Chambers",
-  "model": "countywide",
-  "checked_at": "2026-10-19T02:13:02Z",
-  "sources": [
-    {
-      "title": "Chambers County: Current Elections",
-      "url": "https://www.chamberscountytx.gov/503/Current-Elections"
-    },
-    {
-      "title": "Chambers County: 2026-11-03 Notice of Election (PDF)",
-      "url": "https://www.chamberscountytx.gov/DocumentCenter/View/7538/2026-11-03-Notice-of-Election-PDF"
-    },
-    {
-      "title": "Chambers County: 2026-11-03 Notice of Early Voting Branch Polling Places (PDF)",
-      "url": "https://www.chamberscountytx.gov/DocumentCenter/View/7512/2026-11-03-Notice-of-Early-Voting-Branch-Polling-Places-PDF"
-    }
-  ],
-  "lookup_url": null,
-  "wait_times_url": null,
-  "early_voting": {
-    "schedule": [
-      {
-        "date": "2026-10-19",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
-        "date": "2026-10-20",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
-        "date": "2026-10-21",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
-        "date": "2026-10-22",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
-        "date": "2026-10-23",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
-        "date": "2026-10-24",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-25",
-        "open": "11:00",
-        "close": "17:00"
-      },
-      {
-        "date": "2026-10-26",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-27",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-28",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-29",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-30",
-        "open": "07:00",
-        "close": "19:00"
-      }
-    ],
-    "sites": [
-      {
-        "name": "Chambers County Clerk's Office",
-        "address": "404 Washington Avenue",
-        "city": "Anahuac",
-        "zip": "77514",
-        "room": "",
-        "schedule": null,
-        "notes": "Main early voting location."
-      },
-      {
-        "name": "Health & Wellness Center",
-        "address": "102 Airport Road",
-        "city": "Anahuac",
-        "zip": "77514",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Judge Larry Cryer Annex",
-        "address": "7711 HWY 146",
-        "city": "Baytown",
-        "zip": "77523",
-        "room": "",
-        "schedule": null,
-        "notes": "Cedar Bayou area."
-      },
-      {
-        "name": "West Side Complex",
-        "address": "8138 FM 3246",
-        "city": "Baytown",
-        "zip": "77523",
-        "room": "",
-        "schedule": null,
-        "notes": "Cove area."
-      },
-      {
-        "name": "Barbers Hill ISD, Community Election Center",
-        "address": "9650 Eagle Drive",
-        "city": "Mont Belvieu",
-        "zip": "77523",
-        "room": "Entrance 32",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Winnie Stowell Community Building",
-        "address": "335 S Park Street",
-        "city": "Winnie",
-        "zip": "77665",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      }
-    ]
+ "county": "Chambers",
+ "model": "countywide",
+ "checked_at": "2026-10-19T02:13:02Z",
+ "sources": [
+  {
+   "title": "Chambers County: Current Elections",
+   "url": "https://www.chamberscountytx.gov/503/Current-Elections"
   },
-  "election_day": {
+  {
+   "title": "Chambers County: 2026-11-03 Notice of Election (PDF)",
+   "url": "https://www.chamberscountytx.gov/DocumentCenter/View/7538/2026-11-03-Notice-of-Election-PDF"
+  },
+  {
+   "title": "Chambers County: 2026-11-03 Notice of Early Voting Branch Polling Places (PDF)",
+   "url": "https://www.chamberscountytx.gov/DocumentCenter/View/7512/2026-11-03-Notice-of-Early-Voting-Branch-Polling-Places-PDF"
+  }
+ ],
+ "lookup_url": null,
+ "wait_times_url": null,
+ "early_voting": {
+  "schedule": [
+   {
+    "date": "2026-10-19",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-20",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-21",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-22",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-23",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-24",
     "open": "07:00",
-    "close": "19:00",
-    "sites": [
-      {
-        "name": "Health & Wellness Center",
-        "address": "102 Airport Road",
-        "city": "Anahuac",
-        "zip": "77514",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Beach City Community Building",
-        "address": "12723 FM 2354",
-        "city": "Beach City",
-        "zip": "77523",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Judge Larry Cryer Annex",
-        "address": "7711 HWY 146",
-        "city": "Baytown",
-        "zip": "77523",
-        "room": "",
-        "notes": "Cedar Bayou area."
-      },
-      {
-        "name": "West Side Complex",
-        "address": "8138 FM 3246",
-        "city": "Baytown",
-        "zip": "77523",
-        "room": "",
-        "notes": "Cove area."
-      },
-      {
-        "name": "White Park Community Building",
-        "address": "222 White Memorial Park Rd #220",
-        "city": "Hankamer",
-        "zip": "77597",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Barbers Hill ISD, Community Election Center",
-        "address": "9650 Eagle Drive",
-        "city": "Mont Belvieu",
-        "zip": "77523",
-        "room": "Entrance 32",
-        "notes": ""
-      },
-      {
-        "name": "City of Mont Belvieu, Council Chamber",
-        "address": "11607 Eagle Drive",
-        "city": "Mont Belvieu",
-        "zip": "77523",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Winnie Stowell Community Building",
-        "address": "335 S Park Street",
-        "city": "Winnie",
-        "zip": "77665",
-        "room": "",
-        "notes": ""
-      }
-    ]
-  },
-  "notes": "Chambers County voters may vote at any listed location during early voting and on Election Day. Early voting is 8 a.m. to 5 p.m. Oct 19 to 23, 7 a.m. to 7 p.m. Saturday Oct 24, 11 a.m. to 5 p.m. Sunday Oct 25, and 7 a.m. to 7 p.m. Oct 26 to 30."
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-25",
+    "open": "11:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-26",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-27",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-28",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-29",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-30",
+    "open": "07:00",
+    "close": "19:00"
+   }
+  ],
+  "sites": [
+   {
+    "name": "Chambers County Clerk's Office",
+    "address": "404 Washington Avenue",
+    "city": "Anahuac",
+    "zip": "77514",
+    "room": "",
+    "schedule": null,
+    "notes": "Main early voting location.",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Health & Wellness Center",
+    "address": "102 Airport Road",
+    "city": "Anahuac",
+    "zip": "77514",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Judge Larry Cryer Annex",
+    "address": "7711 HWY 146",
+    "city": "Baytown",
+    "zip": "77523",
+    "room": "",
+    "schedule": null,
+    "notes": "Cedar Bayou area.",
+    "lat": 29.806332,
+    "lng": -94.903474
+   },
+   {
+    "name": "West Side Complex",
+    "address": "8138 FM 3246",
+    "city": "Baytown",
+    "zip": "77523",
+    "room": "",
+    "schedule": null,
+    "notes": "Cove area.",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Barbers Hill ISD, Community Election Center",
+    "address": "9650 Eagle Drive",
+    "city": "Mont Belvieu",
+    "zip": "77523",
+    "room": "Entrance 32",
+    "schedule": null,
+    "notes": "",
+    "lat": 29.835492,
+    "lng": -94.849583
+   },
+   {
+    "name": "Winnie Stowell Community Building",
+    "address": "335 S Park Street",
+    "city": "Winnie",
+    "zip": "77665",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": null,
+    "lng": null
+   }
+  ]
+ },
+ "election_day": {
+  "open": "07:00",
+  "close": "19:00",
+  "sites": [
+   {
+    "name": "Health & Wellness Center",
+    "address": "102 Airport Road",
+    "city": "Anahuac",
+    "zip": "77514",
+    "room": "",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Beach City Community Building",
+    "address": "12723 FM 2354",
+    "city": "Beach City",
+    "zip": "77523",
+    "room": "",
+    "notes": "",
+    "lat": 29.722178,
+    "lng": -94.853479
+   },
+   {
+    "name": "Judge Larry Cryer Annex",
+    "address": "7711 HWY 146",
+    "city": "Baytown",
+    "zip": "77523",
+    "room": "",
+    "notes": "Cedar Bayou area.",
+    "lat": 29.806332,
+    "lng": -94.903474
+   },
+   {
+    "name": "West Side Complex",
+    "address": "8138 FM 3246",
+    "city": "Baytown",
+    "zip": "77523",
+    "room": "",
+    "notes": "Cove area.",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "White Park Community Building",
+    "address": "222 White Memorial Park Rd #220",
+    "city": "Hankamer",
+    "zip": "77597",
+    "room": "",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Barbers Hill ISD, Community Election Center",
+    "address": "9650 Eagle Drive",
+    "city": "Mont Belvieu",
+    "zip": "77523",
+    "room": "Entrance 32",
+    "notes": "",
+    "lat": 29.835492,
+    "lng": -94.849583
+   },
+   {
+    "name": "City of Mont Belvieu, Council Chamber",
+    "address": "11607 Eagle Drive",
+    "city": "Mont Belvieu",
+    "zip": "77523",
+    "room": "",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Winnie Stowell Community Building",
+    "address": "335 S Park Street",
+    "city": "Winnie",
+    "zip": "77665",
+    "room": "",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   }
+  ]
+ },
+ "notes": "Chambers County voters may vote at any listed location during early voting and on Election Day. Early voting is 8 a.m. to 5 p.m. Oct 19 to 23, 7 a.m. to 7 p.m. Saturday Oct 24, 11 a.m. to 5 p.m. Sunday Oct 25, and 7 a.m. to 7 p.m. Oct 26 to 30."
 }

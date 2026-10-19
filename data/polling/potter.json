@@ -1,0 +1,360 @@
+{
+ "county": "Potter",
+ "model": "countywide",
+ "checked_at": "2026-10-19T03:10:00Z",
+ "sources": [
+  {
+   "title": "Potter County Elections: Early Voting Locations",
+   "url": "https://www.pottercountytexasvotes.gov/early-voting-locations"
+  },
+  {
+   "title": "Potter County Elections: Election Day Voting Locations",
+   "url": "https://www.pottercountytexasvotes.gov/election-day-voting-locations"
+  },
+  {
+   "title": "Potter County: Notice of General Election, November 3, 2026 (PDF)",
+   "url": "https://www.pottercountytexasvotes.gov/_files/ugd/abcbbe_24430cef9aea4346a1c28675136dc106.pdf"
+  }
+ ],
+ "lookup_url": null,
+ "wait_times_url": null,
+ "early_voting": {
+  "schedule": [
+   {
+    "date": "2026-10-19",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-20",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-21",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-22",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-23",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-24",
+    "open": "09:00",
+    "close": "15:00"
+   },
+   {
+    "date": "2026-10-25",
+    "open": "09:00",
+    "close": "15:00"
+   },
+   {
+    "date": "2026-10-26",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-27",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-28",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-29",
+    "open": "08:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-30",
+    "open": "08:00",
+    "close": "19:00"
+   }
+  ],
+  "sites": [
+   {
+    "name": "Santa Fe Building (Main)",
+    "address": "900 S. Polk St.",
+    "city": "Amarillo",
+    "zip": "79101",
+    "room": "First Floor, Ticket Office",
+    "schedule": [
+     {
+      "date": "2026-10-19",
+      "open": "08:00",
+      "close": "17:00"
+     },
+     {
+      "date": "2026-10-20",
+      "open": "08:00",
+      "close": "17:00"
+     },
+     {
+      "date": "2026-10-21",
+      "open": "08:00",
+      "close": "17:00"
+     },
+     {
+      "date": "2026-10-22",
+      "open": "08:00",
+      "close": "17:00"
+     },
+     {
+      "date": "2026-10-23",
+      "open": "08:00",
+      "close": "17:00"
+     },
+     {
+      "date": "2026-10-24",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-25",
+      "open": "09:00",
+      "close": "15:00"
+     },
+     {
+      "date": "2026-10-26",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-27",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-28",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-29",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-30",
+      "open": "07:00",
+      "close": "19:00"
+     }
+    ],
+    "notes": "Main early voting location.",
+    "lat": 35.204531,
+    "lng": -101.837734
+   },
+   {
+    "name": "Casey Carpet One",
+    "address": "3500 I-40 West Frontage Rd.",
+    "city": "Amarillo",
+    "zip": "79102",
+    "room": "Main Entrance",
+    "schedule": null,
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Cornerstone Outreach",
+    "address": "1111 N. Buchanan St.",
+    "city": "Amarillo",
+    "zip": "79107",
+    "room": "Fellowship Room",
+    "schedule": null,
+    "notes": "",
+    "lat": 35.226264,
+    "lng": -101.828983
+   },
+   {
+    "name": "Northwest Branch Amarillo Public Library",
+    "address": "6100 SW 9th Ave.",
+    "city": "Amarillo",
+    "zip": "79106",
+    "room": "Meeting Room",
+    "schedule": null,
+    "notes": "The county's Notice of General Election lists ZIP 79124 for this site.",
+    "lat": 35.206032,
+    "lng": -101.904807
+   },
+   {
+    "name": "Tri-State Fairgrounds",
+    "address": "3301 SE 10th Ave.",
+    "city": "Amarillo",
+    "zip": "79104",
+    "room": "Commercial Exhibit Hall",
+    "schedule": null,
+    "notes": "The election notice says to use Arched Gate #1.",
+    "lat": 35.200309,
+    "lng": -101.799733
+   }
+  ]
+ },
+ "election_day": {
+  "open": "07:00",
+  "close": "19:00",
+  "sites": [
+   {
+    "name": "Behind the Chutes Cowboy Church",
+    "address": "10424 Snowball Trail",
+    "city": "Amarillo",
+    "zip": "79108",
+    "room": "Main Entrance",
+    "notes": "",
+    "lat": 35.317078,
+    "lng": -101.879701
+   },
+   {
+    "name": "Casey Carpet One",
+    "address": "3500 I-40 W Frontage Rd.",
+    "city": "Amarillo",
+    "zip": "79102",
+    "room": "Main Entrance",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Eastridge Lanes",
+    "address": "5405 E Amarillo Blvd.",
+    "city": "Amarillo",
+    "zip": "79107",
+    "room": "Right Side",
+    "notes": "",
+    "lat": 35.22211,
+    "lng": -101.774863
+   },
+   {
+    "name": "Kids, Inc.",
+    "address": "2201 SE 27th Ave.",
+    "city": "Amarillo",
+    "zip": "79103",
+    "room": "Mary E Bivins Room",
+    "notes": "",
+    "lat": 35.185689,
+    "lng": -101.81316
+   },
+   {
+    "name": "Pride Home Center",
+    "address": "3503 NE 24th Ave.",
+    "city": "Amarillo",
+    "zip": "79107",
+    "room": "Middle back of store",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Tri-State Fairgrounds",
+    "address": "3301 SE 10th Ave.",
+    "city": "Amarillo",
+    "zip": "79104",
+    "room": "Commercial Exhibit Hall",
+    "notes": "The election notice says to use Arched Gate #1.",
+    "lat": 35.200309,
+    "lng": -101.799733
+   },
+   {
+    "name": "Trinity Fellowship - Willow Creek Campus",
+    "address": "503 E Willow Creek Dr.",
+    "city": "Amarillo",
+    "zip": "79108",
+    "room": "Fellowship Hall",
+    "notes": "",
+    "lat": 35.280082,
+    "lng": -101.822197
+   },
+   {
+    "name": "Valle de Oro Fire Station",
+    "address": "23801 FM 1061",
+    "city": "Valle de Oro",
+    "zip": "79010",
+    "room": "Truck Bay",
+    "notes": "",
+    "lat": 35.444544,
+    "lng": -102.100942
+   },
+   {
+    "name": "Bushland Fire Station #1",
+    "address": "17600 Indian Hill Rd.",
+    "city": "Bushland",
+    "zip": "79012",
+    "room": "Main Entrance",
+    "notes": "The county's Notice of General Election lists Amarillo, TX 79124, Truck Bay for this site.",
+    "lat": 35.191851,
+    "lng": -102.042158
+   },
+   {
+    "name": "Cornerstone Outreach",
+    "address": "1111 N Buchanan St.",
+    "city": "Amarillo",
+    "zip": "79107",
+    "room": "Fellowship Room",
+    "notes": "",
+    "lat": 35.226264,
+    "lng": -101.828983
+   },
+   {
+    "name": "Highland Park ISD Administration Bldg.",
+    "address": "15300 E Amarillo Blvd.",
+    "city": "Amarillo",
+    "zip": "79108",
+    "room": "Boardroom",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "NW Branch Library",
+    "address": "6100 SW 9th Ave.",
+    "city": "Amarillo",
+    "zip": "79106",
+    "room": "Meeting Room",
+    "notes": "",
+    "lat": 35.206032,
+    "lng": -101.904807
+   },
+   {
+    "name": "Santa Fe Bldg.",
+    "address": "900 S Polk St.",
+    "city": "Amarillo",
+    "zip": "79101",
+    "room": "Ticket Office",
+    "notes": "",
+    "lat": 35.204531,
+    "lng": -101.837734
+   },
+   {
+    "name": "Trinity Baptist Church",
+    "address": "1601 I-40 West",
+    "city": "Amarillo",
+    "zip": "79109",
+    "room": "East Entrance",
+    "notes": "",
+    "lat": 35.194625,
+    "lng": -101.855856
+   },
+   {
+    "name": "United Citizens Forum",
+    "address": "903 N Hayden St.",
+    "city": "Amarillo",
+    "zip": "79107",
+    "room": "Main Entrance",
+    "notes": "",
+    "lat": 35.223116,
+    "lng": -101.847982
+   }
+  ]
+ },
+ "notes": "On Election Day a voter may vote at any of the 15 listed locations. The Santa Fe Building has longer early voting hours than the four branch sites, which stay open until 7 p.m. only on October 29 and 30."
+}

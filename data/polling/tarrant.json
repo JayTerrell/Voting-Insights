@@ -1,2301 +1,2841 @@
 {
-  "county": "Tarrant",
-  "model": "countywide",
-  "checked_at": "2026-10-19T02:07:48Z",
-  "sources": [
-    {
-      "title": "Tarrant County Elections",
-      "url": "https://www.tarrantcountytx.gov/en/elections.html"
-    },
-    {
-      "title": "Tarrant County Early Voting Schedule and Locations, November 3, 2026",
-      "url": "https://www.tarrantcountytx.gov/content/dam/main/elections/2026/1126/locations/1126_EV_Sched.pdf"
-    },
-    {
-      "title": "Tarrant County Election Day Vote Center Locations, November 3, 2026 (as of September 2, 2026)",
-      "url": "https://www.tarrantcountytx.gov/content/dam/main/elections/2026/1126/locations/1126_Vote_Center_Locations.pdf"
-    }
-  ],
-  "lookup_url": null,
-  "wait_times_url": "https://gisit.tarrantcounty.com/tcvotingwaittime/",
-  "early_voting": {
-    "schedule": [
-      {
-        "date": "2026-10-19",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
-        "date": "2026-10-20",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
-        "date": "2026-10-21",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
-        "date": "2026-10-22",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
-        "date": "2026-10-23",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
-        "date": "2026-10-24",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-25",
-        "open": "10:00",
-        "close": "16:00"
-      },
-      {
-        "date": "2026-10-26",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-27",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-28",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-29",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-30",
-        "open": "07:00",
-        "close": "19:00"
-      }
-    ],
-    "sites": [
-      {
-        "name": "ACTIV",
-        "address": "2061 W Green Oaks Boulevard",
-        "city": "Arlington",
-        "zip": "76013",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Bob Duncan Center",
-        "address": "2800 S Center Street",
-        "city": "Arlington",
-        "zip": "76014",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "City of Arlington South Service Center",
-        "address": "1100 SW Green Oaks Boulevard",
-        "city": "Arlington",
-        "zip": "76017",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Elzie Odom Athletic Center",
-        "address": "1601 NE Green Oaks Boulevard",
-        "city": "Arlington",
-        "zip": "76006",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Tarrant County Subcourthouse in Arlington",
-        "address": "700 E Abram Street",
-        "city": "Arlington",
-        "zip": "76010",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Tarrant County College Southeast Campus",
-        "address": "2100 Southeast Parkway",
-        "city": "Arlington",
-        "zip": "76018",
-        "room": "EMBD 1105",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Azle ISD PD",
-        "address": "483 Sandy Beach Road, Suite A",
-        "city": "Azle",
-        "zip": "76020",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Bedford Public Library",
-        "address": "2424 Forest Ridge Drive",
-        "city": "Bedford",
-        "zip": "76021",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Benbrook Community Center",
-        "address": "228 San Angelo Avenue",
-        "city": "Benbrook",
-        "zip": "76126",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Colleyville Recreation Center Annex A",
-        "address": "5008 Roberts Road",
-        "city": "Colleyville",
-        "zip": "76034",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Crouch Event Center in Bicentennial Park",
-        "address": "900 E Glendale Street",
-        "city": "Crowley",
-        "zip": "76036",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Euless Family Life Senior Center",
-        "address": "300 W Midway Drive",
-        "city": "Euless",
-        "zip": "76039",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Forest Hill Civic & Convention Center",
-        "address": "6901 Wichita Street",
-        "city": "Forest Hill",
-        "zip": "76140",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Everman Civic Center",
-        "address": "213 N Race Street",
-        "city": "Everman",
-        "zip": "76140",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Charles F. Griffin Building",
-        "address": "3212 Miller Avenue",
-        "city": "Fort Worth",
-        "zip": "76119",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Chisholm Trail Community Center",
-        "address": "4936 McPherson Boulevard",
-        "city": "Fort Worth",
-        "zip": "76123",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Como Community Center",
-        "address": "4660 Horne Street",
-        "city": "Fort Worth",
-        "zip": "76107",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Diamond Hill/Jarvis Branch Library",
-        "address": "1300 NE 35th Street",
-        "city": "Fort Worth",
-        "zip": "76106",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Dionne Phillips Bagsby Southwest Subcourthouse",
-        "address": "6551 Granbury Road",
-        "city": "Fort Worth",
-        "zip": "76133",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "East Regional Library",
-        "address": "6301 Bridge Street",
-        "city": "Fort Worth",
-        "zip": "76112",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Handley-Meadowbrook Community Center",
-        "address": "6201 Beaty Street",
-        "city": "Fort Worth",
-        "zip": "76112",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Hazel Harvey Peace Center for Neighborhoods",
-        "address": "818 Missouri Avenue",
-        "city": "Fort Worth",
-        "zip": "76104",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Northpark YMCA",
-        "address": "9100 N Beach Street",
-        "city": "Fort Worth",
-        "zip": "76244",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Northside Community Center",
-        "address": "1100 NW 18th Street",
-        "city": "Fort Worth",
-        "zip": "76164",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Southwest Community Center",
-        "address": "6300 Welch Avenue",
-        "city": "Fort Worth",
-        "zip": "76133",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Summerglen Branch Library",
-        "address": "4205 Basswood Boulevard",
-        "city": "Fort Worth",
-        "zip": "76137",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Tarrant County College Northwest Campus",
-        "address": "4801 Marine Creek Parkway",
-        "city": "Fort Worth",
-        "zip": "76179",
-        "room": "WFSC 1403A",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Tarrant County Elections Center",
-        "address": "2700 Premier Street",
-        "city": "Fort Worth",
-        "zip": "76111",
-        "room": "",
-        "schedule": null,
-        "notes": "Main Early Voting Site"
-      },
-      {
-        "name": "Tarrant County Plaza Building",
-        "address": "201 Burnett Street",
-        "city": "Fort Worth",
-        "zip": "76102",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Worth Heights Community Center",
-        "address": "3551 New York Avenue",
-        "city": "Fort Worth",
-        "zip": "76110",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Asia Times Square",
-        "address": "2615 W Pioneer Parkway",
-        "city": "Grand Prairie",
-        "zip": "75051",
-        "room": "Hong Kong building room 116",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Grapevine Public Library",
-        "address": "1201 Municipal Way",
-        "city": "Grapevine",
-        "zip": "76051",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Haltom City Senior Center",
-        "address": "3201 Friendly Lane",
-        "city": "Haltom City",
-        "zip": "76117",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Legacy Learning Center Northwest ISD",
-        "address": "501 School House Road",
-        "city": "Haslet",
-        "zip": "76052",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Brookside Center",
-        "address": "1244 Brookside Drive",
-        "city": "Hurst",
-        "zip": "76053",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Gary Fickes Northeast Courthouse",
-        "address": "645 Grapevine Highway",
-        "city": "Hurst",
-        "zip": "76054",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Keller Town Hall",
-        "address": "1100 Bear Creek Parkway",
-        "city": "Keller",
-        "zip": "76248",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Dover Fellowship Hall",
-        "address": "208 Municipal Drive",
-        "city": "Kennedale",
-        "zip": "76060",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Sheriff’s Office North Patrol Division",
-        "address": "6651 Lake Worth Boulevard",
-        "city": "Lake Worth",
-        "zip": "76135",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Tarrant County Subcourthouse at Mansfield",
-        "address": "1100 E Broad Street",
-        "city": "Mansfield",
-        "zip": "76063",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Vernon Newsom Stadium",
-        "address": "3700 E Broad Street",
-        "city": "Mansfield",
-        "zip": "76063",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "North Richland Hills City Hall",
-        "address": "4301 City Point Drive",
-        "city": "N Richland Hills",
-        "zip": "76180",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "River Oaks Community Center",
-        "address": "5300 Blackstone Drive",
-        "city": "River Oaks",
-        "zip": "76114",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Saginaw Public Library",
-        "address": "300 W McLeroy Boulevard",
-        "city": "Saginaw",
-        "zip": "76179",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Southlake Town Hall",
-        "address": "1400 Main Street",
-        "city": "Southlake",
-        "zip": "76092",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Town of Westlake Fire-EMS Department",
-        "address": "2000 W Dove Road",
-        "city": "Westlake",
-        "zip": "76262",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "White Settlement Public Library",
-        "address": "8215 White Settlement Road",
-        "city": "White Settlement",
-        "zip": "76108",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      }
-    ]
+ "county": "Tarrant",
+ "model": "countywide",
+ "checked_at": "2026-10-19T02:07:48Z",
+ "sources": [
+  {
+   "title": "Tarrant County Elections",
+   "url": "https://www.tarrantcountytx.gov/en/elections.html"
   },
-  "election_day": {
+  {
+   "title": "Tarrant County Early Voting Schedule and Locations, November 3, 2026",
+   "url": "https://www.tarrantcountytx.gov/content/dam/main/elections/2026/1126/locations/1126_EV_Sched.pdf"
+  },
+  {
+   "title": "Tarrant County Election Day Vote Center Locations, November 3, 2026 (as of September 2, 2026)",
+   "url": "https://www.tarrantcountytx.gov/content/dam/main/elections/2026/1126/locations/1126_Vote_Center_Locations.pdf"
+  }
+ ],
+ "lookup_url": null,
+ "wait_times_url": "https://gisit.tarrantcounty.com/tcvotingwaittime/",
+ "early_voting": {
+  "schedule": [
+   {
+    "date": "2026-10-19",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-20",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-21",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-22",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-23",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-24",
     "open": "07:00",
-    "close": "19:00",
-    "sites": [
-      {
-        "name": "Myrtice and Curtis Larson Elementary School",
-        "address": "2620 Avenue K",
-        "city": "Grand Prairie",
-        "zip": "75050",
-        "room": "Library",
-        "notes": ""
-      },
-      {
-        "name": "Asia Times Square",
-        "address": "2615 West Pioneer Parkway",
-        "city": "Grand Prairie",
-        "zip": "75051",
-        "room": "Suite 116",
-        "notes": ""
-      },
-      {
-        "name": "CrossPoint Church of Christ",
-        "address": "3020 Bardin Road",
-        "city": "Grand Prairie",
-        "zip": "75052",
-        "room": "Youth Room",
-        "notes": ""
-      },
-      {
-        "name": "J. M. Farrell Elementary School",
-        "address": "3410 Paladium Drive",
-        "city": "Grand Prairie",
-        "zip": "75052",
-        "room": "Main Hallway in front of Office",
-        "notes": ""
-      },
-      {
-        "name": "Sam and Barbara West Elementary School",
-        "address": "2911 Kingswood Boulevard",
-        "city": "Grand Prairie",
-        "zip": "75052",
-        "room": "Library, Door #2",
-        "notes": ""
-      },
-      {
-        "name": "Anna May Daulton Elementary School",
-        "address": "2607 North Grand Peninsula Drive",
-        "city": "Grand Prairie",
-        "zip": "75054",
-        "room": "Library, Door #3",
-        "notes": ""
-      },
-      {
-        "name": "Kenneth Davis Elementary School",
-        "address": "900 Eden Road",
-        "city": "Arlington",
-        "zip": "76001",
-        "room": "Library, Entry #1",
-        "notes": ""
-      },
-      {
-        "name": "Summit High School Performing Arts Center",
-        "address": "1071 Turner Warnell Road",
-        "city": "Arlington",
-        "zip": "76001",
-        "room": "PAC Foyer",
-        "notes": ""
-      },
-      {
-        "name": "T. A. Howard Middle School",
-        "address": "7501 Calender Road",
-        "city": "Arlington",
-        "zip": "76001",
-        "room": "Boys Gym, Entry #10",
-        "notes": ""
-      },
-      {
-        "name": "Janet Brockett Elementary School",
-        "address": "810 Dove Meadows Drive",
-        "city": "Arlington",
-        "zip": "76002",
-        "room": "Cafeteria, Entry #16",
-        "notes": ""
-      },
-      {
-        "name": "Martha Reid Leadership Academy",
-        "address": "500 Country Club Drive",
-        "city": "Arlington",
-        "zip": "76002",
-        "room": "Room 28, Entry #18",
-        "notes": ""
-      },
-      {
-        "name": "MISD Student Nutrition Department",
-        "address": "1151 Mansfield Webb Road",
-        "city": "Arlington",
-        "zip": "76002",
-        "room": "Auditorium",
-        "notes": ""
-      },
-      {
-        "name": "Pearcy Stem Academy",
-        "address": "601 East Harris Road",
-        "city": "Arlington",
-        "zip": "76002",
-        "room": "Library",
-        "notes": ""
-      },
-      {
-        "name": "Timberview High School",
-        "address": "7700 South Watson Road",
-        "city": "Arlington",
-        "zip": "76002",
-        "room": "PAC Lobby",
-        "notes": ""
-      },
-      {
-        "name": "Dora E. Nichols Junior High School",
-        "address": "2201 Ascension Boulevard",
-        "city": "Arlington",
-        "zip": "76006",
-        "room": "Fine Arts Hall, Entry #1",
-        "notes": ""
-      },
-      {
-        "name": "Elzie Odom Athletic Center",
-        "address": "1601 Northeast Green Oaks Boulevard",
-        "city": "Arlington",
-        "zip": "76006",
-        "room": "Burn Room",
-        "notes": ""
-      },
-      {
-        "name": "Sherrod Elementary School",
-        "address": "2626 Lincoln Drive",
-        "city": "Arlington",
-        "zip": "76006",
-        "room": "Gym, Door #4",
-        "notes": ""
-      },
-      {
-        "name": "Beth Anderson Elementary School",
-        "address": "1101 Timberlake Drive",
-        "city": "Arlington",
-        "zip": "76010",
-        "room": "Main Hallway, Entry #1",
-        "notes": ""
-      },
-      {
-        "name": "East Library and Recreation Center",
-        "address": "1817 New York Avenue",
-        "city": "Arlington",
-        "zip": "76010",
-        "room": "Meeting Room",
-        "notes": ""
-      },
-      {
-        "name": "Tarrant County Subcourthouse in Arlington",
-        "address": "700 East Abram Street",
-        "city": "Arlington",
-        "zip": "76010",
-        "room": "1st Floor Meeting Room",
-        "notes": ""
-      },
-      {
-        "name": "John Webb Elementary School",
-        "address": "1300 North Cooper Street",
-        "city": "Arlington",
-        "zip": "76011",
-        "room": "Gym, Entry #9",
-        "notes": ""
-      },
-      {
-        "name": "Shepherd of Life Lutheran Church",
-        "address": "715 East Lamar Boulevard",
-        "city": "Arlington",
-        "zip": "76011",
-        "room": "Narthex",
-        "notes": ""
-      },
-      {
-        "name": "Shackelford Junior High School",
-        "address": "2000 North Fielder Road",
-        "city": "Arlington",
-        "zip": "76012",
-        "room": "Library",
-        "notes": ""
-      },
-      {
-        "name": "St. Stephen Methodist Church",
-        "address": "1800 West Randol Mill Road",
-        "city": "Arlington",
-        "zip": "76012",
-        "room": "Family Life Center / Gymnasium",
-        "notes": ""
-      },
-      {
-        "name": "ACTIV",
-        "address": "2061 West Green Oaks Boulevard",
-        "city": "Arlington",
-        "zip": "76013",
-        "room": "Redbud Room",
-        "notes": ""
-      },
-      {
-        "name": "Bailey Junior High School",
-        "address": "2411 Winewood Lane",
-        "city": "Arlington",
-        "zip": "76013",
-        "room": "Hallway, Entry #2",
-        "notes": ""
-      },
-      {
-        "name": "Woodland West Church of Christ",
-        "address": "3101 West Park Row Drive",
-        "city": "Arlington",
-        "zip": "76013",
-        "room": "Main Lobby",
-        "notes": ""
-      },
-      {
-        "name": "Town of Pantego Council Chambers",
-        "address": "1614 South Bowen Road",
-        "city": "Pantego",
-        "zip": "76013",
-        "room": "Town Council / Court Chambers",
-        "notes": ""
-      },
-      {
-        "name": "Atherton Elementary School",
-        "address": "2101 Overbrook Drive",
-        "city": "Arlington",
-        "zip": "76014",
-        "room": "Stem Lab 1 / 2",
-        "notes": ""
-      },
-      {
-        "name": "Bob Duncan Center",
-        "address": "2800 South Center Street",
-        "city": "Arlington",
-        "zip": "76014",
-        "room": "Music Room",
-        "notes": ""
-      },
-      {
-        "name": "Ethel Goodman Elementary School",
-        "address": "1400 Rebecca Lane",
-        "city": "Arlington",
-        "zip": "76014",
-        "room": "Library, Door #5",
-        "notes": ""
-      },
-      {
-        "name": "Floyd Gunn Jr High / Fine Arts & Dual Language Academy",
-        "address": "3000 South Fielder Road",
-        "city": "Arlington",
-        "zip": "76015",
-        "room": "Library, Entry #2",
-        "notes": ""
-      },
-      {
-        "name": "Charles W. Young Junior High School",
-        "address": "3200 Woodside Drive",
-        "city": "Arlington",
-        "zip": "76016",
-        "room": "Gym A, Door #10",
-        "notes": ""
-      },
-      {
-        "name": "Key Elementary School",
-        "address": "3621 Roosevelt Drive",
-        "city": "Arlington",
-        "zip": "76016",
-        "room": "Main Hallway, Entry #1",
-        "notes": ""
-      },
-      {
-        "name": "Miller Elementary School",
-        "address": "6401 West Pleasant Ridge Road",
-        "city": "Arlington",
-        "zip": "76016",
-        "room": "Cafeteria",
-        "notes": ""
-      },
-      {
-        "name": "Dalworthington Gardens City Hall",
-        "address": "2600 Roosevelt Drive",
-        "city": "Dalworthington Gardens",
-        "zip": "76016",
-        "room": "Council Room",
-        "notes": ""
-      },
-      {
-        "name": "City of Arlington South Service Center",
-        "address": "1100 Southwest Green Oaks Boulevard",
-        "city": "Arlington",
-        "zip": "76017",
-        "room": "Training Room",
-        "notes": ""
-      },
-      {
-        "name": "Cliff Nelson Recreation Center",
-        "address": "4600 West Bardin Road",
-        "city": "Arlington",
-        "zip": "76017",
-        "room": "Classroom",
-        "notes": ""
-      },
-      {
-        "name": "Grace Community Church",
-        "address": "801 West Bardin Road",
-        "city": "Arlington",
-        "zip": "76017",
-        "room": "Gymnasium",
-        "notes": ""
-      },
-      {
-        "name": "Rush Creek Church",
-        "address": "2350 Southwest Green Oaks Boulevard",
-        "city": "Arlington",
-        "zip": "76017",
-        "room": "Commons",
-        "notes": ""
-      },
-      {
-        "name": "Truett Boles Junior High School",
-        "address": "3900 Southwest Green Oaks Boulevard",
-        "city": "Arlington",
-        "zip": "76017",
-        "room": "Cafeteria, Door #1",
-        "notes": ""
-      },
-      {
-        "name": "New Life Fellowship",
-        "address": "201 East Sublett Road",
-        "city": "Arlington",
-        "zip": "76018",
-        "room": "Auditorium 1",
-        "notes": ""
-      },
-      {
-        "name": "Southeast Branch Library",
-        "address": "900 Southeast Green Oaks Boulevard",
-        "city": "Arlington",
-        "zip": "76018",
-        "room": "Meeting Room",
-        "notes": ""
-      },
-      {
-        "name": "St. Andrews United Methodist Church",
-        "address": "2045 Southeast Green Oaks Boulevard",
-        "city": "Arlington",
-        "zip": "76018",
-        "room": "Link (Reception Area)",
-        "notes": ""
-      },
-      {
-        "name": "Tarrant County College Southeast Campus",
-        "address": "2100 Southeast Parkway",
-        "city": "Arlington",
-        "zip": "76018",
-        "room": "EMBD 1105",
-        "notes": ""
-      },
-      {
-        "name": "Azle ISD PD",
-        "address": "483 Sandy Beach Road, Suite A",
-        "city": "Azle",
-        "zip": "76020",
-        "room": "Training Room",
-        "notes": ""
-      },
-      {
-        "name": "The Edge Church (Good Shepherd Lutheran Church)",
-        "address": "1313 Southeast Parkway",
-        "city": "Azle",
-        "zip": "76020",
-        "room": "Fellowship Building, Room 1",
-        "notes": ""
-      },
-      {
-        "name": "Bedford Public Library",
-        "address": "2424 Forest Ridge Drive",
-        "city": "Bedford",
-        "zip": "76021",
-        "room": "Meeting Room",
-        "notes": ""
-      },
-      {
-        "name": "Central Baptist Church",
-        "address": "1120 Central Drive",
-        "city": "Bedford",
-        "zip": "76022",
-        "room": "Fellowship Hall",
-        "notes": ""
-      },
-      {
-        "name": "Pat May Center",
-        "address": "1849-B Central Drive",
-        "city": "Bedford",
-        "zip": "76022",
-        "room": "C1 & C2",
-        "notes": ""
-      },
-      {
-        "name": "Stonegate Elementary School",
-        "address": "900 Bedford Road",
-        "city": "Bedford",
-        "zip": "76022",
-        "room": "Lobby",
-        "notes": ""
-      },
-      {
-        "name": "Retta Baptist Church",
-        "address": "13201 Rendon Road",
-        "city": "Burleson",
-        "zip": "76028",
-        "room": "Fellowship Hall",
-        "notes": ""
-      },
-      {
-        "name": "St Ann Roman Catholic Church",
-        "address": "100 Southwest Alsbury Boulevard",
-        "city": "Burleson",
-        "zip": "76028",
-        "room": "Parish Hall Overflow",
-        "notes": ""
-      },
-      {
-        "name": "Tarrant County Precinct 1",
-        "address": "800 East Rendon Crowley Road",
-        "city": "Burleson",
-        "zip": "76028",
-        "room": "Meeting Room, Building A",
-        "notes": ""
-      },
-      {
-        "name": "Colleyville Recreation Center Annex A",
-        "address": "5008 Roberts Road",
-        "city": "Colleyville",
-        "zip": "76034",
-        "room": "Annex A",
-        "notes": ""
-      },
-      {
-        "name": "Liberty Elementary School",
-        "address": "1101 West McDonwell School Road",
-        "city": "Colleyville",
-        "zip": "76034",
-        "room": "Gym",
-        "notes": ""
-      },
-      {
-        "name": "Crouch Event Center in Bicentennial Park",
-        "address": "900 East Glendale Street",
-        "city": "Crowley",
-        "zip": "76036",
-        "room": "Live Oak Room",
-        "notes": ""
-      },
-      {
-        "name": "Crowley Assembly of God",
-        "address": "721 South Crowley Road",
-        "city": "Crowley",
-        "zip": "76036",
-        "room": "Fellowship Hall & Sanctuary",
-        "notes": ""
-      },
-      {
-        "name": "Crowley Recreation Center",
-        "address": "405 South Oak Street",
-        "city": "Crowley",
-        "zip": "76036",
-        "room": "Youth Room / Teen Zone",
-        "notes": ""
-      },
-      {
-        "name": "St. Francis Village",
-        "address": "4125 St. Francis Village Road",
-        "city": "Crowley",
-        "zip": "76036",
-        "room": "Rooms A & B",
-        "notes": ""
-      },
-      {
-        "name": "Bill R. Johnson CTE Center",
-        "address": "4500 Longhorn Trail",
-        "city": "Fort Worth",
-        "zip": "76036",
-        "room": "A117",
-        "notes": ""
-      },
-      {
-        "name": "Bear Creek Elementary School",
-        "address": "401 Bear Creek Drive",
-        "city": "Euless",
-        "zip": "76039",
-        "room": "Gym",
-        "notes": ""
-      },
-      {
-        "name": "Euless Family Life Senior Center",
-        "address": "300 West Midway Drive",
-        "city": "Euless",
-        "zip": "76039",
-        "room": "Arts & Craft Room, 2 & 3",
-        "notes": ""
-      },
-      {
-        "name": "King of Kings Arabic Church",
-        "address": "1401 North Main Street",
-        "city": "Euless",
-        "zip": "76039",
-        "room": "Kitchen Hall",
-        "notes": ""
-      },
-      {
-        "name": "Hurst Euless Bedford I.S.D. Auxiliary Services",
-        "address": "1350 West Euless Boulevard",
-        "city": "Euless",
-        "zip": "76040",
-        "room": "Training Room A, B, C & D",
-        "notes": ""
-      },
-      {
-        "name": "South Euless Baptist Church",
-        "address": "1000 Simmons Drive",
-        "city": "Euless",
-        "zip": "76040",
-        "room": "Fellowship Hall",
-        "notes": ""
-      },
-      {
-        "name": "South Euless Elementary School",
-        "address": "605 South Main Street",
-        "city": "Euless",
-        "zip": "76040",
-        "room": "Library",
-        "notes": ""
-      },
-      {
-        "name": "First Presbyterian Church Grapevine",
-        "address": "1002 Park Boulevard",
-        "city": "Grapevine",
-        "zip": "76051",
-        "room": "Main Room Fellowship Hall",
-        "notes": ""
-      },
-      {
-        "name": "Grapevine Middle School",
-        "address": "301 Pony Parkway",
-        "city": "Grapevine",
-        "zip": "76051",
-        "room": "Teachers Lounge off the Cafeteria",
-        "notes": ""
-      },
-      {
-        "name": "Grapevine Public Library",
-        "address": "1201 Municipal Way",
-        "city": "Grapevine",
-        "zip": "76051",
-        "room": "Program Room",
-        "notes": ""
-      },
-      {
-        "name": "Mariella of Grapevine",
-        "address": "3735 Ira E Woods Avenue",
-        "city": "Grapevine",
-        "zip": "76051",
-        "room": "Gathering Room",
-        "notes": ""
-      },
-      {
-        "name": "Heritage Baptist Church",
-        "address": "1200 FM 156 South",
-        "city": "Haslet",
-        "zip": "76052",
-        "room": "Lobby of Activity Building",
-        "notes": ""
-      },
-      {
-        "name": "Legacy Learning Center Northwest ISD",
-        "address": "501 School House Road",
-        "city": "Haslet",
-        "zip": "76052",
-        "room": "L125 & L127",
-        "notes": ""
-      },
-      {
-        "name": "Leo Adams Middle School",
-        "address": "1075 Eagle Boulevard",
-        "city": "Haslet",
-        "zip": "76052",
-        "room": "Portable 5 & 6",
-        "notes": ""
-      },
-      {
-        "name": "Sendera Ranch Elementary School",
-        "address": "1216 Diamondback Lane",
-        "city": "Haslet",
-        "zip": "76052",
-        "room": "Gym",
-        "notes": ""
-      },
-      {
-        "name": "Brookside Center",
-        "address": "1244 Brookside Drive",
-        "city": "Hurst",
-        "zip": "76053",
-        "room": "Main Room",
-        "notes": ""
-      },
-      {
-        "name": "Hurst Public Library",
-        "address": "901 Precinct Line Road",
-        "city": "Hurst",
-        "zip": "76053",
-        "room": "Library Program, Rooms North & South",
-        "notes": ""
-      },
-      {
-        "name": "First Baptist Hurst Norwood Campus",
-        "address": "1801 Norwood Drive",
-        "city": "Hurst",
-        "zip": "76054",
-        "room": "Fellowship Hall East",
-        "notes": ""
-      },
-      {
-        "name": "Gary Fickes Northeast Courthouse",
-        "address": "645 Grapevine Highway",
-        "city": "Hurst",
-        "zip": "76054",
-        "room": "Community Room",
-        "notes": ""
-      },
-      {
-        "name": "Dover Fellowship Hall",
-        "address": "208 Municipal Drive",
-        "city": "Kennedale",
-        "zip": "76060",
-        "room": "Dover Hall",
-        "notes": ""
-      },
-      {
-        "name": "Kennedale High School",
-        "address": "901 Wildcat Way",
-        "city": "Kennedale",
-        "zip": "76060",
-        "room": "KISD Performing Arts Center",
-        "notes": ""
-      },
-      {
-        "name": "Brooks Wester Middle School",
-        "address": "1520 North Walnut Creek",
-        "city": "Mansfield",
-        "zip": "76063",
-        "room": "Concession Area, Entry #21",
-        "notes": ""
-      },
-      {
-        "name": "Donna Shepard Leadership Academy",
-        "address": "1280 FM Road 1187",
-        "city": "Mansfield",
-        "zip": "76063",
-        "room": "Gym A, Entry #13",
-        "notes": ""
-      },
-      {
-        "name": "J. L. Boren Elementary School",
-        "address": "1401 Country Club Drive",
-        "city": "Mansfield",
-        "zip": "76063",
-        "room": "Library, Entry #1",
-        "notes": ""
-      },
-      {
-        "name": "New Hope Baptist Church",
-        "address": "6765 Dick Price Road",
-        "city": "Mansfield",
-        "zip": "76063",
-        "room": "Fellowship Hall",
-        "notes": ""
-      },
-      {
-        "name": "Tarrant County Subcourthouse at Mansfield",
-        "address": "1100 East Broad Street",
-        "city": "Mansfield",
-        "zip": "76063",
-        "room": "1st Floor Multipurpose Room",
-        "notes": ""
-      },
-      {
-        "name": "Vernon Newsom Stadium",
-        "address": "3700 East Broad Street",
-        "city": "Mansfield",
-        "zip": "76063",
-        "room": "Community Room",
-        "notes": ""
-      },
-      {
-        "name": "Countryside Bible Church",
-        "address": "251 Countryside Court",
-        "city": "Southlake",
-        "zip": "76092",
-        "room": "Middle School Main Room",
-        "notes": ""
-      },
-      {
-        "name": "Southlake Town Hall",
-        "address": "1400 Main Street",
-        "city": "Southlake",
-        "zip": "76092",
-        "room": "3rd Floor; Training Rooms 3A-3D",
-        "notes": ""
-      },
-      {
-        "name": "St. Martin in-the-Fields Episcopal Church",
-        "address": "223 South Pearson Lane",
-        "city": "Southlake",
-        "zip": "76092",
-        "room": "Parish Hall",
-        "notes": ""
-      },
-      {
-        "name": "The Carlyle at Stonebridge Park",
-        "address": "170 Stonebridge Lane",
-        "city": "Southlake",
-        "zip": "76092",
-        "room": "Front Lobby & Library",
-        "notes": ""
-      },
-      {
-        "name": "Tarrant County Plaza Building",
-        "address": "201 Burnett Street",
-        "city": "Fort Worth",
-        "zip": "76102",
-        "room": "3rd Floor Voting Room",
-        "notes": ""
-      },
-      {
-        "name": "The Greenway Church",
-        "address": "1816 Delga Street",
-        "city": "Fort Worth",
-        "zip": "76102",
-        "room": "Lobby",
-        "notes": ""
-      },
-      {
-        "name": "Trinity Terrace",
-        "address": "1600 Texas Street",
-        "city": "Fort Worth",
-        "zip": "76102",
-        "room": "Chisholm Room",
-        "notes": ""
-      },
-      {
-        "name": "Community Christian Church Center Building",
-        "address": "1720 Vickery Boulevard East",
-        "city": "Fort Worth",
-        "zip": "76104",
-        "room": "Cafeteria",
-        "notes": ""
-      },
-      {
-        "name": "Hazel Harvey Peace Center for Neighborhoods",
-        "address": "818 Missouri Avenue",
-        "city": "Fort Worth",
-        "zip": "76104",
-        "room": "Front Conference Room",
-        "notes": ""
-      },
-      {
-        "name": "Morningside Elementary School",
-        "address": "2601 Evans Avenue",
-        "city": "Fort Worth",
-        "zip": "76104",
-        "room": "Auditorium",
-        "notes": ""
-      },
-      {
-        "name": "House of Prayer & Praise Church",
-        "address": "5025 Avenue G",
-        "city": "Fort Worth",
-        "zip": "76105",
-        "room": "Fellowship Hall",
-        "notes": ""
-      },
-      {
-        "name": "Sycamore Recreation Center",
-        "address": "2525 East Rosedale Street",
-        "city": "Fort Worth",
-        "zip": "76105",
-        "room": "Multipurpose Room",
-        "notes": ""
-      },
-      {
-        "name": "William M. McDonald YMCA",
-        "address": "2701 Moresby Street",
-        "city": "Fort Worth",
-        "zip": "76105",
-        "room": "Studio A & B",
-        "notes": ""
-      },
-      {
-        "name": "Diamond Hill/Jarvis Branch Library",
-        "address": "1300 Northeast 35th Street",
-        "city": "Fort Worth",
-        "zip": "76106",
-        "room": "Meeting Room",
-        "notes": ""
-      },
-      {
-        "name": "Iglesia Palabra de Amor",
-        "address": "3402 Northwest 28th Street",
-        "city": "Fort Worth",
-        "zip": "76106",
-        "room": "Reception Area",
-        "notes": ""
-      },
-      {
-        "name": "Como Community Center",
-        "address": "4660 Horne Street",
-        "city": "Fort Worth",
-        "zip": "76107",
-        "room": "Multi-Purpose Rooms #4-5",
-        "notes": ""
-      },
-      {
-        "name": "Lena Pope",
-        "address": "3200 Sanguinet Street",
-        "city": "Fort Worth",
-        "zip": "76107",
-        "room": "Conference Rooms - Mabee, Meadows & Messman",
-        "notes": ""
-      },
-      {
-        "name": "North Hi Mount Elementary School",
-        "address": "3801 West 7th Street",
-        "city": "Fort Worth",
-        "zip": "76107",
-        "room": "Gym",
-        "notes": ""
-      },
-      {
-        "name": "Thomas Place Community Center",
-        "address": "4237 Lafayette Avenue",
-        "city": "Fort Worth",
-        "zip": "76107",
-        "room": "Dance Room",
-        "notes": ""
-      },
-      {
-        "name": "Westover Hills Town Hall",
-        "address": "5824 Merrymount Road",
-        "city": "Westover Hills",
-        "zip": "76107",
-        "room": "Lobby",
-        "notes": ""
-      },
-      {
-        "name": "Redeemer Bible Church",
-        "address": "100 Verna Trail North",
-        "city": "Fort Worth",
-        "zip": "76108",
-        "room": "Fellowship Hall Auditorium",
-        "notes": ""
-      },
-      {
-        "name": "The Pentecostals of Fort Worth",
-        "address": "10264 Westpoint Boulevard",
-        "city": "Fort Worth",
-        "zip": "76108",
-        "room": "Children's Ministry Area",
-        "notes": ""
-      },
-      {
-        "name": "Pecan Grove Convention Center",
-        "address": "405 North Las Vegas Trail",
-        "city": "White Settlement",
-        "zip": "76108",
-        "room": "Front Room",
-        "notes": ""
-      },
-      {
-        "name": "White Settlement Public Library",
-        "address": "8215 White Settlement Road",
-        "city": "White Settlement",
-        "zip": "76108",
-        "room": "Community Room / Education Room",
-        "notes": ""
-      },
-      {
-        "name": "Southcliff Baptist Church",
-        "address": "4100 Southwest Loop 820",
-        "city": "Fort Worth",
-        "zip": "76109",
-        "room": "Main Concourse",
-        "notes": ""
-      },
-      {
-        "name": "Southwest Regional Library",
-        "address": "4001 Library Lane",
-        "city": "Fort Worth",
-        "zip": "76109",
-        "room": "Meeting Room",
-        "notes": ""
-      },
-      {
-        "name": "E. M. Daggett Elementary School",
-        "address": "958 Page Avenue",
-        "city": "Fort Worth",
-        "zip": "76110",
-        "room": "Gym",
-        "notes": ""
-      },
-      {
-        "name": "R. L. Paschal High School",
-        "address": "2911 Forest Park Boulevard",
-        "city": "Fort Worth",
-        "zip": "76110",
-        "room": "Gus Bates Lobby",
-        "notes": ""
-      },
-      {
-        "name": "Victory Forest Community Center",
-        "address": "3427 Hemphill Street",
-        "city": "Fort Worth",
-        "zip": "76110",
-        "room": "Computer Lab",
-        "notes": ""
-      },
-      {
-        "name": "Worth Heights Community Center",
-        "address": "3551 New York Avenue",
-        "city": "Fort Worth",
-        "zip": "76110",
-        "room": "Multipurpose Room 4",
-        "notes": ""
-      },
-      {
-        "name": "Andrew \"Doc\" Session Community Center",
-        "address": "201 South Sylvania Avenue",
-        "city": "Fort Worth",
-        "zip": "76111",
-        "room": "Activity Room",
-        "notes": ""
-      },
-      {
-        "name": "Oakhurst Elementary School",
-        "address": "2700 Yucca Avenue",
-        "city": "Fort Worth",
-        "zip": "76111",
-        "room": "Gym",
-        "notes": ""
-      },
-      {
-        "name": "Riverside Community Center",
-        "address": "3700 East Belknap Street",
-        "city": "Fort Worth",
-        "zip": "76111",
-        "room": "Meeting Room",
-        "notes": ""
-      },
-      {
-        "name": "All Peoples Church Unitarian Universalist",
-        "address": "1959 Sandy Lane",
-        "city": "Fort Worth",
-        "zip": "76112",
-        "room": "Fellowship Hall",
-        "notes": ""
-      },
-      {
-        "name": "East Regional Library",
-        "address": "6301 Bridge Street",
-        "city": "Fort Worth",
-        "zip": "76112",
-        "room": "Meeting Room",
-        "notes": ""
-      },
-      {
-        "name": "Eastside YMCA",
-        "address": "1500 Sandy Lane",
-        "city": "Fort Worth",
-        "zip": "76112",
-        "room": "Multipurpose Room",
-        "notes": ""
-      },
-      {
-        "name": "Handley-Meadowbrook Community Center",
-        "address": "6201 Beaty Street",
-        "city": "Fort Worth",
-        "zip": "76112",
-        "room": "Multipurpose Room 2",
-        "notes": ""
-      },
-      {
-        "name": "Martin Luther King Community Center",
-        "address": "5565 Truman Drive",
-        "city": "Fort Worth",
-        "zip": "76112",
-        "room": "Activity Room",
-        "notes": ""
-      },
-      {
-        "name": "Park Meadows Apartments",
-        "address": "2716 Yeager Street",
-        "city": "Fort Worth",
-        "zip": "76112",
-        "room": "Dining Room",
-        "notes": ""
-      },
-      {
-        "name": "River Oaks Community Center",
-        "address": "5300 Blackstone Drive",
-        "city": "River Oaks",
-        "zip": "76114",
-        "room": "Backroom",
-        "notes": ""
-      },
-      {
-        "name": "City of Sansom Park City Hall Municipal Court",
-        "address": "5705 Azle Avenue",
-        "city": "Sansom Park",
-        "zip": "76114",
-        "room": "Council Chambers",
-        "notes": ""
-      },
-      {
-        "name": "The Westmore Independent Living",
-        "address": "25 Leonard Trail",
-        "city": "Westworth Village",
-        "zip": "76114",
-        "room": "2nd Floor, Club House",
-        "notes": ""
-      },
-      {
-        "name": "Westworth Village City Hall",
-        "address": "311 Burton Hill Road",
-        "city": "Westworth Village",
-        "zip": "76114",
-        "room": "Community Room",
-        "notes": ""
-      },
-      {
-        "name": "Celeste's",
-        "address": "1001 Oak Grove Road",
-        "city": "Fort Worth",
-        "zip": "76115",
-        "room": "Lobby",
-        "notes": ""
-      },
-      {
-        "name": "James Avenue Service Center",
-        "address": "5001 James Avenue",
-        "city": "Fort Worth",
-        "zip": "76115",
-        "room": "Large Breakroom",
-        "notes": ""
-      },
-      {
-        "name": "Birchman Baptist Church",
-        "address": "2700 Dale Lane, Building B",
-        "city": "Fort Worth",
-        "zip": "76116",
-        "room": "Room B202",
-        "notes": ""
-      },
-      {
-        "name": "R. D. Evans Community Center",
-        "address": "3242 Lackland Road",
-        "city": "Fort Worth",
-        "zip": "76116",
-        "room": "Dance Studio",
-        "notes": ""
-      },
-      {
-        "name": "Redeemer Lutheran Church",
-        "address": "4513 Williams Road",
-        "city": "Fort Worth",
-        "zip": "76116",
-        "room": "Gym",
-        "notes": ""
-      },
-      {
-        "name": "Ridglea Baptist Church",
-        "address": "6037 Calmont Avenue",
-        "city": "Fort Worth",
-        "zip": "76116",
-        "room": "Room 100",
-        "notes": ""
-      },
-      {
-        "name": "Ridglea Presbyterian Church",
-        "address": "5000 Southwest Boulevard",
-        "city": "Fort Worth",
-        "zip": "76116",
-        "room": "Sanctuary",
-        "notes": ""
-      },
-      {
-        "name": "Western Hills Church of Christ",
-        "address": "8800 Chapin Road",
-        "city": "Fort Worth",
-        "zip": "76116",
-        "room": "Education Building",
-        "notes": ""
-      },
-      {
-        "name": "Haltom City Library",
-        "address": "4809 Haltom Road",
-        "city": "Haltom City",
-        "zip": "76117",
-        "room": "Meeting Room",
-        "notes": ""
-      },
-      {
-        "name": "Haltom City Senior Center",
-        "address": "3201 Friendly Lane",
-        "city": "Haltom City",
-        "zip": "76117",
-        "room": "Northeast Corner Classroom",
-        "notes": ""
-      },
-      {
-        "name": "Landmark Baptist Church",
-        "address": "1909 Thomas Road",
-        "city": "Haltom City",
-        "zip": "76117",
-        "room": "Fellowship Hall",
-        "notes": ""
-      },
-      {
-        "name": "W. G. Thomas Coliseum",
-        "address": "6108 Broadway Avenue",
-        "city": "Haltom City",
-        "zip": "76117",
-        "room": "Rooms B & C",
-        "notes": ""
-      },
-      {
-        "name": "West Birdville Elementary School",
-        "address": "3001 Layton Avenue",
-        "city": "Haltom City",
-        "zip": "76117",
-        "room": "Library",
-        "notes": ""
-      },
-      {
-        "name": "River Trails Elementary School",
-        "address": "8850 Elbe Trail",
-        "city": "Fort Worth",
-        "zip": "76118",
-        "room": "Gym",
-        "notes": ""
-      },
-      {
-        "name": "Richland Middle School",
-        "address": "3401 Labadie Drive",
-        "city": "Richland Hills",
-        "zip": "76118",
-        "room": "Large Gym",
-        "notes": ""
-      },
-      {
-        "name": "The Link",
-        "address": "6750 Baker Boulevard",
-        "city": "Richland Hills",
-        "zip": "76118",
-        "room": "Community Rooms B & C",
-        "notes": ""
-      },
-      {
-        "name": "C. R. Bradley Community Center",
-        "address": "2601 Timberline Drive",
-        "city": "Fort Worth",
-        "zip": "76119",
-        "room": "Lobby",
-        "notes": ""
-      },
-      {
-        "name": "Charles F. Griffin Building",
-        "address": "3212 Miller Avenue",
-        "city": "Fort Worth",
-        "zip": "76119",
-        "room": "Early Voting Room",
-        "notes": ""
-      },
-      {
-        "name": "Glen Park Elementary School",
-        "address": "3601 Pecos Street",
-        "city": "Fort Worth",
-        "zip": "76119",
-        "room": "Gym",
-        "notes": ""
-      },
-      {
-        "name": "Bill J. Elliott Elementary School",
-        "address": "2501 Cooks Lane",
-        "city": "Fort Worth",
-        "zip": "76120",
-        "room": "Gym",
-        "notes": ""
-      },
-      {
-        "name": "Lowery Road Elementary School",
-        "address": "7600 Lowery Road",
-        "city": "Fort Worth",
-        "zip": "76120",
-        "room": "Gym",
-        "notes": ""
-      },
-      {
-        "name": "Chisholm Trail Community Center",
-        "address": "4936 McPherson Boulevard",
-        "city": "Fort Worth",
-        "zip": "76123",
-        "room": "Multi-Purpose Room",
-        "notes": ""
-      },
-      {
-        "name": "Christ United Methodist Church",
-        "address": "3301 Sycamore School Road",
-        "city": "Fort Worth",
-        "zip": "76123",
-        "room": "Fellowship Hall",
-        "notes": ""
-      },
-      {
-        "name": "Hallmark Baptist Church",
-        "address": "4201 West Risinger Drive",
-        "city": "Fort Worth",
-        "zip": "76123",
-        "room": "Gym",
-        "notes": ""
-      },
-      {
-        "name": "Vivian J. Lincoln Branch Library",
-        "address": "8829 McCart Avenue",
-        "city": "Fort Worth",
-        "zip": "76123",
-        "room": "Meeting Room - A & B",
-        "notes": ""
-      },
-      {
-        "name": "Benbrook Community Center",
-        "address": "228 San Angelo Avenue",
-        "city": "Benbrook",
-        "zip": "76126",
-        "room": "Main Room",
-        "notes": ""
-      },
-      {
-        "name": "Benbrook Community Center YMCA",
-        "address": "1899 Winscott Road",
-        "city": "Benbrook",
-        "zip": "76126",
-        "room": "Multipurpose Room",
-        "notes": ""
-      },
-      {
-        "name": "Church of the Holy Apostles",
-        "address": "3900 Longvue Avenue",
-        "city": "Fort Worth",
-        "zip": "76126",
-        "room": "Parish Hall",
-        "notes": ""
-      },
-      {
-        "name": "HighRidge Church",
-        "address": "10100 Rolling Hills Drive",
-        "city": "Fort Worth",
-        "zip": "76126",
-        "room": "Front Lobby",
-        "notes": ""
-      },
-      {
-        "name": "TCU Brown Lupton University Union",
-        "address": "2901 Stadium Drive",
-        "city": "Fort Worth",
-        "zip": "76129",
-        "room": "Brachman Auditorium",
-        "notes": ""
-      },
-      {
-        "name": "L. A. Gilliland Elementary School",
-        "address": "701 Waggoman Road",
-        "city": "Blue Mound",
-        "zip": "76131",
-        "room": "Library",
-        "notes": ""
-      },
-      {
-        "name": "Betsy Price Community Center",
-        "address": "8375 Blue Mound Road",
-        "city": "Fort Worth",
-        "zip": "76131",
-        "room": "Multi-Purpose B",
-        "notes": ""
-      },
-      {
-        "name": "Cross Church",
-        "address": "10321 US-287",
-        "city": "Fort Worth",
-        "zip": "76131",
-        "room": "Worship Center and Lobby",
-        "notes": ""
-      },
-      {
-        "name": "Highland Middle School",
-        "address": "1001 East Bailey Boswell Road",
-        "city": "Fort Worth",
-        "zip": "76131",
-        "room": "Boys Gym Hallway",
-        "notes": ""
-      },
-      {
-        "name": "Northbrook Elementary School",
-        "address": "2500 Cantrell Sansom Road",
-        "city": "Fort Worth",
-        "zip": "76131",
-        "room": "Gym",
-        "notes": ""
-      },
-      {
-        "name": "Sunset Valley Elementary School",
-        "address": "2032 Canchim Street",
-        "city": "Fort Worth",
-        "zip": "76131",
-        "room": "Foyer / Lobby",
-        "notes": ""
-      },
-      {
-        "name": "St. Peter's Antiochian Orthodox Church",
-        "address": "7601 Bellaire Drive South",
-        "city": "Fort Worth",
-        "zip": "76132",
-        "room": "Booth Hall",
-        "notes": ""
-      },
-      {
-        "name": "Dionne Phillips Bagsby Southwest Subcourthouse",
-        "address": "6551 Granbury Road",
-        "city": "Fort Worth",
-        "zip": "76133",
-        "room": "Voting / Conference Room",
-        "notes": ""
-      },
-      {
-        "name": "South Hills Elementary School",
-        "address": "3009 Bilglade Road",
-        "city": "Fort Worth",
-        "zip": "76133",
-        "room": "Library",
-        "notes": ""
-      },
-      {
-        "name": "Southwest Community Center",
-        "address": "6300 Welch Avenue",
-        "city": "Fort Worth",
-        "zip": "76133",
-        "room": "Recreation Room",
-        "notes": ""
-      },
-      {
-        "name": "St. Matthew's Lutheran Church",
-        "address": "5709 Wedgwood Drive",
-        "city": "Fort Worth",
-        "zip": "76133",
-        "room": "Fellowship Hall",
-        "notes": ""
-      },
-      {
-        "name": "Trinity Cumberland Presbyterian Church",
-        "address": "7120 West Cleburne Road",
-        "city": "Fort Worth",
-        "zip": "76133",
-        "room": "Fellowship Hall",
-        "notes": ""
-      },
-      {
-        "name": "Westminster Presbyterian Church",
-        "address": "7001 Trail Lake Drive",
-        "city": "Fort Worth",
-        "zip": "76133",
-        "room": "Fellowship Hall",
-        "notes": ""
-      },
-      {
-        "name": "Edgecliff Village Community Center",
-        "address": "1605 Edgecliff Road",
-        "city": "Edgecliff Village",
-        "zip": "76134",
-        "room": "Community Center",
-        "notes": ""
-      },
-      {
-        "name": "Highland Hills Community Center",
-        "address": "1600 Glasgow Road",
-        "city": "Fort Worth",
-        "zip": "76134",
-        "room": "Multipurpose Room",
-        "notes": ""
-      },
-      {
-        "name": "Lifeline Church",
-        "address": "1404 Sycamore School Road",
-        "city": "Fort Worth",
-        "zip": "76134",
-        "room": "Narthex / Sanctuary Foyer",
-        "notes": ""
-      },
-      {
-        "name": "Legacy Baptist Church",
-        "address": "5500 Boat Club Road",
-        "city": "Fort Worth",
-        "zip": "76135",
-        "room": "Gym",
-        "notes": ""
-      },
-      {
-        "name": "Lighthouse Fellowship",
-        "address": "7200 Robertson Road",
-        "city": "Fort Worth",
-        "zip": "76135",
-        "room": "Lobby",
-        "notes": ""
-      },
-      {
-        "name": "Sheriff's Office North Patrol Division",
-        "address": "6651 Lake Worth Boulevard",
-        "city": "Lake Worth",
-        "zip": "76135",
-        "room": "Community Room",
-        "notes": ""
-      },
-      {
-        "name": "The Word @ Lakeside",
-        "address": "9396 Confederate Park Road",
-        "city": "Lakeside",
-        "zip": "76135",
-        "room": "Gym / Family Life Center",
-        "notes": ""
-      },
-      {
-        "name": "Alliance Methodist Church",
-        "address": "7904 Park Vista Boulevard",
-        "city": "Fort Worth",
-        "zip": "76137",
-        "room": "Family Life Center",
-        "notes": ""
-      },
-      {
-        "name": "Bluebonnet Elementary School",
-        "address": "7000 Teal Drive",
-        "city": "Fort Worth",
-        "zip": "76137",
-        "room": "Gym",
-        "notes": ""
-      },
-      {
-        "name": "Camp Fire First Texas",
-        "address": "2700 Meacham Boulevard",
-        "city": "Fort Worth",
-        "zip": "76137",
-        "room": "Conference Room F & G",
-        "notes": ""
-      },
-      {
-        "name": "Summerglen Branch Library",
-        "address": "4205 Basswood Boulevard",
-        "city": "Fort Worth",
-        "zip": "76137",
-        "room": "Meeting Room",
-        "notes": ""
-      },
-      {
-        "name": "Everman Civic Center",
-        "address": "213 North Race Street",
-        "city": "Everman",
-        "zip": "76140",
-        "room": "Main Ballroom Area",
-        "notes": ""
-      },
-      {
-        "name": "Jerilyn K. Pfeifer Administration Building",
-        "address": "1520 Everman Parkway, Suite B",
-        "city": "Everman",
-        "zip": "76140",
-        "room": "Lobby",
-        "notes": ""
-      },
-      {
-        "name": "Berea Baptist Church",
-        "address": "6901 Forest Hill Drive",
-        "city": "Forest Hill",
-        "zip": "76140",
-        "room": "Fellowship Hall",
-        "notes": ""
-      },
-      {
-        "name": "Forest Hill Civic & Convention Center",
-        "address": "6901 Wichita Street",
-        "city": "Forest Hill",
-        "zip": "76140",
-        "room": "Room 101",
-        "notes": ""
-      },
-      {
-        "name": "Sidney Poynter Elementary School",
-        "address": "521 Ashdale Drive",
-        "city": "Fort Worth",
-        "zip": "76140",
-        "room": "Cafeteria",
-        "notes": ""
-      },
-      {
-        "name": "First Baptist Watauga",
-        "address": "6124 Plum Street",
-        "city": "Watauga",
-        "zip": "76148",
-        "room": "Kitchen Hallway",
-        "notes": ""
-      },
-      {
-        "name": "Hector F. Garcia Community Center",
-        "address": "7901 Indian Springs Road",
-        "city": "Watauga",
-        "zip": "76148",
-        "room": "Gym",
-        "notes": ""
-      },
-      {
-        "name": "Watauga City Hall",
-        "address": "7105 Whitley Road",
-        "city": "Watauga",
-        "zip": "76148",
-        "room": "Lobby",
-        "notes": ""
-      },
-      {
-        "name": "Candlewood Suites Hotel",
-        "address": "4200 Reggis Court",
-        "city": "Fort Worth",
-        "zip": "76155",
-        "room": "Gold and PLT Rooms",
-        "notes": ""
-      },
-      {
-        "name": "Northside Community Center",
-        "address": "1100 Northwest 18th Street",
-        "city": "Fort Worth",
-        "zip": "76164",
-        "room": "Banquet Room",
-        "notes": ""
-      },
-      {
-        "name": "O. A. Peterson Elementary School",
-        "address": "2000 Winter Hawk Drive",
-        "city": "Fort Worth",
-        "zip": "76177",
-        "room": "Gym",
-        "notes": ""
-      },
-      {
-        "name": "Vista Ridge Middle School",
-        "address": "3201 Thompson Road",
-        "city": "Fort Worth",
-        "zip": "76177",
-        "room": "Cafeteria",
-        "notes": ""
-      },
-      {
-        "name": "Dido United Methodist Church",
-        "address": "5570 Dido Hicks Road",
-        "city": "Fort Worth",
-        "zip": "76179",
-        "room": "Fellowship Hall",
-        "notes": ""
-      },
-      {
-        "name": "Lake Country Church",
-        "address": "8777 Boat Club Road",
-        "city": "Fort Worth",
-        "zip": "76179",
-        "room": "Main Lobby",
-        "notes": ""
-      },
-      {
-        "name": "Northwest Branch Library",
-        "address": "6228 Crystal Lake Drive",
-        "city": "Fort Worth",
-        "zip": "76179",
-        "room": "Meeting Room",
-        "notes": ""
-      },
-      {
-        "name": "Tarrant County College Northwest Campus",
-        "address": "4801 Marine Creek Parkway",
-        "city": "Fort Worth",
-        "zip": "76179",
-        "room": "Fire Services Training Center, Building NW11, Room 1403A",
-        "notes": ""
-      },
-      {
-        "name": "Saginaw Public Library",
-        "address": "300 West McLeroy Boulevard",
-        "city": "Saginaw",
-        "zip": "76179",
-        "room": "Longhorn Room",
-        "notes": ""
-      },
-      {
-        "name": "North Richland Hills City Hall",
-        "address": "4301 City Point Drive",
-        "city": "North Richland Hills",
-        "zip": "76180",
-        "room": "1st Floor, Community Room",
-        "notes": ""
-      },
-      {
-        "name": "North Richland Hills Public Library",
-        "address": "9015 Grand Avenue",
-        "city": "North Richland Hills",
-        "zip": "76180",
-        "room": "Library Community Room",
-        "notes": ""
-      },
-      {
-        "name": "Richland High School",
-        "address": "5201 Holiday Lane",
-        "city": "North Richland Hills",
-        "zip": "76180",
-        "room": "Omni Room",
-        "notes": ""
-      },
-      {
-        "name": "Saint Paul Presbyterian Church",
-        "address": "4517 Rufe Snow Drive",
-        "city": "North Richland Hills",
-        "zip": "76180",
-        "room": "Fellowship Hall",
-        "notes": ""
-      },
-      {
-        "name": "Foster Village Elementary School",
-        "address": "6800 Springdale Lane",
-        "city": "North Richland Hills",
-        "zip": "76182",
-        "room": "Small Gym",
-        "notes": ""
-      },
-      {
-        "name": "House of Grace",
-        "address": "7850 Davis Boulevard",
-        "city": "North Richland Hills",
-        "zip": "76182",
-        "room": "Sanctuary",
-        "notes": ""
-      },
-      {
-        "name": "North Ridge Elementary School",
-        "address": "7331 Holiday Lane",
-        "city": "North Richland Hills",
-        "zip": "76182",
-        "room": "Outside Gym",
-        "notes": ""
-      },
-      {
-        "name": "Caprock Elementary School",
-        "address": "12301 Grey Twig Drive",
-        "city": "Fort Worth",
-        "zip": "76244",
-        "room": "Gym",
-        "notes": ""
-      },
-      {
-        "name": "Eagle Ridge Elementary School",
-        "address": "4600 Alta Vista Road",
-        "city": "Fort Worth",
-        "zip": "76244",
-        "room": "Gym (610)",
-        "notes": ""
-      },
-      {
-        "name": "Friendship Elementary School",
-        "address": "5400 Shiver Road",
-        "city": "Fort Worth",
-        "zip": "76244",
-        "room": "Cafeteria",
-        "notes": ""
-      },
-      {
-        "name": "Northpark YMCA",
-        "address": "9100 North Beach Street",
-        "city": "Fort Worth",
-        "zip": "76244",
-        "room": "Multi-Purpose Room",
-        "notes": ""
-      },
-      {
-        "name": "The Met Church",
-        "address": "11301 North Riverside Drive",
-        "city": "Fort Worth",
-        "zip": "76244",
-        "room": "All Purpose Room",
-        "notes": ""
-      },
-      {
-        "name": "Woodland Springs Elementary School",
-        "address": "12120 Woodland Springs Drive",
-        "city": "Fort Worth",
-        "zip": "76244",
-        "room": "Gym",
-        "notes": ""
-      },
-      {
-        "name": "Light of the World Church",
-        "address": "8750 North Riverside Drive",
-        "city": "Keller",
-        "zip": "76244",
-        "room": "Café / Fellowship Room",
-        "notes": ""
-      },
-      {
-        "name": "Bear Creek Bible Church",
-        "address": "1555 North Tarrant Parkway",
-        "city": "Keller",
-        "zip": "76248",
-        "room": "Youth Area",
-        "notes": ""
-      },
-      {
-        "name": "Keller Town Hall",
-        "address": "1100 Bear Creek Parkway",
-        "city": "Keller",
-        "zip": "76248",
-        "room": "Room 212; Room 106 (for ADA accessible voting)",
-        "notes": ""
-      },
-      {
-        "name": "Keller United Methodist Church",
-        "address": "1025 Johnson Road",
-        "city": "Keller",
-        "zip": "76248",
-        "room": "Narthex",
-        "notes": ""
-      },
-      {
-        "name": "Ridgeview Elementary School",
-        "address": "1601 Marshall Ridge Parkway",
-        "city": "Keller",
-        "zip": "76248",
-        "room": "Cafeteria",
-        "notes": ""
-      },
-      {
-        "name": "WestWind Church",
-        "address": "1300 Sarah Brooks Drive",
-        "city": "Keller",
-        "zip": "76248",
-        "room": "Sanctuary / Fellowship Hall",
-        "notes": ""
-      },
-      {
-        "name": "John M. Tidwell Middle School",
-        "address": "3937 Haslet-Roanoke Road",
-        "city": "Roanoke",
-        "zip": "76262",
-        "room": "PE Gym -1502",
-        "notes": ""
-      },
-      {
-        "name": "Trophy Club Town Hall",
-        "address": "1 Trophy Wood Drive",
-        "city": "Trophy Club",
-        "zip": "76262",
-        "room": "EOC Training Room",
-        "notes": ""
-      },
-      {
-        "name": "Town of Westlake Fire-EMS Department",
-        "address": "2000 Dove Road",
-        "city": "Westlake",
-        "zip": "76262",
-        "room": "Training Room",
-        "notes": ""
-      }
-    ]
-  },
-  "notes": "Tarrant County uses countywide vote centers, so registered voters may vote at any listed location. Early voting runs 8 a.m. to 5 p.m. the first weekday week (Oct 19 to 23) and 7 a.m. to 7 p.m. Oct 26 to 30, per the county schedule."
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-25",
+    "open": "10:00",
+    "close": "16:00"
+   },
+   {
+    "date": "2026-10-26",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-27",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-28",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-29",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-30",
+    "open": "07:00",
+    "close": "19:00"
+   }
+  ],
+  "sites": [
+   {
+    "name": "ACTIV",
+    "address": "2061 W Green Oaks Boulevard",
+    "city": "Arlington",
+    "zip": "76013",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 32.711384,
+    "lng": -97.189647
+   },
+   {
+    "name": "Bob Duncan Center",
+    "address": "2800 S Center Street",
+    "city": "Arlington",
+    "zip": "76014",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 32.696744,
+    "lng": -97.108464
+   },
+   {
+    "name": "City of Arlington South Service Center",
+    "address": "1100 SW Green Oaks Boulevard",
+    "city": "Arlington",
+    "zip": "76017",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 32.659361,
+    "lng": -97.128942
+   },
+   {
+    "name": "Elzie Odom Athletic Center",
+    "address": "1601 NE Green Oaks Boulevard",
+    "city": "Arlington",
+    "zip": "76006",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 32.782653,
+    "lng": -97.089558
+   },
+   {
+    "name": "Tarrant County Subcourthouse in Arlington",
+    "address": "700 E Abram Street",
+    "city": "Arlington",
+    "zip": "76010",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 32.735512,
+    "lng": -97.100818
+   },
+   {
+    "name": "Tarrant County College Southeast Campus",
+    "address": "2100 Southeast Parkway",
+    "city": "Arlington",
+    "zip": "76018",
+    "room": "EMBD 1105",
+    "schedule": null,
+    "notes": "",
+    "lat": 32.641109,
+    "lng": -97.07513
+   },
+   {
+    "name": "Azle ISD PD",
+    "address": "483 Sandy Beach Road, Suite A",
+    "city": "Azle",
+    "zip": "76020",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 32.92793,
+    "lng": -97.537376
+   },
+   {
+    "name": "Bedford Public Library",
+    "address": "2424 Forest Ridge Drive",
+    "city": "Bedford",
+    "zip": "76021",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 32.845301,
+    "lng": -97.143345
+   },
+   {
+    "name": "Benbrook Community Center",
+    "address": "228 San Angelo Avenue",
+    "city": "Benbrook",
+    "zip": "76126",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 32.681093,
+    "lng": -97.457503
+   },
+   {
+    "name": "Colleyville Recreation Center Annex A",
+    "address": "5008 Roberts Road",
+    "city": "Colleyville",
+    "zip": "76034",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Crouch Event Center in Bicentennial Park",
+    "address": "900 E Glendale Street",
+    "city": "Crowley",
+    "zip": "76036",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 32.581486,
+    "lng": -97.345631
+   },
+   {
+    "name": "Euless Family Life Senior Center",
+    "address": "300 W Midway Drive",
+    "city": "Euless",
+    "zip": "76039",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 32.844104,
+    "lng": -97.084209
+   },
+   {
+    "name": "Forest Hill Civic & Convention Center",
+    "address": "6901 Wichita Street",
+    "city": "Forest Hill",
+    "zip": "76140",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 32.655982,
+    "lng": -97.282747
+   },
+   {
+    "name": "Everman Civic Center",
+    "address": "213 N Race Street",
+    "city": "Everman",
+    "zip": "76140",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 32.636765,
+    "lng": -97.287169
+   },
+   {
+    "name": "Charles F. Griffin Building",
+    "address": "3212 Miller Avenue",
+    "city": "Fort Worth",
+    "zip": "76119",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 32.712344,
+    "lng": -97.262941
+   },
+   {
+    "name": "Chisholm Trail Community Center",
+    "address": "4936 McPherson Boulevard",
+    "city": "Fort Worth",
+    "zip": "76123",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Como Community Center",
+    "address": "4660 Horne Street",
+    "city": "Fort Worth",
+    "zip": "76107",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 32.715491,
+    "lng": -97.408163
+   },
+   {
+    "name": "Diamond Hill/Jarvis Branch Library",
+    "address": "1300 NE 35th Street",
+    "city": "Fort Worth",
+    "zip": "76106",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 32.80918,
+    "lng": -97.339405
+   },
+   {
+    "name": "Dionne Phillips Bagsby Southwest Subcourthouse",
+    "address": "6551 Granbury Road",
+    "city": "Fort Worth",
+    "zip": "76133",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 32.652511,
+    "lng": -97.407694
+   },
+   {
+    "name": "East Regional Library",
+    "address": "6301 Bridge Street",
+    "city": "Fort Worth",
+    "zip": "76112",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 32.760677,
+    "lng": -97.223994
+   },
+   {
+    "name": "Handley-Meadowbrook Community Center",
+    "address": "6201 Beaty Street",
+    "city": "Fort Worth",
+    "zip": "76112",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 32.739612,
+    "lng": -97.223251
+   },
+   {
+    "name": "Hazel Harvey Peace Center for Neighborhoods",
+    "address": "818 Missouri Avenue",
+    "city": "Fort Worth",
+    "zip": "76104",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 32.736411,
+    "lng": -97.31908
+   },
+   {
+    "name": "Northpark YMCA",
+    "address": "9100 N Beach Street",
+    "city": "Fort Worth",
+    "zip": "76244",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 32.90574,
+    "lng": -97.289658
+   },
+   {
+    "name": "Northside Community Center",
+    "address": "1100 NW 18th Street",
+    "city": "Fort Worth",
+    "zip": "76164",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 32.778739,
+    "lng": -97.362851
+   },
+   {
+    "name": "Southwest Community Center",
+    "address": "6300 Welch Avenue",
+    "city": "Fort Worth",
+    "zip": "76133",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 32.654804,
+    "lng": -97.381986
+   },
+   {
+    "name": "Summerglen Branch Library",
+    "address": "4205 Basswood Boulevard",
+    "city": "Fort Worth",
+    "zip": "76137",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Tarrant County College Northwest Campus",
+    "address": "4801 Marine Creek Parkway",
+    "city": "Fort Worth",
+    "zip": "76179",
+    "room": "WFSC 1403A",
+    "schedule": null,
+    "notes": "",
+    "lat": 32.829934,
+    "lng": -97.385823
+   },
+   {
+    "name": "Tarrant County Elections Center",
+    "address": "2700 Premier Street",
+    "city": "Fort Worth",
+    "zip": "76111",
+    "room": "",
+    "schedule": null,
+    "notes": "Main Early Voting Site",
+    "lat": 32.795467,
+    "lng": -97.314264
+   },
+   {
+    "name": "Tarrant County Plaza Building",
+    "address": "201 Burnett Street",
+    "city": "Fort Worth",
+    "zip": "76102",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 32.754936,
+    "lng": -97.336428
+   },
+   {
+    "name": "Worth Heights Community Center",
+    "address": "3551 New York Avenue",
+    "city": "Fort Worth",
+    "zip": "76110",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 32.697386,
+    "lng": -97.316481
+   },
+   {
+    "name": "Asia Times Square",
+    "address": "2615 W Pioneer Parkway",
+    "city": "Grand Prairie",
+    "zip": "75051",
+    "room": "Hong Kong building room 116",
+    "schedule": null,
+    "notes": "",
+    "lat": 32.711881,
+    "lng": -97.045932
+   },
+   {
+    "name": "Grapevine Public Library",
+    "address": "1201 Municipal Way",
+    "city": "Grapevine",
+    "zip": "76051",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 32.929251,
+    "lng": -97.076716
+   },
+   {
+    "name": "Haltom City Senior Center",
+    "address": "3201 Friendly Lane",
+    "city": "Haltom City",
+    "zip": "76117",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 32.807758,
+    "lng": -97.274278
+   },
+   {
+    "name": "Legacy Learning Center Northwest ISD",
+    "address": "501 School House Road",
+    "city": "Haslet",
+    "zip": "76052",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 32.968457,
+    "lng": -97.349323
+   },
+   {
+    "name": "Brookside Center",
+    "address": "1244 Brookside Drive",
+    "city": "Hurst",
+    "zip": "76053",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 32.83208,
+    "lng": -97.178851
+   },
+   {
+    "name": "Gary Fickes Northeast Courthouse",
+    "address": "645 Grapevine Highway",
+    "city": "Hurst",
+    "zip": "76054",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Keller Town Hall",
+    "address": "1100 Bear Creek Parkway",
+    "city": "Keller",
+    "zip": "76248",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 32.927026,
+    "lng": -97.238969
+   },
+   {
+    "name": "Dover Fellowship Hall",
+    "address": "208 Municipal Drive",
+    "city": "Kennedale",
+    "zip": "76060",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 32.645603,
+    "lng": -97.22476
+   },
+   {
+    "name": "Sheriff’s Office North Patrol Division",
+    "address": "6651 Lake Worth Boulevard",
+    "city": "Lake Worth",
+    "zip": "76135",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 32.811782,
+    "lng": -97.433387
+   },
+   {
+    "name": "Tarrant County Subcourthouse at Mansfield",
+    "address": "1100 E Broad Street",
+    "city": "Mansfield",
+    "zip": "76063",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 32.565278,
+    "lng": -97.128498
+   },
+   {
+    "name": "Vernon Newsom Stadium",
+    "address": "3700 E Broad Street",
+    "city": "Mansfield",
+    "zip": "76063",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 32.57893,
+    "lng": -97.076873
+   },
+   {
+    "name": "North Richland Hills City Hall",
+    "address": "4301 City Point Drive",
+    "city": "N Richland Hills",
+    "zip": "76180",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 32.827721,
+    "lng": -97.217212
+   },
+   {
+    "name": "River Oaks Community Center",
+    "address": "5300 Blackstone Drive",
+    "city": "River Oaks",
+    "zip": "76114",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 32.764382,
+    "lng": -97.39839
+   },
+   {
+    "name": "Saginaw Public Library",
+    "address": "300 W McLeroy Boulevard",
+    "city": "Saginaw",
+    "zip": "76179",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 32.859036,
+    "lng": -97.368256
+   },
+   {
+    "name": "Southlake Town Hall",
+    "address": "1400 Main Street",
+    "city": "Southlake",
+    "zip": "76092",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 32.942639,
+    "lng": -97.130814
+   },
+   {
+    "name": "Town of Westlake Fire-EMS Department",
+    "address": "2000 W Dove Road",
+    "city": "Westlake",
+    "zip": "76262",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 32.978227,
+    "lng": -97.185539
+   },
+   {
+    "name": "White Settlement Public Library",
+    "address": "8215 White Settlement Road",
+    "city": "White Settlement",
+    "zip": "76108",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 32.759679,
+    "lng": -97.459347
+   }
+  ]
+ },
+ "election_day": {
+  "open": "07:00",
+  "close": "19:00",
+  "sites": [
+   {
+    "name": "Myrtice and Curtis Larson Elementary School",
+    "address": "2620 Avenue K",
+    "city": "Grand Prairie",
+    "zip": "75050",
+    "room": "Library",
+    "notes": "",
+    "lat": 32.770736,
+    "lng": -97.043639
+   },
+   {
+    "name": "Asia Times Square",
+    "address": "2615 West Pioneer Parkway",
+    "city": "Grand Prairie",
+    "zip": "75051",
+    "room": "Suite 116",
+    "notes": "",
+    "lat": 32.711881,
+    "lng": -97.045932
+   },
+   {
+    "name": "CrossPoint Church of Christ",
+    "address": "3020 Bardin Road",
+    "city": "Grand Prairie",
+    "zip": "75052",
+    "room": "Youth Room",
+    "notes": "",
+    "lat": 32.673232,
+    "lng": -97.052711
+   },
+   {
+    "name": "J. M. Farrell Elementary School",
+    "address": "3410 Paladium Drive",
+    "city": "Grand Prairie",
+    "zip": "75052",
+    "room": "Main Hallway in front of Office",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Sam and Barbara West Elementary School",
+    "address": "2911 Kingswood Boulevard",
+    "city": "Grand Prairie",
+    "zip": "75052",
+    "room": "Library, Door #2",
+    "notes": "",
+    "lat": 32.654972,
+    "lng": -97.052255
+   },
+   {
+    "name": "Anna May Daulton Elementary School",
+    "address": "2607 North Grand Peninsula Drive",
+    "city": "Grand Prairie",
+    "zip": "75054",
+    "room": "Library, Door #3",
+    "notes": "",
+    "lat": 32.608271,
+    "lng": -97.045797
+   },
+   {
+    "name": "Kenneth Davis Elementary School",
+    "address": "900 Eden Road",
+    "city": "Arlington",
+    "zip": "76001",
+    "room": "Library, Entry #1",
+    "notes": "",
+    "lat": 32.634058,
+    "lng": -97.121775
+   },
+   {
+    "name": "Summit High School Performing Arts Center",
+    "address": "1071 Turner Warnell Road",
+    "city": "Arlington",
+    "zip": "76001",
+    "room": "PAC Foyer",
+    "notes": "",
+    "lat": 32.61405,
+    "lng": -97.155528
+   },
+   {
+    "name": "T. A. Howard Middle School",
+    "address": "7501 Calender Road",
+    "city": "Arlington",
+    "zip": "76001",
+    "room": "Boys Gym, Entry #10",
+    "notes": "",
+    "lat": 32.622299,
+    "lng": -97.153981
+   },
+   {
+    "name": "Janet Brockett Elementary School",
+    "address": "810 Dove Meadows Drive",
+    "city": "Arlington",
+    "zip": "76002",
+    "room": "Cafeteria, Entry #16",
+    "notes": "",
+    "lat": 32.613022,
+    "lng": -97.100217
+   },
+   {
+    "name": "Martha Reid Leadership Academy",
+    "address": "500 Country Club Drive",
+    "city": "Arlington",
+    "zip": "76002",
+    "room": "Room 28, Entry #18",
+    "notes": "",
+    "lat": 32.600742,
+    "lng": -97.092928
+   },
+   {
+    "name": "MISD Student Nutrition Department",
+    "address": "1151 Mansfield Webb Road",
+    "city": "Arlington",
+    "zip": "76002",
+    "room": "Auditorium",
+    "notes": "",
+    "lat": 32.625591,
+    "lng": -97.093607
+   },
+   {
+    "name": "Pearcy Stem Academy",
+    "address": "601 East Harris Road",
+    "city": "Arlington",
+    "zip": "76002",
+    "room": "Library",
+    "notes": "",
+    "lat": 32.607913,
+    "lng": -97.091978
+   },
+   {
+    "name": "Timberview High School",
+    "address": "7700 South Watson Road",
+    "city": "Arlington",
+    "zip": "76002",
+    "room": "PAC Lobby",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Dora E. Nichols Junior High School",
+    "address": "2201 Ascension Boulevard",
+    "city": "Arlington",
+    "zip": "76006",
+    "room": "Fine Arts Hall, Entry #1",
+    "notes": "",
+    "lat": 32.770356,
+    "lng": -97.081736
+   },
+   {
+    "name": "Elzie Odom Athletic Center",
+    "address": "1601 Northeast Green Oaks Boulevard",
+    "city": "Arlington",
+    "zip": "76006",
+    "room": "Burn Room",
+    "notes": "",
+    "lat": 32.782653,
+    "lng": -97.089558
+   },
+   {
+    "name": "Sherrod Elementary School",
+    "address": "2626 Lincoln Drive",
+    "city": "Arlington",
+    "zip": "76006",
+    "room": "Gym, Door #4",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Beth Anderson Elementary School",
+    "address": "1101 Timberlake Drive",
+    "city": "Arlington",
+    "zip": "76010",
+    "room": "Main Hallway, Entry #1",
+    "notes": "",
+    "lat": 32.72497,
+    "lng": -97.050737
+   },
+   {
+    "name": "East Library and Recreation Center",
+    "address": "1817 New York Avenue",
+    "city": "Arlington",
+    "zip": "76010",
+    "room": "Meeting Room",
+    "notes": "",
+    "lat": 32.71598,
+    "lng": -97.080257
+   },
+   {
+    "name": "Tarrant County Subcourthouse in Arlington",
+    "address": "700 East Abram Street",
+    "city": "Arlington",
+    "zip": "76010",
+    "room": "1st Floor Meeting Room",
+    "notes": "",
+    "lat": 32.735512,
+    "lng": -97.100818
+   },
+   {
+    "name": "John Webb Elementary School",
+    "address": "1300 North Cooper Street",
+    "city": "Arlington",
+    "zip": "76011",
+    "room": "Gym, Entry #9",
+    "notes": "",
+    "lat": 32.755027,
+    "lng": -97.114352
+   },
+   {
+    "name": "Shepherd of Life Lutheran Church",
+    "address": "715 East Lamar Boulevard",
+    "city": "Arlington",
+    "zip": "76011",
+    "room": "Narthex",
+    "notes": "",
+    "lat": 32.764957,
+    "lng": -97.100744
+   },
+   {
+    "name": "Shackelford Junior High School",
+    "address": "2000 North Fielder Road",
+    "city": "Arlington",
+    "zip": "76012",
+    "room": "Library",
+    "notes": "",
+    "lat": 32.764999,
+    "lng": -97.131699
+   },
+   {
+    "name": "St. Stephen Methodist Church",
+    "address": "1800 West Randol Mill Road",
+    "city": "Arlington",
+    "zip": "76012",
+    "room": "Family Life Center / Gymnasium",
+    "notes": "",
+    "lat": 32.7502,
+    "lng": -97.136738
+   },
+   {
+    "name": "ACTIV",
+    "address": "2061 West Green Oaks Boulevard",
+    "city": "Arlington",
+    "zip": "76013",
+    "room": "Redbud Room",
+    "notes": "",
+    "lat": 32.711384,
+    "lng": -97.189647
+   },
+   {
+    "name": "Bailey Junior High School",
+    "address": "2411 Winewood Lane",
+    "city": "Arlington",
+    "zip": "76013",
+    "room": "Hallway, Entry #2",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Woodland West Church of Christ",
+    "address": "3101 West Park Row Drive",
+    "city": "Arlington",
+    "zip": "76013",
+    "room": "Main Lobby",
+    "notes": "",
+    "lat": 32.721478,
+    "lng": -97.156805
+   },
+   {
+    "name": "Town of Pantego Council Chambers",
+    "address": "1614 South Bowen Road",
+    "city": "Pantego",
+    "zip": "76013",
+    "room": "Town Council / Court Chambers",
+    "notes": "",
+    "lat": 32.718954,
+    "lng": -97.149202
+   },
+   {
+    "name": "Atherton Elementary School",
+    "address": "2101 Overbrook Drive",
+    "city": "Arlington",
+    "zip": "76014",
+    "room": "Stem Lab 1 / 2",
+    "notes": "",
+    "lat": 32.695311,
+    "lng": -97.07567
+   },
+   {
+    "name": "Bob Duncan Center",
+    "address": "2800 South Center Street",
+    "city": "Arlington",
+    "zip": "76014",
+    "room": "Music Room",
+    "notes": "",
+    "lat": 32.696744,
+    "lng": -97.108464
+   },
+   {
+    "name": "Ethel Goodman Elementary School",
+    "address": "1400 Rebecca Lane",
+    "city": "Arlington",
+    "zip": "76014",
+    "room": "Library, Door #5",
+    "notes": "",
+    "lat": 32.702444,
+    "lng": -97.090222
+   },
+   {
+    "name": "Floyd Gunn Jr High / Fine Arts & Dual Language Academy",
+    "address": "3000 South Fielder Road",
+    "city": "Arlington",
+    "zip": "76015",
+    "room": "Library, Entry #2",
+    "notes": "",
+    "lat": 32.696823,
+    "lng": -97.132625
+   },
+   {
+    "name": "Charles W. Young Junior High School",
+    "address": "3200 Woodside Drive",
+    "city": "Arlington",
+    "zip": "76016",
+    "room": "Gym A, Door #10",
+    "notes": "",
+    "lat": 32.693959,
+    "lng": -97.174048
+   },
+   {
+    "name": "Key Elementary School",
+    "address": "3621 Roosevelt Drive",
+    "city": "Arlington",
+    "zip": "76016",
+    "room": "Main Hallway, Entry #1",
+    "notes": "",
+    "lat": 32.68626,
+    "lng": -97.151201
+   },
+   {
+    "name": "Miller Elementary School",
+    "address": "6401 West Pleasant Ridge Road",
+    "city": "Arlington",
+    "zip": "76016",
+    "room": "Cafeteria",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Dalworthington Gardens City Hall",
+    "address": "2600 Roosevelt Drive",
+    "city": "Dalworthington Gardens",
+    "zip": "76016",
+    "room": "Council Room",
+    "notes": "",
+    "lat": 32.703057,
+    "lng": -97.155582
+   },
+   {
+    "name": "City of Arlington South Service Center",
+    "address": "1100 Southwest Green Oaks Boulevard",
+    "city": "Arlington",
+    "zip": "76017",
+    "room": "Training Room",
+    "notes": "",
+    "lat": 32.659361,
+    "lng": -97.128942
+   },
+   {
+    "name": "Cliff Nelson Recreation Center",
+    "address": "4600 West Bardin Road",
+    "city": "Arlington",
+    "zip": "76017",
+    "room": "Classroom",
+    "notes": "",
+    "lat": 32.66837,
+    "lng": -97.1811
+   },
+   {
+    "name": "Grace Community Church",
+    "address": "801 West Bardin Road",
+    "city": "Arlington",
+    "zip": "76017",
+    "room": "Gymnasium",
+    "notes": "",
+    "lat": 32.670529,
+    "lng": -97.117578
+   },
+   {
+    "name": "Rush Creek Church",
+    "address": "2350 Southwest Green Oaks Boulevard",
+    "city": "Arlington",
+    "zip": "76017",
+    "room": "Commons",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Truett Boles Junior High School",
+    "address": "3900 Southwest Green Oaks Boulevard",
+    "city": "Arlington",
+    "zip": "76017",
+    "room": "Cafeteria, Door #1",
+    "notes": "",
+    "lat": 32.658089,
+    "lng": -97.169192
+   },
+   {
+    "name": "New Life Fellowship",
+    "address": "201 East Sublett Road",
+    "city": "Arlington",
+    "zip": "76018",
+    "room": "Auditorium 1",
+    "notes": "",
+    "lat": 32.644877,
+    "lng": -97.113484
+   },
+   {
+    "name": "Southeast Branch Library",
+    "address": "900 Southeast Green Oaks Boulevard",
+    "city": "Arlington",
+    "zip": "76018",
+    "room": "Meeting Room",
+    "notes": "",
+    "lat": 32.654546,
+    "lng": -97.099687
+   },
+   {
+    "name": "St. Andrews United Methodist Church",
+    "address": "2045 Southeast Green Oaks Boulevard",
+    "city": "Arlington",
+    "zip": "76018",
+    "room": "Link (Reception Area)",
+    "notes": "",
+    "lat": 32.656479,
+    "lng": -97.073647
+   },
+   {
+    "name": "Tarrant County College Southeast Campus",
+    "address": "2100 Southeast Parkway",
+    "city": "Arlington",
+    "zip": "76018",
+    "room": "EMBD 1105",
+    "notes": "",
+    "lat": 32.641109,
+    "lng": -97.07513
+   },
+   {
+    "name": "Azle ISD PD",
+    "address": "483 Sandy Beach Road, Suite A",
+    "city": "Azle",
+    "zip": "76020",
+    "room": "Training Room",
+    "notes": "",
+    "lat": 32.92793,
+    "lng": -97.537376
+   },
+   {
+    "name": "The Edge Church (Good Shepherd Lutheran Church)",
+    "address": "1313 Southeast Parkway",
+    "city": "Azle",
+    "zip": "76020",
+    "room": "Fellowship Building, Room 1",
+    "notes": "",
+    "lat": 32.87306,
+    "lng": -97.527377
+   },
+   {
+    "name": "Bedford Public Library",
+    "address": "2424 Forest Ridge Drive",
+    "city": "Bedford",
+    "zip": "76021",
+    "room": "Meeting Room",
+    "notes": "",
+    "lat": 32.845301,
+    "lng": -97.143345
+   },
+   {
+    "name": "Central Baptist Church",
+    "address": "1120 Central Drive",
+    "city": "Bedford",
+    "zip": "76022",
+    "room": "Fellowship Hall",
+    "notes": "",
+    "lat": 32.8287,
+    "lng": -97.133406
+   },
+   {
+    "name": "Pat May Center",
+    "address": "1849-B Central Drive",
+    "city": "Bedford",
+    "zip": "76022",
+    "room": "C1 & C2",
+    "notes": "",
+    "lat": 32.836151,
+    "lng": -97.133596
+   },
+   {
+    "name": "Stonegate Elementary School",
+    "address": "900 Bedford Road",
+    "city": "Bedford",
+    "zip": "76022",
+    "room": "Lobby",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Retta Baptist Church",
+    "address": "13201 Rendon Road",
+    "city": "Burleson",
+    "zip": "76028",
+    "room": "Fellowship Hall",
+    "notes": "",
+    "lat": 32.557173,
+    "lng": -97.240799
+   },
+   {
+    "name": "St Ann Roman Catholic Church",
+    "address": "100 Southwest Alsbury Boulevard",
+    "city": "Burleson",
+    "zip": "76028",
+    "room": "Parish Hall Overflow",
+    "notes": "",
+    "lat": 32.552941,
+    "lng": -97.339622
+   },
+   {
+    "name": "Tarrant County Precinct 1",
+    "address": "800 East Rendon Crowley Road",
+    "city": "Burleson",
+    "zip": "76028",
+    "room": "Meeting Room, Building A",
+    "notes": "",
+    "lat": 32.579804,
+    "lng": -97.305347
+   },
+   {
+    "name": "Colleyville Recreation Center Annex A",
+    "address": "5008 Roberts Road",
+    "city": "Colleyville",
+    "zip": "76034",
+    "room": "Annex A",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Liberty Elementary School",
+    "address": "1101 West McDonwell School Road",
+    "city": "Colleyville",
+    "zip": "76034",
+    "room": "Gym",
+    "notes": "",
+    "lat": 32.903755,
+    "lng": -97.18292
+   },
+   {
+    "name": "Crouch Event Center in Bicentennial Park",
+    "address": "900 East Glendale Street",
+    "city": "Crowley",
+    "zip": "76036",
+    "room": "Live Oak Room",
+    "notes": "",
+    "lat": 32.581486,
+    "lng": -97.345631
+   },
+   {
+    "name": "Crowley Assembly of God",
+    "address": "721 South Crowley Road",
+    "city": "Crowley",
+    "zip": "76036",
+    "room": "Fellowship Hall & Sanctuary",
+    "notes": "",
+    "lat": 32.574774,
+    "lng": -97.353188
+   },
+   {
+    "name": "Crowley Recreation Center",
+    "address": "405 South Oak Street",
+    "city": "Crowley",
+    "zip": "76036",
+    "room": "Youth Room / Teen Zone",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "St. Francis Village",
+    "address": "4125 St. Francis Village Road",
+    "city": "Crowley",
+    "zip": "76036",
+    "room": "Rooms A & B",
+    "notes": "",
+    "lat": 32.614458,
+    "lng": -97.451398
+   },
+   {
+    "name": "Bill R. Johnson CTE Center",
+    "address": "4500 Longhorn Trail",
+    "city": "Fort Worth",
+    "zip": "76036",
+    "room": "A117",
+    "notes": "",
+    "lat": 32.575138,
+    "lng": -97.393825
+   },
+   {
+    "name": "Bear Creek Elementary School",
+    "address": "401 Bear Creek Drive",
+    "city": "Euless",
+    "zip": "76039",
+    "room": "Gym",
+    "notes": "",
+    "lat": 32.871199,
+    "lng": -97.088529
+   },
+   {
+    "name": "Euless Family Life Senior Center",
+    "address": "300 West Midway Drive",
+    "city": "Euless",
+    "zip": "76039",
+    "room": "Arts & Craft Room, 2 & 3",
+    "notes": "",
+    "lat": 32.844104,
+    "lng": -97.084209
+   },
+   {
+    "name": "King of Kings Arabic Church",
+    "address": "1401 North Main Street",
+    "city": "Euless",
+    "zip": "76039",
+    "room": "Kitchen Hall",
+    "notes": "",
+    "lat": 32.855519,
+    "lng": -97.08256
+   },
+   {
+    "name": "Hurst Euless Bedford I.S.D. Auxiliary Services",
+    "address": "1350 West Euless Boulevard",
+    "city": "Euless",
+    "zip": "76040",
+    "room": "Training Room A, B, C & D",
+    "notes": "",
+    "lat": 32.826936,
+    "lng": -97.105108
+   },
+   {
+    "name": "South Euless Baptist Church",
+    "address": "1000 Simmons Drive",
+    "city": "Euless",
+    "zip": "76040",
+    "room": "Fellowship Hall",
+    "notes": "",
+    "lat": 32.823728,
+    "lng": -97.091734
+   },
+   {
+    "name": "South Euless Elementary School",
+    "address": "605 South Main Street",
+    "city": "Euless",
+    "zip": "76040",
+    "room": "Library",
+    "notes": "",
+    "lat": 32.828108,
+    "lng": -97.082193
+   },
+   {
+    "name": "First Presbyterian Church Grapevine",
+    "address": "1002 Park Boulevard",
+    "city": "Grapevine",
+    "zip": "76051",
+    "room": "Main Room Fellowship Hall",
+    "notes": "",
+    "lat": 32.950188,
+    "lng": -97.098218
+   },
+   {
+    "name": "Grapevine Middle School",
+    "address": "301 Pony Parkway",
+    "city": "Grapevine",
+    "zip": "76051",
+    "room": "Teachers Lounge off the Cafeteria",
+    "notes": "",
+    "lat": 32.942941,
+    "lng": -97.084398
+   },
+   {
+    "name": "Grapevine Public Library",
+    "address": "1201 Municipal Way",
+    "city": "Grapevine",
+    "zip": "76051",
+    "room": "Program Room",
+    "notes": "",
+    "lat": 32.929251,
+    "lng": -97.076716
+   },
+   {
+    "name": "Mariella of Grapevine",
+    "address": "3735 Ira E Woods Avenue",
+    "city": "Grapevine",
+    "zip": "76051",
+    "room": "Gathering Room",
+    "notes": "",
+    "lat": 32.914389,
+    "lng": -97.127223
+   },
+   {
+    "name": "Heritage Baptist Church",
+    "address": "1200 FM 156 South",
+    "city": "Haslet",
+    "zip": "76052",
+    "room": "Lobby of Activity Building",
+    "notes": "",
+    "lat": 32.956738,
+    "lng": -97.349278
+   },
+   {
+    "name": "Legacy Learning Center Northwest ISD",
+    "address": "501 School House Road",
+    "city": "Haslet",
+    "zip": "76052",
+    "room": "L125 & L127",
+    "notes": "",
+    "lat": 32.968457,
+    "lng": -97.349323
+   },
+   {
+    "name": "Leo Adams Middle School",
+    "address": "1075 Eagle Boulevard",
+    "city": "Haslet",
+    "zip": "76052",
+    "room": "Portable 5 & 6",
+    "notes": "",
+    "lat": 32.942358,
+    "lng": -97.384447
+   },
+   {
+    "name": "Sendera Ranch Elementary School",
+    "address": "1216 Diamondback Lane",
+    "city": "Haslet",
+    "zip": "76052",
+    "room": "Gym",
+    "notes": "",
+    "lat": 32.981642,
+    "lng": -97.385563
+   },
+   {
+    "name": "Brookside Center",
+    "address": "1244 Brookside Drive",
+    "city": "Hurst",
+    "zip": "76053",
+    "room": "Main Room",
+    "notes": "",
+    "lat": 32.83208,
+    "lng": -97.178851
+   },
+   {
+    "name": "Hurst Public Library",
+    "address": "901 Precinct Line Road",
+    "city": "Hurst",
+    "zip": "76053",
+    "room": "Library Program, Rooms North & South",
+    "notes": "",
+    "lat": 32.825624,
+    "lng": -97.186508
+   },
+   {
+    "name": "First Baptist Hurst Norwood Campus",
+    "address": "1801 Norwood Drive",
+    "city": "Hurst",
+    "zip": "76054",
+    "room": "Fellowship Hall East",
+    "notes": "",
+    "lat": 32.848719,
+    "lng": -97.168458
+   },
+   {
+    "name": "Gary Fickes Northeast Courthouse",
+    "address": "645 Grapevine Highway",
+    "city": "Hurst",
+    "zip": "76054",
+    "room": "Community Room",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Dover Fellowship Hall",
+    "address": "208 Municipal Drive",
+    "city": "Kennedale",
+    "zip": "76060",
+    "room": "Dover Hall",
+    "notes": "",
+    "lat": 32.645603,
+    "lng": -97.22476
+   },
+   {
+    "name": "Kennedale High School",
+    "address": "901 Wildcat Way",
+    "city": "Kennedale",
+    "zip": "76060",
+    "room": "KISD Performing Arts Center",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Brooks Wester Middle School",
+    "address": "1520 North Walnut Creek",
+    "city": "Mansfield",
+    "zip": "76063",
+    "room": "Concession Area, Entry #21",
+    "notes": "",
+    "lat": 32.595231,
+    "lng": -97.130849
+   },
+   {
+    "name": "Donna Shepard Leadership Academy",
+    "address": "1280 FM Road 1187",
+    "city": "Mansfield",
+    "zip": "76063",
+    "room": "Gym A, Entry #13",
+    "notes": "",
+    "lat": 32.590697,
+    "lng": -97.162308
+   },
+   {
+    "name": "J. L. Boren Elementary School",
+    "address": "1401 Country Club Drive",
+    "city": "Mansfield",
+    "zip": "76063",
+    "room": "Library, Entry #1",
+    "notes": "",
+    "lat": 30.857166,
+    "lng": -96.961234
+   },
+   {
+    "name": "New Hope Baptist Church",
+    "address": "6765 Dick Price Road",
+    "city": "Mansfield",
+    "zip": "76063",
+    "room": "Fellowship Hall",
+    "notes": "",
+    "lat": 32.607106,
+    "lng": -97.214786
+   },
+   {
+    "name": "Tarrant County Subcourthouse at Mansfield",
+    "address": "1100 East Broad Street",
+    "city": "Mansfield",
+    "zip": "76063",
+    "room": "1st Floor Multipurpose Room",
+    "notes": "",
+    "lat": 32.565278,
+    "lng": -97.128498
+   },
+   {
+    "name": "Vernon Newsom Stadium",
+    "address": "3700 East Broad Street",
+    "city": "Mansfield",
+    "zip": "76063",
+    "room": "Community Room",
+    "notes": "",
+    "lat": 32.57893,
+    "lng": -97.076873
+   },
+   {
+    "name": "Countryside Bible Church",
+    "address": "251 Countryside Court",
+    "city": "Southlake",
+    "zip": "76092",
+    "room": "Middle School Main Room",
+    "notes": "",
+    "lat": 32.959221,
+    "lng": -97.152796
+   },
+   {
+    "name": "Southlake Town Hall",
+    "address": "1400 Main Street",
+    "city": "Southlake",
+    "zip": "76092",
+    "room": "3rd Floor; Training Rooms 3A-3D",
+    "notes": "",
+    "lat": 32.942639,
+    "lng": -97.130814
+   },
+   {
+    "name": "St. Martin in-the-Fields Episcopal Church",
+    "address": "223 South Pearson Lane",
+    "city": "Southlake",
+    "zip": "76092",
+    "room": "Parish Hall",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "The Carlyle at Stonebridge Park",
+    "address": "170 Stonebridge Lane",
+    "city": "Southlake",
+    "zip": "76092",
+    "room": "Front Lobby & Library",
+    "notes": "",
+    "lat": 32.937354,
+    "lng": -97.188181
+   },
+   {
+    "name": "Tarrant County Plaza Building",
+    "address": "201 Burnett Street",
+    "city": "Fort Worth",
+    "zip": "76102",
+    "room": "3rd Floor Voting Room",
+    "notes": "",
+    "lat": 32.754936,
+    "lng": -97.336428
+   },
+   {
+    "name": "The Greenway Church",
+    "address": "1816 Delga Street",
+    "city": "Fort Worth",
+    "zip": "76102",
+    "room": "Lobby",
+    "notes": "",
+    "lat": 32.77297,
+    "lng": -97.324066
+   },
+   {
+    "name": "Trinity Terrace",
+    "address": "1600 Texas Street",
+    "city": "Fort Worth",
+    "zip": "76102",
+    "room": "Chisholm Room",
+    "notes": "",
+    "lat": 32.749007,
+    "lng": -97.342513
+   },
+   {
+    "name": "Community Christian Church Center Building",
+    "address": "1720 Vickery Boulevard East",
+    "city": "Fort Worth",
+    "zip": "76104",
+    "room": "Cafeteria",
+    "notes": "",
+    "lat": 32.737524,
+    "lng": -97.303744
+   },
+   {
+    "name": "Hazel Harvey Peace Center for Neighborhoods",
+    "address": "818 Missouri Avenue",
+    "city": "Fort Worth",
+    "zip": "76104",
+    "room": "Front Conference Room",
+    "notes": "",
+    "lat": 32.736411,
+    "lng": -97.31908
+   },
+   {
+    "name": "Morningside Elementary School",
+    "address": "2601 Evans Avenue",
+    "city": "Fort Worth",
+    "zip": "76104",
+    "room": "Auditorium",
+    "notes": "",
+    "lat": 32.714652,
+    "lng": -97.318334
+   },
+   {
+    "name": "House of Prayer & Praise Church",
+    "address": "5025 Avenue G",
+    "city": "Fort Worth",
+    "zip": "76105",
+    "room": "Fellowship Hall",
+    "notes": "",
+    "lat": 32.730225,
+    "lng": -97.247422
+   },
+   {
+    "name": "Sycamore Recreation Center",
+    "address": "2525 East Rosedale Street",
+    "city": "Fort Worth",
+    "zip": "76105",
+    "room": "Multipurpose Room",
+    "notes": "",
+    "lat": 32.730823,
+    "lng": -97.290394
+   },
+   {
+    "name": "William M. McDonald YMCA",
+    "address": "2701 Moresby Street",
+    "city": "Fort Worth",
+    "zip": "76105",
+    "room": "Studio A & B",
+    "notes": "",
+    "lat": 32.707842,
+    "lng": -97.288679
+   },
+   {
+    "name": "Diamond Hill/Jarvis Branch Library",
+    "address": "1300 Northeast 35th Street",
+    "city": "Fort Worth",
+    "zip": "76106",
+    "room": "Meeting Room",
+    "notes": "",
+    "lat": 32.80918,
+    "lng": -97.339405
+   },
+   {
+    "name": "Iglesia Palabra de Amor",
+    "address": "3402 Northwest 28th Street",
+    "city": "Fort Worth",
+    "zip": "76106",
+    "room": "Reception Area",
+    "notes": "",
+    "lat": 32.807919,
+    "lng": -97.386765
+   },
+   {
+    "name": "Como Community Center",
+    "address": "4660 Horne Street",
+    "city": "Fort Worth",
+    "zip": "76107",
+    "room": "Multi-Purpose Rooms #4-5",
+    "notes": "",
+    "lat": 32.715491,
+    "lng": -97.408163
+   },
+   {
+    "name": "Lena Pope",
+    "address": "3200 Sanguinet Street",
+    "city": "Fort Worth",
+    "zip": "76107",
+    "room": "Conference Rooms - Mabee, Meadows & Messman",
+    "notes": "",
+    "lat": 32.729071,
+    "lng": -97.391476
+   },
+   {
+    "name": "North Hi Mount Elementary School",
+    "address": "3801 West 7th Street",
+    "city": "Fort Worth",
+    "zip": "76107",
+    "room": "Gym",
+    "notes": "",
+    "lat": 32.751387,
+    "lng": -97.374103
+   },
+   {
+    "name": "Thomas Place Community Center",
+    "address": "4237 Lafayette Avenue",
+    "city": "Fort Worth",
+    "zip": "76107",
+    "room": "Dance Room",
+    "notes": "",
+    "lat": 32.741327,
+    "lng": -97.380335
+   },
+   {
+    "name": "Westover Hills Town Hall",
+    "address": "5824 Merrymount Road",
+    "city": "Westover Hills",
+    "zip": "76107",
+    "room": "Lobby",
+    "notes": "",
+    "lat": 32.738138,
+    "lng": -97.409858
+   },
+   {
+    "name": "Redeemer Bible Church",
+    "address": "100 Verna Trail North",
+    "city": "Fort Worth",
+    "zip": "76108",
+    "room": "Fellowship Hall Auditorium",
+    "notes": "",
+    "lat": 32.760787,
+    "lng": -97.502711
+   },
+   {
+    "name": "The Pentecostals of Fort Worth",
+    "address": "10264 Westpoint Boulevard",
+    "city": "Fort Worth",
+    "zip": "76108",
+    "room": "Children's Ministry Area",
+    "notes": "",
+    "lat": 32.748337,
+    "lng": -97.502323
+   },
+   {
+    "name": "Pecan Grove Convention Center",
+    "address": "405 North Las Vegas Trail",
+    "city": "White Settlement",
+    "zip": "76108",
+    "room": "Front Room",
+    "notes": "",
+    "lat": 32.764058,
+    "lng": -97.468876
+   },
+   {
+    "name": "White Settlement Public Library",
+    "address": "8215 White Settlement Road",
+    "city": "White Settlement",
+    "zip": "76108",
+    "room": "Community Room / Education Room",
+    "notes": "",
+    "lat": 32.759679,
+    "lng": -97.459347
+   },
+   {
+    "name": "Southcliff Baptist Church",
+    "address": "4100 Southwest Loop 820",
+    "city": "Fort Worth",
+    "zip": "76109",
+    "room": "Main Concourse",
+    "notes": "",
+    "lat": 32.676611,
+    "lng": -97.383151
+   },
+   {
+    "name": "Southwest Regional Library",
+    "address": "4001 Library Lane",
+    "city": "Fort Worth",
+    "zip": "76109",
+    "room": "Meeting Room",
+    "notes": "",
+    "lat": 32.68973,
+    "lng": -97.393951
+   },
+   {
+    "name": "E. M. Daggett Elementary School",
+    "address": "958 Page Avenue",
+    "city": "Fort Worth",
+    "zip": "76110",
+    "room": "Gym",
+    "notes": "",
+    "lat": 32.716646,
+    "lng": -97.334762
+   },
+   {
+    "name": "R. L. Paschal High School",
+    "address": "2911 Forest Park Boulevard",
+    "city": "Fort Worth",
+    "zip": "76110",
+    "room": "Gus Bates Lobby",
+    "notes": "",
+    "lat": 32.70939,
+    "lng": -97.352253
+   },
+   {
+    "name": "Victory Forest Community Center",
+    "address": "3427 Hemphill Street",
+    "city": "Fort Worth",
+    "zip": "76110",
+    "room": "Computer Lab",
+    "notes": "",
+    "lat": 32.700155,
+    "lng": -97.33161
+   },
+   {
+    "name": "Worth Heights Community Center",
+    "address": "3551 New York Avenue",
+    "city": "Fort Worth",
+    "zip": "76110",
+    "room": "Multipurpose Room 4",
+    "notes": "",
+    "lat": 32.697386,
+    "lng": -97.316481
+   },
+   {
+    "name": "Andrew \"Doc\" Session Community Center",
+    "address": "201 South Sylvania Avenue",
+    "city": "Fort Worth",
+    "zip": "76111",
+    "room": "Activity Room",
+    "notes": "",
+    "lat": 32.764229,
+    "lng": -97.308894
+   },
+   {
+    "name": "Oakhurst Elementary School",
+    "address": "2700 Yucca Avenue",
+    "city": "Fort Worth",
+    "zip": "76111",
+    "room": "Gym",
+    "notes": "",
+    "lat": 32.780914,
+    "lng": -97.306963
+   },
+   {
+    "name": "Riverside Community Center",
+    "address": "3700 East Belknap Street",
+    "city": "Fort Worth",
+    "zip": "76111",
+    "room": "Meeting Room",
+    "notes": "",
+    "lat": 32.777607,
+    "lng": -97.295261
+   },
+   {
+    "name": "All Peoples Church Unitarian Universalist",
+    "address": "1959 Sandy Lane",
+    "city": "Fort Worth",
+    "zip": "76112",
+    "room": "Fellowship Hall",
+    "notes": "",
+    "lat": 32.749722,
+    "lng": -97.198618
+   },
+   {
+    "name": "East Regional Library",
+    "address": "6301 Bridge Street",
+    "city": "Fort Worth",
+    "zip": "76112",
+    "room": "Meeting Room",
+    "notes": "",
+    "lat": 32.760677,
+    "lng": -97.223994
+   },
+   {
+    "name": "Eastside YMCA",
+    "address": "1500 Sandy Lane",
+    "city": "Fort Worth",
+    "zip": "76112",
+    "room": "Multipurpose Room",
+    "notes": "",
+    "lat": 32.757391,
+    "lng": -97.198588
+   },
+   {
+    "name": "Handley-Meadowbrook Community Center",
+    "address": "6201 Beaty Street",
+    "city": "Fort Worth",
+    "zip": "76112",
+    "room": "Multipurpose Room 2",
+    "notes": "",
+    "lat": 32.739612,
+    "lng": -97.223251
+   },
+   {
+    "name": "Martin Luther King Community Center",
+    "address": "5565 Truman Drive",
+    "city": "Fort Worth",
+    "zip": "76112",
+    "room": "Activity Room",
+    "notes": "",
+    "lat": 32.724718,
+    "lng": -97.235339
+   },
+   {
+    "name": "Park Meadows Apartments",
+    "address": "2716 Yeager Street",
+    "city": "Fort Worth",
+    "zip": "76112",
+    "room": "Dining Room",
+    "notes": "",
+    "lat": 32.741113,
+    "lng": -97.233386
+   },
+   {
+    "name": "River Oaks Community Center",
+    "address": "5300 Blackstone Drive",
+    "city": "River Oaks",
+    "zip": "76114",
+    "room": "Backroom",
+    "notes": "",
+    "lat": 32.764382,
+    "lng": -97.39839
+   },
+   {
+    "name": "City of Sansom Park City Hall Municipal Court",
+    "address": "5705 Azle Avenue",
+    "city": "Sansom Park",
+    "zip": "76114",
+    "room": "Council Chambers",
+    "notes": "",
+    "lat": 32.811584,
+    "lng": -97.406016
+   },
+   {
+    "name": "The Westmore Independent Living",
+    "address": "25 Leonard Trail",
+    "city": "Westworth Village",
+    "zip": "76114",
+    "room": "2nd Floor, Club House",
+    "notes": "",
+    "lat": 32.757053,
+    "lng": -97.422354
+   },
+   {
+    "name": "Westworth Village City Hall",
+    "address": "311 Burton Hill Road",
+    "city": "Westworth Village",
+    "zip": "76114",
+    "room": "Community Room",
+    "notes": "",
+    "lat": 32.755827,
+    "lng": -97.408026
+   },
+   {
+    "name": "Celeste's",
+    "address": "1001 Oak Grove Road",
+    "city": "Fort Worth",
+    "zip": "76115",
+    "room": "Lobby",
+    "notes": "",
+    "lat": 32.67304,
+    "lng": -97.315119
+   },
+   {
+    "name": "James Avenue Service Center",
+    "address": "5001 James Avenue",
+    "city": "Fort Worth",
+    "zip": "76115",
+    "room": "Large Breakroom",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Birchman Baptist Church",
+    "address": "2700 Dale Lane, Building B",
+    "city": "Fort Worth",
+    "zip": "76116",
+    "room": "Room B202",
+    "notes": "",
+    "lat": 32.736639,
+    "lng": -97.476016
+   },
+   {
+    "name": "R. D. Evans Community Center",
+    "address": "3242 Lackland Road",
+    "city": "Fort Worth",
+    "zip": "76116",
+    "room": "Dance Studio",
+    "notes": "",
+    "lat": 32.725838,
+    "lng": -97.43475
+   },
+   {
+    "name": "Redeemer Lutheran Church",
+    "address": "4513 Williams Road",
+    "city": "Fort Worth",
+    "zip": "76116",
+    "room": "Gym",
+    "notes": "",
+    "lat": 32.70761,
+    "lng": -97.452726
+   },
+   {
+    "name": "Ridglea Baptist Church",
+    "address": "6037 Calmont Avenue",
+    "city": "Fort Worth",
+    "zip": "76116",
+    "room": "Room 100",
+    "notes": "",
+    "lat": 32.734003,
+    "lng": -97.414586
+   },
+   {
+    "name": "Ridglea Presbyterian Church",
+    "address": "5000 Southwest Boulevard",
+    "city": "Fort Worth",
+    "zip": "76116",
+    "room": "Sanctuary",
+    "notes": "",
+    "lat": 32.702503,
+    "lng": -97.431177
+   },
+   {
+    "name": "Western Hills Church of Christ",
+    "address": "8800 Chapin Road",
+    "city": "Fort Worth",
+    "zip": "76116",
+    "room": "Education Building",
+    "notes": "",
+    "lat": 32.717507,
+    "lng": -97.469181
+   },
+   {
+    "name": "Haltom City Library",
+    "address": "4809 Haltom Road",
+    "city": "Haltom City",
+    "zip": "76117",
+    "room": "Meeting Room",
+    "notes": "",
+    "lat": 32.833197,
+    "lng": -97.272554
+   },
+   {
+    "name": "Haltom City Senior Center",
+    "address": "3201 Friendly Lane",
+    "city": "Haltom City",
+    "zip": "76117",
+    "room": "Northeast Corner Classroom",
+    "notes": "",
+    "lat": 32.807758,
+    "lng": -97.274278
+   },
+   {
+    "name": "Landmark Baptist Church",
+    "address": "1909 Thomas Road",
+    "city": "Haltom City",
+    "zip": "76117",
+    "room": "Fellowship Hall",
+    "notes": "",
+    "lat": 32.787946,
+    "lng": -97.264534
+   },
+   {
+    "name": "W. G. Thomas Coliseum",
+    "address": "6108 Broadway Avenue",
+    "city": "Haltom City",
+    "zip": "76117",
+    "room": "Rooms B & C",
+    "notes": "",
+    "lat": 32.808416,
+    "lng": -97.254521
+   },
+   {
+    "name": "West Birdville Elementary School",
+    "address": "3001 Layton Avenue",
+    "city": "Haltom City",
+    "zip": "76117",
+    "room": "Library",
+    "notes": "",
+    "lat": 32.799622,
+    "lng": -97.282044
+   },
+   {
+    "name": "River Trails Elementary School",
+    "address": "8850 Elbe Trail",
+    "city": "Fort Worth",
+    "zip": "76118",
+    "room": "Gym",
+    "notes": "",
+    "lat": 32.798507,
+    "lng": -97.188008
+   },
+   {
+    "name": "Richland Middle School",
+    "address": "3401 Labadie Drive",
+    "city": "Richland Hills",
+    "zip": "76118",
+    "room": "Large Gym",
+    "notes": "",
+    "lat": 32.81074,
+    "lng": -97.216133
+   },
+   {
+    "name": "The Link",
+    "address": "6750 Baker Boulevard",
+    "city": "Richland Hills",
+    "zip": "76118",
+    "room": "Community Rooms B & C",
+    "notes": "",
+    "lat": 32.809089,
+    "lng": -97.237191
+   },
+   {
+    "name": "C. R. Bradley Community Center",
+    "address": "2601 Timberline Drive",
+    "city": "Fort Worth",
+    "zip": "76119",
+    "room": "Lobby",
+    "notes": "",
+    "lat": 32.694962,
+    "lng": -97.291087
+   },
+   {
+    "name": "Charles F. Griffin Building",
+    "address": "3212 Miller Avenue",
+    "city": "Fort Worth",
+    "zip": "76119",
+    "room": "Early Voting Room",
+    "notes": "",
+    "lat": 32.712344,
+    "lng": -97.262941
+   },
+   {
+    "name": "Glen Park Elementary School",
+    "address": "3601 Pecos Street",
+    "city": "Fort Worth",
+    "zip": "76119",
+    "room": "Gym",
+    "notes": "",
+    "lat": 32.688201,
+    "lng": -97.271468
+   },
+   {
+    "name": "Bill J. Elliott Elementary School",
+    "address": "2501 Cooks Lane",
+    "city": "Fort Worth",
+    "zip": "76120",
+    "room": "Gym",
+    "notes": "",
+    "lat": 32.74585,
+    "lng": -97.181385
+   },
+   {
+    "name": "Lowery Road Elementary School",
+    "address": "7600 Lowery Road",
+    "city": "Fort Worth",
+    "zip": "76120",
+    "room": "Gym",
+    "notes": "",
+    "lat": 32.772114,
+    "lng": -97.188694
+   },
+   {
+    "name": "Chisholm Trail Community Center",
+    "address": "4936 McPherson Boulevard",
+    "city": "Fort Worth",
+    "zip": "76123",
+    "room": "Multi-Purpose Room",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Christ United Methodist Church",
+    "address": "3301 Sycamore School Road",
+    "city": "Fort Worth",
+    "zip": "76123",
+    "room": "Fellowship Hall",
+    "notes": "",
+    "lat": 32.634768,
+    "lng": -97.367398
+   },
+   {
+    "name": "Hallmark Baptist Church",
+    "address": "4201 West Risinger Drive",
+    "city": "Fort Worth",
+    "zip": "76123",
+    "room": "Gym",
+    "notes": "",
+    "lat": 32.616958,
+    "lng": -97.384343
+   },
+   {
+    "name": "Vivian J. Lincoln Branch Library",
+    "address": "8829 McCart Avenue",
+    "city": "Fort Worth",
+    "zip": "76123",
+    "room": "Meeting Room - A & B",
+    "notes": "",
+    "lat": 32.614307,
+    "lng": -97.371501
+   },
+   {
+    "name": "Benbrook Community Center",
+    "address": "228 San Angelo Avenue",
+    "city": "Benbrook",
+    "zip": "76126",
+    "room": "Main Room",
+    "notes": "",
+    "lat": 32.681093,
+    "lng": -97.457503
+   },
+   {
+    "name": "Benbrook Community Center YMCA",
+    "address": "1899 Winscott Road",
+    "city": "Benbrook",
+    "zip": "76126",
+    "room": "Multipurpose Room",
+    "notes": "",
+    "lat": 32.667284,
+    "lng": -97.473631
+   },
+   {
+    "name": "Church of the Holy Apostles",
+    "address": "3900 Longvue Avenue",
+    "city": "Fort Worth",
+    "zip": "76126",
+    "room": "Parish Hall",
+    "notes": "",
+    "lat": 32.715477,
+    "lng": -97.495659
+   },
+   {
+    "name": "HighRidge Church",
+    "address": "10100 Rolling Hills Drive",
+    "city": "Fort Worth",
+    "zip": "76126",
+    "room": "Front Lobby",
+    "notes": "",
+    "lat": 32.673532,
+    "lng": -97.492123
+   },
+   {
+    "name": "TCU Brown Lupton University Union",
+    "address": "2901 Stadium Drive",
+    "city": "Fort Worth",
+    "zip": "76129",
+    "room": "Brachman Auditorium",
+    "notes": "",
+    "lat": 32.709672,
+    "lng": -97.365151
+   },
+   {
+    "name": "L. A. Gilliland Elementary School",
+    "address": "701 Waggoman Road",
+    "city": "Blue Mound",
+    "zip": "76131",
+    "room": "Library",
+    "notes": "",
+    "lat": 32.856098,
+    "lng": -97.338964
+   },
+   {
+    "name": "Betsy Price Community Center",
+    "address": "8375 Blue Mound Road",
+    "city": "Fort Worth",
+    "zip": "76131",
+    "room": "Multi-Purpose B",
+    "notes": "",
+    "lat": 32.890426,
+    "lng": -97.346291
+   },
+   {
+    "name": "Cross Church",
+    "address": "10321 US-287",
+    "city": "Fort Worth",
+    "zip": "76131",
+    "room": "Worship Center and Lobby",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Highland Middle School",
+    "address": "1001 East Bailey Boswell Road",
+    "city": "Fort Worth",
+    "zip": "76131",
+    "room": "Boys Gym Hallway",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Northbrook Elementary School",
+    "address": "2500 Cantrell Sansom Road",
+    "city": "Fort Worth",
+    "zip": "76131",
+    "room": "Gym",
+    "notes": "",
+    "lat": 32.847874,
+    "lng": -97.326527
+   },
+   {
+    "name": "Sunset Valley Elementary School",
+    "address": "2032 Canchim Street",
+    "city": "Fort Worth",
+    "zip": "76131",
+    "room": "Foyer / Lobby",
+    "notes": "",
+    "lat": 32.877933,
+    "lng": -97.331114
+   },
+   {
+    "name": "St. Peter's Antiochian Orthodox Church",
+    "address": "7601 Bellaire Drive South",
+    "city": "Fort Worth",
+    "zip": "76132",
+    "room": "Booth Hall",
+    "notes": "",
+    "lat": 32.665117,
+    "lng": -97.428842
+   },
+   {
+    "name": "Dionne Phillips Bagsby Southwest Subcourthouse",
+    "address": "6551 Granbury Road",
+    "city": "Fort Worth",
+    "zip": "76133",
+    "room": "Voting / Conference Room",
+    "notes": "",
+    "lat": 32.652511,
+    "lng": -97.407694
+   },
+   {
+    "name": "South Hills Elementary School",
+    "address": "3009 Bilglade Road",
+    "city": "Fort Worth",
+    "zip": "76133",
+    "room": "Library",
+    "notes": "",
+    "lat": 32.677151,
+    "lng": -97.360903
+   },
+   {
+    "name": "Southwest Community Center",
+    "address": "6300 Welch Avenue",
+    "city": "Fort Worth",
+    "zip": "76133",
+    "room": "Recreation Room",
+    "notes": "",
+    "lat": 32.654804,
+    "lng": -97.381986
+   },
+   {
+    "name": "St. Matthew's Lutheran Church",
+    "address": "5709 Wedgwood Drive",
+    "city": "Fort Worth",
+    "zip": "76133",
+    "room": "Fellowship Hall",
+    "notes": "",
+    "lat": 32.66667,
+    "lng": -97.390545
+   },
+   {
+    "name": "Trinity Cumberland Presbyterian Church",
+    "address": "7120 West Cleburne Road",
+    "city": "Fort Worth",
+    "zip": "76133",
+    "room": "Fellowship Hall",
+    "notes": "",
+    "lat": 32.639312,
+    "lng": -97.376747
+   },
+   {
+    "name": "Westminster Presbyterian Church",
+    "address": "7001 Trail Lake Drive",
+    "city": "Fort Worth",
+    "zip": "76133",
+    "room": "Fellowship Hall",
+    "notes": "",
+    "lat": 32.644455,
+    "lng": -97.402076
+   },
+   {
+    "name": "Edgecliff Village Community Center",
+    "address": "1605 Edgecliff Road",
+    "city": "Edgecliff Village",
+    "zip": "76134",
+    "room": "Community Center",
+    "notes": "",
+    "lat": 32.661446,
+    "lng": -97.3434
+   },
+   {
+    "name": "Highland Hills Community Center",
+    "address": "1600 Glasgow Road",
+    "city": "Fort Worth",
+    "zip": "76134",
+    "room": "Multipurpose Room",
+    "notes": "",
+    "lat": 32.663246,
+    "lng": -97.301773
+   },
+   {
+    "name": "Lifeline Church",
+    "address": "1404 Sycamore School Road",
+    "city": "Fort Worth",
+    "zip": "76134",
+    "room": "Narthex / Sanctuary Foyer",
+    "notes": "",
+    "lat": 32.635204,
+    "lng": -97.340128
+   },
+   {
+    "name": "Legacy Baptist Church",
+    "address": "5500 Boat Club Road",
+    "city": "Fort Worth",
+    "zip": "76135",
+    "room": "Gym",
+    "notes": "",
+    "lat": 32.83306,
+    "lng": -97.42515
+   },
+   {
+    "name": "Lighthouse Fellowship",
+    "address": "7200 Robertson Road",
+    "city": "Fort Worth",
+    "zip": "76135",
+    "room": "Lobby",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Sheriff's Office North Patrol Division",
+    "address": "6651 Lake Worth Boulevard",
+    "city": "Lake Worth",
+    "zip": "76135",
+    "room": "Community Room",
+    "notes": "",
+    "lat": 32.811782,
+    "lng": -97.433387
+   },
+   {
+    "name": "The Word @ Lakeside",
+    "address": "9396 Confederate Park Road",
+    "city": "Lakeside",
+    "zip": "76135",
+    "room": "Gym / Family Life Center",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Alliance Methodist Church",
+    "address": "7904 Park Vista Boulevard",
+    "city": "Fort Worth",
+    "zip": "76137",
+    "room": "Family Life Center",
+    "notes": "",
+    "lat": 32.882416,
+    "lng": -97.27251
+   },
+   {
+    "name": "Bluebonnet Elementary School",
+    "address": "7000 Teal Drive",
+    "city": "Fort Worth",
+    "zip": "76137",
+    "room": "Gym",
+    "notes": "",
+    "lat": 32.86835,
+    "lng": -97.278174
+   },
+   {
+    "name": "Camp Fire First Texas",
+    "address": "2700 Meacham Boulevard",
+    "city": "Fort Worth",
+    "zip": "76137",
+    "room": "Conference Room F & G",
+    "notes": "",
+    "lat": 32.824167,
+    "lng": -97.306717
+   },
+   {
+    "name": "Summerglen Branch Library",
+    "address": "4205 Basswood Boulevard",
+    "city": "Fort Worth",
+    "zip": "76137",
+    "room": "Meeting Room",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Everman Civic Center",
+    "address": "213 North Race Street",
+    "city": "Everman",
+    "zip": "76140",
+    "room": "Main Ballroom Area",
+    "notes": "",
+    "lat": 32.636765,
+    "lng": -97.287169
+   },
+   {
+    "name": "Jerilyn K. Pfeifer Administration Building",
+    "address": "1520 Everman Parkway, Suite B",
+    "city": "Everman",
+    "zip": "76140",
+    "room": "Lobby",
+    "notes": "",
+    "lat": 32.627261,
+    "lng": -97.303473
+   },
+   {
+    "name": "Berea Baptist Church",
+    "address": "6901 Forest Hill Drive",
+    "city": "Forest Hill",
+    "zip": "76140",
+    "room": "Fellowship Hall",
+    "notes": "",
+    "lat": 32.655328,
+    "lng": -97.269833
+   },
+   {
+    "name": "Forest Hill Civic & Convention Center",
+    "address": "6901 Wichita Street",
+    "city": "Forest Hill",
+    "zip": "76140",
+    "room": "Room 101",
+    "notes": "",
+    "lat": 32.655982,
+    "lng": -97.282747
+   },
+   {
+    "name": "Sidney Poynter Elementary School",
+    "address": "521 Ashdale Drive",
+    "city": "Fort Worth",
+    "zip": "76140",
+    "room": "Cafeteria",
+    "notes": "",
+    "lat": 32.602901,
+    "lng": -97.327079
+   },
+   {
+    "name": "First Baptist Watauga",
+    "address": "6124 Plum Street",
+    "city": "Watauga",
+    "zip": "76148",
+    "room": "Kitchen Hallway",
+    "notes": "",
+    "lat": 32.858878,
+    "lng": -97.262063
+   },
+   {
+    "name": "Hector F. Garcia Community Center",
+    "address": "7901 Indian Springs Road",
+    "city": "Watauga",
+    "zip": "76148",
+    "room": "Gym",
+    "notes": "",
+    "lat": 32.892027,
+    "lng": -97.248782
+   },
+   {
+    "name": "Watauga City Hall",
+    "address": "7105 Whitley Road",
+    "city": "Watauga",
+    "zip": "76148",
+    "room": "Lobby",
+    "notes": "",
+    "lat": 32.875003,
+    "lng": -97.255083
+   },
+   {
+    "name": "Candlewood Suites Hotel",
+    "address": "4200 Reggis Court",
+    "city": "Fort Worth",
+    "zip": "76155",
+    "room": "Gold and PLT Rooms",
+    "notes": "",
+    "lat": 32.824232,
+    "lng": -97.058811
+   },
+   {
+    "name": "Northside Community Center",
+    "address": "1100 Northwest 18th Street",
+    "city": "Fort Worth",
+    "zip": "76164",
+    "room": "Banquet Room",
+    "notes": "",
+    "lat": 32.778739,
+    "lng": -97.362851
+   },
+   {
+    "name": "O. A. Peterson Elementary School",
+    "address": "2000 Winter Hawk Drive",
+    "city": "Fort Worth",
+    "zip": "76177",
+    "room": "Gym",
+    "notes": "",
+    "lat": 32.927491,
+    "lng": -97.329512
+   },
+   {
+    "name": "Vista Ridge Middle School",
+    "address": "3201 Thompson Road",
+    "city": "Fort Worth",
+    "zip": "76177",
+    "room": "Cafeteria",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Dido United Methodist Church",
+    "address": "5570 Dido Hicks Road",
+    "city": "Fort Worth",
+    "zip": "76179",
+    "room": "Fellowship Hall",
+    "notes": "",
+    "lat": 32.951558,
+    "lng": -97.483114
+   },
+   {
+    "name": "Lake Country Church",
+    "address": "8777 Boat Club Road",
+    "city": "Fort Worth",
+    "zip": "76179",
+    "room": "Main Lobby",
+    "notes": "",
+    "lat": 32.88334,
+    "lng": -97.425886
+   },
+   {
+    "name": "Northwest Branch Library",
+    "address": "6228 Crystal Lake Drive",
+    "city": "Fort Worth",
+    "zip": "76179",
+    "room": "Meeting Room",
+    "notes": "",
+    "lat": 32.847085,
+    "lng": -97.402264
+   },
+   {
+    "name": "Tarrant County College Northwest Campus",
+    "address": "4801 Marine Creek Parkway",
+    "city": "Fort Worth",
+    "zip": "76179",
+    "room": "Fire Services Training Center, Building NW11, Room 1403A",
+    "notes": "",
+    "lat": 32.829934,
+    "lng": -97.385823
+   },
+   {
+    "name": "Saginaw Public Library",
+    "address": "300 West McLeroy Boulevard",
+    "city": "Saginaw",
+    "zip": "76179",
+    "room": "Longhorn Room",
+    "notes": "",
+    "lat": 32.859036,
+    "lng": -97.368256
+   },
+   {
+    "name": "North Richland Hills City Hall",
+    "address": "4301 City Point Drive",
+    "city": "North Richland Hills",
+    "zip": "76180",
+    "room": "1st Floor, Community Room",
+    "notes": "",
+    "lat": 32.827721,
+    "lng": -97.217212
+   },
+   {
+    "name": "North Richland Hills Public Library",
+    "address": "9015 Grand Avenue",
+    "city": "North Richland Hills",
+    "zip": "76180",
+    "room": "Library Community Room",
+    "notes": "",
+    "lat": 32.854458,
+    "lng": -97.192824
+   },
+   {
+    "name": "Richland High School",
+    "address": "5201 Holiday Lane",
+    "city": "North Richland Hills",
+    "zip": "76180",
+    "room": "Omni Room",
+    "notes": "",
+    "lat": 32.841884,
+    "lng": -97.227934
+   },
+   {
+    "name": "Saint Paul Presbyterian Church",
+    "address": "4517 Rufe Snow Drive",
+    "city": "North Richland Hills",
+    "zip": "76180",
+    "room": "Fellowship Hall",
+    "notes": "",
+    "lat": 32.829212,
+    "lng": -97.23892
+   },
+   {
+    "name": "Foster Village Elementary School",
+    "address": "6800 Springdale Lane",
+    "city": "North Richland Hills",
+    "zip": "76182",
+    "room": "Small Gym",
+    "notes": "",
+    "lat": 32.876488,
+    "lng": -97.232945
+   },
+   {
+    "name": "House of Grace",
+    "address": "7850 Davis Boulevard",
+    "city": "North Richland Hills",
+    "zip": "76182",
+    "room": "Sanctuary",
+    "notes": "",
+    "lat": 32.890747,
+    "lng": -97.203314
+   },
+   {
+    "name": "North Ridge Elementary School",
+    "address": "7331 Holiday Lane",
+    "city": "North Richland Hills",
+    "zip": "76182",
+    "room": "Outside Gym",
+    "notes": "",
+    "lat": 32.87979,
+    "lng": -97.2213
+   },
+   {
+    "name": "Caprock Elementary School",
+    "address": "12301 Grey Twig Drive",
+    "city": "Fort Worth",
+    "zip": "76244",
+    "room": "Gym",
+    "notes": "",
+    "lat": 32.95152,
+    "lng": -97.291363
+   },
+   {
+    "name": "Eagle Ridge Elementary School",
+    "address": "4600 Alta Vista Road",
+    "city": "Fort Worth",
+    "zip": "76244",
+    "room": "Gym (610)",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Friendship Elementary School",
+    "address": "5400 Shiver Road",
+    "city": "Fort Worth",
+    "zip": "76244",
+    "room": "Cafeteria",
+    "notes": "",
+    "lat": 32.901869,
+    "lng": -97.268806
+   },
+   {
+    "name": "Northpark YMCA",
+    "address": "9100 North Beach Street",
+    "city": "Fort Worth",
+    "zip": "76244",
+    "room": "Multi-Purpose Room",
+    "notes": "",
+    "lat": 32.90574,
+    "lng": -97.289658
+   },
+   {
+    "name": "The Met Church",
+    "address": "11301 North Riverside Drive",
+    "city": "Fort Worth",
+    "zip": "76244",
+    "room": "All Purpose Room",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Woodland Springs Elementary School",
+    "address": "12120 Woodland Springs Drive",
+    "city": "Fort Worth",
+    "zip": "76244",
+    "room": "Gym",
+    "notes": "",
+    "lat": 32.945662,
+    "lng": -97.263659
+   },
+   {
+    "name": "Light of the World Church",
+    "address": "8750 North Riverside Drive",
+    "city": "Keller",
+    "zip": "76244",
+    "room": "Café / Fellowship Room",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Bear Creek Bible Church",
+    "address": "1555 North Tarrant Parkway",
+    "city": "Keller",
+    "zip": "76248",
+    "room": "Youth Area",
+    "notes": "",
+    "lat": 32.900374,
+    "lng": -97.226599
+   },
+   {
+    "name": "Keller Town Hall",
+    "address": "1100 Bear Creek Parkway",
+    "city": "Keller",
+    "zip": "76248",
+    "room": "Room 212; Room 106 (for ADA accessible voting)",
+    "notes": "",
+    "lat": 32.927026,
+    "lng": -97.238969
+   },
+   {
+    "name": "Keller United Methodist Church",
+    "address": "1025 Johnson Road",
+    "city": "Keller",
+    "zip": "76248",
+    "room": "Narthex",
+    "notes": "",
+    "lat": 32.941646,
+    "lng": -97.227611
+   },
+   {
+    "name": "Ridgeview Elementary School",
+    "address": "1601 Marshall Ridge Parkway",
+    "city": "Keller",
+    "zip": "76248",
+    "room": "Cafeteria",
+    "notes": "",
+    "lat": 32.959674,
+    "lng": -97.242551
+   },
+   {
+    "name": "WestWind Church",
+    "address": "1300 Sarah Brooks Drive",
+    "city": "Keller",
+    "zip": "76248",
+    "room": "Sanctuary / Fellowship Hall",
+    "notes": "",
+    "lat": 32.910392,
+    "lng": -97.216694
+   },
+   {
+    "name": "John M. Tidwell Middle School",
+    "address": "3937 Haslet-Roanoke Road",
+    "city": "Roanoke",
+    "zip": "76262",
+    "room": "PE Gym -1502",
+    "notes": "",
+    "lat": 32.978463,
+    "lng": -97.276566
+   },
+   {
+    "name": "Trophy Club Town Hall",
+    "address": "1 Trophy Wood Drive",
+    "city": "Trophy Club",
+    "zip": "76262",
+    "room": "EOC Training Room",
+    "notes": "",
+    "lat": 32.991294,
+    "lng": -97.169454
+   },
+   {
+    "name": "Town of Westlake Fire-EMS Department",
+    "address": "2000 Dove Road",
+    "city": "Westlake",
+    "zip": "76262",
+    "room": "Training Room",
+    "notes": "",
+    "lat": 32.978227,
+    "lng": -97.185539
+   }
+  ]
+ },
+ "notes": "Tarrant County uses countywide vote centers, so registered voters may vote at any listed location. Early voting runs 8 a.m. to 5 p.m. the first weekday week (Oct 19 to 23) and 7 a.m. to 7 p.m. Oct 26 to 30, per the county schedule."
 }

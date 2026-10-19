@@ -1,354 +1,418 @@
 {
-  "county": "Grayson",
-  "model": "countywide",
-  "checked_at": "2026-10-19T02:15:00Z",
-  "sources": [
-    {
-      "title": "Grayson County Election Administration: Election Information",
-      "url": "https://www.co.grayson.tx.us/page/elec.home"
-    },
-    {
-      "title": "Grayson County Early Voting and Election Day Locations, November 3, 2026 (PDF, rev. 9/15/2026)",
-      "url": "https://www.co.grayson.tx.us/upload/page/0188/docs/2026/General/Polling_Locations_Nov_3_2026_Election.pdf"
-    }
-  ],
-  "lookup_url": null,
-  "wait_times_url": null,
-  "early_voting": {
-    "schedule": [
-      {
-        "date": "2026-10-19",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-20",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-21",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-22",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-23",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-24",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-25",
-        "open": "11:00",
-        "close": "17:00"
-      },
-      {
-        "date": "2026-10-26",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-27",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-28",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-29",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-30",
-        "open": "07:00",
-        "close": "19:00"
-      }
-    ],
-    "sites": [
-      {
-        "name": "Bells Church of Christ",
-        "address": "301 Garland St.",
-        "city": "Bells",
-        "zip": "75414",
-        "room": "Fellowship Bldg.",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Grayson County Sub-Courthouse",
-        "address": "101 W. Woodard",
-        "city": "Denison",
-        "zip": "75021",
-        "room": "JP courtroom",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Grayson College Main Campus",
-        "address": "6101 Grayson Dr.",
-        "city": "Denison",
-        "zip": "75020",
-        "room": "SAB training room",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "St. John the Apostle Episcopal Church",
-        "address": "760 W. FM 120",
-        "city": "Pottsboro",
-        "zip": "75076",
-        "room": "main door",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Election Administration",
-        "address": "115 W. Houston St.",
-        "city": "Sherman",
-        "zip": "75090",
-        "room": "",
-        "schedule": null,
-        "notes": "Main voting location"
-      },
-      {
-        "name": "Howe Police Department",
-        "address": "700 W. Haning St.",
-        "city": "Howe",
-        "zip": "75459",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Grayson College South Campus",
-        "address": "1455 W. Van Alstyne Pkwy",
-        "city": "Van Alstyne",
-        "zip": "75495",
-        "room": "Library room 119",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Whitesboro City Hall",
-        "address": "111 W. Main St.",
-        "city": "Whitesboro",
-        "zip": "76273",
-        "room": "Council chambers",
-        "schedule": null,
-        "notes": ""
-      }
-    ]
+ "county": "Grayson",
+ "model": "countywide",
+ "checked_at": "2026-10-19T02:15:00Z",
+ "sources": [
+  {
+   "title": "Grayson County Election Administration: Election Information",
+   "url": "https://www.co.grayson.tx.us/page/elec.home"
   },
-  "election_day": {
+  {
+   "title": "Grayson County Early Voting and Election Day Locations, November 3, 2026 (PDF, rev. 9/15/2026)",
+   "url": "https://www.co.grayson.tx.us/upload/page/0188/docs/2026/General/Polling_Locations_Nov_3_2026_Election.pdf"
+  }
+ ],
+ "lookup_url": null,
+ "wait_times_url": null,
+ "early_voting": {
+  "schedule": [
+   {
+    "date": "2026-10-19",
     "open": "07:00",
-    "close": "19:00",
-    "sites": [
-      {
-        "name": "Bells Church of Christ",
-        "address": "301 Garland St.",
-        "city": "Bells",
-        "zip": "75414",
-        "room": "Fellowship Bldg.",
-        "notes": ""
-      },
-      {
-        "name": "Collinsville Community Center",
-        "address": "111 N. Main St.",
-        "city": "Collinsville",
-        "zip": "76233",
-        "room": "main doors",
-        "notes": ""
-      },
-      {
-        "name": "Grayson County Sub-Courthouse",
-        "address": "101 W. Woodard",
-        "city": "Denison",
-        "zip": "75021",
-        "room": "JP Courtroom",
-        "notes": ""
-      },
-      {
-        "name": "Parkside Baptist Church",
-        "address": "301 N. Lillis Ln.",
-        "city": "Denison",
-        "zip": "75020",
-        "room": "south entrance",
-        "notes": ""
-      },
-      {
-        "name": "Mt. Olive Baptist Church",
-        "address": "920 W Texas St.",
-        "city": "Denison",
-        "zip": "75020",
-        "room": "Gymnasium",
-        "notes": ""
-      },
-      {
-        "name": "Southside Baptist Church",
-        "address": "3500 S. Park Ave",
-        "city": "Denison",
-        "zip": "75020",
-        "room": "main hall",
-        "notes": ""
-      },
-      {
-        "name": "Grayson College",
-        "address": "6101 Grayson Dr.",
-        "city": "Denison",
-        "zip": "75020",
-        "room": "SAB training room",
-        "notes": ""
-      },
-      {
-        "name": "Gordonville Baptist Church",
-        "address": "187 Gordonville Rd.",
-        "city": "Gordonville",
-        "zip": "76245",
-        "room": "Educational Bldg. east doors",
-        "notes": ""
-      },
-      {
-        "name": "Gunter First Baptist Church",
-        "address": "99 Gentle Creek Ln",
-        "city": "Gunter",
-        "zip": "75058",
-        "room": "Foyer",
-        "notes": ""
-      },
-      {
-        "name": "Howe Police Department",
-        "address": "700 W. Haning St.",
-        "city": "Howe",
-        "zip": "75459",
-        "room": "main doors",
-        "notes": ""
-      },
-      {
-        "name": "St. John the Apostle Episcopal Church",
-        "address": "760 W FM 120",
-        "city": "Pottsboro",
-        "zip": "75076",
-        "room": "main doors",
-        "notes": ""
-      },
-      {
-        "name": "Sadler Baptist Church",
-        "address": "419 S. Main St.",
-        "city": "Sadler",
-        "zip": "76264",
-        "room": "Fellowship Hall",
-        "notes": ""
-      },
-      {
-        "name": "Election Administration",
-        "address": "115 W. Houston St.",
-        "city": "Sherman",
-        "zip": "75090",
-        "room": "east and west doors",
-        "notes": ""
-      },
-      {
-        "name": "United Way of Grayson County",
-        "address": "713 E. Brockett St.",
-        "city": "Sherman",
-        "zip": "75090",
-        "room": "main doors",
-        "notes": ""
-      },
-      {
-        "name": "Faith Church",
-        "address": "1800 N. FM 1417",
-        "city": "Sherman",
-        "zip": "75092",
-        "room": "west doors",
-        "notes": ""
-      },
-      {
-        "name": "Tioga Fire Department",
-        "address": "601 Main St.",
-        "city": "Tioga",
-        "zip": "76271",
-        "room": "Meeting Rm",
-        "notes": ""
-      },
-      {
-        "name": "Municipal Building",
-        "address": "405 N. Rusk St.",
-        "city": "Sherman",
-        "zip": "75090",
-        "room": "Ballroom",
-        "notes": ""
-      },
-      {
-        "name": "Luella First Baptist",
-        "address": "3162 Hwy 11",
-        "city": "Sherman",
-        "zip": "75090",
-        "room": "main door",
-        "notes": ""
-      },
-      {
-        "name": "Progressive Baptist Church",
-        "address": "1101 E. Houston St.",
-        "city": "Sherman",
-        "zip": "75090",
-        "room": "Fellowship Hall",
-        "notes": ""
-      },
-      {
-        "name": "Texoma Council of Governments",
-        "address": "1117 Gallagher Dr.",
-        "city": "Sherman",
-        "zip": "75090",
-        "room": "Eisenhower Room",
-        "notes": ""
-      },
-      {
-        "name": "Tom Bean First National Bank",
-        "address": "109 S. Britton St.",
-        "city": "Tom Bean",
-        "zip": "75489",
-        "room": "Edwards Room",
-        "notes": ""
-      },
-      {
-        "name": "Grayson College South Campus",
-        "address": "1455 W. Van Alstyne Pkwy",
-        "city": "Van Alstyne",
-        "zip": "75495",
-        "room": "Library Room 119",
-        "notes": ""
-      },
-      {
-        "name": "Whitesboro City Hall",
-        "address": "111 W. Main St.",
-        "city": "Whitesboro",
-        "zip": "76273",
-        "room": "Council Chambers",
-        "notes": ""
-      },
-      {
-        "name": "Whitewright Church of Christ",
-        "address": "606 S. Carter St.",
-        "city": "Whitewright",
-        "zip": "75491",
-        "room": "Fellowship Hall",
-        "notes": ""
-      }
-    ]
-  },
-  "notes": "Grayson County voters may vote at any listed early voting location and at any Election Day vote center. For some sites the county names the entrance to use instead of a room."
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-20",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-21",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-22",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-23",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-24",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-25",
+    "open": "11:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-26",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-27",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-28",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-29",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-30",
+    "open": "07:00",
+    "close": "19:00"
+   }
+  ],
+  "sites": [
+   {
+    "name": "Bells Church of Christ",
+    "address": "301 Garland St.",
+    "city": "Bells",
+    "zip": "75414",
+    "room": "Fellowship Bldg.",
+    "schedule": null,
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Grayson County Sub-Courthouse",
+    "address": "101 W. Woodard",
+    "city": "Denison",
+    "zip": "75021",
+    "room": "JP courtroom",
+    "schedule": null,
+    "notes": "",
+    "lat": 33.756325,
+    "lng": -96.535318
+   },
+   {
+    "name": "Grayson College Main Campus",
+    "address": "6101 Grayson Dr.",
+    "city": "Denison",
+    "zip": "75020",
+    "room": "SAB training room",
+    "schedule": null,
+    "notes": "",
+    "lat": 33.705241,
+    "lng": -96.636172
+   },
+   {
+    "name": "St. John the Apostle Episcopal Church",
+    "address": "760 W. FM 120",
+    "city": "Pottsboro",
+    "zip": "75076",
+    "room": "main door",
+    "schedule": null,
+    "notes": "",
+    "lat": 33.762193,
+    "lng": -96.653242
+   },
+   {
+    "name": "Election Administration",
+    "address": "115 W. Houston St.",
+    "city": "Sherman",
+    "zip": "75090",
+    "room": "",
+    "schedule": null,
+    "notes": "Main voting location",
+    "lat": 33.63656,
+    "lng": -96.60953
+   },
+   {
+    "name": "Howe Police Department",
+    "address": "700 W. Haning St.",
+    "city": "Howe",
+    "zip": "75459",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 33.507166,
+    "lng": -96.620852
+   },
+   {
+    "name": "Grayson College South Campus",
+    "address": "1455 W. Van Alstyne Pkwy",
+    "city": "Van Alstyne",
+    "zip": "75495",
+    "room": "Library room 119",
+    "schedule": null,
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Whitesboro City Hall",
+    "address": "111 W. Main St.",
+    "city": "Whitesboro",
+    "zip": "76273",
+    "room": "Council chambers",
+    "schedule": null,
+    "notes": "",
+    "lat": 33.655861,
+    "lng": -96.90701
+   }
+  ]
+ },
+ "election_day": {
+  "open": "07:00",
+  "close": "19:00",
+  "sites": [
+   {
+    "name": "Bells Church of Christ",
+    "address": "301 Garland St.",
+    "city": "Bells",
+    "zip": "75414",
+    "room": "Fellowship Bldg.",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Collinsville Community Center",
+    "address": "111 N. Main St.",
+    "city": "Collinsville",
+    "zip": "76233",
+    "room": "main doors",
+    "notes": "",
+    "lat": 33.56033,
+    "lng": -96.911217
+   },
+   {
+    "name": "Grayson County Sub-Courthouse",
+    "address": "101 W. Woodard",
+    "city": "Denison",
+    "zip": "75021",
+    "room": "JP Courtroom",
+    "notes": "",
+    "lat": 33.756325,
+    "lng": -96.535318
+   },
+   {
+    "name": "Parkside Baptist Church",
+    "address": "301 N. Lillis Ln.",
+    "city": "Denison",
+    "zip": "75020",
+    "room": "south entrance",
+    "notes": "",
+    "lat": 33.758618,
+    "lng": -96.581158
+   },
+   {
+    "name": "Mt. Olive Baptist Church",
+    "address": "920 W Texas St.",
+    "city": "Denison",
+    "zip": "75020",
+    "room": "Gymnasium",
+    "notes": "",
+    "lat": 33.745461,
+    "lng": -96.54856
+   },
+   {
+    "name": "Southside Baptist Church",
+    "address": "3500 S. Park Ave",
+    "city": "Denison",
+    "zip": "75020",
+    "room": "main hall",
+    "notes": "",
+    "lat": 33.722361,
+    "lng": -96.569133
+   },
+   {
+    "name": "Grayson College",
+    "address": "6101 Grayson Dr.",
+    "city": "Denison",
+    "zip": "75020",
+    "room": "SAB training room",
+    "notes": "",
+    "lat": 33.705241,
+    "lng": -96.636172
+   },
+   {
+    "name": "Gordonville Baptist Church",
+    "address": "187 Gordonville Rd.",
+    "city": "Gordonville",
+    "zip": "76245",
+    "room": "Educational Bldg. east doors",
+    "notes": "",
+    "lat": 33.798205,
+    "lng": -96.853544
+   },
+   {
+    "name": "Gunter First Baptist Church",
+    "address": "99 Gentle Creek Ln",
+    "city": "Gunter",
+    "zip": "75058",
+    "room": "Foyer",
+    "notes": "",
+    "lat": 33.473989,
+    "lng": -96.736093
+   },
+   {
+    "name": "Howe Police Department",
+    "address": "700 W. Haning St.",
+    "city": "Howe",
+    "zip": "75459",
+    "room": "main doors",
+    "notes": "",
+    "lat": 33.507166,
+    "lng": -96.620852
+   },
+   {
+    "name": "St. John the Apostle Episcopal Church",
+    "address": "760 W FM 120",
+    "city": "Pottsboro",
+    "zip": "75076",
+    "room": "main doors",
+    "notes": "",
+    "lat": 33.762193,
+    "lng": -96.653242
+   },
+   {
+    "name": "Sadler Baptist Church",
+    "address": "419 S. Main St.",
+    "city": "Sadler",
+    "zip": "76264",
+    "room": "Fellowship Hall",
+    "notes": "",
+    "lat": 33.677823,
+    "lng": -96.847004
+   },
+   {
+    "name": "Election Administration",
+    "address": "115 W. Houston St.",
+    "city": "Sherman",
+    "zip": "75090",
+    "room": "east and west doors",
+    "notes": "",
+    "lat": 33.63656,
+    "lng": -96.60953
+   },
+   {
+    "name": "United Way of Grayson County",
+    "address": "713 E. Brockett St.",
+    "city": "Sherman",
+    "zip": "75090",
+    "room": "main doors",
+    "notes": "",
+    "lat": 33.644069,
+    "lng": -96.603144
+   },
+   {
+    "name": "Faith Church",
+    "address": "1800 N. FM 1417",
+    "city": "Sherman",
+    "zip": "75092",
+    "room": "west doors",
+    "notes": "",
+    "lat": 33.651337,
+    "lng": -96.642008
+   },
+   {
+    "name": "Tioga Fire Department",
+    "address": "601 Main St.",
+    "city": "Tioga",
+    "zip": "76271",
+    "room": "Meeting Rm",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Municipal Building",
+    "address": "405 N. Rusk St.",
+    "city": "Sherman",
+    "zip": "75090",
+    "room": "Ballroom",
+    "notes": "",
+    "lat": 33.639409,
+    "lng": -96.614394
+   },
+   {
+    "name": "Luella First Baptist",
+    "address": "3162 Hwy 11",
+    "city": "Sherman",
+    "zip": "75090",
+    "room": "main door",
+    "notes": "",
+    "lat": 33.570941,
+    "lng": -96.549231
+   },
+   {
+    "name": "Progressive Baptist Church",
+    "address": "1101 E. Houston St.",
+    "city": "Sherman",
+    "zip": "75090",
+    "room": "Fellowship Hall",
+    "notes": "",
+    "lat": 33.639162,
+    "lng": -96.59709
+   },
+   {
+    "name": "Texoma Council of Governments",
+    "address": "1117 Gallagher Dr.",
+    "city": "Sherman",
+    "zip": "75090",
+    "room": "Eisenhower Room",
+    "notes": "",
+    "lat": 33.672876,
+    "lng": -96.603175
+   },
+   {
+    "name": "Tom Bean First National Bank",
+    "address": "109 S. Britton St.",
+    "city": "Tom Bean",
+    "zip": "75489",
+    "room": "Edwards Room",
+    "notes": "",
+    "lat": 33.521163,
+    "lng": -96.484401
+   },
+   {
+    "name": "Grayson College South Campus",
+    "address": "1455 W. Van Alstyne Pkwy",
+    "city": "Van Alstyne",
+    "zip": "75495",
+    "room": "Library Room 119",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Whitesboro City Hall",
+    "address": "111 W. Main St.",
+    "city": "Whitesboro",
+    "zip": "76273",
+    "room": "Council Chambers",
+    "notes": "",
+    "lat": 33.655861,
+    "lng": -96.90701
+   },
+   {
+    "name": "Whitewright Church of Christ",
+    "address": "606 S. Carter St.",
+    "city": "Whitewright",
+    "zip": "75491",
+    "room": "Fellowship Hall",
+    "notes": "",
+    "lat": 33.506802,
+    "lng": -96.400379
+   }
+  ]
+ },
+ "notes": "Grayson County voters may vote at any listed early voting location and at any Election Day vote center. For some sites the county names the entrance to use instead of a room."
 }

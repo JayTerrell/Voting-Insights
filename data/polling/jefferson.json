@@ -1,445 +1,529 @@
 {
-  "county": "Jefferson",
-  "model": "countywide",
-  "checked_at": "2026-10-19T02:13:07Z",
-  "sources": [
-    {
-      "title": "Jefferson County Elections: Election Polling Locations and Times",
-      "url": "https://www.jeffcotxvotes.gov/elections/elections-dept/election-polling-locations/"
-    },
-    {
-      "title": "Jefferson County Early Voting Polling Places, November 2026 (PDF)",
-      "url": "https://www.jeffcotxvotes.gov/wp-content/uploads/2026/08/EVPollingLocationsNewFormat2NOV2026-1.pdf"
-    },
-    {
-      "title": "Jefferson County Election Day Polling Places, November 3, 2026 (PDF)",
-      "url": "https://www.jeffcotxvotes.gov/wp-content/uploads/2026/08/EDPollingLocationsNOV202631-1.pdf"
-    },
-    {
-      "title": "Jefferson County Interactive Polling Location Map",
-      "url": "https://jeffco.maps.arcgis.com/apps/webappviewer/index.html?id=3af399920c3343d39e272266fee2d49e"
-    }
-  ],
-  "lookup_url": "https://jeffco.maps.arcgis.com/apps/webappviewer/index.html?id=3af399920c3343d39e272266fee2d49e",
-  "wait_times_url": null,
-  "early_voting": {
-    "schedule": [
-      {
-        "date": "2026-10-19",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
-        "date": "2026-10-20",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
-        "date": "2026-10-21",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
-        "date": "2026-10-22",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
-        "date": "2026-10-23",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
-        "date": "2026-10-24",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-25",
-        "open": "12:00",
-        "close": "18:00"
-      },
-      {
-        "date": "2026-10-26",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-27",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-28",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-29",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-30",
-        "open": "07:00",
-        "close": "19:00"
-      }
-    ],
-    "sites": [
-      {
-        "name": "Precinct 1 Service Center",
-        "address": "20205 W. Hwy 90",
-        "city": "China",
-        "zip": "77613",
-        "room": "Front Conference Room",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Rogers Park Community Center",
-        "address": "6540 Gladys Ave",
-        "city": "Beaumont",
-        "zip": "77706",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Hebert Library",
-        "address": "2025 Merriman St",
-        "city": "Port Neches",
-        "zip": "77651",
-        "room": "Community Room",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Ray Chesson Office Building",
-        "address": "19217 FM 365",
-        "city": "Beaumont",
-        "zip": "77705",
-        "room": "Courtroom",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Marion & Ed Hughes Public Library",
-        "address": "2712 Nederland Ave",
-        "city": "Nederland",
-        "zip": "77627",
-        "room": "Meeting Room",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Groves Activity Building",
-        "address": "6150 39th Street",
-        "city": "Groves",
-        "zip": "77619",
-        "room": "Lounge",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Jefferson County Sub-Courthouse",
-        "address": "525 Lakeshore Dr",
-        "city": "Port Arthur",
-        "zip": "77640",
-        "room": "Foyer",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Port Arthur Library",
-        "address": "4615 9th Avenue",
-        "city": "Port Arthur",
-        "zip": "77642",
-        "room": "Lucy Stiefel Gallery",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Jefferson County Courthouse",
-        "address": "1085 Pearl St",
-        "city": "Beaumont",
-        "zip": "77701",
-        "room": "Lobby",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "John Paul Davis Community Center",
-        "address": "3580 E. Lucas Dr",
-        "city": "Beaumont",
-        "zip": "77703",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Theodore Johns Library",
-        "address": "4255 Fannett Rd",
-        "city": "Beaumont",
-        "zip": "77705",
-        "room": "Meeting Room",
-        "schedule": null,
-        "notes": ""
-      }
-    ]
+ "county": "Jefferson",
+ "model": "countywide",
+ "checked_at": "2026-10-19T02:13:07Z",
+ "sources": [
+  {
+   "title": "Jefferson County Elections: Election Polling Locations and Times",
+   "url": "https://www.jeffcotxvotes.gov/elections/elections-dept/election-polling-locations/"
   },
-  "election_day": {
+  {
+   "title": "Jefferson County Early Voting Polling Places, November 2026 (PDF)",
+   "url": "https://www.jeffcotxvotes.gov/wp-content/uploads/2026/08/EVPollingLocationsNewFormat2NOV2026-1.pdf"
+  },
+  {
+   "title": "Jefferson County Election Day Polling Places, November 3, 2026 (PDF)",
+   "url": "https://www.jeffcotxvotes.gov/wp-content/uploads/2026/08/EDPollingLocationsNOV202631-1.pdf"
+  },
+  {
+   "title": "Jefferson County Interactive Polling Location Map",
+   "url": "https://jeffco.maps.arcgis.com/apps/webappviewer/index.html?id=3af399920c3343d39e272266fee2d49e"
+  }
+ ],
+ "lookup_url": "https://jeffco.maps.arcgis.com/apps/webappviewer/index.html?id=3af399920c3343d39e272266fee2d49e",
+ "wait_times_url": null,
+ "early_voting": {
+  "schedule": [
+   {
+    "date": "2026-10-19",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-20",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-21",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-22",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-23",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-24",
     "open": "07:00",
-    "close": "19:00",
-    "sites": [
-      {
-        "name": "Amelia Elementary School",
-        "address": "565 S. Major Dr",
-        "city": "Beaumont",
-        "zip": "77707",
-        "room": "Gymnasium",
-        "notes": ""
-      },
-      {
-        "name": "BISD Administration Building",
-        "address": "3395 Harrison Ave",
-        "city": "Beaumont",
-        "zip": "77706",
-        "room": "Boardroom",
-        "notes": ""
-      },
-      {
-        "name": "Precinct 1 Service Center",
-        "address": "20205 W. Hwy 90",
-        "city": "China",
-        "zip": "77613",
-        "room": "Front Conference Room",
-        "notes": ""
-      },
-      {
-        "name": "Rogers Park Community Center",
-        "address": "6540 Gladys Ave",
-        "city": "Beaumont",
-        "zip": "77706",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "RC Miller Library",
-        "address": "1605 Dowlen Road",
-        "city": "Beaumont",
-        "zip": "77706",
-        "room": "Meeting Room",
-        "notes": ""
-      },
-      {
-        "name": "Caldwood Elementary",
-        "address": "102 Berkshire Lane",
-        "city": "Beaumont",
-        "zip": "77707",
-        "room": "Gymnasium",
-        "notes": ""
-      },
-      {
-        "name": "Bevil Oaks Civic Center",
-        "address": "7390 Sweetgum Road",
-        "city": "Bevil Oaks",
-        "zip": "77713",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Hebert Library",
-        "address": "2025 Merriman St",
-        "city": "Port Neches",
-        "zip": "77651",
-        "room": "Community Room",
-        "notes": ""
-      },
-      {
-        "name": "Jefferson County WCID 10 Fire Station",
-        "address": "2024 Spurlock Rd.",
-        "city": "Nederland",
-        "zip": "77627",
-        "room": "Front Lobby",
-        "notes": ""
-      },
-      {
-        "name": "Nederland Recreation Center",
-        "address": "2301 Avenue H",
-        "city": "Nederland",
-        "zip": "77627",
-        "room": "Meeting Room",
-        "notes": ""
-      },
-      {
-        "name": "Ray Chesson Office Building",
-        "address": "19217 FM 365",
-        "city": "Beaumont",
-        "zip": "77705",
-        "room": "Courtroom",
-        "notes": ""
-      },
-      {
-        "name": "Jefferson County ESD #4",
-        "address": "12880 FM 365",
-        "city": "Beaumont",
-        "zip": "77705",
-        "room": "Main Meeting Room",
-        "notes": ""
-      },
-      {
-        "name": "Marion & Ed Hughes Public Library",
-        "address": "2712 Nederland Ave",
-        "city": "Nederland",
-        "zip": "77627",
-        "room": "Meeting Room",
-        "notes": ""
-      },
-      {
-        "name": "Groves Activity Building",
-        "address": "6150 39th Street",
-        "city": "Groves",
-        "zip": "77619",
-        "room": "Lounge",
-        "notes": ""
-      },
-      {
-        "name": "Hamshire VFD and Community Center",
-        "address": "12318 2nd St",
-        "city": "Hamshire",
-        "zip": "77622",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "DeQueen Elementary",
-        "address": "740 DeQueen Blvd",
-        "city": "Port Arthur",
-        "zip": "77640",
-        "room": "Fifth Grade Hall",
-        "notes": ""
-      },
-      {
-        "name": "Jefferson County Sub-Courthouse",
-        "address": "525 Lakeshore Dr",
-        "city": "Port Arthur",
-        "zip": "77640",
-        "room": "Foyer",
-        "notes": ""
-      },
-      {
-        "name": "El Vista Community Center",
-        "address": "615 Ellias Street",
-        "city": "Port Arthur",
-        "zip": "77640",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Port Acres Elementary",
-        "address": "5900 Jade Ave",
-        "city": "Port Arthur",
-        "zip": "77640",
-        "room": "Main Hallway",
-        "notes": ""
-      },
-      {
-        "name": "Port Arthur Library",
-        "address": "4615 9th Avenue",
-        "city": "Port Arthur",
-        "zip": "77642",
-        "room": "Lucy Stiefel Gallery",
-        "notes": ""
-      },
-      {
-        "name": "R.L. Gabby Eldridge Center",
-        "address": "5262 S. Gulfway Dr",
-        "city": "Sabine Pass",
-        "zip": "77655",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Travis Elementary",
-        "address": "1115 Lakeview Ave",
-        "city": "Port Arthur",
-        "zip": "77642",
-        "room": "Library",
-        "notes": ""
-      },
-      {
-        "name": "Alice Keith Park Recreation Center",
-        "address": "4075 Highland Ave",
-        "city": "Beaumont",
-        "zip": "77705",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Charlton-Pollard Elementary",
-        "address": "825 Jackson St",
-        "city": "Beaumont",
-        "zip": "77701",
-        "room": "Gymnasium",
-        "notes": ""
-      },
-      {
-        "name": "Lamar University Montagne Center",
-        "address": "4401 S. MLK Pkwy",
-        "city": "Beaumont",
-        "zip": "77705",
-        "room": "Cardinal Club Room",
-        "notes": ""
-      },
-      {
-        "name": "Jefferson County Courthouse",
-        "address": "1085 Pearl St",
-        "city": "Beaumont",
-        "zip": "77701",
-        "room": "Lobby",
-        "notes": "Main polling location."
-      },
-      {
-        "name": "John Paul Davis Community Center",
-        "address": "3580 E. Lucas Dr",
-        "city": "Beaumont",
-        "zip": "77703",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Precinct 4 Service Center",
-        "address": "7780 Boyt Rd",
-        "city": "Beaumont",
-        "zip": "77713",
-        "room": "Conference Room",
-        "notes": ""
-      },
-      {
-        "name": "Roy Guess Elementary",
-        "address": "8055 Voth Rd.",
-        "city": "Beaumont",
-        "zip": "77708",
-        "room": "Hallway near Gymnasium",
-        "notes": ""
-      },
-      {
-        "name": "Sterling Pruitt Center",
-        "address": "2930 Gulf St",
-        "city": "Beaumont",
-        "zip": "77703",
-        "room": "Multi-purpose Room",
-        "notes": ""
-      },
-      {
-        "name": "Theodore Johns Library",
-        "address": "4255 Fannett Rd",
-        "city": "Beaumont",
-        "zip": "77705",
-        "room": "Meeting Room",
-        "notes": ""
-      }
-    ]
-  },
-  "notes": "Jefferson County uses countywide polling, so voters from any precinct may vote at any vote center during early voting and on Election Day."
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-25",
+    "open": "12:00",
+    "close": "18:00"
+   },
+   {
+    "date": "2026-10-26",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-27",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-28",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-29",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-30",
+    "open": "07:00",
+    "close": "19:00"
+   }
+  ],
+  "sites": [
+   {
+    "name": "Precinct 1 Service Center",
+    "address": "20205 W. Hwy 90",
+    "city": "China",
+    "zip": "77613",
+    "room": "Front Conference Room",
+    "schedule": null,
+    "notes": "",
+    "lat": 30.044743,
+    "lng": -94.354137
+   },
+   {
+    "name": "Rogers Park Community Center",
+    "address": "6540 Gladys Ave",
+    "city": "Beaumont",
+    "zip": "77706",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 30.091412,
+    "lng": -94.174246
+   },
+   {
+    "name": "Hebert Library",
+    "address": "2025 Merriman St",
+    "city": "Port Neches",
+    "zip": "77651",
+    "room": "Community Room",
+    "schedule": null,
+    "notes": "",
+    "lat": 29.981928,
+    "lng": -93.955172
+   },
+   {
+    "name": "Ray Chesson Office Building",
+    "address": "19217 FM 365",
+    "city": "Beaumont",
+    "zip": "77705",
+    "room": "Courtroom",
+    "schedule": null,
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Marion & Ed Hughes Public Library",
+    "address": "2712 Nederland Ave",
+    "city": "Nederland",
+    "zip": "77627",
+    "room": "Meeting Room",
+    "schedule": null,
+    "notes": "",
+    "lat": 29.963262,
+    "lng": -93.999986
+   },
+   {
+    "name": "Groves Activity Building",
+    "address": "6150 39th Street",
+    "city": "Groves",
+    "zip": "77619",
+    "room": "Lounge",
+    "schedule": null,
+    "notes": "",
+    "lat": 29.945855,
+    "lng": -93.919368
+   },
+   {
+    "name": "Jefferson County Sub-Courthouse",
+    "address": "525 Lakeshore Dr",
+    "city": "Port Arthur",
+    "zip": "77640",
+    "room": "Foyer",
+    "schedule": null,
+    "notes": "",
+    "lat": 29.870202,
+    "lng": -93.932417
+   },
+   {
+    "name": "Port Arthur Library",
+    "address": "4615 9th Avenue",
+    "city": "Port Arthur",
+    "zip": "77642",
+    "room": "Lucy Stiefel Gallery",
+    "schedule": null,
+    "notes": "",
+    "lat": 29.926683,
+    "lng": -93.947191
+   },
+   {
+    "name": "Jefferson County Courthouse",
+    "address": "1085 Pearl St",
+    "city": "Beaumont",
+    "zip": "77701",
+    "room": "Lobby",
+    "schedule": null,
+    "notes": "",
+    "lat": 30.079002,
+    "lng": -94.093835
+   },
+   {
+    "name": "John Paul Davis Community Center",
+    "address": "3580 E. Lucas Dr",
+    "city": "Beaumont",
+    "zip": "77703",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 30.124484,
+    "lng": -94.137635
+   },
+   {
+    "name": "Theodore Johns Library",
+    "address": "4255 Fannett Rd",
+    "city": "Beaumont",
+    "zip": "77705",
+    "room": "Meeting Room",
+    "schedule": null,
+    "notes": "",
+    "lat": 30.045988,
+    "lng": -94.127985
+   }
+  ]
+ },
+ "election_day": {
+  "open": "07:00",
+  "close": "19:00",
+  "sites": [
+   {
+    "name": "Amelia Elementary School",
+    "address": "565 S. Major Dr",
+    "city": "Beaumont",
+    "zip": "77707",
+    "room": "Gymnasium",
+    "notes": "",
+    "lat": 30.070204,
+    "lng": -94.189629
+   },
+   {
+    "name": "BISD Administration Building",
+    "address": "3395 Harrison Ave",
+    "city": "Beaumont",
+    "zip": "77706",
+    "room": "Boardroom",
+    "notes": "",
+    "lat": 30.089388,
+    "lng": -94.137951
+   },
+   {
+    "name": "Precinct 1 Service Center",
+    "address": "20205 W. Hwy 90",
+    "city": "China",
+    "zip": "77613",
+    "room": "Front Conference Room",
+    "notes": "",
+    "lat": 30.044743,
+    "lng": -94.354137
+   },
+   {
+    "name": "Rogers Park Community Center",
+    "address": "6540 Gladys Ave",
+    "city": "Beaumont",
+    "zip": "77706",
+    "room": "",
+    "notes": "",
+    "lat": 30.091412,
+    "lng": -94.174246
+   },
+   {
+    "name": "RC Miller Library",
+    "address": "1605 Dowlen Road",
+    "city": "Beaumont",
+    "zip": "77706",
+    "room": "Meeting Room",
+    "notes": "",
+    "lat": 30.091539,
+    "lng": -94.171505
+   },
+   {
+    "name": "Caldwood Elementary",
+    "address": "102 Berkshire Lane",
+    "city": "Beaumont",
+    "zip": "77707",
+    "room": "Gymnasium",
+    "notes": "",
+    "lat": 30.078927,
+    "lng": -94.152895
+   },
+   {
+    "name": "Bevil Oaks Civic Center",
+    "address": "7390 Sweetgum Road",
+    "city": "Bevil Oaks",
+    "zip": "77713",
+    "room": "",
+    "notes": "",
+    "lat": 30.146078,
+    "lng": -94.269236
+   },
+   {
+    "name": "Hebert Library",
+    "address": "2025 Merriman St",
+    "city": "Port Neches",
+    "zip": "77651",
+    "room": "Community Room",
+    "notes": "",
+    "lat": 29.981928,
+    "lng": -93.955172
+   },
+   {
+    "name": "Jefferson County WCID 10 Fire Station",
+    "address": "2024 Spurlock Rd.",
+    "city": "Nederland",
+    "zip": "77627",
+    "room": "Front Lobby",
+    "notes": "",
+    "lat": 29.982368,
+    "lng": -94.014375
+   },
+   {
+    "name": "Nederland Recreation Center",
+    "address": "2301 Avenue H",
+    "city": "Nederland",
+    "zip": "77627",
+    "room": "Meeting Room",
+    "notes": "",
+    "lat": 29.962299,
+    "lng": -93.989957
+   },
+   {
+    "name": "Ray Chesson Office Building",
+    "address": "19217 FM 365",
+    "city": "Beaumont",
+    "zip": "77705",
+    "room": "Courtroom",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Jefferson County ESD #4",
+    "address": "12880 FM 365",
+    "city": "Beaumont",
+    "zip": "77705",
+    "room": "Main Meeting Room",
+    "notes": "",
+    "lat": 29.919369,
+    "lng": -94.162378
+   },
+   {
+    "name": "Marion & Ed Hughes Public Library",
+    "address": "2712 Nederland Ave",
+    "city": "Nederland",
+    "zip": "77627",
+    "room": "Meeting Room",
+    "notes": "",
+    "lat": 29.963262,
+    "lng": -93.999986
+   },
+   {
+    "name": "Groves Activity Building",
+    "address": "6150 39th Street",
+    "city": "Groves",
+    "zip": "77619",
+    "room": "Lounge",
+    "notes": "",
+    "lat": 29.945855,
+    "lng": -93.919368
+   },
+   {
+    "name": "Hamshire VFD and Community Center",
+    "address": "12318 2nd St",
+    "city": "Hamshire",
+    "zip": "77622",
+    "room": "",
+    "notes": "",
+    "lat": 29.862181,
+    "lng": -94.309574
+   },
+   {
+    "name": "DeQueen Elementary",
+    "address": "740 DeQueen Blvd",
+    "city": "Port Arthur",
+    "zip": "77640",
+    "room": "Fifth Grade Hall",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Jefferson County Sub-Courthouse",
+    "address": "525 Lakeshore Dr",
+    "city": "Port Arthur",
+    "zip": "77640",
+    "room": "Foyer",
+    "notes": "",
+    "lat": 29.870202,
+    "lng": -93.932417
+   },
+   {
+    "name": "El Vista Community Center",
+    "address": "615 Ellias Street",
+    "city": "Port Arthur",
+    "zip": "77640",
+    "room": "",
+    "notes": "",
+    "lat": 29.897301,
+    "lng": -93.989169
+   },
+   {
+    "name": "Port Acres Elementary",
+    "address": "5900 Jade Ave",
+    "city": "Port Arthur",
+    "zip": "77640",
+    "room": "Main Hallway",
+    "notes": "",
+    "lat": 29.890933,
+    "lng": -94.031746
+   },
+   {
+    "name": "Port Arthur Library",
+    "address": "4615 9th Avenue",
+    "city": "Port Arthur",
+    "zip": "77642",
+    "room": "Lucy Stiefel Gallery",
+    "notes": "",
+    "lat": 29.926683,
+    "lng": -93.947191
+   },
+   {
+    "name": "R.L. Gabby Eldridge Center",
+    "address": "5262 S. Gulfway Dr",
+    "city": "Sabine Pass",
+    "zip": "77655",
+    "room": "",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Travis Elementary",
+    "address": "1115 Lakeview Ave",
+    "city": "Port Arthur",
+    "zip": "77642",
+    "room": "Library",
+    "notes": "",
+    "lat": 29.918265,
+    "lng": -93.902969
+   },
+   {
+    "name": "Alice Keith Park Recreation Center",
+    "address": "4075 Highland Ave",
+    "city": "Beaumont",
+    "zip": "77705",
+    "room": "",
+    "notes": "",
+    "lat": 30.047555,
+    "lng": -94.085379
+   },
+   {
+    "name": "Charlton-Pollard Elementary",
+    "address": "825 Jackson St",
+    "city": "Beaumont",
+    "zip": "77701",
+    "room": "Gymnasium",
+    "notes": "",
+    "lat": 30.070329,
+    "lng": -94.086551
+   },
+   {
+    "name": "Lamar University Montagne Center",
+    "address": "4401 S. MLK Pkwy",
+    "city": "Beaumont",
+    "zip": "77705",
+    "room": "Cardinal Club Room",
+    "notes": "",
+    "lat": 30.046833,
+    "lng": -94.074786
+   },
+   {
+    "name": "Jefferson County Courthouse",
+    "address": "1085 Pearl St",
+    "city": "Beaumont",
+    "zip": "77701",
+    "room": "Lobby",
+    "notes": "Main polling location.",
+    "lat": 30.079002,
+    "lng": -94.093835
+   },
+   {
+    "name": "John Paul Davis Community Center",
+    "address": "3580 E. Lucas Dr",
+    "city": "Beaumont",
+    "zip": "77703",
+    "room": "",
+    "notes": "",
+    "lat": 30.124484,
+    "lng": -94.137635
+   },
+   {
+    "name": "Precinct 4 Service Center",
+    "address": "7780 Boyt Rd",
+    "city": "Beaumont",
+    "zip": "77713",
+    "room": "Conference Room",
+    "notes": "",
+    "lat": 29.990817,
+    "lng": -94.242683
+   },
+   {
+    "name": "Roy Guess Elementary",
+    "address": "8055 Voth Rd.",
+    "city": "Beaumont",
+    "zip": "77708",
+    "room": "Hallway near Gymnasium",
+    "notes": "",
+    "lat": 30.146401,
+    "lng": -94.180606
+   },
+   {
+    "name": "Sterling Pruitt Center",
+    "address": "2930 Gulf St",
+    "city": "Beaumont",
+    "zip": "77703",
+    "room": "Multi-purpose Room",
+    "notes": "",
+    "lat": 30.106596,
+    "lng": -94.112345
+   },
+   {
+    "name": "Theodore Johns Library",
+    "address": "4255 Fannett Rd",
+    "city": "Beaumont",
+    "zip": "77705",
+    "room": "Meeting Room",
+    "notes": "",
+    "lat": 30.045988,
+    "lng": -94.127985
+   }
+  ]
+ },
+ "notes": "Jefferson County uses countywide polling, so voters from any precinct may vote at any vote center during early voting and on Election Day."
 }

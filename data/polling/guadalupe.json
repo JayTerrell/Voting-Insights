@@ -1,444 +1,530 @@
 {
-  "county": "Guadalupe",
-  "model": "countywide",
-  "checked_at": "2026-10-19T02:16:00Z",
-  "sources": [
-    {
-      "title": "Guadalupe County Elections: November 3, 2026 General & Special Elections",
-      "url": "https://www.guadalupetx.gov/page/elections.election1"
-    },
-    {
-      "title": "Early Voting Schedule and Locations (PDF, revised 9/15/2026)",
-      "url": "https://www.guadalupetx.gov/upload/page/0349/docs/110326/EV%20Schedule%20and%20Locations%20Nov2026%20rev.pdf"
-    },
-    {
-      "title": "Election Day Vote Center Locations (PDF, revised 9/15/2026)",
-      "url": "https://www.guadalupetx.gov/upload/page/0349/docs/110326/Election%20Day%20Vote%20Center%20Locations%20-%20November%203%202026%20updated%2007.26.2026%20rev.pdf"
-    }
-  ],
-  "lookup_url": "http://web.guadalupetx.gov/lookup/lookupform.php",
-  "wait_times_url": null,
-  "early_voting": {
-    "schedule": [
-      {
-        "date": "2026-10-19",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
-        "date": "2026-10-20",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
-        "date": "2026-10-21",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
-        "date": "2026-10-22",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
-        "date": "2026-10-23",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
-        "date": "2026-10-24",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-25",
-        "open": "12:00",
-        "close": "18:00"
-      },
-      {
-        "date": "2026-10-26",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-27",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-28",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-29",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-30",
-        "open": "07:00",
-        "close": "19:00"
-      }
-    ],
-    "sites": [
-      {
-        "name": "Elections Office",
-        "address": "3251 N. State Hwy 123",
-        "city": "Seguin",
-        "zip": "78155",
-        "room": "",
-        "schedule": null,
-        "notes": "Main early voting location. Emergency and limited ballots are available only here."
-      },
-      {
-        "name": "Cibolo Fire Station #2",
-        "address": "3864 Cibolo Valley Dr.",
-        "city": "Cibolo",
-        "zip": "",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Redemptive Grace Ministries",
-        "address": "2240 FM 725",
-        "city": "New Braunfels",
-        "zip": "",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "New Berlin Community Center",
-        "address": "8815 FM 775",
-        "city": "New Berlin",
-        "zip": "",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Elections Office Annex",
-        "address": "1101 Elbel",
-        "city": "Schertz",
-        "zip": "",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Seguin ISD Adm. Bldg.",
-        "address": "1221 E Kingsbury St.",
-        "city": "Seguin",
-        "zip": "",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      }
-    ]
+ "county": "Guadalupe",
+ "model": "countywide",
+ "checked_at": "2026-10-19T02:16:00Z",
+ "sources": [
+  {
+   "title": "Guadalupe County Elections: November 3, 2026 General & Special Elections",
+   "url": "https://www.guadalupetx.gov/page/elections.election1"
   },
-  "election_day": {
+  {
+   "title": "Early Voting Schedule and Locations (PDF, revised 9/15/2026)",
+   "url": "https://www.guadalupetx.gov/upload/page/0349/docs/110326/EV%20Schedule%20and%20Locations%20Nov2026%20rev.pdf"
+  },
+  {
+   "title": "Election Day Vote Center Locations (PDF, revised 9/15/2026)",
+   "url": "https://www.guadalupetx.gov/upload/page/0349/docs/110326/Election%20Day%20Vote%20Center%20Locations%20-%20November%203%202026%20updated%2007.26.2026%20rev.pdf"
+  }
+ ],
+ "lookup_url": "http://web.guadalupetx.gov/lookup/lookupform.php",
+ "wait_times_url": null,
+ "early_voting": {
+  "schedule": [
+   {
+    "date": "2026-10-19",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-20",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-21",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-22",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-23",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-24",
     "open": "07:00",
-    "close": "19:00",
-    "sites": [
-      {
-        "name": "McQueeney Lions Club",
-        "address": "3211 FM 78",
-        "city": "McQueeney",
-        "zip": "",
-        "room": "",
-        "notes": "Vote Center #1"
-      },
-      {
-        "name": "New Life Fellowship",
-        "address": "16489 Texas Hwy 123",
-        "city": "Seguin",
-        "zip": "",
-        "room": "",
-        "notes": "Vote Center #2"
-      },
-      {
-        "name": "Seguin ISD Admin Bldg.",
-        "address": "1221 E. Kingsbury St.",
-        "city": "Seguin",
-        "zip": "",
-        "room": "",
-        "notes": "Vote Center #3"
-      },
-      {
-        "name": "Forest Hills Baptist Church",
-        "address": "8251 FM 1117",
-        "city": "Seguin",
-        "zip": "",
-        "room": "",
-        "notes": "Vote Center #4"
-      },
-      {
-        "name": "Justice of the Peace Court, Pct 1",
-        "address": "2405 E. US Hwy 90",
-        "city": "Seguin",
-        "zip": "",
-        "room": "",
-        "notes": "Vote Center #5"
-      },
-      {
-        "name": "Kingsbury United Methodist Church",
-        "address": "7035 FM 2438",
-        "city": "Kingsbury",
-        "zip": "",
-        "room": "",
-        "notes": "Vote Center #6"
-      },
-      {
-        "name": "Staples United Methodist Church",
-        "address": "9760 FM 621",
-        "city": "Staples",
-        "zip": "",
-        "room": "",
-        "notes": "Vote Center #7"
-      },
-      {
-        "name": "Maranatha Fellowship Hall",
-        "address": "2356 S. State Hwy. 80",
-        "city": "Luling",
-        "zip": "",
-        "room": "",
-        "notes": "Vote Center #8"
-      },
-      {
-        "name": "TLU Alumni Student Center",
-        "address": "1109 University St.",
-        "city": "Seguin",
-        "zip": "",
-        "room": "Conf. Rooms A/B",
-        "notes": "Vote Center #9"
-      },
-      {
-        "name": "Redemptive Grace Ministries",
-        "address": "2240 FM 725",
-        "city": "New Braunfels",
-        "zip": "",
-        "room": "",
-        "notes": "Vote Center #10"
-      },
-      {
-        "name": "McQueeney VFW Post 9213",
-        "address": "275 Gallagher",
-        "city": "McQueeney",
-        "zip": "",
-        "room": "",
-        "notes": "Vote Center #11"
-      },
-      {
-        "name": "Columbus Club of Seguin",
-        "address": "1015 S. Austin Street",
-        "city": "Seguin",
-        "zip": "",
-        "room": "",
-        "notes": "Vote Center #12"
-      },
-      {
-        "name": "Our Lady of Guadalupe Church Annex",
-        "address": "730 N. Guadalupe St.",
-        "city": "Seguin",
-        "zip": "",
-        "room": "",
-        "notes": "Vote Center #13"
-      },
-      {
-        "name": "Refuge III Church of Our Lord Jesus Christ",
-        "address": "7535 Elm Creek Rd.",
-        "city": "Seguin",
-        "zip": "",
-        "room": "",
-        "notes": "Vote Center #14"
-      },
-      {
-        "name": "American Legion Hall Post 245",
-        "address": "618 E. Kingsbury",
-        "city": "Seguin",
-        "zip": "",
-        "room": "",
-        "notes": "Vote Center #15"
-      },
-      {
-        "name": "Geronimo VFW Post 8456",
-        "address": "6808 N. State Hwy 123",
-        "city": "Seguin",
-        "zip": "",
-        "room": "",
-        "notes": "Vote Center #16"
-      },
-      {
-        "name": "St. Joseph’s Mission",
-        "address": "5079 Redwood",
-        "city": "San Marcos",
-        "zip": "",
-        "room": "",
-        "notes": "Vote Center #17"
-      },
-      {
-        "name": "The Silver Center",
-        "address": "510 E. Court St.",
-        "city": "Seguin",
-        "zip": "",
-        "room": "",
-        "notes": "Vote Center #18"
-      },
-      {
-        "name": "Elections Office",
-        "address": "3251 State Hwy 123",
-        "city": "Seguin",
-        "zip": "",
-        "room": "",
-        "notes": "Vote Center #20"
-      },
-      {
-        "name": "Word of Life Fellowship Church",
-        "address": "213 Coy Lane",
-        "city": "Cibolo",
-        "zip": "",
-        "room": "",
-        "notes": "Vote Center #21"
-      },
-      {
-        "name": "Marion Dolford Learning Center",
-        "address": "200 W. Schlather Lane",
-        "city": "Cibolo",
-        "zip": "",
-        "room": "",
-        "notes": "Vote Center #22"
-      },
-      {
-        "name": "Elections Office Annex",
-        "address": "1101 Elbel Rd",
-        "city": "Schertz",
-        "zip": "",
-        "room": "",
-        "notes": "Vote Center #23"
-      },
-      {
-        "name": "Schertz United Methodist Church",
-        "address": "3460 Roy Richard Dr.",
-        "city": "Schertz",
-        "zip": "",
-        "room": "",
-        "notes": "Vote Center #24"
-      },
-      {
-        "name": "Selma City Hall",
-        "address": "9375 Corporate Dr.",
-        "city": "Selma",
-        "zip": "",
-        "room": "",
-        "notes": "Vote Center #25"
-      },
-      {
-        "name": "Crosspoint Fellowship Church",
-        "address": "2600 Roy Richard Drive",
-        "city": "Schertz",
-        "zip": "",
-        "room": "",
-        "notes": "Vote Center #26"
-      },
-      {
-        "name": "Immaculate Conception Catholic Church",
-        "address": "212 N. Barnett St.",
-        "city": "Marion",
-        "zip": "",
-        "room": "",
-        "notes": "Vote Center #27"
-      },
-      {
-        "name": "Schertz Community Center",
-        "address": "1400 Schertz Parkway",
-        "city": "Schertz",
-        "zip": "",
-        "room": "",
-        "notes": "Vote Center #28"
-      },
-      {
-        "name": "Mikulski Hall",
-        "address": "509 Schertz Pkwy",
-        "city": "Schertz",
-        "zip": "",
-        "room": "",
-        "notes": "Vote Center #29"
-      },
-      {
-        "name": "Schertz Community Center North",
-        "address": "3501 Morning Dr.",
-        "city": "Cibolo",
-        "zip": "",
-        "room": "",
-        "notes": "Vote Center #30"
-      },
-      {
-        "name": "Marion ISD",
-        "address": "500 Bulldog Lane",
-        "city": "Marion",
-        "zip": "",
-        "room": "The Tondre Room",
-        "notes": "Vote Center #31"
-      },
-      {
-        "name": "New Berlin Community Center",
-        "address": "8815 FM 775",
-        "city": "Seguin",
-        "zip": "",
-        "room": "",
-        "notes": "Vote Center #32"
-      },
-      {
-        "name": "NBISD Transportation Bldg",
-        "address": "2621 Klein Way",
-        "city": "New Braunfels",
-        "zip": "",
-        "room": "",
-        "notes": "Vote Center #33"
-      },
-      {
-        "name": "Cibolo Fire Station #2",
-        "address": "3864 Cibolo Valley Drive",
-        "city": "Cibolo",
-        "zip": "",
-        "room": "",
-        "notes": "Vote Center #34"
-      },
-      {
-        "name": "Living Waters Worship Center",
-        "address": "3325 N. State Hwy 46",
-        "city": "Seguin",
-        "zip": "",
-        "room": "",
-        "notes": "Vote Center #35"
-      },
-      {
-        "name": "Christ Lutheran Church",
-        "address": "3305 Church Rd",
-        "city": "Seguin",
-        "zip": "",
-        "room": "",
-        "notes": "Vote Center #36"
-      },
-      {
-        "name": "Cibolo Valley VFW Post 8315",
-        "address": "1000 Farm to Market Rd 78.",
-        "city": "Schertz",
-        "zip": "",
-        "room": "",
-        "notes": "Vote Center #37"
-      },
-      {
-        "name": "Cibolo Valley Baptist Church",
-        "address": "5500 FM 1103",
-        "city": "Cibolo",
-        "zip": "",
-        "room": "",
-        "notes": "Vote Center #38"
-      }
-    ]
-  },
-  "notes": "Guadalupe County uses vote centers, so any registered county voter may vote at any Election Day location. The county's published lists still show one early voting branch and one Election Day vote center (VC #19) as to be determined, so check with the elections office at 830-303-6363 for the latest list."
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-25",
+    "open": "12:00",
+    "close": "18:00"
+   },
+   {
+    "date": "2026-10-26",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-27",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-28",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-29",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-30",
+    "open": "07:00",
+    "close": "19:00"
+   }
+  ],
+  "sites": [
+   {
+    "name": "Elections Office",
+    "address": "3251 N. State Hwy 123",
+    "city": "Seguin",
+    "zip": "78155",
+    "room": "",
+    "schedule": null,
+    "notes": "Main early voting location. Emergency and limited ballots are available only here.",
+    "lat": 29.606442,
+    "lng": -97.95704
+   },
+   {
+    "name": "Cibolo Fire Station #2",
+    "address": "3864 Cibolo Valley Dr.",
+    "city": "Cibolo",
+    "zip": "",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 29.594778,
+    "lng": -98.252275
+   },
+   {
+    "name": "Redemptive Grace Ministries",
+    "address": "2240 FM 725",
+    "city": "New Braunfels",
+    "zip": "",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 29.672645,
+    "lng": -98.101069
+   },
+   {
+    "name": "New Berlin Community Center",
+    "address": "8815 FM 775",
+    "city": "New Berlin",
+    "zip": "",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 29.46553,
+    "lng": -98.100736
+   },
+   {
+    "name": "Elections Office Annex",
+    "address": "1101 Elbel",
+    "city": "Schertz",
+    "zip": "",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 29.565228,
+    "lng": -98.259517
+   },
+   {
+    "name": "Seguin ISD Adm. Bldg.",
+    "address": "1221 E Kingsbury St.",
+    "city": "Seguin",
+    "zip": "",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 29.581023,
+    "lng": -97.949702
+   }
+  ]
+ },
+ "election_day": {
+  "open": "07:00",
+  "close": "19:00",
+  "sites": [
+   {
+    "name": "McQueeney Lions Club",
+    "address": "3211 FM 78",
+    "city": "McQueeney",
+    "zip": "",
+    "room": "",
+    "notes": "Vote Center #1",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "New Life Fellowship",
+    "address": "16489 Texas Hwy 123",
+    "city": "Seguin",
+    "zip": "",
+    "room": "",
+    "notes": "Vote Center #2",
+    "lat": 29.472526,
+    "lng": -97.94848
+   },
+   {
+    "name": "Seguin ISD Admin Bldg.",
+    "address": "1221 E. Kingsbury St.",
+    "city": "Seguin",
+    "zip": "",
+    "room": "",
+    "notes": "Vote Center #3",
+    "lat": 29.581023,
+    "lng": -97.949702
+   },
+   {
+    "name": "Forest Hills Baptist Church",
+    "address": "8251 FM 1117",
+    "city": "Seguin",
+    "zip": "",
+    "room": "",
+    "notes": "Vote Center #4",
+    "lat": 29.468355,
+    "lng": -97.87274
+   },
+   {
+    "name": "Justice of the Peace Court, Pct 1",
+    "address": "2405 E. US Hwy 90",
+    "city": "Seguin",
+    "zip": "",
+    "room": "",
+    "notes": "Vote Center #5",
+    "lat": 29.596165,
+    "lng": -97.928465
+   },
+   {
+    "name": "Kingsbury United Methodist Church",
+    "address": "7035 FM 2438",
+    "city": "Kingsbury",
+    "zip": "",
+    "room": "",
+    "notes": "Vote Center #6",
+    "lat": 29.645859,
+    "lng": -97.827529
+   },
+   {
+    "name": "Staples United Methodist Church",
+    "address": "9760 FM 621",
+    "city": "Staples",
+    "zip": "",
+    "room": "",
+    "notes": "Vote Center #7",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Maranatha Fellowship Hall",
+    "address": "2356 S. State Hwy. 80",
+    "city": "Luling",
+    "zip": "",
+    "room": "",
+    "notes": "Vote Center #8",
+    "lat": 29.650097,
+    "lng": -97.660727
+   },
+   {
+    "name": "TLU Alumni Student Center",
+    "address": "1109 University St.",
+    "city": "Seguin",
+    "zip": "",
+    "room": "Conf. Rooms A/B",
+    "notes": "Vote Center #9",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Redemptive Grace Ministries",
+    "address": "2240 FM 725",
+    "city": "New Braunfels",
+    "zip": "",
+    "room": "",
+    "notes": "Vote Center #10",
+    "lat": 29.672645,
+    "lng": -98.101069
+   },
+   {
+    "name": "McQueeney VFW Post 9213",
+    "address": "275 Gallagher",
+    "city": "McQueeney",
+    "zip": "",
+    "room": "",
+    "notes": "Vote Center #11",
+    "lat": 29.612675,
+    "lng": -98.034761
+   },
+   {
+    "name": "Columbus Club of Seguin",
+    "address": "1015 S. Austin Street",
+    "city": "Seguin",
+    "zip": "",
+    "room": "",
+    "notes": "Vote Center #12",
+    "lat": 29.558419,
+    "lng": -97.96931
+   },
+   {
+    "name": "Our Lady of Guadalupe Church Annex",
+    "address": "730 N. Guadalupe St.",
+    "city": "Seguin",
+    "zip": "",
+    "room": "",
+    "notes": "Vote Center #13",
+    "lat": 29.574713,
+    "lng": -97.969645
+   },
+   {
+    "name": "Refuge III Church of Our Lord Jesus Christ",
+    "address": "7535 Elm Creek Rd.",
+    "city": "Seguin",
+    "zip": "",
+    "room": "",
+    "notes": "Vote Center #14",
+    "lat": 29.451242,
+    "lng": -97.95419
+   },
+   {
+    "name": "American Legion Hall Post 245",
+    "address": "618 E. Kingsbury",
+    "city": "Seguin",
+    "zip": "",
+    "room": "",
+    "notes": "Vote Center #15",
+    "lat": 29.580918,
+    "lng": -97.959599
+   },
+   {
+    "name": "Geronimo VFW Post 8456",
+    "address": "6808 N. State Hwy 123",
+    "city": "Seguin",
+    "zip": "",
+    "room": "",
+    "notes": "Vote Center #16",
+    "lat": 29.661925,
+    "lng": -97.967048
+   },
+   {
+    "name": "St. Joseph’s Mission",
+    "address": "5079 Redwood",
+    "city": "San Marcos",
+    "zip": "",
+    "room": "",
+    "notes": "Vote Center #17",
+    "lat": 29.810527,
+    "lng": -97.911723
+   },
+   {
+    "name": "The Silver Center",
+    "address": "510 E. Court St.",
+    "city": "Seguin",
+    "zip": "",
+    "room": "",
+    "notes": "Vote Center #18",
+    "lat": 29.568999,
+    "lng": -97.961093
+   },
+   {
+    "name": "Elections Office",
+    "address": "3251 State Hwy 123",
+    "city": "Seguin",
+    "zip": "",
+    "room": "",
+    "notes": "Vote Center #20",
+    "lat": 29.606442,
+    "lng": -97.95704
+   },
+   {
+    "name": "Word of Life Fellowship Church",
+    "address": "213 Coy Lane",
+    "city": "Cibolo",
+    "zip": "",
+    "room": "",
+    "notes": "Vote Center #21",
+    "lat": 29.592827,
+    "lng": -98.212821
+   },
+   {
+    "name": "Marion Dolford Learning Center",
+    "address": "200 W. Schlather Lane",
+    "city": "Cibolo",
+    "zip": "",
+    "room": "",
+    "notes": "Vote Center #22",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Elections Office Annex",
+    "address": "1101 Elbel Rd",
+    "city": "Schertz",
+    "zip": "",
+    "room": "",
+    "notes": "Vote Center #23",
+    "lat": 29.565228,
+    "lng": -98.259517
+   },
+   {
+    "name": "Schertz United Methodist Church",
+    "address": "3460 Roy Richard Dr.",
+    "city": "Schertz",
+    "zip": "",
+    "room": "",
+    "notes": "Vote Center #24",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Selma City Hall",
+    "address": "9375 Corporate Dr.",
+    "city": "Selma",
+    "zip": "",
+    "room": "",
+    "notes": "Vote Center #25",
+    "lat": 29.590948,
+    "lng": -98.305549
+   },
+   {
+    "name": "Crosspoint Fellowship Church",
+    "address": "2600 Roy Richard Drive",
+    "city": "Schertz",
+    "zip": "",
+    "room": "",
+    "notes": "Vote Center #26",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Immaculate Conception Catholic Church",
+    "address": "212 N. Barnett St.",
+    "city": "Marion",
+    "zip": "",
+    "room": "",
+    "notes": "Vote Center #27",
+    "lat": 29.57244,
+    "lng": -98.138759
+   },
+   {
+    "name": "Schertz Community Center",
+    "address": "1400 Schertz Parkway",
+    "city": "Schertz",
+    "zip": "",
+    "room": "",
+    "notes": "Vote Center #28",
+    "lat": 29.564216,
+    "lng": -98.26956
+   },
+   {
+    "name": "Mikulski Hall",
+    "address": "509 Schertz Pkwy",
+    "city": "Schertz",
+    "zip": "",
+    "room": "",
+    "notes": "Vote Center #29",
+    "lat": 29.558555,
+    "lng": -98.265928
+   },
+   {
+    "name": "Schertz Community Center North",
+    "address": "3501 Morning Dr.",
+    "city": "Cibolo",
+    "zip": "",
+    "room": "",
+    "notes": "Vote Center #30",
+    "lat": 29.61905,
+    "lng": -98.225339
+   },
+   {
+    "name": "Marion ISD",
+    "address": "500 Bulldog Lane",
+    "city": "Marion",
+    "zip": "",
+    "room": "The Tondre Room",
+    "notes": "Vote Center #31",
+    "lat": 29.568309,
+    "lng": -98.140868
+   },
+   {
+    "name": "New Berlin Community Center",
+    "address": "8815 FM 775",
+    "city": "Seguin",
+    "zip": "",
+    "room": "",
+    "notes": "Vote Center #32",
+    "lat": 29.46553,
+    "lng": -98.100736
+   },
+   {
+    "name": "NBISD Transportation Bldg",
+    "address": "2621 Klein Way",
+    "city": "New Braunfels",
+    "zip": "",
+    "room": "",
+    "notes": "Vote Center #33",
+    "lat": 29.656287,
+    "lng": -98.111177
+   },
+   {
+    "name": "Cibolo Fire Station #2",
+    "address": "3864 Cibolo Valley Drive",
+    "city": "Cibolo",
+    "zip": "",
+    "room": "",
+    "notes": "Vote Center #34",
+    "lat": 29.594778,
+    "lng": -98.252275
+   },
+   {
+    "name": "Living Waters Worship Center",
+    "address": "3325 N. State Hwy 46",
+    "city": "Seguin",
+    "zip": "",
+    "room": "",
+    "notes": "Vote Center #35",
+    "lat": 29.615954,
+    "lng": -98.017636
+   },
+   {
+    "name": "Christ Lutheran Church",
+    "address": "3305 Church Rd",
+    "city": "Seguin",
+    "zip": "",
+    "room": "",
+    "notes": "Vote Center #36",
+    "lat": 29.43595,
+    "lng": -98.073429
+   },
+   {
+    "name": "Cibolo Valley VFW Post 8315",
+    "address": "1000 Farm to Market Rd 78.",
+    "city": "Schertz",
+    "zip": "",
+    "room": "",
+    "notes": "Vote Center #37",
+    "lat": 29.556657,
+    "lng": -98.259844
+   },
+   {
+    "name": "Cibolo Valley Baptist Church",
+    "address": "5500 FM 1103",
+    "city": "Cibolo",
+    "zip": "",
+    "room": "",
+    "notes": "Vote Center #38",
+    "lat": 29.619077,
+    "lng": -98.235564
+   }
+  ]
+ },
+ "notes": "Guadalupe County uses vote centers, so any registered county voter may vote at any Election Day location. The county's published lists still show one early voting branch and one Election Day vote center (VC #19) as to be determined, so check with the elections office at 830-303-6363 for the latest list."
 }

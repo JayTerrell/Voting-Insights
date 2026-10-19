@@ -1,421 +1,457 @@
 {
-  "county": "Caldwell",
-  "model": "precinct",
-  "checked_at": "2026-10-19T02:24:00Z",
-  "sources": [
-    {
-      "title": "Caldwell County Elections: Early Voting Locations",
-      "url": "https://www.co.caldwell.tx.us/page/Elections.EarlyVotingPollingLocations"
-    },
-    {
-      "title": "Caldwell County Elections: Election Day Locations",
-      "url": "https://www.co.caldwell.tx.us/page/Elections.ElectionDayPollingLocations"
-    },
-    {
-      "title": "Early Voting Polling Locations, November 3, 2026 (PDF)",
-      "url": "https://www.co.caldwell.tx.us/page/open/6187/0/Early%20Voting%20Polling%20Locations%20Caldwell%20County_2026%20November%203.pdf"
-    },
-    {
-      "title": "Election Day Polling Locations, November 3, 2026 (PDF)",
-      "url": "https://www.co.caldwell.tx.us/page/open/6190/0/Election%20Day%20Polling%20Locations%20Caldwell%20County_2026%20November%203.pdf"
-    }
-  ],
-  "lookup_url": null,
-  "wait_times_url": null,
-  "early_voting": {
-    "schedule": [
-      {
-        "date": "2026-10-19",
-        "open": "08:00",
-        "close": "18:00"
-      },
-      {
-        "date": "2026-10-20",
-        "open": "08:00",
-        "close": "18:00"
-      },
-      {
-        "date": "2026-10-21",
-        "open": "08:00",
-        "close": "18:00"
-      },
-      {
-        "date": "2026-10-22",
-        "open": "08:00",
-        "close": "18:00"
-      },
-      {
-        "date": "2026-10-23",
-        "open": "08:00",
-        "close": "18:00"
-      },
-      {
-        "date": "2026-10-24",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-25",
-        "open": "09:00",
-        "close": "15:00"
-      },
-      {
-        "date": "2026-10-26",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-27",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-28",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-29",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-30",
-        "open": "07:00",
-        "close": "19:00"
-      }
-    ],
-    "sites": [
-      {
-        "name": "Lockhart ISD - Adam's Gym",
-        "address": "419 Bois D'Arc St",
-        "city": "Lockhart",
-        "zip": "",
-        "room": "",
-        "schedule": null,
-        "notes": "Main early voting location. Limited and emergency ballots are only available here."
-      },
-      {
-        "name": "Luling Civic Center",
-        "address": "333 E. Austin St",
-        "city": "Luling",
-        "zip": "",
-        "room": "",
-        "schedule": [
-          {
-            "date": "2026-10-19",
-            "open": "09:00",
-            "close": "18:00"
-          },
-          {
-            "date": "2026-10-20",
-            "open": "09:00",
-            "close": "18:00"
-          },
-          {
-            "date": "2026-10-21",
-            "open": "09:00",
-            "close": "18:00"
-          },
-          {
-            "date": "2026-10-22",
-            "open": "09:00",
-            "close": "18:00"
-          },
-          {
-            "date": "2026-10-23",
-            "open": "09:00",
-            "close": "18:00"
-          },
-          {
-            "date": "2026-10-24",
-            "open": "09:00",
-            "close": "18:00"
-          },
-          {
-            "date": "2026-10-25",
-            "open": "09:00",
-            "close": "15:00"
-          },
-          {
-            "date": "2026-10-26",
-            "open": "09:00",
-            "close": "18:00"
-          },
-          {
-            "date": "2026-10-27",
-            "open": "09:00",
-            "close": "18:00"
-          },
-          {
-            "date": "2026-10-28",
-            "open": "09:00",
-            "close": "18:00"
-          },
-          {
-            "date": "2026-10-29",
-            "open": "07:00",
-            "close": "18:00"
-          },
-          {
-            "date": "2026-10-30",
-            "open": "07:00",
-            "close": "18:00"
-          }
-        ],
-        "notes": "Branch location with shorter hours."
-      },
-      {
-        "name": "Three Rivers Community Church",
-        "address": "103 Main St",
-        "city": "Martindale",
-        "zip": "",
-        "room": "",
-        "schedule": [
-          {
-            "date": "2026-10-19",
-            "open": "09:00",
-            "close": "18:00"
-          },
-          {
-            "date": "2026-10-20",
-            "open": "09:00",
-            "close": "18:00"
-          },
-          {
-            "date": "2026-10-21",
-            "open": "09:00",
-            "close": "18:00"
-          },
-          {
-            "date": "2026-10-22",
-            "open": "09:00",
-            "close": "18:00"
-          },
-          {
-            "date": "2026-10-23",
-            "open": "09:00",
-            "close": "18:00"
-          },
-          {
-            "date": "2026-10-24",
-            "open": "09:00",
-            "close": "18:00"
-          },
-          {
-            "date": "2026-10-25",
-            "open": "09:00",
-            "close": "15:00"
-          },
-          {
-            "date": "2026-10-26",
-            "open": "09:00",
-            "close": "18:00"
-          },
-          {
-            "date": "2026-10-27",
-            "open": "09:00",
-            "close": "18:00"
-          },
-          {
-            "date": "2026-10-28",
-            "open": "09:00",
-            "close": "18:00"
-          },
-          {
-            "date": "2026-10-29",
-            "open": "07:00",
-            "close": "18:00"
-          },
-          {
-            "date": "2026-10-30",
-            "open": "07:00",
-            "close": "18:00"
-          }
-        ],
-        "notes": "Branch location with shorter hours."
-      }
-    ]
+ "county": "Caldwell",
+ "model": "precinct",
+ "checked_at": "2026-10-19T02:24:00Z",
+ "sources": [
+  {
+   "title": "Caldwell County Elections: Early Voting Locations",
+   "url": "https://www.co.caldwell.tx.us/page/Elections.EarlyVotingPollingLocations"
   },
-  "election_day": {
+  {
+   "title": "Caldwell County Elections: Election Day Locations",
+   "url": "https://www.co.caldwell.tx.us/page/Elections.ElectionDayPollingLocations"
+  },
+  {
+   "title": "Early Voting Polling Locations, November 3, 2026 (PDF)",
+   "url": "https://www.co.caldwell.tx.us/page/open/6187/0/Early%20Voting%20Polling%20Locations%20Caldwell%20County_2026%20November%203.pdf"
+  },
+  {
+   "title": "Election Day Polling Locations, November 3, 2026 (PDF)",
+   "url": "https://www.co.caldwell.tx.us/page/open/6190/0/Election%20Day%20Polling%20Locations%20Caldwell%20County_2026%20November%203.pdf"
+  }
+ ],
+ "lookup_url": null,
+ "wait_times_url": null,
+ "early_voting": {
+  "schedule": [
+   {
+    "date": "2026-10-19",
+    "open": "08:00",
+    "close": "18:00"
+   },
+   {
+    "date": "2026-10-20",
+    "open": "08:00",
+    "close": "18:00"
+   },
+   {
+    "date": "2026-10-21",
+    "open": "08:00",
+    "close": "18:00"
+   },
+   {
+    "date": "2026-10-22",
+    "open": "08:00",
+    "close": "18:00"
+   },
+   {
+    "date": "2026-10-23",
+    "open": "08:00",
+    "close": "18:00"
+   },
+   {
+    "date": "2026-10-24",
     "open": "07:00",
-    "close": "19:00",
-    "sites": [
-      {
-        "name": "First Lockhart Baptist Church - Connection Center",
-        "address": "200 S. Blanco St",
-        "city": "Lockhart",
-        "zip": "",
-        "room": "",
-        "precincts": [
-          "100",
-          "101"
-        ],
-        "notes": ""
-      },
-      {
-        "name": "VFW Post 8927",
-        "address": "7007 S. US Hwy 183",
-        "city": "Lockhart",
-        "zip": "",
-        "room": "",
-        "precincts": [
-          "102",
-          "104"
-        ],
-        "notes": ""
-      },
-      {
-        "name": "Grace Lutheran - Fellowship Hall",
-        "address": "108 N. Medina St",
-        "city": "Lockhart",
-        "zip": "",
-        "room": "",
-        "precincts": [
-          "103",
-          "108"
-        ],
-        "notes": ""
-      },
-      {
-        "name": "Lockhart Evening Lions Club",
-        "address": "220 Bufkin Ln",
-        "city": "Lockhart",
-        "zip": "",
-        "room": "",
-        "precincts": [
-          "111"
-        ],
-        "notes": ""
-      },
-      {
-        "name": "Luling Civic Center",
-        "address": "333 E. Austin St",
-        "city": "Luling",
-        "zip": "",
-        "room": "",
-        "precincts": [
-          "201",
-          "202",
-          "206"
-        ],
-        "notes": ""
-      },
-      {
-        "name": "McNeil Baptist Church",
-        "address": "14304 FM 1322",
-        "city": "Luling",
-        "zip": "",
-        "room": "",
-        "precincts": [
-          "203"
-        ],
-        "notes": ""
-      },
-      {
-        "name": "McMahan Community Center",
-        "address": "6022 FM 713",
-        "city": "McMahan",
-        "zip": "",
-        "room": "",
-        "precincts": [
-          "204",
-          "205"
-        ],
-        "notes": ""
-      },
-      {
-        "name": "Three Rivers Community Church",
-        "address": "103 Main St",
-        "city": "Martindale",
-        "zip": "",
-        "room": "",
-        "precincts": [
-          "300",
-          "301"
-        ],
-        "notes": ""
-      },
-      {
-        "name": "Maxwell Social Club",
-        "address": "180 Fourth St",
-        "city": "Maxwell",
-        "zip": "",
-        "room": "",
-        "precincts": [
-          "302"
-        ],
-        "notes": ""
-      },
-      {
-        "name": "Uhland City Hall - Community Center",
-        "address": "15 N. Old Spanish Trl",
-        "city": "Uhland",
-        "zip": "",
-        "room": "",
-        "precincts": [
-          "303",
-          "306"
-        ],
-        "notes": "The county web page calls this site Uhland Community Center; the printable PDF calls it Uhland City Hall - Community Center."
-      },
-      {
-        "name": "Fentress Community Church",
-        "address": "13423 State Park Rd",
-        "city": "Fentress",
-        "zip": "",
-        "room": "",
-        "precincts": [
-          "305"
-        ],
-        "notes": ""
-      },
-      {
-        "name": "Dale Community Center",
-        "address": "47 Civic Dr",
-        "city": "Dale",
-        "zip": "",
-        "room": "",
-        "precincts": [
-          "400",
-          "405"
-        ],
-        "notes": ""
-      },
-      {
-        "name": "St. Mark's Methodist Church",
-        "address": "602 E. Live Oak St",
-        "city": "Lockhart",
-        "zip": "",
-        "room": "",
-        "precincts": [
-          "401"
-        ],
-        "notes": ""
-      },
-      {
-        "name": "Lockhart ISD - Adam's Gym",
-        "address": "419 Bois D'Arc St",
-        "city": "Lockhart",
-        "zip": "",
-        "room": "",
-        "precincts": [
-          "402"
-        ],
-        "notes": ""
-      },
-      {
-        "name": "Lytton Springs Baptist Church",
-        "address": "8511 FM 1854",
-        "city": "Dale",
-        "zip": "",
-        "room": "",
-        "precincts": [
-          "404"
-        ],
-        "notes": ""
-      }
-    ]
-  },
-  "notes": "Caldwell County uses precinct voting on Election Day, so voters must go to the location for their own election precinct. During early voting any voter may use any of the three sites, but the Luling and Martindale branches keep shorter hours than the main site at Adam's Gym in Lockhart."
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-25",
+    "open": "09:00",
+    "close": "15:00"
+   },
+   {
+    "date": "2026-10-26",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-27",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-28",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-29",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-30",
+    "open": "07:00",
+    "close": "19:00"
+   }
+  ],
+  "sites": [
+   {
+    "name": "Lockhart ISD - Adam's Gym",
+    "address": "419 Bois D'Arc St",
+    "city": "Lockhart",
+    "zip": "",
+    "room": "",
+    "schedule": null,
+    "notes": "Main early voting location. Limited and emergency ballots are only available here.",
+    "lat": 29.886694,
+    "lng": -97.676438
+   },
+   {
+    "name": "Luling Civic Center",
+    "address": "333 E. Austin St",
+    "city": "Luling",
+    "zip": "",
+    "room": "",
+    "schedule": [
+     {
+      "date": "2026-10-19",
+      "open": "09:00",
+      "close": "18:00"
+     },
+     {
+      "date": "2026-10-20",
+      "open": "09:00",
+      "close": "18:00"
+     },
+     {
+      "date": "2026-10-21",
+      "open": "09:00",
+      "close": "18:00"
+     },
+     {
+      "date": "2026-10-22",
+      "open": "09:00",
+      "close": "18:00"
+     },
+     {
+      "date": "2026-10-23",
+      "open": "09:00",
+      "close": "18:00"
+     },
+     {
+      "date": "2026-10-24",
+      "open": "09:00",
+      "close": "18:00"
+     },
+     {
+      "date": "2026-10-25",
+      "open": "09:00",
+      "close": "15:00"
+     },
+     {
+      "date": "2026-10-26",
+      "open": "09:00",
+      "close": "18:00"
+     },
+     {
+      "date": "2026-10-27",
+      "open": "09:00",
+      "close": "18:00"
+     },
+     {
+      "date": "2026-10-28",
+      "open": "09:00",
+      "close": "18:00"
+     },
+     {
+      "date": "2026-10-29",
+      "open": "07:00",
+      "close": "18:00"
+     },
+     {
+      "date": "2026-10-30",
+      "open": "07:00",
+      "close": "18:00"
+     }
+    ],
+    "notes": "Branch location with shorter hours.",
+    "lat": 29.683858,
+    "lng": -97.652239
+   },
+   {
+    "name": "Three Rivers Community Church",
+    "address": "103 Main St",
+    "city": "Martindale",
+    "zip": "",
+    "room": "",
+    "schedule": [
+     {
+      "date": "2026-10-19",
+      "open": "09:00",
+      "close": "18:00"
+     },
+     {
+      "date": "2026-10-20",
+      "open": "09:00",
+      "close": "18:00"
+     },
+     {
+      "date": "2026-10-21",
+      "open": "09:00",
+      "close": "18:00"
+     },
+     {
+      "date": "2026-10-22",
+      "open": "09:00",
+      "close": "18:00"
+     },
+     {
+      "date": "2026-10-23",
+      "open": "09:00",
+      "close": "18:00"
+     },
+     {
+      "date": "2026-10-24",
+      "open": "09:00",
+      "close": "18:00"
+     },
+     {
+      "date": "2026-10-25",
+      "open": "09:00",
+      "close": "15:00"
+     },
+     {
+      "date": "2026-10-26",
+      "open": "09:00",
+      "close": "18:00"
+     },
+     {
+      "date": "2026-10-27",
+      "open": "09:00",
+      "close": "18:00"
+     },
+     {
+      "date": "2026-10-28",
+      "open": "09:00",
+      "close": "18:00"
+     },
+     {
+      "date": "2026-10-29",
+      "open": "07:00",
+      "close": "18:00"
+     },
+     {
+      "date": "2026-10-30",
+      "open": "07:00",
+      "close": "18:00"
+     }
+    ],
+    "notes": "Branch location with shorter hours.",
+    "lat": 29.841658,
+    "lng": -97.845253
+   }
+  ]
+ },
+ "election_day": {
+  "open": "07:00",
+  "close": "19:00",
+  "sites": [
+   {
+    "name": "First Lockhart Baptist Church - Connection Center",
+    "address": "200 S. Blanco St",
+    "city": "Lockhart",
+    "zip": "",
+    "room": "",
+    "precincts": [
+     "100",
+     "101"
+    ],
+    "notes": "",
+    "lat": 29.883449,
+    "lng": -97.67423
+   },
+   {
+    "name": "VFW Post 8927",
+    "address": "7007 S. US Hwy 183",
+    "city": "Lockhart",
+    "zip": "",
+    "room": "",
+    "precincts": [
+     "102",
+     "104"
+    ],
+    "notes": "",
+    "lat": 29.818021,
+    "lng": -97.67395
+   },
+   {
+    "name": "Grace Lutheran - Fellowship Hall",
+    "address": "108 N. Medina St",
+    "city": "Lockhart",
+    "zip": "",
+    "room": "",
+    "precincts": [
+     "103",
+     "108"
+    ],
+    "notes": "",
+    "lat": 29.882991,
+    "lng": -97.684121
+   },
+   {
+    "name": "Lockhart Evening Lions Club",
+    "address": "220 Bufkin Ln",
+    "city": "Lockhart",
+    "zip": "",
+    "room": "",
+    "precincts": [
+     "111"
+    ],
+    "notes": "",
+    "lat": 29.865851,
+    "lng": -97.665581
+   },
+   {
+    "name": "Luling Civic Center",
+    "address": "333 E. Austin St",
+    "city": "Luling",
+    "zip": "",
+    "room": "",
+    "precincts": [
+     "201",
+     "202",
+     "206"
+    ],
+    "notes": "",
+    "lat": 29.683858,
+    "lng": -97.652239
+   },
+   {
+    "name": "McNeil Baptist Church",
+    "address": "14304 FM 1322",
+    "city": "Luling",
+    "zip": "",
+    "room": "",
+    "precincts": [
+     "203"
+    ],
+    "notes": "",
+    "lat": 29.713105,
+    "lng": -97.584354
+   },
+   {
+    "name": "McMahan Community Center",
+    "address": "6022 FM 713",
+    "city": "McMahan",
+    "zip": "",
+    "room": "",
+    "precincts": [
+     "204",
+     "205"
+    ],
+    "notes": "",
+    "lat": 29.852656,
+    "lng": -97.525576
+   },
+   {
+    "name": "Three Rivers Community Church",
+    "address": "103 Main St",
+    "city": "Martindale",
+    "zip": "",
+    "room": "",
+    "precincts": [
+     "300",
+     "301"
+    ],
+    "notes": "",
+    "lat": 29.841658,
+    "lng": -97.845253
+   },
+   {
+    "name": "Maxwell Social Club",
+    "address": "180 Fourth St",
+    "city": "Maxwell",
+    "zip": "",
+    "room": "",
+    "precincts": [
+     "302"
+    ],
+    "notes": "",
+    "lat": 29.88325,
+    "lng": -97.794455
+   },
+   {
+    "name": "Uhland City Hall - Community Center",
+    "address": "15 N. Old Spanish Trl",
+    "city": "Uhland",
+    "zip": "",
+    "room": "",
+    "precincts": [
+     "303",
+     "306"
+    ],
+    "notes": "The county web page calls this site Uhland Community Center; the printable PDF calls it Uhland City Hall - Community Center.",
+    "lat": 29.958527,
+    "lng": -97.783822
+   },
+   {
+    "name": "Fentress Community Church",
+    "address": "13423 State Park Rd",
+    "city": "Fentress",
+    "zip": "",
+    "room": "",
+    "precincts": [
+     "305"
+    ],
+    "notes": "",
+    "lat": 29.755882,
+    "lng": -97.776605
+   },
+   {
+    "name": "Dale Community Center",
+    "address": "47 Civic Dr",
+    "city": "Dale",
+    "zip": "",
+    "room": "",
+    "precincts": [
+     "400",
+     "405"
+    ],
+    "notes": "",
+    "lat": 29.929238,
+    "lng": -97.56271
+   },
+   {
+    "name": "St. Mark's Methodist Church",
+    "address": "602 E. Live Oak St",
+    "city": "Lockhart",
+    "zip": "",
+    "room": "",
+    "precincts": [
+     "401"
+    ],
+    "notes": "",
+    "lat": 29.882888,
+    "lng": -97.666481
+   },
+   {
+    "name": "Lockhart ISD - Adam's Gym",
+    "address": "419 Bois D'Arc St",
+    "city": "Lockhart",
+    "zip": "",
+    "room": "",
+    "precincts": [
+     "402"
+    ],
+    "notes": "",
+    "lat": 29.886694,
+    "lng": -97.676438
+   },
+   {
+    "name": "Lytton Springs Baptist Church",
+    "address": "8511 FM 1854",
+    "city": "Dale",
+    "zip": "",
+    "room": "",
+    "precincts": [
+     "404"
+    ],
+    "notes": "",
+    "lat": 30.002617,
+    "lng": -97.610986
+   }
+  ]
+ },
+ "notes": "Caldwell County uses precinct voting on Election Day, so voters must go to the location for their own election precinct. During early voting any voter may use any of the three sites, but the Luling and Martindale branches keep shorter hours than the main site at Adam's Gym in Lockhart."
 }

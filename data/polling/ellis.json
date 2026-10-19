@@ -1,383 +1,453 @@
 {
-  "county": "Ellis",
-  "model": "countywide",
-  "checked_at": "2026-10-19T02:12:00Z",
-  "sources": [
-    {
-      "title": "Ellis County Elections: Upcoming Elections",
-      "url": "https://www.elliscountytx.gov/629/Upcoming-Elections"
-    },
-    {
-      "title": "Ellis County Early Voting (Oct. 19-30) vote center polling location listing (PDF, revised 8/6/2026)",
-      "url": "https://www.elliscountytx.gov/DocumentCenter/View/23857"
-    },
-    {
-      "title": "Ellis County Election Day (Nov 3) vote center polling location listing (PDF, revised 8/6/2026)",
-      "url": "https://www.elliscountytx.gov/DocumentCenter/View/23856"
-    },
-    {
-      "title": "Ellis County Elections: Election Day Information",
-      "url": "https://www.elliscountytx.gov/743/Election-Day-Information"
-    }
-  ],
-  "lookup_url": null,
-  "wait_times_url": "https://updates.electionlink.net/widgets/ellistx/2026-11-03/Early%20Voting%20Dashboard.html",
-  "early_voting": {
-    "schedule": [
-      {
-        "date": "2026-10-19",
-        "open": "08:00",
-        "close": "18:00"
-      },
-      {
-        "date": "2026-10-20",
-        "open": "08:00",
-        "close": "18:00"
-      },
-      {
-        "date": "2026-10-21",
-        "open": "08:00",
-        "close": "18:00"
-      },
-      {
-        "date": "2026-10-22",
-        "open": "08:00",
-        "close": "18:00"
-      },
-      {
-        "date": "2026-10-23",
-        "open": "08:00",
-        "close": "18:00"
-      },
-      {
-        "date": "2026-10-24",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-25",
-        "open": "13:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-26",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-27",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-28",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-29",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-30",
-        "open": "07:00",
-        "close": "19:00"
-      }
-    ],
-    "sites": [
-      {
-        "name": "Main Early Voting Site - Waxahachie ISD Old High School",
-        "address": "1000 N Highway 77",
-        "city": "Waxahachie",
-        "zip": "75165",
-        "room": "Library",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Ellis County Sub-Courthouse Pct 1 - Ennis",
-        "address": "207 S Sonoma Trail",
-        "city": "Ennis",
-        "zip": "75119",
-        "room": "Conf. Rm",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Midlothian Conf. Ctr",
-        "address": "1 Community Circle Dr.",
-        "city": "Midlothian",
-        "zip": "76065",
-        "room": "Ballrooms",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Palmer ISD Annex Bldg",
-        "address": "303 Bulldog Way",
-        "city": "Palmer",
-        "zip": "75152",
-        "room": "Portable Bldg",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Red Oak Municipal Ctr",
-        "address": "200 Lakeview Pkwy",
-        "city": "Red Oak",
-        "zip": "75154",
-        "room": "Room A",
-        "schedule": null,
-        "notes": ""
-      }
-    ]
+ "county": "Ellis",
+ "model": "countywide",
+ "checked_at": "2026-10-19T02:12:00Z",
+ "sources": [
+  {
+   "title": "Ellis County Elections: Upcoming Elections",
+   "url": "https://www.elliscountytx.gov/629/Upcoming-Elections"
   },
-  "election_day": {
+  {
+   "title": "Ellis County Early Voting (Oct. 19-30) vote center polling location listing (PDF, revised 8/6/2026)",
+   "url": "https://www.elliscountytx.gov/DocumentCenter/View/23857"
+  },
+  {
+   "title": "Ellis County Election Day (Nov 3) vote center polling location listing (PDF, revised 8/6/2026)",
+   "url": "https://www.elliscountytx.gov/DocumentCenter/View/23856"
+  },
+  {
+   "title": "Ellis County Elections: Election Day Information",
+   "url": "https://www.elliscountytx.gov/743/Election-Day-Information"
+  }
+ ],
+ "lookup_url": null,
+ "wait_times_url": "https://updates.electionlink.net/widgets/ellistx/2026-11-03/Early%20Voting%20Dashboard.html",
+ "early_voting": {
+  "schedule": [
+   {
+    "date": "2026-10-19",
+    "open": "08:00",
+    "close": "18:00"
+   },
+   {
+    "date": "2026-10-20",
+    "open": "08:00",
+    "close": "18:00"
+   },
+   {
+    "date": "2026-10-21",
+    "open": "08:00",
+    "close": "18:00"
+   },
+   {
+    "date": "2026-10-22",
+    "open": "08:00",
+    "close": "18:00"
+   },
+   {
+    "date": "2026-10-23",
+    "open": "08:00",
+    "close": "18:00"
+   },
+   {
+    "date": "2026-10-24",
     "open": "07:00",
-    "close": "19:00",
-    "sites": [
-      {
-        "name": "FIRST BAPTIST CHURCH-AVALON",
-        "address": "206 GILES STREET",
-        "city": "Avalon",
-        "zip": "76623",
-        "room": "Annex",
-        "notes": ""
-      },
-      {
-        "name": "CHURCH OF CHRIST ANNEX-BARDWELL",
-        "address": "3630 Waxahachie Ave.",
-        "city": "Bardwell",
-        "zip": "75119",
-        "room": "Main Rm",
-        "notes": ""
-      },
-      {
-        "name": "BRISTOL COMMUNITY CENTER",
-        "address": "100 CHURCH ST",
-        "city": "Bristol",
-        "zip": "75119",
-        "room": "Auditorium",
-        "notes": ""
-      },
-      {
-        "name": "ELLIS CO SUB-COURTHOUSE PCT 1 -ENNIS",
-        "address": "207 S SONOMA TRAIL",
-        "city": "Ennis",
-        "zip": "75119",
-        "room": "Conf Rm",
-        "notes": ""
-      },
-      {
-        "name": "ENNIS PUBLIC LIBRARY",
-        "address": "501 W. ENNIS AVE",
-        "city": "Ennis",
-        "zip": "75119",
-        "room": "Community Rm",
-        "notes": ""
-      },
-      {
-        "name": "FAITH ASSEMBLY OF GOD CHURCH",
-        "address": "1810 W BALDRIDGE ST.",
-        "city": "Ennis",
-        "zip": "75119",
-        "room": "Fellowship Hall",
-        "notes": ""
-      },
-      {
-        "name": "FERRIS PUBLIC LIBRARY",
-        "address": "301 E 10TH STREET",
-        "city": "Ferris",
-        "zip": "75125",
-        "room": "Aubrey Trussell Rm",
-        "notes": ""
-      },
-      {
-        "name": "FORRESTON BAPTIST FELLOWSHIP HALL",
-        "address": "211 SEVENTH ST.",
-        "city": "Forreston",
-        "zip": "76041",
-        "room": "Foyer",
-        "notes": ""
-      },
-      {
-        "name": "HARVEST OF PRAISE",
-        "address": "2603 S HAMPTON RD",
-        "city": "Glenn Heights",
-        "zip": "75154",
-        "room": "Sanctuary",
-        "notes": ""
-      },
-      {
-        "name": "ITALY COMMUNITY CENTER",
-        "address": "108 HARPOLD ST.",
-        "city": "Italy",
-        "zip": "76651",
-        "room": "Main Rm",
-        "notes": ""
-      },
-      {
-        "name": "BRITTON METHODIST CHURCH",
-        "address": "4200 BRITTON RD",
-        "city": "Mansfield",
-        "zip": "76063",
-        "room": "Fellowship Hall",
-        "notes": ""
-      },
-      {
-        "name": "FIRST BAPTIST CHURCH-MAYPEARL",
-        "address": "5744 FM 66",
-        "city": "Maypearl",
-        "zip": "76064",
-        "room": "Fellowship Hall",
-        "notes": ""
-      },
-      {
-        "name": "THE LIGHTHOUSE CHURCH",
-        "address": "1400 N 9TH ST",
-        "city": "Midlothian",
-        "zip": "76065",
-        "room": "The Venue",
-        "notes": ""
-      },
-      {
-        "name": "MIDLOTHIAN CONFERENCE CTR",
-        "address": "1 COMMUNITY CIRCLE DR",
-        "city": "Midlothian",
-        "zip": "76065",
-        "room": "Ballrooms",
-        "notes": ""
-      },
-      {
-        "name": "MOUNTAIN PEAK COMMUNITY CHURCH",
-        "address": "751 W. FM 875",
-        "city": "Midlothian",
-        "zip": "76065",
-        "room": "Sanctuary",
-        "notes": ""
-      },
-      {
-        "name": "THE SHEPHERD'S HOUSE",
-        "address": "3221 MOCKINGBIRD LN",
-        "city": "Midlothian",
-        "zip": "76065",
-        "room": "Auditorium",
-        "notes": ""
-      },
-      {
-        "name": "MILFORD COMMUNITY CENTER",
-        "address": "109 S MAIN ST",
-        "city": "Milford",
-        "zip": "76670",
-        "room": "Main Rm",
-        "notes": ""
-      },
-      {
-        "name": "OVILLA CITY HALL",
-        "address": "105 S COCKRELL HILL RD",
-        "city": "Ovilla",
-        "zip": "75154",
-        "room": "Council Chambers Rm",
-        "notes": ""
-      },
-      {
-        "name": "VERTICAL CHURCH OVILLA",
-        "address": "3333 OVILLA RD",
-        "city": "Ovilla",
-        "zip": "75154",
-        "room": "Foyer",
-        "notes": ""
-      },
-      {
-        "name": "PALMER ISD ANNEX BUILDING",
-        "address": "303 BULLDOG WAY",
-        "city": "Palmer",
-        "zip": "75152",
-        "room": "Portable Bldg",
-        "notes": ""
-      },
-      {
-        "name": "EASTRIDGE BAPTIST CHURCH",
-        "address": "732 E OVILLA RD",
-        "city": "Red Oak",
-        "zip": "75154",
-        "room": "Family Activity Ctr",
-        "notes": ""
-      },
-      {
-        "name": "GRACE COVENANT CHURCH",
-        "address": "212 N MAIN ST",
-        "city": "Red Oak",
-        "zip": "75154",
-        "room": "Dining Hall",
-        "notes": ""
-      },
-      {
-        "name": "RED OAK MUNICIPAL CENTER",
-        "address": "200 LAKEVIEW PKWY",
-        "city": "Red Oak",
-        "zip": "75154",
-        "room": "Room A",
-        "notes": ""
-      },
-      {
-        "name": "ELLIS CO SUB-COURTHOUSE PCT 2- WAX",
-        "address": "2675 W US Hwy 287 Business",
-        "city": "Waxahachie",
-        "zip": "75167",
-        "room": "Multi. Rm",
-        "notes": ""
-      },
-      {
-        "name": "ELLIS COUNTY WOMANS BUILDING",
-        "address": "407 W JEFFERSON ST.",
-        "city": "Waxahachie",
-        "zip": "75165",
-        "room": "Davis Hall",
-        "notes": ""
-      },
-      {
-        "name": "FIRST UNITED METHODIST-WAXAHACHIE",
-        "address": "505 W MARVIN AVE",
-        "city": "Waxahachie",
-        "zip": "75165",
-        "room": "Fidelis Hall",
-        "notes": ""
-      },
-      {
-        "name": "KNIGHTS OF COLUMBUS",
-        "address": "325 BROADHEAD RD.",
-        "city": "Waxahachie",
-        "zip": "75165",
-        "room": "Main Room",
-        "notes": ""
-      },
-      {
-        "name": "PARK MEADOWS BAPTIST CHURCH",
-        "address": "3350 N HWY 77",
-        "city": "Waxahachie",
-        "zip": "75165",
-        "room": "Youth Rm",
-        "notes": ""
-      },
-      {
-        "name": "SALVATION ARMY OF ELLIS CO.",
-        "address": "620 FARLEY ST.",
-        "city": "Waxahachie",
-        "zip": "75165",
-        "room": "Fellowship Hall in rear",
-        "notes": ""
-      },
-      {
-        "name": "WAXAHACHIE ISD OLD HIGH SCHOOL",
-        "address": "1000 N HIGHWAY 77",
-        "city": "Waxahachie",
-        "zip": "75165",
-        "room": "Library",
-        "notes": ""
-      }
-    ]
-  },
-  "notes": "Ellis County uses countywide vote centers, so registered Ellis County voters may vote at any early voting or Election Day vote center. Early voting hours are shorter on October 19 to 23 (8 a.m. to 6 p.m.); the county also posts Election Day wait times at https://updates.electionlink.net/widgets/ellistx/2026-11-03/Election%20Day%20Voting%20Dashboard.html."
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-25",
+    "open": "13:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-26",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-27",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-28",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-29",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-30",
+    "open": "07:00",
+    "close": "19:00"
+   }
+  ],
+  "sites": [
+   {
+    "name": "Main Early Voting Site - Waxahachie ISD Old High School",
+    "address": "1000 N Highway 77",
+    "city": "Waxahachie",
+    "zip": "75165",
+    "room": "Library",
+    "schedule": null,
+    "notes": "",
+    "lat": 32.397152,
+    "lng": -96.844806
+   },
+   {
+    "name": "Ellis County Sub-Courthouse Pct 1 - Ennis",
+    "address": "207 S Sonoma Trail",
+    "city": "Ennis",
+    "zip": "75119",
+    "room": "Conf. Rm",
+    "schedule": null,
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Midlothian Conf. Ctr",
+    "address": "1 Community Circle Dr.",
+    "city": "Midlothian",
+    "zip": "76065",
+    "room": "Ballrooms",
+    "schedule": null,
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Palmer ISD Annex Bldg",
+    "address": "303 Bulldog Way",
+    "city": "Palmer",
+    "zip": "75152",
+    "room": "Portable Bldg",
+    "schedule": null,
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Red Oak Municipal Ctr",
+    "address": "200 Lakeview Pkwy",
+    "city": "Red Oak",
+    "zip": "75154",
+    "room": "Room A",
+    "schedule": null,
+    "notes": "",
+    "lat": 32.514567,
+    "lng": -96.827332
+   }
+  ]
+ },
+ "election_day": {
+  "open": "07:00",
+  "close": "19:00",
+  "sites": [
+   {
+    "name": "FIRST BAPTIST CHURCH-AVALON",
+    "address": "206 GILES STREET",
+    "city": "Avalon",
+    "zip": "76623",
+    "room": "Annex",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "CHURCH OF CHRIST ANNEX-BARDWELL",
+    "address": "3630 Waxahachie Ave.",
+    "city": "Bardwell",
+    "zip": "75119",
+    "room": "Main Rm",
+    "notes": "",
+    "lat": 32.267528,
+    "lng": -96.697976
+   },
+   {
+    "name": "BRISTOL COMMUNITY CENTER",
+    "address": "100 CHURCH ST",
+    "city": "Bristol",
+    "zip": "75119",
+    "room": "Auditorium",
+    "notes": "",
+    "lat": 32.459923,
+    "lng": -96.56826
+   },
+   {
+    "name": "ELLIS CO SUB-COURTHOUSE PCT 1 -ENNIS",
+    "address": "207 S SONOMA TRAIL",
+    "city": "Ennis",
+    "zip": "75119",
+    "room": "Conf Rm",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "ENNIS PUBLIC LIBRARY",
+    "address": "501 W. ENNIS AVE",
+    "city": "Ennis",
+    "zip": "75119",
+    "room": "Community Rm",
+    "notes": "",
+    "lat": 32.325896,
+    "lng": -96.630896
+   },
+   {
+    "name": "FAITH ASSEMBLY OF GOD CHURCH",
+    "address": "1810 W BALDRIDGE ST.",
+    "city": "Ennis",
+    "zip": "75119",
+    "room": "Fellowship Hall",
+    "notes": "",
+    "lat": 32.329958,
+    "lng": -96.652603
+   },
+   {
+    "name": "FERRIS PUBLIC LIBRARY",
+    "address": "301 E 10TH STREET",
+    "city": "Ferris",
+    "zip": "75125",
+    "room": "Aubrey Trussell Rm",
+    "notes": "",
+    "lat": 32.53008,
+    "lng": -96.660965
+   },
+   {
+    "name": "FORRESTON BAPTIST FELLOWSHIP HALL",
+    "address": "211 SEVENTH ST.",
+    "city": "Forreston",
+    "zip": "76041",
+    "room": "Foyer",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "HARVEST OF PRAISE",
+    "address": "2603 S HAMPTON RD",
+    "city": "Glenn Heights",
+    "zip": "75154",
+    "room": "Sanctuary",
+    "notes": "",
+    "lat": 32.537596,
+    "lng": -96.856804
+   },
+   {
+    "name": "ITALY COMMUNITY CENTER",
+    "address": "108 HARPOLD ST.",
+    "city": "Italy",
+    "zip": "76651",
+    "room": "Main Rm",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "BRITTON METHODIST CHURCH",
+    "address": "4200 BRITTON RD",
+    "city": "Mansfield",
+    "zip": "76063",
+    "room": "Fellowship Hall",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "FIRST BAPTIST CHURCH-MAYPEARL",
+    "address": "5744 FM 66",
+    "city": "Maypearl",
+    "zip": "76064",
+    "room": "Fellowship Hall",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "THE LIGHTHOUSE CHURCH",
+    "address": "1400 N 9TH ST",
+    "city": "Midlothian",
+    "zip": "76065",
+    "room": "The Venue",
+    "notes": "",
+    "lat": 32.496848,
+    "lng": -96.993587
+   },
+   {
+    "name": "MIDLOTHIAN CONFERENCE CTR",
+    "address": "1 COMMUNITY CIRCLE DR",
+    "city": "Midlothian",
+    "zip": "76065",
+    "room": "Ballrooms",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "MOUNTAIN PEAK COMMUNITY CHURCH",
+    "address": "751 W. FM 875",
+    "city": "Midlothian",
+    "zip": "76065",
+    "room": "Sanctuary",
+    "notes": "",
+    "lat": 32.413184,
+    "lng": -97.001764
+   },
+   {
+    "name": "THE SHEPHERD'S HOUSE",
+    "address": "3221 MOCKINGBIRD LN",
+    "city": "Midlothian",
+    "zip": "76065",
+    "room": "Auditorium",
+    "notes": "",
+    "lat": 32.49637,
+    "lng": -96.955562
+   },
+   {
+    "name": "MILFORD COMMUNITY CENTER",
+    "address": "109 S MAIN ST",
+    "city": "Milford",
+    "zip": "76670",
+    "room": "Main Rm",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "OVILLA CITY HALL",
+    "address": "105 S COCKRELL HILL RD",
+    "city": "Ovilla",
+    "zip": "75154",
+    "room": "Council Chambers Rm",
+    "notes": "",
+    "lat": 32.528279,
+    "lng": -96.888975
+   },
+   {
+    "name": "VERTICAL CHURCH OVILLA",
+    "address": "3333 OVILLA RD",
+    "city": "Ovilla",
+    "zip": "75154",
+    "room": "Foyer",
+    "notes": "",
+    "lat": 32.528012,
+    "lng": -96.885838
+   },
+   {
+    "name": "PALMER ISD ANNEX BUILDING",
+    "address": "303 BULLDOG WAY",
+    "city": "Palmer",
+    "zip": "75152",
+    "room": "Portable Bldg",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "EASTRIDGE BAPTIST CHURCH",
+    "address": "732 E OVILLA RD",
+    "city": "Red Oak",
+    "zip": "75154",
+    "room": "Family Activity Ctr",
+    "notes": "",
+    "lat": 32.532013,
+    "lng": -96.871442
+   },
+   {
+    "name": "GRACE COVENANT CHURCH",
+    "address": "212 N MAIN ST",
+    "city": "Red Oak",
+    "zip": "75154",
+    "room": "Dining Hall",
+    "notes": "",
+    "lat": 32.515411,
+    "lng": -96.802815
+   },
+   {
+    "name": "RED OAK MUNICIPAL CENTER",
+    "address": "200 LAKEVIEW PKWY",
+    "city": "Red Oak",
+    "zip": "75154",
+    "room": "Room A",
+    "notes": "",
+    "lat": 32.514567,
+    "lng": -96.827332
+   },
+   {
+    "name": "ELLIS CO SUB-COURTHOUSE PCT 2- WAX",
+    "address": "2675 W US Hwy 287 Business",
+    "city": "Waxahachie",
+    "zip": "75167",
+    "room": "Multi. Rm",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "ELLIS COUNTY WOMANS BUILDING",
+    "address": "407 W JEFFERSON ST.",
+    "city": "Waxahachie",
+    "zip": "75165",
+    "room": "Davis Hall",
+    "notes": "",
+    "lat": 32.385344,
+    "lng": -96.850519
+   },
+   {
+    "name": "FIRST UNITED METHODIST-WAXAHACHIE",
+    "address": "505 W MARVIN AVE",
+    "city": "Waxahachie",
+    "zip": "75165",
+    "room": "Fidelis Hall",
+    "notes": "",
+    "lat": 32.394245,
+    "lng": -96.848592
+   },
+   {
+    "name": "KNIGHTS OF COLUMBUS",
+    "address": "325 BROADHEAD RD.",
+    "city": "Waxahachie",
+    "zip": "75165",
+    "room": "Main Room",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "PARK MEADOWS BAPTIST CHURCH",
+    "address": "3350 N HWY 77",
+    "city": "Waxahachie",
+    "zip": "75165",
+    "room": "Youth Rm",
+    "notes": "",
+    "lat": 32.470585,
+    "lng": -96.830748
+   },
+   {
+    "name": "SALVATION ARMY OF ELLIS CO.",
+    "address": "620 FARLEY ST.",
+    "city": "Waxahachie",
+    "zip": "75165",
+    "room": "Fellowship Hall in rear",
+    "notes": "",
+    "lat": 32.394143,
+    "lng": -96.834435
+   },
+   {
+    "name": "WAXAHACHIE ISD OLD HIGH SCHOOL",
+    "address": "1000 N HIGHWAY 77",
+    "city": "Waxahachie",
+    "zip": "75165",
+    "room": "Library",
+    "notes": "",
+    "lat": 32.397152,
+    "lng": -96.844806
+   }
+  ]
+ },
+ "notes": "Ellis County uses countywide vote centers, so registered Ellis County voters may vote at any early voting or Election Day vote center. Early voting hours are shorter on October 19 to 23 (8 a.m. to 6 p.m.); the county also posts Election Day wait times at https://updates.electionlink.net/widgets/ellistx/2026-11-03/Election%20Day%20Voting%20Dashboard.html."
 }

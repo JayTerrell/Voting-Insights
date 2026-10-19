@@ -1,999 +1,1159 @@
 {
-  "county": "Cameron",
-  "model": "countywide",
-  "checked_at": "2026-10-19T02:25:00Z",
-  "sources": [
-    {
-      "title": "Cameron County Elections: Locations",
-      "url": "https://www.cameroncountytx.gov/elections/index.php/locations/"
-    },
-    {
-      "title": "Cameron County: Notice of Early Voting Locations, November 3, 2026 (PDF)",
-      "url": "https://www.cameroncountytx.gov/elections/wp-content/uploads/2026/10/November-3-2026-Early-Voting-Locations-for-the-General-Elections-Updted-IAG-08312026.pdf"
-    },
-    {
-      "title": "Cameron County: November 3, 2026 Election Day Vote Centers (PDF)",
-      "url": "https://www.cameroncountytx.gov/elections/wp-content/uploads/2026/09/November-3-2026-Election-Day-Vote-Centers-Updated-IAG-09222026.5.pdf"
-    }
+ "county": "Cameron",
+ "model": "countywide",
+ "checked_at": "2026-10-19T02:25:00Z",
+ "sources": [
+  {
+   "title": "Cameron County Elections: Locations",
+   "url": "https://www.cameroncountytx.gov/elections/index.php/locations/"
+  },
+  {
+   "title": "Cameron County: Notice of Early Voting Locations, November 3, 2026 (PDF)",
+   "url": "https://www.cameroncountytx.gov/elections/wp-content/uploads/2026/10/November-3-2026-Early-Voting-Locations-for-the-General-Elections-Updted-IAG-08312026.pdf"
+  },
+  {
+   "title": "Cameron County: November 3, 2026 Election Day Vote Centers (PDF)",
+   "url": "https://www.cameroncountytx.gov/elections/wp-content/uploads/2026/09/November-3-2026-Election-Day-Vote-Centers-Updated-IAG-09222026.5.pdf"
+  }
+ ],
+ "lookup_url": null,
+ "wait_times_url": null,
+ "early_voting": {
+  "schedule": [
+   {
+    "date": "2026-10-19",
+    "open": "09:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-20",
+    "open": "09:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-21",
+    "open": "09:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-22",
+    "open": "09:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-23",
+    "open": "09:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-24",
+    "open": "10:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-25",
+    "open": "10:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-26",
+    "open": "08:00",
+    "close": "20:00"
+   },
+   {
+    "date": "2026-10-27",
+    "open": "08:00",
+    "close": "20:00"
+   },
+   {
+    "date": "2026-10-28",
+    "open": "08:00",
+    "close": "20:00"
+   },
+   {
+    "date": "2026-10-29",
+    "open": "08:00",
+    "close": "20:00"
+   },
+   {
+    "date": "2026-10-30",
+    "open": "08:00",
+    "close": "20:00"
+   }
   ],
-  "lookup_url": null,
-  "wait_times_url": null,
-  "early_voting": {
+  "sites": [
+   {
+    "name": "Cameron County Courthouse Judicial Complex",
+    "address": "954 E. Harrison St.",
+    "city": "Brownsville",
+    "zip": "",
+    "room": "",
     "schedule": [
-      {
-        "date": "2026-10-19",
-        "open": "09:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-20",
-        "open": "09:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-21",
-        "open": "09:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-22",
-        "open": "09:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-23",
-        "open": "09:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-24",
-        "open": "10:00",
-        "close": "17:00"
-      },
-      {
-        "date": "2026-10-25",
-        "open": "10:00",
-        "close": "17:00"
-      },
-      {
-        "date": "2026-10-26",
-        "open": "08:00",
-        "close": "20:00"
-      },
-      {
-        "date": "2026-10-27",
-        "open": "08:00",
-        "close": "20:00"
-      },
-      {
-        "date": "2026-10-28",
-        "open": "08:00",
-        "close": "20:00"
-      },
-      {
-        "date": "2026-10-29",
-        "open": "08:00",
-        "close": "20:00"
-      },
-      {
-        "date": "2026-10-30",
-        "open": "08:00",
-        "close": "20:00"
-      }
+     {
+      "date": "2026-10-19",
+      "open": "09:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-20",
+      "open": "09:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-21",
+      "open": "09:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-22",
+      "open": "09:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-23",
+      "open": "09:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-24",
+      "open": "08:00",
+      "close": "20:00"
+     },
+     {
+      "date": "2026-10-25",
+      "open": "10:00",
+      "close": "17:00"
+     },
+     {
+      "date": "2026-10-26",
+      "open": "08:00",
+      "close": "20:00"
+     },
+     {
+      "date": "2026-10-27",
+      "open": "08:00",
+      "close": "20:00"
+     },
+     {
+      "date": "2026-10-28",
+      "open": "08:00",
+      "close": "20:00"
+     },
+     {
+      "date": "2026-10-29",
+      "open": "08:00",
+      "close": "20:00"
+     },
+     {
+      "date": "2026-10-30",
+      "open": "08:00",
+      "close": "20:00"
+     }
     ],
-    "sites": [
-      {
-        "name": "Cameron County Courthouse Judicial Complex",
-        "address": "954 E. Harrison St.",
-        "city": "Brownsville",
-        "zip": "",
-        "room": "",
-        "schedule": [
-          {
-            "date": "2026-10-19",
-            "open": "09:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-20",
-            "open": "09:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-21",
-            "open": "09:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-22",
-            "open": "09:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-23",
-            "open": "09:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-24",
-            "open": "08:00",
-            "close": "20:00"
-          },
-          {
-            "date": "2026-10-25",
-            "open": "10:00",
-            "close": "17:00"
-          },
-          {
-            "date": "2026-10-26",
-            "open": "08:00",
-            "close": "20:00"
-          },
-          {
-            "date": "2026-10-27",
-            "open": "08:00",
-            "close": "20:00"
-          },
-          {
-            "date": "2026-10-28",
-            "open": "08:00",
-            "close": "20:00"
-          },
-          {
-            "date": "2026-10-29",
-            "open": "08:00",
-            "close": "20:00"
-          },
-          {
-            "date": "2026-10-30",
-            "open": "08:00",
-            "close": "20:00"
-          }
-        ],
-        "notes": "Main early voting place."
-      },
-      {
-        "name": "Brownsville Public Library",
-        "address": "2600 Central Blvd.",
-        "city": "Brownsville",
-        "zip": "",
-        "room": "",
-        "schedule": [
-          {
-            "date": "2026-10-19",
-            "open": "09:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-20",
-            "open": "09:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-21",
-            "open": "09:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-22",
-            "open": "09:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-23",
-            "open": "09:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-24",
-            "open": "08:00",
-            "close": "20:00"
-          },
-          {
-            "date": "2026-10-25",
-            "open": "10:00",
-            "close": "17:00"
-          },
-          {
-            "date": "2026-10-26",
-            "open": "08:00",
-            "close": "20:00"
-          },
-          {
-            "date": "2026-10-27",
-            "open": "08:00",
-            "close": "20:00"
-          },
-          {
-            "date": "2026-10-28",
-            "open": "08:00",
-            "close": "20:00"
-          },
-          {
-            "date": "2026-10-29",
-            "open": "08:00",
-            "close": "20:00"
-          },
-          {
-            "date": "2026-10-30",
-            "open": "08:00",
-            "close": "20:00"
-          }
-        ],
-        "notes": ""
-      },
-      {
-        "name": "BISD Administrative Bldg",
-        "address": "1900 E. Price Rd",
-        "city": "Brownsville",
-        "zip": "",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Southmost Public Library",
-        "address": "4320 Southmost Rd.",
-        "city": "Brownsville",
-        "zip": "",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Cameron Park Community Center (El Centro Cultural)",
-        "address": "2100 Gregory Ave.",
-        "city": "Brownsville",
-        "zip": "",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Harlingen County Annex Bldg.",
-        "address": "3302 Wilson Rd.",
-        "city": "Harlingen",
-        "zip": "",
-        "room": "",
-        "schedule": [
-          {
-            "date": "2026-10-19",
-            "open": "09:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-20",
-            "open": "09:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-21",
-            "open": "09:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-22",
-            "open": "09:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-23",
-            "open": "09:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-24",
-            "open": "08:00",
-            "close": "20:00"
-          },
-          {
-            "date": "2026-10-25",
-            "open": "10:00",
-            "close": "17:00"
-          },
-          {
-            "date": "2026-10-26",
-            "open": "08:00",
-            "close": "20:00"
-          },
-          {
-            "date": "2026-10-27",
-            "open": "08:00",
-            "close": "20:00"
-          },
-          {
-            "date": "2026-10-28",
-            "open": "08:00",
-            "close": "20:00"
-          },
-          {
-            "date": "2026-10-29",
-            "open": "08:00",
-            "close": "20:00"
-          },
-          {
-            "date": "2026-10-30",
-            "open": "08:00",
-            "close": "20:00"
-          }
-        ],
-        "notes": ""
-      },
-      {
-        "name": "San Benito Community Bldg.",
-        "address": "210 E. Heywood St.",
-        "city": "San Benito",
-        "zip": "",
-        "room": "",
-        "schedule": [
-          {
-            "date": "2026-10-19",
-            "open": "09:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-20",
-            "open": "09:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-21",
-            "open": "09:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-22",
-            "open": "09:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-23",
-            "open": "09:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-24",
-            "open": "08:00",
-            "close": "20:00"
-          },
-          {
-            "date": "2026-10-25",
-            "open": "10:00",
-            "close": "17:00"
-          },
-          {
-            "date": "2026-10-26",
-            "open": "08:00",
-            "close": "20:00"
-          },
-          {
-            "date": "2026-10-27",
-            "open": "08:00",
-            "close": "20:00"
-          },
-          {
-            "date": "2026-10-28",
-            "open": "08:00",
-            "close": "20:00"
-          },
-          {
-            "date": "2026-10-29",
-            "open": "08:00",
-            "close": "20:00"
-          },
-          {
-            "date": "2026-10-30",
-            "open": "08:00",
-            "close": "20:00"
-          }
-        ],
-        "notes": ""
-      },
-      {
-        "name": "Port Isabel City Hall",
-        "address": "305 E. Maxan St",
-        "city": "Port Isabel",
-        "zip": "",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "American Legion Hall",
-        "address": "219 E. Commercial Ave.",
-        "city": "La Feria",
-        "zip": "",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Los Fresnos Community Center",
-        "address": "204 N. Brazil St.",
-        "city": "Los Fresnos",
-        "zip": "",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "New Horizon Health Center",
-        "address": "191 E. Price Rd.",
-        "city": "Brownsville",
-        "zip": "",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Harlingen Cultural Arts Center",
-        "address": "576 \"76\" Dr.",
-        "city": "Harlingen",
-        "zip": "",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Rio Hondo Municipal Center",
-        "address": "121 N. Arroyo Blvd",
-        "city": "Rio Hondo",
-        "zip": "",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Santa Rosa Maria Luisa Ruiz Guerra County Annex Bldg.",
-        "address": "116 Santa Vista Ave.",
-        "city": "Santa Rosa",
-        "zip": "",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "UTRGV Student Union",
-        "address": "650 Ringgold Rd.",
-        "city": "Brownsville",
-        "zip": "",
-        "room": "Salón Jacaranda",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Los Indios Community Center",
-        "address": "309 Heywood St.",
-        "city": "Los Indios",
-        "zip": "",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Town of Rancho Viejo City Hall",
-        "address": "3301 Carmen Ave.",
-        "city": "Rancho Viejo",
-        "zip": "",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Bob Clark Social Service Center",
-        "address": "9901 California Rd.",
-        "city": "Brownsville",
-        "zip": "",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Santa Maria ISD Administrative Bldg.",
-        "address": "11119 Military Hwy 281",
-        "city": "Santa Maria",
-        "zip": "",
-        "room": "Board Room",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "South Padre Island Community Center",
-        "address": "4501 Padre Blvd",
-        "city": "South Padre Island",
-        "zip": "",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "City of Laguna Vista City Hall",
-        "address": "122 Fernandez St.",
-        "city": "Laguna Vista",
-        "zip": "",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      }
-    ]
-  },
-  "election_day": {
-    "open": "07:00",
-    "close": "19:00",
-    "sites": [
-      {
-        "name": "Benavides Elementary School",
-        "address": "3101 McAllen Rd.",
-        "city": "Brownsville",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Bob Clark Social Service Center",
-        "address": "9901 California Rd.",
-        "city": "Brownsville",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Brownsville Public Library",
-        "address": "2600 Central Blvd.",
-        "city": "Brownsville",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Burns Elementary School",
-        "address": "1974 E. Alton Gloor Rd.",
-        "city": "Brownsville",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Cameron County Courthouse Judicial Complex",
-        "address": "954 E. Harrison St.",
-        "city": "Brownsville",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Cameron Park Community Center (El Centro Cultural)",
-        "address": "2100 Gregory Ave.",
-        "city": "Brownsville",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Del Castillo-Morningside Elementary School",
-        "address": "1025 Morningside Rd.",
-        "city": "Brownsville",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Dora Romero Elementary",
-        "address": "9705 Cajun Blvd.",
-        "city": "Brownsville",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "El Jardin Elementary School",
-        "address": "6911 Boca Chica Blvd.",
-        "city": "Brownsville",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Homer Hanna High School",
-        "address": "2615 Price Rd.",
-        "city": "Brownsville",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Hudson Elementary School",
-        "address": "2980 FM 802",
-        "city": "Brownsville",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "J.T. Canales Elementary School",
-        "address": "1811 International Blvd.",
-        "city": "Brownsville",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "James Pace High School",
-        "address": "314 W. Los Ebanos Blvd.",
-        "city": "Brownsville",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Judge Reynaldo G. Garza at Southmost Elementary School",
-        "address": "5245 Southmost Rd.",
-        "city": "Brownsville",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Mariano Gonzalez Sr. Elementary School",
-        "address": "4350 Jaime Zapata Ave.",
-        "city": "Brownsville",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Oliveira Middle School",
-        "address": "444 Land O' Lakes Dr.",
-        "city": "Brownsville",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Olmito Elementary School",
-        "address": "2500 Arroyo Blvd",
-        "city": "Brownsville",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Perkins Middle School",
-        "address": "4750 Austin Rd.",
-        "city": "Brownsville",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "R.L. Martin Elementary School",
-        "address": "1701 Stanford Ave.",
-        "city": "Brownsville",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Raul A. Besteiro Jr. Middle School",
-        "address": "6280 Southmost Rd.",
-        "city": "Brownsville",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Russell Elementary School",
-        "address": "800 Lakeside Blvd.",
-        "city": "Brownsville",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Sharp Elementary School",
-        "address": "1439 Palm Blvd.",
-        "city": "Brownsville",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Simon Rivera High School",
-        "address": "6955 FM 802",
-        "city": "Brownsville",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Skinner Elementary School",
-        "address": "411 W. St. Charles St.",
-        "city": "Brownsville",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Southmost Public Library",
-        "address": "4320 Southmost Rd.",
-        "city": "Brownsville",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "UTRGV Main (BMAIN) Salon Cassia",
-        "address": "1 W University Blvd.",
-        "city": "Brownsville",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Veterans Memorial Early College High School",
-        "address": "4550 US Military Hwy 281",
-        "city": "Brownsville",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Yturria Elementary School",
-        "address": "2955 W. Tandy Rd.",
-        "city": "Brownsville",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Combes Municipal Complex",
-        "address": "21626 Hand Road",
-        "city": "Combes",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Bowie Elementary School",
-        "address": "309 W. Lincoln St.",
-        "city": "Harlingen",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Crockett Elementary School",
-        "address": "1406 W. Jefferson St.",
-        "city": "Harlingen",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Harlingen County Annex Bldg.",
-        "address": "3302 Wilson Rd.",
-        "city": "Harlingen",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Harlingen Cultural Arts Center",
-        "address": "576 \"76\" Dr.",
-        "city": "Harlingen",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Harlingen High School South",
-        "address": "1701 Dixieland Rd.",
-        "city": "Harlingen",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Long Elementary School",
-        "address": "2601 N. 7th St.",
-        "city": "Harlingen",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Stuart Place Elementary School",
-        "address": "6701 W. Business 83",
-        "city": "Harlingen",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "UTRGV (Clinical Education Bldg Auditorium)",
-        "address": "2102 Treasure Hills",
-        "city": "Harlingen",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Vernon Middle School",
-        "address": "125 S. 13th St.",
-        "city": "Harlingen",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Zavala Elementary School",
-        "address": "1111 North \"B\" St.",
-        "city": "Harlingen",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "American Legion Hall",
-        "address": "219 E. Commercial Ave.",
-        "city": "La Feria",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Laguna Vista City Hall Board Room",
-        "address": "122 Fernandez St",
-        "city": "Laguna Vista",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Las Yescas Elementary School",
-        "address": "23413 FM 803",
-        "city": "Las Yescas",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Liberty Memorial Middle School",
-        "address": "31579 FM 2893",
-        "city": "Los Fresnos",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Los Fresnos Community Building",
-        "address": "204 N. Brazil St.",
-        "city": "Los Fresnos",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Los Indios Community Center",
-        "address": "309 E. Heywood St.",
-        "city": "Los Indios",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Villareal Elementary School",
-        "address": "7770 E. Lakeside Blvd.",
-        "city": "Olmito",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Port Isabel City Hall",
-        "address": "305 E. Maxan St.",
-        "city": "Port Isabel",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Primera Municipal Complex",
-        "address": "17635 Primera Rd",
-        "city": "Primera",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Rancho Viejo City Hall",
-        "address": "3301 Carmen Ave.",
-        "city": "Rancho Viejo",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Rio Hondo Municipal Center (Civic Center)",
-        "address": "121 N. Arroyo Blvd.",
-        "city": "Rio Hondo",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Ed Downs Elementary School",
-        "address": "1302 N. Dick Dowling",
-        "city": "San Benito",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Fred Booth Global Leadership Academy",
-        "address": "705 Zaragoza St.",
-        "city": "San Benito",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "La Encantada School",
-        "address": "35001 FM 1577",
-        "city": "San Benito",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "La Paloma Elementary School",
-        "address": "35076 Padilla St.",
-        "city": "San Benito",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "San Benito Community Bldg.",
-        "address": "210 E. Heywood St.",
-        "city": "San Benito",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Sullivan Environmental Science Academy",
-        "address": "900 Elizabeth St.",
-        "city": "San Benito",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Santa Maria ISD Administrative Bldg. Board Room",
-        "address": "11119 Military Hwy 281",
-        "city": "Santa Maria",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Maria Luisa Ruiz Guerra County Annex",
-        "address": "116 Santa Vista Ave.",
-        "city": "Santa Rosa",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "South Padre Island Community Center",
-        "address": "4501 Padre Blvd.",
-        "city": "South Padre Island",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      }
-    ]
-  },
-  "notes": "Early voting runs 9 a.m. to 7 p.m. the first week and 8 a.m. to 8 p.m. the second week; four sites, including the main courthouse site, open 8 a.m. to 8 p.m. on Saturday, October 24. On Election Day any registered voter may use any of the 59 vote centers."
+    "notes": "Main early voting place.",
+    "lat": 25.907587,
+    "lng": -97.494334
+   },
+   {
+    "name": "Brownsville Public Library",
+    "address": "2600 Central Blvd.",
+    "city": "Brownsville",
+    "zip": "",
+    "room": "",
+    "schedule": [
+     {
+      "date": "2026-10-19",
+      "open": "09:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-20",
+      "open": "09:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-21",
+      "open": "09:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-22",
+      "open": "09:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-23",
+      "open": "09:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-24",
+      "open": "08:00",
+      "close": "20:00"
+     },
+     {
+      "date": "2026-10-25",
+      "open": "10:00",
+      "close": "17:00"
+     },
+     {
+      "date": "2026-10-26",
+      "open": "08:00",
+      "close": "20:00"
+     },
+     {
+      "date": "2026-10-27",
+      "open": "08:00",
+      "close": "20:00"
+     },
+     {
+      "date": "2026-10-28",
+      "open": "08:00",
+      "close": "20:00"
+     },
+     {
+      "date": "2026-10-29",
+      "open": "08:00",
+      "close": "20:00"
+     },
+     {
+      "date": "2026-10-30",
+      "open": "08:00",
+      "close": "20:00"
+     }
+    ],
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "BISD Administrative Bldg",
+    "address": "1900 E. Price Rd",
+    "city": "Brownsville",
+    "zip": "",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Southmost Public Library",
+    "address": "4320 Southmost Rd.",
+    "city": "Brownsville",
+    "zip": "",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 25.896355,
+    "lng": -97.449823
+   },
+   {
+    "name": "Cameron Park Community Center (El Centro Cultural)",
+    "address": "2100 Gregory Ave.",
+    "city": "Brownsville",
+    "zip": "",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Harlingen County Annex Bldg.",
+    "address": "3302 Wilson Rd.",
+    "city": "Harlingen",
+    "zip": "",
+    "room": "",
+    "schedule": [
+     {
+      "date": "2026-10-19",
+      "open": "09:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-20",
+      "open": "09:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-21",
+      "open": "09:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-22",
+      "open": "09:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-23",
+      "open": "09:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-24",
+      "open": "08:00",
+      "close": "20:00"
+     },
+     {
+      "date": "2026-10-25",
+      "open": "10:00",
+      "close": "17:00"
+     },
+     {
+      "date": "2026-10-26",
+      "open": "08:00",
+      "close": "20:00"
+     },
+     {
+      "date": "2026-10-27",
+      "open": "08:00",
+      "close": "20:00"
+     },
+     {
+      "date": "2026-10-28",
+      "open": "08:00",
+      "close": "20:00"
+     },
+     {
+      "date": "2026-10-29",
+      "open": "08:00",
+      "close": "20:00"
+     },
+     {
+      "date": "2026-10-30",
+      "open": "08:00",
+      "close": "20:00"
+     }
+    ],
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "San Benito Community Bldg.",
+    "address": "210 E. Heywood St.",
+    "city": "San Benito",
+    "zip": "",
+    "room": "",
+    "schedule": [
+     {
+      "date": "2026-10-19",
+      "open": "09:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-20",
+      "open": "09:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-21",
+      "open": "09:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-22",
+      "open": "09:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-23",
+      "open": "09:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-24",
+      "open": "08:00",
+      "close": "20:00"
+     },
+     {
+      "date": "2026-10-25",
+      "open": "10:00",
+      "close": "17:00"
+     },
+     {
+      "date": "2026-10-26",
+      "open": "08:00",
+      "close": "20:00"
+     },
+     {
+      "date": "2026-10-27",
+      "open": "08:00",
+      "close": "20:00"
+     },
+     {
+      "date": "2026-10-28",
+      "open": "08:00",
+      "close": "20:00"
+     },
+     {
+      "date": "2026-10-29",
+      "open": "08:00",
+      "close": "20:00"
+     },
+     {
+      "date": "2026-10-30",
+      "open": "08:00",
+      "close": "20:00"
+     }
+    ],
+    "notes": "",
+    "lat": 26.132547,
+    "lng": -97.629423
+   },
+   {
+    "name": "Port Isabel City Hall",
+    "address": "305 E. Maxan St",
+    "city": "Port Isabel",
+    "zip": "",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 26.07727,
+    "lng": -97.208831
+   },
+   {
+    "name": "American Legion Hall",
+    "address": "219 E. Commercial Ave.",
+    "city": "La Feria",
+    "zip": "",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 26.158698,
+    "lng": -97.82178
+   },
+   {
+    "name": "Los Fresnos Community Center",
+    "address": "204 N. Brazil St.",
+    "city": "Los Fresnos",
+    "zip": "",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 26.072831,
+    "lng": -97.478687
+   },
+   {
+    "name": "New Horizon Health Center",
+    "address": "191 E. Price Rd.",
+    "city": "Brownsville",
+    "zip": "",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 25.936054,
+    "lng": -97.495107
+   },
+   {
+    "name": "Harlingen Cultural Arts Center",
+    "address": "576 \"76\" Dr.",
+    "city": "Harlingen",
+    "zip": "",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Rio Hondo Municipal Center",
+    "address": "121 N. Arroyo Blvd",
+    "city": "Rio Hondo",
+    "zip": "",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 29.395798,
+    "lng": -100.917085
+   },
+   {
+    "name": "Santa Rosa Maria Luisa Ruiz Guerra County Annex Bldg.",
+    "address": "116 Santa Vista Ave.",
+    "city": "Santa Rosa",
+    "zip": "",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "UTRGV Student Union",
+    "address": "650 Ringgold Rd.",
+    "city": "Brownsville",
+    "zip": "",
+    "room": "Salón Jacaranda",
+    "schedule": null,
+    "notes": "",
+    "lat": 25.911932,
+    "lng": -97.493582
+   },
+   {
+    "name": "Los Indios Community Center",
+    "address": "309 Heywood St.",
+    "city": "Los Indios",
+    "zip": "",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Town of Rancho Viejo City Hall",
+    "address": "3301 Carmen Ave.",
+    "city": "Rancho Viejo",
+    "zip": "",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 26.046094,
+    "lng": -97.552259
+   },
+   {
+    "name": "Bob Clark Social Service Center",
+    "address": "9901 California Rd.",
+    "city": "Brownsville",
+    "zip": "",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 25.895331,
+    "lng": -97.39554
+   },
+   {
+    "name": "Santa Maria ISD Administrative Bldg.",
+    "address": "11119 Military Hwy 281",
+    "city": "Santa Maria",
+    "zip": "",
+    "room": "Board Room",
+    "schedule": null,
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "South Padre Island Community Center",
+    "address": "4501 Padre Blvd",
+    "city": "South Padre Island",
+    "zip": "",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 26.118138,
+    "lng": -97.169816
+   },
+   {
+    "name": "City of Laguna Vista City Hall",
+    "address": "122 Fernandez St.",
+    "city": "Laguna Vista",
+    "zip": "",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 26.103047,
+    "lng": -97.29114
+   }
+  ]
+ },
+ "election_day": {
+  "open": "07:00",
+  "close": "19:00",
+  "sites": [
+   {
+    "name": "Benavides Elementary School",
+    "address": "3101 McAllen Rd.",
+    "city": "Brownsville",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 25.959367,
+    "lng": -97.514838
+   },
+   {
+    "name": "Bob Clark Social Service Center",
+    "address": "9901 California Rd.",
+    "city": "Brownsville",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 25.895331,
+    "lng": -97.39554
+   },
+   {
+    "name": "Brownsville Public Library",
+    "address": "2600 Central Blvd.",
+    "city": "Brownsville",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Burns Elementary School",
+    "address": "1974 E. Alton Gloor Rd.",
+    "city": "Brownsville",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 25.982015,
+    "lng": -97.485335
+   },
+   {
+    "name": "Cameron County Courthouse Judicial Complex",
+    "address": "954 E. Harrison St.",
+    "city": "Brownsville",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 25.907587,
+    "lng": -97.494334
+   },
+   {
+    "name": "Cameron Park Community Center (El Centro Cultural)",
+    "address": "2100 Gregory Ave.",
+    "city": "Brownsville",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Del Castillo-Morningside Elementary School",
+    "address": "1025 Morningside Rd.",
+    "city": "Brownsville",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 25.903188,
+    "lng": -97.445822
+   },
+   {
+    "name": "Dora Romero Elementary",
+    "address": "9705 Cajun Blvd.",
+    "city": "Brownsville",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "El Jardin Elementary School",
+    "address": "6911 Boca Chica Blvd.",
+    "city": "Brownsville",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 25.917054,
+    "lng": -97.415906
+   },
+   {
+    "name": "Homer Hanna High School",
+    "address": "2615 Price Rd.",
+    "city": "Brownsville",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 25.936113,
+    "lng": -97.495813
+   },
+   {
+    "name": "Hudson Elementary School",
+    "address": "2980 FM 802",
+    "city": "Brownsville",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 25.949935,
+    "lng": -97.475904
+   },
+   {
+    "name": "J.T. Canales Elementary School",
+    "address": "1811 International Blvd.",
+    "city": "Brownsville",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "James Pace High School",
+    "address": "314 W. Los Ebanos Blvd.",
+    "city": "Brownsville",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 25.934091,
+    "lng": -97.525327
+   },
+   {
+    "name": "Judge Reynaldo G. Garza at Southmost Elementary School",
+    "address": "5245 Southmost Rd.",
+    "city": "Brownsville",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 25.891405,
+    "lng": -97.438906
+   },
+   {
+    "name": "Mariano Gonzalez Sr. Elementary School",
+    "address": "4350 Jaime Zapata Ave.",
+    "city": "Brownsville",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 25.939941,
+    "lng": -97.450046
+   },
+   {
+    "name": "Oliveira Middle School",
+    "address": "444 Land O' Lakes Dr.",
+    "city": "Brownsville",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 25.926875,
+    "lng": -97.469876
+   },
+   {
+    "name": "Olmito Elementary School",
+    "address": "2500 Arroyo Blvd",
+    "city": "Brownsville",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 26.009745,
+    "lng": -97.523931
+   },
+   {
+    "name": "Perkins Middle School",
+    "address": "4750 Austin Rd.",
+    "city": "Brownsville",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 25.930241,
+    "lng": -97.445038
+   },
+   {
+    "name": "R.L. Martin Elementary School",
+    "address": "1701 Stanford Ave.",
+    "city": "Brownsville",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 25.926185,
+    "lng": -97.495036
+   },
+   {
+    "name": "Raul A. Besteiro Jr. Middle School",
+    "address": "6280 Southmost Rd.",
+    "city": "Brownsville",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 25.879347,
+    "lng": -97.437439
+   },
+   {
+    "name": "Russell Elementary School",
+    "address": "800 Lakeside Blvd.",
+    "city": "Brownsville",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 25.923144,
+    "lng": -97.514309
+   },
+   {
+    "name": "Sharp Elementary School",
+    "address": "1439 Palm Blvd.",
+    "city": "Brownsville",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Simon Rivera High School",
+    "address": "6955 FM 802",
+    "city": "Brownsville",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 25.938781,
+    "lng": -97.412234
+   },
+   {
+    "name": "Skinner Elementary School",
+    "address": "411 W. St. Charles St.",
+    "city": "Brownsville",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 25.910841,
+    "lng": -97.511308
+   },
+   {
+    "name": "Southmost Public Library",
+    "address": "4320 Southmost Rd.",
+    "city": "Brownsville",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 25.896355,
+    "lng": -97.449823
+   },
+   {
+    "name": "UTRGV Main (BMAIN) Salon Cassia",
+    "address": "1 W University Blvd.",
+    "city": "Brownsville",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Veterans Memorial Early College High School",
+    "address": "4550 US Military Hwy 281",
+    "city": "Brownsville",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 25.928783,
+    "lng": -97.524908
+   },
+   {
+    "name": "Yturria Elementary School",
+    "address": "2955 W. Tandy Rd.",
+    "city": "Brownsville",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 25.97047,
+    "lng": -97.537528
+   },
+   {
+    "name": "Combes Municipal Complex",
+    "address": "21626 Hand Road",
+    "city": "Combes",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Bowie Elementary School",
+    "address": "309 W. Lincoln St.",
+    "city": "Harlingen",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 26.183284,
+    "lng": -97.697911
+   },
+   {
+    "name": "Crockett Elementary School",
+    "address": "1406 W. Jefferson St.",
+    "city": "Harlingen",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 26.196008,
+    "lng": -97.7105
+   },
+   {
+    "name": "Harlingen County Annex Bldg.",
+    "address": "3302 Wilson Rd.",
+    "city": "Harlingen",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Harlingen Cultural Arts Center",
+    "address": "576 \"76\" Dr.",
+    "city": "Harlingen",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Harlingen High School South",
+    "address": "1701 Dixieland Rd.",
+    "city": "Harlingen",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 26.181552,
+    "lng": -97.720787
+   },
+   {
+    "name": "Long Elementary School",
+    "address": "2601 N. 7th St.",
+    "city": "Harlingen",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 26.217738,
+    "lng": -97.689346
+   },
+   {
+    "name": "Stuart Place Elementary School",
+    "address": "6701 W. Business 83",
+    "city": "Harlingen",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "UTRGV (Clinical Education Bldg Auditorium)",
+    "address": "2102 Treasure Hills",
+    "city": "Harlingen",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 26.173836,
+    "lng": -97.667241
+   },
+   {
+    "name": "Vernon Middle School",
+    "address": "125 S. 13th St.",
+    "city": "Harlingen",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 26.192504,
+    "lng": -97.682359
+   },
+   {
+    "name": "Zavala Elementary School",
+    "address": "1111 North \"B\" St.",
+    "city": "Harlingen",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 26.203515,
+    "lng": -97.697914
+   },
+   {
+    "name": "American Legion Hall",
+    "address": "219 E. Commercial Ave.",
+    "city": "La Feria",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 26.158698,
+    "lng": -97.82178
+   },
+   {
+    "name": "Laguna Vista City Hall Board Room",
+    "address": "122 Fernandez St",
+    "city": "Laguna Vista",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 26.103047,
+    "lng": -97.29114
+   },
+   {
+    "name": "Las Yescas Elementary School",
+    "address": "23413 FM 803",
+    "city": "Las Yescas",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Liberty Memorial Middle School",
+    "address": "31579 FM 2893",
+    "city": "Los Fresnos",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Los Fresnos Community Building",
+    "address": "204 N. Brazil St.",
+    "city": "Los Fresnos",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 26.072831,
+    "lng": -97.478687
+   },
+   {
+    "name": "Los Indios Community Center",
+    "address": "309 E. Heywood St.",
+    "city": "Los Indios",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Villareal Elementary School",
+    "address": "7770 E. Lakeside Blvd.",
+    "city": "Olmito",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Port Isabel City Hall",
+    "address": "305 E. Maxan St.",
+    "city": "Port Isabel",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 26.07727,
+    "lng": -97.208831
+   },
+   {
+    "name": "Primera Municipal Complex",
+    "address": "17635 Primera Rd",
+    "city": "Primera",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Rancho Viejo City Hall",
+    "address": "3301 Carmen Ave.",
+    "city": "Rancho Viejo",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 26.046094,
+    "lng": -97.552259
+   },
+   {
+    "name": "Rio Hondo Municipal Center (Civic Center)",
+    "address": "121 N. Arroyo Blvd.",
+    "city": "Rio Hondo",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 29.395798,
+    "lng": -100.917085
+   },
+   {
+    "name": "Ed Downs Elementary School",
+    "address": "1302 N. Dick Dowling",
+    "city": "San Benito",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 26.138805,
+    "lng": -97.621002
+   },
+   {
+    "name": "Fred Booth Global Leadership Academy",
+    "address": "705 Zaragoza St.",
+    "city": "San Benito",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 26.133936,
+    "lng": -97.638979
+   },
+   {
+    "name": "La Encantada School",
+    "address": "35001 FM 1577",
+    "city": "San Benito",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 26.030432,
+    "lng": -97.628834
+   },
+   {
+    "name": "La Paloma Elementary School",
+    "address": "35076 Padilla St.",
+    "city": "San Benito",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 26.04995,
+    "lng": -97.666544
+   },
+   {
+    "name": "San Benito Community Bldg.",
+    "address": "210 E. Heywood St.",
+    "city": "San Benito",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 26.132547,
+    "lng": -97.629423
+   },
+   {
+    "name": "Sullivan Environmental Science Academy",
+    "address": "900 Elizabeth St.",
+    "city": "San Benito",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 26.128148,
+    "lng": -97.641655
+   },
+   {
+    "name": "Santa Maria ISD Administrative Bldg. Board Room",
+    "address": "11119 Military Hwy 281",
+    "city": "Santa Maria",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Maria Luisa Ruiz Guerra County Annex",
+    "address": "116 Santa Vista Ave.",
+    "city": "Santa Rosa",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "South Padre Island Community Center",
+    "address": "4501 Padre Blvd.",
+    "city": "South Padre Island",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 26.118138,
+    "lng": -97.169816
+   }
+  ]
+ },
+ "notes": "Early voting runs 9 a.m. to 7 p.m. the first week and 8 a.m. to 8 p.m. the second week; four sites, including the main courthouse site, open 8 a.m. to 8 p.m. on Saturday, October 24. On Election Day any registered voter may use any of the 59 vote centers."
 }

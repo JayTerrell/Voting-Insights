@@ -1,294 +1,342 @@
 {
-  "county": "Orange",
-  "model": "countywide",
-  "checked_at": "2026-10-19T02:17:40Z",
-  "sources": [
-    {
-      "title": "Orange County Elections Administration: Election Location & Hours",
-      "url": "https://www.co.orange.tx.us/departments/electionsadministration/electionlocationhours"
-    },
-    {
-      "title": "Orange County: Early Voting Locations, General Election 2026 (PDF)",
-      "url": "https://www.co.orange.tx.us/media/Elections/2026/General%20Election%20November%203%202026/Locations/Early%20Voting/Early%20Voting%20Locations%20110326.pdf"
-    },
-    {
-      "title": "Orange County: Countywide Election Day Locations (PDF)",
-      "url": "https://www.co.orange.tx.us/media/Elections/2026/General%20Election%20November%203%202026/Locations/Election%20Day/Election%20Day%20Locations%20110326.pdf"
-    },
-    {
-      "title": "Orange County: Amended Notice of General Election (PDF)",
-      "url": "https://www.co.orange.tx.us/media/Elections/2026/General%20Election%20November%203%202026/Election%20Notice/Amended%20Notice%20of%20Election%201%20-%2011032026%20Signed.pdf"
-    }
-  ],
-  "lookup_url": null,
-  "wait_times_url": null,
-  "early_voting": {
-    "schedule": [
-      {
-        "date": "2026-10-19",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
-        "date": "2026-10-20",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
-        "date": "2026-10-21",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
-        "date": "2026-10-22",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
-        "date": "2026-10-23",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
-        "date": "2026-10-24",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-25",
-        "open": "13:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-26",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-27",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-28",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-29",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-30",
-        "open": "07:00",
-        "close": "19:00"
-      }
-    ],
-    "sites": [
-      {
-        "name": "Orange Public Library",
-        "address": "220 N 5th Street",
-        "city": "Orange",
-        "zip": "77630",
-        "room": "",
-        "schedule": null,
-        "notes": "Main early voting location."
-      },
-      {
-        "name": "Orange County Precinct 2 POD",
-        "address": "5320 Arnel Lane",
-        "city": "Mauriceville",
-        "zip": "77632",
-        "room": "",
-        "schedule": null,
-        "notes": "The election notice lists the city as Orange, TX 77632."
-      },
-      {
-        "name": "Orange County Precinct 3 POD",
-        "address": "2010 HWY 87 S",
-        "city": "Orange",
-        "zip": "77630",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Raymond Gould Community Center",
-        "address": "385 Claiborne Street",
-        "city": "Vidor",
-        "zip": "77662",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      }
-    ]
+ "county": "Orange",
+ "model": "countywide",
+ "checked_at": "2026-10-19T02:17:40Z",
+ "sources": [
+  {
+   "title": "Orange County Elections Administration: Election Location & Hours",
+   "url": "https://www.co.orange.tx.us/departments/electionsadministration/electionlocationhours"
   },
-  "election_day": {
+  {
+   "title": "Orange County: Early Voting Locations, General Election 2026 (PDF)",
+   "url": "https://www.co.orange.tx.us/media/Elections/2026/General%20Election%20November%203%202026/Locations/Early%20Voting/Early%20Voting%20Locations%20110326.pdf"
+  },
+  {
+   "title": "Orange County: Countywide Election Day Locations (PDF)",
+   "url": "https://www.co.orange.tx.us/media/Elections/2026/General%20Election%20November%203%202026/Locations/Election%20Day/Election%20Day%20Locations%20110326.pdf"
+  },
+  {
+   "title": "Orange County: Amended Notice of General Election (PDF)",
+   "url": "https://www.co.orange.tx.us/media/Elections/2026/General%20Election%20November%203%202026/Election%20Notice/Amended%20Notice%20of%20Election%201%20-%2011032026%20Signed.pdf"
+  }
+ ],
+ "lookup_url": null,
+ "wait_times_url": null,
+ "early_voting": {
+  "schedule": [
+   {
+    "date": "2026-10-19",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-20",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-21",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-22",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-23",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-24",
     "open": "07:00",
-    "close": "19:00",
-    "sites": [
-      {
-        "name": "Bridge City Library",
-        "address": "101 Parkside Drive",
-        "city": "Bridge City",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "DOW Business Center",
-        "address": "2601 Irving Street",
-        "city": "Orange",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "North Orange Baptist Church",
-        "address": "4775 N 16th Street",
-        "city": "Orange",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Orange County Drainage District",
-        "address": "8081 Old Hwy 90",
-        "city": "Orange",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Orange County Expo Center",
-        "address": "11475 FM 1442",
-        "city": "Orange",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Orange County Precinct 1 POD",
-        "address": "8520 Martin Luther King Dr",
-        "city": "Orange",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Orange County Precinct 2 POD",
-        "address": "5320 Arnel Lane",
-        "city": "Mauriceville",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Orange County Precinct 3 POD",
-        "address": "2010 HWY 87 S",
-        "city": "Orange",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Orange County Precinct 4 POD",
-        "address": "19163 IH-10",
-        "city": "Vidor",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Orange Public Library",
-        "address": "220 N 5th Street",
-        "city": "Orange",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Orangefield Cormier Museum",
-        "address": "9908 FM 105",
-        "city": "Orangefield",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Pecan Acres Baptist Church",
-        "address": "14795 Duncan Woods Lane",
-        "city": "Vidor",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Pine Forest Baptist Church",
-        "address": "4800 N Main Street",
-        "city": "Vidor",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Raymond Gould Community Center",
-        "address": "385 Claiborne Street",
-        "city": "Vidor",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Sabine River Authority",
-        "address": "12777 N Hwy 87",
-        "city": "Orange",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Salvation Army",
-        "address": "1950 Martin Luther King Drive",
-        "city": "Orange",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "St. Paul Methodist Church",
-        "address": "1155 W Roundbunch Road",
-        "city": "Bridge City",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "West Orange City Hall",
-        "address": "2700 Western Avenue",
-        "city": "Orange",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "WOC-CISD Admin/Education Bldg",
-        "address": "902 W Park Avenue",
-        "city": "Orange",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Vidor ISD Administration Bldg",
-        "address": "1255 N Main Street",
-        "city": "Vidor",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      }
-    ]
-  },
-  "notes": "Orange County uses countywide polling locations, so voters may vote at any listed location during early voting and on Election Day. Early voting is 8 a.m. to 5 p.m. Oct 19 to 23, 7 a.m. to 7 p.m. Saturday Oct 24, 1 p.m. to 7 p.m. Sunday Oct 25, and 7 a.m. to 7 p.m. Oct 26 to 30."
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-25",
+    "open": "13:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-26",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-27",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-28",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-29",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-30",
+    "open": "07:00",
+    "close": "19:00"
+   }
+  ],
+  "sites": [
+   {
+    "name": "Orange Public Library",
+    "address": "220 N 5th Street",
+    "city": "Orange",
+    "zip": "77630",
+    "room": "",
+    "schedule": null,
+    "notes": "Main early voting location.",
+    "lat": 30.0914,
+    "lng": -93.734282
+   },
+   {
+    "name": "Orange County Precinct 2 POD",
+    "address": "5320 Arnel Lane",
+    "city": "Mauriceville",
+    "zip": "77632",
+    "room": "",
+    "schedule": null,
+    "notes": "The election notice lists the city as Orange, TX 77632.",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Orange County Precinct 3 POD",
+    "address": "2010 HWY 87 S",
+    "city": "Orange",
+    "zip": "77630",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 30.094445,
+    "lng": -93.764736
+   },
+   {
+    "name": "Raymond Gould Community Center",
+    "address": "385 Claiborne Street",
+    "city": "Vidor",
+    "zip": "77662",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 30.134977,
+    "lng": -94.002689
+   }
+  ]
+ },
+ "election_day": {
+  "open": "07:00",
+  "close": "19:00",
+  "sites": [
+   {
+    "name": "Bridge City Library",
+    "address": "101 Parkside Drive",
+    "city": "Bridge City",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 30.033594,
+    "lng": -93.843737
+   },
+   {
+    "name": "DOW Business Center",
+    "address": "2601 Irving Street",
+    "city": "Orange",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 30.064891,
+    "lng": -93.760165
+   },
+   {
+    "name": "North Orange Baptist Church",
+    "address": "4775 N 16th Street",
+    "city": "Orange",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 30.13375,
+    "lng": -93.749005
+   },
+   {
+    "name": "Orange County Drainage District",
+    "address": "8081 Old Hwy 90",
+    "city": "Orange",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 30.119372,
+    "lng": -93.834845
+   },
+   {
+    "name": "Orange County Expo Center",
+    "address": "11475 FM 1442",
+    "city": "Orange",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Orange County Precinct 1 POD",
+    "address": "8520 Martin Luther King Dr",
+    "city": "Orange",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Orange County Precinct 2 POD",
+    "address": "5320 Arnel Lane",
+    "city": "Mauriceville",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Orange County Precinct 3 POD",
+    "address": "2010 HWY 87 S",
+    "city": "Orange",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 30.094445,
+    "lng": -93.764736
+   },
+   {
+    "name": "Orange County Precinct 4 POD",
+    "address": "19163 IH-10",
+    "city": "Vidor",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Orange Public Library",
+    "address": "220 N 5th Street",
+    "city": "Orange",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 30.0914,
+    "lng": -93.734282
+   },
+   {
+    "name": "Orangefield Cormier Museum",
+    "address": "9908 FM 105",
+    "city": "Orangefield",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 30.072424,
+    "lng": -93.901182
+   },
+   {
+    "name": "Pecan Acres Baptist Church",
+    "address": "14795 Duncan Woods Lane",
+    "city": "Vidor",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 30.079246,
+    "lng": -93.97454
+   },
+   {
+    "name": "Pine Forest Baptist Church",
+    "address": "4800 N Main Street",
+    "city": "Vidor",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Raymond Gould Community Center",
+    "address": "385 Claiborne Street",
+    "city": "Vidor",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 30.134977,
+    "lng": -94.002689
+   },
+   {
+    "name": "Sabine River Authority",
+    "address": "12777 N Hwy 87",
+    "city": "Orange",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Salvation Army",
+    "address": "1950 Martin Luther King Drive",
+    "city": "Orange",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 30.107808,
+    "lng": -93.779592
+   },
+   {
+    "name": "St. Paul Methodist Church",
+    "address": "1155 W Roundbunch Road",
+    "city": "Bridge City",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 30.035149,
+    "lng": -93.853159
+   },
+   {
+    "name": "West Orange City Hall",
+    "address": "2700 Western Avenue",
+    "city": "Orange",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 30.083706,
+    "lng": -93.761351
+   },
+   {
+    "name": "WOC-CISD Admin/Education Bldg",
+    "address": "902 W Park Avenue",
+    "city": "Orange",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 30.099404,
+    "lng": -93.73799
+   },
+   {
+    "name": "Vidor ISD Administration Bldg",
+    "address": "1255 N Main Street",
+    "city": "Vidor",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 30.141534,
+    "lng": -94.015727
+   }
+  ]
+ },
+ "notes": "Orange County uses countywide polling locations, so voters may vote at any listed location during early voting and on Election Day. Early voting is 8 a.m. to 5 p.m. Oct 19 to 23, 7 a.m. to 7 p.m. Saturday Oct 24, 1 p.m. to 7 p.m. Sunday Oct 25, and 7 a.m. to 7 p.m. Oct 26 to 30."
 }

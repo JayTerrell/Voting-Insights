@@ -1,0 +1,421 @@
+{
+ "county": "Randall",
+ "model": "countywide",
+ "checked_at": "2026-10-19T03:15:00Z",
+ "sources": [
+  {
+   "title": "Randall County Election Administration",
+   "url": "https://www.randallcounty.gov/166/Election-Administration"
+  },
+  {
+   "title": "Randall County: Early Voting Schedule, November 3, 2026 (PDF)",
+   "url": "https://www.randallcounty.gov/DocumentCenter/View/4630"
+  },
+  {
+   "title": "Randall County: Election Day Vote Centers, November 3, 2026 (PDF)",
+   "url": "https://www.randallcounty.gov/DocumentCenter/View/4631"
+  }
+ ],
+ "lookup_url": null,
+ "wait_times_url": null,
+ "early_voting": {
+  "schedule": [
+   {
+    "date": "2026-10-19",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-20",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-21",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-22",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-23",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-24",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-25",
+    "open": "12:00",
+    "close": "18:00"
+   },
+   {
+    "date": "2026-10-26",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-27",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-28",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-29",
+    "open": "08:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-30",
+    "open": "08:00",
+    "close": "19:00"
+   }
+  ],
+  "sites": [
+   {
+    "name": "Randall County Election Administration Office",
+    "address": "1604 5th Ave",
+    "city": "Canyon",
+    "zip": "79015",
+    "room": "",
+    "schedule": [
+     {
+      "date": "2026-10-19",
+      "open": "08:00",
+      "close": "17:00"
+     },
+     {
+      "date": "2026-10-20",
+      "open": "08:00",
+      "close": "17:00"
+     },
+     {
+      "date": "2026-10-21",
+      "open": "08:00",
+      "close": "17:00"
+     },
+     {
+      "date": "2026-10-22",
+      "open": "08:00",
+      "close": "17:00"
+     },
+     {
+      "date": "2026-10-23",
+      "open": "08:00",
+      "close": "17:00"
+     },
+     {
+      "date": "2026-10-24",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-25",
+      "open": "12:00",
+      "close": "18:00"
+     },
+     {
+      "date": "2026-10-26",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-27",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-28",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-29",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-30",
+      "open": "07:00",
+      "close": "19:00"
+     }
+    ],
+    "notes": "Main early voting location.",
+    "lat": 34.978786,
+    "lng": -101.927456
+   },
+   {
+    "name": "Randall County Annex",
+    "address": "4320 S. Western",
+    "city": "Amarillo",
+    "zip": "79109",
+    "room": "",
+    "schedule": [
+     {
+      "date": "2026-10-19",
+      "open": "08:00",
+      "close": "17:00"
+     },
+     {
+      "date": "2026-10-20",
+      "open": "08:00",
+      "close": "17:00"
+     },
+     {
+      "date": "2026-10-21",
+      "open": "08:00",
+      "close": "17:00"
+     },
+     {
+      "date": "2026-10-22",
+      "open": "08:00",
+      "close": "17:00"
+     },
+     {
+      "date": "2026-10-23",
+      "open": "08:00",
+      "close": "17:00"
+     },
+     {
+      "date": "2026-10-24",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-25",
+      "open": "12:00",
+      "close": "18:00"
+     },
+     {
+      "date": "2026-10-26",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-27",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-28",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-29",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-30",
+      "open": "07:00",
+      "close": "19:00"
+     }
+    ],
+    "notes": "The Election Day vote center list shows ZIP 79110 for this address.",
+    "lat": 35.166247,
+    "lng": -101.883973
+   },
+   {
+    "name": "Randall County Justice Center",
+    "address": "2309 Russell Long Blvd",
+    "city": "Canyon",
+    "zip": "79015",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 34.984858,
+    "lng": -101.917932
+   },
+   {
+    "name": "Southwest Branch Public Library",
+    "address": "6801 SW 45th Ave.",
+    "city": "Amarillo",
+    "zip": "79109",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 35.161613,
+    "lng": -101.913172
+   },
+   {
+    "name": "Comanche Trail Church of Christ",
+    "address": "2700 E. 34th",
+    "city": "Amarillo",
+    "zip": "79103",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 35.178339,
+    "lng": -101.809416
+   }
+  ]
+ },
+ "election_day": {
+  "open": "07:00",
+  "close": "19:00",
+  "sites": [
+   {
+    "name": "Arena of Life Church",
+    "address": "8827 S. Washington",
+    "city": "Amarillo",
+    "zip": "79118",
+    "room": "",
+    "notes": "",
+    "lat": 35.115831,
+    "lng": -101.848233
+   },
+   {
+    "name": "Journey Church",
+    "address": "9711 FM 2186",
+    "city": "Amarillo",
+    "zip": "79119",
+    "room": "",
+    "notes": "",
+    "lat": 35.117056,
+    "lng": -101.951003
+   },
+   {
+    "name": "Comanche Trail Church of Christ",
+    "address": "2700 E. 34th",
+    "city": "Amarillo",
+    "zip": "79103",
+    "room": "",
+    "notes": "",
+    "lat": 35.178339,
+    "lng": -101.809416
+   },
+   {
+    "name": "Arden Road Baptist",
+    "address": "6701 Arden Road",
+    "city": "Amarillo",
+    "zip": "79109",
+    "room": "",
+    "notes": "",
+    "lat": 35.131818,
+    "lng": -101.912434
+   },
+   {
+    "name": "Randall County Justice Center",
+    "address": "2309 Russell Long Blvd",
+    "city": "Canyon",
+    "zip": "79015",
+    "room": "",
+    "notes": "",
+    "lat": 34.984858,
+    "lng": -101.917932
+   },
+   {
+    "name": "Oasis Southwest Baptist Church",
+    "address": "8201 Canyon Drive",
+    "city": "Amarillo",
+    "zip": "79110",
+    "room": "",
+    "notes": "",
+    "lat": 35.124501,
+    "lng": -101.904466
+   },
+   {
+    "name": "Church of Christ at the Colonies",
+    "address": "4500 Wesley Rd",
+    "city": "Amarillo",
+    "zip": "79119",
+    "room": "",
+    "notes": "",
+    "lat": 35.161313,
+    "lng": -101.934081
+   },
+   {
+    "name": "Central Baptist Church",
+    "address": "1601 SW 58th",
+    "city": "Amarillo",
+    "zip": "79110",
+    "room": "",
+    "notes": "",
+    "lat": 35.149244,
+    "lng": -101.854658
+   },
+   {
+    "name": "Southwest Church of Christ",
+    "address": "4515 Cornell",
+    "city": "Amarillo",
+    "zip": "79109",
+    "room": "",
+    "notes": "",
+    "lat": 35.161307,
+    "lng": -101.897676
+   },
+   {
+    "name": "Randall County Annex",
+    "address": "4320 S. Western",
+    "city": "Amarillo",
+    "zip": "79110",
+    "room": "",
+    "notes": "The early voting schedule shows ZIP 79109 for this address.",
+    "lat": 35.166247,
+    "lng": -101.883973
+   },
+   {
+    "name": "Redeemer Christian Church",
+    "address": "3701 S. Soncy",
+    "city": "Amarillo",
+    "zip": "79121",
+    "room": "",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Lifeway Church",
+    "address": "2008 12th Avenue",
+    "city": "Canyon",
+    "zip": "79015",
+    "room": "",
+    "notes": "Formerly The Summit.",
+    "lat": 34.971591,
+    "lng": -101.922411
+   },
+   {
+    "name": "Southwest Public Library",
+    "address": "6801 SW 45th Ave",
+    "city": "Amarillo",
+    "zip": "79109",
+    "room": "",
+    "notes": "",
+    "lat": 35.161613,
+    "lng": -101.913172
+   },
+   {
+    "name": "Texas Panhandle War Memorial Center",
+    "address": "4111 S. Georgia",
+    "city": "Amarillo",
+    "zip": "79110",
+    "room": "",
+    "notes": "",
+    "lat": 35.17133,
+    "lng": -101.866064
+   },
+   {
+    "name": "Freedom Fellowship Church",
+    "address": "55 Hunsley Road",
+    "city": "Canyon",
+    "zip": "79015",
+    "room": "",
+    "notes": "",
+    "lat": 34.999587,
+    "lng": -101.93237
+   }
+  ]
+ },
+ "notes": "Any registered Randall County voter may vote at any vote center on Election Day. In the second week of early voting the Election Administration Office in Canyon and the Randall County Annex are open 7 a.m. to 7 p.m., while the other three sites are open 8 a.m. to 5 p.m. Monday to Wednesday and 8 a.m. to 7 p.m. Thursday and Friday."
+}

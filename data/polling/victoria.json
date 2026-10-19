@@ -1,331 +1,389 @@
 {
-  "county": "Victoria",
-  "model": "countywide",
-  "checked_at": "2026-10-19T02:40:00Z",
-  "sources": [
-    {
-      "title": "Victoria County Elections: November 3 General Election",
-      "url": "https://www.victoriacountytx.gov/231/November-3-General-Election"
-    },
-    {
-      "title": "Victoria County: Early Voting Schedule (PDF)",
-      "url": "https://www.victoriacountytx.gov/DocumentCenter/View/2371"
-    },
-    {
-      "title": "Victoria County: Polling Locations (PDF)",
-      "url": "https://www.victoriacountytx.gov/DocumentCenter/View/2415"
-    },
-    {
-      "title": "Victoria County Voting Locations map (county ArcGIS)",
-      "url": "https://gisdatamaps.maps.arcgis.com/apps/instant/nearby/index.html?appid=d2d6d1e6c1d7449782ca2656c3089b3d"
-    }
-  ],
-  "lookup_url": "https://gisdatamaps.maps.arcgis.com/apps/instant/nearby/index.html?appid=d2d6d1e6c1d7449782ca2656c3089b3d",
-  "wait_times_url": null,
-  "early_voting": {
-    "schedule": [
-      {
-        "date": "2026-10-19",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-20",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-21",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-22",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-23",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-24",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-25",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
-        "date": "2026-10-26",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-27",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-28",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-29",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-30",
-        "open": "07:00",
-        "close": "19:00"
-      }
-    ],
-    "sites": [
-      {
-        "name": "Pattie Dodson Health Center",
-        "address": "2805 N Navarro",
-        "city": "Victoria",
-        "zip": "77901",
-        "room": "Classroom A",
-        "schedule": null,
-        "notes": "Only early voting location."
-      }
-    ]
+ "county": "Victoria",
+ "model": "countywide",
+ "checked_at": "2026-10-19T02:40:00Z",
+ "sources": [
+  {
+   "title": "Victoria County Elections: November 3 General Election",
+   "url": "https://www.victoriacountytx.gov/231/November-3-General-Election"
   },
-  "election_day": {
+  {
+   "title": "Victoria County: Early Voting Schedule (PDF)",
+   "url": "https://www.victoriacountytx.gov/DocumentCenter/View/2371"
+  },
+  {
+   "title": "Victoria County: Polling Locations (PDF)",
+   "url": "https://www.victoriacountytx.gov/DocumentCenter/View/2415"
+  },
+  {
+   "title": "Victoria County Voting Locations map (county ArcGIS)",
+   "url": "https://gisdatamaps.maps.arcgis.com/apps/instant/nearby/index.html?appid=d2d6d1e6c1d7449782ca2656c3089b3d"
+  }
+ ],
+ "lookup_url": "https://gisdatamaps.maps.arcgis.com/apps/instant/nearby/index.html?appid=d2d6d1e6c1d7449782ca2656c3089b3d",
+ "wait_times_url": null,
+ "early_voting": {
+  "schedule": [
+   {
+    "date": "2026-10-19",
     "open": "07:00",
-    "close": "19:00",
-    "sites": [
-      {
-        "name": "Hopkins Elementary",
-        "address": "110 Hopkins St",
-        "city": "Victoria",
-        "zip": "77901",
-        "room": "",
-        "notes": "Listed as Precinct 1."
-      },
-      {
-        "name": "Victoria Public Library",
-        "address": "115 N Bridge St",
-        "city": "Victoria",
-        "zip": "77901",
-        "room": "",
-        "notes": "Listed as Precinct 2."
-      },
-      {
-        "name": "Patti Welder Middle School Gym",
-        "address": "1604 E North St",
-        "city": "Victoria",
-        "zip": "",
-        "room": "",
-        "notes": "Listed as Precinct 4. County flyer shows ZIP as 779001."
-      },
-      {
-        "name": "Victoria College Sports Center",
-        "address": "2200 E Red River St",
-        "city": "Victoria",
-        "zip": "77901",
-        "room": "",
-        "notes": "Listed as Precinct 5."
-      },
-      {
-        "name": "O'Connor Elementary School",
-        "address": "3402 Bobolink St",
-        "city": "Victoria",
-        "zip": "77901",
-        "room": "",
-        "notes": "Listed as Precinct 7."
-      },
-      {
-        "name": "A&M University - Northwest",
-        "address": "1604 E Airline Rd",
-        "city": "Victoria",
-        "zip": "77901",
-        "room": "",
-        "notes": "Listed as Precinct 8. New location."
-      },
-      {
-        "name": "Victoria Fine Arts Annex",
-        "address": "1002 Sam Houston Dr",
-        "city": "Victoria",
-        "zip": "77901",
-        "room": "",
-        "notes": "Listed as Precinct 10."
-      },
-      {
-        "name": "J-2 Ranch Road Vote Center",
-        "address": "14721 J-2 Ranch Rd",
-        "city": "Victoria",
-        "zip": "77904",
-        "room": "",
-        "notes": "Listed as Precinct 11."
-      },
-      {
-        "name": "Placedo VFD",
-        "address": "284 N Williams St",
-        "city": "Placedo",
-        "zip": "77977",
-        "room": "",
-        "notes": "Listed as Precinct 12."
-      },
-      {
-        "name": "Bloomington VFD",
-        "address": "51 2nd St",
-        "city": "Bloomington",
-        "zip": "77951",
-        "room": "",
-        "notes": "Listed as Precinct 13."
-      },
-      {
-        "name": "DaCosta VFD",
-        "address": "144 Commerce Ave",
-        "city": "Victoria",
-        "zip": "77905",
-        "room": "",
-        "notes": "Listed as Precinct 14."
-      },
-      {
-        "name": "Kemper City Vote Center",
-        "address": "60 Kemper City Rd W",
-        "city": "Victoria",
-        "zip": "77905",
-        "room": "",
-        "notes": "Listed as Precinct 16. New location."
-      },
-      {
-        "name": "Aloe Elementary School",
-        "address": "62 Chaparral Dr",
-        "city": "Victoria",
-        "zip": "77905",
-        "room": "",
-        "notes": "Listed as Precinct 18."
-      },
-      {
-        "name": "Smith Elementary School",
-        "address": "2901 Erwin St",
-        "city": "Victoria",
-        "zip": "",
-        "room": "",
-        "notes": "Listed as Precinct 19."
-      },
-      {
-        "name": "Service Supply",
-        "address": "16012 NW Zac Lentz Pkwy",
-        "city": "Victoria",
-        "zip": "77905",
-        "room": "",
-        "notes": "Listed as Precinct 20."
-      },
-      {
-        "name": "Vickers Elementary School",
-        "address": "708 Glascow",
-        "city": "Victoria",
-        "zip": "77904",
-        "room": "",
-        "notes": "Listed as Precinct 21."
-      },
-      {
-        "name": "Mission Valley VFD",
-        "address": "34 Reinecke Rd",
-        "city": "Victoria",
-        "zip": "77905",
-        "room": "",
-        "notes": "Listed as Precinct 22."
-      },
-      {
-        "name": "Pct 2 Service Center",
-        "address": "13323 Nursery Dr",
-        "city": "Nursery",
-        "zip": "77976",
-        "room": "",
-        "notes": "Listed as Precinct 23."
-      },
-      {
-        "name": "Grace Memorial Chapel",
-        "address": "8919 US Hwy 87N",
-        "city": "Victoria",
-        "zip": "77904",
-        "room": "",
-        "notes": "Listed as Precinct 24."
-      },
-      {
-        "name": "Rowland Elementary School",
-        "address": "2706 Leary Ln",
-        "city": "Victoria",
-        "zip": "77901",
-        "room": "",
-        "notes": "Listed as Precinct 25."
-      },
-      {
-        "name": "Telferner Methodist Church",
-        "address": "124 East St",
-        "city": "Victoria",
-        "zip": "77905",
-        "room": "",
-        "notes": "Listed as Precinct 26."
-      },
-      {
-        "name": "Inez VFD",
-        "address": "296 Railroad St",
-        "city": "Inez",
-        "zip": "77968",
-        "room": "",
-        "notes": "Listed as Precinct 27."
-      },
-      {
-        "name": "Wood Hi Community Center",
-        "address": "101 Woodhi School Rd",
-        "city": "Inez",
-        "zip": "77968",
-        "room": "",
-        "notes": "Listed as Precinct 28."
-      },
-      {
-        "name": "DeLeon Elementary Library",
-        "address": "1002 Santa Barbara",
-        "city": "Victoria",
-        "zip": "77901",
-        "room": "",
-        "notes": "Listed as Precinct 29."
-      },
-      {
-        "name": "Our Saviour's Lutheran Church",
-        "address": "4102 N Ben Jordan",
-        "city": "Victoria",
-        "zip": "77901",
-        "room": "",
-        "notes": "Listed as Precinct 30."
-      },
-      {
-        "name": "VFW Post 4146",
-        "address": "2001 Lova Dr",
-        "city": "Victoria",
-        "zip": "",
-        "room": "",
-        "notes": "Listed as Precinct 32. New location."
-      },
-      {
-        "name": "Holy Family Catholic Church",
-        "address": "704 Mallette Dr",
-        "city": "Victoria",
-        "zip": "77901",
-        "room": "",
-        "notes": "Listed as Precinct 33."
-      },
-      {
-        "name": "Pattie Dodson Public Health Center",
-        "address": "2805 N Navarro",
-        "city": "Victoria",
-        "zip": "77901",
-        "room": "",
-        "notes": "Early voting and main location."
-      }
-    ]
-  },
-  "notes": "Early voting is at one site only, the Pattie Dodson Health Center. On Election Day voters can vote at any of the 28 polling locations; the county's GIS map shows different street numbers for a few sites (Library, Fine Arts Annex, Placedo VFD, Telferner), so addresses here follow the county's printed flyer."
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-20",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-21",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-22",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-23",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-24",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-25",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-26",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-27",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-28",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-29",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-30",
+    "open": "07:00",
+    "close": "19:00"
+   }
+  ],
+  "sites": [
+   {
+    "name": "Pattie Dodson Health Center",
+    "address": "2805 N Navarro",
+    "city": "Victoria",
+    "zip": "77901",
+    "room": "Classroom A",
+    "schedule": null,
+    "notes": "Only early voting location.",
+    "lat": 28.820575,
+    "lng": -97.000541
+   }
+  ]
+ },
+ "election_day": {
+  "open": "07:00",
+  "close": "19:00",
+  "sites": [
+   {
+    "name": "Hopkins Elementary",
+    "address": "110 Hopkins St",
+    "city": "Victoria",
+    "zip": "77901",
+    "room": "",
+    "notes": "Listed as Precinct 1.",
+    "lat": 28.792021,
+    "lng": -96.996659
+   },
+   {
+    "name": "Victoria Public Library",
+    "address": "115 N Bridge St",
+    "city": "Victoria",
+    "zip": "77901",
+    "room": "",
+    "notes": "Listed as Precinct 2.",
+    "lat": 28.79965,
+    "lng": -97.00697
+   },
+   {
+    "name": "Patti Welder Middle School Gym",
+    "address": "1604 E North St",
+    "city": "Victoria",
+    "zip": "",
+    "room": "",
+    "notes": "Listed as Precinct 4. County flyer shows ZIP as 779001.",
+    "lat": 28.799564,
+    "lng": -96.989343
+   },
+   {
+    "name": "Victoria College Sports Center",
+    "address": "2200 E Red River St",
+    "city": "Victoria",
+    "zip": "77901",
+    "room": "",
+    "notes": "Listed as Precinct 5.",
+    "lat": 28.814569,
+    "lng": -96.978695
+   },
+   {
+    "name": "O'Connor Elementary School",
+    "address": "3402 Bobolink St",
+    "city": "Victoria",
+    "zip": "77901",
+    "room": "",
+    "notes": "Listed as Precinct 7.",
+    "lat": 28.798554,
+    "lng": -96.967366
+   },
+   {
+    "name": "A&M University - Northwest",
+    "address": "1604 E Airline Rd",
+    "city": "Victoria",
+    "zip": "77901",
+    "room": "",
+    "notes": "Listed as Precinct 8. New location.",
+    "lat": 28.821283,
+    "lng": -96.98972
+   },
+   {
+    "name": "Victoria Fine Arts Annex",
+    "address": "1002 Sam Houston Dr",
+    "city": "Victoria",
+    "zip": "77901",
+    "room": "",
+    "notes": "Listed as Precinct 10.",
+    "lat": 28.822348,
+    "lng": -96.973787
+   },
+   {
+    "name": "J-2 Ranch Road Vote Center",
+    "address": "14721 J-2 Ranch Rd",
+    "city": "Victoria",
+    "zip": "77904",
+    "room": "",
+    "notes": "Listed as Precinct 11.",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Placedo VFD",
+    "address": "284 N Williams St",
+    "city": "Placedo",
+    "zip": "77977",
+    "room": "",
+    "notes": "Listed as Precinct 12.",
+    "lat": 28.695793,
+    "lng": -96.829695
+   },
+   {
+    "name": "Bloomington VFD",
+    "address": "51 2nd St",
+    "city": "Bloomington",
+    "zip": "77951",
+    "room": "",
+    "notes": "Listed as Precinct 13.",
+    "lat": 28.647299,
+    "lng": -96.894489
+   },
+   {
+    "name": "DaCosta VFD",
+    "address": "144 Commerce Ave",
+    "city": "Victoria",
+    "zip": "77905",
+    "room": "",
+    "notes": "Listed as Precinct 14.",
+    "lat": 28.721128,
+    "lng": -96.874299
+   },
+   {
+    "name": "Kemper City Vote Center",
+    "address": "60 Kemper City Rd W",
+    "city": "Victoria",
+    "zip": "77905",
+    "room": "",
+    "notes": "Listed as Precinct 16. New location.",
+    "lat": 28.68342,
+    "lng": -97.138287
+   },
+   {
+    "name": "Aloe Elementary School",
+    "address": "62 Chaparral Dr",
+    "city": "Victoria",
+    "zip": "77905",
+    "room": "",
+    "notes": "Listed as Precinct 18.",
+    "lat": 28.767846,
+    "lng": -97.07487
+   },
+   {
+    "name": "Smith Elementary School",
+    "address": "2901 Erwin St",
+    "city": "Victoria",
+    "zip": "",
+    "room": "",
+    "notes": "Listed as Precinct 19.",
+    "lat": 28.82889,
+    "lng": -96.976666
+   },
+   {
+    "name": "Service Supply",
+    "address": "16012 NW Zac Lentz Pkwy",
+    "city": "Victoria",
+    "zip": "77905",
+    "room": "",
+    "notes": "Listed as Precinct 20.",
+    "lat": 28.828579,
+    "lng": -97.062462
+   },
+   {
+    "name": "Vickers Elementary School",
+    "address": "708 Glascow",
+    "city": "Victoria",
+    "zip": "77904",
+    "room": "",
+    "notes": "Listed as Precinct 21.",
+    "lat": 28.880138,
+    "lng": -97.004343
+   },
+   {
+    "name": "Mission Valley VFD",
+    "address": "34 Reinecke Rd",
+    "city": "Victoria",
+    "zip": "77905",
+    "room": "",
+    "notes": "Listed as Precinct 22.",
+    "lat": 28.899787,
+    "lng": -97.194362
+   },
+   {
+    "name": "Pct 2 Service Center",
+    "address": "13323 Nursery Dr",
+    "city": "Nursery",
+    "zip": "77976",
+    "room": "",
+    "notes": "Listed as Precinct 23.",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Grace Memorial Chapel",
+    "address": "8919 US Hwy 87N",
+    "city": "Victoria",
+    "zip": "77904",
+    "room": "",
+    "notes": "Listed as Precinct 24.",
+    "lat": 28.87461,
+    "lng": -97.044997
+   },
+   {
+    "name": "Rowland Elementary School",
+    "address": "2706 Leary Ln",
+    "city": "Victoria",
+    "zip": "77901",
+    "room": "",
+    "notes": "Listed as Precinct 25.",
+    "lat": 28.841731,
+    "lng": -96.97996
+   },
+   {
+    "name": "Telferner Methodist Church",
+    "address": "124 East St",
+    "city": "Victoria",
+    "zip": "77905",
+    "room": "",
+    "notes": "Listed as Precinct 26.",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Inez VFD",
+    "address": "296 Railroad St",
+    "city": "Inez",
+    "zip": "77968",
+    "room": "",
+    "notes": "Listed as Precinct 27.",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Wood Hi Community Center",
+    "address": "101 Woodhi School Rd",
+    "city": "Inez",
+    "zip": "77968",
+    "room": "",
+    "notes": "Listed as Precinct 28.",
+    "lat": 28.803902,
+    "lng": -96.81798
+   },
+   {
+    "name": "DeLeon Elementary Library",
+    "address": "1002 Santa Barbara",
+    "city": "Victoria",
+    "zip": "77901",
+    "room": "",
+    "notes": "Listed as Precinct 29.",
+    "lat": 28.843486,
+    "lng": -96.967233
+   },
+   {
+    "name": "Our Saviour's Lutheran Church",
+    "address": "4102 N Ben Jordan",
+    "city": "Victoria",
+    "zip": "77901",
+    "room": "",
+    "notes": "Listed as Precinct 30.",
+    "lat": 28.82912,
+    "lng": -96.984207
+   },
+   {
+    "name": "VFW Post 4146",
+    "address": "2001 Lova Dr",
+    "city": "Victoria",
+    "zip": "",
+    "room": "",
+    "notes": "Listed as Precinct 32. New location.",
+    "lat": 28.804323,
+    "lng": -96.969714
+   },
+   {
+    "name": "Holy Family Catholic Church",
+    "address": "704 Mallette Dr",
+    "city": "Victoria",
+    "zip": "77901",
+    "room": "",
+    "notes": "Listed as Precinct 33.",
+    "lat": 28.866458,
+    "lng": -97.007817
+   },
+   {
+    "name": "Pattie Dodson Public Health Center",
+    "address": "2805 N Navarro",
+    "city": "Victoria",
+    "zip": "77901",
+    "room": "",
+    "notes": "Early voting and main location.",
+    "lat": 28.820575,
+    "lng": -97.000541
+   }
+  ]
+ },
+ "notes": "Early voting is at one site only, the Pattie Dodson Health Center. On Election Day voters can vote at any of the 28 polling locations; the county's GIS map shows different street numbers for a few sites (Library, Fine Arts Annex, Placedo VFD, Telferner), so addresses here follow the county's printed flyer."
 }

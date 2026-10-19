@@ -1,27 +1,27 @@
 {
-  "county": "Johnson",
-  "model": null,
-  "checked_at": "2026-10-19T02:15:00Z",
-  "sources": [
-    {
-      "title": "Johnson County Elections Office: Early Voting Locations (blocked by the site's bot protection, HTTP 403, not read)",
-      "url": "https://www.johnsoncountytx.org/departments/elections-office/early-voting-locations"
-    },
-    {
-      "title": "Johnson County Elections Office: Early Voting and Election Day Locations (not read, HTTP 403)",
-      "url": "https://johnsoncountytx.org/departments/elections-office/early-voting-and-election-day-locations"
-    }
-  ],
-  "lookup_url": null,
-  "wait_times_url": null,
-  "early_voting": {
-    "schedule": [],
-    "sites": []
+ "county": "Johnson",
+ "model": null,
+ "checked_at": "2026-10-19T02:15:00Z",
+ "sources": [
+  {
+   "title": "Johnson County Elections Office: Early Voting Locations (blocked by the site's bot protection, HTTP 403, not read)",
+   "url": "https://www.johnsoncountytx.org/departments/elections-office/early-voting-locations"
   },
-  "election_day": {
-    "open": "07:00",
-    "close": "19:00",
-    "sites": []
-  },
-  "notes": "Polling locations could not be verified because the Johnson County website blocked automated access during this check. Voters should check the Johnson County Elections Office website or call the office for early voting and Election Day locations."
+  {
+   "title": "Johnson County Elections Office: Early Voting and Election Day Locations (not read, HTTP 403)",
+   "url": "https://johnsoncountytx.org/departments/elections-office/early-voting-and-election-day-locations"
+  }
+ ],
+ "lookup_url": null,
+ "wait_times_url": null,
+ "early_voting": {
+  "schedule": [],
+  "sites": []
+ },
+ "election_day": {
+  "open": "07:00",
+  "close": "19:00",
+  "sites": []
+ },
+ "notes": "Polling locations could not be verified because the Johnson County website blocked automated access during this check. Voters should check the Johnson County Elections Office website or call the office for early voting and Election Day locations."
 }

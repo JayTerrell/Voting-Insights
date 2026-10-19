@@ -1,185 +1,207 @@
 {
-  "county": "Medina",
-  "model": "countywide",
-  "checked_at": "2026-10-19T02:34:00Z",
-  "sources": [
-    {
-      "title": "Medina County Elections 2026",
-      "url": "https://www.medinatx.gov/page/Elections-2026"
-    },
-    {
-      "title": "Order of Election, November General Election for County Officers (PDF, scanned)",
-      "url": "https://www.medinatx.gov/upload/page/0103/2026%20November%20Joint%20General/NOTICES/Order%20of%20Election%20for%20Medina%20County.pdf"
-    },
-    {
-      "title": "Notice of General Election, Medina County Hospital District (PDF, scanned; lists Election Day polling places)",
-      "url": "https://www.medinatx.gov/upload/page/0103/2026%20November%20Joint%20General/NOTICES/Notice%20of%20Election%20-%20Medina%20County%20Hospital%20District.pdf"
-    }
-  ],
-  "lookup_url": null,
-  "wait_times_url": null,
-  "early_voting": {
-    "schedule": [
-      {
-        "date": "2026-10-19",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
-        "date": "2026-10-20",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
-        "date": "2026-10-21",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
-        "date": "2026-10-22",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
-        "date": "2026-10-23",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
-        "date": "2026-10-24",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-25",
-        "open": "09:00",
-        "close": "15:00"
-      },
-      {
-        "date": "2026-10-26",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-27",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-28",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-29",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-30",
-        "open": "07:00",
-        "close": "19:00"
-      }
-    ],
-    "sites": [
-      {
-        "name": "Medina County Courthouse Annex",
-        "address": "1300 Avenue M",
-        "city": "Hondo",
-        "zip": "78861",
-        "room": "Rm 110",
-        "schedule": null,
-        "notes": "Main early voting location."
-      },
-      {
-        "name": "Medina County Annex Bldg, Pct. 2",
-        "address": "8366 FM 471 S",
-        "city": "Castroville",
-        "zip": "78009",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Medina County Annex Bldg, Pct. 4",
-        "address": "317 State Hwy 132 N",
-        "city": "Devine",
-        "zip": "78016",
-        "room": "",
-        "schedule": null,
-        "notes": "The county's order of election lists weekend hours here (October 24, 7 a.m. to 7 p.m.; October 25, 9 a.m. to 3 p.m.), but the hospital district election notice omits weekend hours for this site; call (830) 741-6009 to confirm before a weekend visit."
-      }
-    ]
+ "county": "Medina",
+ "model": "countywide",
+ "checked_at": "2026-10-19T02:34:00Z",
+ "sources": [
+  {
+   "title": "Medina County Elections 2026",
+   "url": "https://www.medinatx.gov/page/Elections-2026"
   },
-  "election_day": {
+  {
+   "title": "Order of Election, November General Election for County Officers (PDF, scanned)",
+   "url": "https://www.medinatx.gov/upload/page/0103/2026%20November%20Joint%20General/NOTICES/Order%20of%20Election%20for%20Medina%20County.pdf"
+  },
+  {
+   "title": "Notice of General Election, Medina County Hospital District (PDF, scanned; lists Election Day polling places)",
+   "url": "https://www.medinatx.gov/upload/page/0103/2026%20November%20Joint%20General/NOTICES/Notice%20of%20Election%20-%20Medina%20County%20Hospital%20District.pdf"
+  }
+ ],
+ "lookup_url": null,
+ "wait_times_url": null,
+ "early_voting": {
+  "schedule": [
+   {
+    "date": "2026-10-19",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-20",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-21",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-22",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-23",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-24",
     "open": "07:00",
-    "close": "19:00",
-    "sites": [
-      {
-        "name": "Hondo Public Library",
-        "address": "2003 Ave. K",
-        "city": "Hondo",
-        "zip": "78861",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "South Texas Regional Training Center",
-        "address": "402 Carter",
-        "city": "Hondo",
-        "zip": "78861",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "D'Hanis Community Center",
-        "address": "191 CR 526",
-        "city": "D'Hanis",
-        "zip": "78850",
-        "room": "",
-        "notes": "The county notice gives this address in English but lists 7475 CR 524 in the Spanish version; confirm with the elections office."
-      },
-      {
-        "name": "First Baptist Church - Natalia",
-        "address": "300 Pearson St.",
-        "city": "Natalia",
-        "zip": "78059",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Medina County Pct. 2 Annex Bldg.",
-        "address": "8366 FM 471 S",
-        "city": "Castroville",
-        "zip": "78009",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Medina County Pct. 4 Annex Bldg.",
-        "address": "317 State Hwy. 132 N",
-        "city": "Devine",
-        "zip": "78016",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Medina County ESD, Station #12",
-        "address": "7121 CR 271",
-        "city": "Mico",
-        "zip": "78056",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Medina County ESD, Station #15",
-        "address": "135 Stone Loop",
-        "city": "Castroville",
-        "zip": "78009",
-        "room": "",
-        "notes": ""
-      }
-    ]
-  },
-  "notes": "Medina County has not posted a standalone polling place list; these locations come from scanned election orders and notices on the county elections page, which mark Election Day sites as countywide. Call the elections office at (830) 741-6009 to confirm, especially weekend hours in Devine and the D'Hanis address."
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-25",
+    "open": "09:00",
+    "close": "15:00"
+   },
+   {
+    "date": "2026-10-26",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-27",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-28",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-29",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-30",
+    "open": "07:00",
+    "close": "19:00"
+   }
+  ],
+  "sites": [
+   {
+    "name": "Medina County Courthouse Annex",
+    "address": "1300 Avenue M",
+    "city": "Hondo",
+    "zip": "78861",
+    "room": "Rm 110",
+    "schedule": null,
+    "notes": "Main early voting location.",
+    "lat": 29.352431,
+    "lng": -99.142016
+   },
+   {
+    "name": "Medina County Annex Bldg, Pct. 2",
+    "address": "8366 FM 471 S",
+    "city": "Castroville",
+    "zip": "78009",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 29.346376,
+    "lng": -98.839866
+   },
+   {
+    "name": "Medina County Annex Bldg, Pct. 4",
+    "address": "317 State Hwy 132 N",
+    "city": "Devine",
+    "zip": "78016",
+    "room": "",
+    "schedule": null,
+    "notes": "The county's order of election lists weekend hours here (October 24, 7 a.m. to 7 p.m.; October 25, 9 a.m. to 3 p.m.), but the hospital district election notice omits weekend hours for this site; call (830) 741-6009 to confirm before a weekend visit.",
+    "lat": 29.154736,
+    "lng": -98.8919
+   }
+  ]
+ },
+ "election_day": {
+  "open": "07:00",
+  "close": "19:00",
+  "sites": [
+   {
+    "name": "Hondo Public Library",
+    "address": "2003 Ave. K",
+    "city": "Hondo",
+    "zip": "78861",
+    "room": "",
+    "notes": "",
+    "lat": 29.346532,
+    "lng": -99.140407
+   },
+   {
+    "name": "South Texas Regional Training Center",
+    "address": "402 Carter",
+    "city": "Hondo",
+    "zip": "78861",
+    "room": "",
+    "notes": "",
+    "lat": 29.351688,
+    "lng": -99.155612
+   },
+   {
+    "name": "D'Hanis Community Center",
+    "address": "191 CR 526",
+    "city": "D'Hanis",
+    "zip": "78850",
+    "room": "",
+    "notes": "The county notice gives this address in English but lists 7475 CR 524 in the Spanish version; confirm with the elections office.",
+    "lat": 29.331239,
+    "lng": -99.281217
+   },
+   {
+    "name": "First Baptist Church - Natalia",
+    "address": "300 Pearson St.",
+    "city": "Natalia",
+    "zip": "78059",
+    "room": "",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Medina County Pct. 2 Annex Bldg.",
+    "address": "8366 FM 471 S",
+    "city": "Castroville",
+    "zip": "78009",
+    "room": "",
+    "notes": "",
+    "lat": 29.346376,
+    "lng": -98.839866
+   },
+   {
+    "name": "Medina County Pct. 4 Annex Bldg.",
+    "address": "317 State Hwy. 132 N",
+    "city": "Devine",
+    "zip": "78016",
+    "room": "",
+    "notes": "",
+    "lat": 29.154736,
+    "lng": -98.8919
+   },
+   {
+    "name": "Medina County ESD, Station #12",
+    "address": "7121 CR 271",
+    "city": "Mico",
+    "zip": "78056",
+    "room": "",
+    "notes": "",
+    "lat": 29.545179,
+    "lng": -98.923137
+   },
+   {
+    "name": "Medina County ESD, Station #15",
+    "address": "135 Stone Loop",
+    "city": "Castroville",
+    "zip": "78009",
+    "room": "",
+    "notes": "",
+    "lat": 29.429338,
+    "lng": -98.836933
+   }
+  ]
+ },
+ "notes": "Medina County has not posted a standalone polling place list; these locations come from scanned election orders and notices on the county elections page, which mark Election Day sites as countywide. Call the elections office at (830) 741-6009 to confirm, especially weekend hours in Devine and the D'Hanis address."
 }

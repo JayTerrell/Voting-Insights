@@ -1,2420 +1,2698 @@
 {
-  "county": "Fort Bend",
-  "model": "countywide",
-  "checked_at": "2026-10-19T02:09:08Z",
-  "sources": [
-    {
-      "title": "Fort Bend County Elections: Early Voting and Election Day Information (Nov 3)",
-      "url": "https://www.fortbendcountytx.gov/government/departments/elections-voter-registration/early-voting-and-election-day-information-nov-3"
-    },
-    {
-      "title": "Fort Bend County Early Voting Schedule, November 3, 2026",
-      "url": "https://www.fortbendcountytx.gov/sites/default/files/document-central/document-central/elections-documents/early-voting-schedules/EV-Polling-Locations--11-3-26.pdf"
-    },
-    {
-      "title": "Fort Bend County Election Day Schedule, November 3, 2026",
-      "url": "https://www.fortbendcountytx.gov/sites/default/files/document-central/document-central/elections-documents/election-notices/2026/ED-Polling-Locations--11-3-26.pdf"
-    }
-  ],
-  "lookup_url": null,
-  "wait_times_url": null,
-  "early_voting": {
-    "schedule": [
-      {
-        "date": "2026-10-19",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-20",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-21",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-22",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-23",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-24",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-25",
-        "open": "12:00",
-        "close": "18:00"
-      },
-      {
-        "date": "2026-10-26",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-27",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-28",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-29",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-30",
-        "open": "07:00",
-        "close": "19:00"
-      }
-    ],
-    "sites": [
-      {
-        "name": "Cinco Ranch Branch Library",
-        "address": "2620 Commercial Center Blvd",
-        "city": "Katy",
-        "zip": "",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Commonwealth Clubhouse",
-        "address": "4330 Knightsbridge Blvd",
-        "city": "Sugar Land",
-        "zip": "",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Elections Office",
-        "address": "3730 Bamore Rd",
-        "city": "Rosenberg",
-        "zip": "",
-        "room": "",
-        "schedule": null,
-        "notes": "Main early voting site"
-      },
-      {
-        "name": "Fort Bend ISD Admin. Bldg.",
-        "address": "16431 Lexington Blvd",
-        "city": "Sugar Land",
-        "zip": "",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "FBC ESD No. 4 Admin. Bldg.",
-        "address": "33301 FM 1093 Rd",
-        "city": "Fulshear",
-        "zip": "",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Four Corners Community Center",
-        "address": "15700 Old Richmond Rd",
-        "city": "Sugar Land",
-        "zip": "",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Jacks Conference Center",
-        "address": "3232 Austin Pkwy",
-        "city": "Sugar Land",
-        "zip": "",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Jones Creek Ranch Park",
-        "address": "7741 FM 359 Rd",
-        "city": "Richmond",
-        "zip": "",
-        "room": "",
-        "schedule": null,
-        "notes": "The county early voting list gives 7741 FM 359 Rd while the Election Day list gives 7714 FM 359 Rd."
-      },
-      {
-        "name": "Kroger Riverstone",
-        "address": "18861 University Blvd",
-        "city": "Sugar Land",
-        "zip": "",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Lakes of Bella Terra Rec Center",
-        "address": "11620 W Torino Reale Dr.",
-        "city": "Richmond",
-        "zip": "",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Meadows Place City Hall",
-        "address": "1 Troyan Dr",
-        "city": "Meadows Place",
-        "zip": "",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Missouri City Visitors Center",
-        "address": "1522 Texas Pkwy",
-        "city": "Missouri City",
-        "zip": "",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Pinnacle Senior Center",
-        "address": "5525 Hobby St",
-        "city": "Missouri City",
-        "zip": "",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Road and Bridge (Needville)",
-        "address": "3743 School St",
-        "city": "Needville",
-        "zip": "",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Rosenberg Annex",
-        "address": "4520 Reading Rd",
-        "city": "Rosenberg",
-        "zip": "",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Sienna Annex",
-        "address": "5855 Sienna Springs Way",
-        "city": "Missouri City",
-        "zip": "",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Stafford City Hall",
-        "address": "2610 Main Street",
-        "city": "Stafford",
-        "zip": "",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Beasley Fire Department",
-        "address": "214 S 3rd Street",
-        "city": "Beasley",
-        "zip": "",
-        "room": "",
-        "schedule": [
-          {
-            "date": "2026-10-19",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-20",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-21",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-22",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-23",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-24",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-26",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-27",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-28",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-29",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-30",
-            "open": "07:00",
-            "close": "19:00"
-          }
-        ],
-        "notes": "Closed Sunday, October 25."
-      },
-      {
-        "name": "Bowie Middle",
-        "address": "700 Plantation Dr",
-        "city": "Richmond",
-        "zip": "",
-        "room": "",
-        "schedule": [
-          {
-            "date": "2026-10-19",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-20",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-21",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-22",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-23",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-24",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-26",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-27",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-28",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-29",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-30",
-            "open": "07:00",
-            "close": "19:00"
-          }
-        ],
-        "notes": "Closed Sunday, October 25."
-      },
-      {
-        "name": "Chasewood Clubhouse",
-        "address": "7622 Chasewood Dr",
-        "city": "Missouri City",
-        "zip": "",
-        "room": "",
-        "schedule": [
-          {
-            "date": "2026-10-19",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-20",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-21",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-22",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-23",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-24",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-26",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-27",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-28",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-29",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-30",
-            "open": "07:00",
-            "close": "19:00"
-          }
-        ],
-        "notes": "Closed Sunday, October 25."
-      },
-      {
-        "name": "Crawford High School",
-        "address": "801 Caldwell Ranch Blvd",
-        "city": "Rosharon",
-        "zip": "",
-        "room": "",
-        "schedule": [
-          {
-            "date": "2026-10-19",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-20",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-21",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-22",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-23",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-24",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-26",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-27",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-28",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-29",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-30",
-            "open": "07:00",
-            "close": "19:00"
-          }
-        ],
-        "notes": "Closed Sunday, October 25."
-      },
-      {
-        "name": "Crockett Middle School",
-        "address": "19001 Beechnut St",
-        "city": "Richmond",
-        "zip": "",
-        "room": "",
-        "schedule": [
-          {
-            "date": "2026-10-19",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-20",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-21",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-22",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-23",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-24",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-26",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-27",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-28",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-29",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-30",
-            "open": "07:00",
-            "close": "19:00"
-          }
-        ],
-        "notes": "Closed Sunday, October 25."
-      },
-      {
-        "name": "Elkins High School",
-        "address": "7007 Knights Ct",
-        "city": "Missouri City",
-        "zip": "",
-        "room": "",
-        "schedule": [
-          {
-            "date": "2026-10-19",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-20",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-21",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-22",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-23",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-24",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-26",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-27",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-28",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-29",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-30",
-            "open": "07:00",
-            "close": "19:00"
-          }
-        ],
-        "notes": "Closed Sunday, October 25."
-      },
-      {
-        "name": "Firethorne Clubhouse",
-        "address": "28100 N Firethorne Road",
-        "city": "Katy",
-        "zip": "",
-        "room": "",
-        "schedule": [
-          {
-            "date": "2026-10-19",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-20",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-21",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-22",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-23",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-24",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-26",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-27",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-28",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-29",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-30",
-            "open": "07:00",
-            "close": "19:00"
-          }
-        ],
-        "notes": "Closed Sunday, October 25."
-      },
-      {
-        "name": "First Baptist Church Fresno",
-        "address": "4501 FM 521 Rd.",
-        "city": "Fresno",
-        "zip": "",
-        "room": "",
-        "schedule": [
-          {
-            "date": "2026-10-19",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-20",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-21",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-22",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-23",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-24",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-26",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-27",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-28",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-29",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-30",
-            "open": "07:00",
-            "close": "19:00"
-          }
-        ],
-        "notes": "Closed Sunday, October 25."
-      },
-      {
-        "name": "Fulshear Branch Library",
-        "address": "6350 GM Library Road",
-        "city": "Fulshear",
-        "zip": "",
-        "room": "",
-        "schedule": [
-          {
-            "date": "2026-10-19",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-20",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-21",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-22",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-23",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-24",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-26",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-27",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-28",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-29",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-30",
-            "open": "07:00",
-            "close": "19:00"
-          }
-        ],
-        "notes": "Closed Sunday, October 25."
-      },
-      {
-        "name": "George Memorial Library",
-        "address": "1001 Golfview Dr",
-        "city": "Richmond",
-        "zip": "",
-        "room": "",
-        "schedule": [
-          {
-            "date": "2026-10-19",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-20",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-21",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-22",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-23",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-24",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-26",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-27",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-28",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-29",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-30",
-            "open": "07:00",
-            "close": "19:00"
-          }
-        ],
-        "notes": "Closed Sunday, October 25."
-      },
-      {
-        "name": "Great Oaks Baptist Church",
-        "address": "7101 FM 2759",
-        "city": "Richmond",
-        "zip": "",
-        "room": "",
-        "schedule": [
-          {
-            "date": "2026-10-19",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-20",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-21",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-22",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-23",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-24",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-26",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-27",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-28",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-29",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-30",
-            "open": "07:00",
-            "close": "19:00"
-          }
-        ],
-        "notes": "Closed Sunday, October 25."
-      },
-      {
-        "name": "Hightower HS",
-        "address": "3333 Hurricane Ln",
-        "city": "Missouri City",
-        "zip": "",
-        "room": "",
-        "schedule": [
-          {
-            "date": "2026-10-19",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-20",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-21",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-22",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-23",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-24",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-26",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-27",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-28",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-29",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-30",
-            "open": "07:00",
-            "close": "19:00"
-          }
-        ],
-        "notes": "Closed Sunday, October 25."
-      },
-      {
-        "name": "Lost Creek Conference Center",
-        "address": "3703 Lost Creek Blvd",
-        "city": "Sugar Land",
-        "zip": "",
-        "room": "",
-        "schedule": [
-          {
-            "date": "2026-10-19",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-20",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-21",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-22",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-23",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-24",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-26",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-27",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-28",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-29",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-30",
-            "open": "07:00",
-            "close": "19:00"
-          }
-        ],
-        "notes": "Closed Sunday, October 25."
-      },
-      {
-        "name": "Maryam Islamic Center",
-        "address": "504 Sartartia Rd",
-        "city": "Sugar Land",
-        "zip": "",
-        "room": "",
-        "schedule": [
-          {
-            "date": "2026-10-19",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-20",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-21",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-22",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-23",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-24",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-26",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-27",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-28",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-29",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-30",
-            "open": "07:00",
-            "close": "19:00"
-          }
-        ],
-        "notes": "Closed Sunday, October 25."
-      },
-      {
-        "name": "Mission Bend Branch Library",
-        "address": "8421 Addicks-Clodine Rd",
-        "city": "Houston",
-        "zip": "",
-        "room": "",
-        "schedule": [
-          {
-            "date": "2026-10-19",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-20",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-21",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-22",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-23",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-24",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-26",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-27",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-28",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-29",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-30",
-            "open": "07:00",
-            "close": "19:00"
-          }
-        ],
-        "notes": "Closed Sunday, October 25."
-      },
-      {
-        "name": "Quail Valley Fund Office",
-        "address": "3603 Glenn Lakes Ln",
-        "city": "Missouri City",
-        "zip": "",
-        "room": "",
-        "schedule": [
-          {
-            "date": "2026-10-19",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-20",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-21",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-22",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-23",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-24",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-26",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-27",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-28",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-29",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-30",
-            "open": "07:00",
-            "close": "19:00"
-          }
-        ],
-        "notes": "Closed Sunday, October 25."
-      },
-      {
-        "name": "Reese Technical Center",
-        "address": "12300 University Dr",
-        "city": "Sugar Land",
-        "zip": "",
-        "room": "",
-        "schedule": [
-          {
-            "date": "2026-10-19",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-20",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-21",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-22",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-23",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-24",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-26",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-27",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-28",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-29",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-30",
-            "open": "07:00",
-            "close": "19:00"
-          }
-        ],
-        "notes": "Closed Sunday, October 25. The county Election Day list gives this address as 12300 University Blvd."
-      },
-      {
-        "name": "Richmond Water Maintenance Facility",
-        "address": "110 N 8th Street",
-        "city": "Richmond",
-        "zip": "",
-        "room": "",
-        "schedule": [
-          {
-            "date": "2026-10-19",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-20",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-21",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-22",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-23",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-24",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-26",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-27",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-28",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-29",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-30",
-            "open": "07:00",
-            "close": "19:00"
-          }
-        ],
-        "notes": "Closed Sunday, October 25."
-      },
-      {
-        "name": "Seven Lakes High School",
-        "address": "9251 S. Fry Road",
-        "city": "Katy",
-        "zip": "",
-        "room": "",
-        "schedule": [
-          {
-            "date": "2026-10-19",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-20",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-21",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-22",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-23",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-24",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-26",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-27",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-28",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-29",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-30",
-            "open": "07:00",
-            "close": "19:00"
-          }
-        ],
-        "notes": "Closed Sunday, October 25."
-      },
-      {
-        "name": "Sugar Land Branch Library",
-        "address": "550 Eldridge Rd",
-        "city": "Sugar Land",
-        "zip": "",
-        "room": "",
-        "schedule": [
-          {
-            "date": "2026-10-19",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-20",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-21",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-22",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-23",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-24",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-26",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-27",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-28",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-29",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-30",
-            "open": "07:00",
-            "close": "19:00"
-          }
-        ],
-        "notes": "Closed Sunday, October 25."
-      },
-      {
-        "name": "Tompkins High School",
-        "address": "4400 Falcon Landing Blvd",
-        "city": "Katy",
-        "zip": "",
-        "room": "",
-        "schedule": [
-          {
-            "date": "2026-10-19",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-20",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-21",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-22",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-23",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-24",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-26",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-27",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-28",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-29",
-            "open": "07:00",
-            "close": "19:00"
-          },
-          {
-            "date": "2026-10-30",
-            "open": "07:00",
-            "close": "19:00"
-          }
-        ],
-        "notes": "Closed Sunday, October 25."
-      }
-    ]
+ "county": "Fort Bend",
+ "model": "countywide",
+ "checked_at": "2026-10-19T02:09:08Z",
+ "sources": [
+  {
+   "title": "Fort Bend County Elections: Early Voting and Election Day Information (Nov 3)",
+   "url": "https://www.fortbendcountytx.gov/government/departments/elections-voter-registration/early-voting-and-election-day-information-nov-3"
   },
-  "election_day": {
+  {
+   "title": "Fort Bend County Early Voting Schedule, November 3, 2026",
+   "url": "https://www.fortbendcountytx.gov/sites/default/files/document-central/document-central/elections-documents/early-voting-schedules/EV-Polling-Locations--11-3-26.pdf"
+  },
+  {
+   "title": "Fort Bend County Election Day Schedule, November 3, 2026",
+   "url": "https://www.fortbendcountytx.gov/sites/default/files/document-central/document-central/elections-documents/election-notices/2026/ED-Polling-Locations--11-3-26.pdf"
+  }
+ ],
+ "lookup_url": null,
+ "wait_times_url": null,
+ "early_voting": {
+  "schedule": [
+   {
+    "date": "2026-10-19",
     "open": "07:00",
-    "close": "19:00",
-    "sites": [
-      {
-        "name": "Baines Middle School",
-        "address": "9000 Sienna Ranch Rd.",
-        "city": "Missouri City",
-        "zip": "77459",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "BAPS Shri Swaminarayan Mandir",
-        "address": "1150 Brand LN",
-        "city": "Stafford",
-        "zip": "77477",
-        "room": "Dining Room Hall-Front",
-        "notes": ""
-      },
-      {
-        "name": "Beasley Fire Department",
-        "address": "214 S. Third ST",
-        "city": "Beasley",
-        "zip": "77417",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Best in Class Education Center",
-        "address": "18440 W Airport Blvd",
-        "city": "Richmond",
-        "zip": "77407",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Bowie Middle School",
-        "address": "700 Plantation DR",
-        "city": "Richmond",
-        "zip": "77406",
-        "room": "Main Hallway by Gym",
-        "notes": ""
-      },
-      {
-        "name": "Brazos Bend Baptist Church",
-        "address": "22311 FM 762 RD",
-        "city": "Needville",
-        "zip": "77461",
-        "room": "Education Building",
-        "notes": ""
-      },
-      {
-        "name": "Briarchase Missionary Bapt Church",
-        "address": "16000 Blueridge RD",
-        "city": "Missouri City",
-        "zip": "77489",
-        "room": "Classroom",
-        "notes": ""
-      },
-      {
-        "name": "Caleb Rule Public Safety Annex",
-        "address": "6561 Katy Flewellen Way",
-        "city": "Katy",
-        "zip": "77494",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Calvary Baptist Church",
-        "address": "4111 Airport AVE",
-        "city": "Rosenberg",
-        "zip": "77471",
-        "room": "Fellowship Hall",
-        "notes": ""
-      },
-      {
-        "name": "Chasewood Clubhouse",
-        "address": "7622 Chasewood DR",
-        "city": "Missouri City",
-        "zip": "77489",
-        "room": "Level 1 (Clubhouse Facility)",
-        "notes": ""
-      },
-      {
-        "name": "Cinco Ranch Branch Library",
-        "address": "2620 Commercial Center BLVD",
-        "city": "Katy",
-        "zip": "77494",
-        "room": "Meeting Room",
-        "notes": ""
-      },
-      {
-        "name": "Cinco Ranch High School",
-        "address": "23440 Cinco Ranch Blvd",
-        "city": "Katy",
-        "zip": "77494",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Commonwealth Clubhouse",
-        "address": "4330 Knightsbridge BLVD",
-        "city": "Sugar Land",
-        "zip": "77479",
-        "room": "Clubhouse",
-        "notes": ""
-      },
-      {
-        "name": "Crawford High School",
-        "address": "801 Caldwell Ranch BLVD",
-        "city": "Rosharon",
-        "zip": "77583",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Crockett Middle School",
-        "address": "19001 Beechnut ST",
-        "city": "Richmond",
-        "zip": "77407",
-        "room": "Girls Gym",
-        "notes": ""
-      },
-      {
-        "name": "Eagle Heights Church",
-        "address": "16718 West Bellfort",
-        "city": "Richmond",
-        "zip": "77407",
-        "room": "Foyer",
-        "notes": ""
-      },
-      {
-        "name": "Election Office",
-        "address": "3730 Bamore Road",
-        "city": "Rosenberg",
-        "zip": "77471",
-        "room": "Training Room",
-        "notes": ""
-      },
-      {
-        "name": "Elkins High School",
-        "address": "7007 Knights CT",
-        "city": "Missouri City",
-        "zip": "77459",
-        "room": "Front lobby",
-        "notes": ""
-      },
-      {
-        "name": "Farmhouse at Harvest Green",
-        "address": "3400 Harvest Corner DR",
-        "city": "Richmond",
-        "zip": "77406",
-        "room": "Event Hall",
-        "notes": ""
-      },
-      {
-        "name": "FBC ESD No. 4 Admin. Bldg.",
-        "address": "33301 FM 1093",
-        "city": "Fulshear",
-        "zip": "77441",
-        "room": "Training Room",
-        "notes": ""
-      },
-      {
-        "name": "FBISD Administration Building",
-        "address": "16431 Lexington BLVD",
-        "city": "Sugar Land",
-        "zip": "77479",
-        "room": "Lobby",
-        "notes": ""
-      },
-      {
-        "name": "Firethorne Clubhouse",
-        "address": "28100 N. Firethorne RD",
-        "city": "Katy",
-        "zip": "77494",
-        "room": "Main Room",
-        "notes": ""
-      },
-      {
-        "name": "First Baptist Church Fresno",
-        "address": "4501 FM 521 Rd.",
-        "city": "Fresno",
-        "zip": "77545",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Fort Bend County Tax Office",
-        "address": "1317 Eugene Heimann Cir",
-        "city": "Richmond",
-        "zip": "77469",
-        "room": "Lobby",
-        "notes": ""
-      },
-      {
-        "name": "Fort Settlement Middle School",
-        "address": "5440 Elkins RD",
-        "city": "Sugar Land",
-        "zip": "77479",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Foster High School",
-        "address": "4400 FM 723 RD",
-        "city": "Richmond",
-        "zip": "77406",
-        "room": "Front of Auditorium",
-        "notes": ""
-      },
-      {
-        "name": "Four Corners Community Center",
-        "address": "15700 Old Richmond RD",
-        "city": "Sugar Land",
-        "zip": "77498",
-        "room": "Community Center",
-        "notes": ""
-      },
-      {
-        "name": "Fulshear Branch Library",
-        "address": "6350 GM Library RD",
-        "city": "Fulshear",
-        "zip": "77441",
-        "room": "Meeting Room",
-        "notes": ""
-      },
-      {
-        "name": "Gallery Furniture",
-        "address": "7227 W Grand PKWY S",
-        "city": "Richmond",
-        "zip": "77407",
-        "room": "Atrium",
-        "notes": ""
-      },
-      {
-        "name": "Garcia Middle School",
-        "address": "18550 Old Richmond RD",
-        "city": "Sugar Land",
-        "zip": "77498",
-        "room": "Gym Area Hallway",
-        "notes": ""
-      },
-      {
-        "name": "George Bush High School",
-        "address": "6707 FM 1464 RD",
-        "city": "Richmond",
-        "zip": "77407",
-        "room": "Gym Foyer",
-        "notes": ""
-      },
-      {
-        "name": "George Memorial Library",
-        "address": "1001 Golfview DR",
-        "city": "Richmond",
-        "zip": "77469",
-        "room": "Large Meeting Room, 1st Floor",
-        "notes": ""
-      },
-      {
-        "name": "Great Oaks Baptist Church",
-        "address": "7101 FM 2759 RD",
-        "city": "Richmond",
-        "zip": "77469",
-        "room": "Fellowship Building",
-        "notes": ""
-      },
-      {
-        "name": "Hightower High School",
-        "address": "3333 Hurricane LN",
-        "city": "Missouri City",
-        "zip": "77459",
-        "room": "Front Lobby",
-        "notes": ""
-      },
-      {
-        "name": "Hunters Glen Elementary School",
-        "address": "695 Independence BLVD",
-        "city": "Missouri City",
-        "zip": "77459",
-        "room": "Gym",
-        "notes": ""
-      },
-      {
-        "name": "Irene Stern Community Center",
-        "address": "6920 Katy-Fulshear RD",
-        "city": "Fulshear",
-        "zip": "77441",
-        "room": "Community Center",
-        "notes": ""
-      },
-      {
-        "name": "Jacks Conference Center",
-        "address": "3232 Austin PKWY",
-        "city": "Sugar Land",
-        "zip": "77479",
-        "room": "Main Room",
-        "notes": ""
-      },
-      {
-        "name": "Jones Creek Ranch Park",
-        "address": "7714 FM 359 RD",
-        "city": "Richmond",
-        "zip": "77406",
-        "room": "Main Room",
-        "notes": "The county Election Day list gives 7714 FM 359 Rd while the early voting list gives 7741 FM 359 Rd."
-      },
-      {
-        "name": "Jordan Elementary School",
-        "address": "17800 West Oaks Village Dr.",
-        "city": "Richmond",
-        "zip": "77407",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Jordan High School",
-        "address": "27500 Fulshear Bend DR",
-        "city": "Fulshear",
-        "zip": "77441",
-        "room": "PAC Lobby",
-        "notes": ""
-      },
-      {
-        "name": "Katy High School",
-        "address": "6331 Highway Boulevard",
-        "city": "Katy",
-        "zip": "77494",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Katy ISD Coleman Support Annex",
-        "address": "4242 S Mason Rd.",
-        "city": "Katy",
-        "zip": "77494",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Kempner High School",
-        "address": "14777 Voss RD",
-        "city": "Sugar Land",
-        "zip": "77498",
-        "room": "503",
-        "notes": ""
-      },
-      {
-        "name": "Kendleton Church of God",
-        "address": "619 FM 2919 RD",
-        "city": "Kendleton",
-        "zip": "77417",
-        "room": "ED Building",
-        "notes": ""
-      },
-      {
-        "name": "Kroger Riverstone",
-        "address": "18861 University BLVD",
-        "city": "Sugar Land",
-        "zip": "77479",
-        "room": "Community Room",
-        "notes": ""
-      },
-      {
-        "name": "Lake Olympia Clubhouse",
-        "address": "180 Island BLVD",
-        "city": "Missouri City",
-        "zip": "77459",
-        "room": "Ballroom",
-        "notes": ""
-      },
-      {
-        "name": "Lakemont Clubhouse",
-        "address": "21021 Lakemont Bend Lane",
-        "city": "Richmond",
-        "zip": "77407",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Lakes of Bella Terra Recreation Center",
-        "address": "11620 W Torino Reale DR",
-        "city": "Richmond",
-        "zip": "77406",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Lantern Lane Elementary School",
-        "address": "3323 Mission Valley DR",
-        "city": "Missouri City",
-        "zip": "77459",
-        "room": "cafeteria",
-        "notes": ""
-      },
-      {
-        "name": "Lexington Creek Elementary School",
-        "address": "2335 Dulles AVE",
-        "city": "Missouri City",
-        "zip": "77459",
-        "room": "Gymnasium",
-        "notes": ""
-      },
-      {
-        "name": "Living Word Lutheran Church",
-        "address": "3700 S Mason RD",
-        "city": "Katy",
-        "zip": "77450",
-        "room": "Life Center - Courtyard Side",
-        "notes": ""
-      },
-      {
-        "name": "Lost Creek Conference Center",
-        "address": "3703 Lost Creek BLVD",
-        "city": "Sugar Land",
-        "zip": "77478",
-        "room": "Meeting Room",
-        "notes": ""
-      },
-      {
-        "name": "M.R. Massey Admin. Bldg.",
-        "address": "1570 W. Sycamore RD",
-        "city": "Fresno",
-        "zip": "77545",
-        "room": "Event Space",
-        "notes": ""
-      },
-      {
-        "name": "Marshall High School",
-        "address": "1220 Buffalo Run",
-        "city": "Missouri City",
-        "zip": "77489",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Maryam Islamic Center",
-        "address": "504 Sartartia RD",
-        "city": "Sugar Land",
-        "zip": "77479",
-        "room": "Multi-purpose Area/Room",
-        "notes": ""
-      },
-      {
-        "name": "Meadows Place City Hall",
-        "address": "1 Troyan DR",
-        "city": "Meadows Place",
-        "zip": "77477",
-        "room": "Council Chambers",
-        "notes": ""
-      },
-      {
-        "name": "Merrell Center",
-        "address": "6301 S Stadium LN",
-        "city": "Katy",
-        "zip": "77494",
-        "room": "Meeting Rooms",
-        "notes": ""
-      },
-      {
-        "name": "Mission Bend Branch Library",
-        "address": "8421 Addicks Clodine RD",
-        "city": "Houston",
-        "zip": "77083",
-        "room": "Main Room",
-        "notes": ""
-      },
-      {
-        "name": "Missouri City Baptist Church",
-        "address": "16816 Quail Park DR",
-        "city": "Missouri City",
-        "zip": "77489",
-        "room": "Multipurpose Building",
-        "notes": ""
-      },
-      {
-        "name": "Missouri City Recreation & Tennis Center",
-        "address": "2701 Cypress Point DR",
-        "city": "Missouri City",
-        "zip": "77459",
-        "room": "Multipurpose Room 1",
-        "notes": ""
-      },
-      {
-        "name": "Missouri City Visitors Center",
-        "address": "1522 Texas PKWY",
-        "city": "Missouri City",
-        "zip": "77489",
-        "room": "Visitor's Center",
-        "notes": ""
-      },
-      {
-        "name": "Museum of Natural Science",
-        "address": "13016 University BLVD",
-        "city": "Sugar Land",
-        "zip": "77479",
-        "room": "Snack Bar",
-        "notes": ""
-      },
-      {
-        "name": "Oak Lake Baptist Church",
-        "address": "15555 W Airport BLVD",
-        "city": "Sugar Land",
-        "zip": "77498",
-        "room": "Church Sanctuary",
-        "notes": ""
-      },
-      {
-        "name": "Oakland Elementary School",
-        "address": "4455 Waterside Estates Dr",
-        "city": "Richmond",
-        "zip": "77469",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Orchard City Hall",
-        "address": "9714 Kibler ST",
-        "city": "Orchard",
-        "zip": "77464",
-        "room": "Room # 7",
-        "notes": ""
-      },
-      {
-        "name": "Our Lady of Guadalupe Fam Life Center",
-        "address": "1600 Avenue D",
-        "city": "Rosenberg",
-        "zip": "77471",
-        "room": "Family Life Center",
-        "notes": ""
-      },
-      {
-        "name": "Patterson Elementary School",
-        "address": "18702 Beechnut St",
-        "city": "Houston",
-        "zip": "77083",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Pecan Grove MUD Admin Bldg.",
-        "address": "751 Pitts RD",
-        "city": "Richmond",
-        "zip": "77406",
-        "room": "Main Conference Room",
-        "notes": ""
-      },
-      {
-        "name": "Pinnacle Senior Center",
-        "address": "5525 Hobby ST",
-        "city": "Houston",
-        "zip": "77053",
-        "room": "Multi-purpose Room",
-        "notes": ""
-      },
-      {
-        "name": "Quail Valley Elementary School",
-        "address": "3500 Quail Village DR",
-        "city": "Missouri City",
-        "zip": "77459",
-        "room": "Gym",
-        "notes": ""
-      },
-      {
-        "name": "Quail Valley Fund Office",
-        "address": "3603 Glenn Lakes LN",
-        "city": "Missouri City",
-        "zip": "77459",
-        "room": "Board Room",
-        "notes": ""
-      },
-      {
-        "name": "Randle High School",
-        "address": "7600 Koeblen RD",
-        "city": "Richmond",
-        "zip": "77469",
-        "room": "Front of Auditorium",
-        "notes": ""
-      },
-      {
-        "name": "Reese Technical Center",
-        "address": "12300 University BLVD",
-        "city": "Sugar Land",
-        "zip": "77479",
-        "room": "T107",
-        "notes": ""
-      },
-      {
-        "name": "Richmond Water Mnt. Facility",
-        "address": "110 N 8th ST",
-        "city": "Richmond",
-        "zip": "77469",
-        "room": "1st room to the right",
-        "notes": ""
-      },
-      {
-        "name": "Ridge Point High School",
-        "address": "500 Waters Lake BLVD",
-        "city": "Missouri City",
-        "zip": "77459",
-        "room": "Gym Foyer",
-        "notes": ""
-      },
-      {
-        "name": "Ridgegate Community Association",
-        "address": "5855 W Ridgecreek DR",
-        "city": "Houston",
-        "zip": "77489",
-        "room": "Main Room",
-        "notes": ""
-      },
-      {
-        "name": "Ridgemont Early Childhood Center",
-        "address": "5353 Ridge Creek CIR",
-        "city": "Houston",
-        "zip": "77053",
-        "room": "Extended Day Room",
-        "notes": ""
-      },
-      {
-        "name": "River Park Recreation Center",
-        "address": "5875 Summit Creek DR",
-        "city": "Sugar Land",
-        "zip": "77479",
-        "room": "Rec Center",
-        "notes": ""
-      },
-      {
-        "name": "Road and Bridge (Needville)",
-        "address": "3743 School ST",
-        "city": "Needville",
-        "zip": "77461",
-        "room": "Meeting Room",
-        "notes": ""
-      },
-      {
-        "name": "Rosenberg Annex Building",
-        "address": "4520 Reading RD",
-        "city": "Rosenberg",
-        "zip": "77471",
-        "room": "Meeting Room A or B",
-        "notes": ""
-      },
-      {
-        "name": "Sartartia Middle School",
-        "address": "8125 Homeward WAY",
-        "city": "Sugar Land",
-        "zip": "77479",
-        "room": "rOM 242",
-        "notes": ""
-      },
-      {
-        "name": "Seven Lakes High School",
-        "address": "9251 S Fry RD",
-        "city": "Katy",
-        "zip": "77494",
-        "room": "PAC Lobby",
-        "notes": ""
-      },
-      {
-        "name": "Seven Meadows Clubhouse",
-        "address": "23610 Seven Meadows Pkwy",
-        "city": "Katy",
-        "zip": "77494",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Sienna Annex",
-        "address": "5855 Sienna Springs WAY",
-        "city": "Missouri City",
-        "zip": "77459",
-        "room": "Community Room",
-        "notes": ""
-      },
-      {
-        "name": "Simonton City Hall",
-        "address": "35011 FM 1093 RD",
-        "city": "Simonton",
-        "zip": "77476",
-        "room": "Meeting Room",
-        "notes": ""
-      },
-      {
-        "name": "Stafford City Hall",
-        "address": "2610 S Main ST",
-        "city": "Stafford",
-        "zip": "77477",
-        "room": "Large Conference Room",
-        "notes": ""
-      },
-      {
-        "name": "Sugar Creek Country Club",
-        "address": "420 Sugar Creek BLVD",
-        "city": "Sugar Land",
-        "zip": "77478",
-        "room": "Ballroom",
-        "notes": ""
-      },
-      {
-        "name": "Sugar Lakes Clubhouse",
-        "address": "930 Sugar Lakes DR",
-        "city": "Sugar Land",
-        "zip": "77478",
-        "room": "Clubhouse",
-        "notes": ""
-      },
-      {
-        "name": "Sugar Land Branch Library",
-        "address": "550 Eldridge RD",
-        "city": "Sugar Land",
-        "zip": "77478",
-        "room": "Meeting Room",
-        "notes": ""
-      },
-      {
-        "name": "Sugar Land Church of God",
-        "address": "1715 Eldridge RD",
-        "city": "Sugar Land",
-        "zip": "77478",
-        "room": "Fellowship Hall",
-        "notes": ""
-      },
-      {
-        "name": "Sugar Land City Hall",
-        "address": "2700 Town Center BLVD N",
-        "city": "Sugar Land",
-        "zip": "77479",
-        "room": "Main Room",
-        "notes": ""
-      },
-      {
-        "name": "Synott Islamic Center",
-        "address": "10415 Synott Rd",
-        "city": "Sugar Land",
-        "zip": "77498",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "T. E. Harman Center",
-        "address": "226 Matlage WAY",
-        "city": "Sugar Land",
-        "zip": "77478",
-        "room": "Meeting Room",
-        "notes": ""
-      },
-      {
-        "name": "The Club at Tamarron",
-        "address": "28707 Tamarron Parkway",
-        "city": "Katy",
-        "zip": "77494",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Thompsons City Hall",
-        "address": "520 Thompson Oil Field RD",
-        "city": "Thompsons",
-        "zip": "77481",
-        "room": "Community Center",
-        "notes": ""
-      },
-      {
-        "name": "Thornton Middle School",
-        "address": "1909 Waters Lake Blvd",
-        "city": "Missouri City",
-        "zip": "77459",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Tomas High School",
-        "address": "24945 Easton Ramsey Way",
-        "city": "Richmond",
-        "zip": "77406",
-        "room": "Front of Auditorium",
-        "notes": ""
-      },
-      {
-        "name": "Tompkins High School",
-        "address": "4400 Falcon Landing BLVD",
-        "city": "Katy",
-        "zip": "77494",
-        "room": "PAC Lobby",
-        "notes": ""
-      },
-      {
-        "name": "Townewest Towne Hall",
-        "address": "10322 Old Towne LN",
-        "city": "Sugar Land",
-        "zip": "77498",
-        "room": "Main Room",
-        "notes": ""
-      },
-      {
-        "name": "University Branch Library",
-        "address": "14010 University BLVD",
-        "city": "Sugar Land",
-        "zip": "77479",
-        "room": "Meeting Room 2",
-        "notes": ""
-      },
-      {
-        "name": "Vadtal Dham Shree Swaminarayan Temple",
-        "address": "10825 Clodine RD",
-        "city": "Richmond",
-        "zip": "77407",
-        "room": "",
-        "notes": ""
-      }
-    ]
-  },
-  "notes": "Fort Bend County uses countywide polling places, so registered voters may vote at any listed site. Twenty of the 38 early voting sites are closed on Sunday, October 25; the other 18 are open noon to 6 p.m. that day."
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-20",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-21",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-22",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-23",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-24",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-25",
+    "open": "12:00",
+    "close": "18:00"
+   },
+   {
+    "date": "2026-10-26",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-27",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-28",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-29",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-30",
+    "open": "07:00",
+    "close": "19:00"
+   }
+  ],
+  "sites": [
+   {
+    "name": "Cinco Ranch Branch Library",
+    "address": "2620 Commercial Center Blvd",
+    "city": "Katy",
+    "zip": "",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 29.741541,
+    "lng": -95.776945
+   },
+   {
+    "name": "Commonwealth Clubhouse",
+    "address": "4330 Knightsbridge Blvd",
+    "city": "Sugar Land",
+    "zip": "",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Elections Office",
+    "address": "3730 Bamore Rd",
+    "city": "Rosenberg",
+    "zip": "",
+    "room": "",
+    "schedule": null,
+    "notes": "Main early voting site",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Fort Bend ISD Admin. Bldg.",
+    "address": "16431 Lexington Blvd",
+    "city": "Sugar Land",
+    "zip": "",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 29.589667,
+    "lng": -95.621906
+   },
+   {
+    "name": "FBC ESD No. 4 Admin. Bldg.",
+    "address": "33301 FM 1093 Rd",
+    "city": "Fulshear",
+    "zip": "",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Four Corners Community Center",
+    "address": "15700 Old Richmond Rd",
+    "city": "Sugar Land",
+    "zip": "",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 29.668616,
+    "lng": -95.657787
+   },
+   {
+    "name": "Jacks Conference Center",
+    "address": "3232 Austin Pkwy",
+    "city": "Sugar Land",
+    "zip": "",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 29.575571,
+    "lng": -95.607139
+   },
+   {
+    "name": "Jones Creek Ranch Park",
+    "address": "7741 FM 359 Rd",
+    "city": "Richmond",
+    "zip": "",
+    "room": "",
+    "schedule": null,
+    "notes": "The county early voting list gives 7741 FM 359 Rd while the Election Day list gives 7714 FM 359 Rd.",
+    "lat": 29.644421,
+    "lng": -95.829631
+   },
+   {
+    "name": "Kroger Riverstone",
+    "address": "18861 University Blvd",
+    "city": "Sugar Land",
+    "zip": "",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 29.549396,
+    "lng": -95.584269
+   },
+   {
+    "name": "Lakes of Bella Terra Rec Center",
+    "address": "11620 W Torino Reale Dr.",
+    "city": "Richmond",
+    "zip": "",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 29.690045,
+    "lng": -95.789414
+   },
+   {
+    "name": "Meadows Place City Hall",
+    "address": "1 Troyan Dr",
+    "city": "Meadows Place",
+    "zip": "",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 29.646963,
+    "lng": -95.579739
+   },
+   {
+    "name": "Missouri City Visitors Center",
+    "address": "1522 Texas Pkwy",
+    "city": "Missouri City",
+    "zip": "",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 29.605514,
+    "lng": -95.527021
+   },
+   {
+    "name": "Pinnacle Senior Center",
+    "address": "5525 Hobby St",
+    "city": "Missouri City",
+    "zip": "",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Road and Bridge (Needville)",
+    "address": "3743 School St",
+    "city": "Needville",
+    "zip": "",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 29.394408,
+    "lng": -95.843062
+   },
+   {
+    "name": "Rosenberg Annex",
+    "address": "4520 Reading Rd",
+    "city": "Rosenberg",
+    "zip": "",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 29.565065,
+    "lng": -95.781163
+   },
+   {
+    "name": "Sienna Annex",
+    "address": "5855 Sienna Springs Way",
+    "city": "Missouri City",
+    "zip": "",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 29.533402,
+    "lng": -95.537965
+   },
+   {
+    "name": "Stafford City Hall",
+    "address": "2610 Main Street",
+    "city": "Stafford",
+    "zip": "",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 29.615496,
+    "lng": -95.55389
+   },
+   {
+    "name": "Beasley Fire Department",
+    "address": "214 S 3rd Street",
+    "city": "Beasley",
+    "zip": "",
+    "room": "",
+    "schedule": [
+     {
+      "date": "2026-10-19",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-20",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-21",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-22",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-23",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-24",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-26",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-27",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-28",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-29",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-30",
+      "open": "07:00",
+      "close": "19:00"
+     }
+    ],
+    "notes": "Closed Sunday, October 25.",
+    "lat": 29.496942,
+    "lng": -95.91646
+   },
+   {
+    "name": "Bowie Middle",
+    "address": "700 Plantation Dr",
+    "city": "Richmond",
+    "zip": "",
+    "room": "",
+    "schedule": [
+     {
+      "date": "2026-10-19",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-20",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-21",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-22",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-23",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-24",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-26",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-27",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-28",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-29",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-30",
+      "open": "07:00",
+      "close": "19:00"
+     }
+    ],
+    "notes": "Closed Sunday, October 25.",
+    "lat": 29.625055,
+    "lng": -95.714187
+   },
+   {
+    "name": "Chasewood Clubhouse",
+    "address": "7622 Chasewood Dr",
+    "city": "Missouri City",
+    "zip": "",
+    "room": "",
+    "schedule": [
+     {
+      "date": "2026-10-19",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-20",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-21",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-22",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-23",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-24",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-26",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-27",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-28",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-29",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-30",
+      "open": "07:00",
+      "close": "19:00"
+     }
+    ],
+    "notes": "Closed Sunday, October 25.",
+    "lat": 29.608269,
+    "lng": -95.501585
+   },
+   {
+    "name": "Crawford High School",
+    "address": "801 Caldwell Ranch Blvd",
+    "city": "Rosharon",
+    "zip": "",
+    "room": "",
+    "schedule": [
+     {
+      "date": "2026-10-19",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-20",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-21",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-22",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-23",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-24",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-26",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-27",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-28",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-29",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-30",
+      "open": "07:00",
+      "close": "19:00"
+     }
+    ],
+    "notes": "Closed Sunday, October 25.",
+    "lat": 29.472945,
+    "lng": -95.467104
+   },
+   {
+    "name": "Crockett Middle School",
+    "address": "19001 Beechnut St",
+    "city": "Richmond",
+    "zip": "",
+    "room": "",
+    "schedule": [
+     {
+      "date": "2026-10-19",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-20",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-21",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-22",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-23",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-24",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-26",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-27",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-28",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-29",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-30",
+      "open": "07:00",
+      "close": "19:00"
+     }
+    ],
+    "notes": "Closed Sunday, October 25.",
+    "lat": 29.683356,
+    "lng": -95.731268
+   },
+   {
+    "name": "Elkins High School",
+    "address": "7007 Knights Ct",
+    "city": "Missouri City",
+    "zip": "",
+    "room": "",
+    "schedule": [
+     {
+      "date": "2026-10-19",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-20",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-21",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-22",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-23",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-24",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-26",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-27",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-28",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-29",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-30",
+      "open": "07:00",
+      "close": "19:00"
+     }
+    ],
+    "notes": "Closed Sunday, October 25.",
+    "lat": 29.544056,
+    "lng": -95.558995
+   },
+   {
+    "name": "Firethorne Clubhouse",
+    "address": "28100 N Firethorne Road",
+    "city": "Katy",
+    "zip": "",
+    "room": "",
+    "schedule": [
+     {
+      "date": "2026-10-19",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-20",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-21",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-22",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-23",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-24",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-26",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-27",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-28",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-29",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-30",
+      "open": "07:00",
+      "close": "19:00"
+     }
+    ],
+    "notes": "Closed Sunday, October 25.",
+    "lat": 29.761024,
+    "lng": -95.851771
+   },
+   {
+    "name": "First Baptist Church Fresno",
+    "address": "4501 FM 521 Rd.",
+    "city": "Fresno",
+    "zip": "",
+    "room": "",
+    "schedule": [
+     {
+      "date": "2026-10-19",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-20",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-21",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-22",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-23",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-24",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-26",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-27",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-28",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-29",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-30",
+      "open": "07:00",
+      "close": "19:00"
+     }
+    ],
+    "notes": "Closed Sunday, October 25.",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Fulshear Branch Library",
+    "address": "6350 GM Library Road",
+    "city": "Fulshear",
+    "zip": "",
+    "room": "",
+    "schedule": [
+     {
+      "date": "2026-10-19",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-20",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-21",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-22",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-23",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-24",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-26",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-27",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-28",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-29",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-30",
+      "open": "07:00",
+      "close": "19:00"
+     }
+    ],
+    "notes": "Closed Sunday, October 25.",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "George Memorial Library",
+    "address": "1001 Golfview Dr",
+    "city": "Richmond",
+    "zip": "",
+    "room": "",
+    "schedule": [
+     {
+      "date": "2026-10-19",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-20",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-21",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-22",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-23",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-24",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-26",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-27",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-28",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-29",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-30",
+      "open": "07:00",
+      "close": "19:00"
+     }
+    ],
+    "notes": "Closed Sunday, October 25.",
+    "lat": 29.563359,
+    "lng": -95.75858
+   },
+   {
+    "name": "Great Oaks Baptist Church",
+    "address": "7101 FM 2759",
+    "city": "Richmond",
+    "zip": "",
+    "room": "",
+    "schedule": [
+     {
+      "date": "2026-10-19",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-20",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-21",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-22",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-23",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-24",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-26",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-27",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-28",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-29",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-30",
+      "open": "07:00",
+      "close": "19:00"
+     }
+    ],
+    "notes": "Closed Sunday, October 25.",
+    "lat": 29.536756,
+    "lng": -95.695691
+   },
+   {
+    "name": "Hightower HS",
+    "address": "3333 Hurricane Ln",
+    "city": "Missouri City",
+    "zip": "",
+    "room": "",
+    "schedule": [
+     {
+      "date": "2026-10-19",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-20",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-21",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-22",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-23",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-24",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-26",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-27",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-28",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-29",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-30",
+      "open": "07:00",
+      "close": "19:00"
+     }
+    ],
+    "notes": "Closed Sunday, October 25.",
+    "lat": 29.53231,
+    "lng": -95.499674
+   },
+   {
+    "name": "Lost Creek Conference Center",
+    "address": "3703 Lost Creek Blvd",
+    "city": "Sugar Land",
+    "zip": "",
+    "room": "",
+    "schedule": [
+     {
+      "date": "2026-10-19",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-20",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-21",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-22",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-23",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-24",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-26",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-27",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-28",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-29",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-30",
+      "open": "07:00",
+      "close": "19:00"
+     }
+    ],
+    "notes": "Closed Sunday, October 25.",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Maryam Islamic Center",
+    "address": "504 Sartartia Rd",
+    "city": "Sugar Land",
+    "zip": "",
+    "room": "",
+    "schedule": [
+     {
+      "date": "2026-10-19",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-20",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-21",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-22",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-23",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-24",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-26",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-27",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-28",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-29",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-30",
+      "open": "07:00",
+      "close": "19:00"
+     }
+    ],
+    "notes": "Closed Sunday, October 25.",
+    "lat": 29.594594,
+    "lng": -95.683377
+   },
+   {
+    "name": "Mission Bend Branch Library",
+    "address": "8421 Addicks-Clodine Rd",
+    "city": "Houston",
+    "zip": "",
+    "room": "",
+    "schedule": [
+     {
+      "date": "2026-10-19",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-20",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-21",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-22",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-23",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-24",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-26",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-27",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-28",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-29",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-30",
+      "open": "07:00",
+      "close": "19:00"
+     }
+    ],
+    "notes": "Closed Sunday, October 25.",
+    "lat": 29.683853,
+    "lng": -95.661988
+   },
+   {
+    "name": "Quail Valley Fund Office",
+    "address": "3603 Glenn Lakes Ln",
+    "city": "Missouri City",
+    "zip": "",
+    "room": "",
+    "schedule": [
+     {
+      "date": "2026-10-19",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-20",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-21",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-22",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-23",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-24",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-26",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-27",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-28",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-29",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-30",
+      "open": "07:00",
+      "close": "19:00"
+     }
+    ],
+    "notes": "Closed Sunday, October 25.",
+    "lat": 29.564178,
+    "lng": -95.560429
+   },
+   {
+    "name": "Reese Technical Center",
+    "address": "12300 University Dr",
+    "city": "Sugar Land",
+    "zip": "",
+    "room": "",
+    "schedule": [
+     {
+      "date": "2026-10-19",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-20",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-21",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-22",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-23",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-24",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-26",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-27",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-28",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-29",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-30",
+      "open": "07:00",
+      "close": "19:00"
+     }
+    ],
+    "notes": "Closed Sunday, October 25. The county Election Day list gives this address as 12300 University Blvd.",
+    "lat": 29.605441,
+    "lng": -95.646529
+   },
+   {
+    "name": "Richmond Water Maintenance Facility",
+    "address": "110 N 8th Street",
+    "city": "Richmond",
+    "zip": "",
+    "room": "",
+    "schedule": [
+     {
+      "date": "2026-10-19",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-20",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-21",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-22",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-23",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-24",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-26",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-27",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-28",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-29",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-30",
+      "open": "07:00",
+      "close": "19:00"
+     }
+    ],
+    "notes": "Closed Sunday, October 25.",
+    "lat": 29.582514,
+    "lng": -95.765389
+   },
+   {
+    "name": "Seven Lakes High School",
+    "address": "9251 S. Fry Road",
+    "city": "Katy",
+    "zip": "",
+    "room": "",
+    "schedule": [
+     {
+      "date": "2026-10-19",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-20",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-21",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-22",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-23",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-24",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-26",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-27",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-28",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-29",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-30",
+      "open": "07:00",
+      "close": "19:00"
+     }
+    ],
+    "notes": "Closed Sunday, October 25.",
+    "lat": 29.709737,
+    "lng": -95.807795
+   },
+   {
+    "name": "Sugar Land Branch Library",
+    "address": "550 Eldridge Rd",
+    "city": "Sugar Land",
+    "zip": "",
+    "room": "",
+    "schedule": [
+     {
+      "date": "2026-10-19",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-20",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-21",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-22",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-23",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-24",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-26",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-27",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-28",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-29",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-30",
+      "open": "07:00",
+      "close": "19:00"
+     }
+    ],
+    "notes": "Closed Sunday, October 25.",
+    "lat": 29.630276,
+    "lng": -95.61858
+   },
+   {
+    "name": "Tompkins High School",
+    "address": "4400 Falcon Landing Blvd",
+    "city": "Katy",
+    "zip": "",
+    "room": "",
+    "schedule": [
+     {
+      "date": "2026-10-19",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-20",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-21",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-22",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-23",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-24",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-26",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-27",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-28",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-29",
+      "open": "07:00",
+      "close": "19:00"
+     },
+     {
+      "date": "2026-10-30",
+      "open": "07:00",
+      "close": "19:00"
+     }
+    ],
+    "notes": "Closed Sunday, October 25.",
+    "lat": null,
+    "lng": null
+   }
+  ]
+ },
+ "election_day": {
+  "open": "07:00",
+  "close": "19:00",
+  "sites": [
+   {
+    "name": "Baines Middle School",
+    "address": "9000 Sienna Ranch Rd.",
+    "city": "Missouri City",
+    "zip": "77459",
+    "room": "",
+    "notes": "",
+    "lat": 29.513888,
+    "lng": -95.533968
+   },
+   {
+    "name": "BAPS Shri Swaminarayan Mandir",
+    "address": "1150 Brand LN",
+    "city": "Stafford",
+    "zip": "77477",
+    "room": "Dining Room Hall-Front",
+    "notes": "",
+    "lat": 29.608635,
+    "lng": -95.577881
+   },
+   {
+    "name": "Beasley Fire Department",
+    "address": "214 S. Third ST",
+    "city": "Beasley",
+    "zip": "77417",
+    "room": "",
+    "notes": "",
+    "lat": 29.496942,
+    "lng": -95.91646
+   },
+   {
+    "name": "Best in Class Education Center",
+    "address": "18440 W Airport Blvd",
+    "city": "Richmond",
+    "zip": "77407",
+    "room": "",
+    "notes": "",
+    "lat": 29.650826,
+    "lng": -95.704973
+   },
+   {
+    "name": "Bowie Middle School",
+    "address": "700 Plantation DR",
+    "city": "Richmond",
+    "zip": "77406",
+    "room": "Main Hallway by Gym",
+    "notes": "",
+    "lat": 29.625055,
+    "lng": -95.714187
+   },
+   {
+    "name": "Brazos Bend Baptist Church",
+    "address": "22311 FM 762 RD",
+    "city": "Needville",
+    "zip": "77461",
+    "room": "Education Building",
+    "notes": "",
+    "lat": 29.368443,
+    "lng": -95.641264
+   },
+   {
+    "name": "Briarchase Missionary Bapt Church",
+    "address": "16000 Blueridge RD",
+    "city": "Missouri City",
+    "zip": "77489",
+    "room": "Classroom",
+    "notes": "",
+    "lat": 29.592955,
+    "lng": -95.492361
+   },
+   {
+    "name": "Caleb Rule Public Safety Annex",
+    "address": "6561 Katy Flewellen Way",
+    "city": "Katy",
+    "zip": "77494",
+    "room": "",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Calvary Baptist Church",
+    "address": "4111 Airport AVE",
+    "city": "Rosenberg",
+    "zip": "77471",
+    "room": "Fellowship Hall",
+    "notes": "",
+    "lat": 29.542743,
+    "lng": -95.786929
+   },
+   {
+    "name": "Chasewood Clubhouse",
+    "address": "7622 Chasewood DR",
+    "city": "Missouri City",
+    "zip": "77489",
+    "room": "Level 1 (Clubhouse Facility)",
+    "notes": "",
+    "lat": 29.608269,
+    "lng": -95.501585
+   },
+   {
+    "name": "Cinco Ranch Branch Library",
+    "address": "2620 Commercial Center BLVD",
+    "city": "Katy",
+    "zip": "77494",
+    "room": "Meeting Room",
+    "notes": "",
+    "lat": 29.741541,
+    "lng": -95.776945
+   },
+   {
+    "name": "Cinco Ranch High School",
+    "address": "23440 Cinco Ranch Blvd",
+    "city": "Katy",
+    "zip": "77494",
+    "room": "",
+    "notes": "",
+    "lat": 29.744209,
+    "lng": -95.77401
+   },
+   {
+    "name": "Commonwealth Clubhouse",
+    "address": "4330 Knightsbridge BLVD",
+    "city": "Sugar Land",
+    "zip": "77479",
+    "room": "Clubhouse",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Crawford High School",
+    "address": "801 Caldwell Ranch BLVD",
+    "city": "Rosharon",
+    "zip": "77583",
+    "room": "",
+    "notes": "",
+    "lat": 29.472945,
+    "lng": -95.467104
+   },
+   {
+    "name": "Crockett Middle School",
+    "address": "19001 Beechnut ST",
+    "city": "Richmond",
+    "zip": "77407",
+    "room": "Girls Gym",
+    "notes": "",
+    "lat": 29.683356,
+    "lng": -95.731268
+   },
+   {
+    "name": "Eagle Heights Church",
+    "address": "16718 West Bellfort",
+    "city": "Richmond",
+    "zip": "77407",
+    "room": "Foyer",
+    "notes": "",
+    "lat": 29.667221,
+    "lng": -95.680538
+   },
+   {
+    "name": "Election Office",
+    "address": "3730 Bamore Road",
+    "city": "Rosenberg",
+    "zip": "77471",
+    "room": "Training Room",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Elkins High School",
+    "address": "7007 Knights CT",
+    "city": "Missouri City",
+    "zip": "77459",
+    "room": "Front lobby",
+    "notes": "",
+    "lat": 29.544056,
+    "lng": -95.558995
+   },
+   {
+    "name": "Farmhouse at Harvest Green",
+    "address": "3400 Harvest Corner DR",
+    "city": "Richmond",
+    "zip": "77406",
+    "room": "Event Hall",
+    "notes": "",
+    "lat": 29.643006,
+    "lng": -95.722375
+   },
+   {
+    "name": "FBC ESD No. 4 Admin. Bldg.",
+    "address": "33301 FM 1093",
+    "city": "Fulshear",
+    "zip": "77441",
+    "room": "Training Room",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "FBISD Administration Building",
+    "address": "16431 Lexington BLVD",
+    "city": "Sugar Land",
+    "zip": "77479",
+    "room": "Lobby",
+    "notes": "",
+    "lat": 29.589667,
+    "lng": -95.621906
+   },
+   {
+    "name": "Firethorne Clubhouse",
+    "address": "28100 N. Firethorne RD",
+    "city": "Katy",
+    "zip": "77494",
+    "room": "Main Room",
+    "notes": "",
+    "lat": 29.761024,
+    "lng": -95.851771
+   },
+   {
+    "name": "First Baptist Church Fresno",
+    "address": "4501 FM 521 Rd.",
+    "city": "Fresno",
+    "zip": "77545",
+    "room": "",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Fort Bend County Tax Office",
+    "address": "1317 Eugene Heimann Cir",
+    "city": "Richmond",
+    "zip": "77469",
+    "room": "Lobby",
+    "notes": "",
+    "lat": 29.576683,
+    "lng": -95.754794
+   },
+   {
+    "name": "Fort Settlement Middle School",
+    "address": "5440 Elkins RD",
+    "city": "Sugar Land",
+    "zip": "77479",
+    "room": "",
+    "notes": "",
+    "lat": 29.557948,
+    "lng": -95.630135
+   },
+   {
+    "name": "Foster High School",
+    "address": "4400 FM 723 RD",
+    "city": "Richmond",
+    "zip": "77406",
+    "room": "Front of Auditorium",
+    "notes": "",
+    "lat": 29.624012,
+    "lng": -95.811582
+   },
+   {
+    "name": "Four Corners Community Center",
+    "address": "15700 Old Richmond RD",
+    "city": "Sugar Land",
+    "zip": "77498",
+    "room": "Community Center",
+    "notes": "",
+    "lat": 29.668616,
+    "lng": -95.657787
+   },
+   {
+    "name": "Fulshear Branch Library",
+    "address": "6350 GM Library RD",
+    "city": "Fulshear",
+    "zip": "77441",
+    "room": "Meeting Room",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Gallery Furniture",
+    "address": "7227 W Grand PKWY S",
+    "city": "Richmond",
+    "zip": "77407",
+    "room": "Atrium",
+    "notes": "",
+    "lat": 29.672074,
+    "lng": -95.751618
+   },
+   {
+    "name": "Garcia Middle School",
+    "address": "18550 Old Richmond RD",
+    "city": "Sugar Land",
+    "zip": "77498",
+    "room": "Gym Area Hallway",
+    "notes": "",
+    "lat": 29.633425,
+    "lng": -95.679984
+   },
+   {
+    "name": "George Bush High School",
+    "address": "6707 FM 1464 RD",
+    "city": "Richmond",
+    "zip": "77407",
+    "room": "Gym Foyer",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "George Memorial Library",
+    "address": "1001 Golfview DR",
+    "city": "Richmond",
+    "zip": "77469",
+    "room": "Large Meeting Room, 1st Floor",
+    "notes": "",
+    "lat": 29.563359,
+    "lng": -95.75858
+   },
+   {
+    "name": "Great Oaks Baptist Church",
+    "address": "7101 FM 2759 RD",
+    "city": "Richmond",
+    "zip": "77469",
+    "room": "Fellowship Building",
+    "notes": "",
+    "lat": 29.536756,
+    "lng": -95.695691
+   },
+   {
+    "name": "Hightower High School",
+    "address": "3333 Hurricane LN",
+    "city": "Missouri City",
+    "zip": "77459",
+    "room": "Front Lobby",
+    "notes": "",
+    "lat": 29.53231,
+    "lng": -95.499674
+   },
+   {
+    "name": "Hunters Glen Elementary School",
+    "address": "695 Independence BLVD",
+    "city": "Missouri City",
+    "zip": "77459",
+    "room": "Gym",
+    "notes": "",
+    "lat": 29.601629,
+    "lng": -95.512392
+   },
+   {
+    "name": "Irene Stern Community Center",
+    "address": "6920 Katy-Fulshear RD",
+    "city": "Fulshear",
+    "zip": "77441",
+    "room": "Community Center",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Jacks Conference Center",
+    "address": "3232 Austin PKWY",
+    "city": "Sugar Land",
+    "zip": "77479",
+    "room": "Main Room",
+    "notes": "",
+    "lat": 29.575571,
+    "lng": -95.607139
+   },
+   {
+    "name": "Jones Creek Ranch Park",
+    "address": "7714 FM 359 RD",
+    "city": "Richmond",
+    "zip": "77406",
+    "room": "Main Room",
+    "notes": "The county Election Day list gives 7714 FM 359 Rd while the early voting list gives 7741 FM 359 Rd.",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Jordan Elementary School",
+    "address": "17800 West Oaks Village Dr.",
+    "city": "Richmond",
+    "zip": "77407",
+    "room": "",
+    "notes": "",
+    "lat": 29.702658,
+    "lng": -95.694081
+   },
+   {
+    "name": "Jordan High School",
+    "address": "27500 Fulshear Bend DR",
+    "city": "Fulshear",
+    "zip": "77441",
+    "room": "PAC Lobby",
+    "notes": "",
+    "lat": 29.717804,
+    "lng": -95.846229
+   },
+   {
+    "name": "Katy High School",
+    "address": "6331 Highway Boulevard",
+    "city": "Katy",
+    "zip": "77494",
+    "room": "",
+    "notes": "",
+    "lat": 29.78575,
+    "lng": -95.830779
+   },
+   {
+    "name": "Katy ISD Coleman Support Annex",
+    "address": "4242 S Mason Rd.",
+    "city": "Katy",
+    "zip": "77494",
+    "room": "",
+    "notes": "",
+    "lat": 29.728053,
+    "lng": -95.755845
+   },
+   {
+    "name": "Kempner High School",
+    "address": "14777 Voss RD",
+    "city": "Sugar Land",
+    "zip": "77498",
+    "room": "503",
+    "notes": "",
+    "lat": 29.644367,
+    "lng": -95.646589
+   },
+   {
+    "name": "Kendleton Church of God",
+    "address": "619 FM 2919 RD",
+    "city": "Kendleton",
+    "zip": "77417",
+    "room": "ED Building",
+    "notes": "",
+    "lat": 29.451595,
+    "lng": -96.004294
+   },
+   {
+    "name": "Kroger Riverstone",
+    "address": "18861 University BLVD",
+    "city": "Sugar Land",
+    "zip": "77479",
+    "room": "Community Room",
+    "notes": "",
+    "lat": 29.549396,
+    "lng": -95.584269
+   },
+   {
+    "name": "Lake Olympia Clubhouse",
+    "address": "180 Island BLVD",
+    "city": "Missouri City",
+    "zip": "77459",
+    "room": "Ballroom",
+    "notes": "",
+    "lat": 29.556499,
+    "lng": -95.532429
+   },
+   {
+    "name": "Lakemont Clubhouse",
+    "address": "21021 Lakemont Bend Lane",
+    "city": "Richmond",
+    "zip": "77407",
+    "room": "",
+    "notes": "",
+    "lat": 29.698715,
+    "lng": -95.747538
+   },
+   {
+    "name": "Lakes of Bella Terra Recreation Center",
+    "address": "11620 W Torino Reale DR",
+    "city": "Richmond",
+    "zip": "77406",
+    "room": "",
+    "notes": "",
+    "lat": 29.690045,
+    "lng": -95.789414
+   },
+   {
+    "name": "Lantern Lane Elementary School",
+    "address": "3323 Mission Valley DR",
+    "city": "Missouri City",
+    "zip": "77459",
+    "room": "cafeteria",
+    "notes": "",
+    "lat": 29.571649,
+    "lng": -95.530515
+   },
+   {
+    "name": "Lexington Creek Elementary School",
+    "address": "2335 Dulles AVE",
+    "city": "Missouri City",
+    "zip": "77459",
+    "room": "Gymnasium",
+    "notes": "",
+    "lat": 29.590504,
+    "lng": -95.581666
+   },
+   {
+    "name": "Living Word Lutheran Church",
+    "address": "3700 S Mason RD",
+    "city": "Katy",
+    "zip": "77450",
+    "room": "Life Center - Courtyard Side",
+    "notes": "",
+    "lat": 29.735654,
+    "lng": -95.755081
+   },
+   {
+    "name": "Lost Creek Conference Center",
+    "address": "3703 Lost Creek BLVD",
+    "city": "Sugar Land",
+    "zip": "77478",
+    "room": "Meeting Room",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "M.R. Massey Admin. Bldg.",
+    "address": "1570 W. Sycamore RD",
+    "city": "Fresno",
+    "zip": "77545",
+    "room": "Event Space",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Marshall High School",
+    "address": "1220 Buffalo Run",
+    "city": "Missouri City",
+    "zip": "77489",
+    "room": "",
+    "notes": "",
+    "lat": 29.610356,
+    "lng": -95.521927
+   },
+   {
+    "name": "Maryam Islamic Center",
+    "address": "504 Sartartia RD",
+    "city": "Sugar Land",
+    "zip": "77479",
+    "room": "Multi-purpose Area/Room",
+    "notes": "",
+    "lat": 29.594594,
+    "lng": -95.683377
+   },
+   {
+    "name": "Meadows Place City Hall",
+    "address": "1 Troyan DR",
+    "city": "Meadows Place",
+    "zip": "77477",
+    "room": "Council Chambers",
+    "notes": "",
+    "lat": 29.646963,
+    "lng": -95.579739
+   },
+   {
+    "name": "Merrell Center",
+    "address": "6301 S Stadium LN",
+    "city": "Katy",
+    "zip": "77494",
+    "room": "Meeting Rooms",
+    "notes": "",
+    "lat": 29.781067,
+    "lng": -95.832945
+   },
+   {
+    "name": "Mission Bend Branch Library",
+    "address": "8421 Addicks Clodine RD",
+    "city": "Houston",
+    "zip": "77083",
+    "room": "Main Room",
+    "notes": "",
+    "lat": 29.683853,
+    "lng": -95.661988
+   },
+   {
+    "name": "Missouri City Baptist Church",
+    "address": "16816 Quail Park DR",
+    "city": "Missouri City",
+    "zip": "77489",
+    "room": "Multipurpose Building",
+    "notes": "",
+    "lat": 29.581354,
+    "lng": -95.518444
+   },
+   {
+    "name": "Missouri City Recreation & Tennis Center",
+    "address": "2701 Cypress Point DR",
+    "city": "Missouri City",
+    "zip": "77459",
+    "room": "Multipurpose Room 1",
+    "notes": "",
+    "lat": 29.582971,
+    "lng": -95.543408
+   },
+   {
+    "name": "Missouri City Visitors Center",
+    "address": "1522 Texas PKWY",
+    "city": "Missouri City",
+    "zip": "77489",
+    "room": "Visitor's Center",
+    "notes": "",
+    "lat": 29.605514,
+    "lng": -95.527021
+   },
+   {
+    "name": "Museum of Natural Science",
+    "address": "13016 University BLVD",
+    "city": "Sugar Land",
+    "zip": "77479",
+    "room": "Snack Bar",
+    "notes": "",
+    "lat": 29.593115,
+    "lng": -95.64879
+   },
+   {
+    "name": "Oak Lake Baptist Church",
+    "address": "15555 W Airport BLVD",
+    "city": "Sugar Land",
+    "zip": "77498",
+    "room": "Church Sanctuary",
+    "notes": "",
+    "lat": 29.650007,
+    "lng": -95.657628
+   },
+   {
+    "name": "Oakland Elementary School",
+    "address": "4455 Waterside Estates Dr",
+    "city": "Richmond",
+    "zip": "77469",
+    "room": "",
+    "notes": "",
+    "lat": 29.656512,
+    "lng": -95.736282
+   },
+   {
+    "name": "Orchard City Hall",
+    "address": "9714 Kibler ST",
+    "city": "Orchard",
+    "zip": "77464",
+    "room": "Room # 7",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Our Lady of Guadalupe Fam Life Center",
+    "address": "1600 Avenue D",
+    "city": "Rosenberg",
+    "zip": "77471",
+    "room": "Family Life Center",
+    "notes": "",
+    "lat": 29.561672,
+    "lng": -95.811042
+   },
+   {
+    "name": "Patterson Elementary School",
+    "address": "18702 Beechnut St",
+    "city": "Houston",
+    "zip": "77083",
+    "room": "",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Pecan Grove MUD Admin Bldg.",
+    "address": "751 Pitts RD",
+    "city": "Richmond",
+    "zip": "77406",
+    "room": "Main Conference Room",
+    "notes": "",
+    "lat": 29.606243,
+    "lng": -95.733977
+   },
+   {
+    "name": "Pinnacle Senior Center",
+    "address": "5525 Hobby ST",
+    "city": "Houston",
+    "zip": "77053",
+    "room": "Multi-purpose Room",
+    "notes": "",
+    "lat": 29.586021,
+    "lng": -95.475103
+   },
+   {
+    "name": "Quail Valley Elementary School",
+    "address": "3500 Quail Village DR",
+    "city": "Missouri City",
+    "zip": "77459",
+    "room": "Gym",
+    "notes": "",
+    "lat": 29.586762,
+    "lng": -95.560391
+   },
+   {
+    "name": "Quail Valley Fund Office",
+    "address": "3603 Glenn Lakes LN",
+    "city": "Missouri City",
+    "zip": "77459",
+    "room": "Board Room",
+    "notes": "",
+    "lat": 29.564178,
+    "lng": -95.560429
+   },
+   {
+    "name": "Randle High School",
+    "address": "7600 Koeblen RD",
+    "city": "Richmond",
+    "zip": "77469",
+    "room": "Front of Auditorium",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Reese Technical Center",
+    "address": "12300 University BLVD",
+    "city": "Sugar Land",
+    "zip": "77479",
+    "room": "T107",
+    "notes": "",
+    "lat": 29.605441,
+    "lng": -95.646529
+   },
+   {
+    "name": "Richmond Water Mnt. Facility",
+    "address": "110 N 8th ST",
+    "city": "Richmond",
+    "zip": "77469",
+    "room": "1st room to the right",
+    "notes": "",
+    "lat": 29.582514,
+    "lng": -95.765389
+   },
+   {
+    "name": "Ridge Point High School",
+    "address": "500 Waters Lake BLVD",
+    "city": "Missouri City",
+    "zip": "77459",
+    "room": "Gym Foyer",
+    "notes": "",
+    "lat": 29.485402,
+    "lng": -95.51271
+   },
+   {
+    "name": "Ridgegate Community Association",
+    "address": "5855 W Ridgecreek DR",
+    "city": "Houston",
+    "zip": "77489",
+    "room": "Main Room",
+    "notes": "",
+    "lat": 29.596101,
+    "lng": -95.474015
+   },
+   {
+    "name": "Ridgemont Early Childhood Center",
+    "address": "5353 Ridge Creek CIR",
+    "city": "Houston",
+    "zip": "77053",
+    "room": "Extended Day Room",
+    "notes": "",
+    "lat": 29.590291,
+    "lng": -95.461573
+   },
+   {
+    "name": "River Park Recreation Center",
+    "address": "5875 Summit Creek DR",
+    "city": "Sugar Land",
+    "zip": "77479",
+    "room": "Rec Center",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Road and Bridge (Needville)",
+    "address": "3743 School ST",
+    "city": "Needville",
+    "zip": "77461",
+    "room": "Meeting Room",
+    "notes": "",
+    "lat": 29.394408,
+    "lng": -95.843062
+   },
+   {
+    "name": "Rosenberg Annex Building",
+    "address": "4520 Reading RD",
+    "city": "Rosenberg",
+    "zip": "77471",
+    "room": "Meeting Room A or B",
+    "notes": "",
+    "lat": 29.565065,
+    "lng": -95.781163
+   },
+   {
+    "name": "Sartartia Middle School",
+    "address": "8125 Homeward WAY",
+    "city": "Sugar Land",
+    "zip": "77479",
+    "room": "rOM 242",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Seven Lakes High School",
+    "address": "9251 S Fry RD",
+    "city": "Katy",
+    "zip": "77494",
+    "room": "PAC Lobby",
+    "notes": "",
+    "lat": 29.709737,
+    "lng": -95.807795
+   },
+   {
+    "name": "Seven Meadows Clubhouse",
+    "address": "23610 Seven Meadows Pkwy",
+    "city": "Katy",
+    "zip": "77494",
+    "room": "",
+    "notes": "",
+    "lat": 29.70756,
+    "lng": -95.78498
+   },
+   {
+    "name": "Sienna Annex",
+    "address": "5855 Sienna Springs WAY",
+    "city": "Missouri City",
+    "zip": "77459",
+    "room": "Community Room",
+    "notes": "",
+    "lat": 29.533402,
+    "lng": -95.537965
+   },
+   {
+    "name": "Simonton City Hall",
+    "address": "35011 FM 1093 RD",
+    "city": "Simonton",
+    "zip": "77476",
+    "room": "Meeting Room",
+    "notes": "",
+    "lat": 29.680248,
+    "lng": -95.967998
+   },
+   {
+    "name": "Stafford City Hall",
+    "address": "2610 S Main ST",
+    "city": "Stafford",
+    "zip": "77477",
+    "room": "Large Conference Room",
+    "notes": "",
+    "lat": 29.614304,
+    "lng": -95.554138
+   },
+   {
+    "name": "Sugar Creek Country Club",
+    "address": "420 Sugar Creek BLVD",
+    "city": "Sugar Land",
+    "zip": "77478",
+    "room": "Ballroom",
+    "notes": "",
+    "lat": 29.619601,
+    "lng": -95.598928
+   },
+   {
+    "name": "Sugar Lakes Clubhouse",
+    "address": "930 Sugar Lakes DR",
+    "city": "Sugar Land",
+    "zip": "77478",
+    "room": "Clubhouse",
+    "notes": "",
+    "lat": 29.612137,
+    "lng": -95.618963
+   },
+   {
+    "name": "Sugar Land Branch Library",
+    "address": "550 Eldridge RD",
+    "city": "Sugar Land",
+    "zip": "77478",
+    "room": "Meeting Room",
+    "notes": "",
+    "lat": 29.630276,
+    "lng": -95.61858
+   },
+   {
+    "name": "Sugar Land Church of God",
+    "address": "1715 Eldridge RD",
+    "city": "Sugar Land",
+    "zip": "77478",
+    "room": "Fellowship Hall",
+    "notes": "",
+    "lat": 29.645832,
+    "lng": -95.618976
+   },
+   {
+    "name": "Sugar Land City Hall",
+    "address": "2700 Town Center BLVD N",
+    "city": "Sugar Land",
+    "zip": "77479",
+    "room": "Main Room",
+    "notes": "",
+    "lat": 29.59504,
+    "lng": -95.62099
+   },
+   {
+    "name": "Synott Islamic Center",
+    "address": "10415 Synott Rd",
+    "city": "Sugar Land",
+    "zip": "77498",
+    "room": "",
+    "notes": "",
+    "lat": 29.665709,
+    "lng": -95.617774
+   },
+   {
+    "name": "T. E. Harman Center",
+    "address": "226 Matlage WAY",
+    "city": "Sugar Land",
+    "zip": "77478",
+    "room": "Meeting Room",
+    "notes": "",
+    "lat": 29.612227,
+    "lng": -95.635432
+   },
+   {
+    "name": "The Club at Tamarron",
+    "address": "28707 Tamarron Parkway",
+    "city": "Katy",
+    "zip": "77494",
+    "room": "",
+    "notes": "",
+    "lat": 29.73619,
+    "lng": -95.869521
+   },
+   {
+    "name": "Thompsons City Hall",
+    "address": "520 Thompson Oil Field RD",
+    "city": "Thompsons",
+    "zip": "77481",
+    "room": "Community Center",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Thornton Middle School",
+    "address": "1909 Waters Lake Blvd",
+    "city": "Missouri City",
+    "zip": "77459",
+    "room": "",
+    "notes": "",
+    "lat": 29.469758,
+    "lng": -95.510652
+   },
+   {
+    "name": "Tomas High School",
+    "address": "24945 Easton Ramsey Way",
+    "city": "Richmond",
+    "zip": "77406",
+    "room": "Front of Auditorium",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Tompkins High School",
+    "address": "4400 Falcon Landing BLVD",
+    "city": "Katy",
+    "zip": "77494",
+    "room": "PAC Lobby",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Townewest Towne Hall",
+    "address": "10322 Old Towne LN",
+    "city": "Sugar Land",
+    "zip": "77498",
+    "room": "Main Room",
+    "notes": "",
+    "lat": 29.667298,
+    "lng": -95.629713
+   },
+   {
+    "name": "University Branch Library",
+    "address": "14010 University BLVD",
+    "city": "Sugar Land",
+    "zip": "77479",
+    "room": "Meeting Room 2",
+    "notes": "",
+    "lat": 29.575369,
+    "lng": -95.647879
+   },
+   {
+    "name": "Vadtal Dham Shree Swaminarayan Temple",
+    "address": "10825 Clodine RD",
+    "city": "Richmond",
+    "zip": "77407",
+    "room": "",
+    "notes": "",
+    "lat": 29.65667,
+    "lng": -95.679159
+   }
+  ]
+ },
+ "notes": "Fort Bend County uses countywide polling places, so registered voters may vote at any listed site. Twenty of the 38 early voting sites are closed on Sunday, October 25; the other 18 are open noon to 6 p.m. that day."
 }

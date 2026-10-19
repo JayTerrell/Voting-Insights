@@ -1,363 +1,429 @@
 {
-  "county": "Brazos",
-  "model": "countywide",
-  "checked_at": "2026-10-19T02:16:00Z",
-  "sources": [
-    {
-      "title": "Brazos County Elections: Where and When to Vote",
-      "url": "https://elections.brazoscountytx.gov/where-and-when-to-vote/"
-    },
-    {
-      "title": "Brazos County 2026 General Election Early Vote Schedule (PDF)",
-      "url": "https://elections.brazoscountytx.gov/wp-content/uploads/2026/08/2026-EV-schedule-General-Election.pdf"
-    },
-    {
-      "title": "Brazos County 2026 General Election Vote Center Locations (PDF)",
-      "url": "https://elections.brazoscountytx.gov/wp-content/uploads/2026/08/2026-Vote-Center-locations-General-Election.pdf"
-    }
-  ],
-  "lookup_url": null,
-  "wait_times_url": null,
-  "early_voting": {
-    "schedule": [
-      {
-        "date": "2026-10-19",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
-        "date": "2026-10-20",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
-        "date": "2026-10-21",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
-        "date": "2026-10-22",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
-        "date": "2026-10-23",
-        "open": "08:00",
-        "close": "17:00"
-      },
-      {
-        "date": "2026-10-24",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-25",
-        "open": "10:00",
-        "close": "16:00"
-      },
-      {
-        "date": "2026-10-26",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-27",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-28",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-29",
-        "open": "07:00",
-        "close": "19:00"
-      },
-      {
-        "date": "2026-10-30",
-        "open": "07:00",
-        "close": "19:00"
-      }
-    ],
-    "sites": [
-      {
-        "name": "Brazos County Election Administrator Office",
-        "address": "300 East Wm. J. Bryan Pkwy, Suite 100",
-        "city": "Bryan",
-        "zip": "",
-        "room": "McLeod Training Rm",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Arena Hall",
-        "address": "2906 Tabor Road",
-        "city": "Bryan",
-        "zip": "",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Galilee Baptist Church",
-        "address": "804 N. Logan",
-        "city": "Bryan",
-        "zip": "",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "College Station Utilities Meeting & Training Facility",
-        "address": "1603 Graham Road",
-        "city": "College Station",
-        "zip": "",
-        "room": "",
-        "schedule": null,
-        "notes": ""
-      },
-      {
-        "name": "Memorial Student Center (MSC)",
-        "address": "Texas A&M University campus",
-        "city": "College Station",
-        "zip": "",
-        "room": "Room L526",
-        "schedule": null,
-        "notes": ""
-      }
-    ]
+ "county": "Brazos",
+ "model": "countywide",
+ "checked_at": "2026-10-19T02:16:00Z",
+ "sources": [
+  {
+   "title": "Brazos County Elections: Where and When to Vote",
+   "url": "https://elections.brazoscountytx.gov/where-and-when-to-vote/"
   },
-  "election_day": {
+  {
+   "title": "Brazos County 2026 General Election Early Vote Schedule (PDF)",
+   "url": "https://elections.brazoscountytx.gov/wp-content/uploads/2026/08/2026-EV-schedule-General-Election.pdf"
+  },
+  {
+   "title": "Brazos County 2026 General Election Vote Center Locations (PDF)",
+   "url": "https://elections.brazoscountytx.gov/wp-content/uploads/2026/08/2026-Vote-Center-locations-General-Election.pdf"
+  }
+ ],
+ "lookup_url": null,
+ "wait_times_url": null,
+ "early_voting": {
+  "schedule": [
+   {
+    "date": "2026-10-19",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-20",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-21",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-22",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-23",
+    "open": "08:00",
+    "close": "17:00"
+   },
+   {
+    "date": "2026-10-24",
     "open": "07:00",
-    "close": "19:00",
-    "sites": [
-      {
-        "name": "Millican United Methodist Church",
-        "address": "22029 Kathy Fleming Rd.",
-        "city": "Millican",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "College Station Meeting & Training Facility",
-        "address": "1603 Graham Road",
-        "city": "College Station",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Galilee Baptist Church",
-        "address": "804 N. Logan",
-        "city": "Bryan",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Zion Church of Kurten",
-        "address": "977 N. FM 2038",
-        "city": "Kurten",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Parkway Baptist Church",
-        "address": "1501 Southwest Pkwy",
-        "city": "College Station",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "College Heights Assembly of God",
-        "address": "4100 Old College Rd",
-        "city": "Bryan",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "First Baptist Church - Bryan",
-        "address": "3100 Cambridge Drive",
-        "city": "Bryan",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Beacon Baptist Church",
-        "address": "2001 East Villa Maria Road",
-        "city": "Bryan",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Bryan Ballroom",
-        "address": "701 Palasota Drive",
-        "city": "Bryan",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Brazos County Election Admin. Office",
-        "address": "300 East Wm. J. Bryan Pkwy, Suite 100",
-        "city": "Bryan",
-        "zip": "",
-        "room": "Ruth McLeod Training Room",
-        "notes": ""
-      },
-      {
-        "name": "Memorial Student Center",
-        "address": "Texas A&M Campus",
-        "city": "College Station",
-        "zip": "",
-        "room": "Rm #L526",
-        "notes": ""
-      },
-      {
-        "name": "Lincoln Center",
-        "address": "1000 Eleanor",
-        "city": "College Station",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "College Station City Hall",
-        "address": "1101 Texas Avenue",
-        "city": "College Station",
-        "zip": "",
-        "room": "Bush 4141 Rm",
-        "notes": ""
-      },
-      {
-        "name": "College Station ISD Admin. Bldg",
-        "address": "1812 Welsh",
-        "city": "College Station",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Legends Event Center",
-        "address": "2533 Midtown Park Blvd.",
-        "city": "Bryan",
-        "zip": "77801",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Castle Heights Baptist Church",
-        "address": "4504 E. Hwy 21.",
-        "city": "Bryan",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "St. Francis Episcopal Church",
-        "address": "1101 Rock Prairie Road",
-        "city": "College Station",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "A&M Church of Christ",
-        "address": "2475 Earl Rudder Freeway",
-        "city": "College Station",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Arena Hall",
-        "address": "2906 Tabor Rd",
-        "city": "Bryan",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Brazos Center",
-        "address": "3232 Briarcrest Drive",
-        "city": "Bryan",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Wellborn Baptist Church",
-        "address": "14575 FM 2154 Rd.",
-        "city": "College Station",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Living Hope Baptist Church",
-        "address": "4170 State Highway 6 south",
-        "city": "College Station",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Church Of The Nazarene",
-        "address": "2122 E. William J Bryan Pkwy.",
-        "city": "Bryan",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Justice of the Peace Pct 1",
-        "address": "412 William D. Fitch Pkwy",
-        "city": "College Station",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Rellis Campus Chapel & Assembly Hall",
-        "address": "1555 Avenue D",
-        "city": "Bryan",
-        "zip": "77807",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Christ Church",
-        "address": "4201 Texas 6 Frontage Rd",
-        "city": "College Station",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Castlegate II",
-        "address": "4205 Norwich Dr.",
-        "city": "College Station",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      },
-      {
-        "name": "Crestview at Arbor Oaks",
-        "address": "2505 E Villa Maria Rd",
-        "city": "Bryan",
-        "zip": "",
-        "room": "",
-        "notes": ""
-      }
-    ]
-  },
-  "notes": "Brazos County uses vote centers, so you may vote at any listed Election Day vote center. Early voting runs 8 a.m. to 5 p.m. Oct 19 to 23 and 10 a.m. to 4 p.m. on Sunday Oct 25."
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-25",
+    "open": "10:00",
+    "close": "16:00"
+   },
+   {
+    "date": "2026-10-26",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-27",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-28",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-29",
+    "open": "07:00",
+    "close": "19:00"
+   },
+   {
+    "date": "2026-10-30",
+    "open": "07:00",
+    "close": "19:00"
+   }
+  ],
+  "sites": [
+   {
+    "name": "Brazos County Election Administrator Office",
+    "address": "300 East Wm. J. Bryan Pkwy, Suite 100",
+    "city": "Bryan",
+    "zip": "",
+    "room": "McLeod Training Rm",
+    "schedule": null,
+    "notes": "",
+    "lat": 30.67449,
+    "lng": -96.37096
+   },
+   {
+    "name": "Arena Hall",
+    "address": "2906 Tabor Road",
+    "city": "Bryan",
+    "zip": "",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 30.705813,
+    "lng": -96.371761
+   },
+   {
+    "name": "Galilee Baptist Church",
+    "address": "804 N. Logan",
+    "city": "Bryan",
+    "zip": "",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 30.680707,
+    "lng": -96.377476
+   },
+   {
+    "name": "College Station Utilities Meeting & Training Facility",
+    "address": "1603 Graham Road",
+    "city": "College Station",
+    "zip": "",
+    "room": "",
+    "schedule": null,
+    "notes": "",
+    "lat": 30.576504,
+    "lng": -96.287679
+   },
+   {
+    "name": "Memorial Student Center (MSC)",
+    "address": "Texas A&M University campus",
+    "city": "College Station",
+    "zip": "",
+    "room": "Room L526",
+    "schedule": null,
+    "notes": "",
+    "lat": 30.627754,
+    "lng": -96.334844
+   }
+  ]
+ },
+ "election_day": {
+  "open": "07:00",
+  "close": "19:00",
+  "sites": [
+   {
+    "name": "Millican United Methodist Church",
+    "address": "22029 Kathy Fleming Rd.",
+    "city": "Millican",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "College Station Meeting & Training Facility",
+    "address": "1603 Graham Road",
+    "city": "College Station",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 30.576504,
+    "lng": -96.287679
+   },
+   {
+    "name": "Galilee Baptist Church",
+    "address": "804 N. Logan",
+    "city": "Bryan",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 30.680707,
+    "lng": -96.377476
+   },
+   {
+    "name": "Zion Church of Kurten",
+    "address": "977 N. FM 2038",
+    "city": "Kurten",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Parkway Baptist Church",
+    "address": "1501 Southwest Pkwy",
+    "city": "College Station",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 30.602744,
+    "lng": -96.312952
+   },
+   {
+    "name": "College Heights Assembly of God",
+    "address": "4100 Old College Rd",
+    "city": "Bryan",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 30.629869,
+    "lng": -96.354674
+   },
+   {
+    "name": "First Baptist Church - Bryan",
+    "address": "3100 Cambridge Drive",
+    "city": "Bryan",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Beacon Baptist Church",
+    "address": "2001 East Villa Maria Road",
+    "city": "Bryan",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 30.653101,
+    "lng": -96.348189
+   },
+   {
+    "name": "Bryan Ballroom",
+    "address": "701 Palasota Drive",
+    "city": "Bryan",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 30.659053,
+    "lng": -96.379534
+   },
+   {
+    "name": "Brazos County Election Admin. Office",
+    "address": "300 East Wm. J. Bryan Pkwy, Suite 100",
+    "city": "Bryan",
+    "zip": "",
+    "room": "Ruth McLeod Training Room",
+    "notes": "",
+    "lat": 30.67449,
+    "lng": -96.37096
+   },
+   {
+    "name": "Memorial Student Center",
+    "address": "Texas A&M Campus",
+    "city": "College Station",
+    "zip": "",
+    "room": "Rm #L526",
+    "notes": "",
+    "lat": 26.17029,
+    "lng": -97.780968
+   },
+   {
+    "name": "Lincoln Center",
+    "address": "1000 Eleanor",
+    "city": "College Station",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 30.599344,
+    "lng": -96.330852
+   },
+   {
+    "name": "College Station City Hall",
+    "address": "1101 Texas Avenue",
+    "city": "College Station",
+    "zip": "",
+    "room": "Bush 4141 Rm",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "College Station ISD Admin. Bldg",
+    "address": "1812 Welsh",
+    "city": "College Station",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 30.593774,
+    "lng": -96.321944
+   },
+   {
+    "name": "Legends Event Center",
+    "address": "2533 Midtown Park Blvd.",
+    "city": "Bryan",
+    "zip": "77801",
+    "room": "",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Castle Heights Baptist Church",
+    "address": "4504 E. Hwy 21.",
+    "city": "Bryan",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 30.704894,
+    "lng": -96.350829
+   },
+   {
+    "name": "St. Francis Episcopal Church",
+    "address": "1101 Rock Prairie Road",
+    "city": "College Station",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 30.578588,
+    "lng": -96.299427
+   },
+   {
+    "name": "A&M Church of Christ",
+    "address": "2475 Earl Rudder Freeway",
+    "city": "College Station",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Arena Hall",
+    "address": "2906 Tabor Rd",
+    "city": "Bryan",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 30.705813,
+    "lng": -96.371761
+   },
+   {
+    "name": "Brazos Center",
+    "address": "3232 Briarcrest Drive",
+    "city": "Bryan",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 30.667241,
+    "lng": -96.321442
+   },
+   {
+    "name": "Wellborn Baptist Church",
+    "address": "14575 FM 2154 Rd.",
+    "city": "College Station",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 30.543558,
+    "lng": -96.301413
+   },
+   {
+    "name": "Living Hope Baptist Church",
+    "address": "4170 State Highway 6 south",
+    "city": "College Station",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Church Of The Nazarene",
+    "address": "2122 E. William J Bryan Pkwy.",
+    "city": "Bryan",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Justice of the Peace Pct 1",
+    "address": "412 William D. Fitch Pkwy",
+    "city": "College Station",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 30.552593,
+    "lng": -96.291045
+   },
+   {
+    "name": "Rellis Campus Chapel & Assembly Hall",
+    "address": "1555 Avenue D",
+    "city": "Bryan",
+    "zip": "77807",
+    "room": "",
+    "notes": "",
+    "lat": null,
+    "lng": null
+   },
+   {
+    "name": "Christ Church",
+    "address": "4201 Texas 6 Frontage Rd",
+    "city": "College Station",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 30.563823,
+    "lng": -96.26281
+   },
+   {
+    "name": "Castlegate II",
+    "address": "4205 Norwich Dr.",
+    "city": "College Station",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 30.543801,
+    "lng": -96.286815
+   },
+   {
+    "name": "Crestview at Arbor Oaks",
+    "address": "2505 E Villa Maria Rd",
+    "city": "Bryan",
+    "zip": "",
+    "room": "",
+    "notes": "",
+    "lat": 30.659523,
+    "lng": -96.348668
+   }
+  ]
+ },
+ "notes": "Brazos County uses vote centers, so you may vote at any listed Election Day vote center. Early voting runs 8 a.m. to 5 p.m. Oct 19 to 23 and 10 a.m. to 4 p.m. on Sunday Oct 25."
 }
