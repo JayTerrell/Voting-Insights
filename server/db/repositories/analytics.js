@@ -54,7 +54,7 @@ export async function results(fromIso, toIso) {
 
 export async function plansUpdated(fromIso, toIso) {
   const db = await getDb();
-  return db.all('SELECT plan_json FROM ballot_plans WHERE updated_at >= ? AND updated_at < ?', [fromIso, toIso]);
+  return db.all('SELECT plan_json, updated_at FROM ballot_plans WHERE updated_at >= ? AND updated_at < ?', [fromIso, toIso]);
 }
 
 export async function totals() {

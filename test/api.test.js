@@ -343,7 +343,10 @@ test('site analytics: anonymous page views and the admin overview', async () => 
   const boss = await call('POST', '/api/sign-in', { body: { email: 'boss@example.com', password: 'correct horse battery' } });
   const plain = await signUp('viewer@example.com');
   assert.equal((await call('GET', '/api/admin/overview', { token: plain.json.token })).status, 403);
+  // Saved ballots must count, not break the page.
+  await call('PUT', '/api/me/plan', { token: plain.json.token, body: { starred_races: ['us-senate'], picks: {} } });
   const o = await call('GET', '/api/admin/overview?group=week', { token: boss.json.token });
+  assert.equal(o.json.kpis.active_ballots >= 1, true, JSON.stringify(o.json).slice(0, 200));
   assert.equal(o.status, 200);
   assert.equal(o.json.kpis.page_views, 2);
   assert.equal(o.json.kpis.visitors, 1);

@@ -111,13 +111,25 @@ const count = (values) => {
 };
 const rate = (n, d) => (d ? Math.min(100, Math.round((n / d) * 1000) / 10) : null);
 
-// Rows whose UTC timestamp falls on a Central Time day in [from, to].
+// Rows whose UTC timestamp falls on a Central Time day in [from, to]. Rows
+// without a readable timestamp are skipped rather than failing the page.
 async function inCentralRange(fetch, from, to) {
   const rows = await fetch(`${addDays(from, -1)}T00:00:00.000Z`, `${addDays(to, 2)}T00:00:00.000Z`);
   return rows
-    .map((r) => ({ ...r, day: centralDay(new Date(r.created_at || r.updated_at)) }))
-    .filter((r) => r.day >= from && r.day <= to);
+    .map((r) => {
+      const when = new Date(r.created_at || r.updated_at);
+      return Number.isNaN(when.getTime()) ? null : { ...r, day: centralDay(when) };
+    })
+    .filter((r) => r && r.day >= from && r.day <= to);
 }
+
+const parse = (text, fallback) => {
+  try {
+    return JSON.parse(text) ?? fallback;
+  } catch {
+    return fallback;
+  }
+};
 
 async function periodNumbers(from, to) {
   const [events, users, results] = await Promise.all([
@@ -166,7 +178,7 @@ export async function overview({ from, to, group = 'day' }) {
   for (const r of now.results) series.get(bucketOf(r.day, g)) && (series.get(bucketOf(r.day, g)).quizzes_taken += 1);
 
   // Ballots: accounts whose plan changed in the range and holds picks or watched offices.
-  const plans = (await inCentralRange(analytics.plansUpdated, from, to)).map((p) => JSON.parse(p.plan_json));
+  const plans = (await inCentralRange(analytics.plansUpdated, from, to)).map((p) => parse(p.plan_json, {}));
   const activeBallots = plans.filter((p) => p.starred_races?.length || Object.keys(p.picks || {}).length).length;
 
   // Combined quiz results for the range: each person's latest result.
@@ -176,8 +188,8 @@ export async function overview({ from, to, group = 'day' }) {
   const closest = [];
   const issues = [];
   for (const r of latest.values()) {
-    const res = JSON.parse(r.results_json);
-    const scored = res.parties.filter((p) => p.score !== null);
+    const res = parse(r.results_json, {});
+    const scored = (res.parties || []).filter((p) => typeof p.score === 'number');
     for (const p of scored) {
       const e = parties.get(p.name) || { name: p.name, total: 0, n: 0 };
       e.total += p.score;
@@ -186,7 +198,7 @@ export async function overview({ from, to, group = 'day' }) {
     }
     const best = [...scored].sort((a, b) => b.score - a.score)[0];
     if (best) closest.push(best.name);
-    issues.push(...topIssues(JSON.parse(r.answers_json), guide, 3));
+    issues.push(...topIssues(parse(r.answers_json, {}), guide, 3));
   }
 
   const k = now.kpis;

@@ -111,7 +111,13 @@ adminRoutes.put('/users/:id/admin', async (req, res) => {
 
 adminRoutes.get('/overview', async (req, res) => {
   const range = rangeOf(req);
-  res.json(await analytics.overview({ ...range, group: req.query.group }));
+  try {
+    res.json(await analytics.overview({ ...range, group: req.query.group }));
+  } catch (err) {
+    // Admins see the actual reason, so a problem can be reported precisely.
+    console.error('[admin] overview failed', err);
+    res.status(500).json({ error: `The overview could not be built: ${err.message}` });
+  }
 });
 
 adminRoutes.get('/overview.csv', async (req, res) => {
