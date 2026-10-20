@@ -5,6 +5,7 @@
 // An image shows only what a shared link shows: the first name, party platform
 // percentages, and, when the owner turns it on, their top three issue areas.
 
+import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { Resvg } from '@resvg/resvg-js';
 
@@ -177,6 +178,154 @@ function storySvg(p) {
     <text x="${W / 2}" y="${H - 168}" text-anchor="middle" font-family="${SERIF}" font-size="56" fill="${C.card}">Where do you stand?</text>
     <text x="${W / 2}" y="${H - 102}" text-anchor="middle" font-family="${SANS}" font-weight="600" font-size="32" fill="#c9d3e6">Take the nonpartisan quiz at <tspan font-weight="800" fill="${C.card}">votershub.info</tspan></text>
   </svg>`;
+}
+
+// ---------- Shared ballot picks and watchlists ----------
+//
+// Up to five entries, in ballot order, then a count of the rest and a prompt
+// to open the link for the complete list.
+
+const PHOTO_DIR = fileURLToPath(new URL('../../client/img/candidates/', import.meta.url));
+const photoCache = new Map();
+
+// Candidate photos as data URLs, read from the site's own image folder.
+function photoData(url) {
+  const m = /^\/img\/candidates\/([\w.-]+\.jpe?g)$/.exec(url || '');
+  if (!m) return null;
+  if (!photoCache.has(m[1])) {
+    let data = null;
+    try {
+      data = `data:image/jpeg;base64,${readFileSync(PHOTO_DIR + m[1]).toString('base64')}`;
+    } catch {
+      data = null;
+    }
+    photoCache.set(m[1], data);
+  }
+  return photoCache.get(m[1]);
+}
+
+// Text is cut to a character budget so it never runs past its column.
+const fit = (text, max) => {
+  const t = String(text || '');
+  return t.length > max ? `${t.slice(0, max - 1).trimEnd()}…` : t;
+};
+
+const initials = (name) =>
+  String(name || '')
+    .split(/\s+/)
+    .filter(Boolean)
+    .map((w) => w[0])
+    .slice(0, 2)
+    .join('')
+    .toUpperCase();
+
+function avatar(id, c, cx, cy, r) {
+  const data = photoData(c.photo);
+  const ring = `<circle cx="${cx}" cy="${cy}" r="${r}" fill="none" stroke="${C.rule}" stroke-width="2"/>`;
+  if (!data) {
+    return `<circle cx="${cx}" cy="${cy}" r="${r}" fill="${C.navy}"/>
+      <text x="${cx}" y="${cy + r * 0.34}" text-anchor="middle" font-family="${SANS}" font-weight="700" font-size="${Math.round(r * 0.9)}" fill="${C.card}">${esc(initials(c.name))}</text>${ring}`;
+  }
+  return `<clipPath id="${id}"><circle cx="${cx}" cy="${cy}" r="${r}"/></clipPath>
+    <image href="${data}" x="${cx - r}" y="${cy - r}" width="${r * 2}" height="${r * 2}" preserveAspectRatio="xMidYMid slice" clip-path="url(#${id})"/>${ring}`;
+}
+
+// One entry: a photo and the candidate's name over party and office, or a
+// numbered office over its number of candidates.
+function listRow(kind, item, i, { x, y, size, sub, r, nameMax, subMax }) {
+  const textX = x + r * 2 + size * 0.7;
+  if (kind === 'ballot') {
+    const c = item.pick;
+    return `<g>${avatar(`ph${i}`, c, x + r, y + r, r)}
+      <text x="${textX}" y="${y + r - size * 0.12}" font-family="${SERIF}" font-size="${size}" fill="${C.ink}">${esc(fit(c.name, nameMax))}</text>
+      <text x="${textX}" y="${y + r + sub * 1.25}" font-family="${SANS}" font-size="${sub}" fill="${C.muted}"><tspan font-weight="700" fill="${PARTY[c.party] || C.navy}">${esc(c.party || 'Independent')}</tspan>  ·  ${esc(fit(item.title, subMax - (c.party || 'Independent').length))}</text>
+    </g>`;
+  }
+  return `<g>
+    <rect x="${x}" y="${y}" width="${r * 2}" height="${r * 2}" fill="${C.navy}"/>
+    <text x="${x + r}" y="${y + r + size * 0.34}" text-anchor="middle" font-family="${SERIF}" font-weight="700" font-size="${size}" fill="${C.card}">${i + 1}</text>
+    <text x="${textX}" y="${y + r - size * 0.12}" font-family="${SERIF}" font-size="${size}" fill="${C.ink}">${esc(fit(item.title, Math.round(nameMax * 1.3)))}</text>
+    <text x="${textX}" y="${y + r + sub * 1.25}" font-family="${SANS}" font-size="${sub}" fill="${C.muted}">${item.candidates} ${item.candidates === 1 ? 'candidate' : 'candidates'}</text>
+  </g>`;
+}
+
+const listTitle = (l) => (l.kind === 'ballot' ? 'ballot picks' : 'office watchlist');
+const countLabel = (l, n) =>
+  l.kind === 'ballot'
+    ? n === 1
+      ? 'PICK ON THE BALLOT'
+      : 'PICKS ON THE BALLOT'
+    : n === 1
+      ? 'OFFICE TO WATCH'
+      : 'OFFICES TO WATCH';
+const countyName = (c) => (/county$/i.test(c) ? c : `${c} County`);
+
+function listCardSvg(l) {
+  const W = 1200;
+  const H = 630;
+  const shown = l.items.slice(0, 5);
+  const n = l.items.length;
+  const rest = n - shown.length;
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">
+    <rect width="${W}" height="${H}" fill="${C.paper}"/>
+    ${star(1080, 300, 330, C.navy, 'opacity="0.035"')}
+    ${flagStripe(W)}
+    <text x="64" y="80" font-family="${SANS}" font-weight="700" font-size="17" letter-spacing="3.4" fill="${C.red}">VOTERSHUB  ·  TEXAS GENERAL ELECTION 2026</text>
+    <text x="64" y="138" font-family="${SERIF}" font-size="50" fill="${C.navy}">${esc(possessive(l.first_name))} ${listTitle(l)}</text>
+    <text x="64" y="176" font-family="${SANS}" font-size="20" fill="${C.muted}">${esc(countyName(l.county))} ballot  ·  November 3, 2026</text>
+    ${shown.map((item, i) => listRow(l.kind, item, i, { x: 64, y: 204 + i * 67, size: 25, sub: 16, r: 27, nameMax: 34, subMax: 62 })).join('')}
+    <rect x="808" y="204" width="328" height="322" fill="${C.navy}"/>
+    ${star(1100, 240, 14, C.red)}
+    <text x="844" y="318" font-family="${SERIF}" font-size="96" fill="${C.card}">${n}</text>
+    <text x="844" y="354" font-family="${SANS}" font-weight="700" font-size="15" letter-spacing="2.4" fill="#c9d3e6">${countLabel(l, n)}</text>
+    <rect x="844" y="374" width="48" height="3" fill="${C.red}"/>
+    ${rest > 0 ? `<text x="844" y="418" font-family="${SERIF}" font-size="26" fill="${C.card}">+${rest} more</text>` : ''}
+    <text x="844" y="${rest > 0 ? 462 : 430}" font-family="${SANS}" font-weight="600" font-size="20" fill="${C.card}">Click to see the</text>
+    <text x="844" y="${rest > 0 ? 490 : 458}" font-family="${SANS}" font-weight="600" font-size="20" fill="${C.card}">complete list</text>
+    <rect x="0" y="546" width="${W}" height="84" fill="${C.navy}"/>
+    ${star(96, 588, 22, C.card)}
+    <text x="134" y="597" font-family="${SERIF}" font-size="28" fill="${C.card}">VotersHub</text>
+    <text x="1136" y="596" text-anchor="end" font-family="${SANS}" font-weight="600" font-size="22" fill="${C.card}">Build your own ballot at <tspan font-weight="800">votershub.info</tspan></text>
+  </svg>`;
+}
+
+function listStorySvg(l) {
+  const W = 1080;
+  const H = 1920;
+  const shown = l.items.slice(0, 5);
+  const n = l.items.length;
+  const rest = n - shown.length;
+  const top = 640;
+  const rowH = 168;
+  const after = top + shown.length * rowH + 40;
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">
+    <rect width="${W}" height="${H}" fill="${C.paper}"/>
+    ${star(900, 600, 560, C.navy, 'opacity="0.035"')}
+    ${flagStripe(W)}
+    ${star(W / 2, 200, 44, C.navy)}
+    <text x="${W / 2}" y="306" text-anchor="middle" font-family="${SANS}" font-weight="700" font-size="26" letter-spacing="5" fill="${C.red}">TEXAS GENERAL ELECTION 2026</text>
+    <text x="${W / 2}" y="404" text-anchor="middle" font-family="${SERIF}" font-size="78" fill="${C.navy}">${esc(possessive(l.first_name))}</text>
+    <text x="${W / 2}" y="492" text-anchor="middle" font-family="${SERIF}" font-size="78" fill="${C.navy}">${listTitle(l)}</text>
+    <text x="${W / 2}" y="562" text-anchor="middle" font-family="${SANS}" font-size="30" fill="${C.muted}">${esc(countyName(l.county))} ballot  ·  ${n} ${l.kind === 'ballot' ? (n === 1 ? 'pick' : 'picks') : n === 1 ? 'office' : 'offices'}</text>
+    ${shown.map((item, i) => listRow(l.kind, item, i, { x: 100, y: top + i * rowH, size: 46, sub: 28, r: 58, nameMax: 28, subMax: 44 })).join('')}
+    ${rest > 0 ? `<text x="${W / 2}" y="${after + 40}" text-anchor="middle" font-family="${SERIF}" font-size="48" fill="${C.navy}">+${rest} more</text>` : ''}
+    <rect x="0" y="${H - 300}" width="${W}" height="300" fill="${C.navy}"/>
+    ${star(W / 2, H - 252, 20, C.red)}
+    <text x="${W / 2}" y="${H - 168}" text-anchor="middle" font-family="${SERIF}" font-size="54" fill="${C.card}">Tap the link for the complete list</text>
+    <text x="${W / 2}" y="${H - 102}" text-anchor="middle" font-family="${SANS}" font-weight="600" font-size="32" fill="#c9d3e6">Build your own ballot at <tspan font-weight="800" fill="${C.card}">votershub.info</tspan></text>
+  </svg>`;
+}
+
+const render = (svg) =>
+  new Resvg(svg, {
+    font: { fontFiles: FONT_FILES, loadSystemFonts: false, defaultFontFamily: 'Public Sans' },
+    fitTo: { mode: 'original' },
+  })
+    .render()
+    .asPng();
+
+export function listImage(list, format = 'card') {
+  return render(format === 'story' ? listStorySvg(list) : listCardSvg(list));
 }
 
 export function shareImage(preview, format = 'card') {

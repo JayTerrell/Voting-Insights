@@ -25,3 +25,7 @@ export function raceTitle(race) {
   if (!race.county || race.title.includes(race.county)) return race.title;
   return `${race.title}, ${race.county} County`;
 }
+
+export function countyLabel(county) {
+  return /county$/i.test(county) || county === 'Outside Texas' ? county : `${county} County`;
+}

@@ -11,6 +11,7 @@ import { authRoutes } from './routes/auth.js';
 import { pollingRoutes } from './routes/polling.js';
 import { resultRoutes } from './routes/results.js';
 import { shareRoutes } from './routes/share.js';
+import { listRoutes } from './routes/lists.js';
 import { partnerRoutes } from './routes/partners.js';
 import { adminRoutes } from './routes/admin.js';
 import { pageRoutes } from './routes/pages.js';
@@ -34,6 +35,7 @@ export function createApp() {
   api.use(noStore, authRoutes);
   api.use(noStore, pollingRoutes);
   api.use(noStore, resultRoutes);
+  api.use(noStore, listRoutes);
   api.use(noStore, partnerRoutes);
   api.use('/admin', noStore, adminRoutes);
   api.use(notFound);

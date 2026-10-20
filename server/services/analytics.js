@@ -26,13 +26,16 @@ const visitorHash = (ip, ua, day) =>
 
 const device = (ua) => (/ipad|tablet/i.test(ua) ? 'Tablet' : /mobi|iphone|android/i.test(ua) ? 'Phone' : 'Computer');
 
-// Paths are grouped so no one's result link is stored.
+// Paths are grouped so no one's shared result or list link is stored.
 function cleanPath(p) {
   const path = String(p || '/')
     .split(/[?#]/)[0]
     .slice(0, 120);
   if (!path.startsWith('/')) return '/';
-  return path.replace(/^\/results\/[\w-]+/, '/results/:id').replace(/^\/go\/[\w-]+/, '/go/:link');
+  return path
+    .replace(/^\/results\/[\w-]+/, '/results/:id')
+    .replace(/^\/(ballot|watchlist)\/[\w-]+/, '/$1/:id')
+    .replace(/^\/go\/[\w-]+/, '/go/:link');
 }
 
 // Where a visit came from: a partner link, another site's host name, or direct.

@@ -13,6 +13,7 @@ const TABLES = [
   'partner_links',
   'partner_events',
   'site_events',
+  'list_shares',
 ];
 
 export function schema(dialect) {
@@ -114,6 +115,19 @@ export function schema(dialect) {
       created_at TEXT NOT NULL
     )`,
     'CREATE INDEX IF NOT EXISTS idx_site_events_day ON site_events(day, kind)',
+    // Shared ballot picks or watchlists: one link per person for each kind. The
+    // list is a copy taken when the person shares, so later changes stay private
+    // until they share again.
+    `CREATE TABLE IF NOT EXISTS list_shares (
+      user_id    ${ref} NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+      kind       TEXT NOT NULL,
+      share_id   TEXT NOT NULL UNIQUE,
+      county     TEXT NOT NULL,
+      items_json TEXT NOT NULL,
+      created_at TEXT NOT NULL,
+      updated_at TEXT NOT NULL,
+      PRIMARY KEY (user_id, kind)
+    )`,
     `CREATE TABLE IF NOT EXISTS rate_limits (
       bucket   TEXT PRIMARY KEY,
       hits     INTEGER NOT NULL,

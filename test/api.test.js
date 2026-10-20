@@ -1,5 +1,6 @@
 import { test, before, after } from 'node:test';
 import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
 
 process.env.NODE_ENV = 'test';
 process.env.DATABASE_PATH = ':memory:';
@@ -390,6 +391,70 @@ test('site analytics: anonymous page views and the admin overview', async () => 
   assert.ok(o.json.traffic.pages.some((p) => p.name === '/candidates'));
   const csv = await fetch(`${base}/api/admin/overview.csv`, { headers: { Authorization: `Bearer ${boss.json.token}` } });
   assert.match(await csv.text(), /^day,visitors,page_views/);
+  await db.run('DELETE FROM rate_limits');
+});
+
+test('shared ballot picks and watchlists', async () => {
+  const db = await getDb();
+  await db.run('DELETE FROM rate_limits');
+  const me = await signUp('lister@example.com', { first_name: 'Rosa', last_name: 'Private' });
+  const token = me.json.token;
+  assert.equal((await call('PUT', '/api/lists/ballot', { body: { county: 'Collin' } })).status, 401);
+  // Nothing picked yet: nothing to share.
+  assert.equal((await call('PUT', '/api/lists/ballot', { token, body: { county: 'Collin' } })).status, 400);
+  assert.equal((await call('PUT', '/api/lists/nonsense', { token, body: { county: 'Collin' } })).status, 400);
+
+  const g = JSON.parse(readFileSync(new URL('../data/guide.json', import.meta.url), 'utf8'));
+  const races = new Map(g.races.map((r) => [r.id, r]));
+  const contested = g.ballots.Collin.filter((id) => races.get(id).candidates.length > 1).slice(0, 7);
+  const picks = Object.fromEntries(contested.map((id) => [id, races.get(id).candidates[0].id]));
+  // A race on another county's ballot is left off this county's list.
+  const elsewhere = g.races.find((r) => r.county && !g.ballots.Collin.includes(r.id));
+  picks[elsewhere.id] = elsewhere.candidates[0].id;
+  await call('PUT', '/api/me/plan', { token, body: { starred_races: contested.slice(0, 2), picks } });
+
+  const shared = await call('PUT', '/api/lists/ballot', { token, body: { county: 'Collin' } });
+  assert.equal(shared.status, 200);
+  assert.equal(shared.json.items.length, 7);
+  assert.match(shared.json.url, /\/ballot\/[\w-]{12}$/);
+  const id = shared.json.share_id;
+
+  const pub = await call('GET', `/api/lists/${id}`);
+  assert.equal(pub.status, 200);
+  assert.equal(pub.json.kind, 'ballot');
+  assert.equal(pub.json.first_name, 'Rosa');
+  assert.equal(pub.json.owner, false);
+  assert.equal(pub.json.items[0].pick.id, picks[contested[0]]);
+  assert.doesNotMatch(pub.text, /Private|lister@example/, 'no last name or email');
+  assert.equal((await call('GET', `/api/lists/${id}`, { token })).json.owner, true);
+
+  // Later changes stay private until shared again, and the link stays the same.
+  await call('PUT', '/api/me/plan', { token, body: { starred_races: [], picks: { [contested[0]]: picks[contested[0]] } } });
+  assert.equal((await call('GET', `/api/lists/${id}`)).json.items.length, 7);
+  const again = await call('PUT', '/api/lists/ballot', { token, body: { county: 'Collin' } });
+  assert.equal(again.json.share_id, id);
+  assert.notEqual(again.json.version, shared.json.version);
+  assert.equal((await call('GET', `/api/lists/${id}`)).json.items.length, 1);
+
+  for (const format of ['card', 'story']) {
+    const img = await fetch(`${base}/api/lists/${id}/${format}.png`);
+    assert.equal(img.status, 200);
+    assert.equal(img.headers.get('content-type'), 'image/png');
+  }
+  const page = await (await fetch(`${base}/ballot/${id}`)).text();
+  assert.match(page, new RegExp(`/api/lists/${id}/card.png`));
+  assert.match(page, /Rosa&#39;s picks/);
+  assert.match(page, /content="Collin County: /, 'the description names the list');
+  // The other kind's path does not show this list.
+  assert.doesNotMatch(await (await fetch(`${base}/watchlist/${id}`)).text(), /Rosa/);
+
+  const mine = await call('GET', '/api/lists/mine', { token });
+  assert.equal(mine.json.ballot.share_id, id);
+  assert.equal(mine.json.watchlist, null);
+
+  assert.equal((await call('DELETE', '/api/lists/ballot', { token })).status, 200);
+  assert.equal((await call('GET', `/api/lists/${id}`)).status, 404);
+  assert.equal((await fetch(`${base}/api/lists/${id}/card.png`)).status, 404);
   await db.run('DELETE FROM rate_limits');
 });
 

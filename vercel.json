@@ -4,7 +4,7 @@
   "outputDirectory": "client",
   "functions": {
     "api/index.js": {
-      "includeFiles": "{data/guide.json,data/form-options.json,client/index.html,shared/**,server/assets/**}",
+      "includeFiles": "{data/guide.json,data/form-options.json,client/index.html,shared/**,server/assets/**,client/img/candidates/**}",
       "maxDuration": 20
     }
   },
@@ -19,6 +19,14 @@
     },
     {
       "source": "/go/:slug",
+      "destination": "/api"
+    },
+    {
+      "source": "/ballot/:id",
+      "destination": "/api"
+    },
+    {
+      "source": "/watchlist/:id",
       "destination": "/api"
     },
     {

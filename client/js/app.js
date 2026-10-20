@@ -14,6 +14,7 @@ import {
   renderFinishSignUp,
 } from './views/account.js';
 import { renderBallot, renderBallotPrint } from './views/ballot.js';
+import { renderSharedList } from './views/shared-list.js';
 import { renderVote } from './views/vote.js';
 import { session, plan, api, partnerRef, track, markPartnerArrival } from './api.js';
 import { initMotion, routeProgress, afterRender } from './motion.js';
@@ -40,6 +41,7 @@ const routes = [
   [/^\/admin$/, renderAdmin, '/admin'],
   [/^\/my-ballot$/, renderBallot, '/my-ballot'],
   [/^\/my-ballot\/print$/, renderBallotPrint, '/my-ballot'],
+  [/^\/(ballot|watchlist)\/([\w-]+)$/, renderSharedList, '/my-ballot'],
   [/^\/profile$/, renderProfile, '/profile'],
   [/^\/settings$/, renderSettings, '/settings'],
   // Older links: the account page became Profile and Account Settings.

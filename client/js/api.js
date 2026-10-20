@@ -153,6 +153,12 @@ export const api = {
   emailResult: (id) => call('POST', `/api/results/${encodeURIComponent(id)}/email`),
   setShareIssues: (id, issues) => call('PUT', `/api/results/${encodeURIComponent(id)}/share`, { issues }),
   myResults: () => call('GET', '/api/my-results'),
+  lists: {
+    mine: () => call('GET', '/api/lists/mine'),
+    save: (kind, county) => call('PUT', `/api/lists/${kind}`, { county }),
+    stop: (kind) => call('DELETE', `/api/lists/${kind}`),
+    get: (id) => call('GET', `/api/lists/${encodeURIComponent(id)}`),
+  },
   signOut: () => call('POST', '/api/sign-out'),
   partnerCheck: (slug) => call('GET', `/api/partner/check?slug=${encodeURIComponent(slug)}`),
   partnerMe: () => call('GET', '/api/partner/me'),

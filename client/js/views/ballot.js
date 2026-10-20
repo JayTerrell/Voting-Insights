@@ -31,6 +31,7 @@ import { loadGuide, loadFormOptions, ballotCounty, plan, session, resultCache, t
 import { racesForCounty } from '../shared/scoring.js';
 import { renderRace } from './guide.js';
 import { openIssuesPicker } from './issues-picker.js';
+import { openListShare } from './shared-list.js';
 import { navigate } from '../app.js';
 
 const TABS = ['all', 'watch', 'picks'];
@@ -170,6 +171,7 @@ export async function renderBallot(view, _params, current) {
       ${t.undecided.length ? `<p class="small undecided-list">Still undecided: ${undecidedLinks}</p>` : ''}
       <div class="btn-row">
         <button type="button" class="btn btn-small" id="mb-print">Print my ballot</button>
+        <button type="button" class="btn btn-small btn-red" id="mb-share">Share my picks or watchlist</button>
         <button type="button" class="btn btn-ghost btn-small" id="mb-issues">Find offices for my issues</button>
         ${t.picks.length ? '<button type="button" class="linkish" id="mb-clear">Clear all picks</button>' : ''}
         ${latestMatches(county) ? '<span class="small muted">Match percentages come from your most recent quiz.</span>' : ''}
@@ -286,6 +288,7 @@ export async function renderBallot(view, _params, current) {
       return plan.pick(clear.dataset.clear, null);
     }
     if (e.target.closest('#mb-print')) return confirmPrint();
+    if (e.target.closest('#mb-share')) return openListShare(guide, county);
     if (e.target.closest('#mb-issues')) {
       const latest = Object.values(resultCache.all()).sort((a, b) => b.created_at.localeCompare(a.created_at))[0];
       return openIssuesPicker({ guide, county, ranking: latest?.issue_ranking || [] });
