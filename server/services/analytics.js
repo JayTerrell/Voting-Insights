@@ -64,7 +64,8 @@ function cleanSource(s) {
   return host || 'Direct';
 }
 
-export async function track(body, ip, ua) {
+// staff: the visitor is a signed-in admin, or this device has been used by one.
+export async function track(body, ip, ua, staff = false) {
   const kind = String(body?.kind || '');
   if (!KINDS.includes(kind) || BOTS.test(ua || '')) return false;
   const day = centralDay();
@@ -75,6 +76,7 @@ export async function track(body, ip, ua) {
     source: kind === 'pageview' && body.source !== undefined ? cleanSource(body.source) : null,
     device: kind === 'pageview' ? device(ua || '') : null,
     visitor: visitorHash(ip, ua, day),
+    staff: staff || body.staff === true,
   });
   return true;
 }
@@ -113,8 +115,8 @@ const rate = (n, d) => (d ? Math.min(100, Math.round((n / d) * 1000) / 10) : nul
 
 // Rows whose UTC timestamp falls on a Central Time day in [from, to]. Rows
 // without a readable timestamp are skipped rather than failing the page.
-async function inCentralRange(fetch, from, to) {
-  const rows = await fetch(`${addDays(from, -1)}T00:00:00.000Z`, `${addDays(to, 2)}T00:00:00.000Z`);
+async function inCentralRange(fetch, from, to, masters = null) {
+  const rows = await fetch(`${addDays(from, -1)}T00:00:00.000Z`, `${addDays(to, 2)}T00:00:00.000Z`, masters);
   return rows
     .map((r) => {
       const when = new Date(r.created_at || r.updated_at);
@@ -131,11 +133,12 @@ const parse = (text, fallback) => {
   }
 };
 
-async function periodNumbers(from, to) {
+// masters is the list of master admin emails when admins are excluded, else null.
+async function periodNumbers(from, to, masters) {
   const [events, users, results] = await Promise.all([
-    analytics.daily(from, to),
-    inCentralRange(analytics.users, from, to),
-    inCentralRange(analytics.results, from, to),
+    analytics.daily(from, to, Boolean(masters)),
+    inCentralRange(analytics.users, from, to, masters),
+    inCentralRange(analytics.results, from, to, masters),
   ]);
   const sum = (kind, field = 'n') => events.filter((e) => e.kind === kind).reduce((n, e) => n + Number(e[field]), 0);
   return {
@@ -156,11 +159,12 @@ async function periodNumbers(from, to) {
   };
 }
 
-export async function overview({ from, to, group = 'day' }) {
+export async function overview({ from, to, group = 'day', excludeAdmins = true }) {
+  const masters = excludeAdmins ? config.adminEmails : null;
   const g = ['day', 'week', 'month'].includes(group) ? group : 'day';
-  const now = await periodNumbers(from, to);
+  const now = await periodNumbers(from, to, masters);
   const span = daysBetween(from, to);
-  const prev = await periodNumbers(addDays(from, -span), addDays(from, -1));
+  const prev = await periodNumbers(addDays(from, -span), addDays(from, -1), masters);
 
   // Time series.
   const keys = bucketKeys(from, to, g);
@@ -178,7 +182,7 @@ export async function overview({ from, to, group = 'day' }) {
   for (const r of now.results) series.get(bucketOf(r.day, g)) && (series.get(bucketOf(r.day, g)).quizzes_taken += 1);
 
   // Ballots: accounts whose plan changed in the range and holds picks or watched offices.
-  const plans = (await inCentralRange(analytics.plansUpdated, from, to)).map((p) => parse(p.plan_json, {}));
+  const plans = (await inCentralRange(analytics.plansUpdated, from, to, masters)).map((p) => parse(p.plan_json, {}));
   const activeBallots = plans.filter((p) => p.starred_races?.length || Object.keys(p.picks || {}).length).length;
 
   // Combined quiz results for the range: each person's latest result.
@@ -203,14 +207,15 @@ export async function overview({ from, to, group = 'day' }) {
 
   const k = now.kpis;
   const [pages, sources, devices, totals] = await Promise.all([
-    analytics.top('path', from, to),
-    analytics.top('source', from, to),
-    analytics.top('device', from, to),
-    analytics.totals(),
+    analytics.top('path', from, to, Boolean(masters)),
+    analytics.top('source', from, to, Boolean(masters)),
+    analytics.top('device', from, to, Boolean(masters)),
+    analytics.totals(masters),
   ]);
 
   return {
     range: { from, to, group: g, days: span },
+    exclude_admins: Boolean(masters),
     previous: { from: addDays(from, -span), to: addDays(from, -1) },
     kpis: { ...k, active_ballots: activeBallots },
     previous_kpis: prev.kpis,

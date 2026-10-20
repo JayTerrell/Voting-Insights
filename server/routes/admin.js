@@ -118,7 +118,7 @@ adminRoutes.put('/users/:id/role', requireRole('write'), async (req, res) => {
 adminRoutes.get('/overview', async (req, res) => {
   const range = rangeOf(req);
   try {
-    res.json(await analytics.overview({ ...range, group: req.query.group }));
+    res.json(await analytics.overview({ ...range, group: req.query.group, excludeAdmins: req.query.admins !== 'include' }));
   } catch (err) {
     // Admins see the actual reason, so a problem can be reported precisely.
     console.error('[admin] overview failed', err);
@@ -127,7 +127,7 @@ adminRoutes.get('/overview', async (req, res) => {
 });
 
 adminRoutes.get('/overview.csv', async (req, res) => {
-  const o = await analytics.overview({ ...rangeOf(req), group: req.query.group });
+  const o = await analytics.overview({ ...rangeOf(req), group: req.query.group, excludeAdmins: req.query.admins !== 'include' });
   res
     .type('text/csv')
     .attachment(`votershub-overview-${o.range.from}-to-${o.range.to}.csv`)

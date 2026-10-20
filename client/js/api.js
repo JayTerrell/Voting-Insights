@@ -325,15 +325,27 @@ function firstViewSource() {
   }
 }
 
+// A device an admin has used is remembered, so its visits stay out of the
+// numbers even after signing out.
+function staffDevice() {
+  try {
+    if (session.user?.is_admin) localStorage.setItem('vi_staff', '1');
+    return localStorage.getItem('vi_staff') === '1';
+  } catch {
+    return Boolean(session.user?.is_admin);
+  }
+}
+
 export function track(kind, path = location.pathname) {
   const body = { kind, path };
+  if (staffDevice()) body.staff = true;
   if (kind === 'pageview') {
     const source = firstViewSource();
     if (source !== undefined) body.source = source;
   }
   fetch('/api/track', {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
+    headers: { 'Content-Type': 'application/json', ...(session.token ? { Authorization: `Bearer ${session.token}` } : {}) },
     body: JSON.stringify(body),
     keepalive: true,
   }).catch(() => {});

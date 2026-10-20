@@ -2,7 +2,7 @@ import { Router } from 'express';
 import * as partners from '../services/partners.js';
 import { track } from '../services/analytics.js';
 import * as links from '../db/repositories/partners.js';
-import { requireUser, isAdmin } from '../middleware/auth.js';
+import { requireUser, optionalUser, isAdmin } from '../middleware/auth.js';
 import { rateLimit } from '../middleware/rate-limit.js';
 
 const MINUTES_15 = 15 * 60 * 1000;
@@ -52,7 +52,7 @@ partnerRoutes.get('/partner/referrer', rateLimit('partner-referrer', 60, MINUTES
 });
 
 // Anonymous page views and actions for the admin overview (no cookies; see services/analytics.js).
-partnerRoutes.post('/track', rateLimit('track', 600, MINUTES_15), async (req, res) => {
-  await track(req.body || {}, req.ip, req.get('user-agent') || '');
+partnerRoutes.post('/track', rateLimit('track', 600, MINUTES_15), optionalUser, async (req, res) => {
+  await track(req.body || {}, req.ip, req.get('user-agent') || '', isAdmin(req.user));
   res.status(204).end();
 });

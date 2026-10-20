@@ -110,6 +110,7 @@ export function schema(dialect) {
       source     TEXT,
       device     TEXT,
       visitor    TEXT NOT NULL,
+      staff      INTEGER NOT NULL DEFAULT 0,
       created_at TEXT NOT NULL
     )`,
     'CREATE INDEX IF NOT EXISTS idx_site_events_day ON site_events(day, kind)',
@@ -175,6 +176,12 @@ export async function migrate(db) {
   // The social accounts a partner plans to share on, for the admin's review.
   if (!(await hasColumn(db, 'partner_links', 'socials_json'))) {
     await db.exec(`ALTER TABLE partner_links ADD COLUMN ${db.dialect === 'postgres' ? 'IF NOT EXISTS ' : ''}socials_json TEXT`);
+  }
+  // Admin activity is marked so the overview can leave it out.
+  if (!(await hasColumn(db, 'site_events', 'staff'))) {
+    await db.exec(
+      `ALTER TABLE site_events ADD COLUMN ${db.dialect === 'postgres' ? 'IF NOT EXISTS ' : ''}staff INTEGER NOT NULL DEFAULT 0`
+    );
   }
   // Whether a shared result also shows the person's top three issues (off by default).
   if (!(await hasColumn(db, 'quiz_results', 'share_issues'))) {

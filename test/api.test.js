@@ -364,7 +364,21 @@ test('site analytics: anonymous page views and the admin overview', async () => 
   assert.equal((await call('GET', '/api/admin/overview', { token: plain.json.token })).status, 403);
   // Saved ballots must count, not break the page.
   await call('PUT', '/api/me/plan', { token: plain.json.token, body: { starred_races: ['us-senate'], picks: {} } });
+  // An admin's own browsing is left out unless asked for.
+  await call('POST', '/api/track', {
+    body: { kind: 'pageview', path: '/scoring' },
+    token: boss.json.token,
+    headers: { 'user-agent': 'Mozilla/5.0 (Macintosh) Firefox' },
+  });
+  const withAdmins = await call('GET', '/api/admin/overview?admins=include', { token: boss.json.token });
+  assert.ok(withAdmins.json.traffic.pages.some((p) => p.name === '/scoring'));
   const o = await call('GET', '/api/admin/overview?group=week', { token: boss.json.token });
+  assert.equal(o.json.exclude_admins, true);
+  assert.equal(
+    o.json.traffic.pages.some((p) => p.name === '/scoring'),
+    false,
+    'admin page views are excluded'
+  );
   assert.equal(o.json.kpis.active_ballots >= 1, true, JSON.stringify(o.json).slice(0, 200));
   assert.equal(o.status, 200);
   assert.equal(o.json.kpis.page_views, 2);

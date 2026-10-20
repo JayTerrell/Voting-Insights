@@ -5101,3 +5101,18 @@ textarea {
 .role-legend li {
   margin: 4px 0;
 }
+
+.ov-custom .ov-exclude {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  font-weight: 600;
+  white-space: nowrap;
+  min-height: 38px;
+}
+.ov-custom .ov-exclude input {
+  width: 18px;
+  height: 18px;
+  margin: 0;
+}

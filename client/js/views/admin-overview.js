@@ -108,6 +108,7 @@ export function renderOverview(body, current) {
   let preset = '7';
   let metric = 'visitors';
   let data = null;
+  let excludeAdmins = true;
 
   body.innerHTML = `<div class="ov">
     <div class="ov-controls">
@@ -119,6 +120,7 @@ export function renderOverview(body, current) {
           <button type="button" data-group="day">Day</button><button type="button" data-group="week">Week</button><button type="button" data-group="month">Month</button>
         </div>
         <button class="btn btn-small" type="submit">Apply</button>
+        <label class="check ov-exclude"><input type="checkbox" id="ov-admins" checked> <span>Exclude admins</span></label>
         <button class="linkish" type="button" id="ov-csv">Download CSV</button>
       </form>
     </div>
@@ -140,7 +142,7 @@ export function renderOverview(body, current) {
     syncControls();
     out.innerHTML = '<span class="sk sk-block"></span><span class="sk sk-block"></span>';
     try {
-      data = await api.admin.overview(state);
+      data = await api.admin.overview({ ...state, admins: excludeAdmins ? 'exclude' : 'include' });
     } catch (e) {
       if (current()) out.innerHTML = `<p class="form-error">${esc(e.message)}</p>`;
       return;
@@ -152,7 +154,7 @@ export function renderOverview(body, current) {
     const d = data;
     const prevLabel = `previous ${d.range.days === 1 ? 'day' : `${d.range.days} days`}`;
     out.innerHTML = `
-      <p class="small muted ov-range">${esc(bucketLabel(d.range.from, 'day'))} to ${esc(bucketLabel(d.range.to, 'day'))}, Central Time. Compared with ${esc(bucketLabel(d.previous.from, 'day'))} to ${esc(bucketLabel(d.previous.to, 'day'))}.</p>
+      <p class="small muted ov-range">${esc(bucketLabel(d.range.from, 'day'))} to ${esc(bucketLabel(d.range.to, 'day'))}, Central Time. Compared with ${esc(bucketLabel(d.previous.from, 'day'))} to ${esc(bucketLabel(d.previous.to, 'day'))}. ${d.exclude_admins ? 'Admin accounts and their visits are left out.' : 'Includes admin accounts and their visits.'}</p>
       <div class="ov-kpis">${KPIS.map(
         ([k, label, sub]) => `<div class="ov-kpi"><span class="label">${esc(label)}</span><b>${num(d.kpis[k])}</b>
           ${k === 'active_ballots' ? `<span class="ov-delta">${esc(sub)}</span>` : delta(d.kpis[k], d.previous_kpis[k], prevLabel)}
@@ -237,9 +239,12 @@ export function renderOverview(body, current) {
       return draw();
     }
     if (e.target.closest('#ov-csv')) {
-      const res = await fetch(`/api/admin/overview.csv?${new URLSearchParams(state)}`, {
-        headers: { Authorization: `Bearer ${session.token}` },
-      });
+      const res = await fetch(
+        `/api/admin/overview.csv?${new URLSearchParams({ ...state, admins: excludeAdmins ? 'exclude' : 'include' })}`,
+        {
+          headers: { Authorization: `Bearer ${session.token}` },
+        }
+      );
       if (!res.ok) return toast('Could not download the file.');
       const a = document.createElement('a');
       a.href = URL.createObjectURL(await res.blob());
@@ -247,6 +252,10 @@ export function renderOverview(body, current) {
       a.click();
       setTimeout(() => URL.revokeObjectURL(a.href), 4000);
     }
+  });
+  $('#ov-admins', root).addEventListener('change', (e) => {
+    excludeAdmins = e.target.checked;
+    load();
   });
   form.addEventListener('submit', (e) => {
     e.preventDefault();
