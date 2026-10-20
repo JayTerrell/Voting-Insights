@@ -237,6 +237,23 @@ document.addEventListener('click', (e) => {
   }
 }
 
+// Refresh the signed-in account once per page load, so changes made elsewhere
+// (a new admin role, a new photo) show in the menu without signing out.
+if (session.token) {
+  api
+    .me()
+    .then((me) => {
+      session.set(session.token, me.user);
+      updateAccountLink();
+    })
+    .catch((e) => {
+      if (e.status === 401) {
+        session.clear();
+        updateAccountLink();
+      }
+    });
+}
+
 window.addEventListener('popstate', route);
 initMotion();
 route();

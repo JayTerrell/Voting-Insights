@@ -18,11 +18,23 @@ const TABS = [
 export async function renderAdmin(view, _params, current) {
   setTitle('Admin');
   if (!session.token) return navigate('/sign-in?next=/admin', { replace: true });
-  if (!session.user?.is_admin) {
+  let tab = new URLSearchParams(location.search).get('tab') || 'overview';
+  // The server decides: access may have been granted or changed since this
+  // browser last loaded the account.
+  let myRole = null;
+  const loadRole = async () => {
+    try {
+      myRole = (await api.admin.me()).role;
+    } catch {
+      myRole = null;
+    }
+  };
+  await loadRole();
+  if (!current()) return;
+  if (!myRole) {
     view.innerHTML = '<h1>Admins only</h1><p>This page is for VotersHub admins. <a href="/">Return to the home page</a>.</p>';
     return;
   }
-  let tab = new URLSearchParams(location.search).get('tab') || 'overview';
   let range = { from: '', to: '' };
 
   view.innerHTML = `<div class="admin-page">
@@ -170,32 +182,59 @@ export async function renderAdmin(view, _params, current) {
   }
 
   // ---------- Admins ----------
+  // ---------- Admins ----------
+  const ROLE_LABEL = { master: 'Master (full access)', write: 'Read and write', read: 'Read only' };
+  const canManage = () => myRole === 'master' || myRole === 'write';
+
+  function roleCell(u) {
+    if (u.role === 'master') return '<span class="tag tag-navy">Master · full access</span>';
+    if (!canManage()) return u.role ? esc(ROLE_LABEL[u.role]) : '<span class="muted">Not an admin</span>';
+    return `<select data-role="${u.id}" data-current="${u.role || ''}" data-self="${u.email === session.user?.email}" aria-label="Admin role for ${esc(u.name)}">
+      ${u.role ? '' : '<option value="" selected>Not an admin</option>'}
+      <option value="read" ${u.role === 'read' ? 'selected' : ''}>Read only</option>
+      <option value="write" ${u.role === 'write' ? 'selected' : ''}>Read and write</option>
+      ${u.role ? '<option value="remove">Remove admin access</option>' : ''}
+    </select>`;
+  }
+
+  function adminTable(list) {
+    return `<table class="ballot admin-table"><thead><tr><th>Name</th><th>Email</th><th>Access</th></tr></thead><tbody>${list
+      .map(
+        (u) =>
+          `<tr><td>${esc(u.name)}${u.email === session.user?.email ? ' <span class="small muted">(you)</span>' : ''}</td><td class="small">${esc(u.email)}</td><td>${roleCell(u)}</td></tr>`
+      )
+      .join('')}</tbody></table>`;
+  }
+
   async function drawAdmins(q = '') {
-    const { users } = await api.admin.users(q);
+    const [{ users: admins }, search] = await Promise.all([api.admin.users(''), q ? api.admin.users(q) : Promise.resolve(null)]);
     if (!current()) return;
     body.innerHTML = `
-      <p>Admins can review partner link requests, see every link's numbers, and make other people admins. Search for an account by name or email.</p>
-      <form id="admin-search" class="admin-search"><input type="search" name="q" value="${esc(q)}" placeholder="Name or email" minlength="2" maxlength="80"><button class="btn btn-small" type="submit">Search</button></form>
-      <h3>${q ? 'Matching accounts' : 'Current admins'}</h3>
+      <div class="panel role-legend">
+        <p style="margin-top:0"><b>Your access: ${esc(ROLE_LABEL[myRole] || myRole)}.</b></p>
+        <ul>
+          <li><b>Read only:</b> sees the Overview and partner links, and approves or rejects partner link requests.</li>
+          <li><b>Read and write:</b> everything above, plus adding admins, changing their access, and removing them.</li>
+          <li><b>Master:</b> full access to everything, always. It cannot be changed or removed here.</li>
+        </ul>
+      </div>
+      <h3>Admins (${admins.length})</h3>
+      ${adminTable(admins)}
       ${
-        users.length
-          ? `<table class="ballot"><thead><tr><th>Name</th><th>Email</th><th>Admin</th></tr></thead><tbody>${users
-              .map(
-                (u) =>
-                  `<tr><td>${esc(u.name)}</td><td>${esc(u.email)}</td><td>${
-                    u.owner
-                      ? '<span class="tag tag-navy">Permanent admin</span>'
-                      : `<label class="check"><input type="checkbox" data-admin="${u.id}" ${u.is_admin ? 'checked' : ''}> <span>${u.is_admin ? 'Admin' : 'Not an admin'}</span></label>`
-                  }</td></tr>`
-              )
-              .join('')}</tbody></table>`
-          : '<p class="muted">No accounts found.</p>'
+        canManage()
+          ? `<h3 style="margin-top:28px">Add an admin</h3>
+        <p class="small muted" style="margin-top:0">Search for someone with a VotersHub account, then choose their access.</p>
+        <form id="admin-search" class="admin-search"><input type="search" name="q" value="${esc(q)}" placeholder="Name or email" minlength="2" maxlength="80"><button class="btn btn-small" type="submit">Search</button></form>
+        ${search ? (search.users.length ? adminTable(search.users) : '<p class="muted">No accounts found.</p>') : ''}`
+          : '<p class="small muted">Only admins with read and write access can add or change admins.</p>'
       }`;
-    $('#admin-search', body).addEventListener('submit', (e) => {
+    $('#admin-search', body)?.addEventListener('submit', (e) => {
       e.preventDefault();
       drawAdmins(String(new FormData(e.target).get('q') || '').trim());
     });
+    lastQuery = q;
   }
+  let lastQuery = '';
 
   view.addEventListener('click', (e) => {
     const t = e.target.closest('[data-tab]');
@@ -211,23 +250,35 @@ export async function renderAdmin(view, _params, current) {
     if (d) return showDetail(Number(d.dataset.detail));
   });
   view.addEventListener('change', async (e) => {
-    const box = e.target.closest('[data-admin]');
-    if (!box) return;
-    const on = box.checked;
-    if (
-      !confirm(
-        on ? 'Make this person an admin? They will see every partner link and can approve requests.' : 'Remove admin access?'
-      )
-    ) {
-      box.checked = !on;
+    const sel = e.target.closest('[data-role]');
+    if (!sel) return;
+    const was = sel.dataset.current || null;
+    const role = sel.value === 'remove' ? null : sel.value || null;
+    if (role === was) return;
+    const self = sel.dataset.self === 'true';
+    const lowering = (was === 'write' && role !== 'write') || (was && !role);
+    const msg =
+      self && lowering
+        ? 'Lower your own access? You will need the master admin or another read-and-write admin to restore it.'
+        : !role
+          ? "Remove this person's admin access?"
+          : was
+            ? `Change this admin to ${ROLE_LABEL[role]}?`
+            : `Make this person an admin with ${ROLE_LABEL[role]} access?`;
+    if (!confirm(msg)) {
+      sel.value = was || '';
       return;
     }
     try {
-      await api.admin.setAdmin(Number(box.dataset.admin), on);
-      box.nextElementSibling.textContent = on ? 'Admin' : 'Not an admin';
-      toast(on ? 'Admin access granted.' : 'Admin access removed.');
+      await api.admin.setRole(Number(sel.dataset.role), role);
+      toast(role ? `Access set to ${ROLE_LABEL[role]}.` : 'Admin access removed.');
+      if (self) {
+        await loadRole();
+        if (!myRole) return navigate('/profile', { replace: true });
+      }
+      drawAdmins(lastQuery);
     } catch (ex) {
-      box.checked = !on;
+      sel.value = was || '';
       toast(ex.message);
     }
   });

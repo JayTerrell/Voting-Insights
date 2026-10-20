@@ -1,7 +1,7 @@
 import { Router } from 'express';
 import * as users from '../db/repositories/users.js';
 import * as results from '../db/repositories/results.js';
-import { requireAdmin, isAdmin } from '../middleware/auth.js';
+import { requireAdmin, requireRole, adminRole } from '../middleware/auth.js';
 import { rateLimit } from '../middleware/rate-limit.js';
 import { toCsv } from '../lib/csv.js';
 import * as partners from '../services/partners.js';
@@ -11,14 +11,14 @@ import { config } from '../config.js';
 export const adminRoutes = Router();
 adminRoutes.use(rateLimit('admin', 300, 15 * 60 * 1000), requireAdmin);
 
-adminRoutes.get('/users.csv', async (req, res) => {
+adminRoutes.get('/users.csv', requireRole('master'), async (req, res) => {
   res
     .type('text/csv')
     .attachment('users.csv')
     .send(toCsv(await users.exportAll()));
 });
 
-adminRoutes.get('/results.csv', async (req, res) => {
+adminRoutes.get('/results.csv', requireRole('master'), async (req, res) => {
   res
     .type('text/csv')
     .attachment('quiz-results.csv')
@@ -83,28 +83,34 @@ const adminView = (u) => ({
   email: u.email,
   county: u.county,
   created_at: u.created_at,
-  is_admin: isAdmin(u),
-  owner: config.adminEmails.includes(u.email.toLowerCase()),
+  role: adminRole(u),
 });
+
+// The signed-in admin's own role, so the page shows only what they can do.
+adminRoutes.get('/me', (req, res) => res.json({ role: req.adminRole }));
 
 adminRoutes.get('/users', async (req, res) => {
   const q = String(req.query.q || '')
     .trim()
     .slice(0, 80);
-  res.json({ users: (q.length >= 2 ? await users.search(q) : await users.admins()).map(adminView) });
+  const rows = q.length >= 2 ? await users.search(q) : await users.admins(config.adminEmails);
+  const order = { master: 0, write: 1, read: 2, null: 3 };
+  res.json({ users: rows.map(adminView).sort((a, b) => order[a.role] - order[b.role] || a.name.localeCompare(b.name)) });
 });
 
-adminRoutes.put('/users/:id/admin', async (req, res) => {
-  if (typeof req.body?.admin !== 'boolean') return res.status(400).json({ error: 'Choose on or off.' });
+// Write and master admins grant, change, or remove admin access. Master admins
+// cannot be changed here. An admin may lower their own role, but only a write
+// or master admin can raise it again.
+adminRoutes.put('/users/:id/role', requireRole('write'), async (req, res) => {
+  const role = req.body?.role ?? null;
+  if (role !== null && role !== 'read' && role !== 'write')
+    return res.status(400).json({ error: 'Choose Read, Write, or no access.' });
   const target = await users.findById(Number(req.params.id));
   if (!target) return res.status(404).json({ error: 'That account no longer exists.' });
-  if (!req.body.admin && config.adminEmails.includes(target.email.toLowerCase())) {
-    return res.status(400).json({ error: 'This account is a permanent admin and cannot be removed here.' });
+  if (adminRole(target) === 'master') {
+    return res.status(400).json({ error: 'The master admin always has full access and cannot be changed.' });
   }
-  if (!req.body.admin && req.user && req.user.id === target.id) {
-    return res.status(400).json({ error: 'You cannot remove your own admin access.' });
-  }
-  res.json({ user: adminView(await users.setAdmin(target.id, req.body.admin)) });
+  res.json({ user: adminView(await users.setAdminRole(target.id, role)) });
 });
 
 // ---------- Site overview ----------

@@ -59,9 +59,15 @@ export async function remove(id) {
   await db.run('DELETE FROM users WHERE id = ?', [id]);
 }
 
-export async function setAdmin(id, on) {
+// role: 'read', 'write', or null to remove admin access.
+export async function setAdminRole(id, role) {
   const db = await getDb();
-  return db.get('UPDATE users SET is_admin = ?, updated_at = ? WHERE id = ? RETURNING *', [on ? 1 : 0, now(), id]);
+  return db.get('UPDATE users SET admin_role = ?, is_admin = ?, updated_at = ? WHERE id = ? RETURNING *', [
+    role,
+    role ? 1 : 0,
+    now(),
+    id,
+  ]);
 }
 
 export async function search(q) {
@@ -70,15 +76,22 @@ export async function search(q) {
     .toLowerCase()
     .replace(/[%_\\]/g, '')}%`;
   return db.all(
-    `SELECT id, first_name, last_name, email, county, is_admin, created_at FROM users
+    `SELECT id, first_name, last_name, email, county, is_admin, admin_role, created_at FROM users
      WHERE LOWER(email) LIKE ? OR LOWER(first_name || ' ' || last_name) LIKE ? ORDER BY created_at DESC LIMIT 25`,
     [like, like]
   );
 }
 
-export async function admins() {
+// Everyone with admin access, including master admins listed by email.
+export async function admins(masterEmails = []) {
   const db = await getDb();
-  return db.all('SELECT id, first_name, last_name, email, is_admin FROM users WHERE is_admin = 1');
+  const marks = masterEmails.map(() => '?').join(', ');
+  return db.all(
+    `SELECT id, first_name, last_name, email, county, is_admin, admin_role, created_at FROM users
+     WHERE admin_role IS NOT NULL OR is_admin = 1${marks ? ` OR LOWER(email) IN (${marks})` : ''}
+     ORDER BY created_at`,
+    masterEmails
+  );
 }
 
 export async function exportAll() {

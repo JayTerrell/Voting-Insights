@@ -313,14 +313,33 @@ test('partner links: request, approval, visits, attribution, and totals with a p
 
   const summary = await call('GET', '/api/admin/partners/summary', { token: boss.json.token });
   assert.equal(summary.json.links[0].sign_ups, 11);
+  // Roles: the master admin appears in the list without searching.
+  const list = await call('GET', '/api/admin/users', { token: boss.json.token });
+  assert.equal(list.json.users[0].email, 'boss@example.com');
+  assert.equal(list.json.users[0].role, 'master');
   const found = await call('GET', '/api/admin/users?q=partner', { token: boss.json.token });
   const pid = found.json.users[0].id;
-  assert.equal(
-    (await call('PUT', `/api/admin/users/${pid}/admin`, { token: boss.json.token, body: { admin: true } })).json.user.is_admin,
-    true
-  );
-  const bossId = (await call('GET', '/api/admin/users?q=boss', { token: boss.json.token })).json.users[0].id;
-  assert.equal((await call('PUT', `/api/admin/users/${bossId}/admin`, { token: pt, body: { admin: false } })).status, 400);
+  const bossId = list.json.users[0].id;
+  const setRole = (id, role, token) => call('PUT', `/api/admin/users/${id}/role`, { token, body: { role } });
+
+  // Read: sees numbers, cannot manage admins or download raw data.
+  assert.equal((await setRole(pid, 'read', boss.json.token)).json.user.role, 'read');
+  assert.equal((await call('GET', '/api/admin/overview', { token: pt })).status, 200);
+  assert.equal((await call('GET', '/api/admin/partners', { token: pt })).status, 200);
+  assert.equal((await setRole(pid, 'write', pt)).status, 403, 'a read admin cannot raise their own role');
+  assert.equal((await call('GET', '/api/admin/users.csv', { token: pt })).status, 403);
+  assert.equal((await call('GET', '/api/admin/users.csv', { token: boss.json.token })).status, 200);
+
+  // Write: manages other admins, never the master; may lower their own role.
+  await setRole(pid, 'write', boss.json.token);
+  const helper = await signUp('helper@example.com');
+  const hid = (await call('GET', '/api/admin/users?q=helper', { token: pt })).json.users[0].id;
+  assert.equal((await setRole(hid, 'read', pt)).json.user.role, 'read');
+  assert.equal((await call('GET', '/api/me', { token: helper.json.token })).json.user.admin_role, 'read');
+  assert.equal((await setRole(bossId, 'read', pt)).status, 400, 'the master cannot be changed');
+  assert.equal((await setRole(pid, 'read', pt)).json.user.role, 'read');
+  assert.equal((await setRole(hid, null, pt)).status, 403, 'after lowering themselves they need the master');
+  assert.equal((await setRole(hid, null, boss.json.token)).json.user.role, null);
   await db.run('DELETE FROM rate_limits');
 });
 

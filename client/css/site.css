@@ -5090,3 +5090,14 @@ textarea {
   grid-template-columns: minmax(78px, 104px) minmax(80px, 1fr) 46px;
   gap: 10px;
 }
+.admin-table select {
+  max-width: 230px;
+  padding: 6px 10px;
+}
+.role-legend ul {
+  margin: 0;
+  padding-left: 20px;
+}
+.role-legend li {
+  margin: 4px 0;
+}

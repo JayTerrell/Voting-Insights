@@ -19,14 +19,38 @@ export async function requireUser(req, res, next) {
   next();
 }
 
-export const isAdmin = (user) => Boolean(user && (user.is_admin || config.adminEmails.includes(user.email.toLowerCase())));
+// Admin roles, highest first. 'master' accounts are listed in ADMIN_EMAILS and
+// can do everything; 'write' admins also manage other admins; 'read' admins see
+// the numbers and review partner link requests.
+export const ROLE_RANK = { read: 1, write: 2, master: 3 };
+
+export function adminRole(user) {
+  if (!user) return null;
+  if (config.adminEmails.includes(String(user.email).toLowerCase())) return 'master';
+  if (user.admin_role === 'read' || user.admin_role === 'write') return user.admin_role;
+  return user.is_admin ? 'write' : null;
+}
+
+export const isAdmin = (user) => Boolean(adminRole(user));
 
 // Admin pages: a signed-in admin, or the ADMIN_TOKEN (for scripts) in the
 // Authorization header. Neither is ever accepted in a URL.
 export async function requireAdmin(req, res, next) {
   const token = bearerToken(req);
-  if (config.adminToken && token && safeEqual(token, config.adminToken)) return next();
+  if (config.adminToken && token && safeEqual(token, config.adminToken)) {
+    req.adminRole = 'master';
+    return next();
+  }
   req.user = await findUser(token);
-  if (!isAdmin(req.user)) return res.status(req.user ? 403 : 401).json({ error: 'Unauthorized' });
+  req.adminRole = adminRole(req.user);
+  if (!req.adminRole) return res.status(req.user ? 403 : 401).json({ error: 'Unauthorized' });
   next();
 }
+
+// Use after requireAdmin: the signed-in admin needs at least this role.
+export const requireRole = (role) => (req, res, next) =>
+  ROLE_RANK[req.adminRole] >= ROLE_RANK[role]
+    ? next()
+    : res
+        .status(403)
+        .json({ error: role === 'master' ? 'Only the master admin can do that.' : 'Your admin role cannot do that.' });

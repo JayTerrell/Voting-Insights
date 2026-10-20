@@ -113,7 +113,7 @@ export const publicLink = (l) =>
   };
 
 const adminEmailList = async () => [
-  ...new Set([...config.adminEmails, ...(await users.admins()).map((a) => a.email.toLowerCase())]),
+  ...new Set([...config.adminEmails, ...(await users.admins(config.adminEmails)).map((a) => a.email.toLowerCase())]),
 ];
 
 // Mail never blocks the request or the decision.

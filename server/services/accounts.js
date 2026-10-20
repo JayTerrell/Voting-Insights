@@ -12,7 +12,7 @@ import { hashPassword, verifyPassword } from '../lib/password.js';
 import { sendPasswordResetEmail, sendWelcomeEmail } from './mailer.js';
 import { ticketFor, readTicket } from './oauth.js';
 import { config } from '../config.js';
-import { isAdmin } from '../middleware/auth.js';
+import { isAdmin, adminRole } from '../middleware/auth.js';
 import { attributeSignUp } from './partners.js';
 
 export const publicUser = (u) => ({
@@ -25,6 +25,7 @@ export const publicUser = (u) => ({
   has_password: Boolean(u.password_hash),
   avatar: u.avatar || null,
   is_admin: isAdmin(u),
+  admin_role: adminRole(u),
 });
 
 export class AccountError extends Error {

@@ -165,7 +165,8 @@ export const api = {
     summary: (q) => call('GET', `/api/admin/partners/summary?${new URLSearchParams(q)}`),
     overview: (q) => call('GET', `/api/admin/overview?${new URLSearchParams(q)}`),
     users: (q) => call('GET', `/api/admin/users?q=${encodeURIComponent(q || '')}`),
-    setAdmin: (id, admin) => call('PUT', `/api/admin/users/${id}/admin`, { admin }),
+    setRole: (id, role) => call('PUT', `/api/admin/users/${id}/role`, { role }),
+    me: () => call('GET', '/api/admin/me'),
   },
   deleteAccount: (confirm) => call('DELETE', '/api/me', confirm),
 };

@@ -161,6 +161,12 @@ export async function migrate(db) {
       `ALTER TABLE users ADD COLUMN ${db.dialect === 'postgres' ? 'IF NOT EXISTS ' : ''}is_admin INTEGER NOT NULL DEFAULT 0`
     );
   }
+  // Admin roles: 'read' or 'write'. Master admins come from ADMIN_EMAILS.
+  // Admins made before roles existed keep full management rights as 'write'.
+  if (!(await hasColumn(db, 'users', 'admin_role'))) {
+    await db.exec(`ALTER TABLE users ADD COLUMN ${db.dialect === 'postgres' ? 'IF NOT EXISTS ' : ''}admin_role TEXT`);
+    await db.exec(`UPDATE users SET admin_role = 'write' WHERE is_admin = 1`);
+  }
   if (!(await hasColumn(db, 'users', 'partner_link_id'))) {
     await db.exec(
       `ALTER TABLE users ADD COLUMN ${db.dialect === 'postgres' ? 'IF NOT EXISTS ' : ''}partner_link_id ${db.dialect === 'postgres' ? 'BIGINT' : 'INTEGER'}`
