@@ -5082,3 +5082,11 @@ textarea {
 .ov-foot {
   margin-top: 20px;
 }
+
+/* Party bars inside narrow cards (Admin overview, partner stats): a smaller
+   name column leaves room for the bar itself. */
+.ov-card .bar-row,
+.ps .bar-row {
+  grid-template-columns: minmax(78px, 104px) minmax(80px, 1fr) 46px;
+  gap: 10px;
+}
