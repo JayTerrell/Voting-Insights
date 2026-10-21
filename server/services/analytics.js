@@ -13,6 +13,7 @@ import { config } from '../config.js';
 import { guide } from './guide.js';
 import { topIssues } from '../../shared/scoring.js';
 import { centralDay } from './partners.js';
+import { centralHour } from '../lib/time.js';
 
 export const KINDS = ['pageview', 'quiz_start', 'share', 'vote_lookup', 'print_ballot'];
 const BOTS =
@@ -71,10 +72,12 @@ function cleanSource(s) {
 export async function track(body, ip, ua, staff = false) {
   const kind = String(body?.kind || '');
   if (!KINDS.includes(kind) || BOTS.test(ua || '')) return false;
-  const day = centralDay();
+  const now = new Date();
+  const day = centralDay(now);
   await analytics.add({
     kind,
     day,
+    hour: centralHour(now),
     path: cleanPath(body.path),
     source: kind === 'pageview' && body.source !== undefined ? cleanSource(body.source) : null,
     device: kind === 'pageview' ? device(ua || '') : null,
@@ -90,6 +93,12 @@ const DAY_MS = 864e5;
 const addDays = (day, n) => new Date(Date.parse(`${day}T12:00:00Z`) + n * DAY_MS).toISOString().slice(0, 10);
 const daysBetween = (a, b) => Math.round((Date.parse(`${b}T12:00:00Z`) - Date.parse(`${a}T12:00:00Z`)) / DAY_MS) + 1;
 
+// Hour buckets are written 2026-10-20T15. Longer ranges are grouped by day,
+// so an hourly chart stays readable.
+export const HOURLY_MAX_DAYS = 14;
+const pad = (h) => String(h).padStart(2, '0');
+const hourKey = (day, hour) => `${day}T${pad(hour)}`;
+
 // Monday of the day's week, or the month.
 function bucketOf(day, group) {
   if (group === 'month') return day.slice(0, 7);
@@ -102,6 +111,15 @@ function bucketOf(day, group) {
 
 function bucketKeys(from, to, group) {
   const keys = [];
+  if (group === 'hour') {
+    // Today stops at the current hour rather than showing empty hours ahead.
+    const today = centralDay();
+    const nowHour = centralHour();
+    for (let d = from; d <= to; d = addDays(d, 1)) {
+      for (let h = 0; h < 24; h++) if (d < today || (d === today && h <= nowHour)) keys.push(hourKey(d, h));
+    }
+    return keys;
+  }
   for (let d = from; d <= to; d = addDays(d, 1)) {
     const k = bucketOf(d, group);
     if (keys.at(-1) !== k) keys.push(k);
@@ -123,7 +141,7 @@ async function inCentralRange(fetch, from, to, masters = null) {
   return rows
     .map((r) => {
       const when = new Date(r.created_at || r.updated_at);
-      return Number.isNaN(when.getTime()) ? null : { ...r, day: centralDay(when) };
+      return Number.isNaN(when.getTime()) ? null : { ...r, day: centralDay(when), hour: centralHour(when) };
     })
     .filter((r) => r && r.day >= from && r.day <= to);
 }
@@ -164,25 +182,40 @@ async function periodNumbers(from, to, masters) {
 
 export async function overview({ from, to, group = 'day', excludeAdmins = true }) {
   const masters = excludeAdmins ? config.adminEmails : null;
-  const g = ['day', 'week', 'month'].includes(group) ? group : 'day';
-  const now = await periodNumbers(from, to, masters);
   const span = daysBetween(from, to);
+  const wanted = ['hour', 'day', 'week', 'month'].includes(group) ? group : 'day';
+  const hourLimited = wanted === 'hour' && span > HOURLY_MAX_DAYS;
+  const g = hourLimited ? 'day' : wanted;
+  const now = await periodNumbers(from, to, masters);
   const prev = await periodNumbers(addDays(from, -span), addDays(from, -1), masters);
 
   // Time series.
   const keys = bucketKeys(from, to, g);
   const blank = () => ({ visitors: 0, page_views: 0, quiz_starts: 0, sign_ups: 0, quizzes_taken: 0 });
   const series = new Map(keys.map((k) => [k, { bucket: k, ...blank() }]));
-  for (const e of now.events) {
-    const b = series.get(bucketOf(e.day, g));
-    if (!b) continue;
-    if (e.kind === 'pageview') {
-      b.visitors += Number(e.visitors);
-      b.page_views += Number(e.n);
-    } else if (e.kind === 'quiz_start') b.quiz_starts += Number(e.visitors);
-  }
-  for (const u of now.users) series.get(bucketOf(u.day, g)) && (series.get(bucketOf(u.day, g)).sign_ups += 1);
-  for (const r of now.results) series.get(bucketOf(r.day, g)) && (series.get(bucketOf(r.day, g)).quizzes_taken += 1);
+  const keyOf = (row) => (g === 'hour' ? hourKey(row.day, row.hour) : bucketOf(row.day, g));
+  const addEvents = (target, rows, keyFn) => {
+    for (const e of rows) {
+      const b = target.get(keyFn(e));
+      if (!b) continue;
+      if (e.kind === 'pageview') {
+        b.visitors += Number(e.visitors);
+        b.page_views += Number(e.n);
+      } else if (e.kind === 'quiz_start') b.quiz_starts += Number(e.visitors);
+    }
+  };
+  const addPeople = (target, keyFn) => {
+    for (const u of now.users) target.get(keyFn(u)) && (target.get(keyFn(u)).sign_ups += 1);
+    for (const r of now.results) target.get(keyFn(r)) && (target.get(keyFn(r)).quizzes_taken += 1);
+  };
+  const hourRows = await analytics.hourly(from, to, Boolean(masters));
+  addEvents(series, g === 'hour' ? hourRows : now.events, keyOf);
+  addPeople(series, keyOf);
+
+  // Busiest hours: each hour of the day, summed across the range.
+  const byHour = new Map(Array.from({ length: 24 }, (_, h) => [h, { hour: h, ...blank() }]));
+  addEvents(byHour, hourRows, (e) => Number(e.hour));
+  addPeople(byHour, (r) => r.hour);
 
   // Ballots: accounts whose plan changed in the range and holds picks or watched offices.
   const plans = (await inCentralRange(analytics.plansUpdated, from, to, masters)).map((p) => parse(p.plan_json, {}));
@@ -217,7 +250,7 @@ export async function overview({ from, to, group = 'day', excludeAdmins = true }
   ]);
 
   return {
-    range: { from, to, group: g, days: span },
+    range: { from, to, group: g, days: span, hour_limited: hourLimited },
     exclude_admins: Boolean(masters),
     previous: { from: addDays(from, -span), to: addDays(from, -1) },
     kpis: { ...k, active_ballots: activeBallots },
@@ -229,6 +262,7 @@ export async function overview({ from, to, group = 'day', excludeAdmins = true }
       { step: 'Finished the quiz', count: k.quiz_takers, rate: rate(k.quiz_takers, k.sign_ups) },
     ],
     series: [...series.values()],
+    hours: [...byHour.values()],
     traffic: { pages, sources, devices },
     sign_ups: {
       county: count(now.users.map((u) => u.county)),

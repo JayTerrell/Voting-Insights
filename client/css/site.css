@@ -5192,3 +5192,15 @@ textarea {
 .sl-note {
   margin: 0 0 24px;
 }
+.ov-chart.dense .ov-bars {
+  gap: 1px;
+}
+.ov-chart.dense .ov-col {
+  flex: 1 0 3px;
+}
+.ov-chart.dense .ov-col em {
+  left: 0;
+}
+.ov-note {
+  margin: 0 0 10px;
+}

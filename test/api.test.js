@@ -389,6 +389,28 @@ test('site analytics: anonymous page views and the admin overview', async () => 
   assert.equal(o.json.range.group, 'week');
   assert.ok(o.json.series.length > 0 && o.json.funnel.length === 4);
   assert.ok(o.json.traffic.pages.some((p) => p.name === '/candidates'));
+  // Hour by hour: 24 slots a day (fewer today), and every view lands in one.
+  const day = o.json.range.to;
+  const hr = await call('GET', `/api/admin/overview?group=hour&from=${day}&to=${day}`, { token: boss.json.token });
+  assert.equal(hr.json.range.group, 'hour');
+  assert.match(hr.json.series[0].bucket, /^\d{4}-\d{2}-\d{2}T\d{2}$/);
+  assert.equal(
+    hr.json.series.reduce((n, b) => n + b.page_views, 0),
+    o.json.kpis.page_views
+  );
+  assert.equal(hr.json.hours.length, 24);
+  assert.equal(
+    hr.json.hours.reduce((n, b) => n + b.page_views, 0),
+    o.json.kpis.page_views
+  );
+  // Long ranges fall back to days.
+  const long = await call('GET', '/api/admin/overview?group=hour&from=2026-09-01&to=2026-10-20', { token: boss.json.token });
+  assert.equal(long.json.range.group, 'day');
+  assert.equal(long.json.range.hour_limited, true);
+  const hcsv = await fetch(`${base}/api/admin/overview.csv?group=hour&from=${day}&to=${day}`, {
+    headers: { Authorization: `Bearer ${boss.json.token}` },
+  });
+  assert.match(await hcsv.text(), /^hour,visitors[\s\S]*\n\d{4}-\d{2}-\d{2} \d{2}:00,/);
   const csv = await fetch(`${base}/api/admin/overview.csv`, { headers: { Authorization: `Bearer ${boss.json.token}` } });
   assert.match(await csv.text(), /^day,visitors,page_views/);
   await db.run('DELETE FROM rate_limits');

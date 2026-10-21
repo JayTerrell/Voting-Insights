@@ -131,5 +131,12 @@ adminRoutes.get('/overview.csv', async (req, res) => {
   res
     .type('text/csv')
     .attachment(`votershub-overview-${o.range.from}-to-${o.range.to}.csv`)
-    .send(toCsv(o.series.map(({ bucket, ...rest }) => ({ [o.range.group]: bucket, ...rest }))));
+    .send(
+      toCsv(
+        o.series.map(({ bucket, ...rest }) => ({
+          [o.range.group]: o.range.group === 'hour' ? `${bucket.replace('T', ' ')}:00` : bucket,
+          ...rest,
+        }))
+      )
+    );
 });

@@ -1,6 +1,7 @@
 // Admin Overview: site-wide visitors, sign-ups, quizzes, and engagement for any
-// date range, grouped by day, week, or month, with a comparison to the period
-// before. Data comes from /api/admin/overview.
+// date range, grouped by hour, day, week, or month, with a comparison to the
+// period before, and the busiest hours of the day. Data comes from
+// /api/admin/overview.
 
 import { $, $$, esc, toast, PARTY_CLASS } from '../ui.js';
 import { api, session } from '../api.js';
@@ -21,7 +22,7 @@ const PRESETS = [
 
 function presetRange(key) {
   const t = today();
-  if (key === 'today') return { from: t, to: t, group: 'day' };
+  if (key === 'today') return { from: t, to: t, group: 'hour' };
   if (key === '7') return { from: shift(t, -6), to: t, group: 'day' };
   if (key === '30') return { from: shift(t, -29), to: t, group: 'day' };
   if (key === 'month') return { from: `${t.slice(0, 8)}01`, to: t, group: 'day' };
@@ -63,7 +64,13 @@ function delta(now, prev, label) {
   return `<span class="ov-delta ${p > 0 ? 'up' : 'down'}">${p > 0 ? 'Up' : 'Down'} ${Math.abs(p)}% vs ${esc(label)}</span>`;
 }
 
+const clock = (h) => `${h % 12 || 12} ${h < 12 ? 'AM' : 'PM'}`;
+
 function bucketLabel(b, group) {
+  if (group === 'hour') {
+    const [day, h] = b.split('T');
+    return `${bucketLabel(day, 'day')}, ${clock(Number(h))}`;
+  }
   if (group === 'month') {
     const [y, m] = b.split('-');
     return new Date(Date.UTC(Number(y), Number(m) - 1, 15)).toLocaleString('en-US', {
@@ -77,18 +84,32 @@ function bucketLabel(b, group) {
   return group === 'week' ? `Week of ${s}` : s;
 }
 
+// Short labels under the bars: an hour chart names the hour, and the date at midnight.
+function axisLabel(b, group, multiDay) {
+  if (group === 'hourofday') return clock(Number(b));
+  if (group === 'hour') {
+    const h = Number(b.split('T')[1]);
+    return multiDay && h === 0 ? bucketLabel(b.split('T')[0], 'day') : clock(h);
+  }
+  return bucketLabel(b, group).replace('Week of ', '');
+}
+
 function chart(series, metric, group) {
   if (!series.length) return '<p class="muted">No data in this range.</p>';
   const max = Math.max(...series.map((r) => r[metric]), 1);
-  const every = Math.ceil(series.length / 12);
-  return `<div class="ov-chart" role="img" aria-label="${esc(metric)} by ${esc(group)}">
+  const multiDay = group === 'hour' && series.length > 24;
+  // Multi-day hour charts label each midnight; others label about a dozen bars.
+  const every = multiDay ? 24 : group === 'hour' || group === 'hourofday' ? 3 : Math.ceil(series.length / 12);
+  const title = (r) =>
+    group === 'hourofday' ? `${clock(Number(r.bucket))} to ${clock((Number(r.bucket) + 1) % 24)}` : bucketLabel(r.bucket, group);
+  return `<div class="ov-chart ${series.length > 48 ? 'dense' : ''}" role="img" aria-label="${esc(metric)} by ${esc(group)}">
     <div class="ov-ymax">${num(max)}</div>
     <div class="ov-bars">${series
       .map(
-        (r, i) => `<div class="ov-col" title="${esc(bucketLabel(r.bucket, group))}: ${num(r[metric])}">
-          <span class="ov-val">${r[metric] ? num(r[metric]) : ''}</span>
+        (r, i) => `<div class="ov-col" title="${esc(title(r))}: ${num(r[metric])}">
+          <span class="ov-val">${r[metric] && series.length <= 48 ? num(r[metric]) : ''}</span>
           <span class="ov-bar" style="height:${(r[metric] / max) * 100}%"></span>
-          <em>${i % every === 0 ? esc(bucketLabel(r.bucket, group).replace('Week of ', '')) : ''}</em>
+          <em>${i % every === 0 ? esc(axisLabel(r.bucket, group, multiDay)) : ''}</em>
         </div>`
       )
       .join('')}</div></div>`;
@@ -117,7 +138,7 @@ export function renderOverview(body, current) {
         <label>From <input type="date" name="from"></label>
         <label>To <input type="date" name="to"></label>
         <div class="seg ov-group" role="group" aria-label="Group by">
-          <button type="button" data-group="day">Day</button><button type="button" data-group="week">Week</button><button type="button" data-group="month">Month</button>
+          <button type="button" data-group="hour" title="For ranges up to 14 days">Hour</button><button type="button" data-group="day">Day</button><button type="button" data-group="week">Week</button><button type="button" data-group="month">Month</button>
         </div>
         <button class="btn btn-small" type="submit">Apply</button>
         <label class="check ov-exclude"><input type="checkbox" id="ov-admins" checked> <span>Exclude admins</span></label>
@@ -165,7 +186,17 @@ export function renderOverview(body, current) {
         <div class="ov-trend-head"><h3>Trend</h3><div class="ov-metrics">${SERIES.map(
           ([k, l]) => `<button type="button" class="chip-btn" data-metric="${k}" aria-pressed="${k === metric}">${l}</button>`
         ).join('')}</div></div>
+        ${d.range.hour_limited ? '<p class="small muted ov-note">Hour by hour is available for ranges up to 14 days, so this range is shown by day. Busiest hours below covers the whole range.</p>' : ''}
         ${chart(d.series, metric, d.range.group)}
+      </section>
+
+      <section class="ov-card ov-trend">
+        <div class="ov-trend-head"><h3>Busiest hours</h3><span class="small muted">${esc(SERIES.find(([k]) => k === metric)[1])} in each hour of the day, Central Time, across the range</span></div>
+        ${chart(
+          d.hours.map(({ hour, ...rest }) => ({ bucket: String(hour), ...rest })),
+          metric,
+          'hourofday'
+        )}
       </section>
 
       <section class="ov-card"><h3>Funnel</h3><div class="ov-funnel">${d.funnel

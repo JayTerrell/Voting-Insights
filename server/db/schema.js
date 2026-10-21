@@ -2,6 +2,8 @@
 // ISO strings set by the application, and expiry times are epoch milliseconds,
 // so the same queries work on both engines.
 
+import { centralHour } from '../lib/time.js';
+
 const TABLES = [
   'users',
   'quiz_results',
@@ -112,6 +114,7 @@ export function schema(dialect) {
       device     TEXT,
       visitor    TEXT NOT NULL,
       staff      INTEGER NOT NULL DEFAULT 0,
+      hour       INTEGER,
       created_at TEXT NOT NULL
     )`,
     'CREATE INDEX IF NOT EXISTS idx_site_events_day ON site_events(day, kind)',
@@ -196,6 +199,16 @@ export async function migrate(db) {
     await db.exec(
       `ALTER TABLE site_events ADD COLUMN ${db.dialect === 'postgres' ? 'IF NOT EXISTS ' : ''}staff INTEGER NOT NULL DEFAULT 0`
     );
+  }
+  // The Central Time hour of each event, for hour-by-hour numbers. Older events
+  // get theirs from their timestamp, a batch per start so a cold start stays quick.
+  if (!(await hasColumn(db, 'site_events', 'hour'))) {
+    await db.exec(`ALTER TABLE site_events ADD COLUMN ${db.dialect === 'postgres' ? 'IF NOT EXISTS ' : ''}hour INTEGER`);
+  }
+  const missing = await db.all('SELECT id, created_at FROM site_events WHERE hour IS NULL LIMIT 5000');
+  for (const r of missing) {
+    const when = new Date(r.created_at);
+    await db.run('UPDATE site_events SET hour = ? WHERE id = ?', [Number.isNaN(when.getTime()) ? 0 : centralHour(when), r.id]);
   }
   // Whether a shared result also shows the person's top three issues (off by default).
   if (!(await hasColumn(db, 'quiz_results', 'share_issues'))) {

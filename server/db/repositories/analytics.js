@@ -3,8 +3,8 @@ import { getDb } from '../index.js';
 export async function add(e) {
   const db = await getDb();
   await db.run(
-    'INSERT INTO site_events (kind, day, path, source, device, visitor, staff, created_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?)',
-    [e.kind, e.day, e.path, e.source, e.device, e.visitor, e.staff ? 1 : 0, new Date().toISOString()]
+    'INSERT INTO site_events (kind, day, hour, path, source, device, visitor, staff, created_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)',
+    [e.kind, e.day, e.hour, e.path, e.source, e.device, e.visitor, e.staff ? 1 : 0, new Date().toISOString()]
   );
 }
 
@@ -29,6 +29,17 @@ export async function daily(from, to, excludeStaff = false) {
   return db.all(
     `SELECT e.day AS day, e.kind AS kind, COUNT(*) AS n, COUNT(DISTINCT e.visitor) AS visitors
      FROM site_events e WHERE e.day >= ? AND e.day <= ?${staffFilter(excludeStaff)} GROUP BY e.day, e.kind`,
+    [from, to]
+  );
+}
+
+// Per day and hour: the same counts, with visitors unique within each hour.
+export async function hourly(from, to, excludeStaff = false) {
+  const db = await getDb();
+  return db.all(
+    `SELECT e.day AS day, e.hour AS hour, e.kind AS kind, COUNT(*) AS n, COUNT(DISTINCT e.visitor) AS visitors
+     FROM site_events e WHERE e.day >= ? AND e.day <= ? AND e.hour IS NOT NULL${staffFilter(excludeStaff)}
+     GROUP BY e.day, e.hour, e.kind`,
     [from, to]
   );
 }
