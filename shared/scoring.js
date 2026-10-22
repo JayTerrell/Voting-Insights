@@ -41,9 +41,51 @@ export const PRIOR_WEIGHT = 1.5;
 // Fewer overlapping questions than this marks a match as "limited data".
 export const LIMITED_DATA_THRESHOLD = 3;
 
-export function positionLabel(value) {
-  const hit = SCALE.find((s) => s.value === value);
-  return hit ? hit.label : 'No documented position';
+// Each question offers two views, A and B. Answers and positions are stored on
+// one scale from -2 to +2, and q.agree names the side at +2, so a value maps to
+// a side and a strength. This keeps every saved answer and documented position
+// valid however the two sides are worded.
+const sideOf = (value, q) => (value > 0 ? q.agree : q.agree === 'a' ? 'b' : 'a');
+
+// The value stored for leaning toward one side, with strength 1 or 2.
+export const sideValue = (q, side, strength) => (side === q.agree ? strength : -strength);
+
+// The five answer choices, from strongly A to strongly B.
+export function choices(q) {
+  return [
+    { value: sideValue(q, 'a', 2), label: 'Strongly A', side: 'a' },
+    { value: sideValue(q, 'a', 1), label: 'Lean A', side: 'a' },
+    { value: 0, label: 'In between or not sure', side: null },
+    { value: sideValue(q, 'b', 1), label: 'Lean B', side: 'b' },
+    { value: sideValue(q, 'b', 2), label: 'Strongly B', side: 'b' },
+  ];
+}
+
+// A value on a common scale where Strongly A is -2 and Strongly B is +2, for
+// explaining scores. Distances between values are the same on either scale.
+export const abValue = (value, q) => (q.agree === 'b' ? value : -value);
+
+export const AB_SCALE = [
+  { value: -2, label: 'Strongly A' },
+  { value: -1, label: 'Lean A' },
+  { value: 0, label: 'In between or not sure' },
+  { value: 1, label: 'Lean B' },
+  { value: 2, label: 'Strongly B' },
+];
+
+// Where a value sits from A (0) to B (4), for drawing a five-step scale.
+export const scaleStep = (value, q) => (q.agree === 'a' ? 2 - value : 2 + value);
+
+export function positionLabel(value, q) {
+  if (typeof value !== 'number' || value < -2 || value > 2) return 'No documented position';
+  if (!q?.agree) {
+    const hit = SCALE.find((s) => s.value === value);
+    return hit ? hit.label : 'No documented position';
+  }
+  if (value === 0) return 'In between or mixed';
+  const side = sideOf(value, q);
+  const short = side === 'a' ? q.a_short : q.b_short;
+  return `${Math.abs(value) === 2 ? 'Strongly' : 'Leans'} ${side.toUpperCase()}: ${short}`;
 }
 
 function validAnswer(a) {

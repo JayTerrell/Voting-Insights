@@ -1,7 +1,8 @@
-import { $, esc, setTitle, sourceLabel, formatScore, raceTitle } from '../ui.js';
+import { $, esc, setTitle, sourceLabel, formatScore, raceTitle, scoreBadge, questionHead } from '../ui.js';
 import { loadGuide } from '../api.js';
 import {
-  SCALE,
+  AB_SCALE,
+  abValue,
   IMPORTANCE,
   BASIS_WEIGHT,
   BASIS_LABEL,
@@ -84,7 +85,9 @@ function downloadCsv(rows) {
     'party',
     'question_id',
     'question',
-    'score',
+    'side_a',
+    'side_b',
+    'score_a_to_b',
     'position',
     'evidence',
     'evidence_weight',
@@ -99,9 +102,11 @@ function downloadCsv(rows) {
       r.candidate.name,
       r.candidate.party,
       r.question.id,
-      r.question.statement,
-      r.stance.position,
-      positionLabel(r.stance.position),
+      r.question.prompt,
+      r.question.a,
+      r.question.b,
+      abValue(r.stance.position, r.question),
+      positionLabel(r.stance.position, r.question),
       BASIS_LABEL[r.stance.basis] || r.stance.basis,
       BASIS_WEIGHT[r.stance.basis] ?? '',
       r.counts ? 'yes' : 'no',
@@ -130,7 +135,7 @@ function workedExample(guide) {
     { q: q('q_school_funding'), answer: 2, weight: 2, position: 1, basis: 'record' },
     { q: q('q_vouchers'), answer: -1, weight: 1, position: 2, basis: 'statement' },
     { q: q('q_water'), answer: 1, weight: 0.5, position: 1, basis: 'reported' },
-  ];
+  ].map((e) => ({ ...e, ans: abValue(e.answer, e.q), pos: abValue(e.position, e.q) }));
   const answers = {};
   const stances = {};
   let num = 0;
@@ -145,11 +150,11 @@ function workedExample(guide) {
       den += w;
       return `<tr>
         <td data-label="Question">${esc(e.q.short)}</td>
-        <td data-label="Your answer">${esc(positionLabel(e.answer))} (${formatScore(e.answer)})</td>
+        <td data-label="Your answer">${esc(positionLabel(e.answer, e.q))} (${formatScore(e.ans)})</td>
         <td data-label="Importance">${esc(IMPORTANCE.find((i) => i.value === e.weight).label)} (${e.weight})</td>
-        <td data-label="Candidate position">${esc(positionLabel(e.position))} (${formatScore(e.position)})</td>
+        <td data-label="Candidate position">${esc(positionLabel(e.position, e.q))} (${formatScore(e.pos)})</td>
         <td data-label="Evidence">${esc(BASIS_LABEL[e.basis])} (${BASIS_WEIGHT[e.basis]})</td>
-        <td data-label="Agreement" class="num">1 - |${formatScore(e.answer)} - ${formatScore(e.position)}| / 4 = ${fixed(agreement)}</td>
+        <td data-label="Agreement" class="num">1 - |${formatScore(e.ans)} - ${formatScore(e.pos)}| / 4 = ${fixed(agreement)}</td>
         <td data-label="Weight" class="num">${e.weight} x ${BASIS_WEIGHT[e.basis]} = ${fixed(w)}</td>
         <td data-label="Weighted agreement" class="num">${fixed(w * agreement)}</td>
       </tr>`;
@@ -211,7 +216,7 @@ export async function renderScoring(view, _params, current) {
     const st = p.stances[q.id];
     if (!st) return `<td data-label="${esc(p.short)}"><span class="pos-none">Not addressed</span></td>`;
     const srcs = st.sources.map((id) => p.sources.find((x) => x.id === id)).filter(Boolean);
-    return `<td data-label="${esc(p.short)}"><span class="score-badge">Score ${formatScore(st.position)}</span><span class="small">${esc(
+    return `<td data-label="${esc(p.short)}"><span class="pos">${scoreBadge(st.position, q)}${esc(positionLabel(st.position, q))}</span><span class="small">${esc(
       st.summary
     )}</span><span class="cites">Source: ${sourceLinks(srcs).replace(/<br>/g, ', ')}</span></td>`;
   };
@@ -223,7 +228,7 @@ export async function renderScoring(view, _params, current) {
         ${qs
           .map(
             (q) =>
-              `<tr id="party-q-${esc(q.id)}"><th scope="row">${esc(q.short)}</th>${guide.parties.map((p) => partyCell(p, q)).join('')}</tr>`
+              `<tr id="party-q-${esc(q.id)}"><th scope="row">${questionHead(q)}</th>${guide.parties.map((p) => partyCell(p, q)).join('')}</tr>`
           )
           .join('')}</tbody>`;
     })
@@ -231,17 +236,18 @@ export async function renderScoring(view, _params, current) {
 
   const howBody = `
     <ol class="steps">
-      <li><div><b>Every candidate position gets a score from -2 to +2.</b> Researchers read the candidate's votes, statements, questionnaire answers, and news coverage, and record how strongly the candidate agrees with each quiz statement. Every score links to its source. If nothing is documented, there is no score, and we never fill one in from a party label.</div></li>
-      <li><div><b>Your answers use the same scale.</b> Strongly agree is +2 and Strongly disagree is -2. You also rate how important each issue is to you. Skipped questions are left out.</div></li>
+      <li><div><b>Every question offers two views, A and B.</b> Each is worded the way its own supporters would put it, and neither is presented as the right answer.</div></li>
+      <li><div><b>Every candidate position gets a place on a five-step scale from A to B.</b> Researchers read the candidate's votes, statements, questionnaire answers, and news coverage, and record which view the candidate leans toward and how strongly. Every position links to its source. If nothing is documented, there is no position, and we never fill one in from a party label.</div></li>
+      <li><div><b>Your answers use the same scale.</b> Strongly A counts as -2, Lean A as -1, In between as 0, Lean B as +1, and Strongly B as +2. You also rate how important each issue is to you. Skipped questions are left out.</div></li>
       <li><div><b>Each question you share with a candidate produces an agreement value from 0 to 1.</b> Identical positions give 1. Opposite extremes give 0. Each step apart on the scale lowers agreement by one quarter.</div></li>
       <li><div><b>Agreement values are averaged with weights.</b> Questions you marked important count more, and positions backed by stronger evidence count more. A neutral 50 percent starting point keeps a candidate with very few documented positions from showing an extreme score.</div></li>
       <li><div><b>Only questions tied to the office count for each race.</b> A Railroad Commission race uses energy and land questions; a county race uses county budget questions. Every candidate in a race is measured on the same set of questions.</div></li>
     </ol>
     <h3>The scales and weights</h3>
     <div class="scale-tables">
-      <table class="ballot"><caption>Position score (answers and candidates)</caption>
+      <table class="ballot"><caption>Position on the A to B scale (answers and candidates)</caption>
         <thead><tr><th>Meaning</th><th class="num">Score</th></tr></thead>
-        <tbody>${SCALE.map((x) => `<tr><td>${esc(x.label)}</td><td class="num">${formatScore(x.value)}</td></tr>`).join('')}</tbody></table>
+        <tbody>${AB_SCALE.map((x) => `<tr><td>${esc(x.label)}</td><td class="num">${formatScore(x.value)}</td></tr>`).join('')}</tbody></table>
       <table class="ballot"><caption>How important the issue is to you</caption>
         <thead><tr><th>Your rating</th><th class="num">Weight</th></tr></thead>
         <tbody>${IMPORTANCE.map((i) => `<tr><td>${esc(i.label)}</td><td class="num">${i.value}</td></tr>`).join('')}</tbody></table>
@@ -260,7 +266,7 @@ export async function renderScoring(view, _params, current) {
     <p>Suppose you answer three questions and a candidate has documented positions on all three:</p>
     ${workedExample(guide)}
     <h3>Check every score yourself</h3>
-    <p>Each candidate's profile lists every documented position with its score, evidence type, and a link to the exact source. To review all of them at once, download the full score sheet: every candidate, question, score, evidence type, and source link (${sheetRows(guide).length} rows).</p>
+    <p>Each candidate's profile lists every documented position with where it sits from A to B, its evidence type, and a link to the exact source. To review all of them at once, download the full score sheet: every candidate, question, score, evidence type, and source link (${sheetRows(guide).length} rows).</p>
     <p><button class="btn btn-ghost btn-small" id="csv" type="button">Download the full score sheet (CSV)</button></p>`;
 
   const partyTools = `<div class="fold-tools" role="navigation" aria-label="Jump to an issue">

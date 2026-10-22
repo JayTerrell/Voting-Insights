@@ -267,11 +267,11 @@ function draw(view, guide, data, isNew) {
   const answersBlock =
     owner && data.answers
       ? `<details class="panel" style="margin-top:28px"><summary><b>Your answers</b> (visible only to you)</summary>
-        <table class="ballot" style="margin-top:14px"><thead><tr><th>Statement</th><th>Your answer</th><th>Importance</th></tr></thead><tbody>
+        <table class="ballot" style="margin-top:14px"><thead><tr><th>Question</th><th>Your answer</th><th>Importance</th></tr></thead><tbody>
         ${guide.questions
           .map((q) => {
             const a = data.answers[q.id];
-            return `<tr><td>${esc(q.statement)}</td><td>${a ? esc(positionLabel(a.value)) : '<span class="muted">Skipped</span>'}</td><td>${
+            return `<tr><td>${esc(q.prompt)}</td><td>${a ? esc(positionLabel(a.value, q)) : '<span class="muted">Skipped</span>'}</td><td>${
               a ? esc(IMPORTANCE.find((i) => i.value === a.weight)?.label || '') : ''
             }</td></tr>`;
           })

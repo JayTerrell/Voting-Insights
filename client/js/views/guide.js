@@ -6,6 +6,7 @@ import {
   cites,
   sourceList,
   scoreBadge,
+  questionHead,
   GROUPS,
   raceTitle,
   countyPicker,
@@ -112,10 +113,10 @@ function list(items, cand, prefix, empty) {
   return `<ul>${items.map((it) => `<li>${esc(it.text)}${cites(it.sources, cand, prefix)}</li>`).join('')}</ul>`;
 }
 
-function stanceCell(c, qid, prefix) {
-  const s = c.stances[qid];
+function stanceCell(c, q, prefix) {
+  const s = c.stances[q.id];
   if (!s) return '<span class="pos pos-none">No documented position</span>';
-  return `<span class="pos">${scoreBadge(s.position)}${esc(positionLabel(s.position))}</span>${esc(s.summary)}${cites(s.sources, c, prefix)}
+  return `<span class="pos">${scoreBadge(s.position, q)}${esc(positionLabel(s.position, q))}</span>${esc(s.summary)}${cites(s.sources, c, prefix)}
     <span class="basis">${esc(BASIS_LABEL[s.basis] || s.basis)}</span>`;
 }
 
@@ -199,8 +200,8 @@ export async function renderRace(view, [raceId], current) {
     qsList
       .map(
         (q) =>
-          `<tr><th scope="row"><span class="cat">${esc(q.category)}</span>${esc(q.statement)}</th>${cands
-            .map((c) => `<td data-label="${esc(c.name)}">${stanceCell(c, q.id, prefix(c))}</td>`)
+          `<tr><th scope="row">${questionHead(q)}</th>${cands
+            .map((c) => `<td data-label="${esc(c.name)}">${stanceCell(c, q, prefix(c))}</td>`)
             .join('')}</tr>`
       )
       .join('');
@@ -272,7 +273,7 @@ export async function renderRace(view, [raceId], current) {
               .join(' &middot; ')} documented. <a href="/scoring">How scores work</a></span>`
           )}
       <div class="table-scroll"><table class="stance-table stack">
-        <thead><tr><th>Statement</th>${cands.map((c) => `<th>${esc(c.name)}<br>${partyTag(c.party)}</th>`).join('')}</tr></thead>
+        <thead><tr><th>Question</th>${cands.map((c) => `<th>${esc(c.name)}<br>${partyTag(c.party)}</th>`).join('')}</tr></thead>
         <tbody>${stanceRows(officeQs)}${
           extraQs.length
             ? `<tr><th colspan="${cands.length + 1}" style="background:var(--paper)"><b>Other questions these candidates addressed</b></th></tr>${stanceRows(extraQs)}`
@@ -306,7 +307,7 @@ export async function renderRace(view, [raceId], current) {
         .map((c) => `<div class="panel sources"><h3 style="font-size:1rem">${esc(c.name)}</h3>${sourceList(c, prefix(c))}</div>`)
         .join('')}</div>
     </details>
-    <p class="small muted" style="margin-top:16px">Position labels describe agreement with each statement as written. "No documented position" means we did not find a public vote, statement, questionnaire answer, or credible report. It does not mean the candidate has no view.</p>
+    <p class="small muted" style="margin-top:16px">Each question offers two views, A and B, and each position shows which one the candidate leans toward and how strongly. "No documented position" means we did not find a public vote, statement, questionnaire answer, or credible report. It does not mean the candidate has no view.</p>
   </div>`;
 
   const root = view.querySelector('.race-page');
@@ -426,11 +427,8 @@ export async function renderCandidate(view, [id], current) {
     <div class="section-head"><h2>Documented positions</h2><span class="small muted">${stances.length} of ${guide.questions.length} quiz questions. <a href="/scoring">How scores work</a></span></div>
     ${
       stances.length
-        ? `<div class="table-scroll"><table class="stance-table"><thead><tr><th>Statement</th><th>Position</th></tr></thead><tbody>${stances
-            .map(
-              (q) =>
-                `<tr><th scope="row"><span class="cat">${esc(q.category)}</span>${esc(q.statement)}</th><td>${stanceCell(c, q.id, prefix)}</td></tr>`
-            )
+        ? `<div class="table-scroll"><table class="stance-table"><thead><tr><th>Question</th><th>Position</th></tr></thead><tbody>${stances
+            .map((q) => `<tr><th scope="row">${questionHead(q)}</th><td>${stanceCell(c, q, prefix)}</td></tr>`)
             .join('')}</tbody></table></div>`
         : '<p class="muted">We did not find documented positions on the quiz questions for this candidate.</p>'
     }

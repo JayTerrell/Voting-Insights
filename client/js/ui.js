@@ -1,6 +1,7 @@
 // Small DOM and formatting helpers shared by every view.
 
 import { plan } from './api.js';
+import { positionLabel, scaleStep } from './shared/scoring.js';
 
 export const esc = (s) =>
   String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
@@ -76,8 +77,24 @@ export function cites(ids, cand) {
 // Shows a position on the -2 to +2 scale with its sign, for example "+2".
 export const formatScore = (n) => (n > 0 ? `+${n}` : String(n));
 
-export function scoreBadge(position) {
-  return `<span class="score-badge" title="Position score on a scale from -2 (strongly disagree) to +2 (strongly agree)">Score ${esc(formatScore(position))}</span>`;
+// A five-step marker from side A to side B showing where a position sits.
+// The words next to it say the same thing, so screen readers skip it.
+export function scoreBadge(position, q) {
+  const step = scaleStep(position, q);
+  return `<span class="lean" title="${esc(positionLabel(position, q))}" aria-hidden="true"><b>A</b>${[0, 1, 2, 3, 4]
+    .map((i) => `<i class="${i === step ? 'on' : ''}"></i>`)
+    .join('')}<b>B</b></span>`;
+}
+
+// The two views on a question, side by side.
+export function sidesBlock(q) {
+  return `<div class="ab"><div class="ab-side"><b>A</b><p>${esc(q.a)}</p></div><div class="ab-side"><b>B</b><p>${esc(q.b)}</p></div></div>`;
+}
+
+// A question as a table heading: its topic, the question, and both sides.
+export function questionHead(q) {
+  return `<span class="cat">${esc(q.category)}</span><span class="q-prompt">${esc(q.prompt)}</span>
+    <span class="q-sides"><span><b>A</b> ${esc(q.a_short)}</span><span><b>B</b> ${esc(q.b_short)}</span></span>`;
 }
 
 export function sourceList(cand) {

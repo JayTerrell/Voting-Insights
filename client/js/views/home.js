@@ -65,7 +65,7 @@ export async function renderHome(view, _params, current) {
     <div class="section-head"><h2 id="how-h">How the quiz works</h2><a href="/methodology">Full methodology</a></div>
     <ol class="steps">
       <li><div><b>Create a free account.</b> Your name, email, county, and age range let us save your results privately so you can return to them, and let us email you a copy. Browsing candidates never requires an account, and we never sell your information.</div></li>
-      <li><div><b>Answer each statement and say how much it matters to you.</b> Every question includes a short, balanced background note. Questions marked as more important count more in your results.</div></li>
+      <li><div><b>For each question, choose between two views and say how much it matters to you.</b> Every question includes a short, balanced background note. Questions marked as more important count more in your results.</div></li>
       <li><div><b>We compare your answers with documented positions only.</b> A candidate is scored only on questions where we found a vote, statement, questionnaire answer, or credible report. We never assume a position from a party label.</div></li>
       <li><div><b>Review your matches and read the evidence.</b> Results show a percentage for every candidate in every race and your alignment with each party's official platform. Each position links to its source.</div></li>
     </ol>

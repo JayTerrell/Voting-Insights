@@ -39,10 +39,10 @@ export async function renderMethodology(view, _p, current) {
     <p>Research was compiled in two passes and then independently checked. On October 14, 2026, a reviewer drew a random sample of 50 documented positions across every level of the ballot and every party, opened each cited source, and checked both the summary and the score. 47 were fully supported, 3 needed small corrections (wording or a one-step score change), and none were unsupported. The corrections are reflected in the guide. Court rulings are cited to the court's own opinions. Sources from sites that label their articles as AI-generated are not accepted. Every score and its source is listed on the <a href="/scoring">Scoring Logic</a> page so anyone can check the work.</p>
 
     <h2>The questions</h2>
-    <p>The ${guide.questions.length} quiz statements were written before reading any candidate's platform, so no campaign set the agenda. Each one is tied to the offices that actually have power over that issue. Agreeing with a statement points toward one side on some questions and the other side on others, and each statement includes a short note with the main argument on each side.</p>
+    <p>The ${guide.questions.length} quiz questions were written before reading any candidate's platform, so no campaign set the agenda. Each question offers two views, A and B, each worded the way its own supporters would put it, and you choose where you fall between them. Questions ask about priorities and tradeoffs rather than slogans or the latest headlines. Which side is A or B varies from question to question, each one includes a short note with the main argument for each view, and each is tied to the offices that actually have power over that issue.</p>
 
     <h2>How a match is calculated</h2>
-    <p>Answers and candidate positions use the same five-point scale, from Strongly disagree (-2) to Strongly agree (+2). For each question where both you and a candidate have a position:</p>
+    <p>Answers and candidate positions use the same five-point scale, from Strongly A (-2) through In between (0) to Strongly B (+2). For each question where both you and a candidate have a position:</p>
     <p class="formula">agreement = 1 - |your answer - candidate position| / 4</p>
     <p>So identical answers score 1, and opposite extremes score 0. Each question is then weighted by how important you said it is, and by the kind of evidence behind the candidate's position:</p>
     <table class="ballot"><thead><tr><th>Your importance rating</th><th class="num">Weight</th></tr></thead><tbody>

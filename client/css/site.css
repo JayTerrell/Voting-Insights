@@ -5204,3 +5204,98 @@ textarea {
 .ov-note {
   margin: 0 0 10px;
 }
+
+/* Two-view questions: side A and side B, styled the same so neither looks favored */
+.ab {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin: 14px 0 6px;
+}
+@media (max-width: 639px) {
+  .ab {
+    grid-template-columns: 1fr;
+  }
+}
+.ab-side {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  padding: 14px 16px;
+  background: var(--card);
+  border: 1px solid var(--rule);
+}
+.ab-side b,
+.q-sides b,
+.lean b {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--sans);
+  font-weight: 800;
+  color: var(--card);
+  background: var(--navy);
+}
+.ab-side b {
+  width: 30px;
+  height: 30px;
+  font-size: 0.95rem;
+}
+.ab-side p {
+  margin: 0;
+  font-size: 1.02rem;
+  line-height: 1.45;
+}
+.ab-ask {
+  margin: 16px 0 8px;
+  font-weight: 600;
+  color: var(--navy);
+}
+.ab-scale + details.context {
+  margin-top: 14px;
+}
+
+/* A question as a table heading */
+.q-prompt {
+  display: block;
+}
+.q-sides {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 14px;
+  margin-top: 6px;
+  font-family: var(--sans);
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--muted);
+}
+.q-sides b {
+  width: 16px;
+  height: 16px;
+  font-size: 0.66rem;
+  margin-right: 4px;
+}
+
+/* Where a position sits from A to B */
+.lean {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  margin-right: 8px;
+  vertical-align: -2px;
+}
+.lean b {
+  width: 14px;
+  height: 14px;
+  font-size: 0.6rem;
+}
+.lean i {
+  width: 10px;
+  height: 10px;
+  border: 1px solid var(--navy);
+  background: var(--card);
+}
+.lean i.on {
+  background: var(--navy);
+}

@@ -1,9 +1,9 @@
 // The Parties: what each party on Texas ballots says it stands for, in the same
 // structure for every party. Overview and values come from each party's own
-// platform (data/party-profiles.json); positions on the quiz statements come
+// platform (data/party-profiles.json); positions on the quiz questions come
 // from the guide, with sources.
 
-import { esc, setTitle, PARTY_CLASS } from '../ui.js';
+import { esc, setTitle, PARTY_CLASS, scoreBadge } from '../ui.js';
 import { loadGuide } from '../api.js';
 import { positionLabel } from '../shared/scoring.js';
 import { ISSUE_AREAS } from '../shared/issue-offices.js';
@@ -101,14 +101,14 @@ function partySection(p, prof, guide) {
       const stances = byArea.get(area);
       if (!text && !stances.length) return '';
       return `<details class="party-area">
-        <summary><span>${esc(area)}</span>${stances.length ? `<span class="small muted">${stances.length} quiz ${stances.length === 1 ? 'statement' : 'statements'}</span>` : ''}</summary>
+        <summary><span>${esc(area)}</span>${stances.length ? `<span class="small muted">${stances.length} quiz ${stances.length === 1 ? 'question' : 'questions'}</span>` : ''}</summary>
         ${text ? `<p>${esc(text)}</p>` : ''}
         ${
           stances.length
             ? `<ul class="party-stances">${stances
                 .map(
-                  ({ q, st }) => `<li><p class="stance-q">${esc(q.statement)}</p>
-                  <p><span class="pos">${esc(positionLabel(st.position))}</span> ${esc(st.summary || '')} ${src(st.sources) ? `<span class="small muted">Source: ${src(st.sources)}</span>` : ''}</p></li>`
+                  ({ q, st }) => `<li><p class="stance-q">${esc(q.prompt)}</p>
+                  <p><span class="pos">${scoreBadge(st.position, q)}${esc(positionLabel(st.position, q))}</span> ${esc(st.summary || '')} ${src(st.sources) ? `<span class="small muted">Source: ${src(st.sources)}</span>` : ''}</p></li>`
                 )
                 .join('')}</ul>`
             : ''

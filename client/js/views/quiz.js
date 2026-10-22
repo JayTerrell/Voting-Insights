@@ -1,7 +1,7 @@
-import { $, $$, esc, setTitle, skeleton, countyLabel } from '../ui.js';
+import { $, $$, esc, setTitle, skeleton, countyLabel, sidesBlock } from '../ui.js';
 import { api, loadGuide, loadFormOptions, session, progress, resultCache, ballotCounty, track } from '../api.js';
 import { signUpForm, bindSignUp, signInForm, bindSignIn } from './account.js';
-import { SCALE, IMPORTANCE } from '../shared/scoring.js';
+import { choices, IMPORTANCE } from '../shared/scoring.js';
 import { navigate } from '../app.js';
 
 const OFFICE_LABEL = {
@@ -56,7 +56,7 @@ function renderStart(view, guide) {
   <div class="quiz-shell">
     <span class="eyebrow">Issue Alignment Quiz</span>
     <h1>${esc(u.first_name ? `Ready when you are, ${u.first_name}` : 'Ready when you are')}</h1>
-    <p class="lede">Answer each statement and say how much it matters to you. We compare your answers with the documented positions of every candidate on the ${esc(countyLabel(county))} ballot and with each party's official platform.</p>
+    <p class="lede">For each question, choose which of two views is closer to yours and say how much it matters to you. We compare your answers with the documented positions of every candidate on the ${esc(countyLabel(county))} ballot and with each party's official platform.</p>
     <div class="panel">
       <p style="margin-top:0">Your results are saved to your account (${esc(u.email || '')}) and a copy is emailed to you. Voting somewhere else? <a href="/settings">Change your county</a> first.</p>
       <div class="btn-row"><button class="btn btn-red" id="begin">Begin the quiz</button>
@@ -97,14 +97,18 @@ function runQuestions(view, guide, state) {
       <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${pct}" aria-label="Quiz progress"><span style="width:${pct}%"></span></div>
       <form id="qform">
         <fieldset>
-          <legend class="q-statement">${esc(q.statement)}</legend>
-          <details class="context"><summary>Background on this issue</summary><p>${esc(q.context)}</p></details>
-          <div class="scale">
-            ${SCALE.map(
-              (s) =>
-                `<label><input type="radio" name="pos" value="${s.value}" ${a.value === s.value ? 'checked' : ''}><span>${esc(s.label)}</span></label>`
-            ).join('')}
+          <legend class="q-statement">${esc(q.prompt)}</legend>
+          ${sidesBlock(q)}
+          <p class="ab-ask">Which view is closer to yours?</p>
+          <div class="scale ab-scale">
+            ${choices(q)
+              .map(
+                (s) =>
+                  `<label class="${s.side ? `side-${s.side}` : 'side-mid'}"><input type="radio" name="pos" value="${s.value}" ${a.value === s.value ? 'checked' : ''}><span>${esc(s.label)}</span></label>`
+              )
+              .join('')}
           </div>
+          <details class="context"><summary>Background on this issue</summary><p>${esc(q.context)}</p></details>
         </fieldset>
         <fieldset class="importance">
           <legend>How important is this issue to you?</legend>
@@ -170,7 +174,7 @@ function runQuestions(view, guide, state) {
       ${
         skipped.length
           ? `<div class="panel"><h2 class="h4" style="font-size:1.1rem">Skipped questions</h2><ul>${skipped
-              .map((q) => `<li><button class="linkish" data-goto="${qs.indexOf(q)}">${esc(q.statement)}</button></li>`)
+              .map((q) => `<li><button class="linkish" data-goto="${qs.indexOf(q)}">${esc(q.prompt)}</button></li>`)
               .join('')}</ul></div>`
           : ''
       }

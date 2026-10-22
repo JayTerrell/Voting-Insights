@@ -1,6 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { compare, scoreAll, PRIOR_WEIGHT } from '../shared/scoring.js';
+import { readFileSync } from 'node:fs';
+import { compare, scoreAll, PRIOR_WEIGHT, choices, positionLabel, abValue, sideValue, scaleStep } from '../shared/scoring.js';
 
 test('identical answers approach 100 and opposite answers approach 0', () => {
   const answers = {},
@@ -93,4 +94,24 @@ test('county ballots select races, and other counties fall back to statewide rac
     ['gov']
   );
   assert.equal(other.full_ballot, false);
+});
+
+test('every question offers two views and maps them onto the stored scale', () => {
+  const questions = JSON.parse(readFileSync(new URL('../data/questions.json', import.meta.url), 'utf8'));
+  for (const q of questions) {
+    for (const k of ['prompt', 'a', 'b', 'a_short', 'b_short', 'context']) assert.ok(q[k]?.trim(), `${q.id} needs ${k}`);
+    assert.ok(['a', 'b'].includes(q.agree), `${q.id} agree names a side`);
+    assert.doesNotMatch(JSON.stringify(q), /[–—]/, `${q.id} has no dashes`);
+    const values = choices(q).map((c) => c.value);
+    assert.deepEqual([...values].sort(), [-1, -2, 0, 1, 2], `${q.id} offers all five values`);
+    // The strong end of the side named by agree is +2, and the labels say so.
+    assert.equal(choices(q).find((c) => c.label === `Strongly ${q.agree.toUpperCase()}`).value, 2);
+    assert.match(positionLabel(2, q), new RegExp(`^Strongly ${q.agree.toUpperCase()}: `));
+    assert.equal(positionLabel(0, q), 'In between or mixed');
+    // On the explanation scale, A is always negative and B positive.
+    assert.equal(abValue(sideValue(q, 'a', 2), q), -2);
+    assert.equal(abValue(sideValue(q, 'b', 1), q), 1);
+    assert.equal(scaleStep(sideValue(q, 'a', 2), q), 0);
+    assert.equal(scaleStep(sideValue(q, 'b', 2), q), 4);
+  }
 });

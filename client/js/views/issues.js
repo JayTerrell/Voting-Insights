@@ -1,4 +1,4 @@
-import { $, esc, setTitle, partyTag, cites, scoreBadge, GROUPS, raceTitle, countyPicker, ballotNote } from '../ui.js';
+import { $, esc, setTitle, partyTag, cites, scoreBadge, sidesBlock, GROUPS, raceTitle, countyPicker, ballotNote } from '../ui.js';
 import { loadGuide, loadFormOptions, ballotCounty } from '../api.js';
 import { positionLabel, BASIS_LABEL, racesForCounty } from '../shared/scoring.js';
 
@@ -54,9 +54,7 @@ export async function renderIssues(view, _params, current) {
               (cat) =>
                 `<optgroup label="${esc(cat)}">${guide.questions
                   .filter((q) => q.category === cat)
-                  .map(
-                    (q) => `<option value="q:${q.id}" ${selected === 'q:' + q.id ? 'selected' : ''}>${esc(q.statement)}</option>`
-                  )
+                  .map((q) => `<option value="q:${q.id}" ${selected === 'q:' + q.id ? 'selected' : ''}>${esc(q.short)}</option>`)
                   .join('')}</optgroup>`
             )
             .join('')}
@@ -96,7 +94,7 @@ export async function renderIssues(view, _params, current) {
         const src = s ? s.sources.map((id) => p.sources.find((x) => x.id === id)).filter(Boolean) : [];
         return `<tr><td>${esc(p.short)}</td><td>${
           s
-            ? `<span class="pos">${scoreBadge(s.position)}${esc(positionLabel(s.position))}</span>${esc(s.summary)} ${src
+            ? `<span class="pos">${scoreBadge(s.position, q)}${esc(positionLabel(s.position, q))}</span>${esc(s.summary)} ${src
                 .map((x) => `<a class="small" href="${esc(x.url)}" target="_blank" rel="noopener">[source]</a>`)
                 .join(' ')}`
             : '<span class="pos-none">Platform does not address this</span>'
@@ -118,7 +116,7 @@ export async function renderIssues(view, _params, current) {
               const s = c.stances[qid];
               return `<div class="hit"><div><a href="/candidate/${esc(c.id)}"><b>${esc(c.name)}</b></a><br>${partyTag(c.party)}</div><div>${
                 s
-                  ? `<span class="pos">${scoreBadge(s.position)}${esc(positionLabel(s.position))}</span>${esc(s.summary)}${cites(s.sources, c, 'src-' + c.id)}<span class="basis">${esc(BASIS_LABEL[s.basis] || s.basis)}</span>`
+                  ? `<span class="pos">${scoreBadge(s.position, q)}${esc(positionLabel(s.position, q))}</span>${esc(s.summary)}${cites(s.sources, c, 'src-' + c.id)}<span class="basis">${esc(BASIS_LABEL[s.basis] || s.basis)}</span>`
                   : '<span class="pos-none">No documented position</span>'
               }</div></div>`;
             })
@@ -131,8 +129,9 @@ export async function renderIssues(view, _params, current) {
     out.innerHTML = `
       <div class="panel">
         <span class="eyebrow">${esc(q.category)}</span>
-        <h2 style="margin-bottom:8px">${esc(q.statement)}</h2>
-        <p style="margin:0">${esc(q.context)}</p>
+        <h2 style="margin-bottom:8px">${esc(q.prompt)}</h2>
+        ${sidesBlock(q)}
+        <p style="margin:12px 0 0">${esc(q.context)}</p>
       </div>
       <div class="section-head"><h2>What the party platforms say</h2></div>
       <table class="ballot"><tbody>${partyRows}</tbody></table>
@@ -166,7 +165,7 @@ export async function renderIssues(view, _params, current) {
   function drawSearch(t) {
     const needle = t.toLowerCase();
     const matchingQs = guide.questions.filter((q) =>
-      (q.statement + ' ' + q.context + ' ' + q.category).toLowerCase().includes(needle)
+      [q.prompt, q.a, q.b, q.context, q.category].join(' ').toLowerCase().includes(needle)
     );
     const results = [];
     for (const r of onBallot())
@@ -184,10 +183,10 @@ export async function renderIssues(view, _params, current) {
         c.issue_notes.forEach((i) => consider(i.topic, i.topic + ': ' + i.summary, i.sources));
         for (const [qid, s] of Object.entries(c.stances)) {
           const q = guide.questionIndex[qid];
-          if ((s.summary + ' ' + q.statement).toLowerCase().includes(needle)) {
+          if ((s.summary + ' ' + q.prompt).toLowerCase().includes(needle)) {
             found.push({
-              label: `${q.category}: ${positionLabel(s.position)}`,
-              text: s.summary || q.statement,
+              label: `${q.category}: ${positionLabel(s.position, q)}`,
+              text: s.summary || q.prompt,
               sources: s.sources,
             });
           }
@@ -199,7 +198,7 @@ export async function renderIssues(view, _params, current) {
       ${
         matchingQs.length
           ? `<div class="callout" style="margin-bottom:16px">Related quiz questions: ${matchingQs
-              .map((q) => `<button class="linkish" data-q="${q.id}">${esc(q.statement)}</button>`)
+              .map((q) => `<button class="linkish" data-q="${q.id}">${esc(q.short)}</button>`)
               .join('; ')}</div>`
           : ''
       }
@@ -247,7 +246,7 @@ export async function renderIssues(view, _params, current) {
       ${guide.questions
         .map((q) => {
           const n = onBallot().reduce((acc, r) => acc + r.candidates.filter((c) => c.stances[q.id]).length, 0);
-          return `<tr><td><span class="small muted">${esc(q.category)}</span><br><button class="linkish" data-q="${q.id}" style="text-align:left">${esc(q.statement)}</button></td><td class="num">${n}</td></tr>`;
+          return `<tr><td><span class="small muted">${esc(q.category)}</span><br><button class="linkish" data-q="${q.id}" style="text-align:left">${esc(q.prompt)}</button></td><td class="num">${n}</td></tr>`;
         })
         .join('')}</tbody></table>`;
     out.querySelectorAll('[data-q]').forEach((b) =>
