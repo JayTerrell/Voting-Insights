@@ -118,7 +118,7 @@ export async function renderBallot(view, _params, current) {
   view.innerHTML = `<div id="mb-root">
     <span class="eyebrow">My Ballot</span>
     <h1>Your mock ballot</h1>
-    <p class="lede">Fill in an oval to pick a candidate, in the order the races appear on the official ballot. Star an office to add it to your watchlist while you decide. Then print your picks to take with you: Texas law does not allow phones or other wireless devices to be used within 100 feet of voting stations.</p>
+    <p class="lede">Fill in an oval to pick a candidate, in the order the races appear on the official ballot. Star an office to add it to your watchlist while you decide. Then print your picks to take with you: you may bring printed notes into the voting booth, but Texas law does not allow phones to be used in the room where voting takes place, or anything that records photos, video, or sound within 100 feet of a voting station.</p>
     ${
       isGuest()
         ? `<div class="panel guest-gate"><h2>You are viewing a read-only ballot</h2>
@@ -427,7 +427,7 @@ export async function renderBallotPrint(view, _params, current) {
           ? `<table class="ballot print-table"><thead><tr><th>Office</th><th>My pick</th></tr></thead><tbody>${rows}</tbody></table>`
           : '<p>You have not picked any candidates or watched any offices yet. Go back to My Ballot to start.</p>'
       }
-      <p class="small print-foot">Personal notes for use while voting. This list was made by the voter and is not an endorsement by VotersHub. Your actual ballot depends on your address, so some districts listed here may not appear on yours. Phones and other wireless devices may not be used within 100 feet of voting stations in Texas. Early voting runs October 19 to October 30. Election Day is Tuesday, November 3, 7 a.m. to 7 p.m.</p>
+      <p class="small print-foot">Personal notes for use while voting. This list was made by the voter and is not an endorsement by VotersHub. Your actual ballot depends on your address, so some districts listed here may not appear on yours. Texas voters may bring printed notes or a paper sample ballot to the voting booth. Phones may not be used in the room where voting takes place, and devices that record photos, video, or sound may not be used within 100 feet of a voting station. Keep this list to yourself at the polls: showing it to others can count as electioneering. Early voting runs October 19 to October 30. Election Day is Tuesday, November 3, 7 a.m. to 7 p.m.</p>
     </div>`;
   $('#do-print', view).addEventListener('click', () => {
     track('print_ballot');
