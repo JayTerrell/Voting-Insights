@@ -151,6 +151,25 @@ export function topIssues(answers, guide, n = 3) {
     .map((x) => x.name);
 }
 
+// One race: each candidate's match on the questions tied to the office, the
+// closest match, and whether the top two are within 3 points of each other.
+export function scoreRace(answers, guide, race) {
+  const qids = guide.questions.filter((q) => q.offices.includes(race.office_type)).map((q) => q.id);
+  const candidates = race.candidates.map((c) => {
+    const r = compare(answers, c.stances, qids);
+    return { id: c.id, name: c.name, party: c.party, score: r.score, overlap: r.overlap, limited: r.limited };
+  });
+  const scored = candidates.filter((c) => c.score !== null);
+  let top = null;
+  let tie = false;
+  if (race.candidates.length > 1 && scored.length) {
+    const sorted = [...scored].sort((a, b) => b.score - a.score || b.overlap - a.overlap);
+    top = sorted[0].id;
+    tie = sorted.length > 1 && sorted[0].score - sorted[1].score < 3;
+  }
+  return { qids, candidates, top, tie };
+}
+
 // Builds the full result object from answers and the guide dataset.
 export function scoreAll(answers, guide, county) {
   const answered = Object.keys(answers).filter((q) => validAnswer(answers[q]));
@@ -161,19 +180,7 @@ export function scoreAll(answers, guide, county) {
   });
 
   const races = racesForCounty(guide, county).map((race) => {
-    const qids = guide.questions.filter((q) => q.offices.includes(race.office_type)).map((q) => q.id);
-    const candidates = race.candidates.map((c) => {
-      const r = compare(answers, c.stances, qids);
-      return { id: c.id, name: c.name, party: c.party, score: r.score, overlap: r.overlap, limited: r.limited };
-    });
-    const scored = candidates.filter((c) => c.score !== null);
-    let top = null;
-    let tie = false;
-    if (race.candidates.length > 1 && scored.length) {
-      const sorted = [...scored].sort((a, b) => b.score - a.score || b.overlap - a.overlap);
-      top = sorted[0].id;
-      tie = sorted.length > 1 && sorted[0].score - sorted[1].score < 3;
-    }
+    const { qids, candidates, top, tie } = scoreRace(answers, guide, race);
     return {
       id: race.id,
       title: race.title,

@@ -19,6 +19,9 @@ import {
 } from '../ui.js';
 import { loadGuide, loadFormOptions, ballotCounty } from '../api.js';
 import { positionLabel, BASIS_LABEL, racesForCounty } from '../shared/scoring.js';
+import { myAnswers, raceMatch } from '../my-matches.js';
+
+const answered = (a) => a && typeof a.value === 'number';
 
 // ---------- Race list ----------
 
@@ -113,10 +116,10 @@ function list(items, cand, prefix, empty) {
   return `<ul>${items.map((it) => `<li>${esc(it.text)}${cites(it.sources, cand, prefix)}</li>`).join('')}</ul>`;
 }
 
-function stanceCell(c, q, prefix) {
+function stanceCell(c, q, prefix, closest = false) {
   const s = c.stances[q.id];
   if (!s) return '<span class="pos pos-none">No documented position</span>';
-  return `<span class="pos">${scoreBadge(s.position, q)}${esc(positionLabel(s.position, q))}</span>${esc(s.summary)}${cites(s.sources, c, prefix)}
+  return `${closest ? '<span class="closest-label">Closest to your answer</span>' : ''}<span class="pos">${scoreBadge(s.position, q)}${esc(positionLabel(s.position, q))}</span>${esc(s.summary)}${cites(s.sources, c, prefix)}
     <span class="basis">${esc(BASIS_LABEL[s.basis] || s.basis)}</span>`;
 }
 
@@ -145,9 +148,19 @@ function officeBox(guide, race, num = null) {
   </section>`;
 }
 
-function candidateCard(c, prefix, { full = false, race = c.race } = {}) {
-  return `<article class="cand-card" id="cand-${esc(c.id)}">
+// match: the voter's quiz match with this candidate; closest: it is the top match in the race.
+function candidateCard(c, prefix, { full = false, race = c.race, match = null, closest = false } = {}) {
+  const matchBox =
+    match && match.score !== null
+      ? `<div class="card-match ${closest ? 'top' : ''}"><b>${match.score}%</b><span>${closest ? '<span aria-hidden="true">&#9733;</span> Your closest match' : 'Your match'}${
+          match.limited ? ' <span class="small">(limited data)</span>' : ''
+        }</span></div>`
+      : match
+        ? '<div class="card-match none"><span>Not enough documented positions to match</span></div>'
+        : '';
+  return `<article class="cand-card ${closest ? 'is-closest' : ''}" id="cand-${esc(c.id)}">
     <div class="cand-card-head">${candidatePhoto(c, 'lg')}<h3><a href="/candidate/${esc(c.id)}">${esc(c.name)}</a></h3></div>
+    ${matchBox}
     <div>${partyTag(c.party)} ${c.incumbent ? '<span class="tag tag-navy">Incumbent</span>' : ''}</div>
     ${race ? `<div class="pick-row">${pickButton(race, c)}</div>` : ''}
     ${c.current_role ? `<p class="role">${esc(c.current_role)}</p>` : ''}
@@ -181,7 +194,7 @@ function candidateCard(c, prefix, { full = false, race = c.race } = {}) {
 // ---------- Race comparison ----------
 
 export async function renderRace(view, [raceId], current) {
-  const guide = await loadGuide();
+  const [guide, answers] = await Promise.all([loadGuide(), myAnswers()]);
   if (!current()) return;
   const race = guide.races.find((r) => r.id === raceId);
   if (!race) {
@@ -196,14 +209,34 @@ export async function renderRace(view, [raceId], current) {
 
   const topics = [...new Set(cands.flatMap((c) => c.issue_notes.map((n) => n.topic)))].sort();
 
-  const stanceRows = (qsList) =>
+  const match = raceMatch(answers, guide, race);
+  const closestId = match && !match.tie ? match.top : null;
+
+  // On questions that count toward the match, outline the position closest to
+  // the voter's answer. Ties are all outlined; if every candidate is equally
+  // close, none is.
+  const closestOn = (q, counts) => {
+    const a = answers?.[q.id];
+    if (!counts || !answered(a)) return new Set();
+    const dist = cands.filter((c) => c.stances[q.id]).map((c) => [c.id, Math.abs(c.stances[q.id].position - a.value)]);
+    if (dist.length < 2) return new Set();
+    const best = Math.min(...dist.map(([, d]) => d));
+    const winners = dist.filter(([, d]) => d === best).map(([id]) => id);
+    return winners.length === dist.length ? new Set() : new Set(winners);
+  };
+  const stanceRows = (qsList, counts) =>
     qsList
-      .map(
-        (q) =>
-          `<tr><th scope="row">${questionHead(q)}</th>${cands
-            .map((c) => `<td data-label="${esc(c.name)}">${stanceCell(c, q, prefix(c))}</td>`)
-            .join('')}</tr>`
-      )
+      .map((q) => {
+        const near = closestOn(q, counts);
+        const a = answers?.[q.id];
+        const mine = answered(a) ? `<span class="your-answer">You: ${esc(positionLabel(a.value, q))}</span>` : '';
+        return `<tr><th scope="row">${questionHead(q)}${mine}</th>${cands
+          .map(
+            (c) =>
+              `<td data-label="${esc(c.name)}" class="${near.has(c.id) ? 'closest-cell' : ''}">${stanceCell(c, q, prefix(c), near.has(c.id))}</td>`
+          )
+          .join('')}</tr>`;
+      })
       .join('');
 
   const documented = (c) => officeQs.filter((q) => c.stances[q.id]).length;
@@ -261,7 +294,18 @@ export async function renderRace(view, [raceId], current) {
           : ''
       }</span>`
     )}
-    <div class="compare n${Math.min(cands.length, 4)}">${cands.map((c) => candidateCard(c, prefix(c), { race })).join('')}</div>
+    ${
+      match
+        ? `<p class="small match-note">${
+            match.tie
+              ? 'Your top two matches in this race are within 3 points of each other, so neither is marked as closest.'
+              : 'Your match with each candidate comes from your most recent quiz, using only the questions tied to this office.'
+          } <a href="/scoring">How matches work</a></p>`
+        : ''
+    }
+    <div class="compare n${Math.min(cands.length, 4)}">${cands
+      .map((c) => candidateCard(c, prefix(c), { race, match: match?.byCandidate[c.id] || null, closest: closestId === c.id }))
+      .join('')}</div>
 
     ${
       officeQs.length || extraQs.length
@@ -272,11 +316,25 @@ export async function renderRace(view, [raceId], current) {
               .map((c) => `${esc(c.name)}: ${documented(c)} of ${officeQs.length}`)
               .join(' &middot; ')} documented. <a href="/scoring">How scores work</a></span>`
           )}
+      ${
+        answers
+          ? '<p class="small closest-key"><span class="closest-swatch" aria-hidden="true"></span> Outlined: the position closest to your answer on each question that counts toward your match.</p>'
+          : ''
+      }
       <div class="table-scroll"><table class="stance-table stack">
-        <thead><tr><th>Question</th>${cands.map((c) => `<th>${esc(c.name)}<br>${partyTag(c.party)}</th>`).join('')}</tr></thead>
-        <tbody>${stanceRows(officeQs)}${
+        <thead><tr><th>Question</th>${cands
+          .map((c) => {
+            const mm = match?.byCandidate[c.id];
+            const pct =
+              mm && mm.score !== null
+                ? `<br><span class="th-match ${closestId === c.id ? 'top' : ''}">${closestId === c.id ? '<span aria-hidden="true">&#9733;</span> ' : ''}${mm.score}% match</span>`
+                : '';
+            return `<th>${esc(c.name)}<br>${partyTag(c.party)}${pct}</th>`;
+          })
+          .join('')}</tr></thead>
+        <tbody>${stanceRows(officeQs, true)}${
           extraQs.length
-            ? `<tr><th colspan="${cands.length + 1}" style="background:var(--paper)"><b>Other questions these candidates addressed</b></th></tr>${stanceRows(extraQs)}`
+            ? `<tr><th colspan="${cands.length + 1}" style="background:var(--paper)"><b>Other questions these candidates addressed</b> <span class="small muted">These do not count toward your match for this office.</span></th></tr>${stanceRows(extraQs, false)}`
             : ''
         }</tbody></table></div>`
         : ''

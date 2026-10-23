@@ -26,26 +26,17 @@ import {
   closeModal,
   accountGate,
   candidatePhoto,
+  toast,
 } from '../ui.js';
 import { loadGuide, loadFormOptions, ballotCounty, plan, session, resultCache, track } from '../api.js';
 import { racesForCounty } from '../shared/scoring.js';
 import { renderRace } from './guide.js';
 import { openIssuesPicker } from './issues-picker.js';
 import { openListShare } from './shared-list.js';
+import { myAnswers, raceMatch } from '../my-matches.js';
 import { navigate } from '../app.js';
 
 const TABS = ['all', 'watch', 'picks'];
-
-// The voter's most recent quiz result for this county, if one is saved on this device.
-function latestMatches(county) {
-  const mine = Object.values(resultCache.all())
-    .filter((r) => r.owner && r.results && r.results.county === county)
-    .sort((a, b) => b.created_at.localeCompare(a.created_at))[0];
-  if (!mine) return null;
-  const byCandidate = {};
-  for (const race of mine.results.races) for (const c of race.candidates) byCandidate[c.id] = c;
-  return byCandidate;
-}
 
 // Counts for the summary line and the tabs.
 function tally(races, p) {
@@ -68,23 +59,27 @@ const EMPTY_PLAN = { starred_races: [], starred_candidates: [], picks: {} };
 const isGuest = () => !session.token;
 const currentPlan = () => (isGuest() ? EMPTY_PLAN : plan.get());
 
-function raceBlock(race, p, matches) {
+// m: the voter's matches for this race from their latest quiz, or null.
+function raceBlock(race, p, m) {
   const guest = isGuest();
+  const closestId = m && !m.tie ? m.top : null;
   const chosen = p.picks[race.id];
   const watched = p.starred_races.includes(race.id);
   const options = race.candidates
     .map((c) => {
       const id = `pick-${race.id}-${c.id}`;
-      return `<div class="ballot-opt ${chosen === c.id ? 'chosen' : ''}" data-race="${esc(race.id)}" data-cand="${esc(c.id)}">
+      return `<div class="ballot-opt ${chosen === c.id ? 'chosen' : ''} ${closestId === c.id ? 'closest' : ''}" data-race="${esc(race.id)}" data-cand="${esc(c.id)}">
         <label class="oval-label" for="${esc(id)}">
           <input type="radio" id="${esc(id)}" name="pick-${esc(race.id)}" value="${esc(c.id)}" ${chosen === c.id ? 'checked' : ''} ${guest ? 'disabled' : ''}>
           <span class="oval" aria-hidden="true"></span><span class="sr-only">Choose ${esc(c.name)}</span>
         </label>
-        ${miniCard(c, { match: matches && race.candidates.length > 1 ? matches[c.id] : null })}
+        ${miniCard(c, { match: m?.byCandidate[c.id] || null, closest: closestId === c.id })}
       </div>`;
     })
     .join('');
-  const status = watched ? `<span class="tag ${chosen ? 'tag-navy' : 'tag-red'}">${chosen ? 'Decided' : 'Undecided'}</span>` : '';
+  const status = `${watched ? `<span class="tag ${chosen ? 'tag-navy' : 'tag-red'}">${chosen ? 'Decided' : 'Undecided'}</span>` : ''}${
+    m?.tie ? ' <span class="tag" title="Your top two matches are within 3 points of each other">Close race</span>' : ''
+  }`;
   return `<fieldset class="ballot-race ${guest ? 'read-only' : ''}" id="race-${esc(race.id)}">
     <legend class="sr-only">${esc(raceTitle(race))}</legend>
     <div class="ballot-race-head">
@@ -110,8 +105,9 @@ async function openCompare(raceId) {
 
 export async function renderBallot(view, _params, current) {
   setTitle('My Ballot');
-  const [guide, options] = await Promise.all([loadGuide(), loadFormOptions()]);
+  const [guide, options, answers] = await Promise.all([loadGuide(), loadFormOptions(), isGuest() ? null : myAnswers()]);
   if (!current()) return;
+  const matchFor = (race) => raceMatch(answers, guide, race);
   const qs = new URLSearchParams(location.search);
   let county = qs.get('county') && guide.ballots[qs.get('county')] ? qs.get('county') : ballotCounty.get(guide);
   // Old links used show=starred for the shortlist; that is now the watchlist.
@@ -169,12 +165,17 @@ export async function renderBallot(view, _params, current) {
       <p class="summary-line"><b>${t.picks.length}</b> ${t.picks.length === 1 ? 'pick' : 'picks'} on the ${esc(countyLabel(county))} ballot
         <span class="sep" aria-hidden="true">&middot;</span> Watchlist: <b>${t.decided.length}</b> decided, <b class="${t.undecided.length ? 'undecided' : ''}">${t.undecided.length}</b> undecided</p>
       ${t.undecided.length ? `<p class="small undecided-list">Still undecided: ${undecidedLinks}</p>` : ''}
+      ${
+        answers
+          ? `<div class="fill-row"><button type="button" class="btn btn-small" id="mb-fill"><span aria-hidden="true">&#9733;</span> Fill in my matches</button><span class="small muted">Picks your closest quiz match in each race. You can change any pick.</span></div>`
+          : '<p class="small fill-row"><a href="/quiz">Take the quiz</a> to see your match with each candidate and fill in your ballot with your closest matches.</p>'
+      }
       <div class="btn-row">
         <button type="button" class="btn btn-small" id="mb-print">Print my ballot</button>
         <button type="button" class="btn btn-small btn-red" id="mb-share">Share my picks or watchlist</button>
         <button type="button" class="btn btn-ghost btn-small" id="mb-issues">Find offices for my issues</button>
         ${t.picks.length ? '<button type="button" class="linkish" id="mb-clear">Clear all picks</button>' : ''}
-        ${latestMatches(county) ? '<span class="small muted">Match percentages come from your most recent quiz.</span>' : ''}
+        ${answers ? '<span class="small muted">Match percentages come from your most recent quiz.</span>' : ''}
       </div>`;
   }
 
@@ -185,7 +186,6 @@ export async function renderBallot(view, _params, current) {
     const t = tally(all, p);
     const shown = show === 'watch' ? t.watched : show === 'picks' ? t.picks : all;
     drawSummary();
-    const matches = latestMatches(county);
 
     if (!shown.length) {
       out.innerHTML =
@@ -199,7 +199,7 @@ export async function renderBallot(view, _params, current) {
         const list = shown.filter((r) => r.group === g.id);
         if (!list.length) return '';
         return `<section class="ballot-group"><h2 class="ballot-group-title">${esc(g.label)}</h2>${list
-          .map((r) => raceBlock(r, p, matches))
+          .map((r) => raceBlock(r, p, matchFor(r)))
           .join('')}</section>`;
       }).join('');
     }
@@ -210,6 +210,53 @@ export async function renderBallot(view, _params, current) {
 
   function goPrint() {
     navigate(`/my-ballot/print?county=${encodeURIComponent(county)}`);
+  }
+
+  // Fill in the closest match in each contested race. Races where the top two
+  // are within 3 points stay blank for the voter to decide, and picks the voter
+  // already made are kept unless they choose to replace them.
+  function confirmFill() {
+    const p = plan.get();
+    const fills = [];
+    let close = 0;
+    for (const race of races()) {
+      const m = matchFor(race);
+      if (!m?.top) continue;
+      if (m.tie) {
+        close += 1;
+        continue;
+      }
+      fills.push({ race: race.id, cand: m.top, current: p.picks[race.id] || null });
+    }
+    const empty = fills.filter((f) => !f.current);
+    const differ = fills.filter((f) => f.current && f.current !== f.cand);
+    const modal = openModal({ title: 'Fill in my matches' });
+    if (!fills.length) {
+      modal.body.innerHTML = `<p style="margin-top:0">Your quiz does not give a clear closest match in any race on the ${esc(countyLabel(county))} ballot${close ? `: ${close} ${close === 1 ? 'race is' : 'races are'} too close to call` : ''}. Compare the candidates and choose yourself.</p>
+        <div class="btn-row" style="justify-content:flex-end"><button type="button" class="btn" data-close>OK</button></div>`;
+      return;
+    }
+    modal.body.innerHTML = `<p style="margin-top:0">Your closest match is clear in <b>${fills.length}</b> ${fills.length === 1 ? 'race' : 'races'} on the ${esc(countyLabel(county))} ballot.</p>
+      <ul class="fill-list">
+        <li><b>${empty.length}</b> ${empty.length === 1 ? 'race has' : 'races have'} no pick yet and will be filled in.</li>
+        ${differ.length ? `<li><b>${differ.length}</b> ${differ.length === 1 ? 'race already has a different pick' : 'races already have a different pick'}. Those stay as you chose unless you replace them.</li>` : ''}
+        ${close ? `<li><b>${close}</b> ${close === 1 ? 'race is' : 'races are'} too close to call and will stay blank for you to decide.</li>` : ''}
+      </ul>
+      <p class="small muted">Matches come from your most recent quiz and each candidate's documented positions. They are a starting point, not a recommendation. Review each race before you print.</p>
+      <div class="btn-row" style="justify-content:flex-end;margin-top:16px">
+        <button type="button" class="btn btn-ghost" data-close>Cancel</button>
+        ${differ.length ? '<button type="button" class="btn btn-ghost" id="fill-all">Replace my picks too</button>' : ''}
+        <button type="button" class="btn" id="fill-empty" ${empty.length ? '' : 'disabled'}>Fill ${empty.length} empty ${empty.length === 1 ? 'race' : 'races'}</button>
+      </div>`;
+    const apply = (list) => {
+      const next = plan.get();
+      for (const f of list) next.picks[f.race] = f.cand;
+      plan.replacePicks(next.picks);
+      closeModal();
+      toast(`Filled in ${list.length} ${list.length === 1 ? 'race' : 'races'} with your closest match.`);
+    };
+    modal.body.querySelector('#fill-empty').addEventListener('click', () => apply(empty));
+    modal.body.querySelector('#fill-all')?.addEventListener('click', () => apply([...empty, ...differ]));
   }
 
   // Undecided watched offices print as blank lines; warn first so the voter can decide.
@@ -288,6 +335,7 @@ export async function renderBallot(view, _params, current) {
       return plan.pick(clear.dataset.clear, null);
     }
     if (e.target.closest('#mb-print')) return confirmPrint();
+    if (e.target.closest('#mb-fill')) return confirmFill();
     if (e.target.closest('#mb-share')) return openListShare(guide, county);
     if (e.target.closest('#mb-issues')) {
       const latest = Object.values(resultCache.all()).sort((a, b) => b.created_at.localeCompare(a.created_at))[0];
@@ -318,11 +366,10 @@ export async function renderBallot(view, _params, current) {
     if (!root.isConnected) return stop();
     if (show === 'all') {
       const p = currentPlan();
-      const matches = latestMatches(county);
       for (const race of races()) {
         const block = $(`#race-${CSS.escape(race.id)}`, root);
         if (!block) continue;
-        const fresh = raceBlock(race, p, matches);
+        const fresh = raceBlock(race, p, matchFor(race));
         if (block.outerHTML !== fresh) block.outerHTML = fresh;
       }
       drawSummary();

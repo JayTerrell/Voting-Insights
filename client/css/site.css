@@ -5299,3 +5299,109 @@ textarea {
 .lean i.on {
   background: var(--navy);
 }
+
+/* Quiz matches on My Ballot and the race page */
+.match-chip.top {
+  background: var(--navy);
+  color: var(--card);
+}
+.ballot-opt.closest {
+  box-shadow: inset 0 0 0 2px var(--navy);
+}
+.fill-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 12px;
+  margin: 10px 0 12px;
+}
+.fill-list {
+  margin: 0 0 12px;
+  padding-left: 20px;
+}
+.fill-list li {
+  margin: 4px 0;
+}
+.card-match {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin: 10px 0 8px;
+  padding: 8px 12px;
+  border: 1px solid var(--rule);
+  background: var(--paper);
+  color: var(--navy);
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.card-match b {
+  font-family: var(--serif);
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1;
+}
+.card-match.top {
+  background: var(--navy);
+  border-color: var(--navy);
+  color: var(--card);
+}
+.card-match.none {
+  font-weight: 400;
+  color: var(--muted);
+}
+.cand-card.is-closest {
+  box-shadow: inset 0 4px 0 var(--navy);
+}
+.match-note {
+  margin: -4px 0 12px;
+  color: var(--muted);
+}
+.th-match {
+  display: inline-block;
+  margin-top: 6px;
+  padding: 1px 7px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  border: 1px solid var(--navy);
+  color: var(--navy);
+  background: var(--card);
+}
+.th-match.top {
+  background: var(--navy);
+  color: var(--card);
+}
+.your-answer {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 2px 8px;
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--red);
+  border: 1px solid var(--red);
+  background: var(--card);
+}
+td.closest-cell {
+  outline: 3px solid var(--red);
+  outline-offset: -6px;
+}
+.closest-label {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--red);
+}
+.closest-key {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 10px;
+}
+.closest-swatch {
+  width: 18px;
+  height: 14px;
+  border: 3px solid var(--red);
+}

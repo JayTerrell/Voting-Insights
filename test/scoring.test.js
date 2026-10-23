@@ -1,7 +1,17 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { compare, scoreAll, PRIOR_WEIGHT, choices, positionLabel, abValue, sideValue, scaleStep } from '../shared/scoring.js';
+import {
+  compare,
+  scoreAll,
+  PRIOR_WEIGHT,
+  choices,
+  positionLabel,
+  abValue,
+  sideValue,
+  scaleStep,
+  scoreRace,
+} from '../shared/scoring.js';
 
 test('identical answers approach 100 and opposite answers approach 0', () => {
   const answers = {},
@@ -114,4 +124,20 @@ test('every question offers two views and maps them onto the stored scale', () =
     assert.equal(scaleStep(sideValue(q, 'a', 2), q), 0);
     assert.equal(scaleStep(sideValue(q, 'b', 2), q), 4);
   }
+});
+
+test('scoreRace names the closest match and flags races within 3 points', () => {
+  const guide = { questions: [{ id: 'x', offices: ['governor'] }] };
+  const race = (a, b) => ({
+    office_type: 'governor',
+    candidates: [
+      { id: 'one', stances: { x: { position: a, basis: 'record' } } },
+      { id: 'two', stances: { x: { position: b, basis: 'record' } } },
+    ],
+  });
+  const answers = { x: { value: 2, weight: 1 } };
+  const clear = scoreRace(answers, guide, race(2, -2));
+  assert.equal(clear.top, 'one');
+  assert.equal(clear.tie, false);
+  assert.equal(scoreRace(answers, guide, race(1, 1)).tie, true);
 });

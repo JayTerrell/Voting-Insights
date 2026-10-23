@@ -240,6 +240,12 @@ export const plan = {
     this.pick(raceId, on ? candidateId : null);
     return on;
   },
+  // Sets many picks in one change, so the page redraws and saves once.
+  replacePicks(picks) {
+    const p = readPlan();
+    p.picks = { ...picks };
+    writePlan(p);
+  },
   clearPicks() {
     const p = readPlan();
     p.picks = {};

@@ -180,10 +180,12 @@ export function candidatePhoto(c, size = 'md') {
 }
 
 // A small candidate card: photo, name, party, incumbency, and an optional quiz match.
-export function miniCard(c, { match = null } = {}) {
+export function miniCard(c, { match = null, closest = false } = {}) {
   const matchChip =
     match && match.score !== null
-      ? `<span class="match-chip" title="Your quiz match${match.limited ? ', based on limited data' : ''}">${match.score}% match</span>`
+      ? `<span class="match-chip ${closest ? 'top' : ''}" title="Your quiz match${match.limited ? ', based on limited data' : ''}">${
+          closest ? `<span aria-hidden="true">&#9733;</span> Closest match: ${match.score}%` : `${match.score}% match`
+        }</span>`
       : '';
   return `<div class="mini-card">
     ${candidatePhoto(c)}
