@@ -754,6 +754,24 @@ test('address lookups go to the Census geocoder and report misses', async () => 
   assert.equal((await call('GET', '/api/geocode?address=ab')).status, 400);
 });
 
+test('the county lookup names the county a point is in', async () => {
+  pollingHttp.fetch = async (url) => {
+    const u = new URL(url);
+    assert.equal(u.host, 'geocoding.geo.census.gov');
+    assert.equal(u.searchParams.get('layers'), 'Counties');
+    const denton = Number(u.searchParams.get('x')) < -96.83;
+    return new Response(
+      JSON.stringify({
+        result: { geographies: { Counties: [{ NAME: denton ? 'Denton County' : 'Collin County', STATE: '48' }] } },
+      })
+    );
+  };
+  const west = await call('GET', '/api/county?lat=33.12&lng=-96.87');
+  assert.deepEqual(west.json, { county: 'Denton', texas: true });
+  assert.equal((await call('GET', '/api/county?lat=33.15&lng=-96.75')).json.county, 'Collin');
+  assert.equal((await call('GET', '/api/county?lat=abc&lng=1')).status, 400);
+});
+
 test('the polling place lookup is off until a Civic API key is set', async () => {
   const r = await call('GET', '/api/polling/lookup?address=' + encodeURIComponent('2010 Redbud Blvd, McKinney, TX'));
   assert.equal(r.status, 503);

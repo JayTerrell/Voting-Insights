@@ -18,6 +18,18 @@ pollingRoutes.get('/geocode', rateLimit('geocode', 60, MINUTES_15), async (req, 
   res.json(hit);
 });
 
+// The county a point falls in. Coordinates are used once and never stored.
+pollingRoutes.get('/county', rateLimit('county', 60, MINUTES_15), async (req, res) => {
+  const lat = Number(req.query.lat);
+  const lng = Number(req.query.lng);
+  if (!Number.isFinite(lat) || !Number.isFinite(lng) || Math.abs(lat) > 90 || Math.abs(lng) > 180) {
+    return res.status(400).json({ error: 'A location is needed.' });
+  }
+  const hit = await polling.countyAt(lat, lng).catch(() => null);
+  if (!hit) return res.status(404).json({ error: 'We could not tell which county that is in.' });
+  res.json(hit);
+});
+
 pollingRoutes.get('/polling/lookup', rateLimit('polling-lookup', 30, MINUTES_15), async (req, res) => {
   if (!polling.civicConfigured()) return res.status(503).json({ error: 'Address lookup is not available yet.' });
   try {

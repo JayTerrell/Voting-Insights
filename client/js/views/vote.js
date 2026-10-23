@@ -163,6 +163,7 @@ export async function renderVote(view, _params, current) {
   let origin = null; // { lat, lng, label }
   let lookup = null; // Civic API result for a typed address
   let center = null; // middle of the county's locations, to rank address suggestions
+  let countyNote = null; // set when an address or location is in another county
 
   view.innerHTML = `<div id="vote-root">
     <span class="eyebrow">Where to Vote</span>
@@ -206,6 +207,29 @@ export async function renderVote(view, _params, current) {
     err.hidden = !msg;
   };
 
+  // Texas voters may only vote in the county where they are registered, so a
+  // point in another county switches the list to that county and says why.
+  async function checkCounty(kind) {
+    countyNote = null;
+    const r = await fetch(`/api/county?lat=${origin.lat}&lng=${origin.lng}`).catch(() => null);
+    const where = r?.ok ? await r.json() : null;
+    if (!where) return;
+    const what = kind === 'location' ? 'Your current location is' : 'This address is';
+    if (!where.texas) {
+      countyNote = `${what} outside Texas. Texas voters vote at locations in the county where they are registered.`;
+      return;
+    }
+    if (where.county === county) return;
+    const from = county;
+    county = where.county;
+    const select = $('#vote-county', root);
+    if ([...select.options].some((o) => o.value === county)) select.value = county;
+    countyNote = `${what} in ${countyLabel(county)}, so we are showing ${countyLabel(county)} locations instead of ${countyLabel(from)}. In Texas you can only vote at locations in the county where you are registered${
+      kind === 'location' ? '. If you are registered somewhere else, enter that address above' : ''
+    }. Cities such as Frisco, Dallas, and Austin cross county lines, so neighbors can vote in different counties.`;
+  }
+  const noteHtml = () => (countyNote ? `<div class="callout county-note" role="status">${esc(countyNote)}</div>` : '');
+
   async function draw() {
     $$('[data-mode]', root).forEach((b) => b.setAttribute('aria-selected', String(b.dataset.mode === mode)));
     const q = new URLSearchParams({ county });
@@ -217,7 +241,7 @@ export async function renderVote(view, _params, current) {
       center = null;
       map?.remove();
       map = null;
-      body.innerHTML = `<div class="panel empty-state"><h2>${esc(countyLabel(county))} locations are coming soon</h2>
+      body.innerHTML = `${noteHtml()}<div class="panel empty-state"><h2>${esc(countyLabel(county))} locations are coming soon</h2>
         <p>Until then, find your polling place through the state's lookup at <a href="https://www.votetexas.gov/" target="_blank" rel="noopener">VoteTexas.gov</a> or your county elections office.</p></div>`;
       return;
     }
@@ -238,6 +262,7 @@ export async function renderVote(view, _params, current) {
       mode === 'early' ? (data.early_voting?.schedule || []).filter((d) => d.date >= EARLY_START && d.date <= EARLY_END) : [];
 
     body.innerHTML = `
+      ${noteHtml()}
       <p class="freshness"><span class="fresh-dot" aria-hidden="true"></span>Checked against ${esc(countyLabel(county))} election websites ${esc(ago(data.checked_at))}.
         Refreshed every 8 hours during early voting.
         ${data.sources?.length ? `Source: ${data.sources.map((s) => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a>`).join(', ')}.` : ''}
@@ -378,6 +403,7 @@ export async function renderVote(view, _params, current) {
     if (e.target.id === 'vote-county') {
       county = e.target.value;
       lookup = null;
+      countyNote = null;
       showError('');
       draw();
     }
@@ -528,6 +554,7 @@ export async function renderVote(view, _params, current) {
         origin = { lat: geo.lat, lng: geo.lng, label: 'Your address', place: titleCase(geo.matched || withState) };
       }
       lookup = null;
+      await checkCounty('address');
       partnerRef.event('vote_lookup');
       if (options.polling_lookup) {
         const r = await fetch(`/api/polling/lookup?address=${encodeURIComponent(withState)}`).catch(() => null);
@@ -551,6 +578,7 @@ export async function renderVote(view, _params, current) {
       async (pos) => {
         btn.classList.remove('is-loading');
         origin = { lat: pos.coords.latitude, lng: pos.coords.longitude, label: 'You are here', place: 'your current location' };
+        await checkCounty('location');
         await draw();
       },
       () => {

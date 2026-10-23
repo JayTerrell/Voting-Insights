@@ -2,6 +2,9 @@
 //
 // geocode(): turns a typed address into map coordinates with the free U.S.
 //   Census Bureau geocoder, so the page can sort locations by distance.
+// countyAt(): the county a point is in, from the same geocoder, because Texas
+//   voters may only vote at locations in the county where they are registered,
+//   and cities such as Frisco and Dallas span more than one county.
 // lookup(): asks the Google Civic Information API for the polling places
 //   assigned to an address. This matters in precinct counties, where each
 //   voter has one Election Day location.
@@ -28,6 +31,22 @@ export async function geocode(address) {
   const match = ok ? body?.result?.addressMatches?.[0] : null;
   if (!match) return null;
   return { lat: match.coordinates.y, lng: match.coordinates.x, matched: match.matchedAddress };
+}
+
+export async function countyAt(lat, lng) {
+  const url = new URL('https://geocoding.geo.census.gov/geocoder/geographies/coordinates');
+  url.search = new URLSearchParams({
+    x: String(lng),
+    y: String(lat),
+    benchmark: 'Public_AR_Current',
+    vintage: 'Current_Current',
+    layers: 'Counties',
+    format: 'json',
+  });
+  const { ok, body } = await getJson(url);
+  const hit = ok ? body?.result?.geographies?.Counties?.[0] : null;
+  if (!hit?.NAME) return null;
+  return { county: String(hit.NAME).replace(/ County$/, ''), texas: hit.STATE === '48' };
 }
 
 export const civicConfigured = () => Boolean(config.civicApiKey);
